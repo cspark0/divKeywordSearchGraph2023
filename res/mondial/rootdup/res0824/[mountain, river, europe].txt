@@ -1,0 +1,848 @@
+Blink Search Using BDB 10
+[mountain, river, europe]
+srcNodes: [52, 90097, 10004]
+  path: 0[10004 -> 20000 -> 52], [Europe -> Albania -> Jezerce Jezerce Balkan ] 
+
+  path: 1[10004 -> 20033 -> 90097], [Europe -> Estonia -> Narva] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [49, 90053, 10004]
+  path: 0[20015 -> 49], [Slovakia -> GerlachovskyStit GerlachovskyStit Beskides ] 
+
+  path: 1[20015 -> 90053], [Slovakia -> Waag] 
+
+  path: 2[20015 -> 10004], [Slovakia -> Europe] 
+
+srcNodes: [53, 90081, 10004]
+  path: 0[20000 -> 53], [Albania -> Korab Korab Balkan ] 
+
+  path: 1[20000 -> 90081], [Albania -> Drin] 
+
+  path: 2[20000 -> 10004], [Albania -> Europe] 
+
+srcNodes: [51, 90039, 10004]
+  path: 0[20029 -> 51], [Bulgaria -> Musala Musala Balkan ] 
+
+  path: 1[20029 -> 90039], [Bulgaria -> Donau] 
+
+  path: 2[20029 -> 10004], [Bulgaria -> Europe] 
+
+srcNodes: [53, 90083, 10004]
+  path: 0[20002 -> 53], [Macedonia -> Korab Korab Balkan ] 
+
+  path: 1[20002 -> 90083], [Macedonia -> Black Drin] 
+
+  path: 2[20002 -> 10004], [Macedonia -> Europe] 
+
+srcNodes: [30, 90054, 10004]
+  path: 0[90054 -> 30118 -> 30], [Drau -> Trentino Alto Adige -> Marmolata Marmolata Alps ] 
+
+  path: 1[90054 -> 90054], [Drau -> Drau]
+  path: 2[90054 -> 20028 -> 10004], [Drau -> Croatia -> Europe] 
+
+srcNodes: [49, 90053, 10004]
+  path: 0[90053 -> 20015 -> 49], [Waag -> Slovakia -> GerlachovskyStit GerlachovskyStit Beskides ] 
+
+  path: 1[90053 -> 90053], [Waag -> Waag]
+  path: 2[90053 -> 20015 -> 10004], [Waag -> Slovakia -> Europe] 
+
+srcNodes: [51, 90039, 10004]
+  path: 0[90039 -> 20029 -> 51], [Donau -> Bulgaria -> Musala Musala Balkan ] 
+
+  path: 1[90039 -> 90039], [Donau -> Donau]
+  path: 2[90039 -> 20048 -> 10004], [Donau -> Moldova -> Europe] 
+
+srcNodes: [49, 90051, 10004]
+  path: 0[90051 -> 20015 -> 49], [March -> Slovakia -> GerlachovskyStit GerlachovskyStit Beskides ] 
+
+  path: 1[90051 -> 90051], [March -> March]
+  path: 2[90051 -> 20015 -> 10004], [March -> Slovakia -> Europe] 
+
+srcNodes: [32, 90055, 10004]
+  path: 0[90055 -> 30065 -> 32], [Mur -> Salzburg -> Hochgolling Hochgolling Alps ] 
+
+  path: 1[90055 -> 90055], [Mur -> Mur]
+  path: 2[90055 -> 20028 -> 10004], [Mur -> Croatia -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: [10004, 20015, 20000, 20029, 20002, 90054, 90053, 90039, 90051, 90055]
+ResultRelevs: [9.823670387268066, 6.548610210418701, 6.548610210418701, 6.548610210418701, 6.273159980773926, 6.202090263366699, 6.202090263366699, 6.202090263366699, 6.202090263366699, 6.202090263366699]
+Num of top-k answers: 10
+Num of non-reduced answers: 0
+Num of duplicate answers: 2
+Num of non-redundant answers: 8
+Num of entries retrieved from the lists: 588
+Num of entries retrieved from NKMaps: 1052
+
+Blink Search Using ConstRootDup10
+[mountain, river, europe]
+srcNodes: [52, 90081, 10004]
+  path: 0[10004 -> 20000 -> 52], [Europe -> Albania -> Jezerce Jezerce Balkan ] 
+
+  path: 1[10004 -> 20000 -> 90081], [Europe -> Albania -> Drin] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [51, 90097, 10004]
+  path: 0[10004 -> 20029 -> 51], [Europe -> Bulgaria -> Musala Musala Balkan ] 
+
+  path: 1[10004 -> 20033 -> 90097], [Europe -> Estonia -> Narva] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [52, 90097, 10004]
+  path: 0[10004 -> 20000 -> 52], [Europe -> Albania -> Jezerce Jezerce Balkan ] 
+
+  path: 1[10004 -> 20033 -> 90097], [Europe -> Estonia -> Narva] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [51, 90081, 10004]
+  path: 0[10004 -> 20029 -> 51], [Europe -> Bulgaria -> Musala Musala Balkan ] 
+
+  path: 1[10004 -> 20000 -> 90081], [Europe -> Albania -> Drin] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [7, 90097, 10004]
+  path: 0[10004 -> 20037 -> 30507 -> 7], [Europe -> Sweden -> Norrbotten -> Sarektjokko Sarektjokko  ] 
+
+  path: 1[10004 -> 20033 -> 90097], [Europe -> Estonia -> Narva] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [53, 90081, 10004]
+  path: 0[20000 -> 53], [Albania -> Korab Korab Balkan ] 
+
+  path: 1[20000 -> 90081], [Albania -> Drin] 
+
+  path: 2[20000 -> 10004], [Albania -> Europe] 
+
+srcNodes: [51, 90039, 10004]
+  path: 0[20029 -> 51], [Bulgaria -> Musala Musala Balkan ] 
+
+  path: 1[20029 -> 90039], [Bulgaria -> Donau] 
+
+  path: 2[20029 -> 10004], [Bulgaria -> Europe] 
+
+srcNodes: [49, 90053, 10004]
+  path: 0[20015 -> 49], [Slovakia -> GerlachovskyStit GerlachovskyStit Beskides ] 
+
+  path: 1[20015 -> 90053], [Slovakia -> Waag] 
+
+  path: 2[20015 -> 10004], [Slovakia -> Europe] 
+
+srcNodes: [53, 90083, 10004]
+  path: 0[20002 -> 53], [Macedonia -> Korab Korab Balkan ] 
+
+  path: 1[20002 -> 90083], [Macedonia -> Black Drin] 
+
+  path: 2[20002 -> 10004], [Macedonia -> Europe] 
+
+srcNodes: [49, 90051, 10004]
+  path: 0[90051 -> 20015 -> 49], [March -> Slovakia -> GerlachovskyStit GerlachovskyStit Beskides ] 
+
+  path: 1[90051 -> 90051], [March -> March]
+  path: 2[90051 -> 20015 -> 10004], [March -> Slovakia -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: 
+10004, 10004, 10004, 10004, 10004, 20000, 20029, 20015, 20002, 90051, 
+ResultRelevs: 
+9.82367, 9.82367, 9.82367, 9.82367, 9.778758, 6.54861, 6.54861, 6.54861, 6.27316, 6.2020903, 
+Num of top-k answers: 10
+Num of duplicate answers: 0
+Num of duplicate roots in top-k answers: 4
+root duplication ratio: 0.44444445
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 587
+Num of entries retrieved from NKMaps: 5229
+Num of answer trees explored: 24864
+
+Blink Search Using BDB 20
+[mountain, river, europe]
+srcNodes: [52, 90097, 10004]
+  path: 0[10004 -> 20000 -> 52], [Europe -> Albania -> Jezerce Jezerce Balkan ] 
+
+  path: 1[10004 -> 20033 -> 90097], [Europe -> Estonia -> Narva] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [51, 90039, 10004]
+  path: 0[20029 -> 51], [Bulgaria -> Musala Musala Balkan ] 
+
+  path: 1[20029 -> 90039], [Bulgaria -> Donau] 
+
+  path: 2[20029 -> 10004], [Bulgaria -> Europe] 
+
+srcNodes: [53, 90081, 10004]
+  path: 0[20000 -> 53], [Albania -> Korab Korab Balkan ] 
+
+  path: 1[20000 -> 90081], [Albania -> Drin] 
+
+  path: 2[20000 -> 10004], [Albania -> Europe] 
+
+srcNodes: [49, 90053, 10004]
+  path: 0[20015 -> 49], [Slovakia -> GerlachovskyStit GerlachovskyStit Beskides ] 
+
+  path: 1[20015 -> 90053], [Slovakia -> Waag] 
+
+  path: 2[20015 -> 10004], [Slovakia -> Europe] 
+
+srcNodes: [53, 90083, 10004]
+  path: 0[20002 -> 53], [Macedonia -> Korab Korab Balkan ] 
+
+  path: 1[20002 -> 90083], [Macedonia -> Black Drin] 
+
+  path: 2[20002 -> 10004], [Macedonia -> Europe] 
+
+srcNodes: [49, 90051, 10004]
+  path: 0[90051 -> 20015 -> 49], [March -> Slovakia -> GerlachovskyStit GerlachovskyStit Beskides ] 
+
+  path: 1[90051 -> 90051], [March -> March]
+  path: 2[90051 -> 20015 -> 10004], [March -> Slovakia -> Europe] 
+
+srcNodes: [51, 90039, 10004]
+  path: 0[90039 -> 20029 -> 51], [Donau -> Bulgaria -> Musala Musala Balkan ] 
+
+  path: 1[90039 -> 90039], [Donau -> Donau]
+  path: 2[90039 -> 20048 -> 10004], [Donau -> Moldova -> Europe] 
+
+srcNodes: [32, 90055, 10004]
+  path: 0[90055 -> 30065 -> 32], [Mur -> Salzburg -> Hochgolling Hochgolling Alps ] 
+
+  path: 1[90055 -> 90055], [Mur -> Mur]
+  path: 2[90055 -> 20028 -> 10004], [Mur -> Croatia -> Europe] 
+
+srcNodes: [33, 90073, 10004]
+  path: 0[90073 -> 30033 -> 33], [Mosel -> Lorraine -> Grand Ballon Grand Ballon Vosges ] 
+
+  path: 1[90073 -> 90073], [Mosel -> Mosel]
+  path: 2[90073 -> 20025 -> 10004], [Mosel -> Luxembourg -> Europe] 
+
+srcNodes: [17, 90071, 10004]
+  path: 0[90071 -> 30074 -> 17], [Rhein -> Baden Wurttemberg -> Feldberg Feldberg Schwarzwald ] 
+
+  path: 1[90071 -> 90071], [Rhein -> Rhein]
+  path: 2[90071 -> 20014 -> 10004], [Rhein -> Liechtenstein -> Europe] 
+
+srcNodes: [49, 90053, 10004]
+  path: 0[90053 -> 20015 -> 49], [Waag -> Slovakia -> GerlachovskyStit GerlachovskyStit Beskides ] 
+
+  path: 1[90053 -> 90053], [Waag -> Waag]
+  path: 2[90053 -> 20015 -> 10004], [Waag -> Slovakia -> Europe] 
+
+srcNodes: [30, 90054, 10004]
+  path: 0[90054 -> 30118 -> 30], [Drau -> Trentino Alto Adige -> Marmolata Marmolata Alps ] 
+
+  path: 1[90054 -> 90054], [Drau -> Drau]
+  path: 2[90054 -> 20028 -> 10004], [Drau -> Croatia -> Europe] 
+
+srcNodes: [52, 90081, 10004]
+  path: 0[90081 -> 20000 -> 52], [Drin -> Albania -> Jezerce Jezerce Balkan ] 
+
+  path: 1[90081 -> 90081], [Drin -> Drin]
+  path: 2[90081 -> 20000 -> 10004], [Drin -> Albania -> Europe] 
+
+srcNodes: [54, 90097, 10004]
+  path: 0[20033 -> 10004 -> 20001 -> 30012 -> 54], [Estonia -> Europe -> Greece -> Thessalia -> Olymp Olymp  ] 
+
+  path: 1[20033 -> 90097], [Estonia -> Narva] 
+
+  path: 2[20033 -> 10004], [Estonia -> Europe] 
+
+srcNodes: [54, 90071, 10004]
+  path: 0[20014 -> 10004 -> 20001 -> 30012 -> 54], [Liechtenstein -> Europe -> Greece -> Thessalia -> Olymp Olymp  ] 
+
+  path: 1[20014 -> 90071], [Liechtenstein -> Rhein] 
+
+  path: 2[20014 -> 10004], [Liechtenstein -> Europe] 
+
+srcNodes: [54, 90057, 10004]
+  path: 0[20027 -> 10004 -> 20001 -> 30012 -> 54], [Bosnia and Herzegovina -> Europe -> Greece -> Thessalia -> Olymp Olymp  ] 
+
+  path: 1[20027 -> 90057], [Bosnia and Herzegovina -> Save] 
+
+  path: 2[20027 -> 10004], [Bosnia and Herzegovina -> Europe] 
+
+srcNodes: [54, 90055, 10004]
+  path: 0[20016 -> 10004 -> 20001 -> 30012 -> 54], [Slovenia -> Europe -> Greece -> Thessalia -> Olymp Olymp  ] 
+
+  path: 1[20016 -> 90055], [Slovenia -> Mur] 
+
+  path: 2[20016 -> 10004], [Slovenia -> Europe] 
+
+srcNodes: [54, 90062, 10004]
+  path: 0[20048 -> 10004 -> 20001 -> 30012 -> 54], [Moldova -> Europe -> Greece -> Thessalia -> Olymp Olymp  ] 
+
+  path: 1[20048 -> 90062], [Moldova -> Pruth] 
+
+  path: 2[20048 -> 10004], [Moldova -> Europe] 
+
+srcNodes: [54, 90056, 10004]
+  path: 0[20003 -> 10004 -> 20001 -> 30012 -> 54], [Serbia -> Europe -> Greece -> Thessalia -> Olymp Olymp  ] 
+
+  path: 1[20003 -> 90056], [Serbia -> Theiss] 
+
+  path: 2[20003 -> 10004], [Serbia -> Europe] 
+
+srcNodes: [54, 90102, 10004]
+  path: 0[20018 -> 10004 -> 20001 -> 30012 -> 54], [Belarus -> Europe -> Greece -> Thessalia -> Olymp Olymp  ] 
+
+  path: 1[20018 -> 90102], [Belarus -> Dnepr] 
+
+  path: 2[20018 -> 10004], [Belarus -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: [10004, 20029, 20000, 20015, 20002, 90051, 90039, 90055, 90073, 90071, 90053, 90054, 90081, 20033, 20014, 20027, 20016, 20048, 20003, 20018]
+ResultRelevs: [9.823670387268066, 6.548610210418701, 6.548610210418701, 6.548610210418701, 6.273159980773926, 6.202090263366699, 6.202090263366699, 6.202090263366699, 6.202090263366699, 6.202090263366699, 6.202090263366699, 6.202090263366699, 6.202090263366699, 6.009663105010986, 6.009663105010986, 6.009663105010986, 6.009663105010986, 6.009663105010986, 6.009663105010986, 6.009663105010986]
+Num of top-k answers: 20
+Num of non-reduced answers: 0
+Num of duplicate answers: 2
+Num of non-redundant answers: 18
+Num of entries retrieved from the lists: 607
+Num of entries retrieved from NKMaps: 1080
+
+Blink Search Using ConstRootDup20
+[mountain, river, europe]
+srcNodes: [52, 90097, 10004]
+  path: 0[10004 -> 20000 -> 52], [Europe -> Albania -> Jezerce Jezerce Balkan ] 
+
+  path: 1[10004 -> 20033 -> 90097], [Europe -> Estonia -> Narva] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [51, 90097, 10004]
+  path: 0[10004 -> 20029 -> 51], [Europe -> Bulgaria -> Musala Musala Balkan ] 
+
+  path: 1[10004 -> 20033 -> 90097], [Europe -> Estonia -> Narva] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [52, 90081, 10004]
+  path: 0[10004 -> 20000 -> 52], [Europe -> Albania -> Jezerce Jezerce Balkan ] 
+
+  path: 1[10004 -> 20000 -> 90081], [Europe -> Albania -> Drin] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [51, 90081, 10004]
+  path: 0[10004 -> 20029 -> 51], [Europe -> Bulgaria -> Musala Musala Balkan ] 
+
+  path: 1[10004 -> 20000 -> 90081], [Europe -> Albania -> Drin] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [7, 90081, 10004]
+  path: 0[10004 -> 20037 -> 30507 -> 7], [Europe -> Sweden -> Norrbotten -> Sarektjokko Sarektjokko  ] 
+
+  path: 1[10004 -> 20000 -> 90081], [Europe -> Albania -> Drin] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [7, 90097, 10004]
+  path: 0[10004 -> 20037 -> 30507 -> 7], [Europe -> Sweden -> Norrbotten -> Sarektjokko Sarektjokko  ] 
+
+  path: 1[10004 -> 20033 -> 90097], [Europe -> Estonia -> Narva] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [150, 90097, 10004]
+  path: 0[10004 -> 20031 -> 10002 -> 20087 -> 150], [Europe -> Turkey -> Asia -> Timor-Leste -> Tatamailau Tatamailau  ] 
+
+  path: 1[10004 -> 20033 -> 90097], [Europe -> Estonia -> Narva] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [150, 90081, 10004]
+  path: 0[10004 -> 20031 -> 10002 -> 20087 -> 150], [Europe -> Turkey -> Asia -> Timor-Leste -> Tatamailau Tatamailau  ] 
+
+  path: 1[10004 -> 20000 -> 90081], [Europe -> Albania -> Drin] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [51, 90060, 10004]
+  path: 0[10004 -> 20029 -> 51], [Europe -> Bulgaria -> Musala Musala Balkan ] 
+
+  path: 1[10004 -> 20005 -> 90060], [Europe -> Kosovo -> Southern Morava] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [52, 90060, 10004]
+  path: 0[10004 -> 20000 -> 52], [Europe -> Albania -> Jezerce Jezerce Balkan ] 
+
+  path: 1[10004 -> 20005 -> 90060], [Europe -> Kosovo -> Southern Morava] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [49, 90053, 10004]
+  path: 0[20015 -> 49], [Slovakia -> GerlachovskyStit GerlachovskyStit Beskides ] 
+
+  path: 1[20015 -> 90053], [Slovakia -> Waag] 
+
+  path: 2[20015 -> 10004], [Slovakia -> Europe] 
+
+srcNodes: [53, 90081, 10004]
+  path: 0[20000 -> 53], [Albania -> Korab Korab Balkan ] 
+
+  path: 1[20000 -> 90081], [Albania -> Drin] 
+
+  path: 2[20000 -> 10004], [Albania -> Europe] 
+
+srcNodes: [51, 90039, 10004]
+  path: 0[20029 -> 51], [Bulgaria -> Musala Musala Balkan ] 
+
+  path: 1[20029 -> 90039], [Bulgaria -> Donau] 
+
+  path: 2[20029 -> 10004], [Bulgaria -> Europe] 
+
+srcNodes: [53, 90083, 10004]
+  path: 0[20002 -> 53], [Macedonia -> Korab Korab Balkan ] 
+
+  path: 1[20002 -> 90083], [Macedonia -> Black Drin] 
+
+  path: 2[20002 -> 10004], [Macedonia -> Europe] 
+
+srcNodes: [49, 90053, 10004]
+  path: 0[90053 -> 20015 -> 49], [Waag -> Slovakia -> GerlachovskyStit GerlachovskyStit Beskides ] 
+
+  path: 1[90053 -> 90053], [Waag -> Waag]
+  path: 2[90053 -> 20015 -> 10004], [Waag -> Slovakia -> Europe] 
+
+srcNodes: [32, 90055, 10004]
+  path: 0[90055 -> 30065 -> 32], [Mur -> Salzburg -> Hochgolling Hochgolling Alps ] 
+
+  path: 1[90055 -> 90055], [Mur -> Mur]
+  path: 2[90055 -> 20028 -> 10004], [Mur -> Croatia -> Europe] 
+
+srcNodes: [30, 90054, 10004]
+  path: 0[90054 -> 30118 -> 30], [Drau -> Trentino Alto Adige -> Marmolata Marmolata Alps ] 
+
+  path: 1[90054 -> 90054], [Drau -> Drau]
+  path: 2[90054 -> 20028 -> 10004], [Drau -> Croatia -> Europe] 
+
+srcNodes: [51, 90039, 10004]
+  path: 0[90039 -> 20029 -> 51], [Donau -> Bulgaria -> Musala Musala Balkan ] 
+
+  path: 1[90039 -> 90039], [Donau -> Donau]
+  path: 2[90039 -> 20048 -> 10004], [Donau -> Moldova -> Europe] 
+
+srcNodes: [49, 90051, 10004]
+  path: 0[90051 -> 20015 -> 49], [March -> Slovakia -> GerlachovskyStit GerlachovskyStit Beskides ] 
+
+  path: 1[90051 -> 90051], [March -> March]
+  path: 2[90051 -> 20015 -> 10004], [March -> Slovakia -> Europe] 
+
+srcNodes: [17, 90071, 10004]
+  path: 0[90071 -> 30074 -> 17], [Rhein -> Baden Wurttemberg -> Feldberg Feldberg Schwarzwald ] 
+
+  path: 1[90071 -> 90071], [Rhein -> Rhein]
+  path: 2[90071 -> 20014 -> 10004], [Rhein -> Liechtenstein -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: 
+10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 20015, 20000, 20029, 20002, 90053, 90055, 90054, 90039, 90051, 90071, 
+ResultRelevs: 
+9.82367, 9.82367, 9.82367, 9.82367, 9.778758, 9.778758, 9.644023, 9.644023, 9.640034, 9.640034, 6.54861, 6.54861, 6.54861, 6.27316, 6.2020903, 6.2020903, 6.2020903, 6.2020903, 6.2020903, 6.2020903, 
+Num of top-k answers: 20
+Num of duplicate answers: 2
+Num of duplicate roots in top-k answers: 9
+root duplication ratio: 0.47368422
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 587
+Num of entries retrieved from NKMaps: 5229
+Num of answer trees explored: 24864
+
+Blink Search Using BDB 30
+[mountain, river, europe]
+srcNodes: [52, 90097, 10004]
+  path: 0[10004 -> 20000 -> 52], [Europe -> Albania -> Jezerce Jezerce Balkan ] 
+
+  path: 1[10004 -> 20033 -> 90097], [Europe -> Estonia -> Narva] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [51, 90039, 10004]
+  path: 0[20029 -> 51], [Bulgaria -> Musala Musala Balkan ] 
+
+  path: 1[20029 -> 90039], [Bulgaria -> Donau] 
+
+  path: 2[20029 -> 10004], [Bulgaria -> Europe] 
+
+srcNodes: [49, 90053, 10004]
+  path: 0[20015 -> 49], [Slovakia -> GerlachovskyStit GerlachovskyStit Beskides ] 
+
+  path: 1[20015 -> 90053], [Slovakia -> Waag] 
+
+  path: 2[20015 -> 10004], [Slovakia -> Europe] 
+
+srcNodes: [53, 90081, 10004]
+  path: 0[20000 -> 53], [Albania -> Korab Korab Balkan ] 
+
+  path: 1[20000 -> 90081], [Albania -> Drin] 
+
+  path: 2[20000 -> 10004], [Albania -> Europe] 
+
+srcNodes: [53, 90083, 10004]
+  path: 0[20002 -> 53], [Macedonia -> Korab Korab Balkan ] 
+
+  path: 1[20002 -> 90083], [Macedonia -> Black Drin] 
+
+  path: 2[20002 -> 10004], [Macedonia -> Europe] 
+
+srcNodes: [17, 90071, 10004]
+  path: 0[90071 -> 30074 -> 17], [Rhein -> Baden Wurttemberg -> Feldberg Feldberg Schwarzwald ] 
+
+  path: 1[90071 -> 90071], [Rhein -> Rhein]
+  path: 2[90071 -> 20014 -> 10004], [Rhein -> Liechtenstein -> Europe] 
+
+srcNodes: [30, 90054, 10004]
+  path: 0[90054 -> 30118 -> 30], [Drau -> Trentino Alto Adige -> Marmolata Marmolata Alps ] 
+
+  path: 1[90054 -> 90054], [Drau -> Drau]
+  path: 2[90054 -> 20028 -> 10004], [Drau -> Croatia -> Europe] 
+
+srcNodes: [49, 90051, 10004]
+  path: 0[90051 -> 20015 -> 49], [March -> Slovakia -> GerlachovskyStit GerlachovskyStit Beskides ] 
+
+  path: 1[90051 -> 90051], [March -> March]
+  path: 2[90051 -> 20015 -> 10004], [March -> Slovakia -> Europe] 
+
+srcNodes: [51, 90039, 10004]
+  path: 0[90039 -> 20029 -> 51], [Donau -> Bulgaria -> Musala Musala Balkan ] 
+
+  path: 1[90039 -> 90039], [Donau -> Donau]
+  path: 2[90039 -> 20048 -> 10004], [Donau -> Moldova -> Europe] 
+
+srcNodes: [49, 90053, 10004]
+  path: 0[90053 -> 20015 -> 49], [Waag -> Slovakia -> GerlachovskyStit GerlachovskyStit Beskides ] 
+
+  path: 1[90053 -> 90053], [Waag -> Waag]
+  path: 2[90053 -> 20015 -> 10004], [Waag -> Slovakia -> Europe] 
+
+srcNodes: [32, 90055, 10004]
+  path: 0[90055 -> 30065 -> 32], [Mur -> Salzburg -> Hochgolling Hochgolling Alps ] 
+
+  path: 1[90055 -> 90055], [Mur -> Mur]
+  path: 2[90055 -> 20028 -> 10004], [Mur -> Croatia -> Europe] 
+
+srcNodes: [33, 90073, 10004]
+  path: 0[90073 -> 30033 -> 33], [Mosel -> Lorraine -> Grand Ballon Grand Ballon Vosges ] 
+
+  path: 1[90073 -> 90073], [Mosel -> Mosel]
+  path: 2[90073 -> 20025 -> 10004], [Mosel -> Luxembourg -> Europe] 
+
+srcNodes: [52, 90081, 10004]
+  path: 0[90081 -> 20000 -> 52], [Drin -> Albania -> Jezerce Jezerce Balkan ] 
+
+  path: 1[90081 -> 90081], [Drin -> Drin]
+  path: 2[90081 -> 20000 -> 10004], [Drin -> Albania -> Europe] 
+
+srcNodes: [54, 90062, 10004]
+  path: 0[20048 -> 10004 -> 20001 -> 30012 -> 54], [Moldova -> Europe -> Greece -> Thessalia -> Olymp Olymp  ] 
+
+  path: 1[20048 -> 90062], [Moldova -> Pruth] 
+
+  path: 2[20048 -> 10004], [Moldova -> Europe] 
+
+srcNodes: [54, 90071, 10004]
+  path: 0[20014 -> 10004 -> 20001 -> 30012 -> 54], [Liechtenstein -> Europe -> Greece -> Thessalia -> Olymp Olymp  ] 
+
+  path: 1[20014 -> 90071], [Liechtenstein -> Rhein] 
+
+  path: 2[20014 -> 10004], [Liechtenstein -> Europe] 
+
+srcNodes: [54, 90055, 10004]
+  path: 0[20016 -> 10004 -> 20001 -> 30012 -> 54], [Slovenia -> Europe -> Greece -> Thessalia -> Olymp Olymp  ] 
+
+  path: 1[20016 -> 90055], [Slovenia -> Mur] 
+
+  path: 2[20016 -> 10004], [Slovenia -> Europe] 
+
+srcNodes: [54, 90055, 10004]
+  path: 0[20028 -> 10004 -> 20001 -> 30012 -> 54], [Croatia -> Europe -> Greece -> Thessalia -> Olymp Olymp  ] 
+
+  path: 1[20028 -> 90055], [Croatia -> Mur] 
+
+  path: 2[20028 -> 10004], [Croatia -> Europe] 
+
+srcNodes: [54, 90057, 10004]
+  path: 0[20027 -> 10004 -> 20001 -> 30012 -> 54], [Bosnia and Herzegovina -> Europe -> Greece -> Thessalia -> Olymp Olymp  ] 
+
+  path: 1[20027 -> 90057], [Bosnia and Herzegovina -> Save] 
+
+  path: 2[20027 -> 10004], [Bosnia and Herzegovina -> Europe] 
+
+srcNodes: [54, 90102, 10004]
+  path: 0[20018 -> 10004 -> 20001 -> 30012 -> 54], [Belarus -> Europe -> Greece -> Thessalia -> Olymp Olymp  ] 
+
+  path: 1[20018 -> 90102], [Belarus -> Dnepr] 
+
+  path: 2[20018 -> 10004], [Belarus -> Europe] 
+
+srcNodes: [54, 90056, 10004]
+  path: 0[20003 -> 10004 -> 20001 -> 30012 -> 54], [Serbia -> Europe -> Greece -> Thessalia -> Olymp Olymp  ] 
+
+  path: 1[20003 -> 90056], [Serbia -> Theiss] 
+
+  path: 2[20003 -> 10004], [Serbia -> Europe] 
+
+srcNodes: [54, 90000, 10004]
+  path: 0[20042 -> 10004 -> 20001 -> 30012 -> 54], [Iceland -> Europe -> Greece -> Thessalia -> Olymp Olymp  ] 
+
+  path: 1[20042 -> 90000], [Iceland -> Thjorsa] 
+
+  path: 2[20042 -> 10004], [Iceland -> Europe] 
+
+srcNodes: [54, 90097, 10004]
+  path: 0[20033 -> 10004 -> 20001 -> 30012 -> 54], [Estonia -> Europe -> Greece -> Thessalia -> Olymp Olymp  ] 
+
+  path: 1[20033 -> 90097], [Estonia -> Narva] 
+
+  path: 2[20033 -> 10004], [Estonia -> Europe] 
+
+srcNodes: [54, 90073, 10004]
+  path: 0[20025 -> 10004 -> 20001 -> 30012 -> 54], [Luxembourg -> Europe -> Greece -> Thessalia -> Olymp Olymp  ] 
+
+  path: 1[20025 -> 90073], [Luxembourg -> Mosel] 
+
+  path: 2[20025 -> 10004], [Luxembourg -> Europe] 
+
+srcNodes: [102, 90057, 10004]
+  path: 0[90057 -> 20028 -> 10004 -> 20023 -> 30306 -> 102], [Save -> Croatia -> Europe -> Russia -> Rep. of Buryatiya -> Zhima Zhima  ] 
+
+  path: 1[90057 -> 90057], [Save -> Save]
+  path: 2[90057 -> 20028 -> 10004], [Save -> Croatia -> Europe] 
+
+srcNodes: [102, 90056, 10004]
+  path: 0[90056 -> 20003 -> 10004 -> 20023 -> 30306 -> 102], [Theiss -> Serbia -> Europe -> Russia -> Rep. of Buryatiya -> Zhima Zhima  ] 
+
+  path: 1[90056 -> 90056], [Theiss -> Theiss]
+  path: 2[90056 -> 20003 -> 10004], [Theiss -> Serbia -> Europe] 
+
+srcNodes: [102, 90062, 10004]
+  path: 0[90062 -> 20048 -> 10004 -> 20023 -> 30306 -> 102], [Pruth -> Moldova -> Europe -> Russia -> Rep. of Buryatiya -> Zhima Zhima  ] 
+
+  path: 1[90062 -> 90062], [Pruth -> Pruth]
+  path: 2[90062 -> 20048 -> 10004], [Pruth -> Moldova -> Europe] 
+
+srcNodes: [102, 90000, 10004]
+  path: 0[90000 -> 20042 -> 10004 -> 20023 -> 30306 -> 102], [Thjorsa -> Iceland -> Europe -> Russia -> Rep. of Buryatiya -> Zhima Zhima  ] 
+
+  path: 1[90000 -> 90000], [Thjorsa -> Thjorsa]
+  path: 2[90000 -> 20042 -> 10004], [Thjorsa -> Iceland -> Europe] 
+
+srcNodes: [102, 90063, 10004]
+  path: 0[90063 -> 20048 -> 10004 -> 20023 -> 30306 -> 102], [Dnjestr -> Moldova -> Europe -> Russia -> Rep. of Buryatiya -> Zhima Zhima  ] 
+
+  path: 1[90063 -> 90063], [Dnjestr -> Dnjestr]
+  path: 2[90063 -> 20048 -> 10004], [Dnjestr -> Moldova -> Europe] 
+
+srcNodes: [102, 90058, 10004]
+  path: 0[90058 -> 20003 -> 10004 -> 20023 -> 30306 -> 102], [Morava -> Serbia -> Europe -> Russia -> Rep. of Buryatiya -> Zhima Zhima  ] 
+
+  path: 1[90058 -> 90058], [Morava -> Morava]
+  path: 2[90058 -> 20003 -> 10004], [Morava -> Serbia -> Europe] 
+
+srcNodes: [102, 90097, 10004]
+  path: 0[90097 -> 20033 -> 10004 -> 20023 -> 30306 -> 102], [Narva -> Estonia -> Europe -> Russia -> Rep. of Buryatiya -> Zhima Zhima  ] 
+
+  path: 1[90097 -> 90097], [Narva -> Narva]
+  path: 2[90097 -> 20033 -> 10004], [Narva -> Estonia -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: [10004, 20029, 20015, 20000, 20002, 90071, 90054, 90051, 90039, 90053, 90055, 90073, 90081, 20048, 20014, 20016, 20028, 20027, 20018, 20003, 20042, 20033, 20025, 90057, 90056, 90062, 90000, 90063, 90058, 90097]
+ResultRelevs: [9.823670387268066, 6.548610210418701, 6.548610210418701, 6.548610210418701, 6.273159980773926, 6.202090263366699, 6.202090263366699, 6.202090263366699, 6.202090263366699, 6.202090263366699, 6.202090263366699, 6.202090263366699, 6.202090263366699, 6.009663105010986, 6.009663105010986, 6.009663105010986, 6.009663105010986, 6.009663105010986, 6.009663105010986, 6.009663105010986, 6.009663105010986, 6.009663105010986, 6.009663105010986, 5.932620048522949, 5.932620048522949, 5.932620048522949, 5.932620048522949, 5.932620048522949, 5.932620048522949, 5.932620048522949]
+Num of top-k answers: 30
+Num of non-reduced answers: 0
+Num of duplicate answers: 3
+Num of non-redundant answers: 27
+Num of entries retrieved from the lists: 607
+Num of entries retrieved from NKMaps: 1080
+
+Blink Search Using ConstRootDup30
+[mountain, river, europe]
+srcNodes: [52, 90097, 10004]
+  path: 0[10004 -> 20000 -> 52], [Europe -> Albania -> Jezerce Jezerce Balkan ] 
+
+  path: 1[10004 -> 20033 -> 90097], [Europe -> Estonia -> Narva] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [51, 90097, 10004]
+  path: 0[10004 -> 20029 -> 51], [Europe -> Bulgaria -> Musala Musala Balkan ] 
+
+  path: 1[10004 -> 20033 -> 90097], [Europe -> Estonia -> Narva] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [52, 90081, 10004]
+  path: 0[10004 -> 20000 -> 52], [Europe -> Albania -> Jezerce Jezerce Balkan ] 
+
+  path: 1[10004 -> 20000 -> 90081], [Europe -> Albania -> Drin] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [51, 90081, 10004]
+  path: 0[10004 -> 20029 -> 51], [Europe -> Bulgaria -> Musala Musala Balkan ] 
+
+  path: 1[10004 -> 20000 -> 90081], [Europe -> Albania -> Drin] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [7, 90097, 10004]
+  path: 0[10004 -> 20037 -> 30507 -> 7], [Europe -> Sweden -> Norrbotten -> Sarektjokko Sarektjokko  ] 
+
+  path: 1[10004 -> 20033 -> 90097], [Europe -> Estonia -> Narva] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [7, 90081, 10004]
+  path: 0[10004 -> 20037 -> 30507 -> 7], [Europe -> Sweden -> Norrbotten -> Sarektjokko Sarektjokko  ] 
+
+  path: 1[10004 -> 20000 -> 90081], [Europe -> Albania -> Drin] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [150, 90081, 10004]
+  path: 0[10004 -> 20031 -> 10002 -> 20087 -> 150], [Europe -> Turkey -> Asia -> Timor-Leste -> Tatamailau Tatamailau  ] 
+
+  path: 1[10004 -> 20000 -> 90081], [Europe -> Albania -> Drin] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [150, 90097, 10004]
+  path: 0[10004 -> 20031 -> 10002 -> 20087 -> 150], [Europe -> Turkey -> Asia -> Timor-Leste -> Tatamailau Tatamailau  ] 
+
+  path: 1[10004 -> 20033 -> 90097], [Europe -> Estonia -> Narva] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [51, 90060, 10004]
+  path: 0[10004 -> 20029 -> 51], [Europe -> Bulgaria -> Musala Musala Balkan ] 
+
+  path: 1[10004 -> 20005 -> 90060], [Europe -> Kosovo -> Southern Morava] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [52, 90060, 10004]
+  path: 0[10004 -> 20000 -> 52], [Europe -> Albania -> Jezerce Jezerce Balkan ] 
+
+  path: 1[10004 -> 20005 -> 90060], [Europe -> Kosovo -> Southern Morava] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [7, 90060, 10004]
+  path: 0[10004 -> 20037 -> 30507 -> 7], [Europe -> Sweden -> Norrbotten -> Sarektjokko Sarektjokko  ] 
+
+  path: 1[10004 -> 20005 -> 90060], [Europe -> Kosovo -> Southern Morava] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [51, 90087, 10004]
+  path: 0[10004 -> 20029 -> 51], [Europe -> Bulgaria -> Musala Musala Balkan ] 
+
+  path: 1[10004 -> 20031 -> 30450 -> 90087], [Europe -> Turkey -> Sirnak -> Tigris] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [52, 90087, 10004]
+  path: 0[10004 -> 20000 -> 52], [Europe -> Albania -> Jezerce Jezerce Balkan ] 
+
+  path: 1[10004 -> 20031 -> 30450 -> 90087], [Europe -> Turkey -> Sirnak -> Tigris] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60, 90097, 10004]
+  path: 0[10004 -> 20049 -> 30548 -> 60], [Europe -> Portugal -> Madeira -> Pico Ruivo Pico Ruivo Madeira volcanic] 
+
+  path: 1[10004 -> 20033 -> 90097], [Europe -> Estonia -> Narva] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60, 90081, 10004]
+  path: 0[10004 -> 20049 -> 30548 -> 60], [Europe -> Portugal -> Madeira -> Pico Ruivo Pico Ruivo Madeira volcanic] 
+
+  path: 1[10004 -> 20000 -> 90081], [Europe -> Albania -> Drin] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [51, 90039, 10004]
+  path: 0[20029 -> 51], [Bulgaria -> Musala Musala Balkan ] 
+
+  path: 1[20029 -> 90039], [Bulgaria -> Donau] 
+
+  path: 2[20029 -> 10004], [Bulgaria -> Europe] 
+
+srcNodes: [49, 90053, 10004]
+  path: 0[20015 -> 49], [Slovakia -> GerlachovskyStit GerlachovskyStit Beskides ] 
+
+  path: 1[20015 -> 90053], [Slovakia -> Waag] 
+
+  path: 2[20015 -> 10004], [Slovakia -> Europe] 
+
+srcNodes: [53, 90081, 10004]
+  path: 0[20000 -> 53], [Albania -> Korab Korab Balkan ] 
+
+  path: 1[20000 -> 90081], [Albania -> Drin] 
+
+  path: 2[20000 -> 10004], [Albania -> Europe] 
+
+srcNodes: [53, 90083, 10004]
+  path: 0[20002 -> 53], [Macedonia -> Korab Korab Balkan ] 
+
+  path: 1[20002 -> 90083], [Macedonia -> Black Drin] 
+
+  path: 2[20002 -> 10004], [Macedonia -> Europe] 
+
+srcNodes: [52, 90081, 10004]
+  path: 0[90081 -> 20000 -> 52], [Drin -> Albania -> Jezerce Jezerce Balkan ] 
+
+  path: 1[90081 -> 90081], [Drin -> Drin]
+  path: 2[90081 -> 20000 -> 10004], [Drin -> Albania -> Europe] 
+
+srcNodes: [32, 90055, 10004]
+  path: 0[90055 -> 30065 -> 32], [Mur -> Salzburg -> Hochgolling Hochgolling Alps ] 
+
+  path: 1[90055 -> 90055], [Mur -> Mur]
+  path: 2[90055 -> 20028 -> 10004], [Mur -> Croatia -> Europe] 
+
+srcNodes: [17, 90071, 10004]
+  path: 0[90071 -> 30074 -> 17], [Rhein -> Baden Wurttemberg -> Feldberg Feldberg Schwarzwald ] 
+
+  path: 1[90071 -> 90071], [Rhein -> Rhein]
+  path: 2[90071 -> 20014 -> 10004], [Rhein -> Liechtenstein -> Europe] 
+
+srcNodes: [33, 90073, 10004]
+  path: 0[90073 -> 30033 -> 33], [Mosel -> Lorraine -> Grand Ballon Grand Ballon Vosges ] 
+
+  path: 1[90073 -> 90073], [Mosel -> Mosel]
+  path: 2[90073 -> 20025 -> 10004], [Mosel -> Luxembourg -> Europe] 
+
+srcNodes: [51, 90039, 10004]
+  path: 0[90039 -> 20029 -> 51], [Donau -> Bulgaria -> Musala Musala Balkan ] 
+
+  path: 1[90039 -> 90039], [Donau -> Donau]
+  path: 2[90039 -> 20048 -> 10004], [Donau -> Moldova -> Europe] 
+
+srcNodes: [49, 90051, 10004]
+  path: 0[90051 -> 20015 -> 49], [March -> Slovakia -> GerlachovskyStit GerlachovskyStit Beskides ] 
+
+  path: 1[90051 -> 90051], [March -> March]
+  path: 2[90051 -> 20015 -> 10004], [March -> Slovakia -> Europe] 
+
+srcNodes: [30, 90054, 10004]
+  path: 0[90054 -> 30118 -> 30], [Drau -> Trentino Alto Adige -> Marmolata Marmolata Alps ] 
+
+  path: 1[90054 -> 90054], [Drau -> Drau]
+  path: 2[90054 -> 20028 -> 10004], [Drau -> Croatia -> Europe] 
+
+srcNodes: [49, 90053, 10004]
+  path: 0[90053 -> 20015 -> 49], [Waag -> Slovakia -> GerlachovskyStit GerlachovskyStit Beskides ] 
+
+  path: 1[90053 -> 90053], [Waag -> Waag]
+  path: 2[90053 -> 20015 -> 10004], [Waag -> Slovakia -> Europe] 
+
+srcNodes: [54, 90057, 10004]
+  path: 0[20027 -> 10004 -> 20001 -> 30012 -> 54], [Bosnia and Herzegovina -> Europe -> Greece -> Thessalia -> Olymp Olymp  ] 
+
+  path: 1[20027 -> 90057], [Bosnia and Herzegovina -> Save] 
+
+  path: 2[20027 -> 10004], [Bosnia and Herzegovina -> Europe] 
+
+srcNodes: [54, 90071, 10004]
+  path: 0[20014 -> 10004 -> 20001 -> 30012 -> 54], [Liechtenstein -> Europe -> Greece -> Thessalia -> Olymp Olymp  ] 
+
+  path: 1[20014 -> 90071], [Liechtenstein -> Rhein] 
+
+  path: 2[20014 -> 10004], [Liechtenstein -> Europe] 
+
+srcNodes: [54, 90055, 10004]
+  path: 0[20016 -> 10004 -> 20001 -> 30012 -> 54], [Slovenia -> Europe -> Greece -> Thessalia -> Olymp Olymp  ] 
+
+  path: 1[20016 -> 90055], [Slovenia -> Mur] 
+
+  path: 2[20016 -> 10004], [Slovenia -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: 
+10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 20029, 20015, 20000, 20002, 90081, 90055, 90071, 90073, 90039, 90051, 90054, 90053, 20027, 20014, 20016, 
+ResultRelevs: 
+9.82367, 9.82367, 9.82367, 9.82367, 9.778758, 9.778758, 9.644023, 9.644023, 9.640034, 9.640034, 9.595122, 9.594125, 9.594125, 9.576655, 9.576655, 6.54861, 6.54861, 6.54861, 6.27316, 6.2020903, 6.2020903, 6.2020903, 6.2020903, 6.2020903, 6.2020903, 6.2020903, 6.2020903, 6.009663, 6.009663, 6.009663, 
+Num of top-k answers: 30
+Num of duplicate answers: 3
+Num of duplicate roots in top-k answers: 14
+root duplication ratio: 0.4827586
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 607
+Num of entries retrieved from NKMaps: 5393
+Num of answer trees explored: 25828
+

@@ -1,0 +1,104 @@
+Top-k Search by Blink-BDB, k=5
+[city, state, desert, california]
+srcNodes: [41904, 30991, 130003, 30991]
+  path: 0[30991 -> 41904], [California -> Norwalk] 
+
+  path: 1[30991 -> 30991], [California -> California]
+  path: 2[30991 -> 90150 -> 30942 -> 130003], [California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 3[30991 -> 30991], [California -> California]
+srcNodes: [42734, 30942, 130003, 30942]
+  path: 0[30942 -> 42734], [Baja California -> Tijuana] 
+
+  path: 1[30942 -> 30942], [Baja California -> Baja California]
+  path: 2[30942 -> 130003], [Baja California -> Baja California Desert] 
+
+  path: 3[30942 -> 30942], [Baja California -> Baja California]
+srcNodes: [42332, 31030, 130025, 30991]
+  path: 0[31030 -> 42332], [Utah -> Salt Lake City] 
+
+  path: 1[31030 -> 31030], [Utah -> Utah]
+  path: 2[31030 -> 130025], [Utah -> Great Salt Lake Desert] 
+
+  path: 3[31030 -> 90150 -> 30991], [Utah -> Colorado -> California] 
+
+srcNodes: [40465, 31014, 130003, 195]
+  path: 0[195 -> 31014 -> 40465], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Carson City] 
+
+  path: 1[195 -> 31014], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada] 
+
+  path: 2[195 -> 31014 -> 90150 -> 30942 -> 130003], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 3[195 -> 195], [Boundary Peak Boundary Peak Sierra Nevada California  -> Boundary Peak Boundary Peak Sierra Nevada California ]
+srcNodes: [40465, 31030, 130025, 30991]
+  path: 0[90150 -> 31014 -> 40465], [Colorado -> Nevada -> Carson City] 
+
+  path: 1[90150 -> 31030], [Colorado -> Utah] 
+
+  path: 2[90150 -> 31030 -> 130025], [Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 3[90150 -> 30991], [Colorado -> California] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [30991, 30942, 31030, 195, 90150]
+ResultRelevs: [7.937201023101807, 7.556052207946777, 5.652091979980469, 4.872735023498535, 4.86951208114624]
+AvgResultRelev: 6.177518463134765
+AvgResultDissimilarity: 0.3981818
+Num of entries retrieved from the lists: 328
+Num of entries retrieved from NKMaps: 733
+Num of answer trees explored: 80
+
+Incremental Top-k Search, k=5
+[city, state, desert, california]
+srcNodes: [41904, 30991, 130003, 30991]
+  path: 0[30991 -> 41904], [California -> Norwalk] 
+
+  path: 1[30991 -> 30991], [California -> California]
+  path: 2[30991 -> 90150 -> 30942 -> 130003], [California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 3[30991 -> 30991], [California -> California]
+srcNodes: [42734, 30942, 130003, 30942]
+  path: 0[30942 -> 42734], [Baja California -> Tijuana] 
+
+  path: 1[30942 -> 30942], [Baja California -> Baja California]
+  path: 2[30942 -> 130003], [Baja California -> Baja California Desert] 
+
+  path: 3[30942 -> 30942], [Baja California -> Baja California]
+srcNodes: [42332, 31030, 130025, 30991]
+  path: 0[31030 -> 42332], [Utah -> Salt Lake City] 
+
+  path: 1[31030 -> 31030], [Utah -> Utah]
+  path: 2[31030 -> 130025], [Utah -> Great Salt Lake Desert] 
+
+  path: 3[31030 -> 90150 -> 30991], [Utah -> Colorado -> California] 
+
+srcNodes: [40465, 31014, 130003, 195]
+  path: 0[195 -> 31014 -> 40465], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Carson City] 
+
+  path: 1[195 -> 31014], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada] 
+
+  path: 2[195 -> 31014 -> 90150 -> 30942 -> 130003], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 3[195 -> 195], [Boundary Peak Boundary Peak Sierra Nevada California  -> Boundary Peak Boundary Peak Sierra Nevada California ]
+srcNodes: [40465, 31030, 130025, 30991]
+  path: 0[90150 -> 31014 -> 40465], [Colorado -> Nevada -> Carson City] 
+
+  path: 1[90150 -> 31030], [Colorado -> Utah] 
+
+  path: 2[90150 -> 31030 -> 130025], [Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 3[90150 -> 30991], [Colorado -> California] 
+
+-----------------------------------------
+ResultDestNodes: [30991, 30942, 31030, 195, 90150]
+ResultRelevs: [7.937201023101807, 7.556052207946777, 5.652091979980469, 4.872735023498535, 4.86951208114624]
+AvgResultRelev: 6.177518463134765
+AvgResultDissimilarity: 0.3981818
+Num of entries retrieved from the KNLists: 328
+Num of entries retrieved from NKMaps: 733
+Num of answer trees explored: 80
+Num of states created: 0
+Num of states explored: 0
+Num of heuristic search performed: 0
+

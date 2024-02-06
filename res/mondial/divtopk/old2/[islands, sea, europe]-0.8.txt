@@ -1,0 +1,296 @@
+Top-k Search by Blink-BDB, k=7
+[islands, sea, europe]
+srcNodes: [20034, 100020, 10004]
+  path: 0[10004 -> 20034], [Europe -> Faroe Islands] 
+
+  path: 1[10004 -> 20050 -> 100020], [Europe -> Svalbard -> Norwegian Sea] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [20034, 100020, 10004]
+  path: 0[20034 -> 20034], [Faroe Islands -> Faroe Islands]
+  path: 1[20034 -> 100020], [Faroe Islands -> Norwegian Sea] 
+
+  path: 2[20034 -> 10004], [Faroe Islands -> Europe] 
+
+srcNodes: [110004, 100020, 10004]
+  path: 0[110004 -> 110004], [Streymoy Streymoy Faroe Islands  -> Streymoy Streymoy Faroe Islands ]
+  path: 1[110004 -> 100020], [Streymoy Streymoy Faroe Islands  -> Norwegian Sea] 
+
+  path: 2[110004 -> 20034 -> 10004], [Streymoy Streymoy Faroe Islands  -> Faroe Islands -> Europe] 
+
+srcNodes: [110028, 100032, 10004]
+  path: 0[20040 -> 110028], [Guernsey -> Guernsey Guernsey Channel Islands ] 
+
+  path: 1[20040 -> 100032], [Guernsey -> The Channel] 
+
+  path: 2[20040 -> 10004], [Guernsey -> Europe] 
+
+srcNodes: [110029, 100032, 10004]
+  path: 0[20045 -> 110029], [Jersey -> Jersey Jersey Channel Islands ] 
+
+  path: 1[20045 -> 100032], [Jersey -> The Channel] 
+
+  path: 2[20045 -> 10004], [Jersey -> Europe] 
+
+srcNodes: [110028, 100032, 10004]
+  path: 0[110028 -> 110028], [Guernsey Guernsey Channel Islands  -> Guernsey Guernsey Channel Islands ]
+  path: 1[110028 -> 100032], [Guernsey Guernsey Channel Islands  -> The Channel] 
+
+  path: 2[110028 -> 20040 -> 10004], [Guernsey Guernsey Channel Islands  -> Guernsey -> Europe] 
+
+srcNodes: [110029, 100032, 10004]
+  path: 0[110029 -> 110029], [Jersey Jersey Channel Islands  -> Jersey Jersey Channel Islands ]
+  path: 1[110029 -> 100032], [Jersey Jersey Channel Islands  -> The Channel] 
+
+  path: 2[110029 -> 20045 -> 10004], [Jersey Jersey Channel Islands  -> Jersey -> Europe] 
+
+-----------------------------------------
+Num of top-k answers: 7
+ResultDestNodes: [10004, 20034, 110004, 20040, 20045, 110028, 110029]
+ResultRelevs: [10.889289855957031, 8.778459548950195, 7.413969993591309, 7.264880180358887, 7.264880180358887, 7.1632399559021, 7.1632399559021]
+AvgResultRelev: 7.991137095860073
+AvgResultDissimilarity: 0.6000000000000001
+Num of entries retrieved from the lists: 174
+Num of entries retrieved from NKMaps: 290
+Num of answer trees explored: 88
+
+Div Top-k Search by Astar17
+[islands, sea, europe]
+srcNodes: [20034, 100020, 10004]
+  path: 0[10004 -> 20034], [Europe -> Faroe Islands] 
+
+  path: 1[10004 -> 20050 -> 100020], [Europe -> Svalbard -> Norwegian Sea] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [20034, 100020, 10004]
+  path: 0[20034 -> 20034], [Faroe Islands -> Faroe Islands]
+  path: 1[20034 -> 100020], [Faroe Islands -> Norwegian Sea] 
+
+  path: 2[20034 -> 10004], [Faroe Islands -> Europe] 
+
+srcNodes: [110028, 100032, 10004]
+  path: 0[20040 -> 110028], [Guernsey -> Guernsey Guernsey Channel Islands ] 
+
+  path: 1[20040 -> 100032], [Guernsey -> The Channel] 
+
+  path: 2[20040 -> 10004], [Guernsey -> Europe] 
+
+srcNodes: [110029, 100032, 10004]
+  path: 0[20045 -> 110029], [Jersey -> Jersey Jersey Channel Islands ] 
+
+  path: 1[20045 -> 100032], [Jersey -> The Channel] 
+
+  path: 2[20045 -> 10004], [Jersey -> Europe] 
+
+srcNodes: [30046, 100018, 10004]
+  path: 0[20008 -> 30046], [Spain -> Canary Islands] 
+
+  path: 1[20008 -> 30057 -> 100018], [Spain -> Valencia -> Mediterranean Sea] 
+
+  path: 2[20008 -> 10004], [Spain -> Europe] 
+
+srcNodes: [110174, 100031, 10004]
+  path: 0[110174 -> 110174], [Timor Timor Sunda Islands  -> Timor Timor Sunda Islands ]
+  path: 1[110174 -> 100031], [Timor Timor Sunda Islands  -> Sunda Sea] 
+
+  path: 2[110174 -> 20087 -> 10002 -> 20031 -> 10004], [Timor Timor Sunda Islands  -> Timor-Leste -> Asia -> Turkey -> Europe] 
+
+srcNodes: [20119, 100008, 50038]
+  path: 0[20119 -> 20119], [Cayman Islands -> Cayman Islands]
+  path: 1[20119 -> 100008], [Cayman Islands -> Caribbean Sea] 
+
+  path: 2[20119 -> 10001 -> 20118 -> 50038], [Cayman Islands -> America -> United States -> Economic Commission for Europe Economic Commission for Europe ECE] 
+
+-----------------------------------------
+ResultDestNodes: [10004, 20034, 20040, 20045, 20008, 110174, 20119]
+ResultRelevs: [10.889289855957031, 8.778459548950195, 7.264880180358887, 7.264880180358887, 6.795840263366699, 6.322390079498291, 5.580451965332031]
+AvgResultRelev: 7.5565988676888605
+AvgResultDissimilarity: 0.8047620058059692
+Num of entries retrieved from the KNLists: 312
+Num of entries retrieved from NKMaps: 515
+Num of answer trees explored: 141
+Num of states created: 900397
+Num of states explored: 182619
+Num of heuristic search performed: 65
+Max Num of answer tree sets in Q[]: 42407
+
+Div Top-k Search by Astar1m7
+[islands, sea, europe]
+srcNodes: [20034, 100020, 10004]
+  path: 0[10004 -> 20034], [Europe -> Faroe Islands] 
+
+  path: 1[10004 -> 20050 -> 100020], [Europe -> Svalbard -> Norwegian Sea] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [20034, 100020, 10004]
+  path: 0[20034 -> 20034], [Faroe Islands -> Faroe Islands]
+  path: 1[20034 -> 100020], [Faroe Islands -> Norwegian Sea] 
+
+  path: 2[20034 -> 10004], [Faroe Islands -> Europe] 
+
+srcNodes: [110028, 100032, 10004]
+  path: 0[20040 -> 110028], [Guernsey -> Guernsey Guernsey Channel Islands ] 
+
+  path: 1[20040 -> 100032], [Guernsey -> The Channel] 
+
+  path: 2[20040 -> 10004], [Guernsey -> Europe] 
+
+srcNodes: [110029, 100032, 10004]
+  path: 0[20045 -> 110029], [Jersey -> Jersey Jersey Channel Islands ] 
+
+  path: 1[20045 -> 100032], [Jersey -> The Channel] 
+
+  path: 2[20045 -> 10004], [Jersey -> Europe] 
+
+srcNodes: [30046, 100018, 10004]
+  path: 0[20008 -> 30046], [Spain -> Canary Islands] 
+
+  path: 1[20008 -> 30057 -> 100018], [Spain -> Valencia -> Mediterranean Sea] 
+
+  path: 2[20008 -> 10004], [Spain -> Europe] 
+
+srcNodes: [110174, 100031, 10004]
+  path: 0[110174 -> 110174], [Timor Timor Sunda Islands  -> Timor Timor Sunda Islands ]
+  path: 1[110174 -> 100031], [Timor Timor Sunda Islands  -> Sunda Sea] 
+
+  path: 2[110174 -> 20087 -> 10002 -> 20031 -> 10004], [Timor Timor Sunda Islands  -> Timor-Leste -> Asia -> Turkey -> Europe] 
+
+srcNodes: [20119, 100008, 50038]
+  path: 0[20119 -> 20119], [Cayman Islands -> Cayman Islands]
+  path: 1[20119 -> 100008], [Cayman Islands -> Caribbean Sea] 
+
+  path: 2[20119 -> 10001 -> 20118 -> 50038], [Cayman Islands -> America -> United States -> Economic Commission for Europe Economic Commission for Europe ECE] 
+
+-----------------------------------------
+ResultDestNodes: [10004, 20034, 20040, 20045, 20008, 110174, 20119]
+ResultRelevs: [10.889289855957031, 8.778459548950195, 7.264880180358887, 7.264880180358887, 6.795840263366699, 6.322390079498291, 5.580451965332031]
+AvgResultRelev: 7.5565988676888605
+AvgResultDissimilarity: 0.8047620058059692
+Num of entries retrieved from the KNLists: 312
+Num of entries retrieved from NKMaps: 515
+Num of answer trees explored: 141
+Num of states created: 29379781
+Num of states explored: 25729818
+Num of heuristic search performed: 65
+Max Num of answer tree sets in Q[]: 337548
+
+Div Top-k Search by Astar27
+[islands, sea, europe]
+srcNodes: [20034, 100020, 10004]
+  path: 0[10004 -> 20034], [Europe -> Faroe Islands] 
+
+  path: 1[10004 -> 20050 -> 100020], [Europe -> Svalbard -> Norwegian Sea] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [20034, 100020, 10004]
+  path: 0[20034 -> 20034], [Faroe Islands -> Faroe Islands]
+  path: 1[20034 -> 100020], [Faroe Islands -> Norwegian Sea] 
+
+  path: 2[20034 -> 10004], [Faroe Islands -> Europe] 
+
+srcNodes: [110028, 100032, 10004]
+  path: 0[20040 -> 110028], [Guernsey -> Guernsey Guernsey Channel Islands ] 
+
+  path: 1[20040 -> 100032], [Guernsey -> The Channel] 
+
+  path: 2[20040 -> 10004], [Guernsey -> Europe] 
+
+srcNodes: [110029, 100032, 10004]
+  path: 0[20045 -> 110029], [Jersey -> Jersey Jersey Channel Islands ] 
+
+  path: 1[20045 -> 100032], [Jersey -> The Channel] 
+
+  path: 2[20045 -> 10004], [Jersey -> Europe] 
+
+srcNodes: [30046, 100018, 10004]
+  path: 0[20008 -> 30046], [Spain -> Canary Islands] 
+
+  path: 1[20008 -> 30057 -> 100018], [Spain -> Valencia -> Mediterranean Sea] 
+
+  path: 2[20008 -> 10004], [Spain -> Europe] 
+
+srcNodes: [110174, 100031, 10004]
+  path: 0[110174 -> 110174], [Timor Timor Sunda Islands  -> Timor Timor Sunda Islands ]
+  path: 1[110174 -> 100031], [Timor Timor Sunda Islands  -> Sunda Sea] 
+
+  path: 2[110174 -> 20087 -> 10002 -> 20031 -> 10004], [Timor Timor Sunda Islands  -> Timor-Leste -> Asia -> Turkey -> Europe] 
+
+srcNodes: [20119, 100008, 50038]
+  path: 0[20119 -> 20119], [Cayman Islands -> Cayman Islands]
+  path: 1[20119 -> 100008], [Cayman Islands -> Caribbean Sea] 
+
+  path: 2[20119 -> 10001 -> 20118 -> 50038], [Cayman Islands -> America -> United States -> Economic Commission for Europe Economic Commission for Europe ECE] 
+
+-----------------------------------------
+ResultDestNodes: [10004, 20034, 20040, 20045, 20008, 110174, 20119]
+ResultRelevs: [10.889289855957031, 8.778459548950195, 7.264880180358887, 7.264880180358887, 6.795840263366699, 6.322390079498291, 5.580451965332031]
+AvgResultRelev: 7.5565988676888605
+AvgResultDissimilarity: 0.8047620058059692
+Num of entries retrieved from the KNLists: 312
+Num of entries retrieved from NKMaps: 515
+Num of answer trees explored: 141
+Num of states created: 900397
+Num of states explored: 182619
+Num of heuristic search performed: 65
+Max Num of answer tree sets in Q[]: 42407
+
+Div Top-k Search by Astar2m7
+[islands, sea, europe]
+srcNodes: [20034, 100020, 10004]
+  path: 0[10004 -> 20034], [Europe -> Faroe Islands] 
+
+  path: 1[10004 -> 20050 -> 100020], [Europe -> Svalbard -> Norwegian Sea] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [20034, 100020, 10004]
+  path: 0[20034 -> 20034], [Faroe Islands -> Faroe Islands]
+  path: 1[20034 -> 100020], [Faroe Islands -> Norwegian Sea] 
+
+  path: 2[20034 -> 10004], [Faroe Islands -> Europe] 
+
+srcNodes: [110028, 100032, 10004]
+  path: 0[20040 -> 110028], [Guernsey -> Guernsey Guernsey Channel Islands ] 
+
+  path: 1[20040 -> 100032], [Guernsey -> The Channel] 
+
+  path: 2[20040 -> 10004], [Guernsey -> Europe] 
+
+srcNodes: [110029, 100032, 10004]
+  path: 0[20045 -> 110029], [Jersey -> Jersey Jersey Channel Islands ] 
+
+  path: 1[20045 -> 100032], [Jersey -> The Channel] 
+
+  path: 2[20045 -> 10004], [Jersey -> Europe] 
+
+srcNodes: [30046, 100018, 10004]
+  path: 0[20008 -> 30046], [Spain -> Canary Islands] 
+
+  path: 1[20008 -> 30057 -> 100018], [Spain -> Valencia -> Mediterranean Sea] 
+
+  path: 2[20008 -> 10004], [Spain -> Europe] 
+
+srcNodes: [110174, 100031, 10004]
+  path: 0[110174 -> 110174], [Timor Timor Sunda Islands  -> Timor Timor Sunda Islands ]
+  path: 1[110174 -> 100031], [Timor Timor Sunda Islands  -> Sunda Sea] 
+
+  path: 2[110174 -> 20087 -> 10002 -> 20031 -> 10004], [Timor Timor Sunda Islands  -> Timor-Leste -> Asia -> Turkey -> Europe] 
+
+srcNodes: [20119, 100008, 50038]
+  path: 0[20119 -> 20119], [Cayman Islands -> Cayman Islands]
+  path: 1[20119 -> 100008], [Cayman Islands -> Caribbean Sea] 
+
+  path: 2[20119 -> 10001 -> 20118 -> 50038], [Cayman Islands -> America -> United States -> Economic Commission for Europe Economic Commission for Europe ECE] 
+
+-----------------------------------------
+ResultDestNodes: [10004, 20034, 20040, 20045, 20008, 110174, 20119]
+ResultRelevs: [10.889289855957031, 8.778459548950195, 7.264880180358887, 7.264880180358887, 6.795840263366699, 6.322390079498291, 5.580451965332031]
+AvgResultRelev: 7.5565988676888605
+AvgResultDissimilarity: 0.8047620058059692
+Num of entries retrieved from the KNLists: 312
+Num of entries retrieved from NKMaps: 515
+Num of answer trees explored: 141
+Num of states created: 26022071
+Num of states explored: 25728734
+Num of heuristic search performed: 65
+Max Num of answer tree sets in Q[]: 0
+

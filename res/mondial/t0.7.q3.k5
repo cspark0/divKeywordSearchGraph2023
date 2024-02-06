@@ -1,0 +1,677 @@
+query: [city, desert, california]
+Top-k Search by Blink-BDB, k=5
+[city, desert, california]
+srcNodes: [41904, 130003, 30991]
+  path: 0[30991 -> 41904], [California -> Norwalk] 
+
+  path: 1[30991 -> 90150 -> 30942 -> 130003], [California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30991 -> 30991], [California -> California]
+srcNodes: [42734, 130003, 30942]
+  path: 0[30942 -> 42734], [Baja California -> Tijuana] 
+
+  path: 1[30942 -> 130003], [Baja California -> Baja California Desert] 
+
+  path: 2[30942 -> 30942], [Baja California -> Baja California]
+srcNodes: [40465, 130003, 195]
+  path: 0[195 -> 31014 -> 40465], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Carson City] 
+
+  path: 1[195 -> 31014 -> 90150 -> 30942 -> 130003], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[195 -> 195], [Boundary Peak Boundary Peak Sierra Nevada California  -> Boundary Peak Boundary Peak Sierra Nevada California ]
+srcNodes: [40465, 130025, 30991]
+  path: 0[90150 -> 31014 -> 40465], [Colorado -> Nevada -> Carson City] 
+
+  path: 1[90150 -> 31030 -> 130025], [Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[90150 -> 30991], [Colorado -> California] 
+
+srcNodes: [41254, 130025, 30991]
+  path: 0[20118 -> 31011 -> 41254], [United States -> Missouri -> Kansas City] 
+
+  path: 1[20118 -> 31030 -> 130025], [United States -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[20118 -> 30991], [United States -> California] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [30991, 30942, 195, 90150, 20118]
+ResultRelevs: [6.368360996246338, 6.3009819984436035, 4.088314056396484, 4.085090637207031, 4.085090637207031]
+AvgResultRelev: 4.985567665100097
+AvgResultDissimilarity: 0.7333333333333333
+Num of entries retrieved from the lists: 98
+Num of entries retrieved from NKMaps: 148
+Num of answer trees explored: 30
+
+Div Top-k Search by Exhustive, k=5
+[city, desert, california]
+srcNodes: [41904, 130003, 30991]
+  path: 0[30991 -> 41904], [California -> Norwalk] 
+
+  path: 1[30991 -> 90150 -> 30942 -> 130003], [California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30991 -> 30991], [California -> California]
+srcNodes: [42734, 130003, 30942]
+  path: 0[30942 -> 42734], [Baja California -> Tijuana] 
+
+  path: 1[30942 -> 130003], [Baja California -> Baja California Desert] 
+
+  path: 2[30942 -> 30942], [Baja California -> Baja California]
+srcNodes: [40465, 130003, 195]
+  path: 0[195 -> 31014 -> 40465], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Carson City] 
+
+  path: 1[195 -> 31014 -> 90150 -> 30942 -> 130003], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[195 -> 195], [Boundary Peak Boundary Peak Sierra Nevada California  -> Boundary Peak Boundary Peak Sierra Nevada California ]
+srcNodes: [40465, 130025, 30991]
+  path: 0[90150 -> 31014 -> 40465], [Colorado -> Nevada -> Carson City] 
+
+  path: 1[90150 -> 31030 -> 130025], [Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[90150 -> 30991], [Colorado -> California] 
+
+srcNodes: [41254, 130025, 30991]
+  path: 0[20118 -> 31011 -> 41254], [United States -> Missouri -> Kansas City] 
+
+  path: 1[20118 -> 31030 -> 130025], [United States -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[20118 -> 30991], [United States -> California] 
+
+-----------------------------------------
+ResultDestNodes: [30991, 30942, 195, 90150, 20118]
+ResultRelevs: [6.368360996246338, 6.3009819984436035, 4.088314056396484, 4.085090637207031, 4.085090637207031]
+AvgResultRelev: 4.985567665100097
+AvgResultDissimilarity: 0.7333333492279053
+Num of entries retrieved from the KNLists: 98
+Num of entries retrieved from NKMaps: 148
+Num of answer trees explored: 30
+Num of answer tree sets created: 31
+Num of answer tree sets removed: 30
+Max Num of answer tree sets in Q[]: 31
+
+Div Top-k Search by Astar0, k=5
+[city, desert, california]
+srcNodes: [41904, 130003, 30991]
+  path: 0[30991 -> 41904], [California -> Norwalk] 
+
+  path: 1[30991 -> 90150 -> 30942 -> 130003], [California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30991 -> 30991], [California -> California]
+srcNodes: [42734, 130003, 30942]
+  path: 0[30942 -> 42734], [Baja California -> Tijuana] 
+
+  path: 1[30942 -> 130003], [Baja California -> Baja California Desert] 
+
+  path: 2[30942 -> 30942], [Baja California -> Baja California]
+srcNodes: [40465, 130003, 195]
+  path: 0[195 -> 31014 -> 40465], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Carson City] 
+
+  path: 1[195 -> 31014 -> 90150 -> 30942 -> 130003], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[195 -> 195], [Boundary Peak Boundary Peak Sierra Nevada California  -> Boundary Peak Boundary Peak Sierra Nevada California ]
+srcNodes: [40465, 130025, 30991]
+  path: 0[90150 -> 31014 -> 40465], [Colorado -> Nevada -> Carson City] 
+
+  path: 1[90150 -> 31030 -> 130025], [Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[90150 -> 30991], [Colorado -> California] 
+
+srcNodes: [41254, 130025, 30991]
+  path: 0[20118 -> 31011 -> 41254], [United States -> Missouri -> Kansas City] 
+
+  path: 1[20118 -> 31030 -> 130025], [United States -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[20118 -> 30991], [United States -> California] 
+
+-----------------------------------------
+ResultDestNodes: [30991, 30942, 195, 90150, 20118]
+ResultRelevs: [6.368360996246338, 6.3009819984436035, 4.088314056396484, 4.085090637207031, 4.085090637207031]
+AvgResultRelev: 4.985567665100097
+AvgResultDissimilarity: 0.7333333333333333
+Num of entries retrieved from the KNLists: 98
+Num of entries retrieved from NKMaps: 148
+Num of answer trees explored: 30
+Num of states created: 16
+Num of states explored: 7
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 11
+
+Div Top-k Search by Astar1, k=5
+[city, desert, california]
+srcNodes: [41904, 130003, 30991]
+  path: 0[30991 -> 41904], [California -> Norwalk] 
+
+  path: 1[30991 -> 90150 -> 30942 -> 130003], [California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30991 -> 30991], [California -> California]
+srcNodes: [42734, 130003, 30942]
+  path: 0[30942 -> 42734], [Baja California -> Tijuana] 
+
+  path: 1[30942 -> 130003], [Baja California -> Baja California Desert] 
+
+  path: 2[30942 -> 30942], [Baja California -> Baja California]
+srcNodes: [40465, 130003, 195]
+  path: 0[195 -> 31014 -> 40465], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Carson City] 
+
+  path: 1[195 -> 31014 -> 90150 -> 30942 -> 130003], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[195 -> 195], [Boundary Peak Boundary Peak Sierra Nevada California  -> Boundary Peak Boundary Peak Sierra Nevada California ]
+srcNodes: [40465, 130025, 30991]
+  path: 0[90150 -> 31014 -> 40465], [Colorado -> Nevada -> Carson City] 
+
+  path: 1[90150 -> 31030 -> 130025], [Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[90150 -> 30991], [Colorado -> California] 
+
+srcNodes: [41254, 130025, 30991]
+  path: 0[20118 -> 31011 -> 41254], [United States -> Missouri -> Kansas City] 
+
+  path: 1[20118 -> 31030 -> 130025], [United States -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[20118 -> 30991], [United States -> California] 
+
+-----------------------------------------
+ResultDestNodes: [30991, 30942, 195, 90150, 20118]
+ResultRelevs: [6.368360996246338, 6.3009819984436035, 4.088314056396484, 4.085090637207031, 4.085090637207031]
+AvgResultRelev: 4.985567665100097
+AvgResultDissimilarity: 0.7333333333333333
+Num of entries retrieved from the KNLists: 98
+Num of entries retrieved from NKMaps: 148
+Num of answer trees explored: 30
+Num of states created: 16
+Num of states explored: 7
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 11
+
+Div Top-k Search by Astar12, k=5
+[city, desert, california]
+srcNodes: [41904, 130003, 30991]
+  path: 0[30991 -> 41904], [California -> Norwalk] 
+
+  path: 1[30991 -> 90150 -> 30942 -> 130003], [California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30991 -> 30991], [California -> California]
+srcNodes: [42734, 130003, 30942]
+  path: 0[30942 -> 42734], [Baja California -> Tijuana] 
+
+  path: 1[30942 -> 130003], [Baja California -> Baja California Desert] 
+
+  path: 2[30942 -> 30942], [Baja California -> Baja California]
+srcNodes: [40465, 130003, 195]
+  path: 0[195 -> 31014 -> 40465], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Carson City] 
+
+  path: 1[195 -> 31014 -> 90150 -> 30942 -> 130003], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[195 -> 195], [Boundary Peak Boundary Peak Sierra Nevada California  -> Boundary Peak Boundary Peak Sierra Nevada California ]
+srcNodes: [40465, 130025, 30991]
+  path: 0[90150 -> 31014 -> 40465], [Colorado -> Nevada -> Carson City] 
+
+  path: 1[90150 -> 31030 -> 130025], [Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[90150 -> 30991], [Colorado -> California] 
+
+srcNodes: [41254, 130025, 30991]
+  path: 0[20118 -> 31011 -> 41254], [United States -> Missouri -> Kansas City] 
+
+  path: 1[20118 -> 31030 -> 130025], [United States -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[20118 -> 30991], [United States -> California] 
+
+-----------------------------------------
+ResultDestNodes: [30991, 30942, 195, 90150, 20118]
+ResultRelevs: [6.368360996246338, 6.3009819984436035, 4.088314056396484, 4.085090637207031, 4.085090637207031]
+AvgResultRelev: 4.985567665100097
+AvgResultDissimilarity: 0.7333333333333333
+Num of entries retrieved from the KNLists: 98
+Num of entries retrieved from NKMaps: 148
+Num of answer trees explored: 30
+Num of states created: 16
+Num of states explored: 7
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 11
+
+Div Top-k Search by Astar0nc, k=5
+[city, desert, california]
+srcNodes: [41904, 130003, 30991]
+  path: 0[30991 -> 41904], [California -> Norwalk] 
+
+  path: 1[30991 -> 90150 -> 30942 -> 130003], [California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30991 -> 30991], [California -> California]
+srcNodes: [42734, 130003, 30942]
+  path: 0[30942 -> 42734], [Baja California -> Tijuana] 
+
+  path: 1[30942 -> 130003], [Baja California -> Baja California Desert] 
+
+  path: 2[30942 -> 30942], [Baja California -> Baja California]
+srcNodes: [40465, 130003, 195]
+  path: 0[195 -> 31014 -> 40465], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Carson City] 
+
+  path: 1[195 -> 31014 -> 90150 -> 30942 -> 130003], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[195 -> 195], [Boundary Peak Boundary Peak Sierra Nevada California  -> Boundary Peak Boundary Peak Sierra Nevada California ]
+srcNodes: [40465, 130025, 30991]
+  path: 0[90150 -> 31014 -> 40465], [Colorado -> Nevada -> Carson City] 
+
+  path: 1[90150 -> 31030 -> 130025], [Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[90150 -> 30991], [Colorado -> California] 
+
+srcNodes: [41254, 130025, 30991]
+  path: 0[20118 -> 31011 -> 41254], [United States -> Missouri -> Kansas City] 
+
+  path: 1[20118 -> 31030 -> 130025], [United States -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[20118 -> 30991], [United States -> California] 
+
+-----------------------------------------
+ResultDestNodes: [30991, 30942, 195, 90150, 20118]
+ResultRelevs: [6.368360996246338, 6.3009819984436035, 4.088314056396484, 4.085090637207031, 4.085090637207031]
+AvgResultRelev: 4.985567665100097
+AvgResultDissimilarity: 0.7333333333333333
+Num of entries retrieved from the KNLists: 98
+Num of entries retrieved from NKMaps: 148
+Num of answer trees explored: 30
+Num of states created: 16
+Num of states explored: 7
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 11
+
+Div Top-k Search by Astar1nc, k=5
+[city, desert, california]
+srcNodes: [41904, 130003, 30991]
+  path: 0[30991 -> 41904], [California -> Norwalk] 
+
+  path: 1[30991 -> 90150 -> 30942 -> 130003], [California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30991 -> 30991], [California -> California]
+srcNodes: [42734, 130003, 30942]
+  path: 0[30942 -> 42734], [Baja California -> Tijuana] 
+
+  path: 1[30942 -> 130003], [Baja California -> Baja California Desert] 
+
+  path: 2[30942 -> 30942], [Baja California -> Baja California]
+srcNodes: [40465, 130003, 195]
+  path: 0[195 -> 31014 -> 40465], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Carson City] 
+
+  path: 1[195 -> 31014 -> 90150 -> 30942 -> 130003], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[195 -> 195], [Boundary Peak Boundary Peak Sierra Nevada California  -> Boundary Peak Boundary Peak Sierra Nevada California ]
+srcNodes: [40465, 130025, 30991]
+  path: 0[90150 -> 31014 -> 40465], [Colorado -> Nevada -> Carson City] 
+
+  path: 1[90150 -> 31030 -> 130025], [Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[90150 -> 30991], [Colorado -> California] 
+
+srcNodes: [41254, 130025, 30991]
+  path: 0[20118 -> 31011 -> 41254], [United States -> Missouri -> Kansas City] 
+
+  path: 1[20118 -> 31030 -> 130025], [United States -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[20118 -> 30991], [United States -> California] 
+
+-----------------------------------------
+ResultDestNodes: [30991, 30942, 195, 90150, 20118]
+ResultRelevs: [6.368360996246338, 6.3009819984436035, 4.088314056396484, 4.085090637207031, 4.085090637207031]
+AvgResultRelev: 4.985567665100097
+AvgResultDissimilarity: 0.7333333333333333
+Num of entries retrieved from the KNLists: 98
+Num of entries retrieved from NKMaps: 148
+Num of answer trees explored: 30
+Num of states created: 16
+Num of states explored: 7
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 11
+
+Div Top-k Search by Astar12nc, k=5
+[city, desert, california]
+srcNodes: [41904, 130003, 30991]
+  path: 0[30991 -> 41904], [California -> Norwalk] 
+
+  path: 1[30991 -> 90150 -> 30942 -> 130003], [California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30991 -> 30991], [California -> California]
+srcNodes: [42734, 130003, 30942]
+  path: 0[30942 -> 42734], [Baja California -> Tijuana] 
+
+  path: 1[30942 -> 130003], [Baja California -> Baja California Desert] 
+
+  path: 2[30942 -> 30942], [Baja California -> Baja California]
+srcNodes: [40465, 130003, 195]
+  path: 0[195 -> 31014 -> 40465], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Carson City] 
+
+  path: 1[195 -> 31014 -> 90150 -> 30942 -> 130003], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[195 -> 195], [Boundary Peak Boundary Peak Sierra Nevada California  -> Boundary Peak Boundary Peak Sierra Nevada California ]
+srcNodes: [40465, 130025, 30991]
+  path: 0[90150 -> 31014 -> 40465], [Colorado -> Nevada -> Carson City] 
+
+  path: 1[90150 -> 31030 -> 130025], [Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[90150 -> 30991], [Colorado -> California] 
+
+srcNodes: [41254, 130025, 30991]
+  path: 0[20118 -> 31011 -> 41254], [United States -> Missouri -> Kansas City] 
+
+  path: 1[20118 -> 31030 -> 130025], [United States -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[20118 -> 30991], [United States -> California] 
+
+-----------------------------------------
+ResultDestNodes: [30991, 30942, 195, 90150, 20118]
+ResultRelevs: [6.368360996246338, 6.3009819984436035, 4.088314056396484, 4.085090637207031, 4.085090637207031]
+AvgResultRelev: 4.985567665100097
+AvgResultDissimilarity: 0.7333333333333333
+Num of entries retrieved from the KNLists: 98
+Num of entries retrieved from NKMaps: 148
+Num of answer trees explored: 30
+Num of states created: 16
+Num of states explored: 7
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 11
+
+Div Top-k Search by Astar1_ap, k=5
+[city, desert, california]
+srcNodes: [41904, 130003, 30991]
+  path: 0[30991 -> 41904], [California -> Norwalk] 
+
+  path: 1[30991 -> 90150 -> 30942 -> 130003], [California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30991 -> 30991], [California -> California]
+srcNodes: [42734, 130003, 30942]
+  path: 0[30942 -> 42734], [Baja California -> Tijuana] 
+
+  path: 1[30942 -> 130003], [Baja California -> Baja California Desert] 
+
+  path: 2[30942 -> 30942], [Baja California -> Baja California]
+srcNodes: [40465, 130003, 195]
+  path: 0[195 -> 31014 -> 40465], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Carson City] 
+
+  path: 1[195 -> 31014 -> 90150 -> 30942 -> 130003], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[195 -> 195], [Boundary Peak Boundary Peak Sierra Nevada California  -> Boundary Peak Boundary Peak Sierra Nevada California ]
+srcNodes: [40465, 130025, 30991]
+  path: 0[90150 -> 31014 -> 40465], [Colorado -> Nevada -> Carson City] 
+
+  path: 1[90150 -> 31030 -> 130025], [Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[90150 -> 30991], [Colorado -> California] 
+
+srcNodes: [41254, 130025, 30991]
+  path: 0[20118 -> 31011 -> 41254], [United States -> Missouri -> Kansas City] 
+
+  path: 1[20118 -> 31030 -> 130025], [United States -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[20118 -> 30991], [United States -> California] 
+
+-----------------------------------------
+ResultDestNodes: [30991, 30942, 195, 90150, 20118]
+ResultRelevs: [6.368360996246338, 6.3009819984436035, 4.088314056396484, 4.085090637207031, 4.085090637207031]
+AvgResultRelev: 4.985567665100097
+AvgResultDissimilarity: 0.7333333333333333
+Num of entries retrieved from the KNLists: 98
+Num of entries retrieved from NKMaps: 148
+Num of answer trees explored: 30
+Num of states created: 6
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+Div Top-k Search by Astar1nc_ap, k=5
+[city, desert, california]
+srcNodes: [41904, 130003, 30991]
+  path: 0[30991 -> 41904], [California -> Norwalk] 
+
+  path: 1[30991 -> 90150 -> 30942 -> 130003], [California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30991 -> 30991], [California -> California]
+srcNodes: [42734, 130003, 30942]
+  path: 0[30942 -> 42734], [Baja California -> Tijuana] 
+
+  path: 1[30942 -> 130003], [Baja California -> Baja California Desert] 
+
+  path: 2[30942 -> 30942], [Baja California -> Baja California]
+srcNodes: [40465, 130003, 195]
+  path: 0[195 -> 31014 -> 40465], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Carson City] 
+
+  path: 1[195 -> 31014 -> 90150 -> 30942 -> 130003], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[195 -> 195], [Boundary Peak Boundary Peak Sierra Nevada California  -> Boundary Peak Boundary Peak Sierra Nevada California ]
+srcNodes: [40465, 130025, 30991]
+  path: 0[90150 -> 31014 -> 40465], [Colorado -> Nevada -> Carson City] 
+
+  path: 1[90150 -> 31030 -> 130025], [Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[90150 -> 30991], [Colorado -> California] 
+
+srcNodes: [41254, 130025, 30991]
+  path: 0[20118 -> 31011 -> 41254], [United States -> Missouri -> Kansas City] 
+
+  path: 1[20118 -> 31030 -> 130025], [United States -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[20118 -> 30991], [United States -> California] 
+
+-----------------------------------------
+ResultDestNodes: [30991, 30942, 195, 90150, 20118]
+ResultRelevs: [6.368360996246338, 6.3009819984436035, 4.088314056396484, 4.085090637207031, 4.085090637207031]
+AvgResultRelev: 4.985567665100097
+AvgResultDissimilarity: 0.7333333333333333
+Num of entries retrieved from the KNLists: 98
+Num of entries retrieved from NKMaps: 148
+Num of answer trees explored: 30
+Num of states created: 6
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+query: [mountain, himalaya, india]
+Top-k Search by Blink-BDB, k=5
+[mountain, himalaya, india]
+srcNodes: [100, 127, 20065]
+  path: 0[20065 -> 30750 -> 100], [India -> Tamil Nadu -> Dodabetta Dodabetta West Ghats ] 
+
+  path: 1[20065 -> 30749 -> 127], [India -> Sikkim -> Kangchendzonga Kangchendzonga Himalaya ] 
+
+  path: 2[20065 -> 20065], [India -> India]
+srcNodes: [118, 118, 20065]
+  path: 0[118 -> 118], [Dhaulagiri Dhaulagiri Himalaya  -> Dhaulagiri Dhaulagiri Himalaya ]
+  path: 1[118 -> 118], [Dhaulagiri Dhaulagiri Himalaya  -> Dhaulagiri Dhaulagiri Himalaya ]
+  path: 2[118 -> 20079 -> 10002 -> 20065], [Dhaulagiri Dhaulagiri Himalaya  -> Nepal -> Asia -> India] 
+
+srcNodes: [120, 120, 20065]
+  path: 0[120 -> 120], [Manaslu Manaslu Himalaya  -> Manaslu Manaslu Himalaya ]
+  path: 1[120 -> 120], [Manaslu Manaslu Himalaya  -> Manaslu Manaslu Himalaya ]
+  path: 2[120 -> 20079 -> 10002 -> 20065], [Manaslu Manaslu Himalaya  -> Nepal -> Asia -> India] 
+
+srcNodes: [123, 123, 20065]
+  path: 0[123 -> 123], [Cho Oyu Cho Oyu Himalaya  -> Cho Oyu Cho Oyu Himalaya ]
+  path: 1[123 -> 123], [Cho Oyu Cho Oyu Himalaya  -> Cho Oyu Cho Oyu Himalaya ]
+  path: 2[123 -> 20079 -> 10002 -> 20065], [Cho Oyu Cho Oyu Himalaya  -> Nepal -> Asia -> India] 
+
+srcNodes: [119, 119, 20065]
+  path: 0[119 -> 119], [Annapurna Annapurna Himalaya  -> Annapurna Annapurna Himalaya ]
+  path: 1[119 -> 119], [Annapurna Annapurna Himalaya  -> Annapurna Annapurna Himalaya ]
+  path: 2[119 -> 20079 -> 10002 -> 20065], [Annapurna Annapurna Himalaya  -> Nepal -> Asia -> India] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [20065, 118, 120, 123, 119]
+ResultRelevs: [7.387740135192871, 7.214010238647461, 7.214010238647461, 7.214010238647461, 7.214010238647461]
+AvgResultRelev: 7.248756217956543
+AvgResultDissimilarity: 0.54
+Num of entries retrieved from the lists: 33
+Num of entries retrieved from NKMaps: 54
+Num of answer trees explored: 22
+
+Div Top-k Search by Exhustive, k=5
+[mountain, himalaya, india]
+srcNodes: [100, 127, 20065]
+  path: 0[20065 -> 30750 -> 100], [India -> Tamil Nadu -> Dodabetta Dodabetta West Ghats ] 
+
+  path: 1[20065 -> 30749 -> 127], [India -> Sikkim -> Kangchendzonga Kangchendzonga Himalaya ] 
+
+  path: 2[20065 -> 20065], [India -> India]
+srcNodes: [123, 123, 20065]
+  path: 0[123 -> 123], [Cho Oyu Cho Oyu Himalaya  -> Cho Oyu Cho Oyu Himalaya ]
+  path: 1[123 -> 123], [Cho Oyu Cho Oyu Himalaya  -> Cho Oyu Cho Oyu Himalaya ]
+  path: 2[123 -> 20079 -> 10002 -> 20065], [Cho Oyu Cho Oyu Himalaya  -> Nepal -> Asia -> India] 
+
+srcNodes: [120, 120, 20065]
+  path: 0[120 -> 120], [Manaslu Manaslu Himalaya  -> Manaslu Manaslu Himalaya ]
+  path: 1[120 -> 120], [Manaslu Manaslu Himalaya  -> Manaslu Manaslu Himalaya ]
+  path: 2[120 -> 20079 -> 10002 -> 20065], [Manaslu Manaslu Himalaya  -> Nepal -> Asia -> India] 
+
+srcNodes: [124, 124, 20065]
+  path: 0[124 -> 124], [Mount Everest Mount Everest Himalaya  -> Mount Everest Mount Everest Himalaya ]
+  path: 1[124 -> 124], [Mount Everest Mount Everest Himalaya  -> Mount Everest Mount Everest Himalaya ]
+  path: 2[124 -> 20079 -> 10002 -> 20065], [Mount Everest Mount Everest Himalaya  -> Nepal -> Asia -> India] 
+
+srcNodes: [5, 126, 50130]
+  path: 0[20035 -> 30467 -> 5], [Finland -> Lappia -> Haltiatunturi Haltiatunturi  ] 
+
+  path: 1[20035 -> 10004 -> 20031 -> 10002 -> 20079 -> 126], [Finland -> Europe -> Turkey -> Asia -> Nepal -> Makalu Makalu Himalaya ] 
+
+  path: 2[20035 -> 50130], [Finland -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+-----------------------------------------
+ResultDestNodes: [20065, 123, 120, 124, 20035]
+ResultRelevs: [7.387740135192871, 7.214010238647461, 7.214010238647461, 7.214010238647461, 2.8737950325012207]
+AvgResultRelev: 6.380713176727295
+AvgResultDissimilarity: 0.7300000190734863
+Num of entries retrieved from the KNLists: 763
+Num of entries retrieved from NKMaps: 884
+Num of answer trees explored: 290
+Num of answer tree sets created: 7434830
+Num of answer tree sets removed: 3356847
+Max Num of answer tree sets in Q[]: 7434830
+
+Div Top-k Search by Astar0, k=5
+[mountain, himalaya, india]
+srcNodes: [100, 127, 20065]
+  path: 0[20065 -> 30750 -> 100], [India -> Tamil Nadu -> Dodabetta Dodabetta West Ghats ] 
+
+  path: 1[20065 -> 30749 -> 127], [India -> Sikkim -> Kangchendzonga Kangchendzonga Himalaya ] 
+
+  path: 2[20065 -> 20065], [India -> India]
+srcNodes: [120, 120, 20065]
+  path: 0[120 -> 120], [Manaslu Manaslu Himalaya  -> Manaslu Manaslu Himalaya ]
+  path: 1[120 -> 120], [Manaslu Manaslu Himalaya  -> Manaslu Manaslu Himalaya ]
+  path: 2[120 -> 20079 -> 10002 -> 20065], [Manaslu Manaslu Himalaya  -> Nepal -> Asia -> India] 
+
+srcNodes: [118, 118, 20065]
+  path: 0[118 -> 118], [Dhaulagiri Dhaulagiri Himalaya  -> Dhaulagiri Dhaulagiri Himalaya ]
+  path: 1[118 -> 118], [Dhaulagiri Dhaulagiri Himalaya  -> Dhaulagiri Dhaulagiri Himalaya ]
+  path: 2[118 -> 20079 -> 10002 -> 20065], [Dhaulagiri Dhaulagiri Himalaya  -> Nepal -> Asia -> India] 
+
+srcNodes: [119, 119, 20065]
+  path: 0[119 -> 119], [Annapurna Annapurna Himalaya  -> Annapurna Annapurna Himalaya ]
+  path: 1[119 -> 119], [Annapurna Annapurna Himalaya  -> Annapurna Annapurna Himalaya ]
+  path: 2[119 -> 20079 -> 10002 -> 20065], [Annapurna Annapurna Himalaya  -> Nepal -> Asia -> India] 
+
+srcNodes: [5, 126, 50130]
+  path: 0[20035 -> 30467 -> 5], [Finland -> Lappia -> Haltiatunturi Haltiatunturi  ] 
+
+  path: 1[20035 -> 10004 -> 20031 -> 10002 -> 20079 -> 126], [Finland -> Europe -> Turkey -> Asia -> Nepal -> Makalu Makalu Himalaya ] 
+
+  path: 2[20035 -> 50130], [Finland -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+-----------------------------------------
+ResultDestNodes: [20065, 120, 118, 119, 20035]
+ResultRelevs: [7.387740135192871, 7.214010238647461, 7.214010238647461, 7.214010238647461, 2.8737950325012207]
+AvgResultRelev: 6.380713176727295
+AvgResultDissimilarity: 0.73
+Num of entries retrieved from the KNLists: 763
+Num of entries retrieved from NKMaps: 884
+Num of answer trees explored: 290
+Num of states created: 102829167
+Num of states explored: 102815998
+Num of heuristic search performed: 106
+Max Num of answer tree sets in Q[]: 1037277
+
+Div Top-k Search by Astar1, k=5
+[mountain, himalaya, india]
+srcNodes: [100, 127, 20065]
+  path: 0[20065 -> 30750 -> 100], [India -> Tamil Nadu -> Dodabetta Dodabetta West Ghats ] 
+
+  path: 1[20065 -> 30749 -> 127], [India -> Sikkim -> Kangchendzonga Kangchendzonga Himalaya ] 
+
+  path: 2[20065 -> 20065], [India -> India]
+srcNodes: [120, 120, 20065]
+  path: 0[120 -> 120], [Manaslu Manaslu Himalaya  -> Manaslu Manaslu Himalaya ]
+  path: 1[120 -> 120], [Manaslu Manaslu Himalaya  -> Manaslu Manaslu Himalaya ]
+  path: 2[120 -> 20079 -> 10002 -> 20065], [Manaslu Manaslu Himalaya  -> Nepal -> Asia -> India] 
+
+srcNodes: [118, 118, 20065]
+  path: 0[118 -> 118], [Dhaulagiri Dhaulagiri Himalaya  -> Dhaulagiri Dhaulagiri Himalaya ]
+  path: 1[118 -> 118], [Dhaulagiri Dhaulagiri Himalaya  -> Dhaulagiri Dhaulagiri Himalaya ]
+  path: 2[118 -> 20079 -> 10002 -> 20065], [Dhaulagiri Dhaulagiri Himalaya  -> Nepal -> Asia -> India] 
+
+srcNodes: [119, 119, 20065]
+  path: 0[119 -> 119], [Annapurna Annapurna Himalaya  -> Annapurna Annapurna Himalaya ]
+  path: 1[119 -> 119], [Annapurna Annapurna Himalaya  -> Annapurna Annapurna Himalaya ]
+  path: 2[119 -> 20079 -> 10002 -> 20065], [Annapurna Annapurna Himalaya  -> Nepal -> Asia -> India] 
+
+srcNodes: [5, 126, 50130]
+  path: 0[20035 -> 30467 -> 5], [Finland -> Lappia -> Haltiatunturi Haltiatunturi  ] 
+
+  path: 1[20035 -> 10004 -> 20031 -> 10002 -> 20079 -> 126], [Finland -> Europe -> Turkey -> Asia -> Nepal -> Makalu Makalu Himalaya ] 
+
+  path: 2[20035 -> 50130], [Finland -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+-----------------------------------------
+ResultDestNodes: [20065, 120, 118, 119, 20035]
+ResultRelevs: [7.387740135192871, 7.214010238647461, 7.214010238647461, 7.214010238647461, 2.8737950325012207]
+AvgResultRelev: 6.380713176727295
+AvgResultDissimilarity: 0.73
+Num of entries retrieved from the KNLists: 763
+Num of entries retrieved from NKMaps: 884
+Num of answer trees explored: 290
+Num of states created: 643627
+Num of states explored: 17273
+Num of heuristic search performed: 106
+Max Num of answer tree sets in Q[]: 13176
+
+Div Top-k Search by Astar12, k=5
+[mountain, himalaya, india]
+srcNodes: [100, 127, 20065]
+  path: 0[20065 -> 30750 -> 100], [India -> Tamil Nadu -> Dodabetta Dodabetta West Ghats ] 
+
+  path: 1[20065 -> 30749 -> 127], [India -> Sikkim -> Kangchendzonga Kangchendzonga Himalaya ] 
+
+  path: 2[20065 -> 20065], [India -> India]
+srcNodes: [120, 120, 20065]
+  path: 0[120 -> 120], [Manaslu Manaslu Himalaya  -> Manaslu Manaslu Himalaya ]
+  path: 1[120 -> 120], [Manaslu Manaslu Himalaya  -> Manaslu Manaslu Himalaya ]
+  path: 2[120 -> 20079 -> 10002 -> 20065], [Manaslu Manaslu Himalaya  -> Nepal -> Asia -> India] 
+
+srcNodes: [118, 118, 20065]
+  path: 0[118 -> 118], [Dhaulagiri Dhaulagiri Himalaya  -> Dhaulagiri Dhaulagiri Himalaya ]
+  path: 1[118 -> 118], [Dhaulagiri Dhaulagiri Himalaya  -> Dhaulagiri Dhaulagiri Himalaya ]
+  path: 2[118 -> 20079 -> 10002 -> 20065], [Dhaulagiri Dhaulagiri Himalaya  -> Nepal -> Asia -> India] 
+
+srcNodes: [119, 119, 20065]
+  path: 0[119 -> 119], [Annapurna Annapurna Himalaya  -> Annapurna Annapurna Himalaya ]
+  path: 1[119 -> 119], [Annapurna Annapurna Himalaya  -> Annapurna Annapurna Himalaya ]
+  path: 2[119 -> 20079 -> 10002 -> 20065], [Annapurna Annapurna Himalaya  -> Nepal -> Asia -> India] 
+
+srcNodes: [5, 126, 50130]
+  path: 0[20035 -> 30467 -> 5], [Finland -> Lappia -> Haltiatunturi Haltiatunturi  ] 
+
+  path: 1[20035 -> 10004 -> 20031 -> 10002 -> 20079 -> 126], [Finland -> Europe -> Turkey -> Asia -> Nepal -> Makalu Makalu Himalaya ] 
+
+  path: 2[20035 -> 50130], [Finland -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+-----------------------------------------
+ResultDestNodes: [20065, 120, 118, 119, 20035]
+ResultRelevs: [7.387740135192871, 7.214010238647461, 7.214010238647461, 7.214010238647461, 2.8737950325012207]
+AvgResultRelev: 6.380713176727295
+AvgResultDissimilarity: 0.73
+Num of entries retrieved from the KNLists: 763
+Num of entries retrieved from NKMaps: 884
+Num of answer trees explored: 290
+Num of states created: 643627
+Num of states explored: 17273
+Num of heuristic search performed: 106
+Max Num of answer tree sets in Q[]: 13176
+

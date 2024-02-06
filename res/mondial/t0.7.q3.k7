@@ -1,0 +1,286 @@
+query: [city, desert, california]
+Top-k Search by Blink-BDB, k=7
+[city, desert, california]
+srcNodes: [41904, 130003, 30991]
+  path: 0[30991 -> 41904], [California -> Norwalk] 
+
+  path: 1[30991 -> 90150 -> 30942 -> 130003], [California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30991 -> 30991], [California -> California]
+srcNodes: [42734, 130003, 30942]
+  path: 0[30942 -> 42734], [Baja California -> Tijuana] 
+
+  path: 1[30942 -> 130003], [Baja California -> Baja California Desert] 
+
+  path: 2[30942 -> 30942], [Baja California -> Baja California]
+srcNodes: [40465, 130003, 195]
+  path: 0[195 -> 31014 -> 40465], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Carson City] 
+
+  path: 1[195 -> 31014 -> 90150 -> 30942 -> 130003], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[195 -> 195], [Boundary Peak Boundary Peak Sierra Nevada California  -> Boundary Peak Boundary Peak Sierra Nevada California ]
+srcNodes: [41254, 130025, 30991]
+  path: 0[20118 -> 31011 -> 41254], [United States -> Missouri -> Kansas City] 
+
+  path: 1[20118 -> 31030 -> 130025], [United States -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[20118 -> 30991], [United States -> California] 
+
+srcNodes: [40465, 130025, 30991]
+  path: 0[90150 -> 31014 -> 40465], [Colorado -> Nevada -> Carson City] 
+
+  path: 1[90150 -> 31030 -> 130025], [Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[90150 -> 30991], [Colorado -> California] 
+
+srcNodes: [42332, 130025, 30991]
+  path: 0[31030 -> 42332], [Utah -> Salt Lake City] 
+
+  path: 1[31030 -> 130025], [Utah -> Great Salt Lake Desert] 
+
+  path: 2[31030 -> 90150 -> 30991], [Utah -> Colorado -> California] 
+
+srcNodes: [40609, 130003, 194]
+  path: 0[194 -> 30991 -> 40609], [Mt Whitney Mt Whitney Sierra Nevada California  -> California -> Concord] 
+
+  path: 1[194 -> 30991 -> 90150 -> 30942 -> 130003], [Mt Whitney Mt Whitney Sierra Nevada California  -> California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[194 -> 194], [Mt Whitney Mt Whitney Sierra Nevada California  -> Mt Whitney Mt Whitney Sierra Nevada California ]
+-----------------------------------------
+Num of top-k answers: 7
+ResultDestNodes: [30991, 30942, 195, 20118, 90150, 31030, 194]
+ResultRelevs: [6.368360996246338, 6.3009819984436035, 4.088314056396484, 4.085090637207031, 4.085090637207031, 4.083251953125, 4.040327072143555]
+AvgResultRelev: 4.721631050109863
+AvgResultDissimilarity: 0.746031746031746
+Num of entries retrieved from the lists: 98
+Num of entries retrieved from NKMaps: 148
+Num of answer trees explored: 30
+
+Div Top-k Search by Exhustive, k=7
+[city, desert, california]
+srcNodes: [41904, 130003, 30991]
+  path: 0[30991 -> 41904], [California -> Norwalk] 
+
+  path: 1[30991 -> 90150 -> 30942 -> 130003], [California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30991 -> 30991], [California -> California]
+srcNodes: [42734, 130003, 30942]
+  path: 0[30942 -> 42734], [Baja California -> Tijuana] 
+
+  path: 1[30942 -> 130003], [Baja California -> Baja California Desert] 
+
+  path: 2[30942 -> 30942], [Baja California -> Baja California]
+srcNodes: [40465, 130003, 195]
+  path: 0[195 -> 31014 -> 40465], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Carson City] 
+
+  path: 1[195 -> 31014 -> 90150 -> 30942 -> 130003], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[195 -> 195], [Boundary Peak Boundary Peak Sierra Nevada California  -> Boundary Peak Boundary Peak Sierra Nevada California ]
+srcNodes: [40465, 130025, 30991]
+  path: 0[90150 -> 31014 -> 40465], [Colorado -> Nevada -> Carson City] 
+
+  path: 1[90150 -> 31030 -> 130025], [Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[90150 -> 30991], [Colorado -> California] 
+
+srcNodes: [41254, 130025, 30991]
+  path: 0[20118 -> 31011 -> 41254], [United States -> Missouri -> Kansas City] 
+
+  path: 1[20118 -> 31030 -> 130025], [United States -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[20118 -> 30991], [United States -> California] 
+
+srcNodes: [42332, 130025, 30991]
+  path: 0[31030 -> 42332], [Utah -> Salt Lake City] 
+
+  path: 1[31030 -> 130025], [Utah -> Great Salt Lake Desert] 
+
+  path: 2[31030 -> 90150 -> 30991], [Utah -> Colorado -> California] 
+
+srcNodes: [40609, 130003, 194]
+  path: 0[194 -> 30991 -> 40609], [Mt Whitney Mt Whitney Sierra Nevada California  -> California -> Concord] 
+
+  path: 1[194 -> 30991 -> 90150 -> 30942 -> 130003], [Mt Whitney Mt Whitney Sierra Nevada California  -> California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[194 -> 194], [Mt Whitney Mt Whitney Sierra Nevada California  -> Mt Whitney Mt Whitney Sierra Nevada California ]
+-----------------------------------------
+ResultDestNodes: [30991, 30942, 195, 90150, 20118, 31030, 194]
+ResultRelevs: [6.368360996246338, 6.3009819984436035, 4.088314056396484, 4.085090637207031, 4.085090637207031, 4.083251953125, 4.040327072143555]
+AvgResultRelev: 4.721631050109863
+AvgResultDissimilarity: 0.7460317611694336
+Num of entries retrieved from the KNLists: 98
+Num of entries retrieved from NKMaps: 148
+Num of answer trees explored: 30
+Num of answer tree sets created: 127
+Num of answer tree sets removed: 0
+Max Num of answer tree sets in Q[]: 127
+
+Div Top-k Search by Astar02, k=7
+[city, desert, california]
+srcNodes: [41904, 130003, 30991]
+  path: 0[30991 -> 41904], [California -> Norwalk] 
+
+  path: 1[30991 -> 90150 -> 30942 -> 130003], [California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30991 -> 30991], [California -> California]
+srcNodes: [42734, 130003, 30942]
+  path: 0[30942 -> 42734], [Baja California -> Tijuana] 
+
+  path: 1[30942 -> 130003], [Baja California -> Baja California Desert] 
+
+  path: 2[30942 -> 30942], [Baja California -> Baja California]
+srcNodes: [40465, 130003, 195]
+  path: 0[195 -> 31014 -> 40465], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Carson City] 
+
+  path: 1[195 -> 31014 -> 90150 -> 30942 -> 130003], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[195 -> 195], [Boundary Peak Boundary Peak Sierra Nevada California  -> Boundary Peak Boundary Peak Sierra Nevada California ]
+srcNodes: [40465, 130025, 30991]
+  path: 0[90150 -> 31014 -> 40465], [Colorado -> Nevada -> Carson City] 
+
+  path: 1[90150 -> 31030 -> 130025], [Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[90150 -> 30991], [Colorado -> California] 
+
+srcNodes: [41254, 130025, 30991]
+  path: 0[20118 -> 31011 -> 41254], [United States -> Missouri -> Kansas City] 
+
+  path: 1[20118 -> 31030 -> 130025], [United States -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[20118 -> 30991], [United States -> California] 
+
+srcNodes: [42332, 130025, 30991]
+  path: 0[31030 -> 42332], [Utah -> Salt Lake City] 
+
+  path: 1[31030 -> 130025], [Utah -> Great Salt Lake Desert] 
+
+  path: 2[31030 -> 90150 -> 30991], [Utah -> Colorado -> California] 
+
+srcNodes: [40609, 130003, 194]
+  path: 0[194 -> 30991 -> 40609], [Mt Whitney Mt Whitney Sierra Nevada California  -> California -> Concord] 
+
+  path: 1[194 -> 30991 -> 90150 -> 30942 -> 130003], [Mt Whitney Mt Whitney Sierra Nevada California  -> California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[194 -> 194], [Mt Whitney Mt Whitney Sierra Nevada California  -> Mt Whitney Mt Whitney Sierra Nevada California ]
+-----------------------------------------
+ResultDestNodes: [30991, 30942, 195, 90150, 20118, 31030, 194]
+ResultRelevs: [6.368360996246338, 6.3009819984436035, 4.088314056396484, 4.085090637207031, 4.085090637207031, 4.083251953125, 4.040327072143555]
+AvgResultRelev: 4.721631050109863
+AvgResultDissimilarity: 0.746031746031746
+Num of entries retrieved from the KNLists: 98
+Num of entries retrieved from NKMaps: 148
+Num of answer trees explored: 30
+Num of states created: 29
+Num of states explored: 8
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 22
+
+Div Top-k Search by Astar1nc_ap, k=7
+[city, desert, california]
+srcNodes: [41904, 130003, 30991]
+  path: 0[30991 -> 41904], [California -> Norwalk] 
+
+  path: 1[30991 -> 90150 -> 30942 -> 130003], [California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30991 -> 30991], [California -> California]
+srcNodes: [42734, 130003, 30942]
+  path: 0[30942 -> 42734], [Baja California -> Tijuana] 
+
+  path: 1[30942 -> 130003], [Baja California -> Baja California Desert] 
+
+  path: 2[30942 -> 30942], [Baja California -> Baja California]
+srcNodes: [40465, 130003, 195]
+  path: 0[195 -> 31014 -> 40465], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Carson City] 
+
+  path: 1[195 -> 31014 -> 90150 -> 30942 -> 130003], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[195 -> 195], [Boundary Peak Boundary Peak Sierra Nevada California  -> Boundary Peak Boundary Peak Sierra Nevada California ]
+srcNodes: [40465, 130025, 30991]
+  path: 0[90150 -> 31014 -> 40465], [Colorado -> Nevada -> Carson City] 
+
+  path: 1[90150 -> 31030 -> 130025], [Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[90150 -> 30991], [Colorado -> California] 
+
+srcNodes: [41254, 130025, 30991]
+  path: 0[20118 -> 31011 -> 41254], [United States -> Missouri -> Kansas City] 
+
+  path: 1[20118 -> 31030 -> 130025], [United States -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[20118 -> 30991], [United States -> California] 
+
+srcNodes: [42332, 130025, 30991]
+  path: 0[31030 -> 42332], [Utah -> Salt Lake City] 
+
+  path: 1[31030 -> 130025], [Utah -> Great Salt Lake Desert] 
+
+  path: 2[31030 -> 90150 -> 30991], [Utah -> Colorado -> California] 
+
+srcNodes: [40609, 130003, 194]
+  path: 0[194 -> 30991 -> 40609], [Mt Whitney Mt Whitney Sierra Nevada California  -> California -> Concord] 
+
+  path: 1[194 -> 30991 -> 90150 -> 30942 -> 130003], [Mt Whitney Mt Whitney Sierra Nevada California  -> California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[194 -> 194], [Mt Whitney Mt Whitney Sierra Nevada California  -> Mt Whitney Mt Whitney Sierra Nevada California ]
+-----------------------------------------
+ResultDestNodes: [30991, 30942, 195, 90150, 20118, 31030, 194]
+ResultRelevs: [6.368360996246338, 6.3009819984436035, 4.088314056396484, 4.085090637207031, 4.085090637207031, 4.083251953125, 4.040327072143555]
+AvgResultRelev: 4.721631050109863
+AvgResultDissimilarity: 0.746031746031746
+Num of entries retrieved from the KNLists: 98
+Num of entries retrieved from NKMaps: 148
+Num of answer trees explored: 30
+Num of states created: 8
+Num of states explored: 8
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+query: [mountain, himalaya, india]
+Top-k Search by Blink-BDB, k=7
+[mountain, himalaya, india]
+srcNodes: [100, 127, 20065]
+  path: 0[20065 -> 30750 -> 100], [India -> Tamil Nadu -> Dodabetta Dodabetta West Ghats ] 
+
+  path: 1[20065 -> 30749 -> 127], [India -> Sikkim -> Kangchendzonga Kangchendzonga Himalaya ] 
+
+  path: 2[20065 -> 20065], [India -> India]
+srcNodes: [125, 125, 20065]
+  path: 0[125 -> 125], [Lhotse Lhotse Himalaya  -> Lhotse Lhotse Himalaya ]
+  path: 1[125 -> 125], [Lhotse Lhotse Himalaya  -> Lhotse Lhotse Himalaya ]
+  path: 2[125 -> 20079 -> 10002 -> 20065], [Lhotse Lhotse Himalaya  -> Nepal -> Asia -> India] 
+
+srcNodes: [120, 120, 20065]
+  path: 0[120 -> 120], [Manaslu Manaslu Himalaya  -> Manaslu Manaslu Himalaya ]
+  path: 1[120 -> 120], [Manaslu Manaslu Himalaya  -> Manaslu Manaslu Himalaya ]
+  path: 2[120 -> 20079 -> 10002 -> 20065], [Manaslu Manaslu Himalaya  -> Nepal -> Asia -> India] 
+
+srcNodes: [123, 123, 20065]
+  path: 0[123 -> 123], [Cho Oyu Cho Oyu Himalaya  -> Cho Oyu Cho Oyu Himalaya ]
+  path: 1[123 -> 123], [Cho Oyu Cho Oyu Himalaya  -> Cho Oyu Cho Oyu Himalaya ]
+  path: 2[123 -> 20079 -> 10002 -> 20065], [Cho Oyu Cho Oyu Himalaya  -> Nepal -> Asia -> India] 
+
+srcNodes: [118, 118, 20065]
+  path: 0[118 -> 118], [Dhaulagiri Dhaulagiri Himalaya  -> Dhaulagiri Dhaulagiri Himalaya ]
+  path: 1[118 -> 118], [Dhaulagiri Dhaulagiri Himalaya  -> Dhaulagiri Dhaulagiri Himalaya ]
+  path: 2[118 -> 20079 -> 10002 -> 20065], [Dhaulagiri Dhaulagiri Himalaya  -> Nepal -> Asia -> India] 
+
+srcNodes: [119, 119, 20065]
+  path: 0[119 -> 119], [Annapurna Annapurna Himalaya  -> Annapurna Annapurna Himalaya ]
+  path: 1[119 -> 119], [Annapurna Annapurna Himalaya  -> Annapurna Annapurna Himalaya ]
+  path: 2[119 -> 20079 -> 10002 -> 20065], [Annapurna Annapurna Himalaya  -> Nepal -> Asia -> India] 
+
+srcNodes: [124, 124, 20065]
+  path: 0[124 -> 124], [Mount Everest Mount Everest Himalaya  -> Mount Everest Mount Everest Himalaya ]
+  path: 1[124 -> 124], [Mount Everest Mount Everest Himalaya  -> Mount Everest Mount Everest Himalaya ]
+  path: 2[124 -> 20079 -> 10002 -> 20065], [Mount Everest Mount Everest Himalaya  -> Nepal -> Asia -> India] 
+
+-----------------------------------------
+Num of top-k answers: 7
+ResultDestNodes: [20065, 125, 120, 123, 118, 119, 124]
+ResultRelevs: [7.387740135192871, 7.214010238647461, 7.214010238647461, 7.214010238647461, 7.214010238647461, 7.214010238647461, 7.214010238647461]
+AvgResultRelev: 7.238828795296805
+AvgResultDissimilarity: 0.5285714285714286
+Num of entries retrieved from the lists: 33
+Num of entries retrieved from NKMaps: 54
+Num of answer trees explored: 22
+

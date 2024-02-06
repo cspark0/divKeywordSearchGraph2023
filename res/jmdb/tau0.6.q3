@@ -1,0 +1,2849 @@
+query: [disaster, sacrifice, hero]
+Top-k Search by Blink-BDB, k=5
+[disaster, sacrifice, hero]
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[1330956 -> 1330956], [Disaster! (2006) -> Disaster! (2006)]
+  path: 1[1330956 -> 2240326 -> 1763648 -> 2242199 -> 1806449], [Disaster! (2006) -> Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[1330956 -> 2240326 -> 112029 -> 2001445 -> 1747558], [Disaster! (2006) -> Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1680609 -> 2065348 -> 1782878 -> 2240326 -> 1330956], [Sacrifice (2011/I) -> Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1680609 -> 1680609], [Sacrifice (2011/I) -> Sacrifice (2011/I)]
+  path: 2[1680609 -> 2127977 -> 1423271], [Sacrifice (2011/I) -> Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2065348 -> 1782878 -> 2240326 -> 1330956], [Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2065348 -> 1680609], [Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[2065348 -> 1423271], [Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2127977 -> 1630220 -> 2240326 -> 1330956], [Gooding Jr., Cuba -> Pearl Harbor (2001) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2127977 -> 1680609], [Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[2127977 -> 1423271], [Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1423271 -> 2324634 -> 1796034 -> 2197237 -> 1330956], [Hero Wanted (2008) -> Campbell, Christa -> The New Guy (2002) -> Lee, Tommy (VI) -> Disaster! (2006)] 
+
+  path: 1[1423271 -> 2127977 -> 1680609], [Hero Wanted (2008) -> Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[1423271 -> 1423271], [Hero Wanted (2008) -> Hero Wanted (2008)]
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [1330956, 1680609, 2065348, 2127977, 1423271]
+ResultRelevs: [7.624281883239746, 7.562954902648926, 7.480304718017578, 7.480304718017578, 7.326974868774414]
+AvgResultRelev: 7.494964218139648
+AvgResultDissimilarity: 0.32
+Num of entries retrieved from the lists: 865
+Num of entries retrieved from NKMaps: 1346
+Num of answer trees explored: 469
+
+Div Top-k Search by Exhustive, k=5
+[disaster, sacrifice, hero]
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[1330956 -> 1330956], [Disaster! (2006) -> Disaster! (2006)]
+  path: 1[1330956 -> 2240326 -> 1763648 -> 2242199 -> 1806449], [Disaster! (2006) -> Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[1330956 -> 2240326 -> 112029 -> 2001445 -> 1747558], [Disaster! (2006) -> Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1680609 -> 2065348 -> 1782878 -> 2240326 -> 1330956], [Sacrifice (2011/I) -> Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1680609 -> 1680609], [Sacrifice (2011/I) -> Sacrifice (2011/I)]
+  path: 2[1680609 -> 2127977 -> 1423271], [Sacrifice (2011/I) -> Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2065348 -> 1782878 -> 2240326 -> 1330956], [Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2065348 -> 1680609], [Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[2065348 -> 1423271], [Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2127977 -> 1630220 -> 2240326 -> 1330956], [Gooding Jr., Cuba -> Pearl Harbor (2001) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2127977 -> 1680609], [Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[2127977 -> 1423271], [Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330948, 1806449, 1423248]
+  path: 0[1330948 -> 1330948], [Disaster Movie (2008) -> Disaster Movie (2008)]
+  path: 1[1330948 -> 2072180 -> 1779601 -> 2289409 -> 1806449], [Disaster Movie (2008) -> Cox, Tony (I) -> The Hebrew Hammer (2003) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1330948 -> 2141400 -> 1532726 -> 2438526 -> 1423248], [Disaster Movie (2008) -> Harpster, Noah -> Little Black Book (2004) -> Nicholson, Julianne -> Hero (2000)] 
+
+-----------------------------------------
+ResultDestNodes: [1330956, 1680609, 2065348, 2127977, 1330948]
+ResultRelevs: [7.624281883239746, 7.562954902648926, 7.480304718017578, 7.480304718017578, 6.831882953643799]
+AvgResultRelev: 7.395945835113525
+AvgResultDissimilarity: 0.6200000286102295
+Num of entries retrieved from the KNLists: 1642
+Num of entries retrieved from NKMaps: 2732
+Num of answer trees explored: 1031
+Num of answer tree sets created: 59
+Num of answer tree sets removed: 33
+Max Num of answer tree sets in Q[]: 59
+
+Div Top-k Search by Astar0, k=5
+[disaster, sacrifice, hero]
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[1330956 -> 1330956], [Disaster! (2006) -> Disaster! (2006)]
+  path: 1[1330956 -> 2240326 -> 1763648 -> 2242199 -> 1806449], [Disaster! (2006) -> Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[1330956 -> 2240326 -> 112029 -> 2001445 -> 1747558], [Disaster! (2006) -> Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1680609 -> 2065348 -> 1782878 -> 2240326 -> 1330956], [Sacrifice (2011/I) -> Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1680609 -> 1680609], [Sacrifice (2011/I) -> Sacrifice (2011/I)]
+  path: 2[1680609 -> 2127977 -> 1423271], [Sacrifice (2011/I) -> Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2065348 -> 1782878 -> 2240326 -> 1330956], [Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2065348 -> 1680609], [Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[2065348 -> 1423271], [Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2127977 -> 1630220 -> 2240326 -> 1330956], [Gooding Jr., Cuba -> Pearl Harbor (2001) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2127977 -> 1680609], [Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[2127977 -> 1423271], [Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330948, 1806449, 1423248]
+  path: 0[1330948 -> 1330948], [Disaster Movie (2008) -> Disaster Movie (2008)]
+  path: 1[1330948 -> 2072180 -> 1779601 -> 2289409 -> 1806449], [Disaster Movie (2008) -> Cox, Tony (I) -> The Hebrew Hammer (2003) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1330948 -> 2141400 -> 1532726 -> 2438526 -> 1423248], [Disaster Movie (2008) -> Harpster, Noah -> Little Black Book (2004) -> Nicholson, Julianne -> Hero (2000)] 
+
+-----------------------------------------
+ResultDestNodes: [1330956, 1680609, 2065348, 2127977, 1330948]
+ResultRelevs: [7.624281883239746, 7.562954902648926, 7.480304718017578, 7.480304718017578, 6.831882953643799]
+AvgResultRelev: 7.395945835113525
+AvgResultDissimilarity: 0.62
+Num of entries retrieved from the KNLists: 1642
+Num of entries retrieved from NKMaps: 2732
+Num of answer trees explored: 1031
+Num of states created: 14
+Num of states explored: 10
+Num of heuristic search performed: 2
+Max Num of answer tree sets in Q[]: 5
+
+Div Top-k Search by Astar1, k=5
+[disaster, sacrifice, hero]
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[1330956 -> 1330956], [Disaster! (2006) -> Disaster! (2006)]
+  path: 1[1330956 -> 2240326 -> 1763648 -> 2242199 -> 1806449], [Disaster! (2006) -> Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[1330956 -> 2240326 -> 112029 -> 2001445 -> 1747558], [Disaster! (2006) -> Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1680609 -> 2065348 -> 1782878 -> 2240326 -> 1330956], [Sacrifice (2011/I) -> Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1680609 -> 1680609], [Sacrifice (2011/I) -> Sacrifice (2011/I)]
+  path: 2[1680609 -> 2127977 -> 1423271], [Sacrifice (2011/I) -> Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2065348 -> 1782878 -> 2240326 -> 1330956], [Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2065348 -> 1680609], [Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[2065348 -> 1423271], [Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2127977 -> 1630220 -> 2240326 -> 1330956], [Gooding Jr., Cuba -> Pearl Harbor (2001) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2127977 -> 1680609], [Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[2127977 -> 1423271], [Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330948, 1806449, 1423248]
+  path: 0[1330948 -> 1330948], [Disaster Movie (2008) -> Disaster Movie (2008)]
+  path: 1[1330948 -> 2072180 -> 1779601 -> 2289409 -> 1806449], [Disaster Movie (2008) -> Cox, Tony (I) -> The Hebrew Hammer (2003) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1330948 -> 2141400 -> 1532726 -> 2438526 -> 1423248], [Disaster Movie (2008) -> Harpster, Noah -> Little Black Book (2004) -> Nicholson, Julianne -> Hero (2000)] 
+
+-----------------------------------------
+ResultDestNodes: [1330956, 1680609, 2065348, 2127977, 1330948]
+ResultRelevs: [7.624281883239746, 7.562954902648926, 7.480304718017578, 7.480304718017578, 6.831882953643799]
+AvgResultRelev: 7.395945835113525
+AvgResultDissimilarity: 0.62
+Num of entries retrieved from the KNLists: 1642
+Num of entries retrieved from NKMaps: 2732
+Num of answer trees explored: 1031
+Num of states created: 14
+Num of states explored: 10
+Num of heuristic search performed: 2
+Max Num of answer tree sets in Q[]: 5
+
+Div Top-k Search by Astar2, k=5
+[disaster, sacrifice, hero]
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[1330956 -> 1330956], [Disaster! (2006) -> Disaster! (2006)]
+  path: 1[1330956 -> 2240326 -> 1763648 -> 2242199 -> 1806449], [Disaster! (2006) -> Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[1330956 -> 2240326 -> 112029 -> 2001445 -> 1747558], [Disaster! (2006) -> Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1680609 -> 2065348 -> 1782878 -> 2240326 -> 1330956], [Sacrifice (2011/I) -> Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1680609 -> 1680609], [Sacrifice (2011/I) -> Sacrifice (2011/I)]
+  path: 2[1680609 -> 2127977 -> 1423271], [Sacrifice (2011/I) -> Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2065348 -> 1782878 -> 2240326 -> 1330956], [Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2065348 -> 1680609], [Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[2065348 -> 1423271], [Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2127977 -> 1630220 -> 2240326 -> 1330956], [Gooding Jr., Cuba -> Pearl Harbor (2001) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2127977 -> 1680609], [Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[2127977 -> 1423271], [Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330948, 1806449, 1423248]
+  path: 0[1330948 -> 1330948], [Disaster Movie (2008) -> Disaster Movie (2008)]
+  path: 1[1330948 -> 2072180 -> 1779601 -> 2289409 -> 1806449], [Disaster Movie (2008) -> Cox, Tony (I) -> The Hebrew Hammer (2003) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1330948 -> 2141400 -> 1532726 -> 2438526 -> 1423248], [Disaster Movie (2008) -> Harpster, Noah -> Little Black Book (2004) -> Nicholson, Julianne -> Hero (2000)] 
+
+-----------------------------------------
+ResultDestNodes: [1330956, 1680609, 2065348, 2127977, 1330948]
+ResultRelevs: [7.624281883239746, 7.562954902648926, 7.480304718017578, 7.480304718017578, 6.831882953643799]
+AvgResultRelev: 7.395945835113525
+AvgResultDissimilarity: 0.62
+Num of entries retrieved from the KNLists: 1642
+Num of entries retrieved from NKMaps: 2732
+Num of answer trees explored: 1031
+Num of states created: 14
+Num of states explored: 10
+Num of heuristic search performed: 2
+Max Num of answer tree sets in Q[]: 5
+
+Div Top-k Search by Astar12, k=5
+[disaster, sacrifice, hero]
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[1330956 -> 1330956], [Disaster! (2006) -> Disaster! (2006)]
+  path: 1[1330956 -> 2240326 -> 1763648 -> 2242199 -> 1806449], [Disaster! (2006) -> Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[1330956 -> 2240326 -> 112029 -> 2001445 -> 1747558], [Disaster! (2006) -> Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1680609 -> 2065348 -> 1782878 -> 2240326 -> 1330956], [Sacrifice (2011/I) -> Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1680609 -> 1680609], [Sacrifice (2011/I) -> Sacrifice (2011/I)]
+  path: 2[1680609 -> 2127977 -> 1423271], [Sacrifice (2011/I) -> Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2065348 -> 1782878 -> 2240326 -> 1330956], [Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2065348 -> 1680609], [Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[2065348 -> 1423271], [Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2127977 -> 1630220 -> 2240326 -> 1330956], [Gooding Jr., Cuba -> Pearl Harbor (2001) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2127977 -> 1680609], [Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[2127977 -> 1423271], [Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330948, 1806449, 1423248]
+  path: 0[1330948 -> 1330948], [Disaster Movie (2008) -> Disaster Movie (2008)]
+  path: 1[1330948 -> 2072180 -> 1779601 -> 2289409 -> 1806449], [Disaster Movie (2008) -> Cox, Tony (I) -> The Hebrew Hammer (2003) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1330948 -> 2141400 -> 1532726 -> 2438526 -> 1423248], [Disaster Movie (2008) -> Harpster, Noah -> Little Black Book (2004) -> Nicholson, Julianne -> Hero (2000)] 
+
+-----------------------------------------
+ResultDestNodes: [1330956, 1680609, 2065348, 2127977, 1330948]
+ResultRelevs: [7.624281883239746, 7.562954902648926, 7.480304718017578, 7.480304718017578, 6.831882953643799]
+AvgResultRelev: 7.395945835113525
+AvgResultDissimilarity: 0.62
+Num of entries retrieved from the KNLists: 1642
+Num of entries retrieved from NKMaps: 2732
+Num of answer trees explored: 1031
+Num of states created: 14
+Num of states explored: 10
+Num of heuristic search performed: 2
+Max Num of answer tree sets in Q[]: 5
+
+Div Top-k Search by Astar12nc, k=5
+[disaster, sacrifice, hero]
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[1330956 -> 1330956], [Disaster! (2006) -> Disaster! (2006)]
+  path: 1[1330956 -> 2240326 -> 1763648 -> 2242199 -> 1806449], [Disaster! (2006) -> Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[1330956 -> 2240326 -> 112029 -> 2001445 -> 1747558], [Disaster! (2006) -> Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1680609 -> 2065348 -> 1782878 -> 2240326 -> 1330956], [Sacrifice (2011/I) -> Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1680609 -> 1680609], [Sacrifice (2011/I) -> Sacrifice (2011/I)]
+  path: 2[1680609 -> 2127977 -> 1423271], [Sacrifice (2011/I) -> Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2065348 -> 1782878 -> 2240326 -> 1330956], [Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2065348 -> 1680609], [Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[2065348 -> 1423271], [Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2127977 -> 1630220 -> 2240326 -> 1330956], [Gooding Jr., Cuba -> Pearl Harbor (2001) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2127977 -> 1680609], [Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[2127977 -> 1423271], [Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330948, 1806449, 1423248]
+  path: 0[1330948 -> 1330948], [Disaster Movie (2008) -> Disaster Movie (2008)]
+  path: 1[1330948 -> 2072180 -> 1779601 -> 2289409 -> 1806449], [Disaster Movie (2008) -> Cox, Tony (I) -> The Hebrew Hammer (2003) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1330948 -> 2141400 -> 1532726 -> 2438526 -> 1423248], [Disaster Movie (2008) -> Harpster, Noah -> Little Black Book (2004) -> Nicholson, Julianne -> Hero (2000)] 
+
+-----------------------------------------
+ResultDestNodes: [1330956, 1680609, 2065348, 2127977, 1330948]
+ResultRelevs: [7.624281883239746, 7.562954902648926, 7.480304718017578, 7.480304718017578, 6.831882953643799]
+AvgResultRelev: 7.395945835113525
+AvgResultDissimilarity: 0.62
+Num of entries retrieved from the KNLists: 1642
+Num of entries retrieved from NKMaps: 2732
+Num of answer trees explored: 1031
+Num of states created: 14
+Num of states explored: 10
+Num of heuristic search performed: 2
+Max Num of answer tree sets in Q[]: 5
+
+query: [academy, award, thriller]
+Top-k Search by Blink-BDB, k=5
+[academy, award, thriller]
+srcNodes: [1456291, 8002666, 5000052]
+  path: 0[1778221 -> 2299613 -> 1370958 -> 2110601 -> 1456291], [The Grind (2009/II) -> Allen, Tanya (I) -> Fancy Dancing (2002) -> Foley, Dave (I) -> Intern Academy (2004)] 
+
+  path: 1[1778221 -> 2294577 -> 1184978 -> 8002666], [The Grind (2009/II) -> Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[1778221 -> 5000052], [The Grind (2009/II) -> Thriller] 
+
+srcNodes: [1429479, 8002666, 5000052]
+  path: 0[2294577 -> 1333049 -> 2143874 -> 1429479], [Roman, Joel (I) -> Dockweiler (2008) -> Hawkes, Will -> Hollywood Acting Academy (2009)] 
+
+  path: 1[2294577 -> 1184978 -> 8002666], [Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[2294577 -> 1778221 -> 5000052], [Roman, Joel (I) -> The Grind (2009/II) -> Thriller] 
+
+srcNodes: [1751652, 7010989, 5000052]
+  path: 0[1751652 -> 1751652], [The Academy (2009) -> The Academy (2009)]
+  path: 1[1751652 -> 2225758 -> 1788791 -> 7010989], [The Academy (2009) -> McKellen, Ian -> The Lord of the Rings: The Two Towers (2002) -> edited into J.R.R. T] 
+
+  path: 2[1751652 -> 2428645 -> 1248065 -> 5000052], [The Academy (2009) -> Miller, Joanna (III) -> Blitz (2011) -> Thriller] 
+
+srcNodes: [1751652, 8024956, 5000052]
+  path: 0[1780304 -> 2075390 -> 1724977 -> 2225758 -> 1751652], [The Holding (2011) -> Curran, Jake -> Stardust (2007) -> McKellen, Ian -> The Academy (2009)] 
+
+  path: 1[1780304 -> 4021873 -> 1613766 -> 8024956], [The Holding (2011) -> Jacobson, Susan -> One Hundredth of a Second (2006) -> award,dilemma,journalist,photograph,prize] 
+
+  path: 2[1780304 -> 5000052], [The Holding (2011) -> Thriller] 
+
+srcNodes: [1751652, 8033529, 5000052]
+  path: 0[1248065 -> 2428645 -> 1751652], [Blitz (2011) -> Miller, Joanna (III) -> The Academy (2009)] 
+
+  path: 1[1248065 -> 2085006 -> 1769253 -> 8033529], [Blitz (2011) -> Dennehy, Ned -> The Eagle (2011) -> animal-in-title,animal-killing,arena,award,bare-chested-male,based-on-novel,based-on-tv-series,battle,beating,betrayal,bilingualism,bird-in-title,blood,boar,body-armor,britain,burned-alive,campfire,centurion,character's-point-of-view-camera-shot,character-repeating-someone-else's-dialogue,child-murder,conquest,corpse,cowardice,culture-clash,cut-arm,cut-leg,dagger,death,death-of-child,death-of-family,death-of-father,decapitation,deception,deserter,disappearance,dragged-by-a-horse,drowning,eagle,execution,father-son-relationship,fight-to-the-death,film-starts-with-text,flashback,forest,fort,funeral-pyre,gladiator,hadrian's-wall,helmet,honor,honorable-discharge,horse,horse-riding,hung-upside-down,hunt,impalement,injury,journey,kicked-in-the-face,knife,knife-in-the-back,knife-throwing,knocked-out,leg-wound,loss-of-father,master-slave-relationship,murder,necklace,person-on-fire,punched-in-the-face,rat,ring,ritual,river,role-reversal,roman,roman-empire,scar,senator,severed-head,siege,slave,s] 
+
+  path: 2[1248065 -> 5000052], [Blitz (2011) -> Thriller] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [1778221, 2294577, 1751652, 1780304, 1248065]
+ResultRelevs: [8.062837600708008, 7.912077903747559, 7.79355001449585, 7.732388496398926, 7.630597114562988]
+AvgResultRelev: 7.826290225982666
+AvgResultDissimilarity: 0.6799999999999999
+Num of entries retrieved from the lists: 3066
+Num of entries retrieved from NKMaps: 5081
+Num of answer trees explored: 1679
+
+Div Top-k Search by Exhustive, k=5
+[academy, award, thriller]
+srcNodes: [1456291, 8002666, 5000052]
+  path: 0[1778221 -> 2299613 -> 1370958 -> 2110601 -> 1456291], [The Grind (2009/II) -> Allen, Tanya (I) -> Fancy Dancing (2002) -> Foley, Dave (I) -> Intern Academy (2004)] 
+
+  path: 1[1778221 -> 2294577 -> 1184978 -> 8002666], [The Grind (2009/II) -> Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[1778221 -> 5000052], [The Grind (2009/II) -> Thriller] 
+
+srcNodes: [1429479, 8002666, 5000052]
+  path: 0[2294577 -> 1333049 -> 2143874 -> 1429479], [Roman, Joel (I) -> Dockweiler (2008) -> Hawkes, Will -> Hollywood Acting Academy (2009)] 
+
+  path: 1[2294577 -> 1184978 -> 8002666], [Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[2294577 -> 1778221 -> 5000052], [Roman, Joel (I) -> The Grind (2009/II) -> Thriller] 
+
+srcNodes: [1751652, 7010989, 5000052]
+  path: 0[1751652 -> 1751652], [The Academy (2009) -> The Academy (2009)]
+  path: 1[1751652 -> 2225758 -> 1788791 -> 7010989], [The Academy (2009) -> McKellen, Ian -> The Lord of the Rings: The Two Towers (2002) -> edited into J.R.R. T] 
+
+  path: 2[1751652 -> 2428645 -> 1248065 -> 5000052], [The Academy (2009) -> Miller, Joanna (III) -> Blitz (2011) -> Thriller] 
+
+srcNodes: [1751652, 8024956, 5000052]
+  path: 0[1780304 -> 2075390 -> 1724977 -> 2225758 -> 1751652], [The Holding (2011) -> Curran, Jake -> Stardust (2007) -> McKellen, Ian -> The Academy (2009)] 
+
+  path: 1[1780304 -> 4021873 -> 1613766 -> 8024956], [The Holding (2011) -> Jacobson, Susan -> One Hundredth of a Second (2006) -> award,dilemma,journalist,photograph,prize] 
+
+  path: 2[1780304 -> 5000052], [The Holding (2011) -> Thriller] 
+
+srcNodes: [1751652, 8033529, 5000052]
+  path: 0[1248065 -> 2428645 -> 1751652], [Blitz (2011) -> Miller, Joanna (III) -> The Academy (2009)] 
+
+  path: 1[1248065 -> 2085006 -> 1769253 -> 8033529], [Blitz (2011) -> Dennehy, Ned -> The Eagle (2011) -> animal-in-title,animal-killing,arena,award,bare-chested-male,based-on-novel,based-on-tv-series,battle,beating,betrayal,bilingualism,bird-in-title,blood,boar,body-armor,britain,burned-alive,campfire,centurion,character's-point-of-view-camera-shot,character-repeating-someone-else's-dialogue,child-murder,conquest,corpse,cowardice,culture-clash,cut-arm,cut-leg,dagger,death,death-of-child,death-of-family,death-of-father,decapitation,deception,deserter,disappearance,dragged-by-a-horse,drowning,eagle,execution,father-son-relationship,fight-to-the-death,film-starts-with-text,flashback,forest,fort,funeral-pyre,gladiator,hadrian's-wall,helmet,honor,honorable-discharge,horse,horse-riding,hung-upside-down,hunt,impalement,injury,journey,kicked-in-the-face,knife,knife-in-the-back,knife-throwing,knocked-out,leg-wound,loss-of-father,master-slave-relationship,murder,necklace,person-on-fire,punched-in-the-face,rat,ring,ritual,river,role-reversal,roman,roman-empire,scar,senator,severed-head,siege,slave,s] 
+
+  path: 2[1248065 -> 5000052], [Blitz (2011) -> Thriller] 
+
+-----------------------------------------
+ResultDestNodes: [1778221, 2294577, 1751652, 1780304, 1248065]
+ResultRelevs: [8.062837600708008, 7.912077903747559, 7.79355001449585, 7.732388496398926, 7.630597114562988]
+AvgResultRelev: 7.826290225982666
+AvgResultDissimilarity: 0.6799999713897705
+Num of entries retrieved from the KNLists: 3066
+Num of entries retrieved from NKMaps: 5081
+Num of answer trees explored: 1679
+Num of answer tree sets created: 31
+Num of answer tree sets removed: 30
+Max Num of answer tree sets in Q[]: 31
+
+Div Top-k Search by Astar0, k=5
+[academy, award, thriller]
+srcNodes: [1456291, 8002666, 5000052]
+  path: 0[1778221 -> 2299613 -> 1370958 -> 2110601 -> 1456291], [The Grind (2009/II) -> Allen, Tanya (I) -> Fancy Dancing (2002) -> Foley, Dave (I) -> Intern Academy (2004)] 
+
+  path: 1[1778221 -> 2294577 -> 1184978 -> 8002666], [The Grind (2009/II) -> Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[1778221 -> 5000052], [The Grind (2009/II) -> Thriller] 
+
+srcNodes: [1429479, 8002666, 5000052]
+  path: 0[2294577 -> 1333049 -> 2143874 -> 1429479], [Roman, Joel (I) -> Dockweiler (2008) -> Hawkes, Will -> Hollywood Acting Academy (2009)] 
+
+  path: 1[2294577 -> 1184978 -> 8002666], [Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[2294577 -> 1778221 -> 5000052], [Roman, Joel (I) -> The Grind (2009/II) -> Thriller] 
+
+srcNodes: [1751652, 7010989, 5000052]
+  path: 0[1751652 -> 1751652], [The Academy (2009) -> The Academy (2009)]
+  path: 1[1751652 -> 2225758 -> 1788791 -> 7010989], [The Academy (2009) -> McKellen, Ian -> The Lord of the Rings: The Two Towers (2002) -> edited into J.R.R. T] 
+
+  path: 2[1751652 -> 2428645 -> 1248065 -> 5000052], [The Academy (2009) -> Miller, Joanna (III) -> Blitz (2011) -> Thriller] 
+
+srcNodes: [1751652, 8024956, 5000052]
+  path: 0[1780304 -> 2075390 -> 1724977 -> 2225758 -> 1751652], [The Holding (2011) -> Curran, Jake -> Stardust (2007) -> McKellen, Ian -> The Academy (2009)] 
+
+  path: 1[1780304 -> 4021873 -> 1613766 -> 8024956], [The Holding (2011) -> Jacobson, Susan -> One Hundredth of a Second (2006) -> award,dilemma,journalist,photograph,prize] 
+
+  path: 2[1780304 -> 5000052], [The Holding (2011) -> Thriller] 
+
+srcNodes: [1751652, 8033529, 5000052]
+  path: 0[1248065 -> 2428645 -> 1751652], [Blitz (2011) -> Miller, Joanna (III) -> The Academy (2009)] 
+
+  path: 1[1248065 -> 2085006 -> 1769253 -> 8033529], [Blitz (2011) -> Dennehy, Ned -> The Eagle (2011) -> animal-in-title,animal-killing,arena,award,bare-chested-male,based-on-novel,based-on-tv-series,battle,beating,betrayal,bilingualism,bird-in-title,blood,boar,body-armor,britain,burned-alive,campfire,centurion,character's-point-of-view-camera-shot,character-repeating-someone-else's-dialogue,child-murder,conquest,corpse,cowardice,culture-clash,cut-arm,cut-leg,dagger,death,death-of-child,death-of-family,death-of-father,decapitation,deception,deserter,disappearance,dragged-by-a-horse,drowning,eagle,execution,father-son-relationship,fight-to-the-death,film-starts-with-text,flashback,forest,fort,funeral-pyre,gladiator,hadrian's-wall,helmet,honor,honorable-discharge,horse,horse-riding,hung-upside-down,hunt,impalement,injury,journey,kicked-in-the-face,knife,knife-in-the-back,knife-throwing,knocked-out,leg-wound,loss-of-father,master-slave-relationship,murder,necklace,person-on-fire,punched-in-the-face,rat,ring,ritual,river,role-reversal,roman,roman-empire,scar,senator,severed-head,siege,slave,s] 
+
+  path: 2[1248065 -> 5000052], [Blitz (2011) -> Thriller] 
+
+-----------------------------------------
+ResultDestNodes: [1778221, 2294577, 1751652, 1780304, 1248065]
+ResultRelevs: [8.062837600708008, 7.912077903747559, 7.79355001449585, 7.732388496398926, 7.630597114562988]
+AvgResultRelev: 7.826290225982666
+AvgResultDissimilarity: 0.6799999999999999
+Num of entries retrieved from the KNLists: 3066
+Num of entries retrieved from NKMaps: 5081
+Num of answer trees explored: 1679
+Num of states created: 6
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+Div Top-k Search by Astar1, k=5
+[academy, award, thriller]
+srcNodes: [1456291, 8002666, 5000052]
+  path: 0[1778221 -> 2299613 -> 1370958 -> 2110601 -> 1456291], [The Grind (2009/II) -> Allen, Tanya (I) -> Fancy Dancing (2002) -> Foley, Dave (I) -> Intern Academy (2004)] 
+
+  path: 1[1778221 -> 2294577 -> 1184978 -> 8002666], [The Grind (2009/II) -> Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[1778221 -> 5000052], [The Grind (2009/II) -> Thriller] 
+
+srcNodes: [1429479, 8002666, 5000052]
+  path: 0[2294577 -> 1333049 -> 2143874 -> 1429479], [Roman, Joel (I) -> Dockweiler (2008) -> Hawkes, Will -> Hollywood Acting Academy (2009)] 
+
+  path: 1[2294577 -> 1184978 -> 8002666], [Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[2294577 -> 1778221 -> 5000052], [Roman, Joel (I) -> The Grind (2009/II) -> Thriller] 
+
+srcNodes: [1751652, 7010989, 5000052]
+  path: 0[1751652 -> 1751652], [The Academy (2009) -> The Academy (2009)]
+  path: 1[1751652 -> 2225758 -> 1788791 -> 7010989], [The Academy (2009) -> McKellen, Ian -> The Lord of the Rings: The Two Towers (2002) -> edited into J.R.R. T] 
+
+  path: 2[1751652 -> 2428645 -> 1248065 -> 5000052], [The Academy (2009) -> Miller, Joanna (III) -> Blitz (2011) -> Thriller] 
+
+srcNodes: [1751652, 8024956, 5000052]
+  path: 0[1780304 -> 2075390 -> 1724977 -> 2225758 -> 1751652], [The Holding (2011) -> Curran, Jake -> Stardust (2007) -> McKellen, Ian -> The Academy (2009)] 
+
+  path: 1[1780304 -> 4021873 -> 1613766 -> 8024956], [The Holding (2011) -> Jacobson, Susan -> One Hundredth of a Second (2006) -> award,dilemma,journalist,photograph,prize] 
+
+  path: 2[1780304 -> 5000052], [The Holding (2011) -> Thriller] 
+
+srcNodes: [1751652, 8033529, 5000052]
+  path: 0[1248065 -> 2428645 -> 1751652], [Blitz (2011) -> Miller, Joanna (III) -> The Academy (2009)] 
+
+  path: 1[1248065 -> 2085006 -> 1769253 -> 8033529], [Blitz (2011) -> Dennehy, Ned -> The Eagle (2011) -> animal-in-title,animal-killing,arena,award,bare-chested-male,based-on-novel,based-on-tv-series,battle,beating,betrayal,bilingualism,bird-in-title,blood,boar,body-armor,britain,burned-alive,campfire,centurion,character's-point-of-view-camera-shot,character-repeating-someone-else's-dialogue,child-murder,conquest,corpse,cowardice,culture-clash,cut-arm,cut-leg,dagger,death,death-of-child,death-of-family,death-of-father,decapitation,deception,deserter,disappearance,dragged-by-a-horse,drowning,eagle,execution,father-son-relationship,fight-to-the-death,film-starts-with-text,flashback,forest,fort,funeral-pyre,gladiator,hadrian's-wall,helmet,honor,honorable-discharge,horse,horse-riding,hung-upside-down,hunt,impalement,injury,journey,kicked-in-the-face,knife,knife-in-the-back,knife-throwing,knocked-out,leg-wound,loss-of-father,master-slave-relationship,murder,necklace,person-on-fire,punched-in-the-face,rat,ring,ritual,river,role-reversal,roman,roman-empire,scar,senator,severed-head,siege,slave,s] 
+
+  path: 2[1248065 -> 5000052], [Blitz (2011) -> Thriller] 
+
+-----------------------------------------
+ResultDestNodes: [1778221, 2294577, 1751652, 1780304, 1248065]
+ResultRelevs: [8.062837600708008, 7.912077903747559, 7.79355001449585, 7.732388496398926, 7.630597114562988]
+AvgResultRelev: 7.826290225982666
+AvgResultDissimilarity: 0.6799999999999999
+Num of entries retrieved from the KNLists: 3066
+Num of entries retrieved from NKMaps: 5081
+Num of answer trees explored: 1679
+Num of states created: 6
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+Div Top-k Search by Astar2, k=5
+[academy, award, thriller]
+srcNodes: [1456291, 8002666, 5000052]
+  path: 0[1778221 -> 2299613 -> 1370958 -> 2110601 -> 1456291], [The Grind (2009/II) -> Allen, Tanya (I) -> Fancy Dancing (2002) -> Foley, Dave (I) -> Intern Academy (2004)] 
+
+  path: 1[1778221 -> 2294577 -> 1184978 -> 8002666], [The Grind (2009/II) -> Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[1778221 -> 5000052], [The Grind (2009/II) -> Thriller] 
+
+srcNodes: [1429479, 8002666, 5000052]
+  path: 0[2294577 -> 1333049 -> 2143874 -> 1429479], [Roman, Joel (I) -> Dockweiler (2008) -> Hawkes, Will -> Hollywood Acting Academy (2009)] 
+
+  path: 1[2294577 -> 1184978 -> 8002666], [Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[2294577 -> 1778221 -> 5000052], [Roman, Joel (I) -> The Grind (2009/II) -> Thriller] 
+
+srcNodes: [1751652, 7010989, 5000052]
+  path: 0[1751652 -> 1751652], [The Academy (2009) -> The Academy (2009)]
+  path: 1[1751652 -> 2225758 -> 1788791 -> 7010989], [The Academy (2009) -> McKellen, Ian -> The Lord of the Rings: The Two Towers (2002) -> edited into J.R.R. T] 
+
+  path: 2[1751652 -> 2428645 -> 1248065 -> 5000052], [The Academy (2009) -> Miller, Joanna (III) -> Blitz (2011) -> Thriller] 
+
+srcNodes: [1751652, 8024956, 5000052]
+  path: 0[1780304 -> 2075390 -> 1724977 -> 2225758 -> 1751652], [The Holding (2011) -> Curran, Jake -> Stardust (2007) -> McKellen, Ian -> The Academy (2009)] 
+
+  path: 1[1780304 -> 4021873 -> 1613766 -> 8024956], [The Holding (2011) -> Jacobson, Susan -> One Hundredth of a Second (2006) -> award,dilemma,journalist,photograph,prize] 
+
+  path: 2[1780304 -> 5000052], [The Holding (2011) -> Thriller] 
+
+srcNodes: [1751652, 8033529, 5000052]
+  path: 0[1248065 -> 2428645 -> 1751652], [Blitz (2011) -> Miller, Joanna (III) -> The Academy (2009)] 
+
+  path: 1[1248065 -> 2085006 -> 1769253 -> 8033529], [Blitz (2011) -> Dennehy, Ned -> The Eagle (2011) -> animal-in-title,animal-killing,arena,award,bare-chested-male,based-on-novel,based-on-tv-series,battle,beating,betrayal,bilingualism,bird-in-title,blood,boar,body-armor,britain,burned-alive,campfire,centurion,character's-point-of-view-camera-shot,character-repeating-someone-else's-dialogue,child-murder,conquest,corpse,cowardice,culture-clash,cut-arm,cut-leg,dagger,death,death-of-child,death-of-family,death-of-father,decapitation,deception,deserter,disappearance,dragged-by-a-horse,drowning,eagle,execution,father-son-relationship,fight-to-the-death,film-starts-with-text,flashback,forest,fort,funeral-pyre,gladiator,hadrian's-wall,helmet,honor,honorable-discharge,horse,horse-riding,hung-upside-down,hunt,impalement,injury,journey,kicked-in-the-face,knife,knife-in-the-back,knife-throwing,knocked-out,leg-wound,loss-of-father,master-slave-relationship,murder,necklace,person-on-fire,punched-in-the-face,rat,ring,ritual,river,role-reversal,roman,roman-empire,scar,senator,severed-head,siege,slave,s] 
+
+  path: 2[1248065 -> 5000052], [Blitz (2011) -> Thriller] 
+
+-----------------------------------------
+ResultDestNodes: [1778221, 2294577, 1751652, 1780304, 1248065]
+ResultRelevs: [8.062837600708008, 7.912077903747559, 7.79355001449585, 7.732388496398926, 7.630597114562988]
+AvgResultRelev: 7.826290225982666
+AvgResultDissimilarity: 0.6799999999999999
+Num of entries retrieved from the KNLists: 3066
+Num of entries retrieved from NKMaps: 5081
+Num of answer trees explored: 1679
+Num of states created: 6
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+Div Top-k Search by Astar12, k=5
+[academy, award, thriller]
+srcNodes: [1456291, 8002666, 5000052]
+  path: 0[1778221 -> 2299613 -> 1370958 -> 2110601 -> 1456291], [The Grind (2009/II) -> Allen, Tanya (I) -> Fancy Dancing (2002) -> Foley, Dave (I) -> Intern Academy (2004)] 
+
+  path: 1[1778221 -> 2294577 -> 1184978 -> 8002666], [The Grind (2009/II) -> Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[1778221 -> 5000052], [The Grind (2009/II) -> Thriller] 
+
+srcNodes: [1429479, 8002666, 5000052]
+  path: 0[2294577 -> 1333049 -> 2143874 -> 1429479], [Roman, Joel (I) -> Dockweiler (2008) -> Hawkes, Will -> Hollywood Acting Academy (2009)] 
+
+  path: 1[2294577 -> 1184978 -> 8002666], [Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[2294577 -> 1778221 -> 5000052], [Roman, Joel (I) -> The Grind (2009/II) -> Thriller] 
+
+srcNodes: [1751652, 7010989, 5000052]
+  path: 0[1751652 -> 1751652], [The Academy (2009) -> The Academy (2009)]
+  path: 1[1751652 -> 2225758 -> 1788791 -> 7010989], [The Academy (2009) -> McKellen, Ian -> The Lord of the Rings: The Two Towers (2002) -> edited into J.R.R. T] 
+
+  path: 2[1751652 -> 2428645 -> 1248065 -> 5000052], [The Academy (2009) -> Miller, Joanna (III) -> Blitz (2011) -> Thriller] 
+
+srcNodes: [1751652, 8024956, 5000052]
+  path: 0[1780304 -> 2075390 -> 1724977 -> 2225758 -> 1751652], [The Holding (2011) -> Curran, Jake -> Stardust (2007) -> McKellen, Ian -> The Academy (2009)] 
+
+  path: 1[1780304 -> 4021873 -> 1613766 -> 8024956], [The Holding (2011) -> Jacobson, Susan -> One Hundredth of a Second (2006) -> award,dilemma,journalist,photograph,prize] 
+
+  path: 2[1780304 -> 5000052], [The Holding (2011) -> Thriller] 
+
+srcNodes: [1751652, 8033529, 5000052]
+  path: 0[1248065 -> 2428645 -> 1751652], [Blitz (2011) -> Miller, Joanna (III) -> The Academy (2009)] 
+
+  path: 1[1248065 -> 2085006 -> 1769253 -> 8033529], [Blitz (2011) -> Dennehy, Ned -> The Eagle (2011) -> animal-in-title,animal-killing,arena,award,bare-chested-male,based-on-novel,based-on-tv-series,battle,beating,betrayal,bilingualism,bird-in-title,blood,boar,body-armor,britain,burned-alive,campfire,centurion,character's-point-of-view-camera-shot,character-repeating-someone-else's-dialogue,child-murder,conquest,corpse,cowardice,culture-clash,cut-arm,cut-leg,dagger,death,death-of-child,death-of-family,death-of-father,decapitation,deception,deserter,disappearance,dragged-by-a-horse,drowning,eagle,execution,father-son-relationship,fight-to-the-death,film-starts-with-text,flashback,forest,fort,funeral-pyre,gladiator,hadrian's-wall,helmet,honor,honorable-discharge,horse,horse-riding,hung-upside-down,hunt,impalement,injury,journey,kicked-in-the-face,knife,knife-in-the-back,knife-throwing,knocked-out,leg-wound,loss-of-father,master-slave-relationship,murder,necklace,person-on-fire,punched-in-the-face,rat,ring,ritual,river,role-reversal,roman,roman-empire,scar,senator,severed-head,siege,slave,s] 
+
+  path: 2[1248065 -> 5000052], [Blitz (2011) -> Thriller] 
+
+-----------------------------------------
+ResultDestNodes: [1778221, 2294577, 1751652, 1780304, 1248065]
+ResultRelevs: [8.062837600708008, 7.912077903747559, 7.79355001449585, 7.732388496398926, 7.630597114562988]
+AvgResultRelev: 7.826290225982666
+AvgResultDissimilarity: 0.6799999999999999
+Num of entries retrieved from the KNLists: 3066
+Num of entries retrieved from NKMaps: 5081
+Num of answer trees explored: 1679
+Num of states created: 6
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+Div Top-k Search by Astar12nc, k=5
+[academy, award, thriller]
+srcNodes: [1456291, 8002666, 5000052]
+  path: 0[1778221 -> 2299613 -> 1370958 -> 2110601 -> 1456291], [The Grind (2009/II) -> Allen, Tanya (I) -> Fancy Dancing (2002) -> Foley, Dave (I) -> Intern Academy (2004)] 
+
+  path: 1[1778221 -> 2294577 -> 1184978 -> 8002666], [The Grind (2009/II) -> Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[1778221 -> 5000052], [The Grind (2009/II) -> Thriller] 
+
+srcNodes: [1429479, 8002666, 5000052]
+  path: 0[2294577 -> 1333049 -> 2143874 -> 1429479], [Roman, Joel (I) -> Dockweiler (2008) -> Hawkes, Will -> Hollywood Acting Academy (2009)] 
+
+  path: 1[2294577 -> 1184978 -> 8002666], [Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[2294577 -> 1778221 -> 5000052], [Roman, Joel (I) -> The Grind (2009/II) -> Thriller] 
+
+srcNodes: [1751652, 7010989, 5000052]
+  path: 0[1751652 -> 1751652], [The Academy (2009) -> The Academy (2009)]
+  path: 1[1751652 -> 2225758 -> 1788791 -> 7010989], [The Academy (2009) -> McKellen, Ian -> The Lord of the Rings: The Two Towers (2002) -> edited into J.R.R. T] 
+
+  path: 2[1751652 -> 2428645 -> 1248065 -> 5000052], [The Academy (2009) -> Miller, Joanna (III) -> Blitz (2011) -> Thriller] 
+
+srcNodes: [1751652, 8024956, 5000052]
+  path: 0[1780304 -> 2075390 -> 1724977 -> 2225758 -> 1751652], [The Holding (2011) -> Curran, Jake -> Stardust (2007) -> McKellen, Ian -> The Academy (2009)] 
+
+  path: 1[1780304 -> 4021873 -> 1613766 -> 8024956], [The Holding (2011) -> Jacobson, Susan -> One Hundredth of a Second (2006) -> award,dilemma,journalist,photograph,prize] 
+
+  path: 2[1780304 -> 5000052], [The Holding (2011) -> Thriller] 
+
+srcNodes: [1751652, 8033529, 5000052]
+  path: 0[1248065 -> 2428645 -> 1751652], [Blitz (2011) -> Miller, Joanna (III) -> The Academy (2009)] 
+
+  path: 1[1248065 -> 2085006 -> 1769253 -> 8033529], [Blitz (2011) -> Dennehy, Ned -> The Eagle (2011) -> animal-in-title,animal-killing,arena,award,bare-chested-male,based-on-novel,based-on-tv-series,battle,beating,betrayal,bilingualism,bird-in-title,blood,boar,body-armor,britain,burned-alive,campfire,centurion,character's-point-of-view-camera-shot,character-repeating-someone-else's-dialogue,child-murder,conquest,corpse,cowardice,culture-clash,cut-arm,cut-leg,dagger,death,death-of-child,death-of-family,death-of-father,decapitation,deception,deserter,disappearance,dragged-by-a-horse,drowning,eagle,execution,father-son-relationship,fight-to-the-death,film-starts-with-text,flashback,forest,fort,funeral-pyre,gladiator,hadrian's-wall,helmet,honor,honorable-discharge,horse,horse-riding,hung-upside-down,hunt,impalement,injury,journey,kicked-in-the-face,knife,knife-in-the-back,knife-throwing,knocked-out,leg-wound,loss-of-father,master-slave-relationship,murder,necklace,person-on-fire,punched-in-the-face,rat,ring,ritual,river,role-reversal,roman,roman-empire,scar,senator,severed-head,siege,slave,s] 
+
+  path: 2[1248065 -> 5000052], [Blitz (2011) -> Thriller] 
+
+-----------------------------------------
+ResultDestNodes: [1778221, 2294577, 1751652, 1780304, 1248065]
+ResultRelevs: [8.062837600708008, 7.912077903747559, 7.79355001449585, 7.732388496398926, 7.630597114562988]
+AvgResultRelev: 7.826290225982666
+AvgResultDissimilarity: 0.6799999999999999
+Num of entries retrieved from the KNLists: 3066
+Num of entries retrieved from NKMaps: 5081
+Num of answer trees explored: 1679
+Num of states created: 6
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+query: [academy, award, sf]
+Top-k Search by Blink-BDB, k=5
+[academy, award, sf]
+srcNodes: [7009563, 8006166, 1679750]
+  path: 0[2175195 -> 1841754 -> 2486952 -> 1713526 -> 7009563], [Kazama, Morio -> Tsubaki Sanjûrô (2007) -> Suzuki, Anne -> Snow Falling on Cedars (1999) -> featured in Spotligh] 
+
+  path: 1[2175195 -> 1841754 -> 2183363 -> 1249706 -> 8006166], [Kazama, Morio -> Tsubaki Sanjûrô (2007) -> Kobayashi, Yukichi -> Blue Labyrinth (2007) -> award,mermaid,novelist] 
+
+  path: 2[2175195 -> 1679750], [Kazama, Morio -> SF: Episode One (1998)] 
+
+srcNodes: [7010126, 8006166, 1679750]
+  path: 0[2181630 -> 1643206 -> 2183342 -> 1744206 -> 7010126], [Kitarô (II) -> Poppoya (1999) -> Kobayashi, Nenji -> Tasogare Seibei (2002) -> featured in The 76th] 
+
+  path: 1[2181630 -> 1217222 -> 2183363 -> 1249706 -> 8006166], [Kitarô (II) -> Arugentin babâ (2007) -> Kobayashi, Yukichi -> Blue Labyrinth (2007) -> award,mermaid,novelist] 
+
+  path: 2[2181630 -> 1679750], [Kitarô (II) -> SF: Episode One (1998)] 
+
+srcNodes: [1762542, 8006166, 1679750]
+  path: 0[1841754 -> 2432765 -> 1247408 -> 2110388 -> 1762542], [Tsubaki Sanjûrô (2007) -> Morishita, Chisato -> Bleach: Memories of Nobody (2006) -> Flynn, Quinton -> The Christopher Walken Ecstatic Dance Academy (2001)] 
+
+  path: 1[1841754 -> 2183363 -> 1249706 -> 8006166], [Tsubaki Sanjûrô (2007) -> Kobayashi, Yukichi -> Blue Labyrinth (2007) -> award,mermaid,novelist] 
+
+  path: 2[1841754 -> 2175195 -> 1679750], [Tsubaki Sanjûrô (2007) -> Kazama, Morio -> SF: Episode One (1998)] 
+
+srcNodes: [7010126, 6002808, 1679750]
+  path: 0[2115522 -> 1744206 -> 7010126], [Fukikoshi, Mitsuru -> Tasogare Seibei (2002) -> featured in The 76th] 
+
+  path: 1[2115522 -> 1228921 -> 4051261 -> 1202507 -> 6002808], [Fukikoshi, Mitsuru -> Ballad: Na mo naki koi no uta (2009) -> Yamazaki, Takashi -> Always zoku san-chôme no yûhi (2007) -> Chagawa finds it inc] 
+
+  path: 2[2115522 -> 1679750], [Fukikoshi, Mitsuru -> SF: Episode One (1998)] 
+
+srcNodes: [7010126, 6002808, 1679750]
+  path: 0[2172404 -> 1744206 -> 7010126], [Kanbe, Hiroshi -> Tasogare Seibei (2002) -> featured in The 76th] 
+
+  path: 1[2172404 -> 1202500 -> 4051261 -> 1202507 -> 6002808], [Kanbe, Hiroshi -> Always san-chôme no yûhi (2005) -> Yamazaki, Takashi -> Always zoku san-chôme no yûhi (2007) -> Chagawa finds it inc] 
+
+  path: 2[2172404 -> 1679750], [Kanbe, Hiroshi -> SF: Episode One (1998)] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [2175195, 2181630, 1841754, 2115522, 2172404]
+ResultRelevs: [6.076948165893555, 5.926631450653076, 5.72865104675293, 5.224608421325684, 5.224608421325684]
+AvgResultRelev: 5.636289501190186
+AvgResultDissimilarity: 0.57
+Num of entries retrieved from the lists: 4320
+Num of entries retrieved from NKMaps: 7681
+Num of answer trees explored: 839
+
+Div Top-k Search by Exhustive, k=5
+[academy, award, sf]
+srcNodes: [7009563, 8006166, 1679750]
+  path: 0[2175195 -> 1841754 -> 2486952 -> 1713526 -> 7009563], [Kazama, Morio -> Tsubaki Sanjûrô (2007) -> Suzuki, Anne -> Snow Falling on Cedars (1999) -> featured in Spotligh] 
+
+  path: 1[2175195 -> 1841754 -> 2183363 -> 1249706 -> 8006166], [Kazama, Morio -> Tsubaki Sanjûrô (2007) -> Kobayashi, Yukichi -> Blue Labyrinth (2007) -> award,mermaid,novelist] 
+
+  path: 2[2175195 -> 1679750], [Kazama, Morio -> SF: Episode One (1998)] 
+
+srcNodes: [7010126, 8006166, 1679750]
+  path: 0[2181630 -> 1643206 -> 2183342 -> 1744206 -> 7010126], [Kitarô (II) -> Poppoya (1999) -> Kobayashi, Nenji -> Tasogare Seibei (2002) -> featured in The 76th] 
+
+  path: 1[2181630 -> 1217222 -> 2183363 -> 1249706 -> 8006166], [Kitarô (II) -> Arugentin babâ (2007) -> Kobayashi, Yukichi -> Blue Labyrinth (2007) -> award,mermaid,novelist] 
+
+  path: 2[2181630 -> 1679750], [Kitarô (II) -> SF: Episode One (1998)] 
+
+srcNodes: [1762542, 8006166, 1679750]
+  path: 0[1841754 -> 2432765 -> 1247408 -> 2110388 -> 1762542], [Tsubaki Sanjûrô (2007) -> Morishita, Chisato -> Bleach: Memories of Nobody (2006) -> Flynn, Quinton -> The Christopher Walken Ecstatic Dance Academy (2001)] 
+
+  path: 1[1841754 -> 2183363 -> 1249706 -> 8006166], [Tsubaki Sanjûrô (2007) -> Kobayashi, Yukichi -> Blue Labyrinth (2007) -> award,mermaid,novelist] 
+
+  path: 2[1841754 -> 2175195 -> 1679750], [Tsubaki Sanjûrô (2007) -> Kazama, Morio -> SF: Episode One (1998)] 
+
+srcNodes: [7010126, 6002808, 1679750]
+  path: 0[2115522 -> 1744206 -> 7010126], [Fukikoshi, Mitsuru -> Tasogare Seibei (2002) -> featured in The 76th] 
+
+  path: 1[2115522 -> 1228921 -> 4051261 -> 1202507 -> 6002808], [Fukikoshi, Mitsuru -> Ballad: Na mo naki koi no uta (2009) -> Yamazaki, Takashi -> Always zoku san-chôme no yûhi (2007) -> Chagawa finds it inc] 
+
+  path: 2[2115522 -> 1679750], [Fukikoshi, Mitsuru -> SF: Episode One (1998)] 
+
+srcNodes: [1751652, 8027470, 1679750]
+  path: 0[2434657 -> 1593801 -> 2225758 -> 1751652], [Murphy, Brittany -> Neverwas (2005) -> McKellen, Ian -> The Academy (2009)] 
+
+  path: 1[2434657 -> 1370138 -> 2284317 -> 1663552 -> 8027470], [Murphy, Brittany -> Falling Sky (1999) -> Raymont, Daniel -> Recycling Flo (2004) -> award-winning,cannes-film-festival,character-name-in-title,sex-comedy] 
+
+  path: 2[2434657 -> 1803223 -> 2431463 -> 1679750], [Murphy, Brittany -> The Ramen Girl (2008) -> Monô, Akiko -> SF: Episode One (1998)] 
+
+-----------------------------------------
+ResultDestNodes: [2175195, 2181630, 1841754, 2115522, 2434657]
+ResultRelevs: [6.076948165893555, 5.926631450653076, 5.72865104675293, 5.224608421325684, 5.1753950119018555]
+AvgResultRelev: 5.62644681930542
+AvgResultDissimilarity: 0.6799999713897705
+Num of entries retrieved from the KNLists: 4320
+Num of entries retrieved from NKMaps: 7681
+Num of answer trees explored: 839
+Num of answer tree sets created: 112
+Num of answer tree sets removed: 43
+Max Num of answer tree sets in Q[]: 112
+
+Div Top-k Search by Astar0, k=5
+[academy, award, sf]
+srcNodes: [7009563, 8006166, 1679750]
+  path: 0[2175195 -> 1841754 -> 2486952 -> 1713526 -> 7009563], [Kazama, Morio -> Tsubaki Sanjûrô (2007) -> Suzuki, Anne -> Snow Falling on Cedars (1999) -> featured in Spotligh] 
+
+  path: 1[2175195 -> 1841754 -> 2183363 -> 1249706 -> 8006166], [Kazama, Morio -> Tsubaki Sanjûrô (2007) -> Kobayashi, Yukichi -> Blue Labyrinth (2007) -> award,mermaid,novelist] 
+
+  path: 2[2175195 -> 1679750], [Kazama, Morio -> SF: Episode One (1998)] 
+
+srcNodes: [7010126, 8006166, 1679750]
+  path: 0[2181630 -> 1643206 -> 2183342 -> 1744206 -> 7010126], [Kitarô (II) -> Poppoya (1999) -> Kobayashi, Nenji -> Tasogare Seibei (2002) -> featured in The 76th] 
+
+  path: 1[2181630 -> 1217222 -> 2183363 -> 1249706 -> 8006166], [Kitarô (II) -> Arugentin babâ (2007) -> Kobayashi, Yukichi -> Blue Labyrinth (2007) -> award,mermaid,novelist] 
+
+  path: 2[2181630 -> 1679750], [Kitarô (II) -> SF: Episode One (1998)] 
+
+srcNodes: [1762542, 8006166, 1679750]
+  path: 0[1841754 -> 2432765 -> 1247408 -> 2110388 -> 1762542], [Tsubaki Sanjûrô (2007) -> Morishita, Chisato -> Bleach: Memories of Nobody (2006) -> Flynn, Quinton -> The Christopher Walken Ecstatic Dance Academy (2001)] 
+
+  path: 1[1841754 -> 2183363 -> 1249706 -> 8006166], [Tsubaki Sanjûrô (2007) -> Kobayashi, Yukichi -> Blue Labyrinth (2007) -> award,mermaid,novelist] 
+
+  path: 2[1841754 -> 2175195 -> 1679750], [Tsubaki Sanjûrô (2007) -> Kazama, Morio -> SF: Episode One (1998)] 
+
+srcNodes: [7010126, 6002808, 1679750]
+  path: 0[2115522 -> 1744206 -> 7010126], [Fukikoshi, Mitsuru -> Tasogare Seibei (2002) -> featured in The 76th] 
+
+  path: 1[2115522 -> 1228921 -> 4051261 -> 1202507 -> 6002808], [Fukikoshi, Mitsuru -> Ballad: Na mo naki koi no uta (2009) -> Yamazaki, Takashi -> Always zoku san-chôme no yûhi (2007) -> Chagawa finds it inc] 
+
+  path: 2[2115522 -> 1679750], [Fukikoshi, Mitsuru -> SF: Episode One (1998)] 
+
+srcNodes: [1751652, 8027470, 1679750]
+  path: 0[2434657 -> 1593801 -> 2225758 -> 1751652], [Murphy, Brittany -> Neverwas (2005) -> McKellen, Ian -> The Academy (2009)] 
+
+  path: 1[2434657 -> 1370138 -> 2284317 -> 1663552 -> 8027470], [Murphy, Brittany -> Falling Sky (1999) -> Raymont, Daniel -> Recycling Flo (2004) -> award-winning,cannes-film-festival,character-name-in-title,sex-comedy] 
+
+  path: 2[2434657 -> 1803223 -> 2431463 -> 1679750], [Murphy, Brittany -> The Ramen Girl (2008) -> Monô, Akiko -> SF: Episode One (1998)] 
+
+-----------------------------------------
+ResultDestNodes: [2175195, 2181630, 1841754, 2115522, 2434657]
+ResultRelevs: [6.076948165893555, 5.926631450653076, 5.72865104675293, 5.224608421325684, 5.1753950119018555]
+AvgResultRelev: 5.62644681930542
+AvgResultDissimilarity: 0.6799999999999999
+Num of entries retrieved from the KNLists: 4320
+Num of entries retrieved from NKMaps: 7681
+Num of answer trees explored: 839
+Num of states created: 28
+Num of states explored: 21
+Num of heuristic search performed: 3
+Max Num of answer tree sets in Q[]: 8
+
+Div Top-k Search by Astar1, k=5
+[academy, award, sf]
+srcNodes: [7009563, 8006166, 1679750]
+  path: 0[2175195 -> 1841754 -> 2486952 -> 1713526 -> 7009563], [Kazama, Morio -> Tsubaki Sanjûrô (2007) -> Suzuki, Anne -> Snow Falling on Cedars (1999) -> featured in Spotligh] 
+
+  path: 1[2175195 -> 1841754 -> 2183363 -> 1249706 -> 8006166], [Kazama, Morio -> Tsubaki Sanjûrô (2007) -> Kobayashi, Yukichi -> Blue Labyrinth (2007) -> award,mermaid,novelist] 
+
+  path: 2[2175195 -> 1679750], [Kazama, Morio -> SF: Episode One (1998)] 
+
+srcNodes: [7010126, 8006166, 1679750]
+  path: 0[2181630 -> 1643206 -> 2183342 -> 1744206 -> 7010126], [Kitarô (II) -> Poppoya (1999) -> Kobayashi, Nenji -> Tasogare Seibei (2002) -> featured in The 76th] 
+
+  path: 1[2181630 -> 1217222 -> 2183363 -> 1249706 -> 8006166], [Kitarô (II) -> Arugentin babâ (2007) -> Kobayashi, Yukichi -> Blue Labyrinth (2007) -> award,mermaid,novelist] 
+
+  path: 2[2181630 -> 1679750], [Kitarô (II) -> SF: Episode One (1998)] 
+
+srcNodes: [1762542, 8006166, 1679750]
+  path: 0[1841754 -> 2432765 -> 1247408 -> 2110388 -> 1762542], [Tsubaki Sanjûrô (2007) -> Morishita, Chisato -> Bleach: Memories of Nobody (2006) -> Flynn, Quinton -> The Christopher Walken Ecstatic Dance Academy (2001)] 
+
+  path: 1[1841754 -> 2183363 -> 1249706 -> 8006166], [Tsubaki Sanjûrô (2007) -> Kobayashi, Yukichi -> Blue Labyrinth (2007) -> award,mermaid,novelist] 
+
+  path: 2[1841754 -> 2175195 -> 1679750], [Tsubaki Sanjûrô (2007) -> Kazama, Morio -> SF: Episode One (1998)] 
+
+srcNodes: [7010126, 6002808, 1679750]
+  path: 0[2115522 -> 1744206 -> 7010126], [Fukikoshi, Mitsuru -> Tasogare Seibei (2002) -> featured in The 76th] 
+
+  path: 1[2115522 -> 1228921 -> 4051261 -> 1202507 -> 6002808], [Fukikoshi, Mitsuru -> Ballad: Na mo naki koi no uta (2009) -> Yamazaki, Takashi -> Always zoku san-chôme no yûhi (2007) -> Chagawa finds it inc] 
+
+  path: 2[2115522 -> 1679750], [Fukikoshi, Mitsuru -> SF: Episode One (1998)] 
+
+srcNodes: [1751652, 8027470, 1679750]
+  path: 0[2434657 -> 1593801 -> 2225758 -> 1751652], [Murphy, Brittany -> Neverwas (2005) -> McKellen, Ian -> The Academy (2009)] 
+
+  path: 1[2434657 -> 1370138 -> 2284317 -> 1663552 -> 8027470], [Murphy, Brittany -> Falling Sky (1999) -> Raymont, Daniel -> Recycling Flo (2004) -> award-winning,cannes-film-festival,character-name-in-title,sex-comedy] 
+
+  path: 2[2434657 -> 1803223 -> 2431463 -> 1679750], [Murphy, Brittany -> The Ramen Girl (2008) -> Monô, Akiko -> SF: Episode One (1998)] 
+
+-----------------------------------------
+ResultDestNodes: [2175195, 2181630, 1841754, 2115522, 2434657]
+ResultRelevs: [6.076948165893555, 5.926631450653076, 5.72865104675293, 5.224608421325684, 5.1753950119018555]
+AvgResultRelev: 5.62644681930542
+AvgResultDissimilarity: 0.6799999999999999
+Num of entries retrieved from the KNLists: 4320
+Num of entries retrieved from NKMaps: 7681
+Num of answer trees explored: 839
+Num of states created: 25
+Num of states explored: 16
+Num of heuristic search performed: 3
+Max Num of answer tree sets in Q[]: 8
+
+Div Top-k Search by Astar2, k=5
+[academy, award, sf]
+srcNodes: [7009563, 8006166, 1679750]
+  path: 0[2175195 -> 1841754 -> 2486952 -> 1713526 -> 7009563], [Kazama, Morio -> Tsubaki Sanjûrô (2007) -> Suzuki, Anne -> Snow Falling on Cedars (1999) -> featured in Spotligh] 
+
+  path: 1[2175195 -> 1841754 -> 2183363 -> 1249706 -> 8006166], [Kazama, Morio -> Tsubaki Sanjûrô (2007) -> Kobayashi, Yukichi -> Blue Labyrinth (2007) -> award,mermaid,novelist] 
+
+  path: 2[2175195 -> 1679750], [Kazama, Morio -> SF: Episode One (1998)] 
+
+srcNodes: [7010126, 8006166, 1679750]
+  path: 0[2181630 -> 1643206 -> 2183342 -> 1744206 -> 7010126], [Kitarô (II) -> Poppoya (1999) -> Kobayashi, Nenji -> Tasogare Seibei (2002) -> featured in The 76th] 
+
+  path: 1[2181630 -> 1217222 -> 2183363 -> 1249706 -> 8006166], [Kitarô (II) -> Arugentin babâ (2007) -> Kobayashi, Yukichi -> Blue Labyrinth (2007) -> award,mermaid,novelist] 
+
+  path: 2[2181630 -> 1679750], [Kitarô (II) -> SF: Episode One (1998)] 
+
+srcNodes: [1762542, 8006166, 1679750]
+  path: 0[1841754 -> 2432765 -> 1247408 -> 2110388 -> 1762542], [Tsubaki Sanjûrô (2007) -> Morishita, Chisato -> Bleach: Memories of Nobody (2006) -> Flynn, Quinton -> The Christopher Walken Ecstatic Dance Academy (2001)] 
+
+  path: 1[1841754 -> 2183363 -> 1249706 -> 8006166], [Tsubaki Sanjûrô (2007) -> Kobayashi, Yukichi -> Blue Labyrinth (2007) -> award,mermaid,novelist] 
+
+  path: 2[1841754 -> 2175195 -> 1679750], [Tsubaki Sanjûrô (2007) -> Kazama, Morio -> SF: Episode One (1998)] 
+
+srcNodes: [7010126, 6002808, 1679750]
+  path: 0[2115522 -> 1744206 -> 7010126], [Fukikoshi, Mitsuru -> Tasogare Seibei (2002) -> featured in The 76th] 
+
+  path: 1[2115522 -> 1228921 -> 4051261 -> 1202507 -> 6002808], [Fukikoshi, Mitsuru -> Ballad: Na mo naki koi no uta (2009) -> Yamazaki, Takashi -> Always zoku san-chôme no yûhi (2007) -> Chagawa finds it inc] 
+
+  path: 2[2115522 -> 1679750], [Fukikoshi, Mitsuru -> SF: Episode One (1998)] 
+
+srcNodes: [1751652, 8027470, 1679750]
+  path: 0[2434657 -> 1593801 -> 2225758 -> 1751652], [Murphy, Brittany -> Neverwas (2005) -> McKellen, Ian -> The Academy (2009)] 
+
+  path: 1[2434657 -> 1370138 -> 2284317 -> 1663552 -> 8027470], [Murphy, Brittany -> Falling Sky (1999) -> Raymont, Daniel -> Recycling Flo (2004) -> award-winning,cannes-film-festival,character-name-in-title,sex-comedy] 
+
+  path: 2[2434657 -> 1803223 -> 2431463 -> 1679750], [Murphy, Brittany -> The Ramen Girl (2008) -> Monô, Akiko -> SF: Episode One (1998)] 
+
+-----------------------------------------
+ResultDestNodes: [2175195, 2181630, 1841754, 2115522, 2434657]
+ResultRelevs: [6.076948165893555, 5.926631450653076, 5.72865104675293, 5.224608421325684, 5.1753950119018555]
+AvgResultRelev: 5.62644681930542
+AvgResultDissimilarity: 0.6799999999999999
+Num of entries retrieved from the KNLists: 4320
+Num of entries retrieved from NKMaps: 7681
+Num of answer trees explored: 839
+Num of states created: 28
+Num of states explored: 21
+Num of heuristic search performed: 3
+Max Num of answer tree sets in Q[]: 8
+
+Div Top-k Search by Astar12, k=5
+[academy, award, sf]
+srcNodes: [7009563, 8006166, 1679750]
+  path: 0[2175195 -> 1841754 -> 2486952 -> 1713526 -> 7009563], [Kazama, Morio -> Tsubaki Sanjûrô (2007) -> Suzuki, Anne -> Snow Falling on Cedars (1999) -> featured in Spotligh] 
+
+  path: 1[2175195 -> 1841754 -> 2183363 -> 1249706 -> 8006166], [Kazama, Morio -> Tsubaki Sanjûrô (2007) -> Kobayashi, Yukichi -> Blue Labyrinth (2007) -> award,mermaid,novelist] 
+
+  path: 2[2175195 -> 1679750], [Kazama, Morio -> SF: Episode One (1998)] 
+
+srcNodes: [7010126, 8006166, 1679750]
+  path: 0[2181630 -> 1643206 -> 2183342 -> 1744206 -> 7010126], [Kitarô (II) -> Poppoya (1999) -> Kobayashi, Nenji -> Tasogare Seibei (2002) -> featured in The 76th] 
+
+  path: 1[2181630 -> 1217222 -> 2183363 -> 1249706 -> 8006166], [Kitarô (II) -> Arugentin babâ (2007) -> Kobayashi, Yukichi -> Blue Labyrinth (2007) -> award,mermaid,novelist] 
+
+  path: 2[2181630 -> 1679750], [Kitarô (II) -> SF: Episode One (1998)] 
+
+srcNodes: [1762542, 8006166, 1679750]
+  path: 0[1841754 -> 2432765 -> 1247408 -> 2110388 -> 1762542], [Tsubaki Sanjûrô (2007) -> Morishita, Chisato -> Bleach: Memories of Nobody (2006) -> Flynn, Quinton -> The Christopher Walken Ecstatic Dance Academy (2001)] 
+
+  path: 1[1841754 -> 2183363 -> 1249706 -> 8006166], [Tsubaki Sanjûrô (2007) -> Kobayashi, Yukichi -> Blue Labyrinth (2007) -> award,mermaid,novelist] 
+
+  path: 2[1841754 -> 2175195 -> 1679750], [Tsubaki Sanjûrô (2007) -> Kazama, Morio -> SF: Episode One (1998)] 
+
+srcNodes: [7010126, 6002808, 1679750]
+  path: 0[2115522 -> 1744206 -> 7010126], [Fukikoshi, Mitsuru -> Tasogare Seibei (2002) -> featured in The 76th] 
+
+  path: 1[2115522 -> 1228921 -> 4051261 -> 1202507 -> 6002808], [Fukikoshi, Mitsuru -> Ballad: Na mo naki koi no uta (2009) -> Yamazaki, Takashi -> Always zoku san-chôme no yûhi (2007) -> Chagawa finds it inc] 
+
+  path: 2[2115522 -> 1679750], [Fukikoshi, Mitsuru -> SF: Episode One (1998)] 
+
+srcNodes: [1751652, 8027470, 1679750]
+  path: 0[2434657 -> 1593801 -> 2225758 -> 1751652], [Murphy, Brittany -> Neverwas (2005) -> McKellen, Ian -> The Academy (2009)] 
+
+  path: 1[2434657 -> 1370138 -> 2284317 -> 1663552 -> 8027470], [Murphy, Brittany -> Falling Sky (1999) -> Raymont, Daniel -> Recycling Flo (2004) -> award-winning,cannes-film-festival,character-name-in-title,sex-comedy] 
+
+  path: 2[2434657 -> 1803223 -> 2431463 -> 1679750], [Murphy, Brittany -> The Ramen Girl (2008) -> Monô, Akiko -> SF: Episode One (1998)] 
+
+-----------------------------------------
+ResultDestNodes: [2175195, 2181630, 1841754, 2115522, 2434657]
+ResultRelevs: [6.076948165893555, 5.926631450653076, 5.72865104675293, 5.224608421325684, 5.1753950119018555]
+AvgResultRelev: 5.62644681930542
+AvgResultDissimilarity: 0.6799999999999999
+Num of entries retrieved from the KNLists: 4320
+Num of entries retrieved from NKMaps: 7681
+Num of answer trees explored: 839
+Num of states created: 25
+Num of states explored: 16
+Num of heuristic search performed: 3
+Max Num of answer tree sets in Q[]: 8
+
+Div Top-k Search by Astar12nc, k=5
+[academy, award, sf]
+srcNodes: [7009563, 8006166, 1679750]
+  path: 0[2175195 -> 1841754 -> 2486952 -> 1713526 -> 7009563], [Kazama, Morio -> Tsubaki Sanjûrô (2007) -> Suzuki, Anne -> Snow Falling on Cedars (1999) -> featured in Spotligh] 
+
+  path: 1[2175195 -> 1841754 -> 2183363 -> 1249706 -> 8006166], [Kazama, Morio -> Tsubaki Sanjûrô (2007) -> Kobayashi, Yukichi -> Blue Labyrinth (2007) -> award,mermaid,novelist] 
+
+  path: 2[2175195 -> 1679750], [Kazama, Morio -> SF: Episode One (1998)] 
+
+srcNodes: [7010126, 8006166, 1679750]
+  path: 0[2181630 -> 1643206 -> 2183342 -> 1744206 -> 7010126], [Kitarô (II) -> Poppoya (1999) -> Kobayashi, Nenji -> Tasogare Seibei (2002) -> featured in The 76th] 
+
+  path: 1[2181630 -> 1217222 -> 2183363 -> 1249706 -> 8006166], [Kitarô (II) -> Arugentin babâ (2007) -> Kobayashi, Yukichi -> Blue Labyrinth (2007) -> award,mermaid,novelist] 
+
+  path: 2[2181630 -> 1679750], [Kitarô (II) -> SF: Episode One (1998)] 
+
+srcNodes: [1762542, 8006166, 1679750]
+  path: 0[1841754 -> 2432765 -> 1247408 -> 2110388 -> 1762542], [Tsubaki Sanjûrô (2007) -> Morishita, Chisato -> Bleach: Memories of Nobody (2006) -> Flynn, Quinton -> The Christopher Walken Ecstatic Dance Academy (2001)] 
+
+  path: 1[1841754 -> 2183363 -> 1249706 -> 8006166], [Tsubaki Sanjûrô (2007) -> Kobayashi, Yukichi -> Blue Labyrinth (2007) -> award,mermaid,novelist] 
+
+  path: 2[1841754 -> 2175195 -> 1679750], [Tsubaki Sanjûrô (2007) -> Kazama, Morio -> SF: Episode One (1998)] 
+
+srcNodes: [7010126, 6002808, 1679750]
+  path: 0[2115522 -> 1744206 -> 7010126], [Fukikoshi, Mitsuru -> Tasogare Seibei (2002) -> featured in The 76th] 
+
+  path: 1[2115522 -> 1228921 -> 4051261 -> 1202507 -> 6002808], [Fukikoshi, Mitsuru -> Ballad: Na mo naki koi no uta (2009) -> Yamazaki, Takashi -> Always zoku san-chôme no yûhi (2007) -> Chagawa finds it inc] 
+
+  path: 2[2115522 -> 1679750], [Fukikoshi, Mitsuru -> SF: Episode One (1998)] 
+
+srcNodes: [1751652, 8027470, 1679750]
+  path: 0[2434657 -> 1593801 -> 2225758 -> 1751652], [Murphy, Brittany -> Neverwas (2005) -> McKellen, Ian -> The Academy (2009)] 
+
+  path: 1[2434657 -> 1370138 -> 2284317 -> 1663552 -> 8027470], [Murphy, Brittany -> Falling Sky (1999) -> Raymont, Daniel -> Recycling Flo (2004) -> award-winning,cannes-film-festival,character-name-in-title,sex-comedy] 
+
+  path: 2[2434657 -> 1803223 -> 2431463 -> 1679750], [Murphy, Brittany -> The Ramen Girl (2008) -> Monô, Akiko -> SF: Episode One (1998)] 
+
+-----------------------------------------
+ResultDestNodes: [2175195, 2181630, 1841754, 2115522, 2434657]
+ResultRelevs: [6.076948165893555, 5.926631450653076, 5.72865104675293, 5.224608421325684, 5.1753950119018555]
+AvgResultRelev: 5.62644681930542
+AvgResultDissimilarity: 0.6799999999999999
+Num of entries retrieved from the KNLists: 4320
+Num of entries retrieved from NKMaps: 7681
+Num of answer trees explored: 839
+Num of states created: 25
+Num of states explored: 16
+Num of heuristic search performed: 3
+Max Num of answer tree sets in Q[]: 8
+
+query: [academy, award, war]
+Top-k Search by Blink-BDB, k=5
+[academy, award, war]
+srcNodes: [1751652, 8024956, 5000194]
+  path: 0[2458264 -> 1513471 -> 2316186 -> 1751652], [Redington, Tracy -> Last Chance Harvey (2008) -> Bolt, Jemma -> The Academy (2009)] 
+
+  path: 1[2458264 -> 1741299 -> 2261571 -> 1613766 -> 8024956], [Redington, Tracy -> Take 3 Girls (2006) -> Palmiero, Johnny -> One Hundredth of a Second (2006) -> award,dilemma,journalist,photograph,prize] 
+
+  path: 2[2458264 -> 1663357 -> 5000194], [Redington, Tracy -> Recon 7 Down (2007) -> War] 
+
+srcNodes: [1751652, 8024956, 5000194]
+  path: 0[2026223 -> 1724977 -> 2225758 -> 1751652], [Bell, Geoff (I) -> Stardust (2007) -> McKellen, Ian -> The Academy (2009)] 
+
+  path: 1[2026223 -> 1431770 -> 2261571 -> 1613766 -> 8024956], [Bell, Geoff (I) -> Hooligans (2005) -> Palmiero, Johnny -> One Hundredth of a Second (2006) -> award,dilemma,journalist,photograph,prize] 
+
+  path: 2[2026223 -> 1871457 -> 5000194], [Bell, Geoff (I) -> War Horse (2011) -> War] 
+
+srcNodes: [1751652, 7010989, 5001555]
+  path: 0[1751652 -> 1751652], [The Academy (2009) -> The Academy (2009)]
+  path: 1[1751652 -> 2225758 -> 1788791 -> 7010989], [The Academy (2009) -> McKellen, Ian -> The Lord of the Rings: The Two Towers (2002) -> edited into J.R.R. T] 
+
+  path: 2[1751652 -> 2415634 -> 1220910 -> 5001555], [The Academy (2009) -> Mackay, Ailidh -> Atonement (2007) -> Mystery,Romance,War,Drama] 
+
+srcNodes: [1751652, 8016457, 5000194]
+  path: 0[1871457 -> 2271201 -> 1261399 -> 2397702 -> 1751652], [War Horse (2011) -> Picciano, Gino -> Burke and Hare (2010) -> King, Georgia (I) -> The Academy (2009)] 
+
+  path: 1[1871457 -> 2217049 -> 1440650 -> 8016457], [War Horse (2011) -> Marsan, Eddie -> I Want Candy (2007) -> adult-film,adult-film-industry,award,beautiful-woman,casting,character-name-in-title,driving-school,ejaculation,film-crew,film-financing,film-making,film-school,film-student,hearing-parents-have-sex,lesbian-kiss,masturbation,pear,porn-actress,screenplay,sex,title-based-on-song,title-spoken-by-character,what-happened-to-epilogue] 
+
+  path: 2[1871457 -> 5000194], [War Horse (2011) -> War] 
+
+srcNodes: [324734, 8024956, 5000194]
+  path: 0[1310507 -> 2255255 -> 324734], [De-Lovely (2004) -> Obika, Lemar -> "Fame Academy" (2002/I)] 
+
+  path: 1[1310507 -> 2088052 -> 1613766 -> 8024956], [De-Lovely (2004) -> Dillane, Richard -> One Hundredth of a Second (2006) -> award,dilemma,journalist,photograph,prize] 
+
+  path: 2[1310507 -> 2108736 -> 1692500 -> 5000194], [De-Lovely (2004) -> Fisher, James (IV) -> See It Through (2006) -> War] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [2458264, 2026223, 1751652, 1871457, 1310507]
+ResultRelevs: [6.318933486938477, 6.318933486938477, 6.309965133666992, 6.225525856018066, 6.010313987731934]
+AvgResultRelev: 6.236734390258789
+AvgResultDissimilarity: 0.62
+Num of entries retrieved from the lists: 3473
+Num of entries retrieved from NKMaps: 5402
+Num of answer trees explored: 1837
+
+Div Top-k Search by Exhustive, k=5
+[academy, award, war]
+srcNodes: [1751652, 8024956, 5000194]
+  path: 0[2458264 -> 1513471 -> 2316186 -> 1751652], [Redington, Tracy -> Last Chance Harvey (2008) -> Bolt, Jemma -> The Academy (2009)] 
+
+  path: 1[2458264 -> 1741299 -> 2261571 -> 1613766 -> 8024956], [Redington, Tracy -> Take 3 Girls (2006) -> Palmiero, Johnny -> One Hundredth of a Second (2006) -> award,dilemma,journalist,photograph,prize] 
+
+  path: 2[2458264 -> 1663357 -> 5000194], [Redington, Tracy -> Recon 7 Down (2007) -> War] 
+
+srcNodes: [1751652, 8024956, 5000194]
+  path: 0[2026223 -> 1724977 -> 2225758 -> 1751652], [Bell, Geoff (I) -> Stardust (2007) -> McKellen, Ian -> The Academy (2009)] 
+
+  path: 1[2026223 -> 1431770 -> 2261571 -> 1613766 -> 8024956], [Bell, Geoff (I) -> Hooligans (2005) -> Palmiero, Johnny -> One Hundredth of a Second (2006) -> award,dilemma,journalist,photograph,prize] 
+
+  path: 2[2026223 -> 1871457 -> 5000194], [Bell, Geoff (I) -> War Horse (2011) -> War] 
+
+srcNodes: [1751652, 7010989, 5001555]
+  path: 0[1751652 -> 1751652], [The Academy (2009) -> The Academy (2009)]
+  path: 1[1751652 -> 2225758 -> 1788791 -> 7010989], [The Academy (2009) -> McKellen, Ian -> The Lord of the Rings: The Two Towers (2002) -> edited into J.R.R. T] 
+
+  path: 2[1751652 -> 2415634 -> 1220910 -> 5001555], [The Academy (2009) -> Mackay, Ailidh -> Atonement (2007) -> Mystery,Romance,War,Drama] 
+
+srcNodes: [1751652, 8016457, 5000194]
+  path: 0[1871457 -> 2271201 -> 1261399 -> 2397702 -> 1751652], [War Horse (2011) -> Picciano, Gino -> Burke and Hare (2010) -> King, Georgia (I) -> The Academy (2009)] 
+
+  path: 1[1871457 -> 2217049 -> 1440650 -> 8016457], [War Horse (2011) -> Marsan, Eddie -> I Want Candy (2007) -> adult-film,adult-film-industry,award,beautiful-woman,casting,character-name-in-title,driving-school,ejaculation,film-crew,film-financing,film-making,film-school,film-student,hearing-parents-have-sex,lesbian-kiss,masturbation,pear,porn-actress,screenplay,sex,title-based-on-song,title-spoken-by-character,what-happened-to-epilogue] 
+
+  path: 2[1871457 -> 5000194], [War Horse (2011) -> War] 
+
+srcNodes: [324734, 8024956, 5000194]
+  path: 0[1310507 -> 2255255 -> 324734], [De-Lovely (2004) -> Obika, Lemar -> "Fame Academy" (2002/I)] 
+
+  path: 1[1310507 -> 2088052 -> 1613766 -> 8024956], [De-Lovely (2004) -> Dillane, Richard -> One Hundredth of a Second (2006) -> award,dilemma,journalist,photograph,prize] 
+
+  path: 2[1310507 -> 2108736 -> 1692500 -> 5000194], [De-Lovely (2004) -> Fisher, James (IV) -> See It Through (2006) -> War] 
+
+-----------------------------------------
+ResultDestNodes: [2458264, 2026223, 1751652, 1871457, 1310507]
+ResultRelevs: [6.318933486938477, 6.318933486938477, 6.309965133666992, 6.225525856018066, 6.010313987731934]
+AvgResultRelev: 6.236734390258789
+AvgResultDissimilarity: 0.6200000286102295
+Num of entries retrieved from the KNLists: 3473
+Num of entries retrieved from NKMaps: 5402
+Num of answer trees explored: 1837
+Num of answer tree sets created: 31
+Num of answer tree sets removed: 30
+Max Num of answer tree sets in Q[]: 31
+
+Div Top-k Search by Astar0, k=5
+[academy, award, war]
+srcNodes: [1751652, 8024956, 5000194]
+  path: 0[2458264 -> 1513471 -> 2316186 -> 1751652], [Redington, Tracy -> Last Chance Harvey (2008) -> Bolt, Jemma -> The Academy (2009)] 
+
+  path: 1[2458264 -> 1741299 -> 2261571 -> 1613766 -> 8024956], [Redington, Tracy -> Take 3 Girls (2006) -> Palmiero, Johnny -> One Hundredth of a Second (2006) -> award,dilemma,journalist,photograph,prize] 
+
+  path: 2[2458264 -> 1663357 -> 5000194], [Redington, Tracy -> Recon 7 Down (2007) -> War] 
+
+srcNodes: [1751652, 8024956, 5000194]
+  path: 0[2026223 -> 1724977 -> 2225758 -> 1751652], [Bell, Geoff (I) -> Stardust (2007) -> McKellen, Ian -> The Academy (2009)] 
+
+  path: 1[2026223 -> 1431770 -> 2261571 -> 1613766 -> 8024956], [Bell, Geoff (I) -> Hooligans (2005) -> Palmiero, Johnny -> One Hundredth of a Second (2006) -> award,dilemma,journalist,photograph,prize] 
+
+  path: 2[2026223 -> 1871457 -> 5000194], [Bell, Geoff (I) -> War Horse (2011) -> War] 
+
+srcNodes: [1751652, 7010989, 5001555]
+  path: 0[1751652 -> 1751652], [The Academy (2009) -> The Academy (2009)]
+  path: 1[1751652 -> 2225758 -> 1788791 -> 7010989], [The Academy (2009) -> McKellen, Ian -> The Lord of the Rings: The Two Towers (2002) -> edited into J.R.R. T] 
+
+  path: 2[1751652 -> 2415634 -> 1220910 -> 5001555], [The Academy (2009) -> Mackay, Ailidh -> Atonement (2007) -> Mystery,Romance,War,Drama] 
+
+srcNodes: [1751652, 8016457, 5000194]
+  path: 0[1871457 -> 2271201 -> 1261399 -> 2397702 -> 1751652], [War Horse (2011) -> Picciano, Gino -> Burke and Hare (2010) -> King, Georgia (I) -> The Academy (2009)] 
+
+  path: 1[1871457 -> 2217049 -> 1440650 -> 8016457], [War Horse (2011) -> Marsan, Eddie -> I Want Candy (2007) -> adult-film,adult-film-industry,award,beautiful-woman,casting,character-name-in-title,driving-school,ejaculation,film-crew,film-financing,film-making,film-school,film-student,hearing-parents-have-sex,lesbian-kiss,masturbation,pear,porn-actress,screenplay,sex,title-based-on-song,title-spoken-by-character,what-happened-to-epilogue] 
+
+  path: 2[1871457 -> 5000194], [War Horse (2011) -> War] 
+
+srcNodes: [324734, 8024956, 5000194]
+  path: 0[1310507 -> 2255255 -> 324734], [De-Lovely (2004) -> Obika, Lemar -> "Fame Academy" (2002/I)] 
+
+  path: 1[1310507 -> 2088052 -> 1613766 -> 8024956], [De-Lovely (2004) -> Dillane, Richard -> One Hundredth of a Second (2006) -> award,dilemma,journalist,photograph,prize] 
+
+  path: 2[1310507 -> 2108736 -> 1692500 -> 5000194], [De-Lovely (2004) -> Fisher, James (IV) -> See It Through (2006) -> War] 
+
+-----------------------------------------
+ResultDestNodes: [2458264, 2026223, 1751652, 1871457, 1310507]
+ResultRelevs: [6.318933486938477, 6.318933486938477, 6.309965133666992, 6.225525856018066, 6.010313987731934]
+AvgResultRelev: 6.236734390258789
+AvgResultDissimilarity: 0.62
+Num of entries retrieved from the KNLists: 3473
+Num of entries retrieved from NKMaps: 5402
+Num of answer trees explored: 1837
+Num of states created: 6
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+Div Top-k Search by Astar1, k=5
+[academy, award, war]
+srcNodes: [1751652, 8024956, 5000194]
+  path: 0[2458264 -> 1513471 -> 2316186 -> 1751652], [Redington, Tracy -> Last Chance Harvey (2008) -> Bolt, Jemma -> The Academy (2009)] 
+
+  path: 1[2458264 -> 1741299 -> 2261571 -> 1613766 -> 8024956], [Redington, Tracy -> Take 3 Girls (2006) -> Palmiero, Johnny -> One Hundredth of a Second (2006) -> award,dilemma,journalist,photograph,prize] 
+
+  path: 2[2458264 -> 1663357 -> 5000194], [Redington, Tracy -> Recon 7 Down (2007) -> War] 
+
+srcNodes: [1751652, 8024956, 5000194]
+  path: 0[2026223 -> 1724977 -> 2225758 -> 1751652], [Bell, Geoff (I) -> Stardust (2007) -> McKellen, Ian -> The Academy (2009)] 
+
+  path: 1[2026223 -> 1431770 -> 2261571 -> 1613766 -> 8024956], [Bell, Geoff (I) -> Hooligans (2005) -> Palmiero, Johnny -> One Hundredth of a Second (2006) -> award,dilemma,journalist,photograph,prize] 
+
+  path: 2[2026223 -> 1871457 -> 5000194], [Bell, Geoff (I) -> War Horse (2011) -> War] 
+
+srcNodes: [1751652, 7010989, 5001555]
+  path: 0[1751652 -> 1751652], [The Academy (2009) -> The Academy (2009)]
+  path: 1[1751652 -> 2225758 -> 1788791 -> 7010989], [The Academy (2009) -> McKellen, Ian -> The Lord of the Rings: The Two Towers (2002) -> edited into J.R.R. T] 
+
+  path: 2[1751652 -> 2415634 -> 1220910 -> 5001555], [The Academy (2009) -> Mackay, Ailidh -> Atonement (2007) -> Mystery,Romance,War,Drama] 
+
+srcNodes: [1751652, 8016457, 5000194]
+  path: 0[1871457 -> 2271201 -> 1261399 -> 2397702 -> 1751652], [War Horse (2011) -> Picciano, Gino -> Burke and Hare (2010) -> King, Georgia (I) -> The Academy (2009)] 
+
+  path: 1[1871457 -> 2217049 -> 1440650 -> 8016457], [War Horse (2011) -> Marsan, Eddie -> I Want Candy (2007) -> adult-film,adult-film-industry,award,beautiful-woman,casting,character-name-in-title,driving-school,ejaculation,film-crew,film-financing,film-making,film-school,film-student,hearing-parents-have-sex,lesbian-kiss,masturbation,pear,porn-actress,screenplay,sex,title-based-on-song,title-spoken-by-character,what-happened-to-epilogue] 
+
+  path: 2[1871457 -> 5000194], [War Horse (2011) -> War] 
+
+srcNodes: [324734, 8024956, 5000194]
+  path: 0[1310507 -> 2255255 -> 324734], [De-Lovely (2004) -> Obika, Lemar -> "Fame Academy" (2002/I)] 
+
+  path: 1[1310507 -> 2088052 -> 1613766 -> 8024956], [De-Lovely (2004) -> Dillane, Richard -> One Hundredth of a Second (2006) -> award,dilemma,journalist,photograph,prize] 
+
+  path: 2[1310507 -> 2108736 -> 1692500 -> 5000194], [De-Lovely (2004) -> Fisher, James (IV) -> See It Through (2006) -> War] 
+
+-----------------------------------------
+ResultDestNodes: [2458264, 2026223, 1751652, 1871457, 1310507]
+ResultRelevs: [6.318933486938477, 6.318933486938477, 6.309965133666992, 6.225525856018066, 6.010313987731934]
+AvgResultRelev: 6.236734390258789
+AvgResultDissimilarity: 0.62
+Num of entries retrieved from the KNLists: 3473
+Num of entries retrieved from NKMaps: 5402
+Num of answer trees explored: 1837
+Num of states created: 6
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+Div Top-k Search by Astar2, k=5
+[academy, award, war]
+srcNodes: [1751652, 8024956, 5000194]
+  path: 0[2458264 -> 1513471 -> 2316186 -> 1751652], [Redington, Tracy -> Last Chance Harvey (2008) -> Bolt, Jemma -> The Academy (2009)] 
+
+  path: 1[2458264 -> 1741299 -> 2261571 -> 1613766 -> 8024956], [Redington, Tracy -> Take 3 Girls (2006) -> Palmiero, Johnny -> One Hundredth of a Second (2006) -> award,dilemma,journalist,photograph,prize] 
+
+  path: 2[2458264 -> 1663357 -> 5000194], [Redington, Tracy -> Recon 7 Down (2007) -> War] 
+
+srcNodes: [1751652, 8024956, 5000194]
+  path: 0[2026223 -> 1724977 -> 2225758 -> 1751652], [Bell, Geoff (I) -> Stardust (2007) -> McKellen, Ian -> The Academy (2009)] 
+
+  path: 1[2026223 -> 1431770 -> 2261571 -> 1613766 -> 8024956], [Bell, Geoff (I) -> Hooligans (2005) -> Palmiero, Johnny -> One Hundredth of a Second (2006) -> award,dilemma,journalist,photograph,prize] 
+
+  path: 2[2026223 -> 1871457 -> 5000194], [Bell, Geoff (I) -> War Horse (2011) -> War] 
+
+srcNodes: [1751652, 7010989, 5001555]
+  path: 0[1751652 -> 1751652], [The Academy (2009) -> The Academy (2009)]
+  path: 1[1751652 -> 2225758 -> 1788791 -> 7010989], [The Academy (2009) -> McKellen, Ian -> The Lord of the Rings: The Two Towers (2002) -> edited into J.R.R. T] 
+
+  path: 2[1751652 -> 2415634 -> 1220910 -> 5001555], [The Academy (2009) -> Mackay, Ailidh -> Atonement (2007) -> Mystery,Romance,War,Drama] 
+
+srcNodes: [1751652, 8016457, 5000194]
+  path: 0[1871457 -> 2271201 -> 1261399 -> 2397702 -> 1751652], [War Horse (2011) -> Picciano, Gino -> Burke and Hare (2010) -> King, Georgia (I) -> The Academy (2009)] 
+
+  path: 1[1871457 -> 2217049 -> 1440650 -> 8016457], [War Horse (2011) -> Marsan, Eddie -> I Want Candy (2007) -> adult-film,adult-film-industry,award,beautiful-woman,casting,character-name-in-title,driving-school,ejaculation,film-crew,film-financing,film-making,film-school,film-student,hearing-parents-have-sex,lesbian-kiss,masturbation,pear,porn-actress,screenplay,sex,title-based-on-song,title-spoken-by-character,what-happened-to-epilogue] 
+
+  path: 2[1871457 -> 5000194], [War Horse (2011) -> War] 
+
+srcNodes: [324734, 8024956, 5000194]
+  path: 0[1310507 -> 2255255 -> 324734], [De-Lovely (2004) -> Obika, Lemar -> "Fame Academy" (2002/I)] 
+
+  path: 1[1310507 -> 2088052 -> 1613766 -> 8024956], [De-Lovely (2004) -> Dillane, Richard -> One Hundredth of a Second (2006) -> award,dilemma,journalist,photograph,prize] 
+
+  path: 2[1310507 -> 2108736 -> 1692500 -> 5000194], [De-Lovely (2004) -> Fisher, James (IV) -> See It Through (2006) -> War] 
+
+-----------------------------------------
+ResultDestNodes: [2458264, 2026223, 1751652, 1871457, 1310507]
+ResultRelevs: [6.318933486938477, 6.318933486938477, 6.309965133666992, 6.225525856018066, 6.010313987731934]
+AvgResultRelev: 6.236734390258789
+AvgResultDissimilarity: 0.62
+Num of entries retrieved from the KNLists: 3473
+Num of entries retrieved from NKMaps: 5402
+Num of answer trees explored: 1837
+Num of states created: 6
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+Div Top-k Search by Astar12, k=5
+[academy, award, war]
+srcNodes: [1751652, 8024956, 5000194]
+  path: 0[2458264 -> 1513471 -> 2316186 -> 1751652], [Redington, Tracy -> Last Chance Harvey (2008) -> Bolt, Jemma -> The Academy (2009)] 
+
+  path: 1[2458264 -> 1741299 -> 2261571 -> 1613766 -> 8024956], [Redington, Tracy -> Take 3 Girls (2006) -> Palmiero, Johnny -> One Hundredth of a Second (2006) -> award,dilemma,journalist,photograph,prize] 
+
+  path: 2[2458264 -> 1663357 -> 5000194], [Redington, Tracy -> Recon 7 Down (2007) -> War] 
+
+srcNodes: [1751652, 8024956, 5000194]
+  path: 0[2026223 -> 1724977 -> 2225758 -> 1751652], [Bell, Geoff (I) -> Stardust (2007) -> McKellen, Ian -> The Academy (2009)] 
+
+  path: 1[2026223 -> 1431770 -> 2261571 -> 1613766 -> 8024956], [Bell, Geoff (I) -> Hooligans (2005) -> Palmiero, Johnny -> One Hundredth of a Second (2006) -> award,dilemma,journalist,photograph,prize] 
+
+  path: 2[2026223 -> 1871457 -> 5000194], [Bell, Geoff (I) -> War Horse (2011) -> War] 
+
+srcNodes: [1751652, 7010989, 5001555]
+  path: 0[1751652 -> 1751652], [The Academy (2009) -> The Academy (2009)]
+  path: 1[1751652 -> 2225758 -> 1788791 -> 7010989], [The Academy (2009) -> McKellen, Ian -> The Lord of the Rings: The Two Towers (2002) -> edited into J.R.R. T] 
+
+  path: 2[1751652 -> 2415634 -> 1220910 -> 5001555], [The Academy (2009) -> Mackay, Ailidh -> Atonement (2007) -> Mystery,Romance,War,Drama] 
+
+srcNodes: [1751652, 8016457, 5000194]
+  path: 0[1871457 -> 2271201 -> 1261399 -> 2397702 -> 1751652], [War Horse (2011) -> Picciano, Gino -> Burke and Hare (2010) -> King, Georgia (I) -> The Academy (2009)] 
+
+  path: 1[1871457 -> 2217049 -> 1440650 -> 8016457], [War Horse (2011) -> Marsan, Eddie -> I Want Candy (2007) -> adult-film,adult-film-industry,award,beautiful-woman,casting,character-name-in-title,driving-school,ejaculation,film-crew,film-financing,film-making,film-school,film-student,hearing-parents-have-sex,lesbian-kiss,masturbation,pear,porn-actress,screenplay,sex,title-based-on-song,title-spoken-by-character,what-happened-to-epilogue] 
+
+  path: 2[1871457 -> 5000194], [War Horse (2011) -> War] 
+
+srcNodes: [324734, 8024956, 5000194]
+  path: 0[1310507 -> 2255255 -> 324734], [De-Lovely (2004) -> Obika, Lemar -> "Fame Academy" (2002/I)] 
+
+  path: 1[1310507 -> 2088052 -> 1613766 -> 8024956], [De-Lovely (2004) -> Dillane, Richard -> One Hundredth of a Second (2006) -> award,dilemma,journalist,photograph,prize] 
+
+  path: 2[1310507 -> 2108736 -> 1692500 -> 5000194], [De-Lovely (2004) -> Fisher, James (IV) -> See It Through (2006) -> War] 
+
+-----------------------------------------
+ResultDestNodes: [2458264, 2026223, 1751652, 1871457, 1310507]
+ResultRelevs: [6.318933486938477, 6.318933486938477, 6.309965133666992, 6.225525856018066, 6.010313987731934]
+AvgResultRelev: 6.236734390258789
+AvgResultDissimilarity: 0.62
+Num of entries retrieved from the KNLists: 3473
+Num of entries retrieved from NKMaps: 5402
+Num of answer trees explored: 1837
+Num of states created: 6
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+Div Top-k Search by Astar12nc, k=5
+[academy, award, war]
+srcNodes: [1751652, 8024956, 5000194]
+  path: 0[2458264 -> 1513471 -> 2316186 -> 1751652], [Redington, Tracy -> Last Chance Harvey (2008) -> Bolt, Jemma -> The Academy (2009)] 
+
+  path: 1[2458264 -> 1741299 -> 2261571 -> 1613766 -> 8024956], [Redington, Tracy -> Take 3 Girls (2006) -> Palmiero, Johnny -> One Hundredth of a Second (2006) -> award,dilemma,journalist,photograph,prize] 
+
+  path: 2[2458264 -> 1663357 -> 5000194], [Redington, Tracy -> Recon 7 Down (2007) -> War] 
+
+srcNodes: [1751652, 8024956, 5000194]
+  path: 0[2026223 -> 1724977 -> 2225758 -> 1751652], [Bell, Geoff (I) -> Stardust (2007) -> McKellen, Ian -> The Academy (2009)] 
+
+  path: 1[2026223 -> 1431770 -> 2261571 -> 1613766 -> 8024956], [Bell, Geoff (I) -> Hooligans (2005) -> Palmiero, Johnny -> One Hundredth of a Second (2006) -> award,dilemma,journalist,photograph,prize] 
+
+  path: 2[2026223 -> 1871457 -> 5000194], [Bell, Geoff (I) -> War Horse (2011) -> War] 
+
+srcNodes: [1751652, 7010989, 5001555]
+  path: 0[1751652 -> 1751652], [The Academy (2009) -> The Academy (2009)]
+  path: 1[1751652 -> 2225758 -> 1788791 -> 7010989], [The Academy (2009) -> McKellen, Ian -> The Lord of the Rings: The Two Towers (2002) -> edited into J.R.R. T] 
+
+  path: 2[1751652 -> 2415634 -> 1220910 -> 5001555], [The Academy (2009) -> Mackay, Ailidh -> Atonement (2007) -> Mystery,Romance,War,Drama] 
+
+srcNodes: [1751652, 8016457, 5000194]
+  path: 0[1871457 -> 2271201 -> 1261399 -> 2397702 -> 1751652], [War Horse (2011) -> Picciano, Gino -> Burke and Hare (2010) -> King, Georgia (I) -> The Academy (2009)] 
+
+  path: 1[1871457 -> 2217049 -> 1440650 -> 8016457], [War Horse (2011) -> Marsan, Eddie -> I Want Candy (2007) -> adult-film,adult-film-industry,award,beautiful-woman,casting,character-name-in-title,driving-school,ejaculation,film-crew,film-financing,film-making,film-school,film-student,hearing-parents-have-sex,lesbian-kiss,masturbation,pear,porn-actress,screenplay,sex,title-based-on-song,title-spoken-by-character,what-happened-to-epilogue] 
+
+  path: 2[1871457 -> 5000194], [War Horse (2011) -> War] 
+
+srcNodes: [324734, 8024956, 5000194]
+  path: 0[1310507 -> 2255255 -> 324734], [De-Lovely (2004) -> Obika, Lemar -> "Fame Academy" (2002/I)] 
+
+  path: 1[1310507 -> 2088052 -> 1613766 -> 8024956], [De-Lovely (2004) -> Dillane, Richard -> One Hundredth of a Second (2006) -> award,dilemma,journalist,photograph,prize] 
+
+  path: 2[1310507 -> 2108736 -> 1692500 -> 5000194], [De-Lovely (2004) -> Fisher, James (IV) -> See It Through (2006) -> War] 
+
+-----------------------------------------
+ResultDestNodes: [2458264, 2026223, 1751652, 1871457, 1310507]
+ResultRelevs: [6.318933486938477, 6.318933486938477, 6.309965133666992, 6.225525856018066, 6.010313987731934]
+AvgResultRelev: 6.236734390258789
+AvgResultDissimilarity: 0.62
+Num of entries retrieved from the KNLists: 3473
+Num of entries retrieved from NKMaps: 5402
+Num of answer trees explored: 1837
+Num of states created: 6
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+query: [sf, time, travel]
+Top-k Search by Blink-BDB, k=5
+[sf, time, travel]
+srcNodes: [1679750, 690173, 1387326]
+  path: 0[1679750 -> 1679750], [SF: Episode One (1998) -> SF: Episode One (1998)]
+  path: 1[1679750 -> 2256183 -> 1477210 -> 2397565 -> 690173], [SF: Episode One (1998) -> Okamoto, Masahiro (III) -> Kantoku · Banzai! (2007) -> Kimura, Yoshino -> "Over Time" (1999)] 
+
+  path: 2[1679750 -> 2431463 -> 1539351 -> 2355231 -> 1387326], [SF: Episode One (1998) -> Monô, Akiko -> Lost in Translation (2003) -> Faris, Anna -> Frequently Asked Questions About Time Travel (2009)] 
+
+srcNodes: [1679750, 1387326, 1387326]
+  path: 0[1387326 -> 2355231 -> 1539351 -> 2431463 -> 1679750], [Frequently Asked Questions About Time Travel (2009) -> Faris, Anna -> Lost in Translation (2003) -> Monô, Akiko -> SF: Episode One (1998)] 
+
+  path: 1[1387326 -> 1387326], [Frequently Asked Questions About Time Travel (2009) -> Frequently Asked Questions About Time Travel (2009)]
+  path: 2[1387326 -> 1387326], [Frequently Asked Questions About Time Travel (2009) -> Frequently Asked Questions About Time Travel (2009)]
+srcNodes: [1679750, 690173, 8010428]
+  path: 0[2436745 -> 1679750], [Natsuki, Mari -> SF: Episode One (1998)] 
+
+  path: 1[2436745 -> 1681944 -> 2397565 -> 690173], [Natsuki, Mari -> Sakuran (2006) -> Kimura, Yoshino -> "Over Time" (1999)] 
+
+  path: 2[2436745 -> 1694085 -> 2485620 -> 1330015 -> 8010428], [Natsuki, Mari -> Sen to Chihiro no kamikakushi (2001) -> Strong, Tara -> Dino Mom (2010) -> dinosaur,time-travel] 
+
+srcNodes: [1679750, 690173, 8006842]
+  path: 0[2256183 -> 1679750], [Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+  path: 1[2256183 -> 1477210 -> 2397565 -> 690173], [Okamoto, Masahiro (III) -> Kantoku · Banzai! (2007) -> Kimura, Yoshino -> "Over Time" (1999)] 
+
+  path: 2[2256183 -> 1477210 -> 2511717 -> 1564842 -> 8006842], [Okamoto, Masahiro (III) -> Kantoku · Banzai! (2007) -> Yoshiyuki, Kazuko -> Metro ni notte (2006) -> based-on-novel,time-travel] 
+
+srcNodes: [1679750, 690173, 8006842]
+  path: 0[2115522 -> 1679750], [Fukikoshi, Mitsuru -> SF: Episode One (1998)] 
+
+  path: 1[2115522 -> 1485171 -> 2386275 -> 690173], [Fukikoshi, Mitsuru -> Kita no zeronen (2005) -> Ishida, Yuriko -> "Over Time" (1999)] 
+
+  path: 2[2115522 -> 1228921 -> 2256026 -> 1564842 -> 8006842], [Fukikoshi, Mitsuru -> Ballad: Na mo naki koi no uta (2009) -> Ohsawa, Takao -> Metro ni notte (2006) -> based-on-novel,time-travel] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [1679750, 1387326, 2436745, 2256183, 2115522]
+ResultRelevs: [7.690255641937256, 6.684776306152344, 6.429914951324463, 6.429914951324463, 6.429914951324463]
+AvgResultRelev: 6.732955360412598
+AvgResultDissimilarity: 0.5083333333333333
+Num of entries retrieved from the lists: 2328
+Num of entries retrieved from NKMaps: 3131
+Num of answer trees explored: 812
+
+Div Top-k Search by Exhustive, k=5
+[sf, time, travel]
+srcNodes: [1679750, 690173, 1387326]
+  path: 0[1679750 -> 1679750], [SF: Episode One (1998) -> SF: Episode One (1998)]
+  path: 1[1679750 -> 2256183 -> 1477210 -> 2397565 -> 690173], [SF: Episode One (1998) -> Okamoto, Masahiro (III) -> Kantoku · Banzai! (2007) -> Kimura, Yoshino -> "Over Time" (1999)] 
+
+  path: 2[1679750 -> 2431463 -> 1539351 -> 2355231 -> 1387326], [SF: Episode One (1998) -> Monô, Akiko -> Lost in Translation (2003) -> Faris, Anna -> Frequently Asked Questions About Time Travel (2009)] 
+
+srcNodes: [1679750, 1387326, 1387326]
+  path: 0[1387326 -> 2355231 -> 1539351 -> 2431463 -> 1679750], [Frequently Asked Questions About Time Travel (2009) -> Faris, Anna -> Lost in Translation (2003) -> Monô, Akiko -> SF: Episode One (1998)] 
+
+  path: 1[1387326 -> 1387326], [Frequently Asked Questions About Time Travel (2009) -> Frequently Asked Questions About Time Travel (2009)]
+  path: 2[1387326 -> 1387326], [Frequently Asked Questions About Time Travel (2009) -> Frequently Asked Questions About Time Travel (2009)]
+srcNodes: [1679750, 690173, 8010428]
+  path: 0[2436745 -> 1679750], [Natsuki, Mari -> SF: Episode One (1998)] 
+
+  path: 1[2436745 -> 1681944 -> 2397565 -> 690173], [Natsuki, Mari -> Sakuran (2006) -> Kimura, Yoshino -> "Over Time" (1999)] 
+
+  path: 2[2436745 -> 1694085 -> 2485620 -> 1330015 -> 8010428], [Natsuki, Mari -> Sen to Chihiro no kamikakushi (2001) -> Strong, Tara -> Dino Mom (2010) -> dinosaur,time-travel] 
+
+srcNodes: [1679750, 8010428, 8010428]
+  path: 0[1330015 -> 2485620 -> 1694085 -> 2436745 -> 1679750], [Dino Mom (2010) -> Strong, Tara -> Sen to Chihiro no kamikakushi (2001) -> Natsuki, Mari -> SF: Episode One (1998)] 
+
+  path: 1[1330015 -> 8010428], [Dino Mom (2010) -> dinosaur,time-travel] 
+
+  path: 2[1330015 -> 8010428], [Dino Mom (2010) -> dinosaur,time-travel] 
+
+srcNodes: [1679750, 8006842, 8006842]
+  path: 0[1564842 -> 2511717 -> 1477210 -> 2256183 -> 1679750], [Metro ni notte (2006) -> Yoshiyuki, Kazuko -> Kantoku · Banzai! (2007) -> Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+  path: 1[1564842 -> 8006842], [Metro ni notte (2006) -> based-on-novel,time-travel] 
+
+  path: 2[1564842 -> 8006842], [Metro ni notte (2006) -> based-on-novel,time-travel] 
+
+-----------------------------------------
+ResultDestNodes: [1679750, 1387326, 2436745, 1330015, 1564842]
+ResultRelevs: [7.690255641937256, 6.684776306152344, 6.429914951324463, 6.353095054626465, 6.353095054626465]
+AvgResultRelev: 6.702227401733398
+AvgResultDissimilarity: 0.6166666984558106
+Num of entries retrieved from the KNLists: 4318
+Num of entries retrieved from NKMaps: 5941
+Num of answer trees explored: 1644
+Num of answer tree sets created: 103
+Num of answer tree sets removed: 98
+Max Num of answer tree sets in Q[]: 103
+
+Div Top-k Search by Astar0, k=5
+[sf, time, travel]
+srcNodes: [1679750, 690173, 1387326]
+  path: 0[1679750 -> 1679750], [SF: Episode One (1998) -> SF: Episode One (1998)]
+  path: 1[1679750 -> 2256183 -> 1477210 -> 2397565 -> 690173], [SF: Episode One (1998) -> Okamoto, Masahiro (III) -> Kantoku · Banzai! (2007) -> Kimura, Yoshino -> "Over Time" (1999)] 
+
+  path: 2[1679750 -> 2431463 -> 1539351 -> 2355231 -> 1387326], [SF: Episode One (1998) -> Monô, Akiko -> Lost in Translation (2003) -> Faris, Anna -> Frequently Asked Questions About Time Travel (2009)] 
+
+srcNodes: [1679750, 1387326, 1387326]
+  path: 0[1387326 -> 2355231 -> 1539351 -> 2431463 -> 1679750], [Frequently Asked Questions About Time Travel (2009) -> Faris, Anna -> Lost in Translation (2003) -> Monô, Akiko -> SF: Episode One (1998)] 
+
+  path: 1[1387326 -> 1387326], [Frequently Asked Questions About Time Travel (2009) -> Frequently Asked Questions About Time Travel (2009)]
+  path: 2[1387326 -> 1387326], [Frequently Asked Questions About Time Travel (2009) -> Frequently Asked Questions About Time Travel (2009)]
+srcNodes: [1679750, 690173, 8006842]
+  path: 0[2256183 -> 1679750], [Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+  path: 1[2256183 -> 1477210 -> 2397565 -> 690173], [Okamoto, Masahiro (III) -> Kantoku · Banzai! (2007) -> Kimura, Yoshino -> "Over Time" (1999)] 
+
+  path: 2[2256183 -> 1477210 -> 2511717 -> 1564842 -> 8006842], [Okamoto, Masahiro (III) -> Kantoku · Banzai! (2007) -> Yoshiyuki, Kazuko -> Metro ni notte (2006) -> based-on-novel,time-travel] 
+
+srcNodes: [1679750, 8010428, 8010428]
+  path: 0[1330015 -> 2485620 -> 1694085 -> 2436745 -> 1679750], [Dino Mom (2010) -> Strong, Tara -> Sen to Chihiro no kamikakushi (2001) -> Natsuki, Mari -> SF: Episode One (1998)] 
+
+  path: 1[1330015 -> 8010428], [Dino Mom (2010) -> dinosaur,time-travel] 
+
+  path: 2[1330015 -> 8010428], [Dino Mom (2010) -> dinosaur,time-travel] 
+
+srcNodes: [1679750, 8006842, 8006842]
+  path: 0[1564842 -> 2511717 -> 1477210 -> 2256183 -> 1679750], [Metro ni notte (2006) -> Yoshiyuki, Kazuko -> Kantoku · Banzai! (2007) -> Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+  path: 1[1564842 -> 8006842], [Metro ni notte (2006) -> based-on-novel,time-travel] 
+
+  path: 2[1564842 -> 8006842], [Metro ni notte (2006) -> based-on-novel,time-travel] 
+
+-----------------------------------------
+ResultDestNodes: [1679750, 1387326, 2256183, 1330015, 1564842]
+ResultRelevs: [7.690255641937256, 6.684776306152344, 6.429914951324463, 6.353095054626465, 6.353095054626465]
+AvgResultRelev: 6.702227401733398
+AvgResultDissimilarity: 0.6166666666666667
+Num of entries retrieved from the KNLists: 4318
+Num of entries retrieved from NKMaps: 5941
+Num of answer trees explored: 1644
+Num of states created: 50
+Num of states explored: 32
+Num of heuristic search performed: 4
+Max Num of answer tree sets in Q[]: 13
+
+Div Top-k Search by Astar1, k=5
+[sf, time, travel]
+srcNodes: [1679750, 690173, 1387326]
+  path: 0[1679750 -> 1679750], [SF: Episode One (1998) -> SF: Episode One (1998)]
+  path: 1[1679750 -> 2256183 -> 1477210 -> 2397565 -> 690173], [SF: Episode One (1998) -> Okamoto, Masahiro (III) -> Kantoku · Banzai! (2007) -> Kimura, Yoshino -> "Over Time" (1999)] 
+
+  path: 2[1679750 -> 2431463 -> 1539351 -> 2355231 -> 1387326], [SF: Episode One (1998) -> Monô, Akiko -> Lost in Translation (2003) -> Faris, Anna -> Frequently Asked Questions About Time Travel (2009)] 
+
+srcNodes: [1679750, 1387326, 1387326]
+  path: 0[1387326 -> 2355231 -> 1539351 -> 2431463 -> 1679750], [Frequently Asked Questions About Time Travel (2009) -> Faris, Anna -> Lost in Translation (2003) -> Monô, Akiko -> SF: Episode One (1998)] 
+
+  path: 1[1387326 -> 1387326], [Frequently Asked Questions About Time Travel (2009) -> Frequently Asked Questions About Time Travel (2009)]
+  path: 2[1387326 -> 1387326], [Frequently Asked Questions About Time Travel (2009) -> Frequently Asked Questions About Time Travel (2009)]
+srcNodes: [1679750, 690173, 8006842]
+  path: 0[2256183 -> 1679750], [Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+  path: 1[2256183 -> 1477210 -> 2397565 -> 690173], [Okamoto, Masahiro (III) -> Kantoku · Banzai! (2007) -> Kimura, Yoshino -> "Over Time" (1999)] 
+
+  path: 2[2256183 -> 1477210 -> 2511717 -> 1564842 -> 8006842], [Okamoto, Masahiro (III) -> Kantoku · Banzai! (2007) -> Yoshiyuki, Kazuko -> Metro ni notte (2006) -> based-on-novel,time-travel] 
+
+srcNodes: [1679750, 8010428, 8010428]
+  path: 0[1330015 -> 2485620 -> 1694085 -> 2436745 -> 1679750], [Dino Mom (2010) -> Strong, Tara -> Sen to Chihiro no kamikakushi (2001) -> Natsuki, Mari -> SF: Episode One (1998)] 
+
+  path: 1[1330015 -> 8010428], [Dino Mom (2010) -> dinosaur,time-travel] 
+
+  path: 2[1330015 -> 8010428], [Dino Mom (2010) -> dinosaur,time-travel] 
+
+srcNodes: [1679750, 8006842, 8006842]
+  path: 0[1564842 -> 2511717 -> 1477210 -> 2256183 -> 1679750], [Metro ni notte (2006) -> Yoshiyuki, Kazuko -> Kantoku · Banzai! (2007) -> Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+  path: 1[1564842 -> 8006842], [Metro ni notte (2006) -> based-on-novel,time-travel] 
+
+  path: 2[1564842 -> 8006842], [Metro ni notte (2006) -> based-on-novel,time-travel] 
+
+-----------------------------------------
+ResultDestNodes: [1679750, 1387326, 2256183, 1330015, 1564842]
+ResultRelevs: [7.690255641937256, 6.684776306152344, 6.429914951324463, 6.353095054626465, 6.353095054626465]
+AvgResultRelev: 6.702227401733398
+AvgResultDissimilarity: 0.6166666666666667
+Num of entries retrieved from the KNLists: 4318
+Num of entries retrieved from NKMaps: 5941
+Num of answer trees explored: 1644
+Num of states created: 40
+Num of states explored: 26
+Num of heuristic search performed: 4
+Max Num of answer tree sets in Q[]: 10
+
+Div Top-k Search by Astar2, k=5
+[sf, time, travel]
+srcNodes: [1679750, 690173, 1387326]
+  path: 0[1679750 -> 1679750], [SF: Episode One (1998) -> SF: Episode One (1998)]
+  path: 1[1679750 -> 2256183 -> 1477210 -> 2397565 -> 690173], [SF: Episode One (1998) -> Okamoto, Masahiro (III) -> Kantoku · Banzai! (2007) -> Kimura, Yoshino -> "Over Time" (1999)] 
+
+  path: 2[1679750 -> 2431463 -> 1539351 -> 2355231 -> 1387326], [SF: Episode One (1998) -> Monô, Akiko -> Lost in Translation (2003) -> Faris, Anna -> Frequently Asked Questions About Time Travel (2009)] 
+
+srcNodes: [1679750, 1387326, 1387326]
+  path: 0[1387326 -> 2355231 -> 1539351 -> 2431463 -> 1679750], [Frequently Asked Questions About Time Travel (2009) -> Faris, Anna -> Lost in Translation (2003) -> Monô, Akiko -> SF: Episode One (1998)] 
+
+  path: 1[1387326 -> 1387326], [Frequently Asked Questions About Time Travel (2009) -> Frequently Asked Questions About Time Travel (2009)]
+  path: 2[1387326 -> 1387326], [Frequently Asked Questions About Time Travel (2009) -> Frequently Asked Questions About Time Travel (2009)]
+srcNodes: [1679750, 690173, 8006842]
+  path: 0[2256183 -> 1679750], [Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+  path: 1[2256183 -> 1477210 -> 2397565 -> 690173], [Okamoto, Masahiro (III) -> Kantoku · Banzai! (2007) -> Kimura, Yoshino -> "Over Time" (1999)] 
+
+  path: 2[2256183 -> 1477210 -> 2511717 -> 1564842 -> 8006842], [Okamoto, Masahiro (III) -> Kantoku · Banzai! (2007) -> Yoshiyuki, Kazuko -> Metro ni notte (2006) -> based-on-novel,time-travel] 
+
+srcNodes: [1679750, 8010428, 8010428]
+  path: 0[1330015 -> 2485620 -> 1694085 -> 2436745 -> 1679750], [Dino Mom (2010) -> Strong, Tara -> Sen to Chihiro no kamikakushi (2001) -> Natsuki, Mari -> SF: Episode One (1998)] 
+
+  path: 1[1330015 -> 8010428], [Dino Mom (2010) -> dinosaur,time-travel] 
+
+  path: 2[1330015 -> 8010428], [Dino Mom (2010) -> dinosaur,time-travel] 
+
+srcNodes: [1679750, 8006842, 8006842]
+  path: 0[1564842 -> 2511717 -> 1477210 -> 2256183 -> 1679750], [Metro ni notte (2006) -> Yoshiyuki, Kazuko -> Kantoku · Banzai! (2007) -> Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+  path: 1[1564842 -> 8006842], [Metro ni notte (2006) -> based-on-novel,time-travel] 
+
+  path: 2[1564842 -> 8006842], [Metro ni notte (2006) -> based-on-novel,time-travel] 
+
+-----------------------------------------
+ResultDestNodes: [1679750, 1387326, 2256183, 1330015, 1564842]
+ResultRelevs: [7.690255641937256, 6.684776306152344, 6.429914951324463, 6.353095054626465, 6.353095054626465]
+AvgResultRelev: 6.702227401733398
+AvgResultDissimilarity: 0.6166666666666667
+Num of entries retrieved from the KNLists: 4318
+Num of entries retrieved from NKMaps: 5941
+Num of answer trees explored: 1644
+Num of states created: 33
+Num of states explored: 27
+Num of heuristic search performed: 4
+Max Num of answer tree sets in Q[]: 7
+
+Div Top-k Search by Astar12, k=5
+[sf, time, travel]
+srcNodes: [1679750, 690173, 1387326]
+  path: 0[1679750 -> 1679750], [SF: Episode One (1998) -> SF: Episode One (1998)]
+  path: 1[1679750 -> 2256183 -> 1477210 -> 2397565 -> 690173], [SF: Episode One (1998) -> Okamoto, Masahiro (III) -> Kantoku · Banzai! (2007) -> Kimura, Yoshino -> "Over Time" (1999)] 
+
+  path: 2[1679750 -> 2431463 -> 1539351 -> 2355231 -> 1387326], [SF: Episode One (1998) -> Monô, Akiko -> Lost in Translation (2003) -> Faris, Anna -> Frequently Asked Questions About Time Travel (2009)] 
+
+srcNodes: [1679750, 1387326, 1387326]
+  path: 0[1387326 -> 2355231 -> 1539351 -> 2431463 -> 1679750], [Frequently Asked Questions About Time Travel (2009) -> Faris, Anna -> Lost in Translation (2003) -> Monô, Akiko -> SF: Episode One (1998)] 
+
+  path: 1[1387326 -> 1387326], [Frequently Asked Questions About Time Travel (2009) -> Frequently Asked Questions About Time Travel (2009)]
+  path: 2[1387326 -> 1387326], [Frequently Asked Questions About Time Travel (2009) -> Frequently Asked Questions About Time Travel (2009)]
+srcNodes: [1679750, 690173, 8006842]
+  path: 0[2256183 -> 1679750], [Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+  path: 1[2256183 -> 1477210 -> 2397565 -> 690173], [Okamoto, Masahiro (III) -> Kantoku · Banzai! (2007) -> Kimura, Yoshino -> "Over Time" (1999)] 
+
+  path: 2[2256183 -> 1477210 -> 2511717 -> 1564842 -> 8006842], [Okamoto, Masahiro (III) -> Kantoku · Banzai! (2007) -> Yoshiyuki, Kazuko -> Metro ni notte (2006) -> based-on-novel,time-travel] 
+
+srcNodes: [1679750, 8010428, 8010428]
+  path: 0[1330015 -> 2485620 -> 1694085 -> 2436745 -> 1679750], [Dino Mom (2010) -> Strong, Tara -> Sen to Chihiro no kamikakushi (2001) -> Natsuki, Mari -> SF: Episode One (1998)] 
+
+  path: 1[1330015 -> 8010428], [Dino Mom (2010) -> dinosaur,time-travel] 
+
+  path: 2[1330015 -> 8010428], [Dino Mom (2010) -> dinosaur,time-travel] 
+
+srcNodes: [1679750, 8006842, 8006842]
+  path: 0[1564842 -> 2511717 -> 1477210 -> 2256183 -> 1679750], [Metro ni notte (2006) -> Yoshiyuki, Kazuko -> Kantoku · Banzai! (2007) -> Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+  path: 1[1564842 -> 8006842], [Metro ni notte (2006) -> based-on-novel,time-travel] 
+
+  path: 2[1564842 -> 8006842], [Metro ni notte (2006) -> based-on-novel,time-travel] 
+
+-----------------------------------------
+ResultDestNodes: [1679750, 1387326, 2256183, 1330015, 1564842]
+ResultRelevs: [7.690255641937256, 6.684776306152344, 6.429914951324463, 6.353095054626465, 6.353095054626465]
+AvgResultRelev: 6.702227401733398
+AvgResultDissimilarity: 0.6166666666666667
+Num of entries retrieved from the KNLists: 4318
+Num of entries retrieved from NKMaps: 5941
+Num of answer trees explored: 1644
+Num of states created: 45
+Num of states explored: 26
+Num of heuristic search performed: 4
+Max Num of answer tree sets in Q[]: 13
+
+Div Top-k Search by Astar12nc, k=5
+[sf, time, travel]
+srcNodes: [1679750, 690173, 1387326]
+  path: 0[1679750 -> 1679750], [SF: Episode One (1998) -> SF: Episode One (1998)]
+  path: 1[1679750 -> 2256183 -> 1477210 -> 2397565 -> 690173], [SF: Episode One (1998) -> Okamoto, Masahiro (III) -> Kantoku · Banzai! (2007) -> Kimura, Yoshino -> "Over Time" (1999)] 
+
+  path: 2[1679750 -> 2431463 -> 1539351 -> 2355231 -> 1387326], [SF: Episode One (1998) -> Monô, Akiko -> Lost in Translation (2003) -> Faris, Anna -> Frequently Asked Questions About Time Travel (2009)] 
+
+srcNodes: [1679750, 1387326, 1387326]
+  path: 0[1387326 -> 2355231 -> 1539351 -> 2431463 -> 1679750], [Frequently Asked Questions About Time Travel (2009) -> Faris, Anna -> Lost in Translation (2003) -> Monô, Akiko -> SF: Episode One (1998)] 
+
+  path: 1[1387326 -> 1387326], [Frequently Asked Questions About Time Travel (2009) -> Frequently Asked Questions About Time Travel (2009)]
+  path: 2[1387326 -> 1387326], [Frequently Asked Questions About Time Travel (2009) -> Frequently Asked Questions About Time Travel (2009)]
+srcNodes: [1679750, 690173, 8006842]
+  path: 0[2256183 -> 1679750], [Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+  path: 1[2256183 -> 1477210 -> 2397565 -> 690173], [Okamoto, Masahiro (III) -> Kantoku · Banzai! (2007) -> Kimura, Yoshino -> "Over Time" (1999)] 
+
+  path: 2[2256183 -> 1477210 -> 2511717 -> 1564842 -> 8006842], [Okamoto, Masahiro (III) -> Kantoku · Banzai! (2007) -> Yoshiyuki, Kazuko -> Metro ni notte (2006) -> based-on-novel,time-travel] 
+
+srcNodes: [1679750, 8010428, 8010428]
+  path: 0[1330015 -> 2485620 -> 1694085 -> 2436745 -> 1679750], [Dino Mom (2010) -> Strong, Tara -> Sen to Chihiro no kamikakushi (2001) -> Natsuki, Mari -> SF: Episode One (1998)] 
+
+  path: 1[1330015 -> 8010428], [Dino Mom (2010) -> dinosaur,time-travel] 
+
+  path: 2[1330015 -> 8010428], [Dino Mom (2010) -> dinosaur,time-travel] 
+
+srcNodes: [1679750, 8006842, 8006842]
+  path: 0[1564842 -> 2511717 -> 1477210 -> 2256183 -> 1679750], [Metro ni notte (2006) -> Yoshiyuki, Kazuko -> Kantoku · Banzai! (2007) -> Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+  path: 1[1564842 -> 8006842], [Metro ni notte (2006) -> based-on-novel,time-travel] 
+
+  path: 2[1564842 -> 8006842], [Metro ni notte (2006) -> based-on-novel,time-travel] 
+
+-----------------------------------------
+ResultDestNodes: [1679750, 1387326, 2256183, 1330015, 1564842]
+ResultRelevs: [7.690255641937256, 6.684776306152344, 6.429914951324463, 6.353095054626465, 6.353095054626465]
+AvgResultRelev: 6.702227401733398
+AvgResultDissimilarity: 0.6166666666666667
+Num of entries retrieved from the KNLists: 4318
+Num of entries retrieved from NKMaps: 5941
+Num of answer trees explored: 1644
+Num of states created: 45
+Num of states explored: 26
+Num of heuristic search performed: 4
+Max Num of answer tree sets in Q[]: 13
+
+query: [explosion, rescue, escape]
+Top-k Search by Blink-BDB, k=5
+[explosion, rescue, escape]
+srcNodes: [8032960, 1667039, 1416355]
+  path: 0[2069866 -> 1272556 -> 2423944 -> 1760045 -> 8032960], [Corddry, Rob -> Cedar Rapids (2011) -> McGee, Joanne -> The Bug (2009) -> explosion] 
+
+  path: 1[2069866 -> 1247041 -> 2121372 -> 1667039], [Corddry, Rob -> Blades of Glory (2007) -> Gellis, Craig -> Rescue Dawn (2006)] 
+
+  path: 2[2069866 -> 1416355], [Corddry, Rob -> Harold & Kumar Escape from Guantanamo Bay (2008)] 
+
+srcNodes: [8032960, 1667039, 1416355]
+  path: 0[2146007 -> 1272556 -> 2423944 -> 1760045 -> 8032960], [Helms, Ed (I) -> Cedar Rapids (2011) -> McGee, Joanne -> The Bug (2009) -> explosion] 
+
+  path: 1[2146007 -> 1560912 -> 2121372 -> 1667039], [Helms, Ed (I) -> Meet Dave (2008) -> Gellis, Craig -> Rescue Dawn (2006)] 
+
+  path: 2[2146007 -> 1416355], [Helms, Ed (I) -> Harold & Kumar Escape from Guantanamo Bay (2008)] 
+
+srcNodes: [8032960, 8028847, 1416355]
+  path: 0[2423944 -> 1760045 -> 8032960], [McGee, Joanne -> The Bug (2009) -> explosion] 
+
+  path: 1[2423944 -> 1712151 -> 2508315 -> 1687094 -> 8028847], [McGee, Joanne -> Small Town Saturday Night (2010) -> Winfree, Rachel -> Saving Shiloh (2006) -> based-on-novel,beagle-dog,boy-and-dog,dog-actor,murder,rescue-from-drowning,river,sequel,small-town,young-teens] 
+
+  path: 2[2423944 -> 1272556 -> 2146007 -> 1416355], [McGee, Joanne -> Cedar Rapids (2011) -> Helms, Ed (I) -> Harold & Kumar Escape from Guantanamo Bay (2008)] 
+
+srcNodes: [8032960, 1667043, 1416355]
+  path: 0[1272556 -> 2423944 -> 1760045 -> 8032960], [Cedar Rapids (2011) -> McGee, Joanne -> The Bug (2009) -> explosion] 
+
+  path: 1[1272556 -> 2504375 -> 1180297 -> 2038006 -> 1667043], [Cedar Rapids (2011) -> Weaver, Sigourney -> A Map of the World (1999) -> Bourgeois, John (I) -> Rescue Heroes: The Movie (2003)] 
+
+  path: 2[1272556 -> 2146007 -> 1416355], [Cedar Rapids (2011) -> Helms, Ed (I) -> Harold & Kumar Escape from Guantanamo Bay (2008)] 
+
+srcNodes: [8032960, 1667039, 1770356]
+  path: 0[2198559 -> 1272556 -> 2423944 -> 1760045 -> 8032960], [Lennon, Thomas (III) -> Cedar Rapids (2011) -> McGee, Joanne -> The Bug (2009) -> explosion] 
+
+  path: 1[2198559 -> 1666431 -> 2157226 -> 1667039], [Lennon, Thomas (III) -> Reno 911!: Miami (2007) -> Huss, Toby (I) -> Rescue Dawn (2006)] 
+
+  path: 2[2198559 -> 1440107 -> 2113095 -> 1770356], [Lennon, Thomas (III) -> I Love You, Man (2009) -> Frank, Gregory George -> The Escape (2010)] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [2069866, 2146007, 2423944, 1272556, 2198559]
+ResultRelevs: [5.6340413093566895, 5.6340413093566895, 5.568342208862305, 5.567713260650635, 5.543909549713135]
+AvgResultRelev: 5.589609527587891
+AvgResultDissimilarity: 0.51
+Num of entries retrieved from the lists: 1662
+Num of entries retrieved from NKMaps: 2826
+Num of answer trees explored: 1122
+
+Div Top-k Search by Exhustive, k=5
+[explosion, rescue, escape]
+srcNodes: [8032960, 1667039, 1416355]
+  path: 0[2069866 -> 1272556 -> 2423944 -> 1760045 -> 8032960], [Corddry, Rob -> Cedar Rapids (2011) -> McGee, Joanne -> The Bug (2009) -> explosion] 
+
+  path: 1[2069866 -> 1247041 -> 2121372 -> 1667039], [Corddry, Rob -> Blades of Glory (2007) -> Gellis, Craig -> Rescue Dawn (2006)] 
+
+  path: 2[2069866 -> 1416355], [Corddry, Rob -> Harold & Kumar Escape from Guantanamo Bay (2008)] 
+
+srcNodes: [8032960, 1667039, 1416355]
+  path: 0[2146007 -> 1272556 -> 2423944 -> 1760045 -> 8032960], [Helms, Ed (I) -> Cedar Rapids (2011) -> McGee, Joanne -> The Bug (2009) -> explosion] 
+
+  path: 1[2146007 -> 1560912 -> 2121372 -> 1667039], [Helms, Ed (I) -> Meet Dave (2008) -> Gellis, Craig -> Rescue Dawn (2006)] 
+
+  path: 2[2146007 -> 1416355], [Helms, Ed (I) -> Harold & Kumar Escape from Guantanamo Bay (2008)] 
+
+srcNodes: [8032960, 8028847, 1416355]
+  path: 0[2423944 -> 1760045 -> 8032960], [McGee, Joanne -> The Bug (2009) -> explosion] 
+
+  path: 1[2423944 -> 1712151 -> 2508315 -> 1687094 -> 8028847], [McGee, Joanne -> Small Town Saturday Night (2010) -> Winfree, Rachel -> Saving Shiloh (2006) -> based-on-novel,beagle-dog,boy-and-dog,dog-actor,murder,rescue-from-drowning,river,sequel,small-town,young-teens] 
+
+  path: 2[2423944 -> 1272556 -> 2146007 -> 1416355], [McGee, Joanne -> Cedar Rapids (2011) -> Helms, Ed (I) -> Harold & Kumar Escape from Guantanamo Bay (2008)] 
+
+srcNodes: [8032960, 1667043, 1416355]
+  path: 0[1272556 -> 2423944 -> 1760045 -> 8032960], [Cedar Rapids (2011) -> McGee, Joanne -> The Bug (2009) -> explosion] 
+
+  path: 1[1272556 -> 2504375 -> 1180297 -> 2038006 -> 1667043], [Cedar Rapids (2011) -> Weaver, Sigourney -> A Map of the World (1999) -> Bourgeois, John (I) -> Rescue Heroes: The Movie (2003)] 
+
+  path: 2[1272556 -> 2146007 -> 1416355], [Cedar Rapids (2011) -> Helms, Ed (I) -> Harold & Kumar Escape from Guantanamo Bay (2008)] 
+
+srcNodes: [8009699, 1667039, 1770356]
+  path: 0[2046391 -> 1286641 -> 2149728 -> 1311388 -> 8009699], [Burgess, Dominic -> Colin (2008) -> Hilmi, Rami -> Deadly Pursuit (2008) -> explosion,gun,mob-action,police] 
+
+  path: 1[2046391 -> 1232442 -> 2019143 -> 1667039], [Burgess, Dominic -> Batman Begins (2005) -> Bale, Christian -> Rescue Dawn (2006)] 
+
+  path: 2[2046391 -> 1770356], [Burgess, Dominic -> The Escape (2010)] 
+
+-----------------------------------------
+ResultDestNodes: [2069866, 2146007, 2423944, 1272556, 2046391]
+ResultRelevs: [5.6340413093566895, 5.6340413093566895, 5.568342208862305, 5.567713260650635, 5.495665550231934]
+AvgResultRelev: 5.579960727691651
+AvgResultDissimilarity: 0.6099999904632568
+Num of entries retrieved from the KNLists: 1662
+Num of entries retrieved from NKMaps: 2826
+Num of answer trees explored: 1122
+Num of answer tree sets created: 70
+Num of answer tree sets removed: 54
+Max Num of answer tree sets in Q[]: 58
+
+Div Top-k Search by Astar0, k=5
+[explosion, rescue, escape]
+srcNodes: [8032960, 1667039, 1416355]
+  path: 0[2069866 -> 1272556 -> 2423944 -> 1760045 -> 8032960], [Corddry, Rob -> Cedar Rapids (2011) -> McGee, Joanne -> The Bug (2009) -> explosion] 
+
+  path: 1[2069866 -> 1247041 -> 2121372 -> 1667039], [Corddry, Rob -> Blades of Glory (2007) -> Gellis, Craig -> Rescue Dawn (2006)] 
+
+  path: 2[2069866 -> 1416355], [Corddry, Rob -> Harold & Kumar Escape from Guantanamo Bay (2008)] 
+
+srcNodes: [8032960, 1667039, 1416355]
+  path: 0[2146007 -> 1272556 -> 2423944 -> 1760045 -> 8032960], [Helms, Ed (I) -> Cedar Rapids (2011) -> McGee, Joanne -> The Bug (2009) -> explosion] 
+
+  path: 1[2146007 -> 1560912 -> 2121372 -> 1667039], [Helms, Ed (I) -> Meet Dave (2008) -> Gellis, Craig -> Rescue Dawn (2006)] 
+
+  path: 2[2146007 -> 1416355], [Helms, Ed (I) -> Harold & Kumar Escape from Guantanamo Bay (2008)] 
+
+srcNodes: [8032960, 8028847, 1416355]
+  path: 0[2423944 -> 1760045 -> 8032960], [McGee, Joanne -> The Bug (2009) -> explosion] 
+
+  path: 1[2423944 -> 1712151 -> 2508315 -> 1687094 -> 8028847], [McGee, Joanne -> Small Town Saturday Night (2010) -> Winfree, Rachel -> Saving Shiloh (2006) -> based-on-novel,beagle-dog,boy-and-dog,dog-actor,murder,rescue-from-drowning,river,sequel,small-town,young-teens] 
+
+  path: 2[2423944 -> 1272556 -> 2146007 -> 1416355], [McGee, Joanne -> Cedar Rapids (2011) -> Helms, Ed (I) -> Harold & Kumar Escape from Guantanamo Bay (2008)] 
+
+srcNodes: [8032960, 1667043, 1416355]
+  path: 0[1272556 -> 2423944 -> 1760045 -> 8032960], [Cedar Rapids (2011) -> McGee, Joanne -> The Bug (2009) -> explosion] 
+
+  path: 1[1272556 -> 2504375 -> 1180297 -> 2038006 -> 1667043], [Cedar Rapids (2011) -> Weaver, Sigourney -> A Map of the World (1999) -> Bourgeois, John (I) -> Rescue Heroes: The Movie (2003)] 
+
+  path: 2[1272556 -> 2146007 -> 1416355], [Cedar Rapids (2011) -> Helms, Ed (I) -> Harold & Kumar Escape from Guantanamo Bay (2008)] 
+
+srcNodes: [8009699, 1667039, 1770356]
+  path: 0[2046391 -> 1286641 -> 2149728 -> 1311388 -> 8009699], [Burgess, Dominic -> Colin (2008) -> Hilmi, Rami -> Deadly Pursuit (2008) -> explosion,gun,mob-action,police] 
+
+  path: 1[2046391 -> 1232442 -> 2019143 -> 1667039], [Burgess, Dominic -> Batman Begins (2005) -> Bale, Christian -> Rescue Dawn (2006)] 
+
+  path: 2[2046391 -> 1770356], [Burgess, Dominic -> The Escape (2010)] 
+
+-----------------------------------------
+ResultDestNodes: [2069866, 2146007, 2423944, 1272556, 2046391]
+ResultRelevs: [5.6340413093566895, 5.6340413093566895, 5.568342208862305, 5.567713260650635, 5.495665550231934]
+AvgResultRelev: 5.579960727691651
+AvgResultDissimilarity: 0.61
+Num of entries retrieved from the KNLists: 1662
+Num of entries retrieved from NKMaps: 2826
+Num of answer trees explored: 1122
+Num of states created: 140
+Num of states explored: 69
+Num of heuristic search performed: 6
+Max Num of answer tree sets in Q[]: 26
+
+Div Top-k Search by Astar1, k=5
+[explosion, rescue, escape]
+srcNodes: [8032960, 1667039, 1416355]
+  path: 0[2069866 -> 1272556 -> 2423944 -> 1760045 -> 8032960], [Corddry, Rob -> Cedar Rapids (2011) -> McGee, Joanne -> The Bug (2009) -> explosion] 
+
+  path: 1[2069866 -> 1247041 -> 2121372 -> 1667039], [Corddry, Rob -> Blades of Glory (2007) -> Gellis, Craig -> Rescue Dawn (2006)] 
+
+  path: 2[2069866 -> 1416355], [Corddry, Rob -> Harold & Kumar Escape from Guantanamo Bay (2008)] 
+
+srcNodes: [8032960, 1667039, 1416355]
+  path: 0[2146007 -> 1272556 -> 2423944 -> 1760045 -> 8032960], [Helms, Ed (I) -> Cedar Rapids (2011) -> McGee, Joanne -> The Bug (2009) -> explosion] 
+
+  path: 1[2146007 -> 1560912 -> 2121372 -> 1667039], [Helms, Ed (I) -> Meet Dave (2008) -> Gellis, Craig -> Rescue Dawn (2006)] 
+
+  path: 2[2146007 -> 1416355], [Helms, Ed (I) -> Harold & Kumar Escape from Guantanamo Bay (2008)] 
+
+srcNodes: [8032960, 8028847, 1416355]
+  path: 0[2423944 -> 1760045 -> 8032960], [McGee, Joanne -> The Bug (2009) -> explosion] 
+
+  path: 1[2423944 -> 1712151 -> 2508315 -> 1687094 -> 8028847], [McGee, Joanne -> Small Town Saturday Night (2010) -> Winfree, Rachel -> Saving Shiloh (2006) -> based-on-novel,beagle-dog,boy-and-dog,dog-actor,murder,rescue-from-drowning,river,sequel,small-town,young-teens] 
+
+  path: 2[2423944 -> 1272556 -> 2146007 -> 1416355], [McGee, Joanne -> Cedar Rapids (2011) -> Helms, Ed (I) -> Harold & Kumar Escape from Guantanamo Bay (2008)] 
+
+srcNodes: [8032960, 1667043, 1416355]
+  path: 0[1272556 -> 2423944 -> 1760045 -> 8032960], [Cedar Rapids (2011) -> McGee, Joanne -> The Bug (2009) -> explosion] 
+
+  path: 1[1272556 -> 2504375 -> 1180297 -> 2038006 -> 1667043], [Cedar Rapids (2011) -> Weaver, Sigourney -> A Map of the World (1999) -> Bourgeois, John (I) -> Rescue Heroes: The Movie (2003)] 
+
+  path: 2[1272556 -> 2146007 -> 1416355], [Cedar Rapids (2011) -> Helms, Ed (I) -> Harold & Kumar Escape from Guantanamo Bay (2008)] 
+
+srcNodes: [8009699, 1667039, 1770356]
+  path: 0[2046391 -> 1286641 -> 2149728 -> 1311388 -> 8009699], [Burgess, Dominic -> Colin (2008) -> Hilmi, Rami -> Deadly Pursuit (2008) -> explosion,gun,mob-action,police] 
+
+  path: 1[2046391 -> 1232442 -> 2019143 -> 1667039], [Burgess, Dominic -> Batman Begins (2005) -> Bale, Christian -> Rescue Dawn (2006)] 
+
+  path: 2[2046391 -> 1770356], [Burgess, Dominic -> The Escape (2010)] 
+
+-----------------------------------------
+ResultDestNodes: [2069866, 2146007, 2423944, 1272556, 2046391]
+ResultRelevs: [5.6340413093566895, 5.6340413093566895, 5.568342208862305, 5.567713260650635, 5.495665550231934]
+AvgResultRelev: 5.579960727691651
+AvgResultDissimilarity: 0.61
+Num of entries retrieved from the KNLists: 1662
+Num of entries retrieved from NKMaps: 2826
+Num of answer trees explored: 1122
+Num of states created: 72
+Num of states explored: 34
+Num of heuristic search performed: 6
+Max Num of answer tree sets in Q[]: 17
+
+Div Top-k Search by Astar2, k=5
+[explosion, rescue, escape]
+srcNodes: [8032960, 1667039, 1416355]
+  path: 0[2069866 -> 1272556 -> 2423944 -> 1760045 -> 8032960], [Corddry, Rob -> Cedar Rapids (2011) -> McGee, Joanne -> The Bug (2009) -> explosion] 
+
+  path: 1[2069866 -> 1247041 -> 2121372 -> 1667039], [Corddry, Rob -> Blades of Glory (2007) -> Gellis, Craig -> Rescue Dawn (2006)] 
+
+  path: 2[2069866 -> 1416355], [Corddry, Rob -> Harold & Kumar Escape from Guantanamo Bay (2008)] 
+
+srcNodes: [8032960, 1667039, 1416355]
+  path: 0[2146007 -> 1272556 -> 2423944 -> 1760045 -> 8032960], [Helms, Ed (I) -> Cedar Rapids (2011) -> McGee, Joanne -> The Bug (2009) -> explosion] 
+
+  path: 1[2146007 -> 1560912 -> 2121372 -> 1667039], [Helms, Ed (I) -> Meet Dave (2008) -> Gellis, Craig -> Rescue Dawn (2006)] 
+
+  path: 2[2146007 -> 1416355], [Helms, Ed (I) -> Harold & Kumar Escape from Guantanamo Bay (2008)] 
+
+srcNodes: [8032960, 8028847, 1416355]
+  path: 0[2423944 -> 1760045 -> 8032960], [McGee, Joanne -> The Bug (2009) -> explosion] 
+
+  path: 1[2423944 -> 1712151 -> 2508315 -> 1687094 -> 8028847], [McGee, Joanne -> Small Town Saturday Night (2010) -> Winfree, Rachel -> Saving Shiloh (2006) -> based-on-novel,beagle-dog,boy-and-dog,dog-actor,murder,rescue-from-drowning,river,sequel,small-town,young-teens] 
+
+  path: 2[2423944 -> 1272556 -> 2146007 -> 1416355], [McGee, Joanne -> Cedar Rapids (2011) -> Helms, Ed (I) -> Harold & Kumar Escape from Guantanamo Bay (2008)] 
+
+srcNodes: [8032960, 1667043, 1416355]
+  path: 0[1272556 -> 2423944 -> 1760045 -> 8032960], [Cedar Rapids (2011) -> McGee, Joanne -> The Bug (2009) -> explosion] 
+
+  path: 1[1272556 -> 2504375 -> 1180297 -> 2038006 -> 1667043], [Cedar Rapids (2011) -> Weaver, Sigourney -> A Map of the World (1999) -> Bourgeois, John (I) -> Rescue Heroes: The Movie (2003)] 
+
+  path: 2[1272556 -> 2146007 -> 1416355], [Cedar Rapids (2011) -> Helms, Ed (I) -> Harold & Kumar Escape from Guantanamo Bay (2008)] 
+
+srcNodes: [8009699, 1667039, 1770356]
+  path: 0[2046391 -> 1286641 -> 2149728 -> 1311388 -> 8009699], [Burgess, Dominic -> Colin (2008) -> Hilmi, Rami -> Deadly Pursuit (2008) -> explosion,gun,mob-action,police] 
+
+  path: 1[2046391 -> 1232442 -> 2019143 -> 1667039], [Burgess, Dominic -> Batman Begins (2005) -> Bale, Christian -> Rescue Dawn (2006)] 
+
+  path: 2[2046391 -> 1770356], [Burgess, Dominic -> The Escape (2010)] 
+
+-----------------------------------------
+ResultDestNodes: [2069866, 2146007, 2423944, 1272556, 2046391]
+ResultRelevs: [5.6340413093566895, 5.6340413093566895, 5.568342208862305, 5.567713260650635, 5.495665550231934]
+AvgResultRelev: 5.579960727691651
+AvgResultDissimilarity: 0.61
+Num of entries retrieved from the KNLists: 1662
+Num of entries retrieved from NKMaps: 2826
+Num of answer trees explored: 1122
+Num of states created: 48
+Num of states explored: 44
+Num of heuristic search performed: 6
+Max Num of answer tree sets in Q[]: 5
+
+Div Top-k Search by Astar12, k=5
+[explosion, rescue, escape]
+srcNodes: [8032960, 1667039, 1416355]
+  path: 0[2069866 -> 1272556 -> 2423944 -> 1760045 -> 8032960], [Corddry, Rob -> Cedar Rapids (2011) -> McGee, Joanne -> The Bug (2009) -> explosion] 
+
+  path: 1[2069866 -> 1247041 -> 2121372 -> 1667039], [Corddry, Rob -> Blades of Glory (2007) -> Gellis, Craig -> Rescue Dawn (2006)] 
+
+  path: 2[2069866 -> 1416355], [Corddry, Rob -> Harold & Kumar Escape from Guantanamo Bay (2008)] 
+
+srcNodes: [8032960, 1667039, 1416355]
+  path: 0[2146007 -> 1272556 -> 2423944 -> 1760045 -> 8032960], [Helms, Ed (I) -> Cedar Rapids (2011) -> McGee, Joanne -> The Bug (2009) -> explosion] 
+
+  path: 1[2146007 -> 1560912 -> 2121372 -> 1667039], [Helms, Ed (I) -> Meet Dave (2008) -> Gellis, Craig -> Rescue Dawn (2006)] 
+
+  path: 2[2146007 -> 1416355], [Helms, Ed (I) -> Harold & Kumar Escape from Guantanamo Bay (2008)] 
+
+srcNodes: [8032960, 8028847, 1416355]
+  path: 0[2423944 -> 1760045 -> 8032960], [McGee, Joanne -> The Bug (2009) -> explosion] 
+
+  path: 1[2423944 -> 1712151 -> 2508315 -> 1687094 -> 8028847], [McGee, Joanne -> Small Town Saturday Night (2010) -> Winfree, Rachel -> Saving Shiloh (2006) -> based-on-novel,beagle-dog,boy-and-dog,dog-actor,murder,rescue-from-drowning,river,sequel,small-town,young-teens] 
+
+  path: 2[2423944 -> 1272556 -> 2146007 -> 1416355], [McGee, Joanne -> Cedar Rapids (2011) -> Helms, Ed (I) -> Harold & Kumar Escape from Guantanamo Bay (2008)] 
+
+srcNodes: [8032960, 1667043, 1416355]
+  path: 0[1272556 -> 2423944 -> 1760045 -> 8032960], [Cedar Rapids (2011) -> McGee, Joanne -> The Bug (2009) -> explosion] 
+
+  path: 1[1272556 -> 2504375 -> 1180297 -> 2038006 -> 1667043], [Cedar Rapids (2011) -> Weaver, Sigourney -> A Map of the World (1999) -> Bourgeois, John (I) -> Rescue Heroes: The Movie (2003)] 
+
+  path: 2[1272556 -> 2146007 -> 1416355], [Cedar Rapids (2011) -> Helms, Ed (I) -> Harold & Kumar Escape from Guantanamo Bay (2008)] 
+
+srcNodes: [8009699, 1667039, 1770356]
+  path: 0[2046391 -> 1286641 -> 2149728 -> 1311388 -> 8009699], [Burgess, Dominic -> Colin (2008) -> Hilmi, Rami -> Deadly Pursuit (2008) -> explosion,gun,mob-action,police] 
+
+  path: 1[2046391 -> 1232442 -> 2019143 -> 1667039], [Burgess, Dominic -> Batman Begins (2005) -> Bale, Christian -> Rescue Dawn (2006)] 
+
+  path: 2[2046391 -> 1770356], [Burgess, Dominic -> The Escape (2010)] 
+
+-----------------------------------------
+ResultDestNodes: [2069866, 2146007, 2423944, 1272556, 2046391]
+ResultRelevs: [5.6340413093566895, 5.6340413093566895, 5.568342208862305, 5.567713260650635, 5.495665550231934]
+AvgResultRelev: 5.579960727691651
+AvgResultDissimilarity: 0.61
+Num of entries retrieved from the KNLists: 1662
+Num of entries retrieved from NKMaps: 2826
+Num of answer trees explored: 1122
+Num of states created: 80
+Num of states explored: 34
+Num of heuristic search performed: 6
+Max Num of answer tree sets in Q[]: 23
+
+Div Top-k Search by Astar12nc, k=5
+[explosion, rescue, escape]
+srcNodes: [8032960, 1667039, 1416355]
+  path: 0[2069866 -> 1272556 -> 2423944 -> 1760045 -> 8032960], [Corddry, Rob -> Cedar Rapids (2011) -> McGee, Joanne -> The Bug (2009) -> explosion] 
+
+  path: 1[2069866 -> 1247041 -> 2121372 -> 1667039], [Corddry, Rob -> Blades of Glory (2007) -> Gellis, Craig -> Rescue Dawn (2006)] 
+
+  path: 2[2069866 -> 1416355], [Corddry, Rob -> Harold & Kumar Escape from Guantanamo Bay (2008)] 
+
+srcNodes: [8032960, 1667039, 1416355]
+  path: 0[2146007 -> 1272556 -> 2423944 -> 1760045 -> 8032960], [Helms, Ed (I) -> Cedar Rapids (2011) -> McGee, Joanne -> The Bug (2009) -> explosion] 
+
+  path: 1[2146007 -> 1560912 -> 2121372 -> 1667039], [Helms, Ed (I) -> Meet Dave (2008) -> Gellis, Craig -> Rescue Dawn (2006)] 
+
+  path: 2[2146007 -> 1416355], [Helms, Ed (I) -> Harold & Kumar Escape from Guantanamo Bay (2008)] 
+
+srcNodes: [8032960, 8028847, 1416355]
+  path: 0[2423944 -> 1760045 -> 8032960], [McGee, Joanne -> The Bug (2009) -> explosion] 
+
+  path: 1[2423944 -> 1712151 -> 2508315 -> 1687094 -> 8028847], [McGee, Joanne -> Small Town Saturday Night (2010) -> Winfree, Rachel -> Saving Shiloh (2006) -> based-on-novel,beagle-dog,boy-and-dog,dog-actor,murder,rescue-from-drowning,river,sequel,small-town,young-teens] 
+
+  path: 2[2423944 -> 1272556 -> 2146007 -> 1416355], [McGee, Joanne -> Cedar Rapids (2011) -> Helms, Ed (I) -> Harold & Kumar Escape from Guantanamo Bay (2008)] 
+
+srcNodes: [8032960, 1667043, 1416355]
+  path: 0[1272556 -> 2423944 -> 1760045 -> 8032960], [Cedar Rapids (2011) -> McGee, Joanne -> The Bug (2009) -> explosion] 
+
+  path: 1[1272556 -> 2504375 -> 1180297 -> 2038006 -> 1667043], [Cedar Rapids (2011) -> Weaver, Sigourney -> A Map of the World (1999) -> Bourgeois, John (I) -> Rescue Heroes: The Movie (2003)] 
+
+  path: 2[1272556 -> 2146007 -> 1416355], [Cedar Rapids (2011) -> Helms, Ed (I) -> Harold & Kumar Escape from Guantanamo Bay (2008)] 
+
+srcNodes: [8009699, 1667039, 1770356]
+  path: 0[2046391 -> 1286641 -> 2149728 -> 1311388 -> 8009699], [Burgess, Dominic -> Colin (2008) -> Hilmi, Rami -> Deadly Pursuit (2008) -> explosion,gun,mob-action,police] 
+
+  path: 1[2046391 -> 1232442 -> 2019143 -> 1667039], [Burgess, Dominic -> Batman Begins (2005) -> Bale, Christian -> Rescue Dawn (2006)] 
+
+  path: 2[2046391 -> 1770356], [Burgess, Dominic -> The Escape (2010)] 
+
+-----------------------------------------
+ResultDestNodes: [2069866, 2146007, 2423944, 1272556, 2046391]
+ResultRelevs: [5.6340413093566895, 5.6340413093566895, 5.568342208862305, 5.567713260650635, 5.495665550231934]
+AvgResultRelev: 5.579960727691651
+AvgResultDissimilarity: 0.61
+Num of entries retrieved from the KNLists: 1662
+Num of entries retrieved from NKMaps: 2826
+Num of answer trees explored: 1122
+Num of states created: 80
+Num of states explored: 34
+Num of heuristic search performed: 6
+Max Num of answer tree sets in Q[]: 23
+
+query: [emperor, conquest, history]
+Top-k Search by Blink-BDB, k=5
+[emperor, conquest, history]
+srcNodes: [1794919, 1290514, 5000607]
+  path: 0[1290514 -> 2209693 -> 1438897 -> 2139926 -> 1794919], [Conquest (1998) -> MacDonald, Daniel (II) -> I Accuse (2003) -> Hannah, John (I) -> The Mummy: Tomb of the Dragon Emperor (2008)] 
+
+  path: 1[1290514 -> 1290514], [Conquest (1998) -> Conquest (1998)]
+  path: 2[1290514 -> 2426817 -> 1602477 -> 5000607], [Conquest (1998) -> Mercure, Monique -> Nouvelle-France (2004) -> War,Drama,History,Romance] 
+
+srcNodes: [1794919, 1290514, 5000065]
+  path: 0[1408001 -> 2039300 -> 1794919], [Grey Owl (1999) -> Bradford, James (I) -> The Mummy: Tomb of the Dragon Emperor (2008)] 
+
+  path: 1[1408001 -> 2112359 -> 1290514], [Grey Owl (1999) -> Fox, David (I) -> Conquest (1998)] 
+
+  path: 2[1408001 -> 2181661 -> 143094 -> 5000065], [Grey Owl (1999) -> Kitching, Art -> "Canada: A People's History" (2000) -> History] 
+
+srcNodes: [1794919, 1290514, 5000065]
+  path: 0[1176464 -> 2124947 -> 1794919], [A Different Loyalty (2004) -> Giverin, Daniel Richard -> The Mummy: Tomb of the Dragon Emperor (2008)] 
+
+  path: 1[1176464 -> 2038006 -> 1290514], [A Different Loyalty (2004) -> Bourgeois, John (I) -> Conquest (1998)] 
+
+  path: 2[1176464 -> 2001439 -> 1478934 -> 5000065], [A Different Loyalty (2004) -> Ackland, Joss -> Katherine of Alexandria (2011) -> History] 
+
+srcNodes: [1794919, 8000829, 5000065]
+  path: 0[440558 -> 2417054 -> 1886549 -> 2311116 -> 1794919], ["Héroes" (2007) -> Maldonado, Aixa -> World Trade Center (2006) -> Bello, Maria (I) -> The Mummy: Tomb of the Dragon Emperor (2008)] 
+
+  path: 1[440558 -> 8000829], ["Héroes" (2007) -> chile,conquest-of-chile,national-hero,tv-mini-series] 
+
+  path: 2[440558 -> 5000065], ["Héroes" (2007) -> History] 
+
+srcNodes: [1794919, 1290514, 5000065]
+  path: 0[2426817 -> 1521306 -> 2039300 -> 1794919], [Mercure, Monique -> Le violon rouge (1998) -> Bradford, James (I) -> The Mummy: Tomb of the Dragon Emperor (2008)] 
+
+  path: 1[2426817 -> 1290514], [Mercure, Monique -> Conquest (1998)] 
+
+  path: 2[2426817 -> 1602477 -> 2032145 -> 143094 -> 5000065], [Mercure, Monique -> Nouvelle-France (2004) -> Bisping, Alexander -> "Canada: A People's History" (2000) -> History] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [1290514, 1408001, 1176464, 440558, 2426817]
+ResultRelevs: [9.181961059570312, 8.335799217224121, 8.335799217224121, 8.318548202514648, 8.307605743408203]
+AvgResultRelev: 8.495942687988281
+AvgResultDissimilarity: 0.38
+Num of entries retrieved from the lists: 1165
+Num of entries retrieved from NKMaps: 1789
+Num of answer trees explored: 516
+
+Div Top-k Search by Exhustive, k=5
+[emperor, conquest, history]
+srcNodes: [1794919, 1290514, 5000607]
+  path: 0[1290514 -> 2209693 -> 1438897 -> 2139926 -> 1794919], [Conquest (1998) -> MacDonald, Daniel (II) -> I Accuse (2003) -> Hannah, John (I) -> The Mummy: Tomb of the Dragon Emperor (2008)] 
+
+  path: 1[1290514 -> 1290514], [Conquest (1998) -> Conquest (1998)]
+  path: 2[1290514 -> 2426817 -> 1602477 -> 5000607], [Conquest (1998) -> Mercure, Monique -> Nouvelle-France (2004) -> War,Drama,History,Romance] 
+
+srcNodes: [1794919, 1290514, 5000065]
+  path: 0[1176464 -> 2124947 -> 1794919], [A Different Loyalty (2004) -> Giverin, Daniel Richard -> The Mummy: Tomb of the Dragon Emperor (2008)] 
+
+  path: 1[1176464 -> 2038006 -> 1290514], [A Different Loyalty (2004) -> Bourgeois, John (I) -> Conquest (1998)] 
+
+  path: 2[1176464 -> 2001439 -> 1478934 -> 5000065], [A Different Loyalty (2004) -> Ackland, Joss -> Katherine of Alexandria (2011) -> History] 
+
+srcNodes: [1794919, 8000829, 5000065]
+  path: 0[440558 -> 2417054 -> 1886549 -> 2311116 -> 1794919], ["Héroes" (2007) -> Maldonado, Aixa -> World Trade Center (2006) -> Bello, Maria (I) -> The Mummy: Tomb of the Dragon Emperor (2008)] 
+
+  path: 1[440558 -> 8000829], ["Héroes" (2007) -> chile,conquest-of-chile,national-hero,tv-mini-series] 
+
+  path: 2[440558 -> 5000065], ["Héroes" (2007) -> History] 
+
+srcNodes: [1794919, 2334703, 5000400]
+  path: 0[665045 -> 2273470 -> 1682854 -> 2311116 -> 1794919], ["Not for Ourselves Alone: The Story of Elizabeth Cady Stanton & Susan B. Anthony" (1999) -> Plimpton, George (I) -> Sam the Man (2001) -> Bello, Maria (I) -> The Mummy: Tomb of the Dragon Emperor (2008)] 
+
+  path: 1[665045 -> 2334703], ["Not for Ourselves Alone: The Story of Elizabeth Cady Stanton & Susan B. Anthony" (1999) -> Conquest, Wendy] 
+
+  path: 2[665045 -> 5000400], ["Not for Ourselves Alone: The Story of Elizabeth Cady Stanton & Susan B. Anthony" (1999) -> Biography,Documentary,History] 
+
+srcNodes: [1794919, 1290514, 1178653]
+  path: 0[1794919 -> 1794919], [The Mummy: Tomb of the Dragon Emperor (2008) -> The Mummy: Tomb of the Dragon Emperor (2008)]
+  path: 1[1794919 -> 2139926 -> 1438897 -> 2209693 -> 1290514], [The Mummy: Tomb of the Dragon Emperor (2008) -> Hannah, John (I) -> I Accuse (2003) -> MacDonald, Daniel (II) -> Conquest (1998)] 
+
+  path: 2[1794919 -> 2311116 -> 1178653], [The Mummy: Tomb of the Dragon Emperor (2008) -> Bello, Maria (I) -> A History of Violence (2005)] 
+
+-----------------------------------------
+ResultDestNodes: [1290514, 1176464, 440558, 665045, 1794919]
+ResultRelevs: [9.181961059570312, 8.335799217224121, 8.318548202514648, 8.231454849243164, 7.949822425842285]
+AvgResultRelev: 8.403517150878907
+AvgResultDissimilarity: 0.6799999713897705
+Num of entries retrieved from the KNLists: 1408
+Num of entries retrieved from NKMaps: 2165
+Num of answer trees explored: 619
+Num of answer tree sets created: 310
+Num of answer tree sets removed: 299
+Max Num of answer tree sets in Q[]: 281
+
+Div Top-k Search by Astar0, k=5
+[emperor, conquest, history]
+srcNodes: [1794919, 1290514, 5000607]
+  path: 0[1290514 -> 2209693 -> 1438897 -> 2139926 -> 1794919], [Conquest (1998) -> MacDonald, Daniel (II) -> I Accuse (2003) -> Hannah, John (I) -> The Mummy: Tomb of the Dragon Emperor (2008)] 
+
+  path: 1[1290514 -> 1290514], [Conquest (1998) -> Conquest (1998)]
+  path: 2[1290514 -> 2426817 -> 1602477 -> 5000607], [Conquest (1998) -> Mercure, Monique -> Nouvelle-France (2004) -> War,Drama,History,Romance] 
+
+srcNodes: [1794919, 1290514, 5000065]
+  path: 0[1176464 -> 2124947 -> 1794919], [A Different Loyalty (2004) -> Giverin, Daniel Richard -> The Mummy: Tomb of the Dragon Emperor (2008)] 
+
+  path: 1[1176464 -> 2038006 -> 1290514], [A Different Loyalty (2004) -> Bourgeois, John (I) -> Conquest (1998)] 
+
+  path: 2[1176464 -> 2001439 -> 1478934 -> 5000065], [A Different Loyalty (2004) -> Ackland, Joss -> Katherine of Alexandria (2011) -> History] 
+
+srcNodes: [1794919, 8000829, 5000065]
+  path: 0[440558 -> 2417054 -> 1886549 -> 2311116 -> 1794919], ["Héroes" (2007) -> Maldonado, Aixa -> World Trade Center (2006) -> Bello, Maria (I) -> The Mummy: Tomb of the Dragon Emperor (2008)] 
+
+  path: 1[440558 -> 8000829], ["Héroes" (2007) -> chile,conquest-of-chile,national-hero,tv-mini-series] 
+
+  path: 2[440558 -> 5000065], ["Héroes" (2007) -> History] 
+
+srcNodes: [1794919, 2334703, 5000400]
+  path: 0[665045 -> 2273470 -> 1682854 -> 2311116 -> 1794919], ["Not for Ourselves Alone: The Story of Elizabeth Cady Stanton & Susan B. Anthony" (1999) -> Plimpton, George (I) -> Sam the Man (2001) -> Bello, Maria (I) -> The Mummy: Tomb of the Dragon Emperor (2008)] 
+
+  path: 1[665045 -> 2334703], ["Not for Ourselves Alone: The Story of Elizabeth Cady Stanton & Susan B. Anthony" (1999) -> Conquest, Wendy] 
+
+  path: 2[665045 -> 5000400], ["Not for Ourselves Alone: The Story of Elizabeth Cady Stanton & Susan B. Anthony" (1999) -> Biography,Documentary,History] 
+
+srcNodes: [1794919, 1290514, 5000065]
+  path: 0[1721063 -> 2288003 -> 1707504 -> 2113461 -> 1794919], [Spider Dance (2011) -> Rhys-Davies, John -> Sinbad: Beyond the Veil of Mists (2000) -> Fraser, Brendan -> The Mummy: Tomb of the Dragon Emperor (2008)] 
+
+  path: 1[1721063 -> 2288003 -> 1788860 -> 2202769 -> 1290514], [Spider Dance (2011) -> Rhys-Davies, John -> The Lost Angel (2005) -> Lipinski, Eugene -> Conquest (1998)] 
+
+  path: 2[1721063 -> 5000065], [Spider Dance (2011) -> History] 
+
+-----------------------------------------
+ResultDestNodes: [1290514, 1176464, 440558, 665045, 1721063]
+ResultRelevs: [9.181961059570312, 8.335799217224121, 8.318548202514648, 8.231454849243164, 8.000478744506836]
+AvgResultRelev: 8.413648414611817
+AvgResultDissimilarity: 0.6
+Num of entries retrieved from the KNLists: 1396
+Num of entries retrieved from NKMaps: 2146
+Num of answer trees explored: 615
+Num of states created: 364
+Num of states explored: 142
+Num of heuristic search performed: 11
+Max Num of answer tree sets in Q[]: 71
+
+Div Top-k Search by Astar1, k=5
+[emperor, conquest, history]
+srcNodes: [1794919, 1290514, 5000607]
+  path: 0[1290514 -> 2209693 -> 1438897 -> 2139926 -> 1794919], [Conquest (1998) -> MacDonald, Daniel (II) -> I Accuse (2003) -> Hannah, John (I) -> The Mummy: Tomb of the Dragon Emperor (2008)] 
+
+  path: 1[1290514 -> 1290514], [Conquest (1998) -> Conquest (1998)]
+  path: 2[1290514 -> 2426817 -> 1602477 -> 5000607], [Conquest (1998) -> Mercure, Monique -> Nouvelle-France (2004) -> War,Drama,History,Romance] 
+
+srcNodes: [1794919, 1290514, 5000065]
+  path: 0[1176464 -> 2124947 -> 1794919], [A Different Loyalty (2004) -> Giverin, Daniel Richard -> The Mummy: Tomb of the Dragon Emperor (2008)] 
+
+  path: 1[1176464 -> 2038006 -> 1290514], [A Different Loyalty (2004) -> Bourgeois, John (I) -> Conquest (1998)] 
+
+  path: 2[1176464 -> 2001439 -> 1478934 -> 5000065], [A Different Loyalty (2004) -> Ackland, Joss -> Katherine of Alexandria (2011) -> History] 
+
+srcNodes: [1794919, 8000829, 5000065]
+  path: 0[440558 -> 2417054 -> 1886549 -> 2311116 -> 1794919], ["Héroes" (2007) -> Maldonado, Aixa -> World Trade Center (2006) -> Bello, Maria (I) -> The Mummy: Tomb of the Dragon Emperor (2008)] 
+
+  path: 1[440558 -> 8000829], ["Héroes" (2007) -> chile,conquest-of-chile,national-hero,tv-mini-series] 
+
+  path: 2[440558 -> 5000065], ["Héroes" (2007) -> History] 
+
+srcNodes: [1794919, 2334703, 5000400]
+  path: 0[665045 -> 2273470 -> 1682854 -> 2311116 -> 1794919], ["Not for Ourselves Alone: The Story of Elizabeth Cady Stanton & Susan B. Anthony" (1999) -> Plimpton, George (I) -> Sam the Man (2001) -> Bello, Maria (I) -> The Mummy: Tomb of the Dragon Emperor (2008)] 
+
+  path: 1[665045 -> 2334703], ["Not for Ourselves Alone: The Story of Elizabeth Cady Stanton & Susan B. Anthony" (1999) -> Conquest, Wendy] 
+
+  path: 2[665045 -> 5000400], ["Not for Ourselves Alone: The Story of Elizabeth Cady Stanton & Susan B. Anthony" (1999) -> Biography,Documentary,History] 
+
+srcNodes: [1794919, 1290514, 5000065]
+  path: 0[1780660 -> 2168313 -> 1665308 -> 2191356 -> 1794919], [The Hootch (2010) -> Jones, Franklin Dennis -> Reindeer Games (2000) -> Lam, Larry -> The Mummy: Tomb of the Dragon Emperor (2008)] 
+
+  path: 1[1780660 -> 2047550 -> 1420527 -> 2032557 -> 1290514], [The Hootch (2010) -> Busey, Jake -> Held Up (1999) -> Black, Ian (III) -> Conquest (1998)] 
+
+  path: 2[1780660 -> 5000065], [The Hootch (2010) -> History] 
+
+-----------------------------------------
+ResultDestNodes: [1290514, 1176464, 440558, 665045, 1780660]
+ResultRelevs: [9.181961059570312, 8.335799217224121, 8.318548202514648, 8.231454849243164, 8.000478744506836]
+AvgResultRelev: 8.413648414611817
+AvgResultDissimilarity: 0.6
+Num of entries retrieved from the KNLists: 1396
+Num of entries retrieved from NKMaps: 2146
+Num of answer trees explored: 615
+Num of states created: 222
+Num of states explored: 107
+Num of heuristic search performed: 11
+Max Num of answer tree sets in Q[]: 47
+
+Div Top-k Search by Astar2, k=5
+[emperor, conquest, history]
+srcNodes: [1794919, 1290514, 5000607]
+  path: 0[1290514 -> 2209693 -> 1438897 -> 2139926 -> 1794919], [Conquest (1998) -> MacDonald, Daniel (II) -> I Accuse (2003) -> Hannah, John (I) -> The Mummy: Tomb of the Dragon Emperor (2008)] 
+
+  path: 1[1290514 -> 1290514], [Conquest (1998) -> Conquest (1998)]
+  path: 2[1290514 -> 2426817 -> 1602477 -> 5000607], [Conquest (1998) -> Mercure, Monique -> Nouvelle-France (2004) -> War,Drama,History,Romance] 
+
+srcNodes: [1794919, 1290514, 5000065]
+  path: 0[1408001 -> 2039300 -> 1794919], [Grey Owl (1999) -> Bradford, James (I) -> The Mummy: Tomb of the Dragon Emperor (2008)] 
+
+  path: 1[1408001 -> 2112359 -> 1290514], [Grey Owl (1999) -> Fox, David (I) -> Conquest (1998)] 
+
+  path: 2[1408001 -> 2181661 -> 143094 -> 5000065], [Grey Owl (1999) -> Kitching, Art -> "Canada: A People's History" (2000) -> History] 
+
+srcNodes: [1794919, 8000829, 5000065]
+  path: 0[440558 -> 2417054 -> 1886549 -> 2311116 -> 1794919], ["Héroes" (2007) -> Maldonado, Aixa -> World Trade Center (2006) -> Bello, Maria (I) -> The Mummy: Tomb of the Dragon Emperor (2008)] 
+
+  path: 1[440558 -> 8000829], ["Héroes" (2007) -> chile,conquest-of-chile,national-hero,tv-mini-series] 
+
+  path: 2[440558 -> 5000065], ["Héroes" (2007) -> History] 
+
+srcNodes: [1794919, 2334703, 5000400]
+  path: 0[665045 -> 2273470 -> 1682854 -> 2311116 -> 1794919], ["Not for Ourselves Alone: The Story of Elizabeth Cady Stanton & Susan B. Anthony" (1999) -> Plimpton, George (I) -> Sam the Man (2001) -> Bello, Maria (I) -> The Mummy: Tomb of the Dragon Emperor (2008)] 
+
+  path: 1[665045 -> 2334703], ["Not for Ourselves Alone: The Story of Elizabeth Cady Stanton & Susan B. Anthony" (1999) -> Conquest, Wendy] 
+
+  path: 2[665045 -> 5000400], ["Not for Ourselves Alone: The Story of Elizabeth Cady Stanton & Susan B. Anthony" (1999) -> Biography,Documentary,History] 
+
+srcNodes: [1794919, 1290514, 5000065]
+  path: 0[1721063 -> 2288003 -> 1707504 -> 2113461 -> 1794919], [Spider Dance (2011) -> Rhys-Davies, John -> Sinbad: Beyond the Veil of Mists (2000) -> Fraser, Brendan -> The Mummy: Tomb of the Dragon Emperor (2008)] 
+
+  path: 1[1721063 -> 2288003 -> 1788860 -> 2202769 -> 1290514], [Spider Dance (2011) -> Rhys-Davies, John -> The Lost Angel (2005) -> Lipinski, Eugene -> Conquest (1998)] 
+
+  path: 2[1721063 -> 5000065], [Spider Dance (2011) -> History] 
+
+-----------------------------------------
+ResultDestNodes: [1290514, 1408001, 440558, 665045, 1721063]
+ResultRelevs: [9.181961059570312, 8.335799217224121, 8.318548202514648, 8.231454849243164, 8.000478744506836]
+AvgResultRelev: 8.413648414611817
+AvgResultDissimilarity: 0.6
+Num of entries retrieved from the KNLists: 1396
+Num of entries retrieved from NKMaps: 2146
+Num of answer trees explored: 615
+Num of states created: 133
+Num of states explored: 124
+Num of heuristic search performed: 11
+Max Num of answer tree sets in Q[]: 12
+
+Div Top-k Search by Astar12, k=5
+[emperor, conquest, history]
+srcNodes: [1794919, 1290514, 5000607]
+  path: 0[1290514 -> 2209693 -> 1438897 -> 2139926 -> 1794919], [Conquest (1998) -> MacDonald, Daniel (II) -> I Accuse (2003) -> Hannah, John (I) -> The Mummy: Tomb of the Dragon Emperor (2008)] 
+
+  path: 1[1290514 -> 1290514], [Conquest (1998) -> Conquest (1998)]
+  path: 2[1290514 -> 2426817 -> 1602477 -> 5000607], [Conquest (1998) -> Mercure, Monique -> Nouvelle-France (2004) -> War,Drama,History,Romance] 
+
+srcNodes: [1794919, 1290514, 5000065]
+  path: 0[1176464 -> 2124947 -> 1794919], [A Different Loyalty (2004) -> Giverin, Daniel Richard -> The Mummy: Tomb of the Dragon Emperor (2008)] 
+
+  path: 1[1176464 -> 2038006 -> 1290514], [A Different Loyalty (2004) -> Bourgeois, John (I) -> Conquest (1998)] 
+
+  path: 2[1176464 -> 2001439 -> 1478934 -> 5000065], [A Different Loyalty (2004) -> Ackland, Joss -> Katherine of Alexandria (2011) -> History] 
+
+srcNodes: [1794919, 8000829, 5000065]
+  path: 0[440558 -> 2417054 -> 1886549 -> 2311116 -> 1794919], ["Héroes" (2007) -> Maldonado, Aixa -> World Trade Center (2006) -> Bello, Maria (I) -> The Mummy: Tomb of the Dragon Emperor (2008)] 
+
+  path: 1[440558 -> 8000829], ["Héroes" (2007) -> chile,conquest-of-chile,national-hero,tv-mini-series] 
+
+  path: 2[440558 -> 5000065], ["Héroes" (2007) -> History] 
+
+srcNodes: [1794919, 2334703, 5000400]
+  path: 0[665045 -> 2273470 -> 1682854 -> 2311116 -> 1794919], ["Not for Ourselves Alone: The Story of Elizabeth Cady Stanton & Susan B. Anthony" (1999) -> Plimpton, George (I) -> Sam the Man (2001) -> Bello, Maria (I) -> The Mummy: Tomb of the Dragon Emperor (2008)] 
+
+  path: 1[665045 -> 2334703], ["Not for Ourselves Alone: The Story of Elizabeth Cady Stanton & Susan B. Anthony" (1999) -> Conquest, Wendy] 
+
+  path: 2[665045 -> 5000400], ["Not for Ourselves Alone: The Story of Elizabeth Cady Stanton & Susan B. Anthony" (1999) -> Biography,Documentary,History] 
+
+srcNodes: [1794919, 1290514, 5000065]
+  path: 0[1721063 -> 2288003 -> 1707504 -> 2113461 -> 1794919], [Spider Dance (2011) -> Rhys-Davies, John -> Sinbad: Beyond the Veil of Mists (2000) -> Fraser, Brendan -> The Mummy: Tomb of the Dragon Emperor (2008)] 
+
+  path: 1[1721063 -> 2288003 -> 1788860 -> 2202769 -> 1290514], [Spider Dance (2011) -> Rhys-Davies, John -> The Lost Angel (2005) -> Lipinski, Eugene -> Conquest (1998)] 
+
+  path: 2[1721063 -> 5000065], [Spider Dance (2011) -> History] 
+
+-----------------------------------------
+ResultDestNodes: [1290514, 1176464, 440558, 665045, 1721063]
+ResultRelevs: [9.181961059570312, 8.335799217224121, 8.318548202514648, 8.231454849243164, 8.000478744506836]
+AvgResultRelev: 8.413648414611817
+AvgResultDissimilarity: 0.6
+Num of entries retrieved from the KNLists: 1396
+Num of entries retrieved from NKMaps: 2146
+Num of answer trees explored: 615
+Num of states created: 309
+Num of states explored: 107
+Num of heuristic search performed: 11
+Max Num of answer tree sets in Q[]: 71
+
+Div Top-k Search by Astar12nc, k=5
+[emperor, conquest, history]
+srcNodes: [1794919, 1290514, 5000607]
+  path: 0[1290514 -> 2209693 -> 1438897 -> 2139926 -> 1794919], [Conquest (1998) -> MacDonald, Daniel (II) -> I Accuse (2003) -> Hannah, John (I) -> The Mummy: Tomb of the Dragon Emperor (2008)] 
+
+  path: 1[1290514 -> 1290514], [Conquest (1998) -> Conquest (1998)]
+  path: 2[1290514 -> 2426817 -> 1602477 -> 5000607], [Conquest (1998) -> Mercure, Monique -> Nouvelle-France (2004) -> War,Drama,History,Romance] 
+
+srcNodes: [1794919, 1290514, 5000065]
+  path: 0[1176464 -> 2124947 -> 1794919], [A Different Loyalty (2004) -> Giverin, Daniel Richard -> The Mummy: Tomb of the Dragon Emperor (2008)] 
+
+  path: 1[1176464 -> 2038006 -> 1290514], [A Different Loyalty (2004) -> Bourgeois, John (I) -> Conquest (1998)] 
+
+  path: 2[1176464 -> 2001439 -> 1478934 -> 5000065], [A Different Loyalty (2004) -> Ackland, Joss -> Katherine of Alexandria (2011) -> History] 
+
+srcNodes: [1794919, 8000829, 5000065]
+  path: 0[440558 -> 2417054 -> 1886549 -> 2311116 -> 1794919], ["Héroes" (2007) -> Maldonado, Aixa -> World Trade Center (2006) -> Bello, Maria (I) -> The Mummy: Tomb of the Dragon Emperor (2008)] 
+
+  path: 1[440558 -> 8000829], ["Héroes" (2007) -> chile,conquest-of-chile,national-hero,tv-mini-series] 
+
+  path: 2[440558 -> 5000065], ["Héroes" (2007) -> History] 
+
+srcNodes: [1794919, 2334703, 5000400]
+  path: 0[665045 -> 2273470 -> 1682854 -> 2311116 -> 1794919], ["Not for Ourselves Alone: The Story of Elizabeth Cady Stanton & Susan B. Anthony" (1999) -> Plimpton, George (I) -> Sam the Man (2001) -> Bello, Maria (I) -> The Mummy: Tomb of the Dragon Emperor (2008)] 
+
+  path: 1[665045 -> 2334703], ["Not for Ourselves Alone: The Story of Elizabeth Cady Stanton & Susan B. Anthony" (1999) -> Conquest, Wendy] 
+
+  path: 2[665045 -> 5000400], ["Not for Ourselves Alone: The Story of Elizabeth Cady Stanton & Susan B. Anthony" (1999) -> Biography,Documentary,History] 
+
+srcNodes: [1794919, 1290514, 5000065]
+  path: 0[1721063 -> 2288003 -> 1707504 -> 2113461 -> 1794919], [Spider Dance (2011) -> Rhys-Davies, John -> Sinbad: Beyond the Veil of Mists (2000) -> Fraser, Brendan -> The Mummy: Tomb of the Dragon Emperor (2008)] 
+
+  path: 1[1721063 -> 2288003 -> 1788860 -> 2202769 -> 1290514], [Spider Dance (2011) -> Rhys-Davies, John -> The Lost Angel (2005) -> Lipinski, Eugene -> Conquest (1998)] 
+
+  path: 2[1721063 -> 5000065], [Spider Dance (2011) -> History] 
+
+-----------------------------------------
+ResultDestNodes: [1290514, 1176464, 440558, 665045, 1721063]
+ResultRelevs: [9.181961059570312, 8.335799217224121, 8.318548202514648, 8.231454849243164, 8.000478744506836]
+AvgResultRelev: 8.413648414611817
+AvgResultDissimilarity: 0.6
+Num of entries retrieved from the KNLists: 1396
+Num of entries retrieved from NKMaps: 2146
+Num of answer trees explored: 615
+Num of states created: 309
+Num of states explored: 107
+Num of heuristic search performed: 11
+Max Num of answer tree sets in Q[]: 71
+
+query: [hitchcock, mystery, thriller]
+Top-k Search by Blink-BDB, k=5
+[hitchcock, mystery, thriller]
+srcNodes: [8007751, 5000244, 5000052]
+  path: 0[1286505 -> 8007751], [Cold Play (2008) -> hitchcock] 
+
+  path: 1[1286505 -> 2032668 -> 1677957 -> 5000244], [Cold Play (2008) -> Black, Tony (VI) -> Rune (2006) -> Drama,Mystery] 
+
+  path: 2[1286505 -> 5000052], [Cold Play (2008) -> Thriller] 
+
+srcNodes: [2380726, 5000002, 5000052]
+  path: 0[2380726 -> 2380726], [Hitchcock, Carrie -> Hitchcock, Carrie]
+  path: 1[2380726 -> 1599540 -> 2437281 -> 1194144 -> 5000002], [Hitchcock, Carrie -> NoNAMES (2010) -> Neil, Alexandra -> Afterschool (2008) -> Mystery,Drama] 
+
+  path: 2[2380726 -> 1367137 -> 5000052], [Hitchcock, Carrie -> Expecting Mercy (2000) -> Thriller] 
+
+srcNodes: [8007751, 5000244, 5000052]
+  path: 0[2032668 -> 1286505 -> 8007751], [Black, Tony (VI) -> Cold Play (2008) -> hitchcock] 
+
+  path: 1[2032668 -> 1677957 -> 5000244], [Black, Tony (VI) -> Rune (2006) -> Drama,Mystery] 
+
+  path: 2[2032668 -> 1286505 -> 5000052], [Black, Tony (VI) -> Cold Play (2008) -> Thriller] 
+
+srcNodes: [8007751, 5000019, 5000052]
+  path: 0[2139229 -> 1286505 -> 8007751], [Hammett, Butch -> Cold Play (2008) -> hitchcock] 
+
+  path: 1[2139229 -> 1630221 -> 2285819 -> 1706357 -> 5000019], [Hammett, Butch -> Pearl Harbor II: Pearlmageddon (2001) -> Reid, Greg Wendell -> Silent Nights (2009) -> Mystery] 
+
+  path: 2[2139229 -> 1286505 -> 5000052], [Hammett, Butch -> Cold Play (2008) -> Thriller] 
+
+srcNodes: [8007751, 5000019, 5000052]
+  path: 0[2239516 -> 1286505 -> 8007751], [Morin, D. David -> Cold Play (2008) -> hitchcock] 
+
+  path: 1[2239516 -> 1830633 -> 2472884 -> 1284682 -> 5000019], [Morin, D. David -> To Save a Life (2009) -> Scott, Trinity (I) -> Clockwork (2007) -> Mystery] 
+
+  path: 2[2239516 -> 1286505 -> 5000052], [Morin, D. David -> Cold Play (2008) -> Thriller] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [1286505, 2380726, 2032668, 2139229, 2239516]
+ResultRelevs: [13.633613586425781, 11.258437156677246, 11.174543380737305, 10.995911598205566, 10.995911598205566]
+AvgResultRelev: 11.611683464050293
+AvgResultDissimilarity: 0.52
+Num of entries retrieved from the lists: 2916
+Num of entries retrieved from NKMaps: 4267
+Num of answer trees explored: 1356
+
+Div Top-k Search by Exhustive, k=5
+[hitchcock, mystery, thriller]
+srcNodes: [8007751, 5000244, 5000052]
+  path: 0[1286505 -> 8007751], [Cold Play (2008) -> hitchcock] 
+
+  path: 1[1286505 -> 2032668 -> 1677957 -> 5000244], [Cold Play (2008) -> Black, Tony (VI) -> Rune (2006) -> Drama,Mystery] 
+
+  path: 2[1286505 -> 5000052], [Cold Play (2008) -> Thriller] 
+
+srcNodes: [2380726, 5000002, 5000052]
+  path: 0[2380726 -> 2380726], [Hitchcock, Carrie -> Hitchcock, Carrie]
+  path: 1[2380726 -> 1599540 -> 2437281 -> 1194144 -> 5000002], [Hitchcock, Carrie -> NoNAMES (2010) -> Neil, Alexandra -> Afterschool (2008) -> Mystery,Drama] 
+
+  path: 2[2380726 -> 1367137 -> 5000052], [Hitchcock, Carrie -> Expecting Mercy (2000) -> Thriller] 
+
+srcNodes: [8007751, 5000244, 5000052]
+  path: 0[2032668 -> 1286505 -> 8007751], [Black, Tony (VI) -> Cold Play (2008) -> hitchcock] 
+
+  path: 1[2032668 -> 1677957 -> 5000244], [Black, Tony (VI) -> Rune (2006) -> Drama,Mystery] 
+
+  path: 2[2032668 -> 1286505 -> 5000052], [Black, Tony (VI) -> Cold Play (2008) -> Thriller] 
+
+srcNodes: [8007751, 5000019, 5000052]
+  path: 0[2239516 -> 1286505 -> 8007751], [Morin, D. David -> Cold Play (2008) -> hitchcock] 
+
+  path: 1[2239516 -> 1830633 -> 2472884 -> 1284682 -> 5000019], [Morin, D. David -> To Save a Life (2009) -> Scott, Trinity (I) -> Clockwork (2007) -> Mystery] 
+
+  path: 2[2239516 -> 1286505 -> 5000052], [Morin, D. David -> Cold Play (2008) -> Thriller] 
+
+srcNodes: [2380726, 5001155, 5000052]
+  path: 0[1367137 -> 2380726], [Expecting Mercy (2000) -> Hitchcock, Carrie] 
+
+  path: 1[1367137 -> 2271382 -> 1718567 -> 5001155], [Expecting Mercy (2000) -> Pickren, Richard -> Soul Survivors (2001) -> Mystery,Thriller,Drama,Horror] 
+
+  path: 2[1367137 -> 5000052], [Expecting Mercy (2000) -> Thriller] 
+
+-----------------------------------------
+ResultDestNodes: [1286505, 2380726, 2032668, 2239516, 1367137]
+ResultRelevs: [13.633613586425781, 11.258437156677246, 11.174543380737305, 10.995911598205566, 10.606477737426758]
+AvgResultRelev: 11.533796691894532
+AvgResultDissimilarity: 0.6300000190734864
+Num of entries retrieved from the KNLists: 3066
+Num of entries retrieved from NKMaps: 4479
+Num of answer trees explored: 1420
+Num of answer tree sets created: 105
+Num of answer tree sets removed: 38
+Max Num of answer tree sets in Q[]: 105
+
+Div Top-k Search by Astar0, k=5
+[hitchcock, mystery, thriller]
+srcNodes: [8007751, 5000244, 5000052]
+  path: 0[1286505 -> 8007751], [Cold Play (2008) -> hitchcock] 
+
+  path: 1[1286505 -> 2032668 -> 1677957 -> 5000244], [Cold Play (2008) -> Black, Tony (VI) -> Rune (2006) -> Drama,Mystery] 
+
+  path: 2[1286505 -> 5000052], [Cold Play (2008) -> Thriller] 
+
+srcNodes: [2380726, 5000002, 5000052]
+  path: 0[2380726 -> 2380726], [Hitchcock, Carrie -> Hitchcock, Carrie]
+  path: 1[2380726 -> 1599540 -> 2437281 -> 1194144 -> 5000002], [Hitchcock, Carrie -> NoNAMES (2010) -> Neil, Alexandra -> Afterschool (2008) -> Mystery,Drama] 
+
+  path: 2[2380726 -> 1367137 -> 5000052], [Hitchcock, Carrie -> Expecting Mercy (2000) -> Thriller] 
+
+srcNodes: [8007751, 5000244, 5000052]
+  path: 0[2032668 -> 1286505 -> 8007751], [Black, Tony (VI) -> Cold Play (2008) -> hitchcock] 
+
+  path: 1[2032668 -> 1677957 -> 5000244], [Black, Tony (VI) -> Rune (2006) -> Drama,Mystery] 
+
+  path: 2[2032668 -> 1286505 -> 5000052], [Black, Tony (VI) -> Cold Play (2008) -> Thriller] 
+
+srcNodes: [8007751, 5000019, 5000052]
+  path: 0[2139229 -> 1286505 -> 8007751], [Hammett, Butch -> Cold Play (2008) -> hitchcock] 
+
+  path: 1[2139229 -> 1630221 -> 2285819 -> 1706357 -> 5000019], [Hammett, Butch -> Pearl Harbor II: Pearlmageddon (2001) -> Reid, Greg Wendell -> Silent Nights (2009) -> Mystery] 
+
+  path: 2[2139229 -> 1286505 -> 5000052], [Hammett, Butch -> Cold Play (2008) -> Thriller] 
+
+srcNodes: [2380726, 5001155, 5000052]
+  path: 0[1367137 -> 2380726], [Expecting Mercy (2000) -> Hitchcock, Carrie] 
+
+  path: 1[1367137 -> 2271382 -> 1718567 -> 5001155], [Expecting Mercy (2000) -> Pickren, Richard -> Soul Survivors (2001) -> Mystery,Thriller,Drama,Horror] 
+
+  path: 2[1367137 -> 5000052], [Expecting Mercy (2000) -> Thriller] 
+
+-----------------------------------------
+ResultDestNodes: [1286505, 2380726, 2032668, 2139229, 1367137]
+ResultRelevs: [13.633613586425781, 11.258437156677246, 11.174543380737305, 10.995911598205566, 10.606477737426758]
+AvgResultRelev: 11.533796691894532
+AvgResultDissimilarity: 0.63
+Num of entries retrieved from the KNLists: 3066
+Num of entries retrieved from NKMaps: 4479
+Num of answer trees explored: 1420
+Num of states created: 33
+Num of states explored: 24
+Num of heuristic search performed: 3
+Max Num of answer tree sets in Q[]: 11
+
+Div Top-k Search by Astar1, k=5
+[hitchcock, mystery, thriller]
+srcNodes: [8007751, 5000244, 5000052]
+  path: 0[1286505 -> 8007751], [Cold Play (2008) -> hitchcock] 
+
+  path: 1[1286505 -> 2032668 -> 1677957 -> 5000244], [Cold Play (2008) -> Black, Tony (VI) -> Rune (2006) -> Drama,Mystery] 
+
+  path: 2[1286505 -> 5000052], [Cold Play (2008) -> Thriller] 
+
+srcNodes: [2380726, 5000002, 5000052]
+  path: 0[2380726 -> 2380726], [Hitchcock, Carrie -> Hitchcock, Carrie]
+  path: 1[2380726 -> 1599540 -> 2437281 -> 1194144 -> 5000002], [Hitchcock, Carrie -> NoNAMES (2010) -> Neil, Alexandra -> Afterschool (2008) -> Mystery,Drama] 
+
+  path: 2[2380726 -> 1367137 -> 5000052], [Hitchcock, Carrie -> Expecting Mercy (2000) -> Thriller] 
+
+srcNodes: [8007751, 5000244, 5000052]
+  path: 0[2032668 -> 1286505 -> 8007751], [Black, Tony (VI) -> Cold Play (2008) -> hitchcock] 
+
+  path: 1[2032668 -> 1677957 -> 5000244], [Black, Tony (VI) -> Rune (2006) -> Drama,Mystery] 
+
+  path: 2[2032668 -> 1286505 -> 5000052], [Black, Tony (VI) -> Cold Play (2008) -> Thriller] 
+
+srcNodes: [8007751, 5000019, 5000052]
+  path: 0[2139229 -> 1286505 -> 8007751], [Hammett, Butch -> Cold Play (2008) -> hitchcock] 
+
+  path: 1[2139229 -> 1630221 -> 2285819 -> 1706357 -> 5000019], [Hammett, Butch -> Pearl Harbor II: Pearlmageddon (2001) -> Reid, Greg Wendell -> Silent Nights (2009) -> Mystery] 
+
+  path: 2[2139229 -> 1286505 -> 5000052], [Hammett, Butch -> Cold Play (2008) -> Thriller] 
+
+srcNodes: [2380726, 5001155, 5000052]
+  path: 0[1367137 -> 2380726], [Expecting Mercy (2000) -> Hitchcock, Carrie] 
+
+  path: 1[1367137 -> 2271382 -> 1718567 -> 5001155], [Expecting Mercy (2000) -> Pickren, Richard -> Soul Survivors (2001) -> Mystery,Thriller,Drama,Horror] 
+
+  path: 2[1367137 -> 5000052], [Expecting Mercy (2000) -> Thriller] 
+
+-----------------------------------------
+ResultDestNodes: [1286505, 2380726, 2032668, 2139229, 1367137]
+ResultRelevs: [13.633613586425781, 11.258437156677246, 11.174543380737305, 10.995911598205566, 10.606477737426758]
+AvgResultRelev: 11.533796691894532
+AvgResultDissimilarity: 0.63
+Num of entries retrieved from the KNLists: 3066
+Num of entries retrieved from NKMaps: 4479
+Num of answer trees explored: 1420
+Num of states created: 30
+Num of states explored: 19
+Num of heuristic search performed: 3
+Max Num of answer tree sets in Q[]: 11
+
+Div Top-k Search by Astar2, k=5
+[hitchcock, mystery, thriller]
+srcNodes: [8007751, 5000244, 5000052]
+  path: 0[1286505 -> 8007751], [Cold Play (2008) -> hitchcock] 
+
+  path: 1[1286505 -> 2032668 -> 1677957 -> 5000244], [Cold Play (2008) -> Black, Tony (VI) -> Rune (2006) -> Drama,Mystery] 
+
+  path: 2[1286505 -> 5000052], [Cold Play (2008) -> Thriller] 
+
+srcNodes: [2380726, 5000002, 5000052]
+  path: 0[2380726 -> 2380726], [Hitchcock, Carrie -> Hitchcock, Carrie]
+  path: 1[2380726 -> 1599540 -> 2437281 -> 1194144 -> 5000002], [Hitchcock, Carrie -> NoNAMES (2010) -> Neil, Alexandra -> Afterschool (2008) -> Mystery,Drama] 
+
+  path: 2[2380726 -> 1367137 -> 5000052], [Hitchcock, Carrie -> Expecting Mercy (2000) -> Thriller] 
+
+srcNodes: [8007751, 5000244, 5000052]
+  path: 0[2032668 -> 1286505 -> 8007751], [Black, Tony (VI) -> Cold Play (2008) -> hitchcock] 
+
+  path: 1[2032668 -> 1677957 -> 5000244], [Black, Tony (VI) -> Rune (2006) -> Drama,Mystery] 
+
+  path: 2[2032668 -> 1286505 -> 5000052], [Black, Tony (VI) -> Cold Play (2008) -> Thriller] 
+
+srcNodes: [8007751, 5000019, 5000052]
+  path: 0[2139229 -> 1286505 -> 8007751], [Hammett, Butch -> Cold Play (2008) -> hitchcock] 
+
+  path: 1[2139229 -> 1630221 -> 2285819 -> 1706357 -> 5000019], [Hammett, Butch -> Pearl Harbor II: Pearlmageddon (2001) -> Reid, Greg Wendell -> Silent Nights (2009) -> Mystery] 
+
+  path: 2[2139229 -> 1286505 -> 5000052], [Hammett, Butch -> Cold Play (2008) -> Thriller] 
+
+srcNodes: [2380726, 5001155, 5000052]
+  path: 0[1367137 -> 2380726], [Expecting Mercy (2000) -> Hitchcock, Carrie] 
+
+  path: 1[1367137 -> 2271382 -> 1718567 -> 5001155], [Expecting Mercy (2000) -> Pickren, Richard -> Soul Survivors (2001) -> Mystery,Thriller,Drama,Horror] 
+
+  path: 2[1367137 -> 5000052], [Expecting Mercy (2000) -> Thriller] 
+
+-----------------------------------------
+ResultDestNodes: [1286505, 2380726, 2032668, 2139229, 1367137]
+ResultRelevs: [13.633613586425781, 11.258437156677246, 11.174543380737305, 10.995911598205566, 10.606477737426758]
+AvgResultRelev: 11.533796691894532
+AvgResultDissimilarity: 0.63
+Num of entries retrieved from the KNLists: 3066
+Num of entries retrieved from NKMaps: 4479
+Num of answer trees explored: 1420
+Num of states created: 33
+Num of states explored: 24
+Num of heuristic search performed: 3
+Max Num of answer tree sets in Q[]: 11
+
+Div Top-k Search by Astar12, k=5
+[hitchcock, mystery, thriller]
+srcNodes: [8007751, 5000244, 5000052]
+  path: 0[1286505 -> 8007751], [Cold Play (2008) -> hitchcock] 
+
+  path: 1[1286505 -> 2032668 -> 1677957 -> 5000244], [Cold Play (2008) -> Black, Tony (VI) -> Rune (2006) -> Drama,Mystery] 
+
+  path: 2[1286505 -> 5000052], [Cold Play (2008) -> Thriller] 
+
+srcNodes: [2380726, 5000002, 5000052]
+  path: 0[2380726 -> 2380726], [Hitchcock, Carrie -> Hitchcock, Carrie]
+  path: 1[2380726 -> 1599540 -> 2437281 -> 1194144 -> 5000002], [Hitchcock, Carrie -> NoNAMES (2010) -> Neil, Alexandra -> Afterschool (2008) -> Mystery,Drama] 
+
+  path: 2[2380726 -> 1367137 -> 5000052], [Hitchcock, Carrie -> Expecting Mercy (2000) -> Thriller] 
+
+srcNodes: [8007751, 5000244, 5000052]
+  path: 0[2032668 -> 1286505 -> 8007751], [Black, Tony (VI) -> Cold Play (2008) -> hitchcock] 
+
+  path: 1[2032668 -> 1677957 -> 5000244], [Black, Tony (VI) -> Rune (2006) -> Drama,Mystery] 
+
+  path: 2[2032668 -> 1286505 -> 5000052], [Black, Tony (VI) -> Cold Play (2008) -> Thriller] 
+
+srcNodes: [8007751, 5000019, 5000052]
+  path: 0[2139229 -> 1286505 -> 8007751], [Hammett, Butch -> Cold Play (2008) -> hitchcock] 
+
+  path: 1[2139229 -> 1630221 -> 2285819 -> 1706357 -> 5000019], [Hammett, Butch -> Pearl Harbor II: Pearlmageddon (2001) -> Reid, Greg Wendell -> Silent Nights (2009) -> Mystery] 
+
+  path: 2[2139229 -> 1286505 -> 5000052], [Hammett, Butch -> Cold Play (2008) -> Thriller] 
+
+srcNodes: [2380726, 5001155, 5000052]
+  path: 0[1367137 -> 2380726], [Expecting Mercy (2000) -> Hitchcock, Carrie] 
+
+  path: 1[1367137 -> 2271382 -> 1718567 -> 5001155], [Expecting Mercy (2000) -> Pickren, Richard -> Soul Survivors (2001) -> Mystery,Thriller,Drama,Horror] 
+
+  path: 2[1367137 -> 5000052], [Expecting Mercy (2000) -> Thriller] 
+
+-----------------------------------------
+ResultDestNodes: [1286505, 2380726, 2032668, 2139229, 1367137]
+ResultRelevs: [13.633613586425781, 11.258437156677246, 11.174543380737305, 10.995911598205566, 10.606477737426758]
+AvgResultRelev: 11.533796691894532
+AvgResultDissimilarity: 0.63
+Num of entries retrieved from the KNLists: 3066
+Num of entries retrieved from NKMaps: 4479
+Num of answer trees explored: 1420
+Num of states created: 30
+Num of states explored: 19
+Num of heuristic search performed: 3
+Max Num of answer tree sets in Q[]: 11
+
+Div Top-k Search by Astar12nc, k=5
+[hitchcock, mystery, thriller]
+srcNodes: [8007751, 5000244, 5000052]
+  path: 0[1286505 -> 8007751], [Cold Play (2008) -> hitchcock] 
+
+  path: 1[1286505 -> 2032668 -> 1677957 -> 5000244], [Cold Play (2008) -> Black, Tony (VI) -> Rune (2006) -> Drama,Mystery] 
+
+  path: 2[1286505 -> 5000052], [Cold Play (2008) -> Thriller] 
+
+srcNodes: [2380726, 5000002, 5000052]
+  path: 0[2380726 -> 2380726], [Hitchcock, Carrie -> Hitchcock, Carrie]
+  path: 1[2380726 -> 1599540 -> 2437281 -> 1194144 -> 5000002], [Hitchcock, Carrie -> NoNAMES (2010) -> Neil, Alexandra -> Afterschool (2008) -> Mystery,Drama] 
+
+  path: 2[2380726 -> 1367137 -> 5000052], [Hitchcock, Carrie -> Expecting Mercy (2000) -> Thriller] 
+
+srcNodes: [8007751, 5000244, 5000052]
+  path: 0[2032668 -> 1286505 -> 8007751], [Black, Tony (VI) -> Cold Play (2008) -> hitchcock] 
+
+  path: 1[2032668 -> 1677957 -> 5000244], [Black, Tony (VI) -> Rune (2006) -> Drama,Mystery] 
+
+  path: 2[2032668 -> 1286505 -> 5000052], [Black, Tony (VI) -> Cold Play (2008) -> Thriller] 
+
+srcNodes: [8007751, 5000019, 5000052]
+  path: 0[2139229 -> 1286505 -> 8007751], [Hammett, Butch -> Cold Play (2008) -> hitchcock] 
+
+  path: 1[2139229 -> 1630221 -> 2285819 -> 1706357 -> 5000019], [Hammett, Butch -> Pearl Harbor II: Pearlmageddon (2001) -> Reid, Greg Wendell -> Silent Nights (2009) -> Mystery] 
+
+  path: 2[2139229 -> 1286505 -> 5000052], [Hammett, Butch -> Cold Play (2008) -> Thriller] 
+
+srcNodes: [2380726, 5001155, 5000052]
+  path: 0[1367137 -> 2380726], [Expecting Mercy (2000) -> Hitchcock, Carrie] 
+
+  path: 1[1367137 -> 2271382 -> 1718567 -> 5001155], [Expecting Mercy (2000) -> Pickren, Richard -> Soul Survivors (2001) -> Mystery,Thriller,Drama,Horror] 
+
+  path: 2[1367137 -> 5000052], [Expecting Mercy (2000) -> Thriller] 
+
+-----------------------------------------
+ResultDestNodes: [1286505, 2380726, 2032668, 2139229, 1367137]
+ResultRelevs: [13.633613586425781, 11.258437156677246, 11.174543380737305, 10.995911598205566, 10.606477737426758]
+AvgResultRelev: 11.533796691894532
+AvgResultDissimilarity: 0.63
+Num of entries retrieved from the KNLists: 3066
+Num of entries retrieved from NKMaps: 4479
+Num of answer trees explored: 1420
+Num of states created: 30
+Num of states explored: 19
+Num of heuristic search performed: 3
+Max Num of answer tree sets in Q[]: 11
+
+query: [hitchcock, thriller, horror]
+Top-k Search by Blink-BDB, k=5
+[hitchcock, thriller, horror]
+srcNodes: [8007751, 5000052, 5000135]
+  path: 0[1286505 -> 8007751], [Cold Play (2008) -> hitchcock] 
+
+  path: 1[1286505 -> 5000052], [Cold Play (2008) -> Thriller] 
+
+  path: 2[1286505 -> 2318567 -> 1219862 -> 5000135], [Cold Play (2008) -> Branch, Vanessa -> Asylum (2007/I) -> Horror,Thriller] 
+
+srcNodes: [2380726, 5000052, 5000008]
+  path: 0[2380726 -> 2380726], [Hitchcock, Carrie -> Hitchcock, Carrie]
+  path: 1[2380726 -> 1367137 -> 5000052], [Hitchcock, Carrie -> Expecting Mercy (2000) -> Thriller] 
+
+  path: 2[2380726 -> 1599540 -> 2222638 -> 1797985 -> 5000008], [Hitchcock, Carrie -> NoNAMES (2010) -> McCaffrey, James (I) -> The Orphan Killer (2011) -> Horror] 
+
+srcNodes: [8007751, 5000052, 5000135]
+  path: 0[2318567 -> 1286505 -> 8007751], [Branch, Vanessa -> Cold Play (2008) -> hitchcock] 
+
+  path: 1[2318567 -> 1286505 -> 5000052], [Branch, Vanessa -> Cold Play (2008) -> Thriller] 
+
+  path: 2[2318567 -> 1219862 -> 5000135], [Branch, Vanessa -> Asylum (2007/I) -> Horror,Thriller] 
+
+srcNodes: [8007751, 5000052, 5000576]
+  path: 0[2139229 -> 1286505 -> 8007751], [Hammett, Butch -> Cold Play (2008) -> hitchcock] 
+
+  path: 1[2139229 -> 1286505 -> 5000052], [Hammett, Butch -> Cold Play (2008) -> Thriller] 
+
+  path: 2[2139229 -> 1858926 -> 5000576], [Hammett, Butch -> Vampire Clan (2002) -> Drama,Horror] 
+
+srcNodes: [8007751, 5000052, 5000008]
+  path: 0[2161537 -> 1286505 -> 8007751], [Jackson, J.D. (I) -> Cold Play (2008) -> hitchcock] 
+
+  path: 1[2161537 -> 1286505 -> 5000052], [Jackson, J.D. (I) -> Cold Play (2008) -> Thriller] 
+
+  path: 2[2161537 -> 1542703 -> 2180752 -> 1786146 -> 5000008], [Jackson, J.D. (I) -> Lucky Number Slevin (2006) -> Kingsley, Ben -> The Last Voyage of Demeter (2011) -> Horror] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [1286505, 2380726, 2318567, 2139229, 2161537]
+ResultRelevs: [13.577581405639648, 11.973140716552734, 11.100918769836426, 11.100918769836426, 10.928092956542969]
+AvgResultRelev: 11.736130523681641
+AvgResultDissimilarity: 0.54
+Num of entries retrieved from the lists: 3213
+Num of entries retrieved from NKMaps: 4591
+Num of answer trees explored: 1372
+
+Div Top-k Search by Exhustive, k=5
+[hitchcock, thriller, horror]
+srcNodes: [8007751, 5000052, 5000135]
+  path: 0[1286505 -> 8007751], [Cold Play (2008) -> hitchcock] 
+
+  path: 1[1286505 -> 5000052], [Cold Play (2008) -> Thriller] 
+
+  path: 2[1286505 -> 2318567 -> 1219862 -> 5000135], [Cold Play (2008) -> Branch, Vanessa -> Asylum (2007/I) -> Horror,Thriller] 
+
+srcNodes: [2380726, 5000052, 5000008]
+  path: 0[2380726 -> 2380726], [Hitchcock, Carrie -> Hitchcock, Carrie]
+  path: 1[2380726 -> 1367137 -> 5000052], [Hitchcock, Carrie -> Expecting Mercy (2000) -> Thriller] 
+
+  path: 2[2380726 -> 1599540 -> 2222638 -> 1797985 -> 5000008], [Hitchcock, Carrie -> NoNAMES (2010) -> McCaffrey, James (I) -> The Orphan Killer (2011) -> Horror] 
+
+srcNodes: [8007751, 5000052, 5000135]
+  path: 0[2318567 -> 1286505 -> 8007751], [Branch, Vanessa -> Cold Play (2008) -> hitchcock] 
+
+  path: 1[2318567 -> 1286505 -> 5000052], [Branch, Vanessa -> Cold Play (2008) -> Thriller] 
+
+  path: 2[2318567 -> 1219862 -> 5000135], [Branch, Vanessa -> Asylum (2007/I) -> Horror,Thriller] 
+
+srcNodes: [8007751, 5000052, 5000576]
+  path: 0[2139229 -> 1286505 -> 8007751], [Hammett, Butch -> Cold Play (2008) -> hitchcock] 
+
+  path: 1[2139229 -> 1286505 -> 5000052], [Hammett, Butch -> Cold Play (2008) -> Thriller] 
+
+  path: 2[2139229 -> 1858926 -> 5000576], [Hammett, Butch -> Vampire Clan (2002) -> Drama,Horror] 
+
+srcNodes: [2380726, 5000052, 5001155]
+  path: 0[1367137 -> 2380726], [Expecting Mercy (2000) -> Hitchcock, Carrie] 
+
+  path: 1[1367137 -> 5000052], [Expecting Mercy (2000) -> Thriller] 
+
+  path: 2[1367137 -> 2271382 -> 1718567 -> 5001155], [Expecting Mercy (2000) -> Pickren, Richard -> Soul Survivors (2001) -> Mystery,Thriller,Drama,Horror] 
+
+-----------------------------------------
+ResultDestNodes: [1286505, 2380726, 2318567, 2139229, 1367137]
+ResultRelevs: [13.577581405639648, 11.973140716552734, 11.100918769836426, 11.100918769836426, 10.561652183532715]
+AvgResultRelev: 11.66284236907959
+AvgResultDissimilarity: 0.6300000190734864
+Num of entries retrieved from the KNLists: 3378
+Num of entries retrieved from NKMaps: 4831
+Num of answer trees explored: 1449
+Num of answer tree sets created: 479
+Num of answer tree sets removed: 42
+Max Num of answer tree sets in Q[]: 479
+
+Div Top-k Search by Astar0, k=5
+[hitchcock, thriller, horror]
+srcNodes: [8007751, 5000052, 5000135]
+  path: 0[1286505 -> 8007751], [Cold Play (2008) -> hitchcock] 
+
+  path: 1[1286505 -> 5000052], [Cold Play (2008) -> Thriller] 
+
+  path: 2[1286505 -> 2318567 -> 1219862 -> 5000135], [Cold Play (2008) -> Branch, Vanessa -> Asylum (2007/I) -> Horror,Thriller] 
+
+srcNodes: [2380726, 5000052, 5000008]
+  path: 0[2380726 -> 2380726], [Hitchcock, Carrie -> Hitchcock, Carrie]
+  path: 1[2380726 -> 1367137 -> 5000052], [Hitchcock, Carrie -> Expecting Mercy (2000) -> Thriller] 
+
+  path: 2[2380726 -> 1599540 -> 2222638 -> 1797985 -> 5000008], [Hitchcock, Carrie -> NoNAMES (2010) -> McCaffrey, James (I) -> The Orphan Killer (2011) -> Horror] 
+
+srcNodes: [8007751, 5000052, 5000135]
+  path: 0[2318567 -> 1286505 -> 8007751], [Branch, Vanessa -> Cold Play (2008) -> hitchcock] 
+
+  path: 1[2318567 -> 1286505 -> 5000052], [Branch, Vanessa -> Cold Play (2008) -> Thriller] 
+
+  path: 2[2318567 -> 1219862 -> 5000135], [Branch, Vanessa -> Asylum (2007/I) -> Horror,Thriller] 
+
+srcNodes: [8007751, 5000052, 5000576]
+  path: 0[2139229 -> 1286505 -> 8007751], [Hammett, Butch -> Cold Play (2008) -> hitchcock] 
+
+  path: 1[2139229 -> 1286505 -> 5000052], [Hammett, Butch -> Cold Play (2008) -> Thriller] 
+
+  path: 2[2139229 -> 1858926 -> 5000576], [Hammett, Butch -> Vampire Clan (2002) -> Drama,Horror] 
+
+srcNodes: [2380726, 5000052, 5001155]
+  path: 0[1367137 -> 2380726], [Expecting Mercy (2000) -> Hitchcock, Carrie] 
+
+  path: 1[1367137 -> 5000052], [Expecting Mercy (2000) -> Thriller] 
+
+  path: 2[1367137 -> 2271382 -> 1718567 -> 5001155], [Expecting Mercy (2000) -> Pickren, Richard -> Soul Survivors (2001) -> Mystery,Thriller,Drama,Horror] 
+
+-----------------------------------------
+ResultDestNodes: [1286505, 2380726, 2318567, 2139229, 1367137]
+ResultRelevs: [13.577581405639648, 11.973140716552734, 11.100918769836426, 11.100918769836426, 10.561652183532715]
+AvgResultRelev: 11.66284236907959
+AvgResultDissimilarity: 0.63
+Num of entries retrieved from the KNLists: 3378
+Num of entries retrieved from NKMaps: 4831
+Num of answer trees explored: 1449
+Num of states created: 200
+Num of states explored: 175
+Num of heuristic search performed: 7
+Max Num of answer tree sets in Q[]: 30
+

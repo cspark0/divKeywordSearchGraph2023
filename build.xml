@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. -->
+<project basedir="." default="build" name="keywordSearch-constrainedDup">
+    <property environment="env"/>
+    <property name="ECLIPSE_HOME" value="../../../../Program Files/eclipse-jee-indigo-SR2-win32-x86_64/eclipse"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <!--
+    <property name="target" value="1.6"/>
+    <property name="source" value="1.6"/>
+	-->
+    <path id="keywordSearch-divtopk.classpath">
+        <pathelement location="target/classes"/>
+        <pathelement location="lib/commons-lang-2.4.jar"/>
+        <pathelement location="lib/commons-pool-1.5.5.jar"/>
+        <pathelement location="lib/commons-pool2-2.11.1.jar"/>
+        <pathelement location="lib/je-4.1.10.jar"/>
+        <pathelement location="lib/jgrapht-jdk1.6.jar"/>
+        <pathelement location="lib/junit-4.4.jar"/>
+        <pathelement location="lib/log4j-1.2.16.jar"/>
+        <pathelement location="lib/lucene-core-3.6.1.jar"/>
+        <pathelement location="lib/mysql-connector-java-8.0.16.jar"/>
+        <pathelement location="lib/slf4j-api-1.6.4.jar"/>
+        <pathelement location="lib/slf4j-log4j12-1.6.4.jar"/>
+        <pathelement location="lib/uuid-3.2.jar"/>
+        <pathelement location="lib/xercesImpl-2.11.0.jar"/>
+        <pathelement location="lib/xml-apis-2.0.2.jar"/>
+    </path>
+    <target name="init">
+        <mkdir dir="target/classes"/>
+        <copy includeemptydirs="false" todir="target/classes">
+            <fileset dir="src">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+				<include name="*.properties"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="target/classes"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+	<javac encoding="MS949" debug="true" debuglevel="${debuglevel}" destdir="target/classes" includeantruntime="false"> <!-- source="${source}" target="${target}">-->
+            <src path="src"/>
+            <exclude name="**/old/**"/>
+    	   <classpath refid="keywordSearch-divtopk.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+    <target name="mondial.buildGraph">
+        <java classname="index.mondial.buildGraph" failonerror="true" fork="yes">
+	    <classpath refid="keywordSearch-divtopk.classpath"/>
+        </java>
+    </target>
+    <target name="mondial.loadLuceneIndexToKNS">
+        <java classname="index.mondial.loadLuceneIndexToKNS" failonerror="true" fork="yes">
+	            <classpath refid="keywordSearch-divtopk.classpath"/>
+        </java>
+    </target>
+    <target name="mondial.buildIndex">
+        <java classname="index.mondial.buildIndex" failonerror="true" fork="yes">
+	    <classpath refid="keywordSearch-divtopk.classpath"/>
+        </java>
+    </target>
+	<target name="mondial.InteractiveExp">
+	        <java classname="exp.mondial.InteractiveExp" failonerror="true" fork="yes">
+	            <classpath refid="keywordSearch-divtopk.classpath"/>
+	        </java>
+	</target>
+	<target name="mondial.Exp1">
+	        <java classname="exp.mondial.Exp1" failonerror="true" fork="yes">
+	            <classpath refid="keywordSearch-divtopk.classpath"/>
+	        </java>
+	</target>
+	<target name="mondial.Exp2">
+	        <java classname="exp.mondial.Exp2" failonerror="true" fork="yes">
+	            <classpath refid="keywordSearch-divtopk.classpath"/>
+	        </java>
+	</target>
+	<target name="mondial.Exp1statVaryingTau">
+	        <java classname="exp.mondial.Exp1statVaryingTau" failonerror="true" fork="yes">
+	            <classpath refid="keywordSearch-divtopk.classpath"/>
+	        </java>
+	</target>
+	<target name="mondial.Exp1stat_exectime0">
+	        <java classname="exp.mondial.Exp1stat_exectime_incremental" failonerror="true" fork="yes">
+	            <classpath refid="keywordSearch-divtopk.classpath"/>
+	        </java>
+	</target>
+	<target name="mondial.Exp1stat_exectime1">
+	        <java classname="exp.mondial.Exp1stat_exectime_blinks" failonerror="true" fork="yes">
+	            <classpath refid="keywordSearch-divtopk.classpath"/>
+	        </java>
+	</target>
+	<target name="mondial.Exp1stat_exectime2">
+	        <java classname="exp.mondial.Exp1stat_exectime_divtopk_exhust" failonerror="true" fork="yes">
+	            <classpath refid="keywordSearch-divtopk.classpath"/>
+	        </java>
+	</target>
+	<target name="mondial.Exp1stat_exectime3">
+	        <java classname="exp.mondial.Exp1stat_exectime_divtopk_astar1" failonerror="true" fork="yes">
+	            <classpath refid="keywordSearch-divtopk.classpath"/>
+	        </java>
+	</target>
+	<target name="mondial.Exp1stat_exectime">
+	        <java classname="exp.mondial.Exp1stat_exectime_blinks" failonerror="true" fork="yes">
+	            <classpath refid="keywordSearch-divtopk.classpath"/>
+	        </java>
+	        <java classname="exp.mondial.Exp1stat_exectime_divtopk_exhust" failonerror="true" fork="yes">
+	            <classpath refid="keywordSearch-divtopk.classpath"/>
+	        </java>
+	        <java classname="exp.mondial.Exp1stat_exectime_divtopk_astar1" failonerror="true" fork="yes">
+	            <classpath refid="keywordSearch-divtopk.classpath"/>
+	        </java>
+	</target>
+
+    <target name="jmdb.buildGraph">
+        <java classname="index.jmdb.buildGraph" failonerror="true" fork="yes">
+	            <classpath refid="keywordSearch-divtopk.classpath"/>
+        </java>
+  	</target>
+    <target name="jmdb.buildGraph1">
+        <java classname="index.jmdb.buildGraph" failonerror="true" fork="yes">
+	            <classpath refid="keywordSearch-divtopk.classpath"/>
+			<arg value="0"/>
+			<arg value="1000000"/>
+        </java>
+  	</target>
+    <target name="jmdb.buildGraph2">
+        <java classname="index.jmdb.buildGraph" failonerror="true" fork="yes">
+	            <classpath refid="keywordSearch-divtopk.classpath"/>
+			<arg value="1000000"/>
+			<arg value="2000000"/>
+        </java>
+  	</target>
+    <target name="jmdb.buildGraph3">
+        <java classname="index.jmdb.buildGraph" failonerror="true" fork="yes">
+	            <classpath refid="keywordSearch-divtopk.classpath"/>
+			<arg value="2000000"/>
+			<arg value="3000000"/>
+        </java>
+  	</target>
+    <target name="jmdb.buildGraph5">
+        <java classname="index.jmdb.buildGraph" failonerror="true" fork="yes">
+	            <classpath refid="keywordSearch-divtopk.classpath"/>
+			<arg value="4000000"/>
+			<arg value="5000000"/>
+        </java>
+  	</target>
+    <target name="jmdb.buildGraph6">
+        <java classname="index.jmdb.buildGraph" failonerror="true" fork="yes">
+	            <classpath refid="keywordSearch-divtopk.classpath"/>
+			<arg value="5000000"/>
+			<arg value="6000000"/>
+        </java>
+  	</target>
+    <target name="jmdb.buildGraph7">
+        <java classname="index.jmdb.buildGraph" failonerror="true" fork="yes">
+	            <classpath refid="keywordSearch-divtopk.classpath"/>
+			<arg value="6000000"/>
+			<arg value="7000000"/>
+        </java>
+  	</target>
+    <target name="jmdb.buildGraph8">
+        <java classname="index.jmdb.buildGraph" failonerror="true" fork="yes">
+	            <classpath refid="keywordSearch-divtopk.classpath"/>
+			<arg value="7000000"/>
+			<arg value="8000000"/>
+        </java>
+  	</target>
+    <target name="jmdb.buildGraph9">
+        <java classname="index.jmdb.buildGraph" failonerror="true" fork="yes">
+	            <classpath refid="keywordSearch-divtopk.classpath"/>
+			<arg value="8000000"/>
+			<arg value="9000000"/>
+        </java>
+  	</target>
+    <target name="jmdb.buildGraph10">
+        <java classname="index.jmdb.buildGraph" failonerror="true" fork="yes">
+	            <classpath refid="keywordSearch-divtopk.classpath"/>
+			<arg value="9000000"/>
+			<arg value="10000000"/>
+        </java>
+  	</target>
+    <target name="jmdb.buildGraph11">
+        <java classname="index.jmdb.buildGraph" failonerror="true" fork="yes">
+	            <classpath refid="keywordSearch-divtopk.classpath"/>
+			<arg value="10000000"/>
+			<arg value="11000000"/>
+        </java>
+  	</target>
+    <target name="jmdb.loadLuceneIndexToKNS">
+        <java classname="index.jmdb.loadLuceneIndexToKNS" failonerror="true" fork="yes">
+	            <classpath refid="keywordSearch-divtopk.classpath"/>
+        </java>
+    </target>
+    <target name="jmdb.buildIndex">
+        <java classname="index.jmdb.buildIndex" failonerror="true" fork="yes">
+		    	<jvmarg line="-Xms7g -Xmx7g"/>
+	            <classpath refid="keywordSearch-divtopk.classpath"/>
+        </java>
+    </target>
+    <target name="jmdb.deleteIndex">
+        <java classname="index.jmdb.deleteIndex" failonerror="true" fork="yes">
+	            <classpath refid="keywordSearch-divtopk.classpath"/>
+        </java>
+    </target>
+    <target name="jmdb.buildIndexForKeyword">
+        <java classname="index.jmdb.buildIndexForKeywordJmdb" failonerror="true" fork="yes">
+	            <classpath refid="keywordSearch-divtopk.classpath"/>
+        </java>
+    </target>
+    <target name="jmdb.buildIndexForKeyword1">
+        <java classname="index.jmdb.buildIndexForKeyword" failonerror="true" fork="yes">
+	            <classpath refid="keywordSearch-divtopk.classpath"/>
+		<arg value="KNNR_1"/>
+        </java>
+    </target>
+    <target name="jmdb.buildIndexForKeyword2">
+        <java classname="index.jmdb.buildIndexForKeyword" failonerror="true" fork="yes">
+	            <classpath refid="keywordSearch-divtopk.classpath"/>
+		<arg value="KNNR_2"/>
+        </java>
+    </target>
+    <target name="jmdb.buildIndexForKeyword3">
+        <java classname="index.jmdb.buildIndexForKeyword" failonerror="true" fork="yes">
+	            <classpath refid="keywordSearch-divtopk.classpath"/>
+		<arg value="KNNR_3"/>
+        </java>
+    </target>
+    <target name="jmdb.buildIndexForKeyword4">
+        <java classname="index.jmdb.buildIndexForKeyword" failonerror="true" fork="yes">
+	            <classpath refid="keywordSearch-divtopk.classpath"/>
+		<arg value="KNNR_4"/>
+        </java>
+    </target>
+    <target name="jmdb.buildIndexForKeyword5">
+        <java classname="index.jmdb.buildIndexForKeyword" failonerror="true" fork="yes">
+	            <classpath refid="keywordSearch-divtopk.classpath"/>
+		<arg value="KNNR_5"/>
+        </java>
+    </target>
+    <target name="jmdb.buildIndexForKeyword6">
+        <java classname="index.jmdb.buildIndexForKeyword" failonerror="true" fork="yes">
+	            <classpath refid="keywordSearch-divtopk.classpath"/>
+		<arg value="KNNR_6"/>
+        </java>
+    </target>
+	<target name="jmdb.InteractiveExp">
+	        <java classname="exp.jmdb.InteractiveExp" failonerror="true" fork="yes">
+	            <classpath refid="keywordSearch-divtopk.classpath"/>
+	        </java>
+	</target>
+	<target name="jmdb.exectimes">
+	        <java classname="exp.jmdb.Exp1stat_exectime_blinks" failonerror="true" fork="yes">
+    	   		<classpath refid="keywordSearch-divtopk.classpath"/>
+			<arg value="10"/>
+		</java>
+	        <java classname="exp.jmdb.Exp1stat_exectime_constRootDup" failonerror="true" fork="yes">
+    	   		<classpath refid="keywordSearch-divtopk.classpath"/>
+			<arg value="10"/>
+	        </java>
+	        <java classname="exp.jmdb.Exp1stat_exectime_blinks" failonerror="true" fork="yes">
+    	   		<classpath refid="keywordSearch-divtopk.classpath"/>
+			<arg value="20"/>
+		</java>
+	        <java classname="exp.jmdb.Exp1stat_exectime_constRootDup" failonerror="true" fork="yes">
+    	   		<classpath refid="keywordSearch-divtopk.classpath"/>
+			<arg value="20"/>
+	        </java>
+	        <java classname="exp.jmdb.Exp1stat_exectime_blinks" failonerror="true" fork="yes">
+    	   		<classpath refid="keywordSearch-divtopk.classpath"/>
+			<arg value="30"/>
+		</java>
+	        <java classname="exp.jmdb.Exp1stat_exectime_constRootDup" failonerror="true" fork="yes">
+    	   		<classpath refid="keywordSearch-divtopk.classpath"/>
+			<arg value="30"/>
+	        </java>
+	</target>
+	<target name="jmdb.exectime_blinks">
+	        <java classname="exp.jmdb.Exp1stat_exectime_blinks" failonerror="true" fork="yes">
+    	   <classpath refid="keywordSearch-divtopk.classpath"/>
+		        </java>
+	</target>
+	<target name="jmdb.exectime_constRootDup">
+	        <java classname="exp.jmdb.Exp1stat_exectime_constRootDup" failonerror="true" fork="yes">
+    	   	<classpath refid="keywordSearch-divtopk.classpath"/>
+	        </java>
+	</target>
+	<target name="jmdb.Exp1">
+	        <java classname="exp.jmdb.Exp1" failonerror="true" fork="yes">
+    	   		<classpath refid="keywordSearch-divtopk.classpath"/>
+			<!--arg value="0.7"/>
+			<arg value="3"/!-->
+	        </java>
+	</target>
+	<target name="jmdb.Exp2">
+	        <java classname="exp.jmdb.Exp2" failonerror="true" fork="yes">
+    	   		<classpath refid="keywordSearch-divtopk.classpath"/>
+	        </java>
+	</target>
+
+	<target name="jmdb.Exp3">
+	        <java classname="exp.jmdb.Exp3" failonerror="true" fork="yes">
+    	   		<classpath refid="keywordSearch-divtopk.classpath"/>
+	        </java>
+	</target>
+
+	<target name="jmdb.Exp4">
+	        <java classname="exp.jmdb.Exp4" failonerror="true" fork="yes">
+    	   		<classpath refid="keywordSearch-divtopk.classpath"/>
+	        </java>
+	</target>
+
+	<target name="jmdb.Exp5">
+	        <java classname="exp.jmdb.Exp5" failonerror="true" fork="yes">
+    	   		<classpath refid="keywordSearch-divtopk.classpath"/>
+	        </java>
+	</target>
+
+	<target name="jmdb.Exp1statAllVaryingRm">
+	        <java classname="exp.jmdb.Exp1statNewVaryingRm" failonerror="true" fork="yes">
+    	   	<classpath refid="keywordSearch-divtopk.classpath"/>
+	        </java>
+	</target>
+
+	<target name="mondial.exectime_blinks">
+	        <java classname="exp.mondial.Exp1stat_exectime_blinks" failonerror="true" fork="yes">
+    	   <classpath refid="keywordSearch-divtopk.classpath"/>
+		        </java>
+	</target>
+	<target name="mondial.exectime_constRootDup">
+	        <java classname="exp.mondial.Exp1stat_exectime_constRootDup" failonerror="true" fork="yes">
+    	   	<classpath refid="keywordSearch-divtopk.classpath"/>
+	        </java>
+	</target>
+	<target name="mondial.Exp1statAll">
+	        <java classname="exp.mondial.Exp1statNew" failonerror="true" fork="yes">
+    	   	<classpath refid="keywordSearch-divtopk.classpath"/>
+	        </java>
+	</target>
+	<target name="mondial.Exp1statAllVaryingRm">
+	        <java classname="exp.mondial.Exp1statNewVaryingRm" failonerror="true" fork="yes">
+    	   	<classpath refid="keywordSearch-divtopk.classpath"/>
+	        </java>
+	</target>
+
+	<target name="mondial.exectimes">
+	        <java classname="exp.mondial.Exp1stat_exectime_constRootDup" failonerror="true" fork="yes">
+    	   		<classpath refid="keywordSearch-divtopk.classpath"/>
+			<arg value="10"/>
+	        </java>
+	        <java classname="exp.mondial.Exp1stat_exectime_blinks" failonerror="true" fork="yes">
+    	   		<classpath refid="keywordSearch-divtopk.classpath"/>
+			<arg value="10"/>
+		</java>
+	        <java classname="exp.mondial.Exp1stat_exectime_constRootDup" failonerror="true" fork="yes">
+    	   		<classpath refid="keywordSearch-divtopk.classpath"/>
+			<arg value="20"/>
+	        </java>
+	        <java classname="exp.mondial.Exp1stat_exectime_blinks" failonerror="true" fork="yes">
+    	   		<classpath refid="keywordSearch-divtopk.classpath"/>
+			<arg value="20"/>
+		</java>
+	        <java classname="exp.mondial.Exp1stat_exectime_constRootDup" failonerror="true" fork="yes">
+    	   		<classpath refid="keywordSearch-divtopk.classpath"/>
+			<arg value="30"/>
+	        </java>
+	        <java classname="exp.mondial.Exp1stat_exectime_blinks" failonerror="true" fork="yes">
+    	   		<classpath refid="keywordSearch-divtopk.classpath"/>
+			<arg value="30"/>
+		</java>
+	</target>
+
+    <target name="dblp.loadDblpData">
+        <java classname="index.dblp.LoadDblpAuthorNVenueToDB" failonerror="true" fork="yes">
+	            <classpath refid="keywordSearch-divtopk.classpath"/>
+        </java>
+        <java classname="index.dblp.LoadDblpDataToDB" failonerror="true" fork="yes">
+	            <classpath refid="keywordSearch-divtopk.classpath"/>
+        </java>
+  	</target>
+    <target name="dblp.loadDblpDataToDB">
+        <java classname="index.dblp.LoadDblpDataToDB" failonerror="true" fork="yes">
+	            <classpath refid="keywordSearch-divtopk.classpath"/>
+        </java>
+  	</target>
+    <target name="dblp.buildGraph">
+        <java classname="index.dblp.buildGraph" failonerror="true" fork="yes">
+	            <classpath refid="keywordSearch-divtopk.classpath"/>
+        </java>
+  	</target>
+    <target name="dblp.buildGraph1">
+        <java classname="index.dblp.buildGraph" failonerror="true" fork="yes">
+	            <classpath refid="keywordSearch-divtopk.classpath"/>
+			<arg value="0"/>
+			<arg value="2000000"/>
+        </java>
+  	</target>
+    <target name="dblp.buildGraph2">
+        <java classname="index.dblp.buildGraph" failonerror="true" fork="yes">
+	            <classpath refid="keywordSearch-divtopk.classpath"/>
+			<arg value="5000000"/>
+			<arg value="6000000"/>
+        </java>
+  	</target>
+    <target name="dblp.buildGraph3">
+        <java classname="index.dblp.buildGraph" failonerror="true" fork="yes">
+	            <classpath refid="keywordSearch-divtopk.classpath"/>
+			<arg value="9000000"/>
+			<arg value="10000000"/>
+        </java>
+  	</target>
+	<target name="dblp.Exp1stat">
+	        <java classname="exp.dblp.Exp1stat" failonerror="true" fork="yes">
+    	   		<classpath refid="keywordSearch-divtopk.classpath"/>
+			<!--arg value="0.7"/>
+			<arg value="3"/!-->
+	        </java>
+	</target>
+    <target name="dblp.loadLuceneIndexToKNS">
+        <java classname="index.dblp.loadLuceneIndexToKNS" failonerror="true" fork="yes">
+	            <classpath refid="keywordSearch-divtopk.classpath"/>
+        </java>
+    </target>
+    <target name="dblp.buildIndex">
+        <java classname="index.dblp.buildIndex" failonerror="true" fork="yes">
+		    	<jvmarg line="-Xms7g -Xmx7g"/>
+	            <classpath refid="keywordSearch-divtopk.classpath"/>
+        </java>
+    </target>
+    <target name="dblp.deleteIndex">
+        <java classname="index.dblp.deleteIndex" failonerror="true" fork="yes">
+	            <classpath refid="keywordSearch-divtopk.classpath"/>
+        </java>
+    </target>
+    <target name="dblp.buildIndexForKeyword">
+        <java classname="index.dblp.buildIndexForKeyword" failonerror="true" fork="yes">
+	            <classpath refid="keywordSearch-divtopk.classpath"/>
+        </java>
+    </target>
+
+</project>

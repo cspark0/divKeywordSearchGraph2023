@@ -1,0 +1,70 @@
+query: [city, mountain, canada]
+Div Top-k Search by Astar1nc_ap, k=8
+[city, mountain, canada]
+srcNodes: [40982, 210, 20117]
+  path: 0[20117 -> 30981 -> 40982], [Canada -> Nova Scotia -> Halifax] 
+
+  path: 1[20117 -> 10001 -> 20132 -> 210], [Canada -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [40954, 210, 20117]
+  path: 0[10001 -> 20113 -> 40954], [America -> Guatemala -> Guatemala City] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 20117], [America -> Canada] 
+
+srcNodes: [41320, 210, 20117]
+  path: 0[210 -> 20132 -> 41320], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> Kingston] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20117], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> Canada] 
+
+srcNodes: [41320, 210, 20117]
+  path: 0[20132 -> 41320], [Jamaica -> Kingston] 
+
+  path: 1[20132 -> 210], [Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20132 -> 10001 -> 20117], [Jamaica -> America -> Canada] 
+
+srcNodes: [41954, 210, 20117]
+  path: 0[20118 -> 31022 -> 41954], [United States -> Oklahoma -> Oklahoma City] 
+
+  path: 1[20118 -> 10001 -> 20132 -> 210], [United States -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20118 -> 20117], [United States -> Canada] 
+
+srcNodes: [40928, 206, 20117]
+  path: 0[20121 -> 40928], [Nicaragua -> Granada] 
+
+  path: 1[20121 -> 206], [Nicaragua -> Concepcion Concepcion  volcano] 
+
+  path: 2[20121 -> 10001 -> 20117], [Nicaragua -> America -> Canada] 
+
+srcNodes: [42108, 214, 20117]
+  path: 0[20134 -> 42108], [Montserrat -> Plymouth] 
+
+  path: 1[20134 -> 214], [Montserrat -> Soufriere Hills Soufriere Hills  volcano] 
+
+  path: 2[20134 -> 10001 -> 20117], [Montserrat -> America -> Canada] 
+
+srcNodes: [42403, 234, 20117]
+  path: 0[20172 -> 42403], [Chile -> Santiago] 
+
+  path: 1[20172 -> 234], [Chile -> Licancabur Licancabur Andes volcano] 
+
+  path: 2[20172 -> 10001 -> 20117], [Chile -> America -> Canada] 
+
+-----------------------------------------
+ResultDestNodes: [20117, 10001, 210, 20132, 20118, 20121, 20134, 20172]
+ResultRelevs: [7.478108882904053, 6.221466064453125, 5.888301372528076, 5.874300956726074, 5.840388298034668, 5.249871730804443, 5.249871730804443, 5.249871730804443]
+AvgResultRelev: 5.881522595882416
+AvgResultDissimilarity: 0.5357142857142855
+Num of entries retrieved from the KNLists: 363
+Num of entries retrieved from NKMaps: 601
+Num of answer trees explored: 121
+Num of states created: 9
+Num of states explored: 9
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+

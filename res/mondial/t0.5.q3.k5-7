@@ -1,0 +1,3924 @@
+query: [river, falls, america]
+Top-k Search by Blink-BDB, k=5
+[river, falls, america]
+srcNodes: [90163, 42532, 10001]
+  path: 0[10001 -> 20173 -> 90163], [America -> Paraguay -> Parana] 
+
+  path: 1[10001 -> 20118 -> 31027 -> 42532], [America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90130, 42532, 10001]
+  path: 0[20118 -> 30988 -> 90130], [United States -> Alaska -> Yukon River] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [90131, 42951, 10001]
+  path: 0[20117 -> 30980 -> 90131], [Canada -> Northwest Territories -> Mackenzie River] 
+
+  path: 1[20117 -> 20118 -> 31029 -> 42951], [Canada -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+srcNodes: [90163, 42532, 10001]
+  path: 0[20173 -> 90163], [Paraguay -> Parana] 
+
+  path: 1[20173 -> 10001 -> 20118 -> 31027 -> 42532], [Paraguay -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20173 -> 10001], [Paraguay -> America] 
+
+srcNodes: [90165, 42532, 10001]
+  path: 0[20174 -> 90165], [Uruguay -> Uruguay] 
+
+  path: 1[20174 -> 10001 -> 20118 -> 31027 -> 42532], [Uruguay -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20174 -> 10001], [Uruguay -> America] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [10001, 20118, 20117, 20173, 20174]
+ResultRelevs: [12.277069091796875, 10.268905639648438, 9.725440979003906, 9.59986686706543, 9.59986686706543]
+AvgResultRelev: 10.294229888916016
+AvgResultDissimilarity: 0.4333333333333333
+Num of entries retrieved from the lists: 162
+Num of entries retrieved from NKMaps: 234
+Num of answer trees explored: 53
+
+Div Top-k Search by Exhustive, k=5
+[river, falls, america]
+srcNodes: [90163, 42532, 10001]
+  path: 0[10001 -> 20173 -> 90163], [America -> Paraguay -> Parana] 
+
+  path: 1[10001 -> 20118 -> 31027 -> 42532], [America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90130, 42532, 10001]
+  path: 0[20118 -> 30988 -> 90130], [United States -> Alaska -> Yukon River] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [90131, 42951, 10001]
+  path: 0[20117 -> 30980 -> 90131], [Canada -> Northwest Territories -> Mackenzie River] 
+
+  path: 1[20117 -> 20118 -> 31029 -> 42951], [Canada -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+srcNodes: [90165, 42532, 10001]
+  path: 0[20174 -> 90165], [Uruguay -> Uruguay] 
+
+  path: 1[20174 -> 10001 -> 20118 -> 31027 -> 42532], [Uruguay -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20174 -> 10001], [Uruguay -> America] 
+
+srcNodes: [90164, 42951, 10001]
+  path: 0[20170 -> 90164], [Bolivia -> Paraguay] 
+
+  path: 1[20170 -> 10001 -> 20118 -> 31029 -> 42951], [Bolivia -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20118, 20117, 20174, 20170]
+ResultRelevs: [12.277069091796875, 10.268905639648438, 9.725440979003906, 9.59986686706543, 9.59986686706543]
+AvgResultRelev: 10.294229888916016
+AvgResultDissimilarity: 0.5333333492279053
+Num of entries retrieved from the KNLists: 162
+Num of entries retrieved from NKMaps: 234
+Num of answer trees explored: 53
+Num of answer tree sets created: 59
+Num of answer tree sets removed: 2
+Max Num of answer tree sets in Q[]: 59
+
+Div Top-k Search by Astar02, k=5
+[river, falls, america]
+srcNodes: [90163, 42532, 10001]
+  path: 0[10001 -> 20173 -> 90163], [America -> Paraguay -> Parana] 
+
+  path: 1[10001 -> 20118 -> 31027 -> 42532], [America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90130, 42532, 10001]
+  path: 0[20118 -> 30988 -> 90130], [United States -> Alaska -> Yukon River] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [90131, 42951, 10001]
+  path: 0[20117 -> 30980 -> 90131], [Canada -> Northwest Territories -> Mackenzie River] 
+
+  path: 1[20117 -> 20118 -> 31029 -> 42951], [Canada -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+srcNodes: [90165, 42532, 10001]
+  path: 0[20174 -> 90165], [Uruguay -> Uruguay] 
+
+  path: 1[20174 -> 10001 -> 20118 -> 31027 -> 42532], [Uruguay -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20174 -> 10001], [Uruguay -> America] 
+
+srcNodes: [90164, 42951, 10001]
+  path: 0[20170 -> 90164], [Bolivia -> Paraguay] 
+
+  path: 1[20170 -> 10001 -> 20118 -> 31029 -> 42951], [Bolivia -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20118, 20117, 20174, 20170]
+ResultRelevs: [12.277069091796875, 10.268905639648438, 9.725440979003906, 9.59986686706543, 9.59986686706543]
+AvgResultRelev: 10.294229888916016
+AvgResultDissimilarity: 0.5333333333333333
+Num of entries retrieved from the KNLists: 162
+Num of entries retrieved from NKMaps: 234
+Num of answer trees explored: 53
+Num of states created: 52
+Num of states explored: 39
+Num of heuristic search performed: 2
+Max Num of answer tree sets in Q[]: 15
+
+Div Top-k Search by Astar1nc_ap, k=5
+[river, falls, america]
+srcNodes: [90163, 42532, 10001]
+  path: 0[10001 -> 20173 -> 90163], [America -> Paraguay -> Parana] 
+
+  path: 1[10001 -> 20118 -> 31027 -> 42532], [America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90130, 42532, 10001]
+  path: 0[20118 -> 30988 -> 90130], [United States -> Alaska -> Yukon River] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [90131, 42951, 10001]
+  path: 0[20117 -> 30980 -> 90131], [Canada -> Northwest Territories -> Mackenzie River] 
+
+  path: 1[20117 -> 20118 -> 31029 -> 42951], [Canada -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+srcNodes: [90165, 42532, 10001]
+  path: 0[20174 -> 90165], [Uruguay -> Uruguay] 
+
+  path: 1[20174 -> 10001 -> 20118 -> 31027 -> 42532], [Uruguay -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20174 -> 10001], [Uruguay -> America] 
+
+srcNodes: [90164, 42951, 10001]
+  path: 0[20170 -> 90164], [Bolivia -> Paraguay] 
+
+  path: 1[20170 -> 10001 -> 20118 -> 31029 -> 42951], [Bolivia -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20118, 20117, 20174, 20170]
+ResultRelevs: [12.277069091796875, 10.268905639648438, 9.725440979003906, 9.59986686706543, 9.59986686706543]
+AvgResultRelev: 10.294229888916016
+AvgResultDissimilarity: 0.5333333333333333
+Num of entries retrieved from the KNLists: 162
+Num of entries retrieved from NKMaps: 234
+Num of answer trees explored: 53
+Num of states created: 15
+Num of states explored: 11
+Num of heuristic search performed: 2
+Max Num of answer tree sets in Q[]: 5
+
+Top-k Search by Blink-BDB, k=7
+[river, falls, america]
+srcNodes: [90163, 42532, 10001]
+  path: 0[10001 -> 20173 -> 90163], [America -> Paraguay -> Parana] 
+
+  path: 1[10001 -> 20118 -> 31027 -> 42532], [America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90130, 42532, 10001]
+  path: 0[20118 -> 30988 -> 90130], [United States -> Alaska -> Yukon River] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [90131, 42951, 10001]
+  path: 0[20117 -> 30980 -> 90131], [Canada -> Northwest Territories -> Mackenzie River] 
+
+  path: 1[20117 -> 20118 -> 31029 -> 42951], [Canada -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+srcNodes: [90165, 42532, 10001]
+  path: 0[20174 -> 90165], [Uruguay -> Uruguay] 
+
+  path: 1[20174 -> 10001 -> 20118 -> 31027 -> 42532], [Uruguay -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20174 -> 10001], [Uruguay -> America] 
+
+srcNodes: [90163, 42532, 10001]
+  path: 0[20173 -> 90163], [Paraguay -> Parana] 
+
+  path: 1[20173 -> 10001 -> 20118 -> 31027 -> 42532], [Paraguay -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20173 -> 10001], [Paraguay -> America] 
+
+srcNodes: [90164, 42951, 10001]
+  path: 0[20170 -> 90164], [Bolivia -> Paraguay] 
+
+  path: 1[20170 -> 10001 -> 20118 -> 31029 -> 42951], [Bolivia -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [90150, 42532, 10001]
+  path: 0[20114 -> 30965 -> 90150], [Mexico -> Sonora -> Colorado] 
+
+  path: 1[20114 -> 20118 -> 31027 -> 42532], [Mexico -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20114 -> 10001], [Mexico -> America] 
+
+-----------------------------------------
+Num of top-k answers: 7
+ResultDestNodes: [10001, 20118, 20117, 20174, 20173, 20170, 20114]
+ResultRelevs: [12.277069091796875, 10.268905639648438, 9.725440979003906, 9.59986686706543, 9.59986686706543, 9.59986686706543, 9.536144256591797]
+AvgResultRelev: 10.0867372240339
+AvgResultDissimilarity: 0.47619047619047616
+Num of entries retrieved from the lists: 162
+Num of entries retrieved from NKMaps: 234
+Num of answer trees explored: 53
+
+Div Top-k Search by Exhustive, k=7
+[river, falls, america]
+srcNodes: [90163, 42532, 10001]
+  path: 0[10001 -> 20173 -> 90163], [America -> Paraguay -> Parana] 
+
+  path: 1[10001 -> 20118 -> 31027 -> 42532], [America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90130, 42532, 10001]
+  path: 0[20118 -> 30988 -> 90130], [United States -> Alaska -> Yukon River] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [90131, 42951, 10001]
+  path: 0[20117 -> 30980 -> 90131], [Canada -> Northwest Territories -> Mackenzie River] 
+
+  path: 1[20117 -> 20118 -> 31029 -> 42951], [Canada -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+srcNodes: [90165, 42532, 10001]
+  path: 0[20174 -> 90165], [Uruguay -> Uruguay] 
+
+  path: 1[20174 -> 10001 -> 20118 -> 31027 -> 42532], [Uruguay -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20174 -> 10001], [Uruguay -> America] 
+
+srcNodes: [90163, 42532, 10001]
+  path: 0[20173 -> 90163], [Paraguay -> Parana] 
+
+  path: 1[20173 -> 10001 -> 20118 -> 31027 -> 42532], [Paraguay -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20173 -> 10001], [Paraguay -> America] 
+
+srcNodes: [90164, 42951, 10001]
+  path: 0[20170 -> 90164], [Bolivia -> Paraguay] 
+
+  path: 1[20170 -> 10001 -> 20118 -> 31029 -> 42951], [Bolivia -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [90153, 42951, 10001]
+  path: 0[20121 -> 90153], [Nicaragua -> Rio San Juan] 
+
+  path: 1[20121 -> 10001 -> 20118 -> 31029 -> 42951], [Nicaragua -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20118, 20117, 20174, 20173, 20170, 20121]
+ResultRelevs: [12.277069091796875, 10.268905639648438, 9.725440979003906, 9.59986686706543, 9.59986686706543, 9.59986686706543, 9.21462631225586]
+AvgResultRelev: 10.040806089128766
+AvgResultDissimilarity: 0.5079365230741955
+Num of entries retrieved from the KNLists: 162
+Num of entries retrieved from NKMaps: 234
+Num of answer trees explored: 53
+Num of answer tree sets created: 251
+Num of answer tree sets removed: 4
+Max Num of answer tree sets in Q[]: 251
+
+Div Top-k Search by Astar02, k=7
+[river, falls, america]
+srcNodes: [90163, 42532, 10001]
+  path: 0[10001 -> 20173 -> 90163], [America -> Paraguay -> Parana] 
+
+  path: 1[10001 -> 20118 -> 31027 -> 42532], [America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90130, 42532, 10001]
+  path: 0[20118 -> 30988 -> 90130], [United States -> Alaska -> Yukon River] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [90131, 42951, 10001]
+  path: 0[20117 -> 30980 -> 90131], [Canada -> Northwest Territories -> Mackenzie River] 
+
+  path: 1[20117 -> 20118 -> 31029 -> 42951], [Canada -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+srcNodes: [90165, 42532, 10001]
+  path: 0[20174 -> 90165], [Uruguay -> Uruguay] 
+
+  path: 1[20174 -> 10001 -> 20118 -> 31027 -> 42532], [Uruguay -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20174 -> 10001], [Uruguay -> America] 
+
+srcNodes: [90163, 42532, 10001]
+  path: 0[20173 -> 90163], [Paraguay -> Parana] 
+
+  path: 1[20173 -> 10001 -> 20118 -> 31027 -> 42532], [Paraguay -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20173 -> 10001], [Paraguay -> America] 
+
+srcNodes: [90164, 42951, 10001]
+  path: 0[20170 -> 90164], [Bolivia -> Paraguay] 
+
+  path: 1[20170 -> 10001 -> 20118 -> 31029 -> 42951], [Bolivia -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [90153, 42951, 10001]
+  path: 0[20121 -> 90153], [Nicaragua -> Rio San Juan] 
+
+  path: 1[20121 -> 10001 -> 20118 -> 31029 -> 42951], [Nicaragua -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20118, 20117, 20174, 20173, 20170, 20121]
+ResultRelevs: [12.277069091796875, 10.268905639648438, 9.725440979003906, 9.59986686706543, 9.59986686706543, 9.59986686706543, 9.21462631225586]
+AvgResultRelev: 10.040806089128766
+AvgResultDissimilarity: 0.5079365079365079
+Num of entries retrieved from the KNLists: 162
+Num of entries retrieved from NKMaps: 234
+Num of answer trees explored: 53
+Num of states created: 162
+Num of states explored: 135
+Num of heuristic search performed: 2
+Max Num of answer tree sets in Q[]: 28
+
+Div Top-k Search by Astar1nc_ap, k=7
+[river, falls, america]
+srcNodes: [90163, 42532, 10001]
+  path: 0[10001 -> 20173 -> 90163], [America -> Paraguay -> Parana] 
+
+  path: 1[10001 -> 20118 -> 31027 -> 42532], [America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90130, 42532, 10001]
+  path: 0[20118 -> 30988 -> 90130], [United States -> Alaska -> Yukon River] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [90131, 42951, 10001]
+  path: 0[20117 -> 30980 -> 90131], [Canada -> Northwest Territories -> Mackenzie River] 
+
+  path: 1[20117 -> 20118 -> 31029 -> 42951], [Canada -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+srcNodes: [90165, 42532, 10001]
+  path: 0[20174 -> 90165], [Uruguay -> Uruguay] 
+
+  path: 1[20174 -> 10001 -> 20118 -> 31027 -> 42532], [Uruguay -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20174 -> 10001], [Uruguay -> America] 
+
+srcNodes: [90163, 42532, 10001]
+  path: 0[20173 -> 90163], [Paraguay -> Parana] 
+
+  path: 1[20173 -> 10001 -> 20118 -> 31027 -> 42532], [Paraguay -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20173 -> 10001], [Paraguay -> America] 
+
+srcNodes: [90164, 42951, 10001]
+  path: 0[20170 -> 90164], [Bolivia -> Paraguay] 
+
+  path: 1[20170 -> 10001 -> 20118 -> 31029 -> 42951], [Bolivia -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [90153, 42951, 10001]
+  path: 0[20121 -> 90153], [Nicaragua -> Rio San Juan] 
+
+  path: 1[20121 -> 10001 -> 20118 -> 31029 -> 42951], [Nicaragua -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20118, 20117, 20174, 20173, 20170, 20121]
+ResultRelevs: [12.277069091796875, 10.268905639648438, 9.725440979003906, 9.59986686706543, 9.59986686706543, 9.59986686706543, 9.21462631225586]
+AvgResultRelev: 10.040806089128766
+AvgResultDissimilarity: 0.5079365079365079
+Num of entries retrieved from the KNLists: 162
+Num of entries retrieved from NKMaps: 234
+Num of answer trees explored: 53
+Num of states created: 19
+Num of states explored: 14
+Num of heuristic search performed: 2
+Max Num of answer tree sets in Q[]: 6
+
+query: [gulf, bay, sea]
+Top-k Search by Blink-BDB, k=5
+[gulf, bay, sea]
+srcNodes: [100012, 40934, 100012]
+  path: 0[90142 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+  path: 1[90142 -> 31035 -> 40934], [Mississippi -> Wisconsin -> Green Bay] 
+
+  path: 2[90142 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+srcNodes: [100012, 40934, 100012]
+  path: 0[31035 -> 90142 -> 100012], [Wisconsin -> Mississippi -> Gulf of Mexico] 
+
+  path: 1[31035 -> 40934], [Wisconsin -> Green Bay] 
+
+  path: 2[31035 -> 90142 -> 100012], [Wisconsin -> Mississippi -> Gulf of Mexico] 
+
+srcNodes: [100012, 40934, 100012]
+  path: 0[31004 -> 100012], [Louisiana -> Gulf of Mexico] 
+
+  path: 1[31004 -> 90142 -> 31035 -> 40934], [Louisiana -> Mississippi -> Wisconsin -> Green Bay] 
+
+  path: 2[31004 -> 100012], [Louisiana -> Gulf of Mexico] 
+
+srcNodes: [100012, 40934, 100012]
+  path: 0[31010 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+  path: 1[31010 -> 90142 -> 31035 -> 40934], [Mississippi -> Mississippi -> Wisconsin -> Green Bay] 
+
+  path: 2[31010 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+srcNodes: [100012, 40934, 100007]
+  path: 0[20118 -> 31029 -> 100012], [United States -> Texas -> Gulf of Mexico] 
+
+  path: 1[20118 -> 31035 -> 40934], [United States -> Wisconsin -> Green Bay] 
+
+  path: 2[20118 -> 30996 -> 100007], [United States -> Georgia -> Black Sea] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [90142, 31035, 31004, 31010, 20118]
+ResultRelevs: [7.078677177429199, 6.590041637420654, 6.553183555603027, 6.553183555603027, 6.511002540588379]
+AvgResultRelev: 6.657217693328858
+AvgResultDissimilarity: 0.08
+Num of entries retrieved from the lists: 523
+Num of entries retrieved from NKMaps: 528
+Num of answer trees explored: 24
+
+Div Top-k Search by Exhustive, k=5
+[gulf, bay, sea]
+srcNodes: [100012, 40934, 100012]
+  path: 0[90142 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+  path: 1[90142 -> 31035 -> 40934], [Mississippi -> Wisconsin -> Green Bay] 
+
+  path: 2[90142 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+srcNodes: [100012, 40934, 100012]
+  path: 0[31035 -> 90142 -> 100012], [Wisconsin -> Mississippi -> Gulf of Mexico] 
+
+  path: 1[31035 -> 40934], [Wisconsin -> Green Bay] 
+
+  path: 2[31035 -> 90142 -> 100012], [Wisconsin -> Mississippi -> Gulf of Mexico] 
+
+srcNodes: [100012, 40934, 100012]
+  path: 0[31010 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+  path: 1[31010 -> 90142 -> 31035 -> 40934], [Mississippi -> Mississippi -> Wisconsin -> Green Bay] 
+
+  path: 2[31010 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+srcNodes: [100012, 40604, 100012]
+  path: 0[30987 -> 100012], [Alabama -> Gulf of Mexico] 
+
+  path: 1[30987 -> 40322 -> 110006 -> 30605 -> 40604], [Alabama -> Birmingham -> Great Britain Great Britain British Isles  -> Aberconwy and Colwyn -> Colwyn Bay] 
+
+  path: 2[30987 -> 100012], [Alabama -> Gulf of Mexico] 
+
+srcNodes: [100010, 40604, 100018]
+  path: 0[20221 -> 20220 -> 100010], [Kenya -> Somalia -> Gulf of Aden] 
+
+  path: 1[20221 -> 31402 -> 110006 -> 30605 -> 40604], [Kenya -> Central -> Great Britain Great Britain British Isles  -> Aberconwy and Colwyn -> Colwyn Bay] 
+
+  path: 2[20221 -> 31402 -> 100018], [Kenya -> Central -> Mediterranean Sea] 
+
+-----------------------------------------
+ResultDestNodes: [90142, 31035, 31010, 30987, 20221]
+ResultRelevs: [7.078677177429199, 6.590041637420654, 6.553183555603027, 6.1455793380737305, 5.57790470123291]
+AvgResultRelev: 6.389077281951904
+AvgResultDissimilarity: 0.5099999904632568
+Num of entries retrieved from the KNLists: 1060
+Num of entries retrieved from NKMaps: 1062
+Num of answer trees explored: 60
+Num of answer tree sets created: 473
+Num of answer tree sets removed: 106
+Max Num of answer tree sets in Q[]: 473
+
+Div Top-k Search by Astar02, k=5
+[gulf, bay, sea]
+srcNodes: [100012, 40934, 100012]
+  path: 0[90142 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+  path: 1[90142 -> 31035 -> 40934], [Mississippi -> Wisconsin -> Green Bay] 
+
+  path: 2[90142 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+srcNodes: [100012, 40934, 100012]
+  path: 0[31035 -> 90142 -> 100012], [Wisconsin -> Mississippi -> Gulf of Mexico] 
+
+  path: 1[31035 -> 40934], [Wisconsin -> Green Bay] 
+
+  path: 2[31035 -> 90142 -> 100012], [Wisconsin -> Mississippi -> Gulf of Mexico] 
+
+srcNodes: [100012, 40934, 100012]
+  path: 0[31004 -> 100012], [Louisiana -> Gulf of Mexico] 
+
+  path: 1[31004 -> 90142 -> 31035 -> 40934], [Louisiana -> Mississippi -> Wisconsin -> Green Bay] 
+
+  path: 2[31004 -> 100012], [Louisiana -> Gulf of Mexico] 
+
+srcNodes: [100012, 40604, 100012]
+  path: 0[30987 -> 100012], [Alabama -> Gulf of Mexico] 
+
+  path: 1[30987 -> 40322 -> 110006 -> 30605 -> 40604], [Alabama -> Birmingham -> Great Britain Great Britain British Isles  -> Aberconwy and Colwyn -> Colwyn Bay] 
+
+  path: 2[30987 -> 100012], [Alabama -> Gulf of Mexico] 
+
+srcNodes: [100010, 40604, 100018]
+  path: 0[20221 -> 20220 -> 100010], [Kenya -> Somalia -> Gulf of Aden] 
+
+  path: 1[20221 -> 31402 -> 110006 -> 30605 -> 40604], [Kenya -> Central -> Great Britain Great Britain British Isles  -> Aberconwy and Colwyn -> Colwyn Bay] 
+
+  path: 2[20221 -> 31402 -> 100018], [Kenya -> Central -> Mediterranean Sea] 
+
+-----------------------------------------
+ResultDestNodes: [90142, 31035, 31004, 30987, 20221]
+ResultRelevs: [7.078677177429199, 6.590041637420654, 6.553183555603027, 6.1455793380737305, 5.57790470123291]
+AvgResultRelev: 6.389077281951904
+AvgResultDissimilarity: 0.51
+Num of entries retrieved from the KNLists: 1060
+Num of entries retrieved from NKMaps: 1062
+Num of answer trees explored: 60
+Num of states created: 641
+Num of states explored: 575
+Num of heuristic search performed: 6
+Max Num of answer tree sets in Q[]: 67
+
+Div Top-k Search by Astar1nc_ap, k=5
+[gulf, bay, sea]
+srcNodes: [100012, 40934, 100012]
+  path: 0[90142 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+  path: 1[90142 -> 31035 -> 40934], [Mississippi -> Wisconsin -> Green Bay] 
+
+  path: 2[90142 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+srcNodes: [100012, 40934, 100012]
+  path: 0[31035 -> 90142 -> 100012], [Wisconsin -> Mississippi -> Gulf of Mexico] 
+
+  path: 1[31035 -> 40934], [Wisconsin -> Green Bay] 
+
+  path: 2[31035 -> 90142 -> 100012], [Wisconsin -> Mississippi -> Gulf of Mexico] 
+
+srcNodes: [100012, 40934, 100012]
+  path: 0[31010 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+  path: 1[31010 -> 90142 -> 31035 -> 40934], [Mississippi -> Mississippi -> Wisconsin -> Green Bay] 
+
+  path: 2[31010 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+srcNodes: [100012, 40604, 100012]
+  path: 0[30987 -> 100012], [Alabama -> Gulf of Mexico] 
+
+  path: 1[30987 -> 40322 -> 110006 -> 30605 -> 40604], [Alabama -> Birmingham -> Great Britain Great Britain British Isles  -> Aberconwy and Colwyn -> Colwyn Bay] 
+
+  path: 2[30987 -> 100012], [Alabama -> Gulf of Mexico] 
+
+srcNodes: [100010, 40604, 100018]
+  path: 0[20221 -> 20220 -> 100010], [Kenya -> Somalia -> Gulf of Aden] 
+
+  path: 1[20221 -> 31402 -> 110006 -> 30605 -> 40604], [Kenya -> Central -> Great Britain Great Britain British Isles  -> Aberconwy and Colwyn -> Colwyn Bay] 
+
+  path: 2[20221 -> 31402 -> 100018], [Kenya -> Central -> Mediterranean Sea] 
+
+-----------------------------------------
+ResultDestNodes: [90142, 31035, 31010, 30987, 20221]
+ResultRelevs: [7.078677177429199, 6.590041637420654, 6.553183555603027, 6.1455793380737305, 5.57790470123291]
+AvgResultRelev: 6.389077281951904
+AvgResultDissimilarity: 0.51
+Num of entries retrieved from the KNLists: 1060
+Num of entries retrieved from NKMaps: 1062
+Num of answer trees explored: 60
+Num of states created: 112
+Num of states explored: 57
+Num of heuristic search performed: 6
+Max Num of answer tree sets in Q[]: 37
+
+Top-k Search by Blink-BDB, k=7
+[gulf, bay, sea]
+srcNodes: [100012, 40934, 100012]
+  path: 0[90142 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+  path: 1[90142 -> 31035 -> 40934], [Mississippi -> Wisconsin -> Green Bay] 
+
+  path: 2[90142 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+srcNodes: [100012, 40934, 100012]
+  path: 0[31035 -> 90142 -> 100012], [Wisconsin -> Mississippi -> Gulf of Mexico] 
+
+  path: 1[31035 -> 40934], [Wisconsin -> Green Bay] 
+
+  path: 2[31035 -> 90142 -> 100012], [Wisconsin -> Mississippi -> Gulf of Mexico] 
+
+srcNodes: [100012, 40934, 100012]
+  path: 0[31010 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+  path: 1[31010 -> 90142 -> 31035 -> 40934], [Mississippi -> Mississippi -> Wisconsin -> Green Bay] 
+
+  path: 2[31010 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+srcNodes: [100012, 40934, 100012]
+  path: 0[31004 -> 100012], [Louisiana -> Gulf of Mexico] 
+
+  path: 1[31004 -> 90142 -> 31035 -> 40934], [Louisiana -> Mississippi -> Wisconsin -> Green Bay] 
+
+  path: 2[31004 -> 100012], [Louisiana -> Gulf of Mexico] 
+
+srcNodes: [100012, 40934, 100007]
+  path: 0[20118 -> 31029 -> 100012], [United States -> Texas -> Gulf of Mexico] 
+
+  path: 1[20118 -> 31035 -> 40934], [United States -> Wisconsin -> Green Bay] 
+
+  path: 2[20118 -> 30996 -> 100007], [United States -> Georgia -> Black Sea] 
+
+srcNodes: [100012, 40604, 100012]
+  path: 0[30987 -> 100012], [Alabama -> Gulf of Mexico] 
+
+  path: 1[30987 -> 40322 -> 110006 -> 30605 -> 40604], [Alabama -> Birmingham -> Great Britain Great Britain British Isles  -> Aberconwy and Colwyn -> Colwyn Bay] 
+
+  path: 2[30987 -> 100012], [Alabama -> Gulf of Mexico] 
+
+srcNodes: [100012, 40934, 100008]
+  path: 0[20114 -> 30970 -> 100012], [Mexico -> Yucatan -> Gulf of Mexico] 
+
+  path: 1[20114 -> 20118 -> 31035 -> 40934], [Mexico -> United States -> Wisconsin -> Green Bay] 
+
+  path: 2[20114 -> 30972 -> 100008], [Mexico -> Distrito Federal -> Caribbean Sea] 
+
+-----------------------------------------
+Num of top-k answers: 7
+ResultDestNodes: [90142, 31035, 31010, 31004, 20118, 30987, 20114]
+ResultRelevs: [7.078677177429199, 6.590041637420654, 6.553183555603027, 6.553183555603027, 6.511002540588379, 6.1455793380737305, 5.985508441925049]
+AvgResultRelev: 6.4881680352347235
+AvgResultDissimilarity: 0.2444444444444444
+Num of entries retrieved from the lists: 906
+Num of entries retrieved from NKMaps: 890
+Num of answer trees explored: 33
+
+Div Top-k Search by Exhustive, k=7
+[gulf, bay, sea]
+srcNodes: [100012, 40934, 100012]
+  path: 0[90142 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+  path: 1[90142 -> 31035 -> 40934], [Mississippi -> Wisconsin -> Green Bay] 
+
+  path: 2[90142 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+srcNodes: [100012, 40934, 100012]
+  path: 0[31035 -> 90142 -> 100012], [Wisconsin -> Mississippi -> Gulf of Mexico] 
+
+  path: 1[31035 -> 40934], [Wisconsin -> Green Bay] 
+
+  path: 2[31035 -> 90142 -> 100012], [Wisconsin -> Mississippi -> Gulf of Mexico] 
+
+srcNodes: [100012, 40934, 100012]
+  path: 0[31010 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+  path: 1[31010 -> 90142 -> 31035 -> 40934], [Mississippi -> Mississippi -> Wisconsin -> Green Bay] 
+
+  path: 2[31010 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+srcNodes: [100012, 40934, 100012]
+  path: 0[31004 -> 100012], [Louisiana -> Gulf of Mexico] 
+
+  path: 1[31004 -> 90142 -> 31035 -> 40934], [Louisiana -> Mississippi -> Wisconsin -> Green Bay] 
+
+  path: 2[31004 -> 100012], [Louisiana -> Gulf of Mexico] 
+
+srcNodes: [100012, 40604, 100012]
+  path: 0[30987 -> 100012], [Alabama -> Gulf of Mexico] 
+
+  path: 1[30987 -> 40322 -> 110006 -> 30605 -> 40604], [Alabama -> Birmingham -> Great Britain Great Britain British Isles  -> Aberconwy and Colwyn -> Colwyn Bay] 
+
+  path: 2[30987 -> 100012], [Alabama -> Gulf of Mexico] 
+
+srcNodes: [100012, 42729, 100008]
+  path: 0[20112 -> 20114 -> 30970 -> 100012], [Belize -> Mexico -> Yucatan -> Gulf of Mexico] 
+
+  path: 1[20112 -> 10001 -> 20117 -> 30982 -> 42729], [Belize -> America -> Canada -> Ontario -> Thunder Bay] 
+
+  path: 2[20112 -> 100008], [Belize -> Caribbean Sea] 
+
+srcNodes: [100010, 40604, 100018]
+  path: 0[20221 -> 20220 -> 100010], [Kenya -> Somalia -> Gulf of Aden] 
+
+  path: 1[20221 -> 31402 -> 110006 -> 30605 -> 40604], [Kenya -> Central -> Great Britain Great Britain British Isles  -> Aberconwy and Colwyn -> Colwyn Bay] 
+
+  path: 2[20221 -> 31402 -> 100018], [Kenya -> Central -> Mediterranean Sea] 
+
+-----------------------------------------
+ResultDestNodes: [90142, 31035, 31010, 31004, 30987, 20112, 20221]
+ResultRelevs: [7.078677177429199, 6.590041637420654, 6.553183555603027, 6.553183555603027, 6.1455793380737305, 5.848085403442383, 5.57790470123291]
+AvgResultRelev: 6.335236481257847
+AvgResultDissimilarity: 0.5047619229271298
+Num of entries retrieved from the KNLists: 1060
+Num of entries retrieved from NKMaps: 1062
+Num of answer trees explored: 60
+Num of answer tree sets created: 839
+Num of answer tree sets removed: 830
+Max Num of answer tree sets in Q[]: 839
+
+Div Top-k Search by Astar02, k=7
+[gulf, bay, sea]
+srcNodes: [100012, 40934, 100012]
+  path: 0[90142 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+  path: 1[90142 -> 31035 -> 40934], [Mississippi -> Wisconsin -> Green Bay] 
+
+  path: 2[90142 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+srcNodes: [100012, 40934, 100012]
+  path: 0[31035 -> 90142 -> 100012], [Wisconsin -> Mississippi -> Gulf of Mexico] 
+
+  path: 1[31035 -> 40934], [Wisconsin -> Green Bay] 
+
+  path: 2[31035 -> 90142 -> 100012], [Wisconsin -> Mississippi -> Gulf of Mexico] 
+
+srcNodes: [100012, 40934, 100012]
+  path: 0[31010 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+  path: 1[31010 -> 90142 -> 31035 -> 40934], [Mississippi -> Mississippi -> Wisconsin -> Green Bay] 
+
+  path: 2[31010 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+srcNodes: [100012, 40934, 100012]
+  path: 0[31004 -> 100012], [Louisiana -> Gulf of Mexico] 
+
+  path: 1[31004 -> 90142 -> 31035 -> 40934], [Louisiana -> Mississippi -> Wisconsin -> Green Bay] 
+
+  path: 2[31004 -> 100012], [Louisiana -> Gulf of Mexico] 
+
+srcNodes: [100012, 40604, 100012]
+  path: 0[30987 -> 100012], [Alabama -> Gulf of Mexico] 
+
+  path: 1[30987 -> 40322 -> 110006 -> 30605 -> 40604], [Alabama -> Birmingham -> Great Britain Great Britain British Isles  -> Aberconwy and Colwyn -> Colwyn Bay] 
+
+  path: 2[30987 -> 100012], [Alabama -> Gulf of Mexico] 
+
+srcNodes: [100012, 42729, 100008]
+  path: 0[20112 -> 20114 -> 30970 -> 100012], [Belize -> Mexico -> Yucatan -> Gulf of Mexico] 
+
+  path: 1[20112 -> 10001 -> 20117 -> 30982 -> 42729], [Belize -> America -> Canada -> Ontario -> Thunder Bay] 
+
+  path: 2[20112 -> 100008], [Belize -> Caribbean Sea] 
+
+srcNodes: [100010, 40604, 100018]
+  path: 0[20221 -> 20220 -> 100010], [Kenya -> Somalia -> Gulf of Aden] 
+
+  path: 1[20221 -> 31402 -> 110006 -> 30605 -> 40604], [Kenya -> Central -> Great Britain Great Britain British Isles  -> Aberconwy and Colwyn -> Colwyn Bay] 
+
+  path: 2[20221 -> 31402 -> 100018], [Kenya -> Central -> Mediterranean Sea] 
+
+-----------------------------------------
+ResultDestNodes: [90142, 31035, 31010, 31004, 30987, 20112, 20221]
+ResultRelevs: [7.078677177429199, 6.590041637420654, 6.553183555603027, 6.553183555603027, 6.1455793380737305, 5.848085403442383, 5.57790470123291]
+AvgResultRelev: 6.335236481257847
+AvgResultDissimilarity: 0.5047619047619047
+Num of entries retrieved from the KNLists: 1060
+Num of entries retrieved from NKMaps: 1062
+Num of answer trees explored: 60
+Num of states created: 893
+Num of states explored: 830
+Num of heuristic search performed: 7
+Max Num of answer tree sets in Q[]: 76
+
+Div Top-k Search by Astar1nc_ap, k=7
+[gulf, bay, sea]
+srcNodes: [100012, 40934, 100012]
+  path: 0[90142 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+  path: 1[90142 -> 31035 -> 40934], [Mississippi -> Wisconsin -> Green Bay] 
+
+  path: 2[90142 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+srcNodes: [100012, 40934, 100012]
+  path: 0[31035 -> 90142 -> 100012], [Wisconsin -> Mississippi -> Gulf of Mexico] 
+
+  path: 1[31035 -> 40934], [Wisconsin -> Green Bay] 
+
+  path: 2[31035 -> 90142 -> 100012], [Wisconsin -> Mississippi -> Gulf of Mexico] 
+
+srcNodes: [100012, 40934, 100012]
+  path: 0[31010 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+  path: 1[31010 -> 90142 -> 31035 -> 40934], [Mississippi -> Mississippi -> Wisconsin -> Green Bay] 
+
+  path: 2[31010 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+srcNodes: [100012, 40934, 100012]
+  path: 0[31004 -> 100012], [Louisiana -> Gulf of Mexico] 
+
+  path: 1[31004 -> 90142 -> 31035 -> 40934], [Louisiana -> Mississippi -> Wisconsin -> Green Bay] 
+
+  path: 2[31004 -> 100012], [Louisiana -> Gulf of Mexico] 
+
+srcNodes: [100012, 40604, 100012]
+  path: 0[30987 -> 100012], [Alabama -> Gulf of Mexico] 
+
+  path: 1[30987 -> 40322 -> 110006 -> 30605 -> 40604], [Alabama -> Birmingham -> Great Britain Great Britain British Isles  -> Aberconwy and Colwyn -> Colwyn Bay] 
+
+  path: 2[30987 -> 100012], [Alabama -> Gulf of Mexico] 
+
+srcNodes: [100012, 42729, 100008]
+  path: 0[20112 -> 20114 -> 30970 -> 100012], [Belize -> Mexico -> Yucatan -> Gulf of Mexico] 
+
+  path: 1[20112 -> 10001 -> 20117 -> 30982 -> 42729], [Belize -> America -> Canada -> Ontario -> Thunder Bay] 
+
+  path: 2[20112 -> 100008], [Belize -> Caribbean Sea] 
+
+srcNodes: [100010, 40604, 100018]
+  path: 0[20221 -> 20220 -> 100010], [Kenya -> Somalia -> Gulf of Aden] 
+
+  path: 1[20221 -> 31402 -> 110006 -> 30605 -> 40604], [Kenya -> Central -> Great Britain Great Britain British Isles  -> Aberconwy and Colwyn -> Colwyn Bay] 
+
+  path: 2[20221 -> 31402 -> 100018], [Kenya -> Central -> Mediterranean Sea] 
+
+-----------------------------------------
+ResultDestNodes: [90142, 31035, 31010, 31004, 30987, 20112, 20221]
+ResultRelevs: [7.078677177429199, 6.590041637420654, 6.553183555603027, 6.553183555603027, 6.1455793380737305, 5.848085403442383, 5.57790470123291]
+AvgResultRelev: 6.335236481257847
+AvgResultDissimilarity: 0.5047619047619047
+Num of entries retrieved from the KNLists: 1060
+Num of entries retrieved from NKMaps: 1062
+Num of answer trees explored: 60
+Num of states created: 105
+Num of states explored: 49
+Num of heuristic search performed: 5
+Max Num of answer tree sets in Q[]: 25
+
+query: [city, mountain, canada]
+Top-k Search by Blink-BDB, k=5
+[city, mountain, canada]
+srcNodes: [40982, 210, 20117]
+  path: 0[20117 -> 30981 -> 40982], [Canada -> Nova Scotia -> Halifax] 
+
+  path: 1[20117 -> 10001 -> 20132 -> 210], [Canada -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [40954, 210, 20117]
+  path: 0[10001 -> 20113 -> 40954], [America -> Guatemala -> Guatemala City] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 20117], [America -> Canada] 
+
+srcNodes: [41320, 210, 20117]
+  path: 0[210 -> 20132 -> 41320], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> Kingston] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20117], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> Canada] 
+
+srcNodes: [41320, 210, 20117]
+  path: 0[20132 -> 41320], [Jamaica -> Kingston] 
+
+  path: 1[20132 -> 210], [Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20132 -> 10001 -> 20117], [Jamaica -> America -> Canada] 
+
+srcNodes: [41954, 210, 20117]
+  path: 0[20118 -> 31022 -> 41954], [United States -> Oklahoma -> Oklahoma City] 
+
+  path: 1[20118 -> 10001 -> 20132 -> 210], [United States -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20118 -> 20117], [United States -> Canada] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [20117, 10001, 210, 20132, 20118]
+ResultRelevs: [7.478108882904053, 6.221466064453125, 5.888301372528076, 5.874300956726074, 5.840388298034668]
+AvgResultRelev: 6.260513114929199
+AvgResultDissimilarity: 0.3
+Num of entries retrieved from the lists: 162
+Num of entries retrieved from NKMaps: 283
+Num of answer trees explored: 55
+
+Div Top-k Search by Exhustive, k=5
+[city, mountain, canada]
+srcNodes: [40982, 210, 20117]
+  path: 0[20117 -> 30981 -> 40982], [Canada -> Nova Scotia -> Halifax] 
+
+  path: 1[20117 -> 10001 -> 20132 -> 210], [Canada -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [40954, 210, 20117]
+  path: 0[10001 -> 20113 -> 40954], [America -> Guatemala -> Guatemala City] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 20117], [America -> Canada] 
+
+srcNodes: [41320, 210, 20117]
+  path: 0[210 -> 20132 -> 41320], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> Kingston] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20117], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> Canada] 
+
+srcNodes: [40928, 206, 20117]
+  path: 0[20121 -> 40928], [Nicaragua -> Granada] 
+
+  path: 1[20121 -> 206], [Nicaragua -> Concepcion Concepcion  volcano] 
+
+  path: 2[20121 -> 10001 -> 20117], [Nicaragua -> America -> Canada] 
+
+srcNodes: [42108, 214, 20117]
+  path: 0[20134 -> 42108], [Montserrat -> Plymouth] 
+
+  path: 1[20134 -> 214], [Montserrat -> Soufriere Hills Soufriere Hills  volcano] 
+
+  path: 2[20134 -> 10001 -> 20117], [Montserrat -> America -> Canada] 
+
+-----------------------------------------
+ResultDestNodes: [20117, 10001, 210, 20121, 20134]
+ResultRelevs: [7.478108882904053, 6.221466064453125, 5.888301372528076, 5.249871730804443, 5.249871730804443]
+AvgResultRelev: 6.017523956298828
+AvgResultDissimilarity: 0.5666666507720948
+Num of entries retrieved from the KNLists: 593
+Num of entries retrieved from NKMaps: 991
+Num of answer trees explored: 174
+Num of answer tree sets created: 108
+Num of answer tree sets removed: 101
+Max Num of answer tree sets in Q[]: 108
+
+Div Top-k Search by Astar02, k=5
+[city, mountain, canada]
+srcNodes: [40982, 210, 20117]
+  path: 0[20117 -> 30981 -> 40982], [Canada -> Nova Scotia -> Halifax] 
+
+  path: 1[20117 -> 10001 -> 20132 -> 210], [Canada -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [40954, 210, 20117]
+  path: 0[10001 -> 20113 -> 40954], [America -> Guatemala -> Guatemala City] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 20117], [America -> Canada] 
+
+srcNodes: [41320, 210, 20117]
+  path: 0[210 -> 20132 -> 41320], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> Kingston] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20117], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> Canada] 
+
+srcNodes: [40928, 206, 20117]
+  path: 0[20121 -> 40928], [Nicaragua -> Granada] 
+
+  path: 1[20121 -> 206], [Nicaragua -> Concepcion Concepcion  volcano] 
+
+  path: 2[20121 -> 10001 -> 20117], [Nicaragua -> America -> Canada] 
+
+srcNodes: [42108, 214, 20117]
+  path: 0[20134 -> 42108], [Montserrat -> Plymouth] 
+
+  path: 1[20134 -> 214], [Montserrat -> Soufriere Hills Soufriere Hills  volcano] 
+
+  path: 2[20134 -> 10001 -> 20117], [Montserrat -> America -> Canada] 
+
+-----------------------------------------
+ResultDestNodes: [20117, 10001, 210, 20121, 20134]
+ResultRelevs: [7.478108882904053, 6.221466064453125, 5.888301372528076, 5.249871730804443, 5.249871730804443]
+AvgResultRelev: 6.017523956298828
+AvgResultDissimilarity: 0.5666666666666667
+Num of entries retrieved from the KNLists: 593
+Num of entries retrieved from NKMaps: 991
+Num of answer trees explored: 174
+Num of states created: 779
+Num of states explored: 759
+Num of heuristic search performed: 68
+Max Num of answer tree sets in Q[]: 23
+
+Div Top-k Search by Astar1nc_ap, k=5
+[city, mountain, canada]
+srcNodes: [40982, 210, 20117]
+  path: 0[20117 -> 30981 -> 40982], [Canada -> Nova Scotia -> Halifax] 
+
+  path: 1[20117 -> 10001 -> 20132 -> 210], [Canada -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [40954, 210, 20117]
+  path: 0[10001 -> 20113 -> 40954], [America -> Guatemala -> Guatemala City] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 20117], [America -> Canada] 
+
+srcNodes: [41320, 210, 20117]
+  path: 0[210 -> 20132 -> 41320], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> Kingston] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20117], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> Canada] 
+
+srcNodes: [40928, 206, 20117]
+  path: 0[20121 -> 40928], [Nicaragua -> Granada] 
+
+  path: 1[20121 -> 206], [Nicaragua -> Concepcion Concepcion  volcano] 
+
+  path: 2[20121 -> 10001 -> 20117], [Nicaragua -> America -> Canada] 
+
+srcNodes: [42108, 214, 20117]
+  path: 0[20134 -> 42108], [Montserrat -> Plymouth] 
+
+  path: 1[20134 -> 214], [Montserrat -> Soufriere Hills Soufriere Hills  volcano] 
+
+  path: 2[20134 -> 10001 -> 20117], [Montserrat -> America -> Canada] 
+
+-----------------------------------------
+ResultDestNodes: [20117, 10001, 210, 20121, 20134]
+ResultRelevs: [7.478108882904053, 6.221466064453125, 5.888301372528076, 5.249871730804443, 5.249871730804443]
+AvgResultRelev: 6.017523956298828
+AvgResultDissimilarity: 0.5666666666666667
+Num of entries retrieved from the KNLists: 593
+Num of entries retrieved from NKMaps: 991
+Num of answer trees explored: 174
+Num of states created: 7194
+Num of states explored: 451
+Num of heuristic search performed: 68
+Max Num of answer tree sets in Q[]: 258
+
+Top-k Search by Blink-BDB, k=7
+[city, mountain, canada]
+srcNodes: [40982, 210, 20117]
+  path: 0[20117 -> 30981 -> 40982], [Canada -> Nova Scotia -> Halifax] 
+
+  path: 1[20117 -> 10001 -> 20132 -> 210], [Canada -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [40954, 210, 20117]
+  path: 0[10001 -> 20113 -> 40954], [America -> Guatemala -> Guatemala City] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 20117], [America -> Canada] 
+
+srcNodes: [41320, 210, 20117]
+  path: 0[210 -> 20132 -> 41320], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> Kingston] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20117], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> Canada] 
+
+srcNodes: [41320, 210, 20117]
+  path: 0[20132 -> 41320], [Jamaica -> Kingston] 
+
+  path: 1[20132 -> 210], [Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20132 -> 10001 -> 20117], [Jamaica -> America -> Canada] 
+
+srcNodes: [41954, 210, 20117]
+  path: 0[20118 -> 31022 -> 41954], [United States -> Oklahoma -> Oklahoma City] 
+
+  path: 1[20118 -> 10001 -> 20132 -> 210], [United States -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20118 -> 20117], [United States -> Canada] 
+
+srcNodes: [42277, 216, 20117]
+  path: 0[20124 -> 42277], [Dominica -> Roseau] 
+
+  path: 1[20124 -> 216], [Dominica -> Morne Diablotins Morne Diablotins  volcano] 
+
+  path: 2[20124 -> 10001 -> 20117], [Dominica -> America -> Canada] 
+
+srcNodes: [40928, 206, 20117]
+  path: 0[20121 -> 40928], [Nicaragua -> Granada] 
+
+  path: 1[20121 -> 206], [Nicaragua -> Concepcion Concepcion  volcano] 
+
+  path: 2[20121 -> 10001 -> 20117], [Nicaragua -> America -> Canada] 
+
+-----------------------------------------
+Num of top-k answers: 7
+ResultDestNodes: [20117, 10001, 210, 20132, 20118, 20124, 20121]
+ResultRelevs: [7.478108882904053, 6.221466064453125, 5.888301372528076, 5.874300956726074, 5.840388298034668, 5.249871730804443, 5.249871730804443]
+AvgResultRelev: 5.971758433750698
+AvgResultDissimilarity: 0.492063492063492
+Num of entries retrieved from the lists: 363
+Num of entries retrieved from NKMaps: 601
+Num of answer trees explored: 121
+
+Div Top-k Search by Exhustive, k=7
+[city, mountain, canada]
+srcNodes: [40982, 210, 20117]
+  path: 0[20117 -> 30981 -> 40982], [Canada -> Nova Scotia -> Halifax] 
+
+  path: 1[20117 -> 10001 -> 20132 -> 210], [Canada -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [40954, 210, 20117]
+  path: 0[10001 -> 20113 -> 40954], [America -> Guatemala -> Guatemala City] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 20117], [America -> Canada] 
+
+srcNodes: [41320, 210, 20117]
+  path: 0[210 -> 20132 -> 41320], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> Kingston] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20117], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> Canada] 
+
+srcNodes: [41320, 210, 20117]
+  path: 0[20132 -> 41320], [Jamaica -> Kingston] 
+
+  path: 1[20132 -> 210], [Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20132 -> 10001 -> 20117], [Jamaica -> America -> Canada] 
+
+srcNodes: [40928, 206, 20117]
+  path: 0[20121 -> 40928], [Nicaragua -> Granada] 
+
+  path: 1[20121 -> 206], [Nicaragua -> Concepcion Concepcion  volcano] 
+
+  path: 2[20121 -> 10001 -> 20117], [Nicaragua -> America -> Canada] 
+
+srcNodes: [42108, 214, 20117]
+  path: 0[20134 -> 42108], [Montserrat -> Plymouth] 
+
+  path: 1[20134 -> 214], [Montserrat -> Soufriere Hills Soufriere Hills  volcano] 
+
+  path: 2[20134 -> 10001 -> 20117], [Montserrat -> America -> Canada] 
+
+srcNodes: [42403, 234, 20117]
+  path: 0[20172 -> 42403], [Chile -> Santiago] 
+
+  path: 1[20172 -> 234], [Chile -> Licancabur Licancabur Andes volcano] 
+
+  path: 2[20172 -> 10001 -> 20117], [Chile -> America -> Canada] 
+
+-----------------------------------------
+ResultDestNodes: [20117, 10001, 210, 20132, 20121, 20134, 20172]
+ResultRelevs: [7.478108882904053, 6.221466064453125, 5.888301372528076, 5.874300956726074, 5.249871730804443, 5.249871730804443, 5.249871730804443]
+AvgResultRelev: 5.88739892414638
+AvgResultDissimilarity: 0.5555555706932431
+Num of entries retrieved from the KNLists: 593
+Num of entries retrieved from NKMaps: 991
+Num of answer trees explored: 174
+Num of answer tree sets created: 288
+Num of answer tree sets removed: 276
+Max Num of answer tree sets in Q[]: 251
+
+Div Top-k Search by Astar02, k=7
+[city, mountain, canada]
+srcNodes: [40982, 210, 20117]
+  path: 0[20117 -> 30981 -> 40982], [Canada -> Nova Scotia -> Halifax] 
+
+  path: 1[20117 -> 10001 -> 20132 -> 210], [Canada -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [40954, 210, 20117]
+  path: 0[10001 -> 20113 -> 40954], [America -> Guatemala -> Guatemala City] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 20117], [America -> Canada] 
+
+srcNodes: [41320, 210, 20117]
+  path: 0[210 -> 20132 -> 41320], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> Kingston] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20117], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> Canada] 
+
+srcNodes: [41320, 210, 20117]
+  path: 0[20132 -> 41320], [Jamaica -> Kingston] 
+
+  path: 1[20132 -> 210], [Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20132 -> 10001 -> 20117], [Jamaica -> America -> Canada] 
+
+srcNodes: [40928, 206, 20117]
+  path: 0[20121 -> 40928], [Nicaragua -> Granada] 
+
+  path: 1[20121 -> 206], [Nicaragua -> Concepcion Concepcion  volcano] 
+
+  path: 2[20121 -> 10001 -> 20117], [Nicaragua -> America -> Canada] 
+
+srcNodes: [42108, 214, 20117]
+  path: 0[20134 -> 42108], [Montserrat -> Plymouth] 
+
+  path: 1[20134 -> 214], [Montserrat -> Soufriere Hills Soufriere Hills  volcano] 
+
+  path: 2[20134 -> 10001 -> 20117], [Montserrat -> America -> Canada] 
+
+srcNodes: [42403, 234, 20117]
+  path: 0[20172 -> 42403], [Chile -> Santiago] 
+
+  path: 1[20172 -> 234], [Chile -> Licancabur Licancabur Andes volcano] 
+
+  path: 2[20172 -> 10001 -> 20117], [Chile -> America -> Canada] 
+
+-----------------------------------------
+ResultDestNodes: [20117, 10001, 210, 20132, 20121, 20134, 20172]
+ResultRelevs: [7.478108882904053, 6.221466064453125, 5.888301372528076, 5.874300956726074, 5.249871730804443, 5.249871730804443, 5.249871730804443]
+AvgResultRelev: 5.88739892414638
+AvgResultDissimilarity: 0.5555555555555555
+Num of entries retrieved from the KNLists: 593
+Num of entries retrieved from NKMaps: 991
+Num of answer trees explored: 174
+Num of states created: 1609
+Num of states explored: 1587
+Num of heuristic search performed: 66
+Max Num of answer tree sets in Q[]: 40
+
+Div Top-k Search by Astar1nc_ap, k=7
+[city, mountain, canada]
+srcNodes: [40982, 210, 20117]
+  path: 0[20117 -> 30981 -> 40982], [Canada -> Nova Scotia -> Halifax] 
+
+  path: 1[20117 -> 10001 -> 20132 -> 210], [Canada -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [40954, 210, 20117]
+  path: 0[10001 -> 20113 -> 40954], [America -> Guatemala -> Guatemala City] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 20117], [America -> Canada] 
+
+srcNodes: [41320, 210, 20117]
+  path: 0[210 -> 20132 -> 41320], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> Kingston] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20117], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> Canada] 
+
+srcNodes: [41320, 210, 20117]
+  path: 0[20132 -> 41320], [Jamaica -> Kingston] 
+
+  path: 1[20132 -> 210], [Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20132 -> 10001 -> 20117], [Jamaica -> America -> Canada] 
+
+srcNodes: [40928, 206, 20117]
+  path: 0[20121 -> 40928], [Nicaragua -> Granada] 
+
+  path: 1[20121 -> 206], [Nicaragua -> Concepcion Concepcion  volcano] 
+
+  path: 2[20121 -> 10001 -> 20117], [Nicaragua -> America -> Canada] 
+
+srcNodes: [42108, 214, 20117]
+  path: 0[20134 -> 42108], [Montserrat -> Plymouth] 
+
+  path: 1[20134 -> 214], [Montserrat -> Soufriere Hills Soufriere Hills  volcano] 
+
+  path: 2[20134 -> 10001 -> 20117], [Montserrat -> America -> Canada] 
+
+srcNodes: [42403, 234, 20117]
+  path: 0[20172 -> 42403], [Chile -> Santiago] 
+
+  path: 1[20172 -> 234], [Chile -> Licancabur Licancabur Andes volcano] 
+
+  path: 2[20172 -> 10001 -> 20117], [Chile -> America -> Canada] 
+
+-----------------------------------------
+ResultDestNodes: [20117, 10001, 210, 20132, 20121, 20134, 20172]
+ResultRelevs: [7.478108882904053, 6.221466064453125, 5.888301372528076, 5.874300956726074, 5.249871730804443, 5.249871730804443, 5.249871730804443]
+AvgResultRelev: 5.88739892414638
+AvgResultDissimilarity: 0.5555555555555555
+Num of entries retrieved from the KNLists: 593
+Num of entries retrieved from NKMaps: 991
+Num of answer trees explored: 174
+Num of states created: 11167
+Num of states explored: 481
+Num of heuristic search performed: 66
+Max Num of answer tree sets in Q[]: 435
+
+query: [city, mountain, montana]
+Top-k Search by Blink-BDB, k=5
+[city, mountain, montana]
+srcNodes: [41019, 181, 31012]
+  path: 0[31012 -> 41019], [Montana -> Helena] 
+
+  path: 1[31012 -> 181], [Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+  path: 2[31012 -> 31012], [Montana -> Montana]
+srcNodes: [41019, 181, 31012]
+  path: 0[181 -> 31012 -> 41019], [Granite Peak Granite Peak Rocky Mountains  -> Montana -> Helena] 
+
+  path: 1[181 -> 181], [Granite Peak Granite Peak Rocky Mountains  -> Granite Peak Granite Peak Rocky Mountains ]
+  path: 2[181 -> 31012], [Granite Peak Granite Peak Rocky Mountains  -> Montana] 
+
+srcNodes: [41954, 210, 31012]
+  path: 0[20118 -> 31022 -> 41954], [United States -> Oklahoma -> Oklahoma City] 
+
+  path: 1[20118 -> 10001 -> 20132 -> 210], [United States -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20118 -> 31012], [United States -> Montana] 
+
+srcNodes: [41253, 181, 31012]
+  path: 0[90143 -> 31002 -> 41253], [Missouri -> Kansas -> Kansas City] 
+
+  path: 1[90143 -> 31012 -> 181], [Missouri -> Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+  path: 2[90143 -> 31012], [Missouri -> Montana] 
+
+srcNodes: [41320, 210, 31012]
+  path: 0[210 -> 20132 -> 41320], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> Kingston] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20118 -> 31012], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> Montana] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [31012, 181, 20118, 90143, 210]
+ResultRelevs: [7.776597023010254, 6.43842887878418, 5.840388298034668, 5.6133832931518555, 5.336813449859619]
+AvgResultRelev: 6.201122188568116
+AvgResultDissimilarity: 0.5
+Num of entries retrieved from the lists: 231
+Num of entries retrieved from NKMaps: 393
+Num of answer trees explored: 78
+
+Div Top-k Search by Exhustive, k=5
+[city, mountain, montana]
+srcNodes: [41019, 181, 31012]
+  path: 0[31012 -> 41019], [Montana -> Helena] 
+
+  path: 1[31012 -> 181], [Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+  path: 2[31012 -> 31012], [Montana -> Montana]
+srcNodes: [41019, 181, 31012]
+  path: 0[181 -> 31012 -> 41019], [Granite Peak Granite Peak Rocky Mountains  -> Montana -> Helena] 
+
+  path: 1[181 -> 181], [Granite Peak Granite Peak Rocky Mountains  -> Granite Peak Granite Peak Rocky Mountains ]
+  path: 2[181 -> 31012], [Granite Peak Granite Peak Rocky Mountains  -> Montana] 
+
+srcNodes: [41954, 210, 31012]
+  path: 0[20118 -> 31022 -> 41954], [United States -> Oklahoma -> Oklahoma City] 
+
+  path: 1[20118 -> 10001 -> 20132 -> 210], [United States -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20118 -> 31012], [United States -> Montana] 
+
+srcNodes: [41253, 181, 31012]
+  path: 0[90143 -> 31002 -> 41253], [Missouri -> Kansas -> Kansas City] 
+
+  path: 1[90143 -> 31012 -> 181], [Missouri -> Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+  path: 2[90143 -> 31012], [Missouri -> Montana] 
+
+srcNodes: [41320, 210, 31012]
+  path: 0[210 -> 20132 -> 41320], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> Kingston] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20118 -> 31012], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> Montana] 
+
+-----------------------------------------
+ResultDestNodes: [31012, 181, 20118, 90143, 210]
+ResultRelevs: [7.776597023010254, 6.43842887878418, 5.840388298034668, 5.6133832931518555, 5.336813449859619]
+AvgResultRelev: 6.201122188568116
+AvgResultDissimilarity: 0.5
+Num of entries retrieved from the KNLists: 231
+Num of entries retrieved from NKMaps: 393
+Num of answer trees explored: 78
+Num of answer tree sets created: 31
+Num of answer tree sets removed: 0
+Max Num of answer tree sets in Q[]: 31
+
+Div Top-k Search by Astar02, k=5
+[city, mountain, montana]
+srcNodes: [41019, 181, 31012]
+  path: 0[31012 -> 41019], [Montana -> Helena] 
+
+  path: 1[31012 -> 181], [Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+  path: 2[31012 -> 31012], [Montana -> Montana]
+srcNodes: [41019, 181, 31012]
+  path: 0[181 -> 31012 -> 41019], [Granite Peak Granite Peak Rocky Mountains  -> Montana -> Helena] 
+
+  path: 1[181 -> 181], [Granite Peak Granite Peak Rocky Mountains  -> Granite Peak Granite Peak Rocky Mountains ]
+  path: 2[181 -> 31012], [Granite Peak Granite Peak Rocky Mountains  -> Montana] 
+
+srcNodes: [41954, 210, 31012]
+  path: 0[20118 -> 31022 -> 41954], [United States -> Oklahoma -> Oklahoma City] 
+
+  path: 1[20118 -> 10001 -> 20132 -> 210], [United States -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20118 -> 31012], [United States -> Montana] 
+
+srcNodes: [41253, 181, 31012]
+  path: 0[90143 -> 31002 -> 41253], [Missouri -> Kansas -> Kansas City] 
+
+  path: 1[90143 -> 31012 -> 181], [Missouri -> Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+  path: 2[90143 -> 31012], [Missouri -> Montana] 
+
+srcNodes: [41320, 210, 31012]
+  path: 0[210 -> 20132 -> 41320], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> Kingston] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20118 -> 31012], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> Montana] 
+
+-----------------------------------------
+ResultDestNodes: [31012, 181, 20118, 90143, 210]
+ResultRelevs: [7.776597023010254, 6.43842887878418, 5.840388298034668, 5.6133832931518555, 5.336813449859619]
+AvgResultRelev: 6.201122188568116
+AvgResultDissimilarity: 0.5
+Num of entries retrieved from the KNLists: 231
+Num of entries retrieved from NKMaps: 393
+Num of answer trees explored: 78
+Num of states created: 16
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 11
+
+Div Top-k Search by Astar1nc_ap, k=5
+[city, mountain, montana]
+srcNodes: [41019, 181, 31012]
+  path: 0[31012 -> 41019], [Montana -> Helena] 
+
+  path: 1[31012 -> 181], [Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+  path: 2[31012 -> 31012], [Montana -> Montana]
+srcNodes: [41019, 181, 31012]
+  path: 0[181 -> 31012 -> 41019], [Granite Peak Granite Peak Rocky Mountains  -> Montana -> Helena] 
+
+  path: 1[181 -> 181], [Granite Peak Granite Peak Rocky Mountains  -> Granite Peak Granite Peak Rocky Mountains ]
+  path: 2[181 -> 31012], [Granite Peak Granite Peak Rocky Mountains  -> Montana] 
+
+srcNodes: [41954, 210, 31012]
+  path: 0[20118 -> 31022 -> 41954], [United States -> Oklahoma -> Oklahoma City] 
+
+  path: 1[20118 -> 10001 -> 20132 -> 210], [United States -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20118 -> 31012], [United States -> Montana] 
+
+srcNodes: [41253, 181, 31012]
+  path: 0[90143 -> 31002 -> 41253], [Missouri -> Kansas -> Kansas City] 
+
+  path: 1[90143 -> 31012 -> 181], [Missouri -> Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+  path: 2[90143 -> 31012], [Missouri -> Montana] 
+
+srcNodes: [41320, 210, 31012]
+  path: 0[210 -> 20132 -> 41320], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> Kingston] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20118 -> 31012], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> Montana] 
+
+-----------------------------------------
+ResultDestNodes: [31012, 181, 20118, 90143, 210]
+ResultRelevs: [7.776597023010254, 6.43842887878418, 5.840388298034668, 5.6133832931518555, 5.336813449859619]
+AvgResultRelev: 6.201122188568116
+AvgResultDissimilarity: 0.5
+Num of entries retrieved from the KNLists: 231
+Num of entries retrieved from NKMaps: 393
+Num of answer trees explored: 78
+Num of states created: 6
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+Top-k Search by Blink-BDB, k=7
+[city, mountain, montana]
+srcNodes: [41019, 181, 31012]
+  path: 0[31012 -> 41019], [Montana -> Helena] 
+
+  path: 1[31012 -> 181], [Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+  path: 2[31012 -> 31012], [Montana -> Montana]
+srcNodes: [41019, 181, 31012]
+  path: 0[181 -> 31012 -> 41019], [Granite Peak Granite Peak Rocky Mountains  -> Montana -> Helena] 
+
+  path: 1[181 -> 181], [Granite Peak Granite Peak Rocky Mountains  -> Granite Peak Granite Peak Rocky Mountains ]
+  path: 2[181 -> 31012], [Granite Peak Granite Peak Rocky Mountains  -> Montana] 
+
+srcNodes: [41954, 210, 31012]
+  path: 0[20118 -> 31022 -> 41954], [United States -> Oklahoma -> Oklahoma City] 
+
+  path: 1[20118 -> 10001 -> 20132 -> 210], [United States -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20118 -> 31012], [United States -> Montana] 
+
+srcNodes: [41253, 181, 31012]
+  path: 0[90143 -> 31002 -> 41253], [Missouri -> Kansas -> Kansas City] 
+
+  path: 1[90143 -> 31012 -> 181], [Missouri -> Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+  path: 2[90143 -> 31012], [Missouri -> Montana] 
+
+srcNodes: [41320, 210, 31012]
+  path: 0[210 -> 20132 -> 41320], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> Kingston] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20118 -> 31012], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> Montana] 
+
+srcNodes: [40954, 210, 31012]
+  path: 0[10001 -> 20113 -> 40954], [America -> Guatemala -> Guatemala City] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 20118 -> 31012], [America -> United States -> Montana] 
+
+srcNodes: [41320, 210, 31012]
+  path: 0[20132 -> 41320], [Jamaica -> Kingston] 
+
+  path: 1[20132 -> 210], [Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20132 -> 10001 -> 20118 -> 31012], [Jamaica -> America -> United States -> Montana] 
+
+-----------------------------------------
+Num of top-k answers: 7
+ResultDestNodes: [31012, 181, 20118, 90143, 210, 10001, 20132]
+ResultRelevs: [7.776597023010254, 6.43842887878418, 5.840388298034668, 5.6133832931518555, 5.336813449859619, 5.2193803787231445, 5.163308143615723]
+AvgResultRelev: 5.912614209311349
+AvgResultDissimilarity: 0.4920634920634921
+Num of entries retrieved from the lists: 231
+Num of entries retrieved from NKMaps: 393
+Num of answer trees explored: 78
+
+Div Top-k Search by Exhustive, k=7
+[city, mountain, montana]
+srcNodes: [41019, 181, 31012]
+  path: 0[31012 -> 41019], [Montana -> Helena] 
+
+  path: 1[31012 -> 181], [Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+  path: 2[31012 -> 31012], [Montana -> Montana]
+srcNodes: [41019, 181, 31012]
+  path: 0[181 -> 31012 -> 41019], [Granite Peak Granite Peak Rocky Mountains  -> Montana -> Helena] 
+
+  path: 1[181 -> 181], [Granite Peak Granite Peak Rocky Mountains  -> Granite Peak Granite Peak Rocky Mountains ]
+  path: 2[181 -> 31012], [Granite Peak Granite Peak Rocky Mountains  -> Montana] 
+
+srcNodes: [41954, 210, 31012]
+  path: 0[20118 -> 31022 -> 41954], [United States -> Oklahoma -> Oklahoma City] 
+
+  path: 1[20118 -> 10001 -> 20132 -> 210], [United States -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20118 -> 31012], [United States -> Montana] 
+
+srcNodes: [41253, 181, 31012]
+  path: 0[90143 -> 31002 -> 41253], [Missouri -> Kansas -> Kansas City] 
+
+  path: 1[90143 -> 31012 -> 181], [Missouri -> Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+  path: 2[90143 -> 31012], [Missouri -> Montana] 
+
+srcNodes: [41320, 210, 31012]
+  path: 0[210 -> 20132 -> 41320], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> Kingston] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20118 -> 31012], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> Montana] 
+
+srcNodes: [40954, 210, 31012]
+  path: 0[10001 -> 20113 -> 40954], [America -> Guatemala -> Guatemala City] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 20118 -> 31012], [America -> United States -> Montana] 
+
+srcNodes: [42086, 183, 31012]
+  path: 0[31027 -> 42086], [South Dakota -> Pierre] 
+
+  path: 1[31027 -> 183], [South Dakota -> Harney Peak Harney Peak Rocky Mountains ] 
+
+  path: 2[31027 -> 90143 -> 31012], [South Dakota -> Missouri -> Montana] 
+
+-----------------------------------------
+ResultDestNodes: [31012, 181, 20118, 90143, 210, 10001, 31027]
+ResultRelevs: [7.776597023010254, 6.43842887878418, 5.840388298034668, 5.6133832931518555, 5.336813449859619, 5.2193803787231445, 5.061433792114258]
+AvgResultRelev: 5.898060730525425
+AvgResultDissimilarity: 0.5555555252801805
+Num of entries retrieved from the KNLists: 231
+Num of entries retrieved from NKMaps: 393
+Num of answer trees explored: 78
+Num of answer tree sets created: 253
+Num of answer tree sets removed: 6
+Max Num of answer tree sets in Q[]: 253
+
+Div Top-k Search by Astar02, k=7
+[city, mountain, montana]
+srcNodes: [41019, 181, 31012]
+  path: 0[31012 -> 41019], [Montana -> Helena] 
+
+  path: 1[31012 -> 181], [Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+  path: 2[31012 -> 31012], [Montana -> Montana]
+srcNodes: [41019, 181, 31012]
+  path: 0[181 -> 31012 -> 41019], [Granite Peak Granite Peak Rocky Mountains  -> Montana -> Helena] 
+
+  path: 1[181 -> 181], [Granite Peak Granite Peak Rocky Mountains  -> Granite Peak Granite Peak Rocky Mountains ]
+  path: 2[181 -> 31012], [Granite Peak Granite Peak Rocky Mountains  -> Montana] 
+
+srcNodes: [41954, 210, 31012]
+  path: 0[20118 -> 31022 -> 41954], [United States -> Oklahoma -> Oklahoma City] 
+
+  path: 1[20118 -> 10001 -> 20132 -> 210], [United States -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20118 -> 31012], [United States -> Montana] 
+
+srcNodes: [41253, 181, 31012]
+  path: 0[90143 -> 31002 -> 41253], [Missouri -> Kansas -> Kansas City] 
+
+  path: 1[90143 -> 31012 -> 181], [Missouri -> Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+  path: 2[90143 -> 31012], [Missouri -> Montana] 
+
+srcNodes: [41320, 210, 31012]
+  path: 0[210 -> 20132 -> 41320], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> Kingston] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20118 -> 31012], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> Montana] 
+
+srcNodes: [40954, 210, 31012]
+  path: 0[10001 -> 20113 -> 40954], [America -> Guatemala -> Guatemala City] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 20118 -> 31012], [America -> United States -> Montana] 
+
+srcNodes: [42086, 183, 31012]
+  path: 0[31027 -> 42086], [South Dakota -> Pierre] 
+
+  path: 1[31027 -> 183], [South Dakota -> Harney Peak Harney Peak Rocky Mountains ] 
+
+  path: 2[31027 -> 90143 -> 31012], [South Dakota -> Missouri -> Montana] 
+
+-----------------------------------------
+ResultDestNodes: [31012, 181, 20118, 90143, 210, 10001, 31027]
+ResultRelevs: [7.776597023010254, 6.43842887878418, 5.840388298034668, 5.6133832931518555, 5.336813449859619, 5.2193803787231445, 5.061433792114258]
+AvgResultRelev: 5.898060730525425
+AvgResultDissimilarity: 0.5555555555555555
+Num of entries retrieved from the KNLists: 231
+Num of entries retrieved from NKMaps: 393
+Num of answer trees explored: 78
+Num of states created: 162
+Num of states explored: 135
+Num of heuristic search performed: 2
+Max Num of answer tree sets in Q[]: 28
+
+Div Top-k Search by Astar1nc_ap, k=7
+[city, mountain, montana]
+srcNodes: [41019, 181, 31012]
+  path: 0[31012 -> 41019], [Montana -> Helena] 
+
+  path: 1[31012 -> 181], [Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+  path: 2[31012 -> 31012], [Montana -> Montana]
+srcNodes: [41019, 181, 31012]
+  path: 0[181 -> 31012 -> 41019], [Granite Peak Granite Peak Rocky Mountains  -> Montana -> Helena] 
+
+  path: 1[181 -> 181], [Granite Peak Granite Peak Rocky Mountains  -> Granite Peak Granite Peak Rocky Mountains ]
+  path: 2[181 -> 31012], [Granite Peak Granite Peak Rocky Mountains  -> Montana] 
+
+srcNodes: [41954, 210, 31012]
+  path: 0[20118 -> 31022 -> 41954], [United States -> Oklahoma -> Oklahoma City] 
+
+  path: 1[20118 -> 10001 -> 20132 -> 210], [United States -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20118 -> 31012], [United States -> Montana] 
+
+srcNodes: [41253, 181, 31012]
+  path: 0[90143 -> 31002 -> 41253], [Missouri -> Kansas -> Kansas City] 
+
+  path: 1[90143 -> 31012 -> 181], [Missouri -> Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+  path: 2[90143 -> 31012], [Missouri -> Montana] 
+
+srcNodes: [41320, 210, 31012]
+  path: 0[210 -> 20132 -> 41320], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> Kingston] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20118 -> 31012], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> Montana] 
+
+srcNodes: [40954, 210, 31012]
+  path: 0[10001 -> 20113 -> 40954], [America -> Guatemala -> Guatemala City] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 20118 -> 31012], [America -> United States -> Montana] 
+
+srcNodes: [42086, 183, 31012]
+  path: 0[31027 -> 42086], [South Dakota -> Pierre] 
+
+  path: 1[31027 -> 183], [South Dakota -> Harney Peak Harney Peak Rocky Mountains ] 
+
+  path: 2[31027 -> 90143 -> 31012], [South Dakota -> Missouri -> Montana] 
+
+-----------------------------------------
+ResultDestNodes: [31012, 181, 20118, 90143, 210, 10001, 31027]
+ResultRelevs: [7.776597023010254, 6.43842887878418, 5.840388298034668, 5.6133832931518555, 5.336813449859619, 5.2193803787231445, 5.061433792114258]
+AvgResultRelev: 5.898060730525425
+AvgResultDissimilarity: 0.5555555555555555
+Num of entries retrieved from the KNLists: 231
+Num of entries retrieved from NKMaps: 393
+Num of answer trees explored: 78
+Num of states created: 20
+Num of states explored: 14
+Num of heuristic search performed: 2
+Max Num of answer tree sets in Q[]: 7
+
+query: [republic, country, asia]
+Top-k Search by Blink-BDB, k=5
+[republic, country, asia]
+srcNodes: [60055, 20023, 10002]
+  path: 0[10002 -> 20055 -> 60055], [Asia -> Pakistan -> republic] 
+
+  path: 1[10002 -> 20023], [Asia -> Russia] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60078, 20078, 10002]
+  path: 0[20078 -> 60078], [Mongolia -> republic] 
+
+  path: 1[20078 -> 20078], [Mongolia -> Mongolia]
+  path: 2[20078 -> 10002], [Mongolia -> Asia] 
+
+srcNodes: [60089, 20089, 10002]
+  path: 0[20089 -> 60089], [Iraq -> republic] 
+
+  path: 1[20089 -> 20089], [Iraq -> Iraq]
+  path: 2[20089 -> 10002], [Iraq -> Asia] 
+
+srcNodes: [60084, 20084, 10002]
+  path: 0[20084 -> 60084], [Israel -> republic] 
+
+  path: 1[20084 -> 20084], [Israel -> Israel]
+  path: 2[20084 -> 10002], [Israel -> Asia] 
+
+srcNodes: [60086, 20086, 10002]
+  path: 0[20086 -> 60086], [Indonesia -> republic] 
+
+  path: 1[20086 -> 20086], [Indonesia -> Indonesia]
+  path: 2[20086 -> 10002], [Indonesia -> Asia] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [10002, 20078, 20089, 20084, 20086]
+ResultRelevs: [12.63715934753418, 11.262836456298828, 11.262836456298828, 11.262836456298828, 11.262836456298828]
+AvgResultRelev: 11.537701034545899
+AvgResultDissimilarity: 0.6666666666666667
+Num of entries retrieved from the lists: 165
+Num of entries retrieved from NKMaps: 241
+Num of answer trees explored: 93
+
+Div Top-k Search by Exhustive, k=5
+[republic, country, asia]
+srcNodes: [60055, 20023, 10002]
+  path: 0[10002 -> 20055 -> 60055], [Asia -> Pakistan -> republic] 
+
+  path: 1[10002 -> 20023], [Asia -> Russia] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60084, 20084, 10002]
+  path: 0[20084 -> 60084], [Israel -> republic] 
+
+  path: 1[20084 -> 20084], [Israel -> Israel]
+  path: 2[20084 -> 10002], [Israel -> Asia] 
+
+srcNodes: [60078, 20078, 10002]
+  path: 0[20078 -> 60078], [Mongolia -> republic] 
+
+  path: 1[20078 -> 20078], [Mongolia -> Mongolia]
+  path: 2[20078 -> 10002], [Mongolia -> Asia] 
+
+srcNodes: [60075, 20075, 10002]
+  path: 0[20075 -> 60075], [Kyrgyzstan -> republic] 
+
+  path: 1[20075 -> 20075], [Kyrgyzstan -> Kyrgyzstan]
+  path: 2[20075 -> 10002], [Kyrgyzstan -> Asia] 
+
+srcNodes: [60098, 20098, 10002]
+  path: 0[20098 -> 60098], [Maldives -> republic] 
+
+  path: 1[20098 -> 20098], [Maldives -> Maldives]
+  path: 2[20098 -> 10002], [Maldives -> Asia] 
+
+-----------------------------------------
+ResultDestNodes: [10002, 20084, 20078, 20075, 20098]
+ResultRelevs: [12.63715934753418, 11.262836456298828, 11.262836456298828, 11.262836456298828, 11.262836456298828]
+AvgResultRelev: 11.537701034545899
+AvgResultDissimilarity: 0.6666666507720947
+Num of entries retrieved from the KNLists: 165
+Num of entries retrieved from NKMaps: 241
+Num of answer trees explored: 93
+Num of answer tree sets created: 31
+Num of answer tree sets removed: 0
+Max Num of answer tree sets in Q[]: 31
+
+Div Top-k Search by Astar02, k=5
+[republic, country, asia]
+srcNodes: [60055, 20023, 10002]
+  path: 0[10002 -> 20055 -> 60055], [Asia -> Pakistan -> republic] 
+
+  path: 1[10002 -> 20023], [Asia -> Russia] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60084, 20084, 10002]
+  path: 0[20084 -> 60084], [Israel -> republic] 
+
+  path: 1[20084 -> 20084], [Israel -> Israel]
+  path: 2[20084 -> 10002], [Israel -> Asia] 
+
+srcNodes: [60078, 20078, 10002]
+  path: 0[20078 -> 60078], [Mongolia -> republic] 
+
+  path: 1[20078 -> 20078], [Mongolia -> Mongolia]
+  path: 2[20078 -> 10002], [Mongolia -> Asia] 
+
+srcNodes: [60075, 20075, 10002]
+  path: 0[20075 -> 60075], [Kyrgyzstan -> republic] 
+
+  path: 1[20075 -> 20075], [Kyrgyzstan -> Kyrgyzstan]
+  path: 2[20075 -> 10002], [Kyrgyzstan -> Asia] 
+
+srcNodes: [60098, 20098, 10002]
+  path: 0[20098 -> 60098], [Maldives -> republic] 
+
+  path: 1[20098 -> 20098], [Maldives -> Maldives]
+  path: 2[20098 -> 10002], [Maldives -> Asia] 
+
+-----------------------------------------
+ResultDestNodes: [10002, 20084, 20078, 20075, 20098]
+ResultRelevs: [12.63715934753418, 11.262836456298828, 11.262836456298828, 11.262836456298828, 11.262836456298828]
+AvgResultRelev: 11.537701034545899
+AvgResultDissimilarity: 0.6666666666666667
+Num of entries retrieved from the KNLists: 165
+Num of entries retrieved from NKMaps: 241
+Num of answer trees explored: 93
+Num of states created: 17
+Num of states explored: 11
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 10
+
+Div Top-k Search by Astar1nc_ap, k=5
+[republic, country, asia]
+srcNodes: [60055, 20023, 10002]
+  path: 0[10002 -> 20055 -> 60055], [Asia -> Pakistan -> republic] 
+
+  path: 1[10002 -> 20023], [Asia -> Russia] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60084, 20084, 10002]
+  path: 0[20084 -> 60084], [Israel -> republic] 
+
+  path: 1[20084 -> 20084], [Israel -> Israel]
+  path: 2[20084 -> 10002], [Israel -> Asia] 
+
+srcNodes: [60078, 20078, 10002]
+  path: 0[20078 -> 60078], [Mongolia -> republic] 
+
+  path: 1[20078 -> 20078], [Mongolia -> Mongolia]
+  path: 2[20078 -> 10002], [Mongolia -> Asia] 
+
+srcNodes: [60075, 20075, 10002]
+  path: 0[20075 -> 60075], [Kyrgyzstan -> republic] 
+
+  path: 1[20075 -> 20075], [Kyrgyzstan -> Kyrgyzstan]
+  path: 2[20075 -> 10002], [Kyrgyzstan -> Asia] 
+
+srcNodes: [60098, 20098, 10002]
+  path: 0[20098 -> 60098], [Maldives -> republic] 
+
+  path: 1[20098 -> 20098], [Maldives -> Maldives]
+  path: 2[20098 -> 10002], [Maldives -> Asia] 
+
+-----------------------------------------
+ResultDestNodes: [10002, 20084, 20078, 20075, 20098]
+ResultRelevs: [12.63715934753418, 11.262836456298828, 11.262836456298828, 11.262836456298828, 11.262836456298828]
+AvgResultRelev: 11.537701034545899
+AvgResultDissimilarity: 0.6666666666666667
+Num of entries retrieved from the KNLists: 165
+Num of entries retrieved from NKMaps: 241
+Num of answer trees explored: 93
+Num of states created: 6
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+Top-k Search by Blink-BDB, k=7
+[republic, country, asia]
+srcNodes: [60055, 20023, 10002]
+  path: 0[10002 -> 20055 -> 60055], [Asia -> Pakistan -> republic] 
+
+  path: 1[10002 -> 20023], [Asia -> Russia] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60086, 20086, 10002]
+  path: 0[20086 -> 60086], [Indonesia -> republic] 
+
+  path: 1[20086 -> 20086], [Indonesia -> Indonesia]
+  path: 2[20086 -> 10002], [Indonesia -> Asia] 
+
+srcNodes: [60078, 20078, 10002]
+  path: 0[20078 -> 60078], [Mongolia -> republic] 
+
+  path: 1[20078 -> 20078], [Mongolia -> Mongolia]
+  path: 2[20078 -> 10002], [Mongolia -> Asia] 
+
+srcNodes: [60089, 20089, 10002]
+  path: 0[20089 -> 60089], [Iraq -> republic] 
+
+  path: 1[20089 -> 20089], [Iraq -> Iraq]
+  path: 2[20089 -> 10002], [Iraq -> Asia] 
+
+srcNodes: [60084, 20084, 10002]
+  path: 0[20084 -> 60084], [Israel -> republic] 
+
+  path: 1[20084 -> 20084], [Israel -> Israel]
+  path: 2[20084 -> 10002], [Israel -> Asia] 
+
+srcNodes: [60085, 20085, 10002]
+  path: 0[20085 -> 60085], [Egypt -> republic] 
+
+  path: 1[20085 -> 20085], [Egypt -> Egypt]
+  path: 2[20085 -> 10002], [Egypt -> Asia] 
+
+srcNodes: [60073, 20073, 10002]
+  path: 0[20073 -> 60073], [Kazakstan -> republic] 
+
+  path: 1[20073 -> 20073], [Kazakstan -> Kazakstan]
+  path: 2[20073 -> 10002], [Kazakstan -> Asia] 
+
+-----------------------------------------
+Num of top-k answers: 7
+ResultDestNodes: [10002, 20086, 20078, 20089, 20084, 20085, 20073]
+ResultRelevs: [12.63715934753418, 11.262836456298828, 11.262836456298828, 11.262836456298828, 11.262836456298828, 11.262836456298828, 11.262836456298828]
+AvgResultRelev: 11.459168297903878
+AvgResultDissimilarity: 0.6666666666666664
+Num of entries retrieved from the lists: 165
+Num of entries retrieved from NKMaps: 241
+Num of answer trees explored: 93
+
+Div Top-k Search by Exhustive, k=7
+[republic, country, asia]
+srcNodes: [60055, 20023, 10002]
+  path: 0[10002 -> 20055 -> 60055], [Asia -> Pakistan -> republic] 
+
+  path: 1[10002 -> 20023], [Asia -> Russia] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60084, 20084, 10002]
+  path: 0[20084 -> 60084], [Israel -> republic] 
+
+  path: 1[20084 -> 20084], [Israel -> Israel]
+  path: 2[20084 -> 10002], [Israel -> Asia] 
+
+srcNodes: [60078, 20078, 10002]
+  path: 0[20078 -> 60078], [Mongolia -> republic] 
+
+  path: 1[20078 -> 20078], [Mongolia -> Mongolia]
+  path: 2[20078 -> 10002], [Mongolia -> Asia] 
+
+srcNodes: [60075, 20075, 10002]
+  path: 0[20075 -> 60075], [Kyrgyzstan -> republic] 
+
+  path: 1[20075 -> 20075], [Kyrgyzstan -> Kyrgyzstan]
+  path: 2[20075 -> 10002], [Kyrgyzstan -> Asia] 
+
+srcNodes: [60098, 20098, 10002]
+  path: 0[20098 -> 60098], [Maldives -> republic] 
+
+  path: 1[20098 -> 20098], [Maldives -> Maldives]
+  path: 2[20098 -> 10002], [Maldives -> Asia] 
+
+srcNodes: [60056, 20056, 10002]
+  path: 0[20056 -> 60056], [Tajikistan -> republic] 
+
+  path: 1[20056 -> 20056], [Tajikistan -> Tajikistan]
+  path: 2[20056 -> 10002], [Tajikistan -> Asia] 
+
+srcNodes: [60057, 20057, 10002]
+  path: 0[20057 -> 60057], [Turkmenistan -> republic] 
+
+  path: 1[20057 -> 20057], [Turkmenistan -> Turkmenistan]
+  path: 2[20057 -> 10002], [Turkmenistan -> Asia] 
+
+-----------------------------------------
+ResultDestNodes: [10002, 20084, 20078, 20075, 20098, 20056, 20057]
+ResultRelevs: [12.63715934753418, 11.262836456298828, 11.262836456298828, 11.262836456298828, 11.262836456298828, 11.262836456298828, 11.262836456298828]
+AvgResultRelev: 11.459168297903878
+AvgResultDissimilarity: 0.6666666666666666
+Num of entries retrieved from the KNLists: 165
+Num of entries retrieved from NKMaps: 241
+Num of answer trees explored: 93
+Num of answer tree sets created: 16728
+Num of answer tree sets removed: 16703
+Max Num of answer tree sets in Q[]: 8096
+
+Div Top-k Search by Astar02, k=7
+[republic, country, asia]
+srcNodes: [60055, 20023, 10002]
+  path: 0[10002 -> 20055 -> 60055], [Asia -> Pakistan -> republic] 
+
+  path: 1[10002 -> 20023], [Asia -> Russia] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60084, 20084, 10002]
+  path: 0[20084 -> 60084], [Israel -> republic] 
+
+  path: 1[20084 -> 20084], [Israel -> Israel]
+  path: 2[20084 -> 10002], [Israel -> Asia] 
+
+srcNodes: [60078, 20078, 10002]
+  path: 0[20078 -> 60078], [Mongolia -> republic] 
+
+  path: 1[20078 -> 20078], [Mongolia -> Mongolia]
+  path: 2[20078 -> 10002], [Mongolia -> Asia] 
+
+srcNodes: [60075, 20075, 10002]
+  path: 0[20075 -> 60075], [Kyrgyzstan -> republic] 
+
+  path: 1[20075 -> 20075], [Kyrgyzstan -> Kyrgyzstan]
+  path: 2[20075 -> 10002], [Kyrgyzstan -> Asia] 
+
+srcNodes: [60098, 20098, 10002]
+  path: 0[20098 -> 60098], [Maldives -> republic] 
+
+  path: 1[20098 -> 20098], [Maldives -> Maldives]
+  path: 2[20098 -> 10002], [Maldives -> Asia] 
+
+srcNodes: [60056, 20056, 10002]
+  path: 0[20056 -> 60056], [Tajikistan -> republic] 
+
+  path: 1[20056 -> 20056], [Tajikistan -> Tajikistan]
+  path: 2[20056 -> 10002], [Tajikistan -> Asia] 
+
+srcNodes: [60057, 20057, 10002]
+  path: 0[20057 -> 60057], [Turkmenistan -> republic] 
+
+  path: 1[20057 -> 20057], [Turkmenistan -> Turkmenistan]
+  path: 2[20057 -> 10002], [Turkmenistan -> Asia] 
+
+-----------------------------------------
+ResultDestNodes: [10002, 20084, 20078, 20075, 20098, 20056, 20057]
+ResultRelevs: [12.63715934753418, 11.262836456298828, 11.262836456298828, 11.262836456298828, 11.262836456298828, 11.262836456298828, 11.262836456298828]
+AvgResultRelev: 11.459168297903878
+AvgResultDissimilarity: 0.6666666666666664
+Num of entries retrieved from the KNLists: 165
+Num of entries retrieved from NKMaps: 241
+Num of answer trees explored: 93
+Num of states created: 70
+Num of states explored: 62
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 21
+
+Div Top-k Search by Astar1nc_ap, k=7
+[republic, country, asia]
+srcNodes: [60055, 20023, 10002]
+  path: 0[10002 -> 20055 -> 60055], [Asia -> Pakistan -> republic] 
+
+  path: 1[10002 -> 20023], [Asia -> Russia] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60084, 20084, 10002]
+  path: 0[20084 -> 60084], [Israel -> republic] 
+
+  path: 1[20084 -> 20084], [Israel -> Israel]
+  path: 2[20084 -> 10002], [Israel -> Asia] 
+
+srcNodes: [60078, 20078, 10002]
+  path: 0[20078 -> 60078], [Mongolia -> republic] 
+
+  path: 1[20078 -> 20078], [Mongolia -> Mongolia]
+  path: 2[20078 -> 10002], [Mongolia -> Asia] 
+
+srcNodes: [60075, 20075, 10002]
+  path: 0[20075 -> 60075], [Kyrgyzstan -> republic] 
+
+  path: 1[20075 -> 20075], [Kyrgyzstan -> Kyrgyzstan]
+  path: 2[20075 -> 10002], [Kyrgyzstan -> Asia] 
+
+srcNodes: [60098, 20098, 10002]
+  path: 0[20098 -> 60098], [Maldives -> republic] 
+
+  path: 1[20098 -> 20098], [Maldives -> Maldives]
+  path: 2[20098 -> 10002], [Maldives -> Asia] 
+
+srcNodes: [60056, 20056, 10002]
+  path: 0[20056 -> 60056], [Tajikistan -> republic] 
+
+  path: 1[20056 -> 20056], [Tajikistan -> Tajikistan]
+  path: 2[20056 -> 10002], [Tajikistan -> Asia] 
+
+srcNodes: [60057, 20057, 10002]
+  path: 0[20057 -> 60057], [Turkmenistan -> republic] 
+
+  path: 1[20057 -> 20057], [Turkmenistan -> Turkmenistan]
+  path: 2[20057 -> 10002], [Turkmenistan -> Asia] 
+
+-----------------------------------------
+ResultDestNodes: [10002, 20084, 20078, 20075, 20098, 20056, 20057]
+ResultRelevs: [12.63715934753418, 11.262836456298828, 11.262836456298828, 11.262836456298828, 11.262836456298828, 11.262836456298828, 11.262836456298828]
+AvgResultRelev: 11.459168297903878
+AvgResultDissimilarity: 0.6666666666666664
+Num of entries retrieved from the KNLists: 165
+Num of entries retrieved from NKMaps: 241
+Num of answer trees explored: 93
+Num of states created: 8
+Num of states explored: 8
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+query: [catholic, country, europe]
+Top-k Search by Blink-BDB, k=5
+[catholic, country, europe]
+srcNodes: [70337, 20000, 10004]
+  path: 0[10004 -> 20009 -> 70337], [Europe -> Austria -> Roman Catholic] 
+
+  path: 1[10004 -> 20000], [Europe -> Albania] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [70395, 20004, 10004]
+  path: 0[20004 -> 70395], [Montenegro -> Roman Catholic] 
+
+  path: 1[20004 -> 20004], [Montenegro -> Montenegro]
+  path: 2[20004 -> 10004], [Montenegro -> Europe] 
+
+srcNodes: [70428, 20003, 10004]
+  path: 0[20003 -> 70428], [Serbia -> Roman Catholic] 
+
+  path: 1[20003 -> 20003], [Serbia -> Serbia]
+  path: 2[20003 -> 10004], [Serbia -> Europe] 
+
+srcNodes: [70340, 20006, 10004]
+  path: 0[20006 -> 70340], [Andorra -> Roman Catholic] 
+
+  path: 1[20006 -> 20006], [Andorra -> Andorra]
+  path: 2[20006 -> 10004], [Andorra -> Europe] 
+
+srcNodes: [70338, 20000, 10004]
+  path: 0[20000 -> 70338], [Albania -> Roman Catholic] 
+
+  path: 1[20000 -> 20000], [Albania -> Albania]
+  path: 2[20000 -> 10004], [Albania -> Europe] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [10004, 20004, 20003, 20006, 20000]
+ResultRelevs: [12.33629035949707, 10.86064338684082, 10.86064338684082, 10.86064338684082, 10.86064338684082]
+AvgResultRelev: 11.15577278137207
+AvgResultDissimilarity: 0.6333333333333334
+Num of entries retrieved from the lists: 166
+Num of entries retrieved from NKMaps: 272
+Num of answer trees explored: 96
+
+Div Top-k Search by Exhustive, k=5
+[catholic, country, europe]
+srcNodes: [70337, 20000, 10004]
+  path: 0[10004 -> 20009 -> 70337], [Europe -> Austria -> Roman Catholic] 
+
+  path: 1[10004 -> 20000], [Europe -> Albania] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [70340, 20006, 10004]
+  path: 0[20006 -> 70340], [Andorra -> Roman Catholic] 
+
+  path: 1[20006 -> 20006], [Andorra -> Andorra]
+  path: 2[20006 -> 10004], [Andorra -> Europe] 
+
+srcNodes: [70395, 20004, 10004]
+  path: 0[20004 -> 70395], [Montenegro -> Roman Catholic] 
+
+  path: 1[20004 -> 20004], [Montenegro -> Montenegro]
+  path: 2[20004 -> 10004], [Montenegro -> Europe] 
+
+srcNodes: [70422, 20037, 10004]
+  path: 0[20037 -> 70422], [Sweden -> Roman Catholic] 
+
+  path: 1[20037 -> 20037], [Sweden -> Sweden]
+  path: 2[20037 -> 10004], [Sweden -> Europe] 
+
+srcNodes: [70377, 20039, 10004]
+  path: 0[20039 -> 70377], [Gibraltar -> Roman Catholic] 
+
+  path: 1[20039 -> 20039], [Gibraltar -> Gibraltar]
+  path: 2[20039 -> 10004], [Gibraltar -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: [10004, 20006, 20004, 20037, 20039]
+ResultRelevs: [12.33629035949707, 10.86064338684082, 10.86064338684082, 10.86064338684082, 10.86064338684082]
+AvgResultRelev: 11.15577278137207
+AvgResultDissimilarity: 0.6666666507720947
+Num of entries retrieved from the KNLists: 165
+Num of entries retrieved from NKMaps: 271
+Num of answer trees explored: 96
+Num of answer tree sets created: 1591
+Num of answer tree sets removed: 1558
+Max Num of answer tree sets in Q[]: 220
+
+Div Top-k Search by Astar02, k=5
+[catholic, country, europe]
+srcNodes: [70337, 20000, 10004]
+  path: 0[10004 -> 20009 -> 70337], [Europe -> Austria -> Roman Catholic] 
+
+  path: 1[10004 -> 20000], [Europe -> Albania] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [70340, 20006, 10004]
+  path: 0[20006 -> 70340], [Andorra -> Roman Catholic] 
+
+  path: 1[20006 -> 20006], [Andorra -> Andorra]
+  path: 2[20006 -> 10004], [Andorra -> Europe] 
+
+srcNodes: [70395, 20004, 10004]
+  path: 0[20004 -> 70395], [Montenegro -> Roman Catholic] 
+
+  path: 1[20004 -> 20004], [Montenegro -> Montenegro]
+  path: 2[20004 -> 10004], [Montenegro -> Europe] 
+
+srcNodes: [70422, 20037, 10004]
+  path: 0[20037 -> 70422], [Sweden -> Roman Catholic] 
+
+  path: 1[20037 -> 20037], [Sweden -> Sweden]
+  path: 2[20037 -> 10004], [Sweden -> Europe] 
+
+srcNodes: [70377, 20039, 10004]
+  path: 0[20039 -> 70377], [Gibraltar -> Roman Catholic] 
+
+  path: 1[20039 -> 20039], [Gibraltar -> Gibraltar]
+  path: 2[20039 -> 10004], [Gibraltar -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: [10004, 20006, 20004, 20037, 20039]
+ResultRelevs: [12.33629035949707, 10.86064338684082, 10.86064338684082, 10.86064338684082, 10.86064338684082]
+AvgResultRelev: 11.15577278137207
+AvgResultDissimilarity: 0.6666666666666667
+Num of entries retrieved from the KNLists: 165
+Num of entries retrieved from NKMaps: 271
+Num of answer trees explored: 96
+Num of states created: 17
+Num of states explored: 11
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 10
+
+Div Top-k Search by Astar1nc_ap, k=5
+[catholic, country, europe]
+srcNodes: [70337, 20000, 10004]
+  path: 0[10004 -> 20009 -> 70337], [Europe -> Austria -> Roman Catholic] 
+
+  path: 1[10004 -> 20000], [Europe -> Albania] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [70340, 20006, 10004]
+  path: 0[20006 -> 70340], [Andorra -> Roman Catholic] 
+
+  path: 1[20006 -> 20006], [Andorra -> Andorra]
+  path: 2[20006 -> 10004], [Andorra -> Europe] 
+
+srcNodes: [70395, 20004, 10004]
+  path: 0[20004 -> 70395], [Montenegro -> Roman Catholic] 
+
+  path: 1[20004 -> 20004], [Montenegro -> Montenegro]
+  path: 2[20004 -> 10004], [Montenegro -> Europe] 
+
+srcNodes: [70422, 20037, 10004]
+  path: 0[20037 -> 70422], [Sweden -> Roman Catholic] 
+
+  path: 1[20037 -> 20037], [Sweden -> Sweden]
+  path: 2[20037 -> 10004], [Sweden -> Europe] 
+
+srcNodes: [70377, 20039, 10004]
+  path: 0[20039 -> 70377], [Gibraltar -> Roman Catholic] 
+
+  path: 1[20039 -> 20039], [Gibraltar -> Gibraltar]
+  path: 2[20039 -> 10004], [Gibraltar -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: [10004, 20006, 20004, 20037, 20039]
+ResultRelevs: [12.33629035949707, 10.86064338684082, 10.86064338684082, 10.86064338684082, 10.86064338684082]
+AvgResultRelev: 11.15577278137207
+AvgResultDissimilarity: 0.6666666666666667
+Num of entries retrieved from the KNLists: 165
+Num of entries retrieved from NKMaps: 271
+Num of answer trees explored: 96
+Num of states created: 6
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+Top-k Search by Blink-BDB, k=7
+[catholic, country, europe]
+srcNodes: [70337, 20000, 10004]
+  path: 0[10004 -> 20009 -> 70337], [Europe -> Austria -> Roman Catholic] 
+
+  path: 1[10004 -> 20000], [Europe -> Albania] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [70422, 20037, 10004]
+  path: 0[20037 -> 70422], [Sweden -> Roman Catholic] 
+
+  path: 1[20037 -> 20037], [Sweden -> Sweden]
+  path: 2[20037 -> 10004], [Sweden -> Europe] 
+
+srcNodes: [70428, 20003, 10004]
+  path: 0[20003 -> 70428], [Serbia -> Roman Catholic] 
+
+  path: 1[20003 -> 20003], [Serbia -> Serbia]
+  path: 2[20003 -> 10004], [Serbia -> Europe] 
+
+srcNodes: [70340, 20006, 10004]
+  path: 0[20006 -> 70340], [Andorra -> Roman Catholic] 
+
+  path: 1[20006 -> 20006], [Andorra -> Andorra]
+  path: 2[20006 -> 10004], [Andorra -> Europe] 
+
+srcNodes: [70395, 20004, 10004]
+  path: 0[20004 -> 70395], [Montenegro -> Roman Catholic] 
+
+  path: 1[20004 -> 20004], [Montenegro -> Montenegro]
+  path: 2[20004 -> 10004], [Montenegro -> Europe] 
+
+srcNodes: [70338, 20000, 10004]
+  path: 0[20000 -> 70338], [Albania -> Roman Catholic] 
+
+  path: 1[20000 -> 20000], [Albania -> Albania]
+  path: 2[20000 -> 10004], [Albania -> Europe] 
+
+srcNodes: [70365, 20032, 10004]
+  path: 0[20032 -> 70365], [Denmark -> Roman Catholic] 
+
+  path: 1[20032 -> 20032], [Denmark -> Denmark]
+  path: 2[20032 -> 10004], [Denmark -> Europe] 
+
+-----------------------------------------
+Num of top-k answers: 7
+ResultDestNodes: [10004, 20037, 20003, 20006, 20004, 20000, 20032]
+ResultRelevs: [12.33629035949707, 10.86064338684082, 10.86064338684082, 10.86064338684082, 10.86064338684082, 10.86064338684082, 10.86064338684082]
+AvgResultRelev: 11.071450097220284
+AvgResultDissimilarity: 0.6507936507936506
+Num of entries retrieved from the lists: 166
+Num of entries retrieved from NKMaps: 272
+Num of answer trees explored: 96
+
+Div Top-k Search by Exhustive, k=7
+[catholic, country, europe]
+srcNodes: [70337, 20000, 10004]
+  path: 0[10004 -> 20009 -> 70337], [Europe -> Austria -> Roman Catholic] 
+
+  path: 1[10004 -> 20000], [Europe -> Albania] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [70340, 20006, 10004]
+  path: 0[20006 -> 70340], [Andorra -> Roman Catholic] 
+
+  path: 1[20006 -> 20006], [Andorra -> Andorra]
+  path: 2[20006 -> 10004], [Andorra -> Europe] 
+
+srcNodes: [70395, 20004, 10004]
+  path: 0[20004 -> 70395], [Montenegro -> Roman Catholic] 
+
+  path: 1[20004 -> 20004], [Montenegro -> Montenegro]
+  path: 2[20004 -> 10004], [Montenegro -> Europe] 
+
+srcNodes: [70422, 20037, 10004]
+  path: 0[20037 -> 70422], [Sweden -> Roman Catholic] 
+
+  path: 1[20037 -> 20037], [Sweden -> Sweden]
+  path: 2[20037 -> 10004], [Sweden -> Europe] 
+
+srcNodes: [70377, 20039, 10004]
+  path: 0[20039 -> 70377], [Gibraltar -> Roman Catholic] 
+
+  path: 1[20039 -> 20039], [Gibraltar -> Gibraltar]
+  path: 2[20039 -> 10004], [Gibraltar -> Europe] 
+
+srcNodes: [70401, 20026, 10004]
+  path: 0[20026 -> 70401], [Netherlands -> Roman Catholic] 
+
+  path: 1[20026 -> 20026], [Netherlands -> Netherlands]
+  path: 2[20026 -> 10004], [Netherlands -> Europe] 
+
+srcNodes: [70389, 20025, 10004]
+  path: 0[20025 -> 70389], [Luxembourg -> Roman Catholic] 
+
+  path: 1[20025 -> 20025], [Luxembourg -> Luxembourg]
+  path: 2[20025 -> 10004], [Luxembourg -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: [10004, 20006, 20004, 20037, 20039, 20026, 20025]
+ResultRelevs: [12.33629035949707, 10.86064338684082, 10.86064338684082, 10.86064338684082, 10.86064338684082, 10.86064338684082, 10.86064338684082]
+AvgResultRelev: 11.071450097220284
+AvgResultDissimilarity: 0.6666666666666666
+Num of entries retrieved from the KNLists: 165
+Num of entries retrieved from NKMaps: 271
+Num of answer trees explored: 96
+Num of answer tree sets created: 174501
+Num of answer tree sets removed: 174465
+Max Num of answer tree sets in Q[]: 55682
+
+Div Top-k Search by Astar02, k=7
+[catholic, country, europe]
+srcNodes: [70337, 20000, 10004]
+  path: 0[10004 -> 20009 -> 70337], [Europe -> Austria -> Roman Catholic] 
+
+  path: 1[10004 -> 20000], [Europe -> Albania] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [70340, 20006, 10004]
+  path: 0[20006 -> 70340], [Andorra -> Roman Catholic] 
+
+  path: 1[20006 -> 20006], [Andorra -> Andorra]
+  path: 2[20006 -> 10004], [Andorra -> Europe] 
+
+srcNodes: [70395, 20004, 10004]
+  path: 0[20004 -> 70395], [Montenegro -> Roman Catholic] 
+
+  path: 1[20004 -> 20004], [Montenegro -> Montenegro]
+  path: 2[20004 -> 10004], [Montenegro -> Europe] 
+
+srcNodes: [70422, 20037, 10004]
+  path: 0[20037 -> 70422], [Sweden -> Roman Catholic] 
+
+  path: 1[20037 -> 20037], [Sweden -> Sweden]
+  path: 2[20037 -> 10004], [Sweden -> Europe] 
+
+srcNodes: [70377, 20039, 10004]
+  path: 0[20039 -> 70377], [Gibraltar -> Roman Catholic] 
+
+  path: 1[20039 -> 20039], [Gibraltar -> Gibraltar]
+  path: 2[20039 -> 10004], [Gibraltar -> Europe] 
+
+srcNodes: [70401, 20026, 10004]
+  path: 0[20026 -> 70401], [Netherlands -> Roman Catholic] 
+
+  path: 1[20026 -> 20026], [Netherlands -> Netherlands]
+  path: 2[20026 -> 10004], [Netherlands -> Europe] 
+
+srcNodes: [70389, 20025, 10004]
+  path: 0[20025 -> 70389], [Luxembourg -> Roman Catholic] 
+
+  path: 1[20025 -> 20025], [Luxembourg -> Luxembourg]
+  path: 2[20025 -> 10004], [Luxembourg -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: [10004, 20006, 20004, 20037, 20039, 20026, 20025]
+ResultRelevs: [12.33629035949707, 10.86064338684082, 10.86064338684082, 10.86064338684082, 10.86064338684082, 10.86064338684082, 10.86064338684082]
+AvgResultRelev: 11.071450097220284
+AvgResultDissimilarity: 0.6666666666666664
+Num of entries retrieved from the KNLists: 165
+Num of entries retrieved from NKMaps: 271
+Num of answer trees explored: 96
+Num of states created: 70
+Num of states explored: 62
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 21
+
+Div Top-k Search by Astar1nc_ap, k=7
+[catholic, country, europe]
+srcNodes: [70337, 20000, 10004]
+  path: 0[10004 -> 20009 -> 70337], [Europe -> Austria -> Roman Catholic] 
+
+  path: 1[10004 -> 20000], [Europe -> Albania] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [70340, 20006, 10004]
+  path: 0[20006 -> 70340], [Andorra -> Roman Catholic] 
+
+  path: 1[20006 -> 20006], [Andorra -> Andorra]
+  path: 2[20006 -> 10004], [Andorra -> Europe] 
+
+srcNodes: [70395, 20004, 10004]
+  path: 0[20004 -> 70395], [Montenegro -> Roman Catholic] 
+
+  path: 1[20004 -> 20004], [Montenegro -> Montenegro]
+  path: 2[20004 -> 10004], [Montenegro -> Europe] 
+
+srcNodes: [70422, 20037, 10004]
+  path: 0[20037 -> 70422], [Sweden -> Roman Catholic] 
+
+  path: 1[20037 -> 20037], [Sweden -> Sweden]
+  path: 2[20037 -> 10004], [Sweden -> Europe] 
+
+srcNodes: [70377, 20039, 10004]
+  path: 0[20039 -> 70377], [Gibraltar -> Roman Catholic] 
+
+  path: 1[20039 -> 20039], [Gibraltar -> Gibraltar]
+  path: 2[20039 -> 10004], [Gibraltar -> Europe] 
+
+srcNodes: [70401, 20026, 10004]
+  path: 0[20026 -> 70401], [Netherlands -> Roman Catholic] 
+
+  path: 1[20026 -> 20026], [Netherlands -> Netherlands]
+  path: 2[20026 -> 10004], [Netherlands -> Europe] 
+
+srcNodes: [70389, 20025, 10004]
+  path: 0[20025 -> 70389], [Luxembourg -> Roman Catholic] 
+
+  path: 1[20025 -> 20025], [Luxembourg -> Luxembourg]
+  path: 2[20025 -> 10004], [Luxembourg -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: [10004, 20006, 20004, 20037, 20039, 20026, 20025]
+ResultRelevs: [12.33629035949707, 10.86064338684082, 10.86064338684082, 10.86064338684082, 10.86064338684082, 10.86064338684082, 10.86064338684082]
+AvgResultRelev: 11.071450097220284
+AvgResultDissimilarity: 0.6666666666666664
+Num of entries retrieved from the KNLists: 165
+Num of entries retrieved from NKMaps: 271
+Num of answer trees explored: 96
+Num of states created: 8
+Num of states explored: 8
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+query: [catholic, country, america]
+Top-k Search by Blink-BDB, k=5
+[catholic, country, america]
+srcNodes: [70342, 20107, 10001]
+  path: 0[10001 -> 20109 -> 70342], [America -> Aruba -> Roman Catholic] 
+
+  path: 1[10001 -> 20107], [America -> Anguilla] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [70411, 20169, 10001]
+  path: 0[20169 -> 70411], [Argentina -> Roman Catholic] 
+
+  path: 1[20169 -> 20169], [Argentina -> Argentina]
+  path: 2[20169 -> 10001], [Argentina -> America] 
+
+srcNodes: [70426, 20178, 10001]
+  path: 0[20178 -> 70426], [Suriname -> Roman Catholic] 
+
+  path: 1[20178 -> 20178], [Suriname -> Suriname]
+  path: 2[20178 -> 10001], [Suriname -> America] 
+
+srcNodes: [70370, 20180, 10001]
+  path: 0[20180 -> 70370], [Ecuador -> Roman Catholic] 
+
+  path: 1[20180 -> 20180], [Ecuador -> Ecuador]
+  path: 2[20180 -> 10001], [Ecuador -> America] 
+
+srcNodes: [70439, 20179, 10001]
+  path: 0[20179 -> 70439], [Venezuela -> Roman Catholic] 
+
+  path: 1[20179 -> 20179], [Venezuela -> Venezuela]
+  path: 2[20179 -> 10001], [Venezuela -> America] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [10001, 20169, 20178, 20180, 20179]
+ResultRelevs: [12.33629035949707, 10.86064338684082, 10.86064338684082, 10.86064338684082, 10.86064338684082]
+AvgResultRelev: 11.15577278137207
+AvgResultDissimilarity: 0.6666666666666667
+Num of entries retrieved from the lists: 162
+Num of entries retrieved from NKMaps: 260
+Num of answer trees explored: 57
+
+Div Top-k Search by Exhustive, k=5
+[catholic, country, america]
+srcNodes: [70342, 20107, 10001]
+  path: 0[10001 -> 20109 -> 70342], [America -> Aruba -> Roman Catholic] 
+
+  path: 1[10001 -> 20107], [America -> Anguilla] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [70411, 20169, 10001]
+  path: 0[20169 -> 70411], [Argentina -> Roman Catholic] 
+
+  path: 1[20169 -> 20169], [Argentina -> Argentina]
+  path: 2[20169 -> 10001], [Argentina -> America] 
+
+srcNodes: [70370, 20180, 10001]
+  path: 0[20180 -> 70370], [Ecuador -> Roman Catholic] 
+
+  path: 1[20180 -> 20180], [Ecuador -> Ecuador]
+  path: 2[20180 -> 10001], [Ecuador -> America] 
+
+srcNodes: [70406, 20175, 10001]
+  path: 0[20175 -> 70406], [Peru -> Roman Catholic] 
+
+  path: 1[20175 -> 20175], [Peru -> Peru]
+  path: 2[20175 -> 10001], [Peru -> America] 
+
+srcNodes: [70351, 20171, 10001]
+  path: 0[20171 -> 70351], [Brazil -> Roman Catholic] 
+
+  path: 1[20171 -> 20171], [Brazil -> Brazil]
+  path: 2[20171 -> 10001], [Brazil -> America] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20169, 20180, 20175, 20171]
+ResultRelevs: [12.33629035949707, 10.86064338684082, 10.86064338684082, 10.86064338684082, 10.86064338684082]
+AvgResultRelev: 11.15577278137207
+AvgResultDissimilarity: 0.6666666507720947
+Num of entries retrieved from the KNLists: 162
+Num of entries retrieved from NKMaps: 260
+Num of answer trees explored: 57
+Num of answer tree sets created: 1375
+Num of answer tree sets removed: 1344
+Max Num of answer tree sets in Q[]: 204
+
+Div Top-k Search by Astar02, k=5
+[catholic, country, america]
+srcNodes: [70342, 20107, 10001]
+  path: 0[10001 -> 20109 -> 70342], [America -> Aruba -> Roman Catholic] 
+
+  path: 1[10001 -> 20107], [America -> Anguilla] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [70411, 20169, 10001]
+  path: 0[20169 -> 70411], [Argentina -> Roman Catholic] 
+
+  path: 1[20169 -> 20169], [Argentina -> Argentina]
+  path: 2[20169 -> 10001], [Argentina -> America] 
+
+srcNodes: [70370, 20180, 10001]
+  path: 0[20180 -> 70370], [Ecuador -> Roman Catholic] 
+
+  path: 1[20180 -> 20180], [Ecuador -> Ecuador]
+  path: 2[20180 -> 10001], [Ecuador -> America] 
+
+srcNodes: [70406, 20175, 10001]
+  path: 0[20175 -> 70406], [Peru -> Roman Catholic] 
+
+  path: 1[20175 -> 20175], [Peru -> Peru]
+  path: 2[20175 -> 10001], [Peru -> America] 
+
+srcNodes: [70351, 20171, 10001]
+  path: 0[20171 -> 70351], [Brazil -> Roman Catholic] 
+
+  path: 1[20171 -> 20171], [Brazil -> Brazil]
+  path: 2[20171 -> 10001], [Brazil -> America] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20169, 20180, 20175, 20171]
+ResultRelevs: [12.33629035949707, 10.86064338684082, 10.86064338684082, 10.86064338684082, 10.86064338684082]
+AvgResultRelev: 11.15577278137207
+AvgResultDissimilarity: 0.6666666666666667
+Num of entries retrieved from the KNLists: 162
+Num of entries retrieved from NKMaps: 260
+Num of answer trees explored: 57
+Num of states created: 17
+Num of states explored: 11
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 10
+
+Div Top-k Search by Astar1nc_ap, k=5
+[catholic, country, america]
+srcNodes: [70342, 20107, 10001]
+  path: 0[10001 -> 20109 -> 70342], [America -> Aruba -> Roman Catholic] 
+
+  path: 1[10001 -> 20107], [America -> Anguilla] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [70411, 20169, 10001]
+  path: 0[20169 -> 70411], [Argentina -> Roman Catholic] 
+
+  path: 1[20169 -> 20169], [Argentina -> Argentina]
+  path: 2[20169 -> 10001], [Argentina -> America] 
+
+srcNodes: [70370, 20180, 10001]
+  path: 0[20180 -> 70370], [Ecuador -> Roman Catholic] 
+
+  path: 1[20180 -> 20180], [Ecuador -> Ecuador]
+  path: 2[20180 -> 10001], [Ecuador -> America] 
+
+srcNodes: [70406, 20175, 10001]
+  path: 0[20175 -> 70406], [Peru -> Roman Catholic] 
+
+  path: 1[20175 -> 20175], [Peru -> Peru]
+  path: 2[20175 -> 10001], [Peru -> America] 
+
+srcNodes: [70351, 20171, 10001]
+  path: 0[20171 -> 70351], [Brazil -> Roman Catholic] 
+
+  path: 1[20171 -> 20171], [Brazil -> Brazil]
+  path: 2[20171 -> 10001], [Brazil -> America] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20169, 20180, 20175, 20171]
+ResultRelevs: [12.33629035949707, 10.86064338684082, 10.86064338684082, 10.86064338684082, 10.86064338684082]
+AvgResultRelev: 11.15577278137207
+AvgResultDissimilarity: 0.6666666666666667
+Num of entries retrieved from the KNLists: 162
+Num of entries retrieved from NKMaps: 260
+Num of answer trees explored: 57
+Num of states created: 6
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+Top-k Search by Blink-BDB, k=7
+[catholic, country, america]
+srcNodes: [70342, 20107, 10001]
+  path: 0[10001 -> 20109 -> 70342], [America -> Aruba -> Roman Catholic] 
+
+  path: 1[10001 -> 20107], [America -> Anguilla] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [70426, 20178, 10001]
+  path: 0[20178 -> 70426], [Suriname -> Roman Catholic] 
+
+  path: 1[20178 -> 20178], [Suriname -> Suriname]
+  path: 2[20178 -> 10001], [Suriname -> America] 
+
+srcNodes: [70439, 20179, 10001]
+  path: 0[20179 -> 70439], [Venezuela -> Roman Catholic] 
+
+  path: 1[20179 -> 20179], [Venezuela -> Venezuela]
+  path: 2[20179 -> 10001], [Venezuela -> America] 
+
+srcNodes: [70370, 20180, 10001]
+  path: 0[20180 -> 70370], [Ecuador -> Roman Catholic] 
+
+  path: 1[20180 -> 20180], [Ecuador -> Ecuador]
+  path: 2[20180 -> 10001], [Ecuador -> America] 
+
+srcNodes: [70406, 20175, 10001]
+  path: 0[20175 -> 70406], [Peru -> Roman Catholic] 
+
+  path: 1[20175 -> 20175], [Peru -> Peru]
+  path: 2[20175 -> 10001], [Peru -> America] 
+
+srcNodes: [70411, 20169, 10001]
+  path: 0[20169 -> 70411], [Argentina -> Roman Catholic] 
+
+  path: 1[20169 -> 20169], [Argentina -> Argentina]
+  path: 2[20169 -> 10001], [Argentina -> America] 
+
+srcNodes: [70418, 20174, 10001]
+  path: 0[20174 -> 70418], [Uruguay -> Roman Catholic] 
+
+  path: 1[20174 -> 20174], [Uruguay -> Uruguay]
+  path: 2[20174 -> 10001], [Uruguay -> America] 
+
+-----------------------------------------
+Num of top-k answers: 7
+ResultDestNodes: [10001, 20178, 20179, 20180, 20175, 20169, 20174]
+ResultRelevs: [12.33629035949707, 10.86064338684082, 10.86064338684082, 10.86064338684082, 10.86064338684082, 10.86064338684082, 10.86064338684082]
+AvgResultRelev: 11.071450097220284
+AvgResultDissimilarity: 0.6666666666666664
+Num of entries retrieved from the lists: 162
+Num of entries retrieved from NKMaps: 260
+Num of answer trees explored: 57
+
+Div Top-k Search by Exhustive, k=7
+[catholic, country, america]
+srcNodes: [70342, 20107, 10001]
+  path: 0[10001 -> 20109 -> 70342], [America -> Aruba -> Roman Catholic] 
+
+  path: 1[10001 -> 20107], [America -> Anguilla] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [70411, 20169, 10001]
+  path: 0[20169 -> 70411], [Argentina -> Roman Catholic] 
+
+  path: 1[20169 -> 20169], [Argentina -> Argentina]
+  path: 2[20169 -> 10001], [Argentina -> America] 
+
+srcNodes: [70370, 20180, 10001]
+  path: 0[20180 -> 70370], [Ecuador -> Roman Catholic] 
+
+  path: 1[20180 -> 20180], [Ecuador -> Ecuador]
+  path: 2[20180 -> 10001], [Ecuador -> America] 
+
+srcNodes: [70406, 20175, 10001]
+  path: 0[20175 -> 70406], [Peru -> Roman Catholic] 
+
+  path: 1[20175 -> 20175], [Peru -> Peru]
+  path: 2[20175 -> 10001], [Peru -> America] 
+
+srcNodes: [70351, 20171, 10001]
+  path: 0[20171 -> 70351], [Brazil -> Roman Catholic] 
+
+  path: 1[20171 -> 20171], [Brazil -> Brazil]
+  path: 2[20171 -> 10001], [Brazil -> America] 
+
+srcNodes: [70347, 20115, 10001]
+  path: 0[20115 -> 70347], [Bermuda -> Roman Catholic] 
+
+  path: 1[20115 -> 20115], [Bermuda -> Bermuda]
+  path: 2[20115 -> 10001], [Bermuda -> America] 
+
+srcNodes: [70382, 20128, 10001]
+  path: 0[20128 -> 70382], [Honduras -> Roman Catholic] 
+
+  path: 1[20128 -> 20128], [Honduras -> Honduras]
+  path: 2[20128 -> 10001], [Honduras -> America] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20169, 20180, 20175, 20171, 20115, 20128]
+ResultRelevs: [12.33629035949707, 10.86064338684082, 10.86064338684082, 10.86064338684082, 10.86064338684082, 10.86064338684082, 10.86064338684082]
+AvgResultRelev: 11.071450097220284
+AvgResultDissimilarity: 0.6666666666666666
+Num of entries retrieved from the KNLists: 162
+Num of entries retrieved from NKMaps: 260
+Num of answer trees explored: 57
+Num of answer tree sets created: 122502
+Num of answer tree sets removed: 122468
+Max Num of answer tree sets in Q[]: 41708
+
+Div Top-k Search by Astar02, k=7
+[catholic, country, america]
+srcNodes: [70342, 20107, 10001]
+  path: 0[10001 -> 20109 -> 70342], [America -> Aruba -> Roman Catholic] 
+
+  path: 1[10001 -> 20107], [America -> Anguilla] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [70411, 20169, 10001]
+  path: 0[20169 -> 70411], [Argentina -> Roman Catholic] 
+
+  path: 1[20169 -> 20169], [Argentina -> Argentina]
+  path: 2[20169 -> 10001], [Argentina -> America] 
+
+srcNodes: [70370, 20180, 10001]
+  path: 0[20180 -> 70370], [Ecuador -> Roman Catholic] 
+
+  path: 1[20180 -> 20180], [Ecuador -> Ecuador]
+  path: 2[20180 -> 10001], [Ecuador -> America] 
+
+srcNodes: [70406, 20175, 10001]
+  path: 0[20175 -> 70406], [Peru -> Roman Catholic] 
+
+  path: 1[20175 -> 20175], [Peru -> Peru]
+  path: 2[20175 -> 10001], [Peru -> America] 
+
+srcNodes: [70351, 20171, 10001]
+  path: 0[20171 -> 70351], [Brazil -> Roman Catholic] 
+
+  path: 1[20171 -> 20171], [Brazil -> Brazil]
+  path: 2[20171 -> 10001], [Brazil -> America] 
+
+srcNodes: [70347, 20115, 10001]
+  path: 0[20115 -> 70347], [Bermuda -> Roman Catholic] 
+
+  path: 1[20115 -> 20115], [Bermuda -> Bermuda]
+  path: 2[20115 -> 10001], [Bermuda -> America] 
+
+srcNodes: [70382, 20128, 10001]
+  path: 0[20128 -> 70382], [Honduras -> Roman Catholic] 
+
+  path: 1[20128 -> 20128], [Honduras -> Honduras]
+  path: 2[20128 -> 10001], [Honduras -> America] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20169, 20180, 20175, 20171, 20115, 20128]
+ResultRelevs: [12.33629035949707, 10.86064338684082, 10.86064338684082, 10.86064338684082, 10.86064338684082, 10.86064338684082, 10.86064338684082]
+AvgResultRelev: 11.071450097220284
+AvgResultDissimilarity: 0.6666666666666664
+Num of entries retrieved from the KNLists: 162
+Num of entries retrieved from NKMaps: 260
+Num of answer trees explored: 57
+Num of states created: 70
+Num of states explored: 62
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 21
+
+Div Top-k Search by Astar1nc_ap, k=7
+[catholic, country, america]
+srcNodes: [70342, 20107, 10001]
+  path: 0[10001 -> 20109 -> 70342], [America -> Aruba -> Roman Catholic] 
+
+  path: 1[10001 -> 20107], [America -> Anguilla] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [70411, 20169, 10001]
+  path: 0[20169 -> 70411], [Argentina -> Roman Catholic] 
+
+  path: 1[20169 -> 20169], [Argentina -> Argentina]
+  path: 2[20169 -> 10001], [Argentina -> America] 
+
+srcNodes: [70370, 20180, 10001]
+  path: 0[20180 -> 70370], [Ecuador -> Roman Catholic] 
+
+  path: 1[20180 -> 20180], [Ecuador -> Ecuador]
+  path: 2[20180 -> 10001], [Ecuador -> America] 
+
+srcNodes: [70406, 20175, 10001]
+  path: 0[20175 -> 70406], [Peru -> Roman Catholic] 
+
+  path: 1[20175 -> 20175], [Peru -> Peru]
+  path: 2[20175 -> 10001], [Peru -> America] 
+
+srcNodes: [70351, 20171, 10001]
+  path: 0[20171 -> 70351], [Brazil -> Roman Catholic] 
+
+  path: 1[20171 -> 20171], [Brazil -> Brazil]
+  path: 2[20171 -> 10001], [Brazil -> America] 
+
+srcNodes: [70347, 20115, 10001]
+  path: 0[20115 -> 70347], [Bermuda -> Roman Catholic] 
+
+  path: 1[20115 -> 20115], [Bermuda -> Bermuda]
+  path: 2[20115 -> 10001], [Bermuda -> America] 
+
+srcNodes: [70382, 20128, 10001]
+  path: 0[20128 -> 70382], [Honduras -> Roman Catholic] 
+
+  path: 1[20128 -> 20128], [Honduras -> Honduras]
+  path: 2[20128 -> 10001], [Honduras -> America] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20169, 20180, 20175, 20171, 20115, 20128]
+ResultRelevs: [12.33629035949707, 10.86064338684082, 10.86064338684082, 10.86064338684082, 10.86064338684082, 10.86064338684082, 10.86064338684082]
+AvgResultRelev: 11.071450097220284
+AvgResultDissimilarity: 0.6666666666666664
+Num of entries retrieved from the KNLists: 162
+Num of entries retrieved from NKMaps: 260
+Num of answer trees explored: 57
+Num of states created: 8
+Num of states explored: 8
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+query: [city, lake, africa]
+Top-k Search by Blink-BDB, k=5
+[city, lake, africa]
+srcNodes: [40288, 80059, 10000]
+  path: 0[10000 -> 20197 -> 40288], [Africa -> Nigeria -> Benin City] 
+
+  path: 1[10000 -> 20203 -> 80059], [Africa -> Ghana -> Lake Bosumtwi Lake Bosumtwi impact] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [40288, 80061, 10000]
+  path: 0[20197 -> 40288], [Nigeria -> Benin City] 
+
+  path: 1[20197 -> 80061], [Nigeria -> Chad Lake Chad Lake salt] 
+
+  path: 2[20197 -> 10000], [Nigeria -> Africa] 
+
+srcNodes: [41882, 80061, 10000]
+  path: 0[20187 -> 41882], [Niger -> Niamey] 
+
+  path: 1[20187 -> 80061], [Niger -> Chad Lake Chad Lake salt] 
+
+  path: 2[20187 -> 10000], [Niger -> Africa] 
+
+srcNodes: [41245, 80073, 10000]
+  path: 0[20226 -> 41245], [Uganda -> Kampala] 
+
+  path: 1[20226 -> 80073], [Uganda -> Lake Victoria Lake Victoria ] 
+
+  path: 2[20226 -> 10000], [Uganda -> Africa] 
+
+srcNodes: [41491, 80081, 10000]
+  path: 0[20229 -> 41491], [Malawi -> Lilongwe] 
+
+  path: 1[20229 -> 80081], [Malawi -> Lake Malawi Lake Malawi ] 
+
+  path: 2[20229 -> 10000], [Malawi -> Africa] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [10000, 20197, 20187, 20226, 20229]
+ResultRelevs: [11.568763732910156, 9.657512664794922, 9.556777000427246, 9.556777000427246, 9.556777000427246]
+AvgResultRelev: 9.979321479797363
+AvgResultDissimilarity: 0.6
+Num of entries retrieved from the lists: 171
+Num of entries retrieved from NKMaps: 278
+Num of answer trees explored: 68
+
+Div Top-k Search by Exhustive, k=5
+[city, lake, africa]
+srcNodes: [40288, 80059, 10000]
+  path: 0[10000 -> 20197 -> 40288], [Africa -> Nigeria -> Benin City] 
+
+  path: 1[10000 -> 20203 -> 80059], [Africa -> Ghana -> Lake Bosumtwi Lake Bosumtwi impact] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [40288, 80061, 10000]
+  path: 0[20197 -> 40288], [Nigeria -> Benin City] 
+
+  path: 1[20197 -> 80061], [Nigeria -> Chad Lake Chad Lake salt] 
+
+  path: 2[20197 -> 10000], [Nigeria -> Africa] 
+
+srcNodes: [41882, 80061, 10000]
+  path: 0[20187 -> 41882], [Niger -> Niamey] 
+
+  path: 1[20187 -> 80061], [Niger -> Chad Lake Chad Lake salt] 
+
+  path: 2[20187 -> 10000], [Niger -> Africa] 
+
+srcNodes: [41850, 80061, 10000]
+  path: 0[20209 -> 41850], [Chad -> NDjamena] 
+
+  path: 1[20209 -> 80061], [Chad -> Chad Lake Chad Lake salt] 
+
+  path: 2[20209 -> 10000], [Chad -> Africa] 
+
+srcNodes: [41313, 80074, 10000]
+  path: 0[20205 -> 41313], [Rwanda -> Kigali] 
+
+  path: 1[20205 -> 80074], [Rwanda -> Lake Kivu Lake Kivu ] 
+
+  path: 2[20205 -> 10000], [Rwanda -> Africa] 
+
+-----------------------------------------
+ResultDestNodes: [10000, 20197, 20187, 20209, 20205]
+ResultRelevs: [11.568763732910156, 9.657512664794922, 9.556777000427246, 9.556777000427246, 9.556777000427246]
+AvgResultRelev: 9.979321479797363
+AvgResultDissimilarity: 0.5333333492279053
+Num of entries retrieved from the KNLists: 171
+Num of entries retrieved from NKMaps: 278
+Num of answer trees explored: 68
+Num of answer tree sets created: 31
+Num of answer tree sets removed: 0
+Max Num of answer tree sets in Q[]: 31
+
+Div Top-k Search by Astar02, k=5
+[city, lake, africa]
+srcNodes: [40288, 80059, 10000]
+  path: 0[10000 -> 20197 -> 40288], [Africa -> Nigeria -> Benin City] 
+
+  path: 1[10000 -> 20203 -> 80059], [Africa -> Ghana -> Lake Bosumtwi Lake Bosumtwi impact] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [40288, 80061, 10000]
+  path: 0[20197 -> 40288], [Nigeria -> Benin City] 
+
+  path: 1[20197 -> 80061], [Nigeria -> Chad Lake Chad Lake salt] 
+
+  path: 2[20197 -> 10000], [Nigeria -> Africa] 
+
+srcNodes: [41882, 80061, 10000]
+  path: 0[20187 -> 41882], [Niger -> Niamey] 
+
+  path: 1[20187 -> 80061], [Niger -> Chad Lake Chad Lake salt] 
+
+  path: 2[20187 -> 10000], [Niger -> Africa] 
+
+srcNodes: [41850, 80061, 10000]
+  path: 0[20209 -> 41850], [Chad -> NDjamena] 
+
+  path: 1[20209 -> 80061], [Chad -> Chad Lake Chad Lake salt] 
+
+  path: 2[20209 -> 10000], [Chad -> Africa] 
+
+srcNodes: [41313, 80074, 10000]
+  path: 0[20205 -> 41313], [Rwanda -> Kigali] 
+
+  path: 1[20205 -> 80074], [Rwanda -> Lake Kivu Lake Kivu ] 
+
+  path: 2[20205 -> 10000], [Rwanda -> Africa] 
+
+-----------------------------------------
+ResultDestNodes: [10000, 20197, 20187, 20209, 20205]
+ResultRelevs: [11.568763732910156, 9.657512664794922, 9.556777000427246, 9.556777000427246, 9.556777000427246]
+AvgResultRelev: 9.979321479797363
+AvgResultDissimilarity: 0.5333333333333334
+Num of entries retrieved from the KNLists: 171
+Num of entries retrieved from NKMaps: 278
+Num of answer trees explored: 68
+Num of states created: 17
+Num of states explored: 10
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 11
+
+Div Top-k Search by Astar1nc_ap, k=5
+[city, lake, africa]
+srcNodes: [40288, 80059, 10000]
+  path: 0[10000 -> 20197 -> 40288], [Africa -> Nigeria -> Benin City] 
+
+  path: 1[10000 -> 20203 -> 80059], [Africa -> Ghana -> Lake Bosumtwi Lake Bosumtwi impact] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [40288, 80061, 10000]
+  path: 0[20197 -> 40288], [Nigeria -> Benin City] 
+
+  path: 1[20197 -> 80061], [Nigeria -> Chad Lake Chad Lake salt] 
+
+  path: 2[20197 -> 10000], [Nigeria -> Africa] 
+
+srcNodes: [41882, 80061, 10000]
+  path: 0[20187 -> 41882], [Niger -> Niamey] 
+
+  path: 1[20187 -> 80061], [Niger -> Chad Lake Chad Lake salt] 
+
+  path: 2[20187 -> 10000], [Niger -> Africa] 
+
+srcNodes: [41850, 80061, 10000]
+  path: 0[20209 -> 41850], [Chad -> NDjamena] 
+
+  path: 1[20209 -> 80061], [Chad -> Chad Lake Chad Lake salt] 
+
+  path: 2[20209 -> 10000], [Chad -> Africa] 
+
+srcNodes: [41313, 80074, 10000]
+  path: 0[20205 -> 41313], [Rwanda -> Kigali] 
+
+  path: 1[20205 -> 80074], [Rwanda -> Lake Kivu Lake Kivu ] 
+
+  path: 2[20205 -> 10000], [Rwanda -> Africa] 
+
+-----------------------------------------
+ResultDestNodes: [10000, 20197, 20187, 20209, 20205]
+ResultRelevs: [11.568763732910156, 9.657512664794922, 9.556777000427246, 9.556777000427246, 9.556777000427246]
+AvgResultRelev: 9.979321479797363
+AvgResultDissimilarity: 0.5333333333333334
+Num of entries retrieved from the KNLists: 171
+Num of entries retrieved from NKMaps: 278
+Num of answer trees explored: 68
+Num of states created: 6
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+Top-k Search by Blink-BDB, k=7
+[city, lake, africa]
+srcNodes: [40288, 80059, 10000]
+  path: 0[10000 -> 20197 -> 40288], [Africa -> Nigeria -> Benin City] 
+
+  path: 1[10000 -> 20203 -> 80059], [Africa -> Ghana -> Lake Bosumtwi Lake Bosumtwi impact] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [40288, 80061, 10000]
+  path: 0[20197 -> 40288], [Nigeria -> Benin City] 
+
+  path: 1[20197 -> 80061], [Nigeria -> Chad Lake Chad Lake salt] 
+
+  path: 2[20197 -> 10000], [Nigeria -> Africa] 
+
+srcNodes: [41882, 80061, 10000]
+  path: 0[20187 -> 41882], [Niger -> Niamey] 
+
+  path: 1[20187 -> 80061], [Niger -> Chad Lake Chad Lake salt] 
+
+  path: 2[20187 -> 10000], [Niger -> Africa] 
+
+srcNodes: [41245, 80073, 10000]
+  path: 0[20226 -> 41245], [Uganda -> Kampala] 
+
+  path: 1[20226 -> 80073], [Uganda -> Lake Victoria Lake Victoria ] 
+
+  path: 2[20226 -> 10000], [Uganda -> Africa] 
+
+srcNodes: [40863, 80086, 10000]
+  path: 0[20199 -> 40863], [Botswana -> Gaborone] 
+
+  path: 1[20199 -> 80086], [Botswana -> Lake Ngami Lake Ngami salt] 
+
+  path: 2[20199 -> 10000], [Botswana -> Africa] 
+
+srcNodes: [41491, 80081, 10000]
+  path: 0[20229 -> 41491], [Malawi -> Lilongwe] 
+
+  path: 1[20229 -> 80081], [Malawi -> Lake Malawi Lake Malawi ] 
+
+  path: 2[20229 -> 10000], [Malawi -> Africa] 
+
+srcNodes: [41850, 80061, 10000]
+  path: 0[20209 -> 41850], [Chad -> NDjamena] 
+
+  path: 1[20209 -> 80061], [Chad -> Chad Lake Chad Lake salt] 
+
+  path: 2[20209 -> 10000], [Chad -> Africa] 
+
+-----------------------------------------
+Num of top-k answers: 7
+ResultDestNodes: [10000, 20197, 20187, 20226, 20199, 20229, 20209]
+ResultRelevs: [11.568763732910156, 9.657512664794922, 9.556777000427246, 9.556777000427246, 9.556777000427246, 9.556777000427246, 9.556777000427246]
+AvgResultRelev: 9.858594485691615
+AvgResultDissimilarity: 0.603174603174603
+Num of entries retrieved from the lists: 171
+Num of entries retrieved from NKMaps: 278
+Num of answer trees explored: 68
+
+Div Top-k Search by Exhustive, k=7
+[city, lake, africa]
+srcNodes: [40288, 80059, 10000]
+  path: 0[10000 -> 20197 -> 40288], [Africa -> Nigeria -> Benin City] 
+
+  path: 1[10000 -> 20203 -> 80059], [Africa -> Ghana -> Lake Bosumtwi Lake Bosumtwi impact] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [40288, 80061, 10000]
+  path: 0[20197 -> 40288], [Nigeria -> Benin City] 
+
+  path: 1[20197 -> 80061], [Nigeria -> Chad Lake Chad Lake salt] 
+
+  path: 2[20197 -> 10000], [Nigeria -> Africa] 
+
+srcNodes: [41882, 80061, 10000]
+  path: 0[20187 -> 41882], [Niger -> Niamey] 
+
+  path: 1[20187 -> 80061], [Niger -> Chad Lake Chad Lake salt] 
+
+  path: 2[20187 -> 10000], [Niger -> Africa] 
+
+srcNodes: [41850, 80061, 10000]
+  path: 0[20209 -> 41850], [Chad -> NDjamena] 
+
+  path: 1[20209 -> 80061], [Chad -> Chad Lake Chad Lake salt] 
+
+  path: 2[20209 -> 10000], [Chad -> Africa] 
+
+srcNodes: [41313, 80074, 10000]
+  path: 0[20205 -> 41313], [Rwanda -> Kigali] 
+
+  path: 1[20205 -> 80074], [Rwanda -> Lake Kivu Lake Kivu ] 
+
+  path: 2[20205 -> 10000], [Rwanda -> Africa] 
+
+srcNodes: [40403, 80075, 10000]
+  path: 0[20204 -> 40403], [Burundi -> Bujumbura] 
+
+  path: 1[20204 -> 80075], [Burundi -> Lake Tanganjika Lake Tanganjika ] 
+
+  path: 2[20204 -> 10000], [Burundi -> Africa] 
+
+srcNodes: [41245, 80073, 10000]
+  path: 0[20226 -> 41245], [Uganda -> Kampala] 
+
+  path: 1[20226 -> 80073], [Uganda -> Lake Victoria Lake Victoria ] 
+
+  path: 2[20226 -> 10000], [Uganda -> Africa] 
+
+-----------------------------------------
+ResultDestNodes: [10000, 20197, 20187, 20209, 20205, 20204, 20226]
+ResultRelevs: [11.568763732910156, 9.657512664794922, 9.556777000427246, 9.556777000427246, 9.556777000427246, 9.556777000427246, 9.556777000427246]
+AvgResultRelev: 9.858594485691615
+AvgResultDissimilarity: 0.6031746183122907
+Num of entries retrieved from the KNLists: 171
+Num of entries retrieved from NKMaps: 278
+Num of answer trees explored: 68
+Num of answer tree sets created: 127
+Num of answer tree sets removed: 0
+Max Num of answer tree sets in Q[]: 127
+
+Div Top-k Search by Astar02, k=7
+[city, lake, africa]
+srcNodes: [40288, 80059, 10000]
+  path: 0[10000 -> 20197 -> 40288], [Africa -> Nigeria -> Benin City] 
+
+  path: 1[10000 -> 20203 -> 80059], [Africa -> Ghana -> Lake Bosumtwi Lake Bosumtwi impact] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [40288, 80061, 10000]
+  path: 0[20197 -> 40288], [Nigeria -> Benin City] 
+
+  path: 1[20197 -> 80061], [Nigeria -> Chad Lake Chad Lake salt] 
+
+  path: 2[20197 -> 10000], [Nigeria -> Africa] 
+
+srcNodes: [41882, 80061, 10000]
+  path: 0[20187 -> 41882], [Niger -> Niamey] 
+
+  path: 1[20187 -> 80061], [Niger -> Chad Lake Chad Lake salt] 
+
+  path: 2[20187 -> 10000], [Niger -> Africa] 
+
+srcNodes: [41850, 80061, 10000]
+  path: 0[20209 -> 41850], [Chad -> NDjamena] 
+
+  path: 1[20209 -> 80061], [Chad -> Chad Lake Chad Lake salt] 
+
+  path: 2[20209 -> 10000], [Chad -> Africa] 
+
+srcNodes: [41313, 80074, 10000]
+  path: 0[20205 -> 41313], [Rwanda -> Kigali] 
+
+  path: 1[20205 -> 80074], [Rwanda -> Lake Kivu Lake Kivu ] 
+
+  path: 2[20205 -> 10000], [Rwanda -> Africa] 
+
+srcNodes: [40403, 80075, 10000]
+  path: 0[20204 -> 40403], [Burundi -> Bujumbura] 
+
+  path: 1[20204 -> 80075], [Burundi -> Lake Tanganjika Lake Tanganjika ] 
+
+  path: 2[20204 -> 10000], [Burundi -> Africa] 
+
+srcNodes: [41245, 80073, 10000]
+  path: 0[20226 -> 41245], [Uganda -> Kampala] 
+
+  path: 1[20226 -> 80073], [Uganda -> Lake Victoria Lake Victoria ] 
+
+  path: 2[20226 -> 10000], [Uganda -> Africa] 
+
+-----------------------------------------
+ResultDestNodes: [10000, 20197, 20187, 20209, 20205, 20204, 20226]
+ResultRelevs: [11.568763732910156, 9.657512664794922, 9.556777000427246, 9.556777000427246, 9.556777000427246, 9.556777000427246, 9.556777000427246]
+AvgResultRelev: 9.858594485691615
+AvgResultDissimilarity: 0.603174603174603
+Num of entries retrieved from the KNLists: 171
+Num of entries retrieved from NKMaps: 278
+Num of answer trees explored: 68
+Num of states created: 34
+Num of states explored: 20
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 20
+
+Div Top-k Search by Astar1nc_ap, k=7
+[city, lake, africa]
+srcNodes: [40288, 80059, 10000]
+  path: 0[10000 -> 20197 -> 40288], [Africa -> Nigeria -> Benin City] 
+
+  path: 1[10000 -> 20203 -> 80059], [Africa -> Ghana -> Lake Bosumtwi Lake Bosumtwi impact] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [40288, 80061, 10000]
+  path: 0[20197 -> 40288], [Nigeria -> Benin City] 
+
+  path: 1[20197 -> 80061], [Nigeria -> Chad Lake Chad Lake salt] 
+
+  path: 2[20197 -> 10000], [Nigeria -> Africa] 
+
+srcNodes: [41882, 80061, 10000]
+  path: 0[20187 -> 41882], [Niger -> Niamey] 
+
+  path: 1[20187 -> 80061], [Niger -> Chad Lake Chad Lake salt] 
+
+  path: 2[20187 -> 10000], [Niger -> Africa] 
+
+srcNodes: [41850, 80061, 10000]
+  path: 0[20209 -> 41850], [Chad -> NDjamena] 
+
+  path: 1[20209 -> 80061], [Chad -> Chad Lake Chad Lake salt] 
+
+  path: 2[20209 -> 10000], [Chad -> Africa] 
+
+srcNodes: [41313, 80074, 10000]
+  path: 0[20205 -> 41313], [Rwanda -> Kigali] 
+
+  path: 1[20205 -> 80074], [Rwanda -> Lake Kivu Lake Kivu ] 
+
+  path: 2[20205 -> 10000], [Rwanda -> Africa] 
+
+srcNodes: [40403, 80075, 10000]
+  path: 0[20204 -> 40403], [Burundi -> Bujumbura] 
+
+  path: 1[20204 -> 80075], [Burundi -> Lake Tanganjika Lake Tanganjika ] 
+
+  path: 2[20204 -> 10000], [Burundi -> Africa] 
+
+srcNodes: [41245, 80073, 10000]
+  path: 0[20226 -> 41245], [Uganda -> Kampala] 
+
+  path: 1[20226 -> 80073], [Uganda -> Lake Victoria Lake Victoria ] 
+
+  path: 2[20226 -> 10000], [Uganda -> Africa] 
+
+-----------------------------------------
+ResultDestNodes: [10000, 20197, 20187, 20209, 20205, 20204, 20226]
+ResultRelevs: [11.568763732910156, 9.657512664794922, 9.556777000427246, 9.556777000427246, 9.556777000427246, 9.556777000427246, 9.556777000427246]
+AvgResultRelev: 9.858594485691615
+AvgResultDissimilarity: 0.603174603174603
+Num of entries retrieved from the KNLists: 171
+Num of entries retrieved from NKMaps: 278
+Num of answer trees explored: 68
+Num of states created: 8
+Num of states explored: 8
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+query: [city, lake, africa]
+Top-k Search by Blink-BDB, k=5
+[city, lake, africa]
+srcNodes: [40288, 80059, 10000]
+  path: 0[10000 -> 20197 -> 40288], [Africa -> Nigeria -> Benin City] 
+
+  path: 1[10000 -> 20203 -> 80059], [Africa -> Ghana -> Lake Bosumtwi Lake Bosumtwi impact] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [40288, 80061, 10000]
+  path: 0[20197 -> 40288], [Nigeria -> Benin City] 
+
+  path: 1[20197 -> 80061], [Nigeria -> Chad Lake Chad Lake salt] 
+
+  path: 2[20197 -> 10000], [Nigeria -> Africa] 
+
+srcNodes: [41882, 80061, 10000]
+  path: 0[20187 -> 41882], [Niger -> Niamey] 
+
+  path: 1[20187 -> 80061], [Niger -> Chad Lake Chad Lake salt] 
+
+  path: 2[20187 -> 10000], [Niger -> Africa] 
+
+srcNodes: [41245, 80073, 10000]
+  path: 0[20226 -> 41245], [Uganda -> Kampala] 
+
+  path: 1[20226 -> 80073], [Uganda -> Lake Victoria Lake Victoria ] 
+
+  path: 2[20226 -> 10000], [Uganda -> Africa] 
+
+srcNodes: [41491, 80081, 10000]
+  path: 0[20229 -> 41491], [Malawi -> Lilongwe] 
+
+  path: 1[20229 -> 80081], [Malawi -> Lake Malawi Lake Malawi ] 
+
+  path: 2[20229 -> 10000], [Malawi -> Africa] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [10000, 20197, 20187, 20226, 20229]
+ResultRelevs: [11.568763732910156, 9.657512664794922, 9.556777000427246, 9.556777000427246, 9.556777000427246]
+AvgResultRelev: 9.979321479797363
+AvgResultDissimilarity: 0.6
+Num of entries retrieved from the lists: 171
+Num of entries retrieved from NKMaps: 278
+Num of answer trees explored: 68
+
+Div Top-k Search by Exhustive, k=5
+[city, lake, africa]
+srcNodes: [40288, 80059, 10000]
+  path: 0[10000 -> 20197 -> 40288], [Africa -> Nigeria -> Benin City] 
+
+  path: 1[10000 -> 20203 -> 80059], [Africa -> Ghana -> Lake Bosumtwi Lake Bosumtwi impact] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [40288, 80061, 10000]
+  path: 0[20197 -> 40288], [Nigeria -> Benin City] 
+
+  path: 1[20197 -> 80061], [Nigeria -> Chad Lake Chad Lake salt] 
+
+  path: 2[20197 -> 10000], [Nigeria -> Africa] 
+
+srcNodes: [41882, 80061, 10000]
+  path: 0[20187 -> 41882], [Niger -> Niamey] 
+
+  path: 1[20187 -> 80061], [Niger -> Chad Lake Chad Lake salt] 
+
+  path: 2[20187 -> 10000], [Niger -> Africa] 
+
+srcNodes: [41850, 80061, 10000]
+  path: 0[20209 -> 41850], [Chad -> NDjamena] 
+
+  path: 1[20209 -> 80061], [Chad -> Chad Lake Chad Lake salt] 
+
+  path: 2[20209 -> 10000], [Chad -> Africa] 
+
+srcNodes: [41313, 80074, 10000]
+  path: 0[20205 -> 41313], [Rwanda -> Kigali] 
+
+  path: 1[20205 -> 80074], [Rwanda -> Lake Kivu Lake Kivu ] 
+
+  path: 2[20205 -> 10000], [Rwanda -> Africa] 
+
+-----------------------------------------
+ResultDestNodes: [10000, 20197, 20187, 20209, 20205]
+ResultRelevs: [11.568763732910156, 9.657512664794922, 9.556777000427246, 9.556777000427246, 9.556777000427246]
+AvgResultRelev: 9.979321479797363
+AvgResultDissimilarity: 0.5333333492279053
+Num of entries retrieved from the KNLists: 171
+Num of entries retrieved from NKMaps: 278
+Num of answer trees explored: 68
+Num of answer tree sets created: 31
+Num of answer tree sets removed: 0
+Max Num of answer tree sets in Q[]: 31
+
+Div Top-k Search by Astar02, k=5
+[city, lake, africa]
+srcNodes: [40288, 80059, 10000]
+  path: 0[10000 -> 20197 -> 40288], [Africa -> Nigeria -> Benin City] 
+
+  path: 1[10000 -> 20203 -> 80059], [Africa -> Ghana -> Lake Bosumtwi Lake Bosumtwi impact] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [40288, 80061, 10000]
+  path: 0[20197 -> 40288], [Nigeria -> Benin City] 
+
+  path: 1[20197 -> 80061], [Nigeria -> Chad Lake Chad Lake salt] 
+
+  path: 2[20197 -> 10000], [Nigeria -> Africa] 
+
+srcNodes: [41882, 80061, 10000]
+  path: 0[20187 -> 41882], [Niger -> Niamey] 
+
+  path: 1[20187 -> 80061], [Niger -> Chad Lake Chad Lake salt] 
+
+  path: 2[20187 -> 10000], [Niger -> Africa] 
+
+srcNodes: [41850, 80061, 10000]
+  path: 0[20209 -> 41850], [Chad -> NDjamena] 
+
+  path: 1[20209 -> 80061], [Chad -> Chad Lake Chad Lake salt] 
+
+  path: 2[20209 -> 10000], [Chad -> Africa] 
+
+srcNodes: [41313, 80074, 10000]
+  path: 0[20205 -> 41313], [Rwanda -> Kigali] 
+
+  path: 1[20205 -> 80074], [Rwanda -> Lake Kivu Lake Kivu ] 
+
+  path: 2[20205 -> 10000], [Rwanda -> Africa] 
+
+-----------------------------------------
+ResultDestNodes: [10000, 20197, 20187, 20209, 20205]
+ResultRelevs: [11.568763732910156, 9.657512664794922, 9.556777000427246, 9.556777000427246, 9.556777000427246]
+AvgResultRelev: 9.979321479797363
+AvgResultDissimilarity: 0.5333333333333334
+Num of entries retrieved from the KNLists: 171
+Num of entries retrieved from NKMaps: 278
+Num of answer trees explored: 68
+Num of states created: 17
+Num of states explored: 10
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 11
+
+Div Top-k Search by Astar1nc_ap, k=5
+[city, lake, africa]
+srcNodes: [40288, 80059, 10000]
+  path: 0[10000 -> 20197 -> 40288], [Africa -> Nigeria -> Benin City] 
+
+  path: 1[10000 -> 20203 -> 80059], [Africa -> Ghana -> Lake Bosumtwi Lake Bosumtwi impact] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [40288, 80061, 10000]
+  path: 0[20197 -> 40288], [Nigeria -> Benin City] 
+
+  path: 1[20197 -> 80061], [Nigeria -> Chad Lake Chad Lake salt] 
+
+  path: 2[20197 -> 10000], [Nigeria -> Africa] 
+
+srcNodes: [41882, 80061, 10000]
+  path: 0[20187 -> 41882], [Niger -> Niamey] 
+
+  path: 1[20187 -> 80061], [Niger -> Chad Lake Chad Lake salt] 
+
+  path: 2[20187 -> 10000], [Niger -> Africa] 
+
+srcNodes: [41850, 80061, 10000]
+  path: 0[20209 -> 41850], [Chad -> NDjamena] 
+
+  path: 1[20209 -> 80061], [Chad -> Chad Lake Chad Lake salt] 
+
+  path: 2[20209 -> 10000], [Chad -> Africa] 
+
+srcNodes: [41313, 80074, 10000]
+  path: 0[20205 -> 41313], [Rwanda -> Kigali] 
+
+  path: 1[20205 -> 80074], [Rwanda -> Lake Kivu Lake Kivu ] 
+
+  path: 2[20205 -> 10000], [Rwanda -> Africa] 
+
+-----------------------------------------
+ResultDestNodes: [10000, 20197, 20187, 20209, 20205]
+ResultRelevs: [11.568763732910156, 9.657512664794922, 9.556777000427246, 9.556777000427246, 9.556777000427246]
+AvgResultRelev: 9.979321479797363
+AvgResultDissimilarity: 0.5333333333333334
+Num of entries retrieved from the KNLists: 171
+Num of entries retrieved from NKMaps: 278
+Num of answer trees explored: 68
+Num of states created: 6
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+Top-k Search by Blink-BDB, k=7
+[city, lake, africa]
+srcNodes: [40288, 80059, 10000]
+  path: 0[10000 -> 20197 -> 40288], [Africa -> Nigeria -> Benin City] 
+
+  path: 1[10000 -> 20203 -> 80059], [Africa -> Ghana -> Lake Bosumtwi Lake Bosumtwi impact] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [40288, 80061, 10000]
+  path: 0[20197 -> 40288], [Nigeria -> Benin City] 
+
+  path: 1[20197 -> 80061], [Nigeria -> Chad Lake Chad Lake salt] 
+
+  path: 2[20197 -> 10000], [Nigeria -> Africa] 
+
+srcNodes: [41882, 80061, 10000]
+  path: 0[20187 -> 41882], [Niger -> Niamey] 
+
+  path: 1[20187 -> 80061], [Niger -> Chad Lake Chad Lake salt] 
+
+  path: 2[20187 -> 10000], [Niger -> Africa] 
+
+srcNodes: [41245, 80073, 10000]
+  path: 0[20226 -> 41245], [Uganda -> Kampala] 
+
+  path: 1[20226 -> 80073], [Uganda -> Lake Victoria Lake Victoria ] 
+
+  path: 2[20226 -> 10000], [Uganda -> Africa] 
+
+srcNodes: [40863, 80086, 10000]
+  path: 0[20199 -> 40863], [Botswana -> Gaborone] 
+
+  path: 1[20199 -> 80086], [Botswana -> Lake Ngami Lake Ngami salt] 
+
+  path: 2[20199 -> 10000], [Botswana -> Africa] 
+
+srcNodes: [41491, 80081, 10000]
+  path: 0[20229 -> 41491], [Malawi -> Lilongwe] 
+
+  path: 1[20229 -> 80081], [Malawi -> Lake Malawi Lake Malawi ] 
+
+  path: 2[20229 -> 10000], [Malawi -> Africa] 
+
+srcNodes: [41850, 80061, 10000]
+  path: 0[20209 -> 41850], [Chad -> NDjamena] 
+
+  path: 1[20209 -> 80061], [Chad -> Chad Lake Chad Lake salt] 
+
+  path: 2[20209 -> 10000], [Chad -> Africa] 
+
+-----------------------------------------
+Num of top-k answers: 7
+ResultDestNodes: [10000, 20197, 20187, 20226, 20199, 20229, 20209]
+ResultRelevs: [11.568763732910156, 9.657512664794922, 9.556777000427246, 9.556777000427246, 9.556777000427246, 9.556777000427246, 9.556777000427246]
+AvgResultRelev: 9.858594485691615
+AvgResultDissimilarity: 0.603174603174603
+Num of entries retrieved from the lists: 171
+Num of entries retrieved from NKMaps: 278
+Num of answer trees explored: 68
+
+Div Top-k Search by Exhustive, k=7
+[city, lake, africa]
+srcNodes: [40288, 80059, 10000]
+  path: 0[10000 -> 20197 -> 40288], [Africa -> Nigeria -> Benin City] 
+
+  path: 1[10000 -> 20203 -> 80059], [Africa -> Ghana -> Lake Bosumtwi Lake Bosumtwi impact] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [40288, 80061, 10000]
+  path: 0[20197 -> 40288], [Nigeria -> Benin City] 
+
+  path: 1[20197 -> 80061], [Nigeria -> Chad Lake Chad Lake salt] 
+
+  path: 2[20197 -> 10000], [Nigeria -> Africa] 
+
+srcNodes: [41882, 80061, 10000]
+  path: 0[20187 -> 41882], [Niger -> Niamey] 
+
+  path: 1[20187 -> 80061], [Niger -> Chad Lake Chad Lake salt] 
+
+  path: 2[20187 -> 10000], [Niger -> Africa] 
+
+srcNodes: [41850, 80061, 10000]
+  path: 0[20209 -> 41850], [Chad -> NDjamena] 
+
+  path: 1[20209 -> 80061], [Chad -> Chad Lake Chad Lake salt] 
+
+  path: 2[20209 -> 10000], [Chad -> Africa] 
+
+srcNodes: [41313, 80074, 10000]
+  path: 0[20205 -> 41313], [Rwanda -> Kigali] 
+
+  path: 1[20205 -> 80074], [Rwanda -> Lake Kivu Lake Kivu ] 
+
+  path: 2[20205 -> 10000], [Rwanda -> Africa] 
+
+srcNodes: [40403, 80075, 10000]
+  path: 0[20204 -> 40403], [Burundi -> Bujumbura] 
+
+  path: 1[20204 -> 80075], [Burundi -> Lake Tanganjika Lake Tanganjika ] 
+
+  path: 2[20204 -> 10000], [Burundi -> Africa] 
+
+srcNodes: [41245, 80073, 10000]
+  path: 0[20226 -> 41245], [Uganda -> Kampala] 
+
+  path: 1[20226 -> 80073], [Uganda -> Lake Victoria Lake Victoria ] 
+
+  path: 2[20226 -> 10000], [Uganda -> Africa] 
+
+-----------------------------------------
+ResultDestNodes: [10000, 20197, 20187, 20209, 20205, 20204, 20226]
+ResultRelevs: [11.568763732910156, 9.657512664794922, 9.556777000427246, 9.556777000427246, 9.556777000427246, 9.556777000427246, 9.556777000427246]
+AvgResultRelev: 9.858594485691615
+AvgResultDissimilarity: 0.6031746183122907
+Num of entries retrieved from the KNLists: 171
+Num of entries retrieved from NKMaps: 278
+Num of answer trees explored: 68
+Num of answer tree sets created: 127
+Num of answer tree sets removed: 0
+Max Num of answer tree sets in Q[]: 127
+
+Div Top-k Search by Astar02, k=7
+[city, lake, africa]
+srcNodes: [40288, 80059, 10000]
+  path: 0[10000 -> 20197 -> 40288], [Africa -> Nigeria -> Benin City] 
+
+  path: 1[10000 -> 20203 -> 80059], [Africa -> Ghana -> Lake Bosumtwi Lake Bosumtwi impact] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [40288, 80061, 10000]
+  path: 0[20197 -> 40288], [Nigeria -> Benin City] 
+
+  path: 1[20197 -> 80061], [Nigeria -> Chad Lake Chad Lake salt] 
+
+  path: 2[20197 -> 10000], [Nigeria -> Africa] 
+
+srcNodes: [41882, 80061, 10000]
+  path: 0[20187 -> 41882], [Niger -> Niamey] 
+
+  path: 1[20187 -> 80061], [Niger -> Chad Lake Chad Lake salt] 
+
+  path: 2[20187 -> 10000], [Niger -> Africa] 
+
+srcNodes: [41850, 80061, 10000]
+  path: 0[20209 -> 41850], [Chad -> NDjamena] 
+
+  path: 1[20209 -> 80061], [Chad -> Chad Lake Chad Lake salt] 
+
+  path: 2[20209 -> 10000], [Chad -> Africa] 
+
+srcNodes: [41313, 80074, 10000]
+  path: 0[20205 -> 41313], [Rwanda -> Kigali] 
+
+  path: 1[20205 -> 80074], [Rwanda -> Lake Kivu Lake Kivu ] 
+
+  path: 2[20205 -> 10000], [Rwanda -> Africa] 
+
+srcNodes: [40403, 80075, 10000]
+  path: 0[20204 -> 40403], [Burundi -> Bujumbura] 
+
+  path: 1[20204 -> 80075], [Burundi -> Lake Tanganjika Lake Tanganjika ] 
+
+  path: 2[20204 -> 10000], [Burundi -> Africa] 
+
+srcNodes: [41245, 80073, 10000]
+  path: 0[20226 -> 41245], [Uganda -> Kampala] 
+
+  path: 1[20226 -> 80073], [Uganda -> Lake Victoria Lake Victoria ] 
+
+  path: 2[20226 -> 10000], [Uganda -> Africa] 
+
+-----------------------------------------
+ResultDestNodes: [10000, 20197, 20187, 20209, 20205, 20204, 20226]
+ResultRelevs: [11.568763732910156, 9.657512664794922, 9.556777000427246, 9.556777000427246, 9.556777000427246, 9.556777000427246, 9.556777000427246]
+AvgResultRelev: 9.858594485691615
+AvgResultDissimilarity: 0.603174603174603
+Num of entries retrieved from the KNLists: 171
+Num of entries retrieved from NKMaps: 278
+Num of answer trees explored: 68
+Num of states created: 34
+Num of states explored: 20
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 20
+
+Div Top-k Search by Astar1nc_ap, k=7
+[city, lake, africa]
+srcNodes: [40288, 80059, 10000]
+  path: 0[10000 -> 20197 -> 40288], [Africa -> Nigeria -> Benin City] 
+
+  path: 1[10000 -> 20203 -> 80059], [Africa -> Ghana -> Lake Bosumtwi Lake Bosumtwi impact] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [40288, 80061, 10000]
+  path: 0[20197 -> 40288], [Nigeria -> Benin City] 
+
+  path: 1[20197 -> 80061], [Nigeria -> Chad Lake Chad Lake salt] 
+
+  path: 2[20197 -> 10000], [Nigeria -> Africa] 
+
+srcNodes: [41882, 80061, 10000]
+  path: 0[20187 -> 41882], [Niger -> Niamey] 
+
+  path: 1[20187 -> 80061], [Niger -> Chad Lake Chad Lake salt] 
+
+  path: 2[20187 -> 10000], [Niger -> Africa] 
+
+srcNodes: [41850, 80061, 10000]
+  path: 0[20209 -> 41850], [Chad -> NDjamena] 
+
+  path: 1[20209 -> 80061], [Chad -> Chad Lake Chad Lake salt] 
+
+  path: 2[20209 -> 10000], [Chad -> Africa] 
+
+srcNodes: [41313, 80074, 10000]
+  path: 0[20205 -> 41313], [Rwanda -> Kigali] 
+
+  path: 1[20205 -> 80074], [Rwanda -> Lake Kivu Lake Kivu ] 
+
+  path: 2[20205 -> 10000], [Rwanda -> Africa] 
+
+srcNodes: [40403, 80075, 10000]
+  path: 0[20204 -> 40403], [Burundi -> Bujumbura] 
+
+  path: 1[20204 -> 80075], [Burundi -> Lake Tanganjika Lake Tanganjika ] 
+
+  path: 2[20204 -> 10000], [Burundi -> Africa] 
+
+srcNodes: [41245, 80073, 10000]
+  path: 0[20226 -> 41245], [Uganda -> Kampala] 
+
+  path: 1[20226 -> 80073], [Uganda -> Lake Victoria Lake Victoria ] 
+
+  path: 2[20226 -> 10000], [Uganda -> Africa] 
+
+-----------------------------------------
+ResultDestNodes: [10000, 20197, 20187, 20209, 20205, 20204, 20226]
+ResultRelevs: [11.568763732910156, 9.657512664794922, 9.556777000427246, 9.556777000427246, 9.556777000427246, 9.556777000427246, 9.556777000427246]
+AvgResultRelev: 9.858594485691615
+AvgResultDissimilarity: 0.603174603174603
+Num of entries retrieved from the KNLists: 171
+Num of entries retrieved from NKMaps: 278
+Num of answer trees explored: 68
+Num of states created: 8
+Num of states explored: 8
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+query: [caldera, lake, asia]
+Top-k Search by Blink-BDB, k=5
+[caldera, lake, asia]
+srcNodes: [80047, 80036, 10002]
+  path: 0[10002 -> 20086 -> 80047], [Asia -> Indonesia -> Lake Toba Lake Toba caldera] 
+
+  path: 1[10002 -> 20093 -> 80036], [Asia -> Syria -> Lake Genezareth Lake Genezareth ] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [80047, 80047, 10002]
+  path: 0[20086 -> 80047], [Indonesia -> Lake Toba Lake Toba caldera] 
+
+  path: 1[20086 -> 80047], [Indonesia -> Lake Toba Lake Toba caldera] 
+
+  path: 2[20086 -> 10002], [Indonesia -> Asia] 
+
+srcNodes: [80047, 80047, 10002]
+  path: 0[80047 -> 80047], [Lake Toba Lake Toba caldera -> Lake Toba Lake Toba caldera]
+  path: 1[80047 -> 80047], [Lake Toba Lake Toba caldera -> Lake Toba Lake Toba caldera]
+  path: 2[80047 -> 90129 -> 20086 -> 10002], [Lake Toba Lake Toba caldera -> Asahan -> Indonesia -> Asia] 
+
+srcNodes: [80047, 80036, 10002]
+  path: 0[20093 -> 10002 -> 20086 -> 80047], [Syria -> Asia -> Indonesia -> Lake Toba Lake Toba caldera] 
+
+  path: 1[20093 -> 80036], [Syria -> Lake Genezareth Lake Genezareth ] 
+
+  path: 2[20093 -> 10002], [Syria -> Asia] 
+
+srcNodes: [80047, 80047, 10002]
+  path: 0[20068 -> 20086 -> 80047], [Malaysia -> Indonesia -> Lake Toba Lake Toba caldera] 
+
+  path: 1[20068 -> 20086 -> 80047], [Malaysia -> Indonesia -> Lake Toba Lake Toba caldera] 
+
+  path: 2[20068 -> 10002], [Malaysia -> Asia] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [10002, 20086, 80047, 20093, 20068]
+ResultRelevs: [12.937796592712402, 11.48759651184082, 10.953185081481934, 10.32579231262207, 10.196870803833008]
+AvgResultRelev: 11.180248260498047
+AvgResultDissimilarity: 0.12
+Num of entries retrieved from the lists: 175
+Num of entries retrieved from NKMaps: 279
+Num of answer trees explored: 94
+
+Div Top-k Search by Exhustive, k=5
+[caldera, lake, asia]
+srcNodes: [80047, 80036, 10002]
+  path: 0[10002 -> 20086 -> 80047], [Asia -> Indonesia -> Lake Toba Lake Toba caldera] 
+
+  path: 1[10002 -> 20093 -> 80036], [Asia -> Syria -> Lake Genezareth Lake Genezareth ] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [80047, 80047, 10002]
+  path: 0[20086 -> 80047], [Indonesia -> Lake Toba Lake Toba caldera] 
+
+  path: 1[20086 -> 80047], [Indonesia -> Lake Toba Lake Toba caldera] 
+
+  path: 2[20086 -> 10002], [Indonesia -> Asia] 
+
+srcNodes: [80047, 80047, 10002]
+  path: 0[80047 -> 80047], [Lake Toba Lake Toba caldera -> Lake Toba Lake Toba caldera]
+  path: 1[80047 -> 80047], [Lake Toba Lake Toba caldera -> Lake Toba Lake Toba caldera]
+  path: 2[80047 -> 90129 -> 20086 -> 10002], [Lake Toba Lake Toba caldera -> Asahan -> Indonesia -> Asia] 
+
+srcNodes: [80047, 80055, 10002]
+  path: 0[20053 -> 10002 -> 20086 -> 80047], [China -> Asia -> Indonesia -> Lake Toba Lake Toba caldera] 
+
+  path: 1[20053 -> 30647 -> 80055], [China -> Qinghai -> Qinghai Lake Qinghai Lake salt] 
+
+  path: 2[20053 -> 10002], [China -> Asia] 
+
+srcNodes: [80107, 80089, 50011]
+  path: 0[20117 -> 20118 -> 31023 -> 80107], [Canada -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20117 -> 30980 -> 80089], [Canada -> Northwest Territories -> Great Bear Lake Great Bear Lake ] 
+
+  path: 2[20117 -> 50011], [Canada -> Asia Pacific Economic Cooperation Asia Pacific Economic Cooperation APEC] 
+
+-----------------------------------------
+ResultDestNodes: [10002, 20086, 80047, 20053, 20117]
+ResultRelevs: [12.937796592712402, 11.48759651184082, 10.953185081481934, 9.714677810668945, 5.922833442687988]
+AvgResultRelev: 10.203217887878418
+AvgResultDissimilarity: 0.5133333206176758
+Num of entries retrieved from the KNLists: 1365
+Num of entries retrieved from NKMaps: 1558
+Num of answer trees explored: 442
+Num of answer tree sets created: 1103784
+Num of answer tree sets removed: 1103744
+Max Num of answer tree sets in Q[]: 1103758
+

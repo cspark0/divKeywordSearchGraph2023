@@ -1,0 +1,806 @@
+Blink Search Using BDB 10
+[mountain, river, china]
+srcNodes: [126, 90115, 20053]
+  path: 0[20053 -> 30658 -> 126], [China -> Tibet -> Makalu Makalu Himalaya ] 
+
+  path: 1[20053 -> 30639 -> 90115], [China -> Heilongjiang -> Argun] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [126, 90122, 100009]
+  path: 0[90122 -> 30658 -> 126], [Jangtse -> Tibet -> Makalu Makalu Himalaya ] 
+
+  path: 1[90122 -> 90122], [Jangtse -> Jangtse]
+  path: 2[90122 -> 100009], [Jangtse -> East China Sea] 
+
+srcNodes: [126, 90123, 100029]
+  path: 0[90123 -> 30658 -> 126], [Mekong -> Tibet -> Makalu Makalu Himalaya ] 
+
+  path: 1[90123 -> 90123], [Mekong -> Mekong]
+  path: 2[90123 -> 100029], [Mekong -> South China Sea] 
+
+srcNodes: [149, 90129, 100029]
+  path: 0[90129 -> 20086 -> 149], [Asahan -> Indonesia -> Rantekombola Rantekombola  volcanic] 
+
+  path: 1[90129 -> 90129], [Asahan -> Asahan]
+  path: 2[90129 -> 20086 -> 100029], [Asahan -> Indonesia -> South China Sea] 
+
+srcNodes: [111, 90119, 20053]
+  path: 0[90119 -> 20052 -> 111], [Amudarja -> Afghanistan -> Tirich Mir Tirich Mir Hindukusch ] 
+
+  path: 1[90119 -> 90119], [Amudarja -> Amudarja]
+  path: 2[90119 -> 20052 -> 10002 -> 20053], [Amudarja -> Afghanistan -> Asia -> China] 
+
+srcNodes: [126, 90127, 20053]
+  path: 0[90127 -> 30658 -> 126], [Brahmaputra -> Tibet -> Makalu Makalu Himalaya ] 
+
+  path: 1[90127 -> 90127], [Brahmaputra -> Brahmaputra]
+  path: 2[90127 -> 20063 -> 10002 -> 20053], [Brahmaputra -> Bangladesh -> Asia -> China] 
+
+srcNodes: [117, 90126, 20053]
+  path: 0[90126 -> 30752 -> 117], [Ganges -> Uttar Pradesh -> Nanda Devi Nanda Devi Himalaya ] 
+
+  path: 1[90126 -> 90126], [Ganges -> Ganges]
+  path: 2[90126 -> 20063 -> 10002 -> 20053], [Ganges -> Bangladesh -> Asia -> China] 
+
+srcNodes: [106, 90120, 20053]
+  path: 0[90120 -> 30690 -> 106], [Pjandsh -> Badakhshoni Kuni -> Pik Kommunizma Pik Kommunizma Pamir ] 
+
+  path: 1[90120 -> 90120], [Pjandsh -> Pjandsh]
+  path: 2[90120 -> 20052 -> 10002 -> 20053], [Pjandsh -> Afghanistan -> Asia -> China] 
+
+srcNodes: [126, 90128, 20053]
+  path: 0[90128 -> 30658 -> 126], [Indus -> Tibet -> Makalu Makalu Himalaya ] 
+
+  path: 1[90128 -> 90128], [Indus -> Indus]
+  path: 2[90128 -> 20055 -> 10002 -> 20053], [Indus -> Pakistan -> Asia -> China] 
+
+srcNodes: [107, 90118, 20053]
+  path: 0[90118 -> 20075 -> 107], [Naryn -> Kyrgyzstan -> Pik Lenina Pik Lenina Pamir ] 
+
+  path: 1[90118 -> 90118], [Naryn -> Naryn]
+  path: 2[90118 -> 20075 -> 10002 -> 20053], [Naryn -> Kyrgyzstan -> Asia -> China] 
+
+-----------------------------------------
+ResultDestNodes: [20053, 90122, 90123, 90129, 90119, 90127, 90126, 90120, 90128, 90118]
+ResultRelevs: [6.639630317687988, 5.474269866943359, 5.474269866943359, 4.807229995727539, 4.723850250244141, 4.723850250244141, 4.723850250244141, 4.723850250244141, 4.723850250244141, 4.723850250244141]
+Num of top-k answers: 10
+Num of non-reduced answers: 0
+Num of duplicate answers: 0
+Num of non-redundant answers: 10
+Num of entries retrieved from the lists: 653
+Num of entries retrieved from NKMaps: 1156
+
+Blink Search Using ConstRootDup10
+[mountain, river, china]
+srcNodes: [126, 90127, 20053]
+  path: 0[20053 -> 30658 -> 126], [China -> Tibet -> Makalu Makalu Himalaya ] 
+
+  path: 1[20053 -> 30658 -> 90127], [China -> Tibet -> Brahmaputra] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [126, 90115, 20053]
+  path: 0[20053 -> 30658 -> 126], [China -> Tibet -> Makalu Makalu Himalaya ] 
+
+  path: 1[20053 -> 30639 -> 90115], [China -> Heilongjiang -> Argun] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [125, 90127, 20053]
+  path: 0[20053 -> 30658 -> 125], [China -> Tibet -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[20053 -> 30658 -> 90127], [China -> Tibet -> Brahmaputra] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [125, 90115, 20053]
+  path: 0[20053 -> 30658 -> 125], [China -> Tibet -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[20053 -> 30639 -> 90115], [China -> Heilongjiang -> Argun] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [101, 90115, 20053]
+  path: 0[20053 -> 10002 -> 20105 -> 101], [China -> Asia -> Sri Lanka -> Pidurutalagala Pidurutalagala  ] 
+
+  path: 1[20053 -> 30639 -> 90115], [China -> Heilongjiang -> Argun] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [126, 90123, 100029]
+  path: 0[90123 -> 30658 -> 126], [Mekong -> Tibet -> Makalu Makalu Himalaya ] 
+
+  path: 1[90123 -> 90123], [Mekong -> Mekong]
+  path: 2[90123 -> 100029], [Mekong -> South China Sea] 
+
+srcNodes: [126, 90122, 100009]
+  path: 0[90122 -> 30658 -> 126], [Jangtse -> Tibet -> Makalu Makalu Himalaya ] 
+
+  path: 1[90122 -> 90122], [Jangtse -> Jangtse]
+  path: 2[90122 -> 100009], [Jangtse -> East China Sea] 
+
+srcNodes: [149, 90129, 100029]
+  path: 0[90129 -> 20086 -> 149], [Asahan -> Indonesia -> Rantekombola Rantekombola  volcanic] 
+
+  path: 1[90129 -> 90129], [Asahan -> Asahan]
+  path: 2[90129 -> 20086 -> 100029], [Asahan -> Indonesia -> South China Sea] 
+
+srcNodes: [106, 90120, 20053]
+  path: 0[90120 -> 30690 -> 106], [Pjandsh -> Badakhshoni Kuni -> Pik Kommunizma Pik Kommunizma Pamir ] 
+
+  path: 1[90120 -> 90120], [Pjandsh -> Pjandsh]
+  path: 2[90120 -> 20052 -> 10002 -> 20053], [Pjandsh -> Afghanistan -> Asia -> China] 
+
+srcNodes: [111, 90119, 20053]
+  path: 0[90119 -> 20052 -> 111], [Amudarja -> Afghanistan -> Tirich Mir Tirich Mir Hindukusch ] 
+
+  path: 1[90119 -> 90119], [Amudarja -> Amudarja]
+  path: 2[90119 -> 20052 -> 10002 -> 20053], [Amudarja -> Afghanistan -> Asia -> China] 
+
+-----------------------------------------
+ResultDestNodes: 
+20053, 20053, 20053, 20053, 20053, 90123, 90122, 90129, 90120, 90119, 
+ResultRelevs: 
+6.6396303, 6.6396303, 6.6396303, 6.6396303, 6.594718, 5.47427, 5.47427, 4.80723, 4.7238503, 4.7238503, 
+Num of top-k answers: 10
+Num of duplicate answers: 0
+Num of duplicate roots in top-k answers: 4
+root duplication ratio: 0.44444445
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 653
+Num of entries retrieved from NKMaps: 4872
+Num of answer trees explored: 12777
+
+Blink Search Using BDB 20
+[mountain, river, china]
+srcNodes: [126, 90115, 20053]
+  path: 0[20053 -> 30658 -> 126], [China -> Tibet -> Makalu Makalu Himalaya ] 
+
+  path: 1[20053 -> 30639 -> 90115], [China -> Heilongjiang -> Argun] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [126, 90123, 100029]
+  path: 0[90123 -> 30658 -> 126], [Mekong -> Tibet -> Makalu Makalu Himalaya ] 
+
+  path: 1[90123 -> 90123], [Mekong -> Mekong]
+  path: 2[90123 -> 100029], [Mekong -> South China Sea] 
+
+srcNodes: [126, 90122, 100009]
+  path: 0[90122 -> 30658 -> 126], [Jangtse -> Tibet -> Makalu Makalu Himalaya ] 
+
+  path: 1[90122 -> 90122], [Jangtse -> Jangtse]
+  path: 2[90122 -> 100009], [Jangtse -> East China Sea] 
+
+srcNodes: [149, 90129, 100029]
+  path: 0[90129 -> 20086 -> 149], [Asahan -> Indonesia -> Rantekombola Rantekombola  volcanic] 
+
+  path: 1[90129 -> 90129], [Asahan -> Asahan]
+  path: 2[90129 -> 20086 -> 100029], [Asahan -> Indonesia -> South China Sea] 
+
+srcNodes: [126, 90128, 20053]
+  path: 0[90128 -> 30658 -> 126], [Indus -> Tibet -> Makalu Makalu Himalaya ] 
+
+  path: 1[90128 -> 90128], [Indus -> Indus]
+  path: 2[90128 -> 20055 -> 10002 -> 20053], [Indus -> Pakistan -> Asia -> China] 
+
+srcNodes: [126, 90127, 20053]
+  path: 0[90127 -> 30658 -> 126], [Brahmaputra -> Tibet -> Makalu Makalu Himalaya ] 
+
+  path: 1[90127 -> 90127], [Brahmaputra -> Brahmaputra]
+  path: 2[90127 -> 20063 -> 10002 -> 20053], [Brahmaputra -> Bangladesh -> Asia -> China] 
+
+srcNodes: [106, 90120, 20053]
+  path: 0[90120 -> 30690 -> 106], [Pjandsh -> Badakhshoni Kuni -> Pik Kommunizma Pik Kommunizma Pamir ] 
+
+  path: 1[90120 -> 90120], [Pjandsh -> Pjandsh]
+  path: 2[90120 -> 20052 -> 10002 -> 20053], [Pjandsh -> Afghanistan -> Asia -> China] 
+
+srcNodes: [93, 90084, 20053]
+  path: 0[90084 -> 20094 -> 93], [Jordan -> Lebanon -> Jabal Lubnan Jabal Lubnan Lebanon ] 
+
+  path: 1[90084 -> 90084], [Jordan -> Jordan]
+  path: 2[90084 -> 20095 -> 10002 -> 20053], [Jordan -> West Bank -> Asia -> China] 
+
+srcNodes: [95, 90085, 20053]
+  path: 0[90085 -> 20060 -> 95], [Kura -> Georgia -> Kasbek Kasbek Kaukasus volcanic] 
+
+  path: 1[90085 -> 90085], [Kura -> Kura]
+  path: 2[90085 -> 20061 -> 10002 -> 20053], [Kura -> Azerbaijan -> Asia -> China] 
+
+srcNodes: [107, 90118, 20053]
+  path: 0[90118 -> 20075 -> 107], [Naryn -> Kyrgyzstan -> Pik Lenina Pik Lenina Pamir ] 
+
+  path: 1[90118 -> 90118], [Naryn -> Naryn]
+  path: 2[90118 -> 20075 -> 10002 -> 20053], [Naryn -> Kyrgyzstan -> Asia -> China] 
+
+srcNodes: [117, 90126, 20053]
+  path: 0[90126 -> 30752 -> 117], [Ganges -> Uttar Pradesh -> Nanda Devi Nanda Devi Himalaya ] 
+
+  path: 1[90126 -> 90126], [Ganges -> Ganges]
+  path: 2[90126 -> 20063 -> 10002 -> 20053], [Ganges -> Bangladesh -> Asia -> China] 
+
+srcNodes: [111, 90119, 20053]
+  path: 0[90119 -> 20052 -> 111], [Amudarja -> Afghanistan -> Tirich Mir Tirich Mir Hindukusch ] 
+
+  path: 1[90119 -> 90119], [Amudarja -> Amudarja]
+  path: 2[90119 -> 20052 -> 10002 -> 20053], [Amudarja -> Afghanistan -> Asia -> China] 
+
+srcNodes: [150, 90129, 20053]
+  path: 0[150 -> 150], [Tatamailau Tatamailau   -> Tatamailau Tatamailau  ]
+  path: 1[150 -> 110174 -> 20086 -> 90129], [Tatamailau Tatamailau   -> Timor Timor Sunda Islands  -> Indonesia -> Asahan] 
+
+  path: 2[150 -> 20087 -> 10002 -> 20053], [Tatamailau Tatamailau   -> Timor-Leste -> Asia -> China] 
+
+srcNodes: [150, 90087, 20053]
+  path: 0[90087 -> 20093 -> 10002 -> 20087 -> 150], [Tigris -> Syria -> Asia -> Timor-Leste -> Tatamailau Tatamailau  ] 
+
+  path: 1[90087 -> 90087], [Tigris -> Tigris]
+  path: 2[90087 -> 20093 -> 10002 -> 20053], [Tigris -> Syria -> Asia -> China] 
+
+srcNodes: [150, 90088, 20053]
+  path: 0[90088 -> 20093 -> 10002 -> 20087 -> 150], [Euphrat -> Syria -> Asia -> Timor-Leste -> Tatamailau Tatamailau  ] 
+
+  path: 1[90088 -> 90088], [Euphrat -> Euphrat]
+  path: 2[90088 -> 20093 -> 10002 -> 20053], [Euphrat -> Syria -> Asia -> China] 
+
+srcNodes: [101, 90085, 20053]
+  path: 0[101 -> 101], [Pidurutalagala Pidurutalagala   -> Pidurutalagala Pidurutalagala  ]
+  path: 1[101 -> 20105 -> 10002 -> 20061 -> 90085], [Pidurutalagala Pidurutalagala   -> Sri Lanka -> Asia -> Azerbaijan -> Kura] 
+
+  path: 2[101 -> 20105 -> 10002 -> 20053], [Pidurutalagala Pidurutalagala   -> Sri Lanka -> Asia -> China] 
+
+srcNodes: [126, 90124, 100029]
+  path: 0[90124 -> 30658 -> 126], [Saluen -> Tibet -> Makalu Makalu Himalaya ] 
+
+  path: 1[90124 -> 90124], [Saluen -> Saluen]
+  path: 2[90124 -> 30658 -> 90123 -> 100029], [Saluen -> Tibet -> Mekong -> South China Sea] 
+
+srcNodes: [126, 90125, 100029]
+  path: 0[90125 -> 30658 -> 126], [Irawaddy -> Tibet -> Makalu Makalu Himalaya ] 
+
+  path: 1[90125 -> 90125], [Irawaddy -> Irawaddy]
+  path: 2[90125 -> 30658 -> 90123 -> 100029], [Irawaddy -> Tibet -> Mekong -> South China Sea] 
+
+srcNodes: [141, 90129, 100029]
+  path: 0[20086 -> 141], [Indonesia -> Leuser Leuser  volcanic] 
+
+  path: 1[20086 -> 90129], [Indonesia -> Asahan] 
+
+  path: 2[20086 -> 100029], [Indonesia -> South China Sea] 
+
+srcNodes: [143, 90129, 100029]
+  path: 0[143 -> 143], [Krakatau Krakatau  volcano -> Krakatau Krakatau  volcano]
+  path: 1[143 -> 20086 -> 90129], [Krakatau Krakatau  volcano -> Indonesia -> Asahan] 
+
+  path: 2[143 -> 20086 -> 100029], [Krakatau Krakatau  volcano -> Indonesia -> South China Sea] 
+
+-----------------------------------------
+ResultDestNodes: [20053, 90123, 90122, 90129, 90128, 90127, 90120, 90084, 90085, 90118, 90126, 90119, 150, 90087, 90088, 101, 90124, 90125, 20086, 143]
+ResultRelevs: [6.639630317687988, 5.474269866943359, 5.474269866943359, 4.807229995727539, 4.723850250244141, 4.723850250244141, 4.723850250244141, 4.723850250244141, 4.723850250244141, 4.723850250244141, 4.723850250244141, 4.723850250244141, 4.6340651512146, 4.54420280456543, 4.54420280456543, 4.496337890625, 4.473700046539307, 4.473700046539307, 4.456300258636475, 4.408050060272217]
+Num of top-k answers: 20
+Num of non-reduced answers: 0
+Num of duplicate answers: 0
+Num of non-redundant answers: 20
+Num of entries retrieved from the lists: 709
+Num of entries retrieved from NKMaps: 1243
+
+Blink Search Using ConstRootDup20
+[mountain, river, china]
+srcNodes: [125, 90115, 20053]
+  path: 0[20053 -> 30658 -> 125], [China -> Tibet -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[20053 -> 30639 -> 90115], [China -> Heilongjiang -> Argun] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [126, 90127, 20053]
+  path: 0[20053 -> 30658 -> 126], [China -> Tibet -> Makalu Makalu Himalaya ] 
+
+  path: 1[20053 -> 30658 -> 90127], [China -> Tibet -> Brahmaputra] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [125, 90127, 20053]
+  path: 0[20053 -> 30658 -> 125], [China -> Tibet -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[20053 -> 30658 -> 90127], [China -> Tibet -> Brahmaputra] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [126, 90115, 20053]
+  path: 0[20053 -> 30658 -> 126], [China -> Tibet -> Makalu Makalu Himalaya ] 
+
+  path: 1[20053 -> 30639 -> 90115], [China -> Heilongjiang -> Argun] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [101, 90115, 20053]
+  path: 0[20053 -> 10002 -> 20105 -> 101], [China -> Asia -> Sri Lanka -> Pidurutalagala Pidurutalagala  ] 
+
+  path: 1[20053 -> 30639 -> 90115], [China -> Heilongjiang -> Argun] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [101, 90127, 20053]
+  path: 0[20053 -> 10002 -> 20105 -> 101], [China -> Asia -> Sri Lanka -> Pidurutalagala Pidurutalagala  ] 
+
+  path: 1[20053 -> 30658 -> 90127], [China -> Tibet -> Brahmaputra] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [105, 90127, 20053]
+  path: 0[20053 -> 30657 -> 105], [China -> Xinjiang Uygur -> Pik Pobeda Pik Pobeda Tien Shan ] 
+
+  path: 1[20053 -> 30658 -> 90127], [China -> Tibet -> Brahmaputra] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [105, 90115, 20053]
+  path: 0[20053 -> 30657 -> 105], [China -> Xinjiang Uygur -> Pik Pobeda Pik Pobeda Tien Shan ] 
+
+  path: 1[20053 -> 30639 -> 90115], [China -> Heilongjiang -> Argun] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [102, 90127, 20053]
+  path: 0[20053 -> 10002 -> 20023 -> 30306 -> 102], [China -> Asia -> Russia -> Rep. of Buryatiya -> Zhima Zhima  ] 
+
+  path: 1[20053 -> 30658 -> 90127], [China -> Tibet -> Brahmaputra] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [102, 90115, 20053]
+  path: 0[20053 -> 10002 -> 20023 -> 30306 -> 102], [China -> Asia -> Russia -> Rep. of Buryatiya -> Zhima Zhima  ] 
+
+  path: 1[20053 -> 30639 -> 90115], [China -> Heilongjiang -> Argun] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [126, 90123, 100029]
+  path: 0[90123 -> 30658 -> 126], [Mekong -> Tibet -> Makalu Makalu Himalaya ] 
+
+  path: 1[90123 -> 90123], [Mekong -> Mekong]
+  path: 2[90123 -> 100029], [Mekong -> South China Sea] 
+
+srcNodes: [126, 90122, 100009]
+  path: 0[90122 -> 30658 -> 126], [Jangtse -> Tibet -> Makalu Makalu Himalaya ] 
+
+  path: 1[90122 -> 90122], [Jangtse -> Jangtse]
+  path: 2[90122 -> 100009], [Jangtse -> East China Sea] 
+
+srcNodes: [149, 90129, 100029]
+  path: 0[90129 -> 20086 -> 149], [Asahan -> Indonesia -> Rantekombola Rantekombola  volcanic] 
+
+  path: 1[90129 -> 90129], [Asahan -> Asahan]
+  path: 2[90129 -> 20086 -> 100029], [Asahan -> Indonesia -> South China Sea] 
+
+srcNodes: [106, 90120, 20053]
+  path: 0[90120 -> 30690 -> 106], [Pjandsh -> Badakhshoni Kuni -> Pik Kommunizma Pik Kommunizma Pamir ] 
+
+  path: 1[90120 -> 90120], [Pjandsh -> Pjandsh]
+  path: 2[90120 -> 20052 -> 10002 -> 20053], [Pjandsh -> Afghanistan -> Asia -> China] 
+
+srcNodes: [126, 90127, 20053]
+  path: 0[90127 -> 30658 -> 126], [Brahmaputra -> Tibet -> Makalu Makalu Himalaya ] 
+
+  path: 1[90127 -> 90127], [Brahmaputra -> Brahmaputra]
+  path: 2[90127 -> 20063 -> 10002 -> 20053], [Brahmaputra -> Bangladesh -> Asia -> China] 
+
+srcNodes: [107, 90118, 20053]
+  path: 0[90118 -> 20075 -> 107], [Naryn -> Kyrgyzstan -> Pik Lenina Pik Lenina Pamir ] 
+
+  path: 1[90118 -> 90118], [Naryn -> Naryn]
+  path: 2[90118 -> 20075 -> 10002 -> 20053], [Naryn -> Kyrgyzstan -> Asia -> China] 
+
+srcNodes: [111, 90119, 20053]
+  path: 0[90119 -> 20052 -> 111], [Amudarja -> Afghanistan -> Tirich Mir Tirich Mir Hindukusch ] 
+
+  path: 1[90119 -> 90119], [Amudarja -> Amudarja]
+  path: 2[90119 -> 20052 -> 10002 -> 20053], [Amudarja -> Afghanistan -> Asia -> China] 
+
+srcNodes: [117, 90126, 20053]
+  path: 0[90126 -> 30752 -> 117], [Ganges -> Uttar Pradesh -> Nanda Devi Nanda Devi Himalaya ] 
+
+  path: 1[90126 -> 90126], [Ganges -> Ganges]
+  path: 2[90126 -> 20063 -> 10002 -> 20053], [Ganges -> Bangladesh -> Asia -> China] 
+
+srcNodes: [126, 90128, 20053]
+  path: 0[90128 -> 30658 -> 126], [Indus -> Tibet -> Makalu Makalu Himalaya ] 
+
+  path: 1[90128 -> 90128], [Indus -> Indus]
+  path: 2[90128 -> 20055 -> 10002 -> 20053], [Indus -> Pakistan -> Asia -> China] 
+
+srcNodes: [93, 90084, 20053]
+  path: 0[90084 -> 20094 -> 93], [Jordan -> Lebanon -> Jabal Lubnan Jabal Lubnan Lebanon ] 
+
+  path: 1[90084 -> 90084], [Jordan -> Jordan]
+  path: 2[90084 -> 20095 -> 10002 -> 20053], [Jordan -> West Bank -> Asia -> China] 
+
+-----------------------------------------
+ResultDestNodes: 
+20053, 20053, 20053, 20053, 20053, 20053, 20053, 20053, 20053, 20053, 90123, 90122, 90129, 90120, 90127, 90118, 90119, 90126, 90128, 90084, 
+ResultRelevs: 
+6.6396303, 6.6396303, 6.6396303, 6.6396303, 6.594718, 6.594718, 6.549806, 6.549806, 6.459983, 6.459983, 5.47427, 5.47427, 4.80723, 4.7238503, 4.7238503, 4.7238503, 4.7238503, 4.7238503, 4.7238503, 4.7238503, 
+Num of top-k answers: 20
+Num of duplicate answers: 1
+Num of duplicate roots in top-k answers: 9
+root duplication ratio: 0.47368422
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 653
+Num of entries retrieved from NKMaps: 4872
+Num of answer trees explored: 12777
+
+Blink Search Using BDB 30
+[mountain, river, china]
+srcNodes: [126, 90115, 20053]
+  path: 0[20053 -> 30658 -> 126], [China -> Tibet -> Makalu Makalu Himalaya ] 
+
+  path: 1[20053 -> 30639 -> 90115], [China -> Heilongjiang -> Argun] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [126, 90122, 100009]
+  path: 0[90122 -> 30658 -> 126], [Jangtse -> Tibet -> Makalu Makalu Himalaya ] 
+
+  path: 1[90122 -> 90122], [Jangtse -> Jangtse]
+  path: 2[90122 -> 100009], [Jangtse -> East China Sea] 
+
+srcNodes: [126, 90123, 100029]
+  path: 0[90123 -> 30658 -> 126], [Mekong -> Tibet -> Makalu Makalu Himalaya ] 
+
+  path: 1[90123 -> 90123], [Mekong -> Mekong]
+  path: 2[90123 -> 100029], [Mekong -> South China Sea] 
+
+srcNodes: [149, 90129, 100029]
+  path: 0[90129 -> 20086 -> 149], [Asahan -> Indonesia -> Rantekombola Rantekombola  volcanic] 
+
+  path: 1[90129 -> 90129], [Asahan -> Asahan]
+  path: 2[90129 -> 20086 -> 100029], [Asahan -> Indonesia -> South China Sea] 
+
+srcNodes: [126, 90127, 20053]
+  path: 0[90127 -> 30658 -> 126], [Brahmaputra -> Tibet -> Makalu Makalu Himalaya ] 
+
+  path: 1[90127 -> 90127], [Brahmaputra -> Brahmaputra]
+  path: 2[90127 -> 20063 -> 10002 -> 20053], [Brahmaputra -> Bangladesh -> Asia -> China] 
+
+srcNodes: [107, 90118, 20053]
+  path: 0[90118 -> 20075 -> 107], [Naryn -> Kyrgyzstan -> Pik Lenina Pik Lenina Pamir ] 
+
+  path: 1[90118 -> 90118], [Naryn -> Naryn]
+  path: 2[90118 -> 20075 -> 10002 -> 20053], [Naryn -> Kyrgyzstan -> Asia -> China] 
+
+srcNodes: [95, 90085, 20053]
+  path: 0[90085 -> 20060 -> 95], [Kura -> Georgia -> Kasbek Kasbek Kaukasus volcanic] 
+
+  path: 1[90085 -> 90085], [Kura -> Kura]
+  path: 2[90085 -> 20061 -> 10002 -> 20053], [Kura -> Azerbaijan -> Asia -> China] 
+
+srcNodes: [111, 90119, 20053]
+  path: 0[90119 -> 20052 -> 111], [Amudarja -> Afghanistan -> Tirich Mir Tirich Mir Hindukusch ] 
+
+  path: 1[90119 -> 90119], [Amudarja -> Amudarja]
+  path: 2[90119 -> 20052 -> 10002 -> 20053], [Amudarja -> Afghanistan -> Asia -> China] 
+
+srcNodes: [126, 90128, 20053]
+  path: 0[90128 -> 30658 -> 126], [Indus -> Tibet -> Makalu Makalu Himalaya ] 
+
+  path: 1[90128 -> 90128], [Indus -> Indus]
+  path: 2[90128 -> 20055 -> 10002 -> 20053], [Indus -> Pakistan -> Asia -> China] 
+
+srcNodes: [117, 90126, 20053]
+  path: 0[90126 -> 30752 -> 117], [Ganges -> Uttar Pradesh -> Nanda Devi Nanda Devi Himalaya ] 
+
+  path: 1[90126 -> 90126], [Ganges -> Ganges]
+  path: 2[90126 -> 20063 -> 10002 -> 20053], [Ganges -> Bangladesh -> Asia -> China] 
+
+srcNodes: [93, 90084, 20053]
+  path: 0[90084 -> 20094 -> 93], [Jordan -> Lebanon -> Jabal Lubnan Jabal Lubnan Lebanon ] 
+
+  path: 1[90084 -> 90084], [Jordan -> Jordan]
+  path: 2[90084 -> 20095 -> 10002 -> 20053], [Jordan -> West Bank -> Asia -> China] 
+
+srcNodes: [106, 90120, 20053]
+  path: 0[90120 -> 30690 -> 106], [Pjandsh -> Badakhshoni Kuni -> Pik Kommunizma Pik Kommunizma Pamir ] 
+
+  path: 1[90120 -> 90120], [Pjandsh -> Pjandsh]
+  path: 2[90120 -> 20052 -> 10002 -> 20053], [Pjandsh -> Afghanistan -> Asia -> China] 
+
+srcNodes: [150, 90129, 20053]
+  path: 0[150 -> 150], [Tatamailau Tatamailau   -> Tatamailau Tatamailau  ]
+  path: 1[150 -> 110174 -> 20086 -> 90129], [Tatamailau Tatamailau   -> Timor Timor Sunda Islands  -> Indonesia -> Asahan] 
+
+  path: 2[150 -> 20087 -> 10002 -> 20053], [Tatamailau Tatamailau   -> Timor-Leste -> Asia -> China] 
+
+srcNodes: [150, 90087, 20053]
+  path: 0[90087 -> 20093 -> 10002 -> 20087 -> 150], [Tigris -> Syria -> Asia -> Timor-Leste -> Tatamailau Tatamailau  ] 
+
+  path: 1[90087 -> 90087], [Tigris -> Tigris]
+  path: 2[90087 -> 20093 -> 10002 -> 20053], [Tigris -> Syria -> Asia -> China] 
+
+srcNodes: [150, 90088, 20053]
+  path: 0[90088 -> 20093 -> 10002 -> 20087 -> 150], [Euphrat -> Syria -> Asia -> Timor-Leste -> Tatamailau Tatamailau  ] 
+
+  path: 1[90088 -> 90088], [Euphrat -> Euphrat]
+  path: 2[90088 -> 20093 -> 10002 -> 20053], [Euphrat -> Syria -> Asia -> China] 
+
+srcNodes: [101, 90085, 20053]
+  path: 0[101 -> 101], [Pidurutalagala Pidurutalagala   -> Pidurutalagala Pidurutalagala  ]
+  path: 1[101 -> 20105 -> 10002 -> 20061 -> 90085], [Pidurutalagala Pidurutalagala   -> Sri Lanka -> Asia -> Azerbaijan -> Kura] 
+
+  path: 2[101 -> 20105 -> 10002 -> 20053], [Pidurutalagala Pidurutalagala   -> Sri Lanka -> Asia -> China] 
+
+srcNodes: [126, 90124, 100029]
+  path: 0[90124 -> 30658 -> 126], [Saluen -> Tibet -> Makalu Makalu Himalaya ] 
+
+  path: 1[90124 -> 90124], [Saluen -> Saluen]
+  path: 2[90124 -> 30658 -> 90123 -> 100029], [Saluen -> Tibet -> Mekong -> South China Sea] 
+
+srcNodes: [126, 90125, 100029]
+  path: 0[90125 -> 30658 -> 126], [Irawaddy -> Tibet -> Makalu Makalu Himalaya ] 
+
+  path: 1[90125 -> 90125], [Irawaddy -> Irawaddy]
+  path: 2[90125 -> 30658 -> 90123 -> 100029], [Irawaddy -> Tibet -> Mekong -> South China Sea] 
+
+srcNodes: [141, 90129, 100029]
+  path: 0[20086 -> 141], [Indonesia -> Leuser Leuser  volcanic] 
+
+  path: 1[20086 -> 90129], [Indonesia -> Asahan] 
+
+  path: 2[20086 -> 100029], [Indonesia -> South China Sea] 
+
+srcNodes: [141, 90129, 100029]
+  path: 0[141 -> 141], [Leuser Leuser  volcanic -> Leuser Leuser  volcanic]
+  path: 1[141 -> 20086 -> 90129], [Leuser Leuser  volcanic -> Indonesia -> Asahan] 
+
+  path: 2[141 -> 110163 -> 100029], [Leuser Leuser  volcanic -> Sumatra Sumatra Sunda Islands  -> South China Sea] 
+
+srcNodes: [143, 90129, 100029]
+  path: 0[143 -> 143], [Krakatau Krakatau  volcano -> Krakatau Krakatau  volcano]
+  path: 1[143 -> 20086 -> 90129], [Krakatau Krakatau  volcano -> Indonesia -> Asahan] 
+
+  path: 2[143 -> 20086 -> 100029], [Krakatau Krakatau  volcano -> Indonesia -> South China Sea] 
+
+srcNodes: [144, 90129, 100029]
+  path: 0[144 -> 144], [Merapi Merapi  volcano -> Merapi Merapi  volcano]
+  path: 1[144 -> 20086 -> 90129], [Merapi Merapi  volcano -> Indonesia -> Asahan] 
+
+  path: 2[144 -> 20086 -> 100029], [Merapi Merapi  volcano -> Indonesia -> South China Sea] 
+
+srcNodes: [145, 90129, 100029]
+  path: 0[145 -> 145], [Semeru Semeru  volcano -> Semeru Semeru  volcano]
+  path: 1[145 -> 20086 -> 90129], [Semeru Semeru  volcano -> Indonesia -> Asahan] 
+
+  path: 2[145 -> 20086 -> 100029], [Semeru Semeru  volcano -> Indonesia -> South China Sea] 
+
+srcNodes: [142, 90129, 100029]
+  path: 0[142 -> 142], [Kerinci Kerinci  volcano -> Kerinci Kerinci  volcano]
+  path: 1[142 -> 20086 -> 90129], [Kerinci Kerinci  volcano -> Indonesia -> Asahan] 
+
+  path: 2[142 -> 110163 -> 100029], [Kerinci Kerinci  volcano -> Sumatra Sumatra Sunda Islands  -> South China Sea] 
+
+srcNodes: [149, 90129, 100029]
+  path: 0[149 -> 149], [Rantekombola Rantekombola  volcanic -> Rantekombola Rantekombola  volcanic]
+  path: 1[149 -> 20086 -> 90129], [Rantekombola Rantekombola  volcanic -> Indonesia -> Asahan] 
+
+  path: 2[149 -> 20086 -> 100029], [Rantekombola Rantekombola  volcanic -> Indonesia -> South China Sea] 
+
+srcNodes: [146, 90129, 100029]
+  path: 0[146 -> 146], [Gunung Agung Gunung Agung  volcano -> Gunung Agung Gunung Agung  volcano]
+  path: 1[146 -> 20086 -> 90129], [Gunung Agung Gunung Agung  volcano -> Indonesia -> Asahan] 
+
+  path: 2[146 -> 20086 -> 100029], [Gunung Agung Gunung Agung  volcano -> Indonesia -> South China Sea] 
+
+srcNodes: [151, 90129, 100029]
+  path: 0[151 -> 151], [Gunung Binaiya Gunung Binaiya   -> Gunung Binaiya Gunung Binaiya  ]
+  path: 1[151 -> 20086 -> 90129], [Gunung Binaiya Gunung Binaiya   -> Indonesia -> Asahan] 
+
+  path: 2[151 -> 20086 -> 100029], [Gunung Binaiya Gunung Binaiya   -> Indonesia -> South China Sea] 
+
+srcNodes: [148, 90129, 100029]
+  path: 0[148 -> 148], [Tambora Tambora  volcano -> Tambora Tambora  volcano]
+  path: 1[148 -> 20086 -> 90129], [Tambora Tambora  volcano -> Indonesia -> Asahan] 
+
+  path: 2[148 -> 20086 -> 100029], [Tambora Tambora  volcano -> Indonesia -> South China Sea] 
+
+srcNodes: [147, 90129, 100029]
+  path: 0[147 -> 147], [Rinjani Rinjani  volcano -> Rinjani Rinjani  volcano]
+  path: 1[147 -> 20086 -> 90129], [Rinjani Rinjani  volcano -> Indonesia -> Asahan] 
+
+  path: 2[147 -> 20086 -> 100029], [Rinjani Rinjani  volcano -> Indonesia -> South China Sea] 
+
+srcNodes: [125, 90127, 20053]
+  path: 0[125 -> 125], [Lhotse Lhotse Himalaya  -> Lhotse Lhotse Himalaya ]
+  path: 1[125 -> 30658 -> 90127], [Lhotse Lhotse Himalaya  -> Tibet -> Brahmaputra] 
+
+  path: 2[125 -> 20079 -> 10002 -> 20053], [Lhotse Lhotse Himalaya  -> Nepal -> Asia -> China] 
+
+-----------------------------------------
+ResultDestNodes: [20053, 90122, 90123, 90129, 90127, 90118, 90085, 90119, 90128, 90126, 90084, 90120, 150, 90087, 90088, 101, 90124, 90125, 20086, 141, 143, 144, 145, 142, 149, 146, 151, 148, 147, 125]
+ResultRelevs: [6.639630317687988, 5.474269866943359, 5.474269866943359, 4.807229995727539, 4.723850250244141, 4.723850250244141, 4.723850250244141, 4.723850250244141, 4.723850250244141, 4.723850250244141, 4.723850250244141, 4.723850250244141, 4.6340651512146, 4.54420280456543, 4.54420280456543, 4.496337890625, 4.473700046539307, 4.473700046539307, 4.456300258636475, 4.408050060272217, 4.408050060272217, 4.408050060272217, 4.408050060272217, 4.408050060272217, 4.408050060272217, 4.408050060272217, 4.408050060272217, 4.408050060272217, 4.408050060272217, 4.32466983795166]
+Num of top-k answers: 30
+Num of non-reduced answers: 0
+Num of duplicate answers: 2
+Num of non-redundant answers: 28
+Num of entries retrieved from the lists: 712
+Num of entries retrieved from NKMaps: 1247
+
+Blink Search Using ConstRootDup30
+[mountain, river, china]
+srcNodes: [126, 90127, 20053]
+  path: 0[20053 -> 30658 -> 126], [China -> Tibet -> Makalu Makalu Himalaya ] 
+
+  path: 1[20053 -> 30658 -> 90127], [China -> Tibet -> Brahmaputra] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [125, 90115, 20053]
+  path: 0[20053 -> 30658 -> 125], [China -> Tibet -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[20053 -> 30639 -> 90115], [China -> Heilongjiang -> Argun] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [125, 90127, 20053]
+  path: 0[20053 -> 30658 -> 125], [China -> Tibet -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[20053 -> 30658 -> 90127], [China -> Tibet -> Brahmaputra] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [126, 90115, 20053]
+  path: 0[20053 -> 30658 -> 126], [China -> Tibet -> Makalu Makalu Himalaya ] 
+
+  path: 1[20053 -> 30639 -> 90115], [China -> Heilongjiang -> Argun] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [101, 90115, 20053]
+  path: 0[20053 -> 10002 -> 20105 -> 101], [China -> Asia -> Sri Lanka -> Pidurutalagala Pidurutalagala  ] 
+
+  path: 1[20053 -> 30639 -> 90115], [China -> Heilongjiang -> Argun] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [101, 90127, 20053]
+  path: 0[20053 -> 10002 -> 20105 -> 101], [China -> Asia -> Sri Lanka -> Pidurutalagala Pidurutalagala  ] 
+
+  path: 1[20053 -> 30658 -> 90127], [China -> Tibet -> Brahmaputra] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [105, 90115, 20053]
+  path: 0[20053 -> 30657 -> 105], [China -> Xinjiang Uygur -> Pik Pobeda Pik Pobeda Tien Shan ] 
+
+  path: 1[20053 -> 30639 -> 90115], [China -> Heilongjiang -> Argun] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [105, 90127, 20053]
+  path: 0[20053 -> 30657 -> 105], [China -> Xinjiang Uygur -> Pik Pobeda Pik Pobeda Tien Shan ] 
+
+  path: 1[20053 -> 30658 -> 90127], [China -> Tibet -> Brahmaputra] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [102, 90127, 20053]
+  path: 0[20053 -> 10002 -> 20023 -> 30306 -> 102], [China -> Asia -> Russia -> Rep. of Buryatiya -> Zhima Zhima  ] 
+
+  path: 1[20053 -> 30658 -> 90127], [China -> Tibet -> Brahmaputra] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [102, 90115, 20053]
+  path: 0[20053 -> 10002 -> 20023 -> 30306 -> 102], [China -> Asia -> Russia -> Rep. of Buryatiya -> Zhima Zhima  ] 
+
+  path: 1[20053 -> 30639 -> 90115], [China -> Heilongjiang -> Argun] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [126, 90087, 20053]
+  path: 0[20053 -> 30658 -> 126], [China -> Tibet -> Makalu Makalu Himalaya ] 
+
+  path: 1[20053 -> 10002 -> 20093 -> 90087], [China -> Asia -> Syria -> Tigris] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [125, 90087, 20053]
+  path: 0[20053 -> 30658 -> 125], [China -> Tibet -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[20053 -> 10002 -> 20093 -> 90087], [China -> Asia -> Syria -> Tigris] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [101, 90087, 20053]
+  path: 0[20053 -> 10002 -> 20105 -> 101], [China -> Asia -> Sri Lanka -> Pidurutalagala Pidurutalagala  ] 
+
+  path: 1[20053 -> 10002 -> 20093 -> 90087], [China -> Asia -> Syria -> Tigris] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [105, 90087, 20053]
+  path: 0[20053 -> 30657 -> 105], [China -> Xinjiang Uygur -> Pik Pobeda Pik Pobeda Tien Shan ] 
+
+  path: 1[20053 -> 10002 -> 20093 -> 90087], [China -> Asia -> Syria -> Tigris] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [126, 90099, 20053]
+  path: 0[20053 -> 30658 -> 126], [China -> Tibet -> Makalu Makalu Himalaya ] 
+
+  path: 1[20053 -> 10002 -> 20023 -> 30281 -> 90099], [China -> Asia -> Russia -> Ulyanovskaya oblast -> Volga] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [126, 90123, 100029]
+  path: 0[90123 -> 30658 -> 126], [Mekong -> Tibet -> Makalu Makalu Himalaya ] 
+
+  path: 1[90123 -> 90123], [Mekong -> Mekong]
+  path: 2[90123 -> 100029], [Mekong -> South China Sea] 
+
+srcNodes: [126, 90122, 100009]
+  path: 0[90122 -> 30658 -> 126], [Jangtse -> Tibet -> Makalu Makalu Himalaya ] 
+
+  path: 1[90122 -> 90122], [Jangtse -> Jangtse]
+  path: 2[90122 -> 100009], [Jangtse -> East China Sea] 
+
+srcNodes: [149, 90129, 100029]
+  path: 0[90129 -> 20086 -> 149], [Asahan -> Indonesia -> Rantekombola Rantekombola  volcanic] 
+
+  path: 1[90129 -> 90129], [Asahan -> Asahan]
+  path: 2[90129 -> 20086 -> 100029], [Asahan -> Indonesia -> South China Sea] 
+
+srcNodes: [93, 90084, 20053]
+  path: 0[90084 -> 20094 -> 93], [Jordan -> Lebanon -> Jabal Lubnan Jabal Lubnan Lebanon ] 
+
+  path: 1[90084 -> 90084], [Jordan -> Jordan]
+  path: 2[90084 -> 20095 -> 10002 -> 20053], [Jordan -> West Bank -> Asia -> China] 
+
+srcNodes: [126, 90127, 20053]
+  path: 0[90127 -> 30658 -> 126], [Brahmaputra -> Tibet -> Makalu Makalu Himalaya ] 
+
+  path: 1[90127 -> 90127], [Brahmaputra -> Brahmaputra]
+  path: 2[90127 -> 20063 -> 10002 -> 20053], [Brahmaputra -> Bangladesh -> Asia -> China] 
+
+srcNodes: [106, 90120, 20053]
+  path: 0[90120 -> 30690 -> 106], [Pjandsh -> Badakhshoni Kuni -> Pik Kommunizma Pik Kommunizma Pamir ] 
+
+  path: 1[90120 -> 90120], [Pjandsh -> Pjandsh]
+  path: 2[90120 -> 20052 -> 10002 -> 20053], [Pjandsh -> Afghanistan -> Asia -> China] 
+
+srcNodes: [117, 90126, 20053]
+  path: 0[90126 -> 30752 -> 117], [Ganges -> Uttar Pradesh -> Nanda Devi Nanda Devi Himalaya ] 
+
+  path: 1[90126 -> 90126], [Ganges -> Ganges]
+  path: 2[90126 -> 20063 -> 10002 -> 20053], [Ganges -> Bangladesh -> Asia -> China] 
+
+srcNodes: [111, 90119, 20053]
+  path: 0[90119 -> 20052 -> 111], [Amudarja -> Afghanistan -> Tirich Mir Tirich Mir Hindukusch ] 
+
+  path: 1[90119 -> 90119], [Amudarja -> Amudarja]
+  path: 2[90119 -> 20052 -> 10002 -> 20053], [Amudarja -> Afghanistan -> Asia -> China] 
+
+srcNodes: [126, 90128, 20053]
+  path: 0[90128 -> 30658 -> 126], [Indus -> Tibet -> Makalu Makalu Himalaya ] 
+
+  path: 1[90128 -> 90128], [Indus -> Indus]
+  path: 2[90128 -> 20055 -> 10002 -> 20053], [Indus -> Pakistan -> Asia -> China] 
+
+srcNodes: [107, 90118, 20053]
+  path: 0[90118 -> 20075 -> 107], [Naryn -> Kyrgyzstan -> Pik Lenina Pik Lenina Pamir ] 
+
+  path: 1[90118 -> 90118], [Naryn -> Naryn]
+  path: 2[90118 -> 20075 -> 10002 -> 20053], [Naryn -> Kyrgyzstan -> Asia -> China] 
+
+srcNodes: [95, 90085, 20053]
+  path: 0[90085 -> 20060 -> 95], [Kura -> Georgia -> Kasbek Kasbek Kaukasus volcanic] 
+
+  path: 1[90085 -> 90085], [Kura -> Kura]
+  path: 2[90085 -> 20061 -> 10002 -> 20053], [Kura -> Azerbaijan -> Asia -> China] 
+
+srcNodes: [150, 90129, 20053]
+  path: 0[150 -> 150], [Tatamailau Tatamailau   -> Tatamailau Tatamailau  ]
+  path: 1[150 -> 110174 -> 20086 -> 90129], [Tatamailau Tatamailau   -> Timor Timor Sunda Islands  -> Indonesia -> Asahan] 
+
+  path: 2[150 -> 20087 -> 10002 -> 20053], [Tatamailau Tatamailau   -> Timor-Leste -> Asia -> China] 
+
+srcNodes: [150, 90087, 20053]
+  path: 0[90087 -> 20093 -> 10002 -> 20087 -> 150], [Tigris -> Syria -> Asia -> Timor-Leste -> Tatamailau Tatamailau  ] 
+
+  path: 1[90087 -> 90087], [Tigris -> Tigris]
+  path: 2[90087 -> 20093 -> 10002 -> 20053], [Tigris -> Syria -> Asia -> China] 
+
+srcNodes: [150, 90088, 20053]
+  path: 0[90088 -> 20093 -> 10002 -> 20087 -> 150], [Euphrat -> Syria -> Asia -> Timor-Leste -> Tatamailau Tatamailau  ] 
+
+  path: 1[90088 -> 90088], [Euphrat -> Euphrat]
+  path: 2[90088 -> 20093 -> 10002 -> 20053], [Euphrat -> Syria -> Asia -> China] 
+
+srcNodes: [101, 90085, 20053]
+  path: 0[101 -> 101], [Pidurutalagala Pidurutalagala   -> Pidurutalagala Pidurutalagala  ]
+  path: 1[101 -> 20105 -> 10002 -> 20061 -> 90085], [Pidurutalagala Pidurutalagala   -> Sri Lanka -> Asia -> Azerbaijan -> Kura] 
+
+  path: 2[101 -> 20105 -> 10002 -> 20053], [Pidurutalagala Pidurutalagala   -> Sri Lanka -> Asia -> China] 
+
+-----------------------------------------
+ResultDestNodes: 
+20053, 20053, 20053, 20053, 20053, 20053, 20053, 20053, 20053, 20053, 20053, 20053, 20053, 20053, 20053, 90123, 90122, 90129, 90084, 90127, 90120, 90126, 90119, 90128, 90118, 90085, 150, 90087, 90088, 101, 
+ResultRelevs: 
+6.6396303, 6.6396303, 6.6396303, 6.6396303, 6.594718, 6.594718, 6.549806, 6.549806, 6.459983, 6.459983, 6.410085, 6.410085, 6.3651733, 6.320261, 6.272358, 5.47427, 5.47427, 4.80723, 4.7238503, 4.7238503, 4.7238503, 4.7238503, 4.7238503, 4.7238503, 4.7238503, 4.7238503, 4.634065, 4.544203, 4.544203, 4.496338, 
+Num of top-k answers: 30
+Num of duplicate answers: 1
+Num of duplicate roots in top-k answers: 14
+root duplication ratio: 0.4827586
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 693
+Num of entries retrieved from NKMaps: 5085
+Num of answer trees explored: 13202
+

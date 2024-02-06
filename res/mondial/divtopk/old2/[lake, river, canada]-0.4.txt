@@ -1,0 +1,382 @@
+Top-k Search by Blink-BDB, k=10
+[lake, river, canada]
+srcNodes: [80101, 90130, 20117]
+  path: 0[20117 -> 30984 -> 80101], [Canada -> Quebec -> Lake Champlain Lake Champlain ] 
+
+  path: 1[20117 -> 30986 -> 90130], [Canada -> Yukon Territory -> Yukon River] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [80118, 90153, 20117]
+  path: 0[80118 -> 80118], [Lake Managua Lake Managua  -> Lake Managua Lake Managua ]
+  path: 1[80118 -> 90153], [Lake Managua Lake Managua  -> Rio San Juan] 
+
+  path: 2[80118 -> 90153 -> 20121 -> 10001 -> 20117], [Lake Managua Lake Managua  -> Rio San Juan -> Nicaragua -> America -> Canada] 
+
+srcNodes: [80122, 90154, 20117]
+  path: 0[80122 -> 80122], [Lake Titicaca Lake Titicaca  -> Lake Titicaca Lake Titicaca ]
+  path: 1[80122 -> 90154], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero] 
+
+  path: 2[80122 -> 90154 -> 20170 -> 10001 -> 20117], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero -> Bolivia -> America -> Canada] 
+
+srcNodes: [80117, 90153, 20117]
+  path: 0[80117 -> 80117], [Lake Nicaragua Lake Nicaragua  -> Lake Nicaragua Lake Nicaragua ]
+  path: 1[80117 -> 90153], [Lake Nicaragua Lake Nicaragua  -> Rio San Juan] 
+
+  path: 2[80117 -> 90153 -> 20121 -> 10001 -> 20117], [Lake Nicaragua Lake Nicaragua  -> Rio San Juan -> Nicaragua -> America -> Canada] 
+
+srcNodes: [80118, 90153, 20117]
+  path: 0[90153 -> 80118], [Rio San Juan -> Lake Managua Lake Managua ] 
+
+  path: 1[90153 -> 90153], [Rio San Juan -> Rio San Juan]
+  path: 2[90153 -> 20121 -> 10001 -> 20117], [Rio San Juan -> Nicaragua -> America -> Canada] 
+
+srcNodes: [80122, 90164, 20117]
+  path: 0[90164 -> 20170 -> 80122], [Paraguay -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[90164 -> 90164], [Paraguay -> Paraguay]
+  path: 2[90164 -> 20173 -> 10001 -> 20117], [Paraguay -> Paraguay -> America -> Canada] 
+
+srcNodes: [80122, 90164, 20117]
+  path: 0[20170 -> 80122], [Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20170 -> 90164], [Bolivia -> Paraguay] 
+
+  path: 2[20170 -> 10001 -> 20117], [Bolivia -> America -> Canada] 
+
+srcNodes: [80122, 90165, 20117]
+  path: 0[10001 -> 20170 -> 80122], [America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[10001 -> 20174 -> 90165], [America -> Uruguay -> Uruguay] 
+
+  path: 2[10001 -> 20117], [America -> Canada] 
+
+srcNodes: [80126, 90163, 20117]
+  path: 0[90163 -> 31192 -> 80126], [Parana -> Santa Fe -> Laguna Mar Chiquita Laguna Mar Chiquita salt] 
+
+  path: 1[90163 -> 90163], [Parana -> Parana]
+  path: 2[90163 -> 20173 -> 10001 -> 20117], [Parana -> Paraguay -> America -> Canada] 
+
+srcNodes: [80117, 90165, 20117]
+  path: 0[90165 -> 20174 -> 10001 -> 20121 -> 80117], [Uruguay -> Uruguay -> America -> Nicaragua -> Lake Nicaragua Lake Nicaragua ] 
+
+  path: 1[90165 -> 90165], [Uruguay -> Uruguay]
+  path: 2[90165 -> 20174 -> 10001 -> 20117], [Uruguay -> Uruguay -> America -> Canada] 
+
+-----------------------------------------
+Num of top-k answers: 10
+ResultDestNodes: [20117, 80118, 80122, 80117, 90153, 90164, 20170, 10001, 90163, 90165]
+ResultRelevs: [7.884639739990234, 5.708779811859131, 5.708779811859131, 5.708779811859131, 5.360529899597168, 5.3332600593566895, 5.008299827575684, 4.919280052185059, 4.8923659324646, 4.870721817016602]
+AvgResultRelev: 5.539543676376343
+AvgResultDissimilarity: 0.7044444444444449
+Num of entries retrieved from the lists: 650
+Num of entries retrieved from NKMaps: 1153
+Num of answer trees explored: 213
+
+Div Top-k Search by Astar110
+[lake, river, canada]
+srcNodes: [80101, 90130, 20117]
+  path: 0[20117 -> 30984 -> 80101], [Canada -> Quebec -> Lake Champlain Lake Champlain ] 
+
+  path: 1[20117 -> 30986 -> 90130], [Canada -> Yukon Territory -> Yukon River] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [80122, 90154, 20117]
+  path: 0[80122 -> 80122], [Lake Titicaca Lake Titicaca  -> Lake Titicaca Lake Titicaca ]
+  path: 1[80122 -> 90154], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero] 
+
+  path: 2[80122 -> 90154 -> 20170 -> 10001 -> 20117], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero -> Bolivia -> America -> Canada] 
+
+srcNodes: [80117, 90153, 20117]
+  path: 0[80117 -> 80117], [Lake Nicaragua Lake Nicaragua  -> Lake Nicaragua Lake Nicaragua ]
+  path: 1[80117 -> 90153], [Lake Nicaragua Lake Nicaragua  -> Rio San Juan] 
+
+  path: 2[80117 -> 90153 -> 20121 -> 10001 -> 20117], [Lake Nicaragua Lake Nicaragua  -> Rio San Juan -> Nicaragua -> America -> Canada] 
+
+srcNodes: [80118, 90153, 20117]
+  path: 0[80118 -> 80118], [Lake Managua Lake Managua  -> Lake Managua Lake Managua ]
+  path: 1[80118 -> 90153], [Lake Managua Lake Managua  -> Rio San Juan] 
+
+  path: 2[80118 -> 90153 -> 20121 -> 10001 -> 20117], [Lake Managua Lake Managua  -> Rio San Juan -> Nicaragua -> America -> Canada] 
+
+srcNodes: [80118, 90153, 20117]
+  path: 0[90153 -> 80118], [Rio San Juan -> Lake Managua Lake Managua ] 
+
+  path: 1[90153 -> 90153], [Rio San Juan -> Rio San Juan]
+  path: 2[90153 -> 20121 -> 10001 -> 20117], [Rio San Juan -> Nicaragua -> America -> Canada] 
+
+srcNodes: [80122, 90164, 20117]
+  path: 0[90164 -> 20170 -> 80122], [Paraguay -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[90164 -> 90164], [Paraguay -> Paraguay]
+  path: 2[90164 -> 20173 -> 10001 -> 20117], [Paraguay -> Paraguay -> America -> Canada] 
+
+srcNodes: [80122, 90164, 20117]
+  path: 0[20170 -> 80122], [Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20170 -> 90164], [Bolivia -> Paraguay] 
+
+  path: 2[20170 -> 10001 -> 20117], [Bolivia -> America -> Canada] 
+
+srcNodes: [80122, 90165, 20117]
+  path: 0[10001 -> 20170 -> 80122], [America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[10001 -> 20174 -> 90165], [America -> Uruguay -> Uruguay] 
+
+  path: 2[10001 -> 20117], [America -> Canada] 
+
+srcNodes: [80126, 90163, 20117]
+  path: 0[90163 -> 31192 -> 80126], [Parana -> Santa Fe -> Laguna Mar Chiquita Laguna Mar Chiquita salt] 
+
+  path: 1[90163 -> 90163], [Parana -> Parana]
+  path: 2[90163 -> 20173 -> 10001 -> 20117], [Parana -> Paraguay -> America -> Canada] 
+
+srcNodes: [80117, 90165, 20117]
+  path: 0[90165 -> 20174 -> 10001 -> 20121 -> 80117], [Uruguay -> Uruguay -> America -> Nicaragua -> Lake Nicaragua Lake Nicaragua ] 
+
+  path: 1[90165 -> 90165], [Uruguay -> Uruguay]
+  path: 2[90165 -> 20174 -> 10001 -> 20117], [Uruguay -> Uruguay -> America -> Canada] 
+
+-----------------------------------------
+ResultDestNodes: [20117, 80122, 80117, 80118, 90153, 90164, 20170, 10001, 90163, 90165]
+ResultRelevs: [7.884639739990234, 5.708779811859131, 5.708779811859131, 5.708779811859131, 5.360529899597168, 5.3332600593566895, 5.008299827575684, 4.919280052185059, 4.8923659324646, 4.870721817016602]
+AvgResultRelev: 5.539543676376343
+AvgResultDissimilarity: 0.7044444680213928
+Num of entries retrieved from the KNLists: 650
+Num of entries retrieved from NKMaps: 1153
+Num of answer trees explored: 213
+Num of states created: 56
+Num of states explored: 11
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 45
+
+Div Top-k Search by Astar1m10
+[lake, river, canada]
+srcNodes: [80101, 90130, 20117]
+  path: 0[20117 -> 30984 -> 80101], [Canada -> Quebec -> Lake Champlain Lake Champlain ] 
+
+  path: 1[20117 -> 30986 -> 90130], [Canada -> Yukon Territory -> Yukon River] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [80122, 90154, 20117]
+  path: 0[80122 -> 80122], [Lake Titicaca Lake Titicaca  -> Lake Titicaca Lake Titicaca ]
+  path: 1[80122 -> 90154], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero] 
+
+  path: 2[80122 -> 90154 -> 20170 -> 10001 -> 20117], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero -> Bolivia -> America -> Canada] 
+
+srcNodes: [80117, 90153, 20117]
+  path: 0[80117 -> 80117], [Lake Nicaragua Lake Nicaragua  -> Lake Nicaragua Lake Nicaragua ]
+  path: 1[80117 -> 90153], [Lake Nicaragua Lake Nicaragua  -> Rio San Juan] 
+
+  path: 2[80117 -> 90153 -> 20121 -> 10001 -> 20117], [Lake Nicaragua Lake Nicaragua  -> Rio San Juan -> Nicaragua -> America -> Canada] 
+
+srcNodes: [80118, 90153, 20117]
+  path: 0[80118 -> 80118], [Lake Managua Lake Managua  -> Lake Managua Lake Managua ]
+  path: 1[80118 -> 90153], [Lake Managua Lake Managua  -> Rio San Juan] 
+
+  path: 2[80118 -> 90153 -> 20121 -> 10001 -> 20117], [Lake Managua Lake Managua  -> Rio San Juan -> Nicaragua -> America -> Canada] 
+
+srcNodes: [80118, 90153, 20117]
+  path: 0[90153 -> 80118], [Rio San Juan -> Lake Managua Lake Managua ] 
+
+  path: 1[90153 -> 90153], [Rio San Juan -> Rio San Juan]
+  path: 2[90153 -> 20121 -> 10001 -> 20117], [Rio San Juan -> Nicaragua -> America -> Canada] 
+
+srcNodes: [80122, 90164, 20117]
+  path: 0[90164 -> 20170 -> 80122], [Paraguay -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[90164 -> 90164], [Paraguay -> Paraguay]
+  path: 2[90164 -> 20173 -> 10001 -> 20117], [Paraguay -> Paraguay -> America -> Canada] 
+
+srcNodes: [80122, 90164, 20117]
+  path: 0[20170 -> 80122], [Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20170 -> 90164], [Bolivia -> Paraguay] 
+
+  path: 2[20170 -> 10001 -> 20117], [Bolivia -> America -> Canada] 
+
+srcNodes: [80122, 90165, 20117]
+  path: 0[10001 -> 20170 -> 80122], [America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[10001 -> 20174 -> 90165], [America -> Uruguay -> Uruguay] 
+
+  path: 2[10001 -> 20117], [America -> Canada] 
+
+srcNodes: [80126, 90163, 20117]
+  path: 0[90163 -> 31192 -> 80126], [Parana -> Santa Fe -> Laguna Mar Chiquita Laguna Mar Chiquita salt] 
+
+  path: 1[90163 -> 90163], [Parana -> Parana]
+  path: 2[90163 -> 20173 -> 10001 -> 20117], [Parana -> Paraguay -> America -> Canada] 
+
+srcNodes: [80117, 90165, 20117]
+  path: 0[90165 -> 20174 -> 10001 -> 20121 -> 80117], [Uruguay -> Uruguay -> America -> Nicaragua -> Lake Nicaragua Lake Nicaragua ] 
+
+  path: 1[90165 -> 90165], [Uruguay -> Uruguay]
+  path: 2[90165 -> 20174 -> 10001 -> 20117], [Uruguay -> Uruguay -> America -> Canada] 
+
+-----------------------------------------
+ResultDestNodes: [20117, 80122, 80117, 80118, 90153, 90164, 20170, 10001, 90163, 90165]
+ResultRelevs: [7.884639739990234, 5.708779811859131, 5.708779811859131, 5.708779811859131, 5.360529899597168, 5.3332600593566895, 5.008299827575684, 4.919280052185059, 4.8923659324646, 4.870721817016602]
+AvgResultRelev: 5.539543676376343
+AvgResultDissimilarity: 0.7044444680213928
+Num of entries retrieved from the KNLists: 650
+Num of entries retrieved from NKMaps: 1153
+Num of answer trees explored: 213
+Num of states created: 56
+Num of states explored: 11
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 45
+
+Div Top-k Search by Astar210
+[lake, river, canada]
+srcNodes: [80101, 90130, 20117]
+  path: 0[20117 -> 30984 -> 80101], [Canada -> Quebec -> Lake Champlain Lake Champlain ] 
+
+  path: 1[20117 -> 30986 -> 90130], [Canada -> Yukon Territory -> Yukon River] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [80122, 90154, 20117]
+  path: 0[80122 -> 80122], [Lake Titicaca Lake Titicaca  -> Lake Titicaca Lake Titicaca ]
+  path: 1[80122 -> 90154], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero] 
+
+  path: 2[80122 -> 90154 -> 20170 -> 10001 -> 20117], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero -> Bolivia -> America -> Canada] 
+
+srcNodes: [80117, 90153, 20117]
+  path: 0[80117 -> 80117], [Lake Nicaragua Lake Nicaragua  -> Lake Nicaragua Lake Nicaragua ]
+  path: 1[80117 -> 90153], [Lake Nicaragua Lake Nicaragua  -> Rio San Juan] 
+
+  path: 2[80117 -> 90153 -> 20121 -> 10001 -> 20117], [Lake Nicaragua Lake Nicaragua  -> Rio San Juan -> Nicaragua -> America -> Canada] 
+
+srcNodes: [80118, 90153, 20117]
+  path: 0[80118 -> 80118], [Lake Managua Lake Managua  -> Lake Managua Lake Managua ]
+  path: 1[80118 -> 90153], [Lake Managua Lake Managua  -> Rio San Juan] 
+
+  path: 2[80118 -> 90153 -> 20121 -> 10001 -> 20117], [Lake Managua Lake Managua  -> Rio San Juan -> Nicaragua -> America -> Canada] 
+
+srcNodes: [80118, 90153, 20117]
+  path: 0[90153 -> 80118], [Rio San Juan -> Lake Managua Lake Managua ] 
+
+  path: 1[90153 -> 90153], [Rio San Juan -> Rio San Juan]
+  path: 2[90153 -> 20121 -> 10001 -> 20117], [Rio San Juan -> Nicaragua -> America -> Canada] 
+
+srcNodes: [80122, 90164, 20117]
+  path: 0[90164 -> 20170 -> 80122], [Paraguay -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[90164 -> 90164], [Paraguay -> Paraguay]
+  path: 2[90164 -> 20173 -> 10001 -> 20117], [Paraguay -> Paraguay -> America -> Canada] 
+
+srcNodes: [80122, 90164, 20117]
+  path: 0[20170 -> 80122], [Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20170 -> 90164], [Bolivia -> Paraguay] 
+
+  path: 2[20170 -> 10001 -> 20117], [Bolivia -> America -> Canada] 
+
+srcNodes: [80122, 90165, 20117]
+  path: 0[10001 -> 20170 -> 80122], [America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[10001 -> 20174 -> 90165], [America -> Uruguay -> Uruguay] 
+
+  path: 2[10001 -> 20117], [America -> Canada] 
+
+srcNodes: [80126, 90163, 20117]
+  path: 0[90163 -> 31192 -> 80126], [Parana -> Santa Fe -> Laguna Mar Chiquita Laguna Mar Chiquita salt] 
+
+  path: 1[90163 -> 90163], [Parana -> Parana]
+  path: 2[90163 -> 20173 -> 10001 -> 20117], [Parana -> Paraguay -> America -> Canada] 
+
+srcNodes: [80117, 90165, 20117]
+  path: 0[90165 -> 20174 -> 10001 -> 20121 -> 80117], [Uruguay -> Uruguay -> America -> Nicaragua -> Lake Nicaragua Lake Nicaragua ] 
+
+  path: 1[90165 -> 90165], [Uruguay -> Uruguay]
+  path: 2[90165 -> 20174 -> 10001 -> 20117], [Uruguay -> Uruguay -> America -> Canada] 
+
+-----------------------------------------
+ResultDestNodes: [20117, 80122, 80117, 80118, 90153, 90164, 20170, 10001, 90163, 90165]
+ResultRelevs: [7.884639739990234, 5.708779811859131, 5.708779811859131, 5.708779811859131, 5.360529899597168, 5.3332600593566895, 5.008299827575684, 4.919280052185059, 4.8923659324646, 4.870721817016602]
+AvgResultRelev: 5.539543676376343
+AvgResultDissimilarity: 0.7044444680213928
+Num of entries retrieved from the KNLists: 650
+Num of entries retrieved from NKMaps: 1153
+Num of answer trees explored: 213
+Num of states created: 56
+Num of states explored: 11
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 45
+
+Div Top-k Search by Astar2m10
+[lake, river, canada]
+srcNodes: [80101, 90130, 20117]
+  path: 0[20117 -> 30984 -> 80101], [Canada -> Quebec -> Lake Champlain Lake Champlain ] 
+
+  path: 1[20117 -> 30986 -> 90130], [Canada -> Yukon Territory -> Yukon River] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [80122, 90154, 20117]
+  path: 0[80122 -> 80122], [Lake Titicaca Lake Titicaca  -> Lake Titicaca Lake Titicaca ]
+  path: 1[80122 -> 90154], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero] 
+
+  path: 2[80122 -> 90154 -> 20170 -> 10001 -> 20117], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero -> Bolivia -> America -> Canada] 
+
+srcNodes: [80117, 90153, 20117]
+  path: 0[80117 -> 80117], [Lake Nicaragua Lake Nicaragua  -> Lake Nicaragua Lake Nicaragua ]
+  path: 1[80117 -> 90153], [Lake Nicaragua Lake Nicaragua  -> Rio San Juan] 
+
+  path: 2[80117 -> 90153 -> 20121 -> 10001 -> 20117], [Lake Nicaragua Lake Nicaragua  -> Rio San Juan -> Nicaragua -> America -> Canada] 
+
+srcNodes: [80118, 90153, 20117]
+  path: 0[80118 -> 80118], [Lake Managua Lake Managua  -> Lake Managua Lake Managua ]
+  path: 1[80118 -> 90153], [Lake Managua Lake Managua  -> Rio San Juan] 
+
+  path: 2[80118 -> 90153 -> 20121 -> 10001 -> 20117], [Lake Managua Lake Managua  -> Rio San Juan -> Nicaragua -> America -> Canada] 
+
+srcNodes: [80118, 90153, 20117]
+  path: 0[90153 -> 80118], [Rio San Juan -> Lake Managua Lake Managua ] 
+
+  path: 1[90153 -> 90153], [Rio San Juan -> Rio San Juan]
+  path: 2[90153 -> 20121 -> 10001 -> 20117], [Rio San Juan -> Nicaragua -> America -> Canada] 
+
+srcNodes: [80122, 90164, 20117]
+  path: 0[90164 -> 20170 -> 80122], [Paraguay -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[90164 -> 90164], [Paraguay -> Paraguay]
+  path: 2[90164 -> 20173 -> 10001 -> 20117], [Paraguay -> Paraguay -> America -> Canada] 
+
+srcNodes: [80122, 90164, 20117]
+  path: 0[20170 -> 80122], [Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20170 -> 90164], [Bolivia -> Paraguay] 
+
+  path: 2[20170 -> 10001 -> 20117], [Bolivia -> America -> Canada] 
+
+srcNodes: [80122, 90165, 20117]
+  path: 0[10001 -> 20170 -> 80122], [America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[10001 -> 20174 -> 90165], [America -> Uruguay -> Uruguay] 
+
+  path: 2[10001 -> 20117], [America -> Canada] 
+
+srcNodes: [80126, 90163, 20117]
+  path: 0[90163 -> 31192 -> 80126], [Parana -> Santa Fe -> Laguna Mar Chiquita Laguna Mar Chiquita salt] 
+
+  path: 1[90163 -> 90163], [Parana -> Parana]
+  path: 2[90163 -> 20173 -> 10001 -> 20117], [Parana -> Paraguay -> America -> Canada] 
+
+srcNodes: [80117, 90165, 20117]
+  path: 0[90165 -> 20174 -> 10001 -> 20121 -> 80117], [Uruguay -> Uruguay -> America -> Nicaragua -> Lake Nicaragua Lake Nicaragua ] 
+
+  path: 1[90165 -> 90165], [Uruguay -> Uruguay]
+  path: 2[90165 -> 20174 -> 10001 -> 20117], [Uruguay -> Uruguay -> America -> Canada] 
+
+-----------------------------------------
+ResultDestNodes: [20117, 80122, 80117, 80118, 90153, 90164, 20170, 10001, 90163, 90165]
+ResultRelevs: [7.884639739990234, 5.708779811859131, 5.708779811859131, 5.708779811859131, 5.360529899597168, 5.3332600593566895, 5.008299827575684, 4.919280052185059, 4.8923659324646, 4.870721817016602]
+AvgResultRelev: 5.539543676376343
+AvgResultDissimilarity: 0.7044444680213928
+Num of entries retrieved from the KNLists: 650
+Num of entries retrieved from NKMaps: 1153
+Num of answer trees explored: 213
+Num of states created: 56
+Num of states explored: 11
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 0
+

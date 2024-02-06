@@ -1,0 +1,931 @@
+Blink Search Using BDB 10
+[lake, quebec, canada]
+srcNodes: [80101, 30984, 20117]
+  path: 0[20117 -> 30984 -> 80101], [Canada -> Quebec -> Lake Champlain Lake Champlain ] 
+
+  path: 1[20117 -> 30984], [Canada -> Quebec] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [80122, 30984, 20117]
+  path: 0[10001 -> 20170 -> 80122], [America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[10001 -> 20117 -> 30984], [America -> Canada -> Quebec] 
+
+  path: 2[10001 -> 20117], [America -> Canada] 
+
+srcNodes: [80117, 30984, 20117]
+  path: 0[80117 -> 80117], [Lake Nicaragua Lake Nicaragua  -> Lake Nicaragua Lake Nicaragua ]
+  path: 1[80117 -> 90153 -> 20121 -> 10001 -> 20117 -> 30984], [Lake Nicaragua Lake Nicaragua  -> Rio San Juan -> Nicaragua -> America -> Canada -> Quebec] 
+
+  path: 2[80117 -> 90153 -> 20121 -> 10001 -> 20117], [Lake Nicaragua Lake Nicaragua  -> Rio San Juan -> Nicaragua -> America -> Canada] 
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[80122 -> 80122], [Lake Titicaca Lake Titicaca  -> Lake Titicaca Lake Titicaca ]
+  path: 1[80122 -> 90154 -> 20170 -> 10001 -> 20117 -> 30984], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero -> Bolivia -> America -> Canada -> Quebec] 
+
+  path: 2[80122 -> 90154 -> 20170 -> 10001 -> 20117], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero -> Bolivia -> America -> Canada] 
+
+srcNodes: [80118, 30984, 20117]
+  path: 0[80118 -> 80118], [Lake Managua Lake Managua  -> Lake Managua Lake Managua ]
+  path: 1[80118 -> 90153 -> 20121 -> 10001 -> 20117 -> 30984], [Lake Managua Lake Managua  -> Rio San Juan -> Nicaragua -> America -> Canada -> Quebec] 
+
+  path: 2[80118 -> 90153 -> 20121 -> 10001 -> 20117], [Lake Managua Lake Managua  -> Rio San Juan -> Nicaragua -> America -> Canada] 
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[20170 -> 80122], [Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20170 -> 10001 -> 20117 -> 30984], [Bolivia -> America -> Canada -> Quebec] 
+
+  path: 2[20170 -> 10001 -> 20117], [Bolivia -> America -> Canada] 
+
+srcNodes: [80118, 30984, 20117]
+  path: 0[20121 -> 80118], [Nicaragua -> Lake Managua Lake Managua ] 
+
+  path: 1[20121 -> 10001 -> 20117 -> 30984], [Nicaragua -> America -> Canada -> Quebec] 
+
+  path: 2[20121 -> 10001 -> 20117], [Nicaragua -> America -> Canada] 
+
+srcNodes: [80125, 30984, 20117]
+  path: 0[20172 -> 80125], [Chile -> Licancabur Crater Lake Licancabur Crater Lake crater] 
+
+  path: 1[20172 -> 10001 -> 20117 -> 30984], [Chile -> America -> Canada -> Quebec] 
+
+  path: 2[20172 -> 10001 -> 20117], [Chile -> America -> Canada] 
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[20175 -> 31248 -> 80122], [Peru -> Puno -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20175 -> 10001 -> 20117 -> 30984], [Peru -> America -> Canada -> Quebec] 
+
+  path: 2[20175 -> 10001 -> 20117], [Peru -> America -> Canada] 
+
+srcNodes: [80120, 30984, 20117]
+  path: 0[20179 -> 31277 -> 80120], [Venezuela -> Zulia -> Lake Maracaibo Lake Maracaibo ] 
+
+  path: 1[20179 -> 10001 -> 20117 -> 30984], [Venezuela -> America -> Canada -> Quebec] 
+
+  path: 2[20179 -> 10001 -> 20117], [Venezuela -> America -> Canada] 
+
+-----------------------------------------
+ResultDestNodes: [20117, 10001, 80117, 80122, 80118, 20170, 20121, 20172, 20175, 20179]
+ResultRelevs: [9.56387996673584, 5.813119888305664, 5.512974739074707, 5.512974739074707, 5.512974739074707, 4.990049839019775, 4.990049839019775, 4.773230075836182, 4.411870002746582, 4.411870002746582]
+Num of top-k answers: 10
+Num of non-reduced answers: 0
+Num of duplicate answers: 4
+Num of non-redundant answers: 6
+Num of entries retrieved from the lists: 367
+Num of entries retrieved from NKMaps: 424
+
+Blink Search Using ConstRootDup10
+[lake, quebec, canada]
+srcNodes: [80100, 30984, 20117]
+  path: 0[20117 -> 30982 -> 80100], [Canada -> Ontario -> Lake Superior Lake Superior ] 
+
+  path: 1[20117 -> 30984], [Canada -> Quebec] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [80101, 30984, 20117]
+  path: 0[20117 -> 30984 -> 80101], [Canada -> Quebec -> Lake Champlain Lake Champlain ] 
+
+  path: 1[20117 -> 30984], [Canada -> Quebec] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [80122, 30984, 20117]
+  path: 0[10001 -> 20170 -> 80122], [America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[10001 -> 20117 -> 30984], [America -> Canada -> Quebec] 
+
+  path: 2[10001 -> 20117], [America -> Canada] 
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[80122 -> 80122], [Lake Titicaca Lake Titicaca  -> Lake Titicaca Lake Titicaca ]
+  path: 1[80122 -> 90154 -> 20170 -> 10001 -> 20117 -> 30984], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero -> Bolivia -> America -> Canada -> Quebec] 
+
+  path: 2[80122 -> 90154 -> 20170 -> 10001 -> 20117], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero -> Bolivia -> America -> Canada] 
+
+srcNodes: [80118, 30984, 20117]
+  path: 0[80118 -> 80118], [Lake Managua Lake Managua  -> Lake Managua Lake Managua ]
+  path: 1[80118 -> 90153 -> 20121 -> 10001 -> 20117 -> 30984], [Lake Managua Lake Managua  -> Rio San Juan -> Nicaragua -> America -> Canada -> Quebec] 
+
+  path: 2[80118 -> 90153 -> 20121 -> 10001 -> 20117], [Lake Managua Lake Managua  -> Rio San Juan -> Nicaragua -> America -> Canada] 
+
+srcNodes: [80117, 30984, 20117]
+  path: 0[80117 -> 80117], [Lake Nicaragua Lake Nicaragua  -> Lake Nicaragua Lake Nicaragua ]
+  path: 1[80117 -> 90153 -> 20121 -> 10001 -> 20117 -> 30984], [Lake Nicaragua Lake Nicaragua  -> Rio San Juan -> Nicaragua -> America -> Canada -> Quebec] 
+
+  path: 2[80117 -> 90153 -> 20121 -> 10001 -> 20117], [Lake Nicaragua Lake Nicaragua  -> Rio San Juan -> Nicaragua -> America -> Canada] 
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[20170 -> 80122], [Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20170 -> 10001 -> 20117 -> 30984], [Bolivia -> America -> Canada -> Quebec] 
+
+  path: 2[20170 -> 10001 -> 20117], [Bolivia -> America -> Canada] 
+
+srcNodes: [80118, 30984, 20117]
+  path: 0[20121 -> 80118], [Nicaragua -> Lake Managua Lake Managua ] 
+
+  path: 1[20121 -> 10001 -> 20117 -> 30984], [Nicaragua -> America -> Canada -> Quebec] 
+
+  path: 2[20121 -> 10001 -> 20117], [Nicaragua -> America -> Canada] 
+
+srcNodes: [80125, 30984, 20117]
+  path: 0[20172 -> 80125], [Chile -> Licancabur Crater Lake Licancabur Crater Lake crater] 
+
+  path: 1[20172 -> 10001 -> 20117 -> 30984], [Chile -> America -> Canada -> Quebec] 
+
+  path: 2[20172 -> 10001 -> 20117], [Chile -> America -> Canada] 
+
+srcNodes: [80120, 30984, 20117]
+  path: 0[20179 -> 31277 -> 80120], [Venezuela -> Zulia -> Lake Maracaibo Lake Maracaibo ] 
+
+  path: 1[20179 -> 10001 -> 20117 -> 30984], [Venezuela -> America -> Canada -> Quebec] 
+
+  path: 2[20179 -> 10001 -> 20117], [Venezuela -> America -> Canada] 
+
+-----------------------------------------
+ResultDestNodes: 
+20117, 20117, 10001, 80122, 80118, 80117, 20170, 20121, 20172, 20179, 
+ResultRelevs: 
+9.56388, 9.56388, 5.81312, 5.5129747, 5.5129747, 5.5129747, 4.99005, 4.99005, 4.77323, 4.41187, 
+Num of top-k answers: 10
+Num of duplicate answers: 3
+Num of duplicate roots in top-k answers: 1
+root duplication ratio: 0.11111111
+given max root duplication param: 0.2
+Num of entries retrieved from the lists: 367
+Num of entries retrieved from NKMaps: 1424
+Num of answer trees explored: 1245
+
+Blink Search Using BDB 20
+[lake, quebec, canada]
+srcNodes: [80101, 30984, 20117]
+  path: 0[20117 -> 30984 -> 80101], [Canada -> Quebec -> Lake Champlain Lake Champlain ] 
+
+  path: 1[20117 -> 30984], [Canada -> Quebec] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [80122, 30984, 20117]
+  path: 0[10001 -> 20170 -> 80122], [America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[10001 -> 20117 -> 30984], [America -> Canada -> Quebec] 
+
+  path: 2[10001 -> 20117], [America -> Canada] 
+
+srcNodes: [80118, 30984, 20117]
+  path: 0[80118 -> 80118], [Lake Managua Lake Managua  -> Lake Managua Lake Managua ]
+  path: 1[80118 -> 90153 -> 20121 -> 10001 -> 20117 -> 30984], [Lake Managua Lake Managua  -> Rio San Juan -> Nicaragua -> America -> Canada -> Quebec] 
+
+  path: 2[80118 -> 90153 -> 20121 -> 10001 -> 20117], [Lake Managua Lake Managua  -> Rio San Juan -> Nicaragua -> America -> Canada] 
+
+srcNodes: [80117, 30984, 20117]
+  path: 0[80117 -> 80117], [Lake Nicaragua Lake Nicaragua  -> Lake Nicaragua Lake Nicaragua ]
+  path: 1[80117 -> 90153 -> 20121 -> 10001 -> 20117 -> 30984], [Lake Nicaragua Lake Nicaragua  -> Rio San Juan -> Nicaragua -> America -> Canada -> Quebec] 
+
+  path: 2[80117 -> 90153 -> 20121 -> 10001 -> 20117], [Lake Nicaragua Lake Nicaragua  -> Rio San Juan -> Nicaragua -> America -> Canada] 
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[80122 -> 80122], [Lake Titicaca Lake Titicaca  -> Lake Titicaca Lake Titicaca ]
+  path: 1[80122 -> 90154 -> 20170 -> 10001 -> 20117 -> 30984], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero -> Bolivia -> America -> Canada -> Quebec] 
+
+  path: 2[80122 -> 90154 -> 20170 -> 10001 -> 20117], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero -> Bolivia -> America -> Canada] 
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[20170 -> 80122], [Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20170 -> 10001 -> 20117 -> 30984], [Bolivia -> America -> Canada -> Quebec] 
+
+  path: 2[20170 -> 10001 -> 20117], [Bolivia -> America -> Canada] 
+
+srcNodes: [80118, 30984, 20117]
+  path: 0[20121 -> 80118], [Nicaragua -> Lake Managua Lake Managua ] 
+
+  path: 1[20121 -> 10001 -> 20117 -> 30984], [Nicaragua -> America -> Canada -> Quebec] 
+
+  path: 2[20121 -> 10001 -> 20117], [Nicaragua -> America -> Canada] 
+
+srcNodes: [80125, 30984, 20117]
+  path: 0[20172 -> 80125], [Chile -> Licancabur Crater Lake Licancabur Crater Lake crater] 
+
+  path: 1[20172 -> 10001 -> 20117 -> 30984], [Chile -> America -> Canada -> Quebec] 
+
+  path: 2[20172 -> 10001 -> 20117], [Chile -> America -> Canada] 
+
+srcNodes: [80119, 30984, 20117]
+  path: 0[20120 -> 31041 -> 80119], [Costa Rica -> Cartago -> Lake Irazu Lake Irazu acid] 
+
+  path: 1[20120 -> 10001 -> 20117 -> 30984], [Costa Rica -> America -> Canada -> Quebec] 
+
+  path: 2[20120 -> 10001 -> 20117], [Costa Rica -> America -> Canada] 
+
+srcNodes: [80115, 30984, 20117]
+  path: 0[20118 -> 31027 -> 80115], [United States -> South Dakota -> Lake Oahe Lake Oahe artificial] 
+
+  path: 1[20118 -> 10001 -> 20117 -> 30984], [United States -> America -> Canada -> Quebec] 
+
+  path: 2[20118 -> 10001 -> 20117], [United States -> America -> Canada] 
+
+srcNodes: [80120, 30984, 20117]
+  path: 0[20179 -> 31277 -> 80120], [Venezuela -> Zulia -> Lake Maracaibo Lake Maracaibo ] 
+
+  path: 1[20179 -> 10001 -> 20117 -> 30984], [Venezuela -> America -> Canada -> Quebec] 
+
+  path: 2[20179 -> 10001 -> 20117], [Venezuela -> America -> Canada] 
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[20175 -> 31248 -> 80122], [Peru -> Puno -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20175 -> 10001 -> 20117 -> 30984], [Peru -> America -> Canada -> Quebec] 
+
+  path: 2[20175 -> 10001 -> 20117], [Peru -> America -> Canada] 
+
+srcNodes: [80118, 30984, 20117]
+  path: 0[90153 -> 80118], [Rio San Juan -> Lake Managua Lake Managua ] 
+
+  path: 1[90153 -> 20121 -> 10001 -> 20117 -> 30984], [Rio San Juan -> Nicaragua -> America -> Canada -> Quebec] 
+
+  path: 2[90153 -> 20121 -> 10001 -> 20117], [Rio San Juan -> Nicaragua -> America -> Canada] 
+
+srcNodes: [80095, 30984, 20117]
+  path: 0[40991 -> 80095], [Hamilton -> Lake Ontario Lake Ontario ] 
+
+  path: 1[40991 -> 80095 -> 90134 -> 30984], [Hamilton -> Lake Ontario Lake Ontario  -> Saint Lawrence River -> Quebec] 
+
+  path: 2[40991 -> 110199 -> 20115 -> 10001 -> 20117], [Hamilton -> Grand Bermuda Grand Bermuda Bermuda Islands coral -> Bermuda -> America -> Canada] 
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[20173 -> 90164 -> 20170 -> 80122], [Paraguay -> Paraguay -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20173 -> 10001 -> 20117 -> 30984], [Paraguay -> America -> Canada -> Quebec] 
+
+  path: 2[20173 -> 10001 -> 20117], [Paraguay -> America -> Canada] 
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[20180 -> 10001 -> 20170 -> 80122], [Ecuador -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20180 -> 10001 -> 20117 -> 30984], [Ecuador -> America -> Canada -> Quebec] 
+
+  path: 2[20180 -> 10001 -> 20117], [Ecuador -> America -> Canada] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[20178 -> 10001 -> 20170 -> 80122], [Suriname -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20178 -> 10001 -> 20117 -> 30984], [Suriname -> America -> Canada -> Quebec] 
+
+  path: 2[20178 -> 10001 -> 20117], [Suriname -> America -> Canada] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[20138 -> 10001 -> 20170 -> 80122], [Puerto Rico -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20138 -> 10001 -> 20117 -> 30984], [Puerto Rico -> America -> Canada -> Quebec] 
+
+  path: 2[20138 -> 10001 -> 20117], [Puerto Rico -> America -> Canada] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[20139 -> 10001 -> 20170 -> 80122], [Saint Kitts and Nevis -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20139 -> 10001 -> 20117 -> 30984], [Saint Kitts and Nevis -> America -> Canada -> Quebec] 
+
+  path: 2[20139 -> 10001 -> 20117], [Saint Kitts and Nevis -> America -> Canada] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[20141 -> 10001 -> 20170 -> 80122], [Saint Pierre and Miquelon -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20141 -> 10001 -> 20117 -> 30984], [Saint Pierre and Miquelon -> America -> Canada -> Quebec] 
+
+  path: 2[20141 -> 10001 -> 20117], [Saint Pierre and Miquelon -> America -> Canada] 
+
+This is a non-reduced answer tree with common first node 10001
+
+-----------------------------------------
+ResultDestNodes: [20117, 10001, 80118, 80117, 80122, 20170, 20121, 20172, 20120, 20118, 20179, 20175, 90153, 40991, 20173, 20180, 20178, 20138, 20139, 20141]
+ResultRelevs: [9.56387996673584, 5.813119888305664, 5.512974739074707, 5.512974739074707, 5.512974739074707, 4.990049839019775, 4.990049839019775, 4.773230075836182, 4.411870002746582, 4.411870002746582, 4.411870002746582, 4.411870002746582, 4.244119644165039, 4.231450080871582, 4.1227850914001465, 4.1227850914001465, 4.1227850914001465, 4.1227850914001465, 4.1227850914001465, 4.1227850914001465]
+Num of top-k answers: 20
+Num of non-reduced answers: 5
+Num of duplicate answers: 11
+Num of non-redundant answers: 9
+Num of entries retrieved from the lists: 394
+Num of entries retrieved from NKMaps: 445
+
+Blink Search Using ConstRootDup20
+[lake, quebec, canada]
+srcNodes: [80101, 30984, 20117]
+  path: 0[20117 -> 30984 -> 80101], [Canada -> Quebec -> Lake Champlain Lake Champlain ] 
+
+  path: 1[20117 -> 30984], [Canada -> Quebec] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [80100, 30984, 20117]
+  path: 0[20117 -> 30982 -> 80100], [Canada -> Ontario -> Lake Superior Lake Superior ] 
+
+  path: 1[20117 -> 30984], [Canada -> Quebec] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [80122, 30984, 20117]
+  path: 0[20117 -> 10001 -> 20170 -> 80122], [Canada -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20117 -> 30984], [Canada -> Quebec] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [80125, 30984, 20117]
+  path: 0[20117 -> 10001 -> 20172 -> 80125], [Canada -> America -> Chile -> Licancabur Crater Lake Licancabur Crater Lake crater] 
+
+  path: 1[20117 -> 30984], [Canada -> Quebec] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [80122, 30984, 20117]
+  path: 0[10001 -> 20170 -> 80122], [America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[10001 -> 20117 -> 30984], [America -> Canada -> Quebec] 
+
+  path: 2[10001 -> 20117], [America -> Canada] 
+
+srcNodes: [80118, 30984, 20117]
+  path: 0[80118 -> 80118], [Lake Managua Lake Managua  -> Lake Managua Lake Managua ]
+  path: 1[80118 -> 90153 -> 20121 -> 10001 -> 20117 -> 30984], [Lake Managua Lake Managua  -> Rio San Juan -> Nicaragua -> America -> Canada -> Quebec] 
+
+  path: 2[80118 -> 90153 -> 20121 -> 10001 -> 20117], [Lake Managua Lake Managua  -> Rio San Juan -> Nicaragua -> America -> Canada] 
+
+srcNodes: [80117, 30984, 20117]
+  path: 0[80117 -> 80117], [Lake Nicaragua Lake Nicaragua  -> Lake Nicaragua Lake Nicaragua ]
+  path: 1[80117 -> 90153 -> 20121 -> 10001 -> 20117 -> 30984], [Lake Nicaragua Lake Nicaragua  -> Rio San Juan -> Nicaragua -> America -> Canada -> Quebec] 
+
+  path: 2[80117 -> 90153 -> 20121 -> 10001 -> 20117], [Lake Nicaragua Lake Nicaragua  -> Rio San Juan -> Nicaragua -> America -> Canada] 
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[80122 -> 80122], [Lake Titicaca Lake Titicaca  -> Lake Titicaca Lake Titicaca ]
+  path: 1[80122 -> 90154 -> 20170 -> 10001 -> 20117 -> 30984], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero -> Bolivia -> America -> Canada -> Quebec] 
+
+  path: 2[80122 -> 90154 -> 20170 -> 10001 -> 20117], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero -> Bolivia -> America -> Canada] 
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[20170 -> 80122], [Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20170 -> 10001 -> 20117 -> 30984], [Bolivia -> America -> Canada -> Quebec] 
+
+  path: 2[20170 -> 10001 -> 20117], [Bolivia -> America -> Canada] 
+
+srcNodes: [80118, 30984, 20117]
+  path: 0[20121 -> 80118], [Nicaragua -> Lake Managua Lake Managua ] 
+
+  path: 1[20121 -> 10001 -> 20117 -> 30984], [Nicaragua -> America -> Canada -> Quebec] 
+
+  path: 2[20121 -> 10001 -> 20117], [Nicaragua -> America -> Canada] 
+
+srcNodes: [80125, 30984, 20117]
+  path: 0[20172 -> 80125], [Chile -> Licancabur Crater Lake Licancabur Crater Lake crater] 
+
+  path: 1[20172 -> 10001 -> 20117 -> 30984], [Chile -> America -> Canada -> Quebec] 
+
+  path: 2[20172 -> 10001 -> 20117], [Chile -> America -> Canada] 
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[20175 -> 31248 -> 80122], [Peru -> Puno -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20175 -> 10001 -> 20117 -> 30984], [Peru -> America -> Canada -> Quebec] 
+
+  path: 2[20175 -> 10001 -> 20117], [Peru -> America -> Canada] 
+
+srcNodes: [80115, 30984, 20117]
+  path: 0[20118 -> 31027 -> 80115], [United States -> South Dakota -> Lake Oahe Lake Oahe artificial] 
+
+  path: 1[20118 -> 10001 -> 20117 -> 30984], [United States -> America -> Canada -> Quebec] 
+
+  path: 2[20118 -> 10001 -> 20117], [United States -> America -> Canada] 
+
+srcNodes: [80119, 30984, 20117]
+  path: 0[20120 -> 31041 -> 80119], [Costa Rica -> Cartago -> Lake Irazu Lake Irazu acid] 
+
+  path: 1[20120 -> 10001 -> 20117 -> 30984], [Costa Rica -> America -> Canada -> Quebec] 
+
+  path: 2[20120 -> 10001 -> 20117], [Costa Rica -> America -> Canada] 
+
+srcNodes: [80120, 30984, 20117]
+  path: 0[20179 -> 31277 -> 80120], [Venezuela -> Zulia -> Lake Maracaibo Lake Maracaibo ] 
+
+  path: 1[20179 -> 10001 -> 20117 -> 30984], [Venezuela -> America -> Canada -> Quebec] 
+
+  path: 2[20179 -> 10001 -> 20117], [Venezuela -> America -> Canada] 
+
+srcNodes: [80118, 30984, 20117]
+  path: 0[90153 -> 80118], [Rio San Juan -> Lake Managua Lake Managua ] 
+
+  path: 1[90153 -> 20121 -> 10001 -> 20117 -> 30984], [Rio San Juan -> Nicaragua -> America -> Canada -> Quebec] 
+
+  path: 2[90153 -> 20121 -> 10001 -> 20117], [Rio San Juan -> Nicaragua -> America -> Canada] 
+
+srcNodes: [80095, 30984, 20117]
+  path: 0[40991 -> 80095], [Hamilton -> Lake Ontario Lake Ontario ] 
+
+  path: 1[40991 -> 80095 -> 90134 -> 30984], [Hamilton -> Lake Ontario Lake Ontario  -> Saint Lawrence River -> Quebec] 
+
+  path: 2[40991 -> 110199 -> 20115 -> 10001 -> 20117], [Hamilton -> Grand Bermuda Grand Bermuda Bermuda Islands coral -> Bermuda -> America -> Canada] 
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[20139 -> 10001 -> 20170 -> 80122], [Saint Kitts and Nevis -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20139 -> 10001 -> 20117 -> 30984], [Saint Kitts and Nevis -> America -> Canada -> Quebec] 
+
+  path: 2[20139 -> 10001 -> 20117], [Saint Kitts and Nevis -> America -> Canada] 
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[20174 -> 10001 -> 20170 -> 80122], [Uruguay -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20174 -> 10001 -> 20117 -> 30984], [Uruguay -> America -> Canada -> Quebec] 
+
+  path: 2[20174 -> 10001 -> 20117], [Uruguay -> America -> Canada] 
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[20137 -> 10001 -> 20170 -> 80122], [Colombia -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20137 -> 10001 -> 20117 -> 30984], [Colombia -> America -> Canada -> Quebec] 
+
+  path: 2[20137 -> 10001 -> 20117], [Colombia -> America -> Canada] 
+
+-----------------------------------------
+ResultDestNodes: 
+20117, 20117, 20117, 20117, 10001, 80118, 80117, 80122, 20170, 20121, 20172, 20175, 20118, 20120, 20179, 90153, 40991, 20139, 20174, 20137, 
+ResultRelevs: 
+9.56388, 9.56388, 9.274795, 9.166387, 5.81312, 5.5129747, 5.5129747, 5.5129747, 4.99005, 4.99005, 4.77323, 4.41187, 4.41187, 4.41187, 4.41187, 4.2441196, 4.23145, 4.122785, 4.122785, 4.122785, 
+Num of top-k answers: 20
+Num of duplicate answers: 10
+Num of duplicate roots in top-k answers: 3
+root duplication ratio: 0.15789473
+given max root duplication param: 0.2
+Num of entries retrieved from the lists: 394
+Num of entries retrieved from NKMaps: 1476
+Num of answer trees explored: 1274
+
+Blink Search Using BDB 30
+[lake, quebec, canada]
+srcNodes: [80101, 30984, 20117]
+  path: 0[20117 -> 30984 -> 80101], [Canada -> Quebec -> Lake Champlain Lake Champlain ] 
+
+  path: 1[20117 -> 30984], [Canada -> Quebec] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [80122, 30984, 20117]
+  path: 0[10001 -> 20170 -> 80122], [America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[10001 -> 20117 -> 30984], [America -> Canada -> Quebec] 
+
+  path: 2[10001 -> 20117], [America -> Canada] 
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[80122 -> 80122], [Lake Titicaca Lake Titicaca  -> Lake Titicaca Lake Titicaca ]
+  path: 1[80122 -> 90154 -> 20170 -> 10001 -> 20117 -> 30984], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero -> Bolivia -> America -> Canada -> Quebec] 
+
+  path: 2[80122 -> 90154 -> 20170 -> 10001 -> 20117], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero -> Bolivia -> America -> Canada] 
+
+srcNodes: [80117, 30984, 20117]
+  path: 0[80117 -> 80117], [Lake Nicaragua Lake Nicaragua  -> Lake Nicaragua Lake Nicaragua ]
+  path: 1[80117 -> 90153 -> 20121 -> 10001 -> 20117 -> 30984], [Lake Nicaragua Lake Nicaragua  -> Rio San Juan -> Nicaragua -> America -> Canada -> Quebec] 
+
+  path: 2[80117 -> 90153 -> 20121 -> 10001 -> 20117], [Lake Nicaragua Lake Nicaragua  -> Rio San Juan -> Nicaragua -> America -> Canada] 
+
+srcNodes: [80118, 30984, 20117]
+  path: 0[80118 -> 80118], [Lake Managua Lake Managua  -> Lake Managua Lake Managua ]
+  path: 1[80118 -> 90153 -> 20121 -> 10001 -> 20117 -> 30984], [Lake Managua Lake Managua  -> Rio San Juan -> Nicaragua -> America -> Canada -> Quebec] 
+
+  path: 2[80118 -> 90153 -> 20121 -> 10001 -> 20117], [Lake Managua Lake Managua  -> Rio San Juan -> Nicaragua -> America -> Canada] 
+
+srcNodes: [80118, 30984, 20117]
+  path: 0[20121 -> 80118], [Nicaragua -> Lake Managua Lake Managua ] 
+
+  path: 1[20121 -> 10001 -> 20117 -> 30984], [Nicaragua -> America -> Canada -> Quebec] 
+
+  path: 2[20121 -> 10001 -> 20117], [Nicaragua -> America -> Canada] 
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[20170 -> 80122], [Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20170 -> 10001 -> 20117 -> 30984], [Bolivia -> America -> Canada -> Quebec] 
+
+  path: 2[20170 -> 10001 -> 20117], [Bolivia -> America -> Canada] 
+
+srcNodes: [80125, 30984, 20117]
+  path: 0[20172 -> 80125], [Chile -> Licancabur Crater Lake Licancabur Crater Lake crater] 
+
+  path: 1[20172 -> 10001 -> 20117 -> 30984], [Chile -> America -> Canada -> Quebec] 
+
+  path: 2[20172 -> 10001 -> 20117], [Chile -> America -> Canada] 
+
+srcNodes: [80120, 30984, 20117]
+  path: 0[20179 -> 31277 -> 80120], [Venezuela -> Zulia -> Lake Maracaibo Lake Maracaibo ] 
+
+  path: 1[20179 -> 10001 -> 20117 -> 30984], [Venezuela -> America -> Canada -> Quebec] 
+
+  path: 2[20179 -> 10001 -> 20117], [Venezuela -> America -> Canada] 
+
+srcNodes: [80119, 30984, 20117]
+  path: 0[20120 -> 31041 -> 80119], [Costa Rica -> Cartago -> Lake Irazu Lake Irazu acid] 
+
+  path: 1[20120 -> 10001 -> 20117 -> 30984], [Costa Rica -> America -> Canada -> Quebec] 
+
+  path: 2[20120 -> 10001 -> 20117], [Costa Rica -> America -> Canada] 
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[20175 -> 31248 -> 80122], [Peru -> Puno -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20175 -> 10001 -> 20117 -> 30984], [Peru -> America -> Canada -> Quebec] 
+
+  path: 2[20175 -> 10001 -> 20117], [Peru -> America -> Canada] 
+
+srcNodes: [80115, 30984, 20117]
+  path: 0[20118 -> 31027 -> 80115], [United States -> South Dakota -> Lake Oahe Lake Oahe artificial] 
+
+  path: 1[20118 -> 10001 -> 20117 -> 30984], [United States -> America -> Canada -> Quebec] 
+
+  path: 2[20118 -> 10001 -> 20117], [United States -> America -> Canada] 
+
+srcNodes: [80118, 30984, 20117]
+  path: 0[90153 -> 80118], [Rio San Juan -> Lake Managua Lake Managua ] 
+
+  path: 1[90153 -> 20121 -> 10001 -> 20117 -> 30984], [Rio San Juan -> Nicaragua -> America -> Canada -> Quebec] 
+
+  path: 2[90153 -> 20121 -> 10001 -> 20117], [Rio San Juan -> Nicaragua -> America -> Canada] 
+
+srcNodes: [80095, 30984, 20117]
+  path: 0[40991 -> 80095], [Hamilton -> Lake Ontario Lake Ontario ] 
+
+  path: 1[40991 -> 80095 -> 90134 -> 30984], [Hamilton -> Lake Ontario Lake Ontario  -> Saint Lawrence River -> Quebec] 
+
+  path: 2[40991 -> 110199 -> 20115 -> 10001 -> 20117], [Hamilton -> Grand Bermuda Grand Bermuda Bermuda Islands coral -> Bermuda -> America -> Canada] 
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[20173 -> 90164 -> 20170 -> 80122], [Paraguay -> Paraguay -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20173 -> 10001 -> 20117 -> 30984], [Paraguay -> America -> Canada -> Quebec] 
+
+  path: 2[20173 -> 10001 -> 20117], [Paraguay -> America -> Canada] 
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[20180 -> 10001 -> 20170 -> 80122], [Ecuador -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20180 -> 10001 -> 20117 -> 30984], [Ecuador -> America -> Canada -> Quebec] 
+
+  path: 2[20180 -> 10001 -> 20117], [Ecuador -> America -> Canada] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[20178 -> 10001 -> 20170 -> 80122], [Suriname -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20178 -> 10001 -> 20117 -> 30984], [Suriname -> America -> Canada -> Quebec] 
+
+  path: 2[20178 -> 10001 -> 20117], [Suriname -> America -> Canada] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[20138 -> 10001 -> 20170 -> 80122], [Puerto Rico -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20138 -> 10001 -> 20117 -> 30984], [Puerto Rico -> America -> Canada -> Quebec] 
+
+  path: 2[20138 -> 10001 -> 20117], [Puerto Rico -> America -> Canada] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[20110 -> 10001 -> 20170 -> 80122], [Bahamas -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20110 -> 10001 -> 20117 -> 30984], [Bahamas -> America -> Canada -> Quebec] 
+
+  path: 2[20110 -> 10001 -> 20117], [Bahamas -> America -> Canada] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[20139 -> 10001 -> 20170 -> 80122], [Saint Kitts and Nevis -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20139 -> 10001 -> 20117 -> 30984], [Saint Kitts and Nevis -> America -> Canada -> Quebec] 
+
+  path: 2[20139 -> 10001 -> 20117], [Saint Kitts and Nevis -> America -> Canada] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[20141 -> 10001 -> 20170 -> 80122], [Saint Pierre and Miquelon -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20141 -> 10001 -> 20117 -> 30984], [Saint Pierre and Miquelon -> America -> Canada -> Quebec] 
+
+  path: 2[20141 -> 10001 -> 20117], [Saint Pierre and Miquelon -> America -> Canada] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[20140 -> 10001 -> 20170 -> 80122], [Saint Lucia -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20140 -> 10001 -> 20117 -> 30984], [Saint Lucia -> America -> Canada -> Quebec] 
+
+  path: 2[20140 -> 10001 -> 20117], [Saint Lucia -> America -> Canada] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[20143 -> 10001 -> 20170 -> 80122], [Trinidad and Tobago -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20143 -> 10001 -> 20117 -> 30984], [Trinidad and Tobago -> America -> Canada -> Quebec] 
+
+  path: 2[20143 -> 10001 -> 20117], [Trinidad and Tobago -> America -> Canada] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[20174 -> 10001 -> 20170 -> 80122], [Uruguay -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20174 -> 10001 -> 20117 -> 30984], [Uruguay -> America -> Canada -> Quebec] 
+
+  path: 2[20174 -> 10001 -> 20117], [Uruguay -> America -> Canada] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[20176 -> 10001 -> 20170 -> 80122], [French Guiana -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20176 -> 10001 -> 20117 -> 30984], [French Guiana -> America -> Canada -> Quebec] 
+
+  path: 2[20176 -> 10001 -> 20117], [French Guiana -> America -> Canada] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[20111 -> 10001 -> 20170 -> 80122], [Barbados -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20111 -> 10001 -> 20117 -> 30984], [Barbados -> America -> Canada -> Quebec] 
+
+  path: 2[20111 -> 10001 -> 20117], [Barbados -> America -> Canada] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[20135 -> 10001 -> 20170 -> 80122], [Netherlands Antilles -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20135 -> 10001 -> 20117 -> 30984], [Netherlands Antilles -> America -> Canada -> Quebec] 
+
+  path: 2[20135 -> 10001 -> 20117], [Netherlands Antilles -> America -> Canada] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[20142 -> 10001 -> 20170 -> 80122], [Saint Vincent and the Grenadines -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20142 -> 10001 -> 20117 -> 30984], [Saint Vincent and the Grenadines -> America -> Canada -> Quebec] 
+
+  path: 2[20142 -> 10001 -> 20117], [Saint Vincent and the Grenadines -> America -> Canada] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[20107 -> 10001 -> 20170 -> 80122], [Anguilla -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20107 -> 10001 -> 20117 -> 30984], [Anguilla -> America -> Canada -> Quebec] 
+
+  path: 2[20107 -> 10001 -> 20117], [Anguilla -> America -> Canada] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[20177 -> 10001 -> 20170 -> 80122], [Guyana -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20177 -> 10001 -> 20117 -> 30984], [Guyana -> America -> Canada -> Quebec] 
+
+  path: 2[20177 -> 10001 -> 20117], [Guyana -> America -> Canada] 
+
+This is a non-reduced answer tree with common first node 10001
+
+-----------------------------------------
+ResultDestNodes: [20117, 10001, 80122, 80117, 80118, 20121, 20170, 20172, 20179, 20120, 20175, 20118, 90153, 40991, 20173, 20180, 20178, 20138, 20110, 20139, 20141, 20140, 20143, 20174, 20176, 20111, 20135, 20142, 20107, 20177]
+ResultRelevs: [9.56387996673584, 5.813119888305664, 5.512974739074707, 5.512974739074707, 5.512974739074707, 4.990049839019775, 4.990049839019775, 4.773230075836182, 4.411870002746582, 4.411870002746582, 4.411870002746582, 4.411870002746582, 4.244119644165039, 4.231450080871582, 4.1227850914001465, 4.1227850914001465, 4.1227850914001465, 4.1227850914001465, 4.1227850914001465, 4.1227850914001465, 4.1227850914001465, 4.1227850914001465, 4.1227850914001465, 4.1227850914001465, 4.1227850914001465, 4.1227850914001465, 4.1227850914001465, 4.1227850914001465, 4.1227850914001465, 4.1227850914001465]
+Num of top-k answers: 30
+Num of non-reduced answers: 15
+Num of duplicate answers: 21
+Num of non-redundant answers: 9
+Num of entries retrieved from the lists: 394
+Num of entries retrieved from NKMaps: 445
+
+Blink Search Using ConstRootDup30
+[lake, quebec, canada]
+srcNodes: [80100, 30984, 20117]
+  path: 0[20117 -> 30982 -> 80100], [Canada -> Ontario -> Lake Superior Lake Superior ] 
+
+  path: 1[20117 -> 30984], [Canada -> Quebec] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [80101, 30984, 20117]
+  path: 0[20117 -> 30984 -> 80101], [Canada -> Quebec -> Lake Champlain Lake Champlain ] 
+
+  path: 1[20117 -> 30984], [Canada -> Quebec] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [80122, 30984, 20117]
+  path: 0[20117 -> 10001 -> 20170 -> 80122], [Canada -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20117 -> 30984], [Canada -> Quebec] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [80125, 30984, 20117]
+  path: 0[20117 -> 10001 -> 20172 -> 80125], [Canada -> America -> Chile -> Licancabur Crater Lake Licancabur Crater Lake crater] 
+
+  path: 1[20117 -> 30984], [Canada -> Quebec] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [80114, 30984, 20117]
+  path: 0[20117 -> 10001 -> 20118 -> 31020 -> 80114], [Canada -> America -> United States -> North Dakota -> Lake Sakakawea Lake Sakakawea artificial] 
+
+  path: 1[20117 -> 30984], [Canada -> Quebec] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [80101, 42191, 20117]
+  path: 0[20117 -> 30984 -> 80101], [Canada -> Quebec -> Lake Champlain Lake Champlain ] 
+
+  path: 1[20117 -> 30984 -> 42191], [Canada -> Quebec -> Quebec] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [80122, 30984, 20117]
+  path: 0[10001 -> 20170 -> 80122], [America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[10001 -> 20117 -> 30984], [America -> Canada -> Quebec] 
+
+  path: 2[10001 -> 20117], [America -> Canada] 
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[80122 -> 80122], [Lake Titicaca Lake Titicaca  -> Lake Titicaca Lake Titicaca ]
+  path: 1[80122 -> 90154 -> 20170 -> 10001 -> 20117 -> 30984], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero -> Bolivia -> America -> Canada -> Quebec] 
+
+  path: 2[80122 -> 90154 -> 20170 -> 10001 -> 20117], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero -> Bolivia -> America -> Canada] 
+
+srcNodes: [80117, 30984, 20117]
+  path: 0[80117 -> 80117], [Lake Nicaragua Lake Nicaragua  -> Lake Nicaragua Lake Nicaragua ]
+  path: 1[80117 -> 90153 -> 20121 -> 10001 -> 20117 -> 30984], [Lake Nicaragua Lake Nicaragua  -> Rio San Juan -> Nicaragua -> America -> Canada -> Quebec] 
+
+  path: 2[80117 -> 90153 -> 20121 -> 10001 -> 20117], [Lake Nicaragua Lake Nicaragua  -> Rio San Juan -> Nicaragua -> America -> Canada] 
+
+srcNodes: [80118, 30984, 20117]
+  path: 0[80118 -> 80118], [Lake Managua Lake Managua  -> Lake Managua Lake Managua ]
+  path: 1[80118 -> 90153 -> 20121 -> 10001 -> 20117 -> 30984], [Lake Managua Lake Managua  -> Rio San Juan -> Nicaragua -> America -> Canada -> Quebec] 
+
+  path: 2[80118 -> 90153 -> 20121 -> 10001 -> 20117], [Lake Managua Lake Managua  -> Rio San Juan -> Nicaragua -> America -> Canada] 
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[20170 -> 80122], [Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20170 -> 10001 -> 20117 -> 30984], [Bolivia -> America -> Canada -> Quebec] 
+
+  path: 2[20170 -> 10001 -> 20117], [Bolivia -> America -> Canada] 
+
+srcNodes: [80118, 30984, 20117]
+  path: 0[20121 -> 80118], [Nicaragua -> Lake Managua Lake Managua ] 
+
+  path: 1[20121 -> 10001 -> 20117 -> 30984], [Nicaragua -> America -> Canada -> Quebec] 
+
+  path: 2[20121 -> 10001 -> 20117], [Nicaragua -> America -> Canada] 
+
+srcNodes: [80125, 30984, 20117]
+  path: 0[20172 -> 80125], [Chile -> Licancabur Crater Lake Licancabur Crater Lake crater] 
+
+  path: 1[20172 -> 10001 -> 20117 -> 30984], [Chile -> America -> Canada -> Quebec] 
+
+  path: 2[20172 -> 10001 -> 20117], [Chile -> America -> Canada] 
+
+srcNodes: [80120, 30984, 20117]
+  path: 0[20179 -> 31277 -> 80120], [Venezuela -> Zulia -> Lake Maracaibo Lake Maracaibo ] 
+
+  path: 1[20179 -> 10001 -> 20117 -> 30984], [Venezuela -> America -> Canada -> Quebec] 
+
+  path: 2[20179 -> 10001 -> 20117], [Venezuela -> America -> Canada] 
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[20175 -> 31248 -> 80122], [Peru -> Puno -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20175 -> 10001 -> 20117 -> 30984], [Peru -> America -> Canada -> Quebec] 
+
+  path: 2[20175 -> 10001 -> 20117], [Peru -> America -> Canada] 
+
+srcNodes: [80115, 30984, 20117]
+  path: 0[20118 -> 31027 -> 80115], [United States -> South Dakota -> Lake Oahe Lake Oahe artificial] 
+
+  path: 1[20118 -> 10001 -> 20117 -> 30984], [United States -> America -> Canada -> Quebec] 
+
+  path: 2[20118 -> 10001 -> 20117], [United States -> America -> Canada] 
+
+srcNodes: [80119, 30984, 20117]
+  path: 0[20120 -> 31041 -> 80119], [Costa Rica -> Cartago -> Lake Irazu Lake Irazu acid] 
+
+  path: 1[20120 -> 10001 -> 20117 -> 30984], [Costa Rica -> America -> Canada -> Quebec] 
+
+  path: 2[20120 -> 10001 -> 20117], [Costa Rica -> America -> Canada] 
+
+srcNodes: [80118, 30984, 20117]
+  path: 0[90153 -> 80118], [Rio San Juan -> Lake Managua Lake Managua ] 
+
+  path: 1[90153 -> 20121 -> 10001 -> 20117 -> 30984], [Rio San Juan -> Nicaragua -> America -> Canada -> Quebec] 
+
+  path: 2[90153 -> 20121 -> 10001 -> 20117], [Rio San Juan -> Nicaragua -> America -> Canada] 
+
+srcNodes: [80095, 30984, 20117]
+  path: 0[40991 -> 80095], [Hamilton -> Lake Ontario Lake Ontario ] 
+
+  path: 1[40991 -> 80095 -> 90134 -> 30984], [Hamilton -> Lake Ontario Lake Ontario  -> Saint Lawrence River -> Quebec] 
+
+  path: 2[40991 -> 110199 -> 20115 -> 10001 -> 20117], [Hamilton -> Grand Bermuda Grand Bermuda Bermuda Islands coral -> Bermuda -> America -> Canada] 
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[20174 -> 10001 -> 20170 -> 80122], [Uruguay -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20174 -> 10001 -> 20117 -> 30984], [Uruguay -> America -> Canada -> Quebec] 
+
+  path: 2[20174 -> 10001 -> 20117], [Uruguay -> America -> Canada] 
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[20110 -> 10001 -> 20170 -> 80122], [Bahamas -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20110 -> 10001 -> 20117 -> 30984], [Bahamas -> America -> Canada -> Quebec] 
+
+  path: 2[20110 -> 10001 -> 20117], [Bahamas -> America -> Canada] 
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[20137 -> 10001 -> 20170 -> 80122], [Colombia -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20137 -> 10001 -> 20117 -> 30984], [Colombia -> America -> Canada -> Quebec] 
+
+  path: 2[20137 -> 10001 -> 20117], [Colombia -> America -> Canada] 
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[20143 -> 10001 -> 20170 -> 80122], [Trinidad and Tobago -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20143 -> 10001 -> 20117 -> 30984], [Trinidad and Tobago -> America -> Canada -> Quebec] 
+
+  path: 2[20143 -> 10001 -> 20117], [Trinidad and Tobago -> America -> Canada] 
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[20177 -> 10001 -> 20170 -> 80122], [Guyana -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20177 -> 10001 -> 20117 -> 30984], [Guyana -> America -> Canada -> Quebec] 
+
+  path: 2[20177 -> 10001 -> 20117], [Guyana -> America -> Canada] 
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[20178 -> 10001 -> 20170 -> 80122], [Suriname -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20178 -> 10001 -> 20117 -> 30984], [Suriname -> America -> Canada -> Quebec] 
+
+  path: 2[20178 -> 10001 -> 20117], [Suriname -> America -> Canada] 
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[20140 -> 10001 -> 20170 -> 80122], [Saint Lucia -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20140 -> 10001 -> 20117 -> 30984], [Saint Lucia -> America -> Canada -> Quebec] 
+
+  path: 2[20140 -> 10001 -> 20117], [Saint Lucia -> America -> Canada] 
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[20181 -> 10001 -> 20170 -> 80122], [Falkland Islands -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20181 -> 10001 -> 20117 -> 30984], [Falkland Islands -> America -> Canada -> Quebec] 
+
+  path: 2[20181 -> 10001 -> 20117], [Falkland Islands -> America -> Canada] 
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[20136 -> 10001 -> 20170 -> 80122], [Saint Martin -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20136 -> 10001 -> 20117 -> 30984], [Saint Martin -> America -> Canada -> Quebec] 
+
+  path: 2[20136 -> 10001 -> 20117], [Saint Martin -> America -> Canada] 
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[20171 -> 10001 -> 20170 -> 80122], [Brazil -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20171 -> 10001 -> 20117 -> 30984], [Brazil -> America -> Canada -> Quebec] 
+
+  path: 2[20171 -> 10001 -> 20117], [Brazil -> America -> Canada] 
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[20173 -> 90164 -> 20170 -> 80122], [Paraguay -> Paraguay -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20173 -> 10001 -> 20117 -> 30984], [Paraguay -> America -> Canada -> Quebec] 
+
+  path: 2[20173 -> 10001 -> 20117], [Paraguay -> America -> Canada] 
+
+-----------------------------------------
+ResultDestNodes: 
+20117, 20117, 20117, 20117, 20117, 20117, 10001, 80122, 80117, 80118, 20170, 20121, 20172, 20179, 20175, 20118, 20120, 90153, 40991, 20174, 20110, 20137, 20143, 20177, 20178, 20140, 20181, 20136, 20171, 20173, 
+ResultRelevs: 
+9.56388, 9.56388, 9.274795, 9.166387, 9.101341, 8.65786, 5.81312, 5.5129747, 5.5129747, 5.5129747, 4.99005, 4.99005, 4.77323, 4.41187, 4.41187, 4.41187, 4.41187, 4.2441196, 4.23145, 4.122785, 4.122785, 4.122785, 4.122785, 4.122785, 4.122785, 4.122785, 4.122785, 4.122785, 4.122785, 4.122785, 
+Num of top-k answers: 30
+Num of duplicate answers: 18
+Num of duplicate roots in top-k answers: 5
+root duplication ratio: 0.1724138
+given max root duplication param: 0.2
+Num of entries retrieved from the lists: 394
+Num of entries retrieved from NKMaps: 1476
+Num of answer trees explored: 1274
+

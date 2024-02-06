@@ -1,0 +1,868 @@
+Blink Search Using BDB 10
+[river, mountain, america]
+srcNodes: [90165, 210, 10001]
+  path: 0[10001 -> 20174 -> 90165], [America -> Uruguay -> Uruguay] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90164, 233, 10001]
+  path: 0[20170 -> 90164], [Bolivia -> Paraguay] 
+
+  path: 1[20170 -> 233], [Bolivia -> Sajama Sajama Andes volcano] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [90164, 210, 10001]
+  path: 0[20132 -> 10001 -> 20173 -> 90164], [Jamaica -> America -> Paraguay -> Paraguay] 
+
+  path: 1[20132 -> 210], [Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20132 -> 10001], [Jamaica -> America] 
+
+srcNodes: [90165, 210, 10001]
+  path: 0[210 -> 20132 -> 10001 -> 20174 -> 90165], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> Uruguay -> Uruguay] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America] 
+
+srcNodes: [90153, 206, 10001]
+  path: 0[20121 -> 90153], [Nicaragua -> Rio San Juan] 
+
+  path: 1[20121 -> 206], [Nicaragua -> Concepcion Concepcion  volcano] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [90165, 210, 10001]
+  path: 0[20174 -> 90165], [Uruguay -> Uruguay] 
+
+  path: 1[20174 -> 10001 -> 20132 -> 210], [Uruguay -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20174 -> 10001], [Uruguay -> America] 
+
+srcNodes: [90163, 210, 10001]
+  path: 0[20173 -> 90163], [Paraguay -> Parana] 
+
+  path: 1[20173 -> 10001 -> 20132 -> 210], [Paraguay -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20173 -> 10001], [Paraguay -> America] 
+
+srcNodes: [90164, 233, 10001]
+  path: 0[90164 -> 90164], [Paraguay -> Paraguay]
+  path: 1[90164 -> 20170 -> 233], [Paraguay -> Bolivia -> Sajama Sajama Andes volcano] 
+
+  path: 2[90164 -> 20173 -> 10001], [Paraguay -> Paraguay -> America] 
+
+srcNodes: [90165, 210, 10001]
+  path: 0[90165 -> 90165], [Uruguay -> Uruguay]
+  path: 1[90165 -> 20174 -> 10001 -> 20132 -> 210], [Uruguay -> Uruguay -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[90165 -> 20174 -> 10001], [Uruguay -> Uruguay -> America] 
+
+srcNodes: [90163, 210, 10001]
+  path: 0[90163 -> 90163], [Parana -> Parana]
+  path: 1[90163 -> 20173 -> 10001 -> 20132 -> 210], [Parana -> Paraguay -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[90163 -> 20173 -> 10001], [Parana -> Paraguay -> America] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20170, 20132, 210, 20121, 20174, 20173, 90164, 90165, 90163]
+ResultRelevs: [10.344459533691406, 6.66018009185791, 6.418015003204346, 6.40297794342041, 6.384729862213135, 6.344470024108887, 6.344470024108887, 6.276479721069336, 6.167634010314941, 6.167634010314941]
+Num of top-k answers: 10
+Num of non-reduced answers: 0
+Num of duplicate answers: 5
+Num of non-redundant answers: 5
+Num of entries retrieved from the lists: 600
+Num of entries retrieved from NKMaps: 1078
+
+Blink Search Using ConstRootDup10
+[river, mountain, america]
+srcNodes: [90164, 210, 10001]
+  path: 0[10001 -> 20173 -> 90164], [America -> Paraguay -> Paraguay] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90165, 210, 10001]
+  path: 0[10001 -> 20174 -> 90165], [America -> Uruguay -> Uruguay] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90135, 210, 10001]
+  path: 0[10001 -> 20117 -> 30982 -> 90135], [America -> Canada -> Ontario -> Niagara River] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90153, 210, 10001]
+  path: 0[10001 -> 20121 -> 90153], [America -> Nicaragua -> Rio San Juan] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90085, 210, 10001]
+  path: 0[10001 -> 20118 -> 30996 -> 90085], [America -> United States -> Georgia -> Kura] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90164, 233, 10001]
+  path: 0[20170 -> 90164], [Bolivia -> Paraguay] 
+
+  path: 1[20170 -> 233], [Bolivia -> Sajama Sajama Andes volcano] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [90164, 210, 10001]
+  path: 0[20132 -> 10001 -> 20173 -> 90164], [Jamaica -> America -> Paraguay -> Paraguay] 
+
+  path: 1[20132 -> 210], [Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20132 -> 10001], [Jamaica -> America] 
+
+srcNodes: [90164, 210, 10001]
+  path: 0[210 -> 20132 -> 10001 -> 20173 -> 90164], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> Paraguay -> Paraguay] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America] 
+
+srcNodes: [90153, 206, 10001]
+  path: 0[20121 -> 90153], [Nicaragua -> Rio San Juan] 
+
+  path: 1[20121 -> 206], [Nicaragua -> Concepcion Concepcion  volcano] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [90165, 210, 10001]
+  path: 0[20174 -> 90165], [Uruguay -> Uruguay] 
+
+  path: 1[20174 -> 10001 -> 20132 -> 210], [Uruguay -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20174 -> 10001], [Uruguay -> America] 
+
+-----------------------------------------
+ResultDestNodes: 
+10001, 10001, 10001, 10001, 10001, 20170, 20132, 210, 20121, 20174, 
+ResultRelevs: 
+10.34446, 10.34446, 10.205381, 10.160824, 10.114915, 6.66018, 6.418015, 6.402978, 6.38473, 6.34447, 
+Num of top-k answers: 10
+Num of duplicate answers: 3
+Num of duplicate roots in top-k answers: 4
+root duplication ratio: 0.44444445
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 586
+Num of entries retrieved from NKMaps: 4709
+Num of answer trees explored: 13847
+
+Blink Search Using BDB 20
+[river, mountain, america]
+srcNodes: [90165, 210, 10001]
+  path: 0[10001 -> 20174 -> 90165], [America -> Uruguay -> Uruguay] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90164, 233, 10001]
+  path: 0[20170 -> 90164], [Bolivia -> Paraguay] 
+
+  path: 1[20170 -> 233], [Bolivia -> Sajama Sajama Andes volcano] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [90164, 210, 10001]
+  path: 0[20132 -> 10001 -> 20173 -> 90164], [Jamaica -> America -> Paraguay -> Paraguay] 
+
+  path: 1[20132 -> 210], [Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20132 -> 10001], [Jamaica -> America] 
+
+srcNodes: [90165, 210, 10001]
+  path: 0[210 -> 20132 -> 10001 -> 20174 -> 90165], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> Uruguay -> Uruguay] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America] 
+
+srcNodes: [90153, 206, 10001]
+  path: 0[20121 -> 90153], [Nicaragua -> Rio San Juan] 
+
+  path: 1[20121 -> 206], [Nicaragua -> Concepcion Concepcion  volcano] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [90165, 210, 10001]
+  path: 0[20174 -> 90165], [Uruguay -> Uruguay] 
+
+  path: 1[20174 -> 10001 -> 20132 -> 210], [Uruguay -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20174 -> 10001], [Uruguay -> America] 
+
+srcNodes: [90163, 210, 10001]
+  path: 0[20173 -> 90163], [Paraguay -> Parana] 
+
+  path: 1[20173 -> 10001 -> 20132 -> 210], [Paraguay -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20173 -> 10001], [Paraguay -> America] 
+
+srcNodes: [90164, 233, 10001]
+  path: 0[90164 -> 90164], [Paraguay -> Paraguay]
+  path: 1[90164 -> 20170 -> 233], [Paraguay -> Bolivia -> Sajama Sajama Andes volcano] 
+
+  path: 2[90164 -> 20173 -> 10001], [Paraguay -> Paraguay -> America] 
+
+srcNodes: [90165, 210, 10001]
+  path: 0[90165 -> 90165], [Uruguay -> Uruguay]
+  path: 1[90165 -> 20174 -> 10001 -> 20132 -> 210], [Uruguay -> Uruguay -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[90165 -> 20174 -> 10001], [Uruguay -> Uruguay -> America] 
+
+srcNodes: [90163, 210, 10001]
+  path: 0[90163 -> 90163], [Parana -> Parana]
+  path: 1[90163 -> 20173 -> 10001 -> 20132 -> 210], [Parana -> Paraguay -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[90163 -> 20173 -> 10001], [Parana -> Paraguay -> America] 
+
+srcNodes: [90141, 210, 10001]
+  path: 0[20118 -> 31018 -> 90141], [United States -> New York -> Hudson River] 
+
+  path: 1[20118 -> 10001 -> 20132 -> 210], [United States -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [90130, 210, 10001]
+  path: 0[20117 -> 30986 -> 90130], [Canada -> Yukon Territory -> Yukon River] 
+
+  path: 1[20117 -> 10001 -> 20132 -> 210], [Canada -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+srcNodes: [90164, 211, 10001]
+  path: 0[20125 -> 10001 -> 20173 -> 90164], [Dominican Republic -> America -> Paraguay -> Paraguay] 
+
+  path: 1[20125 -> 211], [Dominican Republic -> Pico Duarte Pico Duarte  ] 
+
+  path: 2[20125 -> 10001], [Dominican Republic -> America] 
+
+srcNodes: [90164, 224, 10001]
+  path: 0[20180 -> 10001 -> 20173 -> 90164], [Ecuador -> America -> Paraguay -> Paraguay] 
+
+  path: 1[20180 -> 224], [Ecuador -> Chimborazo Chimborazo Andes volcano] 
+
+  path: 2[20180 -> 10001], [Ecuador -> America] 
+
+srcNodes: [90164, 215, 10001]
+  path: 0[20142 -> 10001 -> 20173 -> 90164], [Saint Vincent and the Grenadines -> America -> Paraguay -> Paraguay] 
+
+  path: 1[20142 -> 215], [Saint Vincent and the Grenadines -> Soufriere Soufriere  volcano] 
+
+  path: 2[20142 -> 10001], [Saint Vincent and the Grenadines -> America] 
+
+srcNodes: [90163, 213, 10001]
+  path: 0[20131 -> 10001 -> 20173 -> 90163], [Guadeloupe -> America -> Paraguay -> Parana] 
+
+  path: 1[20131 -> 213], [Guadeloupe -> La Soufriere La Soufriere  volcano] 
+
+  path: 2[20131 -> 10001], [Guadeloupe -> America] 
+
+srcNodes: [90164, 217, 10001]
+  path: 0[20133 -> 10001 -> 20173 -> 90164], [Martinique -> America -> Paraguay -> Paraguay] 
+
+  path: 1[20133 -> 217], [Martinique -> Pelee Pelee  volcano] 
+
+  path: 2[20133 -> 10001], [Martinique -> America] 
+
+srcNodes: [90164, 212, 10001]
+  path: 0[20138 -> 10001 -> 20173 -> 90164], [Puerto Rico -> America -> Paraguay -> Paraguay] 
+
+  path: 1[20138 -> 212], [Puerto Rico -> Cerro de Punta Cerro de Punta  ] 
+
+  path: 2[20138 -> 10001], [Puerto Rico -> America] 
+
+srcNodes: [90164, 216, 10001]
+  path: 0[20124 -> 10001 -> 20173 -> 90164], [Dominica -> America -> Paraguay -> Paraguay] 
+
+  path: 1[20124 -> 216], [Dominica -> Morne Diablotins Morne Diablotins  volcano] 
+
+  path: 2[20124 -> 10001], [Dominica -> America] 
+
+srcNodes: [90164, 235, 10001]
+  path: 0[20172 -> 10001 -> 20173 -> 90164], [Chile -> America -> Paraguay -> Paraguay] 
+
+  path: 1[20172 -> 235], [Chile -> Llullaillaco Llullaillaco Andes volcano] 
+
+  path: 2[20172 -> 10001], [Chile -> America] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20170, 20132, 210, 20121, 20174, 20173, 90164, 90165, 90163, 20118, 20117, 20125, 20180, 20142, 20131, 20133, 20138, 20124, 20172]
+ResultRelevs: [10.344459533691406, 6.66018009185791, 6.418015003204346, 6.40297794342041, 6.384729862213135, 6.344470024108887, 6.344470024108887, 6.276479721069336, 6.167634010314941, 6.167634010314941, 6.00600004196167, 6.00600004196167, 5.971545219421387, 5.971545219421387, 5.971545219421387, 5.971545219421387, 5.971545219421387, 5.971545219421387, 5.971545219421387, 5.971545219421387]
+Num of top-k answers: 20
+Num of non-reduced answers: 0
+Num of duplicate answers: 5
+Num of non-redundant answers: 15
+Num of entries retrieved from the lists: 600
+Num of entries retrieved from NKMaps: 1078
+
+Blink Search Using ConstRootDup20
+[river, mountain, america]
+srcNodes: [90164, 210, 10001]
+  path: 0[10001 -> 20173 -> 90164], [America -> Paraguay -> Paraguay] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90165, 210, 10001]
+  path: 0[10001 -> 20174 -> 90165], [America -> Uruguay -> Uruguay] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90135, 210, 10001]
+  path: 0[10001 -> 20117 -> 30982 -> 90135], [America -> Canada -> Ontario -> Niagara River] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90153, 210, 10001]
+  path: 0[10001 -> 20121 -> 90153], [America -> Nicaragua -> Rio San Juan] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90085, 210, 10001]
+  path: 0[10001 -> 20118 -> 30996 -> 90085], [America -> United States -> Georgia -> Kura] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90165, 211, 10001]
+  path: 0[10001 -> 20174 -> 90165], [America -> Uruguay -> Uruguay] 
+
+  path: 1[10001 -> 20125 -> 211], [America -> Dominican Republic -> Pico Duarte Pico Duarte  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90164, 211, 10001]
+  path: 0[10001 -> 20173 -> 90164], [America -> Paraguay -> Paraguay] 
+
+  path: 1[10001 -> 20125 -> 211], [America -> Dominican Republic -> Pico Duarte Pico Duarte  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90165, 205, 10001]
+  path: 0[10001 -> 20174 -> 90165], [America -> Uruguay -> Uruguay] 
+
+  path: 1[10001 -> 20113 -> 205], [America -> Guatemala -> Tajumulco Tajumulco Sierra Madre volcanic] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90164, 205, 10001]
+  path: 0[10001 -> 20173 -> 90164], [America -> Paraguay -> Paraguay] 
+
+  path: 1[10001 -> 20113 -> 205], [America -> Guatemala -> Tajumulco Tajumulco Sierra Madre volcanic] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90135, 211, 10001]
+  path: 0[10001 -> 20117 -> 30982 -> 90135], [America -> Canada -> Ontario -> Niagara River] 
+
+  path: 1[10001 -> 20125 -> 211], [America -> Dominican Republic -> Pico Duarte Pico Duarte  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90164, 233, 10001]
+  path: 0[20170 -> 90164], [Bolivia -> Paraguay] 
+
+  path: 1[20170 -> 233], [Bolivia -> Sajama Sajama Andes volcano] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [90164, 210, 10001]
+  path: 0[20132 -> 10001 -> 20173 -> 90164], [Jamaica -> America -> Paraguay -> Paraguay] 
+
+  path: 1[20132 -> 210], [Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20132 -> 10001], [Jamaica -> America] 
+
+srcNodes: [90164, 210, 10001]
+  path: 0[210 -> 20132 -> 10001 -> 20173 -> 90164], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> Paraguay -> Paraguay] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America] 
+
+srcNodes: [90153, 206, 10001]
+  path: 0[20121 -> 90153], [Nicaragua -> Rio San Juan] 
+
+  path: 1[20121 -> 206], [Nicaragua -> Concepcion Concepcion  volcano] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [90163, 210, 10001]
+  path: 0[20173 -> 90163], [Paraguay -> Parana] 
+
+  path: 1[20173 -> 10001 -> 20132 -> 210], [Paraguay -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20173 -> 10001], [Paraguay -> America] 
+
+srcNodes: [90165, 210, 10001]
+  path: 0[20174 -> 90165], [Uruguay -> Uruguay] 
+
+  path: 1[20174 -> 10001 -> 20132 -> 210], [Uruguay -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20174 -> 10001], [Uruguay -> America] 
+
+srcNodes: [90164, 233, 10001]
+  path: 0[90164 -> 90164], [Paraguay -> Paraguay]
+  path: 1[90164 -> 20170 -> 233], [Paraguay -> Bolivia -> Sajama Sajama Andes volcano] 
+
+  path: 2[90164 -> 20173 -> 10001], [Paraguay -> Paraguay -> America] 
+
+srcNodes: [90165, 210, 10001]
+  path: 0[90165 -> 90165], [Uruguay -> Uruguay]
+  path: 1[90165 -> 20174 -> 10001 -> 20132 -> 210], [Uruguay -> Uruguay -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[90165 -> 20174 -> 10001], [Uruguay -> Uruguay -> America] 
+
+srcNodes: [90163, 210, 10001]
+  path: 0[90163 -> 90163], [Parana -> Parana]
+  path: 1[90163 -> 20173 -> 10001 -> 20132 -> 210], [Parana -> Paraguay -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[90163 -> 20173 -> 10001], [Parana -> Paraguay -> America] 
+
+srcNodes: [90130, 210, 10001]
+  path: 0[20117 -> 30986 -> 90130], [Canada -> Yukon Territory -> Yukon River] 
+
+  path: 1[20117 -> 10001 -> 20132 -> 210], [Canada -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+-----------------------------------------
+ResultDestNodes: 
+10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 20170, 20132, 210, 20121, 20173, 20174, 90164, 90165, 90163, 20117, 
+ResultRelevs: 
+10.34446, 10.34446, 10.205381, 10.160824, 10.114915, 10.04681, 10.04681, 9.956985, 9.956985, 9.907732, 6.66018, 6.418015, 6.402978, 6.38473, 6.34447, 6.34447, 6.2764797, 6.167634, 6.167634, 6.006, 
+Num of top-k answers: 20
+Num of duplicate answers: 6
+Num of duplicate roots in top-k answers: 9
+root duplication ratio: 0.47368422
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 600
+Num of entries retrieved from NKMaps: 4836
+Num of answer trees explored: 14240
+
+Blink Search Using BDB 30
+[river, mountain, america]
+srcNodes: [90165, 210, 10001]
+  path: 0[10001 -> 20174 -> 90165], [America -> Uruguay -> Uruguay] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90164, 233, 10001]
+  path: 0[20170 -> 90164], [Bolivia -> Paraguay] 
+
+  path: 1[20170 -> 233], [Bolivia -> Sajama Sajama Andes volcano] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [90164, 210, 10001]
+  path: 0[20132 -> 10001 -> 20173 -> 90164], [Jamaica -> America -> Paraguay -> Paraguay] 
+
+  path: 1[20132 -> 210], [Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20132 -> 10001], [Jamaica -> America] 
+
+srcNodes: [90165, 210, 10001]
+  path: 0[210 -> 20132 -> 10001 -> 20174 -> 90165], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> Uruguay -> Uruguay] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America] 
+
+srcNodes: [90153, 206, 10001]
+  path: 0[20121 -> 90153], [Nicaragua -> Rio San Juan] 
+
+  path: 1[20121 -> 206], [Nicaragua -> Concepcion Concepcion  volcano] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [90165, 210, 10001]
+  path: 0[20174 -> 90165], [Uruguay -> Uruguay] 
+
+  path: 1[20174 -> 10001 -> 20132 -> 210], [Uruguay -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20174 -> 10001], [Uruguay -> America] 
+
+srcNodes: [90163, 210, 10001]
+  path: 0[20173 -> 90163], [Paraguay -> Parana] 
+
+  path: 1[20173 -> 10001 -> 20132 -> 210], [Paraguay -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20173 -> 10001], [Paraguay -> America] 
+
+srcNodes: [90164, 233, 10001]
+  path: 0[90164 -> 90164], [Paraguay -> Paraguay]
+  path: 1[90164 -> 20170 -> 233], [Paraguay -> Bolivia -> Sajama Sajama Andes volcano] 
+
+  path: 2[90164 -> 20173 -> 10001], [Paraguay -> Paraguay -> America] 
+
+srcNodes: [90165, 210, 10001]
+  path: 0[90165 -> 90165], [Uruguay -> Uruguay]
+  path: 1[90165 -> 20174 -> 10001 -> 20132 -> 210], [Uruguay -> Uruguay -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[90165 -> 20174 -> 10001], [Uruguay -> Uruguay -> America] 
+
+srcNodes: [90163, 210, 10001]
+  path: 0[90163 -> 90163], [Parana -> Parana]
+  path: 1[90163 -> 20173 -> 10001 -> 20132 -> 210], [Parana -> Paraguay -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[90163 -> 20173 -> 10001], [Parana -> Paraguay -> America] 
+
+srcNodes: [90130, 210, 10001]
+  path: 0[20117 -> 30986 -> 90130], [Canada -> Yukon Territory -> Yukon River] 
+
+  path: 1[20117 -> 10001 -> 20132 -> 210], [Canada -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+srcNodes: [90141, 210, 10001]
+  path: 0[20118 -> 31018 -> 90141], [United States -> New York -> Hudson River] 
+
+  path: 1[20118 -> 10001 -> 20132 -> 210], [United States -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [90164, 211, 10001]
+  path: 0[20125 -> 10001 -> 20173 -> 90164], [Dominican Republic -> America -> Paraguay -> Paraguay] 
+
+  path: 1[20125 -> 211], [Dominican Republic -> Pico Duarte Pico Duarte  ] 
+
+  path: 2[20125 -> 10001], [Dominican Republic -> America] 
+
+srcNodes: [90164, 214, 10001]
+  path: 0[20134 -> 10001 -> 20173 -> 90164], [Montserrat -> America -> Paraguay -> Paraguay] 
+
+  path: 1[20134 -> 214], [Montserrat -> Soufriere Hills Soufriere Hills  volcano] 
+
+  path: 2[20134 -> 10001], [Montserrat -> America] 
+
+srcNodes: [90164, 235, 10001]
+  path: 0[20172 -> 10001 -> 20173 -> 90164], [Chile -> America -> Paraguay -> Paraguay] 
+
+  path: 1[20172 -> 235], [Chile -> Llullaillaco Llullaillaco Andes volcano] 
+
+  path: 2[20172 -> 10001], [Chile -> America] 
+
+srcNodes: [90164, 217, 10001]
+  path: 0[20133 -> 10001 -> 20173 -> 90164], [Martinique -> America -> Paraguay -> Paraguay] 
+
+  path: 1[20133 -> 217], [Martinique -> Pelee Pelee  volcano] 
+
+  path: 2[20133 -> 10001], [Martinique -> America] 
+
+srcNodes: [90164, 215, 10001]
+  path: 0[20142 -> 10001 -> 20173 -> 90164], [Saint Vincent and the Grenadines -> America -> Paraguay -> Paraguay] 
+
+  path: 1[20142 -> 215], [Saint Vincent and the Grenadines -> Soufriere Soufriere  volcano] 
+
+  path: 2[20142 -> 10001], [Saint Vincent and the Grenadines -> America] 
+
+srcNodes: [90164, 212, 10001]
+  path: 0[20138 -> 10001 -> 20173 -> 90164], [Puerto Rico -> America -> Paraguay -> Paraguay] 
+
+  path: 1[20138 -> 212], [Puerto Rico -> Cerro de Punta Cerro de Punta  ] 
+
+  path: 2[20138 -> 10001], [Puerto Rico -> America] 
+
+srcNodes: [90164, 216, 10001]
+  path: 0[20124 -> 10001 -> 20173 -> 90164], [Dominica -> America -> Paraguay -> Paraguay] 
+
+  path: 1[20124 -> 216], [Dominica -> Morne Diablotins Morne Diablotins  volcano] 
+
+  path: 2[20124 -> 10001], [Dominica -> America] 
+
+srcNodes: [90164, 224, 10001]
+  path: 0[20180 -> 10001 -> 20173 -> 90164], [Ecuador -> America -> Paraguay -> Paraguay] 
+
+  path: 1[20180 -> 224], [Ecuador -> Chimborazo Chimborazo Andes volcano] 
+
+  path: 2[20180 -> 10001], [Ecuador -> America] 
+
+srcNodes: [90163, 213, 10001]
+  path: 0[20131 -> 10001 -> 20173 -> 90163], [Guadeloupe -> America -> Paraguay -> Parana] 
+
+  path: 1[20131 -> 213], [Guadeloupe -> La Soufriere La Soufriere  volcano] 
+
+  path: 2[20131 -> 10001], [Guadeloupe -> America] 
+
+srcNodes: [90157, 210, 10001]
+  path: 0[20137 -> 31102 -> 90157], [Colombia -> Amazonas -> Amazonas] 
+
+  path: 1[20137 -> 10001 -> 20132 -> 210], [Colombia -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20137 -> 10001], [Colombia -> America] 
+
+srcNodes: [90156, 210, 10001]
+  path: 0[20171 -> 31201 -> 90156], [Brazil -> Amazonas -> Orinoco] 
+
+  path: 1[20171 -> 10001 -> 20132 -> 210], [Brazil -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20171 -> 10001], [Brazil -> America] 
+
+srcNodes: [90163, 210, 10001]
+  path: 0[20169 -> 31196 -> 90163], [Argentina -> Distrito Federal -> Parana] 
+
+  path: 1[20169 -> 10001 -> 20132 -> 210], [Argentina -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20169 -> 10001], [Argentina -> America] 
+
+srcNodes: [90157, 210, 10001]
+  path: 0[20175 -> 31252 -> 90157], [Peru -> Ucayali -> Amazonas] 
+
+  path: 1[20175 -> 10001 -> 20132 -> 210], [Peru -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20175 -> 10001], [Peru -> America] 
+
+srcNodes: [90156, 210, 10001]
+  path: 0[20179 -> 31270 -> 90156], [Venezuela -> Monagas -> Orinoco] 
+
+  path: 1[20179 -> 10001 -> 20132 -> 210], [Venezuela -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20179 -> 10001], [Venezuela -> America] 
+
+srcNodes: [90163, 210, 10001]
+  path: 0[20114 -> 30972 -> 90163], [Mexico -> Distrito Federal -> Parana] 
+
+  path: 1[20114 -> 10001 -> 20132 -> 210], [Mexico -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20114 -> 10001], [Mexico -> America] 
+
+srcNodes: [90164, 234, 10001]
+  path: 0[234 -> 20170 -> 90164], [Licancabur Licancabur Andes volcano -> Bolivia -> Paraguay] 
+
+  path: 1[234 -> 234], [Licancabur Licancabur Andes volcano -> Licancabur Licancabur Andes volcano]
+  path: 2[234 -> 20172 -> 10001], [Licancabur Licancabur Andes volcano -> Chile -> America] 
+
+srcNodes: [90164, 233, 10001]
+  path: 0[233 -> 20170 -> 90164], [Sajama Sajama Andes volcano -> Bolivia -> Paraguay] 
+
+  path: 1[233 -> 233], [Sajama Sajama Andes volcano -> Sajama Sajama Andes volcano]
+  path: 2[233 -> 20170 -> 10001], [Sajama Sajama Andes volcano -> Bolivia -> America] 
+
+srcNodes: [90164, 205, 10001]
+  path: 0[20113 -> 10001 -> 20173 -> 90164], [Guatemala -> America -> Paraguay -> Paraguay] 
+
+  path: 1[20113 -> 205], [Guatemala -> Tajumulco Tajumulco Sierra Madre volcanic] 
+
+  path: 2[20113 -> 10001], [Guatemala -> America] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20170, 20132, 210, 20121, 20174, 20173, 90164, 90165, 90163, 20117, 20118, 20125, 20134, 20172, 20133, 20142, 20138, 20124, 20180, 20131, 20137, 20171, 20169, 20175, 20179, 20114, 234, 233, 20113]
+ResultRelevs: [10.344459533691406, 6.66018009185791, 6.418015003204346, 6.40297794342041, 6.384729862213135, 6.344470024108887, 6.344470024108887, 6.276479721069336, 6.167634010314941, 6.167634010314941, 6.00600004196167, 6.00600004196167, 5.971545219421387, 5.971545219421387, 5.971545219421387, 5.971545219421387, 5.971545219421387, 5.971545219421387, 5.971545219421387, 5.971545219421387, 5.971545219421387, 5.885379791259766, 5.885379791259766, 5.885379791259766, 5.885379791259766, 5.885379791259766, 5.885379791259766, 5.877300262451172, 5.877300262451172, 5.8368048667907715]
+Num of top-k answers: 30
+Num of non-reduced answers: 0
+Num of duplicate answers: 10
+Num of non-redundant answers: 20
+Num of entries retrieved from the lists: 600
+Num of entries retrieved from NKMaps: 1078
+
+Blink Search Using ConstRootDup30
+[river, mountain, america]
+srcNodes: [90164, 210, 10001]
+  path: 0[10001 -> 20173 -> 90164], [America -> Paraguay -> Paraguay] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90165, 210, 10001]
+  path: 0[10001 -> 20174 -> 90165], [America -> Uruguay -> Uruguay] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90135, 210, 10001]
+  path: 0[10001 -> 20117 -> 30982 -> 90135], [America -> Canada -> Ontario -> Niagara River] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90153, 210, 10001]
+  path: 0[10001 -> 20121 -> 90153], [America -> Nicaragua -> Rio San Juan] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90085, 210, 10001]
+  path: 0[10001 -> 20118 -> 30996 -> 90085], [America -> United States -> Georgia -> Kura] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90165, 211, 10001]
+  path: 0[10001 -> 20174 -> 90165], [America -> Uruguay -> Uruguay] 
+
+  path: 1[10001 -> 20125 -> 211], [America -> Dominican Republic -> Pico Duarte Pico Duarte  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90164, 211, 10001]
+  path: 0[10001 -> 20173 -> 90164], [America -> Paraguay -> Paraguay] 
+
+  path: 1[10001 -> 20125 -> 211], [America -> Dominican Republic -> Pico Duarte Pico Duarte  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90165, 205, 10001]
+  path: 0[10001 -> 20174 -> 90165], [America -> Uruguay -> Uruguay] 
+
+  path: 1[10001 -> 20113 -> 205], [America -> Guatemala -> Tajumulco Tajumulco Sierra Madre volcanic] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90164, 205, 10001]
+  path: 0[10001 -> 20173 -> 90164], [America -> Paraguay -> Paraguay] 
+
+  path: 1[10001 -> 20113 -> 205], [America -> Guatemala -> Tajumulco Tajumulco Sierra Madre volcanic] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90135, 211, 10001]
+  path: 0[10001 -> 20117 -> 30982 -> 90135], [America -> Canada -> Ontario -> Niagara River] 
+
+  path: 1[10001 -> 20125 -> 211], [America -> Dominican Republic -> Pico Duarte Pico Duarte  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90165, 95, 10001]
+  path: 0[10001 -> 20174 -> 90165], [America -> Uruguay -> Uruguay] 
+
+  path: 1[10001 -> 20118 -> 30996 -> 95], [America -> United States -> Georgia -> Kasbek Kasbek Kaukasus volcanic] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90164, 95, 10001]
+  path: 0[10001 -> 20173 -> 90164], [America -> Paraguay -> Paraguay] 
+
+  path: 1[10001 -> 20118 -> 30996 -> 95], [America -> United States -> Georgia -> Kasbek Kasbek Kaukasus volcanic] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90165, 236, 10001]
+  path: 0[10001 -> 20174 -> 90165], [America -> Uruguay -> Uruguay] 
+
+  path: 1[10001 -> 20172 -> 236], [America -> Chile -> Ojos del Salado Ojos del Salado Andes volcano] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90164, 236, 10001]
+  path: 0[10001 -> 20173 -> 90164], [America -> Paraguay -> Paraguay] 
+
+  path: 1[10001 -> 20172 -> 236], [America -> Chile -> Ojos del Salado Ojos del Salado Andes volcano] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90153, 211, 10001]
+  path: 0[10001 -> 20121 -> 90153], [America -> Nicaragua -> Rio San Juan] 
+
+  path: 1[10001 -> 20125 -> 211], [America -> Dominican Republic -> Pico Duarte Pico Duarte  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90164, 233, 10001]
+  path: 0[20170 -> 90164], [Bolivia -> Paraguay] 
+
+  path: 1[20170 -> 233], [Bolivia -> Sajama Sajama Andes volcano] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [90164, 210, 10001]
+  path: 0[20132 -> 10001 -> 20173 -> 90164], [Jamaica -> America -> Paraguay -> Paraguay] 
+
+  path: 1[20132 -> 210], [Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20132 -> 10001], [Jamaica -> America] 
+
+srcNodes: [90164, 210, 10001]
+  path: 0[210 -> 20132 -> 10001 -> 20173 -> 90164], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> Paraguay -> Paraguay] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America] 
+
+srcNodes: [90153, 206, 10001]
+  path: 0[20121 -> 90153], [Nicaragua -> Rio San Juan] 
+
+  path: 1[20121 -> 206], [Nicaragua -> Concepcion Concepcion  volcano] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [90165, 210, 10001]
+  path: 0[20174 -> 90165], [Uruguay -> Uruguay] 
+
+  path: 1[20174 -> 10001 -> 20132 -> 210], [Uruguay -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20174 -> 10001], [Uruguay -> America] 
+
+srcNodes: [90163, 210, 10001]
+  path: 0[20173 -> 90163], [Paraguay -> Parana] 
+
+  path: 1[20173 -> 10001 -> 20132 -> 210], [Paraguay -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20173 -> 10001], [Paraguay -> America] 
+
+srcNodes: [90164, 233, 10001]
+  path: 0[90164 -> 90164], [Paraguay -> Paraguay]
+  path: 1[90164 -> 20170 -> 233], [Paraguay -> Bolivia -> Sajama Sajama Andes volcano] 
+
+  path: 2[90164 -> 20173 -> 10001], [Paraguay -> Paraguay -> America] 
+
+srcNodes: [90163, 210, 10001]
+  path: 0[90163 -> 90163], [Parana -> Parana]
+  path: 1[90163 -> 20173 -> 10001 -> 20132 -> 210], [Parana -> Paraguay -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[90163 -> 20173 -> 10001], [Parana -> Paraguay -> America] 
+
+srcNodes: [90165, 210, 10001]
+  path: 0[90165 -> 90165], [Uruguay -> Uruguay]
+  path: 1[90165 -> 20174 -> 10001 -> 20132 -> 210], [Uruguay -> Uruguay -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[90165 -> 20174 -> 10001], [Uruguay -> Uruguay -> America] 
+
+srcNodes: [90141, 210, 10001]
+  path: 0[20118 -> 31018 -> 90141], [United States -> New York -> Hudson River] 
+
+  path: 1[20118 -> 10001 -> 20132 -> 210], [United States -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [90130, 210, 10001]
+  path: 0[20117 -> 30986 -> 90130], [Canada -> Yukon Territory -> Yukon River] 
+
+  path: 1[20117 -> 10001 -> 20132 -> 210], [Canada -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+srcNodes: [90164, 212, 10001]
+  path: 0[20138 -> 10001 -> 20173 -> 90164], [Puerto Rico -> America -> Paraguay -> Paraguay] 
+
+  path: 1[20138 -> 212], [Puerto Rico -> Cerro de Punta Cerro de Punta  ] 
+
+  path: 2[20138 -> 10001], [Puerto Rico -> America] 
+
+srcNodes: [90164, 211, 10001]
+  path: 0[20125 -> 10001 -> 20173 -> 90164], [Dominican Republic -> America -> Paraguay -> Paraguay] 
+
+  path: 1[20125 -> 211], [Dominican Republic -> Pico Duarte Pico Duarte  ] 
+
+  path: 2[20125 -> 10001], [Dominican Republic -> America] 
+
+srcNodes: [90164, 235, 10001]
+  path: 0[20172 -> 10001 -> 20173 -> 90164], [Chile -> America -> Paraguay -> Paraguay] 
+
+  path: 1[20172 -> 235], [Chile -> Llullaillaco Llullaillaco Andes volcano] 
+
+  path: 2[20172 -> 10001], [Chile -> America] 
+
+srcNodes: [90164, 224, 10001]
+  path: 0[20180 -> 10001 -> 20173 -> 90164], [Ecuador -> America -> Paraguay -> Paraguay] 
+
+  path: 1[20180 -> 224], [Ecuador -> Chimborazo Chimborazo Andes volcano] 
+
+  path: 2[20180 -> 10001], [Ecuador -> America] 
+
+-----------------------------------------
+ResultDestNodes: 
+10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 20170, 20132, 210, 20121, 20174, 20173, 90164, 90163, 90165, 20118, 20117, 20138, 20125, 20172, 20180, 
+ResultRelevs: 
+10.34446, 10.34446, 10.205381, 10.160824, 10.114915, 10.04681, 10.04681, 9.956985, 9.956985, 9.907732, 9.867163, 9.867163, 9.867162, 9.867162, 9.863174, 6.66018, 6.418015, 6.402978, 6.38473, 6.34447, 6.34447, 6.2764797, 6.167634, 6.167634, 6.006, 6.006, 5.971545, 5.971545, 5.971545, 5.971545, 
+Num of top-k answers: 30
+Num of duplicate answers: 7
+Num of duplicate roots in top-k answers: 14
+root duplication ratio: 0.4827586
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 600
+Num of entries retrieved from NKMaps: 4836
+Num of answer trees explored: 14240
+

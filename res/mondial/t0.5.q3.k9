@@ -1,0 +1,1050 @@
+query: [city, desert, africa]
+Top-k Search by Blink-BDB, k=9
+[city, desert, africa]
+srcNodes: [40288, 130035, 10000]
+  path: 0[10000 -> 20197 -> 40288], [Africa -> Nigeria -> Benin City] 
+
+  path: 1[10000 -> 20183 -> 130035], [Africa -> Libya -> Libyan Desert] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [40281, 130035, 10000]
+  path: 0[20183 -> 40281], [Libya -> Bengasi] 
+
+  path: 1[20183 -> 130035], [Libya -> Libyan Desert] 
+
+  path: 2[20183 -> 10000], [Libya -> Africa] 
+
+srcNodes: [41850, 130010, 10000]
+  path: 0[20209 -> 41850], [Chad -> NDjamena] 
+
+  path: 1[20209 -> 130010], [Chad -> Djourab] 
+
+  path: 2[20209 -> 10000], [Chad -> Africa] 
+
+srcNodes: [40209, 130002, 10000]
+  path: 0[20184 -> 40209], [Mali -> Bamako] 
+
+  path: 1[20184 -> 130002], [Mali -> Azaouad] 
+
+  path: 2[20184 -> 10000], [Mali -> Africa] 
+
+srcNodes: [41769, 130002, 10000]
+  path: 0[20182 -> 41769], [Algeria -> Mostaganem] 
+
+  path: 1[20182 -> 130002], [Algeria -> Azaouad] 
+
+  path: 2[20182 -> 10000], [Algeria -> Africa] 
+
+srcNodes: [41882, 130002, 10000]
+  path: 0[20187 -> 41882], [Niger -> Niamey] 
+
+  path: 1[20187 -> 130002], [Niger -> Azaouad] 
+
+  path: 2[20187 -> 10000], [Niger -> Africa] 
+
+srcNodes: [42956, 130031, 10000]
+  path: 0[20192 -> 42956], [Namibia -> Windhoek] 
+
+  path: 1[20192 -> 130031], [Namibia -> Kalahari] 
+
+  path: 2[20192 -> 10000], [Namibia -> Africa] 
+
+srcNodes: [41908, 130061, 10000]
+  path: 0[20185 -> 41908], [Mauritania -> Nouakchott] 
+
+  path: 1[20185 -> 130061], [Mauritania -> Trarza] 
+
+  path: 2[20185 -> 10000], [Mauritania -> Africa] 
+
+srcNodes: [40863, 130031, 10000]
+  path: 0[20199 -> 40863], [Botswana -> Gaborone] 
+
+  path: 1[20199 -> 130031], [Botswana -> Kalahari] 
+
+  path: 2[20199 -> 10000], [Botswana -> Africa] 
+
+-----------------------------------------
+Num of top-k answers: 9
+ResultDestNodes: [10000, 20183, 20209, 20184, 20182, 20187, 20192, 20185, 20199]
+ResultRelevs: [11.839210510253906, 9.918301582336426, 9.594654083251953, 9.594654083251953, 9.594654083251953, 9.594654083251953, 9.594654083251953, 9.594654083251953, 9.594654083251953]
+AvgResultRelev: 9.880010075039333
+AvgResultDissimilarity: 0.6203703703703705
+Num of entries retrieved from the lists: 171
+Num of entries retrieved from NKMaps: 231
+Num of answer trees explored: 58
+
+Div Top-k Search by Exhustive, k=9
+[city, desert, africa]
+srcNodes: [40288, 130035, 10000]
+  path: 0[10000 -> 20197 -> 40288], [Africa -> Nigeria -> Benin City] 
+
+  path: 1[10000 -> 20183 -> 130035], [Africa -> Libya -> Libyan Desert] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [40281, 130035, 10000]
+  path: 0[20183 -> 40281], [Libya -> Bengasi] 
+
+  path: 1[20183 -> 130035], [Libya -> Libyan Desert] 
+
+  path: 2[20183 -> 10000], [Libya -> Africa] 
+
+srcNodes: [42956, 130031, 10000]
+  path: 0[20192 -> 42956], [Namibia -> Windhoek] 
+
+  path: 1[20192 -> 130031], [Namibia -> Kalahari] 
+
+  path: 2[20192 -> 10000], [Namibia -> Africa] 
+
+srcNodes: [41850, 130010, 10000]
+  path: 0[20209 -> 41850], [Chad -> NDjamena] 
+
+  path: 1[20209 -> 130010], [Chad -> Djourab] 
+
+  path: 2[20209 -> 10000], [Chad -> Africa] 
+
+srcNodes: [41882, 130002, 10000]
+  path: 0[20187 -> 41882], [Niger -> Niamey] 
+
+  path: 1[20187 -> 130002], [Niger -> Azaouad] 
+
+  path: 2[20187 -> 10000], [Niger -> Africa] 
+
+srcNodes: [40863, 130031, 10000]
+  path: 0[20199 -> 40863], [Botswana -> Gaborone] 
+
+  path: 1[20199 -> 130031], [Botswana -> Kalahari] 
+
+  path: 2[20199 -> 10000], [Botswana -> Africa] 
+
+srcNodes: [40209, 130002, 10000]
+  path: 0[20184 -> 40209], [Mali -> Bamako] 
+
+  path: 1[20184 -> 130002], [Mali -> Azaouad] 
+
+  path: 2[20184 -> 10000], [Mali -> Africa] 
+
+srcNodes: [41769, 130002, 10000]
+  path: 0[20182 -> 41769], [Algeria -> Mostaganem] 
+
+  path: 1[20182 -> 130002], [Algeria -> Azaouad] 
+
+  path: 2[20182 -> 10000], [Algeria -> Africa] 
+
+srcNodes: [41908, 130061, 10000]
+  path: 0[20185 -> 41908], [Mauritania -> Nouakchott] 
+
+  path: 1[20185 -> 130061], [Mauritania -> Trarza] 
+
+  path: 2[20185 -> 10000], [Mauritania -> Africa] 
+
+-----------------------------------------
+ResultDestNodes: [10000, 20183, 20192, 20209, 20187, 20199, 20184, 20182, 20185]
+ResultRelevs: [11.839210510253906, 9.918301582336426, 9.594654083251953, 9.594654083251953, 9.594654083251953, 9.594654083251953, 9.594654083251953, 9.594654083251953, 9.594654083251953]
+AvgResultRelev: 9.880010075039333
+AvgResultDissimilarity: 0.6203703880310059
+Num of entries retrieved from the KNLists: 171
+Num of entries retrieved from NKMaps: 231
+Num of answer trees explored: 58
+Num of answer tree sets created: 511
+Num of answer tree sets removed: 0
+Max Num of answer tree sets in Q[]: 511
+
+Div Top-k Search by Astar02, k=9
+[city, desert, africa]
+srcNodes: [40288, 130035, 10000]
+  path: 0[10000 -> 20197 -> 40288], [Africa -> Nigeria -> Benin City] 
+
+  path: 1[10000 -> 20183 -> 130035], [Africa -> Libya -> Libyan Desert] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [40281, 130035, 10000]
+  path: 0[20183 -> 40281], [Libya -> Bengasi] 
+
+  path: 1[20183 -> 130035], [Libya -> Libyan Desert] 
+
+  path: 2[20183 -> 10000], [Libya -> Africa] 
+
+srcNodes: [42956, 130031, 10000]
+  path: 0[20192 -> 42956], [Namibia -> Windhoek] 
+
+  path: 1[20192 -> 130031], [Namibia -> Kalahari] 
+
+  path: 2[20192 -> 10000], [Namibia -> Africa] 
+
+srcNodes: [41850, 130010, 10000]
+  path: 0[20209 -> 41850], [Chad -> NDjamena] 
+
+  path: 1[20209 -> 130010], [Chad -> Djourab] 
+
+  path: 2[20209 -> 10000], [Chad -> Africa] 
+
+srcNodes: [41882, 130002, 10000]
+  path: 0[20187 -> 41882], [Niger -> Niamey] 
+
+  path: 1[20187 -> 130002], [Niger -> Azaouad] 
+
+  path: 2[20187 -> 10000], [Niger -> Africa] 
+
+srcNodes: [40863, 130031, 10000]
+  path: 0[20199 -> 40863], [Botswana -> Gaborone] 
+
+  path: 1[20199 -> 130031], [Botswana -> Kalahari] 
+
+  path: 2[20199 -> 10000], [Botswana -> Africa] 
+
+srcNodes: [40209, 130002, 10000]
+  path: 0[20184 -> 40209], [Mali -> Bamako] 
+
+  path: 1[20184 -> 130002], [Mali -> Azaouad] 
+
+  path: 2[20184 -> 10000], [Mali -> Africa] 
+
+srcNodes: [41769, 130002, 10000]
+  path: 0[20182 -> 41769], [Algeria -> Mostaganem] 
+
+  path: 1[20182 -> 130002], [Algeria -> Azaouad] 
+
+  path: 2[20182 -> 10000], [Algeria -> Africa] 
+
+srcNodes: [41908, 130061, 10000]
+  path: 0[20185 -> 41908], [Mauritania -> Nouakchott] 
+
+  path: 1[20185 -> 130061], [Mauritania -> Trarza] 
+
+  path: 2[20185 -> 10000], [Mauritania -> Africa] 
+
+-----------------------------------------
+ResultDestNodes: [10000, 20183, 20192, 20209, 20187, 20199, 20184, 20182, 20185]
+ResultRelevs: [11.839210510253906, 9.918301582336426, 9.594654083251953, 9.594654083251953, 9.594654083251953, 9.594654083251953, 9.594654083251953, 9.594654083251953, 9.594654083251953]
+AvgResultRelev: 9.880010075039333
+AvgResultDissimilarity: 0.6203703703703706
+Num of entries retrieved from the KNLists: 171
+Num of entries retrieved from NKMaps: 231
+Num of answer trees explored: 58
+Num of states created: 129
+Num of states explored: 108
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 35
+
+Div Top-k Search by Astar1nc_ap, k=9
+[city, desert, africa]
+srcNodes: [40288, 130035, 10000]
+  path: 0[10000 -> 20197 -> 40288], [Africa -> Nigeria -> Benin City] 
+
+  path: 1[10000 -> 20183 -> 130035], [Africa -> Libya -> Libyan Desert] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [40281, 130035, 10000]
+  path: 0[20183 -> 40281], [Libya -> Bengasi] 
+
+  path: 1[20183 -> 130035], [Libya -> Libyan Desert] 
+
+  path: 2[20183 -> 10000], [Libya -> Africa] 
+
+srcNodes: [42956, 130031, 10000]
+  path: 0[20192 -> 42956], [Namibia -> Windhoek] 
+
+  path: 1[20192 -> 130031], [Namibia -> Kalahari] 
+
+  path: 2[20192 -> 10000], [Namibia -> Africa] 
+
+srcNodes: [41850, 130010, 10000]
+  path: 0[20209 -> 41850], [Chad -> NDjamena] 
+
+  path: 1[20209 -> 130010], [Chad -> Djourab] 
+
+  path: 2[20209 -> 10000], [Chad -> Africa] 
+
+srcNodes: [41882, 130002, 10000]
+  path: 0[20187 -> 41882], [Niger -> Niamey] 
+
+  path: 1[20187 -> 130002], [Niger -> Azaouad] 
+
+  path: 2[20187 -> 10000], [Niger -> Africa] 
+
+srcNodes: [40863, 130031, 10000]
+  path: 0[20199 -> 40863], [Botswana -> Gaborone] 
+
+  path: 1[20199 -> 130031], [Botswana -> Kalahari] 
+
+  path: 2[20199 -> 10000], [Botswana -> Africa] 
+
+srcNodes: [40209, 130002, 10000]
+  path: 0[20184 -> 40209], [Mali -> Bamako] 
+
+  path: 1[20184 -> 130002], [Mali -> Azaouad] 
+
+  path: 2[20184 -> 10000], [Mali -> Africa] 
+
+srcNodes: [41769, 130002, 10000]
+  path: 0[20182 -> 41769], [Algeria -> Mostaganem] 
+
+  path: 1[20182 -> 130002], [Algeria -> Azaouad] 
+
+  path: 2[20182 -> 10000], [Algeria -> Africa] 
+
+srcNodes: [41908, 130061, 10000]
+  path: 0[20185 -> 41908], [Mauritania -> Nouakchott] 
+
+  path: 1[20185 -> 130061], [Mauritania -> Trarza] 
+
+  path: 2[20185 -> 10000], [Mauritania -> Africa] 
+
+-----------------------------------------
+ResultDestNodes: [10000, 20183, 20192, 20209, 20187, 20199, 20184, 20182, 20185]
+ResultRelevs: [11.839210510253906, 9.918301582336426, 9.594654083251953, 9.594654083251953, 9.594654083251953, 9.594654083251953, 9.594654083251953, 9.594654083251953, 9.594654083251953]
+AvgResultRelev: 9.880010075039333
+AvgResultDissimilarity: 0.6203703703703706
+Num of entries retrieved from the KNLists: 171
+Num of entries retrieved from NKMaps: 231
+Num of answer trees explored: 58
+Num of states created: 10
+Num of states explored: 10
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+query: [city, desert, california]
+Top-k Search by Blink-BDB, k=9
+[city, desert, california]
+srcNodes: [42007, 130052, 30991]
+  path: 0[30991 -> 42007], [California -> Oxnard] 
+
+  path: 1[30991 -> 130052], [California -> Sonora] 
+
+  path: 2[30991 -> 30991], [California -> California]
+srcNodes: [42734, 130003, 30942]
+  path: 0[30942 -> 42734], [Baja California -> Tijuana] 
+
+  path: 1[30942 -> 130003], [Baja California -> Baja California Desert] 
+
+  path: 2[30942 -> 30942], [Baja California -> Baja California]
+srcNodes: [40465, 130003, 30991]
+  path: 0[90150 -> 31014 -> 40465], [Colorado -> Nevada -> Carson City] 
+
+  path: 1[90150 -> 30942 -> 130003], [Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[90150 -> 30991], [Colorado -> California] 
+
+srcNodes: [41954, 130004, 30991]
+  path: 0[20118 -> 31022 -> 41954], [United States -> Oklahoma -> Oklahoma City] 
+
+  path: 1[20118 -> 31029 -> 130004], [United States -> Texas -> Chihuahua] 
+
+  path: 2[20118 -> 30991], [United States -> California] 
+
+srcNodes: [40465, 130036, 30991]
+  path: 0[90149 -> 31014 -> 40465], [Truckee River -> Nevada -> Carson City] 
+
+  path: 1[90149 -> 31014 -> 130036], [Truckee River -> Nevada -> Mojave] 
+
+  path: 2[90149 -> 30991], [Truckee River -> California] 
+
+srcNodes: [40465, 130052, 30991]
+  path: 0[195 -> 31014 -> 40465], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Carson City] 
+
+  path: 1[195 -> 30991 -> 130052], [Boundary Peak Boundary Peak Sierra Nevada California  -> California -> Sonora] 
+
+  path: 2[195 -> 30991], [Boundary Peak Boundary Peak Sierra Nevada California  -> California] 
+
+srcNodes: [42332, 130036, 30991]
+  path: 0[31030 -> 42332], [Utah -> Salt Lake City] 
+
+  path: 1[31030 -> 130036], [Utah -> Mojave] 
+
+  path: 2[31030 -> 90150 -> 30991], [Utah -> Colorado -> California] 
+
+srcNodes: [40465, 130036, 30991]
+  path: 0[31014 -> 40465], [Nevada -> Carson City] 
+
+  path: 1[31014 -> 130036], [Nevada -> Mojave] 
+
+  path: 2[31014 -> 195 -> 30991], [Nevada -> Boundary Peak Boundary Peak Sierra Nevada California  -> California] 
+
+srcNodes: [42007, 130052, 30991]
+  path: 0[110237 -> 30991 -> 42007], [Santa Rosa Island Santa Rosa Island Californian Channel Islands  -> California -> Oxnard] 
+
+  path: 1[110237 -> 30991 -> 130052], [Santa Rosa Island Santa Rosa Island Californian Channel Islands  -> California -> Sonora] 
+
+  path: 2[110237 -> 30991], [Santa Rosa Island Santa Rosa Island Californian Channel Islands  -> California] 
+
+This is a non-reduced answer tree with common first node 30991
+
+-----------------------------------------
+Num of top-k answers: 9
+ResultDestNodes: [30991, 30942, 90150, 20118, 90149, 195, 31030, 31014, 110237]
+ResultRelevs: [8.138168334960938, 7.480266571044922, 6.164420127868652, 5.922308921813965, 5.922308921813965, 5.922308921813965, 5.897315979003906, 5.897315979003906, 5.846951484680176]
+AvgResultRelev: 6.354596138000488
+AvgResultDissimilarity: 0.6111111111111112
+Num of entries retrieved from the lists: 191
+Num of entries retrieved from NKMaps: 256
+Num of answer trees explored: 61
+
+Div Top-k Search by Exhustive, k=9
+[city, desert, california]
+srcNodes: [42007, 130052, 30991]
+  path: 0[30991 -> 42007], [California -> Oxnard] 
+
+  path: 1[30991 -> 130052], [California -> Sonora] 
+
+  path: 2[30991 -> 30991], [California -> California]
+srcNodes: [42734, 130003, 30942]
+  path: 0[30942 -> 42734], [Baja California -> Tijuana] 
+
+  path: 1[30942 -> 130003], [Baja California -> Baja California Desert] 
+
+  path: 2[30942 -> 30942], [Baja California -> Baja California]
+srcNodes: [40465, 130003, 30991]
+  path: 0[90150 -> 31014 -> 40465], [Colorado -> Nevada -> Carson City] 
+
+  path: 1[90150 -> 30942 -> 130003], [Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[90150 -> 30991], [Colorado -> California] 
+
+srcNodes: [40465, 130052, 30991]
+  path: 0[195 -> 31014 -> 40465], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Carson City] 
+
+  path: 1[195 -> 30991 -> 130052], [Boundary Peak Boundary Peak Sierra Nevada California  -> California -> Sonora] 
+
+  path: 2[195 -> 30991], [Boundary Peak Boundary Peak Sierra Nevada California  -> California] 
+
+srcNodes: [40465, 130036, 30991]
+  path: 0[90149 -> 31014 -> 40465], [Truckee River -> Nevada -> Carson City] 
+
+  path: 1[90149 -> 31014 -> 130036], [Truckee River -> Nevada -> Mojave] 
+
+  path: 2[90149 -> 30991], [Truckee River -> California] 
+
+srcNodes: [41954, 130004, 30991]
+  path: 0[20118 -> 31022 -> 41954], [United States -> Oklahoma -> Oklahoma City] 
+
+  path: 1[20118 -> 31029 -> 130004], [United States -> Texas -> Chihuahua] 
+
+  path: 2[20118 -> 30991], [United States -> California] 
+
+srcNodes: [40465, 130036, 30991]
+  path: 0[31014 -> 40465], [Nevada -> Carson City] 
+
+  path: 1[31014 -> 130036], [Nevada -> Mojave] 
+
+  path: 2[31014 -> 195 -> 30991], [Nevada -> Boundary Peak Boundary Peak Sierra Nevada California  -> California] 
+
+srcNodes: [42332, 130036, 30991]
+  path: 0[31030 -> 42332], [Utah -> Salt Lake City] 
+
+  path: 1[31030 -> 130036], [Utah -> Mojave] 
+
+  path: 2[31030 -> 90150 -> 30991], [Utah -> Colorado -> California] 
+
+srcNodes: [42007, 130052, 30991]
+  path: 0[110238 -> 30991 -> 42007], [San Clemente Island San Clemente Island Californian Channel Islands  -> California -> Oxnard] 
+
+  path: 1[110238 -> 30991 -> 130052], [San Clemente Island San Clemente Island Californian Channel Islands  -> California -> Sonora] 
+
+  path: 2[110238 -> 30991], [San Clemente Island San Clemente Island Californian Channel Islands  -> California] 
+
+This is a non-reduced answer tree with common first node 30991
+
+-----------------------------------------
+ResultDestNodes: [30991, 30942, 90150, 195, 90149, 20118, 31014, 31030, 110238]
+ResultRelevs: [8.138168334960938, 7.480266571044922, 6.164420127868652, 5.922308921813965, 5.922308921813965, 5.922308921813965, 5.897315979003906, 5.897315979003906, 5.846951484680176]
+AvgResultRelev: 6.354596138000488
+AvgResultDissimilarity: 0.6111111111111112
+Num of entries retrieved from the KNLists: 191
+Num of entries retrieved from NKMaps: 256
+Num of answer trees explored: 61
+Num of answer tree sets created: 511
+Num of answer tree sets removed: 0
+Max Num of answer tree sets in Q[]: 511
+
+Div Top-k Search by Astar02, k=9
+[city, desert, california]
+srcNodes: [42007, 130052, 30991]
+  path: 0[30991 -> 42007], [California -> Oxnard] 
+
+  path: 1[30991 -> 130052], [California -> Sonora] 
+
+  path: 2[30991 -> 30991], [California -> California]
+srcNodes: [42734, 130003, 30942]
+  path: 0[30942 -> 42734], [Baja California -> Tijuana] 
+
+  path: 1[30942 -> 130003], [Baja California -> Baja California Desert] 
+
+  path: 2[30942 -> 30942], [Baja California -> Baja California]
+srcNodes: [40465, 130003, 30991]
+  path: 0[90150 -> 31014 -> 40465], [Colorado -> Nevada -> Carson City] 
+
+  path: 1[90150 -> 30942 -> 130003], [Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[90150 -> 30991], [Colorado -> California] 
+
+srcNodes: [40465, 130052, 30991]
+  path: 0[195 -> 31014 -> 40465], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Carson City] 
+
+  path: 1[195 -> 30991 -> 130052], [Boundary Peak Boundary Peak Sierra Nevada California  -> California -> Sonora] 
+
+  path: 2[195 -> 30991], [Boundary Peak Boundary Peak Sierra Nevada California  -> California] 
+
+srcNodes: [40465, 130036, 30991]
+  path: 0[90149 -> 31014 -> 40465], [Truckee River -> Nevada -> Carson City] 
+
+  path: 1[90149 -> 31014 -> 130036], [Truckee River -> Nevada -> Mojave] 
+
+  path: 2[90149 -> 30991], [Truckee River -> California] 
+
+srcNodes: [41954, 130004, 30991]
+  path: 0[20118 -> 31022 -> 41954], [United States -> Oklahoma -> Oklahoma City] 
+
+  path: 1[20118 -> 31029 -> 130004], [United States -> Texas -> Chihuahua] 
+
+  path: 2[20118 -> 30991], [United States -> California] 
+
+srcNodes: [40465, 130036, 30991]
+  path: 0[31014 -> 40465], [Nevada -> Carson City] 
+
+  path: 1[31014 -> 130036], [Nevada -> Mojave] 
+
+  path: 2[31014 -> 195 -> 30991], [Nevada -> Boundary Peak Boundary Peak Sierra Nevada California  -> California] 
+
+srcNodes: [42332, 130036, 30991]
+  path: 0[31030 -> 42332], [Utah -> Salt Lake City] 
+
+  path: 1[31030 -> 130036], [Utah -> Mojave] 
+
+  path: 2[31030 -> 90150 -> 30991], [Utah -> Colorado -> California] 
+
+srcNodes: [42007, 130052, 30991]
+  path: 0[110238 -> 30991 -> 42007], [San Clemente Island San Clemente Island Californian Channel Islands  -> California -> Oxnard] 
+
+  path: 1[110238 -> 30991 -> 130052], [San Clemente Island San Clemente Island Californian Channel Islands  -> California -> Sonora] 
+
+  path: 2[110238 -> 30991], [San Clemente Island San Clemente Island Californian Channel Islands  -> California] 
+
+This is a non-reduced answer tree with common first node 30991
+
+-----------------------------------------
+ResultDestNodes: [30991, 30942, 90150, 195, 90149, 20118, 31014, 31030, 110238]
+ResultRelevs: [8.138168334960938, 7.480266571044922, 6.164420127868652, 5.922308921813965, 5.922308921813965, 5.922308921813965, 5.897315979003906, 5.897315979003906, 5.846951484680176]
+AvgResultRelev: 6.354596138000488
+AvgResultDissimilarity: 0.6111111111111112
+Num of entries retrieved from the KNLists: 191
+Num of entries retrieved from NKMaps: 256
+Num of answer trees explored: 61
+Num of states created: 46
+Num of states explored: 10
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 37
+
+Div Top-k Search by Astar1nc_ap, k=9
+[city, desert, california]
+srcNodes: [42007, 130052, 30991]
+  path: 0[30991 -> 42007], [California -> Oxnard] 
+
+  path: 1[30991 -> 130052], [California -> Sonora] 
+
+  path: 2[30991 -> 30991], [California -> California]
+srcNodes: [42734, 130003, 30942]
+  path: 0[30942 -> 42734], [Baja California -> Tijuana] 
+
+  path: 1[30942 -> 130003], [Baja California -> Baja California Desert] 
+
+  path: 2[30942 -> 30942], [Baja California -> Baja California]
+srcNodes: [40465, 130003, 30991]
+  path: 0[90150 -> 31014 -> 40465], [Colorado -> Nevada -> Carson City] 
+
+  path: 1[90150 -> 30942 -> 130003], [Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[90150 -> 30991], [Colorado -> California] 
+
+srcNodes: [40465, 130052, 30991]
+  path: 0[195 -> 31014 -> 40465], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Carson City] 
+
+  path: 1[195 -> 30991 -> 130052], [Boundary Peak Boundary Peak Sierra Nevada California  -> California -> Sonora] 
+
+  path: 2[195 -> 30991], [Boundary Peak Boundary Peak Sierra Nevada California  -> California] 
+
+srcNodes: [40465, 130036, 30991]
+  path: 0[90149 -> 31014 -> 40465], [Truckee River -> Nevada -> Carson City] 
+
+  path: 1[90149 -> 31014 -> 130036], [Truckee River -> Nevada -> Mojave] 
+
+  path: 2[90149 -> 30991], [Truckee River -> California] 
+
+srcNodes: [41954, 130004, 30991]
+  path: 0[20118 -> 31022 -> 41954], [United States -> Oklahoma -> Oklahoma City] 
+
+  path: 1[20118 -> 31029 -> 130004], [United States -> Texas -> Chihuahua] 
+
+  path: 2[20118 -> 30991], [United States -> California] 
+
+srcNodes: [40465, 130036, 30991]
+  path: 0[31014 -> 40465], [Nevada -> Carson City] 
+
+  path: 1[31014 -> 130036], [Nevada -> Mojave] 
+
+  path: 2[31014 -> 195 -> 30991], [Nevada -> Boundary Peak Boundary Peak Sierra Nevada California  -> California] 
+
+srcNodes: [42332, 130036, 30991]
+  path: 0[31030 -> 42332], [Utah -> Salt Lake City] 
+
+  path: 1[31030 -> 130036], [Utah -> Mojave] 
+
+  path: 2[31030 -> 90150 -> 30991], [Utah -> Colorado -> California] 
+
+srcNodes: [42007, 130052, 30991]
+  path: 0[110238 -> 30991 -> 42007], [San Clemente Island San Clemente Island Californian Channel Islands  -> California -> Oxnard] 
+
+  path: 1[110238 -> 30991 -> 130052], [San Clemente Island San Clemente Island Californian Channel Islands  -> California -> Sonora] 
+
+  path: 2[110238 -> 30991], [San Clemente Island San Clemente Island Californian Channel Islands  -> California] 
+
+This is a non-reduced answer tree with common first node 30991
+
+-----------------------------------------
+ResultDestNodes: [30991, 30942, 90150, 195, 90149, 20118, 31014, 31030, 110238]
+ResultRelevs: [8.138168334960938, 7.480266571044922, 6.164420127868652, 5.922308921813965, 5.922308921813965, 5.922308921813965, 5.897315979003906, 5.897315979003906, 5.846951484680176]
+AvgResultRelev: 6.354596138000488
+AvgResultDissimilarity: 0.6111111111111112
+Num of entries retrieved from the KNLists: 191
+Num of entries retrieved from NKMaps: 256
+Num of answer trees explored: 61
+Num of states created: 10
+Num of states explored: 10
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+query: [river, falls, mountain]
+Top-k Search by Blink-BDB, k=9
+[river, falls, mountain]
+srcNodes: [90143, 42532, 183]
+  path: 0[31027 -> 90143], [South Dakota -> Missouri] 
+
+  path: 1[31027 -> 42532], [South Dakota -> Sioux Falls] 
+
+  path: 2[31027 -> 183], [South Dakota -> Harney Peak Harney Peak Rocky Mountains ] 
+
+srcNodes: [90143, 42532, 181]
+  path: 0[90143 -> 90143], [Missouri -> Missouri]
+  path: 1[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+  path: 2[90143 -> 31012 -> 181], [Missouri -> Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+srcNodes: [90151, 42951, 190]
+  path: 0[31029 -> 90151], [Texas -> Rio Grande] 
+
+  path: 1[31029 -> 42951], [Texas -> Wichita Falls] 
+
+  path: 2[31029 -> 190], [Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+srcNodes: [90143, 42532, 183]
+  path: 0[183 -> 31027 -> 90143], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Missouri] 
+
+  path: 1[183 -> 31027 -> 42532], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Sioux Falls] 
+
+  path: 2[183 -> 183], [Harney Peak Harney Peak Rocky Mountains  -> Harney Peak Harney Peak Rocky Mountains ]
+srcNodes: [90151, 42951, 186]
+  path: 0[90151 -> 90151], [Rio Grande -> Rio Grande]
+  path: 1[90151 -> 31029 -> 42951], [Rio Grande -> Texas -> Wichita Falls] 
+
+  path: 2[90151 -> 30992 -> 186], [Rio Grande -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+srcNodes: [90151, 42951, 190]
+  path: 0[190 -> 31029 -> 90151], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Rio Grande] 
+
+  path: 1[190 -> 31029 -> 42951], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Wichita Falls] 
+
+  path: 2[190 -> 190], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Guadalupe Peak Guadalupe Peak Rocky Mountains ]
+srcNodes: [90142, 42532, 199]
+  path: 0[90142 -> 90142], [Mississippi -> Mississippi]
+  path: 1[90142 -> 31011 -> 90143 -> 31027 -> 42532], [Mississippi -> Missouri -> Missouri -> South Dakota -> Sioux Falls] 
+
+  path: 2[90142 -> 31028 -> 199], [Mississippi -> Tennessee -> Clingmans Dome Clingmans Dome Appalachen ] 
+
+srcNodes: [90130, 42532, 210]
+  path: 0[20118 -> 30988 -> 90130], [United States -> Alaska -> Yukon River] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 10001 -> 20132 -> 210], [United States -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+srcNodes: [90150, 42951, 185]
+  path: 0[90150 -> 90150], [Colorado -> Colorado]
+  path: 1[90150 -> 30992 -> 90151 -> 31029 -> 42951], [Colorado -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+  path: 2[90150 -> 31030 -> 185], [Colorado -> Utah -> Kings Peak Kings Peak Rocky Mountains ] 
+
+-----------------------------------------
+Num of top-k answers: 9
+ResultDestNodes: [31027, 90143, 31029, 183, 90151, 190, 90142, 20118, 90150]
+ResultRelevs: [6.285680294036865, 6.016969203948975, 5.900439739227295, 5.602536678314209, 5.46581506729126, 5.314350128173828, 5.192925453186035, 5.118434906005859, 5.051960468292236]
+AvgResultRelev: 5.5499013264973955
+AvgResultDissimilarity: 0.7777777777777779
+Num of entries retrieved from the lists: 289
+Num of entries retrieved from NKMaps: 440
+Num of answer trees explored: 94
+
+Div Top-k Search by Exhustive, k=9
+[river, falls, mountain]
+srcNodes: [90143, 42532, 183]
+  path: 0[31027 -> 90143], [South Dakota -> Missouri] 
+
+  path: 1[31027 -> 42532], [South Dakota -> Sioux Falls] 
+
+  path: 2[31027 -> 183], [South Dakota -> Harney Peak Harney Peak Rocky Mountains ] 
+
+srcNodes: [90143, 42532, 181]
+  path: 0[90143 -> 90143], [Missouri -> Missouri]
+  path: 1[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+  path: 2[90143 -> 31012 -> 181], [Missouri -> Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+srcNodes: [90151, 42951, 190]
+  path: 0[31029 -> 90151], [Texas -> Rio Grande] 
+
+  path: 1[31029 -> 42951], [Texas -> Wichita Falls] 
+
+  path: 2[31029 -> 190], [Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+srcNodes: [90143, 42532, 183]
+  path: 0[183 -> 31027 -> 90143], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Missouri] 
+
+  path: 1[183 -> 31027 -> 42532], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Sioux Falls] 
+
+  path: 2[183 -> 183], [Harney Peak Harney Peak Rocky Mountains  -> Harney Peak Harney Peak Rocky Mountains ]
+srcNodes: [90151, 42951, 186]
+  path: 0[90151 -> 90151], [Rio Grande -> Rio Grande]
+  path: 1[90151 -> 31029 -> 42951], [Rio Grande -> Texas -> Wichita Falls] 
+
+  path: 2[90151 -> 30992 -> 186], [Rio Grande -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+srcNodes: [90151, 42951, 190]
+  path: 0[190 -> 31029 -> 90151], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Rio Grande] 
+
+  path: 1[190 -> 31029 -> 42951], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Wichita Falls] 
+
+  path: 2[190 -> 190], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Guadalupe Peak Guadalupe Peak Rocky Mountains ]
+srcNodes: [90142, 42532, 199]
+  path: 0[90142 -> 90142], [Mississippi -> Mississippi]
+  path: 1[90142 -> 31011 -> 90143 -> 31027 -> 42532], [Mississippi -> Missouri -> Missouri -> South Dakota -> Sioux Falls] 
+
+  path: 2[90142 -> 31028 -> 199], [Mississippi -> Tennessee -> Clingmans Dome Clingmans Dome Appalachen ] 
+
+srcNodes: [90130, 42532, 210]
+  path: 0[20118 -> 30988 -> 90130], [United States -> Alaska -> Yukon River] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 10001 -> 20132 -> 210], [United States -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+srcNodes: [90150, 42951, 185]
+  path: 0[90150 -> 90150], [Colorado -> Colorado]
+  path: 1[90150 -> 30992 -> 90151 -> 31029 -> 42951], [Colorado -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+  path: 2[90150 -> 31030 -> 185], [Colorado -> Utah -> Kings Peak Kings Peak Rocky Mountains ] 
+
+-----------------------------------------
+ResultDestNodes: [31027, 90143, 31029, 183, 90151, 190, 90142, 20118, 90150]
+ResultRelevs: [6.285680294036865, 6.016969203948975, 5.900439739227295, 5.602536678314209, 5.46581506729126, 5.314350128173828, 5.192925453186035, 5.118434906005859, 5.051960468292236]
+AvgResultRelev: 5.5499013264973955
+AvgResultDissimilarity: 0.7777777777777778
+Num of entries retrieved from the KNLists: 289
+Num of entries retrieved from NKMaps: 440
+Num of answer trees explored: 94
+Num of answer tree sets created: 511
+Num of answer tree sets removed: 0
+Max Num of answer tree sets in Q[]: 511
+
+Div Top-k Search by Astar02, k=9
+[river, falls, mountain]
+srcNodes: [90143, 42532, 183]
+  path: 0[31027 -> 90143], [South Dakota -> Missouri] 
+
+  path: 1[31027 -> 42532], [South Dakota -> Sioux Falls] 
+
+  path: 2[31027 -> 183], [South Dakota -> Harney Peak Harney Peak Rocky Mountains ] 
+
+srcNodes: [90143, 42532, 181]
+  path: 0[90143 -> 90143], [Missouri -> Missouri]
+  path: 1[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+  path: 2[90143 -> 31012 -> 181], [Missouri -> Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+srcNodes: [90151, 42951, 190]
+  path: 0[31029 -> 90151], [Texas -> Rio Grande] 
+
+  path: 1[31029 -> 42951], [Texas -> Wichita Falls] 
+
+  path: 2[31029 -> 190], [Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+srcNodes: [90143, 42532, 183]
+  path: 0[183 -> 31027 -> 90143], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Missouri] 
+
+  path: 1[183 -> 31027 -> 42532], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Sioux Falls] 
+
+  path: 2[183 -> 183], [Harney Peak Harney Peak Rocky Mountains  -> Harney Peak Harney Peak Rocky Mountains ]
+srcNodes: [90151, 42951, 186]
+  path: 0[90151 -> 90151], [Rio Grande -> Rio Grande]
+  path: 1[90151 -> 31029 -> 42951], [Rio Grande -> Texas -> Wichita Falls] 
+
+  path: 2[90151 -> 30992 -> 186], [Rio Grande -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+srcNodes: [90151, 42951, 190]
+  path: 0[190 -> 31029 -> 90151], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Rio Grande] 
+
+  path: 1[190 -> 31029 -> 42951], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Wichita Falls] 
+
+  path: 2[190 -> 190], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Guadalupe Peak Guadalupe Peak Rocky Mountains ]
+srcNodes: [90142, 42532, 199]
+  path: 0[90142 -> 90142], [Mississippi -> Mississippi]
+  path: 1[90142 -> 31011 -> 90143 -> 31027 -> 42532], [Mississippi -> Missouri -> Missouri -> South Dakota -> Sioux Falls] 
+
+  path: 2[90142 -> 31028 -> 199], [Mississippi -> Tennessee -> Clingmans Dome Clingmans Dome Appalachen ] 
+
+srcNodes: [90130, 42532, 210]
+  path: 0[20118 -> 30988 -> 90130], [United States -> Alaska -> Yukon River] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 10001 -> 20132 -> 210], [United States -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+srcNodes: [90150, 42951, 185]
+  path: 0[90150 -> 90150], [Colorado -> Colorado]
+  path: 1[90150 -> 30992 -> 90151 -> 31029 -> 42951], [Colorado -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+  path: 2[90150 -> 31030 -> 185], [Colorado -> Utah -> Kings Peak Kings Peak Rocky Mountains ] 
+
+-----------------------------------------
+ResultDestNodes: [31027, 90143, 31029, 183, 90151, 190, 90142, 20118, 90150]
+ResultRelevs: [6.285680294036865, 6.016969203948975, 5.900439739227295, 5.602536678314209, 5.46581506729126, 5.314350128173828, 5.192925453186035, 5.118434906005859, 5.051960468292236]
+AvgResultRelev: 5.5499013264973955
+AvgResultDissimilarity: 0.7777777777777779
+Num of entries retrieved from the KNLists: 289
+Num of entries retrieved from NKMaps: 440
+Num of answer trees explored: 94
+Num of states created: 46
+Num of states explored: 10
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 37
+
+Div Top-k Search by Astar1nc_ap, k=9
+[river, falls, mountain]
+srcNodes: [90143, 42532, 183]
+  path: 0[31027 -> 90143], [South Dakota -> Missouri] 
+
+  path: 1[31027 -> 42532], [South Dakota -> Sioux Falls] 
+
+  path: 2[31027 -> 183], [South Dakota -> Harney Peak Harney Peak Rocky Mountains ] 
+
+srcNodes: [90143, 42532, 181]
+  path: 0[90143 -> 90143], [Missouri -> Missouri]
+  path: 1[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+  path: 2[90143 -> 31012 -> 181], [Missouri -> Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+srcNodes: [90151, 42951, 190]
+  path: 0[31029 -> 90151], [Texas -> Rio Grande] 
+
+  path: 1[31029 -> 42951], [Texas -> Wichita Falls] 
+
+  path: 2[31029 -> 190], [Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+srcNodes: [90143, 42532, 183]
+  path: 0[183 -> 31027 -> 90143], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Missouri] 
+
+  path: 1[183 -> 31027 -> 42532], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Sioux Falls] 
+
+  path: 2[183 -> 183], [Harney Peak Harney Peak Rocky Mountains  -> Harney Peak Harney Peak Rocky Mountains ]
+srcNodes: [90151, 42951, 186]
+  path: 0[90151 -> 90151], [Rio Grande -> Rio Grande]
+  path: 1[90151 -> 31029 -> 42951], [Rio Grande -> Texas -> Wichita Falls] 
+
+  path: 2[90151 -> 30992 -> 186], [Rio Grande -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+srcNodes: [90151, 42951, 190]
+  path: 0[190 -> 31029 -> 90151], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Rio Grande] 
+
+  path: 1[190 -> 31029 -> 42951], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Wichita Falls] 
+
+  path: 2[190 -> 190], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Guadalupe Peak Guadalupe Peak Rocky Mountains ]
+srcNodes: [90142, 42532, 199]
+  path: 0[90142 -> 90142], [Mississippi -> Mississippi]
+  path: 1[90142 -> 31011 -> 90143 -> 31027 -> 42532], [Mississippi -> Missouri -> Missouri -> South Dakota -> Sioux Falls] 
+
+  path: 2[90142 -> 31028 -> 199], [Mississippi -> Tennessee -> Clingmans Dome Clingmans Dome Appalachen ] 
+
+srcNodes: [90130, 42532, 210]
+  path: 0[20118 -> 30988 -> 90130], [United States -> Alaska -> Yukon River] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 10001 -> 20132 -> 210], [United States -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+srcNodes: [90150, 42951, 185]
+  path: 0[90150 -> 90150], [Colorado -> Colorado]
+  path: 1[90150 -> 30992 -> 90151 -> 31029 -> 42951], [Colorado -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+  path: 2[90150 -> 31030 -> 185], [Colorado -> Utah -> Kings Peak Kings Peak Rocky Mountains ] 
+
+-----------------------------------------
+ResultDestNodes: [31027, 90143, 31029, 183, 90151, 190, 90142, 20118, 90150]
+ResultRelevs: [6.285680294036865, 6.016969203948975, 5.900439739227295, 5.602536678314209, 5.46581506729126, 5.314350128173828, 5.192925453186035, 5.118434906005859, 5.051960468292236]
+AvgResultRelev: 5.5499013264973955
+AvgResultDissimilarity: 0.7777777777777779
+Num of entries retrieved from the KNLists: 289
+Num of entries retrieved from NKMaps: 440
+Num of answer trees explored: 94
+Num of states created: 10
+Num of states explored: 10
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+query: [caldera, lake, america]
+Top-k Search by Blink-BDB, k=9
+[caldera, lake, america]
+srcNodes: [80107, 80117, 10001]
+  path: 0[10001 -> 20118 -> 31023 -> 80107], [America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[10001 -> 20121 -> 80117], [America -> Nicaragua -> Lake Nicaragua Lake Nicaragua ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [80107, 80095, 10001]
+  path: 0[20118 -> 31023 -> 80107], [United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20118 -> 31018 -> 80095], [United States -> New York -> Lake Ontario Lake Ontario ] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20170 -> 10001 -> 20118 -> 31023 -> 80107], [Bolivia -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20170 -> 80122], [Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [80107, 80117, 10001]
+  path: 0[20121 -> 10001 -> 20118 -> 31023 -> 80107], [Nicaragua -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20121 -> 80117], [Nicaragua -> Lake Nicaragua Lake Nicaragua ] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [80107, 80089, 10001]
+  path: 0[20117 -> 20118 -> 31023 -> 80107], [Canada -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20117 -> 30980 -> 80089], [Canada -> Northwest Territories -> Great Bear Lake Great Bear Lake ] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+srcNodes: [80107, 80125, 10001]
+  path: 0[20172 -> 10001 -> 20118 -> 31023 -> 80107], [Chile -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20172 -> 80125], [Chile -> Licancabur Crater Lake Licancabur Crater Lake crater] 
+
+  path: 2[20172 -> 10001], [Chile -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20169 -> 10001 -> 20118 -> 31023 -> 80107], [Argentina -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20169 -> 20170 -> 80122], [Argentina -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20169 -> 10001], [Argentina -> America] 
+
+srcNodes: [80107, 80120, 10001]
+  path: 0[20179 -> 10001 -> 20118 -> 31023 -> 80107], [Venezuela -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20179 -> 31277 -> 80120], [Venezuela -> Zulia -> Lake Maracaibo Lake Maracaibo ] 
+
+  path: 2[20179 -> 10001], [Venezuela -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20171 -> 10001 -> 20118 -> 31023 -> 80107], [Brazil -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20171 -> 20170 -> 80122], [Brazil -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20171 -> 10001], [Brazil -> America] 
+
+-----------------------------------------
+Num of top-k answers: 9
+ResultDestNodes: [10001, 20118, 20170, 20121, 20117, 20172, 20169, 20179, 20171]
+ResultRelevs: [12.45560359954834, 10.196870803833008, 9.951774597167969, 9.951774597167969, 9.714677810668945, 9.648557662963867, 9.340660095214844, 9.340660095214844, 9.340660095214844]
+AvgResultRelev: 9.993471039666069
+AvgResultDissimilarity: 0.29629629629629634
+Num of entries retrieved from the lists: 254
+Num of entries retrieved from NKMaps: 386
+Num of answer trees explored: 59
+
+Div Top-k Search by Exhustive, k=9
+[caldera, lake, america]
+srcNodes: [80107, 80117, 10001]
+  path: 0[10001 -> 20118 -> 31023 -> 80107], [America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[10001 -> 20121 -> 80117], [America -> Nicaragua -> Lake Nicaragua Lake Nicaragua ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [80107, 80095, 10001]
+  path: 0[20118 -> 31023 -> 80107], [United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20118 -> 31018 -> 80095], [United States -> New York -> Lake Ontario Lake Ontario ] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20170 -> 10001 -> 20118 -> 31023 -> 80107], [Bolivia -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20170 -> 80122], [Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [80107, 80117, 10001]
+  path: 0[20121 -> 10001 -> 20118 -> 31023 -> 80107], [Nicaragua -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20121 -> 80117], [Nicaragua -> Lake Nicaragua Lake Nicaragua ] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [80107, 80089, 10001]
+  path: 0[20117 -> 20118 -> 31023 -> 80107], [Canada -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20117 -> 30980 -> 80089], [Canada -> Northwest Territories -> Great Bear Lake Great Bear Lake ] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+srcNodes: [80107, 80125, 10001]
+  path: 0[20172 -> 10001 -> 20118 -> 31023 -> 80107], [Chile -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20172 -> 80125], [Chile -> Licancabur Crater Lake Licancabur Crater Lake crater] 
+
+  path: 2[20172 -> 10001], [Chile -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20169 -> 10001 -> 20118 -> 31023 -> 80107], [Argentina -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20169 -> 20170 -> 80122], [Argentina -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20169 -> 10001], [Argentina -> America] 
+
+srcNodes: [80027, 80033, 50039]
+  path: 0[20013 -> 30124 -> 80027], [Italy -> Umbria -> Lago Trasimeno Lago Trasimeno caldera] 
+
+  path: 1[20013 -> 10004 -> 20002 -> 80033], [Italy -> Europe -> Macedonia -> Lake Prespa Lake Prespa ] 
+
+  path: 2[20013 -> 50039], [Italy -> Economic Commission for Latin America and the Caribbean Economic Commission for Latin America and the Caribbean ECLAC] 
+
+srcNodes: [80047, 80047, 10001]
+  path: 0[20159 -> 10003 -> 20086 -> 80047], [Norfolk Island -> Australia/Oceania -> Indonesia -> Lake Toba Lake Toba caldera] 
+
+  path: 1[20159 -> 10003 -> 20086 -> 80047], [Norfolk Island -> Australia/Oceania -> Indonesia -> Lake Toba Lake Toba caldera] 
+
+  path: 2[20159 -> 41321 -> 110205 -> 20132 -> 10001], [Norfolk Island -> Kingston -> Jamaica Jamaica Greater Antilles  -> Jamaica -> America] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20118, 20170, 20121, 20117, 20172, 20169, 20013, 20159]
+ResultRelevs: [12.45560359954834, 10.196870803833008, 9.951774597167969, 9.951774597167969, 9.714677810668945, 9.648557662963867, 9.340660095214844, 5.679354667663574, 5.657777786254883]
+AvgResultRelev: 9.177450180053711
+AvgResultDissimilarity: 0.5148148006863065
+Num of entries retrieved from the KNLists: 714
+Num of entries retrieved from NKMaps: 981
+Num of answer trees explored: 95
+Num of answer tree sets created: 246057879
+Num of answer tree sets removed: 1278137
+Max Num of answer tree sets in Q[]: 246057879
+

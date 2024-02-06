@@ -1,0 +1,9 @@
+ResultDestNodes.length, numOfKNListsRead, numOfNKMapLookups, numOfAnswerTreesExplored, (AvgResultRelev, AvgResultRelev/ResultRelevs[0], AvgResultDiss) elapseTime, 
+ResultDestNodes.length, numOfKNListsRead, numOfNKMapLookups, numOfAnswerTreesExplored, (AvgResultRelev, AvgResultRelev/ResultRelevs[0], AvgResultDiss) elapseTime, numOfStatesCreated, numOfStatesExplored, numOfHeuristicSearchPerformed 
+ResultDestNodes.length, numOfKNListsRead, numOfNKMapLookups, numOfAnswerTreesExplored, (AvgResultRelev, AvgResultRelev/ResultRelevs[0], AvgResultDiss), elapseTime, numOfAnswerTreeSetsCreated, 
+queryProcessing.BlinkSearcher, 4, 100, 158, 40, (5.21709, 0.96807, 0.50000) 0.087524243, 
+queryProcessing.DivTopKExhustiveSearcher, 4, 117, 180, 46, (5.15382, 0.95633: 0.80000) 0.103700845, 27, 
+queryProcessing.DivTopK_Astar1, 4, 117, 180, 46, (5.15382, 0.95633: 0.80000) 0.077157897, 29, 15, 2 
+queryProcessing.DivTopK_Astar2, 4, 117, 180, 46, (5.15382, 0.95633: 0.80000) 0.060397136, 29, 15, 2 
+queryProcessing.DivTopK_Astar3, 4, 117, 180, 46, (5.15382, 0.95633: 0.80000) 0.060900498, 25, 31, 3 
+queryProcessing.DivTopK_Astar4, 4, 117, 180, 46, (5.15382, 0.95633: 0.80000) 0.079158009, 32, 54, 3 

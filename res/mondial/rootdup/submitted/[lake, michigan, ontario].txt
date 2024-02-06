@@ -1,0 +1,882 @@
+Blink Search Using BDB 10
+[lake, michigan, ontario]
+srcNodes: [80099, 31008, 30982]
+  path: 0[31008 -> 80099], [Michigan -> Lake Michigan Lake Michigan ] 
+
+  path: 1[31008 -> 31008], [Michigan -> Michigan]
+  path: 2[31008 -> 90136 -> 30982], [Michigan -> Detroit River -> Ontario] 
+
+srcNodes: [80100, 31008, 30982]
+  path: 0[30982 -> 80100], [Ontario -> Lake Superior Lake Superior ] 
+
+  path: 1[30982 -> 90136 -> 31008], [Ontario -> Detroit River -> Michigan] 
+
+  path: 2[30982 -> 30982], [Ontario -> Ontario]
+srcNodes: [80096, 31008, 30982]
+  path: 0[90136 -> 80096], [Detroit River -> Lake Erie Lake Erie ] 
+
+  path: 1[90136 -> 31008], [Detroit River -> Michigan] 
+
+  path: 2[90136 -> 30982], [Detroit River -> Ontario] 
+
+srcNodes: [80097, 31008, 30982]
+  path: 0[80097 -> 80097], [Lake Huron Lake Huron  -> Lake Huron Lake Huron ]
+  path: 1[80097 -> 90136 -> 31008], [Lake Huron Lake Huron  -> Detroit River -> Michigan] 
+
+  path: 2[80097 -> 90136 -> 30982], [Lake Huron Lake Huron  -> Detroit River -> Ontario] 
+
+srcNodes: [80096, 31008, 30982]
+  path: 0[80096 -> 80096], [Lake Erie Lake Erie  -> Lake Erie Lake Erie ]
+  path: 1[80096 -> 90135 -> 30982 -> 90136 -> 31008], [Lake Erie Lake Erie  -> Niagara River -> Ontario -> Detroit River -> Michigan] 
+
+  path: 2[80096 -> 90135 -> 30982], [Lake Erie Lake Erie  -> Niagara River -> Ontario] 
+
+srcNodes: [80095, 31008, 30982]
+  path: 0[90135 -> 80095], [Niagara River -> Lake Ontario Lake Ontario ] 
+
+  path: 1[90135 -> 30982 -> 90136 -> 31008], [Niagara River -> Ontario -> Detroit River -> Michigan] 
+
+  path: 2[90135 -> 30982], [Niagara River -> Ontario] 
+
+srcNodes: [80115, 31008, 41969]
+  path: 0[20118 -> 31027 -> 80115], [United States -> South Dakota -> Lake Oahe Lake Oahe artificial] 
+
+  path: 1[20118 -> 31008], [United States -> Michigan] 
+
+  path: 2[20118 -> 30991 -> 41969], [United States -> California -> Ontario] 
+
+srcNodes: [80122, 31008, 30982]
+  path: 0[80122 -> 80122], [Lake Titicaca Lake Titicaca  -> Lake Titicaca Lake Titicaca ]
+  path: 1[80122 -> 90154 -> 20170 -> 10001 -> 20118 -> 31008], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero -> Bolivia -> America -> United States -> Michigan] 
+
+  path: 2[80122 -> 90154 -> 20170 -> 10001 -> 20117 -> 30982], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero -> Bolivia -> America -> Canada -> Ontario] 
+
+srcNodes: [80118, 31008, 30982]
+  path: 0[80118 -> 80118], [Lake Managua Lake Managua  -> Lake Managua Lake Managua ]
+  path: 1[80118 -> 90153 -> 20121 -> 10001 -> 20118 -> 31008], [Lake Managua Lake Managua  -> Rio San Juan -> Nicaragua -> America -> United States -> Michigan] 
+
+  path: 2[80118 -> 90153 -> 20121 -> 10001 -> 20117 -> 30982], [Lake Managua Lake Managua  -> Rio San Juan -> Nicaragua -> America -> Canada -> Ontario] 
+
+srcNodes: [80117, 31008, 30982]
+  path: 0[80117 -> 80117], [Lake Nicaragua Lake Nicaragua  -> Lake Nicaragua Lake Nicaragua ]
+  path: 1[80117 -> 90153 -> 20121 -> 10001 -> 20118 -> 31008], [Lake Nicaragua Lake Nicaragua  -> Rio San Juan -> Nicaragua -> America -> United States -> Michigan] 
+
+  path: 2[80117 -> 90153 -> 20121 -> 10001 -> 20117 -> 30982], [Lake Nicaragua Lake Nicaragua  -> Rio San Juan -> Nicaragua -> America -> Canada -> Ontario] 
+
+-----------------------------------------
+ResultDestNodes: [31008, 30982, 90136, 80097, 80096, 90135, 20118, 80122, 80118, 80117]
+ResultRelevs: [8.922699928283691, 8.80282974243164, 7.080709934234619, 7.033169746398926, 6.308370113372803, 5.7216901779174805, 5.6264801025390625, 5.251122951507568, 5.251122951507568, 5.251122951507568]
+Num of top-k answers: 10
+Num of non-reduced answers: 0
+Num of duplicate answers: 1
+Num of non-redundant answers: 9
+Num of entries retrieved from the lists: 268
+Num of entries retrieved from NKMaps: 333
+
+Blink Search Using ConstRootDup10
+[lake, michigan, ontario]
+srcNodes: [80100, 31008, 30982]
+  path: 0[31008 -> 80100], [Michigan -> Lake Superior Lake Superior ] 
+
+  path: 1[31008 -> 31008], [Michigan -> Michigan]
+  path: 2[31008 -> 90136 -> 30982], [Michigan -> Detroit River -> Ontario] 
+
+srcNodes: [80099, 31008, 30982]
+  path: 0[31008 -> 80099], [Michigan -> Lake Michigan Lake Michigan ] 
+
+  path: 1[31008 -> 31008], [Michigan -> Michigan]
+  path: 2[31008 -> 90136 -> 30982], [Michigan -> Detroit River -> Ontario] 
+
+srcNodes: [80098, 31008, 30982]
+  path: 0[30982 -> 80098], [Ontario -> Lake Manitou Lake Manitou ] 
+
+  path: 1[30982 -> 90136 -> 31008], [Ontario -> Detroit River -> Michigan] 
+
+  path: 2[30982 -> 30982], [Ontario -> Ontario]
+srcNodes: [80100, 31008, 30982]
+  path: 0[30982 -> 80100], [Ontario -> Lake Superior Lake Superior ] 
+
+  path: 1[30982 -> 90136 -> 31008], [Ontario -> Detroit River -> Michigan] 
+
+  path: 2[30982 -> 30982], [Ontario -> Ontario]
+srcNodes: [80099, 31008, 80095]
+  path: 0[31008 -> 80099], [Michigan -> Lake Michigan Lake Michigan ] 
+
+  path: 1[31008 -> 31008], [Michigan -> Michigan]
+  path: 2[31008 -> 80096 -> 90135 -> 80095], [Michigan -> Lake Erie Lake Erie  -> Niagara River -> Lake Ontario Lake Ontario ] 
+
+srcNodes: [80100, 31008, 80095]
+  path: 0[31008 -> 80100], [Michigan -> Lake Superior Lake Superior ] 
+
+  path: 1[31008 -> 31008], [Michigan -> Michigan]
+  path: 2[31008 -> 80096 -> 90135 -> 80095], [Michigan -> Lake Erie Lake Erie  -> Niagara River -> Lake Ontario Lake Ontario ] 
+
+srcNodes: [80096, 31008, 30982]
+  path: 0[90136 -> 80096], [Detroit River -> Lake Erie Lake Erie ] 
+
+  path: 1[90136 -> 31008], [Detroit River -> Michigan] 
+
+  path: 2[90136 -> 30982], [Detroit River -> Ontario] 
+
+srcNodes: [80097, 31008, 30982]
+  path: 0[80097 -> 80097], [Lake Huron Lake Huron  -> Lake Huron Lake Huron ]
+  path: 1[80097 -> 90136 -> 31008], [Lake Huron Lake Huron  -> Detroit River -> Michigan] 
+
+  path: 2[80097 -> 90136 -> 30982], [Lake Huron Lake Huron  -> Detroit River -> Ontario] 
+
+srcNodes: [80096, 31008, 30982]
+  path: 0[80096 -> 80096], [Lake Erie Lake Erie  -> Lake Erie Lake Erie ]
+  path: 1[80096 -> 90135 -> 30982 -> 90136 -> 31008], [Lake Erie Lake Erie  -> Niagara River -> Ontario -> Detroit River -> Michigan] 
+
+  path: 2[80096 -> 90135 -> 30982], [Lake Erie Lake Erie  -> Niagara River -> Ontario] 
+
+srcNodes: [80095, 31008, 30982]
+  path: 0[90135 -> 80095], [Niagara River -> Lake Ontario Lake Ontario ] 
+
+  path: 1[90135 -> 30982 -> 90136 -> 31008], [Niagara River -> Ontario -> Detroit River -> Michigan] 
+
+  path: 2[90135 -> 30982], [Niagara River -> Ontario] 
+
+-----------------------------------------
+ResultDestNodes: 
+31008, 31008, 30982, 30982, 31008, 31008, 90136, 80097, 80096, 90135, 
+ResultRelevs: 
+8.9227, 8.9227, 8.80283, 8.80283, 8.22187, 8.22187, 7.08071, 7.0331697, 6.30837, 5.72169, 
+Num of top-k answers: 10
+Num of duplicate answers: 2
+Num of duplicate roots in top-k answers: 4
+root duplication ratio: 0.44444445
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 215
+Num of entries retrieved from NKMaps: 1018
+Num of answer trees explored: 1949
+
+Blink Search Using BDB 20
+[lake, michigan, ontario]
+srcNodes: [80099, 31008, 30982]
+  path: 0[31008 -> 80099], [Michigan -> Lake Michigan Lake Michigan ] 
+
+  path: 1[31008 -> 31008], [Michigan -> Michigan]
+  path: 2[31008 -> 90136 -> 30982], [Michigan -> Detroit River -> Ontario] 
+
+srcNodes: [80100, 31008, 30982]
+  path: 0[30982 -> 80100], [Ontario -> Lake Superior Lake Superior ] 
+
+  path: 1[30982 -> 90136 -> 31008], [Ontario -> Detroit River -> Michigan] 
+
+  path: 2[30982 -> 30982], [Ontario -> Ontario]
+srcNodes: [80096, 31008, 30982]
+  path: 0[90136 -> 80096], [Detroit River -> Lake Erie Lake Erie ] 
+
+  path: 1[90136 -> 31008], [Detroit River -> Michigan] 
+
+  path: 2[90136 -> 30982], [Detroit River -> Ontario] 
+
+srcNodes: [80097, 31008, 30982]
+  path: 0[80097 -> 80097], [Lake Huron Lake Huron  -> Lake Huron Lake Huron ]
+  path: 1[80097 -> 90136 -> 31008], [Lake Huron Lake Huron  -> Detroit River -> Michigan] 
+
+  path: 2[80097 -> 90136 -> 30982], [Lake Huron Lake Huron  -> Detroit River -> Ontario] 
+
+srcNodes: [80096, 31008, 30982]
+  path: 0[80096 -> 80096], [Lake Erie Lake Erie  -> Lake Erie Lake Erie ]
+  path: 1[80096 -> 90135 -> 30982 -> 90136 -> 31008], [Lake Erie Lake Erie  -> Niagara River -> Ontario -> Detroit River -> Michigan] 
+
+  path: 2[80096 -> 90135 -> 30982], [Lake Erie Lake Erie  -> Niagara River -> Ontario] 
+
+srcNodes: [80095, 31008, 30982]
+  path: 0[90135 -> 80095], [Niagara River -> Lake Ontario Lake Ontario ] 
+
+  path: 1[90135 -> 30982 -> 90136 -> 31008], [Niagara River -> Ontario -> Detroit River -> Michigan] 
+
+  path: 2[90135 -> 30982], [Niagara River -> Ontario] 
+
+srcNodes: [80115, 31008, 41969]
+  path: 0[20118 -> 31027 -> 80115], [United States -> South Dakota -> Lake Oahe Lake Oahe artificial] 
+
+  path: 1[20118 -> 31008], [United States -> Michigan] 
+
+  path: 2[20118 -> 30991 -> 41969], [United States -> California -> Ontario] 
+
+srcNodes: [80122, 31008, 30982]
+  path: 0[80122 -> 80122], [Lake Titicaca Lake Titicaca  -> Lake Titicaca Lake Titicaca ]
+  path: 1[80122 -> 90154 -> 20170 -> 10001 -> 20118 -> 31008], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero -> Bolivia -> America -> United States -> Michigan] 
+
+  path: 2[80122 -> 90154 -> 20170 -> 10001 -> 20117 -> 30982], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero -> Bolivia -> America -> Canada -> Ontario] 
+
+srcNodes: [80117, 31008, 30982]
+  path: 0[80117 -> 80117], [Lake Nicaragua Lake Nicaragua  -> Lake Nicaragua Lake Nicaragua ]
+  path: 1[80117 -> 90153 -> 20121 -> 10001 -> 20118 -> 31008], [Lake Nicaragua Lake Nicaragua  -> Rio San Juan -> Nicaragua -> America -> United States -> Michigan] 
+
+  path: 2[80117 -> 90153 -> 20121 -> 10001 -> 20117 -> 30982], [Lake Nicaragua Lake Nicaragua  -> Rio San Juan -> Nicaragua -> America -> Canada -> Ontario] 
+
+srcNodes: [80118, 31008, 30982]
+  path: 0[80118 -> 80118], [Lake Managua Lake Managua  -> Lake Managua Lake Managua ]
+  path: 1[80118 -> 90153 -> 20121 -> 10001 -> 20118 -> 31008], [Lake Managua Lake Managua  -> Rio San Juan -> Nicaragua -> America -> United States -> Michigan] 
+
+  path: 2[80118 -> 90153 -> 20121 -> 10001 -> 20117 -> 30982], [Lake Managua Lake Managua  -> Rio San Juan -> Nicaragua -> America -> Canada -> Ontario] 
+
+srcNodes: [80100, 31008, 30982]
+  path: 0[110195 -> 30982 -> 80100], [Manitoulin Manitoulin   -> Ontario -> Lake Superior Lake Superior ] 
+
+  path: 1[110195 -> 30982 -> 90136 -> 31008], [Manitoulin Manitoulin   -> Ontario -> Detroit River -> Michigan] 
+
+  path: 2[110195 -> 30982], [Manitoulin Manitoulin   -> Ontario] 
+
+This is a non-reduced answer tree with common first node 30982
+
+srcNodes: [80100, 31008, 30982]
+  path: 0[110194 -> 30982 -> 80100], [Rene Levasseur Island Rene Levasseur Island   -> Ontario -> Lake Superior Lake Superior ] 
+
+  path: 1[110194 -> 30982 -> 90136 -> 31008], [Rene Levasseur Island Rene Levasseur Island   -> Ontario -> Detroit River -> Michigan] 
+
+  path: 2[110194 -> 30982], [Rene Levasseur Island Rene Levasseur Island   -> Ontario] 
+
+This is a non-reduced answer tree with common first node 30982
+
+srcNodes: [80101, 31008, 30982]
+  path: 0[20117 -> 30984 -> 80101], [Canada -> Quebec -> Lake Champlain Lake Champlain ] 
+
+  path: 1[20117 -> 10001 -> 20118 -> 31008], [Canada -> America -> United States -> Michigan] 
+
+  path: 2[20117 -> 30982], [Canada -> Ontario] 
+
+srcNodes: [80101, 31008, 80095]
+  path: 0[31018 -> 80101], [New York -> Lake Champlain Lake Champlain ] 
+
+  path: 1[31018 -> 90135 -> 30982 -> 90136 -> 31008], [New York -> Niagara River -> Ontario -> Detroit River -> Michigan] 
+
+  path: 2[31018 -> 80095], [New York -> Lake Ontario Lake Ontario ] 
+
+srcNodes: [80099, 80099, 30982]
+  path: 0[30999 -> 80099], [Illinois -> Lake Michigan Lake Michigan ] 
+
+  path: 1[30999 -> 80099], [Illinois -> Lake Michigan Lake Michigan ] 
+
+  path: 2[30999 -> 90145 -> 31024 -> 80096 -> 90135 -> 30982], [Illinois -> Ohio River -> Pennsylvania -> Lake Erie Lake Erie  -> Niagara River -> Ontario] 
+
+srcNodes: [80099, 80099, 30982]
+  path: 0[31000 -> 80099], [Indiana -> Lake Michigan Lake Michigan ] 
+
+  path: 1[31000 -> 80099], [Indiana -> Lake Michigan Lake Michigan ] 
+
+  path: 2[31000 -> 90145 -> 31024 -> 80096 -> 90135 -> 30982], [Indiana -> Ohio River -> Pennsylvania -> Lake Erie Lake Erie  -> Niagara River -> Ontario] 
+
+srcNodes: [80095, 31008, 80095]
+  path: 0[40991 -> 80095], [Hamilton -> Lake Ontario Lake Ontario ] 
+
+  path: 1[40991 -> 110199 -> 20115 -> 10001 -> 20118 -> 31008], [Hamilton -> Grand Bermuda Grand Bermuda Bermuda Islands coral -> Bermuda -> America -> United States -> Michigan] 
+
+  path: 2[40991 -> 80095], [Hamilton -> Lake Ontario Lake Ontario ] 
+
+srcNodes: [80122, 31008, 30982]
+  path: 0[10001 -> 20170 -> 80122], [America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[10001 -> 20118 -> 31008], [America -> United States -> Michigan] 
+
+  path: 2[10001 -> 20117 -> 30982], [America -> Canada -> Ontario] 
+
+srcNodes: [80096, 31008, 30982]
+  path: 0[42957 -> 90136 -> 80096], [Windsor -> Detroit River -> Lake Erie Lake Erie ] 
+
+  path: 1[42957 -> 90136 -> 31008], [Windsor -> Detroit River -> Michigan] 
+
+  path: 2[42957 -> 90136 -> 30982], [Windsor -> Detroit River -> Ontario] 
+
+This is a non-reduced answer tree with common first node 90136
+
+srcNodes: [80096, 31008, 30982]
+  path: 0[40679 -> 90136 -> 80096], [Detroit -> Detroit River -> Lake Erie Lake Erie ] 
+
+  path: 1[40679 -> 90136 -> 31008], [Detroit -> Detroit River -> Michigan] 
+
+  path: 2[40679 -> 90136 -> 30982], [Detroit -> Detroit River -> Ontario] 
+
+This is a non-reduced answer tree with common first node 90136
+
+-----------------------------------------
+ResultDestNodes: [31008, 30982, 90136, 80097, 80096, 90135, 20118, 80122, 80117, 80118, 110195, 110194, 20117, 31018, 30999, 31000, 40991, 10001, 42957, 40679]
+ResultRelevs: [8.922699928283691, 8.80282974243164, 7.080709934234619, 7.033169746398926, 6.308370113372803, 5.7216901779174805, 5.6264801025390625, 5.251122951507568, 5.251122951507568, 5.251122951507568, 5.143509864807129, 5.143509864807129, 5.143509864807129, 4.924260139465332, 4.785007953643799, 4.785007953643799, 4.7430548667907715, 4.720459938049316, 4.720459938049316, 4.720459938049316]
+Num of top-k answers: 20
+Num of non-reduced answers: 4
+Num of duplicate answers: 7
+Num of non-redundant answers: 13
+Num of entries retrieved from the lists: 315
+Num of entries retrieved from NKMaps: 396
+
+Blink Search Using ConstRootDup20
+[lake, michigan, ontario]
+srcNodes: [80100, 31008, 30982]
+  path: 0[31008 -> 80100], [Michigan -> Lake Superior Lake Superior ] 
+
+  path: 1[31008 -> 31008], [Michigan -> Michigan]
+  path: 2[31008 -> 90136 -> 30982], [Michigan -> Detroit River -> Ontario] 
+
+srcNodes: [80099, 31008, 30982]
+  path: 0[31008 -> 80099], [Michigan -> Lake Michigan Lake Michigan ] 
+
+  path: 1[31008 -> 31008], [Michigan -> Michigan]
+  path: 2[31008 -> 90136 -> 30982], [Michigan -> Detroit River -> Ontario] 
+
+srcNodes: [80100, 31008, 30982]
+  path: 0[30982 -> 80100], [Ontario -> Lake Superior Lake Superior ] 
+
+  path: 1[30982 -> 90136 -> 31008], [Ontario -> Detroit River -> Michigan] 
+
+  path: 2[30982 -> 30982], [Ontario -> Ontario]
+srcNodes: [80098, 31008, 30982]
+  path: 0[30982 -> 80098], [Ontario -> Lake Manitou Lake Manitou ] 
+
+  path: 1[30982 -> 90136 -> 31008], [Ontario -> Detroit River -> Michigan] 
+
+  path: 2[30982 -> 30982], [Ontario -> Ontario]
+srcNodes: [80100, 31008, 80095]
+  path: 0[31008 -> 80100], [Michigan -> Lake Superior Lake Superior ] 
+
+  path: 1[31008 -> 31008], [Michigan -> Michigan]
+  path: 2[31008 -> 80096 -> 90135 -> 80095], [Michigan -> Lake Erie Lake Erie  -> Niagara River -> Lake Ontario Lake Ontario ] 
+
+srcNodes: [80099, 31008, 80095]
+  path: 0[31008 -> 80099], [Michigan -> Lake Michigan Lake Michigan ] 
+
+  path: 1[31008 -> 31008], [Michigan -> Michigan]
+  path: 2[31008 -> 80096 -> 90135 -> 80095], [Michigan -> Lake Erie Lake Erie  -> Niagara River -> Lake Ontario Lake Ontario ] 
+
+srcNodes: [80098, 80099, 30982]
+  path: 0[30982 -> 80098], [Ontario -> Lake Manitou Lake Manitou ] 
+
+  path: 1[30982 -> 90136 -> 31008 -> 80099], [Ontario -> Detroit River -> Michigan -> Lake Michigan Lake Michigan ] 
+
+  path: 2[30982 -> 30982], [Ontario -> Ontario]
+srcNodes: [80100, 80099, 30982]
+  path: 0[30982 -> 80100], [Ontario -> Lake Superior Lake Superior ] 
+
+  path: 1[30982 -> 90136 -> 31008 -> 80099], [Ontario -> Detroit River -> Michigan -> Lake Michigan Lake Michigan ] 
+
+  path: 2[30982 -> 30982], [Ontario -> Ontario]
+srcNodes: [80093, 31008, 30982]
+  path: 0[31008 -> 90136 -> 30982 -> 80093], [Michigan -> Detroit River -> Ontario -> Lake Nipigon Lake Nipigon ] 
+
+  path: 1[31008 -> 31008], [Michigan -> Michigan]
+  path: 2[31008 -> 90136 -> 30982], [Michigan -> Detroit River -> Ontario] 
+
+srcNodes: [80099, 31008, 30982]
+  path: 0[30982 -> 90136 -> 31008 -> 80099], [Ontario -> Detroit River -> Michigan -> Lake Michigan Lake Michigan ] 
+
+  path: 1[30982 -> 90136 -> 31008], [Ontario -> Detroit River -> Michigan] 
+
+  path: 2[30982 -> 30982], [Ontario -> Ontario]
+srcNodes: [80101, 31008, 30982]
+  path: 0[31008 -> 80096 -> 90135 -> 31018 -> 80101], [Michigan -> Lake Erie Lake Erie  -> Niagara River -> New York -> Lake Champlain Lake Champlain ] 
+
+  path: 1[31008 -> 31008], [Michigan -> Michigan]
+  path: 2[31008 -> 90136 -> 30982], [Michigan -> Detroit River -> Ontario] 
+
+srcNodes: [80096, 31008, 30982]
+  path: 0[90136 -> 80096], [Detroit River -> Lake Erie Lake Erie ] 
+
+  path: 1[90136 -> 31008], [Detroit River -> Michigan] 
+
+  path: 2[90136 -> 30982], [Detroit River -> Ontario] 
+
+srcNodes: [80097, 31008, 30982]
+  path: 0[80097 -> 80097], [Lake Huron Lake Huron  -> Lake Huron Lake Huron ]
+  path: 1[80097 -> 90136 -> 31008], [Lake Huron Lake Huron  -> Detroit River -> Michigan] 
+
+  path: 2[80097 -> 90136 -> 30982], [Lake Huron Lake Huron  -> Detroit River -> Ontario] 
+
+srcNodes: [80096, 31008, 30982]
+  path: 0[80096 -> 80096], [Lake Erie Lake Erie  -> Lake Erie Lake Erie ]
+  path: 1[80096 -> 90135 -> 30982 -> 90136 -> 31008], [Lake Erie Lake Erie  -> Niagara River -> Ontario -> Detroit River -> Michigan] 
+
+  path: 2[80096 -> 90135 -> 30982], [Lake Erie Lake Erie  -> Niagara River -> Ontario] 
+
+srcNodes: [80095, 31008, 30982]
+  path: 0[90135 -> 80095], [Niagara River -> Lake Ontario Lake Ontario ] 
+
+  path: 1[90135 -> 30982 -> 90136 -> 31008], [Niagara River -> Ontario -> Detroit River -> Michigan] 
+
+  path: 2[90135 -> 30982], [Niagara River -> Ontario] 
+
+srcNodes: [80115, 31008, 41969]
+  path: 0[20118 -> 31027 -> 80115], [United States -> South Dakota -> Lake Oahe Lake Oahe artificial] 
+
+  path: 1[20118 -> 31008], [United States -> Michigan] 
+
+  path: 2[20118 -> 30991 -> 41969], [United States -> California -> Ontario] 
+
+srcNodes: [80118, 31008, 30982]
+  path: 0[80118 -> 80118], [Lake Managua Lake Managua  -> Lake Managua Lake Managua ]
+  path: 1[80118 -> 90153 -> 20121 -> 10001 -> 20118 -> 31008], [Lake Managua Lake Managua  -> Rio San Juan -> Nicaragua -> America -> United States -> Michigan] 
+
+  path: 2[80118 -> 90153 -> 20121 -> 10001 -> 20117 -> 30982], [Lake Managua Lake Managua  -> Rio San Juan -> Nicaragua -> America -> Canada -> Ontario] 
+
+srcNodes: [80117, 31008, 30982]
+  path: 0[80117 -> 80117], [Lake Nicaragua Lake Nicaragua  -> Lake Nicaragua Lake Nicaragua ]
+  path: 1[80117 -> 90153 -> 20121 -> 10001 -> 20118 -> 31008], [Lake Nicaragua Lake Nicaragua  -> Rio San Juan -> Nicaragua -> America -> United States -> Michigan] 
+
+  path: 2[80117 -> 90153 -> 20121 -> 10001 -> 20117 -> 30982], [Lake Nicaragua Lake Nicaragua  -> Rio San Juan -> Nicaragua -> America -> Canada -> Ontario] 
+
+srcNodes: [80122, 31008, 30982]
+  path: 0[80122 -> 80122], [Lake Titicaca Lake Titicaca  -> Lake Titicaca Lake Titicaca ]
+  path: 1[80122 -> 90154 -> 20170 -> 10001 -> 20118 -> 31008], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero -> Bolivia -> America -> United States -> Michigan] 
+
+  path: 2[80122 -> 90154 -> 20170 -> 10001 -> 20117 -> 30982], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero -> Bolivia -> America -> Canada -> Ontario] 
+
+srcNodes: [80100, 31008, 30982]
+  path: 0[110195 -> 30982 -> 80100], [Manitoulin Manitoulin   -> Ontario -> Lake Superior Lake Superior ] 
+
+  path: 1[110195 -> 30982 -> 90136 -> 31008], [Manitoulin Manitoulin   -> Ontario -> Detroit River -> Michigan] 
+
+  path: 2[110195 -> 30982], [Manitoulin Manitoulin   -> Ontario] 
+
+-----------------------------------------
+ResultDestNodes: 
+31008, 31008, 30982, 30982, 31008, 31008, 30982, 30982, 31008, 30982, 31008, 90136, 80097, 80096, 90135, 20118, 80118, 80117, 80122, 110195, 
+ResultRelevs: 
+8.9227, 8.9227, 8.80283, 8.80283, 8.22187, 8.22187, 8.07803, 8.07803, 8.055435, 7.935565, 7.881982, 7.08071, 7.0331697, 6.30837, 5.72169, 5.62648, 5.251123, 5.251123, 5.251123, 5.14351, 
+Num of top-k answers: 20
+Num of duplicate answers: 4
+Num of duplicate roots in top-k answers: 9
+root duplication ratio: 0.47368422
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 268
+Num of entries retrieved from NKMaps: 1232
+Num of answer trees explored: 2459
+
+Blink Search Using BDB 30
+[lake, michigan, ontario]
+srcNodes: [80099, 31008, 30982]
+  path: 0[31008 -> 80099], [Michigan -> Lake Michigan Lake Michigan ] 
+
+  path: 1[31008 -> 31008], [Michigan -> Michigan]
+  path: 2[31008 -> 90136 -> 30982], [Michigan -> Detroit River -> Ontario] 
+
+srcNodes: [80100, 31008, 30982]
+  path: 0[30982 -> 80100], [Ontario -> Lake Superior Lake Superior ] 
+
+  path: 1[30982 -> 90136 -> 31008], [Ontario -> Detroit River -> Michigan] 
+
+  path: 2[30982 -> 30982], [Ontario -> Ontario]
+srcNodes: [80096, 31008, 30982]
+  path: 0[90136 -> 80096], [Detroit River -> Lake Erie Lake Erie ] 
+
+  path: 1[90136 -> 31008], [Detroit River -> Michigan] 
+
+  path: 2[90136 -> 30982], [Detroit River -> Ontario] 
+
+srcNodes: [80097, 31008, 30982]
+  path: 0[80097 -> 80097], [Lake Huron Lake Huron  -> Lake Huron Lake Huron ]
+  path: 1[80097 -> 90136 -> 31008], [Lake Huron Lake Huron  -> Detroit River -> Michigan] 
+
+  path: 2[80097 -> 90136 -> 30982], [Lake Huron Lake Huron  -> Detroit River -> Ontario] 
+
+srcNodes: [80096, 31008, 30982]
+  path: 0[80096 -> 80096], [Lake Erie Lake Erie  -> Lake Erie Lake Erie ]
+  path: 1[80096 -> 90135 -> 30982 -> 90136 -> 31008], [Lake Erie Lake Erie  -> Niagara River -> Ontario -> Detroit River -> Michigan] 
+
+  path: 2[80096 -> 90135 -> 30982], [Lake Erie Lake Erie  -> Niagara River -> Ontario] 
+
+srcNodes: [80095, 31008, 30982]
+  path: 0[90135 -> 80095], [Niagara River -> Lake Ontario Lake Ontario ] 
+
+  path: 1[90135 -> 30982 -> 90136 -> 31008], [Niagara River -> Ontario -> Detroit River -> Michigan] 
+
+  path: 2[90135 -> 30982], [Niagara River -> Ontario] 
+
+srcNodes: [80115, 31008, 41969]
+  path: 0[20118 -> 31027 -> 80115], [United States -> South Dakota -> Lake Oahe Lake Oahe artificial] 
+
+  path: 1[20118 -> 31008], [United States -> Michigan] 
+
+  path: 2[20118 -> 30991 -> 41969], [United States -> California -> Ontario] 
+
+srcNodes: [80117, 31008, 30982]
+  path: 0[80117 -> 80117], [Lake Nicaragua Lake Nicaragua  -> Lake Nicaragua Lake Nicaragua ]
+  path: 1[80117 -> 90153 -> 20121 -> 10001 -> 20118 -> 31008], [Lake Nicaragua Lake Nicaragua  -> Rio San Juan -> Nicaragua -> America -> United States -> Michigan] 
+
+  path: 2[80117 -> 90153 -> 20121 -> 10001 -> 20117 -> 30982], [Lake Nicaragua Lake Nicaragua  -> Rio San Juan -> Nicaragua -> America -> Canada -> Ontario] 
+
+srcNodes: [80122, 31008, 30982]
+  path: 0[80122 -> 80122], [Lake Titicaca Lake Titicaca  -> Lake Titicaca Lake Titicaca ]
+  path: 1[80122 -> 90154 -> 20170 -> 10001 -> 20118 -> 31008], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero -> Bolivia -> America -> United States -> Michigan] 
+
+  path: 2[80122 -> 90154 -> 20170 -> 10001 -> 20117 -> 30982], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero -> Bolivia -> America -> Canada -> Ontario] 
+
+srcNodes: [80118, 31008, 30982]
+  path: 0[80118 -> 80118], [Lake Managua Lake Managua  -> Lake Managua Lake Managua ]
+  path: 1[80118 -> 90153 -> 20121 -> 10001 -> 20118 -> 31008], [Lake Managua Lake Managua  -> Rio San Juan -> Nicaragua -> America -> United States -> Michigan] 
+
+  path: 2[80118 -> 90153 -> 20121 -> 10001 -> 20117 -> 30982], [Lake Managua Lake Managua  -> Rio San Juan -> Nicaragua -> America -> Canada -> Ontario] 
+
+srcNodes: [80100, 31008, 30982]
+  path: 0[110195 -> 30982 -> 80100], [Manitoulin Manitoulin   -> Ontario -> Lake Superior Lake Superior ] 
+
+  path: 1[110195 -> 30982 -> 90136 -> 31008], [Manitoulin Manitoulin   -> Ontario -> Detroit River -> Michigan] 
+
+  path: 2[110195 -> 30982], [Manitoulin Manitoulin   -> Ontario] 
+
+This is a non-reduced answer tree with common first node 30982
+
+srcNodes: [80100, 31008, 30982]
+  path: 0[110194 -> 30982 -> 80100], [Rene Levasseur Island Rene Levasseur Island   -> Ontario -> Lake Superior Lake Superior ] 
+
+  path: 1[110194 -> 30982 -> 90136 -> 31008], [Rene Levasseur Island Rene Levasseur Island   -> Ontario -> Detroit River -> Michigan] 
+
+  path: 2[110194 -> 30982], [Rene Levasseur Island Rene Levasseur Island   -> Ontario] 
+
+This is a non-reduced answer tree with common first node 30982
+
+srcNodes: [80101, 31008, 30982]
+  path: 0[20117 -> 30984 -> 80101], [Canada -> Quebec -> Lake Champlain Lake Champlain ] 
+
+  path: 1[20117 -> 10001 -> 20118 -> 31008], [Canada -> America -> United States -> Michigan] 
+
+  path: 2[20117 -> 30982], [Canada -> Ontario] 
+
+srcNodes: [80101, 31008, 80095]
+  path: 0[31018 -> 80101], [New York -> Lake Champlain Lake Champlain ] 
+
+  path: 1[31018 -> 90135 -> 30982 -> 90136 -> 31008], [New York -> Niagara River -> Ontario -> Detroit River -> Michigan] 
+
+  path: 2[31018 -> 80095], [New York -> Lake Ontario Lake Ontario ] 
+
+srcNodes: [80099, 80099, 30982]
+  path: 0[30999 -> 80099], [Illinois -> Lake Michigan Lake Michigan ] 
+
+  path: 1[30999 -> 80099], [Illinois -> Lake Michigan Lake Michigan ] 
+
+  path: 2[30999 -> 90145 -> 31024 -> 80096 -> 90135 -> 30982], [Illinois -> Ohio River -> Pennsylvania -> Lake Erie Lake Erie  -> Niagara River -> Ontario] 
+
+srcNodes: [80099, 80099, 30982]
+  path: 0[31000 -> 80099], [Indiana -> Lake Michigan Lake Michigan ] 
+
+  path: 1[31000 -> 80099], [Indiana -> Lake Michigan Lake Michigan ] 
+
+  path: 2[31000 -> 90145 -> 31024 -> 80096 -> 90135 -> 30982], [Indiana -> Ohio River -> Pennsylvania -> Lake Erie Lake Erie  -> Niagara River -> Ontario] 
+
+srcNodes: [80095, 31008, 80095]
+  path: 0[40991 -> 80095], [Hamilton -> Lake Ontario Lake Ontario ] 
+
+  path: 1[40991 -> 110199 -> 20115 -> 10001 -> 20118 -> 31008], [Hamilton -> Grand Bermuda Grand Bermuda Bermuda Islands coral -> Bermuda -> America -> United States -> Michigan] 
+
+  path: 2[40991 -> 80095], [Hamilton -> Lake Ontario Lake Ontario ] 
+
+srcNodes: [80096, 31008, 30982]
+  path: 0[40679 -> 90136 -> 80096], [Detroit -> Detroit River -> Lake Erie Lake Erie ] 
+
+  path: 1[40679 -> 90136 -> 31008], [Detroit -> Detroit River -> Michigan] 
+
+  path: 2[40679 -> 90136 -> 30982], [Detroit -> Detroit River -> Ontario] 
+
+This is a non-reduced answer tree with common first node 90136
+
+srcNodes: [80122, 31008, 30982]
+  path: 0[10001 -> 20170 -> 80122], [America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[10001 -> 20118 -> 31008], [America -> United States -> Michigan] 
+
+  path: 2[10001 -> 20117 -> 30982], [America -> Canada -> Ontario] 
+
+srcNodes: [80096, 31008, 30982]
+  path: 0[42957 -> 90136 -> 80096], [Windsor -> Detroit River -> Lake Erie Lake Erie ] 
+
+  path: 1[42957 -> 90136 -> 31008], [Windsor -> Detroit River -> Michigan] 
+
+  path: 2[42957 -> 90136 -> 30982], [Windsor -> Detroit River -> Ontario] 
+
+This is a non-reduced answer tree with common first node 90136
+
+srcNodes: [80122, 31008, 30982]
+  path: 0[20170 -> 80122], [Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[20170 -> 10001 -> 20118 -> 31008], [Bolivia -> America -> United States -> Michigan] 
+
+  path: 2[20170 -> 10001 -> 20117 -> 30982], [Bolivia -> America -> Canada -> Ontario] 
+
+srcNodes: [80118, 31008, 30982]
+  path: 0[20121 -> 80118], [Nicaragua -> Lake Managua Lake Managua ] 
+
+  path: 1[20121 -> 10001 -> 20118 -> 31008], [Nicaragua -> America -> United States -> Michigan] 
+
+  path: 2[20121 -> 10001 -> 20117 -> 30982], [Nicaragua -> America -> Canada -> Ontario] 
+
+srcNodes: [80125, 31008, 30982]
+  path: 0[20172 -> 80125], [Chile -> Licancabur Crater Lake Licancabur Crater Lake crater] 
+
+  path: 1[20172 -> 10001 -> 20118 -> 31008], [Chile -> America -> United States -> Michigan] 
+
+  path: 2[20172 -> 10001 -> 20117 -> 30982], [Chile -> America -> Canada -> Ontario] 
+
+srcNodes: [80096, 80099, 30982]
+  path: 0[31024 -> 80096], [Pennsylvania -> Lake Erie Lake Erie ] 
+
+  path: 1[31024 -> 90145 -> 31000 -> 80099], [Pennsylvania -> Ohio River -> Indiana -> Lake Michigan Lake Michigan ] 
+
+  path: 2[31024 -> 80096 -> 90135 -> 30982], [Pennsylvania -> Lake Erie Lake Erie  -> Niagara River -> Ontario] 
+
+srcNodes: [80096, 80099, 30982]
+  path: 0[31021 -> 80096], [Ohio -> Lake Erie Lake Erie ] 
+
+  path: 1[31021 -> 90145 -> 31000 -> 80099], [Ohio -> Ohio River -> Indiana -> Lake Michigan Lake Michigan ] 
+
+  path: 2[31021 -> 80096 -> 90135 -> 30982], [Ohio -> Lake Erie Lake Erie  -> Niagara River -> Ontario] 
+
+srcNodes: [80101, 31008, 30982]
+  path: 0[180 -> 30984 -> 80101], [Mt. Babel Mt. Babel   -> Quebec -> Lake Champlain Lake Champlain ] 
+
+  path: 1[180 -> 110194 -> 30982 -> 90136 -> 31008], [Mt. Babel Mt. Babel   -> Rene Levasseur Island Rene Levasseur Island   -> Ontario -> Detroit River -> Michigan] 
+
+  path: 2[180 -> 110194 -> 30982], [Mt. Babel Mt. Babel   -> Rene Levasseur Island Rene Levasseur Island   -> Ontario] 
+
+srcNodes: [80096, 31008, 30982]
+  path: 0[40402 -> 80096], [Buffalo -> Lake Erie Lake Erie ] 
+
+  path: 1[40402 -> 80096 -> 90135 -> 30982 -> 90136 -> 31008], [Buffalo -> Lake Erie Lake Erie  -> Niagara River -> Ontario -> Detroit River -> Michigan] 
+
+  path: 2[40402 -> 80096 -> 90135 -> 30982], [Buffalo -> Lake Erie Lake Erie  -> Niagara River -> Ontario] 
+
+This is a non-reduced answer tree with common first node 80096
+
+srcNodes: [80096, 31008, 30982]
+  path: 0[40586 -> 80096], [Cleveland -> Lake Erie Lake Erie ] 
+
+  path: 1[40586 -> 80096 -> 90135 -> 30982 -> 90136 -> 31008], [Cleveland -> Lake Erie Lake Erie  -> Niagara River -> Ontario -> Detroit River -> Michigan] 
+
+  path: 2[40586 -> 80096 -> 90135 -> 30982], [Cleveland -> Lake Erie Lake Erie  -> Niagara River -> Ontario] 
+
+This is a non-reduced answer tree with common first node 80096
+
+srcNodes: [80096, 31008, 30982]
+  path: 0[42752 -> 80096], [Toledo -> Lake Erie Lake Erie ] 
+
+  path: 1[42752 -> 80096 -> 90135 -> 30982 -> 90136 -> 31008], [Toledo -> Lake Erie Lake Erie  -> Niagara River -> Ontario -> Detroit River -> Michigan] 
+
+  path: 2[42752 -> 80096 -> 90135 -> 30982], [Toledo -> Lake Erie Lake Erie  -> Niagara River -> Ontario] 
+
+This is a non-reduced answer tree with common first node 80096
+
+srcNodes: [80096, 31008, 30982]
+  path: 0[40788 -> 80096], [Erie -> Lake Erie Lake Erie ] 
+
+  path: 1[40788 -> 80096 -> 90135 -> 30982 -> 90136 -> 31008], [Erie -> Lake Erie Lake Erie  -> Niagara River -> Ontario -> Detroit River -> Michigan] 
+
+  path: 2[40788 -> 80096 -> 90135 -> 30982], [Erie -> Lake Erie Lake Erie  -> Niagara River -> Ontario] 
+
+This is a non-reduced answer tree with common first node 80096
+
+-----------------------------------------
+ResultDestNodes: [31008, 30982, 90136, 80097, 80096, 90135, 20118, 80117, 80122, 80118, 110195, 110194, 20117, 31018, 30999, 31000, 40991, 40679, 10001, 42957, 20170, 20121, 20172, 31024, 31021, 180, 40402, 40586, 42752, 40788]
+ResultRelevs: [8.922699928283691, 8.80282974243164, 7.080709934234619, 7.033169746398926, 6.308370113372803, 5.7216901779174805, 5.6264801025390625, 5.251122951507568, 5.251122951507568, 5.251122951507568, 5.143509864807129, 5.143509864807129, 5.143509864807129, 4.924260139465332, 4.785007953643799, 4.785007953643799, 4.7430548667907715, 4.720459938049316, 4.720459938049316, 4.720459938049316, 4.407619953155518, 4.407619953155518, 4.190799713134766, 4.135819911956787, 4.135819911956787, 3.995659828186035, 3.9546148777008057, 3.9546148777008057, 3.9546148777008057, 3.9546148777008057]
+Num of top-k answers: 30
+Num of non-reduced answers: 8
+Num of duplicate answers: 15
+Num of non-redundant answers: 15
+Num of entries retrieved from the lists: 397
+Num of entries retrieved from NKMaps: 498
+
+Blink Search Using ConstRootDup30
+[lake, michigan, ontario]
+srcNodes: [80100, 31008, 30982]
+  path: 0[31008 -> 80100], [Michigan -> Lake Superior Lake Superior ] 
+
+  path: 1[31008 -> 31008], [Michigan -> Michigan]
+  path: 2[31008 -> 90136 -> 30982], [Michigan -> Detroit River -> Ontario] 
+
+srcNodes: [80099, 31008, 30982]
+  path: 0[31008 -> 80099], [Michigan -> Lake Michigan Lake Michigan ] 
+
+  path: 1[31008 -> 31008], [Michigan -> Michigan]
+  path: 2[31008 -> 90136 -> 30982], [Michigan -> Detroit River -> Ontario] 
+
+srcNodes: [80098, 31008, 30982]
+  path: 0[30982 -> 80098], [Ontario -> Lake Manitou Lake Manitou ] 
+
+  path: 1[30982 -> 90136 -> 31008], [Ontario -> Detroit River -> Michigan] 
+
+  path: 2[30982 -> 30982], [Ontario -> Ontario]
+srcNodes: [80100, 31008, 30982]
+  path: 0[30982 -> 80100], [Ontario -> Lake Superior Lake Superior ] 
+
+  path: 1[30982 -> 90136 -> 31008], [Ontario -> Detroit River -> Michigan] 
+
+  path: 2[30982 -> 30982], [Ontario -> Ontario]
+srcNodes: [80100, 31008, 80095]
+  path: 0[31008 -> 80100], [Michigan -> Lake Superior Lake Superior ] 
+
+  path: 1[31008 -> 31008], [Michigan -> Michigan]
+  path: 2[31008 -> 80096 -> 90135 -> 80095], [Michigan -> Lake Erie Lake Erie  -> Niagara River -> Lake Ontario Lake Ontario ] 
+
+srcNodes: [80099, 31008, 80095]
+  path: 0[31008 -> 80099], [Michigan -> Lake Michigan Lake Michigan ] 
+
+  path: 1[31008 -> 31008], [Michigan -> Michigan]
+  path: 2[31008 -> 80096 -> 90135 -> 80095], [Michigan -> Lake Erie Lake Erie  -> Niagara River -> Lake Ontario Lake Ontario ] 
+
+srcNodes: [80098, 80099, 30982]
+  path: 0[30982 -> 80098], [Ontario -> Lake Manitou Lake Manitou ] 
+
+  path: 1[30982 -> 90136 -> 31008 -> 80099], [Ontario -> Detroit River -> Michigan -> Lake Michigan Lake Michigan ] 
+
+  path: 2[30982 -> 30982], [Ontario -> Ontario]
+srcNodes: [80100, 80099, 30982]
+  path: 0[30982 -> 80100], [Ontario -> Lake Superior Lake Superior ] 
+
+  path: 1[30982 -> 90136 -> 31008 -> 80099], [Ontario -> Detroit River -> Michigan -> Lake Michigan Lake Michigan ] 
+
+  path: 2[30982 -> 30982], [Ontario -> Ontario]
+srcNodes: [80093, 31008, 30982]
+  path: 0[31008 -> 90136 -> 30982 -> 80093], [Michigan -> Detroit River -> Ontario -> Lake Nipigon Lake Nipigon ] 
+
+  path: 1[31008 -> 31008], [Michigan -> Michigan]
+  path: 2[31008 -> 90136 -> 30982], [Michigan -> Detroit River -> Ontario] 
+
+srcNodes: [80099, 31008, 30982]
+  path: 0[30982 -> 90136 -> 31008 -> 80099], [Ontario -> Detroit River -> Michigan -> Lake Michigan Lake Michigan ] 
+
+  path: 1[30982 -> 90136 -> 31008], [Ontario -> Detroit River -> Michigan] 
+
+  path: 2[30982 -> 30982], [Ontario -> Ontario]
+srcNodes: [80101, 31008, 30982]
+  path: 0[31008 -> 80096 -> 90135 -> 31018 -> 80101], [Michigan -> Lake Erie Lake Erie  -> Niagara River -> New York -> Lake Champlain Lake Champlain ] 
+
+  path: 1[31008 -> 31008], [Michigan -> Michigan]
+  path: 2[31008 -> 90136 -> 30982], [Michigan -> Detroit River -> Ontario] 
+
+srcNodes: [80094, 31008, 30982]
+  path: 0[30982 -> 80095 -> 90134 -> 30984 -> 80094], [Ontario -> Lake Ontario Lake Ontario  -> Saint Lawrence River -> Quebec -> Lake Manicouagan Lake Manicouagan impact] 
+
+  path: 1[30982 -> 90136 -> 31008], [Ontario -> Detroit River -> Michigan] 
+
+  path: 2[30982 -> 30982], [Ontario -> Ontario]
+srcNodes: [80085, 31008, 30982]
+  path: 0[30982 -> 43042 -> 110006 -> 31402 -> 90210 -> 80085], [Ontario -> York -> Great Britain Great Britain British Isles  -> Central -> Zambezi -> Lake Kariba Lake Kariba artificial] 
+
+  path: 1[30982 -> 90136 -> 31008], [Ontario -> Detroit River -> Michigan] 
+
+  path: 2[30982 -> 30982], [Ontario -> Ontario]
+srcNodes: [80093, 31008, 80095]
+  path: 0[31008 -> 90136 -> 30982 -> 80093], [Michigan -> Detroit River -> Ontario -> Lake Nipigon Lake Nipigon ] 
+
+  path: 1[31008 -> 31008], [Michigan -> Michigan]
+  path: 2[31008 -> 80096 -> 90135 -> 80095], [Michigan -> Lake Erie Lake Erie  -> Niagara River -> Lake Ontario Lake Ontario ] 
+
+srcNodes: [80099, 80099, 30982]
+  path: 0[30982 -> 90136 -> 31008 -> 80099], [Ontario -> Detroit River -> Michigan -> Lake Michigan Lake Michigan ] 
+
+  path: 1[30982 -> 90136 -> 31008 -> 80099], [Ontario -> Detroit River -> Michigan -> Lake Michigan Lake Michigan ] 
+
+  path: 2[30982 -> 30982], [Ontario -> Ontario]
+srcNodes: [80101, 31008, 80095]
+  path: 0[31008 -> 80096 -> 90135 -> 31018 -> 80101], [Michigan -> Lake Erie Lake Erie  -> Niagara River -> New York -> Lake Champlain Lake Champlain ] 
+
+  path: 1[31008 -> 31008], [Michigan -> Michigan]
+  path: 2[31008 -> 80096 -> 90135 -> 80095], [Michigan -> Lake Erie Lake Erie  -> Niagara River -> Lake Ontario Lake Ontario ] 
+
+srcNodes: [80096, 31008, 30982]
+  path: 0[90136 -> 80096], [Detroit River -> Lake Erie Lake Erie ] 
+
+  path: 1[90136 -> 31008], [Detroit River -> Michigan] 
+
+  path: 2[90136 -> 30982], [Detroit River -> Ontario] 
+
+srcNodes: [80097, 31008, 30982]
+  path: 0[80097 -> 80097], [Lake Huron Lake Huron  -> Lake Huron Lake Huron ]
+  path: 1[80097 -> 90136 -> 31008], [Lake Huron Lake Huron  -> Detroit River -> Michigan] 
+
+  path: 2[80097 -> 90136 -> 30982], [Lake Huron Lake Huron  -> Detroit River -> Ontario] 
+
+srcNodes: [80096, 31008, 30982]
+  path: 0[80096 -> 80096], [Lake Erie Lake Erie  -> Lake Erie Lake Erie ]
+  path: 1[80096 -> 90135 -> 30982 -> 90136 -> 31008], [Lake Erie Lake Erie  -> Niagara River -> Ontario -> Detroit River -> Michigan] 
+
+  path: 2[80096 -> 90135 -> 30982], [Lake Erie Lake Erie  -> Niagara River -> Ontario] 
+
+srcNodes: [80095, 31008, 30982]
+  path: 0[90135 -> 80095], [Niagara River -> Lake Ontario Lake Ontario ] 
+
+  path: 1[90135 -> 30982 -> 90136 -> 31008], [Niagara River -> Ontario -> Detroit River -> Michigan] 
+
+  path: 2[90135 -> 30982], [Niagara River -> Ontario] 
+
+srcNodes: [80115, 31008, 41969]
+  path: 0[20118 -> 31027 -> 80115], [United States -> South Dakota -> Lake Oahe Lake Oahe artificial] 
+
+  path: 1[20118 -> 31008], [United States -> Michigan] 
+
+  path: 2[20118 -> 30991 -> 41969], [United States -> California -> Ontario] 
+
+srcNodes: [80118, 31008, 30982]
+  path: 0[80118 -> 80118], [Lake Managua Lake Managua  -> Lake Managua Lake Managua ]
+  path: 1[80118 -> 90153 -> 20121 -> 10001 -> 20118 -> 31008], [Lake Managua Lake Managua  -> Rio San Juan -> Nicaragua -> America -> United States -> Michigan] 
+
+  path: 2[80118 -> 90153 -> 20121 -> 10001 -> 20117 -> 30982], [Lake Managua Lake Managua  -> Rio San Juan -> Nicaragua -> America -> Canada -> Ontario] 
+
+srcNodes: [80117, 31008, 30982]
+  path: 0[80117 -> 80117], [Lake Nicaragua Lake Nicaragua  -> Lake Nicaragua Lake Nicaragua ]
+  path: 1[80117 -> 90153 -> 20121 -> 10001 -> 20118 -> 31008], [Lake Nicaragua Lake Nicaragua  -> Rio San Juan -> Nicaragua -> America -> United States -> Michigan] 
+
+  path: 2[80117 -> 90153 -> 20121 -> 10001 -> 20117 -> 30982], [Lake Nicaragua Lake Nicaragua  -> Rio San Juan -> Nicaragua -> America -> Canada -> Ontario] 
+
+srcNodes: [80122, 31008, 30982]
+  path: 0[80122 -> 80122], [Lake Titicaca Lake Titicaca  -> Lake Titicaca Lake Titicaca ]
+  path: 1[80122 -> 90154 -> 20170 -> 10001 -> 20118 -> 31008], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero -> Bolivia -> America -> United States -> Michigan] 
+
+  path: 2[80122 -> 90154 -> 20170 -> 10001 -> 20117 -> 30982], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero -> Bolivia -> America -> Canada -> Ontario] 
+
+srcNodes: [80100, 31008, 30982]
+  path: 0[110195 -> 30982 -> 80100], [Manitoulin Manitoulin   -> Ontario -> Lake Superior Lake Superior ] 
+
+  path: 1[110195 -> 30982 -> 90136 -> 31008], [Manitoulin Manitoulin   -> Ontario -> Detroit River -> Michigan] 
+
+  path: 2[110195 -> 30982], [Manitoulin Manitoulin   -> Ontario] 
+
+srcNodes: [80101, 31008, 30982]
+  path: 0[20117 -> 30984 -> 80101], [Canada -> Quebec -> Lake Champlain Lake Champlain ] 
+
+  path: 1[20117 -> 10001 -> 20118 -> 31008], [Canada -> America -> United States -> Michigan] 
+
+  path: 2[20117 -> 30982], [Canada -> Ontario] 
+
+srcNodes: [80100, 31008, 30982]
+  path: 0[110194 -> 30982 -> 80100], [Rene Levasseur Island Rene Levasseur Island   -> Ontario -> Lake Superior Lake Superior ] 
+
+  path: 1[110194 -> 30982 -> 90136 -> 31008], [Rene Levasseur Island Rene Levasseur Island   -> Ontario -> Detroit River -> Michigan] 
+
+  path: 2[110194 -> 30982], [Rene Levasseur Island Rene Levasseur Island   -> Ontario] 
+
+srcNodes: [80101, 31008, 80095]
+  path: 0[31018 -> 80101], [New York -> Lake Champlain Lake Champlain ] 
+
+  path: 1[31018 -> 90135 -> 30982 -> 90136 -> 31008], [New York -> Niagara River -> Ontario -> Detroit River -> Michigan] 
+
+  path: 2[31018 -> 80095], [New York -> Lake Ontario Lake Ontario ] 
+
+srcNodes: [80099, 80099, 30982]
+  path: 0[31000 -> 80099], [Indiana -> Lake Michigan Lake Michigan ] 
+
+  path: 1[31000 -> 80099], [Indiana -> Lake Michigan Lake Michigan ] 
+
+  path: 2[31000 -> 90145 -> 31024 -> 80096 -> 90135 -> 30982], [Indiana -> Ohio River -> Pennsylvania -> Lake Erie Lake Erie  -> Niagara River -> Ontario] 
+
+srcNodes: [80099, 80099, 30982]
+  path: 0[30999 -> 80099], [Illinois -> Lake Michigan Lake Michigan ] 
+
+  path: 1[30999 -> 80099], [Illinois -> Lake Michigan Lake Michigan ] 
+
+  path: 2[30999 -> 90145 -> 31024 -> 80096 -> 90135 -> 30982], [Illinois -> Ohio River -> Pennsylvania -> Lake Erie Lake Erie  -> Niagara River -> Ontario] 
+
+-----------------------------------------
+ResultDestNodes: 
+31008, 31008, 30982, 30982, 31008, 31008, 30982, 30982, 31008, 30982, 31008, 30982, 30982, 31008, 30982, 31008, 90136, 80097, 80096, 90135, 20118, 80118, 80117, 80122, 110195, 20117, 110194, 31018, 31000, 30999, 
+ResultRelevs: 
+8.9227, 8.9227, 8.80283, 8.80283, 8.22187, 8.22187, 8.07803, 8.07803, 8.055435, 7.935565, 7.881982, 7.7621117, 7.6464777, 7.3546047, 7.210765, 7.181152, 7.08071, 7.0331697, 6.30837, 5.72169, 5.62648, 5.251123, 5.251123, 5.251123, 5.14351, 5.14351, 5.14351, 4.92426, 4.785008, 4.785008, 
+Num of top-k answers: 30
+Num of duplicate answers: 9
+Num of duplicate roots in top-k answers: 14
+root duplication ratio: 0.4827586
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 315
+Num of entries retrieved from NKMaps: 1453
+Num of answer trees explored: 2944
+

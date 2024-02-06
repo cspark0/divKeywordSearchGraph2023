@@ -1,0 +1,32 @@
+Top-k Search by Blink-BDB, k=5
+
+Div Top-k Search by Exhustive5
+
+Div Top-k Search by Astar15
+
+Div Top-k Search by Astar25
+
+Top-k Search by Blink-BDB, k=10
+
+Div Top-k Search by Exhustive10
+
+Div Top-k Search by Astar110
+
+Div Top-k Search by Astar210
+
+Top-k Search by Blink-BDB, k=15
+
+Div Top-k Search by Exhustive15
+
+Div Top-k Search by Astar115
+
+Div Top-k Search by Astar215
+
+Top-k Search by Blink-BDB, k=20
+
+Div Top-k Search by Exhustive20
+
+Div Top-k Search by Astar120
+
+Div Top-k Search by Astar220
+

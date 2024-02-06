@@ -1,0 +1,891 @@
+Blink Search Using BDB 10
+[monarchy, catholic, europe]
+srcNodes: [60024, 70433, 10004]
+  path: 0[10004 -> 20024 -> 60024], [Europe -> Belgium -> constitutional monarchy] 
+
+  path: 1[10004 -> 20041 -> 70433], [Europe -> Holy See -> Roman Catholic] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60037, 70422, 10004]
+  path: 0[20037 -> 60037], [Sweden -> constitutional monarchy] 
+
+  path: 1[20037 -> 70422], [Sweden -> Roman Catholic] 
+
+  path: 2[20037 -> 10004], [Sweden -> Europe] 
+
+srcNodes: [60026, 70401, 10004]
+  path: 0[20026 -> 60026], [Netherlands -> constitutional monarchy] 
+
+  path: 1[20026 -> 70401], [Netherlands -> Roman Catholic] 
+
+  path: 2[20026 -> 10004], [Netherlands -> Europe] 
+
+srcNodes: [60024, 70345, 10004]
+  path: 0[20024 -> 60024], [Belgium -> constitutional monarchy] 
+
+  path: 1[20024 -> 70345], [Belgium -> Roman Catholic] 
+
+  path: 2[20024 -> 10004], [Belgium -> Europe] 
+
+srcNodes: [60038, 70393, 10004]
+  path: 0[20038 -> 60038], [Monaco -> constitutional monarchy] 
+
+  path: 1[20038 -> 70393], [Monaco -> Roman Catholic] 
+
+  path: 2[20038 -> 10004], [Monaco -> Europe] 
+
+srcNodes: [60025, 70389, 10004]
+  path: 0[20025 -> 60025], [Luxembourg -> constitutional monarchy] 
+
+  path: 1[20025 -> 70389], [Luxembourg -> Roman Catholic] 
+
+  path: 2[20025 -> 10004], [Luxembourg -> Europe] 
+
+srcNodes: [60036, 70397, 10004]
+  path: 0[20036 -> 60036], [Norway -> constitutional monarchy] 
+
+  path: 1[20036 -> 70397], [Norway -> Roman Catholic] 
+
+  path: 2[20036 -> 10004], [Norway -> Europe] 
+
+srcNodes: [60008, 70367, 10004]
+  path: 0[20008 -> 60008], [Spain -> parliamentary monarchy] 
+
+  path: 1[20008 -> 70367], [Spain -> Roman Catholic] 
+
+  path: 2[20008 -> 10004], [Spain -> Europe] 
+
+srcNodes: [60032, 70365, 10004]
+  path: 0[20032 -> 60032], [Denmark -> constitutional monarchy] 
+
+  path: 1[20032 -> 70365], [Denmark -> Roman Catholic] 
+
+  path: 2[20032 -> 10004], [Denmark -> Europe] 
+
+srcNodes: [60014, 70374, 10004]
+  path: 0[20014 -> 60014], [Liechtenstein -> hereditary constitutional monarchy] 
+
+  path: 1[20014 -> 70374], [Liechtenstein -> Roman Catholic] 
+
+  path: 2[20014 -> 10004], [Liechtenstein -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: [10004, 20037, 20026, 20024, 20038, 20025, 20036, 20008, 20032, 20014]
+ResultRelevs: [10.597610473632812, 7.709519863128662, 7.709519863128662, 7.709519863128662, 7.709519863128662, 7.709519863128662, 7.709519863128662, 7.709519863128662, 7.709519863128662, 7.307700157165527]
+Num of top-k answers: 10
+Num of non-reduced answers: 0
+Num of duplicate answers: 0
+Num of non-redundant answers: 10
+Num of entries retrieved from the lists: 312
+Num of entries retrieved from NKMaps: 465
+
+Blink Search Using ConstRootDup10
+[monarchy, catholic, europe]
+srcNodes: [60024, 70433, 10004]
+  path: 0[10004 -> 20024 -> 60024], [Europe -> Belgium -> constitutional monarchy] 
+
+  path: 1[10004 -> 20041 -> 70433], [Europe -> Holy See -> Roman Catholic] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60024, 70428, 10004]
+  path: 0[10004 -> 20024 -> 60024], [Europe -> Belgium -> constitutional monarchy] 
+
+  path: 1[10004 -> 20003 -> 70428], [Europe -> Serbia -> Roman Catholic] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60026, 70433, 10004]
+  path: 0[10004 -> 20026 -> 60026], [Europe -> Netherlands -> constitutional monarchy] 
+
+  path: 1[10004 -> 20041 -> 70433], [Europe -> Holy See -> Roman Catholic] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60026, 70428, 10004]
+  path: 0[10004 -> 20026 -> 60026], [Europe -> Netherlands -> constitutional monarchy] 
+
+  path: 1[10004 -> 20003 -> 70428], [Europe -> Serbia -> Roman Catholic] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60066, 70433, 10004]
+  path: 0[10004 -> 20031 -> 10002 -> 20066 -> 60066], [Europe -> Turkey -> Asia -> Bhutan -> monarchy] 
+
+  path: 1[10004 -> 20041 -> 70433], [Europe -> Holy See -> Roman Catholic] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60038, 70393, 10004]
+  path: 0[20038 -> 60038], [Monaco -> constitutional monarchy] 
+
+  path: 1[20038 -> 70393], [Monaco -> Roman Catholic] 
+
+  path: 2[20038 -> 10004], [Monaco -> Europe] 
+
+srcNodes: [60008, 70367, 10004]
+  path: 0[20008 -> 60008], [Spain -> parliamentary monarchy] 
+
+  path: 1[20008 -> 70367], [Spain -> Roman Catholic] 
+
+  path: 2[20008 -> 10004], [Spain -> Europe] 
+
+srcNodes: [60026, 70401, 10004]
+  path: 0[20026 -> 60026], [Netherlands -> constitutional monarchy] 
+
+  path: 1[20026 -> 70401], [Netherlands -> Roman Catholic] 
+
+  path: 2[20026 -> 10004], [Netherlands -> Europe] 
+
+srcNodes: [60032, 70365, 10004]
+  path: 0[20032 -> 60032], [Denmark -> constitutional monarchy] 
+
+  path: 1[20032 -> 70365], [Denmark -> Roman Catholic] 
+
+  path: 2[20032 -> 10004], [Denmark -> Europe] 
+
+srcNodes: [60025, 70389, 10004]
+  path: 0[20025 -> 60025], [Luxembourg -> constitutional monarchy] 
+
+  path: 1[20025 -> 70389], [Luxembourg -> Roman Catholic] 
+
+  path: 2[20025 -> 10004], [Luxembourg -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: 
+10004, 10004, 10004, 10004, 10004, 20038, 20008, 20026, 20032, 20025, 
+ResultRelevs: 
+10.59761, 10.59761, 10.59761, 10.59761, 10.544041, 7.70952, 7.70952, 7.70952, 7.70952, 7.70952, 
+Num of top-k answers: 10
+Num of duplicate answers: 0
+Num of duplicate roots in top-k answers: 4
+root duplication ratio: 0.44444445
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 174
+Num of entries retrieved from NKMaps: 928
+Num of answer trees explored: 4480
+
+Blink Search Using BDB 20
+[monarchy, catholic, europe]
+srcNodes: [60024, 70433, 10004]
+  path: 0[10004 -> 20024 -> 60024], [Europe -> Belgium -> constitutional monarchy] 
+
+  path: 1[10004 -> 20041 -> 70433], [Europe -> Holy See -> Roman Catholic] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60038, 70393, 10004]
+  path: 0[20038 -> 60038], [Monaco -> constitutional monarchy] 
+
+  path: 1[20038 -> 70393], [Monaco -> Roman Catholic] 
+
+  path: 2[20038 -> 10004], [Monaco -> Europe] 
+
+srcNodes: [60025, 70389, 10004]
+  path: 0[20025 -> 60025], [Luxembourg -> constitutional monarchy] 
+
+  path: 1[20025 -> 70389], [Luxembourg -> Roman Catholic] 
+
+  path: 2[20025 -> 10004], [Luxembourg -> Europe] 
+
+srcNodes: [60024, 70345, 10004]
+  path: 0[20024 -> 60024], [Belgium -> constitutional monarchy] 
+
+  path: 1[20024 -> 70345], [Belgium -> Roman Catholic] 
+
+  path: 2[20024 -> 10004], [Belgium -> Europe] 
+
+srcNodes: [60008, 70367, 10004]
+  path: 0[20008 -> 60008], [Spain -> parliamentary monarchy] 
+
+  path: 1[20008 -> 70367], [Spain -> Roman Catholic] 
+
+  path: 2[20008 -> 10004], [Spain -> Europe] 
+
+srcNodes: [60026, 70401, 10004]
+  path: 0[20026 -> 60026], [Netherlands -> constitutional monarchy] 
+
+  path: 1[20026 -> 70401], [Netherlands -> Roman Catholic] 
+
+  path: 2[20026 -> 10004], [Netherlands -> Europe] 
+
+srcNodes: [60032, 70365, 10004]
+  path: 0[20032 -> 60032], [Denmark -> constitutional monarchy] 
+
+  path: 1[20032 -> 70365], [Denmark -> Roman Catholic] 
+
+  path: 2[20032 -> 10004], [Denmark -> Europe] 
+
+srcNodes: [60037, 70422, 10004]
+  path: 0[20037 -> 60037], [Sweden -> constitutional monarchy] 
+
+  path: 1[20037 -> 70422], [Sweden -> Roman Catholic] 
+
+  path: 2[20037 -> 10004], [Sweden -> Europe] 
+
+srcNodes: [60036, 70397, 10004]
+  path: 0[20036 -> 60036], [Norway -> constitutional monarchy] 
+
+  path: 1[20036 -> 70397], [Norway -> Roman Catholic] 
+
+  path: 2[20036 -> 10004], [Norway -> Europe] 
+
+srcNodes: [60014, 70374, 10004]
+  path: 0[20014 -> 60014], [Liechtenstein -> hereditary constitutional monarchy] 
+
+  path: 1[20014 -> 70374], [Liechtenstein -> Roman Catholic] 
+
+  path: 2[20014 -> 10004], [Liechtenstein -> Europe] 
+
+srcNodes: [60051, 70386, 10004]
+  path: 0[20051 -> 60051], [United Kingdom -> constitutional monarchy] 
+
+  path: 1[20051 -> 10004 -> 20042 -> 70386], [United Kingdom -> Europe -> Iceland -> Roman Catholic] 
+
+  path: 2[20051 -> 10004], [United Kingdom -> Europe] 
+
+srcNodes: [60092, 70385, 10004]
+  path: 0[20043 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Ireland -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+  path: 1[20043 -> 70385], [Ireland -> Roman Catholic] 
+
+  path: 2[20043 -> 10004], [Ireland -> Europe] 
+
+srcNodes: [60092, 70377, 10004]
+  path: 0[20039 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Gibraltar -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+  path: 1[20039 -> 70377], [Gibraltar -> Roman Catholic] 
+
+  path: 2[20039 -> 10004], [Gibraltar -> Europe] 
+
+srcNodes: [60092, 70338, 10004]
+  path: 0[20000 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Albania -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+  path: 1[20000 -> 70338], [Albania -> Roman Catholic] 
+
+  path: 2[20000 -> 10004], [Albania -> Europe] 
+
+srcNodes: [60092, 70358, 10004]
+  path: 0[20017 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Switzerland -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+  path: 1[20017 -> 70358], [Switzerland -> Roman Catholic] 
+
+  path: 2[20017 -> 10004], [Switzerland -> Europe] 
+
+srcNodes: [60092, 70433, 10004]
+  path: 0[20041 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Holy See -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+  path: 1[20041 -> 70433], [Holy See -> Roman Catholic] 
+
+  path: 2[20041 -> 10004], [Holy See -> Europe] 
+
+srcNodes: [60092, 70423, 10004]
+  path: 0[20015 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Slovakia -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+  path: 1[20015 -> 70423], [Slovakia -> Roman Catholic] 
+
+  path: 2[20015 -> 10004], [Slovakia -> Europe] 
+
+srcNodes: [60092, 70386, 10004]
+  path: 0[20042 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Iceland -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+  path: 1[20042 -> 70386], [Iceland -> Roman Catholic] 
+
+  path: 2[20042 -> 10004], [Iceland -> Europe] 
+
+srcNodes: [60092, 70383, 10004]
+  path: 0[20028 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Croatia -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+  path: 1[20028 -> 70383], [Croatia -> Roman Catholic] 
+
+  path: 2[20028 -> 10004], [Croatia -> Europe] 
+
+srcNodes: [60092, 70337, 10004]
+  path: 0[20009 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Austria -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+  path: 1[20009 -> 70337], [Austria -> Roman Catholic] 
+
+  path: 2[20009 -> 10004], [Austria -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: [10004, 20038, 20025, 20024, 20008, 20026, 20032, 20037, 20036, 20014, 20051, 20043, 20039, 20000, 20017, 20041, 20015, 20042, 20028, 20009]
+ResultRelevs: [10.597610473632812, 7.709519863128662, 7.709519863128662, 7.709519863128662, 7.709519863128662, 7.709519863128662, 7.709519863128662, 7.709519863128662, 7.709519863128662, 7.307700157165527, 6.906026840209961, 6.771949768066406, 6.771949768066406, 6.771949768066406, 6.771949768066406, 6.771949768066406, 6.771949768066406, 6.771949768066406, 6.771949768066406, 6.771949768066406]
+Num of top-k answers: 20
+Num of non-reduced answers: 0
+Num of duplicate answers: 0
+Num of non-redundant answers: 20
+Num of entries retrieved from the lists: 314
+Num of entries retrieved from NKMaps: 469
+
+Blink Search Using ConstRootDup20
+[monarchy, catholic, europe]
+srcNodes: [60026, 70433, 10004]
+  path: 0[10004 -> 20026 -> 60026], [Europe -> Netherlands -> constitutional monarchy] 
+
+  path: 1[10004 -> 20041 -> 70433], [Europe -> Holy See -> Roman Catholic] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60024, 70428, 10004]
+  path: 0[10004 -> 20024 -> 60024], [Europe -> Belgium -> constitutional monarchy] 
+
+  path: 1[10004 -> 20003 -> 70428], [Europe -> Serbia -> Roman Catholic] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60026, 70428, 10004]
+  path: 0[10004 -> 20026 -> 60026], [Europe -> Netherlands -> constitutional monarchy] 
+
+  path: 1[10004 -> 20003 -> 70428], [Europe -> Serbia -> Roman Catholic] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60024, 70433, 10004]
+  path: 0[10004 -> 20024 -> 60024], [Europe -> Belgium -> constitutional monarchy] 
+
+  path: 1[10004 -> 20041 -> 70433], [Europe -> Holy See -> Roman Catholic] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60066, 70428, 10004]
+  path: 0[10004 -> 20031 -> 10002 -> 20066 -> 60066], [Europe -> Turkey -> Asia -> Bhutan -> monarchy] 
+
+  path: 1[10004 -> 20003 -> 70428], [Europe -> Serbia -> Roman Catholic] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60066, 70433, 10004]
+  path: 0[10004 -> 20031 -> 10002 -> 20066 -> 60066], [Europe -> Turkey -> Asia -> Bhutan -> monarchy] 
+
+  path: 1[10004 -> 20041 -> 70433], [Europe -> Holy See -> Roman Catholic] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60014, 70428, 10004]
+  path: 0[10004 -> 20014 -> 60014], [Europe -> Liechtenstein -> hereditary constitutional monarchy] 
+
+  path: 1[10004 -> 20003 -> 70428], [Europe -> Serbia -> Roman Catholic] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60014, 70433, 10004]
+  path: 0[10004 -> 20014 -> 60014], [Europe -> Liechtenstein -> hereditary constitutional monarchy] 
+
+  path: 1[10004 -> 20041 -> 70433], [Europe -> Holy See -> Roman Catholic] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60026, 70416, 10004]
+  path: 0[10004 -> 20026 -> 60026], [Europe -> Netherlands -> constitutional monarchy] 
+
+  path: 1[10004 -> 20031 -> 10002 -> 20086 -> 70416], [Europe -> Turkey -> Asia -> Indonesia -> Roman Catholic] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60024, 70416, 10004]
+  path: 0[10004 -> 20024 -> 60024], [Europe -> Belgium -> constitutional monarchy] 
+
+  path: 1[10004 -> 20031 -> 10002 -> 20086 -> 70416], [Europe -> Turkey -> Asia -> Indonesia -> Roman Catholic] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60037, 70422, 10004]
+  path: 0[20037 -> 60037], [Sweden -> constitutional monarchy] 
+
+  path: 1[20037 -> 70422], [Sweden -> Roman Catholic] 
+
+  path: 2[20037 -> 10004], [Sweden -> Europe] 
+
+srcNodes: [60038, 70393, 10004]
+  path: 0[20038 -> 60038], [Monaco -> constitutional monarchy] 
+
+  path: 1[20038 -> 70393], [Monaco -> Roman Catholic] 
+
+  path: 2[20038 -> 10004], [Monaco -> Europe] 
+
+srcNodes: [60036, 70397, 10004]
+  path: 0[20036 -> 60036], [Norway -> constitutional monarchy] 
+
+  path: 1[20036 -> 70397], [Norway -> Roman Catholic] 
+
+  path: 2[20036 -> 10004], [Norway -> Europe] 
+
+srcNodes: [60032, 70365, 10004]
+  path: 0[20032 -> 60032], [Denmark -> constitutional monarchy] 
+
+  path: 1[20032 -> 70365], [Denmark -> Roman Catholic] 
+
+  path: 2[20032 -> 10004], [Denmark -> Europe] 
+
+srcNodes: [60025, 70389, 10004]
+  path: 0[20025 -> 60025], [Luxembourg -> constitutional monarchy] 
+
+  path: 1[20025 -> 70389], [Luxembourg -> Roman Catholic] 
+
+  path: 2[20025 -> 10004], [Luxembourg -> Europe] 
+
+srcNodes: [60024, 70345, 10004]
+  path: 0[20024 -> 60024], [Belgium -> constitutional monarchy] 
+
+  path: 1[20024 -> 70345], [Belgium -> Roman Catholic] 
+
+  path: 2[20024 -> 10004], [Belgium -> Europe] 
+
+srcNodes: [60008, 70367, 10004]
+  path: 0[20008 -> 60008], [Spain -> parliamentary monarchy] 
+
+  path: 1[20008 -> 70367], [Spain -> Roman Catholic] 
+
+  path: 2[20008 -> 10004], [Spain -> Europe] 
+
+srcNodes: [60026, 70401, 10004]
+  path: 0[20026 -> 60026], [Netherlands -> constitutional monarchy] 
+
+  path: 1[20026 -> 70401], [Netherlands -> Roman Catholic] 
+
+  path: 2[20026 -> 10004], [Netherlands -> Europe] 
+
+srcNodes: [60014, 70374, 10004]
+  path: 0[20014 -> 60014], [Liechtenstein -> hereditary constitutional monarchy] 
+
+  path: 1[20014 -> 70374], [Liechtenstein -> Roman Catholic] 
+
+  path: 2[20014 -> 10004], [Liechtenstein -> Europe] 
+
+srcNodes: [60051, 70386, 10004]
+  path: 0[20051 -> 60051], [United Kingdom -> constitutional monarchy] 
+
+  path: 1[20051 -> 10004 -> 20042 -> 70386], [United Kingdom -> Europe -> Iceland -> Roman Catholic] 
+
+  path: 2[20051 -> 10004], [United Kingdom -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: 
+10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 20037, 20038, 20036, 20032, 20025, 20024, 20008, 20026, 20014, 20051, 
+ResultRelevs: 
+10.59761, 10.59761, 10.59761, 10.59761, 10.544041, 10.544041, 10.329741, 10.329741, 10.169077, 10.169077, 7.70952, 7.70952, 7.70952, 7.70952, 7.70952, 7.70952, 7.70952, 7.70952, 7.3077, 6.906027, 
+Num of top-k answers: 20
+Num of duplicate answers: 0
+Num of duplicate roots in top-k answers: 9
+root duplication ratio: 0.47368422
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 312
+Num of entries retrieved from NKMaps: 1866
+Num of answer trees explored: 8264
+
+Blink Search Using BDB 30
+[monarchy, catholic, europe]
+srcNodes: [60024, 70433, 10004]
+  path: 0[10004 -> 20024 -> 60024], [Europe -> Belgium -> constitutional monarchy] 
+
+  path: 1[10004 -> 20041 -> 70433], [Europe -> Holy See -> Roman Catholic] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60036, 70397, 10004]
+  path: 0[20036 -> 60036], [Norway -> constitutional monarchy] 
+
+  path: 1[20036 -> 70397], [Norway -> Roman Catholic] 
+
+  path: 2[20036 -> 10004], [Norway -> Europe] 
+
+srcNodes: [60024, 70345, 10004]
+  path: 0[20024 -> 60024], [Belgium -> constitutional monarchy] 
+
+  path: 1[20024 -> 70345], [Belgium -> Roman Catholic] 
+
+  path: 2[20024 -> 10004], [Belgium -> Europe] 
+
+srcNodes: [60026, 70401, 10004]
+  path: 0[20026 -> 60026], [Netherlands -> constitutional monarchy] 
+
+  path: 1[20026 -> 70401], [Netherlands -> Roman Catholic] 
+
+  path: 2[20026 -> 10004], [Netherlands -> Europe] 
+
+srcNodes: [60037, 70422, 10004]
+  path: 0[20037 -> 60037], [Sweden -> constitutional monarchy] 
+
+  path: 1[20037 -> 70422], [Sweden -> Roman Catholic] 
+
+  path: 2[20037 -> 10004], [Sweden -> Europe] 
+
+srcNodes: [60038, 70393, 10004]
+  path: 0[20038 -> 60038], [Monaco -> constitutional monarchy] 
+
+  path: 1[20038 -> 70393], [Monaco -> Roman Catholic] 
+
+  path: 2[20038 -> 10004], [Monaco -> Europe] 
+
+srcNodes: [60008, 70367, 10004]
+  path: 0[20008 -> 60008], [Spain -> parliamentary monarchy] 
+
+  path: 1[20008 -> 70367], [Spain -> Roman Catholic] 
+
+  path: 2[20008 -> 10004], [Spain -> Europe] 
+
+srcNodes: [60025, 70389, 10004]
+  path: 0[20025 -> 60025], [Luxembourg -> constitutional monarchy] 
+
+  path: 1[20025 -> 70389], [Luxembourg -> Roman Catholic] 
+
+  path: 2[20025 -> 10004], [Luxembourg -> Europe] 
+
+srcNodes: [60032, 70365, 10004]
+  path: 0[20032 -> 60032], [Denmark -> constitutional monarchy] 
+
+  path: 1[20032 -> 70365], [Denmark -> Roman Catholic] 
+
+  path: 2[20032 -> 10004], [Denmark -> Europe] 
+
+srcNodes: [60014, 70374, 10004]
+  path: 0[20014 -> 60014], [Liechtenstein -> hereditary constitutional monarchy] 
+
+  path: 1[20014 -> 70374], [Liechtenstein -> Roman Catholic] 
+
+  path: 2[20014 -> 10004], [Liechtenstein -> Europe] 
+
+srcNodes: [60051, 70386, 10004]
+  path: 0[20051 -> 60051], [United Kingdom -> constitutional monarchy] 
+
+  path: 1[20051 -> 10004 -> 20042 -> 70386], [United Kingdom -> Europe -> Iceland -> Roman Catholic] 
+
+  path: 2[20051 -> 10004], [United Kingdom -> Europe] 
+
+srcNodes: [60092, 70433, 10004]
+  path: 0[20041 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Holy See -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+  path: 1[20041 -> 70433], [Holy See -> Roman Catholic] 
+
+  path: 2[20041 -> 10004], [Holy See -> Europe] 
+
+srcNodes: [60092, 70395, 10004]
+  path: 0[20004 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Montenegro -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+  path: 1[20004 -> 70395], [Montenegro -> Roman Catholic] 
+
+  path: 2[20004 -> 10004], [Montenegro -> Europe] 
+
+srcNodes: [60092, 70381, 10004]
+  path: 0[20012 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Hungary -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+  path: 1[20012 -> 70381], [Hungary -> Roman Catholic] 
+
+  path: 2[20012 -> 10004], [Hungary -> Europe] 
+
+srcNodes: [60092, 70377, 10004]
+  path: 0[20039 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Gibraltar -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+  path: 1[20039 -> 70377], [Gibraltar -> Roman Catholic] 
+
+  path: 2[20039 -> 10004], [Gibraltar -> Europe] 
+
+srcNodes: [60092, 70383, 10004]
+  path: 0[20028 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Croatia -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+  path: 1[20028 -> 70383], [Croatia -> Roman Catholic] 
+
+  path: 2[20028 -> 10004], [Croatia -> Europe] 
+
+srcNodes: [60092, 70348, 10004]
+  path: 0[20029 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Bulgaria -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+  path: 1[20029 -> 70348], [Bulgaria -> Roman Catholic] 
+
+  path: 2[20029 -> 10004], [Bulgaria -> Europe] 
+
+srcNodes: [60092, 70428, 10004]
+  path: 0[20003 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Serbia -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+  path: 1[20003 -> 70428], [Serbia -> Roman Catholic] 
+
+  path: 2[20003 -> 10004], [Serbia -> Europe] 
+
+srcNodes: [60092, 70390, 10004]
+  path: 0[20046 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Malta -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+  path: 1[20046 -> 70390], [Malta -> Roman Catholic] 
+
+  path: 2[20046 -> 10004], [Malta -> Europe] 
+
+srcNodes: [60092, 70349, 10004]
+  path: 0[20027 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Bosnia and Herzegovina -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+  path: 1[20027 -> 70349], [Bosnia and Herzegovina -> Roman Catholic] 
+
+  path: 2[20027 -> 10004], [Bosnia and Herzegovina -> Europe] 
+
+srcNodes: [60092, 70363, 10004]
+  path: 0[20010 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Czech Republic -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+  path: 1[20010 -> 70363], [Czech Republic -> Roman Catholic] 
+
+  path: 2[20010 -> 10004], [Czech Republic -> Europe] 
+
+srcNodes: [60092, 70423, 10004]
+  path: 0[20015 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Slovakia -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+  path: 1[20015 -> 70423], [Slovakia -> Roman Catholic] 
+
+  path: 2[20015 -> 10004], [Slovakia -> Europe] 
+
+srcNodes: [60092, 70358, 10004]
+  path: 0[20017 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Switzerland -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+  path: 1[20017 -> 70358], [Switzerland -> Roman Catholic] 
+
+  path: 2[20017 -> 10004], [Switzerland -> Europe] 
+
+srcNodes: [60092, 70337, 10004]
+  path: 0[20009 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Austria -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+  path: 1[20009 -> 70337], [Austria -> Roman Catholic] 
+
+  path: 2[20009 -> 10004], [Austria -> Europe] 
+
+srcNodes: [60092, 70407, 10004]
+  path: 0[20021 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Poland -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+  path: 1[20021 -> 70407], [Poland -> Roman Catholic] 
+
+  path: 2[20021 -> 10004], [Poland -> Europe] 
+
+srcNodes: [60092, 70385, 10004]
+  path: 0[20043 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Ireland -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+  path: 1[20043 -> 70385], [Ireland -> Roman Catholic] 
+
+  path: 2[20043 -> 10004], [Ireland -> Europe] 
+
+srcNodes: [60092, 70364, 10004]
+  path: 0[20011 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Germany -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+  path: 1[20011 -> 70364], [Germany -> Roman Catholic] 
+
+  path: 2[20011 -> 10004], [Germany -> Europe] 
+
+srcNodes: [60092, 70425, 10004]
+  path: 0[20016 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Slovenia -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+  path: 1[20016 -> 70425], [Slovenia -> Roman Catholic] 
+
+  path: 2[20016 -> 10004], [Slovenia -> Europe] 
+
+srcNodes: [60092, 70338, 10004]
+  path: 0[20000 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Albania -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+  path: 1[20000 -> 70338], [Albania -> Roman Catholic] 
+
+  path: 2[20000 -> 10004], [Albania -> Europe] 
+
+srcNodes: [60092, 70386, 10004]
+  path: 0[20042 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Iceland -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+  path: 1[20042 -> 70386], [Iceland -> Roman Catholic] 
+
+  path: 2[20042 -> 10004], [Iceland -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: [10004, 20036, 20024, 20026, 20037, 20038, 20008, 20025, 20032, 20014, 20051, 20041, 20004, 20012, 20039, 20028, 20029, 20003, 20046, 20027, 20010, 20015, 20017, 20009, 20021, 20043, 20011, 20016, 20000, 20042]
+ResultRelevs: [10.597610473632812, 7.709519863128662, 7.709519863128662, 7.709519863128662, 7.709519863128662, 7.709519863128662, 7.709519863128662, 7.709519863128662, 7.709519863128662, 7.307700157165527, 6.906026840209961, 6.771949768066406, 6.771949768066406, 6.771949768066406, 6.771949768066406, 6.771949768066406, 6.771949768066406, 6.771949768066406, 6.771949768066406, 6.771949768066406, 6.771949768066406, 6.771949768066406, 6.771949768066406, 6.771949768066406, 6.771949768066406, 6.771949768066406, 6.771949768066406, 6.771949768066406, 6.771949768066406, 6.771949768066406]
+Num of top-k answers: 30
+Num of non-reduced answers: 0
+Num of duplicate answers: 0
+Num of non-redundant answers: 30
+Num of entries retrieved from the lists: 314
+Num of entries retrieved from NKMaps: 469
+
+Blink Search Using ConstRootDup30
+[monarchy, catholic, europe]
+srcNodes: [60026, 70433, 10004]
+  path: 0[10004 -> 20026 -> 60026], [Europe -> Netherlands -> constitutional monarchy] 
+
+  path: 1[10004 -> 20041 -> 70433], [Europe -> Holy See -> Roman Catholic] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60024, 70433, 10004]
+  path: 0[10004 -> 20024 -> 60024], [Europe -> Belgium -> constitutional monarchy] 
+
+  path: 1[10004 -> 20041 -> 70433], [Europe -> Holy See -> Roman Catholic] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60024, 70428, 10004]
+  path: 0[10004 -> 20024 -> 60024], [Europe -> Belgium -> constitutional monarchy] 
+
+  path: 1[10004 -> 20003 -> 70428], [Europe -> Serbia -> Roman Catholic] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60026, 70428, 10004]
+  path: 0[10004 -> 20026 -> 60026], [Europe -> Netherlands -> constitutional monarchy] 
+
+  path: 1[10004 -> 20003 -> 70428], [Europe -> Serbia -> Roman Catholic] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60066, 70433, 10004]
+  path: 0[10004 -> 20031 -> 10002 -> 20066 -> 60066], [Europe -> Turkey -> Asia -> Bhutan -> monarchy] 
+
+  path: 1[10004 -> 20041 -> 70433], [Europe -> Holy See -> Roman Catholic] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60066, 70428, 10004]
+  path: 0[10004 -> 20031 -> 10002 -> 20066 -> 60066], [Europe -> Turkey -> Asia -> Bhutan -> monarchy] 
+
+  path: 1[10004 -> 20003 -> 70428], [Europe -> Serbia -> Roman Catholic] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60014, 70428, 10004]
+  path: 0[10004 -> 20014 -> 60014], [Europe -> Liechtenstein -> hereditary constitutional monarchy] 
+
+  path: 1[10004 -> 20003 -> 70428], [Europe -> Serbia -> Roman Catholic] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60014, 70433, 10004]
+  path: 0[10004 -> 20014 -> 60014], [Europe -> Liechtenstein -> hereditary constitutional monarchy] 
+
+  path: 1[10004 -> 20041 -> 70433], [Europe -> Holy See -> Roman Catholic] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60026, 70416, 10004]
+  path: 0[10004 -> 20026 -> 60026], [Europe -> Netherlands -> constitutional monarchy] 
+
+  path: 1[10004 -> 20031 -> 10002 -> 20086 -> 70416], [Europe -> Turkey -> Asia -> Indonesia -> Roman Catholic] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60024, 70416, 10004]
+  path: 0[10004 -> 20024 -> 60024], [Europe -> Belgium -> constitutional monarchy] 
+
+  path: 1[10004 -> 20031 -> 10002 -> 20086 -> 70416], [Europe -> Turkey -> Asia -> Indonesia -> Roman Catholic] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60066, 70416, 10004]
+  path: 0[10004 -> 20031 -> 10002 -> 20066 -> 60066], [Europe -> Turkey -> Asia -> Bhutan -> monarchy] 
+
+  path: 1[10004 -> 20031 -> 10002 -> 20086 -> 70416], [Europe -> Turkey -> Asia -> Indonesia -> Roman Catholic] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60024, 70429, 10004]
+  path: 0[10004 -> 20024 -> 60024], [Europe -> Belgium -> constitutional monarchy] 
+
+  path: 1[10004 -> 20046 -> 42880 -> 110132 -> 20237 -> 70429], [Europe -> Malta -> Victoria -> Mahe Mahe Seychelles  -> Seychelles -> Roman Catholic] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60026, 70429, 10004]
+  path: 0[10004 -> 20026 -> 60026], [Europe -> Netherlands -> constitutional monarchy] 
+
+  path: 1[10004 -> 20046 -> 42880 -> 110132 -> 20237 -> 70429], [Europe -> Malta -> Victoria -> Mahe Mahe Seychelles  -> Seychelles -> Roman Catholic] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60103, 70428, 10004]
+  path: 0[10004 -> 20031 -> 10002 -> 20103 -> 60103], [Europe -> Turkey -> Asia -> Qatar -> traditional monarchy] 
+
+  path: 1[10004 -> 20003 -> 70428], [Europe -> Serbia -> Roman Catholic] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60103, 70433, 10004]
+  path: 0[10004 -> 20031 -> 10002 -> 20103 -> 60103], [Europe -> Turkey -> Asia -> Qatar -> traditional monarchy] 
+
+  path: 1[10004 -> 20041 -> 70433], [Europe -> Holy See -> Roman Catholic] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60008, 70367, 10004]
+  path: 0[20008 -> 60008], [Spain -> parliamentary monarchy] 
+
+  path: 1[20008 -> 70367], [Spain -> Roman Catholic] 
+
+  path: 2[20008 -> 10004], [Spain -> Europe] 
+
+srcNodes: [60036, 70397, 10004]
+  path: 0[20036 -> 60036], [Norway -> constitutional monarchy] 
+
+  path: 1[20036 -> 70397], [Norway -> Roman Catholic] 
+
+  path: 2[20036 -> 10004], [Norway -> Europe] 
+
+srcNodes: [60024, 70345, 10004]
+  path: 0[20024 -> 60024], [Belgium -> constitutional monarchy] 
+
+  path: 1[20024 -> 70345], [Belgium -> Roman Catholic] 
+
+  path: 2[20024 -> 10004], [Belgium -> Europe] 
+
+srcNodes: [60032, 70365, 10004]
+  path: 0[20032 -> 60032], [Denmark -> constitutional monarchy] 
+
+  path: 1[20032 -> 70365], [Denmark -> Roman Catholic] 
+
+  path: 2[20032 -> 10004], [Denmark -> Europe] 
+
+srcNodes: [60037, 70422, 10004]
+  path: 0[20037 -> 60037], [Sweden -> constitutional monarchy] 
+
+  path: 1[20037 -> 70422], [Sweden -> Roman Catholic] 
+
+  path: 2[20037 -> 10004], [Sweden -> Europe] 
+
+srcNodes: [60038, 70393, 10004]
+  path: 0[20038 -> 60038], [Monaco -> constitutional monarchy] 
+
+  path: 1[20038 -> 70393], [Monaco -> Roman Catholic] 
+
+  path: 2[20038 -> 10004], [Monaco -> Europe] 
+
+srcNodes: [60025, 70389, 10004]
+  path: 0[20025 -> 60025], [Luxembourg -> constitutional monarchy] 
+
+  path: 1[20025 -> 70389], [Luxembourg -> Roman Catholic] 
+
+  path: 2[20025 -> 10004], [Luxembourg -> Europe] 
+
+srcNodes: [60026, 70401, 10004]
+  path: 0[20026 -> 60026], [Netherlands -> constitutional monarchy] 
+
+  path: 1[20026 -> 70401], [Netherlands -> Roman Catholic] 
+
+  path: 2[20026 -> 10004], [Netherlands -> Europe] 
+
+srcNodes: [60014, 70374, 10004]
+  path: 0[20014 -> 60014], [Liechtenstein -> hereditary constitutional monarchy] 
+
+  path: 1[20014 -> 70374], [Liechtenstein -> Roman Catholic] 
+
+  path: 2[20014 -> 10004], [Liechtenstein -> Europe] 
+
+srcNodes: [60051, 70386, 10004]
+  path: 0[20051 -> 60051], [United Kingdom -> constitutional monarchy] 
+
+  path: 1[20051 -> 10004 -> 20042 -> 70386], [United Kingdom -> Europe -> Iceland -> Roman Catholic] 
+
+  path: 2[20051 -> 10004], [United Kingdom -> Europe] 
+
+srcNodes: [60092, 70390, 10004]
+  path: 0[20046 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Malta -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+  path: 1[20046 -> 70390], [Malta -> Roman Catholic] 
+
+  path: 2[20046 -> 10004], [Malta -> Europe] 
+
+srcNodes: [60092, 70338, 10004]
+  path: 0[20000 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Albania -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+  path: 1[20000 -> 70338], [Albania -> Roman Catholic] 
+
+  path: 2[20000 -> 10004], [Albania -> Europe] 
+
+srcNodes: [60092, 70377, 10004]
+  path: 0[20039 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Gibraltar -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+  path: 1[20039 -> 70377], [Gibraltar -> Roman Catholic] 
+
+  path: 2[20039 -> 10004], [Gibraltar -> Europe] 
+
+srcNodes: [60092, 70363, 10004]
+  path: 0[20010 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Czech Republic -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+  path: 1[20010 -> 70363], [Czech Republic -> Roman Catholic] 
+
+  path: 2[20010 -> 10004], [Czech Republic -> Europe] 
+
+srcNodes: [60092, 70383, 10004]
+  path: 0[20028 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Croatia -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+  path: 1[20028 -> 70383], [Croatia -> Roman Catholic] 
+
+  path: 2[20028 -> 10004], [Croatia -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: 
+10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 20008, 20036, 20024, 20032, 20037, 20038, 20025, 20026, 20014, 20051, 20046, 20000, 20039, 20010, 20028, 
+ResultRelevs: 
+10.59761, 10.59761, 10.59761, 10.59761, 10.544041, 10.544041, 10.329741, 10.329741, 10.169077, 10.169077, 10.115507, 10.061946, 10.061946, 10.06186, 10.06186, 7.70952, 7.70952, 7.70952, 7.70952, 7.70952, 7.70952, 7.70952, 7.70952, 7.3077, 6.906027, 6.77195, 6.77195, 6.77195, 6.77195, 6.77195, 
+Num of top-k answers: 30
+Num of duplicate answers: 0
+Num of duplicate roots in top-k answers: 14
+root duplication ratio: 0.4827586
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 314
+Num of entries retrieved from NKMaps: 1884
+Num of answer trees explored: 8332
+

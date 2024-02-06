@@ -1,0 +1,15 @@
+Top-k, (AvgResultRelev, AvgResultRelev/ResultRelevs[0], AvgResultDiss) numOfKNListsRead, numOfNKMapLookups, numOfAnswerTreesExplored, elapseTime, numOfStatesCreated, numOfStatesExplored, numOfHeuristicSearchPerformed, numOfATSPrunnedByDissCond, numOfLocalAnswersFound, 
+query: [monarchy, revolution, war]
+thr: 0.3325
+SimGrpSe, 	5, 7.19434, 1.06583, 0.50000, 2835, 3580, 751, 0.186661933, 5, 1, 0, 1, 
+SimGrpSe, 	10, 6.92008, 1.05451, 0.51852, 2891, 3657, 772, 0.133644176, 12, 2, 0, 1, 
+SimGrpSe, 	15, 6.77578, 1.06957, 0.58730, 4572, 6072, 1534, 0.153986035, 220, 80, 0, 1, 
+SimGrpSe, 	20, 6.64798, 1.06953, 0.68947, 8457, 11681, 3372, 0.270838213, 1100, 320, 0, 1, 
+thr: 0.333
+SimGrpSe, 	5, 7.19434, 1.06583, 0.50000, 2835, 3580, 751, 0.099041855, 5, 1, 0, 1, 
+SimGrpSe, 	10, 6.92008, 1.05451, 0.51852, 2891, 3657, 772, 0.107544907, 12, 2, 0, 1, 
+SimGrpSe, 	15, 6.77578, 1.06957, 0.58730, 4572, 6072, 1534, 0.170887237, 220, 80, 0, 1, 
+SimGrpSe, 	20, 6.64798, 1.06953, 0.68947, 8457, 11681, 3372, 0.400999301, 1100, 320, 0, 1, 
+thr: 0.3335
+SimGrpSe, 	5, 6.86264, 1.09107, 0.80000, 4572, 6072, 1534, 0.147347544, 321, 128, 0, 2, 
+SimGrpSe, 	10, 6.48167, 1.09294, 0.88889, 14185, 19774, 6000, 40.174228966, 59536, 25120, 0, 5, 

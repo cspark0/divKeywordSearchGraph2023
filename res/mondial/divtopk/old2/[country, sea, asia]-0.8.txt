@@ -1,0 +1,282 @@
+Top-k Search by Blink-BDB, k=7
+[country, sea, asia]
+srcNodes: [20031, 100023, 10002]
+  path: 0[10002 -> 20031], [Asia -> Turkey] 
+
+  path: 1[10002 -> 20101 -> 100023], [Asia -> Yemen -> Red Sea] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [20090, 100023, 10002]
+  path: 0[20090 -> 20090], [Jordan -> Jordan]
+  path: 1[20090 -> 100023], [Jordan -> Red Sea] 
+
+  path: 2[20090 -> 10002], [Jordan -> Asia] 
+
+srcNodes: [20086, 100000, 10002]
+  path: 0[20086 -> 20086], [Indonesia -> Indonesia]
+  path: 1[20086 -> 100000], [Indonesia -> Andaman Sea] 
+
+  path: 2[20086 -> 10002], [Indonesia -> Asia] 
+
+srcNodes: [20101, 100023, 10002]
+  path: 0[20101 -> 20101], [Yemen -> Yemen]
+  path: 1[20101 -> 100023], [Yemen -> Red Sea] 
+
+  path: 2[20101 -> 10002], [Yemen -> Asia] 
+
+srcNodes: [20102, 100030, 10002]
+  path: 0[20102 -> 20102], [Philippines -> Philippines]
+  path: 1[20102 -> 100030], [Philippines -> Sulawesi Sea] 
+
+  path: 2[20102 -> 10002], [Philippines -> Asia] 
+
+srcNodes: [20093, 100018, 10002]
+  path: 0[20093 -> 20093], [Syria -> Syria]
+  path: 1[20093 -> 100018], [Syria -> Mediterranean Sea] 
+
+  path: 2[20093 -> 10002], [Syria -> Asia] 
+
+srcNodes: [20094, 100018, 10002]
+  path: 0[20094 -> 20094], [Lebanon -> Lebanon]
+  path: 1[20094 -> 100018], [Lebanon -> Mediterranean Sea] 
+
+  path: 2[20094 -> 10002], [Lebanon -> Asia] 
+
+-----------------------------------------
+Num of top-k answers: 7
+ResultDestNodes: [10002, 20090, 20086, 20101, 20102, 20093, 20094]
+ResultRelevs: [10.975099563598633, 8.950069427490234, 8.950069427490234, 8.950069427490234, 8.950069427490234, 8.950069427490234, 8.950069427490234]
+AvgResultRelev: 9.23935944693429
+AvgResultDissimilarity: 0.7428571428571431
+Num of entries retrieved from the lists: 119
+Num of entries retrieved from NKMaps: 187
+Num of answer trees explored: 73
+
+Div Top-k Search by Astar17
+[country, sea, asia]
+srcNodes: [20031, 100023, 10002]
+  path: 0[10002 -> 20031], [Asia -> Turkey] 
+
+  path: 1[10002 -> 20101 -> 100023], [Asia -> Yemen -> Red Sea] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [20102, 100030, 10002]
+  path: 0[20102 -> 20102], [Philippines -> Philippines]
+  path: 1[20102 -> 100030], [Philippines -> Sulawesi Sea] 
+
+  path: 2[20102 -> 10002], [Philippines -> Asia] 
+
+srcNodes: [20060, 100007, 10002]
+  path: 0[20060 -> 20060], [Georgia -> Georgia]
+  path: 1[20060 -> 100007], [Georgia -> Black Sea] 
+
+  path: 2[20060 -> 10002], [Georgia -> Asia] 
+
+srcNodes: [20099, 100001, 10002]
+  path: 0[20099 -> 20099], [Oman -> Oman]
+  path: 1[20099 -> 100001], [Oman -> Arabian Sea] 
+
+  path: 2[20099 -> 10002], [Oman -> Asia] 
+
+srcNodes: [20094, 100018, 10002]
+  path: 0[20094 -> 20094], [Lebanon -> Lebanon]
+  path: 1[20094 -> 100018], [Lebanon -> Mediterranean Sea] 
+
+  path: 2[20094 -> 10002], [Lebanon -> Asia] 
+
+srcNodes: [20067, 100029, 10002]
+  path: 0[20067 -> 20067], [Brunei -> Brunei]
+  path: 1[20067 -> 100029], [Brunei -> South China Sea] 
+
+  path: 2[20067 -> 10002], [Brunei -> Asia] 
+
+srcNodes: [20070, 100000, 10002]
+  path: 0[20070 -> 20070], [Thailand -> Thailand]
+  path: 1[20070 -> 100000], [Thailand -> Andaman Sea] 
+
+  path: 2[20070 -> 10002], [Thailand -> Asia] 
+
+-----------------------------------------
+ResultDestNodes: [10002, 20102, 20060, 20099, 20094, 20067, 20070]
+ResultRelevs: [10.975099563598633, 8.950069427490234, 8.950069427490234, 8.950069427490234, 8.950069427490234, 8.950069427490234, 8.950069427490234]
+AvgResultRelev: 9.23935944693429
+AvgResultDissimilarity: 0.7999999523162842
+Num of entries retrieved from the KNLists: 165
+Num of entries retrieved from NKMaps: 259
+Num of answer trees explored: 103
+Num of states created: 1477
+Num of states explored: 266
+Num of heuristic search performed: 12
+Max Num of answer tree sets in Q[]: 588
+
+Div Top-k Search by Astar1m7
+[country, sea, asia]
+srcNodes: [20031, 100023, 10002]
+  path: 0[10002 -> 20031], [Asia -> Turkey] 
+
+  path: 1[10002 -> 20101 -> 100023], [Asia -> Yemen -> Red Sea] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [20102, 100030, 10002]
+  path: 0[20102 -> 20102], [Philippines -> Philippines]
+  path: 1[20102 -> 100030], [Philippines -> Sulawesi Sea] 
+
+  path: 2[20102 -> 10002], [Philippines -> Asia] 
+
+srcNodes: [20106, 100009, 10002]
+  path: 0[20106 -> 20106], [Taiwan -> Taiwan]
+  path: 1[20106 -> 100009], [Taiwan -> East China Sea] 
+
+  path: 2[20106 -> 10002], [Taiwan -> Asia] 
+
+srcNodes: [20077, 100029, 10002]
+  path: 0[20077 -> 20077], [Macau -> Macau]
+  path: 1[20077 -> 100029], [Macau -> South China Sea] 
+
+  path: 2[20077 -> 10002], [Macau -> Asia] 
+
+srcNodes: [20060, 100007, 10002]
+  path: 0[20060 -> 20060], [Georgia -> Georgia]
+  path: 1[20060 -> 100007], [Georgia -> Black Sea] 
+
+  path: 2[20060 -> 10002], [Georgia -> Asia] 
+
+srcNodes: [20086, 100000, 10002]
+  path: 0[20086 -> 20086], [Indonesia -> Indonesia]
+  path: 1[20086 -> 100000], [Indonesia -> Andaman Sea] 
+
+  path: 2[20086 -> 10002], [Indonesia -> Asia] 
+
+srcNodes: [20055, 100001, 10002]
+  path: 0[20055 -> 20055], [Pakistan -> Pakistan]
+  path: 1[20055 -> 100001], [Pakistan -> Arabian Sea] 
+
+  path: 2[20055 -> 10002], [Pakistan -> Asia] 
+
+-----------------------------------------
+ResultDestNodes: [10002, 20102, 20106, 20077, 20060, 20086, 20055]
+ResultRelevs: [10.975099563598633, 8.950069427490234, 8.950069427490234, 8.950069427490234, 8.950069427490234, 8.950069427490234, 8.950069427490234]
+AvgResultRelev: 9.23935944693429
+AvgResultDissimilarity: 0.7999999523162842
+Num of entries retrieved from the KNLists: 119
+Num of entries retrieved from NKMaps: 187
+Num of answer trees explored: 73
+Num of states created: 481
+Num of states explored: 448
+Num of heuristic search performed: 3
+Max Num of answer tree sets in Q[]: 46
+
+Div Top-k Search by Astar27
+[country, sea, asia]
+srcNodes: [20031, 100023, 10002]
+  path: 0[10002 -> 20031], [Asia -> Turkey] 
+
+  path: 1[10002 -> 20101 -> 100023], [Asia -> Yemen -> Red Sea] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [20102, 100030, 10002]
+  path: 0[20102 -> 20102], [Philippines -> Philippines]
+  path: 1[20102 -> 100030], [Philippines -> Sulawesi Sea] 
+
+  path: 2[20102 -> 10002], [Philippines -> Asia] 
+
+srcNodes: [20060, 100007, 10002]
+  path: 0[20060 -> 20060], [Georgia -> Georgia]
+  path: 1[20060 -> 100007], [Georgia -> Black Sea] 
+
+  path: 2[20060 -> 10002], [Georgia -> Asia] 
+
+srcNodes: [20099, 100001, 10002]
+  path: 0[20099 -> 20099], [Oman -> Oman]
+  path: 1[20099 -> 100001], [Oman -> Arabian Sea] 
+
+  path: 2[20099 -> 10002], [Oman -> Asia] 
+
+srcNodes: [20094, 100018, 10002]
+  path: 0[20094 -> 20094], [Lebanon -> Lebanon]
+  path: 1[20094 -> 100018], [Lebanon -> Mediterranean Sea] 
+
+  path: 2[20094 -> 10002], [Lebanon -> Asia] 
+
+srcNodes: [20067, 100029, 10002]
+  path: 0[20067 -> 20067], [Brunei -> Brunei]
+  path: 1[20067 -> 100029], [Brunei -> South China Sea] 
+
+  path: 2[20067 -> 10002], [Brunei -> Asia] 
+
+srcNodes: [20070, 100000, 10002]
+  path: 0[20070 -> 20070], [Thailand -> Thailand]
+  path: 1[20070 -> 100000], [Thailand -> Andaman Sea] 
+
+  path: 2[20070 -> 10002], [Thailand -> Asia] 
+
+-----------------------------------------
+ResultDestNodes: [10002, 20102, 20060, 20099, 20094, 20067, 20070]
+ResultRelevs: [10.975099563598633, 8.950069427490234, 8.950069427490234, 8.950069427490234, 8.950069427490234, 8.950069427490234, 8.950069427490234]
+AvgResultRelev: 9.23935944693429
+AvgResultDissimilarity: 0.7999999523162842
+Num of entries retrieved from the KNLists: 165
+Num of entries retrieved from NKMaps: 259
+Num of answer trees explored: 103
+Num of states created: 1477
+Num of states explored: 266
+Num of heuristic search performed: 12
+Max Num of answer tree sets in Q[]: 588
+
+Div Top-k Search by Astar2m7
+[country, sea, asia]
+srcNodes: [20031, 100023, 10002]
+  path: 0[10002 -> 20031], [Asia -> Turkey] 
+
+  path: 1[10002 -> 20101 -> 100023], [Asia -> Yemen -> Red Sea] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [20102, 100030, 10002]
+  path: 0[20102 -> 20102], [Philippines -> Philippines]
+  path: 1[20102 -> 100030], [Philippines -> Sulawesi Sea] 
+
+  path: 2[20102 -> 10002], [Philippines -> Asia] 
+
+srcNodes: [20106, 100009, 10002]
+  path: 0[20106 -> 20106], [Taiwan -> Taiwan]
+  path: 1[20106 -> 100009], [Taiwan -> East China Sea] 
+
+  path: 2[20106 -> 10002], [Taiwan -> Asia] 
+
+srcNodes: [20077, 100029, 10002]
+  path: 0[20077 -> 20077], [Macau -> Macau]
+  path: 1[20077 -> 100029], [Macau -> South China Sea] 
+
+  path: 2[20077 -> 10002], [Macau -> Asia] 
+
+srcNodes: [20060, 100007, 10002]
+  path: 0[20060 -> 20060], [Georgia -> Georgia]
+  path: 1[20060 -> 100007], [Georgia -> Black Sea] 
+
+  path: 2[20060 -> 10002], [Georgia -> Asia] 
+
+srcNodes: [20086, 100000, 10002]
+  path: 0[20086 -> 20086], [Indonesia -> Indonesia]
+  path: 1[20086 -> 100000], [Indonesia -> Andaman Sea] 
+
+  path: 2[20086 -> 10002], [Indonesia -> Asia] 
+
+srcNodes: [20055, 100001, 10002]
+  path: 0[20055 -> 20055], [Pakistan -> Pakistan]
+  path: 1[20055 -> 100001], [Pakistan -> Arabian Sea] 
+
+  path: 2[20055 -> 10002], [Pakistan -> Asia] 
+
+-----------------------------------------
+ResultDestNodes: [10002, 20102, 20106, 20077, 20060, 20086, 20055]
+ResultRelevs: [10.975099563598633, 8.950069427490234, 8.950069427490234, 8.950069427490234, 8.950069427490234, 8.950069427490234, 8.950069427490234]
+AvgResultRelev: 9.23935944693429
+AvgResultDissimilarity: 0.7999999523162842
+Num of entries retrieved from the KNLists: 119
+Num of entries retrieved from NKMaps: 187
+Num of answer trees explored: 73
+Num of states created: 481
+Num of states explored: 448
+Num of heuristic search performed: 3
+Max Num of answer tree sets in Q[]: 0
+

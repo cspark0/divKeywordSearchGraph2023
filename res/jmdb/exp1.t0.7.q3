@@ -1,0 +1,1879 @@
+query: [disaster, sacrifice, hero]
+Top-k Search by Blink-BDB, k=4
+[disaster, sacrifice, hero]
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[1330956 -> 1330956], [Disaster! (2006) -> Disaster! (2006)]
+  path: 1[1330956 -> 2240326 -> 1763648 -> 2242199 -> 1806449], [Disaster! (2006) -> Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[1330956 -> 2240326 -> 112029 -> 2001445 -> 1747558], [Disaster! (2006) -> Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1680609 -> 2065348 -> 1782878 -> 2240326 -> 1330956], [Sacrifice (2011/I) -> Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1680609 -> 1680609], [Sacrifice (2011/I) -> Sacrifice (2011/I)]
+  path: 2[1680609 -> 2127977 -> 1423271], [Sacrifice (2011/I) -> Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2127977 -> 1630220 -> 2240326 -> 1330956], [Gooding Jr., Cuba -> Pearl Harbor (2001) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2127977 -> 1680609], [Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[2127977 -> 1423271], [Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2065348 -> 1782878 -> 2240326 -> 1330956], [Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2065348 -> 1680609], [Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[2065348 -> 1423271], [Coates, Kim -> Hero Wanted (2008)] 
+
+-----------------------------------------
+Num of top-k answers: 4
+ResultDestNodes: [1330956, 1680609, 2127977, 2065348]
+ResultRelevs: [7.624281883239746, 7.562954902648926, 7.480304718017578, 7.480304718017578]
+AvgResultRelev: 7.536961555480957
+AvgResultDissimilarity: 0.3333333333333333
+Num of entries retrieved from the lists: 611
+Num of entries retrieved from NKMaps: 897
+Num of answer trees explored: 273
+
+Div Top-k Search by Exhustive, k=4
+[disaster, sacrifice, hero]
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[1330956 -> 1330956], [Disaster! (2006) -> Disaster! (2006)]
+  path: 1[1330956 -> 2240326 -> 1763648 -> 2242199 -> 1806449], [Disaster! (2006) -> Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[1330956 -> 2240326 -> 112029 -> 2001445 -> 1747558], [Disaster! (2006) -> Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1680609 -> 2065348 -> 1782878 -> 2240326 -> 1330956], [Sacrifice (2011/I) -> Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1680609 -> 1680609], [Sacrifice (2011/I) -> Sacrifice (2011/I)]
+  path: 2[1680609 -> 2127977 -> 1423271], [Sacrifice (2011/I) -> Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2065348 -> 1782878 -> 2240326 -> 1330956], [Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2065348 -> 1680609], [Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[2065348 -> 1423271], [Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330948, 8025023, 1423248]
+  path: 0[1423248 -> 2438526 -> 1532726 -> 2141400 -> 1330948], [Hero (2000) -> Nicholson, Julianne -> Little Black Book (2004) -> Harpster, Noah -> Disaster Movie (2008)] 
+
+  path: 1[1423248 -> 2438526 -> 1614429 -> 8025023], [Hero (2000) -> Nicholson, Julianne -> One True Thing (1998) -> alcoholism,baking,based-on-novel,boyfriend-girlfriend-relationship,brother,cake,cancer,choice,christmas,college-professor,dysfunctional-family,euthanasia,family-crisis,family-relationships,father-daughter-relationship,halloween,infidelity,investigation,job,literature,love,melodrama,mother-daughter-relationship,new-year's-eve,new-york,number-in-title,professor,reflection,sacrifice,sadness,small-town,suicide,terminal-illness,thanksgiving,tragedy,writing] 
+
+  path: 2[1423248 -> 1423248], [Hero (2000) -> Hero (2000)]
+-----------------------------------------
+ResultDestNodes: [1330956, 1680609, 2065348, 1423248]
+ResultRelevs: [7.624281883239746, 7.562954902648926, 7.480304718017578, 6.174988746643066]
+AvgResultRelev: 7.210632562637329
+AvgResultDissimilarity: 0.7222222487131754
+Num of entries retrieved from the KNLists: 2930
+Num of entries retrieved from NKMaps: 4961
+Num of answer trees explored: 1942
+Num of answer tree sets created: 376
+Num of answer tree sets removed: 368
+
+Div Top-k Search by Astar02, k=4
+[disaster, sacrifice, hero]
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[1330956 -> 1330956], [Disaster! (2006) -> Disaster! (2006)]
+  path: 1[1330956 -> 2240326 -> 1763648 -> 2242199 -> 1806449], [Disaster! (2006) -> Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[1330956 -> 2240326 -> 112029 -> 2001445 -> 1747558], [Disaster! (2006) -> Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1680609 -> 2065348 -> 1782878 -> 2240326 -> 1330956], [Sacrifice (2011/I) -> Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1680609 -> 1680609], [Sacrifice (2011/I) -> Sacrifice (2011/I)]
+  path: 2[1680609 -> 2127977 -> 1423271], [Sacrifice (2011/I) -> Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2065348 -> 1782878 -> 2240326 -> 1330956], [Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2065348 -> 1680609], [Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[2065348 -> 1423271], [Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330948, 8025023, 1423248]
+  path: 0[1423248 -> 2438526 -> 1532726 -> 2141400 -> 1330948], [Hero (2000) -> Nicholson, Julianne -> Little Black Book (2004) -> Harpster, Noah -> Disaster Movie (2008)] 
+
+  path: 1[1423248 -> 2438526 -> 1614429 -> 8025023], [Hero (2000) -> Nicholson, Julianne -> One True Thing (1998) -> alcoholism,baking,based-on-novel,boyfriend-girlfriend-relationship,brother,cake,cancer,choice,christmas,college-professor,dysfunctional-family,euthanasia,family-crisis,family-relationships,father-daughter-relationship,halloween,infidelity,investigation,job,literature,love,melodrama,mother-daughter-relationship,new-year's-eve,new-york,number-in-title,professor,reflection,sacrifice,sadness,small-town,suicide,terminal-illness,thanksgiving,tragedy,writing] 
+
+  path: 2[1423248 -> 1423248], [Hero (2000) -> Hero (2000)]
+-----------------------------------------
+ResultDestNodes: [1330956, 1680609, 2065348, 1423248]
+ResultRelevs: [7.624281883239746, 7.562954902648926, 7.480304718017578, 6.174988746643066]
+AvgResultRelev: 7.210632562637329
+AvgResultDissimilarity: 0.7222222222222222
+Num of entries retrieved from the KNLists: 2930
+Num of entries retrieved from NKMaps: 4961
+Num of answer trees explored: 1942
+Num of states created: 1381
+Num of states explored: 1307
+Num of heuristic search performed: 41
+
+Div Top-k Search by Astar1nc_ap, k=4
+[disaster, sacrifice, hero]
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[1330956 -> 1330956], [Disaster! (2006) -> Disaster! (2006)]
+  path: 1[1330956 -> 2240326 -> 1763648 -> 2242199 -> 1806449], [Disaster! (2006) -> Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[1330956 -> 2240326 -> 112029 -> 2001445 -> 1747558], [Disaster! (2006) -> Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1680609 -> 2065348 -> 1782878 -> 2240326 -> 1330956], [Sacrifice (2011/I) -> Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1680609 -> 1680609], [Sacrifice (2011/I) -> Sacrifice (2011/I)]
+  path: 2[1680609 -> 2127977 -> 1423271], [Sacrifice (2011/I) -> Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2065348 -> 1782878 -> 2240326 -> 1330956], [Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2065348 -> 1680609], [Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[2065348 -> 1423271], [Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330948, 8025023, 1423248]
+  path: 0[1423248 -> 2438526 -> 1532726 -> 2141400 -> 1330948], [Hero (2000) -> Nicholson, Julianne -> Little Black Book (2004) -> Harpster, Noah -> Disaster Movie (2008)] 
+
+  path: 1[1423248 -> 2438526 -> 1614429 -> 8025023], [Hero (2000) -> Nicholson, Julianne -> One True Thing (1998) -> alcoholism,baking,based-on-novel,boyfriend-girlfriend-relationship,brother,cake,cancer,choice,christmas,college-professor,dysfunctional-family,euthanasia,family-crisis,family-relationships,father-daughter-relationship,halloween,infidelity,investigation,job,literature,love,melodrama,mother-daughter-relationship,new-year's-eve,new-york,number-in-title,professor,reflection,sacrifice,sadness,small-town,suicide,terminal-illness,thanksgiving,tragedy,writing] 
+
+  path: 2[1423248 -> 1423248], [Hero (2000) -> Hero (2000)]
+-----------------------------------------
+ResultDestNodes: [1330956, 1680609, 2065348, 1423248]
+ResultRelevs: [7.624281883239746, 7.562954902648926, 7.480304718017578, 6.174988746643066]
+AvgResultRelev: 7.210632562637329
+AvgResultDissimilarity: 0.7222222222222222
+Num of entries retrieved from the KNLists: 2930
+Num of entries retrieved from NKMaps: 4961
+Num of answer trees explored: 1942
+Num of states created: 1869
+Num of states explored: 304
+Num of heuristic search performed: 41
+
+Top-k Search by Blink-BDB, k=8
+[disaster, sacrifice, hero]
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[1330956 -> 1330956], [Disaster! (2006) -> Disaster! (2006)]
+  path: 1[1330956 -> 2240326 -> 1763648 -> 2242199 -> 1806449], [Disaster! (2006) -> Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[1330956 -> 2240326 -> 112029 -> 2001445 -> 1747558], [Disaster! (2006) -> Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1680609 -> 2065348 -> 1782878 -> 2240326 -> 1330956], [Sacrifice (2011/I) -> Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1680609 -> 1680609], [Sacrifice (2011/I) -> Sacrifice (2011/I)]
+  path: 2[1680609 -> 2127977 -> 1423271], [Sacrifice (2011/I) -> Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2065348 -> 1782878 -> 2240326 -> 1330956], [Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2065348 -> 1680609], [Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[2065348 -> 1423271], [Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2127977 -> 1630220 -> 2240326 -> 1330956], [Gooding Jr., Cuba -> Pearl Harbor (2001) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2127977 -> 1680609], [Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[2127977 -> 1423271], [Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1423271 -> 2324634 -> 1796034 -> 2197237 -> 1330956], [Hero Wanted (2008) -> Campbell, Christa -> The New Guy (2002) -> Lee, Tommy (VI) -> Disaster! (2006)] 
+
+  path: 1[1423271 -> 2127977 -> 1680609], [Hero Wanted (2008) -> Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[1423271 -> 1423271], [Hero Wanted (2008) -> Hero Wanted (2008)]
+srcNodes: [1330948, 1806449, 1423248]
+  path: 0[1330948 -> 1330948], [Disaster Movie (2008) -> Disaster Movie (2008)]
+  path: 1[1330948 -> 2072180 -> 1779601 -> 2289409 -> 1806449], [Disaster Movie (2008) -> Cox, Tony (I) -> The Hebrew Hammer (2003) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1330948 -> 2141400 -> 1532726 -> 2438526 -> 1423248], [Disaster Movie (2008) -> Harpster, Noah -> Little Black Book (2004) -> Nicholson, Julianne -> Hero (2000)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1782878 -> 2240326 -> 1330956], [The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1782878 -> 2065348 -> 1680609], [The Island (2005) -> Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[1782878 -> 2065348 -> 1423271], [The Island (2005) -> Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1245871 -> 2240326 -> 1330956], [Black Hawk Down (2001) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1245871 -> 2065348 -> 1680609], [Black Hawk Down (2001) -> Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[1245871 -> 2065348 -> 1423271], [Black Hawk Down (2001) -> Coates, Kim -> Hero Wanted (2008)] 
+
+-----------------------------------------
+Num of top-k answers: 8
+ResultDestNodes: [1330956, 1680609, 2065348, 2127977, 1423271, 1330948, 1782878, 1245871]
+ResultRelevs: [7.624281883239746, 7.562954902648926, 7.480304718017578, 7.480304718017578, 7.326974868774414, 6.831882953643799, 6.7923078536987305, 6.7923078536987305]
+AvgResultRelev: 7.236414968967438
+AvgResultDissimilarity: 0.38095238095238093
+Num of entries retrieved from the lists: 1642
+Num of entries retrieved from NKMaps: 2732
+Num of answer trees explored: 1031
+
+Div Top-k Search by Exhustive, k=8
+[disaster, sacrifice, hero]
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[1330956 -> 1330956], [Disaster! (2006) -> Disaster! (2006)]
+  path: 1[1330956 -> 2240326 -> 1763648 -> 2242199 -> 1806449], [Disaster! (2006) -> Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[1330956 -> 2240326 -> 112029 -> 2001445 -> 1747558], [Disaster! (2006) -> Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1680609 -> 2065348 -> 1782878 -> 2240326 -> 1330956], [Sacrifice (2011/I) -> Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1680609 -> 1680609], [Sacrifice (2011/I) -> Sacrifice (2011/I)]
+  path: 2[1680609 -> 2127977 -> 1423271], [Sacrifice (2011/I) -> Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2065348 -> 1782878 -> 2240326 -> 1330956], [Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2065348 -> 1680609], [Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[2065348 -> 1423271], [Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2127977 -> 1630220 -> 2240326 -> 1330956], [Gooding Jr., Cuba -> Pearl Harbor (2001) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2127977 -> 1680609], [Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[2127977 -> 1423271], [Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1423271 -> 2324634 -> 1796034 -> 2197237 -> 1330956], [Hero Wanted (2008) -> Campbell, Christa -> The New Guy (2002) -> Lee, Tommy (VI) -> Disaster! (2006)] 
+
+  path: 1[1423271 -> 2127977 -> 1680609], [Hero Wanted (2008) -> Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[1423271 -> 1423271], [Hero Wanted (2008) -> Hero Wanted (2008)]
+srcNodes: [1330948, 1806449, 1423248]
+  path: 0[1330948 -> 1330948], [Disaster Movie (2008) -> Disaster Movie (2008)]
+  path: 1[1330948 -> 2072180 -> 1779601 -> 2289409 -> 1806449], [Disaster Movie (2008) -> Cox, Tony (I) -> The Hebrew Hammer (2003) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1330948 -> 2141400 -> 1532726 -> 2438526 -> 1423248], [Disaster Movie (2008) -> Harpster, Noah -> Little Black Book (2004) -> Nicholson, Julianne -> Hero (2000)] 
+
+srcNodes: [8026594, 1806449, 1794812]
+  path: 0[1794812 -> 2485327 -> 1645693 -> 8026594], [The Movie Hero (2003) -> Strassman, Marcia -> Power Play (2003) -> disaster,energy,power] 
+
+  path: 1[1794812 -> 2365787 -> 1584828 -> 2289409 -> 1806449], [The Movie Hero (2003) -> Gibbs, Reedy -> Mysterious Skin (2004) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1794812 -> 1794812], [The Movie Hero (2003) -> The Movie Hero (2003)]
+srcNodes: [1330958, 6034527, 2107563]
+  path: 0[2107563 -> 1522639 -> 2445235 -> 1330958], [Fies, Hero -> Legend of the Red Reaper (2011) -> Palmer, Jennifer Christa -> Disaster! A Major Motion Picture Ride... Starring You! (2008)] 
+
+  path: 1[2107563 -> 1763679 -> 6034527], [Fies, Hero -> The Commune (2009) -> A young virgin finds] 
+
+  path: 2[2107563 -> 2107563], [Fies, Hero -> Fies, Hero]
+-----------------------------------------
+ResultDestNodes: [1330956, 1680609, 2065348, 2127977, 1423271, 1330948, 1794812, 2107563]
+ResultRelevs: [7.624281883239746, 7.562954902648926, 7.480304718017578, 7.480304718017578, 7.326974868774414, 6.831882953643799, 6.51259183883667, 6.013462543487549]
+AvgResultRelev: 7.1040948033332825
+AvgResultDissimilarity: 0.7023809977940151
+Num of entries retrieved from the KNLists: 3915
+Num of entries retrieved from NKMaps: 6831
+Num of answer trees explored: 2818
+Num of answer tree sets created: 11848
+Num of answer tree sets removed: 11835
+
+Div Top-k Search by Astar02, k=8
+[disaster, sacrifice, hero]
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[1330956 -> 1330956], [Disaster! (2006) -> Disaster! (2006)]
+  path: 1[1330956 -> 2240326 -> 1763648 -> 2242199 -> 1806449], [Disaster! (2006) -> Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[1330956 -> 2240326 -> 112029 -> 2001445 -> 1747558], [Disaster! (2006) -> Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1680609 -> 2065348 -> 1782878 -> 2240326 -> 1330956], [Sacrifice (2011/I) -> Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1680609 -> 1680609], [Sacrifice (2011/I) -> Sacrifice (2011/I)]
+  path: 2[1680609 -> 2127977 -> 1423271], [Sacrifice (2011/I) -> Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2065348 -> 1782878 -> 2240326 -> 1330956], [Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2065348 -> 1680609], [Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[2065348 -> 1423271], [Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2127977 -> 1630220 -> 2240326 -> 1330956], [Gooding Jr., Cuba -> Pearl Harbor (2001) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2127977 -> 1680609], [Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[2127977 -> 1423271], [Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1423271 -> 2324634 -> 1796034 -> 2197237 -> 1330956], [Hero Wanted (2008) -> Campbell, Christa -> The New Guy (2002) -> Lee, Tommy (VI) -> Disaster! (2006)] 
+
+  path: 1[1423271 -> 2127977 -> 1680609], [Hero Wanted (2008) -> Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[1423271 -> 1423271], [Hero Wanted (2008) -> Hero Wanted (2008)]
+srcNodes: [1330948, 1806449, 1423248]
+  path: 0[1330948 -> 1330948], [Disaster Movie (2008) -> Disaster Movie (2008)]
+  path: 1[1330948 -> 2072180 -> 1779601 -> 2289409 -> 1806449], [Disaster Movie (2008) -> Cox, Tony (I) -> The Hebrew Hammer (2003) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1330948 -> 2141400 -> 1532726 -> 2438526 -> 1423248], [Disaster Movie (2008) -> Harpster, Noah -> Little Black Book (2004) -> Nicholson, Julianne -> Hero (2000)] 
+
+srcNodes: [8026594, 1806449, 1794812]
+  path: 0[1794812 -> 2485327 -> 1645693 -> 8026594], [The Movie Hero (2003) -> Strassman, Marcia -> Power Play (2003) -> disaster,energy,power] 
+
+  path: 1[1794812 -> 2365787 -> 1584828 -> 2289409 -> 1806449], [The Movie Hero (2003) -> Gibbs, Reedy -> Mysterious Skin (2004) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1794812 -> 1794812], [The Movie Hero (2003) -> The Movie Hero (2003)]
+srcNodes: [1330958, 6034527, 2107563]
+  path: 0[2107563 -> 1522639 -> 2445235 -> 1330958], [Fies, Hero -> Legend of the Red Reaper (2011) -> Palmer, Jennifer Christa -> Disaster! A Major Motion Picture Ride... Starring You! (2008)] 
+
+  path: 1[2107563 -> 1763679 -> 6034527], [Fies, Hero -> The Commune (2009) -> A young virgin finds] 
+
+  path: 2[2107563 -> 2107563], [Fies, Hero -> Fies, Hero]
+-----------------------------------------
+ResultDestNodes: [1330956, 1680609, 2065348, 2127977, 1423271, 1330948, 1794812, 2107563]
+ResultRelevs: [7.624281883239746, 7.562954902648926, 7.480304718017578, 7.480304718017578, 7.326974868774414, 6.831882953643799, 6.51259183883667, 6.013462543487549]
+AvgResultRelev: 7.1040948033332825
+AvgResultDissimilarity: 0.7023809523809523
+Num of entries retrieved from the KNLists: 3915
+Num of entries retrieved from NKMaps: 6831
+Num of answer trees explored: 2818
+Num of states created: 16224
+Num of states explored: 16019
+Num of heuristic search performed: 47
+
+Div Top-k Search by Astar1nc_ap, k=8
+[disaster, sacrifice, hero]
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[1330956 -> 1330956], [Disaster! (2006) -> Disaster! (2006)]
+  path: 1[1330956 -> 2240326 -> 1763648 -> 2242199 -> 1806449], [Disaster! (2006) -> Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[1330956 -> 2240326 -> 112029 -> 2001445 -> 1747558], [Disaster! (2006) -> Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1680609 -> 2065348 -> 1782878 -> 2240326 -> 1330956], [Sacrifice (2011/I) -> Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1680609 -> 1680609], [Sacrifice (2011/I) -> Sacrifice (2011/I)]
+  path: 2[1680609 -> 2127977 -> 1423271], [Sacrifice (2011/I) -> Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2065348 -> 1782878 -> 2240326 -> 1330956], [Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2065348 -> 1680609], [Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[2065348 -> 1423271], [Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2127977 -> 1630220 -> 2240326 -> 1330956], [Gooding Jr., Cuba -> Pearl Harbor (2001) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2127977 -> 1680609], [Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[2127977 -> 1423271], [Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1423271 -> 2324634 -> 1796034 -> 2197237 -> 1330956], [Hero Wanted (2008) -> Campbell, Christa -> The New Guy (2002) -> Lee, Tommy (VI) -> Disaster! (2006)] 
+
+  path: 1[1423271 -> 2127977 -> 1680609], [Hero Wanted (2008) -> Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[1423271 -> 1423271], [Hero Wanted (2008) -> Hero Wanted (2008)]
+srcNodes: [1330948, 1806449, 1423248]
+  path: 0[1330948 -> 1330948], [Disaster Movie (2008) -> Disaster Movie (2008)]
+  path: 1[1330948 -> 2072180 -> 1779601 -> 2289409 -> 1806449], [Disaster Movie (2008) -> Cox, Tony (I) -> The Hebrew Hammer (2003) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1330948 -> 2141400 -> 1532726 -> 2438526 -> 1423248], [Disaster Movie (2008) -> Harpster, Noah -> Little Black Book (2004) -> Nicholson, Julianne -> Hero (2000)] 
+
+srcNodes: [8026594, 1806449, 1794812]
+  path: 0[1794812 -> 2485327 -> 1645693 -> 8026594], [The Movie Hero (2003) -> Strassman, Marcia -> Power Play (2003) -> disaster,energy,power] 
+
+  path: 1[1794812 -> 2365787 -> 1584828 -> 2289409 -> 1806449], [The Movie Hero (2003) -> Gibbs, Reedy -> Mysterious Skin (2004) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1794812 -> 1794812], [The Movie Hero (2003) -> The Movie Hero (2003)]
+srcNodes: [1330958, 6034527, 2107563]
+  path: 0[2107563 -> 1522639 -> 2445235 -> 1330958], [Fies, Hero -> Legend of the Red Reaper (2011) -> Palmer, Jennifer Christa -> Disaster! A Major Motion Picture Ride... Starring You! (2008)] 
+
+  path: 1[2107563 -> 1763679 -> 6034527], [Fies, Hero -> The Commune (2009) -> A young virgin finds] 
+
+  path: 2[2107563 -> 2107563], [Fies, Hero -> Fies, Hero]
+-----------------------------------------
+ResultDestNodes: [1330956, 1680609, 2065348, 2127977, 1423271, 1330948, 1794812, 2107563]
+ResultRelevs: [7.624281883239746, 7.562954902648926, 7.480304718017578, 7.480304718017578, 7.326974868774414, 6.831882953643799, 6.51259183883667, 6.013462543487549]
+AvgResultRelev: 7.1040948033332825
+AvgResultDissimilarity: 0.7023809523809523
+Num of entries retrieved from the KNLists: 3915
+Num of entries retrieved from NKMaps: 6831
+Num of answer trees explored: 2818
+Num of states created: 7822
+Num of states explored: 662
+Num of heuristic search performed: 44
+
+Top-k Search by Blink-BDB, k=12
+[disaster, sacrifice, hero]
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[1330956 -> 1330956], [Disaster! (2006) -> Disaster! (2006)]
+  path: 1[1330956 -> 2240326 -> 1763648 -> 2242199 -> 1806449], [Disaster! (2006) -> Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[1330956 -> 2240326 -> 112029 -> 2001445 -> 1747558], [Disaster! (2006) -> Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1680609 -> 2065348 -> 1782878 -> 2240326 -> 1330956], [Sacrifice (2011/I) -> Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1680609 -> 1680609], [Sacrifice (2011/I) -> Sacrifice (2011/I)]
+  path: 2[1680609 -> 2127977 -> 1423271], [Sacrifice (2011/I) -> Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2065348 -> 1782878 -> 2240326 -> 1330956], [Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2065348 -> 1680609], [Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[2065348 -> 1423271], [Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2127977 -> 1630220 -> 2240326 -> 1330956], [Gooding Jr., Cuba -> Pearl Harbor (2001) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2127977 -> 1680609], [Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[2127977 -> 1423271], [Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1423271 -> 2324634 -> 1796034 -> 2197237 -> 1330956], [Hero Wanted (2008) -> Campbell, Christa -> The New Guy (2002) -> Lee, Tommy (VI) -> Disaster! (2006)] 
+
+  path: 1[1423271 -> 2127977 -> 1680609], [Hero Wanted (2008) -> Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[1423271 -> 1423271], [Hero Wanted (2008) -> Hero Wanted (2008)]
+srcNodes: [1330948, 1806449, 1423248]
+  path: 0[1330948 -> 1330948], [Disaster Movie (2008) -> Disaster Movie (2008)]
+  path: 1[1330948 -> 2072180 -> 1779601 -> 2289409 -> 1806449], [Disaster Movie (2008) -> Cox, Tony (I) -> The Hebrew Hammer (2003) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1330948 -> 2141400 -> 1532726 -> 2438526 -> 1423248], [Disaster Movie (2008) -> Harpster, Noah -> Little Black Book (2004) -> Nicholson, Julianne -> Hero (2000)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1782878 -> 2240326 -> 1330956], [The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1782878 -> 2065348 -> 1680609], [The Island (2005) -> Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[1782878 -> 2065348 -> 1423271], [The Island (2005) -> Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1245871 -> 2240326 -> 1330956], [Black Hawk Down (2001) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1245871 -> 2065348 -> 1680609], [Black Hawk Down (2001) -> Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[1245871 -> 2065348 -> 1423271], [Black Hawk Down (2001) -> Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1432780 -> 2240326 -> 1330956], [Hostage (2005/I) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1432780 -> 2065348 -> 1680609], [Hostage (2005/I) -> Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[1432780 -> 2065348 -> 1423271], [Hostage (2005/I) -> Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1630220 -> 2240326 -> 1330956], [Pearl Harbor (2001) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1630220 -> 2127977 -> 1680609], [Pearl Harbor (2001) -> Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[1630220 -> 2127977 -> 1423271], [Pearl Harbor (2001) -> Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[2240326 -> 1330956], [Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2240326 -> 1763648 -> 2242199 -> 1806449], [Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[2240326 -> 112029 -> 2001445 -> 1747558], [Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1806449, 1365881]
+  path: 0[1806449 -> 2242199 -> 1763648 -> 2240326 -> 1330956], [The Sacrifice (2008/I) -> Mulkey, Chris (I) -> The Commission (2003) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1806449 -> 1806449], [The Sacrifice (2008/I) -> The Sacrifice (2008/I)]
+  path: 2[1806449 -> 2455767 -> 1870425 -> 2146007 -> 1365881], [The Sacrifice (2008/I) -> Quinn, Molly C. -> Walk Hard: The Dewey Cox Story (2007) -> Helms, Ed (I) -> Everyone's Hero (2006)] 
+
+-----------------------------------------
+Num of top-k answers: 12
+ResultDestNodes: [1330956, 1680609, 2065348, 2127977, 1423271, 1330948, 1782878, 1245871, 1432780, 1630220, 2240326, 1806449]
+ResultRelevs: [7.624281883239746, 7.562954902648926, 7.480304718017578, 7.480304718017578, 7.326974868774414, 6.831882953643799, 6.7923078536987305, 6.7923078536987305, 6.7923078536987305, 6.7923078536987305, 6.7687883377075195, 6.766260147094727]
+AvgResultRelev: 7.084248661994934
+AvgResultDissimilarity: 0.4040404040404042
+Num of entries retrieved from the lists: 1669
+Num of entries retrieved from NKMaps: 2774
+Num of answer trees explored: 1047
+
+Div Top-k Search by Exhustive, k=12
+[disaster, sacrifice, hero]
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[1330956 -> 1330956], [Disaster! (2006) -> Disaster! (2006)]
+  path: 1[1330956 -> 2240326 -> 1763648 -> 2242199 -> 1806449], [Disaster! (2006) -> Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[1330956 -> 2240326 -> 112029 -> 2001445 -> 1747558], [Disaster! (2006) -> Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1680609 -> 2065348 -> 1782878 -> 2240326 -> 1330956], [Sacrifice (2011/I) -> Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1680609 -> 1680609], [Sacrifice (2011/I) -> Sacrifice (2011/I)]
+  path: 2[1680609 -> 2127977 -> 1423271], [Sacrifice (2011/I) -> Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2065348 -> 1782878 -> 2240326 -> 1330956], [Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2065348 -> 1680609], [Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[2065348 -> 1423271], [Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2127977 -> 1630220 -> 2240326 -> 1330956], [Gooding Jr., Cuba -> Pearl Harbor (2001) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2127977 -> 1680609], [Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[2127977 -> 1423271], [Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1423271 -> 2324634 -> 1796034 -> 2197237 -> 1330956], [Hero Wanted (2008) -> Campbell, Christa -> The New Guy (2002) -> Lee, Tommy (VI) -> Disaster! (2006)] 
+
+  path: 1[1423271 -> 2127977 -> 1680609], [Hero Wanted (2008) -> Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[1423271 -> 1423271], [Hero Wanted (2008) -> Hero Wanted (2008)]
+srcNodes: [1330948, 1806449, 1423248]
+  path: 0[1330948 -> 1330948], [Disaster Movie (2008) -> Disaster Movie (2008)]
+  path: 1[1330948 -> 2072180 -> 1779601 -> 2289409 -> 1806449], [Disaster Movie (2008) -> Cox, Tony (I) -> The Hebrew Hammer (2003) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1330948 -> 2141400 -> 1532726 -> 2438526 -> 1423248], [Disaster Movie (2008) -> Harpster, Noah -> Little Black Book (2004) -> Nicholson, Julianne -> Hero (2000)] 
+
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[2240326 -> 1330956], [Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2240326 -> 1763648 -> 2242199 -> 1806449], [Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[2240326 -> 112029 -> 2001445 -> 1747558], [Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1806449, 1365881]
+  path: 0[1806449 -> 2242199 -> 1763648 -> 2240326 -> 1330956], [The Sacrifice (2008/I) -> Mulkey, Chris (I) -> The Commission (2003) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1806449 -> 1806449], [The Sacrifice (2008/I) -> The Sacrifice (2008/I)]
+  path: 2[1806449 -> 2455767 -> 1870425 -> 2146007 -> 1365881], [The Sacrifice (2008/I) -> Quinn, Molly C. -> Walk Hard: The Dewey Cox Story (2007) -> Helms, Ed (I) -> Everyone's Hero (2006)] 
+
+srcNodes: [1330956, 8035265, 1535806]
+  path: 0[1535806 -> 2259931 -> 1764226 -> 2240326 -> 1330956], [Lone Hero (2002) -> Oyarzun, Alonso -> The Core (2003) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1535806 -> 2024157 -> 1799233 -> 8035265], [Lone Hero (2002) -> Baylis, James R. -> The Peace Offering (2009) -> family-relationships,peace,sacrifice,suicide] 
+
+  path: 2[1535806 -> 1535806], [Lone Hero (2002) -> Lone Hero (2002)]
+srcNodes: [8026594, 1806449, 1794812]
+  path: 0[1794812 -> 2485327 -> 1645693 -> 8026594], [The Movie Hero (2003) -> Strassman, Marcia -> Power Play (2003) -> disaster,energy,power] 
+
+  path: 1[1794812 -> 2365787 -> 1584828 -> 2289409 -> 1806449], [The Movie Hero (2003) -> Gibbs, Reedy -> Mysterious Skin (2004) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1794812 -> 1794812], [The Movie Hero (2003) -> The Movie Hero (2003)]
+srcNodes: [1330946, 1680609, 1716592]
+  path: 0[1716592 -> 2121490 -> 1616338 -> 2168475 -> 1330946], [Sometimes a Hero (2003) -> Genesse, Bryan -> Operation Delta Force 3: Clear Target (1999) -> Jones, John Simon -> Disaster (2003)] 
+
+  path: 1[1716592 -> 2336663 -> 1762566 -> 2013018 -> 1680609], [Sometimes a Hero (2003) -> Cox, Christina (I) -> The Chronicles of Riddick (2004) -> Armstrong, Michasha -> Sacrifice (2011/I)] 
+
+  path: 2[1716592 -> 1716592], [Sometimes a Hero (2003) -> Sometimes a Hero (2003)]
+srcNodes: [1330948, 8025023, 1423248]
+  path: 0[1423248 -> 2438526 -> 1532726 -> 2141400 -> 1330948], [Hero (2000) -> Nicholson, Julianne -> Little Black Book (2004) -> Harpster, Noah -> Disaster Movie (2008)] 
+
+  path: 1[1423248 -> 2438526 -> 1614429 -> 8025023], [Hero (2000) -> Nicholson, Julianne -> One True Thing (1998) -> alcoholism,baking,based-on-novel,boyfriend-girlfriend-relationship,brother,cake,cancer,choice,christmas,college-professor,dysfunctional-family,euthanasia,family-crisis,family-relationships,father-daughter-relationship,halloween,infidelity,investigation,job,literature,love,melodrama,mother-daughter-relationship,new-year's-eve,new-york,number-in-title,professor,reflection,sacrifice,sadness,small-town,suicide,terminal-illness,thanksgiving,tragedy,writing] 
+
+  path: 2[1423248 -> 1423248], [Hero (2000) -> Hero (2000)]
+-----------------------------------------
+ResultDestNodes: [1330956, 1680609, 2065348, 2127977, 1423271, 1330948, 2240326, 1806449, 1535806, 1794812, 1716592, 1423248]
+ResultRelevs: [7.624281883239746, 7.562954902648926, 7.480304718017578, 7.480304718017578, 7.326974868774414, 6.831882953643799, 6.7687883377075195, 6.766260147094727, 6.613269329071045, 6.51259183883667, 6.420555114746094, 6.174988746643066]
+AvgResultRelev: 6.96359646320343
+AvgResultDissimilarity: 0.7121212121212122
+Num of entries retrieved from the KNLists: 2930
+Num of entries retrieved from NKMaps: 4961
+Num of answer trees explored: 1942
+Num of answer tree sets created: 1605761
+Num of answer tree sets removed: 1605720
+
+Div Top-k Search by Astar02, k=12
+[disaster, sacrifice, hero]
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[1330956 -> 1330956], [Disaster! (2006) -> Disaster! (2006)]
+  path: 1[1330956 -> 2240326 -> 1763648 -> 2242199 -> 1806449], [Disaster! (2006) -> Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[1330956 -> 2240326 -> 112029 -> 2001445 -> 1747558], [Disaster! (2006) -> Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1680609 -> 2065348 -> 1782878 -> 2240326 -> 1330956], [Sacrifice (2011/I) -> Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1680609 -> 1680609], [Sacrifice (2011/I) -> Sacrifice (2011/I)]
+  path: 2[1680609 -> 2127977 -> 1423271], [Sacrifice (2011/I) -> Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2065348 -> 1782878 -> 2240326 -> 1330956], [Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2065348 -> 1680609], [Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[2065348 -> 1423271], [Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2127977 -> 1630220 -> 2240326 -> 1330956], [Gooding Jr., Cuba -> Pearl Harbor (2001) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2127977 -> 1680609], [Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[2127977 -> 1423271], [Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1423271 -> 2324634 -> 1796034 -> 2197237 -> 1330956], [Hero Wanted (2008) -> Campbell, Christa -> The New Guy (2002) -> Lee, Tommy (VI) -> Disaster! (2006)] 
+
+  path: 1[1423271 -> 2127977 -> 1680609], [Hero Wanted (2008) -> Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[1423271 -> 1423271], [Hero Wanted (2008) -> Hero Wanted (2008)]
+srcNodes: [1330948, 1806449, 1423248]
+  path: 0[1330948 -> 1330948], [Disaster Movie (2008) -> Disaster Movie (2008)]
+  path: 1[1330948 -> 2072180 -> 1779601 -> 2289409 -> 1806449], [Disaster Movie (2008) -> Cox, Tony (I) -> The Hebrew Hammer (2003) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1330948 -> 2141400 -> 1532726 -> 2438526 -> 1423248], [Disaster Movie (2008) -> Harpster, Noah -> Little Black Book (2004) -> Nicholson, Julianne -> Hero (2000)] 
+
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[2240326 -> 1330956], [Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2240326 -> 1763648 -> 2242199 -> 1806449], [Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[2240326 -> 112029 -> 2001445 -> 1747558], [Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1806449, 1365881]
+  path: 0[1806449 -> 2242199 -> 1763648 -> 2240326 -> 1330956], [The Sacrifice (2008/I) -> Mulkey, Chris (I) -> The Commission (2003) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1806449 -> 1806449], [The Sacrifice (2008/I) -> The Sacrifice (2008/I)]
+  path: 2[1806449 -> 2455767 -> 1870425 -> 2146007 -> 1365881], [The Sacrifice (2008/I) -> Quinn, Molly C. -> Walk Hard: The Dewey Cox Story (2007) -> Helms, Ed (I) -> Everyone's Hero (2006)] 
+
+srcNodes: [1330956, 8035265, 1535806]
+  path: 0[1535806 -> 2259931 -> 1764226 -> 2240326 -> 1330956], [Lone Hero (2002) -> Oyarzun, Alonso -> The Core (2003) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1535806 -> 2024157 -> 1799233 -> 8035265], [Lone Hero (2002) -> Baylis, James R. -> The Peace Offering (2009) -> family-relationships,peace,sacrifice,suicide] 
+
+  path: 2[1535806 -> 1535806], [Lone Hero (2002) -> Lone Hero (2002)]
+srcNodes: [8026594, 1806449, 1794812]
+  path: 0[1794812 -> 2485327 -> 1645693 -> 8026594], [The Movie Hero (2003) -> Strassman, Marcia -> Power Play (2003) -> disaster,energy,power] 
+
+  path: 1[1794812 -> 2365787 -> 1584828 -> 2289409 -> 1806449], [The Movie Hero (2003) -> Gibbs, Reedy -> Mysterious Skin (2004) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1794812 -> 1794812], [The Movie Hero (2003) -> The Movie Hero (2003)]
+srcNodes: [1330946, 1680609, 1716592]
+  path: 0[1716592 -> 2121490 -> 1616338 -> 2168475 -> 1330946], [Sometimes a Hero (2003) -> Genesse, Bryan -> Operation Delta Force 3: Clear Target (1999) -> Jones, John Simon -> Disaster (2003)] 
+
+  path: 1[1716592 -> 2336663 -> 1762566 -> 2013018 -> 1680609], [Sometimes a Hero (2003) -> Cox, Christina (I) -> The Chronicles of Riddick (2004) -> Armstrong, Michasha -> Sacrifice (2011/I)] 
+
+  path: 2[1716592 -> 1716592], [Sometimes a Hero (2003) -> Sometimes a Hero (2003)]
+srcNodes: [1330948, 8025023, 1423248]
+  path: 0[1423248 -> 2438526 -> 1532726 -> 2141400 -> 1330948], [Hero (2000) -> Nicholson, Julianne -> Little Black Book (2004) -> Harpster, Noah -> Disaster Movie (2008)] 
+
+  path: 1[1423248 -> 2438526 -> 1614429 -> 8025023], [Hero (2000) -> Nicholson, Julianne -> One True Thing (1998) -> alcoholism,baking,based-on-novel,boyfriend-girlfriend-relationship,brother,cake,cancer,choice,christmas,college-professor,dysfunctional-family,euthanasia,family-crisis,family-relationships,father-daughter-relationship,halloween,infidelity,investigation,job,literature,love,melodrama,mother-daughter-relationship,new-year's-eve,new-york,number-in-title,professor,reflection,sacrifice,sadness,small-town,suicide,terminal-illness,thanksgiving,tragedy,writing] 
+
+  path: 2[1423248 -> 1423248], [Hero (2000) -> Hero (2000)]
+-----------------------------------------
+ResultDestNodes: [1330956, 1680609, 2065348, 2127977, 1423271, 1330948, 2240326, 1806449, 1535806, 1794812, 1716592, 1423248]
+ResultRelevs: [7.624281883239746, 7.562954902648926, 7.480304718017578, 7.480304718017578, 7.326974868774414, 6.831882953643799, 6.7687883377075195, 6.766260147094727, 6.613269329071045, 6.51259183883667, 6.420555114746094, 6.174988746643066]
+AvgResultRelev: 6.96359646320343
+AvgResultDissimilarity: 0.7121212121212123
+Num of entries retrieved from the KNLists: 2930
+Num of entries retrieved from NKMaps: 4961
+Num of answer trees explored: 1942
+Num of states created: 2204160
+Num of states explored: 2195333
+Num of heuristic search performed: 35
+
+Div Top-k Search by Astar1nc_ap, k=12
+[disaster, sacrifice, hero]
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[1330956 -> 1330956], [Disaster! (2006) -> Disaster! (2006)]
+  path: 1[1330956 -> 2240326 -> 1763648 -> 2242199 -> 1806449], [Disaster! (2006) -> Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[1330956 -> 2240326 -> 112029 -> 2001445 -> 1747558], [Disaster! (2006) -> Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1680609 -> 2065348 -> 1782878 -> 2240326 -> 1330956], [Sacrifice (2011/I) -> Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1680609 -> 1680609], [Sacrifice (2011/I) -> Sacrifice (2011/I)]
+  path: 2[1680609 -> 2127977 -> 1423271], [Sacrifice (2011/I) -> Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2065348 -> 1782878 -> 2240326 -> 1330956], [Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2065348 -> 1680609], [Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[2065348 -> 1423271], [Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2127977 -> 1630220 -> 2240326 -> 1330956], [Gooding Jr., Cuba -> Pearl Harbor (2001) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2127977 -> 1680609], [Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[2127977 -> 1423271], [Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1423271 -> 2324634 -> 1796034 -> 2197237 -> 1330956], [Hero Wanted (2008) -> Campbell, Christa -> The New Guy (2002) -> Lee, Tommy (VI) -> Disaster! (2006)] 
+
+  path: 1[1423271 -> 2127977 -> 1680609], [Hero Wanted (2008) -> Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[1423271 -> 1423271], [Hero Wanted (2008) -> Hero Wanted (2008)]
+srcNodes: [1330948, 1806449, 1423248]
+  path: 0[1330948 -> 1330948], [Disaster Movie (2008) -> Disaster Movie (2008)]
+  path: 1[1330948 -> 2072180 -> 1779601 -> 2289409 -> 1806449], [Disaster Movie (2008) -> Cox, Tony (I) -> The Hebrew Hammer (2003) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1330948 -> 2141400 -> 1532726 -> 2438526 -> 1423248], [Disaster Movie (2008) -> Harpster, Noah -> Little Black Book (2004) -> Nicholson, Julianne -> Hero (2000)] 
+
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[2240326 -> 1330956], [Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2240326 -> 1763648 -> 2242199 -> 1806449], [Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[2240326 -> 112029 -> 2001445 -> 1747558], [Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1806449, 1365881]
+  path: 0[1806449 -> 2242199 -> 1763648 -> 2240326 -> 1330956], [The Sacrifice (2008/I) -> Mulkey, Chris (I) -> The Commission (2003) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1806449 -> 1806449], [The Sacrifice (2008/I) -> The Sacrifice (2008/I)]
+  path: 2[1806449 -> 2455767 -> 1870425 -> 2146007 -> 1365881], [The Sacrifice (2008/I) -> Quinn, Molly C. -> Walk Hard: The Dewey Cox Story (2007) -> Helms, Ed (I) -> Everyone's Hero (2006)] 
+
+srcNodes: [1330956, 8035265, 1535806]
+  path: 0[1535806 -> 2259931 -> 1764226 -> 2240326 -> 1330956], [Lone Hero (2002) -> Oyarzun, Alonso -> The Core (2003) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1535806 -> 2024157 -> 1799233 -> 8035265], [Lone Hero (2002) -> Baylis, James R. -> The Peace Offering (2009) -> family-relationships,peace,sacrifice,suicide] 
+
+  path: 2[1535806 -> 1535806], [Lone Hero (2002) -> Lone Hero (2002)]
+srcNodes: [8026594, 1806449, 1794812]
+  path: 0[1794812 -> 2485327 -> 1645693 -> 8026594], [The Movie Hero (2003) -> Strassman, Marcia -> Power Play (2003) -> disaster,energy,power] 
+
+  path: 1[1794812 -> 2365787 -> 1584828 -> 2289409 -> 1806449], [The Movie Hero (2003) -> Gibbs, Reedy -> Mysterious Skin (2004) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1794812 -> 1794812], [The Movie Hero (2003) -> The Movie Hero (2003)]
+srcNodes: [1330946, 1680609, 1716592]
+  path: 0[1716592 -> 2121490 -> 1616338 -> 2168475 -> 1330946], [Sometimes a Hero (2003) -> Genesse, Bryan -> Operation Delta Force 3: Clear Target (1999) -> Jones, John Simon -> Disaster (2003)] 
+
+  path: 1[1716592 -> 2336663 -> 1762566 -> 2013018 -> 1680609], [Sometimes a Hero (2003) -> Cox, Christina (I) -> The Chronicles of Riddick (2004) -> Armstrong, Michasha -> Sacrifice (2011/I)] 
+
+  path: 2[1716592 -> 1716592], [Sometimes a Hero (2003) -> Sometimes a Hero (2003)]
+srcNodes: [1330948, 8025023, 1423248]
+  path: 0[1423248 -> 2438526 -> 1532726 -> 2141400 -> 1330948], [Hero (2000) -> Nicholson, Julianne -> Little Black Book (2004) -> Harpster, Noah -> Disaster Movie (2008)] 
+
+  path: 1[1423248 -> 2438526 -> 1614429 -> 8025023], [Hero (2000) -> Nicholson, Julianne -> One True Thing (1998) -> alcoholism,baking,based-on-novel,boyfriend-girlfriend-relationship,brother,cake,cancer,choice,christmas,college-professor,dysfunctional-family,euthanasia,family-crisis,family-relationships,father-daughter-relationship,halloween,infidelity,investigation,job,literature,love,melodrama,mother-daughter-relationship,new-year's-eve,new-york,number-in-title,professor,reflection,sacrifice,sadness,small-town,suicide,terminal-illness,thanksgiving,tragedy,writing] 
+
+  path: 2[1423248 -> 1423248], [Hero (2000) -> Hero (2000)]
+-----------------------------------------
+ResultDestNodes: [1330956, 1680609, 2065348, 2127977, 1423271, 1330948, 2240326, 1806449, 1535806, 1794812, 1716592, 1423248]
+ResultRelevs: [7.624281883239746, 7.562954902648926, 7.480304718017578, 7.480304718017578, 7.326974868774414, 6.831882953643799, 6.7687883377075195, 6.766260147094727, 6.613269329071045, 6.51259183883667, 6.420555114746094, 6.174988746643066]
+AvgResultRelev: 6.96359646320343
+AvgResultDissimilarity: 0.7121212121212123
+Num of entries retrieved from the KNLists: 2930
+Num of entries retrieved from NKMaps: 4961
+Num of answer trees explored: 1942
+Num of states created: 8448
+Num of states explored: 2590
+Num of heuristic search performed: 30
+
+query: [epic, history, war]
+Top-k Search by Blink-BDB, k=4
+[epic, history, war]
+srcNodes: [8018522, 5003808, 5003808]
+  path: 0[1481810 -> 8018522], [Khunsuk (2003) -> epic] 
+
+  path: 1[1481810 -> 5003808], [Khunsuk (2003) -> Action,History,War] 
+
+  path: 2[1481810 -> 5003808], [Khunsuk (2003) -> Action,History,War] 
+
+srcNodes: [8018522, 5000177, 1871383]
+  path: 0[1871383 -> 2270422 -> 1755436 -> 8018522], [War (2007) -> Phan, Johnson -> The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[1871383 -> 2200906 -> 1467044 -> 5000177], [War (2007) -> Li, Jet -> Jian guo da ye (2009) -> Drama,History] 
+
+  path: 2[1871383 -> 1871383], [War (2007) -> War (2007)]
+srcNodes: [8018522, 5000065, 5000194]
+  path: 0[1198220 -> 2249272 -> 1481810 -> 8018522], [Alexander (2004) -> Ngamdee, Jaran -> Khunsuk (2003) -> epic] 
+
+  path: 1[1198220 -> 2033659 -> 1478934 -> 5000065], [Alexander (2004) -> Blessed, Brian -> Katherine of Alexandria (2011) -> History] 
+
+  path: 2[1198220 -> 2175478 -> 1871457 -> 5000194], [Alexander (2004) -> Kebbell, Toby -> War Horse (2011) -> War] 
+
+srcNodes: [8010264, 5000065, 5000194]
+  path: 0[1324058 -> 8010264], [Didgori: Land of Sacrificed Knights (2009) -> battle,blacksmith,castle,christianity,cross,epic,georgia,holy-grail,mystic,spear-of-destiny,student-film,sword-fight,templar-knight] 
+
+  path: 1[1324058 -> 5000065], [Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[1324058 -> 4024162 -> 1396839 -> 5000194], [Didgori: Land of Sacrificed Knights (2009) -> Khomasuridze, Nikoloz -> Georgian: Warrior of Honor (2011) -> War] 
+
+-----------------------------------------
+Num of top-k answers: 4
+ResultDestNodes: [1481810, 1871383, 1198220, 1324058]
+ResultRelevs: [10.394692420959473, 8.878751754760742, 8.498119354248047, 8.493865966796875]
+AvgResultRelev: 9.066357374191284
+AvgResultDissimilarity: 0.7000000000000001
+Num of entries retrieved from the lists: 2928
+Num of entries retrieved from NKMaps: 4734
+Num of answer trees explored: 1802
+
+Div Top-k Search by Exhustive, k=4
+[epic, history, war]
+srcNodes: [8018522, 5003808, 5003808]
+  path: 0[1481810 -> 8018522], [Khunsuk (2003) -> epic] 
+
+  path: 1[1481810 -> 5003808], [Khunsuk (2003) -> Action,History,War] 
+
+  path: 2[1481810 -> 5003808], [Khunsuk (2003) -> Action,History,War] 
+
+srcNodes: [8018522, 5000177, 1871383]
+  path: 0[1871383 -> 2270422 -> 1755436 -> 8018522], [War (2007) -> Phan, Johnson -> The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[1871383 -> 2200906 -> 1467044 -> 5000177], [War (2007) -> Li, Jet -> Jian guo da ye (2009) -> Drama,History] 
+
+  path: 2[1871383 -> 1871383], [War (2007) -> War (2007)]
+srcNodes: [8018522, 5000065, 5000194]
+  path: 0[1198220 -> 2249272 -> 1481810 -> 8018522], [Alexander (2004) -> Ngamdee, Jaran -> Khunsuk (2003) -> epic] 
+
+  path: 1[1198220 -> 2033659 -> 1478934 -> 5000065], [Alexander (2004) -> Blessed, Brian -> Katherine of Alexandria (2011) -> History] 
+
+  path: 2[1198220 -> 2175478 -> 1871457 -> 5000194], [Alexander (2004) -> Kebbell, Toby -> War Horse (2011) -> War] 
+
+srcNodes: [8010264, 5000065, 5000194]
+  path: 0[1324058 -> 8010264], [Didgori: Land of Sacrificed Knights (2009) -> battle,blacksmith,castle,christianity,cross,epic,georgia,holy-grail,mystic,spear-of-destiny,student-film,sword-fight,templar-knight] 
+
+  path: 1[1324058 -> 5000065], [Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[1324058 -> 4024162 -> 1396839 -> 5000194], [Didgori: Land of Sacrificed Knights (2009) -> Khomasuridze, Nikoloz -> Georgian: Warrior of Honor (2011) -> War] 
+
+-----------------------------------------
+ResultDestNodes: [1481810, 1871383, 1198220, 1324058]
+ResultRelevs: [10.394692420959473, 8.878751754760742, 8.498119354248047, 8.493865966796875]
+AvgResultRelev: 9.066357374191284
+AvgResultDissimilarity: 0.6999999682108561
+Num of entries retrieved from the KNLists: 2928
+Num of entries retrieved from NKMaps: 4734
+Num of answer trees explored: 1802
+Num of answer tree sets created: 15
+Num of answer tree sets removed: 1
+
+Div Top-k Search by Astar02, k=4
+[epic, history, war]
+srcNodes: [8018522, 5003808, 5003808]
+  path: 0[1481810 -> 8018522], [Khunsuk (2003) -> epic] 
+
+  path: 1[1481810 -> 5003808], [Khunsuk (2003) -> Action,History,War] 
+
+  path: 2[1481810 -> 5003808], [Khunsuk (2003) -> Action,History,War] 
+
+srcNodes: [8018522, 5000177, 1871383]
+  path: 0[1871383 -> 2270422 -> 1755436 -> 8018522], [War (2007) -> Phan, Johnson -> The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[1871383 -> 2200906 -> 1467044 -> 5000177], [War (2007) -> Li, Jet -> Jian guo da ye (2009) -> Drama,History] 
+
+  path: 2[1871383 -> 1871383], [War (2007) -> War (2007)]
+srcNodes: [8018522, 5000065, 5000194]
+  path: 0[1198220 -> 2249272 -> 1481810 -> 8018522], [Alexander (2004) -> Ngamdee, Jaran -> Khunsuk (2003) -> epic] 
+
+  path: 1[1198220 -> 2033659 -> 1478934 -> 5000065], [Alexander (2004) -> Blessed, Brian -> Katherine of Alexandria (2011) -> History] 
+
+  path: 2[1198220 -> 2175478 -> 1871457 -> 5000194], [Alexander (2004) -> Kebbell, Toby -> War Horse (2011) -> War] 
+
+srcNodes: [8010264, 5000065, 5000194]
+  path: 0[1324058 -> 8010264], [Didgori: Land of Sacrificed Knights (2009) -> battle,blacksmith,castle,christianity,cross,epic,georgia,holy-grail,mystic,spear-of-destiny,student-film,sword-fight,templar-knight] 
+
+  path: 1[1324058 -> 5000065], [Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[1324058 -> 4024162 -> 1396839 -> 5000194], [Didgori: Land of Sacrificed Knights (2009) -> Khomasuridze, Nikoloz -> Georgian: Warrior of Honor (2011) -> War] 
+
+-----------------------------------------
+ResultDestNodes: [1481810, 1871383, 1198220, 1324058]
+ResultRelevs: [10.394692420959473, 8.878751754760742, 8.498119354248047, 8.493865966796875]
+AvgResultRelev: 9.066357374191284
+AvgResultDissimilarity: 0.7000000000000001
+Num of entries retrieved from the KNLists: 2928
+Num of entries retrieved from NKMaps: 4734
+Num of answer trees explored: 1802
+Num of states created: 11
+Num of states explored: 5
+Num of heuristic search performed: 1
+
+Div Top-k Search by Astar1nc_ap, k=4
+[epic, history, war]
+srcNodes: [8018522, 5003808, 5003808]
+  path: 0[1481810 -> 8018522], [Khunsuk (2003) -> epic] 
+
+  path: 1[1481810 -> 5003808], [Khunsuk (2003) -> Action,History,War] 
+
+  path: 2[1481810 -> 5003808], [Khunsuk (2003) -> Action,History,War] 
+
+srcNodes: [8018522, 5000177, 1871383]
+  path: 0[1871383 -> 2270422 -> 1755436 -> 8018522], [War (2007) -> Phan, Johnson -> The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[1871383 -> 2200906 -> 1467044 -> 5000177], [War (2007) -> Li, Jet -> Jian guo da ye (2009) -> Drama,History] 
+
+  path: 2[1871383 -> 1871383], [War (2007) -> War (2007)]
+srcNodes: [8018522, 5000065, 5000194]
+  path: 0[1198220 -> 2249272 -> 1481810 -> 8018522], [Alexander (2004) -> Ngamdee, Jaran -> Khunsuk (2003) -> epic] 
+
+  path: 1[1198220 -> 2033659 -> 1478934 -> 5000065], [Alexander (2004) -> Blessed, Brian -> Katherine of Alexandria (2011) -> History] 
+
+  path: 2[1198220 -> 2175478 -> 1871457 -> 5000194], [Alexander (2004) -> Kebbell, Toby -> War Horse (2011) -> War] 
+
+srcNodes: [8010264, 5000065, 5000194]
+  path: 0[1324058 -> 8010264], [Didgori: Land of Sacrificed Knights (2009) -> battle,blacksmith,castle,christianity,cross,epic,georgia,holy-grail,mystic,spear-of-destiny,student-film,sword-fight,templar-knight] 
+
+  path: 1[1324058 -> 5000065], [Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[1324058 -> 4024162 -> 1396839 -> 5000194], [Didgori: Land of Sacrificed Knights (2009) -> Khomasuridze, Nikoloz -> Georgian: Warrior of Honor (2011) -> War] 
+
+-----------------------------------------
+ResultDestNodes: [1481810, 1871383, 1198220, 1324058]
+ResultRelevs: [10.394692420959473, 8.878751754760742, 8.498119354248047, 8.493865966796875]
+AvgResultRelev: 9.066357374191284
+AvgResultDissimilarity: 0.7000000000000001
+Num of entries retrieved from the KNLists: 2928
+Num of entries retrieved from NKMaps: 4734
+Num of answer trees explored: 1802
+Num of states created: 5
+Num of states explored: 5
+Num of heuristic search performed: 1
+
+Top-k Search by Blink-BDB, k=8
+[epic, history, war]
+srcNodes: [8018522, 5003808, 5003808]
+  path: 0[1481810 -> 8018522], [Khunsuk (2003) -> epic] 
+
+  path: 1[1481810 -> 5003808], [Khunsuk (2003) -> Action,History,War] 
+
+  path: 2[1481810 -> 5003808], [Khunsuk (2003) -> Action,History,War] 
+
+srcNodes: [8018522, 5000177, 1871383]
+  path: 0[1871383 -> 2270422 -> 1755436 -> 8018522], [War (2007) -> Phan, Johnson -> The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[1871383 -> 2200906 -> 1467044 -> 5000177], [War (2007) -> Li, Jet -> Jian guo da ye (2009) -> Drama,History] 
+
+  path: 2[1871383 -> 1871383], [War (2007) -> War (2007)]
+srcNodes: [8018522, 5000065, 5000194]
+  path: 0[1198220 -> 2249272 -> 1481810 -> 8018522], [Alexander (2004) -> Ngamdee, Jaran -> Khunsuk (2003) -> epic] 
+
+  path: 1[1198220 -> 2033659 -> 1478934 -> 5000065], [Alexander (2004) -> Blessed, Brian -> Katherine of Alexandria (2011) -> History] 
+
+  path: 2[1198220 -> 2175478 -> 1871457 -> 5000194], [Alexander (2004) -> Kebbell, Toby -> War Horse (2011) -> War] 
+
+srcNodes: [8010264, 5000065, 5000194]
+  path: 0[1324058 -> 8010264], [Didgori: Land of Sacrificed Knights (2009) -> battle,blacksmith,castle,christianity,cross,epic,georgia,holy-grail,mystic,spear-of-destiny,student-film,sword-fight,templar-knight] 
+
+  path: 1[1324058 -> 5000065], [Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[1324058 -> 4024162 -> 1396839 -> 5000194], [Didgori: Land of Sacrificed Knights (2009) -> Khomasuridze, Nikoloz -> Georgian: Warrior of Honor (2011) -> War] 
+
+srcNodes: [1360948, 5000065, 5000194]
+  path: 0[2232465 -> 1379558 -> 2422463 -> 1360948], [Millan, Nevin -> Flags of Our Fathers (2006) -> Mays, Jayma -> Epic Movie (2007)] 
+
+  path: 1[2232465 -> 1324058 -> 5000065], [Millan, Nevin -> Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[2232465 -> 1396839 -> 5000194], [Millan, Nevin -> Georgian: Warrior of Honor (2011) -> War] 
+
+srcNodes: [8018522, 5000177, 1871383]
+  path: 0[2270422 -> 1755436 -> 8018522], [Phan, Johnson -> The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[2270422 -> 1887823 -> 2161337 -> 1713528 -> 5000177], [Phan, Johnson -> X-Men Origins: Wolverine (2009) -> Jackman, Hugh -> Snow Flower and the Secret Fan (2011) -> Drama,History] 
+
+  path: 2[2270422 -> 1871383], [Phan, Johnson -> War (2007)] 
+
+srcNodes: [8018522, 5000065, 5000194]
+  path: 0[2249272 -> 1481810 -> 8018522], [Ngamdee, Jaran -> Khunsuk (2003) -> epic] 
+
+  path: 1[2249272 -> 1198220 -> 2033659 -> 1478934 -> 5000065], [Ngamdee, Jaran -> Alexander (2004) -> Blessed, Brian -> Katherine of Alexandria (2011) -> History] 
+
+  path: 2[2249272 -> 1198220 -> 2175478 -> 1871457 -> 5000194], [Ngamdee, Jaran -> Alexander (2004) -> Kebbell, Toby -> War Horse (2011) -> War] 
+
+srcNodes: [1360948, 5000065, 5000194]
+  path: 0[1396839 -> 2463664 -> 1272874 -> 2327631 -> 1360948], [Georgian: Warrior of Honor (2011) -> Romanoff, Lara -> Cellular (2004) -> Castro, Mary -> Epic Movie (2007)] 
+
+  path: 1[1396839 -> 4024162 -> 1324058 -> 5000065], [Georgian: Warrior of Honor (2011) -> Khomasuridze, Nikoloz -> Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[1396839 -> 5000194], [Georgian: Warrior of Honor (2011) -> War] 
+
+-----------------------------------------
+Num of top-k answers: 8
+ResultDestNodes: [1481810, 1871383, 1198220, 1324058, 2232465, 2270422, 2249272, 1396839]
+ResultRelevs: [10.394692420959473, 8.878751754760742, 8.498119354248047, 8.493865966796875, 8.449406623840332, 8.356127738952637, 8.289361000061035, 8.275429725646973]
+AvgResultRelev: 8.704469323158264
+AvgResultDissimilarity: 0.5976190476190475
+Num of entries retrieved from the lists: 4003
+Num of entries retrieved from NKMaps: 6283
+Num of answer trees explored: 2312
+
+Div Top-k Search by Exhustive, k=8
+[epic, history, war]
+srcNodes: [8018522, 5003808, 5003808]
+  path: 0[1481810 -> 8018522], [Khunsuk (2003) -> epic] 
+
+  path: 1[1481810 -> 5003808], [Khunsuk (2003) -> Action,History,War] 
+
+  path: 2[1481810 -> 5003808], [Khunsuk (2003) -> Action,History,War] 
+
+srcNodes: [8018522, 5000177, 1871383]
+  path: 0[1871383 -> 2270422 -> 1755436 -> 8018522], [War (2007) -> Phan, Johnson -> The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[1871383 -> 2200906 -> 1467044 -> 5000177], [War (2007) -> Li, Jet -> Jian guo da ye (2009) -> Drama,History] 
+
+  path: 2[1871383 -> 1871383], [War (2007) -> War (2007)]
+srcNodes: [8018522, 5000065, 5000194]
+  path: 0[1198220 -> 2249272 -> 1481810 -> 8018522], [Alexander (2004) -> Ngamdee, Jaran -> Khunsuk (2003) -> epic] 
+
+  path: 1[1198220 -> 2033659 -> 1478934 -> 5000065], [Alexander (2004) -> Blessed, Brian -> Katherine of Alexandria (2011) -> History] 
+
+  path: 2[1198220 -> 2175478 -> 1871457 -> 5000194], [Alexander (2004) -> Kebbell, Toby -> War Horse (2011) -> War] 
+
+srcNodes: [8010264, 5000065, 5000194]
+  path: 0[1324058 -> 8010264], [Didgori: Land of Sacrificed Knights (2009) -> battle,blacksmith,castle,christianity,cross,epic,georgia,holy-grail,mystic,spear-of-destiny,student-film,sword-fight,templar-knight] 
+
+  path: 1[1324058 -> 5000065], [Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[1324058 -> 4024162 -> 1396839 -> 5000194], [Didgori: Land of Sacrificed Knights (2009) -> Khomasuridze, Nikoloz -> Georgian: Warrior of Honor (2011) -> War] 
+
+srcNodes: [1360948, 5000065, 5000194]
+  path: 0[2232465 -> 1379558 -> 2422463 -> 1360948], [Millan, Nevin -> Flags of Our Fathers (2006) -> Mays, Jayma -> Epic Movie (2007)] 
+
+  path: 1[2232465 -> 1324058 -> 5000065], [Millan, Nevin -> Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[2232465 -> 1396839 -> 5000194], [Millan, Nevin -> Georgian: Warrior of Honor (2011) -> War] 
+
+srcNodes: [8018522, 5000177, 1871383]
+  path: 0[2270422 -> 1755436 -> 8018522], [Phan, Johnson -> The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[2270422 -> 1887823 -> 2161337 -> 1713528 -> 5000177], [Phan, Johnson -> X-Men Origins: Wolverine (2009) -> Jackman, Hugh -> Snow Flower and the Secret Fan (2011) -> Drama,History] 
+
+  path: 2[2270422 -> 1871383], [Phan, Johnson -> War (2007)] 
+
+srcNodes: [8018522, 6042542, 1871383]
+  path: 0[1755436 -> 8018522], [The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[1755436 -> 2270422 -> 1887823 -> 6042542], [The Battle of Burgledorf (2010) -> Phan, Johnson -> X-Men Origins: Wolverine (2009) -> Two mutant brothers,] 
+
+  path: 2[1755436 -> 2270422 -> 1871383], [The Battle of Burgledorf (2010) -> Phan, Johnson -> War (2007)] 
+
+srcNodes: [1360948, 5000065, 8001055]
+  path: 0[535478 -> 2122933 -> 1580355 -> 2091141 -> 1360948], ["Le dernier seigneur des Balkans" (2005) -> Giannatos, Mihalis -> Munich (2005) -> Dorr, Sabi -> Epic Movie (2007)] 
+
+  path: 1[535478 -> 5000065], ["Le dernier seigneur des Balkans" (2005) -> History] 
+
+  path: 2[535478 -> 8001055], ["Le dernier seigneur des Balkans" (2005) -> balkan-war,tv-mini-series,world-war-one,world-war-two] 
+
+-----------------------------------------
+ResultDestNodes: [1481810, 1871383, 1198220, 1324058, 2232465, 2270422, 1755436, 535478]
+ResultRelevs: [10.394692420959473, 8.878751754760742, 8.498119354248047, 8.493865966796875, 8.449406623840332, 8.356127738952637, 8.212804794311523, 7.887504577636719]
+AvgResultRelev: 8.646409153938293
+AvgResultDissimilarity: 0.7047619138445173
+Num of entries retrieved from the KNLists: 4402
+Num of entries retrieved from NKMaps: 6785
+Num of answer trees explored: 2432
+Num of answer tree sets created: 1683
+Num of answer tree sets removed: 1674
+
+Div Top-k Search by Astar02, k=8
+[epic, history, war]
+srcNodes: [8018522, 5003808, 5003808]
+  path: 0[1481810 -> 8018522], [Khunsuk (2003) -> epic] 
+
+  path: 1[1481810 -> 5003808], [Khunsuk (2003) -> Action,History,War] 
+
+  path: 2[1481810 -> 5003808], [Khunsuk (2003) -> Action,History,War] 
+
+srcNodes: [8018522, 5000177, 1871383]
+  path: 0[1871383 -> 2270422 -> 1755436 -> 8018522], [War (2007) -> Phan, Johnson -> The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[1871383 -> 2200906 -> 1467044 -> 5000177], [War (2007) -> Li, Jet -> Jian guo da ye (2009) -> Drama,History] 
+
+  path: 2[1871383 -> 1871383], [War (2007) -> War (2007)]
+srcNodes: [8018522, 5000065, 5000194]
+  path: 0[1198220 -> 2249272 -> 1481810 -> 8018522], [Alexander (2004) -> Ngamdee, Jaran -> Khunsuk (2003) -> epic] 
+
+  path: 1[1198220 -> 2033659 -> 1478934 -> 5000065], [Alexander (2004) -> Blessed, Brian -> Katherine of Alexandria (2011) -> History] 
+
+  path: 2[1198220 -> 2175478 -> 1871457 -> 5000194], [Alexander (2004) -> Kebbell, Toby -> War Horse (2011) -> War] 
+
+srcNodes: [8010264, 5000065, 5000194]
+  path: 0[1324058 -> 8010264], [Didgori: Land of Sacrificed Knights (2009) -> battle,blacksmith,castle,christianity,cross,epic,georgia,holy-grail,mystic,spear-of-destiny,student-film,sword-fight,templar-knight] 
+
+  path: 1[1324058 -> 5000065], [Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[1324058 -> 4024162 -> 1396839 -> 5000194], [Didgori: Land of Sacrificed Knights (2009) -> Khomasuridze, Nikoloz -> Georgian: Warrior of Honor (2011) -> War] 
+
+srcNodes: [1360948, 5000065, 5000194]
+  path: 0[2232465 -> 1379558 -> 2422463 -> 1360948], [Millan, Nevin -> Flags of Our Fathers (2006) -> Mays, Jayma -> Epic Movie (2007)] 
+
+  path: 1[2232465 -> 1324058 -> 5000065], [Millan, Nevin -> Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[2232465 -> 1396839 -> 5000194], [Millan, Nevin -> Georgian: Warrior of Honor (2011) -> War] 
+
+srcNodes: [8018522, 5000177, 1871383]
+  path: 0[2270422 -> 1755436 -> 8018522], [Phan, Johnson -> The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[2270422 -> 1887823 -> 2161337 -> 1713528 -> 5000177], [Phan, Johnson -> X-Men Origins: Wolverine (2009) -> Jackman, Hugh -> Snow Flower and the Secret Fan (2011) -> Drama,History] 
+
+  path: 2[2270422 -> 1871383], [Phan, Johnson -> War (2007)] 
+
+srcNodes: [8018522, 6042542, 1871383]
+  path: 0[1755436 -> 8018522], [The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[1755436 -> 2270422 -> 1887823 -> 6042542], [The Battle of Burgledorf (2010) -> Phan, Johnson -> X-Men Origins: Wolverine (2009) -> Two mutant brothers,] 
+
+  path: 2[1755436 -> 2270422 -> 1871383], [The Battle of Burgledorf (2010) -> Phan, Johnson -> War (2007)] 
+
+srcNodes: [1360948, 5000065, 8001055]
+  path: 0[535478 -> 2122933 -> 1580355 -> 2091141 -> 1360948], ["Le dernier seigneur des Balkans" (2005) -> Giannatos, Mihalis -> Munich (2005) -> Dorr, Sabi -> Epic Movie (2007)] 
+
+  path: 1[535478 -> 5000065], ["Le dernier seigneur des Balkans" (2005) -> History] 
+
+  path: 2[535478 -> 8001055], ["Le dernier seigneur des Balkans" (2005) -> balkan-war,tv-mini-series,world-war-one,world-war-two] 
+
+-----------------------------------------
+ResultDestNodes: [1481810, 1871383, 1198220, 1324058, 2232465, 2270422, 1755436, 535478]
+ResultRelevs: [10.394692420959473, 8.878751754760742, 8.498119354248047, 8.493865966796875, 8.449406623840332, 8.356127738952637, 8.212804794311523, 7.887504577636719]
+AvgResultRelev: 8.646409153938293
+AvgResultDissimilarity: 0.7047619047619048
+Num of entries retrieved from the KNLists: 4402
+Num of entries retrieved from NKMaps: 6785
+Num of answer trees explored: 2432
+Num of states created: 1770
+Num of states explored: 1691
+Num of heuristic search performed: 7
+
+Div Top-k Search by Astar1nc_ap, k=8
+[epic, history, war]
+srcNodes: [8018522, 5003808, 5003808]
+  path: 0[1481810 -> 8018522], [Khunsuk (2003) -> epic] 
+
+  path: 1[1481810 -> 5003808], [Khunsuk (2003) -> Action,History,War] 
+
+  path: 2[1481810 -> 5003808], [Khunsuk (2003) -> Action,History,War] 
+
+srcNodes: [8018522, 5000177, 1871383]
+  path: 0[1871383 -> 2270422 -> 1755436 -> 8018522], [War (2007) -> Phan, Johnson -> The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[1871383 -> 2200906 -> 1467044 -> 5000177], [War (2007) -> Li, Jet -> Jian guo da ye (2009) -> Drama,History] 
+
+  path: 2[1871383 -> 1871383], [War (2007) -> War (2007)]
+srcNodes: [8018522, 5000065, 5000194]
+  path: 0[1198220 -> 2249272 -> 1481810 -> 8018522], [Alexander (2004) -> Ngamdee, Jaran -> Khunsuk (2003) -> epic] 
+
+  path: 1[1198220 -> 2033659 -> 1478934 -> 5000065], [Alexander (2004) -> Blessed, Brian -> Katherine of Alexandria (2011) -> History] 
+
+  path: 2[1198220 -> 2175478 -> 1871457 -> 5000194], [Alexander (2004) -> Kebbell, Toby -> War Horse (2011) -> War] 
+
+srcNodes: [8010264, 5000065, 5000194]
+  path: 0[1324058 -> 8010264], [Didgori: Land of Sacrificed Knights (2009) -> battle,blacksmith,castle,christianity,cross,epic,georgia,holy-grail,mystic,spear-of-destiny,student-film,sword-fight,templar-knight] 
+
+  path: 1[1324058 -> 5000065], [Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[1324058 -> 4024162 -> 1396839 -> 5000194], [Didgori: Land of Sacrificed Knights (2009) -> Khomasuridze, Nikoloz -> Georgian: Warrior of Honor (2011) -> War] 
+
+srcNodes: [1360948, 5000065, 5000194]
+  path: 0[2232465 -> 1379558 -> 2422463 -> 1360948], [Millan, Nevin -> Flags of Our Fathers (2006) -> Mays, Jayma -> Epic Movie (2007)] 
+
+  path: 1[2232465 -> 1324058 -> 5000065], [Millan, Nevin -> Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[2232465 -> 1396839 -> 5000194], [Millan, Nevin -> Georgian: Warrior of Honor (2011) -> War] 
+
+srcNodes: [8018522, 5000177, 1871383]
+  path: 0[2270422 -> 1755436 -> 8018522], [Phan, Johnson -> The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[2270422 -> 1887823 -> 2161337 -> 1713528 -> 5000177], [Phan, Johnson -> X-Men Origins: Wolverine (2009) -> Jackman, Hugh -> Snow Flower and the Secret Fan (2011) -> Drama,History] 
+
+  path: 2[2270422 -> 1871383], [Phan, Johnson -> War (2007)] 
+
+srcNodes: [8018522, 6042542, 1871383]
+  path: 0[1755436 -> 8018522], [The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[1755436 -> 2270422 -> 1887823 -> 6042542], [The Battle of Burgledorf (2010) -> Phan, Johnson -> X-Men Origins: Wolverine (2009) -> Two mutant brothers,] 
+
+  path: 2[1755436 -> 2270422 -> 1871383], [The Battle of Burgledorf (2010) -> Phan, Johnson -> War (2007)] 
+
+srcNodes: [1360948, 5000065, 8001055]
+  path: 0[535478 -> 2122933 -> 1580355 -> 2091141 -> 1360948], ["Le dernier seigneur des Balkans" (2005) -> Giannatos, Mihalis -> Munich (2005) -> Dorr, Sabi -> Epic Movie (2007)] 
+
+  path: 1[535478 -> 5000065], ["Le dernier seigneur des Balkans" (2005) -> History] 
+
+  path: 2[535478 -> 8001055], ["Le dernier seigneur des Balkans" (2005) -> balkan-war,tv-mini-series,world-war-one,world-war-two] 
+
+-----------------------------------------
+ResultDestNodes: [1481810, 1871383, 1198220, 1324058, 2232465, 2270422, 1755436, 535478]
+ResultRelevs: [10.394692420959473, 8.878751754760742, 8.498119354248047, 8.493865966796875, 8.449406623840332, 8.356127738952637, 8.212804794311523, 7.887504577636719]
+AvgResultRelev: 8.646409153938293
+AvgResultDissimilarity: 0.7047619047619048
+Num of entries retrieved from the KNLists: 4402
+Num of entries retrieved from NKMaps: 6785
+Num of answer trees explored: 2432
+Num of states created: 194
+Num of states explored: 91
+Num of heuristic search performed: 7
+
+Top-k Search by Blink-BDB, k=12
+[epic, history, war]
+srcNodes: [8018522, 5003808, 5003808]
+  path: 0[1481810 -> 8018522], [Khunsuk (2003) -> epic] 
+
+  path: 1[1481810 -> 5003808], [Khunsuk (2003) -> Action,History,War] 
+
+  path: 2[1481810 -> 5003808], [Khunsuk (2003) -> Action,History,War] 
+
+srcNodes: [8018522, 5000177, 1871383]
+  path: 0[1871383 -> 2270422 -> 1755436 -> 8018522], [War (2007) -> Phan, Johnson -> The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[1871383 -> 2200906 -> 1467044 -> 5000177], [War (2007) -> Li, Jet -> Jian guo da ye (2009) -> Drama,History] 
+
+  path: 2[1871383 -> 1871383], [War (2007) -> War (2007)]
+srcNodes: [8018522, 5000065, 5000194]
+  path: 0[1198220 -> 2249272 -> 1481810 -> 8018522], [Alexander (2004) -> Ngamdee, Jaran -> Khunsuk (2003) -> epic] 
+
+  path: 1[1198220 -> 2033659 -> 1478934 -> 5000065], [Alexander (2004) -> Blessed, Brian -> Katherine of Alexandria (2011) -> History] 
+
+  path: 2[1198220 -> 2175478 -> 1871457 -> 5000194], [Alexander (2004) -> Kebbell, Toby -> War Horse (2011) -> War] 
+
+srcNodes: [8010264, 5000065, 5000194]
+  path: 0[1324058 -> 8010264], [Didgori: Land of Sacrificed Knights (2009) -> battle,blacksmith,castle,christianity,cross,epic,georgia,holy-grail,mystic,spear-of-destiny,student-film,sword-fight,templar-knight] 
+
+  path: 1[1324058 -> 5000065], [Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[1324058 -> 4024162 -> 1396839 -> 5000194], [Didgori: Land of Sacrificed Knights (2009) -> Khomasuridze, Nikoloz -> Georgian: Warrior of Honor (2011) -> War] 
+
+srcNodes: [1360948, 5000065, 5000194]
+  path: 0[2232465 -> 1379558 -> 2422463 -> 1360948], [Millan, Nevin -> Flags of Our Fathers (2006) -> Mays, Jayma -> Epic Movie (2007)] 
+
+  path: 1[2232465 -> 1324058 -> 5000065], [Millan, Nevin -> Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[2232465 -> 1396839 -> 5000194], [Millan, Nevin -> Georgian: Warrior of Honor (2011) -> War] 
+
+srcNodes: [8018522, 5000177, 1871383]
+  path: 0[2270422 -> 1755436 -> 8018522], [Phan, Johnson -> The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[2270422 -> 1887823 -> 2161337 -> 1713528 -> 5000177], [Phan, Johnson -> X-Men Origins: Wolverine (2009) -> Jackman, Hugh -> Snow Flower and the Secret Fan (2011) -> Drama,History] 
+
+  path: 2[2270422 -> 1871383], [Phan, Johnson -> War (2007)] 
+
+srcNodes: [8018522, 5000065, 5000194]
+  path: 0[2249272 -> 1481810 -> 8018522], [Ngamdee, Jaran -> Khunsuk (2003) -> epic] 
+
+  path: 1[2249272 -> 1198220 -> 2033659 -> 1478934 -> 5000065], [Ngamdee, Jaran -> Alexander (2004) -> Blessed, Brian -> Katherine of Alexandria (2011) -> History] 
+
+  path: 2[2249272 -> 1198220 -> 2175478 -> 1871457 -> 5000194], [Ngamdee, Jaran -> Alexander (2004) -> Kebbell, Toby -> War Horse (2011) -> War] 
+
+srcNodes: [1360948, 5000065, 5000194]
+  path: 0[1396839 -> 2463664 -> 1272874 -> 2327631 -> 1360948], [Georgian: Warrior of Honor (2011) -> Romanoff, Lara -> Cellular (2004) -> Castro, Mary -> Epic Movie (2007)] 
+
+  path: 1[1396839 -> 4024162 -> 1324058 -> 5000065], [Georgian: Warrior of Honor (2011) -> Khomasuridze, Nikoloz -> Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[1396839 -> 5000194], [Georgian: Warrior of Honor (2011) -> War] 
+
+srcNodes: [8018522, 6042542, 1871383]
+  path: 0[1755436 -> 8018522], [The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[1755436 -> 2270422 -> 1887823 -> 6042542], [The Battle of Burgledorf (2010) -> Phan, Johnson -> X-Men Origins: Wolverine (2009) -> Two mutant brothers,] 
+
+  path: 2[1755436 -> 2270422 -> 1871383], [The Battle of Burgledorf (2010) -> Phan, Johnson -> War (2007)] 
+
+srcNodes: [8018522, 5000065, 5000194]
+  path: 0[2033659 -> 1198220 -> 2249272 -> 1481810 -> 8018522], [Blessed, Brian -> Alexander (2004) -> Ngamdee, Jaran -> Khunsuk (2003) -> epic] 
+
+  path: 1[2033659 -> 1478934 -> 5000065], [Blessed, Brian -> Katherine of Alexandria (2011) -> History] 
+
+  path: 2[2033659 -> 1198220 -> 2175478 -> 1871457 -> 5000194], [Blessed, Brian -> Alexander (2004) -> Kebbell, Toby -> War Horse (2011) -> War] 
+
+srcNodes: [8018522, 5001670, 1819342]
+  path: 0[4022393 -> 1481810 -> 8018522], [Jitnukul, Tanit -> Khunsuk (2003) -> epic] 
+
+  path: 1[4022393 -> 1230006 -> 5001670], [Jitnukul, Tanit -> Bangrajan (2000) -> War,Action,Drama,History] 
+
+  path: 2[4022393 -> 1481667 -> 2451965 -> 1819342], [Jitnukul, Tanit -> Khon len khong (2004) -> Platt, Tara -> The War on the War on Drugs (2002)] 
+
+srcNodes: [1360948, 5000065, 8001055]
+  path: 0[535478 -> 2122933 -> 1580355 -> 2091141 -> 1360948], ["Le dernier seigneur des Balkans" (2005) -> Giannatos, Mihalis -> Munich (2005) -> Dorr, Sabi -> Epic Movie (2007)] 
+
+  path: 1[535478 -> 5000065], ["Le dernier seigneur des Balkans" (2005) -> History] 
+
+  path: 2[535478 -> 8001055], ["Le dernier seigneur des Balkans" (2005) -> balkan-war,tv-mini-series,world-war-one,world-war-two] 
+
+-----------------------------------------
+Num of top-k answers: 12
+ResultDestNodes: [1481810, 1871383, 1198220, 1324058, 2232465, 2270422, 2249272, 1396839, 1755436, 2033659, 4022393, 535478]
+ResultRelevs: [10.394692420959473, 8.878751754760742, 8.498119354248047, 8.493865966796875, 8.449406623840332, 8.356127738952637, 8.289361000061035, 8.275429725646973, 8.212804794311523, 7.9401326179504395, 7.898720741271973, 7.887504577636719]
+AvgResultRelev: 8.464576443036398
+AvgResultDissimilarity: 0.6343434343434342
+Num of entries retrieved from the lists: 4402
+Num of entries retrieved from NKMaps: 6785
+Num of answer trees explored: 2432
+
+Div Top-k Search by Exhustive, k=12
+[epic, history, war]
+srcNodes: [8018522, 5003808, 5003808]
+  path: 0[1481810 -> 8018522], [Khunsuk (2003) -> epic] 
+
+  path: 1[1481810 -> 5003808], [Khunsuk (2003) -> Action,History,War] 
+
+  path: 2[1481810 -> 5003808], [Khunsuk (2003) -> Action,History,War] 
+
+srcNodes: [8018522, 5000177, 1871383]
+  path: 0[1871383 -> 2270422 -> 1755436 -> 8018522], [War (2007) -> Phan, Johnson -> The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[1871383 -> 2200906 -> 1467044 -> 5000177], [War (2007) -> Li, Jet -> Jian guo da ye (2009) -> Drama,History] 
+
+  path: 2[1871383 -> 1871383], [War (2007) -> War (2007)]
+srcNodes: [8018522, 5000065, 5000194]
+  path: 0[1198220 -> 2249272 -> 1481810 -> 8018522], [Alexander (2004) -> Ngamdee, Jaran -> Khunsuk (2003) -> epic] 
+
+  path: 1[1198220 -> 2033659 -> 1478934 -> 5000065], [Alexander (2004) -> Blessed, Brian -> Katherine of Alexandria (2011) -> History] 
+
+  path: 2[1198220 -> 2175478 -> 1871457 -> 5000194], [Alexander (2004) -> Kebbell, Toby -> War Horse (2011) -> War] 
+
+srcNodes: [8010264, 5000065, 5000194]
+  path: 0[1324058 -> 8010264], [Didgori: Land of Sacrificed Knights (2009) -> battle,blacksmith,castle,christianity,cross,epic,georgia,holy-grail,mystic,spear-of-destiny,student-film,sword-fight,templar-knight] 
+
+  path: 1[1324058 -> 5000065], [Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[1324058 -> 4024162 -> 1396839 -> 5000194], [Didgori: Land of Sacrificed Knights (2009) -> Khomasuridze, Nikoloz -> Georgian: Warrior of Honor (2011) -> War] 
+
+srcNodes: [1360948, 5000065, 5000194]
+  path: 0[2232465 -> 1379558 -> 2422463 -> 1360948], [Millan, Nevin -> Flags of Our Fathers (2006) -> Mays, Jayma -> Epic Movie (2007)] 
+
+  path: 1[2232465 -> 1324058 -> 5000065], [Millan, Nevin -> Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[2232465 -> 1396839 -> 5000194], [Millan, Nevin -> Georgian: Warrior of Honor (2011) -> War] 
+
+srcNodes: [8018522, 5000177, 1871383]
+  path: 0[2270422 -> 1755436 -> 8018522], [Phan, Johnson -> The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[2270422 -> 1887823 -> 2161337 -> 1713528 -> 5000177], [Phan, Johnson -> X-Men Origins: Wolverine (2009) -> Jackman, Hugh -> Snow Flower and the Secret Fan (2011) -> Drama,History] 
+
+  path: 2[2270422 -> 1871383], [Phan, Johnson -> War (2007)] 
+
+srcNodes: [8018522, 5000065, 5000194]
+  path: 0[2249272 -> 1481810 -> 8018522], [Ngamdee, Jaran -> Khunsuk (2003) -> epic] 
+
+  path: 1[2249272 -> 1198220 -> 2033659 -> 1478934 -> 5000065], [Ngamdee, Jaran -> Alexander (2004) -> Blessed, Brian -> Katherine of Alexandria (2011) -> History] 
+
+  path: 2[2249272 -> 1198220 -> 2175478 -> 1871457 -> 5000194], [Ngamdee, Jaran -> Alexander (2004) -> Kebbell, Toby -> War Horse (2011) -> War] 
+
+srcNodes: [1360948, 5000065, 5000194]
+  path: 0[1396839 -> 2463664 -> 1272874 -> 2327631 -> 1360948], [Georgian: Warrior of Honor (2011) -> Romanoff, Lara -> Cellular (2004) -> Castro, Mary -> Epic Movie (2007)] 
+
+  path: 1[1396839 -> 4024162 -> 1324058 -> 5000065], [Georgian: Warrior of Honor (2011) -> Khomasuridze, Nikoloz -> Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[1396839 -> 5000194], [Georgian: Warrior of Honor (2011) -> War] 
+
+srcNodes: [8018522, 6042542, 1871383]
+  path: 0[1755436 -> 8018522], [The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[1755436 -> 2270422 -> 1887823 -> 6042542], [The Battle of Burgledorf (2010) -> Phan, Johnson -> X-Men Origins: Wolverine (2009) -> Two mutant brothers,] 
+
+  path: 2[1755436 -> 2270422 -> 1871383], [The Battle of Burgledorf (2010) -> Phan, Johnson -> War (2007)] 
+
+srcNodes: [8018522, 5001670, 1819342]
+  path: 0[4022393 -> 1481810 -> 8018522], [Jitnukul, Tanit -> Khunsuk (2003) -> epic] 
+
+  path: 1[4022393 -> 1230006 -> 5001670], [Jitnukul, Tanit -> Bangrajan (2000) -> War,Action,Drama,History] 
+
+  path: 2[4022393 -> 1481667 -> 2451965 -> 1819342], [Jitnukul, Tanit -> Khon len khong (2004) -> Platt, Tara -> The War on the War on Drugs (2002)] 
+
+srcNodes: [1360948, 5000065, 8001055]
+  path: 0[535478 -> 2122933 -> 1580355 -> 2091141 -> 1360948], ["Le dernier seigneur des Balkans" (2005) -> Giannatos, Mihalis -> Munich (2005) -> Dorr, Sabi -> Epic Movie (2007)] 
+
+  path: 1[535478 -> 5000065], ["Le dernier seigneur des Balkans" (2005) -> History] 
+
+  path: 2[535478 -> 8001055], ["Le dernier seigneur des Balkans" (2005) -> balkan-war,tv-mini-series,world-war-one,world-war-two] 
+
+srcNodes: [2100403, 5000177, 1871603]
+  path: 0[2100403 -> 2100403], [Epic, Paul -> Epic, Paul]
+  path: 1[2100403 -> 1769259 -> 2173859 -> 1389060 -> 5000177], [Epic, Paul -> The Eagle Path (2010) -> Karst, Adam -> Frost/Nixon (2008) -> Drama,History] 
+
+  path: 2[2100403 -> 1769259 -> 2051605 -> 1871603], [Epic, Paul -> The Eagle Path (2010) -> Cannon, Josef -> War of the Worlds (2005)] 
+
+-----------------------------------------
+ResultDestNodes: [1481810, 1871383, 1198220, 1324058, 2232465, 2270422, 2249272, 1396839, 1755436, 4022393, 535478, 2100403]
+ResultRelevs: [10.394692420959473, 8.878751754760742, 8.498119354248047, 8.493865966796875, 8.449406623840332, 8.356127738952637, 8.289361000061035, 8.275429725646973, 8.212804794311523, 7.898720741271973, 7.887504577636719, 7.748666763305664]
+AvgResultRelev: 8.448620955149332
+AvgResultDissimilarity: 0.7161616123083866
+Num of entries retrieved from the KNLists: 4664
+Num of entries retrieved from NKMaps: 7078
+Num of answer trees explored: 2522
+Num of answer tree sets created: 30917
+Num of answer tree sets removed: 30869
+
+Div Top-k Search by Astar02, k=12
+[epic, history, war]
+srcNodes: [8018522, 5003808, 5003808]
+  path: 0[1481810 -> 8018522], [Khunsuk (2003) -> epic] 
+
+  path: 1[1481810 -> 5003808], [Khunsuk (2003) -> Action,History,War] 
+
+  path: 2[1481810 -> 5003808], [Khunsuk (2003) -> Action,History,War] 
+
+srcNodes: [8018522, 5000177, 1871383]
+  path: 0[1871383 -> 2270422 -> 1755436 -> 8018522], [War (2007) -> Phan, Johnson -> The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[1871383 -> 2200906 -> 1467044 -> 5000177], [War (2007) -> Li, Jet -> Jian guo da ye (2009) -> Drama,History] 
+
+  path: 2[1871383 -> 1871383], [War (2007) -> War (2007)]
+srcNodes: [8018522, 5000065, 5000194]
+  path: 0[1198220 -> 2249272 -> 1481810 -> 8018522], [Alexander (2004) -> Ngamdee, Jaran -> Khunsuk (2003) -> epic] 
+
+  path: 1[1198220 -> 2033659 -> 1478934 -> 5000065], [Alexander (2004) -> Blessed, Brian -> Katherine of Alexandria (2011) -> History] 
+
+  path: 2[1198220 -> 2175478 -> 1871457 -> 5000194], [Alexander (2004) -> Kebbell, Toby -> War Horse (2011) -> War] 
+
+srcNodes: [8010264, 5000065, 5000194]
+  path: 0[1324058 -> 8010264], [Didgori: Land of Sacrificed Knights (2009) -> battle,blacksmith,castle,christianity,cross,epic,georgia,holy-grail,mystic,spear-of-destiny,student-film,sword-fight,templar-knight] 
+
+  path: 1[1324058 -> 5000065], [Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[1324058 -> 4024162 -> 1396839 -> 5000194], [Didgori: Land of Sacrificed Knights (2009) -> Khomasuridze, Nikoloz -> Georgian: Warrior of Honor (2011) -> War] 
+
+srcNodes: [1360948, 5000065, 5000194]
+  path: 0[2232465 -> 1379558 -> 2422463 -> 1360948], [Millan, Nevin -> Flags of Our Fathers (2006) -> Mays, Jayma -> Epic Movie (2007)] 
+
+  path: 1[2232465 -> 1324058 -> 5000065], [Millan, Nevin -> Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[2232465 -> 1396839 -> 5000194], [Millan, Nevin -> Georgian: Warrior of Honor (2011) -> War] 
+
+srcNodes: [8018522, 5000177, 1871383]
+  path: 0[2270422 -> 1755436 -> 8018522], [Phan, Johnson -> The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[2270422 -> 1887823 -> 2161337 -> 1713528 -> 5000177], [Phan, Johnson -> X-Men Origins: Wolverine (2009) -> Jackman, Hugh -> Snow Flower and the Secret Fan (2011) -> Drama,History] 
+
+  path: 2[2270422 -> 1871383], [Phan, Johnson -> War (2007)] 
+
+srcNodes: [8018522, 5000065, 5000194]
+  path: 0[2249272 -> 1481810 -> 8018522], [Ngamdee, Jaran -> Khunsuk (2003) -> epic] 
+
+  path: 1[2249272 -> 1198220 -> 2033659 -> 1478934 -> 5000065], [Ngamdee, Jaran -> Alexander (2004) -> Blessed, Brian -> Katherine of Alexandria (2011) -> History] 
+
+  path: 2[2249272 -> 1198220 -> 2175478 -> 1871457 -> 5000194], [Ngamdee, Jaran -> Alexander (2004) -> Kebbell, Toby -> War Horse (2011) -> War] 
+
+srcNodes: [1360948, 5000065, 5000194]
+  path: 0[1396839 -> 2463664 -> 1272874 -> 2327631 -> 1360948], [Georgian: Warrior of Honor (2011) -> Romanoff, Lara -> Cellular (2004) -> Castro, Mary -> Epic Movie (2007)] 
+
+  path: 1[1396839 -> 4024162 -> 1324058 -> 5000065], [Georgian: Warrior of Honor (2011) -> Khomasuridze, Nikoloz -> Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[1396839 -> 5000194], [Georgian: Warrior of Honor (2011) -> War] 
+
+srcNodes: [8018522, 6042542, 1871383]
+  path: 0[1755436 -> 8018522], [The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[1755436 -> 2270422 -> 1887823 -> 6042542], [The Battle of Burgledorf (2010) -> Phan, Johnson -> X-Men Origins: Wolverine (2009) -> Two mutant brothers,] 
+
+  path: 2[1755436 -> 2270422 -> 1871383], [The Battle of Burgledorf (2010) -> Phan, Johnson -> War (2007)] 
+
+srcNodes: [8018522, 5001670, 1819342]
+  path: 0[4022393 -> 1481810 -> 8018522], [Jitnukul, Tanit -> Khunsuk (2003) -> epic] 
+
+  path: 1[4022393 -> 1230006 -> 5001670], [Jitnukul, Tanit -> Bangrajan (2000) -> War,Action,Drama,History] 
+
+  path: 2[4022393 -> 1481667 -> 2451965 -> 1819342], [Jitnukul, Tanit -> Khon len khong (2004) -> Platt, Tara -> The War on the War on Drugs (2002)] 
+
+srcNodes: [1360948, 5000065, 8001055]
+  path: 0[535478 -> 2122933 -> 1580355 -> 2091141 -> 1360948], ["Le dernier seigneur des Balkans" (2005) -> Giannatos, Mihalis -> Munich (2005) -> Dorr, Sabi -> Epic Movie (2007)] 
+
+  path: 1[535478 -> 5000065], ["Le dernier seigneur des Balkans" (2005) -> History] 
+
+  path: 2[535478 -> 8001055], ["Le dernier seigneur des Balkans" (2005) -> balkan-war,tv-mini-series,world-war-one,world-war-two] 
+
+srcNodes: [2100403, 5000177, 1871603]
+  path: 0[2100403 -> 2100403], [Epic, Paul -> Epic, Paul]
+  path: 1[2100403 -> 1769259 -> 2173859 -> 1389060 -> 5000177], [Epic, Paul -> The Eagle Path (2010) -> Karst, Adam -> Frost/Nixon (2008) -> Drama,History] 
+
+  path: 2[2100403 -> 1769259 -> 2051605 -> 1871603], [Epic, Paul -> The Eagle Path (2010) -> Cannon, Josef -> War of the Worlds (2005)] 
+
+-----------------------------------------
+ResultDestNodes: [1481810, 1871383, 1198220, 1324058, 2232465, 2270422, 2249272, 1396839, 1755436, 4022393, 535478, 2100403]
+ResultRelevs: [10.394692420959473, 8.878751754760742, 8.498119354248047, 8.493865966796875, 8.449406623840332, 8.356127738952637, 8.289361000061035, 8.275429725646973, 8.212804794311523, 7.898720741271973, 7.887504577636719, 7.748666763305664]
+AvgResultRelev: 8.448620955149332
+AvgResultDissimilarity: 0.7161616161616162
+Num of entries retrieved from the KNLists: 4664
+Num of entries retrieved from NKMaps: 7078
+Num of answer trees explored: 2522
+Num of states created: 28455
+Num of states explored: 28263
+Num of heuristic search performed: 7
+
+Div Top-k Search by Astar1nc_ap, k=12
+[epic, history, war]
+srcNodes: [8018522, 5003808, 5003808]
+  path: 0[1481810 -> 8018522], [Khunsuk (2003) -> epic] 
+
+  path: 1[1481810 -> 5003808], [Khunsuk (2003) -> Action,History,War] 
+
+  path: 2[1481810 -> 5003808], [Khunsuk (2003) -> Action,History,War] 
+
+srcNodes: [8018522, 5000177, 1871383]
+  path: 0[1871383 -> 2270422 -> 1755436 -> 8018522], [War (2007) -> Phan, Johnson -> The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[1871383 -> 2200906 -> 1467044 -> 5000177], [War (2007) -> Li, Jet -> Jian guo da ye (2009) -> Drama,History] 
+
+  path: 2[1871383 -> 1871383], [War (2007) -> War (2007)]
+srcNodes: [8018522, 5000065, 5000194]
+  path: 0[1198220 -> 2249272 -> 1481810 -> 8018522], [Alexander (2004) -> Ngamdee, Jaran -> Khunsuk (2003) -> epic] 
+
+  path: 1[1198220 -> 2033659 -> 1478934 -> 5000065], [Alexander (2004) -> Blessed, Brian -> Katherine of Alexandria (2011) -> History] 
+
+  path: 2[1198220 -> 2175478 -> 1871457 -> 5000194], [Alexander (2004) -> Kebbell, Toby -> War Horse (2011) -> War] 
+
+srcNodes: [8010264, 5000065, 5000194]
+  path: 0[1324058 -> 8010264], [Didgori: Land of Sacrificed Knights (2009) -> battle,blacksmith,castle,christianity,cross,epic,georgia,holy-grail,mystic,spear-of-destiny,student-film,sword-fight,templar-knight] 
+
+  path: 1[1324058 -> 5000065], [Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[1324058 -> 4024162 -> 1396839 -> 5000194], [Didgori: Land of Sacrificed Knights (2009) -> Khomasuridze, Nikoloz -> Georgian: Warrior of Honor (2011) -> War] 
+
+srcNodes: [1360948, 5000065, 5000194]
+  path: 0[2232465 -> 1379558 -> 2422463 -> 1360948], [Millan, Nevin -> Flags of Our Fathers (2006) -> Mays, Jayma -> Epic Movie (2007)] 
+
+  path: 1[2232465 -> 1324058 -> 5000065], [Millan, Nevin -> Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[2232465 -> 1396839 -> 5000194], [Millan, Nevin -> Georgian: Warrior of Honor (2011) -> War] 
+
+srcNodes: [8018522, 5000177, 1871383]
+  path: 0[2270422 -> 1755436 -> 8018522], [Phan, Johnson -> The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[2270422 -> 1887823 -> 2161337 -> 1713528 -> 5000177], [Phan, Johnson -> X-Men Origins: Wolverine (2009) -> Jackman, Hugh -> Snow Flower and the Secret Fan (2011) -> Drama,History] 
+
+  path: 2[2270422 -> 1871383], [Phan, Johnson -> War (2007)] 
+
+srcNodes: [8018522, 5000065, 5000194]
+  path: 0[2249272 -> 1481810 -> 8018522], [Ngamdee, Jaran -> Khunsuk (2003) -> epic] 
+
+  path: 1[2249272 -> 1198220 -> 2033659 -> 1478934 -> 5000065], [Ngamdee, Jaran -> Alexander (2004) -> Blessed, Brian -> Katherine of Alexandria (2011) -> History] 
+
+  path: 2[2249272 -> 1198220 -> 2175478 -> 1871457 -> 5000194], [Ngamdee, Jaran -> Alexander (2004) -> Kebbell, Toby -> War Horse (2011) -> War] 
+
+srcNodes: [1360948, 5000065, 5000194]
+  path: 0[1396839 -> 2463664 -> 1272874 -> 2327631 -> 1360948], [Georgian: Warrior of Honor (2011) -> Romanoff, Lara -> Cellular (2004) -> Castro, Mary -> Epic Movie (2007)] 
+
+  path: 1[1396839 -> 4024162 -> 1324058 -> 5000065], [Georgian: Warrior of Honor (2011) -> Khomasuridze, Nikoloz -> Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[1396839 -> 5000194], [Georgian: Warrior of Honor (2011) -> War] 
+
+srcNodes: [8018522, 6042542, 1871383]
+  path: 0[1755436 -> 8018522], [The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[1755436 -> 2270422 -> 1887823 -> 6042542], [The Battle of Burgledorf (2010) -> Phan, Johnson -> X-Men Origins: Wolverine (2009) -> Two mutant brothers,] 
+
+  path: 2[1755436 -> 2270422 -> 1871383], [The Battle of Burgledorf (2010) -> Phan, Johnson -> War (2007)] 
+
+srcNodes: [8018522, 5001670, 1819342]
+  path: 0[4022393 -> 1481810 -> 8018522], [Jitnukul, Tanit -> Khunsuk (2003) -> epic] 
+
+  path: 1[4022393 -> 1230006 -> 5001670], [Jitnukul, Tanit -> Bangrajan (2000) -> War,Action,Drama,History] 
+
+  path: 2[4022393 -> 1481667 -> 2451965 -> 1819342], [Jitnukul, Tanit -> Khon len khong (2004) -> Platt, Tara -> The War on the War on Drugs (2002)] 
+
+srcNodes: [1360948, 5000065, 8001055]
+  path: 0[535478 -> 2122933 -> 1580355 -> 2091141 -> 1360948], ["Le dernier seigneur des Balkans" (2005) -> Giannatos, Mihalis -> Munich (2005) -> Dorr, Sabi -> Epic Movie (2007)] 
+
+  path: 1[535478 -> 5000065], ["Le dernier seigneur des Balkans" (2005) -> History] 
+
+  path: 2[535478 -> 8001055], ["Le dernier seigneur des Balkans" (2005) -> balkan-war,tv-mini-series,world-war-one,world-war-two] 
+
+srcNodes: [2100403, 5000177, 1871603]
+  path: 0[2100403 -> 2100403], [Epic, Paul -> Epic, Paul]
+  path: 1[2100403 -> 1769259 -> 2173859 -> 1389060 -> 5000177], [Epic, Paul -> The Eagle Path (2010) -> Karst, Adam -> Frost/Nixon (2008) -> Drama,History] 
+
+  path: 2[2100403 -> 1769259 -> 2051605 -> 1871603], [Epic, Paul -> The Eagle Path (2010) -> Cannon, Josef -> War of the Worlds (2005)] 
+
+-----------------------------------------
+ResultDestNodes: [1481810, 1871383, 1198220, 1324058, 2232465, 2270422, 2249272, 1396839, 1755436, 4022393, 535478, 2100403]
+ResultRelevs: [10.394692420959473, 8.878751754760742, 8.498119354248047, 8.493865966796875, 8.449406623840332, 8.356127738952637, 8.289361000061035, 8.275429725646973, 8.212804794311523, 7.898720741271973, 7.887504577636719, 7.748666763305664]
+AvgResultRelev: 8.448620955149332
+AvgResultDissimilarity: 0.7161616161616162
+Num of entries retrieved from the KNLists: 4664
+Num of entries retrieved from NKMaps: 7078
+Num of answer trees explored: 2522
+Num of states created: 252
+Num of states explored: 71
+Num of heuristic search performed: 6
+
+query: [hitchcock, thriller, horror]
+Top-k Search by Blink-BDB, k=4
+[hitchcock, thriller, horror]
+srcNodes: [8007751, 5000052, 5000135]
+  path: 0[1286505 -> 8007751], [Cold Play (2008) -> hitchcock] 
+
+  path: 1[1286505 -> 5000052], [Cold Play (2008) -> Thriller] 
+
+  path: 2[1286505 -> 2318567 -> 1219862 -> 5000135], [Cold Play (2008) -> Branch, Vanessa -> Asylum (2007/I) -> Horror,Thriller] 
+
+srcNodes: [2380726, 5000052, 5000008]
+  path: 0[2380726 -> 2380726], [Hitchcock, Carrie -> Hitchcock, Carrie]
+  path: 1[2380726 -> 1367137 -> 5000052], [Hitchcock, Carrie -> Expecting Mercy (2000) -> Thriller] 
+
+  path: 2[2380726 -> 1599540 -> 2222638 -> 1797985 -> 5000008], [Hitchcock, Carrie -> NoNAMES (2010) -> McCaffrey, James (I) -> The Orphan Killer (2011) -> Horror] 
+
+srcNodes: [8007751, 5000052, 5000576]
+  path: 0[2139229 -> 1286505 -> 8007751], [Hammett, Butch -> Cold Play (2008) -> hitchcock] 
+
+  path: 1[2139229 -> 1286505 -> 5000052], [Hammett, Butch -> Cold Play (2008) -> Thriller] 
+
+  path: 2[2139229 -> 1858926 -> 5000576], [Hammett, Butch -> Vampire Clan (2002) -> Drama,Horror] 
+
+srcNodes: [8007751, 5000052, 5000135]
+  path: 0[2318567 -> 1286505 -> 8007751], [Branch, Vanessa -> Cold Play (2008) -> hitchcock] 
+
+  path: 1[2318567 -> 1286505 -> 5000052], [Branch, Vanessa -> Cold Play (2008) -> Thriller] 
+
+  path: 2[2318567 -> 1219862 -> 5000135], [Branch, Vanessa -> Asylum (2007/I) -> Horror,Thriller] 
+
+-----------------------------------------
+Num of top-k answers: 4
+ResultDestNodes: [1286505, 2380726, 2139229, 2318567]
+ResultRelevs: [13.577581405639648, 11.973140716552734, 11.100918769836426, 11.100918769836426]
+AvgResultRelev: 11.938139915466309
+AvgResultDissimilarity: 0.4444444444444444
+Num of entries retrieved from the lists: 3213
+Num of entries retrieved from NKMaps: 4591
+Num of answer trees explored: 1372
+
+Div Top-k Search by Exhustive, k=4
+[hitchcock, thriller, horror]
+srcNodes: [8007751, 5000052, 5000135]
+  path: 0[1286505 -> 8007751], [Cold Play (2008) -> hitchcock] 
+
+  path: 1[1286505 -> 5000052], [Cold Play (2008) -> Thriller] 
+
+  path: 2[1286505 -> 2318567 -> 1219862 -> 5000135], [Cold Play (2008) -> Branch, Vanessa -> Asylum (2007/I) -> Horror,Thriller] 
+
+srcNodes: [2380726, 5000052, 5000008]
+  path: 0[2380726 -> 2380726], [Hitchcock, Carrie -> Hitchcock, Carrie]
+  path: 1[2380726 -> 1367137 -> 5000052], [Hitchcock, Carrie -> Expecting Mercy (2000) -> Thriller] 
+
+  path: 2[2380726 -> 1599540 -> 2222638 -> 1797985 -> 5000008], [Hitchcock, Carrie -> NoNAMES (2010) -> McCaffrey, James (I) -> The Orphan Killer (2011) -> Horror] 
+
+srcNodes: [2380726, 5000052, 5001155]
+  path: 0[1367137 -> 2380726], [Expecting Mercy (2000) -> Hitchcock, Carrie] 
+
+  path: 1[1367137 -> 5000052], [Expecting Mercy (2000) -> Thriller] 
+
+  path: 2[1367137 -> 2271382 -> 1718567 -> 5001155], [Expecting Mercy (2000) -> Pickren, Richard -> Soul Survivors (2001) -> Mystery,Thriller,Drama,Horror] 
+
+srcNodes: [8007751, 5001405, 5000676]
+  path: 0[1276764 -> 8007751], [Cheese Makes You Dream (2003) -> hitchcock] 
+
+  path: 1[1276764 -> 2370605 -> 1569317 -> 5001405], [Cheese Makes You Dream (2003) -> Greig, Tamsin -> Miranda (2002) -> Comedy,Romance,Thriller] 
+
+  path: 2[1276764 -> 2370605 -> 1700034 -> 5000676], [Cheese Makes You Dream (2003) -> Greig, Tamsin -> Shaun of the Dead (2004) -> Comedy,Horror] 
+
+-----------------------------------------
+ResultDestNodes: [1286505, 2380726, 1367137, 1276764]
+ResultRelevs: [13.577581405639648, 11.973140716552734, 10.561652183532715, 10.174939155578613]
+AvgResultRelev: 11.571828365325928
+AvgResultDissimilarity: 0.7222222487131754
+Num of entries retrieved from the KNLists: 18568
+Num of entries retrieved from NKMaps: 28560
+Num of answer trees explored: 10243
+Num of answer tree sets created: 1041
+Num of answer tree sets removed: 1036
+
+Div Top-k Search by Astar02, k=4
+[hitchcock, thriller, horror]
+srcNodes: [8007751, 5000052, 5000135]
+  path: 0[1286505 -> 8007751], [Cold Play (2008) -> hitchcock] 
+
+  path: 1[1286505 -> 5000052], [Cold Play (2008) -> Thriller] 
+
+  path: 2[1286505 -> 2318567 -> 1219862 -> 5000135], [Cold Play (2008) -> Branch, Vanessa -> Asylum (2007/I) -> Horror,Thriller] 
+
+srcNodes: [2380726, 5000052, 5000008]
+  path: 0[2380726 -> 2380726], [Hitchcock, Carrie -> Hitchcock, Carrie]
+  path: 1[2380726 -> 1367137 -> 5000052], [Hitchcock, Carrie -> Expecting Mercy (2000) -> Thriller] 
+
+  path: 2[2380726 -> 1599540 -> 2222638 -> 1797985 -> 5000008], [Hitchcock, Carrie -> NoNAMES (2010) -> McCaffrey, James (I) -> The Orphan Killer (2011) -> Horror] 
+
+srcNodes: [2380726, 5000052, 5001155]
+  path: 0[1367137 -> 2380726], [Expecting Mercy (2000) -> Hitchcock, Carrie] 
+
+  path: 1[1367137 -> 5000052], [Expecting Mercy (2000) -> Thriller] 
+
+  path: 2[1367137 -> 2271382 -> 1718567 -> 5001155], [Expecting Mercy (2000) -> Pickren, Richard -> Soul Survivors (2001) -> Mystery,Thriller,Drama,Horror] 
+
+srcNodes: [8007751, 5001405, 5000676]
+  path: 0[1276764 -> 8007751], [Cheese Makes You Dream (2003) -> hitchcock] 
+
+  path: 1[1276764 -> 2370605 -> 1569317 -> 5001405], [Cheese Makes You Dream (2003) -> Greig, Tamsin -> Miranda (2002) -> Comedy,Romance,Thriller] 
+
+  path: 2[1276764 -> 2370605 -> 1700034 -> 5000676], [Cheese Makes You Dream (2003) -> Greig, Tamsin -> Shaun of the Dead (2004) -> Comedy,Horror] 
+
+-----------------------------------------
+ResultDestNodes: [1286505, 2380726, 1367137, 1276764]
+ResultRelevs: [13.577581405639648, 11.973140716552734, 10.561652183532715, 10.174939155578613]
+AvgResultRelev: 11.571828365325928
+AvgResultDissimilarity: 0.7222222222222222
+Num of entries retrieved from the KNLists: 18568
+Num of entries retrieved from NKMaps: 28560
+Num of answer trees explored: 10243
+Num of states created: 4586
+Num of states explored: 4540
+Num of heuristic search performed: 112
+
+Div Top-k Search by Astar1nc_ap, k=4
+[hitchcock, thriller, horror]
+srcNodes: [8007751, 5000052, 5000135]
+  path: 0[1286505 -> 8007751], [Cold Play (2008) -> hitchcock] 
+
+  path: 1[1286505 -> 5000052], [Cold Play (2008) -> Thriller] 
+
+  path: 2[1286505 -> 2318567 -> 1219862 -> 5000135], [Cold Play (2008) -> Branch, Vanessa -> Asylum (2007/I) -> Horror,Thriller] 
+
+srcNodes: [2380726, 5000052, 5000008]
+  path: 0[2380726 -> 2380726], [Hitchcock, Carrie -> Hitchcock, Carrie]
+  path: 1[2380726 -> 1367137 -> 5000052], [Hitchcock, Carrie -> Expecting Mercy (2000) -> Thriller] 
+
+  path: 2[2380726 -> 1599540 -> 2222638 -> 1797985 -> 5000008], [Hitchcock, Carrie -> NoNAMES (2010) -> McCaffrey, James (I) -> The Orphan Killer (2011) -> Horror] 
+
+srcNodes: [2380726, 5000052, 5001155]
+  path: 0[1367137 -> 2380726], [Expecting Mercy (2000) -> Hitchcock, Carrie] 
+
+  path: 1[1367137 -> 5000052], [Expecting Mercy (2000) -> Thriller] 
+
+  path: 2[1367137 -> 2271382 -> 1718567 -> 5001155], [Expecting Mercy (2000) -> Pickren, Richard -> Soul Survivors (2001) -> Mystery,Thriller,Drama,Horror] 
+
+srcNodes: [8007751, 5001405, 5000676]
+  path: 0[1276764 -> 8007751], [Cheese Makes You Dream (2003) -> hitchcock] 
+
+  path: 1[1276764 -> 2370605 -> 1569317 -> 5001405], [Cheese Makes You Dream (2003) -> Greig, Tamsin -> Miranda (2002) -> Comedy,Romance,Thriller] 
+
+  path: 2[1276764 -> 2370605 -> 1700034 -> 5000676], [Cheese Makes You Dream (2003) -> Greig, Tamsin -> Shaun of the Dead (2004) -> Comedy,Horror] 
+
+-----------------------------------------
+ResultDestNodes: [1286505, 2380726, 1367137, 1276764]
+ResultRelevs: [13.577581405639648, 11.973140716552734, 10.561652183532715, 10.174939155578613]
+AvgResultRelev: 11.571828365325928
+AvgResultDissimilarity: 0.7222222222222222
+Num of entries retrieved from the KNLists: 18568
+Num of entries retrieved from NKMaps: 28560
+Num of answer trees explored: 10243
+Num of states created: 12362
+Num of states explored: 448
+Num of heuristic search performed: 112
+
+Top-k Search by Blink-BDB, k=8
+[hitchcock, thriller, horror]
+srcNodes: [8007751, 5000052, 5000135]
+  path: 0[1286505 -> 8007751], [Cold Play (2008) -> hitchcock] 
+
+  path: 1[1286505 -> 5000052], [Cold Play (2008) -> Thriller] 
+
+  path: 2[1286505 -> 2318567 -> 1219862 -> 5000135], [Cold Play (2008) -> Branch, Vanessa -> Asylum (2007/I) -> Horror,Thriller] 
+
+srcNodes: [2380726, 5000052, 5000008]
+  path: 0[2380726 -> 2380726], [Hitchcock, Carrie -> Hitchcock, Carrie]
+  path: 1[2380726 -> 1367137 -> 5000052], [Hitchcock, Carrie -> Expecting Mercy (2000) -> Thriller] 
+
+  path: 2[2380726 -> 1599540 -> 2222638 -> 1797985 -> 5000008], [Hitchcock, Carrie -> NoNAMES (2010) -> McCaffrey, James (I) -> The Orphan Killer (2011) -> Horror] 
+
+srcNodes: [8007751, 5000052, 5000576]
+  path: 0[2139229 -> 1286505 -> 8007751], [Hammett, Butch -> Cold Play (2008) -> hitchcock] 
+
+  path: 1[2139229 -> 1286505 -> 5000052], [Hammett, Butch -> Cold Play (2008) -> Thriller] 
+
+  path: 2[2139229 -> 1858926 -> 5000576], [Hammett, Butch -> Vampire Clan (2002) -> Drama,Horror] 
+
+srcNodes: [8007751, 5000052, 5000135]
+  path: 0[2318567 -> 1286505 -> 8007751], [Branch, Vanessa -> Cold Play (2008) -> hitchcock] 
+
+  path: 1[2318567 -> 1286505 -> 5000052], [Branch, Vanessa -> Cold Play (2008) -> Thriller] 
+
+  path: 2[2318567 -> 1219862 -> 5000135], [Branch, Vanessa -> Asylum (2007/I) -> Horror,Thriller] 
+
+srcNodes: [8007751, 5000052, 5000008]
+  path: 0[2197003 -> 1286505 -> 8007751], [Lee, Nelson (II) -> Cold Play (2008) -> hitchcock] 
+
+  path: 1[2197003 -> 1286505 -> 5000052], [Lee, Nelson (II) -> Cold Play (2008) -> Thriller] 
+
+  path: 2[2197003 -> 1073199 -> 2051047 -> 1459904 -> 5000008], [Lee, Nelson (II) -> "Traffic" (2004) -> Campbell, Sean (I) -> It Waits (2005) -> Horror] 
+
+srcNodes: [8007751, 5000052, 5000008]
+  path: 0[2239516 -> 1286505 -> 8007751], [Morin, D. David -> Cold Play (2008) -> hitchcock] 
+
+  path: 1[2239516 -> 1286505 -> 5000052], [Morin, D. David -> Cold Play (2008) -> Thriller] 
+
+  path: 2[2239516 -> 1828863 -> 2289409 -> 1564347 -> 5000008], [Morin, D. David -> Time Changer (2002) -> Riehle, Richard -> Messengers 2: The Scarecrow (2009) -> Horror] 
+
+srcNodes: [8007751, 5000052, 5000008]
+  path: 0[2032668 -> 1286505 -> 8007751], [Black, Tony (VI) -> Cold Play (2008) -> hitchcock] 
+
+  path: 1[2032668 -> 1286505 -> 5000052], [Black, Tony (VI) -> Cold Play (2008) -> Thriller] 
+
+  path: 2[2032668 -> 1794866 -> 2370907 -> 1767472 -> 5000008], [Black, Tony (VI) -> The Mudman (2010) -> Griffiths, Louise -> The Devil's Chair (2007/II) -> Horror] 
+
+srcNodes: [8007751, 5000052, 5000008]
+  path: 0[2161537 -> 1286505 -> 8007751], [Jackson, J.D. (I) -> Cold Play (2008) -> hitchcock] 
+
+  path: 1[2161537 -> 1286505 -> 5000052], [Jackson, J.D. (I) -> Cold Play (2008) -> Thriller] 
+
+  path: 2[2161537 -> 1542703 -> 2180752 -> 1786146 -> 5000008], [Jackson, J.D. (I) -> Lucky Number Slevin (2006) -> Kingsley, Ben -> The Last Voyage of Demeter (2011) -> Horror] 
+
+-----------------------------------------
+Num of top-k answers: 8
+ResultDestNodes: [1286505, 2380726, 2139229, 2318567, 2197003, 2239516, 2032668, 2161537]
+ResultRelevs: [13.577581405639648, 11.973140716552734, 11.100918769836426, 11.100918769836426, 10.928092956542969, 10.928092956542969, 10.928092956542969, 10.928092956542969]
+AvgResultRelev: 11.433116436004639
+AvgResultDissimilarity: 0.2857142857142856
+Num of entries retrieved from the lists: 3213
+Num of entries retrieved from NKMaps: 4591
+Num of answer trees explored: 1372
+
+Div Top-k Search by Exhustive, k=8
+[hitchcock, thriller, horror]
+srcNodes: [8007751, 5000052, 5000135]
+  path: 0[1286505 -> 8007751], [Cold Play (2008) -> hitchcock] 
+
+  path: 1[1286505 -> 5000052], [Cold Play (2008) -> Thriller] 
+
+  path: 2[1286505 -> 2318567 -> 1219862 -> 5000135], [Cold Play (2008) -> Branch, Vanessa -> Asylum (2007/I) -> Horror,Thriller] 
+
+srcNodes: [2380726, 5000052, 5000008]
+  path: 0[2380726 -> 2380726], [Hitchcock, Carrie -> Hitchcock, Carrie]
+  path: 1[2380726 -> 1367137 -> 5000052], [Hitchcock, Carrie -> Expecting Mercy (2000) -> Thriller] 
+
+  path: 2[2380726 -> 1599540 -> 2222638 -> 1797985 -> 5000008], [Hitchcock, Carrie -> NoNAMES (2010) -> McCaffrey, James (I) -> The Orphan Killer (2011) -> Horror] 
+
+srcNodes: [8007751, 5000052, 5000576]
+  path: 0[2139229 -> 1286505 -> 8007751], [Hammett, Butch -> Cold Play (2008) -> hitchcock] 
+
+  path: 1[2139229 -> 1286505 -> 5000052], [Hammett, Butch -> Cold Play (2008) -> Thriller] 
+
+  path: 2[2139229 -> 1858926 -> 5000576], [Hammett, Butch -> Vampire Clan (2002) -> Drama,Horror] 
+
+srcNodes: [2380726, 5000052, 5001155]
+  path: 0[1367137 -> 2380726], [Expecting Mercy (2000) -> Hitchcock, Carrie] 
+
+  path: 1[1367137 -> 5000052], [Expecting Mercy (2000) -> Thriller] 
+
+  path: 2[1367137 -> 2271382 -> 1718567 -> 5001155], [Expecting Mercy (2000) -> Pickren, Richard -> Soul Survivors (2001) -> Mystery,Thriller,Drama,Horror] 
+
+srcNodes: [2380734, 5000052, 5000008]
+  path: 0[2380734 -> 2380734], [Hitchcock, Sonya -> Hitchcock, Sonya]
+  path: 1[2380734 -> 1762557 -> 2211061 -> 1812530 -> 5000052], [Hitchcock, Sonya -> The Chronicles of Narnia: The Lion, the Witch and the Wardrobe (2005) -> Madsen, Michael (I) -> The Stray (2000) -> Thriller] 
+
+  path: 2[2380734 -> 1762557 -> 2070929 -> 1282978 -> 5000008], [Hitchcock, Sonya -> The Chronicles of Narnia: The Lion, the Witch and the Wardrobe (2005) -> Cosmo, James -> Citadel (2011) -> Horror] 
+
+srcNodes: [8007751, 5001405, 5000676]
+  path: 0[1276764 -> 8007751], [Cheese Makes You Dream (2003) -> hitchcock] 
+
+  path: 1[1276764 -> 2370605 -> 1569317 -> 5001405], [Cheese Makes You Dream (2003) -> Greig, Tamsin -> Miranda (2002) -> Comedy,Romance,Thriller] 
+
+  path: 2[1276764 -> 2370605 -> 1700034 -> 5000676], [Cheese Makes You Dream (2003) -> Greig, Tamsin -> Shaun of the Dead (2004) -> Comedy,Horror] 
+
+srcNodes: [8007751, 5000135, 5000135]
+  path: 0[1219862 -> 2318567 -> 1286505 -> 8007751], [Asylum (2007/I) -> Branch, Vanessa -> Cold Play (2008) -> hitchcock] 
+
+  path: 1[1219862 -> 5000135], [Asylum (2007/I) -> Horror,Thriller] 
+
+  path: 2[1219862 -> 5000135], [Asylum (2007/I) -> Horror,Thriller] 
+
+srcNodes: [2380728, 5000052, 5000151]
+  path: 0[2380728 -> 2380728], [Hitchcock, Ellen -> Hitchcock, Ellen]
+  path: 1[2380728 -> 1469161 -> 2096276 -> 1662942 -> 5000052], [Hitchcock, Ellen -> Johnny (1999) -> Eaton, Robert (III) -> Reasonable Doubt (2001) -> Thriller] 
+
+  path: 2[2380728 -> 1469161 -> 4003984 -> 1696354 -> 5000151], [Hitchcock, Ellen -> Johnny (1999) -> Bessai, Carl -> Severed (2005) -> Thriller,Horror] 
+
+-----------------------------------------
+ResultDestNodes: [1286505, 2380726, 2139229, 1367137, 2380734, 1276764, 1219862, 2380728]
+ResultRelevs: [13.577581405639648, 11.973140716552734, 11.100918769836426, 10.561652183532715, 10.463395118713379, 10.174939155578613, 9.975069046020508, 9.706304550170898]
+AvgResultRelev: 10.941625118255615
+AvgResultDissimilarity: 0.7047619138445173
+Num of entries retrieved from the KNLists: 50699
+Num of entries retrieved from NKMaps: 76060
+Num of answer trees explored: 27288
+Num of answer tree sets created: 39902296
+Num of answer tree sets removed: 39902228
+

@@ -1,0 +1,163 @@
+Div Top-k Search by Exhustive4
+[islands, sea, europe]
+srcNodes: [20034, 100020, 10004]
+  path: 0[10004 -> 20034], [Europe -> Faroe Islands] 
+
+  path: 1[10004 -> 20050 -> 100020], [Europe -> Svalbard -> Norwegian Sea] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [20034, 100020, 10004]
+  path: 0[20034 -> 20034], [Faroe Islands -> Faroe Islands]
+  path: 1[20034 -> 100020], [Faroe Islands -> Norwegian Sea] 
+
+  path: 2[20034 -> 10004], [Faroe Islands -> Europe] 
+
+srcNodes: [110028, 100032, 10004]
+  path: 0[20040 -> 110028], [Guernsey -> Guernsey Guernsey Channel Islands ] 
+
+  path: 1[20040 -> 100032], [Guernsey -> The Channel] 
+
+  path: 2[20040 -> 10004], [Guernsey -> Europe] 
+
+srcNodes: [110029, 100032, 10004]
+  path: 0[20045 -> 110029], [Jersey -> Jersey Jersey Channel Islands ] 
+
+  path: 1[20045 -> 100032], [Jersey -> The Channel] 
+
+  path: 2[20045 -> 10004], [Jersey -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: [10004, 20034, 20040, 20045]
+ResultRelevs: [10.889289855957031, 8.778459548950195, 7.264880180358887, 7.264880180358887]
+AvgResultRelev: 8.54937744140625
+AvgResultDissimilarity: 0.6166666746139526
+Num of entries retrieved from the KNLists: 244
+Num of entries retrieved from NKMaps: 403
+Num of answer trees explored: 115
+Num of answer tree sets created: 28
+Num of answer tree sets removed: 23
+Max Num of answer tree sets in Q[]: 28
+
+Div Top-k Search by Astar14
+[islands, sea, europe]
+srcNodes: [20034, 100020, 10004]
+  path: 0[10004 -> 20034], [Europe -> Faroe Islands] 
+
+  path: 1[10004 -> 20050 -> 100020], [Europe -> Svalbard -> Norwegian Sea] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [20034, 100020, 10004]
+  path: 0[20034 -> 20034], [Faroe Islands -> Faroe Islands]
+  path: 1[20034 -> 100020], [Faroe Islands -> Norwegian Sea] 
+
+  path: 2[20034 -> 10004], [Faroe Islands -> Europe] 
+
+srcNodes: [110028, 100032, 10004]
+  path: 0[20040 -> 110028], [Guernsey -> Guernsey Guernsey Channel Islands ] 
+
+  path: 1[20040 -> 100032], [Guernsey -> The Channel] 
+
+  path: 2[20040 -> 10004], [Guernsey -> Europe] 
+
+srcNodes: [110029, 100032, 10004]
+  path: 0[20045 -> 110029], [Jersey -> Jersey Jersey Channel Islands ] 
+
+  path: 1[20045 -> 100032], [Jersey -> The Channel] 
+
+  path: 2[20045 -> 10004], [Jersey -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: [10004, 20034, 20040, 20045]
+ResultRelevs: [10.889289855957031, 8.778459548950195, 7.264880180358887, 7.264880180358887]
+AvgResultRelev: 8.54937744140625
+AvgResultDissimilarity: 0.6166666746139526
+Num of entries retrieved from the KNLists: 244
+Num of entries retrieved from NKMaps: 403
+Num of answer trees explored: 115
+Num of states created: 87
+Num of states explored: 29
+Num of heuristic search performed: 5
+Max Num of answer tree sets in Q[]: 18
+
+Div Top-k Search by Astar24
+[islands, sea, europe]
+srcNodes: [20034, 100020, 10004]
+  path: 0[10004 -> 20034], [Europe -> Faroe Islands] 
+
+  path: 1[10004 -> 20050 -> 100020], [Europe -> Svalbard -> Norwegian Sea] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [20034, 100020, 10004]
+  path: 0[20034 -> 20034], [Faroe Islands -> Faroe Islands]
+  path: 1[20034 -> 100020], [Faroe Islands -> Norwegian Sea] 
+
+  path: 2[20034 -> 10004], [Faroe Islands -> Europe] 
+
+srcNodes: [110028, 100032, 10004]
+  path: 0[20040 -> 110028], [Guernsey -> Guernsey Guernsey Channel Islands ] 
+
+  path: 1[20040 -> 100032], [Guernsey -> The Channel] 
+
+  path: 2[20040 -> 10004], [Guernsey -> Europe] 
+
+srcNodes: [110029, 100032, 10004]
+  path: 0[20045 -> 110029], [Jersey -> Jersey Jersey Channel Islands ] 
+
+  path: 1[20045 -> 100032], [Jersey -> The Channel] 
+
+  path: 2[20045 -> 10004], [Jersey -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: [10004, 20034, 20040, 20045]
+ResultRelevs: [10.889289855957031, 8.778459548950195, 7.264880180358887, 7.264880180358887]
+AvgResultRelev: 8.54937744140625
+AvgResultDissimilarity: 0.6166666746139526
+Num of entries retrieved from the KNLists: 244
+Num of entries retrieved from NKMaps: 403
+Num of answer trees explored: 115
+Num of states created: 54
+Num of states explored: 29
+Num of heuristic search performed: 5
+Max Num of answer tree sets in Q[]: 12
+
+Div Top-k Search by Astar2re4
+[islands, sea, europe]
+srcNodes: [20034, 100020, 10004]
+  path: 0[10004 -> 20034], [Europe -> Faroe Islands] 
+
+  path: 1[10004 -> 20050 -> 100020], [Europe -> Svalbard -> Norwegian Sea] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [20034, 100020, 10004]
+  path: 0[20034 -> 20034], [Faroe Islands -> Faroe Islands]
+  path: 1[20034 -> 100020], [Faroe Islands -> Norwegian Sea] 
+
+  path: 2[20034 -> 10004], [Faroe Islands -> Europe] 
+
+srcNodes: [110028, 100032, 10004]
+  path: 0[20040 -> 110028], [Guernsey -> Guernsey Guernsey Channel Islands ] 
+
+  path: 1[20040 -> 100032], [Guernsey -> The Channel] 
+
+  path: 2[20040 -> 10004], [Guernsey -> Europe] 
+
+srcNodes: [110029, 100032, 10004]
+  path: 0[20045 -> 110029], [Jersey -> Jersey Jersey Channel Islands ] 
+
+  path: 1[20045 -> 100032], [Jersey -> The Channel] 
+
+  path: 2[20045 -> 10004], [Jersey -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: [10004, 20034, 20040, 20045]
+ResultRelevs: [10.889289855957031, 8.778459548950195, 7.264880180358887, 7.264880180358887]
+AvgResultRelev: 8.54937744140625
+AvgResultDissimilarity: 0.6166666746139526
+Num of entries retrieved from the KNLists: 244
+Num of entries retrieved from NKMaps: 403
+Num of answer trees explored: 115
+Num of states created: 18
+Num of states explored: 10
+Num of heuristic search performed: 5
+Max Num of answer tree sets in Q[]: 13
+

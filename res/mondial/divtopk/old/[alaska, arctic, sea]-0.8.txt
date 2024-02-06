@@ -1,0 +1,14 @@
+Div Top-k Search by DivTopKExhustive3
+[alaska, arctic, sea]
+div top-k answers for q do not exist in G!
+
+Div Top-k Search by DivTopKAstar13
+[alaska, arctic, sea]
+Div top-k answers for q do not exist in G!
+Num of entries retrieved from the KNLists: 702
+Num of entries retrieved from NKMaps: 804
+Num of answer trees explored: 230
+Num of states created: 223456
+Num of states explored: 34681
+Num of heuristic search performed: 229
+

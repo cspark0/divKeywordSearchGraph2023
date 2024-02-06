@@ -1,0 +1,1687 @@
+Blink Search Using BDB 10
+[mountain, utah, colorado]
+srcNodes: [185, 31030, 90150]
+  path: 0[31030 -> 185], [Utah -> Kings Peak Kings Peak Rocky Mountains ] 
+
+  path: 1[31030 -> 31030], [Utah -> Utah]
+  path: 2[31030 -> 90150], [Utah -> Colorado] 
+
+srcNodes: [186, 31030, 90150]
+  path: 0[90150 -> 30992 -> 186], [Colorado -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 1[90150 -> 31030], [Colorado -> Utah] 
+
+  path: 2[90150 -> 90150], [Colorado -> Colorado]
+srcNodes: [187, 31030, 30992]
+  path: 0[30992 -> 187], [Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[30992 -> 90150 -> 31030], [Colorado -> Colorado -> Utah] 
+
+  path: 2[30992 -> 30992], [Colorado -> Colorado]
+srcNodes: [185, 31030, 130005]
+  path: 0[185 -> 185], [Kings Peak Kings Peak Rocky Mountains  -> Kings Peak Kings Peak Rocky Mountains ]
+  path: 1[185 -> 31030], [Kings Peak Kings Peak Rocky Mountains  -> Utah] 
+
+  path: 2[185 -> 31030 -> 130005], [Kings Peak Kings Peak Rocky Mountains  -> Utah -> Colorado Plateau] 
+
+srcNodes: [210, 31030, 30992]
+  path: 0[20118 -> 10001 -> 20132 -> 210], [United States -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 1[20118 -> 31030], [United States -> Utah] 
+
+  path: 2[20118 -> 30992], [United States -> Colorado] 
+
+srcNodes: [186, 31030, 30992]
+  path: 0[186 -> 186], [Mt Elbert Mt Elbert Rocky Mountains  -> Mt Elbert Mt Elbert Rocky Mountains ]
+  path: 1[186 -> 30992 -> 90150 -> 31030], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado -> Colorado -> Utah] 
+
+  path: 2[186 -> 30992], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado] 
+
+srcNodes: [187, 31030, 30992]
+  path: 0[187 -> 187], [Pikes Peak Pikes Peak Rocky Mountains  -> Pikes Peak Pikes Peak Rocky Mountains ]
+  path: 1[187 -> 30992 -> 90150 -> 31030], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Colorado -> Utah] 
+
+  path: 2[187 -> 30992], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado] 
+
+srcNodes: [195, 31030, 90150]
+  path: 0[31014 -> 195], [Nevada -> Boundary Peak Boundary Peak Sierra Nevada California ] 
+
+  path: 1[31014 -> 90150 -> 31030], [Nevada -> Colorado -> Utah] 
+
+  path: 2[31014 -> 90150], [Nevada -> Colorado] 
+
+srcNodes: [194, 31030, 90150]
+  path: 0[30991 -> 194], [California -> Mt Whitney Mt Whitney Sierra Nevada California ] 
+
+  path: 1[30991 -> 90150 -> 31030], [California -> Colorado -> Utah] 
+
+  path: 2[30991 -> 90150], [California -> Colorado] 
+
+srcNodes: [189, 31030, 90150]
+  path: 0[30989 -> 189], [Arizona -> Humphreys Peak Humphreys Peak Rocky Mountains volcanic] 
+
+  path: 1[30989 -> 90150 -> 31030], [Arizona -> Colorado -> Utah] 
+
+  path: 2[30989 -> 90150], [Arizona -> Colorado] 
+
+-----------------------------------------
+ResultDestNodes: [31030, 90150, 30992, 185, 20118, 186, 187, 31014, 30991, 30989]
+ResultRelevs: [9.191049575805664, 8.590326309204102, 7.956459999084473, 6.436650276184082, 6.165339469909668, 5.867079734802246, 5.867079734802246, 5.263323783874512, 5.263323783874512, 5.263323783874512]
+Num of top-k answers: 10
+Num of redundant answers: 0
+Num of duplicate answers: 1
+Num of entries retrieved from the lists: 144
+Num of entries retrieved from NKMaps: 205
+
+Blink Search Using BDB 10
+[mountain, utah, colorado]
+srcNodes: [185, 31030, 90150]
+  path: 0[31030 -> 185], [Utah -> Kings Peak Kings Peak Rocky Mountains ] 
+
+  path: 1[31030 -> 31030], [Utah -> Utah]
+  path: 2[31030 -> 90150], [Utah -> Colorado] 
+
+srcNodes: [186, 31030, 90150]
+  path: 0[90150 -> 30992 -> 186], [Colorado -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 1[90150 -> 31030], [Colorado -> Utah] 
+
+  path: 2[90150 -> 90150], [Colorado -> Colorado]
+srcNodes: [187, 31030, 30992]
+  path: 0[30992 -> 187], [Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[30992 -> 90150 -> 31030], [Colorado -> Colorado -> Utah] 
+
+  path: 2[30992 -> 30992], [Colorado -> Colorado]
+srcNodes: [185, 31030, 130005]
+  path: 0[185 -> 185], [Kings Peak Kings Peak Rocky Mountains  -> Kings Peak Kings Peak Rocky Mountains ]
+  path: 1[185 -> 31030], [Kings Peak Kings Peak Rocky Mountains  -> Utah] 
+
+  path: 2[185 -> 31030 -> 130005], [Kings Peak Kings Peak Rocky Mountains  -> Utah -> Colorado Plateau] 
+
+srcNodes: [210, 31030, 30992]
+  path: 0[20118 -> 10001 -> 20132 -> 210], [United States -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 1[20118 -> 31030], [United States -> Utah] 
+
+  path: 2[20118 -> 30992], [United States -> Colorado] 
+
+srcNodes: [186, 31030, 30992]
+  path: 0[186 -> 186], [Mt Elbert Mt Elbert Rocky Mountains  -> Mt Elbert Mt Elbert Rocky Mountains ]
+  path: 1[186 -> 30992 -> 90150 -> 31030], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado -> Colorado -> Utah] 
+
+  path: 2[186 -> 30992], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado] 
+
+srcNodes: [187, 31030, 30992]
+  path: 0[187 -> 187], [Pikes Peak Pikes Peak Rocky Mountains  -> Pikes Peak Pikes Peak Rocky Mountains ]
+  path: 1[187 -> 30992 -> 90150 -> 31030], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Colorado -> Utah] 
+
+  path: 2[187 -> 30992], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado] 
+
+srcNodes: [194, 31030, 90150]
+  path: 0[30991 -> 194], [California -> Mt Whitney Mt Whitney Sierra Nevada California ] 
+
+  path: 1[30991 -> 90150 -> 31030], [California -> Colorado -> Utah] 
+
+  path: 2[30991 -> 90150], [California -> Colorado] 
+
+srcNodes: [195, 31030, 90150]
+  path: 0[31014 -> 195], [Nevada -> Boundary Peak Boundary Peak Sierra Nevada California ] 
+
+  path: 1[31014 -> 90150 -> 31030], [Nevada -> Colorado -> Utah] 
+
+  path: 2[31014 -> 90150], [Nevada -> Colorado] 
+
+srcNodes: [189, 31030, 90150]
+  path: 0[30989 -> 189], [Arizona -> Humphreys Peak Humphreys Peak Rocky Mountains volcanic] 
+
+  path: 1[30989 -> 90150 -> 31030], [Arizona -> Colorado -> Utah] 
+
+  path: 2[30989 -> 90150], [Arizona -> Colorado] 
+
+-----------------------------------------
+ResultDestNodes: [31030, 90150, 30992, 185, 20118, 186, 187, 30991, 31014, 30989]
+ResultRelevs: [9.191049575805664, 8.590326309204102, 7.956459999084473, 6.436650276184082, 6.165339469909668, 5.867079734802246, 5.867079734802246, 5.263323783874512, 5.263323783874512, 5.263323783874512]
+Num of top-k answers: 10
+Num of redundant answers: 0
+Num of duplicate answers: 1
+Num of entries retrieved from the lists: 144
+Num of entries retrieved from NKMaps: 205
+
+Blink Search Using BDB_reduced 10
+[mountain, utah, colorado]
+srcNodes: [185, 31030, 90150]
+  path: 0[31030 -> 185], [Utah -> Kings Peak Kings Peak Rocky Mountains ] 
+
+  path: 1[31030 -> 31030], [Utah -> Utah]
+  path: 2[31030 -> 90150], [Utah -> Colorado] 
+
+srcNodes: [186, 31030, 90150]
+  path: 0[90150 -> 30992 -> 186], [Colorado -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 1[90150 -> 31030], [Colorado -> Utah] 
+
+  path: 2[90150 -> 90150], [Colorado -> Colorado]
+srcNodes: [187, 31030, 30992]
+  path: 0[30992 -> 187], [Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[30992 -> 90150 -> 31030], [Colorado -> Colorado -> Utah] 
+
+  path: 2[30992 -> 30992], [Colorado -> Colorado]
+srcNodes: [185, 31030, 130005]
+  path: 0[185 -> 185], [Kings Peak Kings Peak Rocky Mountains  -> Kings Peak Kings Peak Rocky Mountains ]
+  path: 1[185 -> 31030], [Kings Peak Kings Peak Rocky Mountains  -> Utah] 
+
+  path: 2[185 -> 31030 -> 130005], [Kings Peak Kings Peak Rocky Mountains  -> Utah -> Colorado Plateau] 
+
+srcNodes: [210, 31030, 30992]
+  path: 0[20118 -> 10001 -> 20132 -> 210], [United States -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 1[20118 -> 31030], [United States -> Utah] 
+
+  path: 2[20118 -> 30992], [United States -> Colorado] 
+
+srcNodes: [186, 31030, 30992]
+  path: 0[186 -> 186], [Mt Elbert Mt Elbert Rocky Mountains  -> Mt Elbert Mt Elbert Rocky Mountains ]
+  path: 1[186 -> 30992 -> 90150 -> 31030], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado -> Colorado -> Utah] 
+
+  path: 2[186 -> 30992], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado] 
+
+srcNodes: [187, 31030, 30992]
+  path: 0[187 -> 187], [Pikes Peak Pikes Peak Rocky Mountains  -> Pikes Peak Pikes Peak Rocky Mountains ]
+  path: 1[187 -> 30992 -> 90150 -> 31030], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Colorado -> Utah] 
+
+  path: 2[187 -> 30992], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado] 
+
+srcNodes: [194, 31030, 90150]
+  path: 0[30991 -> 194], [California -> Mt Whitney Mt Whitney Sierra Nevada California ] 
+
+  path: 1[30991 -> 90150 -> 31030], [California -> Colorado -> Utah] 
+
+  path: 2[30991 -> 90150], [California -> Colorado] 
+
+srcNodes: [195, 31030, 90150]
+  path: 0[31014 -> 195], [Nevada -> Boundary Peak Boundary Peak Sierra Nevada California ] 
+
+  path: 1[31014 -> 90150 -> 31030], [Nevada -> Colorado -> Utah] 
+
+  path: 2[31014 -> 90150], [Nevada -> Colorado] 
+
+srcNodes: [189, 31030, 90150]
+  path: 0[30989 -> 189], [Arizona -> Humphreys Peak Humphreys Peak Rocky Mountains volcanic] 
+
+  path: 1[30989 -> 90150 -> 31030], [Arizona -> Colorado -> Utah] 
+
+  path: 2[30989 -> 90150], [Arizona -> Colorado] 
+
+-----------------------------------------
+ResultDestNodes: [31030, 90150, 30992, 185, 20118, 186, 187, 30991, 31014, 30989]
+ResultRelevs: [9.191049575805664, 8.590326309204102, 7.956459999084473, 6.436650276184082, 6.165339469909668, 5.867079734802246, 5.867079734802246, 5.263323783874512, 5.263323783874512, 5.263323783874512]
+Num of top-k answers: 10
+Num of redundant answers: 0
+Num of duplicate answers: 1
+Num of entries retrieved from the lists: 144
+Num of entries retrieved from NKMaps: 349
+Num of redundant candidate answers found: 48
+Num of reduced alternative answers found: 8
+
+Blink Search Using BDB_reducedNunique 10
+[mountain, utah, colorado]
+srcNodes: [185, 31030, 90150]
+  path: 0[31030 -> 185], [Utah -> Kings Peak Kings Peak Rocky Mountains ] 
+
+  path: 1[31030 -> 31030], [Utah -> Utah]
+  path: 2[31030 -> 90150], [Utah -> Colorado] 
+
+srcNodes: [186, 31030, 90150]
+  path: 0[90150 -> 30992 -> 186], [Colorado -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 1[90150 -> 31030], [Colorado -> Utah] 
+
+  path: 2[90150 -> 90150], [Colorado -> Colorado]
+srcNodes: [187, 31030, 30992]
+  path: 0[30992 -> 187], [Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[30992 -> 90150 -> 31030], [Colorado -> Colorado -> Utah] 
+
+  path: 2[30992 -> 30992], [Colorado -> Colorado]
+srcNodes: [185, 31030, 130005]
+  path: 0[185 -> 185], [Kings Peak Kings Peak Rocky Mountains  -> Kings Peak Kings Peak Rocky Mountains ]
+  path: 1[185 -> 31030], [Kings Peak Kings Peak Rocky Mountains  -> Utah] 
+
+  path: 2[185 -> 31030 -> 130005], [Kings Peak Kings Peak Rocky Mountains  -> Utah -> Colorado Plateau] 
+
+srcNodes: [210, 31030, 30992]
+  path: 0[20118 -> 10001 -> 20132 -> 210], [United States -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 1[20118 -> 31030], [United States -> Utah] 
+
+  path: 2[20118 -> 30992], [United States -> Colorado] 
+
+srcNodes: [186, 31030, 30992]
+  path: 0[186 -> 186], [Mt Elbert Mt Elbert Rocky Mountains  -> Mt Elbert Mt Elbert Rocky Mountains ]
+  path: 1[186 -> 30992 -> 90150 -> 31030], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado -> Colorado -> Utah] 
+
+  path: 2[186 -> 30992], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado] 
+
+srcNodes: [195, 31030, 90150]
+  path: 0[31014 -> 195], [Nevada -> Boundary Peak Boundary Peak Sierra Nevada California ] 
+
+  path: 1[31014 -> 90150 -> 31030], [Nevada -> Colorado -> Utah] 
+
+  path: 2[31014 -> 90150], [Nevada -> Colorado] 
+
+srcNodes: [189, 31030, 90150]
+  path: 0[30989 -> 189], [Arizona -> Humphreys Peak Humphreys Peak Rocky Mountains volcanic] 
+
+  path: 1[30989 -> 90150 -> 31030], [Arizona -> Colorado -> Utah] 
+
+  path: 2[30989 -> 90150], [Arizona -> Colorado] 
+
+srcNodes: [194, 31030, 90150]
+  path: 0[30991 -> 194], [California -> Mt Whitney Mt Whitney Sierra Nevada California ] 
+
+  path: 1[30991 -> 90150 -> 31030], [California -> Colorado -> Utah] 
+
+  path: 2[30991 -> 90150], [California -> Colorado] 
+
+srcNodes: [210, 31030, 130005]
+  path: 0[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 1[210 -> 20132 -> 10001 -> 20118 -> 31030], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> Utah] 
+
+  path: 2[210 -> 20132 -> 10001 -> 20118 -> 31030 -> 130005], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> Utah -> Colorado Plateau] 
+
+-----------------------------------------
+ResultDestNodes: [31030, 90150, 30992, 185, 20118, 186, 31014, 30989, 30991, 210]
+ResultRelevs: [9.191049575805664, 8.590326309204102, 7.956459999084473, 6.436650276184082, 6.165339469909668, 5.867079734802246, 5.263323783874512, 5.263323783874512, 5.263323783874512, 5.039423942565918]
+Num of top-k answers: 10
+Num of redundant answers in top-k answers: 0
+Num of duplicate answers in top-k answers: 0
+Num of entries retrieved from the lists: 144
+Num of redundant candidate answers found: 48
+Num of reduced alternative answers found: 8
+Num of duplicate candidate answers found: 7
+Num of unique alternative answers found: 2
+
+Blink Search Using BDB 20
+[mountain, utah, colorado]
+srcNodes: [185, 31030, 90150]
+  path: 0[31030 -> 185], [Utah -> Kings Peak Kings Peak Rocky Mountains ] 
+
+  path: 1[31030 -> 31030], [Utah -> Utah]
+  path: 2[31030 -> 90150], [Utah -> Colorado] 
+
+srcNodes: [186, 31030, 90150]
+  path: 0[90150 -> 30992 -> 186], [Colorado -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 1[90150 -> 31030], [Colorado -> Utah] 
+
+  path: 2[90150 -> 90150], [Colorado -> Colorado]
+srcNodes: [187, 31030, 30992]
+  path: 0[30992 -> 187], [Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[30992 -> 90150 -> 31030], [Colorado -> Colorado -> Utah] 
+
+  path: 2[30992 -> 30992], [Colorado -> Colorado]
+srcNodes: [185, 31030, 130005]
+  path: 0[185 -> 185], [Kings Peak Kings Peak Rocky Mountains  -> Kings Peak Kings Peak Rocky Mountains ]
+  path: 1[185 -> 31030], [Kings Peak Kings Peak Rocky Mountains  -> Utah] 
+
+  path: 2[185 -> 31030 -> 130005], [Kings Peak Kings Peak Rocky Mountains  -> Utah -> Colorado Plateau] 
+
+srcNodes: [210, 31030, 30992]
+  path: 0[20118 -> 10001 -> 20132 -> 210], [United States -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 1[20118 -> 31030], [United States -> Utah] 
+
+  path: 2[20118 -> 30992], [United States -> Colorado] 
+
+srcNodes: [186, 31030, 30992]
+  path: 0[186 -> 186], [Mt Elbert Mt Elbert Rocky Mountains  -> Mt Elbert Mt Elbert Rocky Mountains ]
+  path: 1[186 -> 30992 -> 90150 -> 31030], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado -> Colorado -> Utah] 
+
+  path: 2[186 -> 30992], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado] 
+
+srcNodes: [187, 31030, 30992]
+  path: 0[187 -> 187], [Pikes Peak Pikes Peak Rocky Mountains  -> Pikes Peak Pikes Peak Rocky Mountains ]
+  path: 1[187 -> 30992 -> 90150 -> 31030], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Colorado -> Utah] 
+
+  path: 2[187 -> 30992], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado] 
+
+srcNodes: [195, 31030, 90150]
+  path: 0[31014 -> 195], [Nevada -> Boundary Peak Boundary Peak Sierra Nevada California ] 
+
+  path: 1[31014 -> 90150 -> 31030], [Nevada -> Colorado -> Utah] 
+
+  path: 2[31014 -> 90150], [Nevada -> Colorado] 
+
+srcNodes: [189, 31030, 90150]
+  path: 0[30989 -> 189], [Arizona -> Humphreys Peak Humphreys Peak Rocky Mountains volcanic] 
+
+  path: 1[30989 -> 90150 -> 31030], [Arizona -> Colorado -> Utah] 
+
+  path: 2[30989 -> 90150], [Arizona -> Colorado] 
+
+srcNodes: [194, 31030, 90150]
+  path: 0[30991 -> 194], [California -> Mt Whitney Mt Whitney Sierra Nevada California ] 
+
+  path: 1[30991 -> 90150 -> 31030], [California -> Colorado -> Utah] 
+
+  path: 2[30991 -> 90150], [California -> Colorado] 
+
+srcNodes: [210, 31030, 30992]
+  path: 0[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 1[210 -> 20132 -> 10001 -> 20118 -> 31030], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> Utah] 
+
+  path: 2[210 -> 20132 -> 10001 -> 20118 -> 30992], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> Colorado] 
+
+srcNodes: [187, 31030, 90150]
+  path: 0[80111 -> 90150 -> 30992 -> 187], [Lake Powell Lake Powell artificial -> Colorado -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[80111 -> 90150 -> 31030], [Lake Powell Lake Powell artificial -> Colorado -> Utah] 
+
+  path: 2[80111 -> 90150], [Lake Powell Lake Powell artificial -> Colorado] 
+
+This is a non-reduced answer tree with common first node 90150
+
+srcNodes: [187, 31030, 90150]
+  path: 0[30942 -> 90150 -> 30992 -> 187], [Baja California -> Colorado -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[30942 -> 90150 -> 31030], [Baja California -> Colorado -> Utah] 
+
+  path: 2[30942 -> 90150], [Baja California -> Colorado] 
+
+This is a non-reduced answer tree with common first node 90150
+
+srcNodes: [187, 31030, 90150]
+  path: 0[80112 -> 90150 -> 30992 -> 187], [Lake Mead Lake Mead artificial -> Colorado -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[80112 -> 90150 -> 31030], [Lake Mead Lake Mead artificial -> Colorado -> Utah] 
+
+  path: 2[80112 -> 90150], [Lake Mead Lake Mead artificial -> Colorado] 
+
+This is a non-reduced answer tree with common first node 90150
+
+srcNodes: [187, 31030, 90150]
+  path: 0[30965 -> 90150 -> 30992 -> 187], [Sonora -> Colorado -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[30965 -> 90150 -> 31030], [Sonora -> Colorado -> Utah] 
+
+  path: 2[30965 -> 90150], [Sonora -> Colorado] 
+
+This is a non-reduced answer tree with common first node 90150
+
+srcNodes: [194, 31030, 90150]
+  path: 0[194 -> 194], [Mt Whitney Mt Whitney Sierra Nevada California  -> Mt Whitney Mt Whitney Sierra Nevada California ]
+  path: 1[194 -> 30991 -> 90150 -> 31030], [Mt Whitney Mt Whitney Sierra Nevada California  -> California -> Colorado -> Utah] 
+
+  path: 2[194 -> 30991 -> 90150], [Mt Whitney Mt Whitney Sierra Nevada California  -> California -> Colorado] 
+
+srcNodes: [189, 31030, 130005]
+  path: 0[189 -> 189], [Humphreys Peak Humphreys Peak Rocky Mountains volcanic -> Humphreys Peak Humphreys Peak Rocky Mountains volcanic]
+  path: 1[189 -> 30989 -> 90150 -> 31030], [Humphreys Peak Humphreys Peak Rocky Mountains volcanic -> Arizona -> Colorado -> Utah] 
+
+  path: 2[189 -> 30989 -> 130005], [Humphreys Peak Humphreys Peak Rocky Mountains volcanic -> Arizona -> Colorado Plateau] 
+
+srcNodes: [195, 31030, 90150]
+  path: 0[195 -> 195], [Boundary Peak Boundary Peak Sierra Nevada California  -> Boundary Peak Boundary Peak Sierra Nevada California ]
+  path: 1[195 -> 31014 -> 90150 -> 31030], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Colorado -> Utah] 
+
+  path: 2[195 -> 31014 -> 90150], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Colorado] 
+
+srcNodes: [188, 31030, 130005]
+  path: 0[31017 -> 188], [New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[31017 -> 90151 -> 30992 -> 90150 -> 31030], [New Mexico -> Rio Grande -> Colorado -> Colorado -> Utah] 
+
+  path: 2[31017 -> 130005], [New Mexico -> Colorado Plateau] 
+
+srcNodes: [210, 31030, 30992]
+  path: 0[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 1[10001 -> 20118 -> 31030], [America -> United States -> Utah] 
+
+  path: 2[10001 -> 20118 -> 30992], [America -> United States -> Colorado] 
+
+-----------------------------------------
+ResultDestNodes: [31030, 90150, 30992, 185, 20118, 186, 187, 31014, 30989, 30991, 210, 80111, 30942, 80112, 30965, 194, 189, 195, 31017, 10001]
+ResultRelevs: [9.191049575805664, 8.590326309204102, 7.956459999084473, 6.436650276184082, 6.165339469909668, 5.867079734802246, 5.867079734802246, 5.263323783874512, 5.263323783874512, 5.263323783874512, 5.209980010986328, 4.926485061645508, 4.926485061645508, 4.926485061645508, 4.926485061645508, 4.744799613952637, 4.744799613952637, 4.744799613952637, 4.639459609985352, 4.618340015411377]
+Num of top-k answers: 20
+Num of redundant answers: 4
+Num of duplicate answers: 8
+Num of entries retrieved from the lists: 233
+Num of entries retrieved from NKMaps: 281
+
+Blink Search Using BDB 20
+[mountain, utah, colorado]
+srcNodes: [185, 31030, 90150]
+  path: 0[31030 -> 185], [Utah -> Kings Peak Kings Peak Rocky Mountains ] 
+
+  path: 1[31030 -> 31030], [Utah -> Utah]
+  path: 2[31030 -> 90150], [Utah -> Colorado] 
+
+srcNodes: [186, 31030, 90150]
+  path: 0[90150 -> 30992 -> 186], [Colorado -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 1[90150 -> 31030], [Colorado -> Utah] 
+
+  path: 2[90150 -> 90150], [Colorado -> Colorado]
+srcNodes: [187, 31030, 30992]
+  path: 0[30992 -> 187], [Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[30992 -> 90150 -> 31030], [Colorado -> Colorado -> Utah] 
+
+  path: 2[30992 -> 30992], [Colorado -> Colorado]
+srcNodes: [185, 31030, 130005]
+  path: 0[185 -> 185], [Kings Peak Kings Peak Rocky Mountains  -> Kings Peak Kings Peak Rocky Mountains ]
+  path: 1[185 -> 31030], [Kings Peak Kings Peak Rocky Mountains  -> Utah] 
+
+  path: 2[185 -> 31030 -> 130005], [Kings Peak Kings Peak Rocky Mountains  -> Utah -> Colorado Plateau] 
+
+srcNodes: [210, 31030, 30992]
+  path: 0[20118 -> 10001 -> 20132 -> 210], [United States -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 1[20118 -> 31030], [United States -> Utah] 
+
+  path: 2[20118 -> 30992], [United States -> Colorado] 
+
+srcNodes: [186, 31030, 30992]
+  path: 0[186 -> 186], [Mt Elbert Mt Elbert Rocky Mountains  -> Mt Elbert Mt Elbert Rocky Mountains ]
+  path: 1[186 -> 30992 -> 90150 -> 31030], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado -> Colorado -> Utah] 
+
+  path: 2[186 -> 30992], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado] 
+
+srcNodes: [187, 31030, 30992]
+  path: 0[187 -> 187], [Pikes Peak Pikes Peak Rocky Mountains  -> Pikes Peak Pikes Peak Rocky Mountains ]
+  path: 1[187 -> 30992 -> 90150 -> 31030], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Colorado -> Utah] 
+
+  path: 2[187 -> 30992], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado] 
+
+srcNodes: [194, 31030, 90150]
+  path: 0[30991 -> 194], [California -> Mt Whitney Mt Whitney Sierra Nevada California ] 
+
+  path: 1[30991 -> 90150 -> 31030], [California -> Colorado -> Utah] 
+
+  path: 2[30991 -> 90150], [California -> Colorado] 
+
+srcNodes: [195, 31030, 90150]
+  path: 0[31014 -> 195], [Nevada -> Boundary Peak Boundary Peak Sierra Nevada California ] 
+
+  path: 1[31014 -> 90150 -> 31030], [Nevada -> Colorado -> Utah] 
+
+  path: 2[31014 -> 90150], [Nevada -> Colorado] 
+
+srcNodes: [189, 31030, 90150]
+  path: 0[30989 -> 189], [Arizona -> Humphreys Peak Humphreys Peak Rocky Mountains volcanic] 
+
+  path: 1[30989 -> 90150 -> 31030], [Arizona -> Colorado -> Utah] 
+
+  path: 2[30989 -> 90150], [Arizona -> Colorado] 
+
+srcNodes: [210, 31030, 30992]
+  path: 0[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 1[210 -> 20132 -> 10001 -> 20118 -> 31030], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> Utah] 
+
+  path: 2[210 -> 20132 -> 10001 -> 20118 -> 30992], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> Colorado] 
+
+srcNodes: [189, 31030, 130005]
+  path: 0[189 -> 189], [Humphreys Peak Humphreys Peak Rocky Mountains volcanic -> Humphreys Peak Humphreys Peak Rocky Mountains volcanic]
+  path: 1[189 -> 30989 -> 90150 -> 31030], [Humphreys Peak Humphreys Peak Rocky Mountains volcanic -> Arizona -> Colorado -> Utah] 
+
+  path: 2[189 -> 30989 -> 130005], [Humphreys Peak Humphreys Peak Rocky Mountains volcanic -> Arizona -> Colorado Plateau] 
+
+srcNodes: [194, 31030, 90150]
+  path: 0[194 -> 194], [Mt Whitney Mt Whitney Sierra Nevada California  -> Mt Whitney Mt Whitney Sierra Nevada California ]
+  path: 1[194 -> 30991 -> 90150 -> 31030], [Mt Whitney Mt Whitney Sierra Nevada California  -> California -> Colorado -> Utah] 
+
+  path: 2[194 -> 30991 -> 90150], [Mt Whitney Mt Whitney Sierra Nevada California  -> California -> Colorado] 
+
+srcNodes: [195, 31030, 90150]
+  path: 0[195 -> 195], [Boundary Peak Boundary Peak Sierra Nevada California  -> Boundary Peak Boundary Peak Sierra Nevada California ]
+  path: 1[195 -> 31014 -> 90150 -> 31030], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Colorado -> Utah] 
+
+  path: 2[195 -> 31014 -> 90150], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Colorado] 
+
+srcNodes: [188, 31030, 130005]
+  path: 0[31017 -> 188], [New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[31017 -> 90151 -> 30992 -> 90150 -> 31030], [New Mexico -> Rio Grande -> Colorado -> Colorado -> Utah] 
+
+  path: 2[31017 -> 130005], [New Mexico -> Colorado Plateau] 
+
+srcNodes: [210, 31030, 30992]
+  path: 0[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 1[10001 -> 20118 -> 31030], [America -> United States -> Utah] 
+
+  path: 2[10001 -> 20118 -> 30992], [America -> United States -> Colorado] 
+
+srcNodes: [188, 31030, 130005]
+  path: 0[188 -> 188], [Wheeler Peak Wheeler Peak Rocky Mountains  -> Wheeler Peak Wheeler Peak Rocky Mountains ]
+  path: 1[188 -> 31017 -> 90151 -> 30992 -> 90150 -> 31030], [Wheeler Peak Wheeler Peak Rocky Mountains  -> New Mexico -> Rio Grande -> Colorado -> Colorado -> Utah] 
+
+  path: 2[188 -> 31017 -> 130005], [Wheeler Peak Wheeler Peak Rocky Mountains  -> New Mexico -> Colorado Plateau] 
+
+srcNodes: [215, 31030, 30992]
+  path: 0[215 -> 215], [Soufriere Soufriere  volcano -> Soufriere Soufriere  volcano]
+  path: 1[215 -> 20142 -> 10001 -> 20118 -> 31030], [Soufriere Soufriere  volcano -> Saint Vincent and the Grenadines -> America -> United States -> Utah] 
+
+  path: 2[215 -> 20142 -> 10001 -> 20118 -> 30992], [Soufriere Soufriere  volcano -> Saint Vincent and the Grenadines -> America -> United States -> Colorado] 
+
+srcNodes: [216, 31030, 30992]
+  path: 0[216 -> 216], [Morne Diablotins Morne Diablotins  volcano -> Morne Diablotins Morne Diablotins  volcano]
+  path: 1[216 -> 20124 -> 10001 -> 20118 -> 31030], [Morne Diablotins Morne Diablotins  volcano -> Dominica -> America -> United States -> Utah] 
+
+  path: 2[216 -> 20124 -> 10001 -> 20118 -> 30992], [Morne Diablotins Morne Diablotins  volcano -> Dominica -> America -> United States -> Colorado] 
+
+srcNodes: [217, 31030, 30992]
+  path: 0[217 -> 217], [Pelee Pelee  volcano -> Pelee Pelee  volcano]
+  path: 1[217 -> 20133 -> 10001 -> 20118 -> 31030], [Pelee Pelee  volcano -> Martinique -> America -> United States -> Utah] 
+
+  path: 2[217 -> 20133 -> 10001 -> 20118 -> 30992], [Pelee Pelee  volcano -> Martinique -> America -> United States -> Colorado] 
+
+-----------------------------------------
+ResultDestNodes: [31030, 90150, 30992, 185, 20118, 186, 187, 30991, 31014, 30989, 210, 189, 194, 195, 31017, 10001, 188, 215, 216, 217]
+ResultRelevs: [9.191049575805664, 8.590326309204102, 7.956459999084473, 6.436650276184082, 6.165339469909668, 5.867079734802246, 5.867079734802246, 5.263323783874512, 5.263323783874512, 5.263323783874512, 5.209980010986328, 4.744799613952637, 4.744799613952637, 4.744799613952637, 4.639459609985352, 4.618340015411377, 4.5401506423950195, 4.31702995300293, 4.31702995300293, 4.31702995300293]
+Num of top-k answers: 20
+Num of redundant answers: 0
+Num of duplicate answers: 6
+Num of entries retrieved from the lists: 469
+Num of entries retrieved from NKMaps: 506
+
+Blink Search Using BDB_reduced 20
+[mountain, utah, colorado]
+srcNodes: [185, 31030, 90150]
+  path: 0[31030 -> 185], [Utah -> Kings Peak Kings Peak Rocky Mountains ] 
+
+  path: 1[31030 -> 31030], [Utah -> Utah]
+  path: 2[31030 -> 90150], [Utah -> Colorado] 
+
+srcNodes: [186, 31030, 90150]
+  path: 0[90150 -> 30992 -> 186], [Colorado -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 1[90150 -> 31030], [Colorado -> Utah] 
+
+  path: 2[90150 -> 90150], [Colorado -> Colorado]
+srcNodes: [187, 31030, 30992]
+  path: 0[30992 -> 187], [Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[30992 -> 90150 -> 31030], [Colorado -> Colorado -> Utah] 
+
+  path: 2[30992 -> 30992], [Colorado -> Colorado]
+srcNodes: [185, 31030, 130005]
+  path: 0[185 -> 185], [Kings Peak Kings Peak Rocky Mountains  -> Kings Peak Kings Peak Rocky Mountains ]
+  path: 1[185 -> 31030], [Kings Peak Kings Peak Rocky Mountains  -> Utah] 
+
+  path: 2[185 -> 31030 -> 130005], [Kings Peak Kings Peak Rocky Mountains  -> Utah -> Colorado Plateau] 
+
+srcNodes: [210, 31030, 30992]
+  path: 0[20118 -> 10001 -> 20132 -> 210], [United States -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 1[20118 -> 31030], [United States -> Utah] 
+
+  path: 2[20118 -> 30992], [United States -> Colorado] 
+
+srcNodes: [186, 31030, 30992]
+  path: 0[186 -> 186], [Mt Elbert Mt Elbert Rocky Mountains  -> Mt Elbert Mt Elbert Rocky Mountains ]
+  path: 1[186 -> 30992 -> 90150 -> 31030], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado -> Colorado -> Utah] 
+
+  path: 2[186 -> 30992], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado] 
+
+srcNodes: [187, 31030, 30992]
+  path: 0[187 -> 187], [Pikes Peak Pikes Peak Rocky Mountains  -> Pikes Peak Pikes Peak Rocky Mountains ]
+  path: 1[187 -> 30992 -> 90150 -> 31030], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Colorado -> Utah] 
+
+  path: 2[187 -> 30992], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado] 
+
+srcNodes: [195, 31030, 90150]
+  path: 0[31014 -> 195], [Nevada -> Boundary Peak Boundary Peak Sierra Nevada California ] 
+
+  path: 1[31014 -> 90150 -> 31030], [Nevada -> Colorado -> Utah] 
+
+  path: 2[31014 -> 90150], [Nevada -> Colorado] 
+
+srcNodes: [189, 31030, 90150]
+  path: 0[30989 -> 189], [Arizona -> Humphreys Peak Humphreys Peak Rocky Mountains volcanic] 
+
+  path: 1[30989 -> 90150 -> 31030], [Arizona -> Colorado -> Utah] 
+
+  path: 2[30989 -> 90150], [Arizona -> Colorado] 
+
+srcNodes: [194, 31030, 90150]
+  path: 0[30991 -> 194], [California -> Mt Whitney Mt Whitney Sierra Nevada California ] 
+
+  path: 1[30991 -> 90150 -> 31030], [California -> Colorado -> Utah] 
+
+  path: 2[30991 -> 90150], [California -> Colorado] 
+
+srcNodes: [210, 31030, 30992]
+  path: 0[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 1[210 -> 20132 -> 10001 -> 20118 -> 31030], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> Utah] 
+
+  path: 2[210 -> 20132 -> 10001 -> 20118 -> 30992], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> Colorado] 
+
+srcNodes: [189, 31030, 130005]
+  path: 0[189 -> 189], [Humphreys Peak Humphreys Peak Rocky Mountains volcanic -> Humphreys Peak Humphreys Peak Rocky Mountains volcanic]
+  path: 1[189 -> 30989 -> 90150 -> 31030], [Humphreys Peak Humphreys Peak Rocky Mountains volcanic -> Arizona -> Colorado -> Utah] 
+
+  path: 2[189 -> 30989 -> 130005], [Humphreys Peak Humphreys Peak Rocky Mountains volcanic -> Arizona -> Colorado Plateau] 
+
+srcNodes: [195, 31030, 90150]
+  path: 0[195 -> 195], [Boundary Peak Boundary Peak Sierra Nevada California  -> Boundary Peak Boundary Peak Sierra Nevada California ]
+  path: 1[195 -> 31014 -> 90150 -> 31030], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Colorado -> Utah] 
+
+  path: 2[195 -> 31014 -> 90150], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Colorado] 
+
+srcNodes: [194, 31030, 90150]
+  path: 0[194 -> 194], [Mt Whitney Mt Whitney Sierra Nevada California  -> Mt Whitney Mt Whitney Sierra Nevada California ]
+  path: 1[194 -> 30991 -> 90150 -> 31030], [Mt Whitney Mt Whitney Sierra Nevada California  -> California -> Colorado -> Utah] 
+
+  path: 2[194 -> 30991 -> 90150], [Mt Whitney Mt Whitney Sierra Nevada California  -> California -> Colorado] 
+
+srcNodes: [188, 31030, 130005]
+  path: 0[31017 -> 188], [New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[31017 -> 90151 -> 30992 -> 90150 -> 31030], [New Mexico -> Rio Grande -> Colorado -> Colorado -> Utah] 
+
+  path: 2[31017 -> 130005], [New Mexico -> Colorado Plateau] 
+
+srcNodes: [210, 31030, 30992]
+  path: 0[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 1[10001 -> 20118 -> 31030], [America -> United States -> Utah] 
+
+  path: 2[10001 -> 20118 -> 30992], [America -> United States -> Colorado] 
+
+srcNodes: [188, 31030, 30992]
+  path: 0[90151 -> 31017 -> 188], [Rio Grande -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[90151 -> 30992 -> 90150 -> 31030], [Rio Grande -> Colorado -> Colorado -> Utah] 
+
+  path: 2[90151 -> 30992], [Rio Grande -> Colorado] 
+
+srcNodes: [188, 31030, 130005]
+  path: 0[188 -> 188], [Wheeler Peak Wheeler Peak Rocky Mountains  -> Wheeler Peak Wheeler Peak Rocky Mountains ]
+  path: 1[188 -> 31017 -> 90151 -> 30992 -> 90150 -> 31030], [Wheeler Peak Wheeler Peak Rocky Mountains  -> New Mexico -> Rio Grande -> Colorado -> Colorado -> Utah] 
+
+  path: 2[188 -> 31017 -> 130005], [Wheeler Peak Wheeler Peak Rocky Mountains  -> New Mexico -> Colorado Plateau] 
+
+srcNodes: [199, 31030, 30992]
+  path: 0[90144 -> 30990 -> 90142 -> 31028 -> 199], [Arkansas -> Arkansas -> Mississippi -> Tennessee -> Clingmans Dome Clingmans Dome Appalachen ] 
+
+  path: 1[90144 -> 30992 -> 90150 -> 31030], [Arkansas -> Colorado -> Colorado -> Utah] 
+
+  path: 2[90144 -> 30992], [Arkansas -> Colorado] 
+
+srcNodes: [215, 31030, 30992]
+  path: 0[215 -> 215], [Soufriere Soufriere  volcano -> Soufriere Soufriere  volcano]
+  path: 1[215 -> 20142 -> 10001 -> 20118 -> 31030], [Soufriere Soufriere  volcano -> Saint Vincent and the Grenadines -> America -> United States -> Utah] 
+
+  path: 2[215 -> 20142 -> 10001 -> 20118 -> 30992], [Soufriere Soufriere  volcano -> Saint Vincent and the Grenadines -> America -> United States -> Colorado] 
+
+-----------------------------------------
+ResultDestNodes: [31030, 90150, 30992, 185, 20118, 186, 187, 31014, 30989, 30991, 210, 189, 195, 194, 31017, 10001, 90151, 188, 90144, 215]
+ResultRelevs: [9.191049575805664, 8.590326309204102, 7.956459999084473, 6.436650276184082, 6.165339469909668, 5.867079734802246, 5.867079734802246, 5.263323783874512, 5.263323783874512, 5.263323783874512, 5.209980010986328, 4.744799613952637, 4.744799613952637, 4.744799613952637, 4.639459609985352, 4.618340015411377, 4.609545707702637, 4.5401506423950195, 4.411933898925781, 4.31702995300293]
+Num of top-k answers: 20
+Num of redundant answers: 0
+Num of duplicate answers: 6
+Num of entries retrieved from the lists: 469
+Num of entries retrieved from NKMaps: 830
+Num of redundant candidate answers found: 108
+Num of reduced alternative answers found: 16
+
+Blink Search Using BDB_reducedNunique 20
+[mountain, utah, colorado]
+srcNodes: [185, 31030, 90150]
+  path: 0[31030 -> 185], [Utah -> Kings Peak Kings Peak Rocky Mountains ] 
+
+  path: 1[31030 -> 31030], [Utah -> Utah]
+  path: 2[31030 -> 90150], [Utah -> Colorado] 
+
+srcNodes: [186, 31030, 90150]
+  path: 0[90150 -> 30992 -> 186], [Colorado -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 1[90150 -> 31030], [Colorado -> Utah] 
+
+  path: 2[90150 -> 90150], [Colorado -> Colorado]
+srcNodes: [187, 31030, 30992]
+  path: 0[30992 -> 187], [Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[30992 -> 90150 -> 31030], [Colorado -> Colorado -> Utah] 
+
+  path: 2[30992 -> 30992], [Colorado -> Colorado]
+srcNodes: [185, 31030, 130005]
+  path: 0[185 -> 185], [Kings Peak Kings Peak Rocky Mountains  -> Kings Peak Kings Peak Rocky Mountains ]
+  path: 1[185 -> 31030], [Kings Peak Kings Peak Rocky Mountains  -> Utah] 
+
+  path: 2[185 -> 31030 -> 130005], [Kings Peak Kings Peak Rocky Mountains  -> Utah -> Colorado Plateau] 
+
+srcNodes: [210, 31030, 30992]
+  path: 0[20118 -> 10001 -> 20132 -> 210], [United States -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 1[20118 -> 31030], [United States -> Utah] 
+
+  path: 2[20118 -> 30992], [United States -> Colorado] 
+
+srcNodes: [186, 31030, 30992]
+  path: 0[186 -> 186], [Mt Elbert Mt Elbert Rocky Mountains  -> Mt Elbert Mt Elbert Rocky Mountains ]
+  path: 1[186 -> 30992 -> 90150 -> 31030], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado -> Colorado -> Utah] 
+
+  path: 2[186 -> 30992], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado] 
+
+srcNodes: [194, 31030, 90150]
+  path: 0[30991 -> 194], [California -> Mt Whitney Mt Whitney Sierra Nevada California ] 
+
+  path: 1[30991 -> 90150 -> 31030], [California -> Colorado -> Utah] 
+
+  path: 2[30991 -> 90150], [California -> Colorado] 
+
+srcNodes: [195, 31030, 90150]
+  path: 0[31014 -> 195], [Nevada -> Boundary Peak Boundary Peak Sierra Nevada California ] 
+
+  path: 1[31014 -> 90150 -> 31030], [Nevada -> Colorado -> Utah] 
+
+  path: 2[31014 -> 90150], [Nevada -> Colorado] 
+
+srcNodes: [189, 31030, 90150]
+  path: 0[30989 -> 189], [Arizona -> Humphreys Peak Humphreys Peak Rocky Mountains volcanic] 
+
+  path: 1[30989 -> 90150 -> 31030], [Arizona -> Colorado -> Utah] 
+
+  path: 2[30989 -> 90150], [Arizona -> Colorado] 
+
+srcNodes: [210, 31030, 130005]
+  path: 0[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 1[210 -> 20132 -> 10001 -> 20118 -> 31030], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> Utah] 
+
+  path: 2[210 -> 20132 -> 10001 -> 20118 -> 31030 -> 130005], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> Utah -> Colorado Plateau] 
+
+srcNodes: [187, 31030, 90150]
+  path: 0[187 -> 187], [Pikes Peak Pikes Peak Rocky Mountains  -> Pikes Peak Pikes Peak Rocky Mountains ]
+  path: 1[187 -> 30992 -> 90150 -> 31030], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Colorado -> Utah] 
+
+  path: 2[187 -> 30992 -> 90150], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Colorado] 
+
+srcNodes: [189, 31030, 130005]
+  path: 0[189 -> 189], [Humphreys Peak Humphreys Peak Rocky Mountains volcanic -> Humphreys Peak Humphreys Peak Rocky Mountains volcanic]
+  path: 1[189 -> 30989 -> 90150 -> 31030], [Humphreys Peak Humphreys Peak Rocky Mountains volcanic -> Arizona -> Colorado -> Utah] 
+
+  path: 2[189 -> 30989 -> 130005], [Humphreys Peak Humphreys Peak Rocky Mountains volcanic -> Arizona -> Colorado Plateau] 
+
+srcNodes: [188, 31030, 130005]
+  path: 0[31017 -> 188], [New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[31017 -> 90151 -> 30992 -> 90150 -> 31030], [New Mexico -> Rio Grande -> Colorado -> Colorado -> Utah] 
+
+  path: 2[31017 -> 130005], [New Mexico -> Colorado Plateau] 
+
+srcNodes: [188, 31030, 30992]
+  path: 0[90151 -> 31017 -> 188], [Rio Grande -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[90151 -> 30992 -> 90150 -> 31030], [Rio Grande -> Colorado -> Colorado -> Utah] 
+
+  path: 2[90151 -> 30992], [Rio Grande -> Colorado] 
+
+srcNodes: [199, 31030, 30992]
+  path: 0[90144 -> 30990 -> 90142 -> 31028 -> 199], [Arkansas -> Arkansas -> Mississippi -> Tennessee -> Clingmans Dome Clingmans Dome Appalachen ] 
+
+  path: 1[90144 -> 30992 -> 90150 -> 31030], [Arkansas -> Colorado -> Colorado -> Utah] 
+
+  path: 2[90144 -> 30992], [Arkansas -> Colorado] 
+
+srcNodes: [216, 31030, 30992]
+  path: 0[216 -> 216], [Morne Diablotins Morne Diablotins  volcano -> Morne Diablotins Morne Diablotins  volcano]
+  path: 1[216 -> 20124 -> 10001 -> 20118 -> 31030], [Morne Diablotins Morne Diablotins  volcano -> Dominica -> America -> United States -> Utah] 
+
+  path: 2[216 -> 20124 -> 10001 -> 20118 -> 30992], [Morne Diablotins Morne Diablotins  volcano -> Dominica -> America -> United States -> Colorado] 
+
+srcNodes: [217, 31030, 30992]
+  path: 0[217 -> 217], [Pelee Pelee  volcano -> Pelee Pelee  volcano]
+  path: 1[217 -> 20133 -> 10001 -> 20118 -> 31030], [Pelee Pelee  volcano -> Martinique -> America -> United States -> Utah] 
+
+  path: 2[217 -> 20133 -> 10001 -> 20118 -> 30992], [Pelee Pelee  volcano -> Martinique -> America -> United States -> Colorado] 
+
+srcNodes: [223, 31030, 30992]
+  path: 0[223 -> 223], [Cotopaxi Cotopaxi Andes volcano -> Cotopaxi Cotopaxi Andes volcano]
+  path: 1[223 -> 20180 -> 10001 -> 20118 -> 31030], [Cotopaxi Cotopaxi Andes volcano -> Ecuador -> America -> United States -> Utah] 
+
+  path: 2[223 -> 20180 -> 10001 -> 20118 -> 30992], [Cotopaxi Cotopaxi Andes volcano -> Ecuador -> America -> United States -> Colorado] 
+
+srcNodes: [215, 31030, 30992]
+  path: 0[215 -> 215], [Soufriere Soufriere  volcano -> Soufriere Soufriere  volcano]
+  path: 1[215 -> 20142 -> 10001 -> 20118 -> 31030], [Soufriere Soufriere  volcano -> Saint Vincent and the Grenadines -> America -> United States -> Utah] 
+
+  path: 2[215 -> 20142 -> 10001 -> 20118 -> 30992], [Soufriere Soufriere  volcano -> Saint Vincent and the Grenadines -> America -> United States -> Colorado] 
+
+srcNodes: [222, 31030, 30992]
+  path: 0[222 -> 222], [Cayambe Cayambe Andes volcano -> Cayambe Cayambe Andes volcano]
+  path: 1[222 -> 20180 -> 10001 -> 20118 -> 31030], [Cayambe Cayambe Andes volcano -> Ecuador -> America -> United States -> Utah] 
+
+  path: 2[222 -> 20180 -> 10001 -> 20118 -> 30992], [Cayambe Cayambe Andes volcano -> Ecuador -> America -> United States -> Colorado] 
+
+-----------------------------------------
+ResultDestNodes: [31030, 90150, 30992, 185, 20118, 186, 30991, 31014, 30989, 210, 187, 189, 31017, 90151, 90144, 216, 217, 223, 215, 222]
+ResultRelevs: [9.191049575805664, 8.590326309204102, 7.956459999084473, 6.436650276184082, 6.165339469909668, 5.867079734802246, 5.263323783874512, 5.263323783874512, 5.263323783874512, 5.039423942565918, 5.014269828796387, 4.744799613952637, 4.639459609985352, 4.609545707702637, 4.411933898925781, 4.31702995300293, 4.31702995300293, 4.31702995300293, 4.31702995300293, 4.31702995300293]
+Num of top-k answers: 20
+Num of redundant answers in top-k answers: 0
+Num of duplicate answers in top-k answers: 0
+Num of entries retrieved from the lists: 310
+Num of redundant candidate answers found: 83
+Num of reduced alternative answers found: 13
+Num of duplicate candidate answers found: 10
+Num of unique alternative answers found: 3
+
+Blink Search Using BDB 30
+[mountain, utah, colorado]
+srcNodes: [185, 31030, 90150]
+  path: 0[31030 -> 185], [Utah -> Kings Peak Kings Peak Rocky Mountains ] 
+
+  path: 1[31030 -> 31030], [Utah -> Utah]
+  path: 2[31030 -> 90150], [Utah -> Colorado] 
+
+srcNodes: [186, 31030, 90150]
+  path: 0[90150 -> 30992 -> 186], [Colorado -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 1[90150 -> 31030], [Colorado -> Utah] 
+
+  path: 2[90150 -> 90150], [Colorado -> Colorado]
+srcNodes: [187, 31030, 30992]
+  path: 0[30992 -> 187], [Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[30992 -> 90150 -> 31030], [Colorado -> Colorado -> Utah] 
+
+  path: 2[30992 -> 30992], [Colorado -> Colorado]
+srcNodes: [185, 31030, 130005]
+  path: 0[185 -> 185], [Kings Peak Kings Peak Rocky Mountains  -> Kings Peak Kings Peak Rocky Mountains ]
+  path: 1[185 -> 31030], [Kings Peak Kings Peak Rocky Mountains  -> Utah] 
+
+  path: 2[185 -> 31030 -> 130005], [Kings Peak Kings Peak Rocky Mountains  -> Utah -> Colorado Plateau] 
+
+srcNodes: [210, 31030, 30992]
+  path: 0[20118 -> 10001 -> 20132 -> 210], [United States -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 1[20118 -> 31030], [United States -> Utah] 
+
+  path: 2[20118 -> 30992], [United States -> Colorado] 
+
+srcNodes: [186, 31030, 30992]
+  path: 0[186 -> 186], [Mt Elbert Mt Elbert Rocky Mountains  -> Mt Elbert Mt Elbert Rocky Mountains ]
+  path: 1[186 -> 30992 -> 90150 -> 31030], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado -> Colorado -> Utah] 
+
+  path: 2[186 -> 30992], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado] 
+
+srcNodes: [187, 31030, 30992]
+  path: 0[187 -> 187], [Pikes Peak Pikes Peak Rocky Mountains  -> Pikes Peak Pikes Peak Rocky Mountains ]
+  path: 1[187 -> 30992 -> 90150 -> 31030], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Colorado -> Utah] 
+
+  path: 2[187 -> 30992], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado] 
+
+srcNodes: [194, 31030, 90150]
+  path: 0[30991 -> 194], [California -> Mt Whitney Mt Whitney Sierra Nevada California ] 
+
+  path: 1[30991 -> 90150 -> 31030], [California -> Colorado -> Utah] 
+
+  path: 2[30991 -> 90150], [California -> Colorado] 
+
+srcNodes: [195, 31030, 90150]
+  path: 0[31014 -> 195], [Nevada -> Boundary Peak Boundary Peak Sierra Nevada California ] 
+
+  path: 1[31014 -> 90150 -> 31030], [Nevada -> Colorado -> Utah] 
+
+  path: 2[31014 -> 90150], [Nevada -> Colorado] 
+
+srcNodes: [189, 31030, 90150]
+  path: 0[30989 -> 189], [Arizona -> Humphreys Peak Humphreys Peak Rocky Mountains volcanic] 
+
+  path: 1[30989 -> 90150 -> 31030], [Arizona -> Colorado -> Utah] 
+
+  path: 2[30989 -> 90150], [Arizona -> Colorado] 
+
+srcNodes: [210, 31030, 30992]
+  path: 0[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 1[210 -> 20132 -> 10001 -> 20118 -> 31030], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> Utah] 
+
+  path: 2[210 -> 20132 -> 10001 -> 20118 -> 30992], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> Colorado] 
+
+srcNodes: [187, 31030, 90150]
+  path: 0[80111 -> 90150 -> 30992 -> 187], [Lake Powell Lake Powell artificial -> Colorado -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[80111 -> 90150 -> 31030], [Lake Powell Lake Powell artificial -> Colorado -> Utah] 
+
+  path: 2[80111 -> 90150], [Lake Powell Lake Powell artificial -> Colorado] 
+
+This is a non-reduced answer tree with common first node 90150
+
+srcNodes: [187, 31030, 90150]
+  path: 0[30942 -> 90150 -> 30992 -> 187], [Baja California -> Colorado -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[30942 -> 90150 -> 31030], [Baja California -> Colorado -> Utah] 
+
+  path: 2[30942 -> 90150], [Baja California -> Colorado] 
+
+This is a non-reduced answer tree with common first node 90150
+
+srcNodes: [187, 31030, 90150]
+  path: 0[80112 -> 90150 -> 30992 -> 187], [Lake Mead Lake Mead artificial -> Colorado -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[80112 -> 90150 -> 31030], [Lake Mead Lake Mead artificial -> Colorado -> Utah] 
+
+  path: 2[80112 -> 90150], [Lake Mead Lake Mead artificial -> Colorado] 
+
+This is a non-reduced answer tree with common first node 90150
+
+srcNodes: [187, 31030, 90150]
+  path: 0[30965 -> 90150 -> 30992 -> 187], [Sonora -> Colorado -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[30965 -> 90150 -> 31030], [Sonora -> Colorado -> Utah] 
+
+  path: 2[30965 -> 90150], [Sonora -> Colorado] 
+
+This is a non-reduced answer tree with common first node 90150
+
+srcNodes: [195, 31030, 90150]
+  path: 0[195 -> 195], [Boundary Peak Boundary Peak Sierra Nevada California  -> Boundary Peak Boundary Peak Sierra Nevada California ]
+  path: 1[195 -> 31014 -> 90150 -> 31030], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Colorado -> Utah] 
+
+  path: 2[195 -> 31014 -> 90150], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Colorado] 
+
+srcNodes: [194, 31030, 90150]
+  path: 0[194 -> 194], [Mt Whitney Mt Whitney Sierra Nevada California  -> Mt Whitney Mt Whitney Sierra Nevada California ]
+  path: 1[194 -> 30991 -> 90150 -> 31030], [Mt Whitney Mt Whitney Sierra Nevada California  -> California -> Colorado -> Utah] 
+
+  path: 2[194 -> 30991 -> 90150], [Mt Whitney Mt Whitney Sierra Nevada California  -> California -> Colorado] 
+
+srcNodes: [189, 31030, 130005]
+  path: 0[189 -> 189], [Humphreys Peak Humphreys Peak Rocky Mountains volcanic -> Humphreys Peak Humphreys Peak Rocky Mountains volcanic]
+  path: 1[189 -> 30989 -> 90150 -> 31030], [Humphreys Peak Humphreys Peak Rocky Mountains volcanic -> Arizona -> Colorado -> Utah] 
+
+  path: 2[189 -> 30989 -> 130005], [Humphreys Peak Humphreys Peak Rocky Mountains volcanic -> Arizona -> Colorado Plateau] 
+
+srcNodes: [188, 31030, 130005]
+  path: 0[31017 -> 188], [New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[31017 -> 90151 -> 30992 -> 90150 -> 31030], [New Mexico -> Rio Grande -> Colorado -> Colorado -> Utah] 
+
+  path: 2[31017 -> 130005], [New Mexico -> Colorado Plateau] 
+
+srcNodes: [210, 31030, 30992]
+  path: 0[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 1[10001 -> 20118 -> 31030], [America -> United States -> Utah] 
+
+  path: 2[10001 -> 20118 -> 30992], [America -> United States -> Colorado] 
+
+srcNodes: [186, 31030, 30992]
+  path: 0[90151 -> 30992 -> 186], [Rio Grande -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 1[90151 -> 30992 -> 90150 -> 31030], [Rio Grande -> Colorado -> Colorado -> Utah] 
+
+  path: 2[90151 -> 30992], [Rio Grande -> Colorado] 
+
+This is a non-reduced answer tree with common first node 30992
+
+srcNodes: [186, 31030, 30992]
+  path: 0[90144 -> 30992 -> 186], [Arkansas -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 1[90144 -> 30992 -> 90150 -> 31030], [Arkansas -> Colorado -> Colorado -> Utah] 
+
+  path: 2[90144 -> 30992], [Arkansas -> Colorado] 
+
+This is a non-reduced answer tree with common first node 30992
+
+srcNodes: [188, 31030, 130005]
+  path: 0[188 -> 188], [Wheeler Peak Wheeler Peak Rocky Mountains  -> Wheeler Peak Wheeler Peak Rocky Mountains ]
+  path: 1[188 -> 31017 -> 90151 -> 30992 -> 90150 -> 31030], [Wheeler Peak Wheeler Peak Rocky Mountains  -> New Mexico -> Rio Grande -> Colorado -> Colorado -> Utah] 
+
+  path: 2[188 -> 31017 -> 130005], [Wheeler Peak Wheeler Peak Rocky Mountains  -> New Mexico -> Colorado Plateau] 
+
+srcNodes: [217, 31030, 30992]
+  path: 0[217 -> 217], [Pelee Pelee  volcano -> Pelee Pelee  volcano]
+  path: 1[217 -> 20133 -> 10001 -> 20118 -> 31030], [Pelee Pelee  volcano -> Martinique -> America -> United States -> Utah] 
+
+  path: 2[217 -> 20133 -> 10001 -> 20118 -> 30992], [Pelee Pelee  volcano -> Martinique -> America -> United States -> Colorado] 
+
+srcNodes: [223, 31030, 30992]
+  path: 0[223 -> 223], [Cotopaxi Cotopaxi Andes volcano -> Cotopaxi Cotopaxi Andes volcano]
+  path: 1[223 -> 20180 -> 10001 -> 20118 -> 31030], [Cotopaxi Cotopaxi Andes volcano -> Ecuador -> America -> United States -> Utah] 
+
+  path: 2[223 -> 20180 -> 10001 -> 20118 -> 30992], [Cotopaxi Cotopaxi Andes volcano -> Ecuador -> America -> United States -> Colorado] 
+
+srcNodes: [222, 31030, 30992]
+  path: 0[222 -> 222], [Cayambe Cayambe Andes volcano -> Cayambe Cayambe Andes volcano]
+  path: 1[222 -> 20180 -> 10001 -> 20118 -> 31030], [Cayambe Cayambe Andes volcano -> Ecuador -> America -> United States -> Utah] 
+
+  path: 2[222 -> 20180 -> 10001 -> 20118 -> 30992], [Cayambe Cayambe Andes volcano -> Ecuador -> America -> United States -> Colorado] 
+
+srcNodes: [215, 31030, 30992]
+  path: 0[215 -> 215], [Soufriere Soufriere  volcano -> Soufriere Soufriere  volcano]
+  path: 1[215 -> 20142 -> 10001 -> 20118 -> 31030], [Soufriere Soufriere  volcano -> Saint Vincent and the Grenadines -> America -> United States -> Utah] 
+
+  path: 2[215 -> 20142 -> 10001 -> 20118 -> 30992], [Soufriere Soufriere  volcano -> Saint Vincent and the Grenadines -> America -> United States -> Colorado] 
+
+srcNodes: [216, 31030, 30992]
+  path: 0[216 -> 216], [Morne Diablotins Morne Diablotins  volcano -> Morne Diablotins Morne Diablotins  volcano]
+  path: 1[216 -> 20124 -> 10001 -> 20118 -> 31030], [Morne Diablotins Morne Diablotins  volcano -> Dominica -> America -> United States -> Utah] 
+
+  path: 2[216 -> 20124 -> 10001 -> 20118 -> 30992], [Morne Diablotins Morne Diablotins  volcano -> Dominica -> America -> United States -> Colorado] 
+
+srcNodes: [214, 31030, 30992]
+  path: 0[214 -> 214], [Soufriere Hills Soufriere Hills  volcano -> Soufriere Hills Soufriere Hills  volcano]
+  path: 1[214 -> 20134 -> 10001 -> 20118 -> 31030], [Soufriere Hills Soufriere Hills  volcano -> Montserrat -> America -> United States -> Utah] 
+
+  path: 2[214 -> 20134 -> 10001 -> 20118 -> 30992], [Soufriere Hills Soufriere Hills  volcano -> Montserrat -> America -> United States -> Colorado] 
+
+srcNodes: [235, 31030, 30992]
+  path: 0[235 -> 235], [Llullaillaco Llullaillaco Andes volcano -> Llullaillaco Llullaillaco Andes volcano]
+  path: 1[235 -> 20172 -> 10001 -> 20118 -> 31030], [Llullaillaco Llullaillaco Andes volcano -> Chile -> America -> United States -> Utah] 
+
+  path: 2[235 -> 20172 -> 10001 -> 20118 -> 30992], [Llullaillaco Llullaillaco Andes volcano -> Chile -> America -> United States -> Colorado] 
+
+-----------------------------------------
+ResultDestNodes: [31030, 90150, 30992, 185, 20118, 186, 187, 30991, 31014, 30989, 210, 80111, 30942, 80112, 30965, 195, 194, 189, 31017, 10001, 90151, 90144, 188, 217, 223, 222, 215, 216, 214, 235]
+ResultRelevs: [9.191049575805664, 8.590326309204102, 7.956459999084473, 6.436650276184082, 6.165339469909668, 5.867079734802246, 5.867079734802246, 5.263323783874512, 5.263323783874512, 5.263323783874512, 5.209980010986328, 4.926485061645508, 4.926485061645508, 4.926485061645508, 4.926485061645508, 4.744799613952637, 4.744799613952637, 4.744799613952637, 4.639459609985352, 4.618340015411377, 4.609545707702637, 4.609545707702637, 4.5401506423950195, 4.31702995300293, 4.31702995300293, 4.31702995300293, 4.31702995300293, 4.31702995300293, 4.31702995300293, 4.31702995300293]
+Num of top-k answers: 30
+Num of redundant answers: 6
+Num of duplicate answers: 11
+Num of entries retrieved from the lists: 469
+Num of entries retrieved from NKMaps: 506
+
+Blink Search Using BDB 30
+[mountain, utah, colorado]
+srcNodes: [185, 31030, 90150]
+  path: 0[31030 -> 185], [Utah -> Kings Peak Kings Peak Rocky Mountains ] 
+
+  path: 1[31030 -> 31030], [Utah -> Utah]
+  path: 2[31030 -> 90150], [Utah -> Colorado] 
+
+srcNodes: [186, 31030, 90150]
+  path: 0[90150 -> 30992 -> 186], [Colorado -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 1[90150 -> 31030], [Colorado -> Utah] 
+
+  path: 2[90150 -> 90150], [Colorado -> Colorado]
+srcNodes: [187, 31030, 30992]
+  path: 0[30992 -> 187], [Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[30992 -> 90150 -> 31030], [Colorado -> Colorado -> Utah] 
+
+  path: 2[30992 -> 30992], [Colorado -> Colorado]
+srcNodes: [185, 31030, 130005]
+  path: 0[185 -> 185], [Kings Peak Kings Peak Rocky Mountains  -> Kings Peak Kings Peak Rocky Mountains ]
+  path: 1[185 -> 31030], [Kings Peak Kings Peak Rocky Mountains  -> Utah] 
+
+  path: 2[185 -> 31030 -> 130005], [Kings Peak Kings Peak Rocky Mountains  -> Utah -> Colorado Plateau] 
+
+srcNodes: [210, 31030, 30992]
+  path: 0[20118 -> 10001 -> 20132 -> 210], [United States -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 1[20118 -> 31030], [United States -> Utah] 
+
+  path: 2[20118 -> 30992], [United States -> Colorado] 
+
+srcNodes: [186, 31030, 30992]
+  path: 0[186 -> 186], [Mt Elbert Mt Elbert Rocky Mountains  -> Mt Elbert Mt Elbert Rocky Mountains ]
+  path: 1[186 -> 30992 -> 90150 -> 31030], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado -> Colorado -> Utah] 
+
+  path: 2[186 -> 30992], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado] 
+
+srcNodes: [187, 31030, 30992]
+  path: 0[187 -> 187], [Pikes Peak Pikes Peak Rocky Mountains  -> Pikes Peak Pikes Peak Rocky Mountains ]
+  path: 1[187 -> 30992 -> 90150 -> 31030], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Colorado -> Utah] 
+
+  path: 2[187 -> 30992], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado] 
+
+srcNodes: [195, 31030, 90150]
+  path: 0[31014 -> 195], [Nevada -> Boundary Peak Boundary Peak Sierra Nevada California ] 
+
+  path: 1[31014 -> 90150 -> 31030], [Nevada -> Colorado -> Utah] 
+
+  path: 2[31014 -> 90150], [Nevada -> Colorado] 
+
+srcNodes: [189, 31030, 90150]
+  path: 0[30989 -> 189], [Arizona -> Humphreys Peak Humphreys Peak Rocky Mountains volcanic] 
+
+  path: 1[30989 -> 90150 -> 31030], [Arizona -> Colorado -> Utah] 
+
+  path: 2[30989 -> 90150], [Arizona -> Colorado] 
+
+srcNodes: [194, 31030, 90150]
+  path: 0[30991 -> 194], [California -> Mt Whitney Mt Whitney Sierra Nevada California ] 
+
+  path: 1[30991 -> 90150 -> 31030], [California -> Colorado -> Utah] 
+
+  path: 2[30991 -> 90150], [California -> Colorado] 
+
+srcNodes: [210, 31030, 30992]
+  path: 0[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 1[210 -> 20132 -> 10001 -> 20118 -> 31030], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> Utah] 
+
+  path: 2[210 -> 20132 -> 10001 -> 20118 -> 30992], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> Colorado] 
+
+srcNodes: [194, 31030, 90150]
+  path: 0[194 -> 194], [Mt Whitney Mt Whitney Sierra Nevada California  -> Mt Whitney Mt Whitney Sierra Nevada California ]
+  path: 1[194 -> 30991 -> 90150 -> 31030], [Mt Whitney Mt Whitney Sierra Nevada California  -> California -> Colorado -> Utah] 
+
+  path: 2[194 -> 30991 -> 90150], [Mt Whitney Mt Whitney Sierra Nevada California  -> California -> Colorado] 
+
+srcNodes: [189, 31030, 130005]
+  path: 0[189 -> 189], [Humphreys Peak Humphreys Peak Rocky Mountains volcanic -> Humphreys Peak Humphreys Peak Rocky Mountains volcanic]
+  path: 1[189 -> 30989 -> 90150 -> 31030], [Humphreys Peak Humphreys Peak Rocky Mountains volcanic -> Arizona -> Colorado -> Utah] 
+
+  path: 2[189 -> 30989 -> 130005], [Humphreys Peak Humphreys Peak Rocky Mountains volcanic -> Arizona -> Colorado Plateau] 
+
+srcNodes: [195, 31030, 90150]
+  path: 0[195 -> 195], [Boundary Peak Boundary Peak Sierra Nevada California  -> Boundary Peak Boundary Peak Sierra Nevada California ]
+  path: 1[195 -> 31014 -> 90150 -> 31030], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Colorado -> Utah] 
+
+  path: 2[195 -> 31014 -> 90150], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Colorado] 
+
+srcNodes: [188, 31030, 130005]
+  path: 0[31017 -> 188], [New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[31017 -> 90151 -> 30992 -> 90150 -> 31030], [New Mexico -> Rio Grande -> Colorado -> Colorado -> Utah] 
+
+  path: 2[31017 -> 130005], [New Mexico -> Colorado Plateau] 
+
+srcNodes: [210, 31030, 30992]
+  path: 0[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 1[10001 -> 20118 -> 31030], [America -> United States -> Utah] 
+
+  path: 2[10001 -> 20118 -> 30992], [America -> United States -> Colorado] 
+
+srcNodes: [188, 31030, 130005]
+  path: 0[188 -> 188], [Wheeler Peak Wheeler Peak Rocky Mountains  -> Wheeler Peak Wheeler Peak Rocky Mountains ]
+  path: 1[188 -> 31017 -> 90151 -> 30992 -> 90150 -> 31030], [Wheeler Peak Wheeler Peak Rocky Mountains  -> New Mexico -> Rio Grande -> Colorado -> Colorado -> Utah] 
+
+  path: 2[188 -> 31017 -> 130005], [Wheeler Peak Wheeler Peak Rocky Mountains  -> New Mexico -> Colorado Plateau] 
+
+srcNodes: [217, 31030, 30992]
+  path: 0[217 -> 217], [Pelee Pelee  volcano -> Pelee Pelee  volcano]
+  path: 1[217 -> 20133 -> 10001 -> 20118 -> 31030], [Pelee Pelee  volcano -> Martinique -> America -> United States -> Utah] 
+
+  path: 2[217 -> 20133 -> 10001 -> 20118 -> 30992], [Pelee Pelee  volcano -> Martinique -> America -> United States -> Colorado] 
+
+srcNodes: [223, 31030, 30992]
+  path: 0[223 -> 223], [Cotopaxi Cotopaxi Andes volcano -> Cotopaxi Cotopaxi Andes volcano]
+  path: 1[223 -> 20180 -> 10001 -> 20118 -> 31030], [Cotopaxi Cotopaxi Andes volcano -> Ecuador -> America -> United States -> Utah] 
+
+  path: 2[223 -> 20180 -> 10001 -> 20118 -> 30992], [Cotopaxi Cotopaxi Andes volcano -> Ecuador -> America -> United States -> Colorado] 
+
+srcNodes: [216, 31030, 30992]
+  path: 0[216 -> 216], [Morne Diablotins Morne Diablotins  volcano -> Morne Diablotins Morne Diablotins  volcano]
+  path: 1[216 -> 20124 -> 10001 -> 20118 -> 31030], [Morne Diablotins Morne Diablotins  volcano -> Dominica -> America -> United States -> Utah] 
+
+  path: 2[216 -> 20124 -> 10001 -> 20118 -> 30992], [Morne Diablotins Morne Diablotins  volcano -> Dominica -> America -> United States -> Colorado] 
+
+srcNodes: [206, 31030, 30992]
+  path: 0[206 -> 206], [Concepcion Concepcion  volcano -> Concepcion Concepcion  volcano]
+  path: 1[206 -> 20121 -> 10001 -> 20118 -> 31030], [Concepcion Concepcion  volcano -> Nicaragua -> America -> United States -> Utah] 
+
+  path: 2[206 -> 20121 -> 10001 -> 20118 -> 30992], [Concepcion Concepcion  volcano -> Nicaragua -> America -> United States -> Colorado] 
+
+srcNodes: [222, 31030, 30992]
+  path: 0[222 -> 222], [Cayambe Cayambe Andes volcano -> Cayambe Cayambe Andes volcano]
+  path: 1[222 -> 20180 -> 10001 -> 20118 -> 31030], [Cayambe Cayambe Andes volcano -> Ecuador -> America -> United States -> Utah] 
+
+  path: 2[222 -> 20180 -> 10001 -> 20118 -> 30992], [Cayambe Cayambe Andes volcano -> Ecuador -> America -> United States -> Colorado] 
+
+srcNodes: [234, 31030, 30992]
+  path: 0[234 -> 234], [Licancabur Licancabur Andes volcano -> Licancabur Licancabur Andes volcano]
+  path: 1[234 -> 20172 -> 10001 -> 20118 -> 31030], [Licancabur Licancabur Andes volcano -> Chile -> America -> United States -> Utah] 
+
+  path: 2[234 -> 20172 -> 10001 -> 20118 -> 30992], [Licancabur Licancabur Andes volcano -> Chile -> America -> United States -> Colorado] 
+
+srcNodes: [233, 31030, 30992]
+  path: 0[233 -> 233], [Sajama Sajama Andes volcano -> Sajama Sajama Andes volcano]
+  path: 1[233 -> 20170 -> 10001 -> 20118 -> 31030], [Sajama Sajama Andes volcano -> Bolivia -> America -> United States -> Utah] 
+
+  path: 2[233 -> 20170 -> 10001 -> 20118 -> 30992], [Sajama Sajama Andes volcano -> Bolivia -> America -> United States -> Colorado] 
+
+srcNodes: [211, 31030, 30992]
+  path: 0[211 -> 211], [Pico Duarte Pico Duarte   -> Pico Duarte Pico Duarte  ]
+  path: 1[211 -> 20125 -> 10001 -> 20118 -> 31030], [Pico Duarte Pico Duarte   -> Dominican Republic -> America -> United States -> Utah] 
+
+  path: 2[211 -> 20125 -> 10001 -> 20118 -> 30992], [Pico Duarte Pico Duarte   -> Dominican Republic -> America -> United States -> Colorado] 
+
+srcNodes: [214, 31030, 30992]
+  path: 0[214 -> 214], [Soufriere Hills Soufriere Hills  volcano -> Soufriere Hills Soufriere Hills  volcano]
+  path: 1[214 -> 20134 -> 10001 -> 20118 -> 31030], [Soufriere Hills Soufriere Hills  volcano -> Montserrat -> America -> United States -> Utah] 
+
+  path: 2[214 -> 20134 -> 10001 -> 20118 -> 30992], [Soufriere Hills Soufriere Hills  volcano -> Montserrat -> America -> United States -> Colorado] 
+
+srcNodes: [212, 31030, 30992]
+  path: 0[212 -> 212], [Cerro de Punta Cerro de Punta   -> Cerro de Punta Cerro de Punta  ]
+  path: 1[212 -> 20138 -> 10001 -> 20118 -> 31030], [Cerro de Punta Cerro de Punta   -> Puerto Rico -> America -> United States -> Utah] 
+
+  path: 2[212 -> 20138 -> 10001 -> 20118 -> 30992], [Cerro de Punta Cerro de Punta   -> Puerto Rico -> America -> United States -> Colorado] 
+
+srcNodes: [235, 31030, 30992]
+  path: 0[235 -> 235], [Llullaillaco Llullaillaco Andes volcano -> Llullaillaco Llullaillaco Andes volcano]
+  path: 1[235 -> 20172 -> 10001 -> 20118 -> 31030], [Llullaillaco Llullaillaco Andes volcano -> Chile -> America -> United States -> Utah] 
+
+  path: 2[235 -> 20172 -> 10001 -> 20118 -> 30992], [Llullaillaco Llullaillaco Andes volcano -> Chile -> America -> United States -> Colorado] 
+
+srcNodes: [213, 31030, 30992]
+  path: 0[213 -> 213], [La Soufriere La Soufriere  volcano -> La Soufriere La Soufriere  volcano]
+  path: 1[213 -> 20131 -> 10001 -> 20118 -> 31030], [La Soufriere La Soufriere  volcano -> Guadeloupe -> America -> United States -> Utah] 
+
+  path: 2[213 -> 20131 -> 10001 -> 20118 -> 30992], [La Soufriere La Soufriere  volcano -> Guadeloupe -> America -> United States -> Colorado] 
+
+srcNodes: [215, 31030, 30992]
+  path: 0[215 -> 215], [Soufriere Soufriere  volcano -> Soufriere Soufriere  volcano]
+  path: 1[215 -> 20142 -> 10001 -> 20118 -> 31030], [Soufriere Soufriere  volcano -> Saint Vincent and the Grenadines -> America -> United States -> Utah] 
+
+  path: 2[215 -> 20142 -> 10001 -> 20118 -> 30992], [Soufriere Soufriere  volcano -> Saint Vincent and the Grenadines -> America -> United States -> Colorado] 
+
+-----------------------------------------
+ResultDestNodes: [31030, 90150, 30992, 185, 20118, 186, 187, 31014, 30989, 30991, 210, 194, 189, 195, 31017, 10001, 188, 217, 223, 216, 206, 222, 234, 233, 211, 214, 212, 235, 213, 215]
+ResultRelevs: [9.191049575805664, 8.590326309204102, 7.956459999084473, 6.436650276184082, 6.165339469909668, 5.867079734802246, 5.867079734802246, 5.263323783874512, 5.263323783874512, 5.263323783874512, 5.209980010986328, 4.744799613952637, 4.744799613952637, 4.744799613952637, 4.639459609985352, 4.618340015411377, 4.5401506423950195, 4.31702995300293, 4.31702995300293, 4.31702995300293, 4.31702995300293, 4.31702995300293, 4.31702995300293, 4.31702995300293, 4.31702995300293, 4.31702995300293, 4.31702995300293, 4.31702995300293, 4.31702995300293, 4.31702995300293]
+Num of top-k answers: 30
+Num of redundant answers: 0
+Num of duplicate answers: 6
+Num of entries retrieved from the lists: 469
+Num of entries retrieved from NKMaps: 506
+
+Blink Search Using BDB_reduced 30
+[mountain, utah, colorado]
+srcNodes: [185, 31030, 90150]
+  path: 0[31030 -> 185], [Utah -> Kings Peak Kings Peak Rocky Mountains ] 
+
+  path: 1[31030 -> 31030], [Utah -> Utah]
+  path: 2[31030 -> 90150], [Utah -> Colorado] 
+
+srcNodes: [186, 31030, 90150]
+  path: 0[90150 -> 30992 -> 186], [Colorado -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 1[90150 -> 31030], [Colorado -> Utah] 
+
+  path: 2[90150 -> 90150], [Colorado -> Colorado]
+srcNodes: [187, 31030, 30992]
+  path: 0[30992 -> 187], [Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[30992 -> 90150 -> 31030], [Colorado -> Colorado -> Utah] 
+
+  path: 2[30992 -> 30992], [Colorado -> Colorado]
+srcNodes: [185, 31030, 130005]
+  path: 0[185 -> 185], [Kings Peak Kings Peak Rocky Mountains  -> Kings Peak Kings Peak Rocky Mountains ]
+  path: 1[185 -> 31030], [Kings Peak Kings Peak Rocky Mountains  -> Utah] 
+
+  path: 2[185 -> 31030 -> 130005], [Kings Peak Kings Peak Rocky Mountains  -> Utah -> Colorado Plateau] 
+
+srcNodes: [210, 31030, 30992]
+  path: 0[20118 -> 10001 -> 20132 -> 210], [United States -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 1[20118 -> 31030], [United States -> Utah] 
+
+  path: 2[20118 -> 30992], [United States -> Colorado] 
+
+srcNodes: [186, 31030, 30992]
+  path: 0[186 -> 186], [Mt Elbert Mt Elbert Rocky Mountains  -> Mt Elbert Mt Elbert Rocky Mountains ]
+  path: 1[186 -> 30992 -> 90150 -> 31030], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado -> Colorado -> Utah] 
+
+  path: 2[186 -> 30992], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado] 
+
+srcNodes: [187, 31030, 30992]
+  path: 0[187 -> 187], [Pikes Peak Pikes Peak Rocky Mountains  -> Pikes Peak Pikes Peak Rocky Mountains ]
+  path: 1[187 -> 30992 -> 90150 -> 31030], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Colorado -> Utah] 
+
+  path: 2[187 -> 30992], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado] 
+
+srcNodes: [195, 31030, 90150]
+  path: 0[31014 -> 195], [Nevada -> Boundary Peak Boundary Peak Sierra Nevada California ] 
+
+  path: 1[31014 -> 90150 -> 31030], [Nevada -> Colorado -> Utah] 
+
+  path: 2[31014 -> 90150], [Nevada -> Colorado] 
+
+srcNodes: [189, 31030, 90150]
+  path: 0[30989 -> 189], [Arizona -> Humphreys Peak Humphreys Peak Rocky Mountains volcanic] 
+
+  path: 1[30989 -> 90150 -> 31030], [Arizona -> Colorado -> Utah] 
+
+  path: 2[30989 -> 90150], [Arizona -> Colorado] 
+
+srcNodes: [194, 31030, 90150]
+  path: 0[30991 -> 194], [California -> Mt Whitney Mt Whitney Sierra Nevada California ] 
+
+  path: 1[30991 -> 90150 -> 31030], [California -> Colorado -> Utah] 
+
+  path: 2[30991 -> 90150], [California -> Colorado] 
+
+srcNodes: [210, 31030, 30992]
+  path: 0[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 1[210 -> 20132 -> 10001 -> 20118 -> 31030], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> Utah] 
+
+  path: 2[210 -> 20132 -> 10001 -> 20118 -> 30992], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> Colorado] 
+
+srcNodes: [194, 31030, 90150]
+  path: 0[194 -> 194], [Mt Whitney Mt Whitney Sierra Nevada California  -> Mt Whitney Mt Whitney Sierra Nevada California ]
+  path: 1[194 -> 30991 -> 90150 -> 31030], [Mt Whitney Mt Whitney Sierra Nevada California  -> California -> Colorado -> Utah] 
+
+  path: 2[194 -> 30991 -> 90150], [Mt Whitney Mt Whitney Sierra Nevada California  -> California -> Colorado] 
+
+srcNodes: [195, 31030, 90150]
+  path: 0[195 -> 195], [Boundary Peak Boundary Peak Sierra Nevada California  -> Boundary Peak Boundary Peak Sierra Nevada California ]
+  path: 1[195 -> 31014 -> 90150 -> 31030], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Colorado -> Utah] 
+
+  path: 2[195 -> 31014 -> 90150], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Colorado] 
+
+srcNodes: [189, 31030, 130005]
+  path: 0[189 -> 189], [Humphreys Peak Humphreys Peak Rocky Mountains volcanic -> Humphreys Peak Humphreys Peak Rocky Mountains volcanic]
+  path: 1[189 -> 30989 -> 90150 -> 31030], [Humphreys Peak Humphreys Peak Rocky Mountains volcanic -> Arizona -> Colorado -> Utah] 
+
+  path: 2[189 -> 30989 -> 130005], [Humphreys Peak Humphreys Peak Rocky Mountains volcanic -> Arizona -> Colorado Plateau] 
+
+srcNodes: [188, 31030, 130005]
+  path: 0[31017 -> 188], [New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[31017 -> 90151 -> 30992 -> 90150 -> 31030], [New Mexico -> Rio Grande -> Colorado -> Colorado -> Utah] 
+
+  path: 2[31017 -> 130005], [New Mexico -> Colorado Plateau] 
+
+srcNodes: [210, 31030, 30992]
+  path: 0[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 1[10001 -> 20118 -> 31030], [America -> United States -> Utah] 
+
+  path: 2[10001 -> 20118 -> 30992], [America -> United States -> Colorado] 
+
+srcNodes: [188, 31030, 30992]
+  path: 0[90151 -> 31017 -> 188], [Rio Grande -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[90151 -> 30992 -> 90150 -> 31030], [Rio Grande -> Colorado -> Colorado -> Utah] 
+
+  path: 2[90151 -> 30992], [Rio Grande -> Colorado] 
+
+srcNodes: [188, 31030, 130005]
+  path: 0[188 -> 188], [Wheeler Peak Wheeler Peak Rocky Mountains  -> Wheeler Peak Wheeler Peak Rocky Mountains ]
+  path: 1[188 -> 31017 -> 90151 -> 30992 -> 90150 -> 31030], [Wheeler Peak Wheeler Peak Rocky Mountains  -> New Mexico -> Rio Grande -> Colorado -> Colorado -> Utah] 
+
+  path: 2[188 -> 31017 -> 130005], [Wheeler Peak Wheeler Peak Rocky Mountains  -> New Mexico -> Colorado Plateau] 
+
+srcNodes: [199, 31030, 30992]
+  path: 0[90144 -> 30990 -> 90142 -> 31028 -> 199], [Arkansas -> Arkansas -> Mississippi -> Tennessee -> Clingmans Dome Clingmans Dome Appalachen ] 
+
+  path: 1[90144 -> 30992 -> 90150 -> 31030], [Arkansas -> Colorado -> Colorado -> Utah] 
+
+  path: 2[90144 -> 30992], [Arkansas -> Colorado] 
+
+srcNodes: [235, 31030, 30992]
+  path: 0[235 -> 235], [Llullaillaco Llullaillaco Andes volcano -> Llullaillaco Llullaillaco Andes volcano]
+  path: 1[235 -> 20172 -> 10001 -> 20118 -> 31030], [Llullaillaco Llullaillaco Andes volcano -> Chile -> America -> United States -> Utah] 
+
+  path: 2[235 -> 20172 -> 10001 -> 20118 -> 30992], [Llullaillaco Llullaillaco Andes volcano -> Chile -> America -> United States -> Colorado] 
+
+srcNodes: [233, 31030, 30992]
+  path: 0[233 -> 233], [Sajama Sajama Andes volcano -> Sajama Sajama Andes volcano]
+  path: 1[233 -> 20170 -> 10001 -> 20118 -> 31030], [Sajama Sajama Andes volcano -> Bolivia -> America -> United States -> Utah] 
+
+  path: 2[233 -> 20170 -> 10001 -> 20118 -> 30992], [Sajama Sajama Andes volcano -> Bolivia -> America -> United States -> Colorado] 
+
+srcNodes: [216, 31030, 30992]
+  path: 0[216 -> 216], [Morne Diablotins Morne Diablotins  volcano -> Morne Diablotins Morne Diablotins  volcano]
+  path: 1[216 -> 20124 -> 10001 -> 20118 -> 31030], [Morne Diablotins Morne Diablotins  volcano -> Dominica -> America -> United States -> Utah] 
+
+  path: 2[216 -> 20124 -> 10001 -> 20118 -> 30992], [Morne Diablotins Morne Diablotins  volcano -> Dominica -> America -> United States -> Colorado] 
+
+srcNodes: [217, 31030, 30992]
+  path: 0[217 -> 217], [Pelee Pelee  volcano -> Pelee Pelee  volcano]
+  path: 1[217 -> 20133 -> 10001 -> 20118 -> 31030], [Pelee Pelee  volcano -> Martinique -> America -> United States -> Utah] 
+
+  path: 2[217 -> 20133 -> 10001 -> 20118 -> 30992], [Pelee Pelee  volcano -> Martinique -> America -> United States -> Colorado] 
+
+srcNodes: [223, 31030, 30992]
+  path: 0[223 -> 223], [Cotopaxi Cotopaxi Andes volcano -> Cotopaxi Cotopaxi Andes volcano]
+  path: 1[223 -> 20180 -> 10001 -> 20118 -> 31030], [Cotopaxi Cotopaxi Andes volcano -> Ecuador -> America -> United States -> Utah] 
+
+  path: 2[223 -> 20180 -> 10001 -> 20118 -> 30992], [Cotopaxi Cotopaxi Andes volcano -> Ecuador -> America -> United States -> Colorado] 
+
+srcNodes: [206, 31030, 30992]
+  path: 0[206 -> 206], [Concepcion Concepcion  volcano -> Concepcion Concepcion  volcano]
+  path: 1[206 -> 20121 -> 10001 -> 20118 -> 31030], [Concepcion Concepcion  volcano -> Nicaragua -> America -> United States -> Utah] 
+
+  path: 2[206 -> 20121 -> 10001 -> 20118 -> 30992], [Concepcion Concepcion  volcano -> Nicaragua -> America -> United States -> Colorado] 
+
+srcNodes: [222, 31030, 30992]
+  path: 0[222 -> 222], [Cayambe Cayambe Andes volcano -> Cayambe Cayambe Andes volcano]
+  path: 1[222 -> 20180 -> 10001 -> 20118 -> 31030], [Cayambe Cayambe Andes volcano -> Ecuador -> America -> United States -> Utah] 
+
+  path: 2[222 -> 20180 -> 10001 -> 20118 -> 30992], [Cayambe Cayambe Andes volcano -> Ecuador -> America -> United States -> Colorado] 
+
+srcNodes: [214, 31030, 30992]
+  path: 0[214 -> 214], [Soufriere Hills Soufriere Hills  volcano -> Soufriere Hills Soufriere Hills  volcano]
+  path: 1[214 -> 20134 -> 10001 -> 20118 -> 31030], [Soufriere Hills Soufriere Hills  volcano -> Montserrat -> America -> United States -> Utah] 
+
+  path: 2[214 -> 20134 -> 10001 -> 20118 -> 30992], [Soufriere Hills Soufriere Hills  volcano -> Montserrat -> America -> United States -> Colorado] 
+
+srcNodes: [234, 31030, 30992]
+  path: 0[234 -> 234], [Licancabur Licancabur Andes volcano -> Licancabur Licancabur Andes volcano]
+  path: 1[234 -> 20172 -> 10001 -> 20118 -> 31030], [Licancabur Licancabur Andes volcano -> Chile -> America -> United States -> Utah] 
+
+  path: 2[234 -> 20172 -> 10001 -> 20118 -> 30992], [Licancabur Licancabur Andes volcano -> Chile -> America -> United States -> Colorado] 
+
+srcNodes: [215, 31030, 30992]
+  path: 0[215 -> 215], [Soufriere Soufriere  volcano -> Soufriere Soufriere  volcano]
+  path: 1[215 -> 20142 -> 10001 -> 20118 -> 31030], [Soufriere Soufriere  volcano -> Saint Vincent and the Grenadines -> America -> United States -> Utah] 
+
+  path: 2[215 -> 20142 -> 10001 -> 20118 -> 30992], [Soufriere Soufriere  volcano -> Saint Vincent and the Grenadines -> America -> United States -> Colorado] 
+
+srcNodes: [211, 31030, 30992]
+  path: 0[211 -> 211], [Pico Duarte Pico Duarte   -> Pico Duarte Pico Duarte  ]
+  path: 1[211 -> 20125 -> 10001 -> 20118 -> 31030], [Pico Duarte Pico Duarte   -> Dominican Republic -> America -> United States -> Utah] 
+
+  path: 2[211 -> 20125 -> 10001 -> 20118 -> 30992], [Pico Duarte Pico Duarte   -> Dominican Republic -> America -> United States -> Colorado] 
+
+-----------------------------------------
+ResultDestNodes: [31030, 90150, 30992, 185, 20118, 186, 187, 31014, 30989, 30991, 210, 194, 195, 189, 31017, 10001, 90151, 188, 90144, 235, 233, 216, 217, 223, 206, 222, 214, 234, 215, 211]
+ResultRelevs: [9.191049575805664, 8.590326309204102, 7.956459999084473, 6.436650276184082, 6.165339469909668, 5.867079734802246, 5.867079734802246, 5.263323783874512, 5.263323783874512, 5.263323783874512, 5.209980010986328, 4.744799613952637, 4.744799613952637, 4.744799613952637, 4.639459609985352, 4.618340015411377, 4.609545707702637, 4.5401506423950195, 4.411933898925781, 4.31702995300293, 4.31702995300293, 4.31702995300293, 4.31702995300293, 4.31702995300293, 4.31702995300293, 4.31702995300293, 4.31702995300293, 4.31702995300293, 4.31702995300293, 4.31702995300293]
+Num of top-k answers: 30
+Num of redundant answers: 0
+Num of duplicate answers: 6
+Num of entries retrieved from the lists: 469
+Num of entries retrieved from NKMaps: 830
+Num of redundant candidate answers found: 108
+Num of reduced alternative answers found: 16
+
+Blink Search Using BDB_reducedNunique 30
+[mountain, utah, colorado]
+srcNodes: [185, 31030, 90150]
+  path: 0[31030 -> 185], [Utah -> Kings Peak Kings Peak Rocky Mountains ] 
+
+  path: 1[31030 -> 31030], [Utah -> Utah]
+  path: 2[31030 -> 90150], [Utah -> Colorado] 
+
+srcNodes: [186, 31030, 90150]
+  path: 0[90150 -> 30992 -> 186], [Colorado -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 1[90150 -> 31030], [Colorado -> Utah] 
+
+  path: 2[90150 -> 90150], [Colorado -> Colorado]
+srcNodes: [187, 31030, 30992]
+  path: 0[30992 -> 187], [Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[30992 -> 90150 -> 31030], [Colorado -> Colorado -> Utah] 
+
+  path: 2[30992 -> 30992], [Colorado -> Colorado]
+srcNodes: [185, 31030, 130005]
+  path: 0[185 -> 185], [Kings Peak Kings Peak Rocky Mountains  -> Kings Peak Kings Peak Rocky Mountains ]
+  path: 1[185 -> 31030], [Kings Peak Kings Peak Rocky Mountains  -> Utah] 
+
+  path: 2[185 -> 31030 -> 130005], [Kings Peak Kings Peak Rocky Mountains  -> Utah -> Colorado Plateau] 
+
+srcNodes: [210, 31030, 30992]
+  path: 0[20118 -> 10001 -> 20132 -> 210], [United States -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 1[20118 -> 31030], [United States -> Utah] 
+
+  path: 2[20118 -> 30992], [United States -> Colorado] 
+
+srcNodes: [186, 31030, 30992]
+  path: 0[186 -> 186], [Mt Elbert Mt Elbert Rocky Mountains  -> Mt Elbert Mt Elbert Rocky Mountains ]
+  path: 1[186 -> 30992 -> 90150 -> 31030], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado -> Colorado -> Utah] 
+
+  path: 2[186 -> 30992], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado] 
+
+srcNodes: [195, 31030, 90150]
+  path: 0[31014 -> 195], [Nevada -> Boundary Peak Boundary Peak Sierra Nevada California ] 
+
+  path: 1[31014 -> 90150 -> 31030], [Nevada -> Colorado -> Utah] 
+
+  path: 2[31014 -> 90150], [Nevada -> Colorado] 
+
+srcNodes: [189, 31030, 90150]
+  path: 0[30989 -> 189], [Arizona -> Humphreys Peak Humphreys Peak Rocky Mountains volcanic] 
+
+  path: 1[30989 -> 90150 -> 31030], [Arizona -> Colorado -> Utah] 
+
+  path: 2[30989 -> 90150], [Arizona -> Colorado] 
+
+srcNodes: [194, 31030, 90150]
+  path: 0[30991 -> 194], [California -> Mt Whitney Mt Whitney Sierra Nevada California ] 
+
+  path: 1[30991 -> 90150 -> 31030], [California -> Colorado -> Utah] 
+
+  path: 2[30991 -> 90150], [California -> Colorado] 
+
+srcNodes: [210, 31030, 130005]
+  path: 0[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 1[210 -> 20132 -> 10001 -> 20118 -> 31030], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> Utah] 
+
+  path: 2[210 -> 20132 -> 10001 -> 20118 -> 31030 -> 130005], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> Utah -> Colorado Plateau] 
+
+srcNodes: [187, 31030, 90150]
+  path: 0[187 -> 187], [Pikes Peak Pikes Peak Rocky Mountains  -> Pikes Peak Pikes Peak Rocky Mountains ]
+  path: 1[187 -> 30992 -> 90150 -> 31030], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Colorado -> Utah] 
+
+  path: 2[187 -> 30992 -> 90150], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Colorado] 
+
+srcNodes: [189, 31030, 130005]
+  path: 0[189 -> 189], [Humphreys Peak Humphreys Peak Rocky Mountains volcanic -> Humphreys Peak Humphreys Peak Rocky Mountains volcanic]
+  path: 1[189 -> 30989 -> 90150 -> 31030], [Humphreys Peak Humphreys Peak Rocky Mountains volcanic -> Arizona -> Colorado -> Utah] 
+
+  path: 2[189 -> 30989 -> 130005], [Humphreys Peak Humphreys Peak Rocky Mountains volcanic -> Arizona -> Colorado Plateau] 
+
+srcNodes: [188, 31030, 130005]
+  path: 0[31017 -> 188], [New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[31017 -> 90151 -> 30992 -> 90150 -> 31030], [New Mexico -> Rio Grande -> Colorado -> Colorado -> Utah] 
+
+  path: 2[31017 -> 130005], [New Mexico -> Colorado Plateau] 
+
+srcNodes: [188, 31030, 30992]
+  path: 0[90151 -> 31017 -> 188], [Rio Grande -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[90151 -> 30992 -> 90150 -> 31030], [Rio Grande -> Colorado -> Colorado -> Utah] 
+
+  path: 2[90151 -> 30992], [Rio Grande -> Colorado] 
+
+srcNodes: [199, 31030, 30992]
+  path: 0[90144 -> 30990 -> 90142 -> 31028 -> 199], [Arkansas -> Arkansas -> Mississippi -> Tennessee -> Clingmans Dome Clingmans Dome Appalachen ] 
+
+  path: 1[90144 -> 30992 -> 90150 -> 31030], [Arkansas -> Colorado -> Colorado -> Utah] 
+
+  path: 2[90144 -> 30992], [Arkansas -> Colorado] 
+
+srcNodes: [194, 31030, 30992]
+  path: 0[194 -> 194], [Mt Whitney Mt Whitney Sierra Nevada California  -> Mt Whitney Mt Whitney Sierra Nevada California ]
+  path: 1[194 -> 30991 -> 90150 -> 31030], [Mt Whitney Mt Whitney Sierra Nevada California  -> California -> Colorado -> Utah] 
+
+  path: 2[194 -> 30991 -> 90150 -> 30992], [Mt Whitney Mt Whitney Sierra Nevada California  -> California -> Colorado -> Colorado] 
+
+srcNodes: [195, 31030, 30992]
+  path: 0[195 -> 195], [Boundary Peak Boundary Peak Sierra Nevada California  -> Boundary Peak Boundary Peak Sierra Nevada California ]
+  path: 1[195 -> 31014 -> 90150 -> 31030], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Colorado -> Utah] 
+
+  path: 2[195 -> 31014 -> 90150 -> 30992], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Colorado -> Colorado] 
+
+srcNodes: [215, 31030, 30992]
+  path: 0[215 -> 215], [Soufriere Soufriere  volcano -> Soufriere Soufriere  volcano]
+  path: 1[215 -> 20142 -> 10001 -> 20118 -> 31030], [Soufriere Soufriere  volcano -> Saint Vincent and the Grenadines -> America -> United States -> Utah] 
+
+  path: 2[215 -> 20142 -> 10001 -> 20118 -> 30992], [Soufriere Soufriere  volcano -> Saint Vincent and the Grenadines -> America -> United States -> Colorado] 
+
+srcNodes: [222, 31030, 30992]
+  path: 0[222 -> 222], [Cayambe Cayambe Andes volcano -> Cayambe Cayambe Andes volcano]
+  path: 1[222 -> 20180 -> 10001 -> 20118 -> 31030], [Cayambe Cayambe Andes volcano -> Ecuador -> America -> United States -> Utah] 
+
+  path: 2[222 -> 20180 -> 10001 -> 20118 -> 30992], [Cayambe Cayambe Andes volcano -> Ecuador -> America -> United States -> Colorado] 
+
+srcNodes: [214, 31030, 30992]
+  path: 0[214 -> 214], [Soufriere Hills Soufriere Hills  volcano -> Soufriere Hills Soufriere Hills  volcano]
+  path: 1[214 -> 20134 -> 10001 -> 20118 -> 31030], [Soufriere Hills Soufriere Hills  volcano -> Montserrat -> America -> United States -> Utah] 
+
+  path: 2[214 -> 20134 -> 10001 -> 20118 -> 30992], [Soufriere Hills Soufriere Hills  volcano -> Montserrat -> America -> United States -> Colorado] 
+
+srcNodes: [234, 31030, 30992]
+  path: 0[234 -> 234], [Licancabur Licancabur Andes volcano -> Licancabur Licancabur Andes volcano]
+  path: 1[234 -> 20172 -> 10001 -> 20118 -> 31030], [Licancabur Licancabur Andes volcano -> Chile -> America -> United States -> Utah] 
+
+  path: 2[234 -> 20172 -> 10001 -> 20118 -> 30992], [Licancabur Licancabur Andes volcano -> Chile -> America -> United States -> Colorado] 
+
+srcNodes: [216, 31030, 30992]
+  path: 0[216 -> 216], [Morne Diablotins Morne Diablotins  volcano -> Morne Diablotins Morne Diablotins  volcano]
+  path: 1[216 -> 20124 -> 10001 -> 20118 -> 31030], [Morne Diablotins Morne Diablotins  volcano -> Dominica -> America -> United States -> Utah] 
+
+  path: 2[216 -> 20124 -> 10001 -> 20118 -> 30992], [Morne Diablotins Morne Diablotins  volcano -> Dominica -> America -> United States -> Colorado] 
+
+srcNodes: [223, 31030, 30992]
+  path: 0[223 -> 223], [Cotopaxi Cotopaxi Andes volcano -> Cotopaxi Cotopaxi Andes volcano]
+  path: 1[223 -> 20180 -> 10001 -> 20118 -> 31030], [Cotopaxi Cotopaxi Andes volcano -> Ecuador -> America -> United States -> Utah] 
+
+  path: 2[223 -> 20180 -> 10001 -> 20118 -> 30992], [Cotopaxi Cotopaxi Andes volcano -> Ecuador -> America -> United States -> Colorado] 
+
+srcNodes: [217, 31030, 30992]
+  path: 0[217 -> 217], [Pelee Pelee  volcano -> Pelee Pelee  volcano]
+  path: 1[217 -> 20133 -> 10001 -> 20118 -> 31030], [Pelee Pelee  volcano -> Martinique -> America -> United States -> Utah] 
+
+  path: 2[217 -> 20133 -> 10001 -> 20118 -> 30992], [Pelee Pelee  volcano -> Martinique -> America -> United States -> Colorado] 
+
+srcNodes: [211, 31030, 30992]
+  path: 0[211 -> 211], [Pico Duarte Pico Duarte   -> Pico Duarte Pico Duarte  ]
+  path: 1[211 -> 20125 -> 10001 -> 20118 -> 31030], [Pico Duarte Pico Duarte   -> Dominican Republic -> America -> United States -> Utah] 
+
+  path: 2[211 -> 20125 -> 10001 -> 20118 -> 30992], [Pico Duarte Pico Duarte   -> Dominican Republic -> America -> United States -> Colorado] 
+
+srcNodes: [206, 31030, 30992]
+  path: 0[206 -> 206], [Concepcion Concepcion  volcano -> Concepcion Concepcion  volcano]
+  path: 1[206 -> 20121 -> 10001 -> 20118 -> 31030], [Concepcion Concepcion  volcano -> Nicaragua -> America -> United States -> Utah] 
+
+  path: 2[206 -> 20121 -> 10001 -> 20118 -> 30992], [Concepcion Concepcion  volcano -> Nicaragua -> America -> United States -> Colorado] 
+
+srcNodes: [233, 31030, 30992]
+  path: 0[233 -> 233], [Sajama Sajama Andes volcano -> Sajama Sajama Andes volcano]
+  path: 1[233 -> 20170 -> 10001 -> 20118 -> 31030], [Sajama Sajama Andes volcano -> Bolivia -> America -> United States -> Utah] 
+
+  path: 2[233 -> 20170 -> 10001 -> 20118 -> 30992], [Sajama Sajama Andes volcano -> Bolivia -> America -> United States -> Colorado] 
+
+srcNodes: [235, 31030, 30992]
+  path: 0[235 -> 235], [Llullaillaco Llullaillaco Andes volcano -> Llullaillaco Llullaillaco Andes volcano]
+  path: 1[235 -> 20172 -> 10001 -> 20118 -> 31030], [Llullaillaco Llullaillaco Andes volcano -> Chile -> America -> United States -> Utah] 
+
+  path: 2[235 -> 20172 -> 10001 -> 20118 -> 30992], [Llullaillaco Llullaillaco Andes volcano -> Chile -> America -> United States -> Colorado] 
+
+srcNodes: [212, 31030, 30992]
+  path: 0[212 -> 212], [Cerro de Punta Cerro de Punta   -> Cerro de Punta Cerro de Punta  ]
+  path: 1[212 -> 20138 -> 10001 -> 20118 -> 31030], [Cerro de Punta Cerro de Punta   -> Puerto Rico -> America -> United States -> Utah] 
+
+  path: 2[212 -> 20138 -> 10001 -> 20118 -> 30992], [Cerro de Punta Cerro de Punta   -> Puerto Rico -> America -> United States -> Colorado] 
+
+srcNodes: [213, 31030, 30992]
+  path: 0[213 -> 213], [La Soufriere La Soufriere  volcano -> La Soufriere La Soufriere  volcano]
+  path: 1[213 -> 20131 -> 10001 -> 20118 -> 31030], [La Soufriere La Soufriere  volcano -> Guadeloupe -> America -> United States -> Utah] 
+
+  path: 2[213 -> 20131 -> 10001 -> 20118 -> 30992], [La Soufriere La Soufriere  volcano -> Guadeloupe -> America -> United States -> Colorado] 
+
+-----------------------------------------
+ResultDestNodes: [31030, 90150, 30992, 185, 20118, 186, 31014, 30989, 30991, 210, 187, 189, 31017, 90151, 90144, 194, 195, 215, 222, 214, 234, 216, 223, 217, 211, 206, 233, 235, 212, 213]
+ResultRelevs: [9.191049575805664, 8.590326309204102, 7.956459999084473, 6.436650276184082, 6.165339469909668, 5.867079734802246, 5.263323783874512, 5.263323783874512, 5.263323783874512, 5.039423942565918, 5.014269828796387, 4.744799613952637, 4.639459609985352, 4.609545707702637, 4.411933898925781, 4.318399906158447, 4.318399906158447, 4.31702995300293, 4.31702995300293, 4.31702995300293, 4.31702995300293, 4.31702995300293, 4.31702995300293, 4.31702995300293, 4.31702995300293, 4.31702995300293, 4.31702995300293, 4.31702995300293, 4.31702995300293, 4.31702995300293]
+Num of top-k answers: 30
+Num of redundant answers in top-k answers: 0
+Num of duplicate answers in top-k answers: 0
+Num of entries retrieved from the lists: 371
+Num of redundant candidate answers found: 98
+Num of reduced alternative answers found: 13
+Num of duplicate candidate answers found: 18
+Num of unique alternative answers found: 8
+

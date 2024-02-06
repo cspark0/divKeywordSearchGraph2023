@@ -1,0 +1,55 @@
+Top-k Search by Blink-BDB, k=3
+[himalaya, india, pakistan]
+srcNodes: [127, 20065, 20055]
+  path: 0[20065 -> 30749 -> 127], [India -> Sikkim -> Kangchendzonga Kangchendzonga Himalaya ] 
+
+  path: 1[20065 -> 20065], [India -> India]
+  path: 2[20065 -> 10002 -> 20055], [India -> Asia -> Pakistan] 
+
+srcNodes: [125, 20065, 20055]
+  path: 0[20055 -> 10002 -> 20079 -> 125], [Pakistan -> Asia -> Nepal -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[20055 -> 10002 -> 20065], [Pakistan -> Asia -> India] 
+
+  path: 2[20055 -> 20055], [Pakistan -> Pakistan]
+srcNodes: [118, 20065, 20055]
+  path: 0[10002 -> 20079 -> 118], [Asia -> Nepal -> Dhaulagiri Dhaulagiri Himalaya ] 
+
+  path: 1[10002 -> 20065], [Asia -> India] 
+
+  path: 2[10002 -> 20055], [Asia -> Pakistan] 
+
+-----------------------------------------
+Num of top-k answers: 3
+ResultDestNodes: [20065, 20055, 10002]
+ResultRelevs: [8.421239852905273, 7.993104934692383, 6.579249858856201]
+AvgResultRelev: 7.664531548817952
+AvgResultDissimilarity: 0.5
+Num of entries retrieved from the lists: 32
+Num of entries retrieved from NKMaps: 57
+Num of answer trees explored: 28
+
+Div Top-k Search by DivTopKAstar13
+[himalaya, india, pakistan]
+div top-k answers for q do not exist in G!
+
+Div Top-k Search by DivTopKAstar23
+[himalaya, india, pakistan]
+div top-k answers for q do not exist in G!
+
+Div Top-k Search by DivTopKAstar2m3
+[himalaya, india, pakistan]
+div top-k answers for q do not exist in G!
+
+Div Top-k Search by DivTopKAstar33
+[himalaya, india, pakistan]
+div top-k answers for q do not exist in G!
+
+Div Top-k Search by DivTopKAstar43
+[himalaya, india, pakistan]
+div top-k answers for q do not exist in G!
+
+Div Top-k Search by DivTopKExhustive3
+[himalaya, india, pakistan]
+div top-k answers for q do not exist in G!
+

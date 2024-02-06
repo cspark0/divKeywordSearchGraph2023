@@ -1,0 +1,11 @@
+Top-k, (AvgResultRelev, AvgResultRelev/ResultRelevs[0], AvgResultDiss) numOfKNListsRead, numOfNKMapLookups, numOfAnswerTreesExplored, elapseTime, numOfStatesCreated, numOfStatesExplored, numOfHeuristicSearchPerformed, numOfATSPrunnedByDissCond, numOfLocalAnswersFound, 
+query: [murder, mystery, nonfiction]
+BlinkSea, 	4, 8.50751, 0.91580, 0.57778, 3090, 5613, 1068, 0.419437146, 
+Exhustiv, 	4, 8.50751, 0.91580, 0.57778, 3090, 5613, 1068, 0.335457738, 15, 12, 0, 1, 
+Astar02, 	4, 8.50751, 0.91580, 0.57778, 3090, 5613, 1068, 0.190705035, 11, 5, 1, 0, 0, 
+Astar1nc_, 	4, 8.50751, 0.91580, 0.57778, 3090, 5613, 1068, 0.21880643, 5, 5, 1, 0, 0, 
+BlinkSea, 	8, 8.17284, 0.87977, 0.45714, 4430, 7989, 1501, 0.231493828, 
+Exhustiv, 	8, 8.13344, 0.87553, 0.50476, 5834, 10183, 1929, 0.272071781, 1853, 2006, 118, 1, 
+Astar02, 	8, 8.13344, 0.87553, 0.50476, 5834, 10183, 1929, 0.355951779, 1778, 1726, 4, 66, 0, 
+Astar1nc_, 	8, 8.13344, 0.87553, 0.50476, 5834, 10183, 1929, 0.266679146, 72, 33, 4, 3, 0, 
+BlinkSea, 	12, 7.94132, 0.85485, 0.47273, 5834, 10183, 1929, 0.290099371, 

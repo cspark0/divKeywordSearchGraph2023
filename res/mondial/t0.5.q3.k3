@@ -1,0 +1,1699 @@
+query: [city, desert, california]
+Top-k Search by Blink-BDB, k=3
+[city, desert, california]
+srcNodes: [41904, 130003, 30991]
+  path: 0[30991 -> 41904], [California -> Norwalk] 
+
+  path: 1[30991 -> 90150 -> 30942 -> 130003], [California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30991 -> 30991], [California -> California]
+srcNodes: [42734, 130003, 30942]
+  path: 0[30942 -> 42734], [Baja California -> Tijuana] 
+
+  path: 1[30942 -> 130003], [Baja California -> Baja California Desert] 
+
+  path: 2[30942 -> 30942], [Baja California -> Baja California]
+srcNodes: [40465, 130003, 195]
+  path: 0[195 -> 31014 -> 40465], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Carson City] 
+
+  path: 1[195 -> 31014 -> 90150 -> 30942 -> 130003], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[195 -> 195], [Boundary Peak Boundary Peak Sierra Nevada California  -> Boundary Peak Boundary Peak Sierra Nevada California ]
+-----------------------------------------
+Num of top-k answers: 3
+ResultDestNodes: [30991, 30942, 195]
+ResultRelevs: [6.368360996246338, 6.3009819984436035, 4.088314056396484]
+AvgResultRelev: 5.585885683695476
+AvgResultDissimilarity: 0.6666666666666666
+Num of entries retrieved from the lists: 98
+Num of entries retrieved from NKMaps: 148
+Num of answer trees explored: 30
+
+Div Top-k Search by Exhustive, k=3
+[city, desert, california]
+srcNodes: [41904, 130003, 30991]
+  path: 0[30991 -> 41904], [California -> Norwalk] 
+
+  path: 1[30991 -> 90150 -> 30942 -> 130003], [California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30991 -> 30991], [California -> California]
+srcNodes: [42734, 130003, 30942]
+  path: 0[30942 -> 42734], [Baja California -> Tijuana] 
+
+  path: 1[30942 -> 130003], [Baja California -> Baja California Desert] 
+
+  path: 2[30942 -> 30942], [Baja California -> Baja California]
+srcNodes: [40465, 130003, 195]
+  path: 0[195 -> 31014 -> 40465], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Carson City] 
+
+  path: 1[195 -> 31014 -> 90150 -> 30942 -> 130003], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[195 -> 195], [Boundary Peak Boundary Peak Sierra Nevada California  -> Boundary Peak Boundary Peak Sierra Nevada California ]
+-----------------------------------------
+ResultDestNodes: [30991, 30942, 195]
+ResultRelevs: [6.368360996246338, 6.3009819984436035, 4.088314056396484]
+AvgResultRelev: 5.585885683695476
+AvgResultDissimilarity: 0.6666666666666666
+Num of entries retrieved from the KNLists: 98
+Num of entries retrieved from NKMaps: 148
+Num of answer trees explored: 30
+Num of answer tree sets created: 7
+Num of answer tree sets removed: 0
+Max Num of answer tree sets in Q[]: 7
+
+Div Top-k Search by Astar02, k=3
+[city, desert, california]
+srcNodes: [41904, 130003, 30991]
+  path: 0[30991 -> 41904], [California -> Norwalk] 
+
+  path: 1[30991 -> 90150 -> 30942 -> 130003], [California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30991 -> 30991], [California -> California]
+srcNodes: [42734, 130003, 30942]
+  path: 0[30942 -> 42734], [Baja California -> Tijuana] 
+
+  path: 1[30942 -> 130003], [Baja California -> Baja California Desert] 
+
+  path: 2[30942 -> 30942], [Baja California -> Baja California]
+srcNodes: [40465, 130003, 195]
+  path: 0[195 -> 31014 -> 40465], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Carson City] 
+
+  path: 1[195 -> 31014 -> 90150 -> 30942 -> 130003], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[195 -> 195], [Boundary Peak Boundary Peak Sierra Nevada California  -> Boundary Peak Boundary Peak Sierra Nevada California ]
+-----------------------------------------
+ResultDestNodes: [30991, 30942, 195]
+ResultRelevs: [6.368360996246338, 6.3009819984436035, 4.088314056396484]
+AvgResultRelev: 5.585885683695476
+AvgResultDissimilarity: 0.6666666666666666
+Num of entries retrieved from the KNLists: 98
+Num of entries retrieved from NKMaps: 148
+Num of answer trees explored: 30
+Num of states created: 7
+Num of states explored: 4
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 4
+
+Div Top-k Search by Astar1nc_ap, k=3
+[city, desert, california]
+srcNodes: [41904, 130003, 30991]
+  path: 0[30991 -> 41904], [California -> Norwalk] 
+
+  path: 1[30991 -> 90150 -> 30942 -> 130003], [California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30991 -> 30991], [California -> California]
+srcNodes: [42734, 130003, 30942]
+  path: 0[30942 -> 42734], [Baja California -> Tijuana] 
+
+  path: 1[30942 -> 130003], [Baja California -> Baja California Desert] 
+
+  path: 2[30942 -> 30942], [Baja California -> Baja California]
+srcNodes: [40465, 130003, 195]
+  path: 0[195 -> 31014 -> 40465], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Carson City] 
+
+  path: 1[195 -> 31014 -> 90150 -> 30942 -> 130003], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[195 -> 195], [Boundary Peak Boundary Peak Sierra Nevada California  -> Boundary Peak Boundary Peak Sierra Nevada California ]
+-----------------------------------------
+ResultDestNodes: [30991, 30942, 195]
+ResultRelevs: [6.368360996246338, 6.3009819984436035, 4.088314056396484]
+AvgResultRelev: 5.585885683695476
+AvgResultDissimilarity: 0.6666666666666666
+Num of entries retrieved from the KNLists: 98
+Num of entries retrieved from NKMaps: 148
+Num of answer trees explored: 30
+Num of states created: 4
+Num of states explored: 4
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+query: [mountains, river, falls]
+Top-k Search by Blink-BDB, k=3
+[mountains, river, falls]
+srcNodes: [183, 90143, 42532]
+  path: 0[183 -> 183], [Harney Peak Harney Peak Rocky Mountains  -> Harney Peak Harney Peak Rocky Mountains ]
+  path: 1[183 -> 31027 -> 90143], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Missouri] 
+
+  path: 2[183 -> 31027 -> 42532], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Sioux Falls] 
+
+srcNodes: [183, 90143, 42532]
+  path: 0[90143 -> 31027 -> 183], [Missouri -> South Dakota -> Harney Peak Harney Peak Rocky Mountains ] 
+
+  path: 1[90143 -> 90143], [Missouri -> Missouri]
+  path: 2[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [190, 90151, 42951]
+  path: 0[190 -> 190], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Guadalupe Peak Guadalupe Peak Rocky Mountains ]
+  path: 1[190 -> 31029 -> 90151], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Rio Grande] 
+
+  path: 2[190 -> 31029 -> 42951], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Wichita Falls] 
+
+-----------------------------------------
+Num of top-k answers: 3
+ResultDestNodes: [183, 90143, 190]
+ResultRelevs: [5.38916015625, 5.21127986907959, 5.20552396774292]
+AvgResultRelev: 5.268654664357503
+AvgResultDissimilarity: 0.6666666666666666
+Num of entries retrieved from the lists: 94
+Num of entries retrieved from NKMaps: 146
+Num of answer trees explored: 35
+
+Div Top-k Search by Exhustive, k=3
+[mountains, river, falls]
+srcNodes: [183, 90143, 42532]
+  path: 0[183 -> 183], [Harney Peak Harney Peak Rocky Mountains  -> Harney Peak Harney Peak Rocky Mountains ]
+  path: 1[183 -> 31027 -> 90143], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Missouri] 
+
+  path: 2[183 -> 31027 -> 42532], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Sioux Falls] 
+
+srcNodes: [183, 90143, 42532]
+  path: 0[90143 -> 31027 -> 183], [Missouri -> South Dakota -> Harney Peak Harney Peak Rocky Mountains ] 
+
+  path: 1[90143 -> 90143], [Missouri -> Missouri]
+  path: 2[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [190, 90151, 42951]
+  path: 0[190 -> 190], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Guadalupe Peak Guadalupe Peak Rocky Mountains ]
+  path: 1[190 -> 31029 -> 90151], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Rio Grande] 
+
+  path: 2[190 -> 31029 -> 42951], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Wichita Falls] 
+
+-----------------------------------------
+ResultDestNodes: [183, 90143, 190]
+ResultRelevs: [5.38916015625, 5.21127986907959, 5.20552396774292]
+AvgResultRelev: 5.268654664357503
+AvgResultDissimilarity: 0.6666666666666666
+Num of entries retrieved from the KNLists: 94
+Num of entries retrieved from NKMaps: 146
+Num of answer trees explored: 35
+Num of answer tree sets created: 7
+Num of answer tree sets removed: 0
+Max Num of answer tree sets in Q[]: 7
+
+Div Top-k Search by Astar02, k=3
+[mountains, river, falls]
+srcNodes: [183, 90143, 42532]
+  path: 0[183 -> 183], [Harney Peak Harney Peak Rocky Mountains  -> Harney Peak Harney Peak Rocky Mountains ]
+  path: 1[183 -> 31027 -> 90143], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Missouri] 
+
+  path: 2[183 -> 31027 -> 42532], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Sioux Falls] 
+
+srcNodes: [183, 90143, 42532]
+  path: 0[90143 -> 31027 -> 183], [Missouri -> South Dakota -> Harney Peak Harney Peak Rocky Mountains ] 
+
+  path: 1[90143 -> 90143], [Missouri -> Missouri]
+  path: 2[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [190, 90151, 42951]
+  path: 0[190 -> 190], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Guadalupe Peak Guadalupe Peak Rocky Mountains ]
+  path: 1[190 -> 31029 -> 90151], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Rio Grande] 
+
+  path: 2[190 -> 31029 -> 42951], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Wichita Falls] 
+
+-----------------------------------------
+ResultDestNodes: [183, 90143, 190]
+ResultRelevs: [5.38916015625, 5.21127986907959, 5.20552396774292]
+AvgResultRelev: 5.268654664357503
+AvgResultDissimilarity: 0.6666666666666666
+Num of entries retrieved from the KNLists: 94
+Num of entries retrieved from NKMaps: 146
+Num of answer trees explored: 35
+Num of states created: 7
+Num of states explored: 4
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 4
+
+Div Top-k Search by Astar1nc_ap, k=3
+[mountains, river, falls]
+srcNodes: [183, 90143, 42532]
+  path: 0[183 -> 183], [Harney Peak Harney Peak Rocky Mountains  -> Harney Peak Harney Peak Rocky Mountains ]
+  path: 1[183 -> 31027 -> 90143], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Missouri] 
+
+  path: 2[183 -> 31027 -> 42532], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Sioux Falls] 
+
+srcNodes: [183, 90143, 42532]
+  path: 0[90143 -> 31027 -> 183], [Missouri -> South Dakota -> Harney Peak Harney Peak Rocky Mountains ] 
+
+  path: 1[90143 -> 90143], [Missouri -> Missouri]
+  path: 2[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [190, 90151, 42951]
+  path: 0[190 -> 190], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Guadalupe Peak Guadalupe Peak Rocky Mountains ]
+  path: 1[190 -> 31029 -> 90151], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Rio Grande] 
+
+  path: 2[190 -> 31029 -> 42951], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Wichita Falls] 
+
+-----------------------------------------
+ResultDestNodes: [183, 90143, 190]
+ResultRelevs: [5.38916015625, 5.21127986907959, 5.20552396774292]
+AvgResultRelev: 5.268654664357503
+AvgResultDissimilarity: 0.6666666666666666
+Num of entries retrieved from the KNLists: 94
+Num of entries retrieved from NKMaps: 146
+Num of answer trees explored: 35
+Num of states created: 4
+Num of states explored: 4
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+query: [caldera, lake, america]
+Top-k Search by Blink-BDB, k=3
+[caldera, lake, america]
+srcNodes: [80107, 80122, 10001]
+  path: 0[10001 -> 20118 -> 31023 -> 80107], [America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[10001 -> 20170 -> 80122], [America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [80107, 80118, 10001]
+  path: 0[20121 -> 10001 -> 20118 -> 31023 -> 80107], [Nicaragua -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20121 -> 80118], [Nicaragua -> Lake Managua Lake Managua ] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20170 -> 10001 -> 20118 -> 31023 -> 80107], [Bolivia -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20170 -> 80122], [Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+-----------------------------------------
+Num of top-k answers: 3
+ResultDestNodes: [10001, 20121, 20170]
+ResultRelevs: [10.531002044677734, 6.711239814758301, 6.711239814758301]
+AvgResultRelev: 7.984493891398112
+AvgResultDissimilarity: 0.2222222222222222
+Num of entries retrieved from the lists: 269
+Num of entries retrieved from NKMaps: 450
+Num of answer trees explored: 127
+
+Div Top-k Search by Exhustive, k=3
+[caldera, lake, america]
+srcNodes: [80107, 80122, 10001]
+  path: 0[10001 -> 20118 -> 31023 -> 80107], [America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[10001 -> 20170 -> 80122], [America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [80107, 80118, 10001]
+  path: 0[20121 -> 10001 -> 20118 -> 31023 -> 80107], [Nicaragua -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20121 -> 80118], [Nicaragua -> Lake Managua Lake Managua ] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [80018, 80014, 50039]
+  path: 0[80014 -> 90071 -> 30084 -> 80018], [Bodensee Bodensee  -> Rhein -> Rheinland Pfalz -> Laacher Maar Laacher Maar caldera] 
+
+  path: 1[80014 -> 80014], [Bodensee Bodensee  -> Bodensee Bodensee ]
+  path: 2[80014 -> 90071 -> 20014 -> 10004 -> 20051 -> 50039], [Bodensee Bodensee  -> Rhein -> Liechtenstein -> Europe -> United Kingdom -> Economic Commission for Latin America and the Caribbean Economic Commission for Latin America and the Caribbean ECLAC] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20121, 80014]
+ResultRelevs: [10.531002044677734, 6.711239814758301, 4.55648136138916]
+AvgResultRelev: 7.266241073608398
+AvgResultDissimilarity: 0.7777777512868246
+Num of entries retrieved from the KNLists: 600
+Num of entries retrieved from NKMaps: 920
+Num of answer trees explored: 211
+Num of answer tree sets created: 4161
+Num of answer tree sets removed: 2015
+Max Num of answer tree sets in Q[]: 4161
+
+Div Top-k Search by Astar02, k=3
+[caldera, lake, america]
+srcNodes: [80107, 80122, 10001]
+  path: 0[10001 -> 20118 -> 31023 -> 80107], [America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[10001 -> 20170 -> 80122], [America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [80107, 80118, 10001]
+  path: 0[20121 -> 10001 -> 20118 -> 31023 -> 80107], [Nicaragua -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20121 -> 80118], [Nicaragua -> Lake Managua Lake Managua ] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [80018, 80014, 50039]
+  path: 0[80014 -> 90071 -> 30084 -> 80018], [Bodensee Bodensee  -> Rhein -> Rheinland Pfalz -> Laacher Maar Laacher Maar caldera] 
+
+  path: 1[80014 -> 80014], [Bodensee Bodensee  -> Bodensee Bodensee ]
+  path: 2[80014 -> 90071 -> 20014 -> 10004 -> 20051 -> 50039], [Bodensee Bodensee  -> Rhein -> Liechtenstein -> Europe -> United Kingdom -> Economic Commission for Latin America and the Caribbean Economic Commission for Latin America and the Caribbean ECLAC] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20121, 80014]
+ResultRelevs: [10.531002044677734, 6.711239814758301, 4.55648136138916]
+AvgResultRelev: 7.266241073608398
+AvgResultDissimilarity: 0.7777777777777777
+Num of entries retrieved from the KNLists: 600
+Num of entries retrieved from NKMaps: 920
+Num of answer trees explored: 211
+Num of states created: 45950
+Num of states explored: 45823
+Num of heuristic search performed: 63
+Max Num of answer tree sets in Q[]: 1882
+
+Div Top-k Search by Astar1nc_ap, k=3
+[caldera, lake, america]
+srcNodes: [80107, 80122, 10001]
+  path: 0[10001 -> 20118 -> 31023 -> 80107], [America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[10001 -> 20170 -> 80122], [America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [80107, 80118, 10001]
+  path: 0[20121 -> 10001 -> 20118 -> 31023 -> 80107], [Nicaragua -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20121 -> 80118], [Nicaragua -> Lake Managua Lake Managua ] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [80018, 80014, 50039]
+  path: 0[80014 -> 90071 -> 30084 -> 80018], [Bodensee Bodensee  -> Rhein -> Rheinland Pfalz -> Laacher Maar Laacher Maar caldera] 
+
+  path: 1[80014 -> 80014], [Bodensee Bodensee  -> Bodensee Bodensee ]
+  path: 2[80014 -> 90071 -> 20014 -> 10004 -> 20051 -> 50039], [Bodensee Bodensee  -> Rhein -> Liechtenstein -> Europe -> United Kingdom -> Economic Commission for Latin America and the Caribbean Economic Commission for Latin America and the Caribbean ECLAC] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20121, 80014]
+ResultRelevs: [10.531002044677734, 6.711239814758301, 4.55648136138916]
+AvgResultRelev: 7.266241073608398
+AvgResultDissimilarity: 0.7777777777777777
+Num of entries retrieved from the KNLists: 600
+Num of entries retrieved from NKMaps: 920
+Num of answer trees explored: 211
+Num of states created: 2144
+Num of states explored: 190
+Num of heuristic search performed: 63
+Max Num of answer tree sets in Q[]: 125
+
+query: [island, sea, europe]
+Top-k Search by Blink-BDB, k=3
+[island, sea, europe]
+srcNodes: [110035, 100020, 10004]
+  path: 0[10004 -> 20032 -> 110035], [Europe -> Denmark -> Seeland Seeland  ] 
+
+  path: 1[10004 -> 20050 -> 100020], [Europe -> Svalbard -> Norwegian Sea] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [110036, 100004, 10004]
+  path: 0[20032 -> 110036], [Denmark -> Fuenen Fuenen  ] 
+
+  path: 1[20032 -> 100004], [Denmark -> Baltic Sea] 
+
+  path: 2[20032 -> 10004], [Denmark -> Europe] 
+
+srcNodes: [110072, 100018, 10004]
+  path: 0[20082 -> 110072], [Cyprus -> Cyprus Cyprus  ] 
+
+  path: 1[20082 -> 100018], [Cyprus -> Mediterranean Sea] 
+
+  path: 2[20082 -> 10004], [Cyprus -> Europe] 
+
+-----------------------------------------
+Num of top-k answers: 3
+ResultDestNodes: [10004, 20032, 20082]
+ResultRelevs: [10.490472793579102, 7.548810005187988, 7.548810005187988]
+AvgResultRelev: 8.529364267985025
+AvgResultDissimilarity: 0.6666666666666666
+Num of entries retrieved from the lists: 171
+Num of entries retrieved from NKMaps: 289
+Num of answer trees explored: 71
+
+Div Top-k Search by Exhustive, k=3
+[island, sea, europe]
+srcNodes: [110035, 100020, 10004]
+  path: 0[10004 -> 20032 -> 110035], [Europe -> Denmark -> Seeland Seeland  ] 
+
+  path: 1[10004 -> 20050 -> 100020], [Europe -> Svalbard -> Norwegian Sea] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [110036, 100004, 10004]
+  path: 0[20032 -> 110036], [Denmark -> Fuenen Fuenen  ] 
+
+  path: 1[20032 -> 100004], [Denmark -> Baltic Sea] 
+
+  path: 2[20032 -> 10004], [Denmark -> Europe] 
+
+srcNodes: [110072, 100018, 10004]
+  path: 0[20082 -> 110072], [Cyprus -> Cyprus Cyprus  ] 
+
+  path: 1[20082 -> 100018], [Cyprus -> Mediterranean Sea] 
+
+  path: 2[20082 -> 10004], [Cyprus -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: [10004, 20032, 20082]
+ResultRelevs: [10.490472793579102, 7.548810005187988, 7.548810005187988]
+AvgResultRelev: 8.529364267985025
+AvgResultDissimilarity: 0.6666666666666666
+Num of entries retrieved from the KNLists: 171
+Num of entries retrieved from NKMaps: 289
+Num of answer trees explored: 71
+Num of answer tree sets created: 7
+Num of answer tree sets removed: 0
+Max Num of answer tree sets in Q[]: 7
+
+Div Top-k Search by Astar02, k=3
+[island, sea, europe]
+srcNodes: [110035, 100020, 10004]
+  path: 0[10004 -> 20032 -> 110035], [Europe -> Denmark -> Seeland Seeland  ] 
+
+  path: 1[10004 -> 20050 -> 100020], [Europe -> Svalbard -> Norwegian Sea] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [110036, 100004, 10004]
+  path: 0[20032 -> 110036], [Denmark -> Fuenen Fuenen  ] 
+
+  path: 1[20032 -> 100004], [Denmark -> Baltic Sea] 
+
+  path: 2[20032 -> 10004], [Denmark -> Europe] 
+
+srcNodes: [110072, 100018, 10004]
+  path: 0[20082 -> 110072], [Cyprus -> Cyprus Cyprus  ] 
+
+  path: 1[20082 -> 100018], [Cyprus -> Mediterranean Sea] 
+
+  path: 2[20082 -> 10004], [Cyprus -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: [10004, 20032, 20082]
+ResultRelevs: [10.490472793579102, 7.548810005187988, 7.548810005187988]
+AvgResultRelev: 8.529364267985025
+AvgResultDissimilarity: 0.6666666666666666
+Num of entries retrieved from the KNLists: 171
+Num of entries retrieved from NKMaps: 289
+Num of answer trees explored: 71
+Num of states created: 7
+Num of states explored: 5
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 4
+
+Div Top-k Search by Astar1nc_ap, k=3
+[island, sea, europe]
+srcNodes: [110035, 100020, 10004]
+  path: 0[10004 -> 20032 -> 110035], [Europe -> Denmark -> Seeland Seeland  ] 
+
+  path: 1[10004 -> 20050 -> 100020], [Europe -> Svalbard -> Norwegian Sea] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [110036, 100004, 10004]
+  path: 0[20032 -> 110036], [Denmark -> Fuenen Fuenen  ] 
+
+  path: 1[20032 -> 100004], [Denmark -> Baltic Sea] 
+
+  path: 2[20032 -> 10004], [Denmark -> Europe] 
+
+srcNodes: [110072, 100018, 10004]
+  path: 0[20082 -> 110072], [Cyprus -> Cyprus Cyprus  ] 
+
+  path: 1[20082 -> 100018], [Cyprus -> Mediterranean Sea] 
+
+  path: 2[20082 -> 10004], [Cyprus -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: [10004, 20032, 20082]
+ResultRelevs: [10.490472793579102, 7.548810005187988, 7.548810005187988]
+AvgResultRelev: 8.529364267985025
+AvgResultDissimilarity: 0.6666666666666666
+Num of entries retrieved from the KNLists: 171
+Num of entries retrieved from NKMaps: 289
+Num of answer trees explored: 71
+Num of states created: 4
+Num of states explored: 4
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+query: [river, falls, america]
+Top-k Search by Blink-BDB, k=3
+[river, falls, america]
+srcNodes: [90165, 42951, 10001]
+  path: 0[10001 -> 20174 -> 90165], [America -> Uruguay -> Uruguay] 
+
+  path: 1[10001 -> 20118 -> 31029 -> 42951], [America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90141, 42532, 10001]
+  path: 0[20118 -> 31018 -> 90141], [United States -> New York -> Hudson River] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [90165, 42532, 10001]
+  path: 0[20174 -> 90165], [Uruguay -> Uruguay] 
+
+  path: 1[20174 -> 10001 -> 20118 -> 31027 -> 42532], [Uruguay -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20174 -> 10001], [Uruguay -> America] 
+
+-----------------------------------------
+Num of top-k answers: 3
+ResultDestNodes: [10001, 20118, 20174]
+ResultRelevs: [10.41543960571289, 6.693439960479736, 6.452062606811523]
+AvgResultRelev: 7.853647391001384
+AvgResultDissimilarity: 0.4444444444444444
+Num of entries retrieved from the lists: 165
+Num of entries retrieved from NKMaps: 241
+Num of answer trees explored: 57
+
+Div Top-k Search by Exhustive, k=3
+[river, falls, america]
+srcNodes: [90165, 42951, 10001]
+  path: 0[10001 -> 20174 -> 90165], [America -> Uruguay -> Uruguay] 
+
+  path: 1[10001 -> 20118 -> 31029 -> 42951], [America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90141, 42532, 10001]
+  path: 0[20118 -> 31018 -> 90141], [United States -> New York -> Hudson River] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [90163, 42532, 10001]
+  path: 0[20173 -> 90163], [Paraguay -> Parana] 
+
+  path: 1[20173 -> 10001 -> 20118 -> 31027 -> 42532], [Paraguay -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20173 -> 10001], [Paraguay -> America] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20118, 20173]
+ResultRelevs: [10.41543960571289, 6.693439960479736, 6.452062606811523]
+AvgResultRelev: 7.853647391001384
+AvgResultDissimilarity: 0.555555542310079
+Num of entries retrieved from the KNLists: 165
+Num of entries retrieved from NKMaps: 241
+Num of answer trees explored: 57
+Num of answer tree sets created: 11
+Num of answer tree sets removed: 0
+Max Num of answer tree sets in Q[]: 11
+
+Div Top-k Search by Astar02, k=3
+[river, falls, america]
+srcNodes: [90165, 42951, 10001]
+  path: 0[10001 -> 20174 -> 90165], [America -> Uruguay -> Uruguay] 
+
+  path: 1[10001 -> 20118 -> 31029 -> 42951], [America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90141, 42532, 10001]
+  path: 0[20118 -> 31018 -> 90141], [United States -> New York -> Hudson River] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [90163, 42532, 10001]
+  path: 0[20173 -> 90163], [Paraguay -> Parana] 
+
+  path: 1[20173 -> 10001 -> 20118 -> 31027 -> 42532], [Paraguay -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20173 -> 10001], [Paraguay -> America] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20118, 20173]
+ResultRelevs: [10.41543960571289, 6.693439960479736, 6.452062606811523]
+AvgResultRelev: 7.853647391001384
+AvgResultDissimilarity: 0.5555555555555555
+Num of entries retrieved from the KNLists: 165
+Num of entries retrieved from NKMaps: 241
+Num of answer trees explored: 57
+Num of states created: 16
+Num of states explored: 11
+Num of heuristic search performed: 2
+Max Num of answer tree sets in Q[]: 6
+
+Div Top-k Search by Astar1nc_ap, k=3
+[river, falls, america]
+srcNodes: [90165, 42951, 10001]
+  path: 0[10001 -> 20174 -> 90165], [America -> Uruguay -> Uruguay] 
+
+  path: 1[10001 -> 20118 -> 31029 -> 42951], [America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90141, 42532, 10001]
+  path: 0[20118 -> 31018 -> 90141], [United States -> New York -> Hudson River] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [90163, 42532, 10001]
+  path: 0[20173 -> 90163], [Paraguay -> Parana] 
+
+  path: 1[20173 -> 10001 -> 20118 -> 31027 -> 42532], [Paraguay -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20173 -> 10001], [Paraguay -> America] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20118, 20173]
+ResultRelevs: [10.41543960571289, 6.693439960479736, 6.452062606811523]
+AvgResultRelev: 7.853647391001384
+AvgResultDissimilarity: 0.5555555555555555
+Num of entries retrieved from the KNLists: 165
+Num of entries retrieved from NKMaps: 241
+Num of answer trees explored: 57
+Num of states created: 7
+Num of states explored: 6
+Num of heuristic search performed: 2
+Max Num of answer tree sets in Q[]: 2
+
+query: [caldera, lake, america]
+Top-k Search by Blink-BDB, k=3
+[caldera, lake, america]
+srcNodes: [80107, 80122, 10001]
+  path: 0[10001 -> 20118 -> 31023 -> 80107], [America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[10001 -> 20170 -> 80122], [America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [80107, 80118, 10001]
+  path: 0[20121 -> 10001 -> 20118 -> 31023 -> 80107], [Nicaragua -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20121 -> 80118], [Nicaragua -> Lake Managua Lake Managua ] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20170 -> 10001 -> 20118 -> 31023 -> 80107], [Bolivia -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20170 -> 80122], [Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+-----------------------------------------
+Num of top-k answers: 3
+ResultDestNodes: [10001, 20121, 20170]
+ResultRelevs: [10.531002044677734, 6.711239814758301, 6.711239814758301]
+AvgResultRelev: 7.984493891398112
+AvgResultDissimilarity: 0.2222222222222222
+Num of entries retrieved from the lists: 269
+Num of entries retrieved from NKMaps: 450
+Num of answer trees explored: 127
+
+Div Top-k Search by Exhustive, k=3
+[caldera, lake, america]
+srcNodes: [80107, 80122, 10001]
+  path: 0[10001 -> 20118 -> 31023 -> 80107], [America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[10001 -> 20170 -> 80122], [America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [80107, 80118, 10001]
+  path: 0[20121 -> 10001 -> 20118 -> 31023 -> 80107], [Nicaragua -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20121 -> 80118], [Nicaragua -> Lake Managua Lake Managua ] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [80018, 80014, 50039]
+  path: 0[80014 -> 90071 -> 30084 -> 80018], [Bodensee Bodensee  -> Rhein -> Rheinland Pfalz -> Laacher Maar Laacher Maar caldera] 
+
+  path: 1[80014 -> 80014], [Bodensee Bodensee  -> Bodensee Bodensee ]
+  path: 2[80014 -> 90071 -> 20014 -> 10004 -> 20051 -> 50039], [Bodensee Bodensee  -> Rhein -> Liechtenstein -> Europe -> United Kingdom -> Economic Commission for Latin America and the Caribbean Economic Commission for Latin America and the Caribbean ECLAC] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20121, 80014]
+ResultRelevs: [10.531002044677734, 6.711239814758301, 4.55648136138916]
+AvgResultRelev: 7.266241073608398
+AvgResultDissimilarity: 0.7777777512868246
+Num of entries retrieved from the KNLists: 600
+Num of entries retrieved from NKMaps: 920
+Num of answer trees explored: 211
+Num of answer tree sets created: 4161
+Num of answer tree sets removed: 2015
+Max Num of answer tree sets in Q[]: 4161
+
+Div Top-k Search by Astar02, k=3
+[caldera, lake, america]
+srcNodes: [80107, 80122, 10001]
+  path: 0[10001 -> 20118 -> 31023 -> 80107], [America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[10001 -> 20170 -> 80122], [America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [80107, 80118, 10001]
+  path: 0[20121 -> 10001 -> 20118 -> 31023 -> 80107], [Nicaragua -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20121 -> 80118], [Nicaragua -> Lake Managua Lake Managua ] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [80018, 80014, 50039]
+  path: 0[80014 -> 90071 -> 30084 -> 80018], [Bodensee Bodensee  -> Rhein -> Rheinland Pfalz -> Laacher Maar Laacher Maar caldera] 
+
+  path: 1[80014 -> 80014], [Bodensee Bodensee  -> Bodensee Bodensee ]
+  path: 2[80014 -> 90071 -> 20014 -> 10004 -> 20051 -> 50039], [Bodensee Bodensee  -> Rhein -> Liechtenstein -> Europe -> United Kingdom -> Economic Commission for Latin America and the Caribbean Economic Commission for Latin America and the Caribbean ECLAC] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20121, 80014]
+ResultRelevs: [10.531002044677734, 6.711239814758301, 4.55648136138916]
+AvgResultRelev: 7.266241073608398
+AvgResultDissimilarity: 0.7777777777777777
+Num of entries retrieved from the KNLists: 600
+Num of entries retrieved from NKMaps: 920
+Num of answer trees explored: 211
+Num of states created: 45950
+Num of states explored: 45823
+Num of heuristic search performed: 63
+Max Num of answer tree sets in Q[]: 1882
+
+Div Top-k Search by Astar1nc_ap, k=3
+[caldera, lake, america]
+srcNodes: [80107, 80122, 10001]
+  path: 0[10001 -> 20118 -> 31023 -> 80107], [America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[10001 -> 20170 -> 80122], [America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [80107, 80118, 10001]
+  path: 0[20121 -> 10001 -> 20118 -> 31023 -> 80107], [Nicaragua -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20121 -> 80118], [Nicaragua -> Lake Managua Lake Managua ] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [80018, 80014, 50039]
+  path: 0[80014 -> 90071 -> 30084 -> 80018], [Bodensee Bodensee  -> Rhein -> Rheinland Pfalz -> Laacher Maar Laacher Maar caldera] 
+
+  path: 1[80014 -> 80014], [Bodensee Bodensee  -> Bodensee Bodensee ]
+  path: 2[80014 -> 90071 -> 20014 -> 10004 -> 20051 -> 50039], [Bodensee Bodensee  -> Rhein -> Liechtenstein -> Europe -> United Kingdom -> Economic Commission for Latin America and the Caribbean Economic Commission for Latin America and the Caribbean ECLAC] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20121, 80014]
+ResultRelevs: [10.531002044677734, 6.711239814758301, 4.55648136138916]
+AvgResultRelev: 7.266241073608398
+AvgResultDissimilarity: 0.7777777777777777
+Num of entries retrieved from the KNLists: 600
+Num of entries retrieved from NKMaps: 920
+Num of answer trees explored: 211
+Num of states created: 2144
+Num of states explored: 190
+Num of heuristic search performed: 63
+Max Num of answer tree sets in Q[]: 125
+
+query: [caldera, volcano, asia]
+Top-k Search by Blink-BDB, k=3
+[caldera, volcano, asia]
+srcNodes: [80047, 147, 10002]
+  path: 0[10002 -> 20086 -> 80047], [Asia -> Indonesia -> Lake Toba Lake Toba caldera] 
+
+  path: 1[10002 -> 20086 -> 147], [Asia -> Indonesia -> Rinjani Rinjani  volcano] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [80047, 144, 10002]
+  path: 0[20086 -> 80047], [Indonesia -> Lake Toba Lake Toba caldera] 
+
+  path: 1[20086 -> 144], [Indonesia -> Merapi Merapi  volcano] 
+
+  path: 2[20086 -> 10002], [Indonesia -> Asia] 
+
+srcNodes: [80047, 148, 10002]
+  path: 0[148 -> 20086 -> 80047], [Tambora Tambora  volcano -> Indonesia -> Lake Toba Lake Toba caldera] 
+
+  path: 1[148 -> 148], [Tambora Tambora  volcano -> Tambora Tambora  volcano]
+  path: 2[148 -> 20086 -> 10002], [Tambora Tambora  volcano -> Indonesia -> Asia] 
+
+-----------------------------------------
+Num of top-k answers: 3
+ResultDestNodes: [10002, 20086, 148]
+ResultRelevs: [10.410040855407715, 7.428160190582275, 6.826089859008789]
+AvgResultRelev: 8.22143030166626
+AvgResultDissimilarity: 0.3333333333333333
+Num of entries retrieved from the lists: 165
+Num of entries retrieved from NKMaps: 270
+Num of answer trees explored: 111
+
+Div Top-k Search by Exhustive, k=3
+[caldera, volcano, asia]
+srcNodes: [80047, 147, 10002]
+  path: 0[10002 -> 20086 -> 80047], [Asia -> Indonesia -> Lake Toba Lake Toba caldera] 
+
+  path: 1[10002 -> 20086 -> 147], [Asia -> Indonesia -> Rinjani Rinjani  volcano] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [80047, 144, 10002]
+  path: 0[20086 -> 80047], [Indonesia -> Lake Toba Lake Toba caldera] 
+
+  path: 1[20086 -> 144], [Indonesia -> Merapi Merapi  volcano] 
+
+  path: 2[20086 -> 10002], [Indonesia -> Asia] 
+
+srcNodes: [80063, 72, 10002]
+  path: 0[72 -> 20210 -> 10000 -> 20207 -> 31377 -> 80063], [Pico Basile Pico Basile  volcano -> Equatorial Guinea -> Africa -> Cameroon -> Nordoueste -> Lake Nyos Lake Nyos caldera] 
+
+  path: 1[72 -> 72], [Pico Basile Pico Basile  volcano -> Pico Basile Pico Basile  volcano]
+  path: 2[72 -> 20210 -> 10000 -> 20085 -> 10002], [Pico Basile Pico Basile  volcano -> Equatorial Guinea -> Africa -> Egypt -> Asia] 
+
+-----------------------------------------
+ResultDestNodes: [10002, 20086, 72]
+ResultRelevs: [10.410040855407715, 7.428160190582275, 5.09143590927124]
+AvgResultRelev: 7.64321231842041
+AvgResultDissimilarity: 0.555555542310079
+Num of entries retrieved from the KNLists: 275
+Num of entries retrieved from NKMaps: 390
+Num of answer trees explored: 142
+Num of answer tree sets created: 3243
+Num of answer tree sets removed: 964
+Max Num of answer tree sets in Q[]: 3243
+
+Div Top-k Search by Astar02, k=3
+[caldera, volcano, asia]
+srcNodes: [80047, 147, 10002]
+  path: 0[10002 -> 20086 -> 80047], [Asia -> Indonesia -> Lake Toba Lake Toba caldera] 
+
+  path: 1[10002 -> 20086 -> 147], [Asia -> Indonesia -> Rinjani Rinjani  volcano] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [80047, 144, 10002]
+  path: 0[20086 -> 80047], [Indonesia -> Lake Toba Lake Toba caldera] 
+
+  path: 1[20086 -> 144], [Indonesia -> Merapi Merapi  volcano] 
+
+  path: 2[20086 -> 10002], [Indonesia -> Asia] 
+
+srcNodes: [80063, 72, 10002]
+  path: 0[72 -> 20210 -> 10000 -> 20207 -> 31377 -> 80063], [Pico Basile Pico Basile  volcano -> Equatorial Guinea -> Africa -> Cameroon -> Nordoueste -> Lake Nyos Lake Nyos caldera] 
+
+  path: 1[72 -> 72], [Pico Basile Pico Basile  volcano -> Pico Basile Pico Basile  volcano]
+  path: 2[72 -> 20210 -> 10000 -> 20085 -> 10002], [Pico Basile Pico Basile  volcano -> Equatorial Guinea -> Africa -> Egypt -> Asia] 
+
+-----------------------------------------
+ResultDestNodes: [10002, 20086, 72]
+ResultRelevs: [10.410040855407715, 7.428160190582275, 5.09143590927124]
+AvgResultRelev: 7.64321231842041
+AvgResultDissimilarity: 0.5555555555555555
+Num of entries retrieved from the KNLists: 275
+Num of entries retrieved from NKMaps: 390
+Num of answer trees explored: 142
+Num of states created: 50311
+Num of states explored: 50180
+Num of heuristic search performed: 65
+Max Num of answer tree sets in Q[]: 1389
+
+Div Top-k Search by Astar1nc_ap, k=3
+[caldera, volcano, asia]
+srcNodes: [80047, 147, 10002]
+  path: 0[10002 -> 20086 -> 80047], [Asia -> Indonesia -> Lake Toba Lake Toba caldera] 
+
+  path: 1[10002 -> 20086 -> 147], [Asia -> Indonesia -> Rinjani Rinjani  volcano] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [80047, 144, 10002]
+  path: 0[20086 -> 80047], [Indonesia -> Lake Toba Lake Toba caldera] 
+
+  path: 1[20086 -> 144], [Indonesia -> Merapi Merapi  volcano] 
+
+  path: 2[20086 -> 10002], [Indonesia -> Asia] 
+
+srcNodes: [80063, 72, 10002]
+  path: 0[72 -> 20210 -> 10000 -> 20207 -> 31377 -> 80063], [Pico Basile Pico Basile  volcano -> Equatorial Guinea -> Africa -> Cameroon -> Nordoueste -> Lake Nyos Lake Nyos caldera] 
+
+  path: 1[72 -> 72], [Pico Basile Pico Basile  volcano -> Pico Basile Pico Basile  volcano]
+  path: 2[72 -> 20210 -> 10000 -> 20085 -> 10002], [Pico Basile Pico Basile  volcano -> Equatorial Guinea -> Africa -> Egypt -> Asia] 
+
+-----------------------------------------
+ResultDestNodes: [10002, 20086, 72]
+ResultRelevs: [10.410040855407715, 7.428160190582275, 5.09143590927124]
+AvgResultRelev: 7.64321231842041
+AvgResultDissimilarity: 0.5555555555555555
+Num of entries retrieved from the KNLists: 275
+Num of entries retrieved from NKMaps: 390
+Num of answer trees explored: 142
+Num of states created: 2218
+Num of states explored: 195
+Num of heuristic search performed: 65
+Max Num of answer tree sets in Q[]: 71
+
+query: [city, river, china]
+Top-k Search by Blink-BDB, k=3
+[city, river, china]
+srcNodes: [40499, 90115, 20053]
+  path: 0[20053 -> 30642 -> 40499], [China -> Hunan -> Changsha] 
+
+  path: 1[20053 -> 30639 -> 90115], [China -> Heilongjiang -> Argun] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [40219, 90123, 100029]
+  path: 0[90123 -> 20070 -> 40219], [Mekong -> Thailand -> Bangkok] 
+
+  path: 1[90123 -> 90123], [Mekong -> Mekong]
+  path: 2[90123 -> 100029], [Mekong -> South China Sea] 
+
+srcNodes: [40499, 90122, 100009]
+  path: 0[90122 -> 30642 -> 40499], [Jangtse -> Hunan -> Changsha] 
+
+  path: 1[90122 -> 90122], [Jangtse -> Jangtse]
+  path: 2[90122 -> 100009], [Jangtse -> East China Sea] 
+
+-----------------------------------------
+Num of top-k answers: 3
+ResultDestNodes: [20053, 90123, 90122]
+ResultRelevs: [6.286314010620117, 5.1209540367126465, 5.1209540367126465]
+AvgResultRelev: 5.50940736134847
+AvgResultDissimilarity: 0.8888888888888888
+Num of entries retrieved from the lists: 587
+Num of entries retrieved from NKMaps: 1019
+Num of answer trees explored: 218
+
+Div Top-k Search by Exhustive, k=3
+[city, river, china]
+srcNodes: [40499, 90115, 20053]
+  path: 0[20053 -> 30642 -> 40499], [China -> Hunan -> Changsha] 
+
+  path: 1[20053 -> 30639 -> 90115], [China -> Heilongjiang -> Argun] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [40219, 90123, 100029]
+  path: 0[90123 -> 20070 -> 40219], [Mekong -> Thailand -> Bangkok] 
+
+  path: 1[90123 -> 90123], [Mekong -> Mekong]
+  path: 2[90123 -> 100029], [Mekong -> South China Sea] 
+
+srcNodes: [40499, 90122, 100009]
+  path: 0[90122 -> 30642 -> 40499], [Jangtse -> Hunan -> Changsha] 
+
+  path: 1[90122 -> 90122], [Jangtse -> Jangtse]
+  path: 2[90122 -> 100009], [Jangtse -> East China Sea] 
+
+-----------------------------------------
+ResultDestNodes: [20053, 90123, 90122]
+ResultRelevs: [6.286314010620117, 5.1209540367126465, 5.1209540367126465]
+AvgResultRelev: 5.50940736134847
+AvgResultDissimilarity: 0.8888889153798422
+Num of entries retrieved from the KNLists: 587
+Num of entries retrieved from NKMaps: 1019
+Num of answer trees explored: 218
+Num of answer tree sets created: 7
+Num of answer tree sets removed: 0
+Max Num of answer tree sets in Q[]: 7
+
+Div Top-k Search by Astar02, k=3
+[city, river, china]
+srcNodes: [40499, 90115, 20053]
+  path: 0[20053 -> 30642 -> 40499], [China -> Hunan -> Changsha] 
+
+  path: 1[20053 -> 30639 -> 90115], [China -> Heilongjiang -> Argun] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [40219, 90123, 100029]
+  path: 0[90123 -> 20070 -> 40219], [Mekong -> Thailand -> Bangkok] 
+
+  path: 1[90123 -> 90123], [Mekong -> Mekong]
+  path: 2[90123 -> 100029], [Mekong -> South China Sea] 
+
+srcNodes: [40499, 90122, 100009]
+  path: 0[90122 -> 30642 -> 40499], [Jangtse -> Hunan -> Changsha] 
+
+  path: 1[90122 -> 90122], [Jangtse -> Jangtse]
+  path: 2[90122 -> 100009], [Jangtse -> East China Sea] 
+
+-----------------------------------------
+ResultDestNodes: [20053, 90123, 90122]
+ResultRelevs: [6.286314010620117, 5.1209540367126465, 5.1209540367126465]
+AvgResultRelev: 5.50940736134847
+AvgResultDissimilarity: 0.8888888888888888
+Num of entries retrieved from the KNLists: 587
+Num of entries retrieved from NKMaps: 1019
+Num of answer trees explored: 218
+Num of states created: 7
+Num of states explored: 5
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 4
+
+Div Top-k Search by Astar1nc_ap, k=3
+[city, river, china]
+srcNodes: [40499, 90115, 20053]
+  path: 0[20053 -> 30642 -> 40499], [China -> Hunan -> Changsha] 
+
+  path: 1[20053 -> 30639 -> 90115], [China -> Heilongjiang -> Argun] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [40219, 90123, 100029]
+  path: 0[90123 -> 20070 -> 40219], [Mekong -> Thailand -> Bangkok] 
+
+  path: 1[90123 -> 90123], [Mekong -> Mekong]
+  path: 2[90123 -> 100029], [Mekong -> South China Sea] 
+
+srcNodes: [40499, 90122, 100009]
+  path: 0[90122 -> 30642 -> 40499], [Jangtse -> Hunan -> Changsha] 
+
+  path: 1[90122 -> 90122], [Jangtse -> Jangtse]
+  path: 2[90122 -> 100009], [Jangtse -> East China Sea] 
+
+-----------------------------------------
+ResultDestNodes: [20053, 90123, 90122]
+ResultRelevs: [6.286314010620117, 5.1209540367126465, 5.1209540367126465]
+AvgResultRelev: 5.50940736134847
+AvgResultDissimilarity: 0.8888888888888888
+Num of entries retrieved from the KNLists: 587
+Num of entries retrieved from NKMaps: 1019
+Num of answer trees explored: 218
+Num of states created: 4
+Num of states explored: 4
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+query: [city, lake, canada]
+Top-k Search by Blink-BDB, k=3
+[city, lake, canada]
+srcNodes: [40434, 80101, 20117]
+  path: 0[20117 -> 30975 -> 40434], [Canada -> Alberta -> Calgary] 
+
+  path: 1[20117 -> 30984 -> 80101], [Canada -> Quebec -> Lake Champlain Lake Champlain ] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [40589, 80122, 20117]
+  path: 0[80122 -> 90154 -> 20170 -> 40589], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero -> Bolivia -> Cochabamba] 
+
+  path: 1[80122 -> 80122], [Lake Titicaca Lake Titicaca  -> Lake Titicaca Lake Titicaca ]
+  path: 2[80122 -> 90154 -> 20170 -> 10001 -> 20117], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero -> Bolivia -> America -> Canada] 
+
+srcNodes: [40059, 80117, 20117]
+  path: 0[80117 -> 90153 -> 31040 -> 40059], [Lake Nicaragua Lake Nicaragua  -> Rio San Juan -> Alajuela -> Alajuela] 
+
+  path: 1[80117 -> 80117], [Lake Nicaragua Lake Nicaragua  -> Lake Nicaragua Lake Nicaragua ]
+  path: 2[80117 -> 90153 -> 20121 -> 10001 -> 20117], [Lake Nicaragua Lake Nicaragua  -> Rio San Juan -> Nicaragua -> America -> Canada] 
+
+-----------------------------------------
+Num of top-k answers: 3
+ResultDestNodes: [20117, 80122, 80117]
+ResultRelevs: [7.211113929748535, 4.880916118621826, 4.880916118621826]
+AvgResultRelev: 5.6576487223307295
+AvgResultDissimilarity: 0.6666666666666666
+Num of entries retrieved from the lists: 363
+Num of entries retrieved from NKMaps: 584
+Num of answer trees explored: 125
+
+Div Top-k Search by Exhustive, k=3
+[city, lake, canada]
+srcNodes: [40434, 80101, 20117]
+  path: 0[20117 -> 30975 -> 40434], [Canada -> Alberta -> Calgary] 
+
+  path: 1[20117 -> 30984 -> 80101], [Canada -> Quebec -> Lake Champlain Lake Champlain ] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [40589, 80122, 20117]
+  path: 0[80122 -> 90154 -> 20170 -> 40589], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero -> Bolivia -> Cochabamba] 
+
+  path: 1[80122 -> 80122], [Lake Titicaca Lake Titicaca  -> Lake Titicaca Lake Titicaca ]
+  path: 2[80122 -> 90154 -> 20170 -> 10001 -> 20117], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero -> Bolivia -> America -> Canada] 
+
+srcNodes: [40059, 80118, 20117]
+  path: 0[80118 -> 90153 -> 31040 -> 40059], [Lake Managua Lake Managua  -> Rio San Juan -> Alajuela -> Alajuela] 
+
+  path: 1[80118 -> 80118], [Lake Managua Lake Managua  -> Lake Managua Lake Managua ]
+  path: 2[80118 -> 90153 -> 20121 -> 10001 -> 20117], [Lake Managua Lake Managua  -> Rio San Juan -> Nicaragua -> America -> Canada] 
+
+-----------------------------------------
+ResultDestNodes: [20117, 80122, 80118]
+ResultRelevs: [7.211113929748535, 4.880916118621826, 4.880916118621826]
+AvgResultRelev: 5.6576487223307295
+AvgResultDissimilarity: 0.6666666666666666
+Num of entries retrieved from the KNLists: 363
+Num of entries retrieved from NKMaps: 584
+Num of answer trees explored: 125
+Num of answer tree sets created: 7
+Num of answer tree sets removed: 0
+Max Num of answer tree sets in Q[]: 7
+
+Div Top-k Search by Astar02, k=3
+[city, lake, canada]
+srcNodes: [40434, 80101, 20117]
+  path: 0[20117 -> 30975 -> 40434], [Canada -> Alberta -> Calgary] 
+
+  path: 1[20117 -> 30984 -> 80101], [Canada -> Quebec -> Lake Champlain Lake Champlain ] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [40589, 80122, 20117]
+  path: 0[80122 -> 90154 -> 20170 -> 40589], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero -> Bolivia -> Cochabamba] 
+
+  path: 1[80122 -> 80122], [Lake Titicaca Lake Titicaca  -> Lake Titicaca Lake Titicaca ]
+  path: 2[80122 -> 90154 -> 20170 -> 10001 -> 20117], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero -> Bolivia -> America -> Canada] 
+
+srcNodes: [40059, 80118, 20117]
+  path: 0[80118 -> 90153 -> 31040 -> 40059], [Lake Managua Lake Managua  -> Rio San Juan -> Alajuela -> Alajuela] 
+
+  path: 1[80118 -> 80118], [Lake Managua Lake Managua  -> Lake Managua Lake Managua ]
+  path: 2[80118 -> 90153 -> 20121 -> 10001 -> 20117], [Lake Managua Lake Managua  -> Rio San Juan -> Nicaragua -> America -> Canada] 
+
+-----------------------------------------
+ResultDestNodes: [20117, 80122, 80118]
+ResultRelevs: [7.211113929748535, 4.880916118621826, 4.880916118621826]
+AvgResultRelev: 5.6576487223307295
+AvgResultDissimilarity: 0.6666666666666666
+Num of entries retrieved from the KNLists: 363
+Num of entries retrieved from NKMaps: 584
+Num of answer trees explored: 125
+Num of states created: 7
+Num of states explored: 5
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 4
+
+Div Top-k Search by Astar1nc_ap, k=3
+[city, lake, canada]
+srcNodes: [40434, 80101, 20117]
+  path: 0[20117 -> 30975 -> 40434], [Canada -> Alberta -> Calgary] 
+
+  path: 1[20117 -> 30984 -> 80101], [Canada -> Quebec -> Lake Champlain Lake Champlain ] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [40589, 80122, 20117]
+  path: 0[80122 -> 90154 -> 20170 -> 40589], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero -> Bolivia -> Cochabamba] 
+
+  path: 1[80122 -> 80122], [Lake Titicaca Lake Titicaca  -> Lake Titicaca Lake Titicaca ]
+  path: 2[80122 -> 90154 -> 20170 -> 10001 -> 20117], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero -> Bolivia -> America -> Canada] 
+
+srcNodes: [40059, 80118, 20117]
+  path: 0[80118 -> 90153 -> 31040 -> 40059], [Lake Managua Lake Managua  -> Rio San Juan -> Alajuela -> Alajuela] 
+
+  path: 1[80118 -> 80118], [Lake Managua Lake Managua  -> Lake Managua Lake Managua ]
+  path: 2[80118 -> 90153 -> 20121 -> 10001 -> 20117], [Lake Managua Lake Managua  -> Rio San Juan -> Nicaragua -> America -> Canada] 
+
+-----------------------------------------
+ResultDestNodes: [20117, 80122, 80118]
+ResultRelevs: [7.211113929748535, 4.880916118621826, 4.880916118621826]
+AvgResultRelev: 5.6576487223307295
+AvgResultDissimilarity: 0.6666666666666666
+Num of entries retrieved from the KNLists: 363
+Num of entries retrieved from NKMaps: 584
+Num of answer trees explored: 125
+Num of states created: 4
+Num of states explored: 4
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+query: [city, mountain, canada]
+Top-k Search by Blink-BDB, k=3
+[city, mountain, canada]
+srcNodes: [40434, 210, 20117]
+  path: 0[20117 -> 30975 -> 40434], [Canada -> Alberta -> Calgary] 
+
+  path: 1[20117 -> 10001 -> 20132 -> 210], [Canada -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [41320, 210, 20117]
+  path: 0[210 -> 20132 -> 41320], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> Kingston] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20117], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> Canada] 
+
+srcNodes: [40954, 210, 20117]
+  path: 0[10001 -> 20113 -> 40954], [America -> Guatemala -> Guatemala City] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 20117], [America -> Canada] 
+
+-----------------------------------------
+Num of top-k answers: 3
+ResultDestNodes: [20117, 210, 10001]
+ResultRelevs: [6.816944122314453, 4.836363792419434, 4.2742509841918945]
+AvgResultRelev: 5.309186299641927
+AvgResultDissimilarity: 0.3333333333333333
+Num of entries retrieved from the lists: 470
+Num of entries retrieved from NKMaps: 787
+Num of answer trees explored: 156
+
+Div Top-k Search by Exhustive, k=3
+[city, mountain, canada]
+srcNodes: [40434, 210, 20117]
+  path: 0[20117 -> 30975 -> 40434], [Canada -> Alberta -> Calgary] 
+
+  path: 1[20117 -> 10001 -> 20132 -> 210], [Canada -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [41320, 210, 20117]
+  path: 0[210 -> 20132 -> 41320], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> Kingston] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20117], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> Canada] 
+
+srcNodes: [41323, 215, 20117]
+  path: 0[215 -> 20142 -> 41323], [Soufriere Soufriere  volcano -> Saint Vincent and the Grenadines -> Kingstown] 
+
+  path: 1[215 -> 215], [Soufriere Soufriere  volcano -> Soufriere Soufriere  volcano]
+  path: 2[215 -> 20142 -> 10001 -> 20117], [Soufriere Soufriere  volcano -> Saint Vincent and the Grenadines -> America -> Canada] 
+
+-----------------------------------------
+ResultDestNodes: [20117, 210, 215]
+ResultRelevs: [6.816944122314453, 4.836363792419434, 3.9434139728546143]
+AvgResultRelev: 5.198907295862834
+AvgResultDissimilarity: 0.555555542310079
+Num of entries retrieved from the KNLists: 594
+Num of entries retrieved from NKMaps: 1007
+Num of answer trees explored: 199
+Num of answer tree sets created: 20
+Num of answer tree sets removed: 4
+Max Num of answer tree sets in Q[]: 20
+
+Div Top-k Search by Astar02, k=3
+[city, mountain, canada]
+srcNodes: [40434, 210, 20117]
+  path: 0[20117 -> 30975 -> 40434], [Canada -> Alberta -> Calgary] 
+
+  path: 1[20117 -> 10001 -> 20132 -> 210], [Canada -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [41320, 210, 20117]
+  path: 0[210 -> 20132 -> 41320], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> Kingston] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20117], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> Canada] 
+
+srcNodes: [41323, 215, 20117]
+  path: 0[215 -> 20142 -> 41323], [Soufriere Soufriere  volcano -> Saint Vincent and the Grenadines -> Kingstown] 
+
+  path: 1[215 -> 215], [Soufriere Soufriere  volcano -> Soufriere Soufriere  volcano]
+  path: 2[215 -> 20142 -> 10001 -> 20117], [Soufriere Soufriere  volcano -> Saint Vincent and the Grenadines -> America -> Canada] 
+
+-----------------------------------------
+ResultDestNodes: [20117, 210, 215]
+ResultRelevs: [6.816944122314453, 4.836363792419434, 3.9434139728546143]
+AvgResultRelev: 5.198907295862834
+AvgResultDissimilarity: 0.5555555555555555
+Num of entries retrieved from the KNLists: 594
+Num of entries retrieved from NKMaps: 1007
+Num of answer trees explored: 199
+Num of states created: 29
+Num of states explored: 22
+Num of heuristic search performed: 3
+Max Num of answer tree sets in Q[]: 8
+
+Div Top-k Search by Astar1nc_ap, k=3
+[city, mountain, canada]
+srcNodes: [40434, 210, 20117]
+  path: 0[20117 -> 30975 -> 40434], [Canada -> Alberta -> Calgary] 
+
+  path: 1[20117 -> 10001 -> 20132 -> 210], [Canada -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [41320, 210, 20117]
+  path: 0[210 -> 20132 -> 41320], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> Kingston] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20117], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> Canada] 
+
+srcNodes: [41323, 215, 20117]
+  path: 0[215 -> 20142 -> 41323], [Soufriere Soufriere  volcano -> Saint Vincent and the Grenadines -> Kingstown] 
+
+  path: 1[215 -> 215], [Soufriere Soufriere  volcano -> Soufriere Soufriere  volcano]
+  path: 2[215 -> 20142 -> 10001 -> 20117], [Soufriere Soufriere  volcano -> Saint Vincent and the Grenadines -> America -> Canada] 
+
+-----------------------------------------
+ResultDestNodes: [20117, 210, 215]
+ResultRelevs: [6.816944122314453, 4.836363792419434, 3.9434139728546143]
+AvgResultRelev: 5.198907295862834
+AvgResultDissimilarity: 0.5555555555555555
+Num of entries retrieved from the KNLists: 594
+Num of entries retrieved from NKMaps: 1007
+Num of answer trees explored: 199
+Num of states created: 13
+Num of states explored: 9
+Num of heuristic search performed: 3
+Max Num of answer tree sets in Q[]: 5
+
+query: [city, mountain, alberta]
+Top-k Search by Blink-BDB, k=3
+[city, mountain, alberta]
+srcNodes: [40749, 177, 30975]
+  path: 0[30975 -> 40749], [Alberta -> Edmonton] 
+
+  path: 1[30975 -> 177], [Alberta -> Mt Columbia Mt Columbia Rocky Mountains ] 
+
+  path: 2[30975 -> 30975], [Alberta -> Alberta]
+srcNodes: [40434, 177, 30975]
+  path: 0[177 -> 30975 -> 40434], [Mt Columbia Mt Columbia Rocky Mountains  -> Alberta -> Calgary] 
+
+  path: 1[177 -> 177], [Mt Columbia Mt Columbia Rocky Mountains  -> Mt Columbia Mt Columbia Rocky Mountains ]
+  path: 2[177 -> 30975], [Mt Columbia Mt Columbia Rocky Mountains  -> Alberta] 
+
+srcNodes: [41320, 210, 30975]
+  path: 0[210 -> 20132 -> 41320], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> Kingston] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20117 -> 30975], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> Canada -> Alberta] 
+
+-----------------------------------------
+Num of top-k answers: 3
+ResultDestNodes: [30975, 177, 210]
+ResultRelevs: [7.180551528930664, 5.0963239669799805, 4.551893711090088]
+AvgResultRelev: 5.609589735666911
+AvgResultDissimilarity: 0.5555555555555555
+Num of entries retrieved from the lists: 207
+Num of entries retrieved from NKMaps: 359
+Num of answer trees explored: 72
+
+Div Top-k Search by Exhustive, k=3
+[city, mountain, alberta]
+srcNodes: [40749, 177, 30975]
+  path: 0[30975 -> 40749], [Alberta -> Edmonton] 
+
+  path: 1[30975 -> 177], [Alberta -> Mt Columbia Mt Columbia Rocky Mountains ] 
+
+  path: 2[30975 -> 30975], [Alberta -> Alberta]
+srcNodes: [40434, 177, 30975]
+  path: 0[177 -> 30975 -> 40434], [Mt Columbia Mt Columbia Rocky Mountains  -> Alberta -> Calgary] 
+
+  path: 1[177 -> 177], [Mt Columbia Mt Columbia Rocky Mountains  -> Mt Columbia Mt Columbia Rocky Mountains ]
+  path: 2[177 -> 30975], [Mt Columbia Mt Columbia Rocky Mountains  -> Alberta] 
+
+srcNodes: [41320, 210, 30975]
+  path: 0[210 -> 20132 -> 41320], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> Kingston] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20117 -> 30975], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> Canada -> Alberta] 
+
+-----------------------------------------
+ResultDestNodes: [30975, 177, 210]
+ResultRelevs: [7.180551528930664, 5.0963239669799805, 4.551893711090088]
+AvgResultRelev: 5.609589735666911
+AvgResultDissimilarity: 0.555555542310079
+Num of entries retrieved from the KNLists: 207
+Num of entries retrieved from NKMaps: 359
+Num of answer trees explored: 72
+Num of answer tree sets created: 7
+Num of answer tree sets removed: 0
+Max Num of answer tree sets in Q[]: 7
+
+Div Top-k Search by Astar02, k=3
+[city, mountain, alberta]
+srcNodes: [40749, 177, 30975]
+  path: 0[30975 -> 40749], [Alberta -> Edmonton] 
+
+  path: 1[30975 -> 177], [Alberta -> Mt Columbia Mt Columbia Rocky Mountains ] 
+
+  path: 2[30975 -> 30975], [Alberta -> Alberta]
+srcNodes: [40434, 177, 30975]
+  path: 0[177 -> 30975 -> 40434], [Mt Columbia Mt Columbia Rocky Mountains  -> Alberta -> Calgary] 
+
+  path: 1[177 -> 177], [Mt Columbia Mt Columbia Rocky Mountains  -> Mt Columbia Mt Columbia Rocky Mountains ]
+  path: 2[177 -> 30975], [Mt Columbia Mt Columbia Rocky Mountains  -> Alberta] 
+
+srcNodes: [41320, 210, 30975]
+  path: 0[210 -> 20132 -> 41320], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> Kingston] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20117 -> 30975], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> Canada -> Alberta] 
+
+-----------------------------------------
+ResultDestNodes: [30975, 177, 210]
+ResultRelevs: [7.180551528930664, 5.0963239669799805, 4.551893711090088]
+AvgResultRelev: 5.609589735666911
+AvgResultDissimilarity: 0.5555555555555555
+Num of entries retrieved from the KNLists: 207
+Num of entries retrieved from NKMaps: 359
+Num of answer trees explored: 72
+Num of states created: 7
+Num of states explored: 4
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 4
+
+Div Top-k Search by Astar1nc_ap, k=3
+[city, mountain, alberta]
+srcNodes: [40749, 177, 30975]
+  path: 0[30975 -> 40749], [Alberta -> Edmonton] 
+
+  path: 1[30975 -> 177], [Alberta -> Mt Columbia Mt Columbia Rocky Mountains ] 
+
+  path: 2[30975 -> 30975], [Alberta -> Alberta]
+srcNodes: [40434, 177, 30975]
+  path: 0[177 -> 30975 -> 40434], [Mt Columbia Mt Columbia Rocky Mountains  -> Alberta -> Calgary] 
+
+  path: 1[177 -> 177], [Mt Columbia Mt Columbia Rocky Mountains  -> Mt Columbia Mt Columbia Rocky Mountains ]
+  path: 2[177 -> 30975], [Mt Columbia Mt Columbia Rocky Mountains  -> Alberta] 
+
+srcNodes: [41320, 210, 30975]
+  path: 0[210 -> 20132 -> 41320], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> Kingston] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20117 -> 30975], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> Canada -> Alberta] 
+
+-----------------------------------------
+ResultDestNodes: [30975, 177, 210]
+ResultRelevs: [7.180551528930664, 5.0963239669799805, 4.551893711090088]
+AvgResultRelev: 5.609589735666911
+AvgResultDissimilarity: 0.5555555555555555
+Num of entries retrieved from the KNLists: 207
+Num of entries retrieved from NKMaps: 359
+Num of answer trees explored: 72
+Num of states created: 4
+Num of states explored: 4
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+query: [city, mountain, montana]
+Top-k Search by Blink-BDB, k=3
+[city, mountain, montana]
+srcNodes: [41019, 181, 31012]
+  path: 0[31012 -> 41019], [Montana -> Helena] 
+
+  path: 1[31012 -> 181], [Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+  path: 2[31012 -> 31012], [Montana -> Montana]
+srcNodes: [41019, 181, 31012]
+  path: 0[181 -> 31012 -> 41019], [Granite Peak Granite Peak Rocky Mountains  -> Montana -> Helena] 
+
+  path: 1[181 -> 181], [Granite Peak Granite Peak Rocky Mountains  -> Granite Peak Granite Peak Rocky Mountains ]
+  path: 2[181 -> 31012], [Granite Peak Granite Peak Rocky Mountains  -> Montana] 
+
+srcNodes: [41320, 210, 31012]
+  path: 0[210 -> 20132 -> 41320], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> Kingston] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20118 -> 31012], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> Montana] 
+
+-----------------------------------------
+Num of top-k answers: 3
+ResultDestNodes: [31012, 181, 210]
+ResultRelevs: [7.180551528930664, 5.0963239669799805, 4.551893711090088]
+AvgResultRelev: 5.609589735666911
+AvgResultDissimilarity: 0.4444444444444444
+Num of entries retrieved from the lists: 231
+Num of entries retrieved from NKMaps: 395
+Num of answer trees explored: 78
+
+Div Top-k Search by Exhustive, k=3
+[city, mountain, montana]
+srcNodes: [41019, 181, 31012]
+  path: 0[31012 -> 41019], [Montana -> Helena] 
+
+  path: 1[31012 -> 181], [Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+  path: 2[31012 -> 31012], [Montana -> Montana]
+srcNodes: [41320, 210, 31012]
+  path: 0[210 -> 20132 -> 41320], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> Kingston] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20118 -> 31012], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> Montana] 
+
+srcNodes: [41254, 210, 31012]
+  path: 0[20118 -> 31011 -> 41254], [United States -> Missouri -> Kansas City] 
+
+  path: 1[20118 -> 10001 -> 20132 -> 210], [United States -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20118 -> 31012], [United States -> Montana] 
+
+-----------------------------------------
+ResultDestNodes: [31012, 210, 20118]
+ResultRelevs: [7.180551528930664, 4.551893711090088, 4.020191192626953]
+AvgResultRelev: 5.250878810882568
+AvgResultDissimilarity: 0.555555542310079
+Num of entries retrieved from the KNLists: 713
+Num of entries retrieved from NKMaps: 1186
+Num of answer trees explored: 238
+Num of answer tree sets created: 12
+Num of answer tree sets removed: 8
+Max Num of answer tree sets in Q[]: 12
+
+Div Top-k Search by Astar02, k=3
+[city, mountain, montana]
+srcNodes: [41019, 181, 31012]
+  path: 0[31012 -> 41019], [Montana -> Helena] 
+
+  path: 1[31012 -> 181], [Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+  path: 2[31012 -> 31012], [Montana -> Montana]
+srcNodes: [41320, 210, 31012]
+  path: 0[210 -> 20132 -> 41320], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> Kingston] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20118 -> 31012], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> Montana] 
+
+srcNodes: [41254, 210, 31012]
+  path: 0[20118 -> 31011 -> 41254], [United States -> Missouri -> Kansas City] 
+
+  path: 1[20118 -> 10001 -> 20132 -> 210], [United States -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20118 -> 31012], [United States -> Montana] 
+
+-----------------------------------------
+ResultDestNodes: [31012, 210, 20118]
+ResultRelevs: [7.180551528930664, 4.551893711090088, 4.020191192626953]
+AvgResultRelev: 5.250878810882568
+AvgResultDissimilarity: 0.5555555555555555
+Num of entries retrieved from the KNLists: 713
+Num of entries retrieved from NKMaps: 1186
+Num of answer trees explored: 238
+Num of states created: 78
+Num of states explored: 74
+Num of heuristic search performed: 23
+Max Num of answer tree sets in Q[]: 6
+
+Div Top-k Search by Astar1nc_ap, k=3
+[city, mountain, montana]
+srcNodes: [41019, 181, 31012]
+  path: 0[31012 -> 41019], [Montana -> Helena] 
+
+  path: 1[31012 -> 181], [Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+  path: 2[31012 -> 31012], [Montana -> Montana]
+srcNodes: [41320, 210, 31012]
+  path: 0[210 -> 20132 -> 41320], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> Kingston] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20118 -> 31012], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> Montana] 
+
+srcNodes: [41254, 210, 31012]
+  path: 0[20118 -> 31011 -> 41254], [United States -> Missouri -> Kansas City] 
+
+  path: 1[20118 -> 10001 -> 20132 -> 210], [United States -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20118 -> 31012], [United States -> Montana] 
+
+-----------------------------------------
+ResultDestNodes: [31012, 210, 20118]
+ResultRelevs: [7.180551528930664, 4.551893711090088, 4.020191192626953]
+AvgResultRelev: 5.250878810882568
+AvgResultDissimilarity: 0.5555555555555555
+Num of entries retrieved from the KNLists: 713
+Num of entries retrieved from NKMaps: 1186
+Num of answer trees explored: 238
+Num of states created: 301
+Num of states explored: 69
+Num of heuristic search performed: 23
+Max Num of answer tree sets in Q[]: 23
+
+query: [city, rocky, mountain]
+Top-k Search by Blink-BDB, k=3
+[city, rocky, mountain]
+srcNodes: [42332, 185, 185]
+  path: 0[185 -> 31030 -> 42332], [Kings Peak Kings Peak Rocky Mountains  -> Utah -> Salt Lake City] 
+
+  path: 1[185 -> 185], [Kings Peak Kings Peak Rocky Mountains  -> Kings Peak Kings Peak Rocky Mountains ]
+  path: 2[185 -> 185], [Kings Peak Kings Peak Rocky Mountains  -> Kings Peak Kings Peak Rocky Mountains ]
+srcNodes: [40411, 176, 176]
+  path: 0[176 -> 30976 -> 40411], [Mt Robson Mt Robson Rocky Mountains  -> British Columbia -> Burnaby] 
+
+  path: 1[176 -> 176], [Mt Robson Mt Robson Rocky Mountains  -> Mt Robson Mt Robson Rocky Mountains ]
+  path: 2[176 -> 176], [Mt Robson Mt Robson Rocky Mountains  -> Mt Robson Mt Robson Rocky Mountains ]
+srcNodes: [40434, 177, 177]
+  path: 0[177 -> 30975 -> 40434], [Mt Columbia Mt Columbia Rocky Mountains  -> Alberta -> Calgary] 
+
+  path: 1[177 -> 177], [Mt Columbia Mt Columbia Rocky Mountains  -> Mt Columbia Mt Columbia Rocky Mountains ]
+  path: 2[177 -> 177], [Mt Columbia Mt Columbia Rocky Mountains  -> Mt Columbia Mt Columbia Rocky Mountains ]
+-----------------------------------------
+Num of top-k answers: 3
+ResultDestNodes: [185, 176, 177]
+ResultRelevs: [5.463290691375732, 5.415303707122803, 5.415303707122803]
+AvgResultRelev: 5.431299368540446
+AvgResultDissimilarity: 1.0
+Num of entries retrieved from the lists: 40
+Num of entries retrieved from NKMaps: 69
+Num of answer trees explored: 17
+
+Div Top-k Search by Exhustive, k=3
+[city, rocky, mountain]
+srcNodes: [42332, 185, 185]
+  path: 0[185 -> 31030 -> 42332], [Kings Peak Kings Peak Rocky Mountains  -> Utah -> Salt Lake City] 
+
+  path: 1[185 -> 185], [Kings Peak Kings Peak Rocky Mountains  -> Kings Peak Kings Peak Rocky Mountains ]
+  path: 2[185 -> 185], [Kings Peak Kings Peak Rocky Mountains  -> Kings Peak Kings Peak Rocky Mountains ]
+srcNodes: [40674, 186, 186]
+  path: 0[186 -> 30992 -> 40674], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado -> Denver] 
+
+  path: 1[186 -> 186], [Mt Elbert Mt Elbert Rocky Mountains  -> Mt Elbert Mt Elbert Rocky Mountains ]
+  path: 2[186 -> 186], [Mt Elbert Mt Elbert Rocky Mountains  -> Mt Elbert Mt Elbert Rocky Mountains ]
+srcNodes: [40064, 188, 188]
+  path: 0[188 -> 31017 -> 40064], [Wheeler Peak Wheeler Peak Rocky Mountains  -> New Mexico -> Albuquerque] 
+
+  path: 1[188 -> 188], [Wheeler Peak Wheeler Peak Rocky Mountains  -> Wheeler Peak Wheeler Peak Rocky Mountains ]
+  path: 2[188 -> 188], [Wheeler Peak Wheeler Peak Rocky Mountains  -> Wheeler Peak Wheeler Peak Rocky Mountains ]
+-----------------------------------------
+ResultDestNodes: [185, 186, 188]
+ResultRelevs: [5.463290691375732, 5.415303707122803, 5.415303707122803]
+AvgResultRelev: 5.431299368540446
+AvgResultDissimilarity: 1.0
+Num of entries retrieved from the KNLists: 40
+Num of entries retrieved from NKMaps: 69
+Num of answer trees explored: 17
+Num of answer tree sets created: 7
+Num of answer tree sets removed: 0
+Max Num of answer tree sets in Q[]: 7
+
+Div Top-k Search by Astar02, k=3
+[city, rocky, mountain]
+srcNodes: [42332, 185, 185]
+  path: 0[185 -> 31030 -> 42332], [Kings Peak Kings Peak Rocky Mountains  -> Utah -> Salt Lake City] 
+
+  path: 1[185 -> 185], [Kings Peak Kings Peak Rocky Mountains  -> Kings Peak Kings Peak Rocky Mountains ]
+  path: 2[185 -> 185], [Kings Peak Kings Peak Rocky Mountains  -> Kings Peak Kings Peak Rocky Mountains ]
+srcNodes: [40674, 186, 186]
+  path: 0[186 -> 30992 -> 40674], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado -> Denver] 
+
+  path: 1[186 -> 186], [Mt Elbert Mt Elbert Rocky Mountains  -> Mt Elbert Mt Elbert Rocky Mountains ]
+  path: 2[186 -> 186], [Mt Elbert Mt Elbert Rocky Mountains  -> Mt Elbert Mt Elbert Rocky Mountains ]
+srcNodes: [40064, 188, 188]
+  path: 0[188 -> 31017 -> 40064], [Wheeler Peak Wheeler Peak Rocky Mountains  -> New Mexico -> Albuquerque] 
+
+  path: 1[188 -> 188], [Wheeler Peak Wheeler Peak Rocky Mountains  -> Wheeler Peak Wheeler Peak Rocky Mountains ]
+  path: 2[188 -> 188], [Wheeler Peak Wheeler Peak Rocky Mountains  -> Wheeler Peak Wheeler Peak Rocky Mountains ]
+-----------------------------------------
+ResultDestNodes: [185, 186, 188]
+ResultRelevs: [5.463290691375732, 5.415303707122803, 5.415303707122803]
+AvgResultRelev: 5.431299368540446
+AvgResultDissimilarity: 1.0
+Num of entries retrieved from the KNLists: 40
+Num of entries retrieved from NKMaps: 69
+Num of answer trees explored: 17
+Num of states created: 7
+Num of states explored: 5
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 4
+
+Div Top-k Search by Astar1nc_ap, k=3
+[city, rocky, mountain]
+srcNodes: [42332, 185, 185]
+  path: 0[185 -> 31030 -> 42332], [Kings Peak Kings Peak Rocky Mountains  -> Utah -> Salt Lake City] 
+
+  path: 1[185 -> 185], [Kings Peak Kings Peak Rocky Mountains  -> Kings Peak Kings Peak Rocky Mountains ]
+  path: 2[185 -> 185], [Kings Peak Kings Peak Rocky Mountains  -> Kings Peak Kings Peak Rocky Mountains ]
+srcNodes: [40674, 186, 186]
+  path: 0[186 -> 30992 -> 40674], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado -> Denver] 
+
+  path: 1[186 -> 186], [Mt Elbert Mt Elbert Rocky Mountains  -> Mt Elbert Mt Elbert Rocky Mountains ]
+  path: 2[186 -> 186], [Mt Elbert Mt Elbert Rocky Mountains  -> Mt Elbert Mt Elbert Rocky Mountains ]
+srcNodes: [40064, 188, 188]
+  path: 0[188 -> 31017 -> 40064], [Wheeler Peak Wheeler Peak Rocky Mountains  -> New Mexico -> Albuquerque] 
+
+  path: 1[188 -> 188], [Wheeler Peak Wheeler Peak Rocky Mountains  -> Wheeler Peak Wheeler Peak Rocky Mountains ]
+  path: 2[188 -> 188], [Wheeler Peak Wheeler Peak Rocky Mountains  -> Wheeler Peak Wheeler Peak Rocky Mountains ]
+-----------------------------------------
+ResultDestNodes: [185, 186, 188]
+ResultRelevs: [5.463290691375732, 5.415303707122803, 5.415303707122803]
+AvgResultRelev: 5.431299368540446
+AvgResultDissimilarity: 1.0
+Num of entries retrieved from the KNLists: 40
+Num of entries retrieved from NKMaps: 69
+Num of answer trees explored: 17
+Num of states created: 4
+Num of states explored: 4
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+

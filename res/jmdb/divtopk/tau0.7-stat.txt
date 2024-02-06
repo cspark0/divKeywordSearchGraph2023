@@ -1,0 +1,10 @@
+Top-k, (AvgResultRelev, AvgResultRelev/ResultRelevs[0], AvgResultDiss) numOfKNListsRead, numOfNKMapLookups, numOfAnswerTreesExplored, numOfStatesCreated, numOfStatesExplored, numOfHeuristicSearchPerformed maxQSize, elapseTime, 
+query: [sf, time, travel]
+BlinkSearcher, 5, 7.08223, 0.86213, 0.55000, 1184, 1670, 425, 0.13626996, 
+ExhustiveSearcher, 5, 6.91771, 0.84210, 0.78000, 1959, 2825, 771, 0.136178721, 102, 38, 102, 
+Astar1, 5, 6.91771, 0.84210, 0.78000, 1959, 2825, 771, 0.073246729, 59, 23, 3 16, 
+AstarEnhanced, 5, 6.91771, 0.84210, 0.78000, 1959, 2825, 771, 0.066414901, 104, 88, 3 16, 
+BlinkSearcher, 10, 6.43024, 0.78276, 0.63556, 2513, 3556, 933, 0.07835916, 
+ExhustiveSearcher, 10, 6.41669, 0.78111, 0.71556, 2615, 3688, 960, 2.482565875, 530545, 530524, 530534, 
+Astar1, 10, 6.41669, 0.78111, 0.71556, 2615, 3688, 960, 0.082601103, 1652, 235, 14 176, 
+AstarEnhanced, 10, 6.41669, 0.78111, 0.71556, 2615, 3688, 960, 7.089643081, 801949, 801785, 14 16512, 

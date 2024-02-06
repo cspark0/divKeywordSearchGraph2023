@@ -1,0 +1,3 @@
+Top-k, (AvgResultRelev, AvgResultRelev/ResultRelevs[0], AvgResultDiss) numOfKNListsRead, numOfNKMapLookups, numOfAnswerTreesExplored, elapseTime, 
+BlinkSearcher, 5, 5.20805, 0.91893, 0.65000, 1854, 2447, 452, 0.12757671, 
+BlinkSearcher, 5, 5.20805, 0.91893, 0.65000, 1854, 2447, 452, 0.077837921, 

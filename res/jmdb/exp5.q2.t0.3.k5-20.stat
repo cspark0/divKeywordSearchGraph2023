@@ -1,0 +1,11 @@
+Top-k, (AvgResultRelev, AvgResultRelev/ResultRelevs[0], AvgResultDiss) numOfKNListsRead, numOfNKMapLookups, numOfAnswerTreesExplored, elapseTime, numOfStatesCreated, numOfStatesExplored, numOfHeuristicSearchPerformed, numOfATSPrunnedByDissCond, numOfLocalAnswersFound, 
+query: [monster, fantasy, animation]
+thr: 0.3
+SimGrpSe, 	5, 9.53057, 1.03450, 0.46667, 5646, 9097, 2938, 0.337724153, 17, 5, 0, 1, 
+SimGrpSe, 	10, 9.20152, 1.04538, 0.57333, 6884, 10709, 3297, 0.44581391, 1462, 300, 0, 1, 
+SimGrpSe, 	15, 9.03805, 1.04208, 0.65905, 6884, 10709, 3297, 0.912564486, 6562, 900, 0, 1, 
+SimGrpSe, 	20, 8.91470, 1.04887, 0.61509, 6887, 10713, 3297, 110.212674237, 79462, 16200, 0, 1, 
+thr: 0.35
+SimGrpSe, 	5, 9.22715, 1.05712, 0.64000, 6884, 10709, 3297, 0.323180127, 239, 69, 0, 2, 
+SimGrpSe, 	10, 8.84977, 1.06695, 0.71407, 8658, 13273, 4007, 0.737332578, 4911, 1426, 0, 3, 
+SimGrpSe, 	15, 8.64057, 1.05894, 0.81841, 8658, 13273, 4007, 5.777476883, 23073, 576, 0, 1, 

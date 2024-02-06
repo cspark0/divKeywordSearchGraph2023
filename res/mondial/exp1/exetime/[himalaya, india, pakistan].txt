@@ -1,0 +1,2169 @@
+Blink Search Using BDB 10
+[himalaya, india, pakistan]
+srcNodes: [127, 20065, 20055]
+  path: 0[20065 -> 30749 -> 127], [India -> Sikkim -> Kangchendzonga Kangchendzonga Himalaya ] 
+
+  path: 1[20065 -> 20065], [India -> India]
+  path: 2[20065 -> 10002 -> 20055], [India -> Asia -> Pakistan] 
+
+srcNodes: [125, 20065, 20055]
+  path: 0[20055 -> 10002 -> 20079 -> 125], [Pakistan -> Asia -> Nepal -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[20055 -> 10002 -> 20065], [Pakistan -> Asia -> India] 
+
+  path: 2[20055 -> 20055], [Pakistan -> Pakistan]
+srcNodes: [118, 20065, 20055]
+  path: 0[10002 -> 20079 -> 118], [Asia -> Nepal -> Dhaulagiri Dhaulagiri Himalaya ] 
+
+  path: 1[10002 -> 20065], [Asia -> India] 
+
+  path: 2[10002 -> 20055], [Asia -> Pakistan] 
+
+srcNodes: [124, 20065, 20055]
+  path: 0[124 -> 124], [Mount Everest Mount Everest Himalaya  -> Mount Everest Mount Everest Himalaya ]
+  path: 1[124 -> 20079 -> 10002 -> 20065], [Mount Everest Mount Everest Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[124 -> 30658 -> 90128 -> 20055], [Mount Everest Mount Everest Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [118, 20065, 20055]
+  path: 0[118 -> 118], [Dhaulagiri Dhaulagiri Himalaya  -> Dhaulagiri Dhaulagiri Himalaya ]
+  path: 1[118 -> 20079 -> 10002 -> 20065], [Dhaulagiri Dhaulagiri Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[118 -> 20079 -> 10002 -> 20055], [Dhaulagiri Dhaulagiri Himalaya  -> Nepal -> Asia -> Pakistan] 
+
+srcNodes: [125, 20065, 20055]
+  path: 0[125 -> 125], [Lhotse Lhotse Himalaya  -> Lhotse Lhotse Himalaya ]
+  path: 1[125 -> 20079 -> 10002 -> 20065], [Lhotse Lhotse Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[125 -> 30658 -> 90128 -> 20055], [Lhotse Lhotse Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [120, 20065, 20055]
+  path: 0[120 -> 120], [Manaslu Manaslu Himalaya  -> Manaslu Manaslu Himalaya ]
+  path: 1[120 -> 20079 -> 10002 -> 20065], [Manaslu Manaslu Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[120 -> 20079 -> 10002 -> 20055], [Manaslu Manaslu Himalaya  -> Nepal -> Asia -> Pakistan] 
+
+srcNodes: [123, 20065, 20055]
+  path: 0[123 -> 123], [Cho Oyu Cho Oyu Himalaya  -> Cho Oyu Cho Oyu Himalaya ]
+  path: 1[123 -> 20079 -> 10002 -> 20065], [Cho Oyu Cho Oyu Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[123 -> 30658 -> 90128 -> 20055], [Cho Oyu Cho Oyu Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [119, 20065, 20055]
+  path: 0[119 -> 119], [Annapurna Annapurna Himalaya  -> Annapurna Annapurna Himalaya ]
+  path: 1[119 -> 20079 -> 10002 -> 20065], [Annapurna Annapurna Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[119 -> 20079 -> 10002 -> 20055], [Annapurna Annapurna Himalaya  -> Nepal -> Asia -> Pakistan] 
+
+srcNodes: [127, 20065, 20055]
+  path: 0[127 -> 127], [Kangchendzonga Kangchendzonga Himalaya  -> Kangchendzonga Kangchendzonga Himalaya ]
+  path: 1[127 -> 20079 -> 10002 -> 20065], [Kangchendzonga Kangchendzonga Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[127 -> 20079 -> 10002 -> 20055], [Kangchendzonga Kangchendzonga Himalaya  -> Nepal -> Asia -> Pakistan] 
+
+-----------------------------------------
+ResultDestNodes: [20065, 20055, 10002, 124, 118, 125, 120, 123, 119, 127]
+ResultRelevs: [8.421239852905273, 7.993104934692383, 6.579249858856201, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418]
+Num of top-k answers: 10
+Num of non-reduced answers: 0
+Num of duplicate answers: 3
+Num of non-redundant answers: 7
+Num of entries retrieved from the lists: 32
+Num of entries retrieved from NKMaps: 57
+
+Blink Search Using BDB_nored 10
+[himalaya, india, pakistan]
+srcNodes: [127, 20065, 20055]
+  path: 0[20065 -> 30749 -> 127], [India -> Sikkim -> Kangchendzonga Kangchendzonga Himalaya ] 
+
+  path: 1[20065 -> 20065], [India -> India]
+  path: 2[20065 -> 10002 -> 20055], [India -> Asia -> Pakistan] 
+
+srcNodes: [125, 20065, 20055]
+  path: 0[20055 -> 10002 -> 20079 -> 125], [Pakistan -> Asia -> Nepal -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[20055 -> 10002 -> 20065], [Pakistan -> Asia -> India] 
+
+  path: 2[20055 -> 20055], [Pakistan -> Pakistan]
+srcNodes: [118, 20065, 20055]
+  path: 0[10002 -> 20079 -> 118], [Asia -> Nepal -> Dhaulagiri Dhaulagiri Himalaya ] 
+
+  path: 1[10002 -> 20065], [Asia -> India] 
+
+  path: 2[10002 -> 20055], [Asia -> Pakistan] 
+
+srcNodes: [124, 20065, 20055]
+  path: 0[124 -> 124], [Mount Everest Mount Everest Himalaya  -> Mount Everest Mount Everest Himalaya ]
+  path: 1[124 -> 20079 -> 10002 -> 20065], [Mount Everest Mount Everest Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[124 -> 30658 -> 90128 -> 20055], [Mount Everest Mount Everest Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [119, 20065, 20055]
+  path: 0[119 -> 119], [Annapurna Annapurna Himalaya  -> Annapurna Annapurna Himalaya ]
+  path: 1[119 -> 20079 -> 10002 -> 20065], [Annapurna Annapurna Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[119 -> 20079 -> 10002 -> 20055], [Annapurna Annapurna Himalaya  -> Nepal -> Asia -> Pakistan] 
+
+srcNodes: [120, 20065, 20055]
+  path: 0[120 -> 120], [Manaslu Manaslu Himalaya  -> Manaslu Manaslu Himalaya ]
+  path: 1[120 -> 20079 -> 10002 -> 20065], [Manaslu Manaslu Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[120 -> 20079 -> 10002 -> 20055], [Manaslu Manaslu Himalaya  -> Nepal -> Asia -> Pakistan] 
+
+srcNodes: [118, 20065, 20055]
+  path: 0[118 -> 118], [Dhaulagiri Dhaulagiri Himalaya  -> Dhaulagiri Dhaulagiri Himalaya ]
+  path: 1[118 -> 20079 -> 10002 -> 20065], [Dhaulagiri Dhaulagiri Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[118 -> 20079 -> 10002 -> 20055], [Dhaulagiri Dhaulagiri Himalaya  -> Nepal -> Asia -> Pakistan] 
+
+srcNodes: [123, 20065, 20055]
+  path: 0[123 -> 123], [Cho Oyu Cho Oyu Himalaya  -> Cho Oyu Cho Oyu Himalaya ]
+  path: 1[123 -> 20079 -> 10002 -> 20065], [Cho Oyu Cho Oyu Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[123 -> 30658 -> 90128 -> 20055], [Cho Oyu Cho Oyu Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [125, 20065, 20055]
+  path: 0[125 -> 125], [Lhotse Lhotse Himalaya  -> Lhotse Lhotse Himalaya ]
+  path: 1[125 -> 20079 -> 10002 -> 20065], [Lhotse Lhotse Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[125 -> 30658 -> 90128 -> 20055], [Lhotse Lhotse Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [127, 20065, 20055]
+  path: 0[127 -> 127], [Kangchendzonga Kangchendzonga Himalaya  -> Kangchendzonga Kangchendzonga Himalaya ]
+  path: 1[127 -> 20079 -> 10002 -> 20065], [Kangchendzonga Kangchendzonga Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[127 -> 20079 -> 10002 -> 20055], [Kangchendzonga Kangchendzonga Himalaya  -> Nepal -> Asia -> Pakistan] 
+
+-----------------------------------------
+ResultDestNodes: [20065, 20055, 10002, 124, 119, 120, 118, 123, 125, 127]
+ResultRelevs: [8.421239852905273, 7.993104934692383, 6.579249858856201, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418]
+Num of top-k answers: 10
+Num of redundant answers: 0
+Num of duplicate answers: 3
+Num of entries retrieved from the lists: 32
+Num of entries retrieved from NKMaps: 57
+
+Blink Search Using BDB_reduced 10
+[himalaya, india, pakistan]
+srcNodes: [127, 20065, 20055]
+  path: 0[20065 -> 30749 -> 127], [India -> Sikkim -> Kangchendzonga Kangchendzonga Himalaya ] 
+
+  path: 1[20065 -> 20065], [India -> India]
+  path: 2[20065 -> 10002 -> 20055], [India -> Asia -> Pakistan] 
+
+srcNodes: [125, 20065, 20055]
+  path: 0[20055 -> 10002 -> 20079 -> 125], [Pakistan -> Asia -> Nepal -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[20055 -> 10002 -> 20065], [Pakistan -> Asia -> India] 
+
+  path: 2[20055 -> 20055], [Pakistan -> Pakistan]
+srcNodes: [118, 20065, 20055]
+  path: 0[10002 -> 20079 -> 118], [Asia -> Nepal -> Dhaulagiri Dhaulagiri Himalaya ] 
+
+  path: 1[10002 -> 20065], [Asia -> India] 
+
+  path: 2[10002 -> 20055], [Asia -> Pakistan] 
+
+srcNodes: [124, 20065, 20055]
+  path: 0[124 -> 124], [Mount Everest Mount Everest Himalaya  -> Mount Everest Mount Everest Himalaya ]
+  path: 1[124 -> 20079 -> 10002 -> 20065], [Mount Everest Mount Everest Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[124 -> 30658 -> 90128 -> 20055], [Mount Everest Mount Everest Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [119, 20065, 20055]
+  path: 0[119 -> 119], [Annapurna Annapurna Himalaya  -> Annapurna Annapurna Himalaya ]
+  path: 1[119 -> 20079 -> 10002 -> 20065], [Annapurna Annapurna Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[119 -> 20079 -> 10002 -> 20055], [Annapurna Annapurna Himalaya  -> Nepal -> Asia -> Pakistan] 
+
+srcNodes: [120, 20065, 20055]
+  path: 0[120 -> 120], [Manaslu Manaslu Himalaya  -> Manaslu Manaslu Himalaya ]
+  path: 1[120 -> 20079 -> 10002 -> 20065], [Manaslu Manaslu Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[120 -> 20079 -> 10002 -> 20055], [Manaslu Manaslu Himalaya  -> Nepal -> Asia -> Pakistan] 
+
+srcNodes: [118, 20065, 20055]
+  path: 0[118 -> 118], [Dhaulagiri Dhaulagiri Himalaya  -> Dhaulagiri Dhaulagiri Himalaya ]
+  path: 1[118 -> 20079 -> 10002 -> 20065], [Dhaulagiri Dhaulagiri Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[118 -> 20079 -> 10002 -> 20055], [Dhaulagiri Dhaulagiri Himalaya  -> Nepal -> Asia -> Pakistan] 
+
+srcNodes: [123, 20065, 20055]
+  path: 0[123 -> 123], [Cho Oyu Cho Oyu Himalaya  -> Cho Oyu Cho Oyu Himalaya ]
+  path: 1[123 -> 20079 -> 10002 -> 20065], [Cho Oyu Cho Oyu Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[123 -> 30658 -> 90128 -> 20055], [Cho Oyu Cho Oyu Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [125, 20065, 20055]
+  path: 0[125 -> 125], [Lhotse Lhotse Himalaya  -> Lhotse Lhotse Himalaya ]
+  path: 1[125 -> 20079 -> 10002 -> 20065], [Lhotse Lhotse Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[125 -> 30658 -> 90128 -> 20055], [Lhotse Lhotse Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [127, 20065, 20055]
+  path: 0[127 -> 127], [Kangchendzonga Kangchendzonga Himalaya  -> Kangchendzonga Kangchendzonga Himalaya ]
+  path: 1[127 -> 20079 -> 10002 -> 20065], [Kangchendzonga Kangchendzonga Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[127 -> 20079 -> 10002 -> 20055], [Kangchendzonga Kangchendzonga Himalaya  -> Nepal -> Asia -> Pakistan] 
+
+-----------------------------------------
+ResultDestNodes: [20065, 20055, 10002, 124, 119, 120, 118, 123, 125, 127]
+ResultRelevs: [8.421239852905273, 7.993104934692383, 6.579249858856201, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418]
+Num of top-k answers: 10
+Num of non-reduced answers: 0
+Num of duplicate answers: 3
+Num of non-redundant answers: 7
+Num of entries retrieved from the lists: 32
+Num of entries retrieved from NKMaps: 93
+
+Blink Search Using BDB_reducedNunique_Opt 10
+[himalaya, india, pakistan]
+srcNodes: [127, 20065, 20055]
+  path: 0[20065 -> 30749 -> 127], [India -> Sikkim -> Kangchendzonga Kangchendzonga Himalaya ] 
+
+  path: 1[20065 -> 20065], [India -> India]
+  path: 2[20065 -> 10002 -> 20055], [India -> Asia -> Pakistan] 
+
+srcNodes: [125, 20065, 20055]
+  path: 0[20055 -> 10002 -> 20079 -> 125], [Pakistan -> Asia -> Nepal -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[20055 -> 10002 -> 20065], [Pakistan -> Asia -> India] 
+
+  path: 2[20055 -> 20055], [Pakistan -> Pakistan]
+srcNodes: [118, 20065, 20055]
+  path: 0[10002 -> 20079 -> 118], [Asia -> Nepal -> Dhaulagiri Dhaulagiri Himalaya ] 
+
+  path: 1[10002 -> 20065], [Asia -> India] 
+
+  path: 2[10002 -> 20055], [Asia -> Pakistan] 
+
+srcNodes: [120, 20065, 20055]
+  path: 0[120 -> 120], [Manaslu Manaslu Himalaya  -> Manaslu Manaslu Himalaya ]
+  path: 1[120 -> 20079 -> 10002 -> 20065], [Manaslu Manaslu Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[120 -> 20079 -> 10002 -> 20055], [Manaslu Manaslu Himalaya  -> Nepal -> Asia -> Pakistan] 
+
+srcNodes: [124, 20065, 20055]
+  path: 0[124 -> 124], [Mount Everest Mount Everest Himalaya  -> Mount Everest Mount Everest Himalaya ]
+  path: 1[124 -> 20079 -> 10002 -> 20065], [Mount Everest Mount Everest Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[124 -> 30658 -> 90128 -> 20055], [Mount Everest Mount Everest Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [119, 20065, 20055]
+  path: 0[119 -> 119], [Annapurna Annapurna Himalaya  -> Annapurna Annapurna Himalaya ]
+  path: 1[119 -> 20079 -> 10002 -> 20065], [Annapurna Annapurna Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[119 -> 20079 -> 10002 -> 20055], [Annapurna Annapurna Himalaya  -> Nepal -> Asia -> Pakistan] 
+
+srcNodes: [126, 20065, 20055]
+  path: 0[126 -> 126], [Makalu Makalu Himalaya  -> Makalu Makalu Himalaya ]
+  path: 1[126 -> 20079 -> 10002 -> 20065], [Makalu Makalu Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[126 -> 30658 -> 90128 -> 20055], [Makalu Makalu Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [123, 20065, 20055]
+  path: 0[123 -> 123], [Cho Oyu Cho Oyu Himalaya  -> Cho Oyu Cho Oyu Himalaya ]
+  path: 1[123 -> 20079 -> 10002 -> 20065], [Cho Oyu Cho Oyu Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[123 -> 30658 -> 90128 -> 20055], [Cho Oyu Cho Oyu Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [121, 20065, 20055]
+  path: 0[121 -> 121], [Shishapangma Shishapangma Himalaya  -> Shishapangma Shishapangma Himalaya ]
+  path: 1[121 -> 30658 -> 90123 -> 20072 -> 10002 -> 20065], [Shishapangma Shishapangma Himalaya  -> Tibet -> Mekong -> Vietnam -> Asia -> India] 
+
+  path: 2[121 -> 30658 -> 90128 -> 20055], [Shishapangma Shishapangma Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [125, 20065, 50130]
+  path: 0[125 -> 125], [Lhotse Lhotse Himalaya  -> Lhotse Lhotse Himalaya ]
+  path: 1[125 -> 20079 -> 10002 -> 20065], [Lhotse Lhotse Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[125 -> 20079 -> 10002 -> 20097 -> 50130], [Lhotse Lhotse Himalaya  -> Nepal -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+-----------------------------------------
+ResultDestNodes: [20065, 20055, 10002, 120, 124, 119, 126, 123, 121, 125]
+ResultRelevs: [8.421239852905273, 7.993104934692383, 6.579249858856201, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 5.919304847717285, 5.583868026733398]
+Num of top-k answers: 10
+Num of non-reduced answers in top-k answers: 0
+Num of duplicate answers in top-k answers: 0
+Num of non-redundant answers: 10
+Num of entries retrieved from the lists: 32
+Num of redundant candidate answers found: 5
+Num of reduced alternative answers found: 0
+Num of duplicate candidate answers found: 5
+Num of unique alternative answers found: 3
+
+Blink Search Using BDB_reducedNunique_BruteForce 10
+[himalaya, india, pakistan]
+srcNodes: [127, 20065, 20055]
+  path: 0[20065 -> 30749 -> 127], [India -> Sikkim -> Kangchendzonga Kangchendzonga Himalaya ] 
+
+  path: 1[20065 -> 20065], [India -> India]
+  path: 2[20065 -> 10002 -> 20055], [India -> Asia -> Pakistan] 
+
+srcNodes: [125, 20065, 20055]
+  path: 0[20055 -> 10002 -> 20079 -> 125], [Pakistan -> Asia -> Nepal -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[20055 -> 10002 -> 20065], [Pakistan -> Asia -> India] 
+
+  path: 2[20055 -> 20055], [Pakistan -> Pakistan]
+srcNodes: [118, 20065, 20055]
+  path: 0[10002 -> 20079 -> 118], [Asia -> Nepal -> Dhaulagiri Dhaulagiri Himalaya ] 
+
+  path: 1[10002 -> 20065], [Asia -> India] 
+
+  path: 2[10002 -> 20055], [Asia -> Pakistan] 
+
+srcNodes: [120, 20065, 20055]
+  path: 0[120 -> 120], [Manaslu Manaslu Himalaya  -> Manaslu Manaslu Himalaya ]
+  path: 1[120 -> 20079 -> 10002 -> 20065], [Manaslu Manaslu Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[120 -> 20079 -> 10002 -> 20055], [Manaslu Manaslu Himalaya  -> Nepal -> Asia -> Pakistan] 
+
+srcNodes: [124, 20065, 20055]
+  path: 0[124 -> 124], [Mount Everest Mount Everest Himalaya  -> Mount Everest Mount Everest Himalaya ]
+  path: 1[124 -> 20079 -> 10002 -> 20065], [Mount Everest Mount Everest Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[124 -> 30658 -> 90128 -> 20055], [Mount Everest Mount Everest Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [119, 20065, 20055]
+  path: 0[119 -> 119], [Annapurna Annapurna Himalaya  -> Annapurna Annapurna Himalaya ]
+  path: 1[119 -> 20079 -> 10002 -> 20065], [Annapurna Annapurna Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[119 -> 20079 -> 10002 -> 20055], [Annapurna Annapurna Himalaya  -> Nepal -> Asia -> Pakistan] 
+
+srcNodes: [126, 20065, 20055]
+  path: 0[126 -> 126], [Makalu Makalu Himalaya  -> Makalu Makalu Himalaya ]
+  path: 1[126 -> 20079 -> 10002 -> 20065], [Makalu Makalu Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[126 -> 30658 -> 90128 -> 20055], [Makalu Makalu Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [123, 20065, 20055]
+  path: 0[123 -> 123], [Cho Oyu Cho Oyu Himalaya  -> Cho Oyu Cho Oyu Himalaya ]
+  path: 1[123 -> 20079 -> 10002 -> 20065], [Cho Oyu Cho Oyu Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[123 -> 30658 -> 90128 -> 20055], [Cho Oyu Cho Oyu Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [121, 20065, 20055]
+  path: 0[121 -> 121], [Shishapangma Shishapangma Himalaya  -> Shishapangma Shishapangma Himalaya ]
+  path: 1[121 -> 30658 -> 90123 -> 20072 -> 10002 -> 20065], [Shishapangma Shishapangma Himalaya  -> Tibet -> Mekong -> Vietnam -> Asia -> India] 
+
+  path: 2[121 -> 30658 -> 90128 -> 20055], [Shishapangma Shishapangma Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [125, 20065, 50130]
+  path: 0[125 -> 125], [Lhotse Lhotse Himalaya  -> Lhotse Lhotse Himalaya ]
+  path: 1[125 -> 20079 -> 10002 -> 20065], [Lhotse Lhotse Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[125 -> 20079 -> 10002 -> 20097 -> 50130], [Lhotse Lhotse Himalaya  -> Nepal -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+-----------------------------------------
+ResultDestNodes: [20065, 20055, 10002, 120, 124, 119, 126, 123, 121, 125]
+ResultRelevs: [8.421239852905273, 7.993104934692383, 6.579249858856201, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 5.919304847717285, 5.583868026733398]
+Num of top-k answers: 10
+Num of redundant answers in top-k answers: 0
+Num of duplicate answers in top-k answers: 0
+Num of entries retrieved from the lists: 32
+Num of redundant candidate answers found: 5
+Num of reduced alternative answers found: 0
+Num of duplicate candidate answers found: 5
+Num of unique alternative answers found: 3
+
+Blink Search Using BDB 20
+[himalaya, india, pakistan]
+srcNodes: [127, 20065, 20055]
+  path: 0[20065 -> 30749 -> 127], [India -> Sikkim -> Kangchendzonga Kangchendzonga Himalaya ] 
+
+  path: 1[20065 -> 20065], [India -> India]
+  path: 2[20065 -> 10002 -> 20055], [India -> Asia -> Pakistan] 
+
+srcNodes: [125, 20065, 20055]
+  path: 0[20055 -> 10002 -> 20079 -> 125], [Pakistan -> Asia -> Nepal -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[20055 -> 10002 -> 20065], [Pakistan -> Asia -> India] 
+
+  path: 2[20055 -> 20055], [Pakistan -> Pakistan]
+srcNodes: [118, 20065, 20055]
+  path: 0[10002 -> 20079 -> 118], [Asia -> Nepal -> Dhaulagiri Dhaulagiri Himalaya ] 
+
+  path: 1[10002 -> 20065], [Asia -> India] 
+
+  path: 2[10002 -> 20055], [Asia -> Pakistan] 
+
+srcNodes: [124, 20065, 20055]
+  path: 0[124 -> 124], [Mount Everest Mount Everest Himalaya  -> Mount Everest Mount Everest Himalaya ]
+  path: 1[124 -> 20079 -> 10002 -> 20065], [Mount Everest Mount Everest Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[124 -> 30658 -> 90128 -> 20055], [Mount Everest Mount Everest Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [125, 20065, 20055]
+  path: 0[125 -> 125], [Lhotse Lhotse Himalaya  -> Lhotse Lhotse Himalaya ]
+  path: 1[125 -> 20079 -> 10002 -> 20065], [Lhotse Lhotse Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[125 -> 30658 -> 90128 -> 20055], [Lhotse Lhotse Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [119, 20065, 20055]
+  path: 0[119 -> 119], [Annapurna Annapurna Himalaya  -> Annapurna Annapurna Himalaya ]
+  path: 1[119 -> 20079 -> 10002 -> 20065], [Annapurna Annapurna Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[119 -> 20079 -> 10002 -> 20055], [Annapurna Annapurna Himalaya  -> Nepal -> Asia -> Pakistan] 
+
+srcNodes: [127, 20065, 20055]
+  path: 0[127 -> 127], [Kangchendzonga Kangchendzonga Himalaya  -> Kangchendzonga Kangchendzonga Himalaya ]
+  path: 1[127 -> 20079 -> 10002 -> 20065], [Kangchendzonga Kangchendzonga Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[127 -> 20079 -> 10002 -> 20055], [Kangchendzonga Kangchendzonga Himalaya  -> Nepal -> Asia -> Pakistan] 
+
+srcNodes: [126, 20065, 20055]
+  path: 0[126 -> 126], [Makalu Makalu Himalaya  -> Makalu Makalu Himalaya ]
+  path: 1[126 -> 20079 -> 10002 -> 20065], [Makalu Makalu Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[126 -> 30658 -> 90128 -> 20055], [Makalu Makalu Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [123, 20065, 20055]
+  path: 0[123 -> 123], [Cho Oyu Cho Oyu Himalaya  -> Cho Oyu Cho Oyu Himalaya ]
+  path: 1[123 -> 20079 -> 10002 -> 20065], [Cho Oyu Cho Oyu Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[123 -> 30658 -> 90128 -> 20055], [Cho Oyu Cho Oyu Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [118, 20065, 20055]
+  path: 0[118 -> 118], [Dhaulagiri Dhaulagiri Himalaya  -> Dhaulagiri Dhaulagiri Himalaya ]
+  path: 1[118 -> 20079 -> 10002 -> 20065], [Dhaulagiri Dhaulagiri Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[118 -> 20079 -> 10002 -> 20055], [Dhaulagiri Dhaulagiri Himalaya  -> Nepal -> Asia -> Pakistan] 
+
+srcNodes: [120, 20065, 20055]
+  path: 0[120 -> 120], [Manaslu Manaslu Himalaya  -> Manaslu Manaslu Himalaya ]
+  path: 1[120 -> 20079 -> 10002 -> 20065], [Manaslu Manaslu Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[120 -> 20079 -> 10002 -> 20055], [Manaslu Manaslu Himalaya  -> Nepal -> Asia -> Pakistan] 
+
+srcNodes: [121, 20065, 20055]
+  path: 0[121 -> 121], [Shishapangma Shishapangma Himalaya  -> Shishapangma Shishapangma Himalaya ]
+  path: 1[121 -> 30658 -> 90123 -> 20072 -> 10002 -> 20065], [Shishapangma Shishapangma Himalaya  -> Tibet -> Mekong -> Vietnam -> Asia -> India] 
+
+  path: 2[121 -> 30658 -> 90128 -> 20055], [Shishapangma Shishapangma Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [117, 20065, 20055]
+  path: 0[117 -> 117], [Nanda Devi Nanda Devi Himalaya  -> Nanda Devi Nanda Devi Himalaya ]
+  path: 1[117 -> 30752 -> 90126 -> 20063 -> 10002 -> 20065], [Nanda Devi Nanda Devi Himalaya  -> Uttar Pradesh -> Ganges -> Bangladesh -> Asia -> India] 
+
+  path: 2[117 -> 30752 -> 90126 -> 20063 -> 10002 -> 20055], [Nanda Devi Nanda Devi Himalaya  -> Uttar Pradesh -> Ganges -> Bangladesh -> Asia -> Pakistan] 
+
+srcNodes: [126, 20065, 20055]
+  path: 0[20079 -> 126], [Nepal -> Makalu Makalu Himalaya ] 
+
+  path: 1[20079 -> 10002 -> 20065], [Nepal -> Asia -> India] 
+
+  path: 2[20079 -> 10002 -> 20055], [Nepal -> Asia -> Pakistan] 
+
+srcNodes: [121, 20065, 20055]
+  path: 0[90128 -> 30658 -> 121], [Indus -> Tibet -> Shishapangma Shishapangma Himalaya ] 
+
+  path: 1[90128 -> 20055 -> 10002 -> 20065], [Indus -> Pakistan -> Asia -> India] 
+
+  path: 2[90128 -> 20055], [Indus -> Pakistan] 
+
+srcNodes: [121, 20065, 20055]
+  path: 0[20053 -> 30658 -> 121], [China -> Tibet -> Shishapangma Shishapangma Himalaya ] 
+
+  path: 1[20053 -> 10002 -> 20065], [China -> Asia -> India] 
+
+  path: 2[20053 -> 10002 -> 20055], [China -> Asia -> Pakistan] 
+
+srcNodes: [121, 20065, 20055]
+  path: 0[112 -> 20055 -> 90128 -> 30658 -> 121], [K2 K2 Karakorum  -> Pakistan -> Indus -> Tibet -> Shishapangma Shishapangma Himalaya ] 
+
+  path: 1[112 -> 20055 -> 10002 -> 20065], [K2 K2 Karakorum  -> Pakistan -> Asia -> India] 
+
+  path: 2[112 -> 20055], [K2 K2 Karakorum  -> Pakistan] 
+
+This is a non-reduced answer tree with common first node 20055
+
+srcNodes: [121, 20065, 20055]
+  path: 0[113 -> 20055 -> 90128 -> 30658 -> 121], [Gasherbrum II Gasherbrum II Karakorum  -> Pakistan -> Indus -> Tibet -> Shishapangma Shishapangma Himalaya ] 
+
+  path: 1[113 -> 20055 -> 10002 -> 20065], [Gasherbrum II Gasherbrum II Karakorum  -> Pakistan -> Asia -> India] 
+
+  path: 2[113 -> 20055], [Gasherbrum II Gasherbrum II Karakorum  -> Pakistan] 
+
+This is a non-reduced answer tree with common first node 20055
+
+srcNodes: [124, 20065, 20055]
+  path: 0[114 -> 20055 -> 10002 -> 20079 -> 124], [Gasherbrum I Gasherbrum I Karakorum  -> Pakistan -> Asia -> Nepal -> Mount Everest Mount Everest Himalaya ] 
+
+  path: 1[114 -> 20055 -> 10002 -> 20065], [Gasherbrum I Gasherbrum I Karakorum  -> Pakistan -> Asia -> India] 
+
+  path: 2[114 -> 20055], [Gasherbrum I Gasherbrum I Karakorum  -> Pakistan] 
+
+This is a non-reduced answer tree with common first node 20055
+
+srcNodes: [124, 20065, 20055]
+  path: 0[115 -> 20055 -> 10002 -> 20079 -> 124], [Broad Peak Broad Peak Karakorum  -> Pakistan -> Asia -> Nepal -> Mount Everest Mount Everest Himalaya ] 
+
+  path: 1[115 -> 20055 -> 10002 -> 20065], [Broad Peak Broad Peak Karakorum  -> Pakistan -> Asia -> India] 
+
+  path: 2[115 -> 20055], [Broad Peak Broad Peak Karakorum  -> Pakistan] 
+
+This is a non-reduced answer tree with common first node 20055
+
+-----------------------------------------
+ResultDestNodes: [20065, 20055, 10002, 124, 125, 119, 127, 126, 123, 118, 120, 121, 117, 20079, 90128, 20053, 112, 113, 114, 115]
+ResultRelevs: [8.421239852905273, 7.993104934692383, 6.579249858856201, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 5.919304847717285, 5.481283187866211, 5.41372013092041, 5.2202301025390625, 4.79718017578125, 4.727004051208496, 4.727004051208496, 4.727004051208496, 4.727004051208496]
+Num of top-k answers: 20
+Num of non-reduced answers: 4
+Num of duplicate answers: 10
+Num of non-redundant answers: 10
+Num of entries retrieved from the lists: 76
+Num of entries retrieved from NKMaps: 123
+
+Blink Search Using BDB_nored 20
+[himalaya, india, pakistan]
+srcNodes: [127, 20065, 20055]
+  path: 0[20065 -> 30749 -> 127], [India -> Sikkim -> Kangchendzonga Kangchendzonga Himalaya ] 
+
+  path: 1[20065 -> 20065], [India -> India]
+  path: 2[20065 -> 10002 -> 20055], [India -> Asia -> Pakistan] 
+
+srcNodes: [125, 20065, 20055]
+  path: 0[20055 -> 10002 -> 20079 -> 125], [Pakistan -> Asia -> Nepal -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[20055 -> 10002 -> 20065], [Pakistan -> Asia -> India] 
+
+  path: 2[20055 -> 20055], [Pakistan -> Pakistan]
+srcNodes: [118, 20065, 20055]
+  path: 0[10002 -> 20079 -> 118], [Asia -> Nepal -> Dhaulagiri Dhaulagiri Himalaya ] 
+
+  path: 1[10002 -> 20065], [Asia -> India] 
+
+  path: 2[10002 -> 20055], [Asia -> Pakistan] 
+
+srcNodes: [125, 20065, 20055]
+  path: 0[125 -> 125], [Lhotse Lhotse Himalaya  -> Lhotse Lhotse Himalaya ]
+  path: 1[125 -> 20079 -> 10002 -> 20065], [Lhotse Lhotse Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[125 -> 30658 -> 90128 -> 20055], [Lhotse Lhotse Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [127, 20065, 20055]
+  path: 0[127 -> 127], [Kangchendzonga Kangchendzonga Himalaya  -> Kangchendzonga Kangchendzonga Himalaya ]
+  path: 1[127 -> 20079 -> 10002 -> 20065], [Kangchendzonga Kangchendzonga Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[127 -> 20079 -> 10002 -> 20055], [Kangchendzonga Kangchendzonga Himalaya  -> Nepal -> Asia -> Pakistan] 
+
+srcNodes: [120, 20065, 20055]
+  path: 0[120 -> 120], [Manaslu Manaslu Himalaya  -> Manaslu Manaslu Himalaya ]
+  path: 1[120 -> 20079 -> 10002 -> 20065], [Manaslu Manaslu Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[120 -> 20079 -> 10002 -> 20055], [Manaslu Manaslu Himalaya  -> Nepal -> Asia -> Pakistan] 
+
+srcNodes: [119, 20065, 20055]
+  path: 0[119 -> 119], [Annapurna Annapurna Himalaya  -> Annapurna Annapurna Himalaya ]
+  path: 1[119 -> 20079 -> 10002 -> 20065], [Annapurna Annapurna Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[119 -> 20079 -> 10002 -> 20055], [Annapurna Annapurna Himalaya  -> Nepal -> Asia -> Pakistan] 
+
+srcNodes: [118, 20065, 20055]
+  path: 0[118 -> 118], [Dhaulagiri Dhaulagiri Himalaya  -> Dhaulagiri Dhaulagiri Himalaya ]
+  path: 1[118 -> 20079 -> 10002 -> 20065], [Dhaulagiri Dhaulagiri Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[118 -> 20079 -> 10002 -> 20055], [Dhaulagiri Dhaulagiri Himalaya  -> Nepal -> Asia -> Pakistan] 
+
+srcNodes: [123, 20065, 20055]
+  path: 0[123 -> 123], [Cho Oyu Cho Oyu Himalaya  -> Cho Oyu Cho Oyu Himalaya ]
+  path: 1[123 -> 20079 -> 10002 -> 20065], [Cho Oyu Cho Oyu Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[123 -> 30658 -> 90128 -> 20055], [Cho Oyu Cho Oyu Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [126, 20065, 20055]
+  path: 0[126 -> 126], [Makalu Makalu Himalaya  -> Makalu Makalu Himalaya ]
+  path: 1[126 -> 20079 -> 10002 -> 20065], [Makalu Makalu Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[126 -> 30658 -> 90128 -> 20055], [Makalu Makalu Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [124, 20065, 20055]
+  path: 0[124 -> 124], [Mount Everest Mount Everest Himalaya  -> Mount Everest Mount Everest Himalaya ]
+  path: 1[124 -> 20079 -> 10002 -> 20065], [Mount Everest Mount Everest Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[124 -> 30658 -> 90128 -> 20055], [Mount Everest Mount Everest Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [121, 20065, 20055]
+  path: 0[121 -> 121], [Shishapangma Shishapangma Himalaya  -> Shishapangma Shishapangma Himalaya ]
+  path: 1[121 -> 30658 -> 90123 -> 20072 -> 10002 -> 20065], [Shishapangma Shishapangma Himalaya  -> Tibet -> Mekong -> Vietnam -> Asia -> India] 
+
+  path: 2[121 -> 30658 -> 90128 -> 20055], [Shishapangma Shishapangma Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [117, 20065, 20055]
+  path: 0[117 -> 117], [Nanda Devi Nanda Devi Himalaya  -> Nanda Devi Nanda Devi Himalaya ]
+  path: 1[117 -> 30752 -> 90126 -> 20063 -> 10002 -> 20065], [Nanda Devi Nanda Devi Himalaya  -> Uttar Pradesh -> Ganges -> Bangladesh -> Asia -> India] 
+
+  path: 2[117 -> 30752 -> 90126 -> 20063 -> 10002 -> 20055], [Nanda Devi Nanda Devi Himalaya  -> Uttar Pradesh -> Ganges -> Bangladesh -> Asia -> Pakistan] 
+
+srcNodes: [126, 20065, 20055]
+  path: 0[20079 -> 126], [Nepal -> Makalu Makalu Himalaya ] 
+
+  path: 1[20079 -> 10002 -> 20065], [Nepal -> Asia -> India] 
+
+  path: 2[20079 -> 10002 -> 20055], [Nepal -> Asia -> Pakistan] 
+
+srcNodes: [121, 20065, 20055]
+  path: 0[90128 -> 30658 -> 121], [Indus -> Tibet -> Shishapangma Shishapangma Himalaya ] 
+
+  path: 1[90128 -> 20055 -> 10002 -> 20065], [Indus -> Pakistan -> Asia -> India] 
+
+  path: 2[90128 -> 20055], [Indus -> Pakistan] 
+
+srcNodes: [121, 20065, 20055]
+  path: 0[20053 -> 30658 -> 121], [China -> Tibet -> Shishapangma Shishapangma Himalaya ] 
+
+  path: 1[20053 -> 10002 -> 20065], [China -> Asia -> India] 
+
+  path: 2[20053 -> 10002 -> 20055], [China -> Asia -> Pakistan] 
+
+srcNodes: [125, 20065, 20055]
+  path: 0[30658 -> 125], [Tibet -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[30658 -> 90123 -> 20072 -> 10002 -> 20065], [Tibet -> Mekong -> Vietnam -> Asia -> India] 
+
+  path: 2[30658 -> 90128 -> 20055], [Tibet -> Indus -> Pakistan] 
+
+srcNodes: [117, 20065, 20055]
+  path: 0[20063 -> 90126 -> 30752 -> 117], [Bangladesh -> Ganges -> Uttar Pradesh -> Nanda Devi Nanda Devi Himalaya ] 
+
+  path: 1[20063 -> 10002 -> 20065], [Bangladesh -> Asia -> India] 
+
+  path: 2[20063 -> 10002 -> 20055], [Bangladesh -> Asia -> Pakistan] 
+
+srcNodes: [117, 20065, 20055]
+  path: 0[30752 -> 117], [Uttar Pradesh -> Nanda Devi Nanda Devi Himalaya ] 
+
+  path: 1[30752 -> 90126 -> 20063 -> 10002 -> 20065], [Uttar Pradesh -> Ganges -> Bangladesh -> Asia -> India] 
+
+  path: 2[30752 -> 90126 -> 20063 -> 10002 -> 20055], [Uttar Pradesh -> Ganges -> Bangladesh -> Asia -> Pakistan] 
+
+srcNodes: [121, 20065, 20055]
+  path: 0[90127 -> 30658 -> 121], [Brahmaputra -> Tibet -> Shishapangma Shishapangma Himalaya ] 
+
+  path: 1[90127 -> 20063 -> 10002 -> 20065], [Brahmaputra -> Bangladesh -> Asia -> India] 
+
+  path: 2[90127 -> 30658 -> 90128 -> 20055], [Brahmaputra -> Tibet -> Indus -> Pakistan] 
+
+-----------------------------------------
+ResultDestNodes: [20065, 20055, 10002, 125, 127, 120, 119, 118, 123, 126, 124, 121, 117, 20079, 90128, 20053, 30658, 20063, 30752, 90127]
+ResultRelevs: [8.421239852905273, 7.993104934692383, 6.579249858856201, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 5.919304847717285, 5.481283187866211, 5.41372013092041, 5.2202301025390625, 4.79718017578125, 4.688920021057129, 4.488914966583252, 3.9880900382995605, 3.9061601161956787]
+Num of top-k answers: 20
+Num of redundant answers: 0
+Num of duplicate answers: 10
+Num of entries retrieved from the lists: 201
+Num of entries retrieved from NKMaps: 230
+
+Blink Search Using BDB_reduced 20
+[himalaya, india, pakistan]
+srcNodes: [127, 20065, 20055]
+  path: 0[20065 -> 30749 -> 127], [India -> Sikkim -> Kangchendzonga Kangchendzonga Himalaya ] 
+
+  path: 1[20065 -> 20065], [India -> India]
+  path: 2[20065 -> 10002 -> 20055], [India -> Asia -> Pakistan] 
+
+srcNodes: [125, 20065, 20055]
+  path: 0[20055 -> 10002 -> 20079 -> 125], [Pakistan -> Asia -> Nepal -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[20055 -> 10002 -> 20065], [Pakistan -> Asia -> India] 
+
+  path: 2[20055 -> 20055], [Pakistan -> Pakistan]
+srcNodes: [118, 20065, 20055]
+  path: 0[10002 -> 20079 -> 118], [Asia -> Nepal -> Dhaulagiri Dhaulagiri Himalaya ] 
+
+  path: 1[10002 -> 20065], [Asia -> India] 
+
+  path: 2[10002 -> 20055], [Asia -> Pakistan] 
+
+srcNodes: [125, 20065, 20055]
+  path: 0[125 -> 125], [Lhotse Lhotse Himalaya  -> Lhotse Lhotse Himalaya ]
+  path: 1[125 -> 20079 -> 10002 -> 20065], [Lhotse Lhotse Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[125 -> 30658 -> 90128 -> 20055], [Lhotse Lhotse Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [127, 20065, 20055]
+  path: 0[127 -> 127], [Kangchendzonga Kangchendzonga Himalaya  -> Kangchendzonga Kangchendzonga Himalaya ]
+  path: 1[127 -> 20079 -> 10002 -> 20065], [Kangchendzonga Kangchendzonga Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[127 -> 20079 -> 10002 -> 20055], [Kangchendzonga Kangchendzonga Himalaya  -> Nepal -> Asia -> Pakistan] 
+
+srcNodes: [120, 20065, 20055]
+  path: 0[120 -> 120], [Manaslu Manaslu Himalaya  -> Manaslu Manaslu Himalaya ]
+  path: 1[120 -> 20079 -> 10002 -> 20065], [Manaslu Manaslu Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[120 -> 20079 -> 10002 -> 20055], [Manaslu Manaslu Himalaya  -> Nepal -> Asia -> Pakistan] 
+
+srcNodes: [119, 20065, 20055]
+  path: 0[119 -> 119], [Annapurna Annapurna Himalaya  -> Annapurna Annapurna Himalaya ]
+  path: 1[119 -> 20079 -> 10002 -> 20065], [Annapurna Annapurna Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[119 -> 20079 -> 10002 -> 20055], [Annapurna Annapurna Himalaya  -> Nepal -> Asia -> Pakistan] 
+
+srcNodes: [118, 20065, 20055]
+  path: 0[118 -> 118], [Dhaulagiri Dhaulagiri Himalaya  -> Dhaulagiri Dhaulagiri Himalaya ]
+  path: 1[118 -> 20079 -> 10002 -> 20065], [Dhaulagiri Dhaulagiri Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[118 -> 20079 -> 10002 -> 20055], [Dhaulagiri Dhaulagiri Himalaya  -> Nepal -> Asia -> Pakistan] 
+
+srcNodes: [123, 20065, 20055]
+  path: 0[123 -> 123], [Cho Oyu Cho Oyu Himalaya  -> Cho Oyu Cho Oyu Himalaya ]
+  path: 1[123 -> 20079 -> 10002 -> 20065], [Cho Oyu Cho Oyu Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[123 -> 30658 -> 90128 -> 20055], [Cho Oyu Cho Oyu Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [126, 20065, 20055]
+  path: 0[126 -> 126], [Makalu Makalu Himalaya  -> Makalu Makalu Himalaya ]
+  path: 1[126 -> 20079 -> 10002 -> 20065], [Makalu Makalu Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[126 -> 30658 -> 90128 -> 20055], [Makalu Makalu Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [124, 20065, 20055]
+  path: 0[124 -> 124], [Mount Everest Mount Everest Himalaya  -> Mount Everest Mount Everest Himalaya ]
+  path: 1[124 -> 20079 -> 10002 -> 20065], [Mount Everest Mount Everest Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[124 -> 30658 -> 90128 -> 20055], [Mount Everest Mount Everest Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [121, 20065, 20055]
+  path: 0[121 -> 121], [Shishapangma Shishapangma Himalaya  -> Shishapangma Shishapangma Himalaya ]
+  path: 1[121 -> 30658 -> 90123 -> 20072 -> 10002 -> 20065], [Shishapangma Shishapangma Himalaya  -> Tibet -> Mekong -> Vietnam -> Asia -> India] 
+
+  path: 2[121 -> 30658 -> 90128 -> 20055], [Shishapangma Shishapangma Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [117, 20065, 20055]
+  path: 0[117 -> 117], [Nanda Devi Nanda Devi Himalaya  -> Nanda Devi Nanda Devi Himalaya ]
+  path: 1[117 -> 30752 -> 90126 -> 20063 -> 10002 -> 20065], [Nanda Devi Nanda Devi Himalaya  -> Uttar Pradesh -> Ganges -> Bangladesh -> Asia -> India] 
+
+  path: 2[117 -> 30752 -> 90126 -> 20063 -> 10002 -> 20055], [Nanda Devi Nanda Devi Himalaya  -> Uttar Pradesh -> Ganges -> Bangladesh -> Asia -> Pakistan] 
+
+srcNodes: [126, 20065, 20055]
+  path: 0[20079 -> 126], [Nepal -> Makalu Makalu Himalaya ] 
+
+  path: 1[20079 -> 10002 -> 20065], [Nepal -> Asia -> India] 
+
+  path: 2[20079 -> 10002 -> 20055], [Nepal -> Asia -> Pakistan] 
+
+srcNodes: [121, 20065, 20055]
+  path: 0[90128 -> 30658 -> 121], [Indus -> Tibet -> Shishapangma Shishapangma Himalaya ] 
+
+  path: 1[90128 -> 20055 -> 10002 -> 20065], [Indus -> Pakistan -> Asia -> India] 
+
+  path: 2[90128 -> 20055], [Indus -> Pakistan] 
+
+srcNodes: [121, 20065, 20055]
+  path: 0[20053 -> 30658 -> 121], [China -> Tibet -> Shishapangma Shishapangma Himalaya ] 
+
+  path: 1[20053 -> 10002 -> 20065], [China -> Asia -> India] 
+
+  path: 2[20053 -> 10002 -> 20055], [China -> Asia -> Pakistan] 
+
+srcNodes: [125, 20065, 20055]
+  path: 0[30658 -> 125], [Tibet -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[30658 -> 90123 -> 20072 -> 10002 -> 20065], [Tibet -> Mekong -> Vietnam -> Asia -> India] 
+
+  path: 2[30658 -> 90128 -> 20055], [Tibet -> Indus -> Pakistan] 
+
+srcNodes: [117, 20065, 20055]
+  path: 0[20063 -> 90126 -> 30752 -> 117], [Bangladesh -> Ganges -> Uttar Pradesh -> Nanda Devi Nanda Devi Himalaya ] 
+
+  path: 1[20063 -> 10002 -> 20065], [Bangladesh -> Asia -> India] 
+
+  path: 2[20063 -> 10002 -> 20055], [Bangladesh -> Asia -> Pakistan] 
+
+srcNodes: [121, 20065, 20055]
+  path: 0[20069 -> 90123 -> 30658 -> 121], [Laos -> Mekong -> Tibet -> Shishapangma Shishapangma Himalaya ] 
+
+  path: 1[20069 -> 10002 -> 20065], [Laos -> Asia -> India] 
+
+  path: 2[20069 -> 10002 -> 20055], [Laos -> Asia -> Pakistan] 
+
+srcNodes: [121, 20065, 20055]
+  path: 0[20072 -> 90123 -> 30658 -> 121], [Vietnam -> Mekong -> Tibet -> Shishapangma Shishapangma Himalaya ] 
+
+  path: 1[20072 -> 10002 -> 20065], [Vietnam -> Asia -> India] 
+
+  path: 2[20072 -> 10002 -> 20055], [Vietnam -> Asia -> Pakistan] 
+
+-----------------------------------------
+ResultDestNodes: [20065, 20055, 10002, 125, 127, 120, 119, 118, 123, 126, 124, 121, 117, 20079, 90128, 20053, 30658, 20063, 20069, 20072]
+ResultRelevs: [8.421239852905273, 7.993104934692383, 6.579249858856201, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 5.919304847717285, 5.481283187866211, 5.41372013092041, 5.2202301025390625, 4.79718017578125, 4.688920021057129, 4.488914966583252, 4.488914966583252, 4.488914966583252]
+Num of top-k answers: 20
+Num of non-reduced answers: 0
+Num of duplicate answers: 10
+Num of non-redundant answers: 10
+Num of entries retrieved from the lists: 94
+Num of entries retrieved from NKMaps: 312
+
+Blink Search Using BDB_reducedNunique_Opt 20
+[himalaya, india, pakistan]
+srcNodes: [127, 20065, 20055]
+  path: 0[20065 -> 30749 -> 127], [India -> Sikkim -> Kangchendzonga Kangchendzonga Himalaya ] 
+
+  path: 1[20065 -> 20065], [India -> India]
+  path: 2[20065 -> 10002 -> 20055], [India -> Asia -> Pakistan] 
+
+srcNodes: [125, 20065, 20055]
+  path: 0[20055 -> 10002 -> 20079 -> 125], [Pakistan -> Asia -> Nepal -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[20055 -> 10002 -> 20065], [Pakistan -> Asia -> India] 
+
+  path: 2[20055 -> 20055], [Pakistan -> Pakistan]
+srcNodes: [118, 20065, 20055]
+  path: 0[10002 -> 20079 -> 118], [Asia -> Nepal -> Dhaulagiri Dhaulagiri Himalaya ] 
+
+  path: 1[10002 -> 20065], [Asia -> India] 
+
+  path: 2[10002 -> 20055], [Asia -> Pakistan] 
+
+srcNodes: [119, 20065, 20055]
+  path: 0[119 -> 119], [Annapurna Annapurna Himalaya  -> Annapurna Annapurna Himalaya ]
+  path: 1[119 -> 20079 -> 10002 -> 20065], [Annapurna Annapurna Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[119 -> 20079 -> 10002 -> 20055], [Annapurna Annapurna Himalaya  -> Nepal -> Asia -> Pakistan] 
+
+srcNodes: [126, 20065, 20055]
+  path: 0[126 -> 126], [Makalu Makalu Himalaya  -> Makalu Makalu Himalaya ]
+  path: 1[126 -> 20079 -> 10002 -> 20065], [Makalu Makalu Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[126 -> 30658 -> 90128 -> 20055], [Makalu Makalu Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [124, 20065, 20055]
+  path: 0[124 -> 124], [Mount Everest Mount Everest Himalaya  -> Mount Everest Mount Everest Himalaya ]
+  path: 1[124 -> 20079 -> 10002 -> 20065], [Mount Everest Mount Everest Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[124 -> 30658 -> 90128 -> 20055], [Mount Everest Mount Everest Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [120, 20065, 20055]
+  path: 0[120 -> 120], [Manaslu Manaslu Himalaya  -> Manaslu Manaslu Himalaya ]
+  path: 1[120 -> 20079 -> 10002 -> 20065], [Manaslu Manaslu Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[120 -> 20079 -> 10002 -> 20055], [Manaslu Manaslu Himalaya  -> Nepal -> Asia -> Pakistan] 
+
+srcNodes: [123, 20065, 20055]
+  path: 0[123 -> 123], [Cho Oyu Cho Oyu Himalaya  -> Cho Oyu Cho Oyu Himalaya ]
+  path: 1[123 -> 20079 -> 10002 -> 20065], [Cho Oyu Cho Oyu Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[123 -> 30658 -> 90128 -> 20055], [Cho Oyu Cho Oyu Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [121, 20065, 20055]
+  path: 0[121 -> 121], [Shishapangma Shishapangma Himalaya  -> Shishapangma Shishapangma Himalaya ]
+  path: 1[121 -> 30658 -> 90123 -> 20072 -> 10002 -> 20065], [Shishapangma Shishapangma Himalaya  -> Tibet -> Mekong -> Vietnam -> Asia -> India] 
+
+  path: 2[121 -> 30658 -> 90128 -> 20055], [Shishapangma Shishapangma Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [127, 20065, 50130]
+  path: 0[127 -> 127], [Kangchendzonga Kangchendzonga Himalaya  -> Kangchendzonga Kangchendzonga Himalaya ]
+  path: 1[127 -> 20079 -> 10002 -> 20065], [Kangchendzonga Kangchendzonga Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[127 -> 20079 -> 10002 -> 20097 -> 50130], [Kangchendzonga Kangchendzonga Himalaya  -> Nepal -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+srcNodes: [125, 20065, 50130]
+  path: 0[125 -> 125], [Lhotse Lhotse Himalaya  -> Lhotse Lhotse Himalaya ]
+  path: 1[125 -> 20079 -> 10002 -> 20065], [Lhotse Lhotse Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[125 -> 20079 -> 10002 -> 20097 -> 50130], [Lhotse Lhotse Himalaya  -> Nepal -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+srcNodes: [118, 20065, 50130]
+  path: 0[118 -> 118], [Dhaulagiri Dhaulagiri Himalaya  -> Dhaulagiri Dhaulagiri Himalaya ]
+  path: 1[118 -> 20079 -> 10002 -> 20065], [Dhaulagiri Dhaulagiri Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[118 -> 20079 -> 10002 -> 20097 -> 50130], [Dhaulagiri Dhaulagiri Himalaya  -> Nepal -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+srcNodes: [117, 20065, 20055]
+  path: 0[117 -> 117], [Nanda Devi Nanda Devi Himalaya  -> Nanda Devi Nanda Devi Himalaya ]
+  path: 1[117 -> 30752 -> 90126 -> 20063 -> 10002 -> 20065], [Nanda Devi Nanda Devi Himalaya  -> Uttar Pradesh -> Ganges -> Bangladesh -> Asia -> India] 
+
+  path: 2[117 -> 30752 -> 90126 -> 20063 -> 10002 -> 20055], [Nanda Devi Nanda Devi Himalaya  -> Uttar Pradesh -> Ganges -> Bangladesh -> Asia -> Pakistan] 
+
+srcNodes: [121, 50130, 20055]
+  path: 0[90128 -> 30658 -> 121], [Indus -> Tibet -> Shishapangma Shishapangma Himalaya ] 
+
+  path: 1[90128 -> 20055 -> 10002 -> 20097 -> 50130], [Indus -> Pakistan -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+  path: 2[90128 -> 20055], [Indus -> Pakistan] 
+
+srcNodes: [126, 20065, 50130]
+  path: 0[20079 -> 126], [Nepal -> Makalu Makalu Himalaya ] 
+
+  path: 1[20079 -> 10002 -> 20065], [Nepal -> Asia -> India] 
+
+  path: 2[20079 -> 10002 -> 20097 -> 50130], [Nepal -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+srcNodes: [125, 50130, 20055]
+  path: 0[30658 -> 125], [Tibet -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[30658 -> 90123 -> 20072 -> 10002 -> 20097 -> 50130], [Tibet -> Mekong -> Vietnam -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+  path: 2[30658 -> 90128 -> 20055], [Tibet -> Indus -> Pakistan] 
+
+srcNodes: [124, 20065, 50130]
+  path: 0[20097 -> 10002 -> 20079 -> 124], [South Korea -> Asia -> Nepal -> Mount Everest Mount Everest Himalaya ] 
+
+  path: 1[20097 -> 10002 -> 20065], [South Korea -> Asia -> India] 
+
+  path: 2[20097 -> 50130], [South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+srcNodes: [121, 20065, 50130]
+  path: 0[20053 -> 30658 -> 121], [China -> Tibet -> Shishapangma Shishapangma Himalaya ] 
+
+  path: 1[20053 -> 10002 -> 20065], [China -> Asia -> India] 
+
+  path: 2[20053 -> 10002 -> 20097 -> 50130], [China -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+srcNodes: [117, 20065, 50130]
+  path: 0[20063 -> 90126 -> 30752 -> 117], [Bangladesh -> Ganges -> Uttar Pradesh -> Nanda Devi Nanda Devi Himalaya ] 
+
+  path: 1[20063 -> 10002 -> 20065], [Bangladesh -> Asia -> India] 
+
+  path: 2[20063 -> 10002 -> 20097 -> 50130], [Bangladesh -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+srcNodes: [124, 50130, 20055]
+  path: 0[20072 -> 10002 -> 20079 -> 124], [Vietnam -> Asia -> Nepal -> Mount Everest Mount Everest Himalaya ] 
+
+  path: 1[20072 -> 10002 -> 20097 -> 50130], [Vietnam -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+  path: 2[20072 -> 10002 -> 20055], [Vietnam -> Asia -> Pakistan] 
+
+This is a non-reduced answer tree with common first node 10002
+
+-----------------------------------------
+ResultDestNodes: [20065, 20055, 10002, 119, 126, 124, 120, 123, 121, 127, 125, 118, 117, 90128, 20079, 30658, 20097, 20053, 20063, 20072]
+ResultRelevs: [8.421239852905273, 7.993104934692383, 6.579249858856201, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 5.919304847717285, 5.583868026733398, 5.583868026733398, 5.583868026733398, 5.481283187866211, 4.404818058013916, 4.318665027618408, 4.054707050323486, 4.050894737243652, 3.702125072479248, 3.39385986328125, 3.356405019760132]
+Num of top-k answers: 20
+Num of non-reduced answers in top-k answers: 1
+Num of duplicate answers in top-k answers: 0
+Num of non-redundant answers: 19
+Num of entries retrieved from the lists: 449
+Num of redundant candidate answers found: 130
+Num of reduced alternative answers found: 6
+Num of duplicate candidate answers found: 21
+Num of unique alternative answers found: 13
+
+Blink Search Using BDB_reducedNunique_BruteForce 20
+[himalaya, india, pakistan]
+srcNodes: [127, 20065, 20055]
+  path: 0[20065 -> 30749 -> 127], [India -> Sikkim -> Kangchendzonga Kangchendzonga Himalaya ] 
+
+  path: 1[20065 -> 20065], [India -> India]
+  path: 2[20065 -> 10002 -> 20055], [India -> Asia -> Pakistan] 
+
+srcNodes: [125, 20065, 20055]
+  path: 0[20055 -> 10002 -> 20079 -> 125], [Pakistan -> Asia -> Nepal -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[20055 -> 10002 -> 20065], [Pakistan -> Asia -> India] 
+
+  path: 2[20055 -> 20055], [Pakistan -> Pakistan]
+srcNodes: [118, 20065, 20055]
+  path: 0[10002 -> 20079 -> 118], [Asia -> Nepal -> Dhaulagiri Dhaulagiri Himalaya ] 
+
+  path: 1[10002 -> 20065], [Asia -> India] 
+
+  path: 2[10002 -> 20055], [Asia -> Pakistan] 
+
+srcNodes: [119, 20065, 20055]
+  path: 0[119 -> 119], [Annapurna Annapurna Himalaya  -> Annapurna Annapurna Himalaya ]
+  path: 1[119 -> 20079 -> 10002 -> 20065], [Annapurna Annapurna Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[119 -> 20079 -> 10002 -> 20055], [Annapurna Annapurna Himalaya  -> Nepal -> Asia -> Pakistan] 
+
+srcNodes: [120, 20065, 20055]
+  path: 0[120 -> 120], [Manaslu Manaslu Himalaya  -> Manaslu Manaslu Himalaya ]
+  path: 1[120 -> 20079 -> 10002 -> 20065], [Manaslu Manaslu Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[120 -> 20079 -> 10002 -> 20055], [Manaslu Manaslu Himalaya  -> Nepal -> Asia -> Pakistan] 
+
+srcNodes: [126, 20065, 20055]
+  path: 0[126 -> 126], [Makalu Makalu Himalaya  -> Makalu Makalu Himalaya ]
+  path: 1[126 -> 20079 -> 10002 -> 20065], [Makalu Makalu Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[126 -> 30658 -> 90128 -> 20055], [Makalu Makalu Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [123, 20065, 20055]
+  path: 0[123 -> 123], [Cho Oyu Cho Oyu Himalaya  -> Cho Oyu Cho Oyu Himalaya ]
+  path: 1[123 -> 20079 -> 10002 -> 20065], [Cho Oyu Cho Oyu Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[123 -> 30658 -> 90128 -> 20055], [Cho Oyu Cho Oyu Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [124, 20065, 20055]
+  path: 0[124 -> 124], [Mount Everest Mount Everest Himalaya  -> Mount Everest Mount Everest Himalaya ]
+  path: 1[124 -> 20079 -> 10002 -> 20065], [Mount Everest Mount Everest Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[124 -> 30658 -> 90128 -> 20055], [Mount Everest Mount Everest Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [121, 20065, 20055]
+  path: 0[121 -> 121], [Shishapangma Shishapangma Himalaya  -> Shishapangma Shishapangma Himalaya ]
+  path: 1[121 -> 30658 -> 90123 -> 20072 -> 10002 -> 20065], [Shishapangma Shishapangma Himalaya  -> Tibet -> Mekong -> Vietnam -> Asia -> India] 
+
+  path: 2[121 -> 30658 -> 90128 -> 20055], [Shishapangma Shishapangma Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [127, 20065, 50130]
+  path: 0[127 -> 127], [Kangchendzonga Kangchendzonga Himalaya  -> Kangchendzonga Kangchendzonga Himalaya ]
+  path: 1[127 -> 20079 -> 10002 -> 20065], [Kangchendzonga Kangchendzonga Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[127 -> 20079 -> 10002 -> 20097 -> 50130], [Kangchendzonga Kangchendzonga Himalaya  -> Nepal -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+srcNodes: [125, 20065, 50130]
+  path: 0[125 -> 125], [Lhotse Lhotse Himalaya  -> Lhotse Lhotse Himalaya ]
+  path: 1[125 -> 20079 -> 10002 -> 20065], [Lhotse Lhotse Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[125 -> 20079 -> 10002 -> 20097 -> 50130], [Lhotse Lhotse Himalaya  -> Nepal -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+srcNodes: [118, 20065, 50130]
+  path: 0[118 -> 118], [Dhaulagiri Dhaulagiri Himalaya  -> Dhaulagiri Dhaulagiri Himalaya ]
+  path: 1[118 -> 20079 -> 10002 -> 20065], [Dhaulagiri Dhaulagiri Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[118 -> 20079 -> 10002 -> 20097 -> 50130], [Dhaulagiri Dhaulagiri Himalaya  -> Nepal -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+srcNodes: [117, 20065, 20055]
+  path: 0[117 -> 117], [Nanda Devi Nanda Devi Himalaya  -> Nanda Devi Nanda Devi Himalaya ]
+  path: 1[117 -> 30752 -> 90126 -> 20063 -> 10002 -> 20065], [Nanda Devi Nanda Devi Himalaya  -> Uttar Pradesh -> Ganges -> Bangladesh -> Asia -> India] 
+
+  path: 2[117 -> 30752 -> 90126 -> 20063 -> 10002 -> 20055], [Nanda Devi Nanda Devi Himalaya  -> Uttar Pradesh -> Ganges -> Bangladesh -> Asia -> Pakistan] 
+
+srcNodes: [125, 50130, 20055]
+  path: 0[90128 -> 30658 -> 125], [Indus -> Tibet -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[90128 -> 20055 -> 10002 -> 20097 -> 50130], [Indus -> Pakistan -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+  path: 2[90128 -> 20055], [Indus -> Pakistan] 
+
+srcNodes: [124, 20065, 50130]
+  path: 0[20079 -> 124], [Nepal -> Mount Everest Mount Everest Himalaya ] 
+
+  path: 1[20079 -> 10002 -> 20065], [Nepal -> Asia -> India] 
+
+  path: 2[20079 -> 10002 -> 20097 -> 50130], [Nepal -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+srcNodes: [121, 50130, 20055]
+  path: 0[30658 -> 121], [Tibet -> Shishapangma Shishapangma Himalaya ] 
+
+  path: 1[30658 -> 90123 -> 20072 -> 10002 -> 20097 -> 50130], [Tibet -> Mekong -> Vietnam -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+  path: 2[30658 -> 90128 -> 20055], [Tibet -> Indus -> Pakistan] 
+
+srcNodes: [124, 50130, 20055]
+  path: 0[20097 -> 10002 -> 20079 -> 124], [South Korea -> Asia -> Nepal -> Mount Everest Mount Everest Himalaya ] 
+
+  path: 1[20097 -> 50130], [South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+  path: 2[20097 -> 10002 -> 20055], [South Korea -> Asia -> Pakistan] 
+
+srcNodes: [121, 20065, 50130]
+  path: 0[20053 -> 30658 -> 121], [China -> Tibet -> Shishapangma Shishapangma Himalaya ] 
+
+  path: 1[20053 -> 10002 -> 20065], [China -> Asia -> India] 
+
+  path: 2[20053 -> 10002 -> 20097 -> 50130], [China -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+srcNodes: [117, 20065, 50130]
+  path: 0[20063 -> 90126 -> 30752 -> 117], [Bangladesh -> Ganges -> Uttar Pradesh -> Nanda Devi Nanda Devi Himalaya ] 
+
+  path: 1[20063 -> 10002 -> 20065], [Bangladesh -> Asia -> India] 
+
+  path: 2[20063 -> 10002 -> 20097 -> 50130], [Bangladesh -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+srcNodes: [117, 50130, 20055]
+  path: 0[30752 -> 117], [Uttar Pradesh -> Nanda Devi Nanda Devi Himalaya ] 
+
+  path: 1[30752 -> 90126 -> 20063 -> 10002 -> 20097 -> 50130], [Uttar Pradesh -> Ganges -> Bangladesh -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+  path: 2[30752 -> 90126 -> 20063 -> 10002 -> 20055], [Uttar Pradesh -> Ganges -> Bangladesh -> Asia -> Pakistan] 
+
+-----------------------------------------
+ResultDestNodes: [20065, 20055, 10002, 119, 120, 126, 123, 124, 121, 127, 125, 118, 117, 90128, 20079, 30658, 20097, 20053, 20063, 30752]
+ResultRelevs: [8.421239852905273, 7.993104934692383, 6.579249858856201, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 5.919304847717285, 5.583868026733398, 5.583868026733398, 5.583868026733398, 5.481283187866211, 4.404818058013916, 4.318665027618408, 4.054707050323486, 4.035914897918701, 3.702125072479248, 3.39385986328125, 3.353877067565918]
+Num of top-k answers: 20
+Num of redundant answers in top-k answers: 0
+Num of duplicate answers in top-k answers: 0
+Num of entries retrieved from the lists: 449
+Num of redundant candidate answers found: 130
+Num of reduced alternative answers found: 6
+Num of duplicate candidate answers found: 24
+Num of unique alternative answers found: 15
+
+Blink Search Using BDB 30
+[himalaya, india, pakistan]
+srcNodes: [127, 20065, 20055]
+  path: 0[20065 -> 30749 -> 127], [India -> Sikkim -> Kangchendzonga Kangchendzonga Himalaya ] 
+
+  path: 1[20065 -> 20065], [India -> India]
+  path: 2[20065 -> 10002 -> 20055], [India -> Asia -> Pakistan] 
+
+srcNodes: [125, 20065, 20055]
+  path: 0[20055 -> 10002 -> 20079 -> 125], [Pakistan -> Asia -> Nepal -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[20055 -> 10002 -> 20065], [Pakistan -> Asia -> India] 
+
+  path: 2[20055 -> 20055], [Pakistan -> Pakistan]
+srcNodes: [118, 20065, 20055]
+  path: 0[10002 -> 20079 -> 118], [Asia -> Nepal -> Dhaulagiri Dhaulagiri Himalaya ] 
+
+  path: 1[10002 -> 20065], [Asia -> India] 
+
+  path: 2[10002 -> 20055], [Asia -> Pakistan] 
+
+srcNodes: [126, 20065, 20055]
+  path: 0[126 -> 126], [Makalu Makalu Himalaya  -> Makalu Makalu Himalaya ]
+  path: 1[126 -> 20079 -> 10002 -> 20065], [Makalu Makalu Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[126 -> 30658 -> 90128 -> 20055], [Makalu Makalu Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [120, 20065, 20055]
+  path: 0[120 -> 120], [Manaslu Manaslu Himalaya  -> Manaslu Manaslu Himalaya ]
+  path: 1[120 -> 20079 -> 10002 -> 20065], [Manaslu Manaslu Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[120 -> 20079 -> 10002 -> 20055], [Manaslu Manaslu Himalaya  -> Nepal -> Asia -> Pakistan] 
+
+srcNodes: [125, 20065, 20055]
+  path: 0[125 -> 125], [Lhotse Lhotse Himalaya  -> Lhotse Lhotse Himalaya ]
+  path: 1[125 -> 20079 -> 10002 -> 20065], [Lhotse Lhotse Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[125 -> 30658 -> 90128 -> 20055], [Lhotse Lhotse Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [118, 20065, 20055]
+  path: 0[118 -> 118], [Dhaulagiri Dhaulagiri Himalaya  -> Dhaulagiri Dhaulagiri Himalaya ]
+  path: 1[118 -> 20079 -> 10002 -> 20065], [Dhaulagiri Dhaulagiri Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[118 -> 20079 -> 10002 -> 20055], [Dhaulagiri Dhaulagiri Himalaya  -> Nepal -> Asia -> Pakistan] 
+
+srcNodes: [123, 20065, 20055]
+  path: 0[123 -> 123], [Cho Oyu Cho Oyu Himalaya  -> Cho Oyu Cho Oyu Himalaya ]
+  path: 1[123 -> 20079 -> 10002 -> 20065], [Cho Oyu Cho Oyu Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[123 -> 30658 -> 90128 -> 20055], [Cho Oyu Cho Oyu Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [127, 20065, 20055]
+  path: 0[127 -> 127], [Kangchendzonga Kangchendzonga Himalaya  -> Kangchendzonga Kangchendzonga Himalaya ]
+  path: 1[127 -> 20079 -> 10002 -> 20065], [Kangchendzonga Kangchendzonga Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[127 -> 20079 -> 10002 -> 20055], [Kangchendzonga Kangchendzonga Himalaya  -> Nepal -> Asia -> Pakistan] 
+
+srcNodes: [124, 20065, 20055]
+  path: 0[124 -> 124], [Mount Everest Mount Everest Himalaya  -> Mount Everest Mount Everest Himalaya ]
+  path: 1[124 -> 20079 -> 10002 -> 20065], [Mount Everest Mount Everest Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[124 -> 30658 -> 90128 -> 20055], [Mount Everest Mount Everest Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [119, 20065, 20055]
+  path: 0[119 -> 119], [Annapurna Annapurna Himalaya  -> Annapurna Annapurna Himalaya ]
+  path: 1[119 -> 20079 -> 10002 -> 20065], [Annapurna Annapurna Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[119 -> 20079 -> 10002 -> 20055], [Annapurna Annapurna Himalaya  -> Nepal -> Asia -> Pakistan] 
+
+srcNodes: [121, 20065, 20055]
+  path: 0[121 -> 121], [Shishapangma Shishapangma Himalaya  -> Shishapangma Shishapangma Himalaya ]
+  path: 1[121 -> 30658 -> 90123 -> 20072 -> 10002 -> 20065], [Shishapangma Shishapangma Himalaya  -> Tibet -> Mekong -> Vietnam -> Asia -> India] 
+
+  path: 2[121 -> 30658 -> 90128 -> 20055], [Shishapangma Shishapangma Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [117, 20065, 20055]
+  path: 0[117 -> 117], [Nanda Devi Nanda Devi Himalaya  -> Nanda Devi Nanda Devi Himalaya ]
+  path: 1[117 -> 30752 -> 90126 -> 20063 -> 10002 -> 20065], [Nanda Devi Nanda Devi Himalaya  -> Uttar Pradesh -> Ganges -> Bangladesh -> Asia -> India] 
+
+  path: 2[117 -> 30752 -> 90126 -> 20063 -> 10002 -> 20055], [Nanda Devi Nanda Devi Himalaya  -> Uttar Pradesh -> Ganges -> Bangladesh -> Asia -> Pakistan] 
+
+srcNodes: [126, 20065, 20055]
+  path: 0[20079 -> 126], [Nepal -> Makalu Makalu Himalaya ] 
+
+  path: 1[20079 -> 10002 -> 20065], [Nepal -> Asia -> India] 
+
+  path: 2[20079 -> 10002 -> 20055], [Nepal -> Asia -> Pakistan] 
+
+srcNodes: [121, 20065, 20055]
+  path: 0[90128 -> 30658 -> 121], [Indus -> Tibet -> Shishapangma Shishapangma Himalaya ] 
+
+  path: 1[90128 -> 20055 -> 10002 -> 20065], [Indus -> Pakistan -> Asia -> India] 
+
+  path: 2[90128 -> 20055], [Indus -> Pakistan] 
+
+srcNodes: [121, 20065, 20055]
+  path: 0[20053 -> 30658 -> 121], [China -> Tibet -> Shishapangma Shishapangma Himalaya ] 
+
+  path: 1[20053 -> 10002 -> 20065], [China -> Asia -> India] 
+
+  path: 2[20053 -> 10002 -> 20055], [China -> Asia -> Pakistan] 
+
+srcNodes: [121, 20065, 20055]
+  path: 0[112 -> 20055 -> 90128 -> 30658 -> 121], [K2 K2 Karakorum  -> Pakistan -> Indus -> Tibet -> Shishapangma Shishapangma Himalaya ] 
+
+  path: 1[112 -> 20055 -> 10002 -> 20065], [K2 K2 Karakorum  -> Pakistan -> Asia -> India] 
+
+  path: 2[112 -> 20055], [K2 K2 Karakorum  -> Pakistan] 
+
+This is a non-reduced answer tree with common first node 20055
+
+srcNodes: [121, 20065, 20055]
+  path: 0[113 -> 20055 -> 90128 -> 30658 -> 121], [Gasherbrum II Gasherbrum II Karakorum  -> Pakistan -> Indus -> Tibet -> Shishapangma Shishapangma Himalaya ] 
+
+  path: 1[113 -> 20055 -> 10002 -> 20065], [Gasherbrum II Gasherbrum II Karakorum  -> Pakistan -> Asia -> India] 
+
+  path: 2[113 -> 20055], [Gasherbrum II Gasherbrum II Karakorum  -> Pakistan] 
+
+This is a non-reduced answer tree with common first node 20055
+
+srcNodes: [124, 20065, 20055]
+  path: 0[116 -> 20055 -> 10002 -> 20079 -> 124], [Nanga Parbat Nanga Parbat Karakorum  -> Pakistan -> Asia -> Nepal -> Mount Everest Mount Everest Himalaya ] 
+
+  path: 1[116 -> 20055 -> 10002 -> 20065], [Nanga Parbat Nanga Parbat Karakorum  -> Pakistan -> Asia -> India] 
+
+  path: 2[116 -> 20055], [Nanga Parbat Nanga Parbat Karakorum  -> Pakistan] 
+
+This is a non-reduced answer tree with common first node 20055
+
+srcNodes: [124, 20065, 20055]
+  path: 0[114 -> 20055 -> 10002 -> 20079 -> 124], [Gasherbrum I Gasherbrum I Karakorum  -> Pakistan -> Asia -> Nepal -> Mount Everest Mount Everest Himalaya ] 
+
+  path: 1[114 -> 20055 -> 10002 -> 20065], [Gasherbrum I Gasherbrum I Karakorum  -> Pakistan -> Asia -> India] 
+
+  path: 2[114 -> 20055], [Gasherbrum I Gasherbrum I Karakorum  -> Pakistan] 
+
+This is a non-reduced answer tree with common first node 20055
+
+srcNodes: [124, 20065, 20055]
+  path: 0[115 -> 20055 -> 10002 -> 20079 -> 124], [Broad Peak Broad Peak Karakorum  -> Pakistan -> Asia -> Nepal -> Mount Everest Mount Everest Himalaya ] 
+
+  path: 1[115 -> 20055 -> 10002 -> 20065], [Broad Peak Broad Peak Karakorum  -> Pakistan -> Asia -> India] 
+
+  path: 2[115 -> 20055], [Broad Peak Broad Peak Karakorum  -> Pakistan] 
+
+This is a non-reduced answer tree with common first node 20055
+
+srcNodes: [125, 20065, 20055]
+  path: 0[30658 -> 125], [Tibet -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[30658 -> 90123 -> 20072 -> 10002 -> 20065], [Tibet -> Mekong -> Vietnam -> Asia -> India] 
+
+  path: 2[30658 -> 90128 -> 20055], [Tibet -> Indus -> Pakistan] 
+
+srcNodes: [125, 20065, 20055]
+  path: 0[20085 -> 10002 -> 20079 -> 125], [Egypt -> Asia -> Nepal -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[20085 -> 10002 -> 20065], [Egypt -> Asia -> India] 
+
+  path: 2[20085 -> 10002 -> 20055], [Egypt -> Asia -> Pakistan] 
+
+This is a non-reduced answer tree with common first node 10002
+
+srcNodes: [125, 20065, 20055]
+  path: 0[20094 -> 10002 -> 20079 -> 125], [Lebanon -> Asia -> Nepal -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[20094 -> 10002 -> 20065], [Lebanon -> Asia -> India] 
+
+  path: 2[20094 -> 10002 -> 20055], [Lebanon -> Asia -> Pakistan] 
+
+This is a non-reduced answer tree with common first node 10002
+
+srcNodes: [125, 20065, 20055]
+  path: 0[20083 -> 10002 -> 20079 -> 125], [Gaza Strip -> Asia -> Nepal -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[20083 -> 10002 -> 20065], [Gaza Strip -> Asia -> India] 
+
+  path: 2[20083 -> 10002 -> 20055], [Gaza Strip -> Asia -> Pakistan] 
+
+This is a non-reduced answer tree with common first node 10002
+
+srcNodes: [125, 20065, 20055]
+  path: 0[20060 -> 10002 -> 20079 -> 125], [Georgia -> Asia -> Nepal -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[20060 -> 10002 -> 20065], [Georgia -> Asia -> India] 
+
+  path: 2[20060 -> 10002 -> 20055], [Georgia -> Asia -> Pakistan] 
+
+This is a non-reduced answer tree with common first node 10002
+
+srcNodes: [125, 20065, 20055]
+  path: 0[20092 -> 10002 -> 20079 -> 125], [Saudi Arabia -> Asia -> Nepal -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[20092 -> 10002 -> 20065], [Saudi Arabia -> Asia -> India] 
+
+  path: 2[20092 -> 10002 -> 20055], [Saudi Arabia -> Asia -> Pakistan] 
+
+This is a non-reduced answer tree with common first node 10002
+
+srcNodes: [125, 20065, 20055]
+  path: 0[20061 -> 10002 -> 20079 -> 125], [Azerbaijan -> Asia -> Nepal -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[20061 -> 10002 -> 20065], [Azerbaijan -> Asia -> India] 
+
+  path: 2[20061 -> 10002 -> 20055], [Azerbaijan -> Asia -> Pakistan] 
+
+This is a non-reduced answer tree with common first node 10002
+
+srcNodes: [125, 20065, 20055]
+  path: 0[20096 -> 10002 -> 20079 -> 125], [Japan -> Asia -> Nepal -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[20096 -> 10002 -> 20065], [Japan -> Asia -> India] 
+
+  path: 2[20096 -> 10002 -> 20055], [Japan -> Asia -> Pakistan] 
+
+This is a non-reduced answer tree with common first node 10002
+
+srcNodes: [125, 20065, 20055]
+  path: 0[20023 -> 10002 -> 20079 -> 125], [Russia -> Asia -> Nepal -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[20023 -> 10002 -> 20065], [Russia -> Asia -> India] 
+
+  path: 2[20023 -> 10002 -> 20055], [Russia -> Asia -> Pakistan] 
+
+This is a non-reduced answer tree with common first node 10002
+
+-----------------------------------------
+ResultDestNodes: [20065, 20055, 10002, 126, 120, 125, 118, 123, 127, 124, 119, 121, 117, 20079, 90128, 20053, 112, 113, 116, 114, 115, 30658, 20085, 20094, 20083, 20060, 20092, 20061, 20096, 20023]
+ResultRelevs: [8.421239852905273, 7.993104934692383, 6.579249858856201, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 5.919304847717285, 5.481283187866211, 5.41372013092041, 5.2202301025390625, 4.79718017578125, 4.727004051208496, 4.727004051208496, 4.727004051208496, 4.727004051208496, 4.727004051208496, 4.688920021057129, 4.488914966583252, 4.488914966583252, 4.488914966583252, 4.488914966583252, 4.488914966583252, 4.488914966583252, 4.488914966583252, 4.488914966583252]
+Num of top-k answers: 30
+Num of non-reduced answers: 13
+Num of duplicate answers: 20
+Num of non-redundant answers: 10
+Num of entries retrieved from the lists: 76
+Num of entries retrieved from NKMaps: 123
+
+Blink Search Using BDB_nored 30
+[himalaya, india, pakistan]
+srcNodes: [127, 20065, 20055]
+  path: 0[20065 -> 30749 -> 127], [India -> Sikkim -> Kangchendzonga Kangchendzonga Himalaya ] 
+
+  path: 1[20065 -> 20065], [India -> India]
+  path: 2[20065 -> 10002 -> 20055], [India -> Asia -> Pakistan] 
+
+srcNodes: [125, 20065, 20055]
+  path: 0[20055 -> 10002 -> 20079 -> 125], [Pakistan -> Asia -> Nepal -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[20055 -> 10002 -> 20065], [Pakistan -> Asia -> India] 
+
+  path: 2[20055 -> 20055], [Pakistan -> Pakistan]
+srcNodes: [118, 20065, 20055]
+  path: 0[10002 -> 20079 -> 118], [Asia -> Nepal -> Dhaulagiri Dhaulagiri Himalaya ] 
+
+  path: 1[10002 -> 20065], [Asia -> India] 
+
+  path: 2[10002 -> 20055], [Asia -> Pakistan] 
+
+srcNodes: [125, 20065, 20055]
+  path: 0[125 -> 125], [Lhotse Lhotse Himalaya  -> Lhotse Lhotse Himalaya ]
+  path: 1[125 -> 20079 -> 10002 -> 20065], [Lhotse Lhotse Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[125 -> 30658 -> 90128 -> 20055], [Lhotse Lhotse Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [124, 20065, 20055]
+  path: 0[124 -> 124], [Mount Everest Mount Everest Himalaya  -> Mount Everest Mount Everest Himalaya ]
+  path: 1[124 -> 20079 -> 10002 -> 20065], [Mount Everest Mount Everest Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[124 -> 30658 -> 90128 -> 20055], [Mount Everest Mount Everest Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [127, 20065, 20055]
+  path: 0[127 -> 127], [Kangchendzonga Kangchendzonga Himalaya  -> Kangchendzonga Kangchendzonga Himalaya ]
+  path: 1[127 -> 20079 -> 10002 -> 20065], [Kangchendzonga Kangchendzonga Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[127 -> 20079 -> 10002 -> 20055], [Kangchendzonga Kangchendzonga Himalaya  -> Nepal -> Asia -> Pakistan] 
+
+srcNodes: [119, 20065, 20055]
+  path: 0[119 -> 119], [Annapurna Annapurna Himalaya  -> Annapurna Annapurna Himalaya ]
+  path: 1[119 -> 20079 -> 10002 -> 20065], [Annapurna Annapurna Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[119 -> 20079 -> 10002 -> 20055], [Annapurna Annapurna Himalaya  -> Nepal -> Asia -> Pakistan] 
+
+srcNodes: [118, 20065, 20055]
+  path: 0[118 -> 118], [Dhaulagiri Dhaulagiri Himalaya  -> Dhaulagiri Dhaulagiri Himalaya ]
+  path: 1[118 -> 20079 -> 10002 -> 20065], [Dhaulagiri Dhaulagiri Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[118 -> 20079 -> 10002 -> 20055], [Dhaulagiri Dhaulagiri Himalaya  -> Nepal -> Asia -> Pakistan] 
+
+srcNodes: [123, 20065, 20055]
+  path: 0[123 -> 123], [Cho Oyu Cho Oyu Himalaya  -> Cho Oyu Cho Oyu Himalaya ]
+  path: 1[123 -> 20079 -> 10002 -> 20065], [Cho Oyu Cho Oyu Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[123 -> 30658 -> 90128 -> 20055], [Cho Oyu Cho Oyu Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [126, 20065, 20055]
+  path: 0[126 -> 126], [Makalu Makalu Himalaya  -> Makalu Makalu Himalaya ]
+  path: 1[126 -> 20079 -> 10002 -> 20065], [Makalu Makalu Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[126 -> 30658 -> 90128 -> 20055], [Makalu Makalu Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [120, 20065, 20055]
+  path: 0[120 -> 120], [Manaslu Manaslu Himalaya  -> Manaslu Manaslu Himalaya ]
+  path: 1[120 -> 20079 -> 10002 -> 20065], [Manaslu Manaslu Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[120 -> 20079 -> 10002 -> 20055], [Manaslu Manaslu Himalaya  -> Nepal -> Asia -> Pakistan] 
+
+srcNodes: [121, 20065, 20055]
+  path: 0[121 -> 121], [Shishapangma Shishapangma Himalaya  -> Shishapangma Shishapangma Himalaya ]
+  path: 1[121 -> 30658 -> 90123 -> 20072 -> 10002 -> 20065], [Shishapangma Shishapangma Himalaya  -> Tibet -> Mekong -> Vietnam -> Asia -> India] 
+
+  path: 2[121 -> 30658 -> 90128 -> 20055], [Shishapangma Shishapangma Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [117, 20065, 20055]
+  path: 0[117 -> 117], [Nanda Devi Nanda Devi Himalaya  -> Nanda Devi Nanda Devi Himalaya ]
+  path: 1[117 -> 30752 -> 90126 -> 20063 -> 10002 -> 20065], [Nanda Devi Nanda Devi Himalaya  -> Uttar Pradesh -> Ganges -> Bangladesh -> Asia -> India] 
+
+  path: 2[117 -> 30752 -> 90126 -> 20063 -> 10002 -> 20055], [Nanda Devi Nanda Devi Himalaya  -> Uttar Pradesh -> Ganges -> Bangladesh -> Asia -> Pakistan] 
+
+srcNodes: [126, 20065, 20055]
+  path: 0[20079 -> 126], [Nepal -> Makalu Makalu Himalaya ] 
+
+  path: 1[20079 -> 10002 -> 20065], [Nepal -> Asia -> India] 
+
+  path: 2[20079 -> 10002 -> 20055], [Nepal -> Asia -> Pakistan] 
+
+srcNodes: [121, 20065, 20055]
+  path: 0[90128 -> 30658 -> 121], [Indus -> Tibet -> Shishapangma Shishapangma Himalaya ] 
+
+  path: 1[90128 -> 20055 -> 10002 -> 20065], [Indus -> Pakistan -> Asia -> India] 
+
+  path: 2[90128 -> 20055], [Indus -> Pakistan] 
+
+srcNodes: [121, 20065, 20055]
+  path: 0[20053 -> 30658 -> 121], [China -> Tibet -> Shishapangma Shishapangma Himalaya ] 
+
+  path: 1[20053 -> 10002 -> 20065], [China -> Asia -> India] 
+
+  path: 2[20053 -> 10002 -> 20055], [China -> Asia -> Pakistan] 
+
+srcNodes: [125, 20065, 20055]
+  path: 0[30658 -> 125], [Tibet -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[30658 -> 90123 -> 20072 -> 10002 -> 20065], [Tibet -> Mekong -> Vietnam -> Asia -> India] 
+
+  path: 2[30658 -> 90128 -> 20055], [Tibet -> Indus -> Pakistan] 
+
+srcNodes: [117, 20065, 20055]
+  path: 0[20063 -> 90126 -> 30752 -> 117], [Bangladesh -> Ganges -> Uttar Pradesh -> Nanda Devi Nanda Devi Himalaya ] 
+
+  path: 1[20063 -> 10002 -> 20065], [Bangladesh -> Asia -> India] 
+
+  path: 2[20063 -> 10002 -> 20055], [Bangladesh -> Asia -> Pakistan] 
+
+srcNodes: [117, 20065, 20055]
+  path: 0[30752 -> 117], [Uttar Pradesh -> Nanda Devi Nanda Devi Himalaya ] 
+
+  path: 1[30752 -> 90126 -> 20063 -> 10002 -> 20065], [Uttar Pradesh -> Ganges -> Bangladesh -> Asia -> India] 
+
+  path: 2[30752 -> 90126 -> 20063 -> 10002 -> 20055], [Uttar Pradesh -> Ganges -> Bangladesh -> Asia -> Pakistan] 
+
+srcNodes: [117, 20065, 20055]
+  path: 0[90126 -> 30752 -> 117], [Ganges -> Uttar Pradesh -> Nanda Devi Nanda Devi Himalaya ] 
+
+  path: 1[90126 -> 20063 -> 10002 -> 20065], [Ganges -> Bangladesh -> Asia -> India] 
+
+  path: 2[90126 -> 20063 -> 10002 -> 20055], [Ganges -> Bangladesh -> Asia -> Pakistan] 
+
+srcNodes: [121, 20065, 20055]
+  path: 0[90127 -> 30658 -> 121], [Brahmaputra -> Tibet -> Shishapangma Shishapangma Himalaya ] 
+
+  path: 1[90127 -> 20063 -> 10002 -> 20065], [Brahmaputra -> Bangladesh -> Asia -> India] 
+
+  path: 2[90127 -> 30658 -> 90128 -> 20055], [Brahmaputra -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [121, 20065, 20055]
+  path: 0[90123 -> 30658 -> 121], [Mekong -> Tibet -> Shishapangma Shishapangma Himalaya ] 
+
+  path: 1[90123 -> 20072 -> 10002 -> 20065], [Mekong -> Vietnam -> Asia -> India] 
+
+  path: 2[90123 -> 30658 -> 90128 -> 20055], [Mekong -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [127, 20065, 20055]
+  path: 0[30657 -> 105 -> 20075 -> 10002 -> 20079 -> 127], [Xinjiang Uygur -> Pik Pobeda Pik Pobeda Tien Shan  -> Kyrgyzstan -> Asia -> Nepal -> Kangchendzonga Kangchendzonga Himalaya ] 
+
+  path: 1[30657 -> 105 -> 20075 -> 10002 -> 20065], [Xinjiang Uygur -> Pik Pobeda Pik Pobeda Tien Shan  -> Kyrgyzstan -> Asia -> India] 
+
+  path: 2[30657 -> 115 -> 20055], [Xinjiang Uygur -> Broad Peak Broad Peak Karakorum  -> Pakistan] 
+
+srcNodes: [120, 20065, 20055]
+  path: 0[105 -> 20075 -> 10002 -> 20079 -> 120], [Pik Pobeda Pik Pobeda Tien Shan  -> Kyrgyzstan -> Asia -> Nepal -> Manaslu Manaslu Himalaya ] 
+
+  path: 1[105 -> 20075 -> 10002 -> 20065], [Pik Pobeda Pik Pobeda Tien Shan  -> Kyrgyzstan -> Asia -> India] 
+
+  path: 2[105 -> 30657 -> 115 -> 20055], [Pik Pobeda Pik Pobeda Tien Shan  -> Xinjiang Uygur -> Broad Peak Broad Peak Karakorum  -> Pakistan] 
+
+srcNodes: [126, 50130, 50130]
+  path: 0[20035 -> 10004 -> 20031 -> 10002 -> 20079 -> 126], [Finland -> Europe -> Turkey -> Asia -> Nepal -> Makalu Makalu Himalaya ] 
+
+  path: 1[20035 -> 50130], [Finland -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+  path: 2[20035 -> 50130], [Finland -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+srcNodes: [126, 50130, 50130]
+  path: 0[20032 -> 10004 -> 20031 -> 10002 -> 20079 -> 126], [Denmark -> Europe -> Turkey -> Asia -> Nepal -> Makalu Makalu Himalaya ] 
+
+  path: 1[20032 -> 50130], [Denmark -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+  path: 2[20032 -> 50130], [Denmark -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+srcNodes: [126, 50130, 50130]
+  path: 0[20037 -> 10004 -> 20031 -> 10002 -> 20079 -> 126], [Sweden -> Europe -> Turkey -> Asia -> Nepal -> Makalu Makalu Himalaya ] 
+
+  path: 1[20037 -> 50130], [Sweden -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+  path: 2[20037 -> 50130], [Sweden -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+srcNodes: [126, 50130, 50130]
+  path: 0[20024 -> 10004 -> 20031 -> 10002 -> 20079 -> 126], [Belgium -> Europe -> Turkey -> Asia -> Nepal -> Makalu Makalu Himalaya ] 
+
+  path: 1[20024 -> 50130], [Belgium -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+  path: 2[20024 -> 50130], [Belgium -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+srcNodes: [126, 50130, 50130]
+  path: 0[20013 -> 10004 -> 20031 -> 10002 -> 20079 -> 126], [Italy -> Europe -> Turkey -> Asia -> Nepal -> Makalu Makalu Himalaya ] 
+
+  path: 1[20013 -> 50130], [Italy -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+  path: 2[20013 -> 50130], [Italy -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+srcNodes: [125, 20065, 20055]
+  path: 0[30652 -> 90125 -> 30658 -> 125], [Yunnan -> Irawaddy -> Tibet -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[30652 -> 90123 -> 20072 -> 10002 -> 20065], [Yunnan -> Mekong -> Vietnam -> Asia -> India] 
+
+  path: 2[30652 -> 90125 -> 30658 -> 90128 -> 20055], [Yunnan -> Irawaddy -> Tibet -> Indus -> Pakistan] 
+
+-----------------------------------------
+ResultDestNodes: [20065, 20055, 10002, 125, 124, 127, 119, 118, 123, 126, 120, 121, 117, 20079, 90128, 20053, 30658, 20063, 30752, 90126, 90127, 90123, 30657, 105, 20035, 20032, 20037, 20024, 20013, 30652]
+ResultRelevs: [8.421239852905273, 7.993104934692383, 6.579249858856201, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 5.919304847717285, 5.481283187866211, 5.41372013092041, 5.2202301025390625, 4.79718017578125, 4.688920021057129, 4.488914966583252, 3.9880900382995605, 3.9061601161956787, 3.9061601161956787, 3.9061601161956787, 3.455847978591919, 3.4129340648651123, 3.289628028869629, 3.289628028869629, 3.289628028869629, 3.289628028869629, 3.289628028869629, 3.0632848739624023]
+Num of top-k answers: 30
+Num of redundant answers: 0
+Num of duplicate answers: 19
+Num of entries retrieved from the lists: 483
+Num of entries retrieved from NKMaps: 421
+
+Blink Search Using BDB_reduced 30
+[himalaya, india, pakistan]
+srcNodes: [127, 20065, 20055]
+  path: 0[20065 -> 30749 -> 127], [India -> Sikkim -> Kangchendzonga Kangchendzonga Himalaya ] 
+
+  path: 1[20065 -> 20065], [India -> India]
+  path: 2[20065 -> 10002 -> 20055], [India -> Asia -> Pakistan] 
+
+srcNodes: [125, 20065, 20055]
+  path: 0[20055 -> 10002 -> 20079 -> 125], [Pakistan -> Asia -> Nepal -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[20055 -> 10002 -> 20065], [Pakistan -> Asia -> India] 
+
+  path: 2[20055 -> 20055], [Pakistan -> Pakistan]
+srcNodes: [118, 20065, 20055]
+  path: 0[10002 -> 20079 -> 118], [Asia -> Nepal -> Dhaulagiri Dhaulagiri Himalaya ] 
+
+  path: 1[10002 -> 20065], [Asia -> India] 
+
+  path: 2[10002 -> 20055], [Asia -> Pakistan] 
+
+srcNodes: [127, 20065, 20055]
+  path: 0[127 -> 127], [Kangchendzonga Kangchendzonga Himalaya  -> Kangchendzonga Kangchendzonga Himalaya ]
+  path: 1[127 -> 20079 -> 10002 -> 20065], [Kangchendzonga Kangchendzonga Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[127 -> 20079 -> 10002 -> 20055], [Kangchendzonga Kangchendzonga Himalaya  -> Nepal -> Asia -> Pakistan] 
+
+srcNodes: [124, 20065, 20055]
+  path: 0[124 -> 124], [Mount Everest Mount Everest Himalaya  -> Mount Everest Mount Everest Himalaya ]
+  path: 1[124 -> 20079 -> 10002 -> 20065], [Mount Everest Mount Everest Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[124 -> 30658 -> 90128 -> 20055], [Mount Everest Mount Everest Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [120, 20065, 20055]
+  path: 0[120 -> 120], [Manaslu Manaslu Himalaya  -> Manaslu Manaslu Himalaya ]
+  path: 1[120 -> 20079 -> 10002 -> 20065], [Manaslu Manaslu Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[120 -> 20079 -> 10002 -> 20055], [Manaslu Manaslu Himalaya  -> Nepal -> Asia -> Pakistan] 
+
+srcNodes: [119, 20065, 20055]
+  path: 0[119 -> 119], [Annapurna Annapurna Himalaya  -> Annapurna Annapurna Himalaya ]
+  path: 1[119 -> 20079 -> 10002 -> 20065], [Annapurna Annapurna Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[119 -> 20079 -> 10002 -> 20055], [Annapurna Annapurna Himalaya  -> Nepal -> Asia -> Pakistan] 
+
+srcNodes: [118, 20065, 20055]
+  path: 0[118 -> 118], [Dhaulagiri Dhaulagiri Himalaya  -> Dhaulagiri Dhaulagiri Himalaya ]
+  path: 1[118 -> 20079 -> 10002 -> 20065], [Dhaulagiri Dhaulagiri Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[118 -> 20079 -> 10002 -> 20055], [Dhaulagiri Dhaulagiri Himalaya  -> Nepal -> Asia -> Pakistan] 
+
+srcNodes: [123, 20065, 20055]
+  path: 0[123 -> 123], [Cho Oyu Cho Oyu Himalaya  -> Cho Oyu Cho Oyu Himalaya ]
+  path: 1[123 -> 20079 -> 10002 -> 20065], [Cho Oyu Cho Oyu Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[123 -> 30658 -> 90128 -> 20055], [Cho Oyu Cho Oyu Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [126, 20065, 20055]
+  path: 0[126 -> 126], [Makalu Makalu Himalaya  -> Makalu Makalu Himalaya ]
+  path: 1[126 -> 20079 -> 10002 -> 20065], [Makalu Makalu Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[126 -> 30658 -> 90128 -> 20055], [Makalu Makalu Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [125, 20065, 20055]
+  path: 0[125 -> 125], [Lhotse Lhotse Himalaya  -> Lhotse Lhotse Himalaya ]
+  path: 1[125 -> 20079 -> 10002 -> 20065], [Lhotse Lhotse Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[125 -> 30658 -> 90128 -> 20055], [Lhotse Lhotse Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [121, 20065, 20055]
+  path: 0[121 -> 121], [Shishapangma Shishapangma Himalaya  -> Shishapangma Shishapangma Himalaya ]
+  path: 1[121 -> 30658 -> 90123 -> 20072 -> 10002 -> 20065], [Shishapangma Shishapangma Himalaya  -> Tibet -> Mekong -> Vietnam -> Asia -> India] 
+
+  path: 2[121 -> 30658 -> 90128 -> 20055], [Shishapangma Shishapangma Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [117, 20065, 20055]
+  path: 0[117 -> 117], [Nanda Devi Nanda Devi Himalaya  -> Nanda Devi Nanda Devi Himalaya ]
+  path: 1[117 -> 30752 -> 90126 -> 20063 -> 10002 -> 20065], [Nanda Devi Nanda Devi Himalaya  -> Uttar Pradesh -> Ganges -> Bangladesh -> Asia -> India] 
+
+  path: 2[117 -> 30752 -> 90126 -> 20063 -> 10002 -> 20055], [Nanda Devi Nanda Devi Himalaya  -> Uttar Pradesh -> Ganges -> Bangladesh -> Asia -> Pakistan] 
+
+srcNodes: [126, 20065, 20055]
+  path: 0[20079 -> 126], [Nepal -> Makalu Makalu Himalaya ] 
+
+  path: 1[20079 -> 10002 -> 20065], [Nepal -> Asia -> India] 
+
+  path: 2[20079 -> 10002 -> 20055], [Nepal -> Asia -> Pakistan] 
+
+srcNodes: [121, 20065, 20055]
+  path: 0[90128 -> 30658 -> 121], [Indus -> Tibet -> Shishapangma Shishapangma Himalaya ] 
+
+  path: 1[90128 -> 20055 -> 10002 -> 20065], [Indus -> Pakistan -> Asia -> India] 
+
+  path: 2[90128 -> 20055], [Indus -> Pakistan] 
+
+srcNodes: [121, 20065, 20055]
+  path: 0[20053 -> 30658 -> 121], [China -> Tibet -> Shishapangma Shishapangma Himalaya ] 
+
+  path: 1[20053 -> 10002 -> 20065], [China -> Asia -> India] 
+
+  path: 2[20053 -> 10002 -> 20055], [China -> Asia -> Pakistan] 
+
+srcNodes: [125, 20065, 20055]
+  path: 0[30658 -> 125], [Tibet -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[30658 -> 90123 -> 20072 -> 10002 -> 20065], [Tibet -> Mekong -> Vietnam -> Asia -> India] 
+
+  path: 2[30658 -> 90128 -> 20055], [Tibet -> Indus -> Pakistan] 
+
+srcNodes: [121, 20065, 20055]
+  path: 0[20070 -> 90123 -> 30658 -> 121], [Thailand -> Mekong -> Tibet -> Shishapangma Shishapangma Himalaya ] 
+
+  path: 1[20070 -> 10002 -> 20065], [Thailand -> Asia -> India] 
+
+  path: 2[20070 -> 10002 -> 20055], [Thailand -> Asia -> Pakistan] 
+
+srcNodes: [117, 20065, 20055]
+  path: 0[20063 -> 90126 -> 30752 -> 117], [Bangladesh -> Ganges -> Uttar Pradesh -> Nanda Devi Nanda Devi Himalaya ] 
+
+  path: 1[20063 -> 10002 -> 20065], [Bangladesh -> Asia -> India] 
+
+  path: 2[20063 -> 10002 -> 20055], [Bangladesh -> Asia -> Pakistan] 
+
+srcNodes: [121, 20065, 20055]
+  path: 0[20069 -> 90123 -> 30658 -> 121], [Laos -> Mekong -> Tibet -> Shishapangma Shishapangma Himalaya ] 
+
+  path: 1[20069 -> 10002 -> 20065], [Laos -> Asia -> India] 
+
+  path: 2[20069 -> 10002 -> 20055], [Laos -> Asia -> Pakistan] 
+
+srcNodes: [121, 20065, 20055]
+  path: 0[20072 -> 90123 -> 30658 -> 121], [Vietnam -> Mekong -> Tibet -> Shishapangma Shishapangma Himalaya ] 
+
+  path: 1[20072 -> 10002 -> 20065], [Vietnam -> Asia -> India] 
+
+  path: 2[20072 -> 10002 -> 20055], [Vietnam -> Asia -> Pakistan] 
+
+srcNodes: [121, 20065, 20055]
+  path: 0[20071 -> 90123 -> 30658 -> 121], [Cambodia -> Mekong -> Tibet -> Shishapangma Shishapangma Himalaya ] 
+
+  path: 1[20071 -> 10002 -> 20065], [Cambodia -> Asia -> India] 
+
+  path: 2[20071 -> 10002 -> 20055], [Cambodia -> Asia -> Pakistan] 
+
+srcNodes: [125, 20065, 50130]
+  path: 0[20097 -> 10002 -> 20079 -> 125], [South Korea -> Asia -> Nepal -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[20097 -> 10002 -> 20065], [South Korea -> Asia -> India] 
+
+  path: 2[20097 -> 50130], [South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+srcNodes: [117, 20065, 20055]
+  path: 0[30752 -> 117], [Uttar Pradesh -> Nanda Devi Nanda Devi Himalaya ] 
+
+  path: 1[30752 -> 90126 -> 20063 -> 10002 -> 20065], [Uttar Pradesh -> Ganges -> Bangladesh -> Asia -> India] 
+
+  path: 2[30752 -> 90126 -> 20063 -> 10002 -> 20055], [Uttar Pradesh -> Ganges -> Bangladesh -> Asia -> Pakistan] 
+
+srcNodes: [121, 20065, 20055]
+  path: 0[90123 -> 30658 -> 121], [Mekong -> Tibet -> Shishapangma Shishapangma Himalaya ] 
+
+  path: 1[90123 -> 20072 -> 10002 -> 20065], [Mekong -> Vietnam -> Asia -> India] 
+
+  path: 2[90123 -> 30658 -> 90128 -> 20055], [Mekong -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [117, 20065, 20055]
+  path: 0[90126 -> 30752 -> 117], [Ganges -> Uttar Pradesh -> Nanda Devi Nanda Devi Himalaya ] 
+
+  path: 1[90126 -> 20063 -> 10002 -> 20065], [Ganges -> Bangladesh -> Asia -> India] 
+
+  path: 2[90126 -> 20063 -> 10002 -> 20055], [Ganges -> Bangladesh -> Asia -> Pakistan] 
+
+srcNodes: [121, 20065, 20055]
+  path: 0[90127 -> 30658 -> 121], [Brahmaputra -> Tibet -> Shishapangma Shishapangma Himalaya ] 
+
+  path: 1[90127 -> 20063 -> 10002 -> 20065], [Brahmaputra -> Bangladesh -> Asia -> India] 
+
+  path: 2[90127 -> 30658 -> 90128 -> 20055], [Brahmaputra -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [127, 20065, 20055]
+  path: 0[30657 -> 105 -> 20075 -> 10002 -> 20079 -> 127], [Xinjiang Uygur -> Pik Pobeda Pik Pobeda Tien Shan  -> Kyrgyzstan -> Asia -> Nepal -> Kangchendzonga Kangchendzonga Himalaya ] 
+
+  path: 1[30657 -> 105 -> 20075 -> 10002 -> 20065], [Xinjiang Uygur -> Pik Pobeda Pik Pobeda Tien Shan  -> Kyrgyzstan -> Asia -> India] 
+
+  path: 2[30657 -> 115 -> 20055], [Xinjiang Uygur -> Broad Peak Broad Peak Karakorum  -> Pakistan] 
+
+srcNodes: [120, 20065, 20055]
+  path: 0[105 -> 20075 -> 10002 -> 20079 -> 120], [Pik Pobeda Pik Pobeda Tien Shan  -> Kyrgyzstan -> Asia -> Nepal -> Manaslu Manaslu Himalaya ] 
+
+  path: 1[105 -> 20075 -> 10002 -> 20065], [Pik Pobeda Pik Pobeda Tien Shan  -> Kyrgyzstan -> Asia -> India] 
+
+  path: 2[105 -> 30657 -> 115 -> 20055], [Pik Pobeda Pik Pobeda Tien Shan  -> Xinjiang Uygur -> Broad Peak Broad Peak Karakorum  -> Pakistan] 
+
+srcNodes: [126, 50130, 50130]
+  path: 0[20013 -> 10004 -> 20031 -> 10002 -> 20079 -> 126], [Italy -> Europe -> Turkey -> Asia -> Nepal -> Makalu Makalu Himalaya ] 
+
+  path: 1[20013 -> 50130], [Italy -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+  path: 2[20013 -> 50130], [Italy -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+-----------------------------------------
+ResultDestNodes: [20065, 20055, 10002, 127, 124, 120, 119, 118, 123, 126, 125, 121, 117, 20079, 90128, 20053, 30658, 20070, 20063, 20069, 20072, 20071, 20097, 30752, 90123, 90126, 90127, 30657, 105, 20013]
+ResultRelevs: [8.421239852905273, 7.993104934692383, 6.579249858856201, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 5.919304847717285, 5.481283187866211, 5.41372013092041, 5.2202301025390625, 4.79718017578125, 4.688920021057129, 4.488914966583252, 4.488914966583252, 4.488914966583252, 4.488914966583252, 4.488914966583252, 4.050894737243652, 3.9880900382995605, 3.9061601161956787, 3.9061601161956787, 3.9061601161956787, 3.455847978591919, 3.4129340648651123, 3.289628028869629]
+Num of top-k answers: 30
+Num of non-reduced answers: 0
+Num of duplicate answers: 18
+Num of non-redundant answers: 12
+Num of entries retrieved from the lists: 449
+Num of entries retrieved from NKMaps: 834
+
+Blink Search Using BDB_reducedNunique_Opt 30
+[himalaya, india, pakistan]
+srcNodes: [127, 20065, 20055]
+  path: 0[20065 -> 30749 -> 127], [India -> Sikkim -> Kangchendzonga Kangchendzonga Himalaya ] 
+
+  path: 1[20065 -> 20065], [India -> India]
+  path: 2[20065 -> 10002 -> 20055], [India -> Asia -> Pakistan] 
+
+srcNodes: [125, 20065, 20055]
+  path: 0[20055 -> 10002 -> 20079 -> 125], [Pakistan -> Asia -> Nepal -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[20055 -> 10002 -> 20065], [Pakistan -> Asia -> India] 
+
+  path: 2[20055 -> 20055], [Pakistan -> Pakistan]
+srcNodes: [118, 20065, 20055]
+  path: 0[10002 -> 20079 -> 118], [Asia -> Nepal -> Dhaulagiri Dhaulagiri Himalaya ] 
+
+  path: 1[10002 -> 20065], [Asia -> India] 
+
+  path: 2[10002 -> 20055], [Asia -> Pakistan] 
+
+srcNodes: [119, 20065, 20055]
+  path: 0[119 -> 119], [Annapurna Annapurna Himalaya  -> Annapurna Annapurna Himalaya ]
+  path: 1[119 -> 20079 -> 10002 -> 20065], [Annapurna Annapurna Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[119 -> 20079 -> 10002 -> 20055], [Annapurna Annapurna Himalaya  -> Nepal -> Asia -> Pakistan] 
+
+srcNodes: [126, 20065, 20055]
+  path: 0[126 -> 126], [Makalu Makalu Himalaya  -> Makalu Makalu Himalaya ]
+  path: 1[126 -> 20079 -> 10002 -> 20065], [Makalu Makalu Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[126 -> 30658 -> 90128 -> 20055], [Makalu Makalu Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [120, 20065, 20055]
+  path: 0[120 -> 120], [Manaslu Manaslu Himalaya  -> Manaslu Manaslu Himalaya ]
+  path: 1[120 -> 20079 -> 10002 -> 20065], [Manaslu Manaslu Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[120 -> 20079 -> 10002 -> 20055], [Manaslu Manaslu Himalaya  -> Nepal -> Asia -> Pakistan] 
+
+srcNodes: [123, 20065, 20055]
+  path: 0[123 -> 123], [Cho Oyu Cho Oyu Himalaya  -> Cho Oyu Cho Oyu Himalaya ]
+  path: 1[123 -> 20079 -> 10002 -> 20065], [Cho Oyu Cho Oyu Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[123 -> 30658 -> 90128 -> 20055], [Cho Oyu Cho Oyu Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [124, 20065, 20055]
+  path: 0[124 -> 124], [Mount Everest Mount Everest Himalaya  -> Mount Everest Mount Everest Himalaya ]
+  path: 1[124 -> 20079 -> 10002 -> 20065], [Mount Everest Mount Everest Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[124 -> 30658 -> 90128 -> 20055], [Mount Everest Mount Everest Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [121, 20065, 20055]
+  path: 0[121 -> 121], [Shishapangma Shishapangma Himalaya  -> Shishapangma Shishapangma Himalaya ]
+  path: 1[121 -> 30658 -> 90123 -> 20072 -> 10002 -> 20065], [Shishapangma Shishapangma Himalaya  -> Tibet -> Mekong -> Vietnam -> Asia -> India] 
+
+  path: 2[121 -> 30658 -> 90128 -> 20055], [Shishapangma Shishapangma Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [125, 20065, 50130]
+  path: 0[125 -> 125], [Lhotse Lhotse Himalaya  -> Lhotse Lhotse Himalaya ]
+  path: 1[125 -> 20079 -> 10002 -> 20065], [Lhotse Lhotse Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[125 -> 20079 -> 10002 -> 20097 -> 50130], [Lhotse Lhotse Himalaya  -> Nepal -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+srcNodes: [127, 20065, 50130]
+  path: 0[127 -> 127], [Kangchendzonga Kangchendzonga Himalaya  -> Kangchendzonga Kangchendzonga Himalaya ]
+  path: 1[127 -> 20079 -> 10002 -> 20065], [Kangchendzonga Kangchendzonga Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[127 -> 20079 -> 10002 -> 20097 -> 50130], [Kangchendzonga Kangchendzonga Himalaya  -> Nepal -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+srcNodes: [118, 20065, 50130]
+  path: 0[118 -> 118], [Dhaulagiri Dhaulagiri Himalaya  -> Dhaulagiri Dhaulagiri Himalaya ]
+  path: 1[118 -> 20079 -> 10002 -> 20065], [Dhaulagiri Dhaulagiri Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[118 -> 20079 -> 10002 -> 20097 -> 50130], [Dhaulagiri Dhaulagiri Himalaya  -> Nepal -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+srcNodes: [117, 20065, 20055]
+  path: 0[117 -> 117], [Nanda Devi Nanda Devi Himalaya  -> Nanda Devi Nanda Devi Himalaya ]
+  path: 1[117 -> 30752 -> 90126 -> 20063 -> 10002 -> 20065], [Nanda Devi Nanda Devi Himalaya  -> Uttar Pradesh -> Ganges -> Bangladesh -> Asia -> India] 
+
+  path: 2[117 -> 30752 -> 90126 -> 20063 -> 10002 -> 20055], [Nanda Devi Nanda Devi Himalaya  -> Uttar Pradesh -> Ganges -> Bangladesh -> Asia -> Pakistan] 
+
+srcNodes: [121, 50130, 20055]
+  path: 0[90128 -> 30658 -> 121], [Indus -> Tibet -> Shishapangma Shishapangma Himalaya ] 
+
+  path: 1[90128 -> 20055 -> 10002 -> 20097 -> 50130], [Indus -> Pakistan -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+  path: 2[90128 -> 20055], [Indus -> Pakistan] 
+
+srcNodes: [126, 20065, 50130]
+  path: 0[20079 -> 126], [Nepal -> Makalu Makalu Himalaya ] 
+
+  path: 1[20079 -> 10002 -> 20065], [Nepal -> Asia -> India] 
+
+  path: 2[20079 -> 10002 -> 20097 -> 50130], [Nepal -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+srcNodes: [125, 50130, 20055]
+  path: 0[30658 -> 125], [Tibet -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[30658 -> 90123 -> 20072 -> 10002 -> 20097 -> 50130], [Tibet -> Mekong -> Vietnam -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+  path: 2[30658 -> 90128 -> 20055], [Tibet -> Indus -> Pakistan] 
+
+srcNodes: [124, 20065, 50130]
+  path: 0[20097 -> 10002 -> 20079 -> 124], [South Korea -> Asia -> Nepal -> Mount Everest Mount Everest Himalaya ] 
+
+  path: 1[20097 -> 10002 -> 20065], [South Korea -> Asia -> India] 
+
+  path: 2[20097 -> 50130], [South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+srcNodes: [121, 20065, 50130]
+  path: 0[20053 -> 30658 -> 121], [China -> Tibet -> Shishapangma Shishapangma Himalaya ] 
+
+  path: 1[20053 -> 10002 -> 20065], [China -> Asia -> India] 
+
+  path: 2[20053 -> 10002 -> 20097 -> 50130], [China -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+srcNodes: [117, 20065, 50130]
+  path: 0[20063 -> 90126 -> 30752 -> 117], [Bangladesh -> Ganges -> Uttar Pradesh -> Nanda Devi Nanda Devi Himalaya ] 
+
+  path: 1[20063 -> 10002 -> 20065], [Bangladesh -> Asia -> India] 
+
+  path: 2[20063 -> 10002 -> 20097 -> 50130], [Bangladesh -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+srcNodes: [124, 50130, 20055]
+  path: 0[20072 -> 10002 -> 20079 -> 124], [Vietnam -> Asia -> Nepal -> Mount Everest Mount Everest Himalaya ] 
+
+  path: 1[20072 -> 10002 -> 20097 -> 50130], [Vietnam -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+  path: 2[20072 -> 10002 -> 20055], [Vietnam -> Asia -> Pakistan] 
+
+This is a non-reduced answer tree with common first node 10002
+
+srcNodes: [117, 50130, 20055]
+  path: 0[30752 -> 117], [Uttar Pradesh -> Nanda Devi Nanda Devi Himalaya ] 
+
+  path: 1[30752 -> 90126 -> 20063 -> 10002 -> 20097 -> 50130], [Uttar Pradesh -> Ganges -> Bangladesh -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+  path: 2[30752 -> 90126 -> 20063 -> 10002 -> 20055], [Uttar Pradesh -> Ganges -> Bangladesh -> Asia -> Pakistan] 
+
+srcNodes: [119, 50130, 50130]
+  path: 0[20024 -> 10004 -> 20031 -> 10002 -> 20079 -> 119], [Belgium -> Europe -> Turkey -> Asia -> Nepal -> Annapurna Annapurna Himalaya ] 
+
+  path: 1[20024 -> 50130], [Belgium -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+  path: 2[20024 -> 50130], [Belgium -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+srcNodes: [126, 50130, 50130]
+  path: 0[20013 -> 10004 -> 20031 -> 10002 -> 20079 -> 126], [Italy -> Europe -> Turkey -> Asia -> Nepal -> Makalu Makalu Himalaya ] 
+
+  path: 1[20013 -> 50130], [Italy -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+  path: 2[20013 -> 50130], [Italy -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+srcNodes: [126, 50130, 20055]
+  path: 0[20037 -> 10004 -> 20031 -> 10002 -> 20079 -> 126], [Sweden -> Europe -> Turkey -> Asia -> Nepal -> Makalu Makalu Himalaya ] 
+
+  path: 1[20037 -> 50130], [Sweden -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+  path: 2[20037 -> 10004 -> 20031 -> 10002 -> 20055], [Sweden -> Europe -> Turkey -> Asia -> Pakistan] 
+
+srcNodes: [119, 50130, 20055]
+  path: 0[20032 -> 10004 -> 20031 -> 10002 -> 20079 -> 119], [Denmark -> Europe -> Turkey -> Asia -> Nepal -> Annapurna Annapurna Himalaya ] 
+
+  path: 1[20032 -> 50130], [Denmark -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+  path: 2[20032 -> 10004 -> 20031 -> 10002 -> 20055], [Denmark -> Europe -> Turkey -> Asia -> Pakistan] 
+
+srcNodes: [119, 20065, 50130]
+  path: 0[20035 -> 10004 -> 20031 -> 10002 -> 20079 -> 119], [Finland -> Europe -> Turkey -> Asia -> Nepal -> Annapurna Annapurna Himalaya ] 
+
+  path: 1[20035 -> 10004 -> 20031 -> 10002 -> 20065], [Finland -> Europe -> Turkey -> Asia -> India] 
+
+  path: 2[20035 -> 50130], [Finland -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+srcNodes: [127, 50130, 20055]
+  path: 0[30657 -> 105 -> 20075 -> 10002 -> 20079 -> 127], [Xinjiang Uygur -> Pik Pobeda Pik Pobeda Tien Shan  -> Kyrgyzstan -> Asia -> Nepal -> Kangchendzonga Kangchendzonga Himalaya ] 
+
+  path: 1[30657 -> 105 -> 20075 -> 10002 -> 20097 -> 50130], [Xinjiang Uygur -> Pik Pobeda Pik Pobeda Tien Shan  -> Kyrgyzstan -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+  path: 2[30657 -> 115 -> 20055], [Xinjiang Uygur -> Broad Peak Broad Peak Karakorum  -> Pakistan] 
+
+srcNodes: [120, 20065, 50130]
+  path: 0[105 -> 20075 -> 10002 -> 20079 -> 120], [Pik Pobeda Pik Pobeda Tien Shan  -> Kyrgyzstan -> Asia -> Nepal -> Manaslu Manaslu Himalaya ] 
+
+  path: 1[105 -> 20075 -> 10002 -> 20065], [Pik Pobeda Pik Pobeda Tien Shan  -> Kyrgyzstan -> Asia -> India] 
+
+  path: 2[105 -> 20075 -> 10002 -> 20097 -> 50130], [Pik Pobeda Pik Pobeda Tien Shan  -> Kyrgyzstan -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+This is a non-reduced answer tree with common first node 20075
+
+srcNodes: [125, 50130, 50130]
+  path: 0[10004 -> 20031 -> 10002 -> 20079 -> 125], [Europe -> Turkey -> Asia -> Nepal -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[10004 -> 20037 -> 50130], [Europe -> Sweden -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+  path: 2[10004 -> 20037 -> 50130], [Europe -> Sweden -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+srcNodes: [117, 50130, 50130]
+  path: 0[90126 -> 30752 -> 117], [Ganges -> Uttar Pradesh -> Nanda Devi Nanda Devi Himalaya ] 
+
+  path: 1[90126 -> 20063 -> 10002 -> 20097 -> 50130], [Ganges -> Bangladesh -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+  path: 2[90126 -> 20063 -> 10002 -> 20097 -> 50130], [Ganges -> Bangladesh -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+-----------------------------------------
+ResultDestNodes: [20065, 20055, 10002, 119, 126, 120, 123, 124, 121, 125, 127, 118, 117, 90128, 20079, 30658, 20097, 20053, 20063, 20072, 30752, 20024, 20013, 20037, 20032, 20035, 30657, 105, 10004, 90126]
+ResultRelevs: [8.421239852905273, 7.993104934692383, 6.579249858856201, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 5.919304847717285, 5.583868026733398, 5.583868026733398, 5.583868026733398, 5.481283187866211, 4.404818058013916, 4.318665027618408, 4.054707050323486, 4.050894737243652, 3.702125072479248, 3.39385986328125, 3.356405019760132, 3.353877067565918, 3.289628028869629, 3.289628028869629, 3.026818037033081, 3.026818037033081, 3.0178279876708984, 2.8216350078582764, 2.6244921684265137, 2.5219011306762695, 2.3023061752319336]
+Num of top-k answers: 30
+Num of non-reduced answers in top-k answers: 2
+Num of duplicate answers in top-k answers: 0
+Num of non-redundant answers: 28
+Num of entries retrieved from the lists: 1521
+Num of redundant candidate answers found: 418
+Num of reduced alternative answers found: 6
+Num of duplicate candidate answers found: 31
+Num of unique alternative answers found: 29
+
+Blink Search Using BDB_reducedNunique_BruteForce 30
+[himalaya, india, pakistan]
+srcNodes: [127, 20065, 20055]
+  path: 0[20065 -> 30749 -> 127], [India -> Sikkim -> Kangchendzonga Kangchendzonga Himalaya ] 
+
+  path: 1[20065 -> 20065], [India -> India]
+  path: 2[20065 -> 10002 -> 20055], [India -> Asia -> Pakistan] 
+
+srcNodes: [125, 20065, 20055]
+  path: 0[20055 -> 10002 -> 20079 -> 125], [Pakistan -> Asia -> Nepal -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[20055 -> 10002 -> 20065], [Pakistan -> Asia -> India] 
+
+  path: 2[20055 -> 20055], [Pakistan -> Pakistan]
+srcNodes: [118, 20065, 20055]
+  path: 0[10002 -> 20079 -> 118], [Asia -> Nepal -> Dhaulagiri Dhaulagiri Himalaya ] 
+
+  path: 1[10002 -> 20065], [Asia -> India] 
+
+  path: 2[10002 -> 20055], [Asia -> Pakistan] 
+
+srcNodes: [126, 20065, 20055]
+  path: 0[126 -> 126], [Makalu Makalu Himalaya  -> Makalu Makalu Himalaya ]
+  path: 1[126 -> 20079 -> 10002 -> 20065], [Makalu Makalu Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[126 -> 30658 -> 90128 -> 20055], [Makalu Makalu Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [119, 20065, 20055]
+  path: 0[119 -> 119], [Annapurna Annapurna Himalaya  -> Annapurna Annapurna Himalaya ]
+  path: 1[119 -> 20079 -> 10002 -> 20065], [Annapurna Annapurna Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[119 -> 20079 -> 10002 -> 20055], [Annapurna Annapurna Himalaya  -> Nepal -> Asia -> Pakistan] 
+
+srcNodes: [124, 20065, 20055]
+  path: 0[124 -> 124], [Mount Everest Mount Everest Himalaya  -> Mount Everest Mount Everest Himalaya ]
+  path: 1[124 -> 20079 -> 10002 -> 20065], [Mount Everest Mount Everest Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[124 -> 30658 -> 90128 -> 20055], [Mount Everest Mount Everest Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [120, 20065, 20055]
+  path: 0[120 -> 120], [Manaslu Manaslu Himalaya  -> Manaslu Manaslu Himalaya ]
+  path: 1[120 -> 20079 -> 10002 -> 20065], [Manaslu Manaslu Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[120 -> 20079 -> 10002 -> 20055], [Manaslu Manaslu Himalaya  -> Nepal -> Asia -> Pakistan] 
+
+srcNodes: [123, 20065, 20055]
+  path: 0[123 -> 123], [Cho Oyu Cho Oyu Himalaya  -> Cho Oyu Cho Oyu Himalaya ]
+  path: 1[123 -> 20079 -> 10002 -> 20065], [Cho Oyu Cho Oyu Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[123 -> 30658 -> 90128 -> 20055], [Cho Oyu Cho Oyu Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [121, 20065, 20055]
+  path: 0[121 -> 121], [Shishapangma Shishapangma Himalaya  -> Shishapangma Shishapangma Himalaya ]
+  path: 1[121 -> 30658 -> 90123 -> 20072 -> 10002 -> 20065], [Shishapangma Shishapangma Himalaya  -> Tibet -> Mekong -> Vietnam -> Asia -> India] 
+
+  path: 2[121 -> 30658 -> 90128 -> 20055], [Shishapangma Shishapangma Himalaya  -> Tibet -> Indus -> Pakistan] 
+
+srcNodes: [127, 20065, 50130]
+  path: 0[127 -> 127], [Kangchendzonga Kangchendzonga Himalaya  -> Kangchendzonga Kangchendzonga Himalaya ]
+  path: 1[127 -> 20079 -> 10002 -> 20065], [Kangchendzonga Kangchendzonga Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[127 -> 20079 -> 10002 -> 20097 -> 50130], [Kangchendzonga Kangchendzonga Himalaya  -> Nepal -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+srcNodes: [125, 20065, 50130]
+  path: 0[125 -> 125], [Lhotse Lhotse Himalaya  -> Lhotse Lhotse Himalaya ]
+  path: 1[125 -> 20079 -> 10002 -> 20065], [Lhotse Lhotse Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[125 -> 20079 -> 10002 -> 20097 -> 50130], [Lhotse Lhotse Himalaya  -> Nepal -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+srcNodes: [118, 20065, 50130]
+  path: 0[118 -> 118], [Dhaulagiri Dhaulagiri Himalaya  -> Dhaulagiri Dhaulagiri Himalaya ]
+  path: 1[118 -> 20079 -> 10002 -> 20065], [Dhaulagiri Dhaulagiri Himalaya  -> Nepal -> Asia -> India] 
+
+  path: 2[118 -> 20079 -> 10002 -> 20097 -> 50130], [Dhaulagiri Dhaulagiri Himalaya  -> Nepal -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+srcNodes: [117, 20065, 20055]
+  path: 0[117 -> 117], [Nanda Devi Nanda Devi Himalaya  -> Nanda Devi Nanda Devi Himalaya ]
+  path: 1[117 -> 30752 -> 90126 -> 20063 -> 10002 -> 20065], [Nanda Devi Nanda Devi Himalaya  -> Uttar Pradesh -> Ganges -> Bangladesh -> Asia -> India] 
+
+  path: 2[117 -> 30752 -> 90126 -> 20063 -> 10002 -> 20055], [Nanda Devi Nanda Devi Himalaya  -> Uttar Pradesh -> Ganges -> Bangladesh -> Asia -> Pakistan] 
+
+srcNodes: [125, 50130, 20055]
+  path: 0[90128 -> 30658 -> 125], [Indus -> Tibet -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[90128 -> 20055 -> 10002 -> 20097 -> 50130], [Indus -> Pakistan -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+  path: 2[90128 -> 20055], [Indus -> Pakistan] 
+
+srcNodes: [124, 20065, 50130]
+  path: 0[20079 -> 124], [Nepal -> Mount Everest Mount Everest Himalaya ] 
+
+  path: 1[20079 -> 10002 -> 20065], [Nepal -> Asia -> India] 
+
+  path: 2[20079 -> 10002 -> 20097 -> 50130], [Nepal -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+srcNodes: [121, 50130, 20055]
+  path: 0[30658 -> 121], [Tibet -> Shishapangma Shishapangma Himalaya ] 
+
+  path: 1[30658 -> 90123 -> 20072 -> 10002 -> 20097 -> 50130], [Tibet -> Mekong -> Vietnam -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+  path: 2[30658 -> 90128 -> 20055], [Tibet -> Indus -> Pakistan] 
+
+srcNodes: [124, 50130, 20055]
+  path: 0[20097 -> 10002 -> 20079 -> 124], [South Korea -> Asia -> Nepal -> Mount Everest Mount Everest Himalaya ] 
+
+  path: 1[20097 -> 50130], [South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+  path: 2[20097 -> 10002 -> 20055], [South Korea -> Asia -> Pakistan] 
+
+srcNodes: [121, 20065, 50130]
+  path: 0[20053 -> 30658 -> 121], [China -> Tibet -> Shishapangma Shishapangma Himalaya ] 
+
+  path: 1[20053 -> 10002 -> 20065], [China -> Asia -> India] 
+
+  path: 2[20053 -> 10002 -> 20097 -> 50130], [China -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+srcNodes: [117, 20065, 50130]
+  path: 0[20063 -> 90126 -> 30752 -> 117], [Bangladesh -> Ganges -> Uttar Pradesh -> Nanda Devi Nanda Devi Himalaya ] 
+
+  path: 1[20063 -> 10002 -> 20065], [Bangladesh -> Asia -> India] 
+
+  path: 2[20063 -> 10002 -> 20097 -> 50130], [Bangladesh -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+srcNodes: [117, 50130, 20055]
+  path: 0[30752 -> 117], [Uttar Pradesh -> Nanda Devi Nanda Devi Himalaya ] 
+
+  path: 1[30752 -> 90126 -> 20063 -> 10002 -> 20097 -> 50130], [Uttar Pradesh -> Ganges -> Bangladesh -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+  path: 2[30752 -> 90126 -> 20063 -> 10002 -> 20055], [Uttar Pradesh -> Ganges -> Bangladesh -> Asia -> Pakistan] 
+
+srcNodes: [119, 50130, 50130]
+  path: 0[20024 -> 10004 -> 20031 -> 10002 -> 20079 -> 119], [Belgium -> Europe -> Turkey -> Asia -> Nepal -> Annapurna Annapurna Himalaya ] 
+
+  path: 1[20024 -> 50130], [Belgium -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+  path: 2[20024 -> 50130], [Belgium -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+srcNodes: [126, 50130, 50130]
+  path: 0[20013 -> 10004 -> 20031 -> 10002 -> 20079 -> 126], [Italy -> Europe -> Turkey -> Asia -> Nepal -> Makalu Makalu Himalaya ] 
+
+  path: 1[20013 -> 50130], [Italy -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+  path: 2[20013 -> 50130], [Italy -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+srcNodes: [119, 50130, 20055]
+  path: 0[20037 -> 10004 -> 20031 -> 10002 -> 20079 -> 119], [Sweden -> Europe -> Turkey -> Asia -> Nepal -> Annapurna Annapurna Himalaya ] 
+
+  path: 1[20037 -> 50130], [Sweden -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+  path: 2[20037 -> 10004 -> 20031 -> 10002 -> 20055], [Sweden -> Europe -> Turkey -> Asia -> Pakistan] 
+
+srcNodes: [126, 50130, 20055]
+  path: 0[20032 -> 10004 -> 20031 -> 10002 -> 20079 -> 126], [Denmark -> Europe -> Turkey -> Asia -> Nepal -> Makalu Makalu Himalaya ] 
+
+  path: 1[20032 -> 50130], [Denmark -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+  path: 2[20032 -> 10004 -> 20031 -> 10002 -> 20055], [Denmark -> Europe -> Turkey -> Asia -> Pakistan] 
+
+srcNodes: [119, 20065, 50130]
+  path: 0[20035 -> 10004 -> 20031 -> 10002 -> 20079 -> 119], [Finland -> Europe -> Turkey -> Asia -> Nepal -> Annapurna Annapurna Himalaya ] 
+
+  path: 1[20035 -> 10004 -> 20031 -> 10002 -> 20065], [Finland -> Europe -> Turkey -> Asia -> India] 
+
+  path: 2[20035 -> 50130], [Finland -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+srcNodes: [127, 50130, 20055]
+  path: 0[30657 -> 105 -> 20075 -> 10002 -> 20079 -> 127], [Xinjiang Uygur -> Pik Pobeda Pik Pobeda Tien Shan  -> Kyrgyzstan -> Asia -> Nepal -> Kangchendzonga Kangchendzonga Himalaya ] 
+
+  path: 1[30657 -> 105 -> 20075 -> 10002 -> 20097 -> 50130], [Xinjiang Uygur -> Pik Pobeda Pik Pobeda Tien Shan  -> Kyrgyzstan -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+  path: 2[30657 -> 115 -> 20055], [Xinjiang Uygur -> Broad Peak Broad Peak Karakorum  -> Pakistan] 
+
+srcNodes: [120, 20065, 50130]
+  path: 0[105 -> 20075 -> 10002 -> 20079 -> 120], [Pik Pobeda Pik Pobeda Tien Shan  -> Kyrgyzstan -> Asia -> Nepal -> Manaslu Manaslu Himalaya ] 
+
+  path: 1[105 -> 20075 -> 10002 -> 20065], [Pik Pobeda Pik Pobeda Tien Shan  -> Kyrgyzstan -> Asia -> India] 
+
+  path: 2[105 -> 20075 -> 10002 -> 20097 -> 50130], [Pik Pobeda Pik Pobeda Tien Shan  -> Kyrgyzstan -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+This is a non-reduced answer tree with common first node 20075
+
+srcNodes: [125, 50130, 50130]
+  path: 0[10004 -> 20031 -> 10002 -> 20079 -> 125], [Europe -> Turkey -> Asia -> Nepal -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[10004 -> 20037 -> 50130], [Europe -> Sweden -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+  path: 2[10004 -> 20037 -> 50130], [Europe -> Sweden -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+srcNodes: [121, 50130, 50130]
+  path: 0[90123 -> 30658 -> 121], [Mekong -> Tibet -> Shishapangma Shishapangma Himalaya ] 
+
+  path: 1[90123 -> 20072 -> 10002 -> 20097 -> 50130], [Mekong -> Vietnam -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+  path: 2[90123 -> 20072 -> 10002 -> 20097 -> 50130], [Mekong -> Vietnam -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+srcNodes: [117, 50130, 50130]
+  path: 0[90126 -> 30752 -> 117], [Ganges -> Uttar Pradesh -> Nanda Devi Nanda Devi Himalaya ] 
+
+  path: 1[90126 -> 20063 -> 10002 -> 20097 -> 50130], [Ganges -> Bangladesh -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+  path: 2[90126 -> 20063 -> 10002 -> 20097 -> 50130], [Ganges -> Bangladesh -> Asia -> South Korea -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+-----------------------------------------
+ResultDestNodes: [20065, 20055, 10002, 126, 119, 124, 120, 123, 121, 127, 125, 118, 117, 90128, 20079, 30658, 20097, 20053, 20063, 30752, 20024, 20013, 20037, 20032, 20035, 30657, 105, 10004, 90123, 90126]
+ResultRelevs: [8.421239852905273, 7.993104934692383, 6.579249858856201, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 6.372309684753418, 5.919304847717285, 5.583868026733398, 5.583868026733398, 5.583868026733398, 5.481283187866211, 4.404818058013916, 4.318665027618408, 4.054707050323486, 4.035914897918701, 3.702125072479248, 3.39385986328125, 3.353877067565918, 3.289628028869629, 3.289628028869629, 3.026818037033081, 3.026818037033081, 3.0178279876708984, 2.8216350078582764, 2.6244921684265137, 2.5219011306762695, 2.3023061752319336, 2.3023061752319336]
+Num of top-k answers: 30
+Num of redundant answers in top-k answers: 1
+Num of duplicate answers in top-k answers: 0
+Num of entries retrieved from the lists: 1521
+Num of redundant candidate answers found: 418
+Num of reduced alternative answers found: 6
+Num of duplicate candidate answers found: 31
+Num of unique alternative answers found: 27
+

@@ -1,0 +1,18 @@
+Blink Search Using BDB 10
+[mountian, river, asia]
+
+Blink Search Using ConstRootDup10
+[mountian, river, asia]
+
+Blink Search Using BDB 20
+[mountian, river, asia]
+
+Blink Search Using ConstRootDup20
+[mountian, river, asia]
+
+Blink Search Using BDB 30
+[mountian, river, asia]
+
+Blink Search Using ConstRootDup30
+[mountian, river, asia]
+

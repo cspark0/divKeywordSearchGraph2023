@@ -1,0 +1,1770 @@
+Blink Search Using BDB 10
+[city, desert, california]
+srcNodes: [41904, 130003, 30991]
+  path: 0[30991 -> 41904], [California -> Norwalk] 
+
+  path: 1[30991 -> 90150 -> 30942 -> 130003], [California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30991 -> 30991], [California -> California]
+srcNodes: [42734, 130003, 30942]
+  path: 0[30942 -> 42734], [Baja California -> Tijuana] 
+
+  path: 1[30942 -> 130003], [Baja California -> Baja California Desert] 
+
+  path: 2[30942 -> 30942], [Baja California -> Baja California]
+srcNodes: [40465, 130003, 195]
+  path: 0[195 -> 31014 -> 40465], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Carson City] 
+
+  path: 1[195 -> 31014 -> 90150 -> 30942 -> 130003], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[195 -> 195], [Boundary Peak Boundary Peak Sierra Nevada California  -> Boundary Peak Boundary Peak Sierra Nevada California ]
+srcNodes: [41254, 130025, 30991]
+  path: 0[20118 -> 31011 -> 41254], [United States -> Missouri -> Kansas City] 
+
+  path: 1[20118 -> 31030 -> 130025], [United States -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[20118 -> 30991], [United States -> California] 
+
+srcNodes: [40465, 130025, 30991]
+  path: 0[90150 -> 31014 -> 40465], [Colorado -> Nevada -> Carson City] 
+
+  path: 1[90150 -> 31030 -> 130025], [Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[90150 -> 30991], [Colorado -> California] 
+
+srcNodes: [42332, 130025, 30991]
+  path: 0[31030 -> 42332], [Utah -> Salt Lake City] 
+
+  path: 1[31030 -> 130025], [Utah -> Great Salt Lake Desert] 
+
+  path: 2[31030 -> 90150 -> 30991], [Utah -> Colorado -> California] 
+
+srcNodes: [40609, 130003, 194]
+  path: 0[194 -> 30991 -> 40609], [Mt Whitney Mt Whitney Sierra Nevada California  -> California -> Concord] 
+
+  path: 1[194 -> 30991 -> 90150 -> 30942 -> 130003], [Mt Whitney Mt Whitney Sierra Nevada California  -> California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[194 -> 194], [Mt Whitney Mt Whitney Sierra Nevada California  -> Mt Whitney Mt Whitney Sierra Nevada California ]
+srcNodes: [40465, 130003, 30991]
+  path: 0[90149 -> 31014 -> 40465], [Truckee River -> Nevada -> Carson City] 
+
+  path: 1[90149 -> 31014 -> 90150 -> 30942 -> 130003], [Truckee River -> Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[90149 -> 30991], [Truckee River -> California] 
+
+srcNodes: [41702, 130003, 30943]
+  path: 0[20114 -> 30972 -> 41702], [Mexico -> Distrito Federal -> Mexico City] 
+
+  path: 1[20114 -> 30942 -> 130003], [Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20114 -> 30943], [Mexico -> Baja California Sur] 
+
+srcNodes: [40609, 130003, 30991]
+  path: 0[110238 -> 30991 -> 40609], [San Clemente Island San Clemente Island Californian Channel Islands  -> California -> Concord] 
+
+  path: 1[110238 -> 30991 -> 90150 -> 30942 -> 130003], [San Clemente Island San Clemente Island Californian Channel Islands  -> California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[110238 -> 30991], [San Clemente Island San Clemente Island Californian Channel Islands  -> California] 
+
+This is a non-reduced answer tree with common first node 30991
+
+-----------------------------------------
+ResultDestNodes: [30991, 30942, 195, 20118, 90150, 31030, 194, 90149, 20114, 110238]
+ResultRelevs: [6.368360996246338, 6.3009819984436035, 4.088314056396484, 4.085090637207031, 4.085090637207031, 4.083251953125, 4.040327072143555, 3.5976638793945312, 3.5944409370422363, 3.5496768951416016]
+Num of top-k answers: 10
+Num of redundant answers: 1
+Num of duplicate answers: 0
+Num of entries retrieved from the lists: 156
+Num of entries retrieved from NKMaps: 244
+
+Blink Search Using BDB 10
+[city, desert, california]
+srcNodes: [41904, 130003, 30991]
+  path: 0[30991 -> 41904], [California -> Norwalk] 
+
+  path: 1[30991 -> 90150 -> 30942 -> 130003], [California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30991 -> 30991], [California -> California]
+srcNodes: [42734, 130003, 30942]
+  path: 0[30942 -> 42734], [Baja California -> Tijuana] 
+
+  path: 1[30942 -> 130003], [Baja California -> Baja California Desert] 
+
+  path: 2[30942 -> 30942], [Baja California -> Baja California]
+srcNodes: [40465, 130003, 195]
+  path: 0[195 -> 31014 -> 40465], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Carson City] 
+
+  path: 1[195 -> 31014 -> 90150 -> 30942 -> 130003], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[195 -> 195], [Boundary Peak Boundary Peak Sierra Nevada California  -> Boundary Peak Boundary Peak Sierra Nevada California ]
+srcNodes: [40465, 130025, 30991]
+  path: 0[90150 -> 31014 -> 40465], [Colorado -> Nevada -> Carson City] 
+
+  path: 1[90150 -> 31030 -> 130025], [Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[90150 -> 30991], [Colorado -> California] 
+
+srcNodes: [41254, 130025, 30991]
+  path: 0[20118 -> 31011 -> 41254], [United States -> Missouri -> Kansas City] 
+
+  path: 1[20118 -> 31030 -> 130025], [United States -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[20118 -> 30991], [United States -> California] 
+
+srcNodes: [42332, 130025, 30991]
+  path: 0[31030 -> 42332], [Utah -> Salt Lake City] 
+
+  path: 1[31030 -> 130025], [Utah -> Great Salt Lake Desert] 
+
+  path: 2[31030 -> 90150 -> 30991], [Utah -> Colorado -> California] 
+
+srcNodes: [40609, 130003, 194]
+  path: 0[194 -> 30991 -> 40609], [Mt Whitney Mt Whitney Sierra Nevada California  -> California -> Concord] 
+
+  path: 1[194 -> 30991 -> 90150 -> 30942 -> 130003], [Mt Whitney Mt Whitney Sierra Nevada California  -> California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[194 -> 194], [Mt Whitney Mt Whitney Sierra Nevada California  -> Mt Whitney Mt Whitney Sierra Nevada California ]
+srcNodes: [40465, 130003, 30991]
+  path: 0[90149 -> 31014 -> 40465], [Truckee River -> Nevada -> Carson City] 
+
+  path: 1[90149 -> 31014 -> 90150 -> 30942 -> 130003], [Truckee River -> Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[90149 -> 30991], [Truckee River -> California] 
+
+srcNodes: [41702, 130003, 30943]
+  path: 0[20114 -> 30972 -> 41702], [Mexico -> Distrito Federal -> Mexico City] 
+
+  path: 1[20114 -> 30942 -> 130003], [Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20114 -> 30943], [Mexico -> Baja California Sur] 
+
+srcNodes: [42238, 130025, 30991]
+  path: 0[42238 -> 42238], [Reno -> Reno]
+  path: 1[42238 -> 90149 -> 31014 -> 90150 -> 31030 -> 130025], [Reno -> Truckee River -> Nevada -> Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[42238 -> 90149 -> 30991], [Reno -> Truckee River -> California] 
+
+-----------------------------------------
+ResultDestNodes: [30991, 30942, 195, 90150, 20118, 31030, 194, 90149, 20114, 42238]
+ResultRelevs: [6.368360996246338, 6.3009819984436035, 4.088314056396484, 4.085090637207031, 4.085090637207031, 4.083251953125, 4.040327072143555, 3.5976638793945312, 3.5944409370422363, 3.340606927871704]
+Num of top-k answers: 10
+Num of redundant answers: 0
+Num of duplicate answers: 0
+Num of entries retrieved from the lists: 246
+Num of entries retrieved from NKMaps: 388
+
+Blink Search Using BDB_reduced 10
+[city, desert, california]
+srcNodes: [41904, 130003, 30991]
+  path: 0[30991 -> 41904], [California -> Norwalk] 
+
+  path: 1[30991 -> 90150 -> 30942 -> 130003], [California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30991 -> 30991], [California -> California]
+srcNodes: [42734, 130003, 30942]
+  path: 0[30942 -> 42734], [Baja California -> Tijuana] 
+
+  path: 1[30942 -> 130003], [Baja California -> Baja California Desert] 
+
+  path: 2[30942 -> 30942], [Baja California -> Baja California]
+srcNodes: [40465, 130003, 195]
+  path: 0[195 -> 31014 -> 40465], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Carson City] 
+
+  path: 1[195 -> 31014 -> 90150 -> 30942 -> 130003], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[195 -> 195], [Boundary Peak Boundary Peak Sierra Nevada California  -> Boundary Peak Boundary Peak Sierra Nevada California ]
+srcNodes: [40465, 130025, 30991]
+  path: 0[90150 -> 31014 -> 40465], [Colorado -> Nevada -> Carson City] 
+
+  path: 1[90150 -> 31030 -> 130025], [Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[90150 -> 30991], [Colorado -> California] 
+
+srcNodes: [41254, 130025, 30991]
+  path: 0[20118 -> 31011 -> 41254], [United States -> Missouri -> Kansas City] 
+
+  path: 1[20118 -> 31030 -> 130025], [United States -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[20118 -> 30991], [United States -> California] 
+
+srcNodes: [42332, 130025, 30991]
+  path: 0[31030 -> 42332], [Utah -> Salt Lake City] 
+
+  path: 1[31030 -> 130025], [Utah -> Great Salt Lake Desert] 
+
+  path: 2[31030 -> 90150 -> 30991], [Utah -> Colorado -> California] 
+
+srcNodes: [40609, 130003, 194]
+  path: 0[194 -> 30991 -> 40609], [Mt Whitney Mt Whitney Sierra Nevada California  -> California -> Concord] 
+
+  path: 1[194 -> 30991 -> 90150 -> 30942 -> 130003], [Mt Whitney Mt Whitney Sierra Nevada California  -> California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[194 -> 194], [Mt Whitney Mt Whitney Sierra Nevada California  -> Mt Whitney Mt Whitney Sierra Nevada California ]
+srcNodes: [40465, 130003, 30991]
+  path: 0[90149 -> 31014 -> 40465], [Truckee River -> Nevada -> Carson City] 
+
+  path: 1[90149 -> 31014 -> 90150 -> 30942 -> 130003], [Truckee River -> Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[90149 -> 30991], [Truckee River -> California] 
+
+srcNodes: [41702, 130003, 30943]
+  path: 0[20114 -> 30972 -> 41702], [Mexico -> Distrito Federal -> Mexico City] 
+
+  path: 1[20114 -> 30942 -> 130003], [Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20114 -> 30943], [Mexico -> Baja California Sur] 
+
+srcNodes: [42238, 130025, 30991]
+  path: 0[42238 -> 42238], [Reno -> Reno]
+  path: 1[42238 -> 90149 -> 31014 -> 90150 -> 31030 -> 130025], [Reno -> Truckee River -> Nevada -> Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[42238 -> 90149 -> 30991], [Reno -> Truckee River -> California] 
+
+-----------------------------------------
+ResultDestNodes: [30991, 30942, 195, 90150, 20118, 31030, 194, 90149, 20114, 42238]
+ResultRelevs: [6.368360996246338, 6.3009819984436035, 4.088314056396484, 4.085090637207031, 4.085090637207031, 4.083251953125, 4.040327072143555, 3.5976638793945312, 3.5944409370422363, 3.340606927871704]
+Num of top-k answers: 10
+Num of redundant answers: 0
+Num of duplicate answers: 0
+Num of entries retrieved from the lists: 246
+Num of entries retrieved from NKMaps: 427
+Num of redundant candidate answers found: 13
+Num of reduced alternative answers found: 0
+
+Blink Search Using BDB_reducedNunique 10
+[city, desert, california]
+srcNodes: [41904, 130003, 30991]
+  path: 0[30991 -> 41904], [California -> Norwalk] 
+
+  path: 1[30991 -> 90150 -> 30942 -> 130003], [California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30991 -> 30991], [California -> California]
+srcNodes: [42734, 130003, 30942]
+  path: 0[30942 -> 42734], [Baja California -> Tijuana] 
+
+  path: 1[30942 -> 130003], [Baja California -> Baja California Desert] 
+
+  path: 2[30942 -> 30942], [Baja California -> Baja California]
+srcNodes: [40465, 130003, 195]
+  path: 0[195 -> 31014 -> 40465], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Carson City] 
+
+  path: 1[195 -> 31014 -> 90150 -> 30942 -> 130003], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[195 -> 195], [Boundary Peak Boundary Peak Sierra Nevada California  -> Boundary Peak Boundary Peak Sierra Nevada California ]
+srcNodes: [40465, 130025, 30991]
+  path: 0[90150 -> 31014 -> 40465], [Colorado -> Nevada -> Carson City] 
+
+  path: 1[90150 -> 31030 -> 130025], [Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[90150 -> 30991], [Colorado -> California] 
+
+srcNodes: [41254, 130025, 30991]
+  path: 0[20118 -> 31011 -> 41254], [United States -> Missouri -> Kansas City] 
+
+  path: 1[20118 -> 31030 -> 130025], [United States -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[20118 -> 30991], [United States -> California] 
+
+srcNodes: [42332, 130025, 30991]
+  path: 0[31030 -> 42332], [Utah -> Salt Lake City] 
+
+  path: 1[31030 -> 130025], [Utah -> Great Salt Lake Desert] 
+
+  path: 2[31030 -> 90150 -> 30991], [Utah -> Colorado -> California] 
+
+srcNodes: [40609, 130003, 194]
+  path: 0[194 -> 30991 -> 40609], [Mt Whitney Mt Whitney Sierra Nevada California  -> California -> Concord] 
+
+  path: 1[194 -> 30991 -> 90150 -> 30942 -> 130003], [Mt Whitney Mt Whitney Sierra Nevada California  -> California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[194 -> 194], [Mt Whitney Mt Whitney Sierra Nevada California  -> Mt Whitney Mt Whitney Sierra Nevada California ]
+srcNodes: [40465, 130003, 30991]
+  path: 0[90149 -> 31014 -> 40465], [Truckee River -> Nevada -> Carson City] 
+
+  path: 1[90149 -> 31014 -> 90150 -> 30942 -> 130003], [Truckee River -> Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[90149 -> 30991], [Truckee River -> California] 
+
+srcNodes: [41702, 130003, 30943]
+  path: 0[20114 -> 30972 -> 41702], [Mexico -> Distrito Federal -> Mexico City] 
+
+  path: 1[20114 -> 30942 -> 130003], [Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20114 -> 30943], [Mexico -> Baja California Sur] 
+
+srcNodes: [42238, 130025, 30991]
+  path: 0[42238 -> 42238], [Reno -> Reno]
+  path: 1[42238 -> 90149 -> 31014 -> 90150 -> 31030 -> 130025], [Reno -> Truckee River -> Nevada -> Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[42238 -> 90149 -> 30991], [Reno -> Truckee River -> California] 
+
+-----------------------------------------
+ResultDestNodes: [30991, 30942, 195, 90150, 20118, 31030, 194, 90149, 20114, 42238]
+ResultRelevs: [6.368360996246338, 6.3009819984436035, 4.088314056396484, 4.085090637207031, 4.085090637207031, 4.083251953125, 4.040327072143555, 3.5976638793945312, 3.5944409370422363, 3.340606927871704]
+Num of top-k answers: 10
+Num of redundant answers in top-k answers: 0
+Num of duplicate answers in top-k answers: 0
+Num of entries retrieved from the lists: 246
+Num of redundant candidate answers found: 13
+Num of reduced alternative answers found: 0
+Num of duplicate candidate answers found: 1
+Num of unique alternative answers found: 0
+
+Blink Search Using BDB 20
+[city, desert, california]
+srcNodes: [41904, 130003, 30991]
+  path: 0[30991 -> 41904], [California -> Norwalk] 
+
+  path: 1[30991 -> 90150 -> 30942 -> 130003], [California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30991 -> 30991], [California -> California]
+srcNodes: [42734, 130003, 30942]
+  path: 0[30942 -> 42734], [Baja California -> Tijuana] 
+
+  path: 1[30942 -> 130003], [Baja California -> Baja California Desert] 
+
+  path: 2[30942 -> 30942], [Baja California -> Baja California]
+srcNodes: [40465, 130003, 195]
+  path: 0[195 -> 31014 -> 40465], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Carson City] 
+
+  path: 1[195 -> 31014 -> 90150 -> 30942 -> 130003], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[195 -> 195], [Boundary Peak Boundary Peak Sierra Nevada California  -> Boundary Peak Boundary Peak Sierra Nevada California ]
+srcNodes: [41254, 130025, 30991]
+  path: 0[20118 -> 31011 -> 41254], [United States -> Missouri -> Kansas City] 
+
+  path: 1[20118 -> 31030 -> 130025], [United States -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[20118 -> 30991], [United States -> California] 
+
+srcNodes: [40465, 130025, 30991]
+  path: 0[90150 -> 31014 -> 40465], [Colorado -> Nevada -> Carson City] 
+
+  path: 1[90150 -> 31030 -> 130025], [Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[90150 -> 30991], [Colorado -> California] 
+
+srcNodes: [42332, 130025, 30991]
+  path: 0[31030 -> 42332], [Utah -> Salt Lake City] 
+
+  path: 1[31030 -> 130025], [Utah -> Great Salt Lake Desert] 
+
+  path: 2[31030 -> 90150 -> 30991], [Utah -> Colorado -> California] 
+
+srcNodes: [40609, 130003, 194]
+  path: 0[194 -> 30991 -> 40609], [Mt Whitney Mt Whitney Sierra Nevada California  -> California -> Concord] 
+
+  path: 1[194 -> 30991 -> 90150 -> 30942 -> 130003], [Mt Whitney Mt Whitney Sierra Nevada California  -> California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[194 -> 194], [Mt Whitney Mt Whitney Sierra Nevada California  -> Mt Whitney Mt Whitney Sierra Nevada California ]
+srcNodes: [40465, 130003, 30991]
+  path: 0[90149 -> 31014 -> 40465], [Truckee River -> Nevada -> Carson City] 
+
+  path: 1[90149 -> 31014 -> 90150 -> 30942 -> 130003], [Truckee River -> Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[90149 -> 30991], [Truckee River -> California] 
+
+srcNodes: [41702, 130003, 30943]
+  path: 0[20114 -> 30972 -> 41702], [Mexico -> Distrito Federal -> Mexico City] 
+
+  path: 1[20114 -> 30942 -> 130003], [Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20114 -> 30943], [Mexico -> Baja California Sur] 
+
+srcNodes: [40609, 130003, 30991]
+  path: 0[110237 -> 30991 -> 40609], [Santa Rosa Island Santa Rosa Island Californian Channel Islands  -> California -> Concord] 
+
+  path: 1[110237 -> 30991 -> 90150 -> 30942 -> 130003], [Santa Rosa Island Santa Rosa Island Californian Channel Islands  -> California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[110237 -> 30991], [Santa Rosa Island Santa Rosa Island Californian Channel Islands  -> California] 
+
+This is a non-reduced answer tree with common first node 30991
+
+srcNodes: [40609, 130003, 30991]
+  path: 0[110238 -> 30991 -> 40609], [San Clemente Island San Clemente Island Californian Channel Islands  -> California -> Concord] 
+
+  path: 1[110238 -> 30991 -> 90150 -> 30942 -> 130003], [San Clemente Island San Clemente Island Californian Channel Islands  -> California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[110238 -> 30991], [San Clemente Island San Clemente Island Californian Channel Islands  -> California] 
+
+This is a non-reduced answer tree with common first node 30991
+
+srcNodes: [40609, 130003, 30991]
+  path: 0[110235 -> 30991 -> 40609], [Santa Cruz Island Santa Cruz Island Californian Channel Islands  -> California -> Concord] 
+
+  path: 1[110235 -> 30991 -> 90150 -> 30942 -> 130003], [Santa Cruz Island Santa Cruz Island Californian Channel Islands  -> California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[110235 -> 30991], [Santa Cruz Island Santa Cruz Island Californian Channel Islands  -> California] 
+
+This is a non-reduced answer tree with common first node 30991
+
+srcNodes: [40609, 130003, 30991]
+  path: 0[110236 -> 30991 -> 40609], [Santa Catalina Island Santa Catalina Island Californian Channel Islands  -> California -> Concord] 
+
+  path: 1[110236 -> 30991 -> 90150 -> 30942 -> 130003], [Santa Catalina Island Santa Catalina Island Californian Channel Islands  -> California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[110236 -> 30991], [Santa Catalina Island Santa Catalina Island Californian Channel Islands  -> California] 
+
+This is a non-reduced answer tree with common first node 30991
+
+srcNodes: [40609, 130003, 30991]
+  path: 0[110239 -> 30991 -> 40609], [San Miguel Island San Miguel Island Californian Channel Islands  -> California -> Concord] 
+
+  path: 1[110239 -> 30991 -> 90150 -> 30942 -> 130003], [San Miguel Island San Miguel Island Californian Channel Islands  -> California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[110239 -> 30991], [San Miguel Island San Miguel Island Californian Channel Islands  -> California] 
+
+This is a non-reduced answer tree with common first node 30991
+
+srcNodes: [42238, 130025, 30991]
+  path: 0[42238 -> 42238], [Reno -> Reno]
+  path: 1[42238 -> 90149 -> 31014 -> 90150 -> 31030 -> 130025], [Reno -> Truckee River -> Nevada -> Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[42238 -> 90149 -> 30991], [Reno -> Truckee River -> California] 
+
+srcNodes: [40465, 130003, 30991]
+  path: 0[31014 -> 40465], [Nevada -> Carson City] 
+
+  path: 1[31014 -> 90150 -> 30942 -> 130003], [Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[31014 -> 195 -> 30991], [Nevada -> Boundary Peak Boundary Peak Sierra Nevada California  -> California] 
+
+srcNodes: [42448, 130003, 30991]
+  path: 0[30989 -> 42448], [Arizona -> Scottsdale] 
+
+  path: 1[30989 -> 90150 -> 30942 -> 130003], [Arizona -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30989 -> 90150 -> 30991], [Arizona -> Colorado -> California] 
+
+srcNodes: [41430, 130003, 30991]
+  path: 0[30992 -> 41430], [Colorado -> Lakewood] 
+
+  path: 1[30992 -> 90150 -> 30942 -> 130003], [Colorado -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30992 -> 90150 -> 30991], [Colorado -> Colorado -> California] 
+
+srcNodes: [41029, 130003, 30991]
+  path: 0[30965 -> 41029], [Sonora -> Hermosillo] 
+
+  path: 1[30965 -> 90150 -> 30942 -> 130003], [Sonora -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30965 -> 90150 -> 30991], [Sonora -> Colorado -> California] 
+
+srcNodes: [40954, 130003, 30991]
+  path: 0[10001 -> 20113 -> 40954], [America -> Guatemala -> Guatemala City] 
+
+  path: 1[10001 -> 20114 -> 30942 -> 130003], [America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[10001 -> 20118 -> 30991], [America -> United States -> California] 
+
+-----------------------------------------
+ResultDestNodes: [30991, 30942, 195, 20118, 90150, 31030, 194, 90149, 20114, 110237, 110238, 110235, 110236, 110239, 42238, 31014, 30989, 30992, 30965, 10001]
+ResultRelevs: [6.368360996246338, 6.3009819984436035, 4.088314056396484, 4.085090637207031, 4.085090637207031, 4.083251953125, 4.040327072143555, 3.5976638793945312, 3.5944409370422363, 3.5496768951416016, 3.5496768951416016, 3.5496768951416016, 3.5496768951416016, 3.5496768951416016, 3.340606927871704, 3.169321060180664, 3.0973410606384277, 3.0973410606384277, 3.0973410606384277, 2.9626898765563965]
+Num of top-k answers: 20
+Num of redundant answers: 5
+Num of duplicate answers: 5
+Num of entries retrieved from the lists: 689
+Num of entries retrieved from NKMaps: 1122
+
+Blink Search Using BDB 20
+[city, desert, california]
+srcNodes: [41904, 130003, 30991]
+  path: 0[30991 -> 41904], [California -> Norwalk] 
+
+  path: 1[30991 -> 90150 -> 30942 -> 130003], [California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30991 -> 30991], [California -> California]
+srcNodes: [42734, 130003, 30942]
+  path: 0[30942 -> 42734], [Baja California -> Tijuana] 
+
+  path: 1[30942 -> 130003], [Baja California -> Baja California Desert] 
+
+  path: 2[30942 -> 30942], [Baja California -> Baja California]
+srcNodes: [40465, 130003, 195]
+  path: 0[195 -> 31014 -> 40465], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Carson City] 
+
+  path: 1[195 -> 31014 -> 90150 -> 30942 -> 130003], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[195 -> 195], [Boundary Peak Boundary Peak Sierra Nevada California  -> Boundary Peak Boundary Peak Sierra Nevada California ]
+srcNodes: [41254, 130025, 30991]
+  path: 0[20118 -> 31011 -> 41254], [United States -> Missouri -> Kansas City] 
+
+  path: 1[20118 -> 31030 -> 130025], [United States -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[20118 -> 30991], [United States -> California] 
+
+srcNodes: [40465, 130025, 30991]
+  path: 0[90150 -> 31014 -> 40465], [Colorado -> Nevada -> Carson City] 
+
+  path: 1[90150 -> 31030 -> 130025], [Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[90150 -> 30991], [Colorado -> California] 
+
+srcNodes: [42332, 130025, 30991]
+  path: 0[31030 -> 42332], [Utah -> Salt Lake City] 
+
+  path: 1[31030 -> 130025], [Utah -> Great Salt Lake Desert] 
+
+  path: 2[31030 -> 90150 -> 30991], [Utah -> Colorado -> California] 
+
+srcNodes: [40609, 130003, 194]
+  path: 0[194 -> 30991 -> 40609], [Mt Whitney Mt Whitney Sierra Nevada California  -> California -> Concord] 
+
+  path: 1[194 -> 30991 -> 90150 -> 30942 -> 130003], [Mt Whitney Mt Whitney Sierra Nevada California  -> California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[194 -> 194], [Mt Whitney Mt Whitney Sierra Nevada California  -> Mt Whitney Mt Whitney Sierra Nevada California ]
+srcNodes: [40465, 130003, 30991]
+  path: 0[90149 -> 31014 -> 40465], [Truckee River -> Nevada -> Carson City] 
+
+  path: 1[90149 -> 31014 -> 90150 -> 30942 -> 130003], [Truckee River -> Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[90149 -> 30991], [Truckee River -> California] 
+
+srcNodes: [41702, 130003, 30943]
+  path: 0[20114 -> 30972 -> 41702], [Mexico -> Distrito Federal -> Mexico City] 
+
+  path: 1[20114 -> 30942 -> 130003], [Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20114 -> 30943], [Mexico -> Baja California Sur] 
+
+srcNodes: [42238, 130025, 30991]
+  path: 0[42238 -> 42238], [Reno -> Reno]
+  path: 1[42238 -> 90149 -> 31014 -> 90150 -> 31030 -> 130025], [Reno -> Truckee River -> Nevada -> Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[42238 -> 90149 -> 30991], [Reno -> Truckee River -> California] 
+
+srcNodes: [40465, 130003, 30991]
+  path: 0[31014 -> 40465], [Nevada -> Carson City] 
+
+  path: 1[31014 -> 90150 -> 30942 -> 130003], [Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[31014 -> 195 -> 30991], [Nevada -> Boundary Peak Boundary Peak Sierra Nevada California  -> California] 
+
+srcNodes: [41029, 130003, 30991]
+  path: 0[30965 -> 41029], [Sonora -> Hermosillo] 
+
+  path: 1[30965 -> 90150 -> 30942 -> 130003], [Sonora -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30965 -> 90150 -> 30991], [Sonora -> Colorado -> California] 
+
+srcNodes: [42448, 130003, 30991]
+  path: 0[30989 -> 42448], [Arizona -> Scottsdale] 
+
+  path: 1[30989 -> 90150 -> 30942 -> 130003], [Arizona -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30989 -> 90150 -> 30991], [Arizona -> Colorado -> California] 
+
+srcNodes: [41430, 130003, 30991]
+  path: 0[30992 -> 41430], [Colorado -> Lakewood] 
+
+  path: 1[30992 -> 90150 -> 30942 -> 130003], [Colorado -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30992 -> 90150 -> 30991], [Colorado -> Colorado -> California] 
+
+srcNodes: [40954, 130003, 30991]
+  path: 0[10001 -> 20113 -> 40954], [America -> Guatemala -> Guatemala City] 
+
+  path: 1[10001 -> 20114 -> 30942 -> 130003], [America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[10001 -> 20118 -> 30991], [America -> United States -> California] 
+
+srcNodes: [42244, 130025, 30991]
+  path: 0[42244 -> 42244], [Reynosa -> Reynosa]
+  path: 1[42244 -> 90151 -> 30992 -> 90150 -> 31030 -> 130025], [Reynosa -> Rio Grande -> Colorado -> Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[42244 -> 90151 -> 30992 -> 90150 -> 30991], [Reynosa -> Rio Grande -> Colorado -> Colorado -> California] 
+
+srcNodes: [42799, 130025, 30991]
+  path: 0[42799 -> 42799], [Tulsa -> Tulsa]
+  path: 1[42799 -> 90144 -> 30992 -> 90150 -> 31030 -> 130025], [Tulsa -> Arkansas -> Colorado -> Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[42799 -> 90144 -> 30992 -> 90150 -> 30991], [Tulsa -> Arkansas -> Colorado -> Colorado -> California] 
+
+srcNodes: [40064, 130025, 30991]
+  path: 0[40064 -> 40064], [Albuquerque -> Albuquerque]
+  path: 1[40064 -> 90151 -> 30992 -> 90150 -> 31030 -> 130025], [Albuquerque -> Rio Grande -> Colorado -> Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[40064 -> 90151 -> 30992 -> 90150 -> 30991], [Albuquerque -> Rio Grande -> Colorado -> Colorado -> California] 
+
+srcNodes: [42950, 130025, 30991]
+  path: 0[42950 -> 42950], [Wichita -> Wichita]
+  path: 1[42950 -> 90144 -> 30992 -> 90150 -> 31030 -> 130025], [Wichita -> Arkansas -> Colorado -> Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[42950 -> 90144 -> 30992 -> 90150 -> 30991], [Wichita -> Arkansas -> Colorado -> Colorado -> California] 
+
+srcNodes: [40954, 130003, 30991]
+  path: 0[20113 -> 40954], [Guatemala -> Guatemala City] 
+
+  path: 1[20113 -> 10001 -> 20114 -> 30942 -> 130003], [Guatemala -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20113 -> 10001 -> 20118 -> 30991], [Guatemala -> America -> United States -> California] 
+
+-----------------------------------------
+ResultDestNodes: [30991, 30942, 195, 20118, 90150, 31030, 194, 90149, 20114, 42238, 31014, 30965, 30989, 30992, 10001, 42244, 42799, 40064, 42950, 20113]
+ResultRelevs: [6.368360996246338, 6.3009819984436035, 4.088314056396484, 4.085090637207031, 4.085090637207031, 4.083251953125, 4.040327072143555, 3.5976638793945312, 3.5944409370422363, 3.340606927871704, 3.169321060180664, 3.0973410606384277, 3.0973410606384277, 3.0973410606384277, 2.9626898765563965, 2.686410903930664, 2.686410903930664, 2.686410903930664, 2.686410903930664, 2.577664852142334]
+Num of top-k answers: 20
+Num of redundant answers: 0
+Num of duplicate answers: 2
+Num of entries retrieved from the lists: 740
+Num of entries retrieved from NKMaps: 1207
+
+Blink Search Using BDB_reduced 20
+[city, desert, california]
+srcNodes: [41904, 130003, 30991]
+  path: 0[30991 -> 41904], [California -> Norwalk] 
+
+  path: 1[30991 -> 90150 -> 30942 -> 130003], [California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30991 -> 30991], [California -> California]
+srcNodes: [42734, 130003, 30942]
+  path: 0[30942 -> 42734], [Baja California -> Tijuana] 
+
+  path: 1[30942 -> 130003], [Baja California -> Baja California Desert] 
+
+  path: 2[30942 -> 30942], [Baja California -> Baja California]
+srcNodes: [40465, 130003, 195]
+  path: 0[195 -> 31014 -> 40465], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Carson City] 
+
+  path: 1[195 -> 31014 -> 90150 -> 30942 -> 130003], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[195 -> 195], [Boundary Peak Boundary Peak Sierra Nevada California  -> Boundary Peak Boundary Peak Sierra Nevada California ]
+srcNodes: [41254, 130025, 30991]
+  path: 0[20118 -> 31011 -> 41254], [United States -> Missouri -> Kansas City] 
+
+  path: 1[20118 -> 31030 -> 130025], [United States -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[20118 -> 30991], [United States -> California] 
+
+srcNodes: [40465, 130025, 30991]
+  path: 0[90150 -> 31014 -> 40465], [Colorado -> Nevada -> Carson City] 
+
+  path: 1[90150 -> 31030 -> 130025], [Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[90150 -> 30991], [Colorado -> California] 
+
+srcNodes: [42332, 130025, 30991]
+  path: 0[31030 -> 42332], [Utah -> Salt Lake City] 
+
+  path: 1[31030 -> 130025], [Utah -> Great Salt Lake Desert] 
+
+  path: 2[31030 -> 90150 -> 30991], [Utah -> Colorado -> California] 
+
+srcNodes: [40609, 130003, 194]
+  path: 0[194 -> 30991 -> 40609], [Mt Whitney Mt Whitney Sierra Nevada California  -> California -> Concord] 
+
+  path: 1[194 -> 30991 -> 90150 -> 30942 -> 130003], [Mt Whitney Mt Whitney Sierra Nevada California  -> California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[194 -> 194], [Mt Whitney Mt Whitney Sierra Nevada California  -> Mt Whitney Mt Whitney Sierra Nevada California ]
+srcNodes: [40465, 130003, 30991]
+  path: 0[90149 -> 31014 -> 40465], [Truckee River -> Nevada -> Carson City] 
+
+  path: 1[90149 -> 31014 -> 90150 -> 30942 -> 130003], [Truckee River -> Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[90149 -> 30991], [Truckee River -> California] 
+
+srcNodes: [41702, 130003, 30943]
+  path: 0[20114 -> 30972 -> 41702], [Mexico -> Distrito Federal -> Mexico City] 
+
+  path: 1[20114 -> 30942 -> 130003], [Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20114 -> 30943], [Mexico -> Baja California Sur] 
+
+srcNodes: [42238, 130025, 30991]
+  path: 0[42238 -> 42238], [Reno -> Reno]
+  path: 1[42238 -> 90149 -> 31014 -> 90150 -> 31030 -> 130025], [Reno -> Truckee River -> Nevada -> Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[42238 -> 90149 -> 30991], [Reno -> Truckee River -> California] 
+
+srcNodes: [40465, 130003, 30991]
+  path: 0[31014 -> 40465], [Nevada -> Carson City] 
+
+  path: 1[31014 -> 90150 -> 30942 -> 130003], [Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[31014 -> 195 -> 30991], [Nevada -> Boundary Peak Boundary Peak Sierra Nevada California  -> California] 
+
+srcNodes: [41029, 130003, 30991]
+  path: 0[30965 -> 41029], [Sonora -> Hermosillo] 
+
+  path: 1[30965 -> 90150 -> 30942 -> 130003], [Sonora -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30965 -> 90150 -> 30991], [Sonora -> Colorado -> California] 
+
+srcNodes: [42448, 130003, 30991]
+  path: 0[30989 -> 42448], [Arizona -> Scottsdale] 
+
+  path: 1[30989 -> 90150 -> 30942 -> 130003], [Arizona -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30989 -> 90150 -> 30991], [Arizona -> Colorado -> California] 
+
+srcNodes: [41430, 130003, 30991]
+  path: 0[30992 -> 41430], [Colorado -> Lakewood] 
+
+  path: 1[30992 -> 90150 -> 30942 -> 130003], [Colorado -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30992 -> 90150 -> 30991], [Colorado -> Colorado -> California] 
+
+srcNodes: [40954, 130003, 30991]
+  path: 0[10001 -> 20113 -> 40954], [America -> Guatemala -> Guatemala City] 
+
+  path: 1[10001 -> 20114 -> 30942 -> 130003], [America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[10001 -> 20118 -> 30991], [America -> United States -> California] 
+
+srcNodes: [42244, 130025, 30991]
+  path: 0[42244 -> 42244], [Reynosa -> Reynosa]
+  path: 1[42244 -> 90151 -> 30992 -> 90150 -> 31030 -> 130025], [Reynosa -> Rio Grande -> Colorado -> Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[42244 -> 90151 -> 30992 -> 90150 -> 30991], [Reynosa -> Rio Grande -> Colorado -> Colorado -> California] 
+
+srcNodes: [42799, 130025, 30991]
+  path: 0[42799 -> 42799], [Tulsa -> Tulsa]
+  path: 1[42799 -> 90144 -> 30992 -> 90150 -> 31030 -> 130025], [Tulsa -> Arkansas -> Colorado -> Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[42799 -> 90144 -> 30992 -> 90150 -> 30991], [Tulsa -> Arkansas -> Colorado -> Colorado -> California] 
+
+srcNodes: [40064, 130025, 30991]
+  path: 0[40064 -> 40064], [Albuquerque -> Albuquerque]
+  path: 1[40064 -> 90151 -> 30992 -> 90150 -> 31030 -> 130025], [Albuquerque -> Rio Grande -> Colorado -> Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[40064 -> 90151 -> 30992 -> 90150 -> 30991], [Albuquerque -> Rio Grande -> Colorado -> Colorado -> California] 
+
+srcNodes: [42950, 130025, 30991]
+  path: 0[42950 -> 42950], [Wichita -> Wichita]
+  path: 1[42950 -> 90144 -> 30992 -> 90150 -> 31030 -> 130025], [Wichita -> Arkansas -> Colorado -> Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[42950 -> 90144 -> 30992 -> 90150 -> 30991], [Wichita -> Arkansas -> Colorado -> Colorado -> California] 
+
+srcNodes: [40954, 130003, 30991]
+  path: 0[20113 -> 40954], [Guatemala -> Guatemala City] 
+
+  path: 1[20113 -> 10001 -> 20114 -> 30942 -> 130003], [Guatemala -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20113 -> 10001 -> 20118 -> 30991], [Guatemala -> America -> United States -> California] 
+
+-----------------------------------------
+ResultDestNodes: [30991, 30942, 195, 20118, 90150, 31030, 194, 90149, 20114, 42238, 31014, 30965, 30989, 30992, 10001, 42244, 42799, 40064, 42950, 20113]
+ResultRelevs: [6.368360996246338, 6.3009819984436035, 4.088314056396484, 4.085090637207031, 4.085090637207031, 4.083251953125, 4.040327072143555, 3.5976638793945312, 3.5944409370422363, 3.340606927871704, 3.169321060180664, 3.0973410606384277, 3.0973410606384277, 3.0973410606384277, 2.9626898765563965, 2.686410903930664, 2.686410903930664, 2.686410903930664, 2.686410903930664, 2.577664852142334]
+Num of top-k answers: 20
+Num of redundant answers: 0
+Num of duplicate answers: 2
+Num of entries retrieved from the lists: 740
+Num of entries retrieved from NKMaps: 1423
+Num of redundant candidate answers found: 72
+Num of reduced alternative answers found: 4
+
+Blink Search Using BDB_reducedNunique 20
+[city, desert, california]
+srcNodes: [41904, 130003, 30991]
+  path: 0[30991 -> 41904], [California -> Norwalk] 
+
+  path: 1[30991 -> 90150 -> 30942 -> 130003], [California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30991 -> 30991], [California -> California]
+srcNodes: [42734, 130003, 30942]
+  path: 0[30942 -> 42734], [Baja California -> Tijuana] 
+
+  path: 1[30942 -> 130003], [Baja California -> Baja California Desert] 
+
+  path: 2[30942 -> 30942], [Baja California -> Baja California]
+srcNodes: [40465, 130003, 195]
+  path: 0[195 -> 31014 -> 40465], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Carson City] 
+
+  path: 1[195 -> 31014 -> 90150 -> 30942 -> 130003], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[195 -> 195], [Boundary Peak Boundary Peak Sierra Nevada California  -> Boundary Peak Boundary Peak Sierra Nevada California ]
+srcNodes: [41254, 130025, 30991]
+  path: 0[20118 -> 31011 -> 41254], [United States -> Missouri -> Kansas City] 
+
+  path: 1[20118 -> 31030 -> 130025], [United States -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[20118 -> 30991], [United States -> California] 
+
+srcNodes: [40465, 130025, 30991]
+  path: 0[90150 -> 31014 -> 40465], [Colorado -> Nevada -> Carson City] 
+
+  path: 1[90150 -> 31030 -> 130025], [Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[90150 -> 30991], [Colorado -> California] 
+
+srcNodes: [42332, 130025, 30991]
+  path: 0[31030 -> 42332], [Utah -> Salt Lake City] 
+
+  path: 1[31030 -> 130025], [Utah -> Great Salt Lake Desert] 
+
+  path: 2[31030 -> 90150 -> 30991], [Utah -> Colorado -> California] 
+
+srcNodes: [40609, 130003, 194]
+  path: 0[194 -> 30991 -> 40609], [Mt Whitney Mt Whitney Sierra Nevada California  -> California -> Concord] 
+
+  path: 1[194 -> 30991 -> 90150 -> 30942 -> 130003], [Mt Whitney Mt Whitney Sierra Nevada California  -> California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[194 -> 194], [Mt Whitney Mt Whitney Sierra Nevada California  -> Mt Whitney Mt Whitney Sierra Nevada California ]
+srcNodes: [40465, 130003, 30991]
+  path: 0[90149 -> 31014 -> 40465], [Truckee River -> Nevada -> Carson City] 
+
+  path: 1[90149 -> 31014 -> 90150 -> 30942 -> 130003], [Truckee River -> Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[90149 -> 30991], [Truckee River -> California] 
+
+srcNodes: [41702, 130003, 30943]
+  path: 0[20114 -> 30972 -> 41702], [Mexico -> Distrito Federal -> Mexico City] 
+
+  path: 1[20114 -> 30942 -> 130003], [Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20114 -> 30943], [Mexico -> Baja California Sur] 
+
+srcNodes: [42238, 130025, 30991]
+  path: 0[42238 -> 42238], [Reno -> Reno]
+  path: 1[42238 -> 90149 -> 31014 -> 90150 -> 31030 -> 130025], [Reno -> Truckee River -> Nevada -> Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[42238 -> 90149 -> 30991], [Reno -> Truckee River -> California] 
+
+srcNodes: [41430, 130003, 30991]
+  path: 0[30992 -> 41430], [Colorado -> Lakewood] 
+
+  path: 1[30992 -> 90150 -> 30942 -> 130003], [Colorado -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30992 -> 90150 -> 30991], [Colorado -> Colorado -> California] 
+
+srcNodes: [41029, 130003, 30991]
+  path: 0[30965 -> 41029], [Sonora -> Hermosillo] 
+
+  path: 1[30965 -> 90150 -> 30942 -> 130003], [Sonora -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30965 -> 90150 -> 30991], [Sonora -> Colorado -> California] 
+
+srcNodes: [42448, 130003, 30991]
+  path: 0[30989 -> 42448], [Arizona -> Scottsdale] 
+
+  path: 1[30989 -> 90150 -> 30942 -> 130003], [Arizona -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30989 -> 90150 -> 30991], [Arizona -> Colorado -> California] 
+
+srcNodes: [40954, 130003, 30991]
+  path: 0[10001 -> 20113 -> 40954], [America -> Guatemala -> Guatemala City] 
+
+  path: 1[10001 -> 20114 -> 30942 -> 130003], [America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[10001 -> 20118 -> 30991], [America -> United States -> California] 
+
+srcNodes: [42799, 130025, 30991]
+  path: 0[42799 -> 42799], [Tulsa -> Tulsa]
+  path: 1[42799 -> 90144 -> 30992 -> 90150 -> 31030 -> 130025], [Tulsa -> Arkansas -> Colorado -> Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[42799 -> 90144 -> 30992 -> 90150 -> 30991], [Tulsa -> Arkansas -> Colorado -> Colorado -> California] 
+
+srcNodes: [40064, 130025, 30991]
+  path: 0[40064 -> 40064], [Albuquerque -> Albuquerque]
+  path: 1[40064 -> 90151 -> 30992 -> 90150 -> 31030 -> 130025], [Albuquerque -> Rio Grande -> Colorado -> Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[40064 -> 90151 -> 30992 -> 90150 -> 30991], [Albuquerque -> Rio Grande -> Colorado -> Colorado -> California] 
+
+srcNodes: [42950, 130025, 30991]
+  path: 0[42950 -> 42950], [Wichita -> Wichita]
+  path: 1[42950 -> 90144 -> 30992 -> 90150 -> 31030 -> 130025], [Wichita -> Arkansas -> Colorado -> Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[42950 -> 90144 -> 30992 -> 90150 -> 30991], [Wichita -> Arkansas -> Colorado -> Colorado -> California] 
+
+srcNodes: [42244, 130025, 30991]
+  path: 0[42244 -> 42244], [Reynosa -> Reynosa]
+  path: 1[42244 -> 90151 -> 30992 -> 90150 -> 31030 -> 130025], [Reynosa -> Rio Grande -> Colorado -> Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[42244 -> 90151 -> 30992 -> 90150 -> 30991], [Reynosa -> Rio Grande -> Colorado -> Colorado -> California] 
+
+srcNodes: [42200, 130003, 30991]
+  path: 0[20180 -> 42200], [Ecuador -> Quito] 
+
+  path: 1[20180 -> 10001 -> 20114 -> 30942 -> 130003], [Ecuador -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20180 -> 10001 -> 20118 -> 30991], [Ecuador -> America -> United States -> California] 
+
+srcNodes: [40279, 130003, 30991]
+  path: 0[20112 -> 40279], [Belize -> Belmopan] 
+
+  path: 1[20112 -> 10001 -> 20114 -> 30942 -> 130003], [Belize -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20112 -> 10001 -> 20118 -> 30991], [Belize -> America -> United States -> California] 
+
+-----------------------------------------
+ResultDestNodes: [30991, 30942, 195, 20118, 90150, 31030, 194, 90149, 20114, 42238, 30992, 30965, 30989, 10001, 42799, 40064, 42950, 42244, 20180, 20112]
+ResultRelevs: [6.368360996246338, 6.3009819984436035, 4.088314056396484, 4.085090637207031, 4.085090637207031, 4.083251953125, 4.040327072143555, 3.5976638793945312, 3.5944409370422363, 3.340606927871704, 3.0973410606384277, 3.0973410606384277, 3.0973410606384277, 2.9626898765563965, 2.686410903930664, 2.686410903930664, 2.686410903930664, 2.686410903930664, 2.5056848526000977, 2.5056848526000977]
+Num of top-k answers: 20
+Num of redundant answers in top-k answers: 0
+Num of duplicate answers in top-k answers: 0
+Num of entries retrieved from the lists: 740
+Num of redundant candidate answers found: 72
+Num of reduced alternative answers found: 4
+Num of duplicate candidate answers found: 4
+Num of unique alternative answers found: 1
+
+Blink Search Using BDB 30
+[city, desert, california]
+srcNodes: [41904, 130003, 30991]
+  path: 0[30991 -> 41904], [California -> Norwalk] 
+
+  path: 1[30991 -> 90150 -> 30942 -> 130003], [California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30991 -> 30991], [California -> California]
+srcNodes: [42734, 130003, 30942]
+  path: 0[30942 -> 42734], [Baja California -> Tijuana] 
+
+  path: 1[30942 -> 130003], [Baja California -> Baja California Desert] 
+
+  path: 2[30942 -> 30942], [Baja California -> Baja California]
+srcNodes: [40465, 130003, 195]
+  path: 0[195 -> 31014 -> 40465], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Carson City] 
+
+  path: 1[195 -> 31014 -> 90150 -> 30942 -> 130003], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[195 -> 195], [Boundary Peak Boundary Peak Sierra Nevada California  -> Boundary Peak Boundary Peak Sierra Nevada California ]
+srcNodes: [41254, 130025, 30991]
+  path: 0[20118 -> 31011 -> 41254], [United States -> Missouri -> Kansas City] 
+
+  path: 1[20118 -> 31030 -> 130025], [United States -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[20118 -> 30991], [United States -> California] 
+
+srcNodes: [40465, 130025, 30991]
+  path: 0[90150 -> 31014 -> 40465], [Colorado -> Nevada -> Carson City] 
+
+  path: 1[90150 -> 31030 -> 130025], [Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[90150 -> 30991], [Colorado -> California] 
+
+srcNodes: [42332, 130025, 30991]
+  path: 0[31030 -> 42332], [Utah -> Salt Lake City] 
+
+  path: 1[31030 -> 130025], [Utah -> Great Salt Lake Desert] 
+
+  path: 2[31030 -> 90150 -> 30991], [Utah -> Colorado -> California] 
+
+srcNodes: [40609, 130003, 194]
+  path: 0[194 -> 30991 -> 40609], [Mt Whitney Mt Whitney Sierra Nevada California  -> California -> Concord] 
+
+  path: 1[194 -> 30991 -> 90150 -> 30942 -> 130003], [Mt Whitney Mt Whitney Sierra Nevada California  -> California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[194 -> 194], [Mt Whitney Mt Whitney Sierra Nevada California  -> Mt Whitney Mt Whitney Sierra Nevada California ]
+srcNodes: [40465, 130003, 30991]
+  path: 0[90149 -> 31014 -> 40465], [Truckee River -> Nevada -> Carson City] 
+
+  path: 1[90149 -> 31014 -> 90150 -> 30942 -> 130003], [Truckee River -> Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[90149 -> 30991], [Truckee River -> California] 
+
+srcNodes: [41702, 130003, 30943]
+  path: 0[20114 -> 30972 -> 41702], [Mexico -> Distrito Federal -> Mexico City] 
+
+  path: 1[20114 -> 30942 -> 130003], [Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20114 -> 30943], [Mexico -> Baja California Sur] 
+
+srcNodes: [40609, 130003, 30991]
+  path: 0[110237 -> 30991 -> 40609], [Santa Rosa Island Santa Rosa Island Californian Channel Islands  -> California -> Concord] 
+
+  path: 1[110237 -> 30991 -> 90150 -> 30942 -> 130003], [Santa Rosa Island Santa Rosa Island Californian Channel Islands  -> California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[110237 -> 30991], [Santa Rosa Island Santa Rosa Island Californian Channel Islands  -> California] 
+
+This is a non-reduced answer tree with common first node 30991
+
+srcNodes: [40609, 130003, 30991]
+  path: 0[110238 -> 30991 -> 40609], [San Clemente Island San Clemente Island Californian Channel Islands  -> California -> Concord] 
+
+  path: 1[110238 -> 30991 -> 90150 -> 30942 -> 130003], [San Clemente Island San Clemente Island Californian Channel Islands  -> California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[110238 -> 30991], [San Clemente Island San Clemente Island Californian Channel Islands  -> California] 
+
+This is a non-reduced answer tree with common first node 30991
+
+srcNodes: [40609, 130003, 30991]
+  path: 0[110235 -> 30991 -> 40609], [Santa Cruz Island Santa Cruz Island Californian Channel Islands  -> California -> Concord] 
+
+  path: 1[110235 -> 30991 -> 90150 -> 30942 -> 130003], [Santa Cruz Island Santa Cruz Island Californian Channel Islands  -> California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[110235 -> 30991], [Santa Cruz Island Santa Cruz Island Californian Channel Islands  -> California] 
+
+This is a non-reduced answer tree with common first node 30991
+
+srcNodes: [40609, 130003, 30991]
+  path: 0[110236 -> 30991 -> 40609], [Santa Catalina Island Santa Catalina Island Californian Channel Islands  -> California -> Concord] 
+
+  path: 1[110236 -> 30991 -> 90150 -> 30942 -> 130003], [Santa Catalina Island Santa Catalina Island Californian Channel Islands  -> California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[110236 -> 30991], [Santa Catalina Island Santa Catalina Island Californian Channel Islands  -> California] 
+
+This is a non-reduced answer tree with common first node 30991
+
+srcNodes: [40609, 130003, 30991]
+  path: 0[110239 -> 30991 -> 40609], [San Miguel Island San Miguel Island Californian Channel Islands  -> California -> Concord] 
+
+  path: 1[110239 -> 30991 -> 90150 -> 30942 -> 130003], [San Miguel Island San Miguel Island Californian Channel Islands  -> California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[110239 -> 30991], [San Miguel Island San Miguel Island Californian Channel Islands  -> California] 
+
+This is a non-reduced answer tree with common first node 30991
+
+srcNodes: [42238, 130025, 30991]
+  path: 0[42238 -> 42238], [Reno -> Reno]
+  path: 1[42238 -> 90149 -> 31014 -> 90150 -> 31030 -> 130025], [Reno -> Truckee River -> Nevada -> Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[42238 -> 90149 -> 30991], [Reno -> Truckee River -> California] 
+
+srcNodes: [40465, 130003, 30991]
+  path: 0[31014 -> 40465], [Nevada -> Carson City] 
+
+  path: 1[31014 -> 90150 -> 30942 -> 130003], [Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[31014 -> 195 -> 30991], [Nevada -> Boundary Peak Boundary Peak Sierra Nevada California  -> California] 
+
+srcNodes: [42448, 130003, 30991]
+  path: 0[30989 -> 42448], [Arizona -> Scottsdale] 
+
+  path: 1[30989 -> 90150 -> 30942 -> 130003], [Arizona -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30989 -> 90150 -> 30991], [Arizona -> Colorado -> California] 
+
+srcNodes: [41430, 130003, 30991]
+  path: 0[30992 -> 41430], [Colorado -> Lakewood] 
+
+  path: 1[30992 -> 90150 -> 30942 -> 130003], [Colorado -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30992 -> 90150 -> 30991], [Colorado -> Colorado -> California] 
+
+srcNodes: [41029, 130003, 30991]
+  path: 0[30965 -> 41029], [Sonora -> Hermosillo] 
+
+  path: 1[30965 -> 90150 -> 30942 -> 130003], [Sonora -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30965 -> 90150 -> 30991], [Sonora -> Colorado -> California] 
+
+srcNodes: [40954, 130003, 30991]
+  path: 0[10001 -> 20113 -> 40954], [America -> Guatemala -> Guatemala City] 
+
+  path: 1[10001 -> 20114 -> 30942 -> 130003], [America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[10001 -> 20118 -> 30991], [America -> United States -> California] 
+
+srcNodes: [42332, 130003, 30991]
+  path: 0[80111 -> 90150 -> 31030 -> 42332], [Lake Powell Lake Powell artificial -> Colorado -> Utah -> Salt Lake City] 
+
+  path: 1[80111 -> 90150 -> 30942 -> 130003], [Lake Powell Lake Powell artificial -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[80111 -> 90150 -> 30991], [Lake Powell Lake Powell artificial -> Colorado -> California] 
+
+This is a non-reduced answer tree with common first node 90150
+
+srcNodes: [42332, 130003, 30991]
+  path: 0[80112 -> 90150 -> 31030 -> 42332], [Lake Mead Lake Mead artificial -> Colorado -> Utah -> Salt Lake City] 
+
+  path: 1[80112 -> 90150 -> 30942 -> 130003], [Lake Mead Lake Mead artificial -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[80112 -> 90150 -> 30991], [Lake Mead Lake Mead artificial -> Colorado -> California] 
+
+This is a non-reduced answer tree with common first node 90150
+
+srcNodes: [42332, 130025, 30991]
+  path: 0[185 -> 31030 -> 42332], [Kings Peak Kings Peak Rocky Mountains  -> Utah -> Salt Lake City] 
+
+  path: 1[185 -> 31030 -> 130025], [Kings Peak Kings Peak Rocky Mountains  -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[185 -> 31030 -> 90150 -> 30991], [Kings Peak Kings Peak Rocky Mountains  -> Utah -> Colorado -> California] 
+
+This is a non-reduced answer tree with common first node 31030
+
+srcNodes: [42244, 130025, 30991]
+  path: 0[42244 -> 42244], [Reynosa -> Reynosa]
+  path: 1[42244 -> 90151 -> 30992 -> 90150 -> 31030 -> 130025], [Reynosa -> Rio Grande -> Colorado -> Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[42244 -> 90151 -> 30992 -> 90150 -> 30991], [Reynosa -> Rio Grande -> Colorado -> Colorado -> California] 
+
+srcNodes: [42799, 130025, 30991]
+  path: 0[42799 -> 42799], [Tulsa -> Tulsa]
+  path: 1[42799 -> 90144 -> 30992 -> 90150 -> 31030 -> 130025], [Tulsa -> Arkansas -> Colorado -> Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[42799 -> 90144 -> 30992 -> 90150 -> 30991], [Tulsa -> Arkansas -> Colorado -> Colorado -> California] 
+
+srcNodes: [40064, 130025, 30991]
+  path: 0[40064 -> 40064], [Albuquerque -> Albuquerque]
+  path: 1[40064 -> 90151 -> 30992 -> 90150 -> 31030 -> 130025], [Albuquerque -> Rio Grande -> Colorado -> Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[40064 -> 90151 -> 30992 -> 90150 -> 30991], [Albuquerque -> Rio Grande -> Colorado -> Colorado -> California] 
+
+srcNodes: [42950, 130025, 30991]
+  path: 0[42950 -> 42950], [Wichita -> Wichita]
+  path: 1[42950 -> 90144 -> 30992 -> 90150 -> 31030 -> 130025], [Wichita -> Arkansas -> Colorado -> Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[42950 -> 90144 -> 30992 -> 90150 -> 30991], [Wichita -> Arkansas -> Colorado -> Colorado -> California] 
+
+srcNodes: [40954, 130003, 30991]
+  path: 0[20113 -> 40954], [Guatemala -> Guatemala City] 
+
+  path: 1[20113 -> 10001 -> 20114 -> 30942 -> 130003], [Guatemala -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20113 -> 10001 -> 20118 -> 30991], [Guatemala -> America -> United States -> California] 
+
+srcNodes: [40465, 130025, 30991]
+  path: 0[80109 -> 90149 -> 31014 -> 40465], [Lake Tahoe Lake Tahoe  -> Truckee River -> Nevada -> Carson City] 
+
+  path: 1[80109 -> 90149 -> 31014 -> 90150 -> 31030 -> 130025], [Lake Tahoe Lake Tahoe  -> Truckee River -> Nevada -> Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[80109 -> 90149 -> 30991], [Lake Tahoe Lake Tahoe  -> Truckee River -> California] 
+
+This is a non-reduced answer tree with common first node 90149
+
+srcNodes: [42200, 130003, 30991]
+  path: 0[20180 -> 42200], [Ecuador -> Quito] 
+
+  path: 1[20180 -> 10001 -> 20114 -> 30942 -> 130003], [Ecuador -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20180 -> 10001 -> 20118 -> 30991], [Ecuador -> America -> United States -> California] 
+
+-----------------------------------------
+ResultDestNodes: [30991, 30942, 195, 20118, 90150, 31030, 194, 90149, 20114, 110237, 110238, 110235, 110236, 110239, 42238, 31014, 30989, 30992, 30965, 10001, 80111, 80112, 185, 42244, 42799, 40064, 42950, 20113, 80109, 20180]
+ResultRelevs: [6.368360996246338, 6.3009819984436035, 4.088314056396484, 4.085090637207031, 4.085090637207031, 4.083251953125, 4.040327072143555, 3.5976638793945312, 3.5944409370422363, 3.5496768951416016, 3.5496768951416016, 3.5496768951416016, 3.5496768951416016, 3.5496768951416016, 3.340606927871704, 3.169321060180664, 3.0973410606384277, 3.0973410606384277, 3.0973410606384277, 2.9626898765563965, 2.859375, 2.859375, 2.8584609031677246, 2.686410903930664, 2.686410903930664, 2.686410903930664, 2.686410903930664, 2.577664852142334, 2.5547330379486084, 2.5056848526000977]
+Num of top-k answers: 30
+Num of redundant answers: 9
+Num of duplicate answers: 9
+Num of entries retrieved from the lists: 740
+Num of entries retrieved from NKMaps: 1207
+
+Blink Search Using BDB 30
+[city, desert, california]
+srcNodes: [41904, 130003, 30991]
+  path: 0[30991 -> 41904], [California -> Norwalk] 
+
+  path: 1[30991 -> 90150 -> 30942 -> 130003], [California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30991 -> 30991], [California -> California]
+srcNodes: [42734, 130003, 30942]
+  path: 0[30942 -> 42734], [Baja California -> Tijuana] 
+
+  path: 1[30942 -> 130003], [Baja California -> Baja California Desert] 
+
+  path: 2[30942 -> 30942], [Baja California -> Baja California]
+srcNodes: [40465, 130003, 195]
+  path: 0[195 -> 31014 -> 40465], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Carson City] 
+
+  path: 1[195 -> 31014 -> 90150 -> 30942 -> 130003], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[195 -> 195], [Boundary Peak Boundary Peak Sierra Nevada California  -> Boundary Peak Boundary Peak Sierra Nevada California ]
+srcNodes: [40465, 130025, 30991]
+  path: 0[90150 -> 31014 -> 40465], [Colorado -> Nevada -> Carson City] 
+
+  path: 1[90150 -> 31030 -> 130025], [Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[90150 -> 30991], [Colorado -> California] 
+
+srcNodes: [41254, 130025, 30991]
+  path: 0[20118 -> 31011 -> 41254], [United States -> Missouri -> Kansas City] 
+
+  path: 1[20118 -> 31030 -> 130025], [United States -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[20118 -> 30991], [United States -> California] 
+
+srcNodes: [42332, 130025, 30991]
+  path: 0[31030 -> 42332], [Utah -> Salt Lake City] 
+
+  path: 1[31030 -> 130025], [Utah -> Great Salt Lake Desert] 
+
+  path: 2[31030 -> 90150 -> 30991], [Utah -> Colorado -> California] 
+
+srcNodes: [40609, 130003, 194]
+  path: 0[194 -> 30991 -> 40609], [Mt Whitney Mt Whitney Sierra Nevada California  -> California -> Concord] 
+
+  path: 1[194 -> 30991 -> 90150 -> 30942 -> 130003], [Mt Whitney Mt Whitney Sierra Nevada California  -> California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[194 -> 194], [Mt Whitney Mt Whitney Sierra Nevada California  -> Mt Whitney Mt Whitney Sierra Nevada California ]
+srcNodes: [40465, 130003, 30991]
+  path: 0[90149 -> 31014 -> 40465], [Truckee River -> Nevada -> Carson City] 
+
+  path: 1[90149 -> 31014 -> 90150 -> 30942 -> 130003], [Truckee River -> Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[90149 -> 30991], [Truckee River -> California] 
+
+srcNodes: [41702, 130003, 30943]
+  path: 0[20114 -> 30972 -> 41702], [Mexico -> Distrito Federal -> Mexico City] 
+
+  path: 1[20114 -> 30942 -> 130003], [Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20114 -> 30943], [Mexico -> Baja California Sur] 
+
+srcNodes: [42238, 130025, 30991]
+  path: 0[42238 -> 42238], [Reno -> Reno]
+  path: 1[42238 -> 90149 -> 31014 -> 90150 -> 31030 -> 130025], [Reno -> Truckee River -> Nevada -> Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[42238 -> 90149 -> 30991], [Reno -> Truckee River -> California] 
+
+srcNodes: [40465, 130003, 30991]
+  path: 0[31014 -> 40465], [Nevada -> Carson City] 
+
+  path: 1[31014 -> 90150 -> 30942 -> 130003], [Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[31014 -> 195 -> 30991], [Nevada -> Boundary Peak Boundary Peak Sierra Nevada California  -> California] 
+
+srcNodes: [42448, 130003, 30991]
+  path: 0[30989 -> 42448], [Arizona -> Scottsdale] 
+
+  path: 1[30989 -> 90150 -> 30942 -> 130003], [Arizona -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30989 -> 90150 -> 30991], [Arizona -> Colorado -> California] 
+
+srcNodes: [41430, 130003, 30991]
+  path: 0[30992 -> 41430], [Colorado -> Lakewood] 
+
+  path: 1[30992 -> 90150 -> 30942 -> 130003], [Colorado -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30992 -> 90150 -> 30991], [Colorado -> Colorado -> California] 
+
+srcNodes: [41029, 130003, 30991]
+  path: 0[30965 -> 41029], [Sonora -> Hermosillo] 
+
+  path: 1[30965 -> 90150 -> 30942 -> 130003], [Sonora -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30965 -> 90150 -> 30991], [Sonora -> Colorado -> California] 
+
+srcNodes: [40954, 130003, 30991]
+  path: 0[10001 -> 20113 -> 40954], [America -> Guatemala -> Guatemala City] 
+
+  path: 1[10001 -> 20114 -> 30942 -> 130003], [America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[10001 -> 20118 -> 30991], [America -> United States -> California] 
+
+srcNodes: [42799, 130025, 30991]
+  path: 0[42799 -> 42799], [Tulsa -> Tulsa]
+  path: 1[42799 -> 90144 -> 30992 -> 90150 -> 31030 -> 130025], [Tulsa -> Arkansas -> Colorado -> Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[42799 -> 90144 -> 30992 -> 90150 -> 30991], [Tulsa -> Arkansas -> Colorado -> Colorado -> California] 
+
+srcNodes: [40064, 130025, 30991]
+  path: 0[40064 -> 40064], [Albuquerque -> Albuquerque]
+  path: 1[40064 -> 90151 -> 30992 -> 90150 -> 31030 -> 130025], [Albuquerque -> Rio Grande -> Colorado -> Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[40064 -> 90151 -> 30992 -> 90150 -> 30991], [Albuquerque -> Rio Grande -> Colorado -> Colorado -> California] 
+
+srcNodes: [42950, 130025, 30991]
+  path: 0[42950 -> 42950], [Wichita -> Wichita]
+  path: 1[42950 -> 90144 -> 30992 -> 90150 -> 31030 -> 130025], [Wichita -> Arkansas -> Colorado -> Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[42950 -> 90144 -> 30992 -> 90150 -> 30991], [Wichita -> Arkansas -> Colorado -> Colorado -> California] 
+
+srcNodes: [42244, 130025, 30991]
+  path: 0[42244 -> 42244], [Reynosa -> Reynosa]
+  path: 1[42244 -> 90151 -> 30992 -> 90150 -> 31030 -> 130025], [Reynosa -> Rio Grande -> Colorado -> Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[42244 -> 90151 -> 30992 -> 90150 -> 30991], [Reynosa -> Rio Grande -> Colorado -> Colorado -> California] 
+
+srcNodes: [40954, 130003, 30991]
+  path: 0[20113 -> 40954], [Guatemala -> Guatemala City] 
+
+  path: 1[20113 -> 10001 -> 20114 -> 30942 -> 130003], [Guatemala -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20113 -> 10001 -> 20118 -> 30991], [Guatemala -> America -> United States -> California] 
+
+srcNodes: [42603, 130003, 30991]
+  path: 0[20170 -> 42603], [Bolivia -> Sucre] 
+
+  path: 1[20170 -> 10001 -> 20114 -> 30942 -> 130003], [Bolivia -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20170 -> 10001 -> 20118 -> 30991], [Bolivia -> America -> United States -> California] 
+
+srcNodes: [42031, 130003, 30991]
+  path: 0[20178 -> 42031], [Suriname -> Paramaribo] 
+
+  path: 1[20178 -> 10001 -> 20114 -> 30942 -> 130003], [Suriname -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20178 -> 10001 -> 20118 -> 30991], [Suriname -> America -> United States -> California] 
+
+srcNodes: [40891, 130003, 30991]
+  path: 0[20177 -> 40891], [Guyana -> Georgetown] 
+
+  path: 1[20177 -> 10001 -> 20114 -> 30942 -> 130003], [Guyana -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20177 -> 10001 -> 20118 -> 30991], [Guyana -> America -> United States -> California] 
+
+srcNodes: [41750, 130003, 30991]
+  path: 0[20174 -> 41750], [Uruguay -> Montevideo] 
+
+  path: 1[20174 -> 10001 -> 20114 -> 30942 -> 130003], [Uruguay -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20174 -> 10001 -> 20118 -> 30991], [Uruguay -> America -> United States -> California] 
+
+srcNodes: [42403, 130003, 30991]
+  path: 0[20172 -> 42403], [Chile -> Santiago] 
+
+  path: 1[20172 -> 10001 -> 20114 -> 30942 -> 130003], [Chile -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20172 -> 10001 -> 20118 -> 30991], [Chile -> America -> United States -> California] 
+
+srcNodes: [40167, 130003, 30991]
+  path: 0[20173 -> 40167], [Paraguay -> Asuncion] 
+
+  path: 1[20173 -> 10001 -> 20114 -> 30942 -> 130003], [Paraguay -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20173 -> 10001 -> 20118 -> 30991], [Paraguay -> America -> United States -> California] 
+
+srcNodes: [41323, 130003, 30991]
+  path: 0[20142 -> 41323], [Saint Vincent and the Grenadines -> Kingstown] 
+
+  path: 1[20142 -> 10001 -> 20114 -> 30942 -> 130003], [Saint Vincent and the Grenadines -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20142 -> 10001 -> 20118 -> 30991], [Saint Vincent and the Grenadines -> America -> United States -> California] 
+
+srcNodes: [41642, 130003, 30991]
+  path: 0[20136 -> 41642], [Saint Martin -> Marigot] 
+
+  path: 1[20136 -> 10001 -> 20114 -> 30942 -> 130003], [Saint Martin -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20136 -> 10001 -> 20118 -> 30991], [Saint Martin -> America -> United States -> California] 
+
+srcNodes: [42200, 130003, 30991]
+  path: 0[20180 -> 42200], [Ecuador -> Quito] 
+
+  path: 1[20180 -> 10001 -> 20114 -> 30942 -> 130003], [Ecuador -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20180 -> 10001 -> 20118 -> 30991], [Ecuador -> America -> United States -> California] 
+
+srcNodes: [40279, 130003, 30991]
+  path: 0[20112 -> 40279], [Belize -> Belmopan] 
+
+  path: 1[20112 -> 10001 -> 20114 -> 30942 -> 130003], [Belize -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20112 -> 10001 -> 20118 -> 30991], [Belize -> America -> United States -> California] 
+
+-----------------------------------------
+ResultDestNodes: [30991, 30942, 195, 90150, 20118, 31030, 194, 90149, 20114, 42238, 31014, 30989, 30992, 30965, 10001, 42799, 40064, 42950, 42244, 20113, 20170, 20178, 20177, 20174, 20172, 20173, 20142, 20136, 20180, 20112]
+ResultRelevs: [6.368360996246338, 6.3009819984436035, 4.088314056396484, 4.085090637207031, 4.085090637207031, 4.083251953125, 4.040327072143555, 3.5976638793945312, 3.5944409370422363, 3.340606927871704, 3.169321060180664, 3.0973410606384277, 3.0973410606384277, 3.0973410606384277, 2.9626898765563965, 2.686410903930664, 2.686410903930664, 2.686410903930664, 2.686410903930664, 2.577664852142334, 2.5056848526000977, 2.5056848526000977, 2.5056848526000977, 2.5056848526000977, 2.5056848526000977, 2.5056848526000977, 2.5056848526000977, 2.5056848526000977, 2.5056848526000977, 2.5056848526000977]
+Num of top-k answers: 30
+Num of redundant answers: 0
+Num of duplicate answers: 2
+Num of entries retrieved from the lists: 740
+Num of entries retrieved from NKMaps: 1207
+
+Blink Search Using BDB_reduced 30
+[city, desert, california]
+srcNodes: [41904, 130003, 30991]
+  path: 0[30991 -> 41904], [California -> Norwalk] 
+
+  path: 1[30991 -> 90150 -> 30942 -> 130003], [California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30991 -> 30991], [California -> California]
+srcNodes: [42734, 130003, 30942]
+  path: 0[30942 -> 42734], [Baja California -> Tijuana] 
+
+  path: 1[30942 -> 130003], [Baja California -> Baja California Desert] 
+
+  path: 2[30942 -> 30942], [Baja California -> Baja California]
+srcNodes: [40465, 130003, 195]
+  path: 0[195 -> 31014 -> 40465], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Carson City] 
+
+  path: 1[195 -> 31014 -> 90150 -> 30942 -> 130003], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[195 -> 195], [Boundary Peak Boundary Peak Sierra Nevada California  -> Boundary Peak Boundary Peak Sierra Nevada California ]
+srcNodes: [40465, 130025, 30991]
+  path: 0[90150 -> 31014 -> 40465], [Colorado -> Nevada -> Carson City] 
+
+  path: 1[90150 -> 31030 -> 130025], [Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[90150 -> 30991], [Colorado -> California] 
+
+srcNodes: [41254, 130025, 30991]
+  path: 0[20118 -> 31011 -> 41254], [United States -> Missouri -> Kansas City] 
+
+  path: 1[20118 -> 31030 -> 130025], [United States -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[20118 -> 30991], [United States -> California] 
+
+srcNodes: [42332, 130025, 30991]
+  path: 0[31030 -> 42332], [Utah -> Salt Lake City] 
+
+  path: 1[31030 -> 130025], [Utah -> Great Salt Lake Desert] 
+
+  path: 2[31030 -> 90150 -> 30991], [Utah -> Colorado -> California] 
+
+srcNodes: [40609, 130003, 194]
+  path: 0[194 -> 30991 -> 40609], [Mt Whitney Mt Whitney Sierra Nevada California  -> California -> Concord] 
+
+  path: 1[194 -> 30991 -> 90150 -> 30942 -> 130003], [Mt Whitney Mt Whitney Sierra Nevada California  -> California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[194 -> 194], [Mt Whitney Mt Whitney Sierra Nevada California  -> Mt Whitney Mt Whitney Sierra Nevada California ]
+srcNodes: [40465, 130003, 30991]
+  path: 0[90149 -> 31014 -> 40465], [Truckee River -> Nevada -> Carson City] 
+
+  path: 1[90149 -> 31014 -> 90150 -> 30942 -> 130003], [Truckee River -> Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[90149 -> 30991], [Truckee River -> California] 
+
+srcNodes: [41702, 130003, 30943]
+  path: 0[20114 -> 30972 -> 41702], [Mexico -> Distrito Federal -> Mexico City] 
+
+  path: 1[20114 -> 30942 -> 130003], [Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20114 -> 30943], [Mexico -> Baja California Sur] 
+
+srcNodes: [42238, 130025, 30991]
+  path: 0[42238 -> 42238], [Reno -> Reno]
+  path: 1[42238 -> 90149 -> 31014 -> 90150 -> 31030 -> 130025], [Reno -> Truckee River -> Nevada -> Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[42238 -> 90149 -> 30991], [Reno -> Truckee River -> California] 
+
+srcNodes: [40465, 130003, 30991]
+  path: 0[31014 -> 40465], [Nevada -> Carson City] 
+
+  path: 1[31014 -> 90150 -> 30942 -> 130003], [Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[31014 -> 195 -> 30991], [Nevada -> Boundary Peak Boundary Peak Sierra Nevada California  -> California] 
+
+srcNodes: [42448, 130003, 30991]
+  path: 0[30989 -> 42448], [Arizona -> Scottsdale] 
+
+  path: 1[30989 -> 90150 -> 30942 -> 130003], [Arizona -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30989 -> 90150 -> 30991], [Arizona -> Colorado -> California] 
+
+srcNodes: [41430, 130003, 30991]
+  path: 0[30992 -> 41430], [Colorado -> Lakewood] 
+
+  path: 1[30992 -> 90150 -> 30942 -> 130003], [Colorado -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30992 -> 90150 -> 30991], [Colorado -> Colorado -> California] 
+
+srcNodes: [41029, 130003, 30991]
+  path: 0[30965 -> 41029], [Sonora -> Hermosillo] 
+
+  path: 1[30965 -> 90150 -> 30942 -> 130003], [Sonora -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30965 -> 90150 -> 30991], [Sonora -> Colorado -> California] 
+
+srcNodes: [40954, 130003, 30991]
+  path: 0[10001 -> 20113 -> 40954], [America -> Guatemala -> Guatemala City] 
+
+  path: 1[10001 -> 20114 -> 30942 -> 130003], [America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[10001 -> 20118 -> 30991], [America -> United States -> California] 
+
+srcNodes: [42799, 130025, 30991]
+  path: 0[42799 -> 42799], [Tulsa -> Tulsa]
+  path: 1[42799 -> 90144 -> 30992 -> 90150 -> 31030 -> 130025], [Tulsa -> Arkansas -> Colorado -> Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[42799 -> 90144 -> 30992 -> 90150 -> 30991], [Tulsa -> Arkansas -> Colorado -> Colorado -> California] 
+
+srcNodes: [40064, 130025, 30991]
+  path: 0[40064 -> 40064], [Albuquerque -> Albuquerque]
+  path: 1[40064 -> 90151 -> 30992 -> 90150 -> 31030 -> 130025], [Albuquerque -> Rio Grande -> Colorado -> Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[40064 -> 90151 -> 30992 -> 90150 -> 30991], [Albuquerque -> Rio Grande -> Colorado -> Colorado -> California] 
+
+srcNodes: [42950, 130025, 30991]
+  path: 0[42950 -> 42950], [Wichita -> Wichita]
+  path: 1[42950 -> 90144 -> 30992 -> 90150 -> 31030 -> 130025], [Wichita -> Arkansas -> Colorado -> Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[42950 -> 90144 -> 30992 -> 90150 -> 30991], [Wichita -> Arkansas -> Colorado -> Colorado -> California] 
+
+srcNodes: [42244, 130025, 30991]
+  path: 0[42244 -> 42244], [Reynosa -> Reynosa]
+  path: 1[42244 -> 90151 -> 30992 -> 90150 -> 31030 -> 130025], [Reynosa -> Rio Grande -> Colorado -> Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[42244 -> 90151 -> 30992 -> 90150 -> 30991], [Reynosa -> Rio Grande -> Colorado -> Colorado -> California] 
+
+srcNodes: [40954, 130003, 30991]
+  path: 0[20113 -> 40954], [Guatemala -> Guatemala City] 
+
+  path: 1[20113 -> 10001 -> 20114 -> 30942 -> 130003], [Guatemala -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20113 -> 10001 -> 20118 -> 30991], [Guatemala -> America -> United States -> California] 
+
+srcNodes: [42603, 130003, 30991]
+  path: 0[20170 -> 42603], [Bolivia -> Sucre] 
+
+  path: 1[20170 -> 10001 -> 20114 -> 30942 -> 130003], [Bolivia -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20170 -> 10001 -> 20118 -> 30991], [Bolivia -> America -> United States -> California] 
+
+srcNodes: [42031, 130003, 30991]
+  path: 0[20178 -> 42031], [Suriname -> Paramaribo] 
+
+  path: 1[20178 -> 10001 -> 20114 -> 30942 -> 130003], [Suriname -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20178 -> 10001 -> 20118 -> 30991], [Suriname -> America -> United States -> California] 
+
+srcNodes: [40891, 130003, 30991]
+  path: 0[20177 -> 40891], [Guyana -> Georgetown] 
+
+  path: 1[20177 -> 10001 -> 20114 -> 30942 -> 130003], [Guyana -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20177 -> 10001 -> 20118 -> 30991], [Guyana -> America -> United States -> California] 
+
+srcNodes: [41750, 130003, 30991]
+  path: 0[20174 -> 41750], [Uruguay -> Montevideo] 
+
+  path: 1[20174 -> 10001 -> 20114 -> 30942 -> 130003], [Uruguay -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20174 -> 10001 -> 20118 -> 30991], [Uruguay -> America -> United States -> California] 
+
+srcNodes: [42403, 130003, 30991]
+  path: 0[20172 -> 42403], [Chile -> Santiago] 
+
+  path: 1[20172 -> 10001 -> 20114 -> 30942 -> 130003], [Chile -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20172 -> 10001 -> 20118 -> 30991], [Chile -> America -> United States -> California] 
+
+srcNodes: [40167, 130003, 30991]
+  path: 0[20173 -> 40167], [Paraguay -> Asuncion] 
+
+  path: 1[20173 -> 10001 -> 20114 -> 30942 -> 130003], [Paraguay -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20173 -> 10001 -> 20118 -> 30991], [Paraguay -> America -> United States -> California] 
+
+srcNodes: [41323, 130003, 30991]
+  path: 0[20142 -> 41323], [Saint Vincent and the Grenadines -> Kingstown] 
+
+  path: 1[20142 -> 10001 -> 20114 -> 30942 -> 130003], [Saint Vincent and the Grenadines -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20142 -> 10001 -> 20118 -> 30991], [Saint Vincent and the Grenadines -> America -> United States -> California] 
+
+srcNodes: [41642, 130003, 30991]
+  path: 0[20136 -> 41642], [Saint Martin -> Marigot] 
+
+  path: 1[20136 -> 10001 -> 20114 -> 30942 -> 130003], [Saint Martin -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20136 -> 10001 -> 20118 -> 30991], [Saint Martin -> America -> United States -> California] 
+
+srcNodes: [42200, 130003, 30991]
+  path: 0[20180 -> 42200], [Ecuador -> Quito] 
+
+  path: 1[20180 -> 10001 -> 20114 -> 30942 -> 130003], [Ecuador -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20180 -> 10001 -> 20118 -> 30991], [Ecuador -> America -> United States -> California] 
+
+srcNodes: [40279, 130003, 30991]
+  path: 0[20112 -> 40279], [Belize -> Belmopan] 
+
+  path: 1[20112 -> 10001 -> 20114 -> 30942 -> 130003], [Belize -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20112 -> 10001 -> 20118 -> 30991], [Belize -> America -> United States -> California] 
+
+-----------------------------------------
+ResultDestNodes: [30991, 30942, 195, 90150, 20118, 31030, 194, 90149, 20114, 42238, 31014, 30989, 30992, 30965, 10001, 42799, 40064, 42950, 42244, 20113, 20170, 20178, 20177, 20174, 20172, 20173, 20142, 20136, 20180, 20112]
+ResultRelevs: [6.368360996246338, 6.3009819984436035, 4.088314056396484, 4.085090637207031, 4.085090637207031, 4.083251953125, 4.040327072143555, 3.5976638793945312, 3.5944409370422363, 3.340606927871704, 3.169321060180664, 3.0973410606384277, 3.0973410606384277, 3.0973410606384277, 2.9626898765563965, 2.686410903930664, 2.686410903930664, 2.686410903930664, 2.686410903930664, 2.577664852142334, 2.5056848526000977, 2.5056848526000977, 2.5056848526000977, 2.5056848526000977, 2.5056848526000977, 2.5056848526000977, 2.5056848526000977, 2.5056848526000977, 2.5056848526000977, 2.5056848526000977]
+Num of top-k answers: 30
+Num of redundant answers: 0
+Num of duplicate answers: 2
+Num of entries retrieved from the lists: 740
+Num of entries retrieved from NKMaps: 1423
+Num of redundant candidate answers found: 72
+Num of reduced alternative answers found: 4
+
+Blink Search Using BDB_reducedNunique 30
+[city, desert, california]
+srcNodes: [41904, 130003, 30991]
+  path: 0[30991 -> 41904], [California -> Norwalk] 
+
+  path: 1[30991 -> 90150 -> 30942 -> 130003], [California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30991 -> 30991], [California -> California]
+srcNodes: [42734, 130003, 30942]
+  path: 0[30942 -> 42734], [Baja California -> Tijuana] 
+
+  path: 1[30942 -> 130003], [Baja California -> Baja California Desert] 
+
+  path: 2[30942 -> 30942], [Baja California -> Baja California]
+srcNodes: [40465, 130003, 195]
+  path: 0[195 -> 31014 -> 40465], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Carson City] 
+
+  path: 1[195 -> 31014 -> 90150 -> 30942 -> 130003], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[195 -> 195], [Boundary Peak Boundary Peak Sierra Nevada California  -> Boundary Peak Boundary Peak Sierra Nevada California ]
+srcNodes: [41254, 130025, 30991]
+  path: 0[20118 -> 31011 -> 41254], [United States -> Missouri -> Kansas City] 
+
+  path: 1[20118 -> 31030 -> 130025], [United States -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[20118 -> 30991], [United States -> California] 
+
+srcNodes: [40465, 130025, 30991]
+  path: 0[90150 -> 31014 -> 40465], [Colorado -> Nevada -> Carson City] 
+
+  path: 1[90150 -> 31030 -> 130025], [Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[90150 -> 30991], [Colorado -> California] 
+
+srcNodes: [42332, 130025, 30991]
+  path: 0[31030 -> 42332], [Utah -> Salt Lake City] 
+
+  path: 1[31030 -> 130025], [Utah -> Great Salt Lake Desert] 
+
+  path: 2[31030 -> 90150 -> 30991], [Utah -> Colorado -> California] 
+
+srcNodes: [40609, 130003, 194]
+  path: 0[194 -> 30991 -> 40609], [Mt Whitney Mt Whitney Sierra Nevada California  -> California -> Concord] 
+
+  path: 1[194 -> 30991 -> 90150 -> 30942 -> 130003], [Mt Whitney Mt Whitney Sierra Nevada California  -> California -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[194 -> 194], [Mt Whitney Mt Whitney Sierra Nevada California  -> Mt Whitney Mt Whitney Sierra Nevada California ]
+srcNodes: [40465, 130003, 30991]
+  path: 0[90149 -> 31014 -> 40465], [Truckee River -> Nevada -> Carson City] 
+
+  path: 1[90149 -> 31014 -> 90150 -> 30942 -> 130003], [Truckee River -> Nevada -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[90149 -> 30991], [Truckee River -> California] 
+
+srcNodes: [41702, 130003, 30943]
+  path: 0[20114 -> 30972 -> 41702], [Mexico -> Distrito Federal -> Mexico City] 
+
+  path: 1[20114 -> 30942 -> 130003], [Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20114 -> 30943], [Mexico -> Baja California Sur] 
+
+srcNodes: [42238, 130025, 30991]
+  path: 0[42238 -> 42238], [Reno -> Reno]
+  path: 1[42238 -> 90149 -> 31014 -> 90150 -> 31030 -> 130025], [Reno -> Truckee River -> Nevada -> Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[42238 -> 90149 -> 30991], [Reno -> Truckee River -> California] 
+
+srcNodes: [41430, 130003, 30991]
+  path: 0[30992 -> 41430], [Colorado -> Lakewood] 
+
+  path: 1[30992 -> 90150 -> 30942 -> 130003], [Colorado -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30992 -> 90150 -> 30991], [Colorado -> Colorado -> California] 
+
+srcNodes: [41029, 130003, 30991]
+  path: 0[30965 -> 41029], [Sonora -> Hermosillo] 
+
+  path: 1[30965 -> 90150 -> 30942 -> 130003], [Sonora -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30965 -> 90150 -> 30991], [Sonora -> Colorado -> California] 
+
+srcNodes: [42448, 130003, 30991]
+  path: 0[30989 -> 42448], [Arizona -> Scottsdale] 
+
+  path: 1[30989 -> 90150 -> 30942 -> 130003], [Arizona -> Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[30989 -> 90150 -> 30991], [Arizona -> Colorado -> California] 
+
+srcNodes: [40954, 130003, 30991]
+  path: 0[10001 -> 20113 -> 40954], [America -> Guatemala -> Guatemala City] 
+
+  path: 1[10001 -> 20114 -> 30942 -> 130003], [America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[10001 -> 20118 -> 30991], [America -> United States -> California] 
+
+srcNodes: [42950, 130025, 30991]
+  path: 0[42950 -> 42950], [Wichita -> Wichita]
+  path: 1[42950 -> 90144 -> 30992 -> 90150 -> 31030 -> 130025], [Wichita -> Arkansas -> Colorado -> Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[42950 -> 90144 -> 30992 -> 90150 -> 30991], [Wichita -> Arkansas -> Colorado -> Colorado -> California] 
+
+srcNodes: [42244, 130025, 30991]
+  path: 0[42244 -> 42244], [Reynosa -> Reynosa]
+  path: 1[42244 -> 90151 -> 30992 -> 90150 -> 31030 -> 130025], [Reynosa -> Rio Grande -> Colorado -> Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[42244 -> 90151 -> 30992 -> 90150 -> 30991], [Reynosa -> Rio Grande -> Colorado -> Colorado -> California] 
+
+srcNodes: [42799, 130025, 30991]
+  path: 0[42799 -> 42799], [Tulsa -> Tulsa]
+  path: 1[42799 -> 90144 -> 30992 -> 90150 -> 31030 -> 130025], [Tulsa -> Arkansas -> Colorado -> Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[42799 -> 90144 -> 30992 -> 90150 -> 30991], [Tulsa -> Arkansas -> Colorado -> Colorado -> California] 
+
+srcNodes: [40064, 130025, 30991]
+  path: 0[40064 -> 40064], [Albuquerque -> Albuquerque]
+  path: 1[40064 -> 90151 -> 30992 -> 90150 -> 31030 -> 130025], [Albuquerque -> Rio Grande -> Colorado -> Colorado -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[40064 -> 90151 -> 30992 -> 90150 -> 30991], [Albuquerque -> Rio Grande -> Colorado -> Colorado -> California] 
+
+srcNodes: [41750, 130003, 30991]
+  path: 0[20174 -> 41750], [Uruguay -> Montevideo] 
+
+  path: 1[20174 -> 10001 -> 20114 -> 30942 -> 130003], [Uruguay -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20174 -> 10001 -> 20118 -> 30991], [Uruguay -> America -> United States -> California] 
+
+srcNodes: [40167, 130003, 30991]
+  path: 0[20173 -> 40167], [Paraguay -> Asuncion] 
+
+  path: 1[20173 -> 10001 -> 20114 -> 30942 -> 130003], [Paraguay -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20173 -> 10001 -> 20118 -> 30991], [Paraguay -> America -> United States -> California] 
+
+srcNodes: [42403, 130003, 30991]
+  path: 0[20172 -> 42403], [Chile -> Santiago] 
+
+  path: 1[20172 -> 10001 -> 20114 -> 30942 -> 130003], [Chile -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20172 -> 10001 -> 20118 -> 30991], [Chile -> America -> United States -> California] 
+
+srcNodes: [40891, 130003, 30991]
+  path: 0[20177 -> 40891], [Guyana -> Georgetown] 
+
+  path: 1[20177 -> 10001 -> 20114 -> 30942 -> 130003], [Guyana -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20177 -> 10001 -> 20118 -> 30991], [Guyana -> America -> United States -> California] 
+
+srcNodes: [42603, 130003, 30991]
+  path: 0[20170 -> 42603], [Bolivia -> Sucre] 
+
+  path: 1[20170 -> 10001 -> 20114 -> 30942 -> 130003], [Bolivia -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20170 -> 10001 -> 20118 -> 30991], [Bolivia -> America -> United States -> California] 
+
+srcNodes: [42031, 130003, 30991]
+  path: 0[20178 -> 42031], [Suriname -> Paramaribo] 
+
+  path: 1[20178 -> 10001 -> 20114 -> 30942 -> 130003], [Suriname -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20178 -> 10001 -> 20118 -> 30991], [Suriname -> America -> United States -> California] 
+
+srcNodes: [41323, 130003, 30991]
+  path: 0[20142 -> 41323], [Saint Vincent and the Grenadines -> Kingstown] 
+
+  path: 1[20142 -> 10001 -> 20114 -> 30942 -> 130003], [Saint Vincent and the Grenadines -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20142 -> 10001 -> 20118 -> 30991], [Saint Vincent and the Grenadines -> America -> United States -> California] 
+
+srcNodes: [40251, 130003, 30991]
+  path: 0[20139 -> 40251], [Saint Kitts and Nevis -> Basseterre] 
+
+  path: 1[20139 -> 10001 -> 20114 -> 30942 -> 130003], [Saint Kitts and Nevis -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20139 -> 10001 -> 20118 -> 30991], [Saint Kitts and Nevis -> America -> United States -> California] 
+
+srcNodes: [42200, 130003, 30991]
+  path: 0[20180 -> 42200], [Ecuador -> Quito] 
+
+  path: 1[20180 -> 10001 -> 20114 -> 30942 -> 130003], [Ecuador -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20180 -> 10001 -> 20118 -> 30991], [Ecuador -> America -> United States -> California] 
+
+srcNodes: [40279, 130003, 30991]
+  path: 0[20112 -> 40279], [Belize -> Belmopan] 
+
+  path: 1[20112 -> 10001 -> 20114 -> 30942 -> 130003], [Belize -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20112 -> 10001 -> 20118 -> 30991], [Belize -> America -> United States -> California] 
+
+srcNodes: [41932, 130003, 30991]
+  path: 0[20129 -> 41932], [Greenland -> Nuuk] 
+
+  path: 1[20129 -> 10001 -> 20114 -> 30942 -> 130003], [Greenland -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20129 -> 10001 -> 20118 -> 30991], [Greenland -> America -> United States -> California] 
+
+srcNodes: [40476, 130003, 30991]
+  path: 0[20140 -> 40476], [Saint Lucia -> Castries] 
+
+  path: 1[20140 -> 10001 -> 20114 -> 30942 -> 130003], [Saint Lucia -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20140 -> 10001 -> 20118 -> 30991], [Saint Lucia -> America -> United States -> California] 
+
+-----------------------------------------
+ResultDestNodes: [30991, 30942, 195, 20118, 90150, 31030, 194, 90149, 20114, 42238, 30992, 30965, 30989, 10001, 42950, 42244, 42799, 40064, 20174, 20173, 20172, 20177, 20170, 20178, 20142, 20139, 20180, 20112, 20129, 20140]
+ResultRelevs: [6.368360996246338, 6.3009819984436035, 4.088314056396484, 4.085090637207031, 4.085090637207031, 4.083251953125, 4.040327072143555, 3.5976638793945312, 3.5944409370422363, 3.340606927871704, 3.0973410606384277, 3.0973410606384277, 3.0973410606384277, 2.9626898765563965, 2.686410903930664, 2.686410903930664, 2.686410903930664, 2.686410903930664, 2.5056848526000977, 2.5056848526000977, 2.5056848526000977, 2.5056848526000977, 2.5056848526000977, 2.5056848526000977, 2.5056848526000977, 2.5056848526000977, 2.5056848526000977, 2.5056848526000977, 2.5056848526000977, 2.5056848526000977]
+Num of top-k answers: 30
+Num of redundant answers in top-k answers: 0
+Num of duplicate answers in top-k answers: 0
+Num of entries retrieved from the lists: 740
+Num of redundant candidate answers found: 72
+Num of reduced alternative answers found: 4
+Num of duplicate candidate answers found: 6
+Num of unique alternative answers found: 1
+

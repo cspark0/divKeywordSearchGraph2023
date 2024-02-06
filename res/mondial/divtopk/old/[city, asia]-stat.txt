@@ -1,0 +1,4 @@
+ResultDestNodes.length, numOfKNListsRead, numOfNKMapLookups, numOfAnswerTreesExplored, 
+(numOfNKMapLookups2/(float)numOfNKMapLookupsByKeyword, maxNKMap, minNKMap)
+0, 0, 0, (NaN, 0, 0)
+0, 0, 0, 0, 0, 0: 

@@ -1,0 +1,417 @@
+Top-k Search by Blink-BDB, k=10
+[city, desert, africa]
+srcNodes: [40288, 130035, 10000]
+  path: 0[10000 -> 20197 -> 40288], [Africa -> Nigeria -> Benin City] 
+
+  path: 1[10000 -> 20183 -> 130035], [Africa -> Libya -> Libyan Desert] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [42784, 130035, 10000]
+  path: 0[20183 -> 42784], [Libya -> Tripoli] 
+
+  path: 1[20183 -> 130035], [Libya -> Libyan Desert] 
+
+  path: 2[20183 -> 10000], [Libya -> Africa] 
+
+srcNodes: [40429, 130000, 10000]
+  path: 0[20085 -> 30842 -> 40429], [Egypt -> El Qahira -> Cairo] 
+
+  path: 1[20085 -> 30818 -> 130000], [Egypt -> El Bahr el Ahmar -> Arabian Desert] 
+
+  path: 2[20085 -> 10000], [Egypt -> Africa] 
+
+srcNodes: [42938, 130035, 10000]
+  path: 0[20213 -> 31387 -> 42938], [Sudan -> Bahr al Ghazal -> Waw] 
+
+  path: 1[20213 -> 31392 -> 130035], [Sudan -> ash Shamaliyah -> Libyan Desert] 
+
+  path: 2[20213 -> 10000], [Sudan -> Africa] 
+
+srcNodes: [40288, 130035, 10000]
+  path: 0[20197 -> 40288], [Nigeria -> Benin City] 
+
+  path: 1[20197 -> 10000 -> 20183 -> 130035], [Nigeria -> Africa -> Libya -> Libyan Desert] 
+
+  path: 2[20197 -> 10000], [Nigeria -> Africa] 
+
+srcNodes: [40222, 130035, 10000]
+  path: 0[20222 -> 40222], [Gambia -> Banjul] 
+
+  path: 1[20222 -> 10000 -> 20183 -> 130035], [Gambia -> Africa -> Libya -> Libyan Desert] 
+
+  path: 2[20222 -> 10000], [Gambia -> Africa] 
+
+srcNodes: [40209, 130035, 10000]
+  path: 0[20184 -> 40209], [Mali -> Bamako] 
+
+  path: 1[20184 -> 10000 -> 20183 -> 130035], [Mali -> Africa -> Libya -> Libyan Desert] 
+
+  path: 2[20184 -> 10000], [Mali -> Africa] 
+
+srcNodes: [42881, 130035, 10000]
+  path: 0[20237 -> 42881], [Seychelles -> Victoria] 
+
+  path: 1[20237 -> 10000 -> 20183 -> 130035], [Seychelles -> Africa -> Libya -> Libyan Desert] 
+
+  path: 2[20237 -> 10000], [Seychelles -> Africa] 
+
+srcNodes: [42956, 130035, 10000]
+  path: 0[20192 -> 42956], [Namibia -> Windhoek] 
+
+  path: 1[20192 -> 10000 -> 20183 -> 130035], [Namibia -> Africa -> Libya -> Libyan Desert] 
+
+  path: 2[20192 -> 10000], [Namibia -> Africa] 
+
+srcNodes: [42451, 130035, 10000]
+  path: 0[20203 -> 42451], [Ghana -> Sekondi] 
+
+  path: 1[20203 -> 10000 -> 20183 -> 130035], [Ghana -> Africa -> Libya -> Libyan Desert] 
+
+  path: 2[20203 -> 10000], [Ghana -> Africa] 
+
+-----------------------------------------
+Num of top-k answers: 10
+ResultDestNodes: [10000, 20183, 20085, 20213, 20197, 20222, 20184, 20237, 20192, 20203]
+ResultRelevs: [10.123371124267578, 6.926182270050049, 5.981934070587158, 5.981934070587158, 5.855751991271973, 5.783771991729736, 5.783771991729736, 5.783771991729736, 5.783771991729736, 5.783771991729736]
+AvgResultRelev: 6.378803348541259
+AvgResultDissimilarity: 0.548888888888889
+Num of entries retrieved from the lists: 174
+Num of entries retrieved from NKMaps: 270
+Num of answer trees explored: 77
+
+Div Top-k Search by Astar110
+[city, desert, africa]
+srcNodes: [40288, 130035, 10000]
+  path: 0[10000 -> 20197 -> 40288], [Africa -> Nigeria -> Benin City] 
+
+  path: 1[10000 -> 20183 -> 130035], [Africa -> Libya -> Libyan Desert] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [42784, 130035, 10000]
+  path: 0[20183 -> 42784], [Libya -> Tripoli] 
+
+  path: 1[20183 -> 130035], [Libya -> Libyan Desert] 
+
+  path: 2[20183 -> 10000], [Libya -> Africa] 
+
+srcNodes: [40429, 130000, 10000]
+  path: 0[20085 -> 30842 -> 40429], [Egypt -> El Qahira -> Cairo] 
+
+  path: 1[20085 -> 30818 -> 130000], [Egypt -> El Bahr el Ahmar -> Arabian Desert] 
+
+  path: 2[20085 -> 10000], [Egypt -> Africa] 
+
+srcNodes: [42938, 130035, 10000]
+  path: 0[20213 -> 31387 -> 42938], [Sudan -> Bahr al Ghazal -> Waw] 
+
+  path: 1[20213 -> 31392 -> 130035], [Sudan -> ash Shamaliyah -> Libyan Desert] 
+
+  path: 2[20213 -> 10000], [Sudan -> Africa] 
+
+srcNodes: [40288, 130035, 10000]
+  path: 0[20197 -> 40288], [Nigeria -> Benin City] 
+
+  path: 1[20197 -> 10000 -> 20183 -> 130035], [Nigeria -> Africa -> Libya -> Libyan Desert] 
+
+  path: 2[20197 -> 10000], [Nigeria -> Africa] 
+
+srcNodes: [41973, 130035, 10000]
+  path: 0[20182 -> 41973], [Algeria -> Oran] 
+
+  path: 1[20182 -> 10000 -> 20183 -> 130035], [Algeria -> Africa -> Libya -> Libyan Desert] 
+
+  path: 2[20182 -> 10000], [Algeria -> Africa] 
+
+srcNodes: [41882, 130035, 10000]
+  path: 0[20187 -> 41882], [Niger -> Niamey] 
+
+  path: 1[20187 -> 10000 -> 20183 -> 130035], [Niger -> Africa -> Libya -> Libyan Desert] 
+
+  path: 2[20187 -> 10000], [Niger -> Africa] 
+
+srcNodes: [41612, 130035, 10000]
+  path: 0[20232 -> 41612], [Mayotte -> Mamoutzou] 
+
+  path: 1[20232 -> 10000 -> 20183 -> 130035], [Mayotte -> Africa -> Libya -> Libyan Desert] 
+
+  path: 2[20232 -> 10000], [Mayotte -> Africa] 
+
+srcNodes: [41908, 130035, 10000]
+  path: 0[20185 -> 41908], [Mauritania -> Nouakchott] 
+
+  path: 1[20185 -> 10000 -> 20183 -> 130035], [Mauritania -> Africa -> Libya -> Libyan Desert] 
+
+  path: 2[20185 -> 10000], [Mauritania -> Africa] 
+
+srcNodes: [40378, 130035, 10000]
+  path: 0[20191 -> 40378], [Congo -> Brazzaville] 
+
+  path: 1[20191 -> 10000 -> 20183 -> 130035], [Congo -> Africa -> Libya -> Libyan Desert] 
+
+  path: 2[20191 -> 10000], [Congo -> Africa] 
+
+-----------------------------------------
+ResultDestNodes: [10000, 20183, 20085, 20213, 20197, 20182, 20187, 20232, 20185, 20191]
+ResultRelevs: [10.123371124267578, 6.926182270050049, 5.981934070587158, 5.981934070587158, 5.855751991271973, 5.783771991729736, 5.783771991729736, 5.783771991729736, 5.783771991729736, 5.783771991729736]
+AvgResultRelev: 6.378803348541259
+AvgResultDissimilarity: 0.5488888621330261
+Num of entries retrieved from the KNLists: 174
+Num of entries retrieved from NKMaps: 270
+Num of answer trees explored: 77
+Num of states created: 7074
+Num of states explored: 437
+Num of heuristic search performed: 34
+Max Num of answer tree sets in Q[]: 2182
+
+Div Top-k Search by Astar1m10
+[city, desert, africa]
+srcNodes: [40288, 130035, 10000]
+  path: 0[10000 -> 20197 -> 40288], [Africa -> Nigeria -> Benin City] 
+
+  path: 1[10000 -> 20183 -> 130035], [Africa -> Libya -> Libyan Desert] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [42784, 130035, 10000]
+  path: 0[20183 -> 42784], [Libya -> Tripoli] 
+
+  path: 1[20183 -> 130035], [Libya -> Libyan Desert] 
+
+  path: 2[20183 -> 10000], [Libya -> Africa] 
+
+srcNodes: [40429, 130000, 10000]
+  path: 0[20085 -> 30842 -> 40429], [Egypt -> El Qahira -> Cairo] 
+
+  path: 1[20085 -> 30818 -> 130000], [Egypt -> El Bahr el Ahmar -> Arabian Desert] 
+
+  path: 2[20085 -> 10000], [Egypt -> Africa] 
+
+srcNodes: [42938, 130035, 10000]
+  path: 0[20213 -> 31387 -> 42938], [Sudan -> Bahr al Ghazal -> Waw] 
+
+  path: 1[20213 -> 31392 -> 130035], [Sudan -> ash Shamaliyah -> Libyan Desert] 
+
+  path: 2[20213 -> 10000], [Sudan -> Africa] 
+
+srcNodes: [40288, 130035, 10000]
+  path: 0[20197 -> 40288], [Nigeria -> Benin City] 
+
+  path: 1[20197 -> 10000 -> 20183 -> 130035], [Nigeria -> Africa -> Libya -> Libyan Desert] 
+
+  path: 2[20197 -> 10000], [Nigeria -> Africa] 
+
+srcNodes: [41973, 130035, 10000]
+  path: 0[20182 -> 41973], [Algeria -> Oran] 
+
+  path: 1[20182 -> 10000 -> 20183 -> 130035], [Algeria -> Africa -> Libya -> Libyan Desert] 
+
+  path: 2[20182 -> 10000], [Algeria -> Africa] 
+
+srcNodes: [41882, 130035, 10000]
+  path: 0[20187 -> 41882], [Niger -> Niamey] 
+
+  path: 1[20187 -> 10000 -> 20183 -> 130035], [Niger -> Africa -> Libya -> Libyan Desert] 
+
+  path: 2[20187 -> 10000], [Niger -> Africa] 
+
+srcNodes: [41612, 130035, 10000]
+  path: 0[20232 -> 41612], [Mayotte -> Mamoutzou] 
+
+  path: 1[20232 -> 10000 -> 20183 -> 130035], [Mayotte -> Africa -> Libya -> Libyan Desert] 
+
+  path: 2[20232 -> 10000], [Mayotte -> Africa] 
+
+srcNodes: [41908, 130035, 10000]
+  path: 0[20185 -> 41908], [Mauritania -> Nouakchott] 
+
+  path: 1[20185 -> 10000 -> 20183 -> 130035], [Mauritania -> Africa -> Libya -> Libyan Desert] 
+
+  path: 2[20185 -> 10000], [Mauritania -> Africa] 
+
+srcNodes: [40378, 130035, 10000]
+  path: 0[20191 -> 40378], [Congo -> Brazzaville] 
+
+  path: 1[20191 -> 10000 -> 20183 -> 130035], [Congo -> Africa -> Libya -> Libyan Desert] 
+
+  path: 2[20191 -> 10000], [Congo -> Africa] 
+
+-----------------------------------------
+ResultDestNodes: [10000, 20183, 20085, 20213, 20197, 20182, 20187, 20232, 20185, 20191]
+ResultRelevs: [10.123371124267578, 6.926182270050049, 5.981934070587158, 5.981934070587158, 5.855751991271973, 5.783771991729736, 5.783771991729736, 5.783771991729736, 5.783771991729736, 5.783771991729736]
+AvgResultRelev: 6.378803348541259
+AvgResultDissimilarity: 0.5488888621330261
+Num of entries retrieved from the KNLists: 174
+Num of entries retrieved from NKMaps: 270
+Num of answer trees explored: 77
+Num of states created: 11845
+Num of states explored: 1656
+Num of heuristic search performed: 34
+Max Num of answer tree sets in Q[]: 2182
+
+Div Top-k Search by Astar210
+[city, desert, africa]
+srcNodes: [40288, 130035, 10000]
+  path: 0[10000 -> 20197 -> 40288], [Africa -> Nigeria -> Benin City] 
+
+  path: 1[10000 -> 20183 -> 130035], [Africa -> Libya -> Libyan Desert] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [42784, 130035, 10000]
+  path: 0[20183 -> 42784], [Libya -> Tripoli] 
+
+  path: 1[20183 -> 130035], [Libya -> Libyan Desert] 
+
+  path: 2[20183 -> 10000], [Libya -> Africa] 
+
+srcNodes: [40429, 130000, 10000]
+  path: 0[20085 -> 30842 -> 40429], [Egypt -> El Qahira -> Cairo] 
+
+  path: 1[20085 -> 30818 -> 130000], [Egypt -> El Bahr el Ahmar -> Arabian Desert] 
+
+  path: 2[20085 -> 10000], [Egypt -> Africa] 
+
+srcNodes: [42938, 130035, 10000]
+  path: 0[20213 -> 31387 -> 42938], [Sudan -> Bahr al Ghazal -> Waw] 
+
+  path: 1[20213 -> 31392 -> 130035], [Sudan -> ash Shamaliyah -> Libyan Desert] 
+
+  path: 2[20213 -> 10000], [Sudan -> Africa] 
+
+srcNodes: [40288, 130035, 10000]
+  path: 0[20197 -> 40288], [Nigeria -> Benin City] 
+
+  path: 1[20197 -> 10000 -> 20183 -> 130035], [Nigeria -> Africa -> Libya -> Libyan Desert] 
+
+  path: 2[20197 -> 10000], [Nigeria -> Africa] 
+
+srcNodes: [41973, 130035, 10000]
+  path: 0[20182 -> 41973], [Algeria -> Oran] 
+
+  path: 1[20182 -> 10000 -> 20183 -> 130035], [Algeria -> Africa -> Libya -> Libyan Desert] 
+
+  path: 2[20182 -> 10000], [Algeria -> Africa] 
+
+srcNodes: [41882, 130035, 10000]
+  path: 0[20187 -> 41882], [Niger -> Niamey] 
+
+  path: 1[20187 -> 10000 -> 20183 -> 130035], [Niger -> Africa -> Libya -> Libyan Desert] 
+
+  path: 2[20187 -> 10000], [Niger -> Africa] 
+
+srcNodes: [41612, 130035, 10000]
+  path: 0[20232 -> 41612], [Mayotte -> Mamoutzou] 
+
+  path: 1[20232 -> 10000 -> 20183 -> 130035], [Mayotte -> Africa -> Libya -> Libyan Desert] 
+
+  path: 2[20232 -> 10000], [Mayotte -> Africa] 
+
+srcNodes: [41908, 130035, 10000]
+  path: 0[20185 -> 41908], [Mauritania -> Nouakchott] 
+
+  path: 1[20185 -> 10000 -> 20183 -> 130035], [Mauritania -> Africa -> Libya -> Libyan Desert] 
+
+  path: 2[20185 -> 10000], [Mauritania -> Africa] 
+
+srcNodes: [40378, 130035, 10000]
+  path: 0[20191 -> 40378], [Congo -> Brazzaville] 
+
+  path: 1[20191 -> 10000 -> 20183 -> 130035], [Congo -> Africa -> Libya -> Libyan Desert] 
+
+  path: 2[20191 -> 10000], [Congo -> Africa] 
+
+-----------------------------------------
+ResultDestNodes: [10000, 20183, 20085, 20213, 20197, 20182, 20187, 20232, 20185, 20191]
+ResultRelevs: [10.123371124267578, 6.926182270050049, 5.981934070587158, 5.981934070587158, 5.855751991271973, 5.783771991729736, 5.783771991729736, 5.783771991729736, 5.783771991729736, 5.783771991729736]
+AvgResultRelev: 6.378803348541259
+AvgResultDissimilarity: 0.5488888621330261
+Num of entries retrieved from the KNLists: 174
+Num of entries retrieved from NKMaps: 270
+Num of answer trees explored: 77
+Num of states created: 7074
+Num of states explored: 437
+Num of heuristic search performed: 34
+Max Num of answer tree sets in Q[]: 2182
+
+Div Top-k Search by Astar2m10
+[city, desert, africa]
+srcNodes: [40288, 130035, 10000]
+  path: 0[10000 -> 20197 -> 40288], [Africa -> Nigeria -> Benin City] 
+
+  path: 1[10000 -> 20183 -> 130035], [Africa -> Libya -> Libyan Desert] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [42784, 130035, 10000]
+  path: 0[20183 -> 42784], [Libya -> Tripoli] 
+
+  path: 1[20183 -> 130035], [Libya -> Libyan Desert] 
+
+  path: 2[20183 -> 10000], [Libya -> Africa] 
+
+srcNodes: [40429, 130000, 10000]
+  path: 0[20085 -> 30842 -> 40429], [Egypt -> El Qahira -> Cairo] 
+
+  path: 1[20085 -> 30818 -> 130000], [Egypt -> El Bahr el Ahmar -> Arabian Desert] 
+
+  path: 2[20085 -> 10000], [Egypt -> Africa] 
+
+srcNodes: [42938, 130035, 10000]
+  path: 0[20213 -> 31387 -> 42938], [Sudan -> Bahr al Ghazal -> Waw] 
+
+  path: 1[20213 -> 31392 -> 130035], [Sudan -> ash Shamaliyah -> Libyan Desert] 
+
+  path: 2[20213 -> 10000], [Sudan -> Africa] 
+
+srcNodes: [40288, 130035, 10000]
+  path: 0[20197 -> 40288], [Nigeria -> Benin City] 
+
+  path: 1[20197 -> 10000 -> 20183 -> 130035], [Nigeria -> Africa -> Libya -> Libyan Desert] 
+
+  path: 2[20197 -> 10000], [Nigeria -> Africa] 
+
+srcNodes: [41850, 130035, 10000]
+  path: 0[20209 -> 41850], [Chad -> NDjamena] 
+
+  path: 1[20209 -> 10000 -> 20183 -> 130035], [Chad -> Africa -> Libya -> Libyan Desert] 
+
+  path: 2[20209 -> 10000], [Chad -> Africa] 
+
+srcNodes: [41483, 130035, 10000]
+  path: 0[20211 -> 41483], [Gabon -> Libreville] 
+
+  path: 1[20211 -> 10000 -> 20183 -> 130035], [Gabon -> Africa -> Libya -> Libyan Desert] 
+
+  path: 2[20211 -> 10000], [Gabon -> Africa] 
+
+srcNodes: [41848, 130041, 10000]
+  path: 0[20219 -> 41848], [Ethiopia -> Nazret] 
+
+  path: 1[20219 -> 90174 -> 31393 -> 130041], [Ethiopia -> Atbara -> ash Sharqiyah -> Nubian Desert] 
+
+  path: 2[20219 -> 10000], [Ethiopia -> Africa] 
+
+srcNodes: [41908, 130035, 10000]
+  path: 0[20185 -> 41908], [Mauritania -> Nouakchott] 
+
+  path: 1[20185 -> 10000 -> 20183 -> 130035], [Mauritania -> Africa -> Libya -> Libyan Desert] 
+
+  path: 2[20185 -> 10000], [Mauritania -> Africa] 
+
+srcNodes: [40378, 130035, 10000]
+  path: 0[20191 -> 40378], [Congo -> Brazzaville] 
+
+  path: 1[20191 -> 10000 -> 20183 -> 130035], [Congo -> Africa -> Libya -> Libyan Desert] 
+
+  path: 2[20191 -> 10000], [Congo -> Africa] 
+
+-----------------------------------------
+ResultDestNodes: [10000, 20183, 20085, 20213, 20197, 20209, 20211, 20219, 20185, 20191]
+ResultRelevs: [10.123371124267578, 6.926182270050049, 5.981934070587158, 5.981934070587158, 5.855751991271973, 5.783771991729736, 5.783771991729736, 5.783771991729736, 5.783771991729736, 5.783771991729736]
+AvgResultRelev: 6.378803348541259
+AvgResultDissimilarity: 0.602222204208374
+Num of entries retrieved from the KNLists: 174
+Num of entries retrieved from NKMaps: 270
+Num of answer trees explored: 77
+Num of states created: 2642
+Num of states explored: 994
+Num of heuristic search performed: 34
+Max Num of answer tree sets in Q[]: 0
+

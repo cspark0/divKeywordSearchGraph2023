@@ -1,0 +1,8 @@
+Top-k, (AvgResultRelev, AvgResultRelev/ResultRelevs[0], AvgResultDiss) numOfKNListsRead, numOfNKMapLookups, numOfAnswerTreesExplored, elapseTime, numOfStatesCreated, numOfStatesExplored, numOfHeuristicSearchPerformed, numOfATSPrunnedByDissCond, numOfLocalAnswersFound, 
+query: [company, fraud, deception]
+BlinkSea, 	20, 6.83315, 0.88246, 0.62281, 3517, 6472, 2613, 0.712716722, 
+Exhustiv, 	20, 6.60294, 0.85273, 0.69649, 3526, 6486, 2616, 12.71444515, 2173193, 2129637, 685532, 2, 
+Astar02, 	20, 6.60294, 0.85273, 0.69649, 3526, 6486, 2616, 43.327835622, 2848163, 2845958, 14, 551279, 1, 
+Astar1nc_, 	20, 6.60294, 0.85273, 0.69649, 3562, 6551, 2637, 0.340763577, 1815, 287, 2, 788, 0, 
+query: [murder, psycho, thriller]
+BlinkSea, 	20, 9.24186, 0.78141, 0.38596, 2655, 4467, 1603, 0.434253664, 

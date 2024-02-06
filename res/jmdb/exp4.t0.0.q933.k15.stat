@@ -1,0 +1,5 @@
+Top-k, (AvgResultRelev, AvgResultRelev/ResultRelevs[0], AvgResultDiss) numOfKNListsRead, numOfNKMapLookups, numOfAnswerTreesExplored, elapseTime, numOfStatesCreated, numOfStatesExplored, numOfHeuristicSearchPerformed, numOfATSPrunnedByDissCond, numOfLocalAnswersFound, 
+query: [hero, sacrifice, disaster]
+SimGrpSe, 	15, 6.97865, 1.08589, 0.44762, 2522, 4375, 1641, 0.260081898, 15, 1, 0, 1, 
+query: [monster, fantasy, animation]
+SimGrpSe, 	15, 9.31764, 1.01658, 0.35873, 5646, 9097, 2938, 0.28548568, 15, 1, 0, 1, 

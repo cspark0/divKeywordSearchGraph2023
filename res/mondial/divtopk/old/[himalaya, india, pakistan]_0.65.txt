@@ -1,0 +1,227 @@
+Top-k Search by Blink-BDB, k=3
+[himalaya, india, pakistan]
+srcNodes: [127, 20065, 20055]
+  path: 0[20065 -> 30749 -> 127], [India -> Sikkim -> Kangchendzonga Kangchendzonga Himalaya ] 
+
+  path: 1[20065 -> 20065], [India -> India]
+  path: 2[20065 -> 10002 -> 20055], [India -> Asia -> Pakistan] 
+
+srcNodes: [125, 20065, 20055]
+  path: 0[20055 -> 10002 -> 20079 -> 125], [Pakistan -> Asia -> Nepal -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[20055 -> 10002 -> 20065], [Pakistan -> Asia -> India] 
+
+  path: 2[20055 -> 20055], [Pakistan -> Pakistan]
+srcNodes: [118, 20065, 20055]
+  path: 0[10002 -> 20079 -> 118], [Asia -> Nepal -> Dhaulagiri Dhaulagiri Himalaya ] 
+
+  path: 1[10002 -> 20065], [Asia -> India] 
+
+  path: 2[10002 -> 20055], [Asia -> Pakistan] 
+
+-----------------------------------------
+Num of top-k answers: 3
+ResultDestNodes: [20065, 20055, 10002]
+ResultRelevs: [8.421239852905273, 7.993104934692383, 6.579249858856201]
+AvgResultRelev: 7.664531548817952
+AvgResultDissimilarity: 0.5
+Num of entries retrieved from the lists: 32
+Num of entries retrieved from NKMaps: 57
+Num of answer trees explored: 28
+
+Div Top-k Search by DivTopKExhustive3
+[himalaya, india, pakistan]
+srcNodes: [127, 20065, 20055]
+  path: 0[20065 -> 30749 -> 127], [India -> Sikkim -> Kangchendzonga Kangchendzonga Himalaya ] 
+
+  path: 1[20065 -> 20065], [India -> India]
+  path: 2[20065 -> 10002 -> 20055], [India -> Asia -> Pakistan] 
+
+srcNodes: [125, 20065, 20055]
+  path: 0[20055 -> 10002 -> 20079 -> 125], [Pakistan -> Asia -> Nepal -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[20055 -> 10002 -> 20065], [Pakistan -> Asia -> India] 
+
+  path: 2[20055 -> 20055], [Pakistan -> Pakistan]
+srcNodes: [126, 50130, 50130]
+  path: 0[20013 -> 10004 -> 20031 -> 10002 -> 20079 -> 126], [Italy -> Europe -> Turkey -> Asia -> Nepal -> Makalu Makalu Himalaya ] 
+
+  path: 1[20013 -> 50130], [Italy -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+  path: 2[20013 -> 50130], [Italy -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+-----------------------------------------
+ResultDestNodes: [20065, 20055, 20013]
+ResultRelevs: [8.421239852905273, 7.993104934692383, 3.289628028869629]
+AvgResultRelev: 6.567990938822429
+AvgResultDissimilarity: 0.8333333134651184
+Num of entries retrieved from the KNLists: 449
+Num of entries retrieved from NKMaps: 399
+Num of answer trees explored: 175
+Num of answer tree sets created: 23868
+
+Div Top-k Search by DivTopKAstar13
+[himalaya, india, pakistan]
+srcNodes: [127, 20065, 20055]
+  path: 0[20065 -> 30749 -> 127], [India -> Sikkim -> Kangchendzonga Kangchendzonga Himalaya ] 
+
+  path: 1[20065 -> 20065], [India -> India]
+  path: 2[20065 -> 10002 -> 20055], [India -> Asia -> Pakistan] 
+
+srcNodes: [125, 20065, 20055]
+  path: 0[20055 -> 10002 -> 20079 -> 125], [Pakistan -> Asia -> Nepal -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[20055 -> 10002 -> 20065], [Pakistan -> Asia -> India] 
+
+  path: 2[20055 -> 20055], [Pakistan -> Pakistan]
+srcNodes: [126, 50130, 50130]
+  path: 0[20013 -> 10004 -> 20031 -> 10002 -> 20079 -> 126], [Italy -> Europe -> Turkey -> Asia -> Nepal -> Makalu Makalu Himalaya ] 
+
+  path: 1[20013 -> 50130], [Italy -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+  path: 2[20013 -> 50130], [Italy -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+-----------------------------------------
+ResultDestNodes: [20065, 20055, 20013]
+ResultRelevs: [8.421239852905273, 7.993104934692383, 3.289628028869629]
+AvgResultRelev: 6.567990938822429
+AvgResultDissimilarity: 0.8333333134651184
+Num of entries retrieved from the KNLists: 449
+Num of entries retrieved from NKMaps: 399
+Num of answer trees explored: 175
+Num of states created: 157971
+Num of states explored: 67380
+Num of heuristic search performed: 153
+
+Div Top-k Search by DivTopKAstar23
+[himalaya, india, pakistan]
+srcNodes: [127, 20065, 20055]
+  path: 0[20065 -> 30749 -> 127], [India -> Sikkim -> Kangchendzonga Kangchendzonga Himalaya ] 
+
+  path: 1[20065 -> 20065], [India -> India]
+  path: 2[20065 -> 10002 -> 20055], [India -> Asia -> Pakistan] 
+
+srcNodes: [125, 20065, 20055]
+  path: 0[20055 -> 10002 -> 20079 -> 125], [Pakistan -> Asia -> Nepal -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[20055 -> 10002 -> 20065], [Pakistan -> Asia -> India] 
+
+  path: 2[20055 -> 20055], [Pakistan -> Pakistan]
+srcNodes: [126, 50130, 50130]
+  path: 0[20013 -> 10004 -> 20031 -> 10002 -> 20079 -> 126], [Italy -> Europe -> Turkey -> Asia -> Nepal -> Makalu Makalu Himalaya ] 
+
+  path: 1[20013 -> 50130], [Italy -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+  path: 2[20013 -> 50130], [Italy -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+-----------------------------------------
+ResultDestNodes: [20065, 20055, 20013]
+ResultRelevs: [8.421239852905273, 7.993104934692383, 3.289628028869629]
+AvgResultRelev: 6.567990938822429
+AvgResultDissimilarity: 0.8333333134651184
+Num of entries retrieved from the KNLists: 449
+Num of entries retrieved from NKMaps: 399
+Num of answer trees explored: 175
+Num of states created: 157971
+Num of states explored: 67380
+Num of heuristic search performed: 153
+
+Div Top-k Search by DivTopKAstar2m3
+[himalaya, india, pakistan]
+srcNodes: [127, 20065, 20055]
+  path: 0[20065 -> 30749 -> 127], [India -> Sikkim -> Kangchendzonga Kangchendzonga Himalaya ] 
+
+  path: 1[20065 -> 20065], [India -> India]
+  path: 2[20065 -> 10002 -> 20055], [India -> Asia -> Pakistan] 
+
+srcNodes: [125, 20065, 20055]
+  path: 0[20055 -> 10002 -> 20079 -> 125], [Pakistan -> Asia -> Nepal -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[20055 -> 10002 -> 20065], [Pakistan -> Asia -> India] 
+
+  path: 2[20055 -> 20055], [Pakistan -> Pakistan]
+srcNodes: [126, 50130, 50130]
+  path: 0[20013 -> 10004 -> 20031 -> 10002 -> 20079 -> 126], [Italy -> Europe -> Turkey -> Asia -> Nepal -> Makalu Makalu Himalaya ] 
+
+  path: 1[20013 -> 50130], [Italy -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+  path: 2[20013 -> 50130], [Italy -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+-----------------------------------------
+ResultDestNodes: [20065, 20055, 20013]
+ResultRelevs: [8.421239852905273, 7.993104934692383, 3.289628028869629]
+AvgResultRelev: 6.567990938822429
+AvgResultDissimilarity: 0.8333333134651184
+Num of entries retrieved from the KNLists: 449
+Num of entries retrieved from NKMaps: 399
+Num of answer trees explored: 175
+Num of states created: 621099
+Num of states explored: 620793
+Num of heuristic search performed: 153
+
+Div Top-k Search by DivTopKAstar33
+[himalaya, india, pakistan]
+srcNodes: [127, 20065, 20055]
+  path: 0[20065 -> 30749 -> 127], [India -> Sikkim -> Kangchendzonga Kangchendzonga Himalaya ] 
+
+  path: 1[20065 -> 20065], [India -> India]
+  path: 2[20065 -> 10002 -> 20055], [India -> Asia -> Pakistan] 
+
+srcNodes: [125, 20065, 20055]
+  path: 0[20055 -> 10002 -> 20079 -> 125], [Pakistan -> Asia -> Nepal -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[20055 -> 10002 -> 20065], [Pakistan -> Asia -> India] 
+
+  path: 2[20055 -> 20055], [Pakistan -> Pakistan]
+srcNodes: [126, 50130, 50130]
+  path: 0[20013 -> 10004 -> 20031 -> 10002 -> 20079 -> 126], [Italy -> Europe -> Turkey -> Asia -> Nepal -> Makalu Makalu Himalaya ] 
+
+  path: 1[20013 -> 50130], [Italy -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+  path: 2[20013 -> 50130], [Italy -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+-----------------------------------------
+ResultDestNodes: [20065, 20055, 20013]
+ResultRelevs: [8.421239852905273, 7.993104934692383, 3.289628028869629]
+AvgResultRelev: 6.567990938822429
+AvgResultDissimilarity: 0.8333333134651184
+Num of entries retrieved from the KNLists: 449
+Num of entries retrieved from NKMaps: 399
+Num of answer trees explored: 175
+Num of states created: 2954
+Num of states explored: 5453
+Num of heuristic search performed: 154
+
+Div Top-k Search by DivTopKAstar43
+[himalaya, india, pakistan]
+srcNodes: [127, 20065, 20055]
+  path: 0[20065 -> 30749 -> 127], [India -> Sikkim -> Kangchendzonga Kangchendzonga Himalaya ] 
+
+  path: 1[20065 -> 20065], [India -> India]
+  path: 2[20065 -> 10002 -> 20055], [India -> Asia -> Pakistan] 
+
+srcNodes: [125, 20065, 20055]
+  path: 0[20055 -> 10002 -> 20079 -> 125], [Pakistan -> Asia -> Nepal -> Lhotse Lhotse Himalaya ] 
+
+  path: 1[20055 -> 10002 -> 20065], [Pakistan -> Asia -> India] 
+
+  path: 2[20055 -> 20055], [Pakistan -> Pakistan]
+srcNodes: [126, 50130, 50130]
+  path: 0[20013 -> 10004 -> 20031 -> 10002 -> 20079 -> 126], [Italy -> Europe -> Turkey -> Asia -> Nepal -> Makalu Makalu Himalaya ] 
+
+  path: 1[20013 -> 50130], [Italy -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+  path: 2[20013 -> 50130], [Italy -> United Nations Military Observer Group in India and Pakistan United Nations Military Observer Group in India and Pakistan UNMOGIP] 
+
+-----------------------------------------
+ResultDestNodes: [20065, 20055, 20013]
+ResultRelevs: [8.421239852905273, 7.993104934692383, 3.289628028869629]
+AvgResultRelev: 6.567990938822429
+AvgResultDissimilarity: 0.8333333134651184
+Num of entries retrieved from the KNLists: 449
+Num of entries retrieved from NKMaps: 399
+Num of answer trees explored: 175
+Num of states created: 620686
+Num of states explored: 1838383
+Num of heuristic search performed: 154
+

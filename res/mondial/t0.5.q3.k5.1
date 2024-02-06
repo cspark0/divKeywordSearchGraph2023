@@ -1,0 +1,3463 @@
+query: [city, desert, africa]
+Top-k Search by Blink-BDB, k=5
+[city, desert, africa]
+srcNodes: [40288, 130035, 10000]
+  path: 0[10000 -> 20197 -> 40288], [Africa -> Nigeria -> Benin City] 
+
+  path: 1[10000 -> 20183 -> 130035], [Africa -> Libya -> Libyan Desert] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [40281, 130035, 10000]
+  path: 0[20183 -> 40281], [Libya -> Bengasi] 
+
+  path: 1[20183 -> 130035], [Libya -> Libyan Desert] 
+
+  path: 2[20183 -> 10000], [Libya -> Africa] 
+
+srcNodes: [41882, 130002, 10000]
+  path: 0[20187 -> 41882], [Niger -> Niamey] 
+
+  path: 1[20187 -> 130002], [Niger -> Azaouad] 
+
+  path: 2[20187 -> 10000], [Niger -> Africa] 
+
+srcNodes: [42956, 130031, 10000]
+  path: 0[20192 -> 42956], [Namibia -> Windhoek] 
+
+  path: 1[20192 -> 130031], [Namibia -> Kalahari] 
+
+  path: 2[20192 -> 10000], [Namibia -> Africa] 
+
+srcNodes: [41908, 130061, 10000]
+  path: 0[20185 -> 41908], [Mauritania -> Nouakchott] 
+
+  path: 1[20185 -> 130061], [Mauritania -> Trarza] 
+
+  path: 2[20185 -> 10000], [Mauritania -> Africa] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [10000, 20183, 20187, 20192, 20185]
+ResultRelevs: [11.839210510253906, 9.918301582336426, 9.594654083251953, 9.594654083251953, 9.594654083251953]
+AvgResultRelev: 10.108294868469239
+AvgResultDissimilarity: 0.6333333333333334
+Num of entries retrieved from the lists: 171
+Num of entries retrieved from NKMaps: 231
+Num of answer trees explored: 58
+
+Div Top-k Search by Exhustive, k=5
+[city, desert, africa]
+srcNodes: [40288, 130035, 10000]
+  path: 0[10000 -> 20197 -> 40288], [Africa -> Nigeria -> Benin City] 
+
+  path: 1[10000 -> 20183 -> 130035], [Africa -> Libya -> Libyan Desert] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [40281, 130035, 10000]
+  path: 0[20183 -> 40281], [Libya -> Bengasi] 
+
+  path: 1[20183 -> 130035], [Libya -> Libyan Desert] 
+
+  path: 2[20183 -> 10000], [Libya -> Africa] 
+
+srcNodes: [42956, 130031, 10000]
+  path: 0[20192 -> 42956], [Namibia -> Windhoek] 
+
+  path: 1[20192 -> 130031], [Namibia -> Kalahari] 
+
+  path: 2[20192 -> 10000], [Namibia -> Africa] 
+
+srcNodes: [41850, 130010, 10000]
+  path: 0[20209 -> 41850], [Chad -> NDjamena] 
+
+  path: 1[20209 -> 130010], [Chad -> Djourab] 
+
+  path: 2[20209 -> 10000], [Chad -> Africa] 
+
+srcNodes: [41882, 130002, 10000]
+  path: 0[20187 -> 41882], [Niger -> Niamey] 
+
+  path: 1[20187 -> 130002], [Niger -> Azaouad] 
+
+  path: 2[20187 -> 10000], [Niger -> Africa] 
+
+-----------------------------------------
+ResultDestNodes: [10000, 20183, 20192, 20209, 20187]
+ResultRelevs: [11.839210510253906, 9.918301582336426, 9.594654083251953, 9.594654083251953, 9.594654083251953]
+AvgResultRelev: 10.108294868469239
+AvgResultDissimilarity: 0.6333333015441894
+Num of entries retrieved from the KNLists: 171
+Num of entries retrieved from NKMaps: 231
+Num of answer trees explored: 58
+Num of answer tree sets created: 31
+Num of answer tree sets removed: 0
+Max Num of answer tree sets in Q[]: 31
+
+Div Top-k Search by Astar02, k=5
+[city, desert, africa]
+srcNodes: [40288, 130035, 10000]
+  path: 0[10000 -> 20197 -> 40288], [Africa -> Nigeria -> Benin City] 
+
+  path: 1[10000 -> 20183 -> 130035], [Africa -> Libya -> Libyan Desert] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [40281, 130035, 10000]
+  path: 0[20183 -> 40281], [Libya -> Bengasi] 
+
+  path: 1[20183 -> 130035], [Libya -> Libyan Desert] 
+
+  path: 2[20183 -> 10000], [Libya -> Africa] 
+
+srcNodes: [42956, 130031, 10000]
+  path: 0[20192 -> 42956], [Namibia -> Windhoek] 
+
+  path: 1[20192 -> 130031], [Namibia -> Kalahari] 
+
+  path: 2[20192 -> 10000], [Namibia -> Africa] 
+
+srcNodes: [41850, 130010, 10000]
+  path: 0[20209 -> 41850], [Chad -> NDjamena] 
+
+  path: 1[20209 -> 130010], [Chad -> Djourab] 
+
+  path: 2[20209 -> 10000], [Chad -> Africa] 
+
+srcNodes: [41882, 130002, 10000]
+  path: 0[20187 -> 41882], [Niger -> Niamey] 
+
+  path: 1[20187 -> 130002], [Niger -> Azaouad] 
+
+  path: 2[20187 -> 10000], [Niger -> Africa] 
+
+-----------------------------------------
+ResultDestNodes: [10000, 20183, 20192, 20209, 20187]
+ResultRelevs: [11.839210510253906, 9.918301582336426, 9.594654083251953, 9.594654083251953, 9.594654083251953]
+AvgResultRelev: 10.108294868469239
+AvgResultDissimilarity: 0.6333333333333334
+Num of entries retrieved from the KNLists: 171
+Num of entries retrieved from NKMaps: 231
+Num of answer trees explored: 58
+Num of states created: 17
+Num of states explored: 10
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 11
+
+Div Top-k Search by Astar1nc_ap, k=5
+[city, desert, africa]
+srcNodes: [40288, 130035, 10000]
+  path: 0[10000 -> 20197 -> 40288], [Africa -> Nigeria -> Benin City] 
+
+  path: 1[10000 -> 20183 -> 130035], [Africa -> Libya -> Libyan Desert] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [40281, 130035, 10000]
+  path: 0[20183 -> 40281], [Libya -> Bengasi] 
+
+  path: 1[20183 -> 130035], [Libya -> Libyan Desert] 
+
+  path: 2[20183 -> 10000], [Libya -> Africa] 
+
+srcNodes: [42956, 130031, 10000]
+  path: 0[20192 -> 42956], [Namibia -> Windhoek] 
+
+  path: 1[20192 -> 130031], [Namibia -> Kalahari] 
+
+  path: 2[20192 -> 10000], [Namibia -> Africa] 
+
+srcNodes: [41850, 130010, 10000]
+  path: 0[20209 -> 41850], [Chad -> NDjamena] 
+
+  path: 1[20209 -> 130010], [Chad -> Djourab] 
+
+  path: 2[20209 -> 10000], [Chad -> Africa] 
+
+srcNodes: [41882, 130002, 10000]
+  path: 0[20187 -> 41882], [Niger -> Niamey] 
+
+  path: 1[20187 -> 130002], [Niger -> Azaouad] 
+
+  path: 2[20187 -> 10000], [Niger -> Africa] 
+
+-----------------------------------------
+ResultDestNodes: [10000, 20183, 20192, 20209, 20187]
+ResultRelevs: [11.839210510253906, 9.918301582336426, 9.594654083251953, 9.594654083251953, 9.594654083251953]
+AvgResultRelev: 10.108294868469239
+AvgResultDissimilarity: 0.6333333333333334
+Num of entries retrieved from the KNLists: 171
+Num of entries retrieved from NKMaps: 231
+Num of answer trees explored: 58
+Num of states created: 6
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+query: [city, desert, california]
+Top-k Search by Blink-BDB, k=5
+[city, desert, california]
+srcNodes: [42007, 130052, 30991]
+  path: 0[30991 -> 42007], [California -> Oxnard] 
+
+  path: 1[30991 -> 130052], [California -> Sonora] 
+
+  path: 2[30991 -> 30991], [California -> California]
+srcNodes: [42734, 130003, 30942]
+  path: 0[30942 -> 42734], [Baja California -> Tijuana] 
+
+  path: 1[30942 -> 130003], [Baja California -> Baja California Desert] 
+
+  path: 2[30942 -> 30942], [Baja California -> Baja California]
+srcNodes: [40465, 130003, 30991]
+  path: 0[90150 -> 31014 -> 40465], [Colorado -> Nevada -> Carson City] 
+
+  path: 1[90150 -> 30942 -> 130003], [Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[90150 -> 30991], [Colorado -> California] 
+
+srcNodes: [40465, 130036, 30991]
+  path: 0[90149 -> 31014 -> 40465], [Truckee River -> Nevada -> Carson City] 
+
+  path: 1[90149 -> 31014 -> 130036], [Truckee River -> Nevada -> Mojave] 
+
+  path: 2[90149 -> 30991], [Truckee River -> California] 
+
+srcNodes: [40465, 130052, 30991]
+  path: 0[195 -> 31014 -> 40465], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Carson City] 
+
+  path: 1[195 -> 30991 -> 130052], [Boundary Peak Boundary Peak Sierra Nevada California  -> California -> Sonora] 
+
+  path: 2[195 -> 30991], [Boundary Peak Boundary Peak Sierra Nevada California  -> California] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [30991, 30942, 90150, 90149, 195]
+ResultRelevs: [8.138168334960938, 7.480266571044922, 6.164420127868652, 5.922308921813965, 5.922308921813965]
+AvgResultRelev: 6.7254945755004885
+AvgResultDissimilarity: 0.6333333333333332
+Num of entries retrieved from the lists: 125
+Num of entries retrieved from NKMaps: 166
+Num of answer trees explored: 39
+
+Div Top-k Search by Exhustive, k=5
+[city, desert, california]
+srcNodes: [42007, 130052, 30991]
+  path: 0[30991 -> 42007], [California -> Oxnard] 
+
+  path: 1[30991 -> 130052], [California -> Sonora] 
+
+  path: 2[30991 -> 30991], [California -> California]
+srcNodes: [42734, 130003, 30942]
+  path: 0[30942 -> 42734], [Baja California -> Tijuana] 
+
+  path: 1[30942 -> 130003], [Baja California -> Baja California Desert] 
+
+  path: 2[30942 -> 30942], [Baja California -> Baja California]
+srcNodes: [40465, 130003, 30991]
+  path: 0[90150 -> 31014 -> 40465], [Colorado -> Nevada -> Carson City] 
+
+  path: 1[90150 -> 30942 -> 130003], [Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[90150 -> 30991], [Colorado -> California] 
+
+srcNodes: [40465, 130052, 30991]
+  path: 0[195 -> 31014 -> 40465], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Carson City] 
+
+  path: 1[195 -> 30991 -> 130052], [Boundary Peak Boundary Peak Sierra Nevada California  -> California -> Sonora] 
+
+  path: 2[195 -> 30991], [Boundary Peak Boundary Peak Sierra Nevada California  -> California] 
+
+srcNodes: [40465, 130036, 30991]
+  path: 0[90149 -> 31014 -> 40465], [Truckee River -> Nevada -> Carson City] 
+
+  path: 1[90149 -> 31014 -> 130036], [Truckee River -> Nevada -> Mojave] 
+
+  path: 2[90149 -> 30991], [Truckee River -> California] 
+
+-----------------------------------------
+ResultDestNodes: [30991, 30942, 90150, 195, 90149]
+ResultRelevs: [8.138168334960938, 7.480266571044922, 6.164420127868652, 5.922308921813965, 5.922308921813965]
+AvgResultRelev: 6.7254945755004885
+AvgResultDissimilarity: 0.6333333492279053
+Num of entries retrieved from the KNLists: 125
+Num of entries retrieved from NKMaps: 166
+Num of answer trees explored: 39
+Num of answer tree sets created: 31
+Num of answer tree sets removed: 0
+Max Num of answer tree sets in Q[]: 31
+
+Div Top-k Search by Astar02, k=5
+[city, desert, california]
+srcNodes: [42007, 130052, 30991]
+  path: 0[30991 -> 42007], [California -> Oxnard] 
+
+  path: 1[30991 -> 130052], [California -> Sonora] 
+
+  path: 2[30991 -> 30991], [California -> California]
+srcNodes: [42734, 130003, 30942]
+  path: 0[30942 -> 42734], [Baja California -> Tijuana] 
+
+  path: 1[30942 -> 130003], [Baja California -> Baja California Desert] 
+
+  path: 2[30942 -> 30942], [Baja California -> Baja California]
+srcNodes: [40465, 130003, 30991]
+  path: 0[90150 -> 31014 -> 40465], [Colorado -> Nevada -> Carson City] 
+
+  path: 1[90150 -> 30942 -> 130003], [Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[90150 -> 30991], [Colorado -> California] 
+
+srcNodes: [40465, 130052, 30991]
+  path: 0[195 -> 31014 -> 40465], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Carson City] 
+
+  path: 1[195 -> 30991 -> 130052], [Boundary Peak Boundary Peak Sierra Nevada California  -> California -> Sonora] 
+
+  path: 2[195 -> 30991], [Boundary Peak Boundary Peak Sierra Nevada California  -> California] 
+
+srcNodes: [40465, 130036, 30991]
+  path: 0[90149 -> 31014 -> 40465], [Truckee River -> Nevada -> Carson City] 
+
+  path: 1[90149 -> 31014 -> 130036], [Truckee River -> Nevada -> Mojave] 
+
+  path: 2[90149 -> 30991], [Truckee River -> California] 
+
+-----------------------------------------
+ResultDestNodes: [30991, 30942, 90150, 195, 90149]
+ResultRelevs: [8.138168334960938, 7.480266571044922, 6.164420127868652, 5.922308921813965, 5.922308921813965]
+AvgResultRelev: 6.7254945755004885
+AvgResultDissimilarity: 0.6333333333333333
+Num of entries retrieved from the KNLists: 125
+Num of entries retrieved from NKMaps: 166
+Num of answer trees explored: 39
+Num of states created: 16
+Num of states explored: 7
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 11
+
+Div Top-k Search by Astar1nc_ap, k=5
+[city, desert, california]
+srcNodes: [42007, 130052, 30991]
+  path: 0[30991 -> 42007], [California -> Oxnard] 
+
+  path: 1[30991 -> 130052], [California -> Sonora] 
+
+  path: 2[30991 -> 30991], [California -> California]
+srcNodes: [42734, 130003, 30942]
+  path: 0[30942 -> 42734], [Baja California -> Tijuana] 
+
+  path: 1[30942 -> 130003], [Baja California -> Baja California Desert] 
+
+  path: 2[30942 -> 30942], [Baja California -> Baja California]
+srcNodes: [40465, 130003, 30991]
+  path: 0[90150 -> 31014 -> 40465], [Colorado -> Nevada -> Carson City] 
+
+  path: 1[90150 -> 30942 -> 130003], [Colorado -> Baja California -> Baja California Desert] 
+
+  path: 2[90150 -> 30991], [Colorado -> California] 
+
+srcNodes: [40465, 130052, 30991]
+  path: 0[195 -> 31014 -> 40465], [Boundary Peak Boundary Peak Sierra Nevada California  -> Nevada -> Carson City] 
+
+  path: 1[195 -> 30991 -> 130052], [Boundary Peak Boundary Peak Sierra Nevada California  -> California -> Sonora] 
+
+  path: 2[195 -> 30991], [Boundary Peak Boundary Peak Sierra Nevada California  -> California] 
+
+srcNodes: [40465, 130036, 30991]
+  path: 0[90149 -> 31014 -> 40465], [Truckee River -> Nevada -> Carson City] 
+
+  path: 1[90149 -> 31014 -> 130036], [Truckee River -> Nevada -> Mojave] 
+
+  path: 2[90149 -> 30991], [Truckee River -> California] 
+
+-----------------------------------------
+ResultDestNodes: [30991, 30942, 90150, 195, 90149]
+ResultRelevs: [8.138168334960938, 7.480266571044922, 6.164420127868652, 5.922308921813965, 5.922308921813965]
+AvgResultRelev: 6.7254945755004885
+AvgResultDissimilarity: 0.6333333333333333
+Num of entries retrieved from the KNLists: 125
+Num of entries retrieved from NKMaps: 166
+Num of answer trees explored: 39
+Num of states created: 6
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+query: [river, falls, mountain]
+Top-k Search by Blink-BDB, k=5
+[river, falls, mountain]
+srcNodes: [90143, 42532, 183]
+  path: 0[31027 -> 90143], [South Dakota -> Missouri] 
+
+  path: 1[31027 -> 42532], [South Dakota -> Sioux Falls] 
+
+  path: 2[31027 -> 183], [South Dakota -> Harney Peak Harney Peak Rocky Mountains ] 
+
+srcNodes: [90143, 42532, 181]
+  path: 0[90143 -> 90143], [Missouri -> Missouri]
+  path: 1[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+  path: 2[90143 -> 31012 -> 181], [Missouri -> Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+srcNodes: [90151, 42951, 190]
+  path: 0[31029 -> 90151], [Texas -> Rio Grande] 
+
+  path: 1[31029 -> 42951], [Texas -> Wichita Falls] 
+
+  path: 2[31029 -> 190], [Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+srcNodes: [90143, 42532, 183]
+  path: 0[183 -> 31027 -> 90143], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Missouri] 
+
+  path: 1[183 -> 31027 -> 42532], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Sioux Falls] 
+
+  path: 2[183 -> 183], [Harney Peak Harney Peak Rocky Mountains  -> Harney Peak Harney Peak Rocky Mountains ]
+srcNodes: [90151, 42951, 186]
+  path: 0[90151 -> 90151], [Rio Grande -> Rio Grande]
+  path: 1[90151 -> 31029 -> 42951], [Rio Grande -> Texas -> Wichita Falls] 
+
+  path: 2[90151 -> 30992 -> 186], [Rio Grande -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [31027, 90143, 31029, 183, 90151]
+ResultRelevs: [6.285680294036865, 6.016969203948975, 5.900439739227295, 5.602536678314209, 5.46581506729126]
+AvgResultRelev: 5.85428819656372
+AvgResultDissimilarity: 0.7
+Num of entries retrieved from the lists: 289
+Num of entries retrieved from NKMaps: 440
+Num of answer trees explored: 94
+
+Div Top-k Search by Exhustive, k=5
+[river, falls, mountain]
+srcNodes: [90143, 42532, 183]
+  path: 0[31027 -> 90143], [South Dakota -> Missouri] 
+
+  path: 1[31027 -> 42532], [South Dakota -> Sioux Falls] 
+
+  path: 2[31027 -> 183], [South Dakota -> Harney Peak Harney Peak Rocky Mountains ] 
+
+srcNodes: [90143, 42532, 181]
+  path: 0[90143 -> 90143], [Missouri -> Missouri]
+  path: 1[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+  path: 2[90143 -> 31012 -> 181], [Missouri -> Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+srcNodes: [90151, 42951, 190]
+  path: 0[31029 -> 90151], [Texas -> Rio Grande] 
+
+  path: 1[31029 -> 42951], [Texas -> Wichita Falls] 
+
+  path: 2[31029 -> 190], [Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+srcNodes: [90143, 42532, 183]
+  path: 0[183 -> 31027 -> 90143], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Missouri] 
+
+  path: 1[183 -> 31027 -> 42532], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Sioux Falls] 
+
+  path: 2[183 -> 183], [Harney Peak Harney Peak Rocky Mountains  -> Harney Peak Harney Peak Rocky Mountains ]
+srcNodes: [90151, 42951, 186]
+  path: 0[90151 -> 90151], [Rio Grande -> Rio Grande]
+  path: 1[90151 -> 31029 -> 42951], [Rio Grande -> Texas -> Wichita Falls] 
+
+  path: 2[90151 -> 30992 -> 186], [Rio Grande -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+-----------------------------------------
+ResultDestNodes: [31027, 90143, 31029, 183, 90151]
+ResultRelevs: [6.285680294036865, 6.016969203948975, 5.900439739227295, 5.602536678314209, 5.46581506729126]
+AvgResultRelev: 5.85428819656372
+AvgResultDissimilarity: 0.7
+Num of entries retrieved from the KNLists: 289
+Num of entries retrieved from NKMaps: 440
+Num of answer trees explored: 94
+Num of answer tree sets created: 31
+Num of answer tree sets removed: 0
+Max Num of answer tree sets in Q[]: 31
+
+Div Top-k Search by Astar02, k=5
+[river, falls, mountain]
+srcNodes: [90143, 42532, 183]
+  path: 0[31027 -> 90143], [South Dakota -> Missouri] 
+
+  path: 1[31027 -> 42532], [South Dakota -> Sioux Falls] 
+
+  path: 2[31027 -> 183], [South Dakota -> Harney Peak Harney Peak Rocky Mountains ] 
+
+srcNodes: [90143, 42532, 181]
+  path: 0[90143 -> 90143], [Missouri -> Missouri]
+  path: 1[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+  path: 2[90143 -> 31012 -> 181], [Missouri -> Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+srcNodes: [90151, 42951, 190]
+  path: 0[31029 -> 90151], [Texas -> Rio Grande] 
+
+  path: 1[31029 -> 42951], [Texas -> Wichita Falls] 
+
+  path: 2[31029 -> 190], [Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+srcNodes: [90143, 42532, 183]
+  path: 0[183 -> 31027 -> 90143], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Missouri] 
+
+  path: 1[183 -> 31027 -> 42532], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Sioux Falls] 
+
+  path: 2[183 -> 183], [Harney Peak Harney Peak Rocky Mountains  -> Harney Peak Harney Peak Rocky Mountains ]
+srcNodes: [90151, 42951, 186]
+  path: 0[90151 -> 90151], [Rio Grande -> Rio Grande]
+  path: 1[90151 -> 31029 -> 42951], [Rio Grande -> Texas -> Wichita Falls] 
+
+  path: 2[90151 -> 30992 -> 186], [Rio Grande -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+-----------------------------------------
+ResultDestNodes: [31027, 90143, 31029, 183, 90151]
+ResultRelevs: [6.285680294036865, 6.016969203948975, 5.900439739227295, 5.602536678314209, 5.46581506729126]
+AvgResultRelev: 5.85428819656372
+AvgResultDissimilarity: 0.7
+Num of entries retrieved from the KNLists: 289
+Num of entries retrieved from NKMaps: 440
+Num of answer trees explored: 94
+Num of states created: 16
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 11
+
+Div Top-k Search by Astar1nc_ap, k=5
+[river, falls, mountain]
+srcNodes: [90143, 42532, 183]
+  path: 0[31027 -> 90143], [South Dakota -> Missouri] 
+
+  path: 1[31027 -> 42532], [South Dakota -> Sioux Falls] 
+
+  path: 2[31027 -> 183], [South Dakota -> Harney Peak Harney Peak Rocky Mountains ] 
+
+srcNodes: [90143, 42532, 181]
+  path: 0[90143 -> 90143], [Missouri -> Missouri]
+  path: 1[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+  path: 2[90143 -> 31012 -> 181], [Missouri -> Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+srcNodes: [90151, 42951, 190]
+  path: 0[31029 -> 90151], [Texas -> Rio Grande] 
+
+  path: 1[31029 -> 42951], [Texas -> Wichita Falls] 
+
+  path: 2[31029 -> 190], [Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+srcNodes: [90143, 42532, 183]
+  path: 0[183 -> 31027 -> 90143], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Missouri] 
+
+  path: 1[183 -> 31027 -> 42532], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Sioux Falls] 
+
+  path: 2[183 -> 183], [Harney Peak Harney Peak Rocky Mountains  -> Harney Peak Harney Peak Rocky Mountains ]
+srcNodes: [90151, 42951, 186]
+  path: 0[90151 -> 90151], [Rio Grande -> Rio Grande]
+  path: 1[90151 -> 31029 -> 42951], [Rio Grande -> Texas -> Wichita Falls] 
+
+  path: 2[90151 -> 30992 -> 186], [Rio Grande -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+-----------------------------------------
+ResultDestNodes: [31027, 90143, 31029, 183, 90151]
+ResultRelevs: [6.285680294036865, 6.016969203948975, 5.900439739227295, 5.602536678314209, 5.46581506729126]
+AvgResultRelev: 5.85428819656372
+AvgResultDissimilarity: 0.7
+Num of entries retrieved from the KNLists: 289
+Num of entries retrieved from NKMaps: 440
+Num of answer trees explored: 94
+Num of states created: 6
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+query: [caldera, lake, america]
+Top-k Search by Blink-BDB, k=5
+[caldera, lake, america]
+srcNodes: [80107, 80117, 10001]
+  path: 0[10001 -> 20118 -> 31023 -> 80107], [America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[10001 -> 20121 -> 80117], [America -> Nicaragua -> Lake Nicaragua Lake Nicaragua ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [80107, 80095, 10001]
+  path: 0[20118 -> 31023 -> 80107], [United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20118 -> 31018 -> 80095], [United States -> New York -> Lake Ontario Lake Ontario ] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [80107, 80117, 10001]
+  path: 0[20121 -> 10001 -> 20118 -> 31023 -> 80107], [Nicaragua -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20121 -> 80117], [Nicaragua -> Lake Nicaragua Lake Nicaragua ] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20170 -> 10001 -> 20118 -> 31023 -> 80107], [Bolivia -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20170 -> 80122], [Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [80107, 80089, 10001]
+  path: 0[20117 -> 20118 -> 31023 -> 80107], [Canada -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20117 -> 30980 -> 80089], [Canada -> Northwest Territories -> Great Bear Lake Great Bear Lake ] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [10001, 20118, 20121, 20170, 20117]
+ResultRelevs: [12.45560359954834, 10.196870803833008, 9.951774597167969, 9.951774597167969, 9.714677810668945]
+AvgResultRelev: 10.454140281677246
+AvgResultDissimilarity: 0.3
+Num of entries retrieved from the lists: 197
+Num of entries retrieved from NKMaps: 311
+Num of answer trees explored: 59
+
+Div Top-k Search by Exhustive, k=5
+[caldera, lake, america]
+srcNodes: [80107, 80117, 10001]
+  path: 0[10001 -> 20118 -> 31023 -> 80107], [America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[10001 -> 20121 -> 80117], [America -> Nicaragua -> Lake Nicaragua Lake Nicaragua ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [80107, 80095, 10001]
+  path: 0[20118 -> 31023 -> 80107], [United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20118 -> 31018 -> 80095], [United States -> New York -> Lake Ontario Lake Ontario ] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20170 -> 10001 -> 20118 -> 31023 -> 80107], [Bolivia -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20170 -> 80122], [Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [80107, 80117, 10001]
+  path: 0[20121 -> 10001 -> 20118 -> 31023 -> 80107], [Nicaragua -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20121 -> 80117], [Nicaragua -> Lake Nicaragua Lake Nicaragua ] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [80027, 80033, 50039]
+  path: 0[20013 -> 30124 -> 80027], [Italy -> Umbria -> Lago Trasimeno Lago Trasimeno caldera] 
+
+  path: 1[20013 -> 10004 -> 20002 -> 80033], [Italy -> Europe -> Macedonia -> Lake Prespa Lake Prespa ] 
+
+  path: 2[20013 -> 50039], [Italy -> Economic Commission for Latin America and the Caribbean Economic Commission for Latin America and the Caribbean ECLAC] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20118, 20170, 20121, 20013]
+ResultRelevs: [12.45560359954834, 10.196870803833008, 9.951774597167969, 9.951774597167969, 5.679354667663574]
+AvgResultRelev: 9.647075653076172
+AvgResultDissimilarity: 0.5666666507720948
+Num of entries retrieved from the KNLists: 675
+Num of entries retrieved from NKMaps: 931
+Num of answer trees explored: 86
+Num of answer tree sets created: 411495
+Num of answer tree sets removed: 180889
+Max Num of answer tree sets in Q[]: 411495
+
+Div Top-k Search by Astar02, k=5
+[caldera, lake, america]
+srcNodes: [80107, 80117, 10001]
+  path: 0[10001 -> 20118 -> 31023 -> 80107], [America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[10001 -> 20121 -> 80117], [America -> Nicaragua -> Lake Nicaragua Lake Nicaragua ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [80107, 80095, 10001]
+  path: 0[20118 -> 31023 -> 80107], [United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20118 -> 31018 -> 80095], [United States -> New York -> Lake Ontario Lake Ontario ] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20170 -> 10001 -> 20118 -> 31023 -> 80107], [Bolivia -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20170 -> 80122], [Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [80107, 80117, 10001]
+  path: 0[20121 -> 10001 -> 20118 -> 31023 -> 80107], [Nicaragua -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20121 -> 80117], [Nicaragua -> Lake Nicaragua Lake Nicaragua ] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [80027, 80033, 50039]
+  path: 0[20013 -> 30124 -> 80027], [Italy -> Umbria -> Lago Trasimeno Lago Trasimeno caldera] 
+
+  path: 1[20013 -> 10004 -> 20002 -> 80033], [Italy -> Europe -> Macedonia -> Lake Prespa Lake Prespa ] 
+
+  path: 2[20013 -> 50039], [Italy -> Economic Commission for Latin America and the Caribbean Economic Commission for Latin America and the Caribbean ECLAC] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20118, 20170, 20121, 20013]
+ResultRelevs: [12.45560359954834, 10.196870803833008, 9.951774597167969, 9.951774597167969, 5.679354667663574]
+AvgResultRelev: 9.647075653076172
+AvgResultDissimilarity: 0.5666666666666667
+Num of entries retrieved from the KNLists: 675
+Num of entries retrieved from NKMaps: 931
+Num of answer trees explored: 86
+Num of states created: 2553997
+Num of states explored: 2541976
+Num of heuristic search performed: 50
+Max Num of answer tree sets in Q[]: 12022
+
+Div Top-k Search by Astar1nc_ap, k=5
+[caldera, lake, america]
+srcNodes: [80107, 80117, 10001]
+  path: 0[10001 -> 20118 -> 31023 -> 80107], [America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[10001 -> 20121 -> 80117], [America -> Nicaragua -> Lake Nicaragua Lake Nicaragua ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [80107, 80095, 10001]
+  path: 0[20118 -> 31023 -> 80107], [United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20118 -> 31018 -> 80095], [United States -> New York -> Lake Ontario Lake Ontario ] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20170 -> 10001 -> 20118 -> 31023 -> 80107], [Bolivia -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20170 -> 80122], [Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [80107, 80117, 10001]
+  path: 0[20121 -> 10001 -> 20118 -> 31023 -> 80107], [Nicaragua -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20121 -> 80117], [Nicaragua -> Lake Nicaragua Lake Nicaragua ] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [80027, 80033, 50039]
+  path: 0[20013 -> 30124 -> 80027], [Italy -> Umbria -> Lago Trasimeno Lago Trasimeno caldera] 
+
+  path: 1[20013 -> 10004 -> 20002 -> 80033], [Italy -> Europe -> Macedonia -> Lake Prespa Lake Prespa ] 
+
+  path: 2[20013 -> 50039], [Italy -> Economic Commission for Latin America and the Caribbean Economic Commission for Latin America and the Caribbean ECLAC] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20118, 20170, 20121, 20013]
+ResultRelevs: [12.45560359954834, 10.196870803833008, 9.951774597167969, 9.951774597167969, 5.679354667663574]
+AvgResultRelev: 9.647075653076172
+AvgResultDissimilarity: 0.5666666666666667
+Num of entries retrieved from the KNLists: 675
+Num of entries retrieved from NKMaps: 931
+Num of answer trees explored: 86
+Num of states created: 15670
+Num of states explored: 850
+Num of heuristic search performed: 50
+Max Num of answer tree sets in Q[]: 11427
+
+query: [island, sea, europe]
+Top-k Search by Blink-BDB, k=5
+[island, sea, europe]
+srcNodes: [110033, 100004, 10004]
+  path: 0[10004 -> 20033 -> 110033], [Europe -> Estonia -> Dagoe Dagoe  ] 
+
+  path: 1[10004 -> 20033 -> 100004], [Europe -> Estonia -> Baltic Sea] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [110072, 100018, 10004]
+  path: 0[20082 -> 110072], [Cyprus -> Cyprus Cyprus  ] 
+
+  path: 1[20082 -> 100018], [Cyprus -> Mediterranean Sea] 
+
+  path: 2[20082 -> 10004], [Cyprus -> Europe] 
+
+srcNodes: [110033, 100004, 10004]
+  path: 0[20033 -> 110033], [Estonia -> Dagoe Dagoe  ] 
+
+  path: 1[20033 -> 100004], [Estonia -> Baltic Sea] 
+
+  path: 2[20033 -> 10004], [Estonia -> Europe] 
+
+srcNodes: [110035, 100004, 10004]
+  path: 0[20032 -> 110035], [Denmark -> Seeland Seeland  ] 
+
+  path: 1[20032 -> 100004], [Denmark -> Baltic Sea] 
+
+  path: 2[20032 -> 10004], [Denmark -> Europe] 
+
+srcNodes: [110234, 100018, 10004]
+  path: 0[20046 -> 42880 -> 110234], [Malta -> Victoria -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[20046 -> 100018], [Malta -> Mediterranean Sea] 
+
+  path: 2[20046 -> 10004], [Malta -> Europe] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [10004, 20082, 20033, 20032, 20046]
+ResultRelevs: [12.720000267028809, 11.196453094482422, 11.196453094482422, 11.196453094482422, 10.917929649353027]
+AvgResultRelev: 11.44545783996582
+AvgResultDissimilarity: 0.5
+Num of entries retrieved from the lists: 165
+Num of entries retrieved from NKMaps: 281
+Num of answer trees explored: 69
+
+Div Top-k Search by Exhustive, k=5
+[island, sea, europe]
+srcNodes: [110033, 100004, 10004]
+  path: 0[10004 -> 20033 -> 110033], [Europe -> Estonia -> Dagoe Dagoe  ] 
+
+  path: 1[10004 -> 20033 -> 100004], [Europe -> Estonia -> Baltic Sea] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [110033, 100004, 10004]
+  path: 0[20033 -> 110033], [Estonia -> Dagoe Dagoe  ] 
+
+  path: 1[20033 -> 100004], [Estonia -> Baltic Sea] 
+
+  path: 2[20033 -> 10004], [Estonia -> Europe] 
+
+srcNodes: [110072, 100018, 10004]
+  path: 0[20082 -> 110072], [Cyprus -> Cyprus Cyprus  ] 
+
+  path: 1[20082 -> 100018], [Cyprus -> Mediterranean Sea] 
+
+  path: 2[20082 -> 10004], [Cyprus -> Europe] 
+
+srcNodes: [110035, 100004, 10004]
+  path: 0[20032 -> 110035], [Denmark -> Seeland Seeland  ] 
+
+  path: 1[20032 -> 100004], [Denmark -> Baltic Sea] 
+
+  path: 2[20032 -> 10004], [Denmark -> Europe] 
+
+srcNodes: [110234, 100018, 10004]
+  path: 0[20046 -> 42880 -> 110234], [Malta -> Victoria -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[20046 -> 100018], [Malta -> Mediterranean Sea] 
+
+  path: 2[20046 -> 10004], [Malta -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: [10004, 20033, 20082, 20032, 20046]
+ResultRelevs: [12.720000267028809, 11.196453094482422, 11.196453094482422, 11.196453094482422, 10.917929649353027]
+AvgResultRelev: 11.44545783996582
+AvgResultDissimilarity: 0.5
+Num of entries retrieved from the KNLists: 165
+Num of entries retrieved from NKMaps: 281
+Num of answer trees explored: 69
+Num of answer tree sets created: 31
+Num of answer tree sets removed: 0
+Max Num of answer tree sets in Q[]: 31
+
+Div Top-k Search by Astar02, k=5
+[island, sea, europe]
+srcNodes: [110033, 100004, 10004]
+  path: 0[10004 -> 20033 -> 110033], [Europe -> Estonia -> Dagoe Dagoe  ] 
+
+  path: 1[10004 -> 20033 -> 100004], [Europe -> Estonia -> Baltic Sea] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [110033, 100004, 10004]
+  path: 0[20033 -> 110033], [Estonia -> Dagoe Dagoe  ] 
+
+  path: 1[20033 -> 100004], [Estonia -> Baltic Sea] 
+
+  path: 2[20033 -> 10004], [Estonia -> Europe] 
+
+srcNodes: [110072, 100018, 10004]
+  path: 0[20082 -> 110072], [Cyprus -> Cyprus Cyprus  ] 
+
+  path: 1[20082 -> 100018], [Cyprus -> Mediterranean Sea] 
+
+  path: 2[20082 -> 10004], [Cyprus -> Europe] 
+
+srcNodes: [110035, 100004, 10004]
+  path: 0[20032 -> 110035], [Denmark -> Seeland Seeland  ] 
+
+  path: 1[20032 -> 100004], [Denmark -> Baltic Sea] 
+
+  path: 2[20032 -> 10004], [Denmark -> Europe] 
+
+srcNodes: [110234, 100018, 10004]
+  path: 0[20046 -> 42880 -> 110234], [Malta -> Victoria -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[20046 -> 100018], [Malta -> Mediterranean Sea] 
+
+  path: 2[20046 -> 10004], [Malta -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: [10004, 20033, 20082, 20032, 20046]
+ResultRelevs: [12.720000267028809, 11.196453094482422, 11.196453094482422, 11.196453094482422, 10.917929649353027]
+AvgResultRelev: 11.44545783996582
+AvgResultDissimilarity: 0.5
+Num of entries retrieved from the KNLists: 165
+Num of entries retrieved from NKMaps: 281
+Num of answer trees explored: 69
+Num of states created: 16
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 11
+
+Div Top-k Search by Astar1nc_ap, k=5
+[island, sea, europe]
+srcNodes: [110033, 100004, 10004]
+  path: 0[10004 -> 20033 -> 110033], [Europe -> Estonia -> Dagoe Dagoe  ] 
+
+  path: 1[10004 -> 20033 -> 100004], [Europe -> Estonia -> Baltic Sea] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [110033, 100004, 10004]
+  path: 0[20033 -> 110033], [Estonia -> Dagoe Dagoe  ] 
+
+  path: 1[20033 -> 100004], [Estonia -> Baltic Sea] 
+
+  path: 2[20033 -> 10004], [Estonia -> Europe] 
+
+srcNodes: [110072, 100018, 10004]
+  path: 0[20082 -> 110072], [Cyprus -> Cyprus Cyprus  ] 
+
+  path: 1[20082 -> 100018], [Cyprus -> Mediterranean Sea] 
+
+  path: 2[20082 -> 10004], [Cyprus -> Europe] 
+
+srcNodes: [110035, 100004, 10004]
+  path: 0[20032 -> 110035], [Denmark -> Seeland Seeland  ] 
+
+  path: 1[20032 -> 100004], [Denmark -> Baltic Sea] 
+
+  path: 2[20032 -> 10004], [Denmark -> Europe] 
+
+srcNodes: [110234, 100018, 10004]
+  path: 0[20046 -> 42880 -> 110234], [Malta -> Victoria -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[20046 -> 100018], [Malta -> Mediterranean Sea] 
+
+  path: 2[20046 -> 10004], [Malta -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: [10004, 20033, 20082, 20032, 20046]
+ResultRelevs: [12.720000267028809, 11.196453094482422, 11.196453094482422, 11.196453094482422, 10.917929649353027]
+AvgResultRelev: 11.44545783996582
+AvgResultDissimilarity: 0.5
+Num of entries retrieved from the KNLists: 165
+Num of entries retrieved from NKMaps: 281
+Num of answer trees explored: 69
+Num of states created: 6
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+query: [river, falls, america]
+Top-k Search by Blink-BDB, k=5
+[river, falls, america]
+srcNodes: [90163, 42532, 10001]
+  path: 0[10001 -> 20173 -> 90163], [America -> Paraguay -> Parana] 
+
+  path: 1[10001 -> 20118 -> 31027 -> 42532], [America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90130, 42532, 10001]
+  path: 0[20118 -> 30988 -> 90130], [United States -> Alaska -> Yukon River] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [90131, 42951, 10001]
+  path: 0[20117 -> 30980 -> 90131], [Canada -> Northwest Territories -> Mackenzie River] 
+
+  path: 1[20117 -> 20118 -> 31029 -> 42951], [Canada -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+srcNodes: [90163, 42532, 10001]
+  path: 0[20173 -> 90163], [Paraguay -> Parana] 
+
+  path: 1[20173 -> 10001 -> 20118 -> 31027 -> 42532], [Paraguay -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20173 -> 10001], [Paraguay -> America] 
+
+srcNodes: [90165, 42532, 10001]
+  path: 0[20174 -> 90165], [Uruguay -> Uruguay] 
+
+  path: 1[20174 -> 10001 -> 20118 -> 31027 -> 42532], [Uruguay -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20174 -> 10001], [Uruguay -> America] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [10001, 20118, 20117, 20173, 20174]
+ResultRelevs: [12.277069091796875, 10.268905639648438, 9.725440979003906, 9.59986686706543, 9.59986686706543]
+AvgResultRelev: 10.294229888916016
+AvgResultDissimilarity: 0.4333333333333333
+Num of entries retrieved from the lists: 162
+Num of entries retrieved from NKMaps: 234
+Num of answer trees explored: 53
+
+Div Top-k Search by Exhustive, k=5
+[river, falls, america]
+srcNodes: [90163, 42532, 10001]
+  path: 0[10001 -> 20173 -> 90163], [America -> Paraguay -> Parana] 
+
+  path: 1[10001 -> 20118 -> 31027 -> 42532], [America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90130, 42532, 10001]
+  path: 0[20118 -> 30988 -> 90130], [United States -> Alaska -> Yukon River] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [90131, 42951, 10001]
+  path: 0[20117 -> 30980 -> 90131], [Canada -> Northwest Territories -> Mackenzie River] 
+
+  path: 1[20117 -> 20118 -> 31029 -> 42951], [Canada -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+srcNodes: [90165, 42532, 10001]
+  path: 0[20174 -> 90165], [Uruguay -> Uruguay] 
+
+  path: 1[20174 -> 10001 -> 20118 -> 31027 -> 42532], [Uruguay -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20174 -> 10001], [Uruguay -> America] 
+
+srcNodes: [90164, 42951, 10001]
+  path: 0[20170 -> 90164], [Bolivia -> Paraguay] 
+
+  path: 1[20170 -> 10001 -> 20118 -> 31029 -> 42951], [Bolivia -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20118, 20117, 20174, 20170]
+ResultRelevs: [12.277069091796875, 10.268905639648438, 9.725440979003906, 9.59986686706543, 9.59986686706543]
+AvgResultRelev: 10.294229888916016
+AvgResultDissimilarity: 0.5333333492279053
+Num of entries retrieved from the KNLists: 162
+Num of entries retrieved from NKMaps: 234
+Num of answer trees explored: 53
+Num of answer tree sets created: 59
+Num of answer tree sets removed: 2
+Max Num of answer tree sets in Q[]: 59
+
+Div Top-k Search by Astar02, k=5
+[river, falls, america]
+srcNodes: [90163, 42532, 10001]
+  path: 0[10001 -> 20173 -> 90163], [America -> Paraguay -> Parana] 
+
+  path: 1[10001 -> 20118 -> 31027 -> 42532], [America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90130, 42532, 10001]
+  path: 0[20118 -> 30988 -> 90130], [United States -> Alaska -> Yukon River] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [90131, 42951, 10001]
+  path: 0[20117 -> 30980 -> 90131], [Canada -> Northwest Territories -> Mackenzie River] 
+
+  path: 1[20117 -> 20118 -> 31029 -> 42951], [Canada -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+srcNodes: [90165, 42532, 10001]
+  path: 0[20174 -> 90165], [Uruguay -> Uruguay] 
+
+  path: 1[20174 -> 10001 -> 20118 -> 31027 -> 42532], [Uruguay -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20174 -> 10001], [Uruguay -> America] 
+
+srcNodes: [90164, 42951, 10001]
+  path: 0[20170 -> 90164], [Bolivia -> Paraguay] 
+
+  path: 1[20170 -> 10001 -> 20118 -> 31029 -> 42951], [Bolivia -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20118, 20117, 20174, 20170]
+ResultRelevs: [12.277069091796875, 10.268905639648438, 9.725440979003906, 9.59986686706543, 9.59986686706543]
+AvgResultRelev: 10.294229888916016
+AvgResultDissimilarity: 0.5333333333333333
+Num of entries retrieved from the KNLists: 162
+Num of entries retrieved from NKMaps: 234
+Num of answer trees explored: 53
+Num of states created: 52
+Num of states explored: 39
+Num of heuristic search performed: 2
+Max Num of answer tree sets in Q[]: 15
+
+Div Top-k Search by Astar1nc_ap, k=5
+[river, falls, america]
+srcNodes: [90163, 42532, 10001]
+  path: 0[10001 -> 20173 -> 90163], [America -> Paraguay -> Parana] 
+
+  path: 1[10001 -> 20118 -> 31027 -> 42532], [America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90130, 42532, 10001]
+  path: 0[20118 -> 30988 -> 90130], [United States -> Alaska -> Yukon River] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [90131, 42951, 10001]
+  path: 0[20117 -> 30980 -> 90131], [Canada -> Northwest Territories -> Mackenzie River] 
+
+  path: 1[20117 -> 20118 -> 31029 -> 42951], [Canada -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+srcNodes: [90165, 42532, 10001]
+  path: 0[20174 -> 90165], [Uruguay -> Uruguay] 
+
+  path: 1[20174 -> 10001 -> 20118 -> 31027 -> 42532], [Uruguay -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20174 -> 10001], [Uruguay -> America] 
+
+srcNodes: [90164, 42951, 10001]
+  path: 0[20170 -> 90164], [Bolivia -> Paraguay] 
+
+  path: 1[20170 -> 10001 -> 20118 -> 31029 -> 42951], [Bolivia -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20118, 20117, 20174, 20170]
+ResultRelevs: [12.277069091796875, 10.268905639648438, 9.725440979003906, 9.59986686706543, 9.59986686706543]
+AvgResultRelev: 10.294229888916016
+AvgResultDissimilarity: 0.5333333333333333
+Num of entries retrieved from the KNLists: 162
+Num of entries retrieved from NKMaps: 234
+Num of answer trees explored: 53
+Num of states created: 15
+Num of states explored: 11
+Num of heuristic search performed: 2
+Max Num of answer tree sets in Q[]: 5
+
+query: [caldera, lake, america]
+Top-k Search by Blink-BDB, k=5
+[caldera, lake, america]
+srcNodes: [80107, 80117, 10001]
+  path: 0[10001 -> 20118 -> 31023 -> 80107], [America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[10001 -> 20121 -> 80117], [America -> Nicaragua -> Lake Nicaragua Lake Nicaragua ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [80107, 80095, 10001]
+  path: 0[20118 -> 31023 -> 80107], [United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20118 -> 31018 -> 80095], [United States -> New York -> Lake Ontario Lake Ontario ] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [80107, 80117, 10001]
+  path: 0[20121 -> 10001 -> 20118 -> 31023 -> 80107], [Nicaragua -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20121 -> 80117], [Nicaragua -> Lake Nicaragua Lake Nicaragua ] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20170 -> 10001 -> 20118 -> 31023 -> 80107], [Bolivia -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20170 -> 80122], [Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [80107, 80089, 10001]
+  path: 0[20117 -> 20118 -> 31023 -> 80107], [Canada -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20117 -> 30980 -> 80089], [Canada -> Northwest Territories -> Great Bear Lake Great Bear Lake ] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [10001, 20118, 20121, 20170, 20117]
+ResultRelevs: [12.45560359954834, 10.196870803833008, 9.951774597167969, 9.951774597167969, 9.714677810668945]
+AvgResultRelev: 10.454140281677246
+AvgResultDissimilarity: 0.3
+Num of entries retrieved from the lists: 197
+Num of entries retrieved from NKMaps: 311
+Num of answer trees explored: 59
+
+Div Top-k Search by Exhustive, k=5
+[caldera, lake, america]
+srcNodes: [80107, 80117, 10001]
+  path: 0[10001 -> 20118 -> 31023 -> 80107], [America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[10001 -> 20121 -> 80117], [America -> Nicaragua -> Lake Nicaragua Lake Nicaragua ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [80107, 80095, 10001]
+  path: 0[20118 -> 31023 -> 80107], [United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20118 -> 31018 -> 80095], [United States -> New York -> Lake Ontario Lake Ontario ] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20170 -> 10001 -> 20118 -> 31023 -> 80107], [Bolivia -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20170 -> 80122], [Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [80107, 80117, 10001]
+  path: 0[20121 -> 10001 -> 20118 -> 31023 -> 80107], [Nicaragua -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20121 -> 80117], [Nicaragua -> Lake Nicaragua Lake Nicaragua ] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [80027, 80033, 50039]
+  path: 0[20013 -> 30124 -> 80027], [Italy -> Umbria -> Lago Trasimeno Lago Trasimeno caldera] 
+
+  path: 1[20013 -> 10004 -> 20002 -> 80033], [Italy -> Europe -> Macedonia -> Lake Prespa Lake Prespa ] 
+
+  path: 2[20013 -> 50039], [Italy -> Economic Commission for Latin America and the Caribbean Economic Commission for Latin America and the Caribbean ECLAC] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20118, 20170, 20121, 20013]
+ResultRelevs: [12.45560359954834, 10.196870803833008, 9.951774597167969, 9.951774597167969, 5.679354667663574]
+AvgResultRelev: 9.647075653076172
+AvgResultDissimilarity: 0.5666666507720948
+Num of entries retrieved from the KNLists: 675
+Num of entries retrieved from NKMaps: 931
+Num of answer trees explored: 86
+Num of answer tree sets created: 411495
+Num of answer tree sets removed: 180889
+Max Num of answer tree sets in Q[]: 411495
+
+Div Top-k Search by Astar02, k=5
+[caldera, lake, america]
+srcNodes: [80107, 80117, 10001]
+  path: 0[10001 -> 20118 -> 31023 -> 80107], [America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[10001 -> 20121 -> 80117], [America -> Nicaragua -> Lake Nicaragua Lake Nicaragua ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [80107, 80095, 10001]
+  path: 0[20118 -> 31023 -> 80107], [United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20118 -> 31018 -> 80095], [United States -> New York -> Lake Ontario Lake Ontario ] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20170 -> 10001 -> 20118 -> 31023 -> 80107], [Bolivia -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20170 -> 80122], [Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [80107, 80117, 10001]
+  path: 0[20121 -> 10001 -> 20118 -> 31023 -> 80107], [Nicaragua -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20121 -> 80117], [Nicaragua -> Lake Nicaragua Lake Nicaragua ] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [80027, 80033, 50039]
+  path: 0[20013 -> 30124 -> 80027], [Italy -> Umbria -> Lago Trasimeno Lago Trasimeno caldera] 
+
+  path: 1[20013 -> 10004 -> 20002 -> 80033], [Italy -> Europe -> Macedonia -> Lake Prespa Lake Prespa ] 
+
+  path: 2[20013 -> 50039], [Italy -> Economic Commission for Latin America and the Caribbean Economic Commission for Latin America and the Caribbean ECLAC] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20118, 20170, 20121, 20013]
+ResultRelevs: [12.45560359954834, 10.196870803833008, 9.951774597167969, 9.951774597167969, 5.679354667663574]
+AvgResultRelev: 9.647075653076172
+AvgResultDissimilarity: 0.5666666666666667
+Num of entries retrieved from the KNLists: 675
+Num of entries retrieved from NKMaps: 931
+Num of answer trees explored: 86
+Num of states created: 2553997
+Num of states explored: 2541976
+Num of heuristic search performed: 50
+Max Num of answer tree sets in Q[]: 12022
+
+Div Top-k Search by Astar1nc_ap, k=5
+[caldera, lake, america]
+srcNodes: [80107, 80117, 10001]
+  path: 0[10001 -> 20118 -> 31023 -> 80107], [America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[10001 -> 20121 -> 80117], [America -> Nicaragua -> Lake Nicaragua Lake Nicaragua ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [80107, 80095, 10001]
+  path: 0[20118 -> 31023 -> 80107], [United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20118 -> 31018 -> 80095], [United States -> New York -> Lake Ontario Lake Ontario ] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20170 -> 10001 -> 20118 -> 31023 -> 80107], [Bolivia -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20170 -> 80122], [Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [80107, 80117, 10001]
+  path: 0[20121 -> 10001 -> 20118 -> 31023 -> 80107], [Nicaragua -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20121 -> 80117], [Nicaragua -> Lake Nicaragua Lake Nicaragua ] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [80027, 80033, 50039]
+  path: 0[20013 -> 30124 -> 80027], [Italy -> Umbria -> Lago Trasimeno Lago Trasimeno caldera] 
+
+  path: 1[20013 -> 10004 -> 20002 -> 80033], [Italy -> Europe -> Macedonia -> Lake Prespa Lake Prespa ] 
+
+  path: 2[20013 -> 50039], [Italy -> Economic Commission for Latin America and the Caribbean Economic Commission for Latin America and the Caribbean ECLAC] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20118, 20170, 20121, 20013]
+ResultRelevs: [12.45560359954834, 10.196870803833008, 9.951774597167969, 9.951774597167969, 5.679354667663574]
+AvgResultRelev: 9.647075653076172
+AvgResultDissimilarity: 0.5666666666666667
+Num of entries retrieved from the KNLists: 675
+Num of entries retrieved from NKMaps: 931
+Num of answer trees explored: 86
+Num of states created: 15670
+Num of states explored: 850
+Num of heuristic search performed: 50
+Max Num of answer tree sets in Q[]: 11427
+
+query: [city, river, china]
+Top-k Search by Blink-BDB, k=5
+[city, river, china]
+srcNodes: [40960, 90113, 20053]
+  path: 0[20053 -> 20055 -> 40960], [China -> Pakistan -> Gujranwala] 
+
+  path: 1[20053 -> 30639 -> 90113], [China -> Heilongjiang -> Amur] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [40960, 90128, 20053]
+  path: 0[20055 -> 40960], [Pakistan -> Gujranwala] 
+
+  path: 1[20055 -> 90128], [Pakistan -> Indus] 
+
+  path: 2[20055 -> 20053], [Pakistan -> China] 
+
+srcNodes: [42886, 90123, 20053]
+  path: 0[20069 -> 42886], [Laos -> Vientiane] 
+
+  path: 1[20069 -> 90123], [Laos -> Mekong] 
+
+  path: 2[20069 -> 20053], [Laos -> China] 
+
+srcNodes: [41226, 90119, 20053]
+  path: 0[20052 -> 41226], [Afghanistan -> Kabul] 
+
+  path: 1[20052 -> 90119], [Afghanistan -> Amudarja] 
+
+  path: 2[20052 -> 20053], [Afghanistan -> China] 
+
+srcNodes: [40324, 90118, 20053]
+  path: 0[20075 -> 40324], [Kyrgyzstan -> Bishkek] 
+
+  path: 1[20075 -> 90118], [Kyrgyzstan -> Naryn] 
+
+  path: 2[20075 -> 20053], [Kyrgyzstan -> China] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [20053, 20055, 20069, 20052, 20075]
+ResultRelevs: [7.018650054931641, 6.190715789794922, 6.190715789794922, 6.190715789794922, 6.190715789794922]
+AvgResultRelev: 6.356302642822266
+AvgResultDissimilarity: 0.6333333333333334
+Num of entries retrieved from the lists: 408
+Num of entries retrieved from NKMaps: 700
+Num of answer trees explored: 130
+
+Div Top-k Search by Exhustive, k=5
+[city, river, china]
+srcNodes: [40960, 90113, 20053]
+  path: 0[20053 -> 20055 -> 40960], [China -> Pakistan -> Gujranwala] 
+
+  path: 1[20053 -> 30639 -> 90113], [China -> Heilongjiang -> Amur] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [41226, 90119, 20053]
+  path: 0[20052 -> 41226], [Afghanistan -> Kabul] 
+
+  path: 1[20052 -> 90119], [Afghanistan -> Amudarja] 
+
+  path: 2[20052 -> 20053], [Afghanistan -> China] 
+
+srcNodes: [42886, 90123, 20053]
+  path: 0[20069 -> 42886], [Laos -> Vientiane] 
+
+  path: 1[20069 -> 90123], [Laos -> Mekong] 
+
+  path: 2[20069 -> 20053], [Laos -> China] 
+
+srcNodes: [40960, 90128, 20053]
+  path: 0[20055 -> 40960], [Pakistan -> Gujranwala] 
+
+  path: 1[20055 -> 90128], [Pakistan -> Indus] 
+
+  path: 2[20055 -> 20053], [Pakistan -> China] 
+
+srcNodes: [40324, 90118, 20053]
+  path: 0[20075 -> 40324], [Kyrgyzstan -> Bishkek] 
+
+  path: 1[20075 -> 90118], [Kyrgyzstan -> Naryn] 
+
+  path: 2[20075 -> 20053], [Kyrgyzstan -> China] 
+
+-----------------------------------------
+ResultDestNodes: [20053, 20052, 20069, 20055, 20075]
+ResultRelevs: [7.018650054931641, 6.190715789794922, 6.190715789794922, 6.190715789794922, 6.190715789794922]
+AvgResultRelev: 6.356302642822266
+AvgResultDissimilarity: 0.6333333492279053
+Num of entries retrieved from the KNLists: 408
+Num of entries retrieved from NKMaps: 700
+Num of answer trees explored: 130
+Num of answer tree sets created: 31
+Num of answer tree sets removed: 0
+Max Num of answer tree sets in Q[]: 31
+
+Div Top-k Search by Astar02, k=5
+[city, river, china]
+srcNodes: [40960, 90113, 20053]
+  path: 0[20053 -> 20055 -> 40960], [China -> Pakistan -> Gujranwala] 
+
+  path: 1[20053 -> 30639 -> 90113], [China -> Heilongjiang -> Amur] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [41226, 90119, 20053]
+  path: 0[20052 -> 41226], [Afghanistan -> Kabul] 
+
+  path: 1[20052 -> 90119], [Afghanistan -> Amudarja] 
+
+  path: 2[20052 -> 20053], [Afghanistan -> China] 
+
+srcNodes: [42886, 90123, 20053]
+  path: 0[20069 -> 42886], [Laos -> Vientiane] 
+
+  path: 1[20069 -> 90123], [Laos -> Mekong] 
+
+  path: 2[20069 -> 20053], [Laos -> China] 
+
+srcNodes: [40960, 90128, 20053]
+  path: 0[20055 -> 40960], [Pakistan -> Gujranwala] 
+
+  path: 1[20055 -> 90128], [Pakistan -> Indus] 
+
+  path: 2[20055 -> 20053], [Pakistan -> China] 
+
+srcNodes: [40324, 90118, 20053]
+  path: 0[20075 -> 40324], [Kyrgyzstan -> Bishkek] 
+
+  path: 1[20075 -> 90118], [Kyrgyzstan -> Naryn] 
+
+  path: 2[20075 -> 20053], [Kyrgyzstan -> China] 
+
+-----------------------------------------
+ResultDestNodes: [20053, 20052, 20069, 20055, 20075]
+ResultRelevs: [7.018650054931641, 6.190715789794922, 6.190715789794922, 6.190715789794922, 6.190715789794922]
+AvgResultRelev: 6.356302642822266
+AvgResultDissimilarity: 0.6333333333333334
+Num of entries retrieved from the KNLists: 408
+Num of entries retrieved from NKMaps: 700
+Num of answer trees explored: 130
+Num of states created: 17
+Num of states explored: 11
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 10
+
+Div Top-k Search by Astar1nc_ap, k=5
+[city, river, china]
+srcNodes: [40960, 90113, 20053]
+  path: 0[20053 -> 20055 -> 40960], [China -> Pakistan -> Gujranwala] 
+
+  path: 1[20053 -> 30639 -> 90113], [China -> Heilongjiang -> Amur] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [41226, 90119, 20053]
+  path: 0[20052 -> 41226], [Afghanistan -> Kabul] 
+
+  path: 1[20052 -> 90119], [Afghanistan -> Amudarja] 
+
+  path: 2[20052 -> 20053], [Afghanistan -> China] 
+
+srcNodes: [42886, 90123, 20053]
+  path: 0[20069 -> 42886], [Laos -> Vientiane] 
+
+  path: 1[20069 -> 90123], [Laos -> Mekong] 
+
+  path: 2[20069 -> 20053], [Laos -> China] 
+
+srcNodes: [40960, 90128, 20053]
+  path: 0[20055 -> 40960], [Pakistan -> Gujranwala] 
+
+  path: 1[20055 -> 90128], [Pakistan -> Indus] 
+
+  path: 2[20055 -> 20053], [Pakistan -> China] 
+
+srcNodes: [40324, 90118, 20053]
+  path: 0[20075 -> 40324], [Kyrgyzstan -> Bishkek] 
+
+  path: 1[20075 -> 90118], [Kyrgyzstan -> Naryn] 
+
+  path: 2[20075 -> 20053], [Kyrgyzstan -> China] 
+
+-----------------------------------------
+ResultDestNodes: [20053, 20052, 20069, 20055, 20075]
+ResultRelevs: [7.018650054931641, 6.190715789794922, 6.190715789794922, 6.190715789794922, 6.190715789794922]
+AvgResultRelev: 6.356302642822266
+AvgResultDissimilarity: 0.6333333333333334
+Num of entries retrieved from the KNLists: 408
+Num of entries retrieved from NKMaps: 700
+Num of answer trees explored: 130
+Num of states created: 6
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+query: [city, lake, canada]
+Top-k Search by Blink-BDB, k=5
+[city, lake, canada]
+srcNodes: [40982, 80089, 20117]
+  path: 0[20117 -> 30981 -> 40982], [Canada -> Nova Scotia -> Halifax] 
+
+  path: 1[20117 -> 30980 -> 80089], [Canada -> Northwest Territories -> Great Bear Lake Great Bear Lake ] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [41954, 80095, 20117]
+  path: 0[20118 -> 31022 -> 41954], [United States -> Oklahoma -> Oklahoma City] 
+
+  path: 1[20118 -> 31018 -> 80095], [United States -> New York -> Lake Ontario Lake Ontario ] 
+
+  path: 2[20118 -> 20117], [United States -> Canada] 
+
+srcNodes: [40954, 80117, 20117]
+  path: 0[10001 -> 20113 -> 40954], [America -> Guatemala -> Guatemala City] 
+
+  path: 1[10001 -> 20121 -> 80117], [America -> Nicaragua -> Lake Nicaragua Lake Nicaragua ] 
+
+  path: 2[10001 -> 20117], [America -> Canada] 
+
+srcNodes: [40928, 80117, 20117]
+  path: 0[20121 -> 40928], [Nicaragua -> Granada] 
+
+  path: 1[20121 -> 80117], [Nicaragua -> Lake Nicaragua Lake Nicaragua ] 
+
+  path: 2[20121 -> 10001 -> 20117], [Nicaragua -> America -> Canada] 
+
+srcNodes: [40589, 80122, 20117]
+  path: 0[20170 -> 40589], [Bolivia -> Cochabamba] 
+
+  path: 1[20170 -> 80122], [Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20170 -> 10001 -> 20117], [Bolivia -> America -> Canada] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [20117, 20118, 10001, 20121, 20170]
+ResultRelevs: [8.078972816467285, 6.441251754760742, 6.441251754760742, 6.168105125427246, 6.168105125427246]
+AvgResultRelev: 6.659537315368652
+AvgResultDissimilarity: 0.6333333333333334
+Num of entries retrieved from the lists: 269
+Num of entries retrieved from NKMaps: 437
+Num of answer trees explored: 92
+
+Div Top-k Search by Exhustive, k=5
+[city, lake, canada]
+srcNodes: [40982, 80089, 20117]
+  path: 0[20117 -> 30981 -> 40982], [Canada -> Nova Scotia -> Halifax] 
+
+  path: 1[20117 -> 30980 -> 80089], [Canada -> Northwest Territories -> Great Bear Lake Great Bear Lake ] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [41954, 80095, 20117]
+  path: 0[20118 -> 31022 -> 41954], [United States -> Oklahoma -> Oklahoma City] 
+
+  path: 1[20118 -> 31018 -> 80095], [United States -> New York -> Lake Ontario Lake Ontario ] 
+
+  path: 2[20118 -> 20117], [United States -> Canada] 
+
+srcNodes: [40954, 80117, 20117]
+  path: 0[10001 -> 20113 -> 40954], [America -> Guatemala -> Guatemala City] 
+
+  path: 1[10001 -> 20121 -> 80117], [America -> Nicaragua -> Lake Nicaragua Lake Nicaragua ] 
+
+  path: 2[10001 -> 20117], [America -> Canada] 
+
+srcNodes: [40928, 80117, 20117]
+  path: 0[20121 -> 40928], [Nicaragua -> Granada] 
+
+  path: 1[20121 -> 80117], [Nicaragua -> Lake Nicaragua Lake Nicaragua ] 
+
+  path: 2[20121 -> 10001 -> 20117], [Nicaragua -> America -> Canada] 
+
+srcNodes: [40589, 80122, 20117]
+  path: 0[20170 -> 40589], [Bolivia -> Cochabamba] 
+
+  path: 1[20170 -> 80122], [Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20170 -> 10001 -> 20117], [Bolivia -> America -> Canada] 
+
+-----------------------------------------
+ResultDestNodes: [20117, 20118, 10001, 20121, 20170]
+ResultRelevs: [8.078972816467285, 6.441251754760742, 6.441251754760742, 6.168105125427246, 6.168105125427246]
+AvgResultRelev: 6.659537315368652
+AvgResultDissimilarity: 0.6333333492279053
+Num of entries retrieved from the KNLists: 269
+Num of entries retrieved from NKMaps: 437
+Num of answer trees explored: 92
+Num of answer tree sets created: 31
+Num of answer tree sets removed: 0
+Max Num of answer tree sets in Q[]: 31
+
+Div Top-k Search by Astar02, k=5
+[city, lake, canada]
+srcNodes: [40982, 80089, 20117]
+  path: 0[20117 -> 30981 -> 40982], [Canada -> Nova Scotia -> Halifax] 
+
+  path: 1[20117 -> 30980 -> 80089], [Canada -> Northwest Territories -> Great Bear Lake Great Bear Lake ] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [41954, 80095, 20117]
+  path: 0[20118 -> 31022 -> 41954], [United States -> Oklahoma -> Oklahoma City] 
+
+  path: 1[20118 -> 31018 -> 80095], [United States -> New York -> Lake Ontario Lake Ontario ] 
+
+  path: 2[20118 -> 20117], [United States -> Canada] 
+
+srcNodes: [40954, 80117, 20117]
+  path: 0[10001 -> 20113 -> 40954], [America -> Guatemala -> Guatemala City] 
+
+  path: 1[10001 -> 20121 -> 80117], [America -> Nicaragua -> Lake Nicaragua Lake Nicaragua ] 
+
+  path: 2[10001 -> 20117], [America -> Canada] 
+
+srcNodes: [40928, 80117, 20117]
+  path: 0[20121 -> 40928], [Nicaragua -> Granada] 
+
+  path: 1[20121 -> 80117], [Nicaragua -> Lake Nicaragua Lake Nicaragua ] 
+
+  path: 2[20121 -> 10001 -> 20117], [Nicaragua -> America -> Canada] 
+
+srcNodes: [40589, 80122, 20117]
+  path: 0[20170 -> 40589], [Bolivia -> Cochabamba] 
+
+  path: 1[20170 -> 80122], [Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20170 -> 10001 -> 20117], [Bolivia -> America -> Canada] 
+
+-----------------------------------------
+ResultDestNodes: [20117, 20118, 10001, 20121, 20170]
+ResultRelevs: [8.078972816467285, 6.441251754760742, 6.441251754760742, 6.168105125427246, 6.168105125427246]
+AvgResultRelev: 6.659537315368652
+AvgResultDissimilarity: 0.6333333333333334
+Num of entries retrieved from the KNLists: 269
+Num of entries retrieved from NKMaps: 437
+Num of answer trees explored: 92
+Num of states created: 16
+Num of states explored: 7
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 11
+
+Div Top-k Search by Astar1nc_ap, k=5
+[city, lake, canada]
+srcNodes: [40982, 80089, 20117]
+  path: 0[20117 -> 30981 -> 40982], [Canada -> Nova Scotia -> Halifax] 
+
+  path: 1[20117 -> 30980 -> 80089], [Canada -> Northwest Territories -> Great Bear Lake Great Bear Lake ] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [41954, 80095, 20117]
+  path: 0[20118 -> 31022 -> 41954], [United States -> Oklahoma -> Oklahoma City] 
+
+  path: 1[20118 -> 31018 -> 80095], [United States -> New York -> Lake Ontario Lake Ontario ] 
+
+  path: 2[20118 -> 20117], [United States -> Canada] 
+
+srcNodes: [40954, 80117, 20117]
+  path: 0[10001 -> 20113 -> 40954], [America -> Guatemala -> Guatemala City] 
+
+  path: 1[10001 -> 20121 -> 80117], [America -> Nicaragua -> Lake Nicaragua Lake Nicaragua ] 
+
+  path: 2[10001 -> 20117], [America -> Canada] 
+
+srcNodes: [40928, 80117, 20117]
+  path: 0[20121 -> 40928], [Nicaragua -> Granada] 
+
+  path: 1[20121 -> 80117], [Nicaragua -> Lake Nicaragua Lake Nicaragua ] 
+
+  path: 2[20121 -> 10001 -> 20117], [Nicaragua -> America -> Canada] 
+
+srcNodes: [40589, 80122, 20117]
+  path: 0[20170 -> 40589], [Bolivia -> Cochabamba] 
+
+  path: 1[20170 -> 80122], [Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20170 -> 10001 -> 20117], [Bolivia -> America -> Canada] 
+
+-----------------------------------------
+ResultDestNodes: [20117, 20118, 10001, 20121, 20170]
+ResultRelevs: [8.078972816467285, 6.441251754760742, 6.441251754760742, 6.168105125427246, 6.168105125427246]
+AvgResultRelev: 6.659537315368652
+AvgResultDissimilarity: 0.6333333333333334
+Num of entries retrieved from the KNLists: 269
+Num of entries retrieved from NKMaps: 437
+Num of answer trees explored: 92
+Num of states created: 6
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+query: [gulf, bay, sea]
+Top-k Search by Blink-BDB, k=5
+[gulf, bay, sea]
+srcNodes: [100012, 40934, 100012]
+  path: 0[90142 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+  path: 1[90142 -> 31035 -> 40934], [Mississippi -> Wisconsin -> Green Bay] 
+
+  path: 2[90142 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+srcNodes: [100012, 40934, 100012]
+  path: 0[31035 -> 90142 -> 100012], [Wisconsin -> Mississippi -> Gulf of Mexico] 
+
+  path: 1[31035 -> 40934], [Wisconsin -> Green Bay] 
+
+  path: 2[31035 -> 90142 -> 100012], [Wisconsin -> Mississippi -> Gulf of Mexico] 
+
+srcNodes: [100012, 40934, 100012]
+  path: 0[31004 -> 100012], [Louisiana -> Gulf of Mexico] 
+
+  path: 1[31004 -> 90142 -> 31035 -> 40934], [Louisiana -> Mississippi -> Wisconsin -> Green Bay] 
+
+  path: 2[31004 -> 100012], [Louisiana -> Gulf of Mexico] 
+
+srcNodes: [100012, 40934, 100012]
+  path: 0[31010 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+  path: 1[31010 -> 90142 -> 31035 -> 40934], [Mississippi -> Mississippi -> Wisconsin -> Green Bay] 
+
+  path: 2[31010 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+srcNodes: [100012, 40934, 100007]
+  path: 0[20118 -> 31029 -> 100012], [United States -> Texas -> Gulf of Mexico] 
+
+  path: 1[20118 -> 31035 -> 40934], [United States -> Wisconsin -> Green Bay] 
+
+  path: 2[20118 -> 30996 -> 100007], [United States -> Georgia -> Black Sea] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [90142, 31035, 31004, 31010, 20118]
+ResultRelevs: [7.078677177429199, 6.590041637420654, 6.553183555603027, 6.553183555603027, 6.511002540588379]
+AvgResultRelev: 6.657217693328858
+AvgResultDissimilarity: 0.08
+Num of entries retrieved from the lists: 523
+Num of entries retrieved from NKMaps: 528
+Num of answer trees explored: 24
+
+Div Top-k Search by Exhustive, k=5
+[gulf, bay, sea]
+srcNodes: [100012, 40934, 100012]
+  path: 0[90142 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+  path: 1[90142 -> 31035 -> 40934], [Mississippi -> Wisconsin -> Green Bay] 
+
+  path: 2[90142 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+srcNodes: [100012, 40934, 100012]
+  path: 0[31035 -> 90142 -> 100012], [Wisconsin -> Mississippi -> Gulf of Mexico] 
+
+  path: 1[31035 -> 40934], [Wisconsin -> Green Bay] 
+
+  path: 2[31035 -> 90142 -> 100012], [Wisconsin -> Mississippi -> Gulf of Mexico] 
+
+srcNodes: [100012, 40934, 100012]
+  path: 0[31010 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+  path: 1[31010 -> 90142 -> 31035 -> 40934], [Mississippi -> Mississippi -> Wisconsin -> Green Bay] 
+
+  path: 2[31010 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+srcNodes: [100012, 40604, 100012]
+  path: 0[30987 -> 100012], [Alabama -> Gulf of Mexico] 
+
+  path: 1[30987 -> 40322 -> 110006 -> 30605 -> 40604], [Alabama -> Birmingham -> Great Britain Great Britain British Isles  -> Aberconwy and Colwyn -> Colwyn Bay] 
+
+  path: 2[30987 -> 100012], [Alabama -> Gulf of Mexico] 
+
+srcNodes: [100010, 40604, 100018]
+  path: 0[20221 -> 20220 -> 100010], [Kenya -> Somalia -> Gulf of Aden] 
+
+  path: 1[20221 -> 31402 -> 110006 -> 30605 -> 40604], [Kenya -> Central -> Great Britain Great Britain British Isles  -> Aberconwy and Colwyn -> Colwyn Bay] 
+
+  path: 2[20221 -> 31402 -> 100018], [Kenya -> Central -> Mediterranean Sea] 
+
+-----------------------------------------
+ResultDestNodes: [90142, 31035, 31010, 30987, 20221]
+ResultRelevs: [7.078677177429199, 6.590041637420654, 6.553183555603027, 6.1455793380737305, 5.57790470123291]
+AvgResultRelev: 6.389077281951904
+AvgResultDissimilarity: 0.5099999904632568
+Num of entries retrieved from the KNLists: 1060
+Num of entries retrieved from NKMaps: 1062
+Num of answer trees explored: 60
+Num of answer tree sets created: 473
+Num of answer tree sets removed: 106
+Max Num of answer tree sets in Q[]: 473
+
+Div Top-k Search by Astar02, k=5
+[gulf, bay, sea]
+srcNodes: [100012, 40934, 100012]
+  path: 0[90142 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+  path: 1[90142 -> 31035 -> 40934], [Mississippi -> Wisconsin -> Green Bay] 
+
+  path: 2[90142 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+srcNodes: [100012, 40934, 100012]
+  path: 0[31035 -> 90142 -> 100012], [Wisconsin -> Mississippi -> Gulf of Mexico] 
+
+  path: 1[31035 -> 40934], [Wisconsin -> Green Bay] 
+
+  path: 2[31035 -> 90142 -> 100012], [Wisconsin -> Mississippi -> Gulf of Mexico] 
+
+srcNodes: [100012, 40934, 100012]
+  path: 0[31004 -> 100012], [Louisiana -> Gulf of Mexico] 
+
+  path: 1[31004 -> 90142 -> 31035 -> 40934], [Louisiana -> Mississippi -> Wisconsin -> Green Bay] 
+
+  path: 2[31004 -> 100012], [Louisiana -> Gulf of Mexico] 
+
+srcNodes: [100012, 40604, 100012]
+  path: 0[30987 -> 100012], [Alabama -> Gulf of Mexico] 
+
+  path: 1[30987 -> 40322 -> 110006 -> 30605 -> 40604], [Alabama -> Birmingham -> Great Britain Great Britain British Isles  -> Aberconwy and Colwyn -> Colwyn Bay] 
+
+  path: 2[30987 -> 100012], [Alabama -> Gulf of Mexico] 
+
+srcNodes: [100010, 40604, 100018]
+  path: 0[20221 -> 20220 -> 100010], [Kenya -> Somalia -> Gulf of Aden] 
+
+  path: 1[20221 -> 31402 -> 110006 -> 30605 -> 40604], [Kenya -> Central -> Great Britain Great Britain British Isles  -> Aberconwy and Colwyn -> Colwyn Bay] 
+
+  path: 2[20221 -> 31402 -> 100018], [Kenya -> Central -> Mediterranean Sea] 
+
+-----------------------------------------
+ResultDestNodes: [90142, 31035, 31004, 30987, 20221]
+ResultRelevs: [7.078677177429199, 6.590041637420654, 6.553183555603027, 6.1455793380737305, 5.57790470123291]
+AvgResultRelev: 6.389077281951904
+AvgResultDissimilarity: 0.51
+Num of entries retrieved from the KNLists: 1060
+Num of entries retrieved from NKMaps: 1062
+Num of answer trees explored: 60
+Num of states created: 641
+Num of states explored: 575
+Num of heuristic search performed: 6
+Max Num of answer tree sets in Q[]: 67
+
+Div Top-k Search by Astar1nc_ap, k=5
+[gulf, bay, sea]
+srcNodes: [100012, 40934, 100012]
+  path: 0[90142 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+  path: 1[90142 -> 31035 -> 40934], [Mississippi -> Wisconsin -> Green Bay] 
+
+  path: 2[90142 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+srcNodes: [100012, 40934, 100012]
+  path: 0[31035 -> 90142 -> 100012], [Wisconsin -> Mississippi -> Gulf of Mexico] 
+
+  path: 1[31035 -> 40934], [Wisconsin -> Green Bay] 
+
+  path: 2[31035 -> 90142 -> 100012], [Wisconsin -> Mississippi -> Gulf of Mexico] 
+
+srcNodes: [100012, 40934, 100012]
+  path: 0[31010 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+  path: 1[31010 -> 90142 -> 31035 -> 40934], [Mississippi -> Mississippi -> Wisconsin -> Green Bay] 
+
+  path: 2[31010 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+srcNodes: [100012, 40604, 100012]
+  path: 0[30987 -> 100012], [Alabama -> Gulf of Mexico] 
+
+  path: 1[30987 -> 40322 -> 110006 -> 30605 -> 40604], [Alabama -> Birmingham -> Great Britain Great Britain British Isles  -> Aberconwy and Colwyn -> Colwyn Bay] 
+
+  path: 2[30987 -> 100012], [Alabama -> Gulf of Mexico] 
+
+srcNodes: [100010, 40604, 100018]
+  path: 0[20221 -> 20220 -> 100010], [Kenya -> Somalia -> Gulf of Aden] 
+
+  path: 1[20221 -> 31402 -> 110006 -> 30605 -> 40604], [Kenya -> Central -> Great Britain Great Britain British Isles  -> Aberconwy and Colwyn -> Colwyn Bay] 
+
+  path: 2[20221 -> 31402 -> 100018], [Kenya -> Central -> Mediterranean Sea] 
+
+-----------------------------------------
+ResultDestNodes: [90142, 31035, 31010, 30987, 20221]
+ResultRelevs: [7.078677177429199, 6.590041637420654, 6.553183555603027, 6.1455793380737305, 5.57790470123291]
+AvgResultRelev: 6.389077281951904
+AvgResultDissimilarity: 0.51
+Num of entries retrieved from the KNLists: 1060
+Num of entries retrieved from NKMaps: 1062
+Num of answer trees explored: 60
+Num of states created: 112
+Num of states explored: 57
+Num of heuristic search performed: 6
+Max Num of answer tree sets in Q[]: 37
+
+query: [mountain, himalaya, andes]
+Top-k Search by Blink-BDB, k=5
+[mountain, himalaya, andes]
+srcNodes: [70, 118, 221]
+  path: 0[20085 -> 30820 -> 70], [Egypt -> Sina al Janubiyah -> Jabal Katrina Jabal Katrina Sinai ] 
+
+  path: 1[20085 -> 10002 -> 20079 -> 118], [Egypt -> Asia -> Nepal -> Dhaulagiri Dhaulagiri Himalaya ] 
+
+  path: 2[20085 -> 10000 -> 20190 -> 31304 -> 221], [Egypt -> Africa -> Angola -> Huila -> Nevado del Huila Nevado del Huila Andes volcano] 
+
+srcNodes: [63, 118, 221]
+  path: 0[10000 -> 20186 -> 63], [Africa -> Morocco -> Tubkhal Tubkhal Atlas ] 
+
+  path: 1[10000 -> 20085 -> 10002 -> 20079 -> 118], [Africa -> Egypt -> Asia -> Nepal -> Dhaulagiri Dhaulagiri Himalaya ] 
+
+  path: 2[10000 -> 20190 -> 31304 -> 221], [Africa -> Angola -> Huila -> Nevado del Huila Nevado del Huila Andes volcano] 
+
+srcNodes: [65, 118, 221]
+  path: 0[20183 -> 20182 -> 65], [Libya -> Algeria -> Tahat Tahat Ahaggar volcanic] 
+
+  path: 1[20183 -> 20085 -> 10002 -> 20079 -> 118], [Libya -> Egypt -> Asia -> Nepal -> Dhaulagiri Dhaulagiri Himalaya ] 
+
+  path: 2[20183 -> 10000 -> 20190 -> 31304 -> 221], [Libya -> Africa -> Angola -> Huila -> Nevado del Huila Nevado del Huila Andes volcano] 
+
+srcNodes: [68, 118, 221]
+  path: 0[20213 -> 20209 -> 68], [Sudan -> Chad -> Emi Kussi Emi Kussi Tibesti volcano] 
+
+  path: 1[20213 -> 20085 -> 10002 -> 20079 -> 118], [Sudan -> Egypt -> Asia -> Nepal -> Dhaulagiri Dhaulagiri Himalaya ] 
+
+  path: 2[20213 -> 20193 -> 20190 -> 31304 -> 221], [Sudan -> Zaire -> Angola -> Huila -> Nevado del Huila Nevado del Huila Andes volcano] 
+
+-----------------------------------------
+Num of top-k answers: 4
+ResultDestNodes: [20085, 10000, 20183, 20213]
+ResultRelevs: [3.4005725383758545, 3.299654483795166, 3.0419857501983643, 2.9010205268859863]
+AvgResultRelev: 3.1608083248138428
+AvgResultDissimilarity: 0.3333333333333333
+Num of entries retrieved from the lists: 682
+Num of entries retrieved from NKMaps: 1052
+Num of answer trees explored: 4
+
+Div Top-k Search by Exhustive, k=5
+[mountain, himalaya, andes]
+div top-k answers for q do not exist in G!
+
+Div Top-k Search by Astar02, k=5
+[mountain, himalaya, andes]
+Div top-k answers for q do not exist in G!
+Num of entries retrieved from the KNLists: 682
+Num of entries retrieved from NKMaps: 1052
+Num of answer trees explored: 4
+Num of states created: 0
+Num of states explored: 0
+Num of heuristic search performed: 0
+Max Num of answer tree sets in Q[]: 0
+
+Div Top-k Search by Astar1nc_ap, k=5
+[mountain, himalaya, andes]
+Div top-k answers for q do not exist in G!
+Num of entries retrieved from the KNLists: 682
+Num of entries retrieved from NKMaps: 1052
+Num of answer trees explored: 4
+Num of states created: 0
+Num of states explored: 0
+Num of heuristic search performed: 0
+Max Num of answer tree sets in Q[]: 0
+
+query: [peak, mountain, rocky]
+Top-k Search by Blink-BDB, k=5
+[peak, mountain, rocky]
+srcNodes: [188, 188, 188]
+  path: 0[188 -> 188], [Wheeler Peak Wheeler Peak Rocky Mountains  -> Wheeler Peak Wheeler Peak Rocky Mountains ]
+  path: 1[188 -> 188], [Wheeler Peak Wheeler Peak Rocky Mountains  -> Wheeler Peak Wheeler Peak Rocky Mountains ]
+  path: 2[188 -> 188], [Wheeler Peak Wheeler Peak Rocky Mountains  -> Wheeler Peak Wheeler Peak Rocky Mountains ]
+srcNodes: [190, 190, 190]
+  path: 0[190 -> 190], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Guadalupe Peak Guadalupe Peak Rocky Mountains ]
+  path: 1[190 -> 190], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Guadalupe Peak Guadalupe Peak Rocky Mountains ]
+  path: 2[190 -> 190], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Guadalupe Peak Guadalupe Peak Rocky Mountains ]
+srcNodes: [181, 181, 181]
+  path: 0[181 -> 181], [Granite Peak Granite Peak Rocky Mountains  -> Granite Peak Granite Peak Rocky Mountains ]
+  path: 1[181 -> 181], [Granite Peak Granite Peak Rocky Mountains  -> Granite Peak Granite Peak Rocky Mountains ]
+  path: 2[181 -> 181], [Granite Peak Granite Peak Rocky Mountains  -> Granite Peak Granite Peak Rocky Mountains ]
+srcNodes: [182, 182, 182]
+  path: 0[182 -> 182], [Borah Peak Borah Peak Rocky Mountains  -> Borah Peak Borah Peak Rocky Mountains ]
+  path: 1[182 -> 182], [Borah Peak Borah Peak Rocky Mountains  -> Borah Peak Borah Peak Rocky Mountains ]
+  path: 2[182 -> 182], [Borah Peak Borah Peak Rocky Mountains  -> Borah Peak Borah Peak Rocky Mountains ]
+srcNodes: [187, 187, 187]
+  path: 0[187 -> 187], [Pikes Peak Pikes Peak Rocky Mountains  -> Pikes Peak Pikes Peak Rocky Mountains ]
+  path: 1[187 -> 187], [Pikes Peak Pikes Peak Rocky Mountains  -> Pikes Peak Pikes Peak Rocky Mountains ]
+  path: 2[187 -> 187], [Pikes Peak Pikes Peak Rocky Mountains  -> Pikes Peak Pikes Peak Rocky Mountains ]
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [188, 190, 181, 182, 187]
+ResultRelevs: [8.12550163269043, 8.12550163269043, 8.12550163269043, 8.12550163269043, 8.12550163269043]
+AvgResultRelev: 8.12550163269043
+AvgResultDissimilarity: 1.0
+Num of entries retrieved from the lists: 37
+Num of entries retrieved from NKMaps: 44
+Num of answer trees explored: 10
+
+Div Top-k Search by Exhustive, k=5
+[peak, mountain, rocky]
+srcNodes: [187, 187, 187]
+  path: 0[187 -> 187], [Pikes Peak Pikes Peak Rocky Mountains  -> Pikes Peak Pikes Peak Rocky Mountains ]
+  path: 1[187 -> 187], [Pikes Peak Pikes Peak Rocky Mountains  -> Pikes Peak Pikes Peak Rocky Mountains ]
+  path: 2[187 -> 187], [Pikes Peak Pikes Peak Rocky Mountains  -> Pikes Peak Pikes Peak Rocky Mountains ]
+srcNodes: [188, 188, 188]
+  path: 0[188 -> 188], [Wheeler Peak Wheeler Peak Rocky Mountains  -> Wheeler Peak Wheeler Peak Rocky Mountains ]
+  path: 1[188 -> 188], [Wheeler Peak Wheeler Peak Rocky Mountains  -> Wheeler Peak Wheeler Peak Rocky Mountains ]
+  path: 2[188 -> 188], [Wheeler Peak Wheeler Peak Rocky Mountains  -> Wheeler Peak Wheeler Peak Rocky Mountains ]
+srcNodes: [181, 181, 181]
+  path: 0[181 -> 181], [Granite Peak Granite Peak Rocky Mountains  -> Granite Peak Granite Peak Rocky Mountains ]
+  path: 1[181 -> 181], [Granite Peak Granite Peak Rocky Mountains  -> Granite Peak Granite Peak Rocky Mountains ]
+  path: 2[181 -> 181], [Granite Peak Granite Peak Rocky Mountains  -> Granite Peak Granite Peak Rocky Mountains ]
+srcNodes: [185, 185, 185]
+  path: 0[185 -> 185], [Kings Peak Kings Peak Rocky Mountains  -> Kings Peak Kings Peak Rocky Mountains ]
+  path: 1[185 -> 185], [Kings Peak Kings Peak Rocky Mountains  -> Kings Peak Kings Peak Rocky Mountains ]
+  path: 2[185 -> 185], [Kings Peak Kings Peak Rocky Mountains  -> Kings Peak Kings Peak Rocky Mountains ]
+srcNodes: [184, 184, 184]
+  path: 0[184 -> 184], [Gannett Peak Gannett Peak Rocky Mountains  -> Gannett Peak Gannett Peak Rocky Mountains ]
+  path: 1[184 -> 184], [Gannett Peak Gannett Peak Rocky Mountains  -> Gannett Peak Gannett Peak Rocky Mountains ]
+  path: 2[184 -> 184], [Gannett Peak Gannett Peak Rocky Mountains  -> Gannett Peak Gannett Peak Rocky Mountains ]
+-----------------------------------------
+ResultDestNodes: [187, 188, 181, 185, 184]
+ResultRelevs: [8.12550163269043, 8.12550163269043, 8.12550163269043, 8.12550163269043, 8.12550163269043]
+AvgResultRelev: 8.12550163269043
+AvgResultDissimilarity: 1.0
+Num of entries retrieved from the KNLists: 37
+Num of entries retrieved from NKMaps: 44
+Num of answer trees explored: 10
+Num of answer tree sets created: 31
+Num of answer tree sets removed: 0
+Max Num of answer tree sets in Q[]: 31
+
+Div Top-k Search by Astar02, k=5
+[peak, mountain, rocky]
+srcNodes: [187, 187, 187]
+  path: 0[187 -> 187], [Pikes Peak Pikes Peak Rocky Mountains  -> Pikes Peak Pikes Peak Rocky Mountains ]
+  path: 1[187 -> 187], [Pikes Peak Pikes Peak Rocky Mountains  -> Pikes Peak Pikes Peak Rocky Mountains ]
+  path: 2[187 -> 187], [Pikes Peak Pikes Peak Rocky Mountains  -> Pikes Peak Pikes Peak Rocky Mountains ]
+srcNodes: [188, 188, 188]
+  path: 0[188 -> 188], [Wheeler Peak Wheeler Peak Rocky Mountains  -> Wheeler Peak Wheeler Peak Rocky Mountains ]
+  path: 1[188 -> 188], [Wheeler Peak Wheeler Peak Rocky Mountains  -> Wheeler Peak Wheeler Peak Rocky Mountains ]
+  path: 2[188 -> 188], [Wheeler Peak Wheeler Peak Rocky Mountains  -> Wheeler Peak Wheeler Peak Rocky Mountains ]
+srcNodes: [181, 181, 181]
+  path: 0[181 -> 181], [Granite Peak Granite Peak Rocky Mountains  -> Granite Peak Granite Peak Rocky Mountains ]
+  path: 1[181 -> 181], [Granite Peak Granite Peak Rocky Mountains  -> Granite Peak Granite Peak Rocky Mountains ]
+  path: 2[181 -> 181], [Granite Peak Granite Peak Rocky Mountains  -> Granite Peak Granite Peak Rocky Mountains ]
+srcNodes: [185, 185, 185]
+  path: 0[185 -> 185], [Kings Peak Kings Peak Rocky Mountains  -> Kings Peak Kings Peak Rocky Mountains ]
+  path: 1[185 -> 185], [Kings Peak Kings Peak Rocky Mountains  -> Kings Peak Kings Peak Rocky Mountains ]
+  path: 2[185 -> 185], [Kings Peak Kings Peak Rocky Mountains  -> Kings Peak Kings Peak Rocky Mountains ]
+srcNodes: [184, 184, 184]
+  path: 0[184 -> 184], [Gannett Peak Gannett Peak Rocky Mountains  -> Gannett Peak Gannett Peak Rocky Mountains ]
+  path: 1[184 -> 184], [Gannett Peak Gannett Peak Rocky Mountains  -> Gannett Peak Gannett Peak Rocky Mountains ]
+  path: 2[184 -> 184], [Gannett Peak Gannett Peak Rocky Mountains  -> Gannett Peak Gannett Peak Rocky Mountains ]
+-----------------------------------------
+ResultDestNodes: [187, 188, 181, 185, 184]
+ResultRelevs: [8.12550163269043, 8.12550163269043, 8.12550163269043, 8.12550163269043, 8.12550163269043]
+AvgResultRelev: 8.12550163269043
+AvgResultDissimilarity: 1.0
+Num of entries retrieved from the KNLists: 37
+Num of entries retrieved from NKMaps: 44
+Num of answer trees explored: 10
+Num of states created: 22
+Num of states explored: 19
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 8
+
+Div Top-k Search by Astar1nc_ap, k=5
+[peak, mountain, rocky]
+srcNodes: [187, 187, 187]
+  path: 0[187 -> 187], [Pikes Peak Pikes Peak Rocky Mountains  -> Pikes Peak Pikes Peak Rocky Mountains ]
+  path: 1[187 -> 187], [Pikes Peak Pikes Peak Rocky Mountains  -> Pikes Peak Pikes Peak Rocky Mountains ]
+  path: 2[187 -> 187], [Pikes Peak Pikes Peak Rocky Mountains  -> Pikes Peak Pikes Peak Rocky Mountains ]
+srcNodes: [188, 188, 188]
+  path: 0[188 -> 188], [Wheeler Peak Wheeler Peak Rocky Mountains  -> Wheeler Peak Wheeler Peak Rocky Mountains ]
+  path: 1[188 -> 188], [Wheeler Peak Wheeler Peak Rocky Mountains  -> Wheeler Peak Wheeler Peak Rocky Mountains ]
+  path: 2[188 -> 188], [Wheeler Peak Wheeler Peak Rocky Mountains  -> Wheeler Peak Wheeler Peak Rocky Mountains ]
+srcNodes: [181, 181, 181]
+  path: 0[181 -> 181], [Granite Peak Granite Peak Rocky Mountains  -> Granite Peak Granite Peak Rocky Mountains ]
+  path: 1[181 -> 181], [Granite Peak Granite Peak Rocky Mountains  -> Granite Peak Granite Peak Rocky Mountains ]
+  path: 2[181 -> 181], [Granite Peak Granite Peak Rocky Mountains  -> Granite Peak Granite Peak Rocky Mountains ]
+srcNodes: [185, 185, 185]
+  path: 0[185 -> 185], [Kings Peak Kings Peak Rocky Mountains  -> Kings Peak Kings Peak Rocky Mountains ]
+  path: 1[185 -> 185], [Kings Peak Kings Peak Rocky Mountains  -> Kings Peak Kings Peak Rocky Mountains ]
+  path: 2[185 -> 185], [Kings Peak Kings Peak Rocky Mountains  -> Kings Peak Kings Peak Rocky Mountains ]
+srcNodes: [184, 184, 184]
+  path: 0[184 -> 184], [Gannett Peak Gannett Peak Rocky Mountains  -> Gannett Peak Gannett Peak Rocky Mountains ]
+  path: 1[184 -> 184], [Gannett Peak Gannett Peak Rocky Mountains  -> Gannett Peak Gannett Peak Rocky Mountains ]
+  path: 2[184 -> 184], [Gannett Peak Gannett Peak Rocky Mountains  -> Gannett Peak Gannett Peak Rocky Mountains ]
+-----------------------------------------
+ResultDestNodes: [187, 188, 181, 185, 184]
+ResultRelevs: [8.12550163269043, 8.12550163269043, 8.12550163269043, 8.12550163269043, 8.12550163269043]
+AvgResultRelev: 8.12550163269043
+AvgResultDissimilarity: 1.0
+Num of entries retrieved from the KNLists: 37
+Num of entries retrieved from NKMaps: 44
+Num of answer trees explored: 10
+Num of states created: 6
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+query: [peak, mountain, himalaya]
+Top-k Search by Blink-BDB, k=5
+[peak, mountain, himalaya]
+srcNodes: [115, 118, 118]
+  path: 0[118 -> 20079 -> 20053 -> 30657 -> 115], [Dhaulagiri Dhaulagiri Himalaya  -> Nepal -> China -> Xinjiang Uygur -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[118 -> 118], [Dhaulagiri Dhaulagiri Himalaya  -> Dhaulagiri Dhaulagiri Himalaya ]
+  path: 2[118 -> 118], [Dhaulagiri Dhaulagiri Himalaya  -> Dhaulagiri Dhaulagiri Himalaya ]
+srcNodes: [115, 120, 120]
+  path: 0[120 -> 20079 -> 20053 -> 30657 -> 115], [Manaslu Manaslu Himalaya  -> Nepal -> China -> Xinjiang Uygur -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[120 -> 120], [Manaslu Manaslu Himalaya  -> Manaslu Manaslu Himalaya ]
+  path: 2[120 -> 120], [Manaslu Manaslu Himalaya  -> Manaslu Manaslu Himalaya ]
+srcNodes: [115, 119, 119]
+  path: 0[119 -> 20079 -> 20053 -> 30657 -> 115], [Annapurna Annapurna Himalaya  -> Nepal -> China -> Xinjiang Uygur -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[119 -> 119], [Annapurna Annapurna Himalaya  -> Annapurna Annapurna Himalaya ]
+  path: 2[119 -> 119], [Annapurna Annapurna Himalaya  -> Annapurna Annapurna Himalaya ]
+srcNodes: [115, 124, 124]
+  path: 0[124 -> 20079 -> 20053 -> 30657 -> 115], [Mount Everest Mount Everest Himalaya  -> Nepal -> China -> Xinjiang Uygur -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[124 -> 124], [Mount Everest Mount Everest Himalaya  -> Mount Everest Mount Everest Himalaya ]
+  path: 2[124 -> 124], [Mount Everest Mount Everest Himalaya  -> Mount Everest Mount Everest Himalaya ]
+srcNodes: [115, 123, 123]
+  path: 0[123 -> 20079 -> 20053 -> 30657 -> 115], [Cho Oyu Cho Oyu Himalaya  -> Nepal -> China -> Xinjiang Uygur -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[123 -> 123], [Cho Oyu Cho Oyu Himalaya  -> Cho Oyu Cho Oyu Himalaya ]
+  path: 2[123 -> 123], [Cho Oyu Cho Oyu Himalaya  -> Cho Oyu Cho Oyu Himalaya ]
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [118, 120, 119, 124, 123]
+ResultRelevs: [6.914433002471924, 6.914433002471924, 6.914433002471924, 6.914433002471924, 6.914433002471924]
+AvgResultRelev: 6.914433002471924
+AvgResultDissimilarity: 0.5
+Num of entries retrieved from the lists: 53
+Num of entries retrieved from NKMaps: 86
+Num of answer trees explored: 18
+
+Div Top-k Search by Exhustive, k=5
+[peak, mountain, himalaya]
+srcNodes: [115, 118, 118]
+  path: 0[118 -> 20079 -> 20053 -> 30657 -> 115], [Dhaulagiri Dhaulagiri Himalaya  -> Nepal -> China -> Xinjiang Uygur -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[118 -> 118], [Dhaulagiri Dhaulagiri Himalaya  -> Dhaulagiri Dhaulagiri Himalaya ]
+  path: 2[118 -> 118], [Dhaulagiri Dhaulagiri Himalaya  -> Dhaulagiri Dhaulagiri Himalaya ]
+srcNodes: [115, 119, 119]
+  path: 0[119 -> 20079 -> 20053 -> 30657 -> 115], [Annapurna Annapurna Himalaya  -> Nepal -> China -> Xinjiang Uygur -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[119 -> 119], [Annapurna Annapurna Himalaya  -> Annapurna Annapurna Himalaya ]
+  path: 2[119 -> 119], [Annapurna Annapurna Himalaya  -> Annapurna Annapurna Himalaya ]
+srcNodes: [115, 121, 121]
+  path: 0[121 -> 30658 -> 90128 -> 20055 -> 115], [Shishapangma Shishapangma Himalaya  -> Tibet -> Indus -> Pakistan -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[121 -> 121], [Shishapangma Shishapangma Himalaya  -> Shishapangma Shishapangma Himalaya ]
+  path: 2[121 -> 121], [Shishapangma Shishapangma Himalaya  -> Shishapangma Shishapangma Himalaya ]
+srcNodes: [115, 126, 126]
+  path: 0[126 -> 20079 -> 20053 -> 30657 -> 115], [Makalu Makalu Himalaya  -> Nepal -> China -> Xinjiang Uygur -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[126 -> 126], [Makalu Makalu Himalaya  -> Makalu Makalu Himalaya ]
+  path: 2[126 -> 126], [Makalu Makalu Himalaya  -> Makalu Makalu Himalaya ]
+srcNodes: [115, 124, 124]
+  path: 0[124 -> 20079 -> 20053 -> 30657 -> 115], [Mount Everest Mount Everest Himalaya  -> Nepal -> China -> Xinjiang Uygur -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[124 -> 124], [Mount Everest Mount Everest Himalaya  -> Mount Everest Mount Everest Himalaya ]
+  path: 2[124 -> 124], [Mount Everest Mount Everest Himalaya  -> Mount Everest Mount Everest Himalaya ]
+-----------------------------------------
+ResultDestNodes: [118, 119, 121, 126, 124]
+ResultRelevs: [6.914433002471924, 6.914433002471924, 6.914433002471924, 6.914433002471924, 6.914433002471924]
+AvgResultRelev: 6.914433002471924
+AvgResultDissimilarity: 0.5
+Num of entries retrieved from the KNLists: 53
+Num of entries retrieved from NKMaps: 86
+Num of answer trees explored: 18
+Num of answer tree sets created: 31
+Num of answer tree sets removed: 0
+Max Num of answer tree sets in Q[]: 31
+
+Div Top-k Search by Astar02, k=5
+[peak, mountain, himalaya]
+srcNodes: [115, 118, 118]
+  path: 0[118 -> 20079 -> 20053 -> 30657 -> 115], [Dhaulagiri Dhaulagiri Himalaya  -> Nepal -> China -> Xinjiang Uygur -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[118 -> 118], [Dhaulagiri Dhaulagiri Himalaya  -> Dhaulagiri Dhaulagiri Himalaya ]
+  path: 2[118 -> 118], [Dhaulagiri Dhaulagiri Himalaya  -> Dhaulagiri Dhaulagiri Himalaya ]
+srcNodes: [115, 119, 119]
+  path: 0[119 -> 20079 -> 20053 -> 30657 -> 115], [Annapurna Annapurna Himalaya  -> Nepal -> China -> Xinjiang Uygur -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[119 -> 119], [Annapurna Annapurna Himalaya  -> Annapurna Annapurna Himalaya ]
+  path: 2[119 -> 119], [Annapurna Annapurna Himalaya  -> Annapurna Annapurna Himalaya ]
+srcNodes: [115, 121, 121]
+  path: 0[121 -> 30658 -> 90128 -> 20055 -> 115], [Shishapangma Shishapangma Himalaya  -> Tibet -> Indus -> Pakistan -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[121 -> 121], [Shishapangma Shishapangma Himalaya  -> Shishapangma Shishapangma Himalaya ]
+  path: 2[121 -> 121], [Shishapangma Shishapangma Himalaya  -> Shishapangma Shishapangma Himalaya ]
+srcNodes: [115, 126, 126]
+  path: 0[126 -> 20079 -> 20053 -> 30657 -> 115], [Makalu Makalu Himalaya  -> Nepal -> China -> Xinjiang Uygur -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[126 -> 126], [Makalu Makalu Himalaya  -> Makalu Makalu Himalaya ]
+  path: 2[126 -> 126], [Makalu Makalu Himalaya  -> Makalu Makalu Himalaya ]
+srcNodes: [115, 124, 124]
+  path: 0[124 -> 20079 -> 20053 -> 30657 -> 115], [Mount Everest Mount Everest Himalaya  -> Nepal -> China -> Xinjiang Uygur -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[124 -> 124], [Mount Everest Mount Everest Himalaya  -> Mount Everest Mount Everest Himalaya ]
+  path: 2[124 -> 124], [Mount Everest Mount Everest Himalaya  -> Mount Everest Mount Everest Himalaya ]
+-----------------------------------------
+ResultDestNodes: [118, 119, 121, 126, 124]
+ResultRelevs: [6.914433002471924, 6.914433002471924, 6.914433002471924, 6.914433002471924, 6.914433002471924]
+AvgResultRelev: 6.914433002471924
+AvgResultDissimilarity: 0.5
+Num of entries retrieved from the KNLists: 53
+Num of entries retrieved from NKMaps: 86
+Num of answer trees explored: 18
+Num of states created: 22
+Num of states explored: 19
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 8
+
+Div Top-k Search by Astar1nc_ap, k=5
+[peak, mountain, himalaya]
+srcNodes: [115, 118, 118]
+  path: 0[118 -> 20079 -> 20053 -> 30657 -> 115], [Dhaulagiri Dhaulagiri Himalaya  -> Nepal -> China -> Xinjiang Uygur -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[118 -> 118], [Dhaulagiri Dhaulagiri Himalaya  -> Dhaulagiri Dhaulagiri Himalaya ]
+  path: 2[118 -> 118], [Dhaulagiri Dhaulagiri Himalaya  -> Dhaulagiri Dhaulagiri Himalaya ]
+srcNodes: [115, 119, 119]
+  path: 0[119 -> 20079 -> 20053 -> 30657 -> 115], [Annapurna Annapurna Himalaya  -> Nepal -> China -> Xinjiang Uygur -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[119 -> 119], [Annapurna Annapurna Himalaya  -> Annapurna Annapurna Himalaya ]
+  path: 2[119 -> 119], [Annapurna Annapurna Himalaya  -> Annapurna Annapurna Himalaya ]
+srcNodes: [115, 121, 121]
+  path: 0[121 -> 30658 -> 90128 -> 20055 -> 115], [Shishapangma Shishapangma Himalaya  -> Tibet -> Indus -> Pakistan -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[121 -> 121], [Shishapangma Shishapangma Himalaya  -> Shishapangma Shishapangma Himalaya ]
+  path: 2[121 -> 121], [Shishapangma Shishapangma Himalaya  -> Shishapangma Shishapangma Himalaya ]
+srcNodes: [115, 126, 126]
+  path: 0[126 -> 20079 -> 20053 -> 30657 -> 115], [Makalu Makalu Himalaya  -> Nepal -> China -> Xinjiang Uygur -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[126 -> 126], [Makalu Makalu Himalaya  -> Makalu Makalu Himalaya ]
+  path: 2[126 -> 126], [Makalu Makalu Himalaya  -> Makalu Makalu Himalaya ]
+srcNodes: [115, 124, 124]
+  path: 0[124 -> 20079 -> 20053 -> 30657 -> 115], [Mount Everest Mount Everest Himalaya  -> Nepal -> China -> Xinjiang Uygur -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[124 -> 124], [Mount Everest Mount Everest Himalaya  -> Mount Everest Mount Everest Himalaya ]
+  path: 2[124 -> 124], [Mount Everest Mount Everest Himalaya  -> Mount Everest Mount Everest Himalaya ]
+-----------------------------------------
+ResultDestNodes: [118, 119, 121, 126, 124]
+ResultRelevs: [6.914433002471924, 6.914433002471924, 6.914433002471924, 6.914433002471924, 6.914433002471924]
+AvgResultRelev: 6.914433002471924
+AvgResultDissimilarity: 0.5
+Num of entries retrieved from the KNLists: 53
+Num of entries retrieved from NKMaps: 86
+Num of answer trees explored: 18
+Num of states created: 6
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+query: [province, mountain, lake]
+Top-k Search by Blink-BDB, k=5
+[province, mountain, lake]
+srcNodes: null
+srcNodes: null
+srcNodes: null
+srcNodes: null
+srcNodes: null
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [118, 120, 119, 124, 123]
+ResultRelevs: [6.914433002471924, 6.914433002471924, 6.914433002471924, 6.914433002471924, 6.914433002471924]
+AvgResultRelev: 6.914433002471924
+AvgResultDissimilarity: 0.5
+Num of entries retrieved from the lists: 53
+Num of entries retrieved from NKMaps: 86
+Num of answer trees explored: 18
+
+Div Top-k Search by Exhustive, k=5
+[province, mountain, lake]
+srcNodes: [115, 118, 118]
+  path: 0[118 -> 20079 -> 20053 -> 30657 -> 115], [Dhaulagiri Dhaulagiri Himalaya  -> Nepal -> China -> Xinjiang Uygur -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[118 -> 118], [Dhaulagiri Dhaulagiri Himalaya  -> Dhaulagiri Dhaulagiri Himalaya ]
+  path: 2[118 -> 118], [Dhaulagiri Dhaulagiri Himalaya  -> Dhaulagiri Dhaulagiri Himalaya ]
+srcNodes: [115, 119, 119]
+  path: 0[119 -> 20079 -> 20053 -> 30657 -> 115], [Annapurna Annapurna Himalaya  -> Nepal -> China -> Xinjiang Uygur -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[119 -> 119], [Annapurna Annapurna Himalaya  -> Annapurna Annapurna Himalaya ]
+  path: 2[119 -> 119], [Annapurna Annapurna Himalaya  -> Annapurna Annapurna Himalaya ]
+srcNodes: [115, 121, 121]
+  path: 0[121 -> 30658 -> 90128 -> 20055 -> 115], [Shishapangma Shishapangma Himalaya  -> Tibet -> Indus -> Pakistan -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[121 -> 121], [Shishapangma Shishapangma Himalaya  -> Shishapangma Shishapangma Himalaya ]
+  path: 2[121 -> 121], [Shishapangma Shishapangma Himalaya  -> Shishapangma Shishapangma Himalaya ]
+srcNodes: [115, 126, 126]
+  path: 0[126 -> 20079 -> 20053 -> 30657 -> 115], [Makalu Makalu Himalaya  -> Nepal -> China -> Xinjiang Uygur -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[126 -> 126], [Makalu Makalu Himalaya  -> Makalu Makalu Himalaya ]
+  path: 2[126 -> 126], [Makalu Makalu Himalaya  -> Makalu Makalu Himalaya ]
+srcNodes: [115, 124, 124]
+  path: 0[124 -> 20079 -> 20053 -> 30657 -> 115], [Mount Everest Mount Everest Himalaya  -> Nepal -> China -> Xinjiang Uygur -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[124 -> 124], [Mount Everest Mount Everest Himalaya  -> Mount Everest Mount Everest Himalaya ]
+  path: 2[124 -> 124], [Mount Everest Mount Everest Himalaya  -> Mount Everest Mount Everest Himalaya ]
+-----------------------------------------
+ResultDestNodes: [118, 119, 121, 126, 124]
+ResultRelevs: [6.914433002471924, 6.914433002471924, 6.914433002471924, 6.914433002471924, 6.914433002471924]
+AvgResultRelev: 6.914433002471924
+AvgResultDissimilarity: 0.5
+Num of entries retrieved from the KNLists: 53
+Num of entries retrieved from NKMaps: 86
+Num of answer trees explored: 18
+Num of answer tree sets created: 31
+Num of answer tree sets removed: 0
+Max Num of answer tree sets in Q[]: 31
+
+Div Top-k Search by Astar02, k=5
+[province, mountain, lake]
+srcNodes: [115, 118, 118]
+  path: 0[118 -> 20079 -> 20053 -> 30657 -> 115], [Dhaulagiri Dhaulagiri Himalaya  -> Nepal -> China -> Xinjiang Uygur -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[118 -> 118], [Dhaulagiri Dhaulagiri Himalaya  -> Dhaulagiri Dhaulagiri Himalaya ]
+  path: 2[118 -> 118], [Dhaulagiri Dhaulagiri Himalaya  -> Dhaulagiri Dhaulagiri Himalaya ]
+srcNodes: [115, 119, 119]
+  path: 0[119 -> 20079 -> 20053 -> 30657 -> 115], [Annapurna Annapurna Himalaya  -> Nepal -> China -> Xinjiang Uygur -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[119 -> 119], [Annapurna Annapurna Himalaya  -> Annapurna Annapurna Himalaya ]
+  path: 2[119 -> 119], [Annapurna Annapurna Himalaya  -> Annapurna Annapurna Himalaya ]
+srcNodes: [115, 121, 121]
+  path: 0[121 -> 30658 -> 90128 -> 20055 -> 115], [Shishapangma Shishapangma Himalaya  -> Tibet -> Indus -> Pakistan -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[121 -> 121], [Shishapangma Shishapangma Himalaya  -> Shishapangma Shishapangma Himalaya ]
+  path: 2[121 -> 121], [Shishapangma Shishapangma Himalaya  -> Shishapangma Shishapangma Himalaya ]
+srcNodes: [115, 126, 126]
+  path: 0[126 -> 20079 -> 20053 -> 30657 -> 115], [Makalu Makalu Himalaya  -> Nepal -> China -> Xinjiang Uygur -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[126 -> 126], [Makalu Makalu Himalaya  -> Makalu Makalu Himalaya ]
+  path: 2[126 -> 126], [Makalu Makalu Himalaya  -> Makalu Makalu Himalaya ]
+srcNodes: [115, 124, 124]
+  path: 0[124 -> 20079 -> 20053 -> 30657 -> 115], [Mount Everest Mount Everest Himalaya  -> Nepal -> China -> Xinjiang Uygur -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[124 -> 124], [Mount Everest Mount Everest Himalaya  -> Mount Everest Mount Everest Himalaya ]
+  path: 2[124 -> 124], [Mount Everest Mount Everest Himalaya  -> Mount Everest Mount Everest Himalaya ]
+-----------------------------------------
+ResultDestNodes: [118, 119, 121, 126, 124]
+ResultRelevs: [6.914433002471924, 6.914433002471924, 6.914433002471924, 6.914433002471924, 6.914433002471924]
+AvgResultRelev: 6.914433002471924
+AvgResultDissimilarity: 0.5
+Num of entries retrieved from the KNLists: 53
+Num of entries retrieved from NKMaps: 86
+Num of answer trees explored: 18
+Num of states created: 0
+Num of states explored: 0
+Num of heuristic search performed: 0
+Max Num of answer tree sets in Q[]: 0
+
+Div Top-k Search by Astar1nc_ap, k=5
+[province, mountain, lake]
+srcNodes: [115, 118, 118]
+  path: 0[118 -> 20079 -> 20053 -> 30657 -> 115], [Dhaulagiri Dhaulagiri Himalaya  -> Nepal -> China -> Xinjiang Uygur -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[118 -> 118], [Dhaulagiri Dhaulagiri Himalaya  -> Dhaulagiri Dhaulagiri Himalaya ]
+  path: 2[118 -> 118], [Dhaulagiri Dhaulagiri Himalaya  -> Dhaulagiri Dhaulagiri Himalaya ]
+srcNodes: [115, 119, 119]
+  path: 0[119 -> 20079 -> 20053 -> 30657 -> 115], [Annapurna Annapurna Himalaya  -> Nepal -> China -> Xinjiang Uygur -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[119 -> 119], [Annapurna Annapurna Himalaya  -> Annapurna Annapurna Himalaya ]
+  path: 2[119 -> 119], [Annapurna Annapurna Himalaya  -> Annapurna Annapurna Himalaya ]
+srcNodes: [115, 121, 121]
+  path: 0[121 -> 30658 -> 90128 -> 20055 -> 115], [Shishapangma Shishapangma Himalaya  -> Tibet -> Indus -> Pakistan -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[121 -> 121], [Shishapangma Shishapangma Himalaya  -> Shishapangma Shishapangma Himalaya ]
+  path: 2[121 -> 121], [Shishapangma Shishapangma Himalaya  -> Shishapangma Shishapangma Himalaya ]
+srcNodes: [115, 126, 126]
+  path: 0[126 -> 20079 -> 20053 -> 30657 -> 115], [Makalu Makalu Himalaya  -> Nepal -> China -> Xinjiang Uygur -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[126 -> 126], [Makalu Makalu Himalaya  -> Makalu Makalu Himalaya ]
+  path: 2[126 -> 126], [Makalu Makalu Himalaya  -> Makalu Makalu Himalaya ]
+srcNodes: [115, 124, 124]
+  path: 0[124 -> 20079 -> 20053 -> 30657 -> 115], [Mount Everest Mount Everest Himalaya  -> Nepal -> China -> Xinjiang Uygur -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[124 -> 124], [Mount Everest Mount Everest Himalaya  -> Mount Everest Mount Everest Himalaya ]
+  path: 2[124 -> 124], [Mount Everest Mount Everest Himalaya  -> Mount Everest Mount Everest Himalaya ]
+-----------------------------------------
+ResultDestNodes: [118, 119, 121, 126, 124]
+ResultRelevs: [6.914433002471924, 6.914433002471924, 6.914433002471924, 6.914433002471924, 6.914433002471924]
+AvgResultRelev: 6.914433002471924
+AvgResultDissimilarity: 0.5
+Num of entries retrieved from the KNLists: 53
+Num of entries retrieved from NKMaps: 86
+Num of answer trees explored: 18
+Num of states created: 0
+Num of states explored: 0
+Num of heuristic search performed: 0
+Max Num of answer tree sets in Q[]: 0
+
+query: [province, mountain, river]
+Top-k Search by Blink-BDB, k=5
+[province, mountain, river]
+srcNodes: null
+srcNodes: null
+srcNodes: null
+srcNodes: null
+srcNodes: null
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [118, 120, 119, 124, 123]
+ResultRelevs: [6.914433002471924, 6.914433002471924, 6.914433002471924, 6.914433002471924, 6.914433002471924]
+AvgResultRelev: 6.914433002471924
+AvgResultDissimilarity: 0.5
+Num of entries retrieved from the lists: 53
+Num of entries retrieved from NKMaps: 86
+Num of answer trees explored: 18
+
+Div Top-k Search by Exhustive, k=5
+[province, mountain, river]
+srcNodes: [115, 118, 118]
+  path: 0[118 -> 20079 -> 20053 -> 30657 -> 115], [Dhaulagiri Dhaulagiri Himalaya  -> Nepal -> China -> Xinjiang Uygur -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[118 -> 118], [Dhaulagiri Dhaulagiri Himalaya  -> Dhaulagiri Dhaulagiri Himalaya ]
+  path: 2[118 -> 118], [Dhaulagiri Dhaulagiri Himalaya  -> Dhaulagiri Dhaulagiri Himalaya ]
+srcNodes: [115, 119, 119]
+  path: 0[119 -> 20079 -> 20053 -> 30657 -> 115], [Annapurna Annapurna Himalaya  -> Nepal -> China -> Xinjiang Uygur -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[119 -> 119], [Annapurna Annapurna Himalaya  -> Annapurna Annapurna Himalaya ]
+  path: 2[119 -> 119], [Annapurna Annapurna Himalaya  -> Annapurna Annapurna Himalaya ]
+srcNodes: [115, 121, 121]
+  path: 0[121 -> 30658 -> 90128 -> 20055 -> 115], [Shishapangma Shishapangma Himalaya  -> Tibet -> Indus -> Pakistan -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[121 -> 121], [Shishapangma Shishapangma Himalaya  -> Shishapangma Shishapangma Himalaya ]
+  path: 2[121 -> 121], [Shishapangma Shishapangma Himalaya  -> Shishapangma Shishapangma Himalaya ]
+srcNodes: [115, 126, 126]
+  path: 0[126 -> 20079 -> 20053 -> 30657 -> 115], [Makalu Makalu Himalaya  -> Nepal -> China -> Xinjiang Uygur -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[126 -> 126], [Makalu Makalu Himalaya  -> Makalu Makalu Himalaya ]
+  path: 2[126 -> 126], [Makalu Makalu Himalaya  -> Makalu Makalu Himalaya ]
+srcNodes: [115, 124, 124]
+  path: 0[124 -> 20079 -> 20053 -> 30657 -> 115], [Mount Everest Mount Everest Himalaya  -> Nepal -> China -> Xinjiang Uygur -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[124 -> 124], [Mount Everest Mount Everest Himalaya  -> Mount Everest Mount Everest Himalaya ]
+  path: 2[124 -> 124], [Mount Everest Mount Everest Himalaya  -> Mount Everest Mount Everest Himalaya ]
+-----------------------------------------
+ResultDestNodes: [118, 119, 121, 126, 124]
+ResultRelevs: [6.914433002471924, 6.914433002471924, 6.914433002471924, 6.914433002471924, 6.914433002471924]
+AvgResultRelev: 6.914433002471924
+AvgResultDissimilarity: 0.5
+Num of entries retrieved from the KNLists: 53
+Num of entries retrieved from NKMaps: 86
+Num of answer trees explored: 18
+Num of answer tree sets created: 31
+Num of answer tree sets removed: 0
+Max Num of answer tree sets in Q[]: 31
+
+Div Top-k Search by Astar02, k=5
+[province, mountain, river]
+srcNodes: [115, 118, 118]
+  path: 0[118 -> 20079 -> 20053 -> 30657 -> 115], [Dhaulagiri Dhaulagiri Himalaya  -> Nepal -> China -> Xinjiang Uygur -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[118 -> 118], [Dhaulagiri Dhaulagiri Himalaya  -> Dhaulagiri Dhaulagiri Himalaya ]
+  path: 2[118 -> 118], [Dhaulagiri Dhaulagiri Himalaya  -> Dhaulagiri Dhaulagiri Himalaya ]
+srcNodes: [115, 119, 119]
+  path: 0[119 -> 20079 -> 20053 -> 30657 -> 115], [Annapurna Annapurna Himalaya  -> Nepal -> China -> Xinjiang Uygur -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[119 -> 119], [Annapurna Annapurna Himalaya  -> Annapurna Annapurna Himalaya ]
+  path: 2[119 -> 119], [Annapurna Annapurna Himalaya  -> Annapurna Annapurna Himalaya ]
+srcNodes: [115, 121, 121]
+  path: 0[121 -> 30658 -> 90128 -> 20055 -> 115], [Shishapangma Shishapangma Himalaya  -> Tibet -> Indus -> Pakistan -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[121 -> 121], [Shishapangma Shishapangma Himalaya  -> Shishapangma Shishapangma Himalaya ]
+  path: 2[121 -> 121], [Shishapangma Shishapangma Himalaya  -> Shishapangma Shishapangma Himalaya ]
+srcNodes: [115, 126, 126]
+  path: 0[126 -> 20079 -> 20053 -> 30657 -> 115], [Makalu Makalu Himalaya  -> Nepal -> China -> Xinjiang Uygur -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[126 -> 126], [Makalu Makalu Himalaya  -> Makalu Makalu Himalaya ]
+  path: 2[126 -> 126], [Makalu Makalu Himalaya  -> Makalu Makalu Himalaya ]
+srcNodes: [115, 124, 124]
+  path: 0[124 -> 20079 -> 20053 -> 30657 -> 115], [Mount Everest Mount Everest Himalaya  -> Nepal -> China -> Xinjiang Uygur -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[124 -> 124], [Mount Everest Mount Everest Himalaya  -> Mount Everest Mount Everest Himalaya ]
+  path: 2[124 -> 124], [Mount Everest Mount Everest Himalaya  -> Mount Everest Mount Everest Himalaya ]
+-----------------------------------------
+ResultDestNodes: [118, 119, 121, 126, 124]
+ResultRelevs: [6.914433002471924, 6.914433002471924, 6.914433002471924, 6.914433002471924, 6.914433002471924]
+AvgResultRelev: 6.914433002471924
+AvgResultDissimilarity: 0.5
+Num of entries retrieved from the KNLists: 53
+Num of entries retrieved from NKMaps: 86
+Num of answer trees explored: 18
+Num of states created: 0
+Num of states explored: 0
+Num of heuristic search performed: 0
+Max Num of answer tree sets in Q[]: 0
+
+Div Top-k Search by Astar1nc_ap, k=5
+[province, mountain, river]
+srcNodes: [115, 118, 118]
+  path: 0[118 -> 20079 -> 20053 -> 30657 -> 115], [Dhaulagiri Dhaulagiri Himalaya  -> Nepal -> China -> Xinjiang Uygur -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[118 -> 118], [Dhaulagiri Dhaulagiri Himalaya  -> Dhaulagiri Dhaulagiri Himalaya ]
+  path: 2[118 -> 118], [Dhaulagiri Dhaulagiri Himalaya  -> Dhaulagiri Dhaulagiri Himalaya ]
+srcNodes: [115, 119, 119]
+  path: 0[119 -> 20079 -> 20053 -> 30657 -> 115], [Annapurna Annapurna Himalaya  -> Nepal -> China -> Xinjiang Uygur -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[119 -> 119], [Annapurna Annapurna Himalaya  -> Annapurna Annapurna Himalaya ]
+  path: 2[119 -> 119], [Annapurna Annapurna Himalaya  -> Annapurna Annapurna Himalaya ]
+srcNodes: [115, 121, 121]
+  path: 0[121 -> 30658 -> 90128 -> 20055 -> 115], [Shishapangma Shishapangma Himalaya  -> Tibet -> Indus -> Pakistan -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[121 -> 121], [Shishapangma Shishapangma Himalaya  -> Shishapangma Shishapangma Himalaya ]
+  path: 2[121 -> 121], [Shishapangma Shishapangma Himalaya  -> Shishapangma Shishapangma Himalaya ]
+srcNodes: [115, 126, 126]
+  path: 0[126 -> 20079 -> 20053 -> 30657 -> 115], [Makalu Makalu Himalaya  -> Nepal -> China -> Xinjiang Uygur -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[126 -> 126], [Makalu Makalu Himalaya  -> Makalu Makalu Himalaya ]
+  path: 2[126 -> 126], [Makalu Makalu Himalaya  -> Makalu Makalu Himalaya ]
+srcNodes: [115, 124, 124]
+  path: 0[124 -> 20079 -> 20053 -> 30657 -> 115], [Mount Everest Mount Everest Himalaya  -> Nepal -> China -> Xinjiang Uygur -> Broad Peak Broad Peak Karakorum ] 
+
+  path: 1[124 -> 124], [Mount Everest Mount Everest Himalaya  -> Mount Everest Mount Everest Himalaya ]
+  path: 2[124 -> 124], [Mount Everest Mount Everest Himalaya  -> Mount Everest Mount Everest Himalaya ]
+-----------------------------------------
+ResultDestNodes: [118, 119, 121, 126, 124]
+ResultRelevs: [6.914433002471924, 6.914433002471924, 6.914433002471924, 6.914433002471924, 6.914433002471924]
+AvgResultRelev: 6.914433002471924
+AvgResultDissimilarity: 0.5
+Num of entries retrieved from the KNLists: 53
+Num of entries retrieved from NKMaps: 86
+Num of answer trees explored: 18
+Num of states created: 0
+Num of states explored: 0
+Num of heuristic search performed: 0
+Max Num of answer tree sets in Q[]: 0
+
+query: [city, sea, river]
+Top-k Search by Blink-BDB, k=5
+[city, sea, river]
+srcNodes: [42949, 100006, 90130]
+  path: 0[90130 -> 30986 -> 42949], [Yukon River -> Yukon Territory -> Whitehorse] 
+
+  path: 1[90130 -> 100006], [Yukon River -> Bering Sea] 
+
+  path: 2[90130 -> 90130], [Yukon River -> Yukon River]
+srcNodes: [41996, 100004, 90079]
+  path: 0[90079 -> 30070 -> 41996], [Oder -> Severomoravsky -> Ostrava] 
+
+  path: 1[90079 -> 100004], [Oder -> Baltic Sea] 
+
+  path: 2[90079 -> 90079], [Oder -> Oder]
+srcNodes: [40725, 100018, 90173]
+  path: 0[90173 -> 30825 -> 40725], [Nile -> Dumyat -> Dumyat] 
+
+  path: 1[90173 -> 100018], [Nile -> Mediterranean Sea] 
+
+  path: 2[90173 -> 90173], [Nile -> Nile]
+srcNodes: [42738, 100018, 90081]
+  path: 0[90081 -> 20000 -> 42738], [Drin -> Albania -> Tirane] 
+
+  path: 1[90081 -> 100018], [Drin -> Mediterranean Sea] 
+
+  path: 2[90081 -> 90081], [Drin -> Drin]
+srcNodes: [42771, 100004, 90080]
+  path: 0[90080 -> 30210 -> 42771], [Weichsel -> Torunskie -> Torun] 
+
+  path: 1[90080 -> 100004], [Weichsel -> Baltic Sea] 
+
+  path: 2[90080 -> 90080], [Weichsel -> Weichsel]
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [90130, 90079, 90173, 90081, 90080]
+ResultRelevs: [6.710984230041504, 6.34895658493042, 6.34895658493042, 6.34895658493042, 6.34895658493042]
+AvgResultRelev: 6.421362113952637
+AvgResultDissimilarity: 0.9333333333333333
+Num of entries retrieved from the lists: 588
+Num of entries retrieved from NKMaps: 951
+Num of answer trees explored: 266
+
+Div Top-k Search by Exhustive, k=5
+[city, sea, river]
+srcNodes: [42949, 100006, 90130]
+  path: 0[90130 -> 30986 -> 42949], [Yukon River -> Yukon Territory -> Whitehorse] 
+
+  path: 1[90130 -> 100006], [Yukon River -> Bering Sea] 
+
+  path: 2[90130 -> 90130], [Yukon River -> Yukon River]
+srcNodes: [42738, 100018, 90081]
+  path: 0[90081 -> 20000 -> 42738], [Drin -> Albania -> Tirane] 
+
+  path: 1[90081 -> 100018], [Drin -> Mediterranean Sea] 
+
+  path: 2[90081 -> 90081], [Drin -> Drin]
+srcNodes: [41731, 100018, 90032]
+  path: 0[90032 -> 30122 -> 41731], [Po -> Emilia Romagna -> Modena] 
+
+  path: 1[90032 -> 100018], [Po -> Mediterranean Sea] 
+
+  path: 2[90032 -> 90032], [Po -> Po]
+srcNodes: [43011, 100033, 90121]
+  path: 0[90121 -> 30648 -> 43011], [Hwangho -> Shaanxi -> Yanan] 
+
+  path: 1[90121 -> 100033], [Hwangho -> Yellow Sea] 
+
+  path: 2[90121 -> 90121], [Hwangho -> Hwangho]
+srcNodes: [42780, 100018, 90036]
+  path: 0[90036 -> 30118 -> 42780], [Etsch -> Trentino Alto Adige -> Trento] 
+
+  path: 1[90036 -> 100018], [Etsch -> Mediterranean Sea] 
+
+  path: 2[90036 -> 90036], [Etsch -> Etsch]
+-----------------------------------------
+ResultDestNodes: [90130, 90081, 90032, 90121, 90036]
+ResultRelevs: [6.710984230041504, 6.34895658493042, 6.34895658493042, 6.34895658493042, 6.34895658493042]
+AvgResultRelev: 6.421362113952637
+AvgResultDissimilarity: 0.9
+Num of entries retrieved from the KNLists: 588
+Num of entries retrieved from NKMaps: 951
+Num of answer trees explored: 266
+Num of answer tree sets created: 31
+Num of answer tree sets removed: 0
+Max Num of answer tree sets in Q[]: 31
+
+Div Top-k Search by Astar02, k=5
+[city, sea, river]
+srcNodes: [42949, 100006, 90130]
+  path: 0[90130 -> 30986 -> 42949], [Yukon River -> Yukon Territory -> Whitehorse] 
+
+  path: 1[90130 -> 100006], [Yukon River -> Bering Sea] 
+
+  path: 2[90130 -> 90130], [Yukon River -> Yukon River]
+srcNodes: [42738, 100018, 90081]
+  path: 0[90081 -> 20000 -> 42738], [Drin -> Albania -> Tirane] 
+
+  path: 1[90081 -> 100018], [Drin -> Mediterranean Sea] 
+
+  path: 2[90081 -> 90081], [Drin -> Drin]
+srcNodes: [41731, 100018, 90032]
+  path: 0[90032 -> 30122 -> 41731], [Po -> Emilia Romagna -> Modena] 
+
+  path: 1[90032 -> 100018], [Po -> Mediterranean Sea] 
+
+  path: 2[90032 -> 90032], [Po -> Po]
+srcNodes: [43011, 100033, 90121]
+  path: 0[90121 -> 30648 -> 43011], [Hwangho -> Shaanxi -> Yanan] 
+
+  path: 1[90121 -> 100033], [Hwangho -> Yellow Sea] 
+
+  path: 2[90121 -> 90121], [Hwangho -> Hwangho]
+srcNodes: [42780, 100018, 90036]
+  path: 0[90036 -> 30118 -> 42780], [Etsch -> Trentino Alto Adige -> Trento] 
+
+  path: 1[90036 -> 100018], [Etsch -> Mediterranean Sea] 
+
+  path: 2[90036 -> 90036], [Etsch -> Etsch]
+-----------------------------------------
+ResultDestNodes: [90130, 90081, 90032, 90121, 90036]
+ResultRelevs: [6.710984230041504, 6.34895658493042, 6.34895658493042, 6.34895658493042, 6.34895658493042]
+AvgResultRelev: 6.421362113952637
+AvgResultDissimilarity: 0.9
+Num of entries retrieved from the KNLists: 588
+Num of entries retrieved from NKMaps: 951
+Num of answer trees explored: 266
+Num of states created: 17
+Num of states explored: 11
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 10
+
+Div Top-k Search by Astar1nc_ap, k=5
+[city, sea, river]
+srcNodes: [42949, 100006, 90130]
+  path: 0[90130 -> 30986 -> 42949], [Yukon River -> Yukon Territory -> Whitehorse] 
+
+  path: 1[90130 -> 100006], [Yukon River -> Bering Sea] 
+
+  path: 2[90130 -> 90130], [Yukon River -> Yukon River]
+srcNodes: [42738, 100018, 90081]
+  path: 0[90081 -> 20000 -> 42738], [Drin -> Albania -> Tirane] 
+
+  path: 1[90081 -> 100018], [Drin -> Mediterranean Sea] 
+
+  path: 2[90081 -> 90081], [Drin -> Drin]
+srcNodes: [41731, 100018, 90032]
+  path: 0[90032 -> 30122 -> 41731], [Po -> Emilia Romagna -> Modena] 
+
+  path: 1[90032 -> 100018], [Po -> Mediterranean Sea] 
+
+  path: 2[90032 -> 90032], [Po -> Po]
+srcNodes: [43011, 100033, 90121]
+  path: 0[90121 -> 30648 -> 43011], [Hwangho -> Shaanxi -> Yanan] 
+
+  path: 1[90121 -> 100033], [Hwangho -> Yellow Sea] 
+
+  path: 2[90121 -> 90121], [Hwangho -> Hwangho]
+srcNodes: [42780, 100018, 90036]
+  path: 0[90036 -> 30118 -> 42780], [Etsch -> Trentino Alto Adige -> Trento] 
+
+  path: 1[90036 -> 100018], [Etsch -> Mediterranean Sea] 
+
+  path: 2[90036 -> 90036], [Etsch -> Etsch]
+-----------------------------------------
+ResultDestNodes: [90130, 90081, 90032, 90121, 90036]
+ResultRelevs: [6.710984230041504, 6.34895658493042, 6.34895658493042, 6.34895658493042, 6.34895658493042]
+AvgResultRelev: 6.421362113952637
+AvgResultDissimilarity: 0.9
+Num of entries retrieved from the KNLists: 588
+Num of entries retrieved from NKMaps: 951
+Num of answer trees explored: 266
+Num of states created: 6
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+query: [city, province, river]
+Top-k Search by Blink-BDB, k=5
+[city, province, river]
+srcNodes: null
+srcNodes: null
+srcNodes: null
+srcNodes: null
+srcNodes: null
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [90130, 90079, 90173, 90081, 90080]
+ResultRelevs: [6.710984230041504, 6.34895658493042, 6.34895658493042, 6.34895658493042, 6.34895658493042]
+AvgResultRelev: 6.421362113952637
+AvgResultDissimilarity: 0.9333333333333333
+Num of entries retrieved from the lists: 588
+Num of entries retrieved from NKMaps: 951
+Num of answer trees explored: 266
+
+Div Top-k Search by Exhustive, k=5
+[city, province, river]
+srcNodes: [42949, 100006, 90130]
+  path: 0[90130 -> 30986 -> 42949], [Yukon River -> Yukon Territory -> Whitehorse] 
+
+  path: 1[90130 -> 100006], [Yukon River -> Bering Sea] 
+
+  path: 2[90130 -> 90130], [Yukon River -> Yukon River]
+srcNodes: [42738, 100018, 90081]
+  path: 0[90081 -> 20000 -> 42738], [Drin -> Albania -> Tirane] 
+
+  path: 1[90081 -> 100018], [Drin -> Mediterranean Sea] 
+
+  path: 2[90081 -> 90081], [Drin -> Drin]
+srcNodes: [41731, 100018, 90032]
+  path: 0[90032 -> 30122 -> 41731], [Po -> Emilia Romagna -> Modena] 
+
+  path: 1[90032 -> 100018], [Po -> Mediterranean Sea] 
+
+  path: 2[90032 -> 90032], [Po -> Po]
+srcNodes: [43011, 100033, 90121]
+  path: 0[90121 -> 30648 -> 43011], [Hwangho -> Shaanxi -> Yanan] 
+
+  path: 1[90121 -> 100033], [Hwangho -> Yellow Sea] 
+
+  path: 2[90121 -> 90121], [Hwangho -> Hwangho]
+srcNodes: [42780, 100018, 90036]
+  path: 0[90036 -> 30118 -> 42780], [Etsch -> Trentino Alto Adige -> Trento] 
+
+  path: 1[90036 -> 100018], [Etsch -> Mediterranean Sea] 
+
+  path: 2[90036 -> 90036], [Etsch -> Etsch]
+-----------------------------------------
+ResultDestNodes: [90130, 90081, 90032, 90121, 90036]
+ResultRelevs: [6.710984230041504, 6.34895658493042, 6.34895658493042, 6.34895658493042, 6.34895658493042]
+AvgResultRelev: 6.421362113952637
+AvgResultDissimilarity: 0.9
+Num of entries retrieved from the KNLists: 588
+Num of entries retrieved from NKMaps: 951
+Num of answer trees explored: 266
+Num of answer tree sets created: 31
+Num of answer tree sets removed: 0
+Max Num of answer tree sets in Q[]: 31
+
+Div Top-k Search by Astar02, k=5
+[city, province, river]
+srcNodes: [42949, 100006, 90130]
+  path: 0[90130 -> 30986 -> 42949], [Yukon River -> Yukon Territory -> Whitehorse] 
+
+  path: 1[90130 -> 100006], [Yukon River -> Bering Sea] 
+
+  path: 2[90130 -> 90130], [Yukon River -> Yukon River]
+srcNodes: [42738, 100018, 90081]
+  path: 0[90081 -> 20000 -> 42738], [Drin -> Albania -> Tirane] 
+
+  path: 1[90081 -> 100018], [Drin -> Mediterranean Sea] 
+
+  path: 2[90081 -> 90081], [Drin -> Drin]
+srcNodes: [41731, 100018, 90032]
+  path: 0[90032 -> 30122 -> 41731], [Po -> Emilia Romagna -> Modena] 
+
+  path: 1[90032 -> 100018], [Po -> Mediterranean Sea] 
+
+  path: 2[90032 -> 90032], [Po -> Po]
+srcNodes: [43011, 100033, 90121]
+  path: 0[90121 -> 30648 -> 43011], [Hwangho -> Shaanxi -> Yanan] 
+
+  path: 1[90121 -> 100033], [Hwangho -> Yellow Sea] 
+
+  path: 2[90121 -> 90121], [Hwangho -> Hwangho]
+srcNodes: [42780, 100018, 90036]
+  path: 0[90036 -> 30118 -> 42780], [Etsch -> Trentino Alto Adige -> Trento] 
+
+  path: 1[90036 -> 100018], [Etsch -> Mediterranean Sea] 
+
+  path: 2[90036 -> 90036], [Etsch -> Etsch]
+-----------------------------------------
+ResultDestNodes: [90130, 90081, 90032, 90121, 90036]
+ResultRelevs: [6.710984230041504, 6.34895658493042, 6.34895658493042, 6.34895658493042, 6.34895658493042]
+AvgResultRelev: 6.421362113952637
+AvgResultDissimilarity: 0.9
+Num of entries retrieved from the KNLists: 588
+Num of entries retrieved from NKMaps: 951
+Num of answer trees explored: 266
+Num of states created: 0
+Num of states explored: 0
+Num of heuristic search performed: 0
+Max Num of answer tree sets in Q[]: 0
+
+Div Top-k Search by Astar1nc_ap, k=5
+[city, province, river]
+srcNodes: [42949, 100006, 90130]
+  path: 0[90130 -> 30986 -> 42949], [Yukon River -> Yukon Territory -> Whitehorse] 
+
+  path: 1[90130 -> 100006], [Yukon River -> Bering Sea] 
+
+  path: 2[90130 -> 90130], [Yukon River -> Yukon River]
+srcNodes: [42738, 100018, 90081]
+  path: 0[90081 -> 20000 -> 42738], [Drin -> Albania -> Tirane] 
+
+  path: 1[90081 -> 100018], [Drin -> Mediterranean Sea] 
+
+  path: 2[90081 -> 90081], [Drin -> Drin]
+srcNodes: [41731, 100018, 90032]
+  path: 0[90032 -> 30122 -> 41731], [Po -> Emilia Romagna -> Modena] 
+
+  path: 1[90032 -> 100018], [Po -> Mediterranean Sea] 
+
+  path: 2[90032 -> 90032], [Po -> Po]
+srcNodes: [43011, 100033, 90121]
+  path: 0[90121 -> 30648 -> 43011], [Hwangho -> Shaanxi -> Yanan] 
+
+  path: 1[90121 -> 100033], [Hwangho -> Yellow Sea] 
+
+  path: 2[90121 -> 90121], [Hwangho -> Hwangho]
+srcNodes: [42780, 100018, 90036]
+  path: 0[90036 -> 30118 -> 42780], [Etsch -> Trentino Alto Adige -> Trento] 
+
+  path: 1[90036 -> 100018], [Etsch -> Mediterranean Sea] 
+
+  path: 2[90036 -> 90036], [Etsch -> Etsch]
+-----------------------------------------
+ResultDestNodes: [90130, 90081, 90032, 90121, 90036]
+ResultRelevs: [6.710984230041504, 6.34895658493042, 6.34895658493042, 6.34895658493042, 6.34895658493042]
+AvgResultRelev: 6.421362113952637
+AvgResultDissimilarity: 0.9
+Num of entries retrieved from the KNLists: 588
+Num of entries retrieved from NKMaps: 951
+Num of answer trees explored: 266
+Num of states created: 0
+Num of states explored: 0
+Num of heuristic search performed: 0
+Max Num of answer tree sets in Q[]: 0
+
+query: [city, province, mountain]
+Top-k Search by Blink-BDB, k=5
+[city, province, mountain]
+srcNodes: null
+srcNodes: null
+srcNodes: null
+srcNodes: null
+srcNodes: null
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [90130, 90079, 90173, 90081, 90080]
+ResultRelevs: [6.710984230041504, 6.34895658493042, 6.34895658493042, 6.34895658493042, 6.34895658493042]
+AvgResultRelev: 6.421362113952637
+AvgResultDissimilarity: 0.9333333333333333
+Num of entries retrieved from the lists: 588
+Num of entries retrieved from NKMaps: 951
+Num of answer trees explored: 266
+
+Div Top-k Search by Exhustive, k=5
+[city, province, mountain]
+srcNodes: [42949, 100006, 90130]
+  path: 0[90130 -> 30986 -> 42949], [Yukon River -> Yukon Territory -> Whitehorse] 
+
+  path: 1[90130 -> 100006], [Yukon River -> Bering Sea] 
+
+  path: 2[90130 -> 90130], [Yukon River -> Yukon River]
+srcNodes: [42738, 100018, 90081]
+  path: 0[90081 -> 20000 -> 42738], [Drin -> Albania -> Tirane] 
+
+  path: 1[90081 -> 100018], [Drin -> Mediterranean Sea] 
+
+  path: 2[90081 -> 90081], [Drin -> Drin]
+srcNodes: [41731, 100018, 90032]
+  path: 0[90032 -> 30122 -> 41731], [Po -> Emilia Romagna -> Modena] 
+
+  path: 1[90032 -> 100018], [Po -> Mediterranean Sea] 
+
+  path: 2[90032 -> 90032], [Po -> Po]
+srcNodes: [43011, 100033, 90121]
+  path: 0[90121 -> 30648 -> 43011], [Hwangho -> Shaanxi -> Yanan] 
+
+  path: 1[90121 -> 100033], [Hwangho -> Yellow Sea] 
+
+  path: 2[90121 -> 90121], [Hwangho -> Hwangho]
+srcNodes: [42780, 100018, 90036]
+  path: 0[90036 -> 30118 -> 42780], [Etsch -> Trentino Alto Adige -> Trento] 
+
+  path: 1[90036 -> 100018], [Etsch -> Mediterranean Sea] 
+
+  path: 2[90036 -> 90036], [Etsch -> Etsch]
+-----------------------------------------
+ResultDestNodes: [90130, 90081, 90032, 90121, 90036]
+ResultRelevs: [6.710984230041504, 6.34895658493042, 6.34895658493042, 6.34895658493042, 6.34895658493042]
+AvgResultRelev: 6.421362113952637
+AvgResultDissimilarity: 0.9
+Num of entries retrieved from the KNLists: 588
+Num of entries retrieved from NKMaps: 951
+Num of answer trees explored: 266
+Num of answer tree sets created: 31
+Num of answer tree sets removed: 0
+Max Num of answer tree sets in Q[]: 31
+
+Div Top-k Search by Astar02, k=5
+[city, province, mountain]
+srcNodes: [42949, 100006, 90130]
+  path: 0[90130 -> 30986 -> 42949], [Yukon River -> Yukon Territory -> Whitehorse] 
+
+  path: 1[90130 -> 100006], [Yukon River -> Bering Sea] 
+
+  path: 2[90130 -> 90130], [Yukon River -> Yukon River]
+srcNodes: [42738, 100018, 90081]
+  path: 0[90081 -> 20000 -> 42738], [Drin -> Albania -> Tirane] 
+
+  path: 1[90081 -> 100018], [Drin -> Mediterranean Sea] 
+
+  path: 2[90081 -> 90081], [Drin -> Drin]
+srcNodes: [41731, 100018, 90032]
+  path: 0[90032 -> 30122 -> 41731], [Po -> Emilia Romagna -> Modena] 
+
+  path: 1[90032 -> 100018], [Po -> Mediterranean Sea] 
+
+  path: 2[90032 -> 90032], [Po -> Po]
+srcNodes: [43011, 100033, 90121]
+  path: 0[90121 -> 30648 -> 43011], [Hwangho -> Shaanxi -> Yanan] 
+
+  path: 1[90121 -> 100033], [Hwangho -> Yellow Sea] 
+
+  path: 2[90121 -> 90121], [Hwangho -> Hwangho]
+srcNodes: [42780, 100018, 90036]
+  path: 0[90036 -> 30118 -> 42780], [Etsch -> Trentino Alto Adige -> Trento] 
+
+  path: 1[90036 -> 100018], [Etsch -> Mediterranean Sea] 
+
+  path: 2[90036 -> 90036], [Etsch -> Etsch]
+-----------------------------------------
+ResultDestNodes: [90130, 90081, 90032, 90121, 90036]
+ResultRelevs: [6.710984230041504, 6.34895658493042, 6.34895658493042, 6.34895658493042, 6.34895658493042]
+AvgResultRelev: 6.421362113952637
+AvgResultDissimilarity: 0.9
+Num of entries retrieved from the KNLists: 588
+Num of entries retrieved from NKMaps: 951
+Num of answer trees explored: 266
+Num of states created: 0
+Num of states explored: 0
+Num of heuristic search performed: 0
+Max Num of answer tree sets in Q[]: 0
+
+Div Top-k Search by Astar1nc_ap, k=5
+[city, province, mountain]
+srcNodes: [42949, 100006, 90130]
+  path: 0[90130 -> 30986 -> 42949], [Yukon River -> Yukon Territory -> Whitehorse] 
+
+  path: 1[90130 -> 100006], [Yukon River -> Bering Sea] 
+
+  path: 2[90130 -> 90130], [Yukon River -> Yukon River]
+srcNodes: [42738, 100018, 90081]
+  path: 0[90081 -> 20000 -> 42738], [Drin -> Albania -> Tirane] 
+
+  path: 1[90081 -> 100018], [Drin -> Mediterranean Sea] 
+
+  path: 2[90081 -> 90081], [Drin -> Drin]
+srcNodes: [41731, 100018, 90032]
+  path: 0[90032 -> 30122 -> 41731], [Po -> Emilia Romagna -> Modena] 
+
+  path: 1[90032 -> 100018], [Po -> Mediterranean Sea] 
+
+  path: 2[90032 -> 90032], [Po -> Po]
+srcNodes: [43011, 100033, 90121]
+  path: 0[90121 -> 30648 -> 43011], [Hwangho -> Shaanxi -> Yanan] 
+
+  path: 1[90121 -> 100033], [Hwangho -> Yellow Sea] 
+
+  path: 2[90121 -> 90121], [Hwangho -> Hwangho]
+srcNodes: [42780, 100018, 90036]
+  path: 0[90036 -> 30118 -> 42780], [Etsch -> Trentino Alto Adige -> Trento] 
+
+  path: 1[90036 -> 100018], [Etsch -> Mediterranean Sea] 
+
+  path: 2[90036 -> 90036], [Etsch -> Etsch]
+-----------------------------------------
+ResultDestNodes: [90130, 90081, 90032, 90121, 90036]
+ResultRelevs: [6.710984230041504, 6.34895658493042, 6.34895658493042, 6.34895658493042, 6.34895658493042]
+AvgResultRelev: 6.421362113952637
+AvgResultDissimilarity: 0.9
+Num of entries retrieved from the KNLists: 588
+Num of entries retrieved from NKMaps: 951
+Num of answer trees explored: 266
+Num of states created: 0
+Num of states explored: 0
+Num of heuristic search performed: 0
+Max Num of answer tree sets in Q[]: 0
+
+query: [city, mountain, canada]
+Top-k Search by Blink-BDB, k=5
+[city, mountain, canada]
+srcNodes: [40982, 210, 20117]
+  path: 0[20117 -> 30981 -> 40982], [Canada -> Nova Scotia -> Halifax] 
+
+  path: 1[20117 -> 10001 -> 20132 -> 210], [Canada -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [40954, 210, 20117]
+  path: 0[10001 -> 20113 -> 40954], [America -> Guatemala -> Guatemala City] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 20117], [America -> Canada] 
+
+srcNodes: [41320, 210, 20117]
+  path: 0[210 -> 20132 -> 41320], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> Kingston] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20117], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> Canada] 
+
+srcNodes: [41320, 210, 20117]
+  path: 0[20132 -> 41320], [Jamaica -> Kingston] 
+
+  path: 1[20132 -> 210], [Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20132 -> 10001 -> 20117], [Jamaica -> America -> Canada] 
+
+srcNodes: [41954, 210, 20117]
+  path: 0[20118 -> 31022 -> 41954], [United States -> Oklahoma -> Oklahoma City] 
+
+  path: 1[20118 -> 10001 -> 20132 -> 210], [United States -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20118 -> 20117], [United States -> Canada] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [20117, 10001, 210, 20132, 20118]
+ResultRelevs: [7.478108882904053, 6.221466064453125, 5.888301372528076, 5.874300956726074, 5.840388298034668]
+AvgResultRelev: 6.260513114929199
+AvgResultDissimilarity: 0.3
+Num of entries retrieved from the lists: 162
+Num of entries retrieved from NKMaps: 283
+Num of answer trees explored: 55
+
+Div Top-k Search by Exhustive, k=5
+[city, mountain, canada]
+srcNodes: [40982, 210, 20117]
+  path: 0[20117 -> 30981 -> 40982], [Canada -> Nova Scotia -> Halifax] 
+
+  path: 1[20117 -> 10001 -> 20132 -> 210], [Canada -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [40954, 210, 20117]
+  path: 0[10001 -> 20113 -> 40954], [America -> Guatemala -> Guatemala City] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 20117], [America -> Canada] 
+
+srcNodes: [41320, 210, 20117]
+  path: 0[210 -> 20132 -> 41320], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> Kingston] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20117], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> Canada] 
+
+srcNodes: [40928, 206, 20117]
+  path: 0[20121 -> 40928], [Nicaragua -> Granada] 
+
+  path: 1[20121 -> 206], [Nicaragua -> Concepcion Concepcion  volcano] 
+
+  path: 2[20121 -> 10001 -> 20117], [Nicaragua -> America -> Canada] 
+
+srcNodes: [42108, 214, 20117]
+  path: 0[20134 -> 42108], [Montserrat -> Plymouth] 
+
+  path: 1[20134 -> 214], [Montserrat -> Soufriere Hills Soufriere Hills  volcano] 
+
+  path: 2[20134 -> 10001 -> 20117], [Montserrat -> America -> Canada] 
+
+-----------------------------------------
+ResultDestNodes: [20117, 10001, 210, 20121, 20134]
+ResultRelevs: [7.478108882904053, 6.221466064453125, 5.888301372528076, 5.249871730804443, 5.249871730804443]
+AvgResultRelev: 6.017523956298828
+AvgResultDissimilarity: 0.5666666507720948
+Num of entries retrieved from the KNLists: 593
+Num of entries retrieved from NKMaps: 991
+Num of answer trees explored: 174
+Num of answer tree sets created: 108
+Num of answer tree sets removed: 101
+Max Num of answer tree sets in Q[]: 108
+
+Div Top-k Search by Astar02, k=5
+[city, mountain, canada]
+srcNodes: [40982, 210, 20117]
+  path: 0[20117 -> 30981 -> 40982], [Canada -> Nova Scotia -> Halifax] 
+
+  path: 1[20117 -> 10001 -> 20132 -> 210], [Canada -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [40954, 210, 20117]
+  path: 0[10001 -> 20113 -> 40954], [America -> Guatemala -> Guatemala City] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 20117], [America -> Canada] 
+
+srcNodes: [41320, 210, 20117]
+  path: 0[210 -> 20132 -> 41320], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> Kingston] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20117], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> Canada] 
+
+srcNodes: [40928, 206, 20117]
+  path: 0[20121 -> 40928], [Nicaragua -> Granada] 
+
+  path: 1[20121 -> 206], [Nicaragua -> Concepcion Concepcion  volcano] 
+
+  path: 2[20121 -> 10001 -> 20117], [Nicaragua -> America -> Canada] 
+
+srcNodes: [42108, 214, 20117]
+  path: 0[20134 -> 42108], [Montserrat -> Plymouth] 
+
+  path: 1[20134 -> 214], [Montserrat -> Soufriere Hills Soufriere Hills  volcano] 
+
+  path: 2[20134 -> 10001 -> 20117], [Montserrat -> America -> Canada] 
+
+-----------------------------------------
+ResultDestNodes: [20117, 10001, 210, 20121, 20134]
+ResultRelevs: [7.478108882904053, 6.221466064453125, 5.888301372528076, 5.249871730804443, 5.249871730804443]
+AvgResultRelev: 6.017523956298828
+AvgResultDissimilarity: 0.5666666666666667
+Num of entries retrieved from the KNLists: 593
+Num of entries retrieved from NKMaps: 991
+Num of answer trees explored: 174
+Num of states created: 779
+Num of states explored: 759
+Num of heuristic search performed: 68
+Max Num of answer tree sets in Q[]: 23
+
+Div Top-k Search by Astar1nc_ap, k=5
+[city, mountain, canada]
+srcNodes: [40982, 210, 20117]
+  path: 0[20117 -> 30981 -> 40982], [Canada -> Nova Scotia -> Halifax] 
+
+  path: 1[20117 -> 10001 -> 20132 -> 210], [Canada -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [40954, 210, 20117]
+  path: 0[10001 -> 20113 -> 40954], [America -> Guatemala -> Guatemala City] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 20117], [America -> Canada] 
+
+srcNodes: [41320, 210, 20117]
+  path: 0[210 -> 20132 -> 41320], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> Kingston] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20117], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> Canada] 
+
+srcNodes: [40928, 206, 20117]
+  path: 0[20121 -> 40928], [Nicaragua -> Granada] 
+
+  path: 1[20121 -> 206], [Nicaragua -> Concepcion Concepcion  volcano] 
+
+  path: 2[20121 -> 10001 -> 20117], [Nicaragua -> America -> Canada] 
+
+srcNodes: [42108, 214, 20117]
+  path: 0[20134 -> 42108], [Montserrat -> Plymouth] 
+
+  path: 1[20134 -> 214], [Montserrat -> Soufriere Hills Soufriere Hills  volcano] 
+
+  path: 2[20134 -> 10001 -> 20117], [Montserrat -> America -> Canada] 
+
+-----------------------------------------
+ResultDestNodes: [20117, 10001, 210, 20121, 20134]
+ResultRelevs: [7.478108882904053, 6.221466064453125, 5.888301372528076, 5.249871730804443, 5.249871730804443]
+AvgResultRelev: 6.017523956298828
+AvgResultDissimilarity: 0.5666666666666667
+Num of entries retrieved from the KNLists: 593
+Num of entries retrieved from NKMaps: 991
+Num of answer trees explored: 174
+Num of states created: 7194
+Num of states explored: 451
+Num of heuristic search performed: 68
+Max Num of answer tree sets in Q[]: 258
+
+query: [city, mountain, alberta]
+Top-k Search by Blink-BDB, k=5
+[city, mountain, alberta]
+srcNodes: [40749, 177, 30975]
+  path: 0[30975 -> 40749], [Alberta -> Edmonton] 
+
+  path: 1[30975 -> 177], [Alberta -> Mt Columbia Mt Columbia Rocky Mountains ] 
+
+  path: 2[30975 -> 30975], [Alberta -> Alberta]
+srcNodes: [40749, 177, 30975]
+  path: 0[177 -> 30975 -> 40749], [Mt Columbia Mt Columbia Rocky Mountains  -> Alberta -> Edmonton] 
+
+  path: 1[177 -> 177], [Mt Columbia Mt Columbia Rocky Mountains  -> Mt Columbia Mt Columbia Rocky Mountains ]
+  path: 2[177 -> 30975], [Mt Columbia Mt Columbia Rocky Mountains  -> Alberta] 
+
+srcNodes: [40982, 210, 30975]
+  path: 0[20117 -> 30981 -> 40982], [Canada -> Nova Scotia -> Halifax] 
+
+  path: 1[20117 -> 10001 -> 20132 -> 210], [Canada -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20117 -> 30975], [Canada -> Alberta] 
+
+srcNodes: [42437, 171, 30975]
+  path: 0[90133 -> 30985 -> 42437], [Saskatchewan River -> Saskatchewan -> Saskatoon] 
+
+  path: 1[90133 -> 30985 -> 171], [Saskatchewan River -> Saskatchewan -> Mt Bona Mt Bona Elias Range ] 
+
+  path: 2[90133 -> 30975], [Saskatchewan River -> Alberta] 
+
+srcNodes: [41320, 210, 30975]
+  path: 0[210 -> 20132 -> 41320], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> Kingston] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20117 -> 30975], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> Canada -> Alberta] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [30975, 177, 20117, 90133, 210]
+ResultRelevs: [7.776597023010254, 6.43842887878418, 5.765030860900879, 5.538025856018066, 5.336813449859619]
+AvgResultRelev: 6.1709792137146
+AvgResultDissimilarity: 0.5666666666666667
+Num of entries retrieved from the lists: 207
+Num of entries retrieved from NKMaps: 358
+Num of answer trees explored: 70
+
+Div Top-k Search by Exhustive, k=5
+[city, mountain, alberta]
+srcNodes: [40749, 177, 30975]
+  path: 0[30975 -> 40749], [Alberta -> Edmonton] 
+
+  path: 1[30975 -> 177], [Alberta -> Mt Columbia Mt Columbia Rocky Mountains ] 
+
+  path: 2[30975 -> 30975], [Alberta -> Alberta]
+srcNodes: [40749, 177, 30975]
+  path: 0[177 -> 30975 -> 40749], [Mt Columbia Mt Columbia Rocky Mountains  -> Alberta -> Edmonton] 
+
+  path: 1[177 -> 177], [Mt Columbia Mt Columbia Rocky Mountains  -> Mt Columbia Mt Columbia Rocky Mountains ]
+  path: 2[177 -> 30975], [Mt Columbia Mt Columbia Rocky Mountains  -> Alberta] 
+
+srcNodes: [40982, 210, 30975]
+  path: 0[20117 -> 30981 -> 40982], [Canada -> Nova Scotia -> Halifax] 
+
+  path: 1[20117 -> 10001 -> 20132 -> 210], [Canada -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20117 -> 30975], [Canada -> Alberta] 
+
+srcNodes: [42437, 171, 30975]
+  path: 0[90133 -> 30985 -> 42437], [Saskatchewan River -> Saskatchewan -> Saskatoon] 
+
+  path: 1[90133 -> 30985 -> 171], [Saskatchewan River -> Saskatchewan -> Mt Bona Mt Bona Elias Range ] 
+
+  path: 2[90133 -> 30975], [Saskatchewan River -> Alberta] 
+
+srcNodes: [41320, 210, 30975]
+  path: 0[210 -> 20132 -> 41320], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> Kingston] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20117 -> 30975], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> Canada -> Alberta] 
+
+-----------------------------------------
+ResultDestNodes: [30975, 177, 20117, 90133, 210]
+ResultRelevs: [7.776597023010254, 6.43842887878418, 5.765030860900879, 5.538025856018066, 5.336813449859619]
+AvgResultRelev: 6.1709792137146
+AvgResultDissimilarity: 0.5666666507720948
+Num of entries retrieved from the KNLists: 207
+Num of entries retrieved from NKMaps: 358
+Num of answer trees explored: 70
+Num of answer tree sets created: 31
+Num of answer tree sets removed: 0
+Max Num of answer tree sets in Q[]: 31
+
+Div Top-k Search by Astar02, k=5
+[city, mountain, alberta]
+srcNodes: [40749, 177, 30975]
+  path: 0[30975 -> 40749], [Alberta -> Edmonton] 
+
+  path: 1[30975 -> 177], [Alberta -> Mt Columbia Mt Columbia Rocky Mountains ] 
+
+  path: 2[30975 -> 30975], [Alberta -> Alberta]
+srcNodes: [40749, 177, 30975]
+  path: 0[177 -> 30975 -> 40749], [Mt Columbia Mt Columbia Rocky Mountains  -> Alberta -> Edmonton] 
+
+  path: 1[177 -> 177], [Mt Columbia Mt Columbia Rocky Mountains  -> Mt Columbia Mt Columbia Rocky Mountains ]
+  path: 2[177 -> 30975], [Mt Columbia Mt Columbia Rocky Mountains  -> Alberta] 
+
+srcNodes: [40982, 210, 30975]
+  path: 0[20117 -> 30981 -> 40982], [Canada -> Nova Scotia -> Halifax] 
+
+  path: 1[20117 -> 10001 -> 20132 -> 210], [Canada -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20117 -> 30975], [Canada -> Alberta] 
+
+srcNodes: [42437, 171, 30975]
+  path: 0[90133 -> 30985 -> 42437], [Saskatchewan River -> Saskatchewan -> Saskatoon] 
+
+  path: 1[90133 -> 30985 -> 171], [Saskatchewan River -> Saskatchewan -> Mt Bona Mt Bona Elias Range ] 
+
+  path: 2[90133 -> 30975], [Saskatchewan River -> Alberta] 
+
+srcNodes: [41320, 210, 30975]
+  path: 0[210 -> 20132 -> 41320], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> Kingston] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20117 -> 30975], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> Canada -> Alberta] 
+
+-----------------------------------------
+ResultDestNodes: [30975, 177, 20117, 90133, 210]
+ResultRelevs: [7.776597023010254, 6.43842887878418, 5.765030860900879, 5.538025856018066, 5.336813449859619]
+AvgResultRelev: 6.1709792137146
+AvgResultDissimilarity: 0.5666666666666667
+Num of entries retrieved from the KNLists: 207
+Num of entries retrieved from NKMaps: 358
+Num of answer trees explored: 70
+Num of states created: 16
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 11
+
+Div Top-k Search by Astar1nc_ap, k=5
+[city, mountain, alberta]
+srcNodes: [40749, 177, 30975]
+  path: 0[30975 -> 40749], [Alberta -> Edmonton] 
+
+  path: 1[30975 -> 177], [Alberta -> Mt Columbia Mt Columbia Rocky Mountains ] 
+
+  path: 2[30975 -> 30975], [Alberta -> Alberta]
+srcNodes: [40749, 177, 30975]
+  path: 0[177 -> 30975 -> 40749], [Mt Columbia Mt Columbia Rocky Mountains  -> Alberta -> Edmonton] 
+
+  path: 1[177 -> 177], [Mt Columbia Mt Columbia Rocky Mountains  -> Mt Columbia Mt Columbia Rocky Mountains ]
+  path: 2[177 -> 30975], [Mt Columbia Mt Columbia Rocky Mountains  -> Alberta] 
+
+srcNodes: [40982, 210, 30975]
+  path: 0[20117 -> 30981 -> 40982], [Canada -> Nova Scotia -> Halifax] 
+
+  path: 1[20117 -> 10001 -> 20132 -> 210], [Canada -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20117 -> 30975], [Canada -> Alberta] 
+
+srcNodes: [42437, 171, 30975]
+  path: 0[90133 -> 30985 -> 42437], [Saskatchewan River -> Saskatchewan -> Saskatoon] 
+
+  path: 1[90133 -> 30985 -> 171], [Saskatchewan River -> Saskatchewan -> Mt Bona Mt Bona Elias Range ] 
+
+  path: 2[90133 -> 30975], [Saskatchewan River -> Alberta] 
+
+srcNodes: [41320, 210, 30975]
+  path: 0[210 -> 20132 -> 41320], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> Kingston] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20117 -> 30975], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> Canada -> Alberta] 
+
+-----------------------------------------
+ResultDestNodes: [30975, 177, 20117, 90133, 210]
+ResultRelevs: [7.776597023010254, 6.43842887878418, 5.765030860900879, 5.538025856018066, 5.336813449859619]
+AvgResultRelev: 6.1709792137146
+AvgResultDissimilarity: 0.5666666666666667
+Num of entries retrieved from the KNLists: 207
+Num of entries retrieved from NKMaps: 358
+Num of answer trees explored: 70
+Num of states created: 6
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+query: [city, alberta, canada]
+Top-k Search by Blink-BDB, k=5
+[city, alberta, canada]
+srcNodes: [40982, 30975, 20117]
+  path: 0[20117 -> 30981 -> 40982], [Canada -> Nova Scotia -> Halifax] 
+
+  path: 1[20117 -> 30975], [Canada -> Alberta] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [41954, 30975, 20117]
+  path: 0[20118 -> 31022 -> 41954], [United States -> Oklahoma -> Oklahoma City] 
+
+  path: 1[20118 -> 20117 -> 30975], [United States -> Canada -> Alberta] 
+
+  path: 2[20118 -> 20117], [United States -> Canada] 
+
+srcNodes: [40954, 30975, 20117]
+  path: 0[10001 -> 20113 -> 40954], [America -> Guatemala -> Guatemala City] 
+
+  path: 1[10001 -> 20117 -> 30975], [America -> Canada -> Alberta] 
+
+  path: 2[10001 -> 20117], [America -> Canada] 
+
+srcNodes: [40954, 30975, 20117]
+  path: 0[20113 -> 40954], [Guatemala -> Guatemala City] 
+
+  path: 1[20113 -> 10001 -> 20117 -> 30975], [Guatemala -> America -> Canada -> Alberta] 
+
+  path: 2[20113 -> 10001 -> 20117], [Guatemala -> America -> Canada] 
+
+srcNodes: [41841, 30975, 20117]
+  path: 0[20110 -> 41841], [Bahamas -> Nassau] 
+
+  path: 1[20110 -> 10001 -> 20117 -> 30975], [Bahamas -> America -> Canada -> Alberta] 
+
+  path: 2[20110 -> 10001 -> 20117], [Bahamas -> America -> Canada] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [20117, 20118, 10001, 20113, 20110]
+ResultRelevs: [10.241992950439453, 7.602187156677246, 7.602187156677246, 6.107667922973633, 6.006932258605957]
+AvgResultRelev: 7.512193489074707
+AvgResultDissimilarity: 0.3
+Num of entries retrieved from the lists: 162
+Num of entries retrieved from NKMaps: 192
+Num of answer trees explored: 54
+
+Div Top-k Search by Exhustive, k=5
+[city, alberta, canada]
+div top-k answers for q do not exist in G!
+

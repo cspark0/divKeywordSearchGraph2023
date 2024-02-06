@@ -1,0 +1,167 @@
+Div Top-k Search by Exhustive4
+[alaska, arctic, sea]
+srcNodes: [169, 100002, 100006]
+  path: 0[169 -> 169], [Mt McKinley Mt McKinley Alaska Range  -> Mt McKinley Mt McKinley Alaska Range ]
+  path: 1[169 -> 30988 -> 100002], [Mt McKinley Mt McKinley Alaska Range  -> Alaska -> Arctic Ocean] 
+
+  path: 2[169 -> 30988 -> 100006], [Mt McKinley Mt McKinley Alaska Range  -> Alaska -> Bering Sea] 
+
+srcNodes: [30988, 100002, 100020]
+  path: 0[20129 -> 10001 -> 20118 -> 30988], [Greenland -> America -> United States -> Alaska] 
+
+  path: 1[20129 -> 100002], [Greenland -> Arctic Ocean] 
+
+  path: 2[20129 -> 100020], [Greenland -> Norwegian Sea] 
+
+srcNodes: [30988, 100002, 100021]
+  path: 0[30986 -> 172 -> 30988], [Yukon Territory -> Mt St.Elias Mt St.Elias Elias Range  -> Alaska] 
+
+  path: 1[30986 -> 100002], [Yukon Territory -> Arctic Ocean] 
+
+  path: 2[30986 -> 100021], [Yukon Territory -> Pacific Ocean] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20125 -> 10001 -> 20118 -> 30988], [Dominican Republic -> America -> United States -> Alaska] 
+
+  path: 1[20125 -> 10001 -> 20129 -> 100002], [Dominican Republic -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20125 -> 100008], [Dominican Republic -> Caribbean Sea] 
+
+-----------------------------------------
+ResultDestNodes: [169, 20129, 30986, 20125]
+ResultRelevs: [6.530949592590332, 5.447549819946289, 5.268099784851074, 4.4829421043396]
+AvgResultRelev: 5.432385325431824
+AvgResultDissimilarity: 0.6499999761581421
+Num of entries retrieved from the KNLists: 702
+Num of entries retrieved from NKMaps: 804
+Num of answer trees explored: 230
+Num of answer tree sets created: 3140
+Num of answer tree sets removed: 2885
+Max Num of answer tree sets in Q[]: 2353
+
+Div Top-k Search by Astar14
+[alaska, arctic, sea]
+srcNodes: [169, 100002, 100006]
+  path: 0[169 -> 169], [Mt McKinley Mt McKinley Alaska Range  -> Mt McKinley Mt McKinley Alaska Range ]
+  path: 1[169 -> 30988 -> 100002], [Mt McKinley Mt McKinley Alaska Range  -> Alaska -> Arctic Ocean] 
+
+  path: 2[169 -> 30988 -> 100006], [Mt McKinley Mt McKinley Alaska Range  -> Alaska -> Bering Sea] 
+
+srcNodes: [30988, 100002, 100020]
+  path: 0[20129 -> 10001 -> 20118 -> 30988], [Greenland -> America -> United States -> Alaska] 
+
+  path: 1[20129 -> 100002], [Greenland -> Arctic Ocean] 
+
+  path: 2[20129 -> 100020], [Greenland -> Norwegian Sea] 
+
+srcNodes: [30988, 100002, 100021]
+  path: 0[30986 -> 172 -> 30988], [Yukon Territory -> Mt St.Elias Mt St.Elias Elias Range  -> Alaska] 
+
+  path: 1[30986 -> 100002], [Yukon Territory -> Arctic Ocean] 
+
+  path: 2[30986 -> 100021], [Yukon Territory -> Pacific Ocean] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20125 -> 10001 -> 20118 -> 30988], [Dominican Republic -> America -> United States -> Alaska] 
+
+  path: 1[20125 -> 10001 -> 20129 -> 100002], [Dominican Republic -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20125 -> 100008], [Dominican Republic -> Caribbean Sea] 
+
+-----------------------------------------
+ResultDestNodes: [169, 20129, 30986, 20125]
+ResultRelevs: [6.530949592590332, 5.447549819946289, 5.268099784851074, 4.4829421043396]
+AvgResultRelev: 5.432385325431824
+AvgResultDissimilarity: 0.6499999761581421
+Num of entries retrieved from the KNLists: 702
+Num of entries retrieved from NKMaps: 804
+Num of answer trees explored: 230
+Num of states created: 1168116
+Num of states explored: 254991
+Num of heuristic search performed: 228
+Max Num of answer tree sets in Q[]: 13033
+
+Div Top-k Search by Astar24
+[alaska, arctic, sea]
+srcNodes: [169, 100002, 100006]
+  path: 0[169 -> 169], [Mt McKinley Mt McKinley Alaska Range  -> Mt McKinley Mt McKinley Alaska Range ]
+  path: 1[169 -> 30988 -> 100002], [Mt McKinley Mt McKinley Alaska Range  -> Alaska -> Arctic Ocean] 
+
+  path: 2[169 -> 30988 -> 100006], [Mt McKinley Mt McKinley Alaska Range  -> Alaska -> Bering Sea] 
+
+srcNodes: [30988, 100002, 100020]
+  path: 0[20129 -> 10001 -> 20118 -> 30988], [Greenland -> America -> United States -> Alaska] 
+
+  path: 1[20129 -> 100002], [Greenland -> Arctic Ocean] 
+
+  path: 2[20129 -> 100020], [Greenland -> Norwegian Sea] 
+
+srcNodes: [30988, 100002, 100021]
+  path: 0[30986 -> 172 -> 30988], [Yukon Territory -> Mt St.Elias Mt St.Elias Elias Range  -> Alaska] 
+
+  path: 1[30986 -> 100002], [Yukon Territory -> Arctic Ocean] 
+
+  path: 2[30986 -> 100021], [Yukon Territory -> Pacific Ocean] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20109 -> 10001 -> 20118 -> 30988], [Aruba -> America -> United States -> Alaska] 
+
+  path: 1[20109 -> 10001 -> 20129 -> 100002], [Aruba -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20109 -> 100008], [Aruba -> Caribbean Sea] 
+
+-----------------------------------------
+ResultDestNodes: [169, 20129, 30986, 20109]
+ResultRelevs: [6.530949592590332, 5.447549819946289, 5.268099784851074, 4.4829421043396]
+AvgResultRelev: 5.432385325431824
+AvgResultDissimilarity: 0.6499999761581421
+Num of entries retrieved from the KNLists: 702
+Num of entries retrieved from NKMaps: 804
+Num of answer trees explored: 230
+Num of states created: 687894
+Num of states explored: 254991
+Num of heuristic search performed: 228
+Max Num of answer tree sets in Q[]: 10013
+
+Div Top-k Search by Astar2re4
+[alaska, arctic, sea]
+srcNodes: [169, 100002, 100006]
+  path: 0[169 -> 169], [Mt McKinley Mt McKinley Alaska Range  -> Mt McKinley Mt McKinley Alaska Range ]
+  path: 1[169 -> 30988 -> 100002], [Mt McKinley Mt McKinley Alaska Range  -> Alaska -> Arctic Ocean] 
+
+  path: 2[169 -> 30988 -> 100006], [Mt McKinley Mt McKinley Alaska Range  -> Alaska -> Bering Sea] 
+
+srcNodes: [30988, 100002, 100020]
+  path: 0[20129 -> 10001 -> 20118 -> 30988], [Greenland -> America -> United States -> Alaska] 
+
+  path: 1[20129 -> 100002], [Greenland -> Arctic Ocean] 
+
+  path: 2[20129 -> 100020], [Greenland -> Norwegian Sea] 
+
+srcNodes: [30988, 100002, 100021]
+  path: 0[30986 -> 172 -> 30988], [Yukon Territory -> Mt St.Elias Mt St.Elias Elias Range  -> Alaska] 
+
+  path: 1[30986 -> 100002], [Yukon Territory -> Arctic Ocean] 
+
+  path: 2[30986 -> 100021], [Yukon Territory -> Pacific Ocean] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20125 -> 10001 -> 20118 -> 30988], [Dominican Republic -> America -> United States -> Alaska] 
+
+  path: 1[20125 -> 10001 -> 20129 -> 100002], [Dominican Republic -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20125 -> 100008], [Dominican Republic -> Caribbean Sea] 
+
+-----------------------------------------
+ResultDestNodes: [169, 20129, 30986, 20125]
+ResultRelevs: [6.530949592590332, 5.447549819946289, 5.268099784851074, 4.4829421043396]
+AvgResultRelev: 5.432385325431824
+AvgResultDissimilarity: 0.6499999761581421
+Num of entries retrieved from the KNLists: 702
+Num of entries retrieved from NKMaps: 804
+Num of answer trees explored: 230
+Num of states created: 12754
+Num of states explored: 3105
+Num of heuristic search performed: 228
+Max Num of answer tree sets in Q[]: 10014
+

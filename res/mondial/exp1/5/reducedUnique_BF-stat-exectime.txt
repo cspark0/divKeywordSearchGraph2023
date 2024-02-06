@@ -1,0 +1,4 @@
+[korea, japan, china]:0.620000, 0.190000  
+[chicago, montreal, ottawa]:0.190000, 0.000000  
+[asia, russia, china]:0.690000, 0.190000  
+[lake, quebec, canada]:0.250000, 0.040000  

@@ -1,0 +1,11 @@
+Top-k, (AvgResultRelev, AvgResultRelev/ResultRelevs[0], AvgResultDiss) numOfKNListsRead, numOfNKMapLookups, numOfAnswerTreesExplored, elapseTime, numOfStatesCreated, numOfStatesExplored, numOfHeuristicSearchPerformed, numOfATSPrunnedByDissCond, numOfLocalAnswersFound, 
+query: [crime, thriller, suspense]
+BlinkSea, 	20, 9.94967, 0.93995, 0.45702, 2925, 5296, 1441, 0.316080872, 
+Exhustiv, 	20, 9.53894, 0.90115, 0.72947, 10954, 20398, 6712, 84.430708519, 15265868, 188, 10265496, 1, 
+Astar02, 	20, 9.53894, 0.90115, 0.72947, 10954, 20398, 6712, 430.926197252, 25534683, 25527840, 44, 20606737, 0, 
+Astar1nc_, 	20, 9.53894, 0.90115, 0.72947, 10954, 20398, 6712, 1.408039052, 3850, 991, 4, 28087, 0, 
+query: [colony, rebellion, war]
+BlinkSea, 	20, 6.16543, 0.78477, 0.62456, 6148, 8311, 2055, 0.172274111, 
+Exhustiv, 	20, 6.01798, 0.76600, 0.78070, 8486, 11625, 2971, 195.481156129, 45705710, 6748, 1657759, 1, 
+Astar02, 	20, 6.01798, 0.76600, 0.78070, 8486, 11625, 2971, 761.732736868, 47336050, 47293444, 18, 12961262, 0, 
+Astar1nc_, 	20, 6.01798, 0.76600, 0.78070, 8486, 11625, 2971, 1.744424715, 19767, 3194, 2, 10722, 0, 

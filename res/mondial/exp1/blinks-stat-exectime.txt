@@ -1,0 +1,15 @@
+[korea, japan, china]:0.082  
+[chicago, montreal, ottawa]:0.036  
+[asia, russia, china]:0.049  
+[caldera, lake, america]:0.060  
+[greece, muslim, monarchy]:0.053  
+[alaska, arctic, sea]:0.040  
+[cape, gulf, africa]:0.041  
+[vienna, donau, alps]:0.037  
+[caldera, lake, america]:0.052  
+[lake, quebec, canada]:0.047  
+[himalaya, india, pakistan]:0.036  
+[river, minnesota, louisiana]:0.047  
+[lake, michigan, ontario]:0.047  
+[city, desert, california]:0.058  
+[island, vancouver, seattle]:0.039  

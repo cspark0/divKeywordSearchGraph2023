@@ -1,0 +1,890 @@
+Blink Search Using BDB 10
+[island, vancouver, seattle]
+srcNodes: [110234, 110234, 42449]
+  path: 0[110234 -> 110234], [Vancouver Island Vancouver Island   -> Vancouver Island Vancouver Island  ]
+  path: 1[110234 -> 110234], [Vancouver Island Vancouver Island   -> Vancouver Island Vancouver Island  ]
+  path: 2[110234 -> 30976 -> 90148 -> 31033 -> 42449], [Vancouver Island Vancouver Island   -> British Columbia -> Columbia River -> Washington -> Seattle] 
+
+srcNodes: [110234, 42859, 42449]
+  path: 0[30976 -> 110234], [British Columbia -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[30976 -> 42859], [British Columbia -> Vancouver] 
+
+  path: 2[30976 -> 90148 -> 31033 -> 42449], [British Columbia -> Columbia River -> Washington -> Seattle] 
+
+srcNodes: [110234, 42859, 42449]
+  path: 0[31033 -> 90148 -> 30976 -> 110234], [Washington -> Columbia River -> British Columbia -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[31033 -> 90148 -> 30976 -> 42859], [Washington -> Columbia River -> British Columbia -> Vancouver] 
+
+  path: 2[31033 -> 42449], [Washington -> Seattle] 
+
+srcNodes: [110234, 42859, 42449]
+  path: 0[90148 -> 30976 -> 110234], [Columbia River -> British Columbia -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[90148 -> 30976 -> 42859], [Columbia River -> British Columbia -> Vancouver] 
+
+  path: 2[90148 -> 31033 -> 42449], [Columbia River -> Washington -> Seattle] 
+
+srcNodes: [110234, 110234, 42449]
+  path: 0[42881 -> 110234], [Victoria -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[42881 -> 110234], [Victoria -> Vancouver Island Vancouver Island  ] 
+
+  path: 2[42881 -> 110234 -> 30976 -> 90148 -> 31033 -> 42449], [Victoria -> Vancouver Island Vancouver Island   -> British Columbia -> Columbia River -> Washington -> Seattle] 
+
+This is a non-reduced answer tree with common first node 110234
+
+srcNodes: [110234, 110234, 42449]
+  path: 0[42880 -> 110234], [Victoria -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[42880 -> 110234], [Victoria -> Vancouver Island Vancouver Island  ] 
+
+  path: 2[42880 -> 110234 -> 30976 -> 90148 -> 31033 -> 42449], [Victoria -> Vancouver Island Vancouver Island   -> British Columbia -> Columbia River -> Washington -> Seattle] 
+
+This is a non-reduced answer tree with common first node 110234
+
+srcNodes: [110234, 110234, 42449]
+  path: 0[42879 -> 110234], [Victoria -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[42879 -> 110234], [Victoria -> Vancouver Island Vancouver Island  ] 
+
+  path: 2[42879 -> 110234 -> 30976 -> 90148 -> 31033 -> 42449], [Victoria -> Vancouver Island Vancouver Island   -> British Columbia -> Columbia River -> Washington -> Seattle] 
+
+This is a non-reduced answer tree with common first node 110234
+
+srcNodes: [110001, 42859, 42449]
+  path: 0[110001 -> 110001], [Greenland Greenland   -> Greenland Greenland  ]
+  path: 1[110001 -> 20129 -> 10001 -> 20117 -> 30976 -> 42859], [Greenland Greenland   -> Greenland -> America -> Canada -> British Columbia -> Vancouver] 
+
+  path: 2[110001 -> 20129 -> 10001 -> 20118 -> 31033 -> 42449], [Greenland Greenland   -> Greenland -> America -> United States -> Washington -> Seattle] 
+
+srcNodes: [31025, 42859, 42449]
+  path: 0[20118 -> 31025], [United States -> Rhode Island] 
+
+  path: 1[20118 -> 10001 -> 20117 -> 30976 -> 42859], [United States -> America -> Canada -> British Columbia -> Vancouver] 
+
+  path: 2[20118 -> 31033 -> 42449], [United States -> Washington -> Seattle] 
+
+srcNodes: [30983, 42859, 42449]
+  path: 0[20117 -> 30983], [Canada -> Prince Edward Island] 
+
+  path: 1[20117 -> 30976 -> 42859], [Canada -> British Columbia -> Vancouver] 
+
+  path: 2[20117 -> 10001 -> 20118 -> 31033 -> 42449], [Canada -> America -> United States -> Washington -> Seattle] 
+
+-----------------------------------------
+ResultDestNodes: [110234, 30976, 31033, 90148, 42881, 42880, 42879, 110001, 20118, 20117]
+ResultRelevs: [8.419389724731445, 5.606719970703125, 4.93692684173584, 4.686061859130859, 4.588991165161133, 4.588991165161133, 4.588991165161133, 4.446365833282471, 4.020559787750244, 3.986759662628174]
+Num of top-k answers: 10
+Num of non-reduced answers: 3
+Num of duplicate answers: 5
+Num of non-redundant answers: 5
+Num of entries retrieved from the lists: 263
+Num of entries retrieved from NKMaps: 314
+
+Blink Search Using ConstRootDup10
+[island, vancouver, seattle]
+srcNodes: [110234, 110234, 42449]
+  path: 0[110234 -> 110234], [Vancouver Island Vancouver Island   -> Vancouver Island Vancouver Island  ]
+  path: 1[110234 -> 110234], [Vancouver Island Vancouver Island   -> Vancouver Island Vancouver Island  ]
+  path: 2[110234 -> 30976 -> 90148 -> 31033 -> 42449], [Vancouver Island Vancouver Island   -> British Columbia -> Columbia River -> Washington -> Seattle] 
+
+srcNodes: [110084, 110234, 42449]
+  path: 0[110234 -> 30976 -> 42879 -> 110084], [Vancouver Island Vancouver Island   -> British Columbia -> Victoria -> Gozo Gozo Malta ] 
+
+  path: 1[110234 -> 110234], [Vancouver Island Vancouver Island   -> Vancouver Island Vancouver Island  ]
+  path: 2[110234 -> 30976 -> 90148 -> 31033 -> 42449], [Vancouver Island Vancouver Island   -> British Columbia -> Columbia River -> Washington -> Seattle] 
+
+srcNodes: [110234, 42859, 42449]
+  path: 0[110234 -> 110234], [Vancouver Island Vancouver Island   -> Vancouver Island Vancouver Island  ]
+  path: 1[110234 -> 30976 -> 42859], [Vancouver Island Vancouver Island   -> British Columbia -> Vancouver] 
+
+  path: 2[110234 -> 30976 -> 90148 -> 31033 -> 42449], [Vancouver Island Vancouver Island   -> British Columbia -> Columbia River -> Washington -> Seattle] 
+
+srcNodes: [110083, 110234, 42449]
+  path: 0[110234 -> 30976 -> 42879 -> 110084 -> 20046 -> 110083], [Vancouver Island Vancouver Island   -> British Columbia -> Victoria -> Gozo Gozo Malta  -> Malta -> Malta Malta Malta ] 
+
+  path: 1[110234 -> 110234], [Vancouver Island Vancouver Island   -> Vancouver Island Vancouver Island  ]
+  path: 2[110234 -> 30976 -> 90148 -> 31033 -> 42449], [Vancouver Island Vancouver Island   -> British Columbia -> Columbia River -> Washington -> Seattle] 
+
+srcNodes: [110234, 42859, 42449]
+  path: 0[30976 -> 110234], [British Columbia -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[30976 -> 42859], [British Columbia -> Vancouver] 
+
+  path: 2[30976 -> 90148 -> 31033 -> 42449], [British Columbia -> Columbia River -> Washington -> Seattle] 
+
+srcNodes: [110234, 110234, 42449]
+  path: 0[30976 -> 110234], [British Columbia -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[30976 -> 110234], [British Columbia -> Vancouver Island Vancouver Island  ] 
+
+  path: 2[30976 -> 90148 -> 31033 -> 42449], [British Columbia -> Columbia River -> Washington -> Seattle] 
+
+srcNodes: [110234, 42859, 42449]
+  path: 0[31033 -> 90148 -> 30976 -> 110234], [Washington -> Columbia River -> British Columbia -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[31033 -> 90148 -> 30976 -> 42859], [Washington -> Columbia River -> British Columbia -> Vancouver] 
+
+  path: 2[31033 -> 42449], [Washington -> Seattle] 
+
+srcNodes: [110234, 42859, 42449]
+  path: 0[90148 -> 30976 -> 110234], [Columbia River -> British Columbia -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[90148 -> 30976 -> 42859], [Columbia River -> British Columbia -> Vancouver] 
+
+  path: 2[90148 -> 31033 -> 42449], [Columbia River -> Washington -> Seattle] 
+
+srcNodes: [110234, 110234, 42449]
+  path: 0[42881 -> 110234], [Victoria -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[42881 -> 110234], [Victoria -> Vancouver Island Vancouver Island  ] 
+
+  path: 2[42881 -> 110234 -> 30976 -> 90148 -> 31033 -> 42449], [Victoria -> Vancouver Island Vancouver Island   -> British Columbia -> Columbia River -> Washington -> Seattle] 
+
+srcNodes: [110234, 110234, 42449]
+  path: 0[42880 -> 110234], [Victoria -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[42880 -> 110234], [Victoria -> Vancouver Island Vancouver Island  ] 
+
+  path: 2[42880 -> 110234 -> 30976 -> 90148 -> 31033 -> 42449], [Victoria -> Vancouver Island Vancouver Island   -> British Columbia -> Columbia River -> Washington -> Seattle] 
+
+-----------------------------------------
+ResultDestNodes: 
+110234, 110234, 110234, 110234, 30976, 30976, 31033, 90148, 42881, 42880, 
+ResultRelevs: 
+8.41939, 6.005181, 5.88255, 5.8323736, 5.60672, 5.06311, 4.936927, 4.686062, 4.588991, 4.588991, 
+Num of top-k answers: 10
+Num of duplicate answers: 6
+Num of duplicate roots in top-k answers: 4
+root duplication ratio: 0.44444445
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 139
+Num of entries retrieved from NKMaps: 653
+Num of answer trees explored: 544
+
+Blink Search Using BDB 20
+[island, vancouver, seattle]
+srcNodes: [110234, 110234, 42449]
+  path: 0[110234 -> 110234], [Vancouver Island Vancouver Island   -> Vancouver Island Vancouver Island  ]
+  path: 1[110234 -> 110234], [Vancouver Island Vancouver Island   -> Vancouver Island Vancouver Island  ]
+  path: 2[110234 -> 30976 -> 90148 -> 31033 -> 42449], [Vancouver Island Vancouver Island   -> British Columbia -> Columbia River -> Washington -> Seattle] 
+
+srcNodes: [110234, 42859, 42449]
+  path: 0[30976 -> 110234], [British Columbia -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[30976 -> 42859], [British Columbia -> Vancouver] 
+
+  path: 2[30976 -> 90148 -> 31033 -> 42449], [British Columbia -> Columbia River -> Washington -> Seattle] 
+
+srcNodes: [110234, 42859, 42449]
+  path: 0[31033 -> 90148 -> 30976 -> 110234], [Washington -> Columbia River -> British Columbia -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[31033 -> 90148 -> 30976 -> 42859], [Washington -> Columbia River -> British Columbia -> Vancouver] 
+
+  path: 2[31033 -> 42449], [Washington -> Seattle] 
+
+srcNodes: [110234, 42859, 42449]
+  path: 0[90148 -> 30976 -> 110234], [Columbia River -> British Columbia -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[90148 -> 30976 -> 42859], [Columbia River -> British Columbia -> Vancouver] 
+
+  path: 2[90148 -> 31033 -> 42449], [Columbia River -> Washington -> Seattle] 
+
+srcNodes: [110234, 110234, 42449]
+  path: 0[42881 -> 110234], [Victoria -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[42881 -> 110234], [Victoria -> Vancouver Island Vancouver Island  ] 
+
+  path: 2[42881 -> 110234 -> 30976 -> 90148 -> 31033 -> 42449], [Victoria -> Vancouver Island Vancouver Island   -> British Columbia -> Columbia River -> Washington -> Seattle] 
+
+This is a non-reduced answer tree with common first node 110234
+
+srcNodes: [110234, 110234, 42449]
+  path: 0[42879 -> 110234], [Victoria -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[42879 -> 110234], [Victoria -> Vancouver Island Vancouver Island  ] 
+
+  path: 2[42879 -> 110234 -> 30976 -> 90148 -> 31033 -> 42449], [Victoria -> Vancouver Island Vancouver Island   -> British Columbia -> Columbia River -> Washington -> Seattle] 
+
+This is a non-reduced answer tree with common first node 110234
+
+srcNodes: [110234, 110234, 42449]
+  path: 0[42880 -> 110234], [Victoria -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[42880 -> 110234], [Victoria -> Vancouver Island Vancouver Island  ] 
+
+  path: 2[42880 -> 110234 -> 30976 -> 90148 -> 31033 -> 42449], [Victoria -> Vancouver Island Vancouver Island   -> British Columbia -> Columbia River -> Washington -> Seattle] 
+
+This is a non-reduced answer tree with common first node 110234
+
+srcNodes: [110001, 42859, 42449]
+  path: 0[110001 -> 110001], [Greenland Greenland   -> Greenland Greenland  ]
+  path: 1[110001 -> 20129 -> 10001 -> 20117 -> 30976 -> 42859], [Greenland Greenland   -> Greenland -> America -> Canada -> British Columbia -> Vancouver] 
+
+  path: 2[110001 -> 20129 -> 10001 -> 20118 -> 31033 -> 42449], [Greenland Greenland   -> Greenland -> America -> United States -> Washington -> Seattle] 
+
+srcNodes: [31025, 42859, 42449]
+  path: 0[20118 -> 31025], [United States -> Rhode Island] 
+
+  path: 1[20118 -> 10001 -> 20117 -> 30976 -> 42859], [United States -> America -> Canada -> British Columbia -> Vancouver] 
+
+  path: 2[20118 -> 31033 -> 42449], [United States -> Washington -> Seattle] 
+
+srcNodes: [30983, 42859, 42449]
+  path: 0[20117 -> 30983], [Canada -> Prince Edward Island] 
+
+  path: 1[20117 -> 30976 -> 42859], [Canada -> British Columbia -> Vancouver] 
+
+  path: 2[20117 -> 10001 -> 20118 -> 31033 -> 42449], [Canada -> America -> United States -> Washington -> Seattle] 
+
+srcNodes: [110229, 42859, 42449]
+  path: 0[110229 -> 110229], [Aruba Aruba Lesser Antilles  -> Aruba Aruba Lesser Antilles ]
+  path: 1[110229 -> 20109 -> 10001 -> 20117 -> 30976 -> 42859], [Aruba Aruba Lesser Antilles  -> Aruba -> America -> Canada -> British Columbia -> Vancouver] 
+
+  path: 2[110229 -> 20109 -> 10001 -> 20118 -> 31033 -> 42449], [Aruba Aruba Lesser Antilles  -> Aruba -> America -> United States -> Washington -> Seattle] 
+
+srcNodes: [110205, 42859, 42449]
+  path: 0[110205 -> 110205], [Jamaica Jamaica Greater Antilles  -> Jamaica Jamaica Greater Antilles ]
+  path: 1[110205 -> 20132 -> 10001 -> 20117 -> 30976 -> 42859], [Jamaica Jamaica Greater Antilles  -> Jamaica -> America -> Canada -> British Columbia -> Vancouver] 
+
+  path: 2[110205 -> 20132 -> 10001 -> 20118 -> 31033 -> 42449], [Jamaica Jamaica Greater Antilles  -> Jamaica -> America -> United States -> Washington -> Seattle] 
+
+srcNodes: [110233, 42859, 42449]
+  path: 0[110233 -> 110233], [Isla da Ometepe Isla da Ometepe   -> Isla da Ometepe Isla da Ometepe  ]
+  path: 1[110233 -> 20121 -> 10001 -> 20117 -> 30976 -> 42859], [Isla da Ometepe Isla da Ometepe   -> Nicaragua -> America -> Canada -> British Columbia -> Vancouver] 
+
+  path: 2[110233 -> 20121 -> 10001 -> 20118 -> 31033 -> 42449], [Isla da Ometepe Isla da Ometepe   -> Nicaragua -> America -> United States -> Washington -> Seattle] 
+
+srcNodes: [110206, 42859, 42449]
+  path: 0[110206 -> 110206], [Hispaniola Hispaniola Greater Antilles  -> Hispaniola Hispaniola Greater Antilles ]
+  path: 1[110206 -> 20126 -> 10001 -> 20117 -> 30976 -> 42859], [Hispaniola Hispaniola Greater Antilles  -> Haiti -> America -> Canada -> British Columbia -> Vancouver] 
+
+  path: 2[110206 -> 20126 -> 10001 -> 20118 -> 31033 -> 42449], [Hispaniola Hispaniola Greater Antilles  -> Haiti -> America -> United States -> Washington -> Seattle] 
+
+srcNodes: [110210, 42859, 42449]
+  path: 0[110210 -> 110210], [Anguilla Anguilla Lesser Antilles  -> Anguilla Anguilla Lesser Antilles ]
+  path: 1[110210 -> 20107 -> 10001 -> 20117 -> 30976 -> 42859], [Anguilla Anguilla Lesser Antilles  -> Anguilla -> America -> Canada -> British Columbia -> Vancouver] 
+
+  path: 2[110210 -> 20107 -> 10001 -> 20118 -> 31033 -> 42449], [Anguilla Anguilla Lesser Antilles  -> Anguilla -> America -> United States -> Washington -> Seattle] 
+
+srcNodes: [110191, 42859, 42449]
+  path: 0[110191 -> 110191], [Miquelon-Langlade Miquelon-Langlade   -> Miquelon-Langlade Miquelon-Langlade  ]
+  path: 1[110191 -> 20141 -> 10001 -> 20117 -> 30976 -> 42859], [Miquelon-Langlade Miquelon-Langlade   -> Saint Pierre and Miquelon -> America -> Canada -> British Columbia -> Vancouver] 
+
+  path: 2[110191 -> 20141 -> 10001 -> 20118 -> 31033 -> 42449], [Miquelon-Langlade Miquelon-Langlade   -> Saint Pierre and Miquelon -> America -> United States -> Washington -> Seattle] 
+
+srcNodes: [110227, 42859, 42449]
+  path: 0[110227 -> 110227], [Curacao Curacao Lesser Antilles  -> Curacao Curacao Lesser Antilles ]
+  path: 1[110227 -> 20135 -> 10001 -> 20117 -> 30976 -> 42859], [Curacao Curacao Lesser Antilles  -> Netherlands Antilles -> America -> Canada -> British Columbia -> Vancouver] 
+
+  path: 2[110227 -> 20135 -> 10001 -> 20118 -> 31033 -> 42449], [Curacao Curacao Lesser Antilles  -> Netherlands Antilles -> America -> United States -> Washington -> Seattle] 
+
+srcNodes: [110190, 42859, 42449]
+  path: 0[110190 -> 110190], [Saint Pierre Saint Pierre   -> Saint Pierre Saint Pierre  ]
+  path: 1[110190 -> 20141 -> 10001 -> 20117 -> 30976 -> 42859], [Saint Pierre Saint Pierre   -> Saint Pierre and Miquelon -> America -> Canada -> British Columbia -> Vancouver] 
+
+  path: 2[110190 -> 20141 -> 10001 -> 20118 -> 31033 -> 42449], [Saint Pierre Saint Pierre   -> Saint Pierre and Miquelon -> America -> United States -> Washington -> Seattle] 
+
+srcNodes: [110228, 42859, 42449]
+  path: 0[110228 -> 110228], [Bonaire Bonaire Lesser Antilles  -> Bonaire Bonaire Lesser Antilles ]
+  path: 1[110228 -> 20135 -> 10001 -> 20117 -> 30976 -> 42859], [Bonaire Bonaire Lesser Antilles  -> Netherlands Antilles -> America -> Canada -> British Columbia -> Vancouver] 
+
+  path: 2[110228 -> 20135 -> 10001 -> 20118 -> 31033 -> 42449], [Bonaire Bonaire Lesser Antilles  -> Netherlands Antilles -> America -> United States -> Washington -> Seattle] 
+
+srcNodes: [110214, 42859, 42449]
+  path: 0[110214 -> 110214], [Barbuda Barbuda Lesser Antilles  -> Barbuda Barbuda Lesser Antilles ]
+  path: 1[110214 -> 20108 -> 10001 -> 20117 -> 30976 -> 42859], [Barbuda Barbuda Lesser Antilles  -> Antigua and Barbuda -> America -> Canada -> British Columbia -> Vancouver] 
+
+  path: 2[110214 -> 20108 -> 10001 -> 20118 -> 31033 -> 42449], [Barbuda Barbuda Lesser Antilles  -> Antigua and Barbuda -> America -> United States -> Washington -> Seattle] 
+
+-----------------------------------------
+ResultDestNodes: [110234, 30976, 31033, 90148, 42881, 42879, 42880, 110001, 20118, 20117, 110229, 110205, 110233, 110206, 110210, 110191, 110227, 110190, 110228, 110214]
+ResultRelevs: [8.419389724731445, 5.606719970703125, 4.93692684173584, 4.686061859130859, 4.588991165161133, 4.588991165161133, 4.588991165161133, 4.446365833282471, 4.020559787750244, 3.986759662628174, 3.927945852279663, 3.927945852279663, 3.927945852279663, 3.927945852279663, 3.927945852279663, 3.927945852279663, 3.927945852279663, 3.927945852279663, 3.927945852279663, 3.927945852279663]
+Num of top-k answers: 20
+Num of non-reduced answers: 3
+Num of duplicate answers: 5
+Num of non-redundant answers: 15
+Num of entries retrieved from the lists: 285
+Num of entries retrieved from NKMaps: 347
+
+Blink Search Using ConstRootDup20
+[island, vancouver, seattle]
+srcNodes: [110234, 110234, 42449]
+  path: 0[110234 -> 110234], [Vancouver Island Vancouver Island   -> Vancouver Island Vancouver Island  ]
+  path: 1[110234 -> 110234], [Vancouver Island Vancouver Island   -> Vancouver Island Vancouver Island  ]
+  path: 2[110234 -> 30976 -> 90148 -> 31033 -> 42449], [Vancouver Island Vancouver Island   -> British Columbia -> Columbia River -> Washington -> Seattle] 
+
+srcNodes: [110084, 110234, 42449]
+  path: 0[110234 -> 30976 -> 42879 -> 110084], [Vancouver Island Vancouver Island   -> British Columbia -> Victoria -> Gozo Gozo Malta ] 
+
+  path: 1[110234 -> 110234], [Vancouver Island Vancouver Island   -> Vancouver Island Vancouver Island  ]
+  path: 2[110234 -> 30976 -> 90148 -> 31033 -> 42449], [Vancouver Island Vancouver Island   -> British Columbia -> Columbia River -> Washington -> Seattle] 
+
+srcNodes: [110234, 42859, 42449]
+  path: 0[110234 -> 110234], [Vancouver Island Vancouver Island   -> Vancouver Island Vancouver Island  ]
+  path: 1[110234 -> 30976 -> 42859], [Vancouver Island Vancouver Island   -> British Columbia -> Vancouver] 
+
+  path: 2[110234 -> 30976 -> 90148 -> 31033 -> 42449], [Vancouver Island Vancouver Island   -> British Columbia -> Columbia River -> Washington -> Seattle] 
+
+srcNodes: [110083, 110234, 42449]
+  path: 0[110234 -> 30976 -> 42879 -> 110084 -> 20046 -> 110083], [Vancouver Island Vancouver Island   -> British Columbia -> Victoria -> Gozo Gozo Malta  -> Malta -> Malta Malta Malta ] 
+
+  path: 1[110234 -> 110234], [Vancouver Island Vancouver Island   -> Vancouver Island Vancouver Island  ]
+  path: 2[110234 -> 30976 -> 90148 -> 31033 -> 42449], [Vancouver Island Vancouver Island   -> British Columbia -> Columbia River -> Washington -> Seattle] 
+
+srcNodes: [110234, 42859, 42449]
+  path: 0[30976 -> 110234], [British Columbia -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[30976 -> 42859], [British Columbia -> Vancouver] 
+
+  path: 2[30976 -> 90148 -> 31033 -> 42449], [British Columbia -> Columbia River -> Washington -> Seattle] 
+
+srcNodes: [110234, 110234, 42449]
+  path: 0[30976 -> 110234], [British Columbia -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[30976 -> 110234], [British Columbia -> Vancouver Island Vancouver Island  ] 
+
+  path: 2[30976 -> 90148 -> 31033 -> 42449], [British Columbia -> Columbia River -> Washington -> Seattle] 
+
+srcNodes: [110234, 42859, 42449]
+  path: 0[31033 -> 90148 -> 30976 -> 110234], [Washington -> Columbia River -> British Columbia -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[31033 -> 90148 -> 30976 -> 42859], [Washington -> Columbia River -> British Columbia -> Vancouver] 
+
+  path: 2[31033 -> 42449], [Washington -> Seattle] 
+
+srcNodes: [110132, 42859, 42449]
+  path: 0[30976 -> 42879 -> 110132], [British Columbia -> Victoria -> Mahe Mahe Seychelles ] 
+
+  path: 1[30976 -> 42859], [British Columbia -> Vancouver] 
+
+  path: 2[30976 -> 90148 -> 31033 -> 42449], [British Columbia -> Columbia River -> Washington -> Seattle] 
+
+srcNodes: [110234, 42859, 42449]
+  path: 0[90148 -> 30976 -> 110234], [Columbia River -> British Columbia -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[90148 -> 30976 -> 42859], [Columbia River -> British Columbia -> Vancouver] 
+
+  path: 2[90148 -> 31033 -> 42449], [Columbia River -> Washington -> Seattle] 
+
+srcNodes: [110234, 110234, 42449]
+  path: 0[31033 -> 90148 -> 30976 -> 110234], [Washington -> Columbia River -> British Columbia -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[31033 -> 90148 -> 30976 -> 110234], [Washington -> Columbia River -> British Columbia -> Vancouver Island Vancouver Island  ] 
+
+  path: 2[31033 -> 42449], [Washington -> Seattle] 
+
+srcNodes: [110084, 42859, 42449]
+  path: 0[31033 -> 90148 -> 30976 -> 42879 -> 110084], [Washington -> Columbia River -> British Columbia -> Victoria -> Gozo Gozo Malta ] 
+
+  path: 1[31033 -> 90148 -> 30976 -> 42859], [Washington -> Columbia River -> British Columbia -> Vancouver] 
+
+  path: 2[31033 -> 42449], [Washington -> Seattle] 
+
+srcNodes: [110234, 110234, 42449]
+  path: 0[42880 -> 110234], [Victoria -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[42880 -> 110234], [Victoria -> Vancouver Island Vancouver Island  ] 
+
+  path: 2[42880 -> 110234 -> 30976 -> 90148 -> 31033 -> 42449], [Victoria -> Vancouver Island Vancouver Island   -> British Columbia -> Columbia River -> Washington -> Seattle] 
+
+srcNodes: [110234, 110234, 42449]
+  path: 0[42879 -> 110234], [Victoria -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[42879 -> 110234], [Victoria -> Vancouver Island Vancouver Island  ] 
+
+  path: 2[42879 -> 110234 -> 30976 -> 90148 -> 31033 -> 42449], [Victoria -> Vancouver Island Vancouver Island   -> British Columbia -> Columbia River -> Washington -> Seattle] 
+
+srcNodes: [110234, 110234, 42449]
+  path: 0[42881 -> 110234], [Victoria -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[42881 -> 110234], [Victoria -> Vancouver Island Vancouver Island  ] 
+
+  path: 2[42881 -> 110234 -> 30976 -> 90148 -> 31033 -> 42449], [Victoria -> Vancouver Island Vancouver Island   -> British Columbia -> Columbia River -> Washington -> Seattle] 
+
+srcNodes: [110083, 42859, 42449]
+  path: 0[30976 -> 42879 -> 110084 -> 20046 -> 110083], [British Columbia -> Victoria -> Gozo Gozo Malta  -> Malta -> Malta Malta Malta ] 
+
+  path: 1[30976 -> 42859], [British Columbia -> Vancouver] 
+
+  path: 2[30976 -> 90148 -> 31033 -> 42449], [British Columbia -> Columbia River -> Washington -> Seattle] 
+
+srcNodes: [110001, 42859, 42449]
+  path: 0[110001 -> 110001], [Greenland Greenland   -> Greenland Greenland  ]
+  path: 1[110001 -> 20129 -> 10001 -> 20117 -> 30976 -> 42859], [Greenland Greenland   -> Greenland -> America -> Canada -> British Columbia -> Vancouver] 
+
+  path: 2[110001 -> 20129 -> 10001 -> 20118 -> 31033 -> 42449], [Greenland Greenland   -> Greenland -> America -> United States -> Washington -> Seattle] 
+
+srcNodes: [110084, 110234, 42449]
+  path: 0[31033 -> 90148 -> 30976 -> 42879 -> 110084], [Washington -> Columbia River -> British Columbia -> Victoria -> Gozo Gozo Malta ] 
+
+  path: 1[31033 -> 90148 -> 30976 -> 110234], [Washington -> Columbia River -> British Columbia -> Vancouver Island Vancouver Island  ] 
+
+  path: 2[31033 -> 42449], [Washington -> Seattle] 
+
+srcNodes: [31025, 42859, 42449]
+  path: 0[20118 -> 31025], [United States -> Rhode Island] 
+
+  path: 1[20118 -> 10001 -> 20117 -> 30976 -> 42859], [United States -> America -> Canada -> British Columbia -> Vancouver] 
+
+  path: 2[20118 -> 31033 -> 42449], [United States -> Washington -> Seattle] 
+
+srcNodes: [30983, 42859, 42449]
+  path: 0[20117 -> 30983], [Canada -> Prince Edward Island] 
+
+  path: 1[20117 -> 30976 -> 42859], [Canada -> British Columbia -> Vancouver] 
+
+  path: 2[20117 -> 10001 -> 20118 -> 31033 -> 42449], [Canada -> America -> United States -> Washington -> Seattle] 
+
+srcNodes: [110205, 42859, 42449]
+  path: 0[110205 -> 110205], [Jamaica Jamaica Greater Antilles  -> Jamaica Jamaica Greater Antilles ]
+  path: 1[110205 -> 20132 -> 10001 -> 20117 -> 30976 -> 42859], [Jamaica Jamaica Greater Antilles  -> Jamaica -> America -> Canada -> British Columbia -> Vancouver] 
+
+  path: 2[110205 -> 20132 -> 10001 -> 20118 -> 31033 -> 42449], [Jamaica Jamaica Greater Antilles  -> Jamaica -> America -> United States -> Washington -> Seattle] 
+
+-----------------------------------------
+ResultDestNodes: 
+110234, 110234, 110234, 110234, 30976, 30976, 31033, 30976, 90148, 31033, 31033, 42880, 42879, 42881, 30976, 110001, 31033, 20118, 20117, 110205, 
+ResultRelevs: 
+8.41939, 6.005181, 5.88255, 5.8323736, 5.60672, 5.06311, 4.936927, 4.831637, 4.686062, 4.665127, 4.618506, 4.588991, 4.588991, 4.588991, 4.555146, 4.446366, 4.346706, 4.02056, 3.9867597, 3.9279459, 
+Num of top-k answers: 20
+Num of duplicate answers: 9
+Num of duplicate roots in top-k answers: 9
+root duplication ratio: 0.47368422
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 263
+Num of entries retrieved from NKMaps: 1064
+Num of answer trees explored: 838
+
+Blink Search Using BDB 30
+[island, vancouver, seattle]
+srcNodes: [110234, 110234, 42449]
+  path: 0[110234 -> 110234], [Vancouver Island Vancouver Island   -> Vancouver Island Vancouver Island  ]
+  path: 1[110234 -> 110234], [Vancouver Island Vancouver Island   -> Vancouver Island Vancouver Island  ]
+  path: 2[110234 -> 30976 -> 90148 -> 31033 -> 42449], [Vancouver Island Vancouver Island   -> British Columbia -> Columbia River -> Washington -> Seattle] 
+
+srcNodes: [110234, 42859, 42449]
+  path: 0[30976 -> 110234], [British Columbia -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[30976 -> 42859], [British Columbia -> Vancouver] 
+
+  path: 2[30976 -> 90148 -> 31033 -> 42449], [British Columbia -> Columbia River -> Washington -> Seattle] 
+
+srcNodes: [110234, 42859, 42449]
+  path: 0[31033 -> 90148 -> 30976 -> 110234], [Washington -> Columbia River -> British Columbia -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[31033 -> 90148 -> 30976 -> 42859], [Washington -> Columbia River -> British Columbia -> Vancouver] 
+
+  path: 2[31033 -> 42449], [Washington -> Seattle] 
+
+srcNodes: [110234, 42859, 42449]
+  path: 0[90148 -> 30976 -> 110234], [Columbia River -> British Columbia -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[90148 -> 30976 -> 42859], [Columbia River -> British Columbia -> Vancouver] 
+
+  path: 2[90148 -> 31033 -> 42449], [Columbia River -> Washington -> Seattle] 
+
+srcNodes: [110234, 110234, 42449]
+  path: 0[42881 -> 110234], [Victoria -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[42881 -> 110234], [Victoria -> Vancouver Island Vancouver Island  ] 
+
+  path: 2[42881 -> 110234 -> 30976 -> 90148 -> 31033 -> 42449], [Victoria -> Vancouver Island Vancouver Island   -> British Columbia -> Columbia River -> Washington -> Seattle] 
+
+This is a non-reduced answer tree with common first node 110234
+
+srcNodes: [110234, 110234, 42449]
+  path: 0[42880 -> 110234], [Victoria -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[42880 -> 110234], [Victoria -> Vancouver Island Vancouver Island  ] 
+
+  path: 2[42880 -> 110234 -> 30976 -> 90148 -> 31033 -> 42449], [Victoria -> Vancouver Island Vancouver Island   -> British Columbia -> Columbia River -> Washington -> Seattle] 
+
+This is a non-reduced answer tree with common first node 110234
+
+srcNodes: [110234, 110234, 42449]
+  path: 0[42879 -> 110234], [Victoria -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[42879 -> 110234], [Victoria -> Vancouver Island Vancouver Island  ] 
+
+  path: 2[42879 -> 110234 -> 30976 -> 90148 -> 31033 -> 42449], [Victoria -> Vancouver Island Vancouver Island   -> British Columbia -> Columbia River -> Washington -> Seattle] 
+
+This is a non-reduced answer tree with common first node 110234
+
+srcNodes: [110001, 42859, 42449]
+  path: 0[110001 -> 110001], [Greenland Greenland   -> Greenland Greenland  ]
+  path: 1[110001 -> 20129 -> 10001 -> 20117 -> 30976 -> 42859], [Greenland Greenland   -> Greenland -> America -> Canada -> British Columbia -> Vancouver] 
+
+  path: 2[110001 -> 20129 -> 10001 -> 20118 -> 31033 -> 42449], [Greenland Greenland   -> Greenland -> America -> United States -> Washington -> Seattle] 
+
+srcNodes: [31025, 42859, 42449]
+  path: 0[20118 -> 31025], [United States -> Rhode Island] 
+
+  path: 1[20118 -> 10001 -> 20117 -> 30976 -> 42859], [United States -> America -> Canada -> British Columbia -> Vancouver] 
+
+  path: 2[20118 -> 31033 -> 42449], [United States -> Washington -> Seattle] 
+
+srcNodes: [30983, 42859, 42449]
+  path: 0[20117 -> 30983], [Canada -> Prince Edward Island] 
+
+  path: 1[20117 -> 30976 -> 42859], [Canada -> British Columbia -> Vancouver] 
+
+  path: 2[20117 -> 10001 -> 20118 -> 31033 -> 42449], [Canada -> America -> United States -> Washington -> Seattle] 
+
+srcNodes: [110226, 42859, 42449]
+  path: 0[110226 -> 110226], [Tobago Tobago Lesser Antilles  -> Tobago Tobago Lesser Antilles ]
+  path: 1[110226 -> 20143 -> 10001 -> 20117 -> 30976 -> 42859], [Tobago Tobago Lesser Antilles  -> Trinidad and Tobago -> America -> Canada -> British Columbia -> Vancouver] 
+
+  path: 2[110226 -> 20143 -> 10001 -> 20118 -> 31033 -> 42449], [Tobago Tobago Lesser Antilles  -> Trinidad and Tobago -> America -> United States -> Washington -> Seattle] 
+
+srcNodes: [110240, 42859, 42449]
+  path: 0[110240 -> 110240], [Isabela Isabela Galapagos volcanic -> Isabela Isabela Galapagos volcanic]
+  path: 1[110240 -> 20180 -> 10001 -> 20117 -> 30976 -> 42859], [Isabela Isabela Galapagos volcanic -> Ecuador -> America -> Canada -> British Columbia -> Vancouver] 
+
+  path: 2[110240 -> 20180 -> 10001 -> 20118 -> 31033 -> 42449], [Isabela Isabela Galapagos volcanic -> Ecuador -> America -> United States -> Washington -> Seattle] 
+
+srcNodes: [110214, 42859, 42449]
+  path: 0[110214 -> 110214], [Barbuda Barbuda Lesser Antilles  -> Barbuda Barbuda Lesser Antilles ]
+  path: 1[110214 -> 20108 -> 10001 -> 20117 -> 30976 -> 42859], [Barbuda Barbuda Lesser Antilles  -> Antigua and Barbuda -> America -> Canada -> British Columbia -> Vancouver] 
+
+  path: 2[110214 -> 20108 -> 10001 -> 20118 -> 31033 -> 42449], [Barbuda Barbuda Lesser Antilles  -> Antigua and Barbuda -> America -> United States -> Washington -> Seattle] 
+
+srcNodes: [110225, 42859, 42449]
+  path: 0[110225 -> 110225], [Trinidad Trinidad Lesser Antilles  -> Trinidad Trinidad Lesser Antilles ]
+  path: 1[110225 -> 20143 -> 10001 -> 20117 -> 30976 -> 42859], [Trinidad Trinidad Lesser Antilles  -> Trinidad and Tobago -> America -> Canada -> British Columbia -> Vancouver] 
+
+  path: 2[110225 -> 20143 -> 10001 -> 20118 -> 31033 -> 42449], [Trinidad Trinidad Lesser Antilles  -> Trinidad and Tobago -> America -> United States -> Washington -> Seattle] 
+
+srcNodes: [110273, 42859, 42449]
+  path: 0[110273 -> 110273], [Osterinsel Osterinsel  volcanic -> Osterinsel Osterinsel  volcanic]
+  path: 1[110273 -> 20172 -> 10001 -> 20117 -> 30976 -> 42859], [Osterinsel Osterinsel  volcanic -> Chile -> America -> Canada -> British Columbia -> Vancouver] 
+
+  path: 2[110273 -> 20172 -> 10001 -> 20118 -> 31033 -> 42449], [Osterinsel Osterinsel  volcanic -> Chile -> America -> United States -> Washington -> Seattle] 
+
+srcNodes: [110205, 42859, 42449]
+  path: 0[110205 -> 110205], [Jamaica Jamaica Greater Antilles  -> Jamaica Jamaica Greater Antilles ]
+  path: 1[110205 -> 20132 -> 10001 -> 20117 -> 30976 -> 42859], [Jamaica Jamaica Greater Antilles  -> Jamaica -> America -> Canada -> British Columbia -> Vancouver] 
+
+  path: 2[110205 -> 20132 -> 10001 -> 20118 -> 31033 -> 42449], [Jamaica Jamaica Greater Antilles  -> Jamaica -> America -> United States -> Washington -> Seattle] 
+
+srcNodes: [110191, 42859, 42449]
+  path: 0[110191 -> 110191], [Miquelon-Langlade Miquelon-Langlade   -> Miquelon-Langlade Miquelon-Langlade  ]
+  path: 1[110191 -> 20141 -> 10001 -> 20117 -> 30976 -> 42859], [Miquelon-Langlade Miquelon-Langlade   -> Saint Pierre and Miquelon -> America -> Canada -> British Columbia -> Vancouver] 
+
+  path: 2[110191 -> 20141 -> 10001 -> 20118 -> 31033 -> 42449], [Miquelon-Langlade Miquelon-Langlade   -> Saint Pierre and Miquelon -> America -> United States -> Washington -> Seattle] 
+
+srcNodes: [110190, 42859, 42449]
+  path: 0[110190 -> 110190], [Saint Pierre Saint Pierre   -> Saint Pierre Saint Pierre  ]
+  path: 1[110190 -> 20141 -> 10001 -> 20117 -> 30976 -> 42859], [Saint Pierre Saint Pierre   -> Saint Pierre and Miquelon -> America -> Canada -> British Columbia -> Vancouver] 
+
+  path: 2[110190 -> 20141 -> 10001 -> 20118 -> 31033 -> 42449], [Saint Pierre Saint Pierre   -> Saint Pierre and Miquelon -> America -> United States -> Washington -> Seattle] 
+
+srcNodes: [110229, 42859, 42449]
+  path: 0[110229 -> 110229], [Aruba Aruba Lesser Antilles  -> Aruba Aruba Lesser Antilles ]
+  path: 1[110229 -> 20109 -> 10001 -> 20117 -> 30976 -> 42859], [Aruba Aruba Lesser Antilles  -> Aruba -> America -> Canada -> British Columbia -> Vancouver] 
+
+  path: 2[110229 -> 20109 -> 10001 -> 20118 -> 31033 -> 42449], [Aruba Aruba Lesser Antilles  -> Aruba -> America -> United States -> Washington -> Seattle] 
+
+srcNodes: [110215, 42859, 42449]
+  path: 0[110215 -> 110215], [Antigua Antigua Lesser Antilles  -> Antigua Antigua Lesser Antilles ]
+  path: 1[110215 -> 20108 -> 10001 -> 20117 -> 30976 -> 42859], [Antigua Antigua Lesser Antilles  -> Antigua and Barbuda -> America -> Canada -> British Columbia -> Vancouver] 
+
+  path: 2[110215 -> 20108 -> 10001 -> 20118 -> 31033 -> 42449], [Antigua Antigua Lesser Antilles  -> Antigua and Barbuda -> America -> United States -> Washington -> Seattle] 
+
+srcNodes: [110210, 42859, 42449]
+  path: 0[110210 -> 110210], [Anguilla Anguilla Lesser Antilles  -> Anguilla Anguilla Lesser Antilles ]
+  path: 1[110210 -> 20107 -> 10001 -> 20117 -> 30976 -> 42859], [Anguilla Anguilla Lesser Antilles  -> Anguilla -> America -> Canada -> British Columbia -> Vancouver] 
+
+  path: 2[110210 -> 20107 -> 10001 -> 20118 -> 31033 -> 42449], [Anguilla Anguilla Lesser Antilles  -> Anguilla -> America -> United States -> Washington -> Seattle] 
+
+srcNodes: [110227, 42859, 42449]
+  path: 0[110227 -> 110227], [Curacao Curacao Lesser Antilles  -> Curacao Curacao Lesser Antilles ]
+  path: 1[110227 -> 20135 -> 10001 -> 20117 -> 30976 -> 42859], [Curacao Curacao Lesser Antilles  -> Netherlands Antilles -> America -> Canada -> British Columbia -> Vancouver] 
+
+  path: 2[110227 -> 20135 -> 10001 -> 20118 -> 31033 -> 42449], [Curacao Curacao Lesser Antilles  -> Netherlands Antilles -> America -> United States -> Washington -> Seattle] 
+
+srcNodes: [110233, 42859, 42449]
+  path: 0[110233 -> 110233], [Isla da Ometepe Isla da Ometepe   -> Isla da Ometepe Isla da Ometepe  ]
+  path: 1[110233 -> 20121 -> 10001 -> 20117 -> 30976 -> 42859], [Isla da Ometepe Isla da Ometepe   -> Nicaragua -> America -> Canada -> British Columbia -> Vancouver] 
+
+  path: 2[110233 -> 20121 -> 10001 -> 20118 -> 31033 -> 42449], [Isla da Ometepe Isla da Ometepe   -> Nicaragua -> America -> United States -> Washington -> Seattle] 
+
+srcNodes: [110228, 42859, 42449]
+  path: 0[110228 -> 110228], [Bonaire Bonaire Lesser Antilles  -> Bonaire Bonaire Lesser Antilles ]
+  path: 1[110228 -> 20135 -> 10001 -> 20117 -> 30976 -> 42859], [Bonaire Bonaire Lesser Antilles  -> Netherlands Antilles -> America -> Canada -> British Columbia -> Vancouver] 
+
+  path: 2[110228 -> 20135 -> 10001 -> 20118 -> 31033 -> 42449], [Bonaire Bonaire Lesser Antilles  -> Netherlands Antilles -> America -> United States -> Washington -> Seattle] 
+
+srcNodes: [110206, 42859, 42449]
+  path: 0[110206 -> 110206], [Hispaniola Hispaniola Greater Antilles  -> Hispaniola Hispaniola Greater Antilles ]
+  path: 1[110206 -> 20126 -> 10001 -> 20117 -> 30976 -> 42859], [Hispaniola Hispaniola Greater Antilles  -> Haiti -> America -> Canada -> British Columbia -> Vancouver] 
+
+  path: 2[110206 -> 20126 -> 10001 -> 20118 -> 31033 -> 42449], [Hispaniola Hispaniola Greater Antilles  -> Haiti -> America -> United States -> Washington -> Seattle] 
+
+srcNodes: [110234, 42859, 42449]
+  path: 0[176 -> 30976 -> 110234], [Mt Robson Mt Robson Rocky Mountains  -> British Columbia -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[176 -> 30976 -> 42859], [Mt Robson Mt Robson Rocky Mountains  -> British Columbia -> Vancouver] 
+
+  path: 2[176 -> 30976 -> 90148 -> 31033 -> 42449], [Mt Robson Mt Robson Rocky Mountains  -> British Columbia -> Columbia River -> Washington -> Seattle] 
+
+This is a non-reduced answer tree with common first node 30976
+
+srcNodes: [110234, 42859, 42449]
+  path: 0[177 -> 30976 -> 110234], [Mt Columbia Mt Columbia Rocky Mountains  -> British Columbia -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[177 -> 30976 -> 42859], [Mt Columbia Mt Columbia Rocky Mountains  -> British Columbia -> Vancouver] 
+
+  path: 2[177 -> 30976 -> 90148 -> 31033 -> 42449], [Mt Columbia Mt Columbia Rocky Mountains  -> British Columbia -> Columbia River -> Washington -> Seattle] 
+
+This is a non-reduced answer tree with common first node 30976
+
+srcNodes: [110234, 42859, 42449]
+  path: 0[175 -> 30976 -> 110234], [Mt Waddington Mt Waddington Coast Mountains  -> British Columbia -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[175 -> 30976 -> 42859], [Mt Waddington Mt Waddington Coast Mountains  -> British Columbia -> Vancouver] 
+
+  path: 2[175 -> 30976 -> 90148 -> 31033 -> 42449], [Mt Waddington Mt Waddington Coast Mountains  -> British Columbia -> Columbia River -> Washington -> Seattle] 
+
+This is a non-reduced answer tree with common first node 30976
+
+srcNodes: [110234, 42859, 42449]
+  path: 0[174 -> 30976 -> 110234], [Mt Fairweather Mt Fairweather Elias Range  -> British Columbia -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[174 -> 30976 -> 42859], [Mt Fairweather Mt Fairweather Elias Range  -> British Columbia -> Vancouver] 
+
+  path: 2[174 -> 30976 -> 90148 -> 31033 -> 42449], [Mt Fairweather Mt Fairweather Elias Range  -> British Columbia -> Columbia River -> Washington -> Seattle] 
+
+This is a non-reduced answer tree with common first node 30976
+
+srcNodes: [110207, 42859, 42449]
+  path: 0[110207 -> 110207], [Puerto Rico Puerto Rico Greater Antilles  -> Puerto Rico Puerto Rico Greater Antilles ]
+  path: 1[110207 -> 20138 -> 10001 -> 20117 -> 30976 -> 42859], [Puerto Rico Puerto Rico Greater Antilles  -> Puerto Rico -> America -> Canada -> British Columbia -> Vancouver] 
+
+  path: 2[110207 -> 20138 -> 10001 -> 20118 -> 31033 -> 42449], [Puerto Rico Puerto Rico Greater Antilles  -> Puerto Rico -> America -> United States -> Washington -> Seattle] 
+
+-----------------------------------------
+ResultDestNodes: [110234, 30976, 31033, 90148, 42881, 42880, 42879, 110001, 20118, 20117, 110226, 110240, 110214, 110225, 110273, 110205, 110191, 110190, 110229, 110215, 110210, 110227, 110233, 110228, 110206, 176, 177, 175, 174, 110207]
+ResultRelevs: [8.419389724731445, 5.606719970703125, 4.93692684173584, 4.686061859130859, 4.588991165161133, 4.588991165161133, 4.588991165161133, 4.446365833282471, 4.020559787750244, 3.986759662628174, 3.927945852279663, 3.927945852279663, 3.927945852279663, 3.927945852279663, 3.927945852279663, 3.927945852279663, 3.927945852279663, 3.927945852279663, 3.927945852279663, 3.927945852279663, 3.927945852279663, 3.927945852279663, 3.927945852279663, 3.927945852279663, 3.927945852279663, 3.927462100982666, 3.927462100982666, 3.927462100982666, 3.927462100982666, 3.668735980987549]
+Num of top-k answers: 30
+Num of non-reduced answers: 7
+Num of duplicate answers: 9
+Num of non-redundant answers: 21
+Num of entries retrieved from the lists: 422
+Num of entries retrieved from NKMaps: 473
+
+Blink Search Using ConstRootDup30
+[island, vancouver, seattle]
+srcNodes: [110234, 110234, 42449]
+  path: 0[110234 -> 110234], [Vancouver Island Vancouver Island   -> Vancouver Island Vancouver Island  ]
+  path: 1[110234 -> 110234], [Vancouver Island Vancouver Island   -> Vancouver Island Vancouver Island  ]
+  path: 2[110234 -> 30976 -> 90148 -> 31033 -> 42449], [Vancouver Island Vancouver Island   -> British Columbia -> Columbia River -> Washington -> Seattle] 
+
+srcNodes: [110084, 110234, 42449]
+  path: 0[110234 -> 30976 -> 42879 -> 110084], [Vancouver Island Vancouver Island   -> British Columbia -> Victoria -> Gozo Gozo Malta ] 
+
+  path: 1[110234 -> 110234], [Vancouver Island Vancouver Island   -> Vancouver Island Vancouver Island  ]
+  path: 2[110234 -> 30976 -> 90148 -> 31033 -> 42449], [Vancouver Island Vancouver Island   -> British Columbia -> Columbia River -> Washington -> Seattle] 
+
+srcNodes: [110234, 42859, 42449]
+  path: 0[110234 -> 110234], [Vancouver Island Vancouver Island   -> Vancouver Island Vancouver Island  ]
+  path: 1[110234 -> 30976 -> 42859], [Vancouver Island Vancouver Island   -> British Columbia -> Vancouver] 
+
+  path: 2[110234 -> 30976 -> 90148 -> 31033 -> 42449], [Vancouver Island Vancouver Island   -> British Columbia -> Columbia River -> Washington -> Seattle] 
+
+srcNodes: [110083, 110234, 42449]
+  path: 0[110234 -> 30976 -> 42879 -> 110084 -> 20046 -> 110083], [Vancouver Island Vancouver Island   -> British Columbia -> Victoria -> Gozo Gozo Malta  -> Malta -> Malta Malta Malta ] 
+
+  path: 1[110234 -> 110234], [Vancouver Island Vancouver Island   -> Vancouver Island Vancouver Island  ]
+  path: 2[110234 -> 30976 -> 90148 -> 31033 -> 42449], [Vancouver Island Vancouver Island   -> British Columbia -> Columbia River -> Washington -> Seattle] 
+
+srcNodes: [110234, 42859, 42449]
+  path: 0[30976 -> 110234], [British Columbia -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[30976 -> 42859], [British Columbia -> Vancouver] 
+
+  path: 2[30976 -> 90148 -> 31033 -> 42449], [British Columbia -> Columbia River -> Washington -> Seattle] 
+
+srcNodes: [110234, 110234, 42449]
+  path: 0[30976 -> 110234], [British Columbia -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[30976 -> 110234], [British Columbia -> Vancouver Island Vancouver Island  ] 
+
+  path: 2[30976 -> 90148 -> 31033 -> 42449], [British Columbia -> Columbia River -> Washington -> Seattle] 
+
+srcNodes: [110234, 42859, 42449]
+  path: 0[31033 -> 90148 -> 30976 -> 110234], [Washington -> Columbia River -> British Columbia -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[31033 -> 90148 -> 30976 -> 42859], [Washington -> Columbia River -> British Columbia -> Vancouver] 
+
+  path: 2[31033 -> 42449], [Washington -> Seattle] 
+
+srcNodes: [110132, 42859, 42449]
+  path: 0[30976 -> 42879 -> 110132], [British Columbia -> Victoria -> Mahe Mahe Seychelles ] 
+
+  path: 1[30976 -> 42859], [British Columbia -> Vancouver] 
+
+  path: 2[30976 -> 90148 -> 31033 -> 42449], [British Columbia -> Columbia River -> Washington -> Seattle] 
+
+srcNodes: [110234, 42859, 42449]
+  path: 0[90148 -> 30976 -> 110234], [Columbia River -> British Columbia -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[90148 -> 30976 -> 42859], [Columbia River -> British Columbia -> Vancouver] 
+
+  path: 2[90148 -> 31033 -> 42449], [Columbia River -> Washington -> Seattle] 
+
+srcNodes: [110234, 110234, 42449]
+  path: 0[31033 -> 90148 -> 30976 -> 110234], [Washington -> Columbia River -> British Columbia -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[31033 -> 90148 -> 30976 -> 110234], [Washington -> Columbia River -> British Columbia -> Vancouver Island Vancouver Island  ] 
+
+  path: 2[31033 -> 42449], [Washington -> Seattle] 
+
+srcNodes: [110084, 42859, 42449]
+  path: 0[31033 -> 90148 -> 30976 -> 42879 -> 110084], [Washington -> Columbia River -> British Columbia -> Victoria -> Gozo Gozo Malta ] 
+
+  path: 1[31033 -> 90148 -> 30976 -> 42859], [Washington -> Columbia River -> British Columbia -> Vancouver] 
+
+  path: 2[31033 -> 42449], [Washington -> Seattle] 
+
+srcNodes: [110234, 110234, 42449]
+  path: 0[42879 -> 110234], [Victoria -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[42879 -> 110234], [Victoria -> Vancouver Island Vancouver Island  ] 
+
+  path: 2[42879 -> 110234 -> 30976 -> 90148 -> 31033 -> 42449], [Victoria -> Vancouver Island Vancouver Island   -> British Columbia -> Columbia River -> Washington -> Seattle] 
+
+srcNodes: [110234, 110234, 42449]
+  path: 0[42881 -> 110234], [Victoria -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[42881 -> 110234], [Victoria -> Vancouver Island Vancouver Island  ] 
+
+  path: 2[42881 -> 110234 -> 30976 -> 90148 -> 31033 -> 42449], [Victoria -> Vancouver Island Vancouver Island   -> British Columbia -> Columbia River -> Washington -> Seattle] 
+
+srcNodes: [110234, 110234, 42449]
+  path: 0[42880 -> 110234], [Victoria -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[42880 -> 110234], [Victoria -> Vancouver Island Vancouver Island  ] 
+
+  path: 2[42880 -> 110234 -> 30976 -> 90148 -> 31033 -> 42449], [Victoria -> Vancouver Island Vancouver Island   -> British Columbia -> Columbia River -> Washington -> Seattle] 
+
+srcNodes: [110083, 42859, 42449]
+  path: 0[30976 -> 42879 -> 110084 -> 20046 -> 110083], [British Columbia -> Victoria -> Gozo Gozo Malta  -> Malta -> Malta Malta Malta ] 
+
+  path: 1[30976 -> 42859], [British Columbia -> Vancouver] 
+
+  path: 2[30976 -> 90148 -> 31033 -> 42449], [British Columbia -> Columbia River -> Washington -> Seattle] 
+
+srcNodes: [110001, 42859, 42449]
+  path: 0[110001 -> 110001], [Greenland Greenland   -> Greenland Greenland  ]
+  path: 1[110001 -> 20129 -> 10001 -> 20117 -> 30976 -> 42859], [Greenland Greenland   -> Greenland -> America -> Canada -> British Columbia -> Vancouver] 
+
+  path: 2[110001 -> 20129 -> 10001 -> 20118 -> 31033 -> 42449], [Greenland Greenland   -> Greenland -> America -> United States -> Washington -> Seattle] 
+
+srcNodes: [110084, 110234, 42449]
+  path: 0[31033 -> 90148 -> 30976 -> 42879 -> 110084], [Washington -> Columbia River -> British Columbia -> Victoria -> Gozo Gozo Malta ] 
+
+  path: 1[31033 -> 90148 -> 30976 -> 110234], [Washington -> Columbia River -> British Columbia -> Vancouver Island Vancouver Island  ] 
+
+  path: 2[31033 -> 42449], [Washington -> Seattle] 
+
+srcNodes: [110234, 110234, 42449]
+  path: 0[90148 -> 30976 -> 110234], [Columbia River -> British Columbia -> Vancouver Island Vancouver Island  ] 
+
+  path: 1[90148 -> 30976 -> 110234], [Columbia River -> British Columbia -> Vancouver Island Vancouver Island  ] 
+
+  path: 2[90148 -> 31033 -> 42449], [Columbia River -> Washington -> Seattle] 
+
+srcNodes: [110132, 110234, 42449]
+  path: 0[30976 -> 42879 -> 110132], [British Columbia -> Victoria -> Mahe Mahe Seychelles ] 
+
+  path: 1[30976 -> 110234], [British Columbia -> Vancouver Island Vancouver Island  ] 
+
+  path: 2[30976 -> 90148 -> 31033 -> 42449], [British Columbia -> Columbia River -> Washington -> Seattle] 
+
+srcNodes: [110001, 110234, 42449]
+  path: 0[110001 -> 110001], [Greenland Greenland   -> Greenland Greenland  ]
+  path: 1[110001 -> 20129 -> 10001 -> 20117 -> 30976 -> 110234], [Greenland Greenland   -> Greenland -> America -> Canada -> British Columbia -> Vancouver Island Vancouver Island  ] 
+
+  path: 2[110001 -> 20129 -> 10001 -> 20118 -> 31033 -> 42449], [Greenland Greenland   -> Greenland -> America -> United States -> Washington -> Seattle] 
+
+srcNodes: [110084, 42859, 42449]
+  path: 0[90148 -> 30976 -> 42879 -> 110084], [Columbia River -> British Columbia -> Victoria -> Gozo Gozo Malta ] 
+
+  path: 1[90148 -> 30976 -> 42859], [Columbia River -> British Columbia -> Vancouver] 
+
+  path: 2[90148 -> 31033 -> 42449], [Columbia River -> Washington -> Seattle] 
+
+srcNodes: [110132, 110234, 42449]
+  path: 0[42879 -> 110132], [Victoria -> Mahe Mahe Seychelles ] 
+
+  path: 1[42879 -> 110234], [Victoria -> Vancouver Island Vancouver Island  ] 
+
+  path: 2[42879 -> 110234 -> 30976 -> 90148 -> 31033 -> 42449], [Victoria -> Vancouver Island Vancouver Island   -> British Columbia -> Columbia River -> Washington -> Seattle] 
+
+srcNodes: [31025, 42859, 42449]
+  path: 0[20118 -> 31025], [United States -> Rhode Island] 
+
+  path: 1[20118 -> 10001 -> 20117 -> 30976 -> 42859], [United States -> America -> Canada -> British Columbia -> Vancouver] 
+
+  path: 2[20118 -> 31033 -> 42449], [United States -> Washington -> Seattle] 
+
+srcNodes: [30983, 42859, 42449]
+  path: 0[20117 -> 30983], [Canada -> Prince Edward Island] 
+
+  path: 1[20117 -> 30976 -> 42859], [Canada -> British Columbia -> Vancouver] 
+
+  path: 2[20117 -> 10001 -> 20118 -> 31033 -> 42449], [Canada -> America -> United States -> Washington -> Seattle] 
+
+srcNodes: [110210, 42859, 42449]
+  path: 0[110210 -> 110210], [Anguilla Anguilla Lesser Antilles  -> Anguilla Anguilla Lesser Antilles ]
+  path: 1[110210 -> 20107 -> 10001 -> 20117 -> 30976 -> 42859], [Anguilla Anguilla Lesser Antilles  -> Anguilla -> America -> Canada -> British Columbia -> Vancouver] 
+
+  path: 2[110210 -> 20107 -> 10001 -> 20118 -> 31033 -> 42449], [Anguilla Anguilla Lesser Antilles  -> Anguilla -> America -> United States -> Washington -> Seattle] 
+
+srcNodes: [110206, 42859, 42449]
+  path: 0[110206 -> 110206], [Hispaniola Hispaniola Greater Antilles  -> Hispaniola Hispaniola Greater Antilles ]
+  path: 1[110206 -> 20126 -> 10001 -> 20117 -> 30976 -> 42859], [Hispaniola Hispaniola Greater Antilles  -> Haiti -> America -> Canada -> British Columbia -> Vancouver] 
+
+  path: 2[110206 -> 20126 -> 10001 -> 20118 -> 31033 -> 42449], [Hispaniola Hispaniola Greater Antilles  -> Haiti -> America -> United States -> Washington -> Seattle] 
+
+srcNodes: [110191, 42859, 42449]
+  path: 0[110191 -> 110191], [Miquelon-Langlade Miquelon-Langlade   -> Miquelon-Langlade Miquelon-Langlade  ]
+  path: 1[110191 -> 20141 -> 10001 -> 20117 -> 30976 -> 42859], [Miquelon-Langlade Miquelon-Langlade   -> Saint Pierre and Miquelon -> America -> Canada -> British Columbia -> Vancouver] 
+
+  path: 2[110191 -> 20141 -> 10001 -> 20118 -> 31033 -> 42449], [Miquelon-Langlade Miquelon-Langlade   -> Saint Pierre and Miquelon -> America -> United States -> Washington -> Seattle] 
+
+srcNodes: [110205, 42859, 42449]
+  path: 0[110205 -> 110205], [Jamaica Jamaica Greater Antilles  -> Jamaica Jamaica Greater Antilles ]
+  path: 1[110205 -> 20132 -> 10001 -> 20117 -> 30976 -> 42859], [Jamaica Jamaica Greater Antilles  -> Jamaica -> America -> Canada -> British Columbia -> Vancouver] 
+
+  path: 2[110205 -> 20132 -> 10001 -> 20118 -> 31033 -> 42449], [Jamaica Jamaica Greater Antilles  -> Jamaica -> America -> United States -> Washington -> Seattle] 
+
+srcNodes: [110227, 42859, 42449]
+  path: 0[110227 -> 110227], [Curacao Curacao Lesser Antilles  -> Curacao Curacao Lesser Antilles ]
+  path: 1[110227 -> 20135 -> 10001 -> 20117 -> 30976 -> 42859], [Curacao Curacao Lesser Antilles  -> Netherlands Antilles -> America -> Canada -> British Columbia -> Vancouver] 
+
+  path: 2[110227 -> 20135 -> 10001 -> 20118 -> 31033 -> 42449], [Curacao Curacao Lesser Antilles  -> Netherlands Antilles -> America -> United States -> Washington -> Seattle] 
+
+srcNodes: [110190, 42859, 42449]
+  path: 0[110190 -> 110190], [Saint Pierre Saint Pierre   -> Saint Pierre Saint Pierre  ]
+  path: 1[110190 -> 20141 -> 10001 -> 20117 -> 30976 -> 42859], [Saint Pierre Saint Pierre   -> Saint Pierre and Miquelon -> America -> Canada -> British Columbia -> Vancouver] 
+
+  path: 2[110190 -> 20141 -> 10001 -> 20118 -> 31033 -> 42449], [Saint Pierre Saint Pierre   -> Saint Pierre and Miquelon -> America -> United States -> Washington -> Seattle] 
+
+-----------------------------------------
+ResultDestNodes: 
+110234, 110234, 110234, 110234, 30976, 30976, 31033, 30976, 90148, 31033, 31033, 42879, 42881, 42880, 30976, 110001, 31033, 90148, 30976, 110001, 90148, 42879, 20118, 20117, 110210, 110206, 110191, 110205, 110227, 110190, 
+ResultRelevs: 
+8.41939, 6.005181, 5.88255, 5.8323736, 5.60672, 5.06311, 4.936927, 4.831637, 4.686062, 4.665127, 4.618506, 4.588991, 4.588991, 4.588991, 4.555146, 4.446366, 4.346706, 4.323662, 4.288027, 4.265163, 4.226941, 4.159521, 4.02056, 3.9867597, 3.9279459, 3.9279459, 3.9279459, 3.9279459, 3.9279459, 3.9279459, 
+Num of top-k answers: 30
+Num of duplicate answers: 12
+Num of duplicate roots in top-k answers: 14
+root duplication ratio: 0.4827586
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 270
+Num of entries retrieved from NKMaps: 1108
+Num of answer trees explored: 888
+

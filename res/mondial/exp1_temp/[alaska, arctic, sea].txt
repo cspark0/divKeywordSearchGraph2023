@@ -1,0 +1,1843 @@
+Blink Search Using BDB 10
+[alaska, arctic, sea]
+srcNodes: [30988, 100002, 100006]
+  path: 0[30988 -> 30988], [Alaska -> Alaska]
+  path: 1[30988 -> 100002], [Alaska -> Arctic Ocean] 
+
+  path: 2[30988 -> 100006], [Alaska -> Bering Sea] 
+
+srcNodes: [169, 100002, 100006]
+  path: 0[169 -> 169], [Mt McKinley Mt McKinley Alaska Range  -> Mt McKinley Mt McKinley Alaska Range ]
+  path: 1[169 -> 30988 -> 100002], [Mt McKinley Mt McKinley Alaska Range  -> Alaska -> Arctic Ocean] 
+
+  path: 2[169 -> 30988 -> 100006], [Mt McKinley Mt McKinley Alaska Range  -> Alaska -> Bering Sea] 
+
+srcNodes: [30988, 100002, 100006]
+  path: 0[90130 -> 30988], [Yukon River -> Alaska] 
+
+  path: 1[90130 -> 30988 -> 100002], [Yukon River -> Alaska -> Arctic Ocean] 
+
+  path: 2[90130 -> 100006], [Yukon River -> Bering Sea] 
+
+srcNodes: [30988, 100002, 100020]
+  path: 0[20129 -> 10001 -> 20118 -> 30988], [Greenland -> America -> United States -> Alaska] 
+
+  path: 1[20129 -> 100002], [Greenland -> Arctic Ocean] 
+
+  path: 2[20129 -> 100020], [Greenland -> Norwegian Sea] 
+
+srcNodes: [30988, 100002, 100006]
+  path: 0[168 -> 30988], [Mt Redoubt Mt Redoubt Aleutian Range volcano -> Alaska] 
+
+  path: 1[168 -> 30988 -> 100002], [Mt Redoubt Mt Redoubt Aleutian Range volcano -> Alaska -> Arctic Ocean] 
+
+  path: 2[168 -> 30988 -> 100006], [Mt Redoubt Mt Redoubt Aleutian Range volcano -> Alaska -> Bering Sea] 
+
+This is a non-reduced answer tree with common first node 30988
+
+srcNodes: [30988, 100002, 100006]
+  path: 0[20118 -> 30988], [United States -> Alaska] 
+
+  path: 1[20118 -> 30988 -> 100002], [United States -> Alaska -> Arctic Ocean] 
+
+  path: 2[20118 -> 30988 -> 100006], [United States -> Alaska -> Bering Sea] 
+
+This is a non-reduced answer tree with common first node 30988
+
+srcNodes: [30988, 100002, 100006]
+  path: 0[174 -> 30988], [Mt Fairweather Mt Fairweather Elias Range  -> Alaska] 
+
+  path: 1[174 -> 30988 -> 100002], [Mt Fairweather Mt Fairweather Elias Range  -> Alaska -> Arctic Ocean] 
+
+  path: 2[174 -> 30988 -> 100006], [Mt Fairweather Mt Fairweather Elias Range  -> Alaska -> Bering Sea] 
+
+This is a non-reduced answer tree with common first node 30988
+
+srcNodes: [30988, 100002, 100006]
+  path: 0[170 -> 30988], [Mt Blackburn Mt Blackburn Wrangell Mountains volcano -> Alaska] 
+
+  path: 1[170 -> 30988 -> 100002], [Mt Blackburn Mt Blackburn Wrangell Mountains volcano -> Alaska -> Arctic Ocean] 
+
+  path: 2[170 -> 30988 -> 100006], [Mt Blackburn Mt Blackburn Wrangell Mountains volcano -> Alaska -> Bering Sea] 
+
+This is a non-reduced answer tree with common first node 30988
+
+srcNodes: [30988, 100002, 100006]
+  path: 0[172 -> 30988], [Mt St.Elias Mt St.Elias Elias Range  -> Alaska] 
+
+  path: 1[172 -> 30988 -> 100002], [Mt St.Elias Mt St.Elias Elias Range  -> Alaska -> Arctic Ocean] 
+
+  path: 2[172 -> 30988 -> 100006], [Mt St.Elias Mt St.Elias Elias Range  -> Alaska -> Bering Sea] 
+
+This is a non-reduced answer tree with common first node 30988
+
+srcNodes: [30988, 100002, 100006]
+  path: 0[171 -> 30988], [Mt Bona Mt Bona Elias Range  -> Alaska] 
+
+  path: 1[171 -> 30988 -> 100002], [Mt Bona Mt Bona Elias Range  -> Alaska -> Arctic Ocean] 
+
+  path: 2[171 -> 30988 -> 100006], [Mt Bona Mt Bona Elias Range  -> Alaska -> Bering Sea] 
+
+This is a non-reduced answer tree with common first node 30988
+
+-----------------------------------------
+ResultDestNodes: [30988, 169, 90130, 20129, 168, 20118, 174, 170, 172, 171]
+ResultRelevs: [9.52461051940918, 6.530949592590332, 6.16349983215332, 5.447549819946289, 5.443729877471924, 5.443729877471924, 5.443729877471924, 5.443729877471924, 5.443729877471924, 5.443729877471924]
+Num of top-k answers: 10
+Num of redundant answers: 6
+Num of duplicate answers: 7
+Num of entries retrieved from the lists: 114
+Num of entries retrieved from NKMaps: 147
+
+Blink Search Using BDB 10
+[alaska, arctic, sea]
+srcNodes: [30988, 100002, 100006]
+  path: 0[30988 -> 30988], [Alaska -> Alaska]
+  path: 1[30988 -> 100002], [Alaska -> Arctic Ocean] 
+
+  path: 2[30988 -> 100006], [Alaska -> Bering Sea] 
+
+srcNodes: [169, 100002, 100006]
+  path: 0[169 -> 169], [Mt McKinley Mt McKinley Alaska Range  -> Mt McKinley Mt McKinley Alaska Range ]
+  path: 1[169 -> 30988 -> 100002], [Mt McKinley Mt McKinley Alaska Range  -> Alaska -> Arctic Ocean] 
+
+  path: 2[169 -> 30988 -> 100006], [Mt McKinley Mt McKinley Alaska Range  -> Alaska -> Bering Sea] 
+
+srcNodes: [30988, 100002, 100006]
+  path: 0[90130 -> 30988], [Yukon River -> Alaska] 
+
+  path: 1[90130 -> 30988 -> 100002], [Yukon River -> Alaska -> Arctic Ocean] 
+
+  path: 2[90130 -> 100006], [Yukon River -> Bering Sea] 
+
+srcNodes: [30988, 100002, 100020]
+  path: 0[20129 -> 10001 -> 20118 -> 30988], [Greenland -> America -> United States -> Alaska] 
+
+  path: 1[20129 -> 100002], [Greenland -> Arctic Ocean] 
+
+  path: 2[20129 -> 100020], [Greenland -> Norwegian Sea] 
+
+srcNodes: [30988, 100002, 100021]
+  path: 0[30986 -> 172 -> 30988], [Yukon Territory -> Mt St.Elias Mt St.Elias Elias Range  -> Alaska] 
+
+  path: 1[30986 -> 100002], [Yukon Territory -> Arctic Ocean] 
+
+  path: 2[30986 -> 100021], [Yukon Territory -> Pacific Ocean] 
+
+srcNodes: [30988, 100002, 100020]
+  path: 0[110001 -> 20129 -> 10001 -> 20118 -> 30988], [Greenland Greenland   -> Greenland -> America -> United States -> Alaska] 
+
+  path: 1[110001 -> 100002], [Greenland Greenland   -> Arctic Ocean] 
+
+  path: 2[110001 -> 100020], [Greenland Greenland   -> Norwegian Sea] 
+
+srcNodes: [30988, 100002, 100020]
+  path: 0[10001 -> 20118 -> 30988], [America -> United States -> Alaska] 
+
+  path: 1[10001 -> 20129 -> 100002], [America -> Greenland -> Arctic Ocean] 
+
+  path: 2[10001 -> 20129 -> 100020], [America -> Greenland -> Norwegian Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20142 -> 10001 -> 20118 -> 30988], [Saint Vincent and the Grenadines -> America -> United States -> Alaska] 
+
+  path: 1[20142 -> 10001 -> 20129 -> 100002], [Saint Vincent and the Grenadines -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20142 -> 100008], [Saint Vincent and the Grenadines -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20145 -> 10001 -> 20118 -> 30988], [Virgin Islands -> America -> United States -> Alaska] 
+
+  path: 1[20145 -> 10001 -> 20129 -> 100002], [Virgin Islands -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20145 -> 100008], [Virgin Islands -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20143 -> 10001 -> 20118 -> 30988], [Trinidad and Tobago -> America -> United States -> Alaska] 
+
+  path: 1[20143 -> 10001 -> 20129 -> 100002], [Trinidad and Tobago -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20143 -> 100008], [Trinidad and Tobago -> Caribbean Sea] 
+
+-----------------------------------------
+ResultDestNodes: [30988, 169, 90130, 20129, 30986, 110001, 10001, 20142, 20145, 20143]
+ResultRelevs: [9.52461051940918, 6.530949592590332, 6.16349983215332, 5.447549819946289, 5.268099784851074, 5.175749778747559, 4.537709712982178, 4.4829421043396, 4.4829421043396, 4.4829421043396]
+Num of top-k answers: 10
+Num of redundant answers: 0
+Num of duplicate answers: 5
+Num of entries retrieved from the lists: 122
+Num of entries retrieved from NKMaps: 157
+
+Blink Search Using BDB_reduced 10
+[alaska, arctic, sea]
+srcNodes: [30988, 100002, 100006]
+  path: 0[30988 -> 30988], [Alaska -> Alaska]
+  path: 1[30988 -> 100002], [Alaska -> Arctic Ocean] 
+
+  path: 2[30988 -> 100006], [Alaska -> Bering Sea] 
+
+srcNodes: [169, 100002, 100006]
+  path: 0[169 -> 169], [Mt McKinley Mt McKinley Alaska Range  -> Mt McKinley Mt McKinley Alaska Range ]
+  path: 1[169 -> 30988 -> 100002], [Mt McKinley Mt McKinley Alaska Range  -> Alaska -> Arctic Ocean] 
+
+  path: 2[169 -> 30988 -> 100006], [Mt McKinley Mt McKinley Alaska Range  -> Alaska -> Bering Sea] 
+
+srcNodes: [30988, 100002, 100006]
+  path: 0[90130 -> 30988], [Yukon River -> Alaska] 
+
+  path: 1[90130 -> 30988 -> 100002], [Yukon River -> Alaska -> Arctic Ocean] 
+
+  path: 2[90130 -> 100006], [Yukon River -> Bering Sea] 
+
+srcNodes: [30988, 100002, 100020]
+  path: 0[20129 -> 10001 -> 20118 -> 30988], [Greenland -> America -> United States -> Alaska] 
+
+  path: 1[20129 -> 100002], [Greenland -> Arctic Ocean] 
+
+  path: 2[20129 -> 100020], [Greenland -> Norwegian Sea] 
+
+srcNodes: [30988, 100002, 100007]
+  path: 0[20118 -> 30988], [United States -> Alaska] 
+
+  path: 1[20118 -> 30988 -> 100002], [United States -> Alaska -> Arctic Ocean] 
+
+  path: 2[20118 -> 30996 -> 100007], [United States -> Georgia -> Black Sea] 
+
+srcNodes: [30988, 100002, 100021]
+  path: 0[30986 -> 172 -> 30988], [Yukon Territory -> Mt St.Elias Mt St.Elias Elias Range  -> Alaska] 
+
+  path: 1[30986 -> 100002], [Yukon Territory -> Arctic Ocean] 
+
+  path: 2[30986 -> 100021], [Yukon Territory -> Pacific Ocean] 
+
+srcNodes: [30988, 100002, 100020]
+  path: 0[110001 -> 20129 -> 10001 -> 20118 -> 30988], [Greenland Greenland   -> Greenland -> America -> United States -> Alaska] 
+
+  path: 1[110001 -> 100002], [Greenland Greenland   -> Arctic Ocean] 
+
+  path: 2[110001 -> 100020], [Greenland Greenland   -> Norwegian Sea] 
+
+srcNodes: [30988, 100002, 100018]
+  path: 0[174 -> 30988], [Mt Fairweather Mt Fairweather Elias Range  -> Alaska] 
+
+  path: 1[174 -> 30988 -> 100002], [Mt Fairweather Mt Fairweather Elias Range  -> Alaska -> Arctic Ocean] 
+
+  path: 2[174 -> 30976 -> 42879 -> 110084 -> 100018], [Mt Fairweather Mt Fairweather Elias Range  -> British Columbia -> Victoria -> Gozo Gozo Malta  -> Mediterranean Sea] 
+
+srcNodes: [30988, 100002, 100003]
+  path: 0[171 -> 30988], [Mt Bona Mt Bona Elias Range  -> Alaska] 
+
+  path: 1[171 -> 30988 -> 100002], [Mt Bona Mt Bona Elias Range  -> Alaska -> Arctic Ocean] 
+
+  path: 2[171 -> 30985 -> 90133 -> 30977 -> 100003], [Mt Bona Mt Bona Elias Range  -> Saskatchewan -> Saskatchewan River -> Manitoba -> Atlantic Ocean] 
+
+srcNodes: [30988, 100002, 100020]
+  path: 0[10001 -> 20118 -> 30988], [America -> United States -> Alaska] 
+
+  path: 1[10001 -> 20129 -> 100002], [America -> Greenland -> Arctic Ocean] 
+
+  path: 2[10001 -> 20129 -> 100020], [America -> Greenland -> Norwegian Sea] 
+
+-----------------------------------------
+ResultDestNodes: [30988, 169, 90130, 20129, 20118, 30986, 110001, 174, 171, 10001]
+ResultRelevs: [9.52461051940918, 6.530949592590332, 6.16349983215332, 5.447549819946289, 5.443729877471924, 5.268099784851074, 5.175749778747559, 4.867915153503418, 4.614935874938965, 4.537709712982178]
+Num of top-k answers: 10
+Num of redundant answers: 0
+Num of duplicate answers: 3
+Num of entries retrieved from the lists: 122
+Num of entries retrieved from NKMaps: 199
+Num of redundant candidate answers found: 14
+Num of reduced alternative answers found: 5
+
+Blink Search Using BDB_reducedNunique 10
+[alaska, arctic, sea]
+srcNodes: [30988, 100002, 100006]
+  path: 0[30988 -> 30988], [Alaska -> Alaska]
+  path: 1[30988 -> 100002], [Alaska -> Arctic Ocean] 
+
+  path: 2[30988 -> 100006], [Alaska -> Bering Sea] 
+
+srcNodes: [169, 100002, 100006]
+  path: 0[169 -> 169], [Mt McKinley Mt McKinley Alaska Range  -> Mt McKinley Mt McKinley Alaska Range ]
+  path: 1[169 -> 30988 -> 100002], [Mt McKinley Mt McKinley Alaska Range  -> Alaska -> Arctic Ocean] 
+
+  path: 2[169 -> 30988 -> 100006], [Mt McKinley Mt McKinley Alaska Range  -> Alaska -> Bering Sea] 
+
+srcNodes: [30988, 100002, 100020]
+  path: 0[20129 -> 10001 -> 20118 -> 30988], [Greenland -> America -> United States -> Alaska] 
+
+  path: 1[20129 -> 100002], [Greenland -> Arctic Ocean] 
+
+  path: 2[20129 -> 100020], [Greenland -> Norwegian Sea] 
+
+srcNodes: [30988, 100002, 100007]
+  path: 0[20118 -> 30988], [United States -> Alaska] 
+
+  path: 1[20118 -> 30988 -> 100002], [United States -> Alaska -> Arctic Ocean] 
+
+  path: 2[20118 -> 30996 -> 100007], [United States -> Georgia -> Black Sea] 
+
+srcNodes: [30988, 100002, 100021]
+  path: 0[30986 -> 172 -> 30988], [Yukon Territory -> Mt St.Elias Mt St.Elias Elias Range  -> Alaska] 
+
+  path: 1[30986 -> 100002], [Yukon Territory -> Arctic Ocean] 
+
+  path: 2[30986 -> 100021], [Yukon Territory -> Pacific Ocean] 
+
+srcNodes: [30988, 100002, 100018]
+  path: 0[174 -> 30988], [Mt Fairweather Mt Fairweather Elias Range  -> Alaska] 
+
+  path: 1[174 -> 30988 -> 100002], [Mt Fairweather Mt Fairweather Elias Range  -> Alaska -> Arctic Ocean] 
+
+  path: 2[174 -> 30976 -> 42879 -> 110084 -> 100018], [Mt Fairweather Mt Fairweather Elias Range  -> British Columbia -> Victoria -> Gozo Gozo Malta  -> Mediterranean Sea] 
+
+srcNodes: [30988, 100002, 100003]
+  path: 0[171 -> 30988], [Mt Bona Mt Bona Elias Range  -> Alaska] 
+
+  path: 1[171 -> 30988 -> 100002], [Mt Bona Mt Bona Elias Range  -> Alaska -> Arctic Ocean] 
+
+  path: 2[171 -> 30985 -> 90133 -> 30977 -> 100003], [Mt Bona Mt Bona Elias Range  -> Saskatchewan -> Saskatchewan River -> Manitoba -> Atlantic Ocean] 
+
+srcNodes: [30988, 100002, 100002]
+  path: 0[110001 -> 20129 -> 10001 -> 20118 -> 30988], [Greenland Greenland   -> Greenland -> America -> United States -> Alaska] 
+
+  path: 1[110001 -> 100002], [Greenland Greenland   -> Arctic Ocean] 
+
+  path: 2[110001 -> 100002], [Greenland Greenland   -> Arctic Ocean] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20142 -> 10001 -> 20118 -> 30988], [Saint Vincent and the Grenadines -> America -> United States -> Alaska] 
+
+  path: 1[20142 -> 10001 -> 20129 -> 100002], [Saint Vincent and the Grenadines -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20142 -> 100008], [Saint Vincent and the Grenadines -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100015]
+  path: 0[10001 -> 20118 -> 30988], [America -> United States -> Alaska] 
+
+  path: 1[10001 -> 20129 -> 100002], [America -> Greenland -> Arctic Ocean] 
+
+  path: 2[10001 -> 20132 -> 41320 -> 110006 -> 100015], [America -> Jamaica -> Kingston -> Great Britain Great Britain British Isles  -> Irish Sea] 
+
+-----------------------------------------
+ResultDestNodes: [30988, 169, 20129, 20118, 30986, 174, 171, 110001, 20142, 10001]
+ResultRelevs: [9.52461051940918, 6.530949592590332, 5.447549819946289, 5.443729877471924, 5.268099784851074, 4.86791467666626, 4.614935874938965, 4.543299674987793, 4.4829421043396, 3.961894989013672]
+Num of top-k answers: 10
+Num of redundant answers in top-k answers: 0
+Num of duplicate answers in top-k answers: 0
+Num of entries retrieved from the lists: 454
+Num of redundant candidate answers found: 37
+Num of reduced alternative answers found: 8
+Num of duplicate candidate answers found: 121
+Num of unique alternative answers found: 3
+
+Blink Search Using BDB 20
+[alaska, arctic, sea]
+srcNodes: [30988, 100002, 100006]
+  path: 0[30988 -> 30988], [Alaska -> Alaska]
+  path: 1[30988 -> 100002], [Alaska -> Arctic Ocean] 
+
+  path: 2[30988 -> 100006], [Alaska -> Bering Sea] 
+
+srcNodes: [169, 100002, 100006]
+  path: 0[169 -> 169], [Mt McKinley Mt McKinley Alaska Range  -> Mt McKinley Mt McKinley Alaska Range ]
+  path: 1[169 -> 30988 -> 100002], [Mt McKinley Mt McKinley Alaska Range  -> Alaska -> Arctic Ocean] 
+
+  path: 2[169 -> 30988 -> 100006], [Mt McKinley Mt McKinley Alaska Range  -> Alaska -> Bering Sea] 
+
+srcNodes: [30988, 100002, 100006]
+  path: 0[90130 -> 30988], [Yukon River -> Alaska] 
+
+  path: 1[90130 -> 30988 -> 100002], [Yukon River -> Alaska -> Arctic Ocean] 
+
+  path: 2[90130 -> 100006], [Yukon River -> Bering Sea] 
+
+srcNodes: [30988, 100002, 100020]
+  path: 0[20129 -> 10001 -> 20118 -> 30988], [Greenland -> America -> United States -> Alaska] 
+
+  path: 1[20129 -> 100002], [Greenland -> Arctic Ocean] 
+
+  path: 2[20129 -> 100020], [Greenland -> Norwegian Sea] 
+
+srcNodes: [30988, 100002, 100006]
+  path: 0[174 -> 30988], [Mt Fairweather Mt Fairweather Elias Range  -> Alaska] 
+
+  path: 1[174 -> 30988 -> 100002], [Mt Fairweather Mt Fairweather Elias Range  -> Alaska -> Arctic Ocean] 
+
+  path: 2[174 -> 30988 -> 100006], [Mt Fairweather Mt Fairweather Elias Range  -> Alaska -> Bering Sea] 
+
+This is a non-reduced answer tree with common first node 30988
+
+srcNodes: [30988, 100002, 100006]
+  path: 0[170 -> 30988], [Mt Blackburn Mt Blackburn Wrangell Mountains volcano -> Alaska] 
+
+  path: 1[170 -> 30988 -> 100002], [Mt Blackburn Mt Blackburn Wrangell Mountains volcano -> Alaska -> Arctic Ocean] 
+
+  path: 2[170 -> 30988 -> 100006], [Mt Blackburn Mt Blackburn Wrangell Mountains volcano -> Alaska -> Bering Sea] 
+
+This is a non-reduced answer tree with common first node 30988
+
+srcNodes: [30988, 100002, 100006]
+  path: 0[168 -> 30988], [Mt Redoubt Mt Redoubt Aleutian Range volcano -> Alaska] 
+
+  path: 1[168 -> 30988 -> 100002], [Mt Redoubt Mt Redoubt Aleutian Range volcano -> Alaska -> Arctic Ocean] 
+
+  path: 2[168 -> 30988 -> 100006], [Mt Redoubt Mt Redoubt Aleutian Range volcano -> Alaska -> Bering Sea] 
+
+This is a non-reduced answer tree with common first node 30988
+
+srcNodes: [30988, 100002, 100006]
+  path: 0[20118 -> 30988], [United States -> Alaska] 
+
+  path: 1[20118 -> 30988 -> 100002], [United States -> Alaska -> Arctic Ocean] 
+
+  path: 2[20118 -> 30988 -> 100006], [United States -> Alaska -> Bering Sea] 
+
+This is a non-reduced answer tree with common first node 30988
+
+srcNodes: [30988, 100002, 100006]
+  path: 0[171 -> 30988], [Mt Bona Mt Bona Elias Range  -> Alaska] 
+
+  path: 1[171 -> 30988 -> 100002], [Mt Bona Mt Bona Elias Range  -> Alaska -> Arctic Ocean] 
+
+  path: 2[171 -> 30988 -> 100006], [Mt Bona Mt Bona Elias Range  -> Alaska -> Bering Sea] 
+
+This is a non-reduced answer tree with common first node 30988
+
+srcNodes: [30988, 100002, 100006]
+  path: 0[172 -> 30988], [Mt St.Elias Mt St.Elias Elias Range  -> Alaska] 
+
+  path: 1[172 -> 30988 -> 100002], [Mt St.Elias Mt St.Elias Elias Range  -> Alaska -> Arctic Ocean] 
+
+  path: 2[172 -> 30988 -> 100006], [Mt St.Elias Mt St.Elias Elias Range  -> Alaska -> Bering Sea] 
+
+This is a non-reduced answer tree with common first node 30988
+
+srcNodes: [30988, 100002, 100021]
+  path: 0[30986 -> 172 -> 30988], [Yukon Territory -> Mt St.Elias Mt St.Elias Elias Range  -> Alaska] 
+
+  path: 1[30986 -> 100002], [Yukon Territory -> Arctic Ocean] 
+
+  path: 2[30986 -> 100021], [Yukon Territory -> Pacific Ocean] 
+
+srcNodes: [30988, 100002, 100020]
+  path: 0[110001 -> 20129 -> 10001 -> 20118 -> 30988], [Greenland Greenland   -> Greenland -> America -> United States -> Alaska] 
+
+  path: 1[110001 -> 100002], [Greenland Greenland   -> Arctic Ocean] 
+
+  path: 2[110001 -> 100020], [Greenland Greenland   -> Norwegian Sea] 
+
+srcNodes: [30988, 100002, 100020]
+  path: 0[10001 -> 20118 -> 30988], [America -> United States -> Alaska] 
+
+  path: 1[10001 -> 20129 -> 100002], [America -> Greenland -> Arctic Ocean] 
+
+  path: 2[10001 -> 20129 -> 100020], [America -> Greenland -> Norwegian Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20142 -> 10001 -> 20118 -> 30988], [Saint Vincent and the Grenadines -> America -> United States -> Alaska] 
+
+  path: 1[20142 -> 10001 -> 20129 -> 100002], [Saint Vincent and the Grenadines -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20142 -> 100008], [Saint Vincent and the Grenadines -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20145 -> 10001 -> 20118 -> 30988], [Virgin Islands -> America -> United States -> Alaska] 
+
+  path: 1[20145 -> 10001 -> 20129 -> 100002], [Virgin Islands -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20145 -> 100008], [Virgin Islands -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20126 -> 10001 -> 20118 -> 30988], [Haiti -> America -> United States -> Alaska] 
+
+  path: 1[20126 -> 10001 -> 20129 -> 100002], [Haiti -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20126 -> 100008], [Haiti -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20143 -> 10001 -> 20118 -> 30988], [Trinidad and Tobago -> America -> United States -> Alaska] 
+
+  path: 1[20143 -> 10001 -> 20129 -> 100002], [Trinidad and Tobago -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20143 -> 100008], [Trinidad and Tobago -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20125 -> 10001 -> 20118 -> 30988], [Dominican Republic -> America -> United States -> Alaska] 
+
+  path: 1[20125 -> 10001 -> 20129 -> 100002], [Dominican Republic -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20125 -> 100008], [Dominican Republic -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20124 -> 10001 -> 20118 -> 30988], [Dominica -> America -> United States -> Alaska] 
+
+  path: 1[20124 -> 10001 -> 20129 -> 100002], [Dominica -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20124 -> 100008], [Dominica -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20135 -> 10001 -> 20118 -> 30988], [Netherlands Antilles -> America -> United States -> Alaska] 
+
+  path: 1[20135 -> 10001 -> 20129 -> 100002], [Netherlands Antilles -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20135 -> 100008], [Netherlands Antilles -> Caribbean Sea] 
+
+-----------------------------------------
+ResultDestNodes: [30988, 169, 90130, 20129, 174, 170, 168, 20118, 171, 172, 30986, 110001, 10001, 20142, 20145, 20126, 20143, 20125, 20124, 20135]
+ResultRelevs: [9.52461051940918, 6.530949592590332, 6.16349983215332, 5.447549819946289, 5.443729877471924, 5.443729877471924, 5.443729877471924, 5.443729877471924, 5.443729877471924, 5.443729877471924, 5.268099784851074, 5.175749778747559, 4.537709712982178, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396]
+Num of top-k answers: 20
+Num of redundant answers: 6
+Num of duplicate answers: 15
+Num of entries retrieved from the lists: 122
+Num of entries retrieved from NKMaps: 157
+
+Blink Search Using BDB 20
+[alaska, arctic, sea]
+srcNodes: [30988, 100002, 100006]
+  path: 0[30988 -> 30988], [Alaska -> Alaska]
+  path: 1[30988 -> 100002], [Alaska -> Arctic Ocean] 
+
+  path: 2[30988 -> 100006], [Alaska -> Bering Sea] 
+
+srcNodes: [169, 100002, 100006]
+  path: 0[169 -> 169], [Mt McKinley Mt McKinley Alaska Range  -> Mt McKinley Mt McKinley Alaska Range ]
+  path: 1[169 -> 30988 -> 100002], [Mt McKinley Mt McKinley Alaska Range  -> Alaska -> Arctic Ocean] 
+
+  path: 2[169 -> 30988 -> 100006], [Mt McKinley Mt McKinley Alaska Range  -> Alaska -> Bering Sea] 
+
+srcNodes: [30988, 100002, 100006]
+  path: 0[90130 -> 30988], [Yukon River -> Alaska] 
+
+  path: 1[90130 -> 30988 -> 100002], [Yukon River -> Alaska -> Arctic Ocean] 
+
+  path: 2[90130 -> 100006], [Yukon River -> Bering Sea] 
+
+srcNodes: [30988, 100002, 100020]
+  path: 0[20129 -> 10001 -> 20118 -> 30988], [Greenland -> America -> United States -> Alaska] 
+
+  path: 1[20129 -> 100002], [Greenland -> Arctic Ocean] 
+
+  path: 2[20129 -> 100020], [Greenland -> Norwegian Sea] 
+
+srcNodes: [30988, 100002, 100021]
+  path: 0[30986 -> 172 -> 30988], [Yukon Territory -> Mt St.Elias Mt St.Elias Elias Range  -> Alaska] 
+
+  path: 1[30986 -> 100002], [Yukon Territory -> Arctic Ocean] 
+
+  path: 2[30986 -> 100021], [Yukon Territory -> Pacific Ocean] 
+
+srcNodes: [30988, 100002, 100020]
+  path: 0[110001 -> 20129 -> 10001 -> 20118 -> 30988], [Greenland Greenland   -> Greenland -> America -> United States -> Alaska] 
+
+  path: 1[110001 -> 100002], [Greenland Greenland   -> Arctic Ocean] 
+
+  path: 2[110001 -> 100020], [Greenland Greenland   -> Norwegian Sea] 
+
+srcNodes: [30988, 100002, 100020]
+  path: 0[10001 -> 20118 -> 30988], [America -> United States -> Alaska] 
+
+  path: 1[10001 -> 20129 -> 100002], [America -> Greenland -> Arctic Ocean] 
+
+  path: 2[10001 -> 20129 -> 100020], [America -> Greenland -> Norwegian Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20119 -> 10001 -> 20118 -> 30988], [Cayman Islands -> America -> United States -> Alaska] 
+
+  path: 1[20119 -> 10001 -> 20129 -> 100002], [Cayman Islands -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20119 -> 100008], [Cayman Islands -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20125 -> 10001 -> 20118 -> 30988], [Dominican Republic -> America -> United States -> Alaska] 
+
+  path: 1[20125 -> 10001 -> 20129 -> 100002], [Dominican Republic -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20125 -> 100008], [Dominican Republic -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20135 -> 10001 -> 20118 -> 30988], [Netherlands Antilles -> America -> United States -> Alaska] 
+
+  path: 1[20135 -> 10001 -> 20129 -> 100002], [Netherlands Antilles -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20135 -> 100008], [Netherlands Antilles -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20113 -> 10001 -> 20118 -> 30988], [Guatemala -> America -> United States -> Alaska] 
+
+  path: 1[20113 -> 10001 -> 20129 -> 100002], [Guatemala -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20113 -> 100008], [Guatemala -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20107 -> 10001 -> 20118 -> 30988], [Anguilla -> America -> United States -> Alaska] 
+
+  path: 1[20107 -> 10001 -> 20129 -> 100002], [Anguilla -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20107 -> 100008], [Anguilla -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20145 -> 10001 -> 20118 -> 30988], [Virgin Islands -> America -> United States -> Alaska] 
+
+  path: 1[20145 -> 10001 -> 20129 -> 100002], [Virgin Islands -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20145 -> 100008], [Virgin Islands -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20142 -> 10001 -> 20118 -> 30988], [Saint Vincent and the Grenadines -> America -> United States -> Alaska] 
+
+  path: 1[20142 -> 10001 -> 20129 -> 100002], [Saint Vincent and the Grenadines -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20142 -> 100008], [Saint Vincent and the Grenadines -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20143 -> 10001 -> 20118 -> 30988], [Trinidad and Tobago -> America -> United States -> Alaska] 
+
+  path: 1[20143 -> 10001 -> 20129 -> 100002], [Trinidad and Tobago -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20143 -> 100008], [Trinidad and Tobago -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20108 -> 10001 -> 20118 -> 30988], [Antigua and Barbuda -> America -> United States -> Alaska] 
+
+  path: 1[20108 -> 10001 -> 20129 -> 100002], [Antigua and Barbuda -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20108 -> 100008], [Antigua and Barbuda -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20126 -> 10001 -> 20118 -> 30988], [Haiti -> America -> United States -> Alaska] 
+
+  path: 1[20126 -> 10001 -> 20129 -> 100002], [Haiti -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20126 -> 100008], [Haiti -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20124 -> 10001 -> 20118 -> 30988], [Dominica -> America -> United States -> Alaska] 
+
+  path: 1[20124 -> 10001 -> 20129 -> 100002], [Dominica -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20124 -> 100008], [Dominica -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20140 -> 10001 -> 20118 -> 30988], [Saint Lucia -> America -> United States -> Alaska] 
+
+  path: 1[20140 -> 10001 -> 20129 -> 100002], [Saint Lucia -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20140 -> 100008], [Saint Lucia -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20109 -> 10001 -> 20118 -> 30988], [Aruba -> America -> United States -> Alaska] 
+
+  path: 1[20109 -> 10001 -> 20129 -> 100002], [Aruba -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20109 -> 100008], [Aruba -> Caribbean Sea] 
+
+-----------------------------------------
+ResultDestNodes: [30988, 169, 90130, 20129, 30986, 110001, 10001, 20119, 20125, 20135, 20113, 20107, 20145, 20142, 20143, 20108, 20126, 20124, 20140, 20109]
+ResultRelevs: [9.52461051940918, 6.530949592590332, 6.16349983215332, 5.447549819946289, 5.268099784851074, 5.175749778747559, 4.537709712982178, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396]
+Num of top-k answers: 20
+Num of redundant answers: 0
+Num of duplicate answers: 15
+Num of entries retrieved from the lists: 139
+Num of entries retrieved from NKMaps: 183
+
+Blink Search Using BDB_reduced 20
+[alaska, arctic, sea]
+srcNodes: [30988, 100002, 100006]
+  path: 0[30988 -> 30988], [Alaska -> Alaska]
+  path: 1[30988 -> 100002], [Alaska -> Arctic Ocean] 
+
+  path: 2[30988 -> 100006], [Alaska -> Bering Sea] 
+
+srcNodes: [169, 100002, 100006]
+  path: 0[169 -> 169], [Mt McKinley Mt McKinley Alaska Range  -> Mt McKinley Mt McKinley Alaska Range ]
+  path: 1[169 -> 30988 -> 100002], [Mt McKinley Mt McKinley Alaska Range  -> Alaska -> Arctic Ocean] 
+
+  path: 2[169 -> 30988 -> 100006], [Mt McKinley Mt McKinley Alaska Range  -> Alaska -> Bering Sea] 
+
+srcNodes: [30988, 100002, 100006]
+  path: 0[90130 -> 30988], [Yukon River -> Alaska] 
+
+  path: 1[90130 -> 30988 -> 100002], [Yukon River -> Alaska -> Arctic Ocean] 
+
+  path: 2[90130 -> 100006], [Yukon River -> Bering Sea] 
+
+srcNodes: [30988, 100002, 100020]
+  path: 0[20129 -> 10001 -> 20118 -> 30988], [Greenland -> America -> United States -> Alaska] 
+
+  path: 1[20129 -> 100002], [Greenland -> Arctic Ocean] 
+
+  path: 2[20129 -> 100020], [Greenland -> Norwegian Sea] 
+
+srcNodes: [30988, 100002, 100007]
+  path: 0[20118 -> 30988], [United States -> Alaska] 
+
+  path: 1[20118 -> 30988 -> 100002], [United States -> Alaska -> Arctic Ocean] 
+
+  path: 2[20118 -> 30996 -> 100007], [United States -> Georgia -> Black Sea] 
+
+srcNodes: [30988, 100002, 100021]
+  path: 0[30986 -> 172 -> 30988], [Yukon Territory -> Mt St.Elias Mt St.Elias Elias Range  -> Alaska] 
+
+  path: 1[30986 -> 100002], [Yukon Territory -> Arctic Ocean] 
+
+  path: 2[30986 -> 100021], [Yukon Territory -> Pacific Ocean] 
+
+srcNodes: [30988, 100002, 100020]
+  path: 0[110001 -> 20129 -> 10001 -> 20118 -> 30988], [Greenland Greenland   -> Greenland -> America -> United States -> Alaska] 
+
+  path: 1[110001 -> 100002], [Greenland Greenland   -> Arctic Ocean] 
+
+  path: 2[110001 -> 100020], [Greenland Greenland   -> Norwegian Sea] 
+
+srcNodes: [30988, 100002, 100018]
+  path: 0[174 -> 30988], [Mt Fairweather Mt Fairweather Elias Range  -> Alaska] 
+
+  path: 1[174 -> 30988 -> 100002], [Mt Fairweather Mt Fairweather Elias Range  -> Alaska -> Arctic Ocean] 
+
+  path: 2[174 -> 30976 -> 42879 -> 110084 -> 100018], [Mt Fairweather Mt Fairweather Elias Range  -> British Columbia -> Victoria -> Gozo Gozo Malta  -> Mediterranean Sea] 
+
+srcNodes: [30988, 100002, 100003]
+  path: 0[171 -> 30988], [Mt Bona Mt Bona Elias Range  -> Alaska] 
+
+  path: 1[171 -> 30988 -> 100002], [Mt Bona Mt Bona Elias Range  -> Alaska -> Arctic Ocean] 
+
+  path: 2[171 -> 30985 -> 90133 -> 30977 -> 100003], [Mt Bona Mt Bona Elias Range  -> Saskatchewan -> Saskatchewan River -> Manitoba -> Atlantic Ocean] 
+
+srcNodes: [30988, 100002, 100020]
+  path: 0[10001 -> 20118 -> 30988], [America -> United States -> Alaska] 
+
+  path: 1[10001 -> 20129 -> 100002], [America -> Greenland -> Arctic Ocean] 
+
+  path: 2[10001 -> 20129 -> 100020], [America -> Greenland -> Norwegian Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20126 -> 10001 -> 20118 -> 30988], [Haiti -> America -> United States -> Alaska] 
+
+  path: 1[20126 -> 10001 -> 20129 -> 100002], [Haiti -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20126 -> 100008], [Haiti -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20142 -> 10001 -> 20118 -> 30988], [Saint Vincent and the Grenadines -> America -> United States -> Alaska] 
+
+  path: 1[20142 -> 10001 -> 20129 -> 100002], [Saint Vincent and the Grenadines -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20142 -> 100008], [Saint Vincent and the Grenadines -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20124 -> 10001 -> 20118 -> 30988], [Dominica -> America -> United States -> Alaska] 
+
+  path: 1[20124 -> 10001 -> 20129 -> 100002], [Dominica -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20124 -> 100008], [Dominica -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20143 -> 10001 -> 20118 -> 30988], [Trinidad and Tobago -> America -> United States -> Alaska] 
+
+  path: 1[20143 -> 10001 -> 20129 -> 100002], [Trinidad and Tobago -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20143 -> 100008], [Trinidad and Tobago -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20145 -> 10001 -> 20118 -> 30988], [Virgin Islands -> America -> United States -> Alaska] 
+
+  path: 1[20145 -> 10001 -> 20129 -> 100002], [Virgin Islands -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20145 -> 100008], [Virgin Islands -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20135 -> 10001 -> 20118 -> 30988], [Netherlands Antilles -> America -> United States -> Alaska] 
+
+  path: 1[20135 -> 10001 -> 20129 -> 100002], [Netherlands Antilles -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20135 -> 100008], [Netherlands Antilles -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20113 -> 10001 -> 20118 -> 30988], [Guatemala -> America -> United States -> Alaska] 
+
+  path: 1[20113 -> 10001 -> 20129 -> 100002], [Guatemala -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20113 -> 100008], [Guatemala -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20125 -> 10001 -> 20118 -> 30988], [Dominican Republic -> America -> United States -> Alaska] 
+
+  path: 1[20125 -> 10001 -> 20129 -> 100002], [Dominican Republic -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20125 -> 100008], [Dominican Republic -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20107 -> 10001 -> 20118 -> 30988], [Anguilla -> America -> United States -> Alaska] 
+
+  path: 1[20107 -> 10001 -> 20129 -> 100002], [Anguilla -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20107 -> 100008], [Anguilla -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20119 -> 10001 -> 20118 -> 30988], [Cayman Islands -> America -> United States -> Alaska] 
+
+  path: 1[20119 -> 10001 -> 20129 -> 100002], [Cayman Islands -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20119 -> 100008], [Cayman Islands -> Caribbean Sea] 
+
+-----------------------------------------
+ResultDestNodes: [30988, 169, 90130, 20129, 20118, 30986, 110001, 174, 171, 10001, 20126, 20142, 20124, 20143, 20145, 20135, 20113, 20125, 20107, 20119]
+ResultRelevs: [9.52461051940918, 6.530949592590332, 6.16349983215332, 5.447549819946289, 5.443729877471924, 5.268099784851074, 5.175749778747559, 4.867915153503418, 4.614935874938965, 4.537709712982178, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396]
+Num of top-k answers: 20
+Num of redundant answers: 0
+Num of duplicate answers: 12
+Num of entries retrieved from the lists: 128
+Num of entries retrieved from NKMaps: 207
+Num of redundant candidate answers found: 14
+Num of reduced alternative answers found: 5
+
+Blink Search Using BDB_reducedNunique 20
+[alaska, arctic, sea]
+srcNodes: [30988, 100002, 100006]
+  path: 0[30988 -> 30988], [Alaska -> Alaska]
+  path: 1[30988 -> 100002], [Alaska -> Arctic Ocean] 
+
+  path: 2[30988 -> 100006], [Alaska -> Bering Sea] 
+
+srcNodes: [169, 100002, 100006]
+  path: 0[169 -> 169], [Mt McKinley Mt McKinley Alaska Range  -> Mt McKinley Mt McKinley Alaska Range ]
+  path: 1[169 -> 30988 -> 100002], [Mt McKinley Mt McKinley Alaska Range  -> Alaska -> Arctic Ocean] 
+
+  path: 2[169 -> 30988 -> 100006], [Mt McKinley Mt McKinley Alaska Range  -> Alaska -> Bering Sea] 
+
+srcNodes: [30988, 100002, 100020]
+  path: 0[20129 -> 10001 -> 20118 -> 30988], [Greenland -> America -> United States -> Alaska] 
+
+  path: 1[20129 -> 100002], [Greenland -> Arctic Ocean] 
+
+  path: 2[20129 -> 100020], [Greenland -> Norwegian Sea] 
+
+srcNodes: [30988, 100002, 100007]
+  path: 0[20118 -> 30988], [United States -> Alaska] 
+
+  path: 1[20118 -> 30988 -> 100002], [United States -> Alaska -> Arctic Ocean] 
+
+  path: 2[20118 -> 30996 -> 100007], [United States -> Georgia -> Black Sea] 
+
+srcNodes: [30988, 100002, 100021]
+  path: 0[30986 -> 172 -> 30988], [Yukon Territory -> Mt St.Elias Mt St.Elias Elias Range  -> Alaska] 
+
+  path: 1[30986 -> 100002], [Yukon Territory -> Arctic Ocean] 
+
+  path: 2[30986 -> 100021], [Yukon Territory -> Pacific Ocean] 
+
+srcNodes: [30988, 100002, 100018]
+  path: 0[174 -> 30988], [Mt Fairweather Mt Fairweather Elias Range  -> Alaska] 
+
+  path: 1[174 -> 30988 -> 100002], [Mt Fairweather Mt Fairweather Elias Range  -> Alaska -> Arctic Ocean] 
+
+  path: 2[174 -> 30976 -> 42879 -> 110084 -> 100018], [Mt Fairweather Mt Fairweather Elias Range  -> British Columbia -> Victoria -> Gozo Gozo Malta  -> Mediterranean Sea] 
+
+srcNodes: [30988, 100002, 100003]
+  path: 0[171 -> 30988], [Mt Bona Mt Bona Elias Range  -> Alaska] 
+
+  path: 1[171 -> 30988 -> 100002], [Mt Bona Mt Bona Elias Range  -> Alaska -> Arctic Ocean] 
+
+  path: 2[171 -> 30985 -> 90133 -> 30977 -> 100003], [Mt Bona Mt Bona Elias Range  -> Saskatchewan -> Saskatchewan River -> Manitoba -> Atlantic Ocean] 
+
+srcNodes: [30988, 100002, 100002]
+  path: 0[110001 -> 20129 -> 10001 -> 20118 -> 30988], [Greenland Greenland   -> Greenland -> America -> United States -> Alaska] 
+
+  path: 1[110001 -> 100002], [Greenland Greenland   -> Arctic Ocean] 
+
+  path: 2[110001 -> 100002], [Greenland Greenland   -> Arctic Ocean] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20142 -> 10001 -> 20118 -> 30988], [Saint Vincent and the Grenadines -> America -> United States -> Alaska] 
+
+  path: 1[20142 -> 10001 -> 20129 -> 100002], [Saint Vincent and the Grenadines -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20142 -> 100008], [Saint Vincent and the Grenadines -> Caribbean Sea] 
+
+srcNodes: [30988, 110188, 100008]
+  path: 0[20145 -> 10001 -> 20118 -> 30988], [Virgin Islands -> America -> United States -> Alaska] 
+
+  path: 1[20145 -> 10001 -> 20117 -> 30980 -> 110188], [Virgin Islands -> America -> Canada -> Northwest Territories -> Southampton Island Southampton Island Canadian Arctic Islands ] 
+
+  path: 2[20145 -> 100008], [Virgin Islands -> Caribbean Sea] 
+
+srcNodes: [30988, 110189, 100008]
+  path: 0[20125 -> 10001 -> 20118 -> 30988], [Dominican Republic -> America -> United States -> Alaska] 
+
+  path: 1[20125 -> 10001 -> 20117 -> 30980 -> 110189], [Dominican Republic -> America -> Canada -> Northwest Territories -> Ellesmere Island Ellesmere Island Canadian Arctic Islands ] 
+
+  path: 2[20125 -> 100008], [Dominican Republic -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100015]
+  path: 0[10001 -> 20118 -> 30988], [America -> United States -> Alaska] 
+
+  path: 1[10001 -> 20129 -> 100002], [America -> Greenland -> Arctic Ocean] 
+
+  path: 2[10001 -> 20132 -> 41320 -> 110006 -> 100015], [America -> Jamaica -> Kingston -> Great Britain Great Britain British Isles  -> Irish Sea] 
+
+srcNodes: [30988, 110185, 100008]
+  path: 0[110224 -> 20130 -> 10001 -> 20118 -> 30988], [Grenada Grenada Lesser Antilles volcanic -> Grenada -> America -> United States -> Alaska] 
+
+  path: 1[110224 -> 20130 -> 10001 -> 20117 -> 30980 -> 110185], [Grenada Grenada Lesser Antilles volcanic -> Grenada -> America -> Canada -> Northwest Territories -> Banks Island Banks Island Canadian Arctic Islands ] 
+
+  path: 2[110224 -> 100008], [Grenada Grenada Lesser Antilles volcanic -> Caribbean Sea] 
+
+srcNodes: [30988, 110184, 100008]
+  path: 0[110222 -> 20142 -> 10001 -> 20118 -> 30988], [Saint Vincent Saint Vincent Lesser Antilles volcanic -> Saint Vincent and the Grenadines -> America -> United States -> Alaska] 
+
+  path: 1[110222 -> 20142 -> 10001 -> 20117 -> 30980 -> 110184], [Saint Vincent Saint Vincent Lesser Antilles volcanic -> Saint Vincent and the Grenadines -> America -> Canada -> Northwest Territories -> Victoria Island Victoria Island Canadian Arctic Islands ] 
+
+  path: 2[110222 -> 100008], [Saint Vincent Saint Vincent Lesser Antilles volcanic -> Caribbean Sea] 
+
+srcNodes: [30988, 110188, 100003]
+  path: 0[20143 -> 10001 -> 20118 -> 30988], [Trinidad and Tobago -> America -> United States -> Alaska] 
+
+  path: 1[20143 -> 10001 -> 20117 -> 30980 -> 110188], [Trinidad and Tobago -> America -> Canada -> Northwest Territories -> Southampton Island Southampton Island Canadian Arctic Islands ] 
+
+  path: 2[20143 -> 100003], [Trinidad and Tobago -> Atlantic Ocean] 
+
+srcNodes: [30988, 110189, 100021]
+  path: 0[20121 -> 10001 -> 20118 -> 30988], [Nicaragua -> America -> United States -> Alaska] 
+
+  path: 1[20121 -> 10001 -> 20117 -> 30980 -> 110189], [Nicaragua -> America -> Canada -> Northwest Territories -> Ellesmere Island Ellesmere Island Canadian Arctic Islands ] 
+
+  path: 2[20121 -> 100021], [Nicaragua -> Pacific Ocean] 
+
+srcNodes: [30988, 110188, 100021]
+  path: 0[20172 -> 10001 -> 20118 -> 30988], [Chile -> America -> United States -> Alaska] 
+
+  path: 1[20172 -> 10001 -> 20117 -> 30980 -> 110188], [Chile -> America -> Canada -> Northwest Territories -> Southampton Island Southampton Island Canadian Arctic Islands ] 
+
+  path: 2[20172 -> 100021], [Chile -> Pacific Ocean] 
+
+srcNodes: [30988, 110189, 100003]
+  path: 0[20178 -> 10001 -> 20118 -> 30988], [Suriname -> America -> United States -> Alaska] 
+
+  path: 1[20178 -> 10001 -> 20117 -> 30980 -> 110189], [Suriname -> America -> Canada -> Northwest Territories -> Ellesmere Island Ellesmere Island Canadian Arctic Islands ] 
+
+  path: 2[20178 -> 100003], [Suriname -> Atlantic Ocean] 
+
+srcNodes: [30988, 100002, 100032]
+  path: 0[42107 -> 110216 -> 20134 -> 10001 -> 20118 -> 30988], [Plymouth -> Montserrat Montserrat Lesser Antilles volcanic -> Montserrat -> America -> United States -> Alaska] 
+
+  path: 1[42107 -> 110216 -> 20134 -> 10001 -> 20129 -> 100002], [Plymouth -> Montserrat Montserrat Lesser Antilles volcanic -> Montserrat -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[42107 -> 100032], [Plymouth -> The Channel] 
+
+srcNodes: [169, 100002, 100003]
+  path: 0[30977 -> 90133 -> 30985 -> 171 -> 30988 -> 169], [Manitoba -> Saskatchewan River -> Saskatchewan -> Mt Bona Mt Bona Elias Range  -> Alaska -> Mt McKinley Mt McKinley Alaska Range ] 
+
+  path: 1[30977 -> 90132 -> 100002], [Manitoba -> Nelson River -> Arctic Ocean] 
+
+  path: 2[30977 -> 100003], [Manitoba -> Atlantic Ocean] 
+
+-----------------------------------------
+ResultDestNodes: [30988, 169, 20129, 20118, 30986, 174, 171, 110001, 20142, 20145, 20125, 10001, 110224, 110222, 20143, 20121, 20172, 20178, 42107, 30977]
+ResultRelevs: [9.52461051940918, 6.530949592590332, 5.447549819946289, 5.443729877471924, 5.268099784851074, 4.86791467666626, 4.614935874938965, 4.543299674987793, 4.4829421043396, 4.097097396850586, 4.097097396850586, 3.961894989013672, 3.728837013244629, 3.728837013244629, 3.464647054672241, 3.464647054672241, 3.464647054672241, 3.464647054672241, 3.4576709270477295, 3.4472198486328125]
+Num of top-k answers: 20
+Num of redundant answers in top-k answers: 0
+Num of duplicate answers in top-k answers: 0
+Num of entries retrieved from the lists: 702
+Num of redundant candidate answers found: 66
+Num of reduced alternative answers found: 11
+Num of duplicate candidate answers found: 169
+Num of unique alternative answers found: 23
+
+Blink Search Using BDB 30
+[alaska, arctic, sea]
+srcNodes: [30988, 100002, 100006]
+  path: 0[30988 -> 30988], [Alaska -> Alaska]
+  path: 1[30988 -> 100002], [Alaska -> Arctic Ocean] 
+
+  path: 2[30988 -> 100006], [Alaska -> Bering Sea] 
+
+srcNodes: [169, 100002, 100006]
+  path: 0[169 -> 169], [Mt McKinley Mt McKinley Alaska Range  -> Mt McKinley Mt McKinley Alaska Range ]
+  path: 1[169 -> 30988 -> 100002], [Mt McKinley Mt McKinley Alaska Range  -> Alaska -> Arctic Ocean] 
+
+  path: 2[169 -> 30988 -> 100006], [Mt McKinley Mt McKinley Alaska Range  -> Alaska -> Bering Sea] 
+
+srcNodes: [30988, 100002, 100006]
+  path: 0[90130 -> 30988], [Yukon River -> Alaska] 
+
+  path: 1[90130 -> 30988 -> 100002], [Yukon River -> Alaska -> Arctic Ocean] 
+
+  path: 2[90130 -> 100006], [Yukon River -> Bering Sea] 
+
+srcNodes: [30988, 100002, 100020]
+  path: 0[20129 -> 10001 -> 20118 -> 30988], [Greenland -> America -> United States -> Alaska] 
+
+  path: 1[20129 -> 100002], [Greenland -> Arctic Ocean] 
+
+  path: 2[20129 -> 100020], [Greenland -> Norwegian Sea] 
+
+srcNodes: [30988, 100002, 100006]
+  path: 0[168 -> 30988], [Mt Redoubt Mt Redoubt Aleutian Range volcano -> Alaska] 
+
+  path: 1[168 -> 30988 -> 100002], [Mt Redoubt Mt Redoubt Aleutian Range volcano -> Alaska -> Arctic Ocean] 
+
+  path: 2[168 -> 30988 -> 100006], [Mt Redoubt Mt Redoubt Aleutian Range volcano -> Alaska -> Bering Sea] 
+
+This is a non-reduced answer tree with common first node 30988
+
+srcNodes: [30988, 100002, 100006]
+  path: 0[20118 -> 30988], [United States -> Alaska] 
+
+  path: 1[20118 -> 30988 -> 100002], [United States -> Alaska -> Arctic Ocean] 
+
+  path: 2[20118 -> 30988 -> 100006], [United States -> Alaska -> Bering Sea] 
+
+This is a non-reduced answer tree with common first node 30988
+
+srcNodes: [30988, 100002, 100006]
+  path: 0[174 -> 30988], [Mt Fairweather Mt Fairweather Elias Range  -> Alaska] 
+
+  path: 1[174 -> 30988 -> 100002], [Mt Fairweather Mt Fairweather Elias Range  -> Alaska -> Arctic Ocean] 
+
+  path: 2[174 -> 30988 -> 100006], [Mt Fairweather Mt Fairweather Elias Range  -> Alaska -> Bering Sea] 
+
+This is a non-reduced answer tree with common first node 30988
+
+srcNodes: [30988, 100002, 100006]
+  path: 0[170 -> 30988], [Mt Blackburn Mt Blackburn Wrangell Mountains volcano -> Alaska] 
+
+  path: 1[170 -> 30988 -> 100002], [Mt Blackburn Mt Blackburn Wrangell Mountains volcano -> Alaska -> Arctic Ocean] 
+
+  path: 2[170 -> 30988 -> 100006], [Mt Blackburn Mt Blackburn Wrangell Mountains volcano -> Alaska -> Bering Sea] 
+
+This is a non-reduced answer tree with common first node 30988
+
+srcNodes: [30988, 100002, 100006]
+  path: 0[172 -> 30988], [Mt St.Elias Mt St.Elias Elias Range  -> Alaska] 
+
+  path: 1[172 -> 30988 -> 100002], [Mt St.Elias Mt St.Elias Elias Range  -> Alaska -> Arctic Ocean] 
+
+  path: 2[172 -> 30988 -> 100006], [Mt St.Elias Mt St.Elias Elias Range  -> Alaska -> Bering Sea] 
+
+This is a non-reduced answer tree with common first node 30988
+
+srcNodes: [30988, 100002, 100006]
+  path: 0[171 -> 30988], [Mt Bona Mt Bona Elias Range  -> Alaska] 
+
+  path: 1[171 -> 30988 -> 100002], [Mt Bona Mt Bona Elias Range  -> Alaska -> Arctic Ocean] 
+
+  path: 2[171 -> 30988 -> 100006], [Mt Bona Mt Bona Elias Range  -> Alaska -> Bering Sea] 
+
+This is a non-reduced answer tree with common first node 30988
+
+srcNodes: [30988, 100002, 100021]
+  path: 0[30986 -> 172 -> 30988], [Yukon Territory -> Mt St.Elias Mt St.Elias Elias Range  -> Alaska] 
+
+  path: 1[30986 -> 100002], [Yukon Territory -> Arctic Ocean] 
+
+  path: 2[30986 -> 100021], [Yukon Territory -> Pacific Ocean] 
+
+srcNodes: [30988, 100002, 100020]
+  path: 0[110001 -> 20129 -> 10001 -> 20118 -> 30988], [Greenland Greenland   -> Greenland -> America -> United States -> Alaska] 
+
+  path: 1[110001 -> 100002], [Greenland Greenland   -> Arctic Ocean] 
+
+  path: 2[110001 -> 100020], [Greenland Greenland   -> Norwegian Sea] 
+
+srcNodes: [30988, 100002, 100020]
+  path: 0[10001 -> 20118 -> 30988], [America -> United States -> Alaska] 
+
+  path: 1[10001 -> 20129 -> 100002], [America -> Greenland -> Arctic Ocean] 
+
+  path: 2[10001 -> 20129 -> 100020], [America -> Greenland -> Norwegian Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20126 -> 10001 -> 20118 -> 30988], [Haiti -> America -> United States -> Alaska] 
+
+  path: 1[20126 -> 10001 -> 20129 -> 100002], [Haiti -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20126 -> 100008], [Haiti -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20124 -> 10001 -> 20118 -> 30988], [Dominica -> America -> United States -> Alaska] 
+
+  path: 1[20124 -> 10001 -> 20129 -> 100002], [Dominica -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20124 -> 100008], [Dominica -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20125 -> 10001 -> 20118 -> 30988], [Dominican Republic -> America -> United States -> Alaska] 
+
+  path: 1[20125 -> 10001 -> 20129 -> 100002], [Dominican Republic -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20125 -> 100008], [Dominican Republic -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20135 -> 10001 -> 20118 -> 30988], [Netherlands Antilles -> America -> United States -> Alaska] 
+
+  path: 1[20135 -> 10001 -> 20129 -> 100002], [Netherlands Antilles -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20135 -> 100008], [Netherlands Antilles -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20113 -> 10001 -> 20118 -> 30988], [Guatemala -> America -> United States -> Alaska] 
+
+  path: 1[20113 -> 10001 -> 20129 -> 100002], [Guatemala -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20113 -> 100008], [Guatemala -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20107 -> 10001 -> 20118 -> 30988], [Anguilla -> America -> United States -> Alaska] 
+
+  path: 1[20107 -> 10001 -> 20129 -> 100002], [Anguilla -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20107 -> 100008], [Anguilla -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20143 -> 10001 -> 20118 -> 30988], [Trinidad and Tobago -> America -> United States -> Alaska] 
+
+  path: 1[20143 -> 10001 -> 20129 -> 100002], [Trinidad and Tobago -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20143 -> 100008], [Trinidad and Tobago -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20109 -> 10001 -> 20118 -> 30988], [Aruba -> America -> United States -> Alaska] 
+
+  path: 1[20109 -> 10001 -> 20129 -> 100002], [Aruba -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20109 -> 100008], [Aruba -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20145 -> 10001 -> 20118 -> 30988], [Virgin Islands -> America -> United States -> Alaska] 
+
+  path: 1[20145 -> 10001 -> 20129 -> 100002], [Virgin Islands -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20145 -> 100008], [Virgin Islands -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20142 -> 10001 -> 20118 -> 30988], [Saint Vincent and the Grenadines -> America -> United States -> Alaska] 
+
+  path: 1[20142 -> 10001 -> 20129 -> 100002], [Saint Vincent and the Grenadines -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20142 -> 100008], [Saint Vincent and the Grenadines -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20119 -> 10001 -> 20118 -> 30988], [Cayman Islands -> America -> United States -> Alaska] 
+
+  path: 1[20119 -> 10001 -> 20129 -> 100002], [Cayman Islands -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20119 -> 100008], [Cayman Islands -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20108 -> 10001 -> 20118 -> 30988], [Antigua and Barbuda -> America -> United States -> Alaska] 
+
+  path: 1[20108 -> 10001 -> 20129 -> 100002], [Antigua and Barbuda -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20108 -> 100008], [Antigua and Barbuda -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20116 -> 10001 -> 20118 -> 30988], [British Virgin Islands -> America -> United States -> Alaska] 
+
+  path: 1[20116 -> 10001 -> 20129 -> 100002], [British Virgin Islands -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20116 -> 100008], [British Virgin Islands -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20112 -> 10001 -> 20118 -> 30988], [Belize -> America -> United States -> Alaska] 
+
+  path: 1[20112 -> 10001 -> 20129 -> 100002], [Belize -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20112 -> 100008], [Belize -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20139 -> 10001 -> 20118 -> 30988], [Saint Kitts and Nevis -> America -> United States -> Alaska] 
+
+  path: 1[20139 -> 10001 -> 20129 -> 100002], [Saint Kitts and Nevis -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20139 -> 100008], [Saint Kitts and Nevis -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20140 -> 10001 -> 20118 -> 30988], [Saint Lucia -> America -> United States -> Alaska] 
+
+  path: 1[20140 -> 10001 -> 20129 -> 100002], [Saint Lucia -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20140 -> 100008], [Saint Lucia -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20134 -> 10001 -> 20118 -> 30988], [Montserrat -> America -> United States -> Alaska] 
+
+  path: 1[20134 -> 10001 -> 20129 -> 100002], [Montserrat -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20134 -> 100008], [Montserrat -> Caribbean Sea] 
+
+-----------------------------------------
+ResultDestNodes: [30988, 169, 90130, 20129, 168, 20118, 174, 170, 172, 171, 30986, 110001, 10001, 20126, 20124, 20125, 20135, 20113, 20107, 20143, 20109, 20145, 20142, 20119, 20108, 20116, 20112, 20139, 20140, 20134]
+ResultRelevs: [9.52461051940918, 6.530949592590332, 6.16349983215332, 5.447549819946289, 5.443729877471924, 5.443729877471924, 5.443729877471924, 5.443729877471924, 5.443729877471924, 5.443729877471924, 5.268099784851074, 5.175749778747559, 4.537709712982178, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396]
+Num of top-k answers: 30
+Num of redundant answers: 6
+Num of duplicate answers: 25
+Num of entries retrieved from the lists: 154
+Num of entries retrieved from NKMaps: 202
+
+Blink Search Using BDB 30
+[alaska, arctic, sea]
+srcNodes: [30988, 100002, 100006]
+  path: 0[30988 -> 30988], [Alaska -> Alaska]
+  path: 1[30988 -> 100002], [Alaska -> Arctic Ocean] 
+
+  path: 2[30988 -> 100006], [Alaska -> Bering Sea] 
+
+srcNodes: [169, 100002, 100006]
+  path: 0[169 -> 169], [Mt McKinley Mt McKinley Alaska Range  -> Mt McKinley Mt McKinley Alaska Range ]
+  path: 1[169 -> 30988 -> 100002], [Mt McKinley Mt McKinley Alaska Range  -> Alaska -> Arctic Ocean] 
+
+  path: 2[169 -> 30988 -> 100006], [Mt McKinley Mt McKinley Alaska Range  -> Alaska -> Bering Sea] 
+
+srcNodes: [30988, 100002, 100006]
+  path: 0[90130 -> 30988], [Yukon River -> Alaska] 
+
+  path: 1[90130 -> 30988 -> 100002], [Yukon River -> Alaska -> Arctic Ocean] 
+
+  path: 2[90130 -> 100006], [Yukon River -> Bering Sea] 
+
+srcNodes: [30988, 100002, 100020]
+  path: 0[20129 -> 10001 -> 20118 -> 30988], [Greenland -> America -> United States -> Alaska] 
+
+  path: 1[20129 -> 100002], [Greenland -> Arctic Ocean] 
+
+  path: 2[20129 -> 100020], [Greenland -> Norwegian Sea] 
+
+srcNodes: [30988, 100002, 100021]
+  path: 0[30986 -> 172 -> 30988], [Yukon Territory -> Mt St.Elias Mt St.Elias Elias Range  -> Alaska] 
+
+  path: 1[30986 -> 100002], [Yukon Territory -> Arctic Ocean] 
+
+  path: 2[30986 -> 100021], [Yukon Territory -> Pacific Ocean] 
+
+srcNodes: [30988, 100002, 100020]
+  path: 0[110001 -> 20129 -> 10001 -> 20118 -> 30988], [Greenland Greenland   -> Greenland -> America -> United States -> Alaska] 
+
+  path: 1[110001 -> 100002], [Greenland Greenland   -> Arctic Ocean] 
+
+  path: 2[110001 -> 100020], [Greenland Greenland   -> Norwegian Sea] 
+
+srcNodes: [30988, 100002, 100020]
+  path: 0[10001 -> 20118 -> 30988], [America -> United States -> Alaska] 
+
+  path: 1[10001 -> 20129 -> 100002], [America -> Greenland -> Arctic Ocean] 
+
+  path: 2[10001 -> 20129 -> 100020], [America -> Greenland -> Norwegian Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20113 -> 10001 -> 20118 -> 30988], [Guatemala -> America -> United States -> Alaska] 
+
+  path: 1[20113 -> 10001 -> 20129 -> 100002], [Guatemala -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20113 -> 100008], [Guatemala -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20119 -> 10001 -> 20118 -> 30988], [Cayman Islands -> America -> United States -> Alaska] 
+
+  path: 1[20119 -> 10001 -> 20129 -> 100002], [Cayman Islands -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20119 -> 100008], [Cayman Islands -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20108 -> 10001 -> 20118 -> 30988], [Antigua and Barbuda -> America -> United States -> Alaska] 
+
+  path: 1[20108 -> 10001 -> 20129 -> 100002], [Antigua and Barbuda -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20108 -> 100008], [Antigua and Barbuda -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20136 -> 10001 -> 20118 -> 30988], [Saint Martin -> America -> United States -> Alaska] 
+
+  path: 1[20136 -> 10001 -> 20129 -> 100002], [Saint Martin -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20136 -> 100008], [Saint Martin -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20124 -> 10001 -> 20118 -> 30988], [Dominica -> America -> United States -> Alaska] 
+
+  path: 1[20124 -> 10001 -> 20129 -> 100002], [Dominica -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20124 -> 100008], [Dominica -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20126 -> 10001 -> 20118 -> 30988], [Haiti -> America -> United States -> Alaska] 
+
+  path: 1[20126 -> 10001 -> 20129 -> 100002], [Haiti -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20126 -> 100008], [Haiti -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20125 -> 10001 -> 20118 -> 30988], [Dominican Republic -> America -> United States -> Alaska] 
+
+  path: 1[20125 -> 10001 -> 20129 -> 100002], [Dominican Republic -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20125 -> 100008], [Dominican Republic -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20121 -> 10001 -> 20118 -> 30988], [Nicaragua -> America -> United States -> Alaska] 
+
+  path: 1[20121 -> 10001 -> 20129 -> 100002], [Nicaragua -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20121 -> 100008], [Nicaragua -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20140 -> 10001 -> 20118 -> 30988], [Saint Lucia -> America -> United States -> Alaska] 
+
+  path: 1[20140 -> 10001 -> 20129 -> 100002], [Saint Lucia -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20140 -> 100008], [Saint Lucia -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20116 -> 10001 -> 20118 -> 30988], [British Virgin Islands -> America -> United States -> Alaska] 
+
+  path: 1[20116 -> 10001 -> 20129 -> 100002], [British Virgin Islands -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20116 -> 100008], [British Virgin Islands -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20112 -> 10001 -> 20118 -> 30988], [Belize -> America -> United States -> Alaska] 
+
+  path: 1[20112 -> 10001 -> 20129 -> 100002], [Belize -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20112 -> 100008], [Belize -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20139 -> 10001 -> 20118 -> 30988], [Saint Kitts and Nevis -> America -> United States -> Alaska] 
+
+  path: 1[20139 -> 10001 -> 20129 -> 100002], [Saint Kitts and Nevis -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20139 -> 100008], [Saint Kitts and Nevis -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20143 -> 10001 -> 20118 -> 30988], [Trinidad and Tobago -> America -> United States -> Alaska] 
+
+  path: 1[20143 -> 10001 -> 20129 -> 100002], [Trinidad and Tobago -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20143 -> 100008], [Trinidad and Tobago -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20145 -> 10001 -> 20118 -> 30988], [Virgin Islands -> America -> United States -> Alaska] 
+
+  path: 1[20145 -> 10001 -> 20129 -> 100002], [Virgin Islands -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20145 -> 100008], [Virgin Islands -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20138 -> 10001 -> 20118 -> 30988], [Puerto Rico -> America -> United States -> Alaska] 
+
+  path: 1[20138 -> 10001 -> 20129 -> 100002], [Puerto Rico -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20138 -> 100008], [Puerto Rico -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20133 -> 10001 -> 20118 -> 30988], [Martinique -> America -> United States -> Alaska] 
+
+  path: 1[20133 -> 10001 -> 20129 -> 100002], [Martinique -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20133 -> 100008], [Martinique -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20142 -> 10001 -> 20118 -> 30988], [Saint Vincent and the Grenadines -> America -> United States -> Alaska] 
+
+  path: 1[20142 -> 10001 -> 20129 -> 100002], [Saint Vincent and the Grenadines -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20142 -> 100008], [Saint Vincent and the Grenadines -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20134 -> 10001 -> 20118 -> 30988], [Montserrat -> America -> United States -> Alaska] 
+
+  path: 1[20134 -> 10001 -> 20129 -> 100002], [Montserrat -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20134 -> 100008], [Montserrat -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20109 -> 10001 -> 20118 -> 30988], [Aruba -> America -> United States -> Alaska] 
+
+  path: 1[20109 -> 10001 -> 20129 -> 100002], [Aruba -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20109 -> 100008], [Aruba -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20132 -> 10001 -> 20118 -> 30988], [Jamaica -> America -> United States -> Alaska] 
+
+  path: 1[20132 -> 10001 -> 20129 -> 100002], [Jamaica -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20132 -> 100008], [Jamaica -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20131 -> 10001 -> 20118 -> 30988], [Guadeloupe -> America -> United States -> Alaska] 
+
+  path: 1[20131 -> 10001 -> 20129 -> 100002], [Guadeloupe -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20131 -> 100008], [Guadeloupe -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20135 -> 10001 -> 20118 -> 30988], [Netherlands Antilles -> America -> United States -> Alaska] 
+
+  path: 1[20135 -> 10001 -> 20129 -> 100002], [Netherlands Antilles -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20135 -> 100008], [Netherlands Antilles -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20107 -> 10001 -> 20118 -> 30988], [Anguilla -> America -> United States -> Alaska] 
+
+  path: 1[20107 -> 10001 -> 20129 -> 100002], [Anguilla -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20107 -> 100008], [Anguilla -> Caribbean Sea] 
+
+-----------------------------------------
+ResultDestNodes: [30988, 169, 90130, 20129, 30986, 110001, 10001, 20113, 20119, 20108, 20136, 20124, 20126, 20125, 20121, 20140, 20116, 20112, 20139, 20143, 20145, 20138, 20133, 20142, 20134, 20109, 20132, 20131, 20135, 20107]
+ResultRelevs: [9.52461051940918, 6.530949592590332, 6.16349983215332, 5.447549819946289, 5.268099784851074, 5.175749778747559, 4.537709712982178, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396]
+Num of top-k answers: 30
+Num of redundant answers: 0
+Num of duplicate answers: 25
+Num of entries retrieved from the lists: 196
+Num of entries retrieved from NKMaps: 242
+
+Blink Search Using BDB_reduced 30
+[alaska, arctic, sea]
+srcNodes: [30988, 100002, 100006]
+  path: 0[30988 -> 30988], [Alaska -> Alaska]
+  path: 1[30988 -> 100002], [Alaska -> Arctic Ocean] 
+
+  path: 2[30988 -> 100006], [Alaska -> Bering Sea] 
+
+srcNodes: [169, 100002, 100006]
+  path: 0[169 -> 169], [Mt McKinley Mt McKinley Alaska Range  -> Mt McKinley Mt McKinley Alaska Range ]
+  path: 1[169 -> 30988 -> 100002], [Mt McKinley Mt McKinley Alaska Range  -> Alaska -> Arctic Ocean] 
+
+  path: 2[169 -> 30988 -> 100006], [Mt McKinley Mt McKinley Alaska Range  -> Alaska -> Bering Sea] 
+
+srcNodes: [30988, 100002, 100006]
+  path: 0[90130 -> 30988], [Yukon River -> Alaska] 
+
+  path: 1[90130 -> 30988 -> 100002], [Yukon River -> Alaska -> Arctic Ocean] 
+
+  path: 2[90130 -> 100006], [Yukon River -> Bering Sea] 
+
+srcNodes: [30988, 100002, 100020]
+  path: 0[20129 -> 10001 -> 20118 -> 30988], [Greenland -> America -> United States -> Alaska] 
+
+  path: 1[20129 -> 100002], [Greenland -> Arctic Ocean] 
+
+  path: 2[20129 -> 100020], [Greenland -> Norwegian Sea] 
+
+srcNodes: [30988, 100002, 100007]
+  path: 0[20118 -> 30988], [United States -> Alaska] 
+
+  path: 1[20118 -> 30988 -> 100002], [United States -> Alaska -> Arctic Ocean] 
+
+  path: 2[20118 -> 30996 -> 100007], [United States -> Georgia -> Black Sea] 
+
+srcNodes: [30988, 100002, 100021]
+  path: 0[30986 -> 172 -> 30988], [Yukon Territory -> Mt St.Elias Mt St.Elias Elias Range  -> Alaska] 
+
+  path: 1[30986 -> 100002], [Yukon Territory -> Arctic Ocean] 
+
+  path: 2[30986 -> 100021], [Yukon Territory -> Pacific Ocean] 
+
+srcNodes: [30988, 100002, 100020]
+  path: 0[110001 -> 20129 -> 10001 -> 20118 -> 30988], [Greenland Greenland   -> Greenland -> America -> United States -> Alaska] 
+
+  path: 1[110001 -> 100002], [Greenland Greenland   -> Arctic Ocean] 
+
+  path: 2[110001 -> 100020], [Greenland Greenland   -> Norwegian Sea] 
+
+srcNodes: [30988, 100002, 100018]
+  path: 0[174 -> 30988], [Mt Fairweather Mt Fairweather Elias Range  -> Alaska] 
+
+  path: 1[174 -> 30988 -> 100002], [Mt Fairweather Mt Fairweather Elias Range  -> Alaska -> Arctic Ocean] 
+
+  path: 2[174 -> 30976 -> 42879 -> 110084 -> 100018], [Mt Fairweather Mt Fairweather Elias Range  -> British Columbia -> Victoria -> Gozo Gozo Malta  -> Mediterranean Sea] 
+
+srcNodes: [30988, 100002, 100003]
+  path: 0[171 -> 30988], [Mt Bona Mt Bona Elias Range  -> Alaska] 
+
+  path: 1[171 -> 30988 -> 100002], [Mt Bona Mt Bona Elias Range  -> Alaska -> Arctic Ocean] 
+
+  path: 2[171 -> 30985 -> 90133 -> 30977 -> 100003], [Mt Bona Mt Bona Elias Range  -> Saskatchewan -> Saskatchewan River -> Manitoba -> Atlantic Ocean] 
+
+srcNodes: [30988, 100002, 100020]
+  path: 0[10001 -> 20118 -> 30988], [America -> United States -> Alaska] 
+
+  path: 1[10001 -> 20129 -> 100002], [America -> Greenland -> Arctic Ocean] 
+
+  path: 2[10001 -> 20129 -> 100020], [America -> Greenland -> Norwegian Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20119 -> 10001 -> 20118 -> 30988], [Cayman Islands -> America -> United States -> Alaska] 
+
+  path: 1[20119 -> 10001 -> 20129 -> 100002], [Cayman Islands -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20119 -> 100008], [Cayman Islands -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20108 -> 10001 -> 20118 -> 30988], [Antigua and Barbuda -> America -> United States -> Alaska] 
+
+  path: 1[20108 -> 10001 -> 20129 -> 100002], [Antigua and Barbuda -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20108 -> 100008], [Antigua and Barbuda -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20107 -> 10001 -> 20118 -> 30988], [Anguilla -> America -> United States -> Alaska] 
+
+  path: 1[20107 -> 10001 -> 20129 -> 100002], [Anguilla -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20107 -> 100008], [Anguilla -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20140 -> 10001 -> 20118 -> 30988], [Saint Lucia -> America -> United States -> Alaska] 
+
+  path: 1[20140 -> 10001 -> 20129 -> 100002], [Saint Lucia -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20140 -> 100008], [Saint Lucia -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20126 -> 10001 -> 20118 -> 30988], [Haiti -> America -> United States -> Alaska] 
+
+  path: 1[20126 -> 10001 -> 20129 -> 100002], [Haiti -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20126 -> 100008], [Haiti -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20113 -> 10001 -> 20118 -> 30988], [Guatemala -> America -> United States -> Alaska] 
+
+  path: 1[20113 -> 10001 -> 20129 -> 100002], [Guatemala -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20113 -> 100008], [Guatemala -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20124 -> 10001 -> 20118 -> 30988], [Dominica -> America -> United States -> Alaska] 
+
+  path: 1[20124 -> 10001 -> 20129 -> 100002], [Dominica -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20124 -> 100008], [Dominica -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20109 -> 10001 -> 20118 -> 30988], [Aruba -> America -> United States -> Alaska] 
+
+  path: 1[20109 -> 10001 -> 20129 -> 100002], [Aruba -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20109 -> 100008], [Aruba -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20145 -> 10001 -> 20118 -> 30988], [Virgin Islands -> America -> United States -> Alaska] 
+
+  path: 1[20145 -> 10001 -> 20129 -> 100002], [Virgin Islands -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20145 -> 100008], [Virgin Islands -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20142 -> 10001 -> 20118 -> 30988], [Saint Vincent and the Grenadines -> America -> United States -> Alaska] 
+
+  path: 1[20142 -> 10001 -> 20129 -> 100002], [Saint Vincent and the Grenadines -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20142 -> 100008], [Saint Vincent and the Grenadines -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20134 -> 10001 -> 20118 -> 30988], [Montserrat -> America -> United States -> Alaska] 
+
+  path: 1[20134 -> 10001 -> 20129 -> 100002], [Montserrat -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20134 -> 100008], [Montserrat -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20116 -> 10001 -> 20118 -> 30988], [British Virgin Islands -> America -> United States -> Alaska] 
+
+  path: 1[20116 -> 10001 -> 20129 -> 100002], [British Virgin Islands -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20116 -> 100008], [British Virgin Islands -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20112 -> 10001 -> 20118 -> 30988], [Belize -> America -> United States -> Alaska] 
+
+  path: 1[20112 -> 10001 -> 20129 -> 100002], [Belize -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20112 -> 100008], [Belize -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20139 -> 10001 -> 20118 -> 30988], [Saint Kitts and Nevis -> America -> United States -> Alaska] 
+
+  path: 1[20139 -> 10001 -> 20129 -> 100002], [Saint Kitts and Nevis -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20139 -> 100008], [Saint Kitts and Nevis -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20143 -> 10001 -> 20118 -> 30988], [Trinidad and Tobago -> America -> United States -> Alaska] 
+
+  path: 1[20143 -> 10001 -> 20129 -> 100002], [Trinidad and Tobago -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20143 -> 100008], [Trinidad and Tobago -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20138 -> 10001 -> 20118 -> 30988], [Puerto Rico -> America -> United States -> Alaska] 
+
+  path: 1[20138 -> 10001 -> 20129 -> 100002], [Puerto Rico -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20138 -> 100008], [Puerto Rico -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20136 -> 10001 -> 20118 -> 30988], [Saint Martin -> America -> United States -> Alaska] 
+
+  path: 1[20136 -> 10001 -> 20129 -> 100002], [Saint Martin -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20136 -> 100008], [Saint Martin -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20121 -> 10001 -> 20118 -> 30988], [Nicaragua -> America -> United States -> Alaska] 
+
+  path: 1[20121 -> 10001 -> 20129 -> 100002], [Nicaragua -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20121 -> 100008], [Nicaragua -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20125 -> 10001 -> 20118 -> 30988], [Dominican Republic -> America -> United States -> Alaska] 
+
+  path: 1[20125 -> 10001 -> 20129 -> 100002], [Dominican Republic -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20125 -> 100008], [Dominican Republic -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20135 -> 10001 -> 20118 -> 30988], [Netherlands Antilles -> America -> United States -> Alaska] 
+
+  path: 1[20135 -> 10001 -> 20129 -> 100002], [Netherlands Antilles -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20135 -> 100008], [Netherlands Antilles -> Caribbean Sea] 
+
+-----------------------------------------
+ResultDestNodes: [30988, 169, 90130, 20129, 20118, 30986, 110001, 174, 171, 10001, 20119, 20108, 20107, 20140, 20126, 20113, 20124, 20109, 20145, 20142, 20134, 20116, 20112, 20139, 20143, 20138, 20136, 20121, 20125, 20135]
+ResultRelevs: [9.52461051940918, 6.530949592590332, 6.16349983215332, 5.447549819946289, 5.443729877471924, 5.268099784851074, 5.175749778747559, 4.867915153503418, 4.614935874938965, 4.537709712982178, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396, 4.4829421043396]
+Num of top-k answers: 30
+Num of redundant answers: 0
+Num of duplicate answers: 22
+Num of entries retrieved from the lists: 173
+Num of entries retrieved from NKMaps: 258
+Num of redundant candidate answers found: 14
+Num of reduced alternative answers found: 5
+
+Blink Search Using BDB_reducedNunique 30
+[alaska, arctic, sea]
+srcNodes: [30988, 100002, 100006]
+  path: 0[30988 -> 30988], [Alaska -> Alaska]
+  path: 1[30988 -> 100002], [Alaska -> Arctic Ocean] 
+
+  path: 2[30988 -> 100006], [Alaska -> Bering Sea] 
+
+srcNodes: [169, 100002, 100006]
+  path: 0[169 -> 169], [Mt McKinley Mt McKinley Alaska Range  -> Mt McKinley Mt McKinley Alaska Range ]
+  path: 1[169 -> 30988 -> 100002], [Mt McKinley Mt McKinley Alaska Range  -> Alaska -> Arctic Ocean] 
+
+  path: 2[169 -> 30988 -> 100006], [Mt McKinley Mt McKinley Alaska Range  -> Alaska -> Bering Sea] 
+
+srcNodes: [30988, 100002, 100020]
+  path: 0[20129 -> 10001 -> 20118 -> 30988], [Greenland -> America -> United States -> Alaska] 
+
+  path: 1[20129 -> 100002], [Greenland -> Arctic Ocean] 
+
+  path: 2[20129 -> 100020], [Greenland -> Norwegian Sea] 
+
+srcNodes: [30988, 100002, 100007]
+  path: 0[20118 -> 30988], [United States -> Alaska] 
+
+  path: 1[20118 -> 30988 -> 100002], [United States -> Alaska -> Arctic Ocean] 
+
+  path: 2[20118 -> 30996 -> 100007], [United States -> Georgia -> Black Sea] 
+
+srcNodes: [30988, 100002, 100021]
+  path: 0[30986 -> 172 -> 30988], [Yukon Territory -> Mt St.Elias Mt St.Elias Elias Range  -> Alaska] 
+
+  path: 1[30986 -> 100002], [Yukon Territory -> Arctic Ocean] 
+
+  path: 2[30986 -> 100021], [Yukon Territory -> Pacific Ocean] 
+
+srcNodes: [30988, 100002, 100018]
+  path: 0[174 -> 30988], [Mt Fairweather Mt Fairweather Elias Range  -> Alaska] 
+
+  path: 1[174 -> 30988 -> 100002], [Mt Fairweather Mt Fairweather Elias Range  -> Alaska -> Arctic Ocean] 
+
+  path: 2[174 -> 30976 -> 42879 -> 110084 -> 100018], [Mt Fairweather Mt Fairweather Elias Range  -> British Columbia -> Victoria -> Gozo Gozo Malta  -> Mediterranean Sea] 
+
+srcNodes: [30988, 100002, 100003]
+  path: 0[171 -> 30988], [Mt Bona Mt Bona Elias Range  -> Alaska] 
+
+  path: 1[171 -> 30988 -> 100002], [Mt Bona Mt Bona Elias Range  -> Alaska -> Arctic Ocean] 
+
+  path: 2[171 -> 30985 -> 90133 -> 30977 -> 100003], [Mt Bona Mt Bona Elias Range  -> Saskatchewan -> Saskatchewan River -> Manitoba -> Atlantic Ocean] 
+
+srcNodes: [30988, 100002, 100002]
+  path: 0[110001 -> 20129 -> 10001 -> 20118 -> 30988], [Greenland Greenland   -> Greenland -> America -> United States -> Alaska] 
+
+  path: 1[110001 -> 100002], [Greenland Greenland   -> Arctic Ocean] 
+
+  path: 2[110001 -> 100002], [Greenland Greenland   -> Arctic Ocean] 
+
+srcNodes: [30988, 100002, 100008]
+  path: 0[20142 -> 10001 -> 20118 -> 30988], [Saint Vincent and the Grenadines -> America -> United States -> Alaska] 
+
+  path: 1[20142 -> 10001 -> 20129 -> 100002], [Saint Vincent and the Grenadines -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20142 -> 100008], [Saint Vincent and the Grenadines -> Caribbean Sea] 
+
+srcNodes: [30988, 110189, 100008]
+  path: 0[20125 -> 10001 -> 20118 -> 30988], [Dominican Republic -> America -> United States -> Alaska] 
+
+  path: 1[20125 -> 10001 -> 20117 -> 30980 -> 110189], [Dominican Republic -> America -> Canada -> Northwest Territories -> Ellesmere Island Ellesmere Island Canadian Arctic Islands ] 
+
+  path: 2[20125 -> 100008], [Dominican Republic -> Caribbean Sea] 
+
+srcNodes: [30988, 110188, 100008]
+  path: 0[20145 -> 10001 -> 20118 -> 30988], [Virgin Islands -> America -> United States -> Alaska] 
+
+  path: 1[20145 -> 10001 -> 20117 -> 30980 -> 110188], [Virgin Islands -> America -> Canada -> Northwest Territories -> Southampton Island Southampton Island Canadian Arctic Islands ] 
+
+  path: 2[20145 -> 100008], [Virgin Islands -> Caribbean Sea] 
+
+srcNodes: [30988, 100002, 100015]
+  path: 0[10001 -> 20118 -> 30988], [America -> United States -> Alaska] 
+
+  path: 1[10001 -> 20129 -> 100002], [America -> Greenland -> Arctic Ocean] 
+
+  path: 2[10001 -> 20132 -> 41320 -> 110006 -> 100015], [America -> Jamaica -> Kingston -> Great Britain Great Britain British Isles  -> Irish Sea] 
+
+srcNodes: [169, 100002, 100008]
+  path: 0[20124 -> 10001 -> 20118 -> 30988 -> 169], [Dominica -> America -> United States -> Alaska -> Mt McKinley Mt McKinley Alaska Range ] 
+
+  path: 1[20124 -> 10001 -> 20129 -> 100002], [Dominica -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20124 -> 100008], [Dominica -> Caribbean Sea] 
+
+srcNodes: [30988, 110185, 100008]
+  path: 0[110224 -> 20130 -> 10001 -> 20118 -> 30988], [Grenada Grenada Lesser Antilles volcanic -> Grenada -> America -> United States -> Alaska] 
+
+  path: 1[110224 -> 20130 -> 10001 -> 20117 -> 30980 -> 110185], [Grenada Grenada Lesser Antilles volcanic -> Grenada -> America -> Canada -> Northwest Territories -> Banks Island Banks Island Canadian Arctic Islands ] 
+
+  path: 2[110224 -> 100008], [Grenada Grenada Lesser Antilles volcanic -> Caribbean Sea] 
+
+srcNodes: [30988, 110184, 100008]
+  path: 0[110222 -> 20142 -> 10001 -> 20118 -> 30988], [Saint Vincent Saint Vincent Lesser Antilles volcanic -> Saint Vincent and the Grenadines -> America -> United States -> Alaska] 
+
+  path: 1[110222 -> 20142 -> 10001 -> 20117 -> 30980 -> 110184], [Saint Vincent Saint Vincent Lesser Antilles volcanic -> Saint Vincent and the Grenadines -> America -> Canada -> Northwest Territories -> Victoria Island Victoria Island Canadian Arctic Islands ] 
+
+  path: 2[110222 -> 100008], [Saint Vincent Saint Vincent Lesser Antilles volcanic -> Caribbean Sea] 
+
+srcNodes: [169, 110188, 100008]
+  path: 0[20113 -> 10001 -> 20118 -> 30988 -> 169], [Guatemala -> America -> United States -> Alaska -> Mt McKinley Mt McKinley Alaska Range ] 
+
+  path: 1[20113 -> 10001 -> 20117 -> 30980 -> 110188], [Guatemala -> America -> Canada -> Northwest Territories -> Southampton Island Southampton Island Canadian Arctic Islands ] 
+
+  path: 2[20113 -> 100008], [Guatemala -> Caribbean Sea] 
+
+srcNodes: [169, 110189, 100008]
+  path: 0[20135 -> 10001 -> 20118 -> 30988 -> 169], [Netherlands Antilles -> America -> United States -> Alaska -> Mt McKinley Mt McKinley Alaska Range ] 
+
+  path: 1[20135 -> 10001 -> 20117 -> 30980 -> 110189], [Netherlands Antilles -> America -> Canada -> Northwest Territories -> Ellesmere Island Ellesmere Island Canadian Arctic Islands ] 
+
+  path: 2[20135 -> 100008], [Netherlands Antilles -> Caribbean Sea] 
+
+srcNodes: [30988, 110188, 100021]
+  path: 0[20172 -> 10001 -> 20118 -> 30988], [Chile -> America -> United States -> Alaska] 
+
+  path: 1[20172 -> 10001 -> 20117 -> 30980 -> 110188], [Chile -> America -> Canada -> Northwest Territories -> Southampton Island Southampton Island Canadian Arctic Islands ] 
+
+  path: 2[20172 -> 100021], [Chile -> Pacific Ocean] 
+
+srcNodes: [30988, 110189, 100003]
+  path: 0[20178 -> 10001 -> 20118 -> 30988], [Suriname -> America -> United States -> Alaska] 
+
+  path: 1[20178 -> 10001 -> 20117 -> 30980 -> 110189], [Suriname -> America -> Canada -> Northwest Territories -> Ellesmere Island Ellesmere Island Canadian Arctic Islands ] 
+
+  path: 2[20178 -> 100003], [Suriname -> Atlantic Ocean] 
+
+srcNodes: [30988, 110189, 100021]
+  path: 0[20121 -> 10001 -> 20118 -> 30988], [Nicaragua -> America -> United States -> Alaska] 
+
+  path: 1[20121 -> 10001 -> 20117 -> 30980 -> 110189], [Nicaragua -> America -> Canada -> Northwest Territories -> Ellesmere Island Ellesmere Island Canadian Arctic Islands ] 
+
+  path: 2[20121 -> 100021], [Nicaragua -> Pacific Ocean] 
+
+srcNodes: [30988, 110188, 100003]
+  path: 0[20143 -> 10001 -> 20118 -> 30988], [Trinidad and Tobago -> America -> United States -> Alaska] 
+
+  path: 1[20143 -> 10001 -> 20117 -> 30980 -> 110188], [Trinidad and Tobago -> America -> Canada -> Northwest Territories -> Southampton Island Southampton Island Canadian Arctic Islands ] 
+
+  path: 2[20143 -> 100003], [Trinidad and Tobago -> Atlantic Ocean] 
+
+srcNodes: [30988, 100002, 100032]
+  path: 0[42107 -> 110216 -> 20134 -> 10001 -> 20118 -> 30988], [Plymouth -> Montserrat Montserrat Lesser Antilles volcanic -> Montserrat -> America -> United States -> Alaska] 
+
+  path: 1[42107 -> 110216 -> 20134 -> 10001 -> 20129 -> 100002], [Plymouth -> Montserrat Montserrat Lesser Antilles volcanic -> Montserrat -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[42107 -> 100032], [Plymouth -> The Channel] 
+
+srcNodes: [169, 100002, 100003]
+  path: 0[30977 -> 90133 -> 30985 -> 171 -> 30988 -> 169], [Manitoba -> Saskatchewan River -> Saskatchewan -> Mt Bona Mt Bona Elias Range  -> Alaska -> Mt McKinley Mt McKinley Alaska Range ] 
+
+  path: 1[30977 -> 90132 -> 100002], [Manitoba -> Nelson River -> Arctic Ocean] 
+
+  path: 2[30977 -> 100003], [Manitoba -> Atlantic Ocean] 
+
+srcNodes: [30988, 110189, 100020]
+  path: 0[20117 -> 10001 -> 20118 -> 30988], [Canada -> America -> United States -> Alaska] 
+
+  path: 1[20117 -> 30980 -> 110189], [Canada -> Northwest Territories -> Ellesmere Island Ellesmere Island Canadian Arctic Islands ] 
+
+  path: 2[20117 -> 10001 -> 20129 -> 100020], [Canada -> America -> Greenland -> Norwegian Sea] 
+
+srcNodes: [30988, 100002, 100012]
+  path: 0[20123 -> 10001 -> 20118 -> 30988], [Cuba -> America -> United States -> Alaska] 
+
+  path: 1[20123 -> 10001 -> 20129 -> 100002], [Cuba -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20123 -> 31067 -> 100012], [Cuba -> Pinar del Rio -> Gulf of Mexico] 
+
+srcNodes: [30988, 100002, 100014]
+  path: 0[42881 -> 110234 -> 30976 -> 174 -> 30988], [Victoria -> Vancouver Island Vancouver Island   -> British Columbia -> Mt Fairweather Mt Fairweather Elias Range  -> Alaska] 
+
+  path: 1[42881 -> 110084 -> 20046 -> 10004 -> 20050 -> 100002], [Victoria -> Gozo Gozo Malta  -> Malta -> Europe -> Svalbard -> Arctic Ocean] 
+
+  path: 2[42881 -> 100014], [Victoria -> Indian Ocean] 
+
+srcNodes: [30988, 110185, 100003]
+  path: 0[110226 -> 20143 -> 10001 -> 20118 -> 30988], [Tobago Tobago Lesser Antilles  -> Trinidad and Tobago -> America -> United States -> Alaska] 
+
+  path: 1[110226 -> 20143 -> 10001 -> 20117 -> 30980 -> 110185], [Tobago Tobago Lesser Antilles  -> Trinidad and Tobago -> America -> Canada -> Northwest Territories -> Banks Island Banks Island Canadian Arctic Islands ] 
+
+  path: 2[110226 -> 100003], [Tobago Tobago Lesser Antilles  -> Atlantic Ocean] 
+
+srcNodes: [30988, 110184, 100003]
+  path: 0[110206 -> 20126 -> 10001 -> 20118 -> 30988], [Hispaniola Hispaniola Greater Antilles  -> Haiti -> America -> United States -> Alaska] 
+
+  path: 1[110206 -> 20126 -> 10001 -> 20117 -> 30980 -> 110184], [Hispaniola Hispaniola Greater Antilles  -> Haiti -> America -> Canada -> Northwest Territories -> Victoria Island Victoria Island Canadian Arctic Islands ] 
+
+  path: 2[110206 -> 100003], [Hispaniola Hispaniola Greater Antilles  -> Atlantic Ocean] 
+
+srcNodes: [30988, 100002, 100019]
+  path: 0[20127 -> 10001 -> 20118 -> 30988], [El Salvador -> America -> United States -> Alaska] 
+
+  path: 1[20127 -> 10001 -> 20129 -> 100002], [El Salvador -> America -> Greenland -> Arctic Ocean] 
+
+  path: 2[20127 -> 10001 -> 20132 -> 41320 -> 110006 -> 100019], [El Salvador -> America -> Jamaica -> Kingston -> Great Britain Great Britain British Isles  -> North Sea] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [30988, 110188, 100020]
+  path: 0[20173 -> 10001 -> 20118 -> 30988], [Paraguay -> America -> United States -> Alaska] 
+
+  path: 1[20173 -> 10001 -> 20117 -> 30980 -> 110188], [Paraguay -> America -> Canada -> Northwest Territories -> Southampton Island Southampton Island Canadian Arctic Islands ] 
+
+  path: 2[20173 -> 10001 -> 20129 -> 100020], [Paraguay -> America -> Greenland -> Norwegian Sea] 
+
+This is a non-reduced answer tree with common first node 10001
+
+-----------------------------------------
+ResultDestNodes: [30988, 169, 20129, 20118, 30986, 174, 171, 110001, 20142, 20125, 20145, 10001, 20124, 110224, 110222, 20113, 20135, 20172, 20178, 20121, 20143, 42107, 30977, 20117, 20123, 42881, 110226, 110206, 20127, 20173]
+ResultRelevs: [9.52461051940918, 6.530949592590332, 5.447549819946289, 5.443729877471924, 5.268099784851074, 4.86791467666626, 4.614935874938965, 4.543299674987793, 4.4829421043396, 4.097097396850586, 4.097097396850586, 3.961894989013672, 3.8849730491638184, 3.728837013244629, 3.728837013244629, 3.4991281032562256, 3.4991281032562256, 3.464647054672241, 3.464647054672241, 3.464647054672241, 3.464647054672241, 3.4576709270477295, 3.4472198486328125, 3.4032909870147705, 3.3415420055389404, 3.2571558952331543, 3.0963869094848633, 3.0963869094848633, 3.0434041023254395, 3.017446994781494]
+Num of top-k answers: 30
+Num of redundant answers in top-k answers: 2
+Num of duplicate answers in top-k answers: 0
+Num of entries retrieved from the lists: 702
+Num of redundant candidate answers found: 66
+Num of reduced alternative answers found: 11
+Num of duplicate candidate answers found: 173
+Num of unique alternative answers found: 38
+

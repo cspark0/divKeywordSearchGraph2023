@@ -1,0 +1,290 @@
+Top-k Search by Blink-BDB, k=5
+[city, sea, europe]
+srcNodes: [42866, 100020, 10004]
+  path: 0[10004 -> 20041 -> 42866], [Europe -> Holy See -> Vatican City] 
+
+  path: 1[10004 -> 20050 -> 100020], [Europe -> Svalbard -> Norwegian Sea] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [41516, 100018, 10004]
+  path: 0[20016 -> 41516], [Slovenia -> Ljubljana] 
+
+  path: 1[20016 -> 100018], [Slovenia -> Mediterranean Sea] 
+
+  path: 2[20016 -> 10004], [Slovenia -> Europe] 
+
+srcNodes: [42897, 100004, 10004]
+  path: 0[20020 -> 42897], [Lithuania -> Vilnius] 
+
+  path: 1[20020 -> 100004], [Lithuania -> Baltic Sea] 
+
+  path: 2[20020 -> 10004], [Lithuania -> Europe] 
+
+srcNodes: [41741, 100018, 10004]
+  path: 0[20038 -> 41741], [Monaco -> Monaco] 
+
+  path: 1[20038 -> 100018], [Monaco -> Mediterranean Sea] 
+
+  path: 2[20038 -> 10004], [Monaco -> Europe] 
+
+srcNodes: [41535, 100020, 10004]
+  path: 0[20050 -> 41535], [Svalbard -> Longyearbyen] 
+
+  path: 1[20050 -> 100020], [Svalbard -> Norwegian Sea] 
+
+  path: 2[20050 -> 10004], [Svalbard -> Europe] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [10004, 20016, 20020, 20038, 20050]
+ResultRelevs: [10.039701461791992, 6.8006720542907715, 6.8006720542907715, 6.8006720542907715, 6.8006720542907715]
+AvgResultRelev: 7.448477935791016
+AvgResultDissimilarity: 0.74
+Num of entries retrieved from the lists: 171
+Num of entries retrieved from NKMaps: 272
+Num of answer trees explored: 63
+
+Div Top-k Search by Exhustive5
+[city, sea, europe]
+srcNodes: [42866, 100020, 10004]
+  path: 0[10004 -> 20041 -> 42866], [Europe -> Holy See -> Vatican City] 
+
+  path: 1[10004 -> 20050 -> 100020], [Europe -> Svalbard -> Norwegian Sea] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [42664, 100004, 10004]
+  path: 0[20033 -> 42664], [Estonia -> Tallinn] 
+
+  path: 1[20033 -> 100004], [Estonia -> Baltic Sea] 
+
+  path: 2[20033 -> 10004], [Estonia -> Europe] 
+
+srcNodes: [42551, 100007, 10004]
+  path: 0[20029 -> 42551], [Bulgaria -> Sofia] 
+
+  path: 1[20029 -> 100007], [Bulgaria -> Black Sea] 
+
+  path: 2[20029 -> 10004], [Bulgaria -> Europe] 
+
+srcNodes: [42111, 100018, 10004]
+  path: 0[20004 -> 42111], [Montenegro -> Podgorica] 
+
+  path: 1[20004 -> 100018], [Montenegro -> Mediterranean Sea] 
+
+  path: 2[20004 -> 10004], [Montenegro -> Europe] 
+
+srcNodes: [40720, 100015, 10004]
+  path: 0[20043 -> 40720], [Ireland -> Dublin] 
+
+  path: 1[20043 -> 100015], [Ireland -> Irish Sea] 
+
+  path: 2[20043 -> 10004], [Ireland -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: [10004, 20033, 20029, 20004, 20043]
+ResultRelevs: [10.039701461791992, 6.8006720542907715, 6.8006720542907715, 6.8006720542907715, 6.8006720542907715]
+AvgResultRelev: 7.448477935791016
+AvgResultDissimilarity: 0.800000011920929
+Num of entries retrieved from the KNLists: 171
+Num of entries retrieved from NKMaps: 272
+Num of answer trees explored: 63
+Num of answer tree sets created: 2668
+Num of answer tree sets removed: 125
+Max Num of answer tree sets in Q[]: 2668
+
+Div Top-k Search by Astar15
+[city, sea, europe]
+srcNodes: [42866, 100020, 10004]
+  path: 0[10004 -> 20041 -> 42866], [Europe -> Holy See -> Vatican City] 
+
+  path: 1[10004 -> 20050 -> 100020], [Europe -> Svalbard -> Norwegian Sea] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [42252, 100004, 10004]
+  path: 0[20019 -> 42252], [Latvia -> Riga] 
+
+  path: 1[20019 -> 100004], [Latvia -> Baltic Sea] 
+
+  path: 2[20019 -> 10004], [Latvia -> Europe] 
+
+srcNodes: [42551, 100007, 10004]
+  path: 0[20029 -> 42551], [Bulgaria -> Sofia] 
+
+  path: 1[20029 -> 100007], [Bulgaria -> Black Sea] 
+
+  path: 2[20029 -> 10004], [Bulgaria -> Europe] 
+
+srcNodes: [42856, 100018, 10004]
+  path: 0[20046 -> 42856], [Malta -> Valletta] 
+
+  path: 1[20046 -> 100018], [Malta -> Mediterranean Sea] 
+
+  path: 2[20046 -> 10004], [Malta -> Europe] 
+
+srcNodes: [40720, 100015, 10004]
+  path: 0[20043 -> 40720], [Ireland -> Dublin] 
+
+  path: 1[20043 -> 100015], [Ireland -> Irish Sea] 
+
+  path: 2[20043 -> 10004], [Ireland -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: [10004, 20019, 20029, 20046, 20043]
+ResultRelevs: [10.039701461791992, 6.8006720542907715, 6.8006720542907715, 6.8006720542907715, 6.8006720542907715]
+AvgResultRelev: 7.448477935791016
+AvgResultDissimilarity: 0.800000011920929
+Num of entries retrieved from the KNLists: 171
+Num of entries retrieved from NKMaps: 272
+Num of answer trees explored: 63
+Num of states created: 1110
+Num of states explored: 171
+Num of heuristic search performed: 17
+Max Num of answer tree sets in Q[]: 288
+
+Div Top-k Search by Astar1m5
+[city, sea, europe]
+srcNodes: [42866, 100020, 10004]
+  path: 0[10004 -> 20041 -> 42866], [Europe -> Holy See -> Vatican City] 
+
+  path: 1[10004 -> 20050 -> 100020], [Europe -> Svalbard -> Norwegian Sea] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [41741, 100018, 10004]
+  path: 0[20038 -> 41741], [Monaco -> Monaco] 
+
+  path: 1[20038 -> 100018], [Monaco -> Mediterranean Sea] 
+
+  path: 2[20038 -> 10004], [Monaco -> Europe] 
+
+srcNodes: [42252, 100004, 10004]
+  path: 0[20019 -> 42252], [Latvia -> Riga] 
+
+  path: 1[20019 -> 100004], [Latvia -> Baltic Sea] 
+
+  path: 2[20019 -> 10004], [Latvia -> Europe] 
+
+srcNodes: [42551, 100007, 10004]
+  path: 0[20029 -> 42551], [Bulgaria -> Sofia] 
+
+  path: 1[20029 -> 100007], [Bulgaria -> Black Sea] 
+
+  path: 2[20029 -> 10004], [Bulgaria -> Europe] 
+
+srcNodes: [40720, 100015, 10004]
+  path: 0[20043 -> 40720], [Ireland -> Dublin] 
+
+  path: 1[20043 -> 100015], [Ireland -> Irish Sea] 
+
+  path: 2[20043 -> 10004], [Ireland -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: [10004, 20038, 20019, 20029, 20043]
+ResultRelevs: [10.039701461791992, 6.8006720542907715, 6.8006720542907715, 6.8006720542907715, 6.8006720542907715]
+AvgResultRelev: 7.448477935791016
+AvgResultDissimilarity: 0.800000011920929
+Num of entries retrieved from the KNLists: 171
+Num of entries retrieved from NKMaps: 272
+Num of answer trees explored: 63
+Num of states created: 7982
+Num of states explored: 7896
+Num of heuristic search performed: 13
+Max Num of answer tree sets in Q[]: 90
+
+Div Top-k Search by Astar25
+[city, sea, europe]
+srcNodes: [42866, 100020, 10004]
+  path: 0[10004 -> 20041 -> 42866], [Europe -> Holy See -> Vatican City] 
+
+  path: 1[10004 -> 20050 -> 100020], [Europe -> Svalbard -> Norwegian Sea] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [42252, 100004, 10004]
+  path: 0[20019 -> 42252], [Latvia -> Riga] 
+
+  path: 1[20019 -> 100004], [Latvia -> Baltic Sea] 
+
+  path: 2[20019 -> 10004], [Latvia -> Europe] 
+
+srcNodes: [42551, 100007, 10004]
+  path: 0[20029 -> 42551], [Bulgaria -> Sofia] 
+
+  path: 1[20029 -> 100007], [Bulgaria -> Black Sea] 
+
+  path: 2[20029 -> 10004], [Bulgaria -> Europe] 
+
+srcNodes: [42856, 100018, 10004]
+  path: 0[20046 -> 42856], [Malta -> Valletta] 
+
+  path: 1[20046 -> 100018], [Malta -> Mediterranean Sea] 
+
+  path: 2[20046 -> 10004], [Malta -> Europe] 
+
+srcNodes: [40720, 100015, 10004]
+  path: 0[20043 -> 40720], [Ireland -> Dublin] 
+
+  path: 1[20043 -> 100015], [Ireland -> Irish Sea] 
+
+  path: 2[20043 -> 10004], [Ireland -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: [10004, 20019, 20029, 20046, 20043]
+ResultRelevs: [10.039701461791992, 6.8006720542907715, 6.8006720542907715, 6.8006720542907715, 6.8006720542907715]
+AvgResultRelev: 7.448477935791016
+AvgResultDissimilarity: 0.800000011920929
+Num of entries retrieved from the KNLists: 171
+Num of entries retrieved from NKMaps: 272
+Num of answer trees explored: 63
+Num of states created: 1110
+Num of states explored: 171
+Num of heuristic search performed: 17
+Max Num of answer tree sets in Q[]: 288
+
+Div Top-k Search by Astar2m5
+[city, sea, europe]
+srcNodes: [42866, 100020, 10004]
+  path: 0[10004 -> 20041 -> 42866], [Europe -> Holy See -> Vatican City] 
+
+  path: 1[10004 -> 20050 -> 100020], [Europe -> Svalbard -> Norwegian Sea] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [41741, 100018, 10004]
+  path: 0[20038 -> 41741], [Monaco -> Monaco] 
+
+  path: 1[20038 -> 100018], [Monaco -> Mediterranean Sea] 
+
+  path: 2[20038 -> 10004], [Monaco -> Europe] 
+
+srcNodes: [42252, 100004, 10004]
+  path: 0[20019 -> 42252], [Latvia -> Riga] 
+
+  path: 1[20019 -> 100004], [Latvia -> Baltic Sea] 
+
+  path: 2[20019 -> 10004], [Latvia -> Europe] 
+
+srcNodes: [42551, 100007, 10004]
+  path: 0[20029 -> 42551], [Bulgaria -> Sofia] 
+
+  path: 1[20029 -> 100007], [Bulgaria -> Black Sea] 
+
+  path: 2[20029 -> 10004], [Bulgaria -> Europe] 
+
+srcNodes: [40720, 100015, 10004]
+  path: 0[20043 -> 40720], [Ireland -> Dublin] 
+
+  path: 1[20043 -> 100015], [Ireland -> Irish Sea] 
+
+  path: 2[20043 -> 10004], [Ireland -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: [10004, 20038, 20019, 20029, 20043]
+ResultRelevs: [10.039701461791992, 6.8006720542907715, 6.8006720542907715, 6.8006720542907715, 6.8006720542907715]
+AvgResultRelev: 7.448477935791016
+AvgResultDissimilarity: 0.800000011920929
+Num of entries retrieved from the KNLists: 171
+Num of entries retrieved from NKMaps: 272
+Num of answer trees explored: 63
+Num of states created: 7982
+Num of states explored: 7896
+Num of heuristic search performed: 13
+Max Num of answer tree sets in Q[]: 0
+

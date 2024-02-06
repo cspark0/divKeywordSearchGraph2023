@@ -1,0 +1,13 @@
+Top-k, (AvgResultRelev, AvgResultRelev/ResultRelevs[0], AvgResultDiss) numOfKNListsRead, numOfNKMapLookups, numOfAnswerTreesExplored, elapseTime, numOfStatesCreated, numOfStatesExplored, numOfHeuristicSearchPerformed, numOfATSPrunnedByDissCond, numOfLocalAnswersFound, 
+query: [romance, conflict, marriage]
+thr: 0.33
+SimGrpSe, 	5, 7.39028, 1.02967, 0.56667, 1608, 2625, 814, 0.205038295, 5, 1, 0, 1, 
+SimGrpSe, 	10, 7.21531, 1.02863, 0.57778, 8466, 15453, 6271, 0.427436625, 16, 4, 0, 1, 
+SimGrpSe, 	15, 7.11866, 1.03769, 0.56190, 9105, 16627, 6804, 0.458142502, 48, 8, 0, 1, 
+SimGrpSe, 	20, 7.05401, 1.02827, 0.53684, 9105, 16627, 6804, 0.433887361, 232, 32, 0, 1, 
+query: [murder, psychopath, mystery]
+thr: 0.33
+SimGrpSe, 	5, 8.05370, 1.02819, 0.46667, 3311, 5684, 1943, 0.21055707, 5, 1, 0, 1, 
+SimGrpSe, 	10, 7.79051, 1.05333, 0.51852, 4431, 7564, 2567, 0.25715792, 31, 6, 0, 1, 
+SimGrpSe, 	15, 7.56489, 1.08452, 0.51746, 5835, 9627, 3240, 0.281617963, 265, 64, 0, 1, 
+SimGrpSe, 	20, 7.39133, 1.08341, 0.56140, 5835, 9627, 3240, 0.300955178, 777, 128, 0, 1, 

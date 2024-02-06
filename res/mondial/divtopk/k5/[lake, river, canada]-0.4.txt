@@ -1,0 +1,266 @@
+Top-k Search by Blink-BDB, k=5
+[lake, river, canada]
+srcNodes: [80101, 90130, 20117]
+  path: 0[20117 -> 30984 -> 80101], [Canada -> Quebec -> Lake Champlain Lake Champlain ] 
+
+  path: 1[20117 -> 30986 -> 90130], [Canada -> Yukon Territory -> Yukon River] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [80118, 90153, 20117]
+  path: 0[80118 -> 80118], [Lake Managua Lake Managua  -> Lake Managua Lake Managua ]
+  path: 1[80118 -> 90153], [Lake Managua Lake Managua  -> Rio San Juan] 
+
+  path: 2[80118 -> 90153 -> 20121 -> 10001 -> 20117], [Lake Managua Lake Managua  -> Rio San Juan -> Nicaragua -> America -> Canada] 
+
+srcNodes: [80117, 90153, 20117]
+  path: 0[80117 -> 80117], [Lake Nicaragua Lake Nicaragua  -> Lake Nicaragua Lake Nicaragua ]
+  path: 1[80117 -> 90153], [Lake Nicaragua Lake Nicaragua  -> Rio San Juan] 
+
+  path: 2[80117 -> 90153 -> 20121 -> 10001 -> 20117], [Lake Nicaragua Lake Nicaragua  -> Rio San Juan -> Nicaragua -> America -> Canada] 
+
+srcNodes: [80122, 90154, 20117]
+  path: 0[80122 -> 80122], [Lake Titicaca Lake Titicaca  -> Lake Titicaca Lake Titicaca ]
+  path: 1[80122 -> 90154], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero] 
+
+  path: 2[80122 -> 90154 -> 20170 -> 10001 -> 20117], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero -> Bolivia -> America -> Canada] 
+
+srcNodes: [80118, 90153, 20117]
+  path: 0[90153 -> 80118], [Rio San Juan -> Lake Managua Lake Managua ] 
+
+  path: 1[90153 -> 90153], [Rio San Juan -> Rio San Juan]
+  path: 2[90153 -> 20121 -> 10001 -> 20117], [Rio San Juan -> Nicaragua -> America -> Canada] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [20117, 80118, 80117, 80122, 90153]
+ResultRelevs: [7.884639739990234, 5.708779811859131, 5.708779811859131, 5.708779811859131, 5.360529899597168]
+AvgResultRelev: 6.074301815032959
+AvgResultDissimilarity: 0.6599999999999999
+Num of entries retrieved from the lists: 587
+Num of entries retrieved from NKMaps: 1059
+Num of answer trees explored: 199
+
+Div Top-k Search by Exhustive5
+[lake, river, canada]
+srcNodes: [80101, 90130, 20117]
+  path: 0[20117 -> 30984 -> 80101], [Canada -> Quebec -> Lake Champlain Lake Champlain ] 
+
+  path: 1[20117 -> 30986 -> 90130], [Canada -> Yukon Territory -> Yukon River] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [80122, 90154, 20117]
+  path: 0[80122 -> 80122], [Lake Titicaca Lake Titicaca  -> Lake Titicaca Lake Titicaca ]
+  path: 1[80122 -> 90154], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero] 
+
+  path: 2[80122 -> 90154 -> 20170 -> 10001 -> 20117], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero -> Bolivia -> America -> Canada] 
+
+srcNodes: [80117, 90153, 20117]
+  path: 0[80117 -> 80117], [Lake Nicaragua Lake Nicaragua  -> Lake Nicaragua Lake Nicaragua ]
+  path: 1[80117 -> 90153], [Lake Nicaragua Lake Nicaragua  -> Rio San Juan] 
+
+  path: 2[80117 -> 90153 -> 20121 -> 10001 -> 20117], [Lake Nicaragua Lake Nicaragua  -> Rio San Juan -> Nicaragua -> America -> Canada] 
+
+srcNodes: [80118, 90153, 20117]
+  path: 0[80118 -> 80118], [Lake Managua Lake Managua  -> Lake Managua Lake Managua ]
+  path: 1[80118 -> 90153], [Lake Managua Lake Managua  -> Rio San Juan] 
+
+  path: 2[80118 -> 90153 -> 20121 -> 10001 -> 20117], [Lake Managua Lake Managua  -> Rio San Juan -> Nicaragua -> America -> Canada] 
+
+srcNodes: [80118, 90153, 20117]
+  path: 0[90153 -> 80118], [Rio San Juan -> Lake Managua Lake Managua ] 
+
+  path: 1[90153 -> 90153], [Rio San Juan -> Rio San Juan]
+  path: 2[90153 -> 20121 -> 10001 -> 20117], [Rio San Juan -> Nicaragua -> America -> Canada] 
+
+-----------------------------------------
+ResultDestNodes: [20117, 80122, 80117, 80118, 90153]
+ResultRelevs: [7.884639739990234, 5.708779811859131, 5.708779811859131, 5.708779811859131, 5.360529899597168]
+AvgResultRelev: 6.074301815032959
+AvgResultDissimilarity: 0.6599999666213989
+Num of entries retrieved from the KNLists: 587
+Num of entries retrieved from NKMaps: 1059
+Num of answer trees explored: 199
+Num of answer tree sets created: 31
+Num of answer tree sets removed: 30
+Max Num of answer tree sets in Q[]: 31
+
+Div Top-k Search by Astar15
+[lake, river, canada]
+srcNodes: [80101, 90130, 20117]
+  path: 0[20117 -> 30984 -> 80101], [Canada -> Quebec -> Lake Champlain Lake Champlain ] 
+
+  path: 1[20117 -> 30986 -> 90130], [Canada -> Yukon Territory -> Yukon River] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [80122, 90154, 20117]
+  path: 0[80122 -> 80122], [Lake Titicaca Lake Titicaca  -> Lake Titicaca Lake Titicaca ]
+  path: 1[80122 -> 90154], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero] 
+
+  path: 2[80122 -> 90154 -> 20170 -> 10001 -> 20117], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero -> Bolivia -> America -> Canada] 
+
+srcNodes: [80117, 90153, 20117]
+  path: 0[80117 -> 80117], [Lake Nicaragua Lake Nicaragua  -> Lake Nicaragua Lake Nicaragua ]
+  path: 1[80117 -> 90153], [Lake Nicaragua Lake Nicaragua  -> Rio San Juan] 
+
+  path: 2[80117 -> 90153 -> 20121 -> 10001 -> 20117], [Lake Nicaragua Lake Nicaragua  -> Rio San Juan -> Nicaragua -> America -> Canada] 
+
+srcNodes: [80118, 90153, 20117]
+  path: 0[80118 -> 80118], [Lake Managua Lake Managua  -> Lake Managua Lake Managua ]
+  path: 1[80118 -> 90153], [Lake Managua Lake Managua  -> Rio San Juan] 
+
+  path: 2[80118 -> 90153 -> 20121 -> 10001 -> 20117], [Lake Managua Lake Managua  -> Rio San Juan -> Nicaragua -> America -> Canada] 
+
+srcNodes: [80118, 90153, 20117]
+  path: 0[90153 -> 80118], [Rio San Juan -> Lake Managua Lake Managua ] 
+
+  path: 1[90153 -> 90153], [Rio San Juan -> Rio San Juan]
+  path: 2[90153 -> 20121 -> 10001 -> 20117], [Rio San Juan -> Nicaragua -> America -> Canada] 
+
+-----------------------------------------
+ResultDestNodes: [20117, 80122, 80117, 80118, 90153]
+ResultRelevs: [7.884639739990234, 5.708779811859131, 5.708779811859131, 5.708779811859131, 5.360529899597168]
+AvgResultRelev: 6.074301815032959
+AvgResultDissimilarity: 0.6599999666213989
+Num of entries retrieved from the KNLists: 587
+Num of entries retrieved from NKMaps: 1059
+Num of answer trees explored: 199
+Num of states created: 16
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 10
+
+Div Top-k Search by Astar1m5
+[lake, river, canada]
+srcNodes: [80101, 90130, 20117]
+  path: 0[20117 -> 30984 -> 80101], [Canada -> Quebec -> Lake Champlain Lake Champlain ] 
+
+  path: 1[20117 -> 30986 -> 90130], [Canada -> Yukon Territory -> Yukon River] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [80122, 90154, 20117]
+  path: 0[80122 -> 80122], [Lake Titicaca Lake Titicaca  -> Lake Titicaca Lake Titicaca ]
+  path: 1[80122 -> 90154], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero] 
+
+  path: 2[80122 -> 90154 -> 20170 -> 10001 -> 20117], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero -> Bolivia -> America -> Canada] 
+
+srcNodes: [80117, 90153, 20117]
+  path: 0[80117 -> 80117], [Lake Nicaragua Lake Nicaragua  -> Lake Nicaragua Lake Nicaragua ]
+  path: 1[80117 -> 90153], [Lake Nicaragua Lake Nicaragua  -> Rio San Juan] 
+
+  path: 2[80117 -> 90153 -> 20121 -> 10001 -> 20117], [Lake Nicaragua Lake Nicaragua  -> Rio San Juan -> Nicaragua -> America -> Canada] 
+
+srcNodes: [80118, 90153, 20117]
+  path: 0[80118 -> 80118], [Lake Managua Lake Managua  -> Lake Managua Lake Managua ]
+  path: 1[80118 -> 90153], [Lake Managua Lake Managua  -> Rio San Juan] 
+
+  path: 2[80118 -> 90153 -> 20121 -> 10001 -> 20117], [Lake Managua Lake Managua  -> Rio San Juan -> Nicaragua -> America -> Canada] 
+
+srcNodes: [80118, 90153, 20117]
+  path: 0[90153 -> 80118], [Rio San Juan -> Lake Managua Lake Managua ] 
+
+  path: 1[90153 -> 90153], [Rio San Juan -> Rio San Juan]
+  path: 2[90153 -> 20121 -> 10001 -> 20117], [Rio San Juan -> Nicaragua -> America -> Canada] 
+
+-----------------------------------------
+ResultDestNodes: [20117, 80122, 80117, 80118, 90153]
+ResultRelevs: [7.884639739990234, 5.708779811859131, 5.708779811859131, 5.708779811859131, 5.360529899597168]
+AvgResultRelev: 6.074301815032959
+AvgResultDissimilarity: 0.6599999666213989
+Num of entries retrieved from the KNLists: 587
+Num of entries retrieved from NKMaps: 1059
+Num of answer trees explored: 199
+Num of states created: 16
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 10
+
+Div Top-k Search by Astar25
+[lake, river, canada]
+srcNodes: [80101, 90130, 20117]
+  path: 0[20117 -> 30984 -> 80101], [Canada -> Quebec -> Lake Champlain Lake Champlain ] 
+
+  path: 1[20117 -> 30986 -> 90130], [Canada -> Yukon Territory -> Yukon River] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [80122, 90154, 20117]
+  path: 0[80122 -> 80122], [Lake Titicaca Lake Titicaca  -> Lake Titicaca Lake Titicaca ]
+  path: 1[80122 -> 90154], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero] 
+
+  path: 2[80122 -> 90154 -> 20170 -> 10001 -> 20117], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero -> Bolivia -> America -> Canada] 
+
+srcNodes: [80117, 90153, 20117]
+  path: 0[80117 -> 80117], [Lake Nicaragua Lake Nicaragua  -> Lake Nicaragua Lake Nicaragua ]
+  path: 1[80117 -> 90153], [Lake Nicaragua Lake Nicaragua  -> Rio San Juan] 
+
+  path: 2[80117 -> 90153 -> 20121 -> 10001 -> 20117], [Lake Nicaragua Lake Nicaragua  -> Rio San Juan -> Nicaragua -> America -> Canada] 
+
+srcNodes: [80118, 90153, 20117]
+  path: 0[80118 -> 80118], [Lake Managua Lake Managua  -> Lake Managua Lake Managua ]
+  path: 1[80118 -> 90153], [Lake Managua Lake Managua  -> Rio San Juan] 
+
+  path: 2[80118 -> 90153 -> 20121 -> 10001 -> 20117], [Lake Managua Lake Managua  -> Rio San Juan -> Nicaragua -> America -> Canada] 
+
+srcNodes: [80118, 90153, 20117]
+  path: 0[90153 -> 80118], [Rio San Juan -> Lake Managua Lake Managua ] 
+
+  path: 1[90153 -> 90153], [Rio San Juan -> Rio San Juan]
+  path: 2[90153 -> 20121 -> 10001 -> 20117], [Rio San Juan -> Nicaragua -> America -> Canada] 
+
+-----------------------------------------
+ResultDestNodes: [20117, 80122, 80117, 80118, 90153]
+ResultRelevs: [7.884639739990234, 5.708779811859131, 5.708779811859131, 5.708779811859131, 5.360529899597168]
+AvgResultRelev: 6.074301815032959
+AvgResultDissimilarity: 0.6599999666213989
+Num of entries retrieved from the KNLists: 587
+Num of entries retrieved from NKMaps: 1059
+Num of answer trees explored: 199
+Num of states created: 16
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 10
+
+Div Top-k Search by Astar2m5
+[lake, river, canada]
+srcNodes: [80101, 90130, 20117]
+  path: 0[20117 -> 30984 -> 80101], [Canada -> Quebec -> Lake Champlain Lake Champlain ] 
+
+  path: 1[20117 -> 30986 -> 90130], [Canada -> Yukon Territory -> Yukon River] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [80122, 90154, 20117]
+  path: 0[80122 -> 80122], [Lake Titicaca Lake Titicaca  -> Lake Titicaca Lake Titicaca ]
+  path: 1[80122 -> 90154], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero] 
+
+  path: 2[80122 -> 90154 -> 20170 -> 10001 -> 20117], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero -> Bolivia -> America -> Canada] 
+
+srcNodes: [80117, 90153, 20117]
+  path: 0[80117 -> 80117], [Lake Nicaragua Lake Nicaragua  -> Lake Nicaragua Lake Nicaragua ]
+  path: 1[80117 -> 90153], [Lake Nicaragua Lake Nicaragua  -> Rio San Juan] 
+
+  path: 2[80117 -> 90153 -> 20121 -> 10001 -> 20117], [Lake Nicaragua Lake Nicaragua  -> Rio San Juan -> Nicaragua -> America -> Canada] 
+
+srcNodes: [80118, 90153, 20117]
+  path: 0[80118 -> 80118], [Lake Managua Lake Managua  -> Lake Managua Lake Managua ]
+  path: 1[80118 -> 90153], [Lake Managua Lake Managua  -> Rio San Juan] 
+
+  path: 2[80118 -> 90153 -> 20121 -> 10001 -> 20117], [Lake Managua Lake Managua  -> Rio San Juan -> Nicaragua -> America -> Canada] 
+
+srcNodes: [80118, 90153, 20117]
+  path: 0[90153 -> 80118], [Rio San Juan -> Lake Managua Lake Managua ] 
+
+  path: 1[90153 -> 90153], [Rio San Juan -> Rio San Juan]
+  path: 2[90153 -> 20121 -> 10001 -> 20117], [Rio San Juan -> Nicaragua -> America -> Canada] 
+
+-----------------------------------------
+ResultDestNodes: [20117, 80122, 80117, 80118, 90153]
+ResultRelevs: [7.884639739990234, 5.708779811859131, 5.708779811859131, 5.708779811859131, 5.360529899597168]
+AvgResultRelev: 6.074301815032959
+AvgResultDissimilarity: 0.6599999666213989
+Num of entries retrieved from the KNLists: 587
+Num of entries retrieved from NKMaps: 1059
+Num of answer trees explored: 199
+Num of states created: 16
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 0
+

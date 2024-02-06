@@ -1,0 +1,12 @@
+[desert, california, arizona]:0.36  
+[greece, muslim, monarchy]:0.324  
+[caldera, lake, america]:0.391  
+[cape, gulf, africa]:0.208  
+[vienna, donau, alps]:0.169  
+[lake, quebec, canada]:0.239  
+[himalaya, india, pakistan]:0.214  
+[river, minnesota, louisiana]:0.218  
+[city, desert, california]:0.238  
+[lake, michigan, ontario]:0.186  
+[island, vancouver, seattle]:0.161  
+[alaska, arctic, sea]:0.126  

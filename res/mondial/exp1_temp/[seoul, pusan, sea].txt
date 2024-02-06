@@ -1,0 +1,1814 @@
+[seoul, pusan, sea]
+srcNodes: [42457, 42174, 100009]
+  path: 0[20097 -> 42457], [South Korea -> Seoul] 
+
+  path: 1[20097 -> 42174], [South Korea -> Pusan] 
+
+  path: 2[20097 -> 100009], [South Korea -> East China Sea] 
+
+srcNodes: [42457, 42174, 100009]
+  path: 0[110149 -> 20097 -> 42457], [Jeju Jeju  volcanic -> South Korea -> Seoul] 
+
+  path: 1[110149 -> 20097 -> 42174], [Jeju Jeju  volcanic -> South Korea -> Pusan] 
+
+  path: 2[110149 -> 100009], [Jeju Jeju  volcanic -> East China Sea] 
+
+srcNodes: [42457, 42174, 100023]
+  path: 0[10002 -> 20097 -> 42457], [Asia -> South Korea -> Seoul] 
+
+  path: 1[10002 -> 20097 -> 42174], [Asia -> South Korea -> Pusan] 
+
+  path: 2[10002 -> 20101 -> 100023], [Asia -> Yemen -> Red Sea] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20072 -> 10002 -> 20097 -> 42457], [Vietnam -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20072 -> 10002 -> 20097 -> 42174], [Vietnam -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20072 -> 100029], [Vietnam -> South China Sea] 
+
+srcNodes: [42457, 42174, 100025]
+  path: 0[20074 -> 10002 -> 20097 -> 42457], [North Korea -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20074 -> 10002 -> 20097 -> 42174], [North Korea -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20074 -> 100025], [North Korea -> Sea of Japan] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20104 -> 10002 -> 20097 -> 42457], [Singapore -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20104 -> 10002 -> 20097 -> 42174], [Singapore -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20104 -> 100029], [Singapore -> South China Sea] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20067 -> 10002 -> 20097 -> 42457], [Brunei -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20067 -> 10002 -> 20097 -> 42174], [Brunei -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20067 -> 100029], [Brunei -> South China Sea] 
+
+srcNodes: [42457, 42174, 100000]
+  path: 0[20070 -> 10002 -> 20097 -> 42457], [Thailand -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20070 -> 10002 -> 20097 -> 42174], [Thailand -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20070 -> 100000], [Thailand -> Andaman Sea] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20071 -> 10002 -> 20097 -> 42457], [Cambodia -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20071 -> 10002 -> 20097 -> 42174], [Cambodia -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20071 -> 100029], [Cambodia -> South China Sea] 
+
+srcNodes: [42457, 42174, 100009]
+  path: 0[20106 -> 10002 -> 20097 -> 42457], [Taiwan -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20106 -> 10002 -> 20097 -> 42174], [Taiwan -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20106 -> 100009], [Taiwan -> East China Sea] 
+
+-----------------------------------------
+ResultDestNodes: [20097, 110149, 10002, 20072, 20074, 20104, 20067, 20070, 20071, 20106]
+ResultRelevs: [7.848810195922852, 5.952310085296631, 5.232540130615234, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777]
+Num of top-k answers: 10
+Num of redundant answers: 0
+Num of duplicate answers: 5
+Num of entries retrieved from the lists: 120
+Num of entries retrieved from NKMaps: 146
+[seoul, pusan, sea]
+srcNodes: [42457, 42174, 100009]
+  path: 0[20097 -> 42457], [South Korea -> Seoul] 
+
+  path: 1[20097 -> 42174], [South Korea -> Pusan] 
+
+  path: 2[20097 -> 100009], [South Korea -> East China Sea] 
+
+srcNodes: [42457, 42174, 100009]
+  path: 0[110149 -> 20097 -> 42457], [Jeju Jeju  volcanic -> South Korea -> Seoul] 
+
+  path: 1[110149 -> 20097 -> 42174], [Jeju Jeju  volcanic -> South Korea -> Pusan] 
+
+  path: 2[110149 -> 100009], [Jeju Jeju  volcanic -> East China Sea] 
+
+srcNodes: [42457, 42174, 100023]
+  path: 0[10002 -> 20097 -> 42457], [Asia -> South Korea -> Seoul] 
+
+  path: 1[10002 -> 20097 -> 42174], [Asia -> South Korea -> Pusan] 
+
+  path: 2[10002 -> 20101 -> 100023], [Asia -> Yemen -> Red Sea] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20067 -> 10002 -> 20097 -> 42457], [Brunei -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20067 -> 10002 -> 20097 -> 42174], [Brunei -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20067 -> 100029], [Brunei -> South China Sea] 
+
+srcNodes: [42457, 42174, 100000]
+  path: 0[20070 -> 10002 -> 20097 -> 42457], [Thailand -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20070 -> 10002 -> 20097 -> 42174], [Thailand -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20070 -> 100000], [Thailand -> Andaman Sea] 
+
+srcNodes: [42457, 42174, 100025]
+  path: 0[20074 -> 10002 -> 20097 -> 42457], [North Korea -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20074 -> 10002 -> 20097 -> 42174], [North Korea -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20074 -> 100025], [North Korea -> Sea of Japan] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20104 -> 10002 -> 20097 -> 42457], [Singapore -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20104 -> 10002 -> 20097 -> 42174], [Singapore -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20104 -> 100029], [Singapore -> South China Sea] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20072 -> 10002 -> 20097 -> 42457], [Vietnam -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20072 -> 10002 -> 20097 -> 42174], [Vietnam -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20072 -> 100029], [Vietnam -> South China Sea] 
+
+srcNodes: [42457, 42174, 100009]
+  path: 0[20106 -> 10002 -> 20097 -> 42457], [Taiwan -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20106 -> 10002 -> 20097 -> 42174], [Taiwan -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20106 -> 100009], [Taiwan -> East China Sea] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20071 -> 10002 -> 20097 -> 42457], [Cambodia -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20071 -> 10002 -> 20097 -> 42174], [Cambodia -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20071 -> 100029], [Cambodia -> South China Sea] 
+
+-----------------------------------------
+ResultDestNodes: [20097, 110149, 10002, 20067, 20070, 20074, 20104, 20072, 20106, 20071]
+ResultRelevs: [7.848810195922852, 5.952310085296631, 5.232540130615234, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777]
+Num of top-k answers: 10
+Num of redundant answers: 0
+Num of duplicate answers: 5
+Num of entries retrieved from the lists: 120
+Num of entries retrieved from NKMaps: 146
+Blink Search Using BDB_reduced 10
+[seoul, pusan, sea]
+srcNodes: [42457, 42174, 100009]
+  path: 0[20097 -> 42457], [South Korea -> Seoul] 
+
+  path: 1[20097 -> 42174], [South Korea -> Pusan] 
+
+  path: 2[20097 -> 100009], [South Korea -> East China Sea] 
+
+srcNodes: [42457, 42174, 100009]
+  path: 0[110149 -> 20097 -> 42457], [Jeju Jeju  volcanic -> South Korea -> Seoul] 
+
+  path: 1[110149 -> 20097 -> 42174], [Jeju Jeju  volcanic -> South Korea -> Pusan] 
+
+  path: 2[110149 -> 100009], [Jeju Jeju  volcanic -> East China Sea] 
+
+srcNodes: [42457, 42174, 100023]
+  path: 0[10002 -> 20097 -> 42457], [Asia -> South Korea -> Seoul] 
+
+  path: 1[10002 -> 20097 -> 42174], [Asia -> South Korea -> Pusan] 
+
+  path: 2[10002 -> 20101 -> 100023], [Asia -> Yemen -> Red Sea] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20072 -> 10002 -> 20097 -> 42457], [Vietnam -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20072 -> 10002 -> 20097 -> 42174], [Vietnam -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20072 -> 100029], [Vietnam -> South China Sea] 
+
+srcNodes: [42457, 42174, 100025]
+  path: 0[20074 -> 10002 -> 20097 -> 42457], [North Korea -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20074 -> 10002 -> 20097 -> 42174], [North Korea -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20074 -> 100025], [North Korea -> Sea of Japan] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20104 -> 10002 -> 20097 -> 42457], [Singapore -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20104 -> 10002 -> 20097 -> 42174], [Singapore -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20104 -> 100029], [Singapore -> South China Sea] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20067 -> 10002 -> 20097 -> 42457], [Brunei -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20067 -> 10002 -> 20097 -> 42174], [Brunei -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20067 -> 100029], [Brunei -> South China Sea] 
+
+srcNodes: [42457, 42174, 100000]
+  path: 0[20070 -> 10002 -> 20097 -> 42457], [Thailand -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20070 -> 10002 -> 20097 -> 42174], [Thailand -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20070 -> 100000], [Thailand -> Andaman Sea] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20071 -> 10002 -> 20097 -> 42457], [Cambodia -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20071 -> 10002 -> 20097 -> 42174], [Cambodia -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20071 -> 100029], [Cambodia -> South China Sea] 
+
+srcNodes: [42457, 42174, 100009]
+  path: 0[20106 -> 10002 -> 20097 -> 42457], [Taiwan -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20106 -> 10002 -> 20097 -> 42174], [Taiwan -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20106 -> 100009], [Taiwan -> East China Sea] 
+
+-----------------------------------------
+ResultDestNodes: [20097, 110149, 10002, 20072, 20074, 20104, 20067, 20070, 20071, 20106]
+ResultRelevs: [7.848810195922852, 5.952310085296631, 5.232540130615234, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777]
+Num of top-k answers: 10
+Num of redundant answers: 0
+Num of duplicate answers: 5
+Num of entries retrieved from the lists: 120
+Num of entries retrieved from NKMaps: 182
+Num of redundant candidate answers found: 12
+Num of reduced alternative answers found: 5
+[seoul, pusan, sea]
+srcNodes: [42457, 42174, 100009]
+  path: 0[20097 -> 42457], [South Korea -> Seoul] 
+
+  path: 1[20097 -> 42174], [South Korea -> Pusan] 
+
+  path: 2[20097 -> 100009], [South Korea -> East China Sea] 
+
+srcNodes: [42457, 42174, 100033]
+  path: 0[110149 -> 20097 -> 42457], [Jeju Jeju  volcanic -> South Korea -> Seoul] 
+
+  path: 1[110149 -> 20097 -> 42174], [Jeju Jeju  volcanic -> South Korea -> Pusan] 
+
+  path: 2[110149 -> 20097 -> 100033], [Jeju Jeju  volcanic -> South Korea -> Yellow Sea] 
+
+This is a non-reduced answer tree with common first node 20097
+
+srcNodes: [42457, 42174, 100023]
+  path: 0[10002 -> 20097 -> 42457], [Asia -> South Korea -> Seoul] 
+
+  path: 1[10002 -> 20097 -> 42174], [Asia -> South Korea -> Pusan] 
+
+  path: 2[10002 -> 20101 -> 100023], [Asia -> Yemen -> Red Sea] 
+
+srcNodes: [42457, 42174, 100000]
+  path: 0[20070 -> 10002 -> 20097 -> 42457], [Thailand -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20070 -> 10002 -> 20097 -> 42174], [Thailand -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20070 -> 100000], [Thailand -> Andaman Sea] 
+
+srcNodes: [42457, 42174, 100025]
+  path: 0[20074 -> 10002 -> 20097 -> 42457], [North Korea -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20074 -> 10002 -> 20097 -> 42174], [North Korea -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20074 -> 100025], [North Korea -> Sea of Japan] 
+
+srcNodes: [42457, 42174, 100018]
+  path: 0[20093 -> 10002 -> 20097 -> 42457], [Syria -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20093 -> 10002 -> 20097 -> 42174], [Syria -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20093 -> 100018], [Syria -> Mediterranean Sea] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20067 -> 10002 -> 20097 -> 42457], [Brunei -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20067 -> 10002 -> 20097 -> 42174], [Brunei -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20067 -> 100029], [Brunei -> South China Sea] 
+
+srcNodes: [42457, 42174, 100031]
+  path: 0[20087 -> 10002 -> 20097 -> 42457], [Timor-Leste -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20087 -> 10002 -> 20097 -> 42174], [Timor-Leste -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20087 -> 100031], [Timor-Leste -> Sunda Sea] 
+
+srcNodes: [42457, 42174, 100030]
+  path: 0[20102 -> 10002 -> 20097 -> 42457], [Philippines -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20102 -> 10002 -> 20097 -> 42174], [Philippines -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20102 -> 100030], [Philippines -> Sulawesi Sea] 
+
+srcNodes: [42457, 42174, 100007]
+  path: 0[20060 -> 10002 -> 20097 -> 42457], [Georgia -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20060 -> 10002 -> 20097 -> 42174], [Georgia -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20060 -> 100007], [Georgia -> Black Sea] 
+
+-----------------------------------------
+ResultDestNodes: [20097, 110149, 10002, 20070, 20074, 20093, 20067, 20087, 20102, 20060]
+ResultRelevs: [7.848810195922852, 5.232540130615234, 5.232540130615234, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777]
+Num of top-k answers: 10
+Num of redundant answers in top-k answers: 1
+Num of duplicate answers in top-k answers: 0
+Num of entries retrieved from the lists: 120
+Num of redundant candidate answers found: 12
+Num of reduced alternative answers found: 5
+Num of duplicate candidate answers found: 21
+Num of unique alternative answers found: 4
+[seoul, pusan, sea]
+srcNodes: [42457, 42174, 100009]
+  path: 0[20097 -> 42457], [South Korea -> Seoul] 
+
+  path: 1[20097 -> 42174], [South Korea -> Pusan] 
+
+  path: 2[20097 -> 100009], [South Korea -> East China Sea] 
+
+srcNodes: [42457, 42174, 100009]
+  path: 0[110149 -> 20097 -> 42457], [Jeju Jeju  volcanic -> South Korea -> Seoul] 
+
+  path: 1[110149 -> 20097 -> 42174], [Jeju Jeju  volcanic -> South Korea -> Pusan] 
+
+  path: 2[110149 -> 100009], [Jeju Jeju  volcanic -> East China Sea] 
+
+srcNodes: [42457, 42174, 100023]
+  path: 0[10002 -> 20097 -> 42457], [Asia -> South Korea -> Seoul] 
+
+  path: 1[10002 -> 20097 -> 42174], [Asia -> South Korea -> Pusan] 
+
+  path: 2[10002 -> 20101 -> 100023], [Asia -> Yemen -> Red Sea] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20077 -> 10002 -> 20097 -> 42457], [Macau -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20077 -> 10002 -> 20097 -> 42174], [Macau -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20077 -> 100029], [Macau -> South China Sea] 
+
+srcNodes: [42457, 42174, 100007]
+  path: 0[20060 -> 10002 -> 20097 -> 42457], [Georgia -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20060 -> 10002 -> 20097 -> 42174], [Georgia -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20060 -> 100007], [Georgia -> Black Sea] 
+
+srcNodes: [42457, 42174, 100009]
+  path: 0[20106 -> 10002 -> 20097 -> 42457], [Taiwan -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20106 -> 10002 -> 20097 -> 42174], [Taiwan -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20106 -> 100009], [Taiwan -> East China Sea] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20076 -> 10002 -> 20097 -> 42457], [Hong Kong -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20076 -> 10002 -> 20097 -> 42174], [Hong Kong -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20076 -> 100029], [Hong Kong -> South China Sea] 
+
+srcNodes: [42457, 42174, 100030]
+  path: 0[20102 -> 10002 -> 20097 -> 42457], [Philippines -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20102 -> 10002 -> 20097 -> 42174], [Philippines -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20102 -> 100030], [Philippines -> Sulawesi Sea] 
+
+srcNodes: [42457, 42174, 100023]
+  path: 0[20101 -> 10002 -> 20097 -> 42457], [Yemen -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20101 -> 10002 -> 20097 -> 42174], [Yemen -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20101 -> 100023], [Yemen -> Red Sea] 
+
+srcNodes: [42457, 42174, 100031]
+  path: 0[20087 -> 10002 -> 20097 -> 42457], [Timor-Leste -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20087 -> 10002 -> 20097 -> 42174], [Timor-Leste -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20087 -> 100031], [Timor-Leste -> Sunda Sea] 
+
+srcNodes: [42457, 42174, 100001]
+  path: 0[20055 -> 10002 -> 20097 -> 42457], [Pakistan -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20055 -> 10002 -> 20097 -> 42174], [Pakistan -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20055 -> 100001], [Pakistan -> Arabian Sea] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20104 -> 10002 -> 20097 -> 42457], [Singapore -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20104 -> 10002 -> 20097 -> 42174], [Singapore -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20104 -> 100029], [Singapore -> South China Sea] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20067 -> 10002 -> 20097 -> 42457], [Brunei -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20067 -> 10002 -> 20097 -> 42174], [Brunei -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20067 -> 100029], [Brunei -> South China Sea] 
+
+srcNodes: [42457, 42174, 100000]
+  path: 0[20070 -> 10002 -> 20097 -> 42457], [Thailand -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20070 -> 10002 -> 20097 -> 42174], [Thailand -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20070 -> 100000], [Thailand -> Andaman Sea] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20072 -> 10002 -> 20097 -> 42457], [Vietnam -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20072 -> 10002 -> 20097 -> 42174], [Vietnam -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20072 -> 100029], [Vietnam -> South China Sea] 
+
+srcNodes: [42457, 42174, 100025]
+  path: 0[20074 -> 10002 -> 20097 -> 42457], [North Korea -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20074 -> 10002 -> 20097 -> 42174], [North Korea -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20074 -> 100025], [North Korea -> Sea of Japan] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20071 -> 10002 -> 20097 -> 42457], [Cambodia -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20071 -> 10002 -> 20097 -> 42174], [Cambodia -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20071 -> 100029], [Cambodia -> South China Sea] 
+
+srcNodes: [42457, 42174, 100018]
+  path: 0[20083 -> 10002 -> 20097 -> 42457], [Gaza Strip -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20083 -> 10002 -> 20097 -> 42174], [Gaza Strip -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20083 -> 100018], [Gaza Strip -> Mediterranean Sea] 
+
+srcNodes: [42457, 42174, 100000]
+  path: 0[20086 -> 10002 -> 20097 -> 42457], [Indonesia -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20086 -> 10002 -> 20097 -> 42174], [Indonesia -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20086 -> 100000], [Indonesia -> Andaman Sea] 
+
+srcNodes: [42457, 42174, 100018]
+  path: 0[20093 -> 10002 -> 20097 -> 42457], [Syria -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20093 -> 10002 -> 20097 -> 42174], [Syria -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20093 -> 100018], [Syria -> Mediterranean Sea] 
+
+-----------------------------------------
+ResultDestNodes: [20097, 110149, 10002, 20077, 20060, 20106, 20076, 20102, 20101, 20087, 20055, 20104, 20067, 20070, 20072, 20074, 20071, 20083, 20086, 20093]
+ResultRelevs: [7.848810195922852, 5.952310085296631, 5.232540130615234, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777]
+Num of top-k answers: 20
+Num of redundant answers: 0
+Num of duplicate answers: 10
+Num of entries retrieved from the lists: 120
+Num of entries retrieved from NKMaps: 146
+[seoul, pusan, sea]
+srcNodes: [42457, 42174, 100009]
+  path: 0[20097 -> 42457], [South Korea -> Seoul] 
+
+  path: 1[20097 -> 42174], [South Korea -> Pusan] 
+
+  path: 2[20097 -> 100009], [South Korea -> East China Sea] 
+
+srcNodes: [42457, 42174, 100009]
+  path: 0[110149 -> 20097 -> 42457], [Jeju Jeju  volcanic -> South Korea -> Seoul] 
+
+  path: 1[110149 -> 20097 -> 42174], [Jeju Jeju  volcanic -> South Korea -> Pusan] 
+
+  path: 2[110149 -> 100009], [Jeju Jeju  volcanic -> East China Sea] 
+
+srcNodes: [42457, 42174, 100023]
+  path: 0[10002 -> 20097 -> 42457], [Asia -> South Korea -> Seoul] 
+
+  path: 1[10002 -> 20097 -> 42174], [Asia -> South Korea -> Pusan] 
+
+  path: 2[10002 -> 20101 -> 100023], [Asia -> Yemen -> Red Sea] 
+
+srcNodes: [42457, 42174, 100007]
+  path: 0[20060 -> 10002 -> 20097 -> 42457], [Georgia -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20060 -> 10002 -> 20097 -> 42174], [Georgia -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20060 -> 100007], [Georgia -> Black Sea] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20077 -> 10002 -> 20097 -> 42457], [Macau -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20077 -> 10002 -> 20097 -> 42174], [Macau -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20077 -> 100029], [Macau -> South China Sea] 
+
+srcNodes: [42457, 42174, 100030]
+  path: 0[20102 -> 10002 -> 20097 -> 42457], [Philippines -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20102 -> 10002 -> 20097 -> 42174], [Philippines -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20102 -> 100030], [Philippines -> Sulawesi Sea] 
+
+srcNodes: [42457, 42174, 100009]
+  path: 0[20106 -> 10002 -> 20097 -> 42457], [Taiwan -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20106 -> 10002 -> 20097 -> 42174], [Taiwan -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20106 -> 100009], [Taiwan -> East China Sea] 
+
+srcNodes: [42457, 42174, 100023]
+  path: 0[20101 -> 10002 -> 20097 -> 42457], [Yemen -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20101 -> 10002 -> 20097 -> 42174], [Yemen -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20101 -> 100023], [Yemen -> Red Sea] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20076 -> 10002 -> 20097 -> 42457], [Hong Kong -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20076 -> 10002 -> 20097 -> 42174], [Hong Kong -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20076 -> 100029], [Hong Kong -> South China Sea] 
+
+srcNodes: [42457, 42174, 100031]
+  path: 0[20087 -> 10002 -> 20097 -> 42457], [Timor-Leste -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20087 -> 10002 -> 20097 -> 42174], [Timor-Leste -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20087 -> 100031], [Timor-Leste -> Sunda Sea] 
+
+srcNodes: [42457, 42174, 100001]
+  path: 0[20055 -> 10002 -> 20097 -> 42457], [Pakistan -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20055 -> 10002 -> 20097 -> 42174], [Pakistan -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20055 -> 100001], [Pakistan -> Arabian Sea] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20104 -> 10002 -> 20097 -> 42457], [Singapore -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20104 -> 10002 -> 20097 -> 42174], [Singapore -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20104 -> 100029], [Singapore -> South China Sea] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20067 -> 10002 -> 20097 -> 42457], [Brunei -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20067 -> 10002 -> 20097 -> 42174], [Brunei -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20067 -> 100029], [Brunei -> South China Sea] 
+
+srcNodes: [42457, 42174, 100000]
+  path: 0[20070 -> 10002 -> 20097 -> 42457], [Thailand -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20070 -> 10002 -> 20097 -> 42174], [Thailand -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20070 -> 100000], [Thailand -> Andaman Sea] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20072 -> 10002 -> 20097 -> 42457], [Vietnam -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20072 -> 10002 -> 20097 -> 42174], [Vietnam -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20072 -> 100029], [Vietnam -> South China Sea] 
+
+srcNodes: [42457, 42174, 100025]
+  path: 0[20074 -> 10002 -> 20097 -> 42457], [North Korea -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20074 -> 10002 -> 20097 -> 42174], [North Korea -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20074 -> 100025], [North Korea -> Sea of Japan] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20071 -> 10002 -> 20097 -> 42457], [Cambodia -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20071 -> 10002 -> 20097 -> 42174], [Cambodia -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20071 -> 100029], [Cambodia -> South China Sea] 
+
+srcNodes: [42457, 42174, 100018]
+  path: 0[20083 -> 10002 -> 20097 -> 42457], [Gaza Strip -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20083 -> 10002 -> 20097 -> 42174], [Gaza Strip -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20083 -> 100018], [Gaza Strip -> Mediterranean Sea] 
+
+srcNodes: [42457, 42174, 100000]
+  path: 0[20086 -> 10002 -> 20097 -> 42457], [Indonesia -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20086 -> 10002 -> 20097 -> 42174], [Indonesia -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20086 -> 100000], [Indonesia -> Andaman Sea] 
+
+srcNodes: [42457, 42174, 100018]
+  path: 0[20093 -> 10002 -> 20097 -> 42457], [Syria -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20093 -> 10002 -> 20097 -> 42174], [Syria -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20093 -> 100018], [Syria -> Mediterranean Sea] 
+
+-----------------------------------------
+ResultDestNodes: [20097, 110149, 10002, 20060, 20077, 20102, 20106, 20101, 20076, 20087, 20055, 20104, 20067, 20070, 20072, 20074, 20071, 20083, 20086, 20093]
+ResultRelevs: [7.848810195922852, 5.952310085296631, 5.232540130615234, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777]
+Num of top-k answers: 20
+Num of redundant answers: 0
+Num of duplicate answers: 10
+Num of entries retrieved from the lists: 120
+Num of entries retrieved from NKMaps: 146
+Blink Search Using BDB_reduced 20
+[seoul, pusan, sea]
+srcNodes: [42457, 42174, 100009]
+  path: 0[20097 -> 42457], [South Korea -> Seoul] 
+
+  path: 1[20097 -> 42174], [South Korea -> Pusan] 
+
+  path: 2[20097 -> 100009], [South Korea -> East China Sea] 
+
+srcNodes: [42457, 42174, 100009]
+  path: 0[110149 -> 20097 -> 42457], [Jeju Jeju  volcanic -> South Korea -> Seoul] 
+
+  path: 1[110149 -> 20097 -> 42174], [Jeju Jeju  volcanic -> South Korea -> Pusan] 
+
+  path: 2[110149 -> 100009], [Jeju Jeju  volcanic -> East China Sea] 
+
+srcNodes: [42457, 42174, 100023]
+  path: 0[10002 -> 20097 -> 42457], [Asia -> South Korea -> Seoul] 
+
+  path: 1[10002 -> 20097 -> 42174], [Asia -> South Korea -> Pusan] 
+
+  path: 2[10002 -> 20101 -> 100023], [Asia -> Yemen -> Red Sea] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20076 -> 10002 -> 20097 -> 42457], [Hong Kong -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20076 -> 10002 -> 20097 -> 42174], [Hong Kong -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20076 -> 100029], [Hong Kong -> South China Sea] 
+
+srcNodes: [42457, 42174, 100007]
+  path: 0[20060 -> 10002 -> 20097 -> 42457], [Georgia -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20060 -> 10002 -> 20097 -> 42174], [Georgia -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20060 -> 100007], [Georgia -> Black Sea] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20077 -> 10002 -> 20097 -> 42457], [Macau -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20077 -> 10002 -> 20097 -> 42174], [Macau -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20077 -> 100029], [Macau -> South China Sea] 
+
+srcNodes: [42457, 42174, 100031]
+  path: 0[20087 -> 10002 -> 20097 -> 42457], [Timor-Leste -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20087 -> 10002 -> 20097 -> 42174], [Timor-Leste -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20087 -> 100031], [Timor-Leste -> Sunda Sea] 
+
+srcNodes: [42457, 42174, 100009]
+  path: 0[20106 -> 10002 -> 20097 -> 42457], [Taiwan -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20106 -> 10002 -> 20097 -> 42174], [Taiwan -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20106 -> 100009], [Taiwan -> East China Sea] 
+
+srcNodes: [42457, 42174, 100023]
+  path: 0[20101 -> 10002 -> 20097 -> 42457], [Yemen -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20101 -> 10002 -> 20097 -> 42174], [Yemen -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20101 -> 100023], [Yemen -> Red Sea] 
+
+srcNodes: [42457, 42174, 100030]
+  path: 0[20102 -> 10002 -> 20097 -> 42457], [Philippines -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20102 -> 10002 -> 20097 -> 42174], [Philippines -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20102 -> 100030], [Philippines -> Sulawesi Sea] 
+
+srcNodes: [42457, 42174, 100001]
+  path: 0[20055 -> 10002 -> 20097 -> 42457], [Pakistan -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20055 -> 10002 -> 20097 -> 42174], [Pakistan -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20055 -> 100001], [Pakistan -> Arabian Sea] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20104 -> 10002 -> 20097 -> 42457], [Singapore -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20104 -> 10002 -> 20097 -> 42174], [Singapore -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20104 -> 100029], [Singapore -> South China Sea] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20067 -> 10002 -> 20097 -> 42457], [Brunei -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20067 -> 10002 -> 20097 -> 42174], [Brunei -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20067 -> 100029], [Brunei -> South China Sea] 
+
+srcNodes: [42457, 42174, 100000]
+  path: 0[20070 -> 10002 -> 20097 -> 42457], [Thailand -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20070 -> 10002 -> 20097 -> 42174], [Thailand -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20070 -> 100000], [Thailand -> Andaman Sea] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20072 -> 10002 -> 20097 -> 42457], [Vietnam -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20072 -> 10002 -> 20097 -> 42174], [Vietnam -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20072 -> 100029], [Vietnam -> South China Sea] 
+
+srcNodes: [42457, 42174, 100025]
+  path: 0[20074 -> 10002 -> 20097 -> 42457], [North Korea -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20074 -> 10002 -> 20097 -> 42174], [North Korea -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20074 -> 100025], [North Korea -> Sea of Japan] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20071 -> 10002 -> 20097 -> 42457], [Cambodia -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20071 -> 10002 -> 20097 -> 42174], [Cambodia -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20071 -> 100029], [Cambodia -> South China Sea] 
+
+srcNodes: [42457, 42174, 100018]
+  path: 0[20083 -> 10002 -> 20097 -> 42457], [Gaza Strip -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20083 -> 10002 -> 20097 -> 42174], [Gaza Strip -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20083 -> 100018], [Gaza Strip -> Mediterranean Sea] 
+
+srcNodes: [42457, 42174, 100000]
+  path: 0[20086 -> 10002 -> 20097 -> 42457], [Indonesia -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20086 -> 10002 -> 20097 -> 42174], [Indonesia -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20086 -> 100000], [Indonesia -> Andaman Sea] 
+
+srcNodes: [42457, 42174, 100018]
+  path: 0[20093 -> 10002 -> 20097 -> 42457], [Syria -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20093 -> 10002 -> 20097 -> 42174], [Syria -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20093 -> 100018], [Syria -> Mediterranean Sea] 
+
+-----------------------------------------
+ResultDestNodes: [20097, 110149, 10002, 20076, 20060, 20077, 20087, 20106, 20101, 20102, 20055, 20104, 20067, 20070, 20072, 20074, 20071, 20083, 20086, 20093]
+ResultRelevs: [7.848810195922852, 5.952310085296631, 5.232540130615234, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777]
+Num of top-k answers: 20
+Num of redundant answers: 0
+Num of duplicate answers: 10
+Num of entries retrieved from the lists: 120
+Num of entries retrieved from NKMaps: 182
+Num of redundant candidate answers found: 12
+Num of reduced alternative answers found: 5
+[seoul, pusan, sea]
+srcNodes: [42457, 42174, 100009]
+  path: 0[20097 -> 42457], [South Korea -> Seoul] 
+
+  path: 1[20097 -> 42174], [South Korea -> Pusan] 
+
+  path: 2[20097 -> 100009], [South Korea -> East China Sea] 
+
+srcNodes: [42457, 42174, 100023]
+  path: 0[10002 -> 20097 -> 42457], [Asia -> South Korea -> Seoul] 
+
+  path: 1[10002 -> 20097 -> 42174], [Asia -> South Korea -> Pusan] 
+
+  path: 2[10002 -> 20101 -> 100023], [Asia -> Yemen -> Red Sea] 
+
+srcNodes: [42457, 42174, 100033]
+  path: 0[110149 -> 20097 -> 42457], [Jeju Jeju  volcanic -> South Korea -> Seoul] 
+
+  path: 1[110149 -> 20097 -> 42174], [Jeju Jeju  volcanic -> South Korea -> Pusan] 
+
+  path: 2[110149 -> 20097 -> 100033], [Jeju Jeju  volcanic -> South Korea -> Yellow Sea] 
+
+This is a non-reduced answer tree with common first node 20097
+
+srcNodes: [42457, 42174, 100031]
+  path: 0[20087 -> 10002 -> 20097 -> 42457], [Timor-Leste -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20087 -> 10002 -> 20097 -> 42174], [Timor-Leste -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20087 -> 100031], [Timor-Leste -> Sunda Sea] 
+
+srcNodes: [42457, 42174, 100018]
+  path: 0[20093 -> 10002 -> 20097 -> 42457], [Syria -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20093 -> 10002 -> 20097 -> 42174], [Syria -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20093 -> 100018], [Syria -> Mediterranean Sea] 
+
+srcNodes: [42457, 42174, 100030]
+  path: 0[20102 -> 10002 -> 20097 -> 42457], [Philippines -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20102 -> 10002 -> 20097 -> 42174], [Philippines -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20102 -> 100030], [Philippines -> Sulawesi Sea] 
+
+srcNodes: [42457, 42174, 100007]
+  path: 0[20060 -> 10002 -> 20097 -> 42457], [Georgia -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20060 -> 10002 -> 20097 -> 42174], [Georgia -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20060 -> 100007], [Georgia -> Black Sea] 
+
+srcNodes: [42457, 42174, 100001]
+  path: 0[20055 -> 10002 -> 20097 -> 42457], [Pakistan -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20055 -> 10002 -> 20097 -> 42174], [Pakistan -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20055 -> 100001], [Pakistan -> Arabian Sea] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20067 -> 10002 -> 20097 -> 42457], [Brunei -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20067 -> 10002 -> 20097 -> 42174], [Brunei -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20067 -> 100029], [Brunei -> South China Sea] 
+
+srcNodes: [42457, 42174, 100000]
+  path: 0[20070 -> 10002 -> 20097 -> 42457], [Thailand -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20070 -> 10002 -> 20097 -> 42174], [Thailand -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20070 -> 100000], [Thailand -> Andaman Sea] 
+
+srcNodes: [42457, 42174, 100025]
+  path: 0[20074 -> 10002 -> 20097 -> 42457], [North Korea -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20074 -> 10002 -> 20097 -> 42174], [North Korea -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20074 -> 100025], [North Korea -> Sea of Japan] 
+
+srcNodes: [42457, 42174, 100014]
+  path: 0[20104 -> 10002 -> 20097 -> 42457], [Singapore -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20104 -> 10002 -> 20097 -> 42174], [Singapore -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20104 -> 100014], [Singapore -> Indian Ocean] 
+
+srcNodes: [42457, 42174, 100022]
+  path: 0[20062 -> 10002 -> 20097 -> 42457], [Bahrain -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20062 -> 10002 -> 20097 -> 42174], [Bahrain -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20062 -> 100022], [Bahrain -> Persian Gulf] 
+
+srcNodes: [42457, 42174, 80042]
+  path: 0[20061 -> 10002 -> 20097 -> 42457], [Azerbaijan -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20061 -> 10002 -> 20097 -> 42174], [Azerbaijan -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20061 -> 80042], [Azerbaijan -> Caspian Sea Caspian Sea salt] 
+
+srcNodes: [42457, 42174, 80035]
+  path: 0[20095 -> 10002 -> 20097 -> 42457], [West Bank -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20095 -> 10002 -> 20097 -> 42174], [West Bank -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20095 -> 80035], [West Bank -> Dead Sea Dead Sea salt] 
+
+srcNodes: [42457, 42174, 100011]
+  path: 0[20105 -> 10002 -> 20097 -> 42457], [Sri Lanka -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20105 -> 10002 -> 20097 -> 42174], [Sri Lanka -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20105 -> 100011], [Sri Lanka -> Gulf of Bengal] 
+
+srcNodes: [42457, 42174, 100021]
+  path: 0[20106 -> 10002 -> 20097 -> 42457], [Taiwan -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20106 -> 10002 -> 20097 -> 42174], [Taiwan -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20106 -> 100021], [Taiwan -> Pacific Ocean] 
+
+srcNodes: [42457, 42174, 100024]
+  path: 0[20023 -> 10002 -> 20097 -> 42457], [Russia -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20023 -> 10002 -> 20097 -> 42174], [Russia -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20023 -> 30294 -> 100024], [Russia -> Krasnodarsky kray -> Sea of Azov] 
+
+srcNodes: [42457, 42174, 100020]
+  path: 0[20050 -> 10004 -> 20031 -> 10002 -> 20097 -> 42457], [Svalbard -> Europe -> Turkey -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20050 -> 10004 -> 20031 -> 10002 -> 20097 -> 42174], [Svalbard -> Europe -> Turkey -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20050 -> 100020], [Svalbard -> Norwegian Sea] 
+
+srcNodes: [42457, 42174, 100004]
+  path: 0[20019 -> 10004 -> 20031 -> 10002 -> 20097 -> 42457], [Latvia -> Europe -> Turkey -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20019 -> 10004 -> 20031 -> 10002 -> 20097 -> 42174], [Latvia -> Europe -> Turkey -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20019 -> 100004], [Latvia -> Baltic Sea] 
+
+-----------------------------------------
+ResultDestNodes: [20097, 10002, 110149, 20087, 20093, 20102, 20060, 20055, 20067, 20070, 20074, 20104, 20062, 20061, 20095, 20105, 20106, 20023, 20050, 20019]
+ResultRelevs: [7.848810195922852, 5.232540130615234, 5.232540130615234, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 4.371600151062012, 4.371600151062012, 4.371600151062012, 4.371600151062012, 4.371600151062012, 4.371600151062012, 4.284279823303223, 4.055811882019043, 4.055811882019043]
+Num of top-k answers: 20
+Num of redundant answers in top-k answers: 1
+Num of duplicate answers in top-k answers: 0
+Num of entries retrieved from the lists: 521
+Num of redundant candidate answers found: 77
+Num of reduced alternative answers found: 28
+Num of duplicate candidate answers found: 116
+Num of unique alternative answers found: 5
+[seoul, pusan, sea]
+srcNodes: [42457, 42174, 100009]
+  path: 0[20097 -> 42457], [South Korea -> Seoul] 
+
+  path: 1[20097 -> 42174], [South Korea -> Pusan] 
+
+  path: 2[20097 -> 100009], [South Korea -> East China Sea] 
+
+srcNodes: [42457, 42174, 100009]
+  path: 0[110149 -> 20097 -> 42457], [Jeju Jeju  volcanic -> South Korea -> Seoul] 
+
+  path: 1[110149 -> 20097 -> 42174], [Jeju Jeju  volcanic -> South Korea -> Pusan] 
+
+  path: 2[110149 -> 100009], [Jeju Jeju  volcanic -> East China Sea] 
+
+srcNodes: [42457, 42174, 100023]
+  path: 0[10002 -> 20097 -> 42457], [Asia -> South Korea -> Seoul] 
+
+  path: 1[10002 -> 20097 -> 42174], [Asia -> South Korea -> Pusan] 
+
+  path: 2[10002 -> 20101 -> 100023], [Asia -> Yemen -> Red Sea] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20072 -> 10002 -> 20097 -> 42457], [Vietnam -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20072 -> 10002 -> 20097 -> 42174], [Vietnam -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20072 -> 100029], [Vietnam -> South China Sea] 
+
+srcNodes: [42457, 42174, 100025]
+  path: 0[20074 -> 10002 -> 20097 -> 42457], [North Korea -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20074 -> 10002 -> 20097 -> 42174], [North Korea -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20074 -> 100025], [North Korea -> Sea of Japan] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20104 -> 10002 -> 20097 -> 42457], [Singapore -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20104 -> 10002 -> 20097 -> 42174], [Singapore -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20104 -> 100029], [Singapore -> South China Sea] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20067 -> 10002 -> 20097 -> 42457], [Brunei -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20067 -> 10002 -> 20097 -> 42174], [Brunei -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20067 -> 100029], [Brunei -> South China Sea] 
+
+srcNodes: [42457, 42174, 100000]
+  path: 0[20070 -> 10002 -> 20097 -> 42457], [Thailand -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20070 -> 10002 -> 20097 -> 42174], [Thailand -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20070 -> 100000], [Thailand -> Andaman Sea] 
+
+srcNodes: [42457, 42174, 100009]
+  path: 0[20106 -> 10002 -> 20097 -> 42457], [Taiwan -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20106 -> 10002 -> 20097 -> 42174], [Taiwan -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20106 -> 100009], [Taiwan -> East China Sea] 
+
+srcNodes: [42457, 42174, 100018]
+  path: 0[20093 -> 10002 -> 20097 -> 42457], [Syria -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20093 -> 10002 -> 20097 -> 42174], [Syria -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20093 -> 100018], [Syria -> Mediterranean Sea] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20071 -> 10002 -> 20097 -> 42457], [Cambodia -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20071 -> 10002 -> 20097 -> 42174], [Cambodia -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20071 -> 100029], [Cambodia -> South China Sea] 
+
+srcNodes: [42457, 42174, 100023]
+  path: 0[20090 -> 10002 -> 20097 -> 42457], [Jordan -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20090 -> 10002 -> 20097 -> 42174], [Jordan -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20090 -> 100023], [Jordan -> Red Sea] 
+
+srcNodes: [42457, 42174, 100031]
+  path: 0[20087 -> 10002 -> 20097 -> 42457], [Timor-Leste -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20087 -> 10002 -> 20097 -> 42174], [Timor-Leste -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20087 -> 100031], [Timor-Leste -> Sunda Sea] 
+
+srcNodes: [42457, 42174, 100018]
+  path: 0[20083 -> 10002 -> 20097 -> 42457], [Gaza Strip -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20083 -> 10002 -> 20097 -> 42174], [Gaza Strip -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20083 -> 100018], [Gaza Strip -> Mediterranean Sea] 
+
+srcNodes: [42457, 42174, 100030]
+  path: 0[20102 -> 10002 -> 20097 -> 42457], [Philippines -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20102 -> 10002 -> 20097 -> 42174], [Philippines -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20102 -> 100030], [Philippines -> Sulawesi Sea] 
+
+srcNodes: [42457, 42174, 100001]
+  path: 0[20099 -> 10002 -> 20097 -> 42457], [Oman -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20099 -> 10002 -> 20097 -> 42174], [Oman -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20099 -> 100001], [Oman -> Arabian Sea] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20076 -> 10002 -> 20097 -> 42457], [Hong Kong -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20076 -> 10002 -> 20097 -> 42174], [Hong Kong -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20076 -> 100029], [Hong Kong -> South China Sea] 
+
+srcNodes: [42457, 42174, 100007]
+  path: 0[20060 -> 10002 -> 20097 -> 42457], [Georgia -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20060 -> 10002 -> 20097 -> 42174], [Georgia -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20060 -> 100007], [Georgia -> Black Sea] 
+
+srcNodes: [42457, 42174, 100023]
+  path: 0[20101 -> 10002 -> 20097 -> 42457], [Yemen -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20101 -> 10002 -> 20097 -> 42174], [Yemen -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20101 -> 100023], [Yemen -> Red Sea] 
+
+srcNodes: [42457, 42174, 100023]
+  path: 0[20092 -> 10002 -> 20097 -> 42457], [Saudi Arabia -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20092 -> 10002 -> 20097 -> 42174], [Saudi Arabia -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20092 -> 100023], [Saudi Arabia -> Red Sea] 
+
+srcNodes: [42457, 42174, 100000]
+  path: 0[20086 -> 10002 -> 20097 -> 42457], [Indonesia -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20086 -> 10002 -> 20097 -> 42174], [Indonesia -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20086 -> 100000], [Indonesia -> Andaman Sea] 
+
+srcNodes: [42457, 42174, 100018]
+  path: 0[20094 -> 10002 -> 20097 -> 42457], [Lebanon -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20094 -> 10002 -> 20097 -> 42174], [Lebanon -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20094 -> 100018], [Lebanon -> Mediterranean Sea] 
+
+srcNodes: [42457, 42174, 100001]
+  path: 0[20055 -> 10002 -> 20097 -> 42457], [Pakistan -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20055 -> 10002 -> 20097 -> 42174], [Pakistan -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20055 -> 100001], [Pakistan -> Arabian Sea] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20077 -> 10002 -> 20097 -> 42457], [Macau -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20077 -> 10002 -> 20097 -> 42174], [Macau -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20077 -> 100029], [Macau -> South China Sea] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[90123 -> 20072 -> 10002 -> 20097 -> 42457], [Mekong -> Vietnam -> Asia -> South Korea -> Seoul] 
+
+  path: 1[90123 -> 20072 -> 10002 -> 20097 -> 42174], [Mekong -> Vietnam -> Asia -> South Korea -> Pusan] 
+
+  path: 2[90123 -> 100029], [Mekong -> South China Sea] 
+
+srcNodes: [42457, 42174, 100009]
+  path: 0[110150 -> 20106 -> 10002 -> 20097 -> 42457], [Taiwan Taiwan   -> Taiwan -> Asia -> South Korea -> Seoul] 
+
+  path: 1[110150 -> 20106 -> 10002 -> 20097 -> 42174], [Taiwan Taiwan   -> Taiwan -> Asia -> South Korea -> Pusan] 
+
+  path: 2[110150 -> 100009], [Taiwan Taiwan   -> East China Sea] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[110152 -> 20102 -> 10002 -> 20097 -> 42457], [Luzon Luzon Phillipines  -> Philippines -> Asia -> South Korea -> Seoul] 
+
+  path: 1[110152 -> 20102 -> 10002 -> 20097 -> 42174], [Luzon Luzon Phillipines  -> Philippines -> Asia -> South Korea -> Pusan] 
+
+  path: 2[110152 -> 100029], [Luzon Luzon Phillipines  -> South China Sea] 
+
+srcNodes: [42457, 42174, 100030]
+  path: 0[110157 -> 20102 -> 10002 -> 20097 -> 42457], [Leyte Leyte Phillipines  -> Philippines -> Asia -> South Korea -> Seoul] 
+
+  path: 1[110157 -> 20102 -> 10002 -> 20097 -> 42174], [Leyte Leyte Phillipines  -> Philippines -> Asia -> South Korea -> Pusan] 
+
+  path: 2[110157 -> 100030], [Leyte Leyte Phillipines  -> Sulawesi Sea] 
+
+srcNodes: [42457, 42174, 100030]
+  path: 0[110154 -> 20102 -> 10002 -> 20097 -> 42457], [Negros Negros Phillipines  -> Philippines -> Asia -> South Korea -> Seoul] 
+
+  path: 1[110154 -> 20102 -> 10002 -> 20097 -> 42174], [Negros Negros Phillipines  -> Philippines -> Asia -> South Korea -> Pusan] 
+
+  path: 2[110154 -> 100030], [Negros Negros Phillipines  -> Sulawesi Sea] 
+
+srcNodes: [42457, 42174, 100030]
+  path: 0[110159 -> 20102 -> 10002 -> 20097 -> 42457], [Cebu Cebu Phillipines  -> Philippines -> Asia -> South Korea -> Seoul] 
+
+  path: 1[110159 -> 20102 -> 10002 -> 20097 -> 42174], [Cebu Cebu Phillipines  -> Philippines -> Asia -> South Korea -> Pusan] 
+
+  path: 2[110159 -> 100030], [Cebu Cebu Phillipines  -> Sulawesi Sea] 
+
+-----------------------------------------
+ResultDestNodes: [20097, 110149, 10002, 20072, 20074, 20104, 20067, 20070, 20106, 20093, 20071, 20090, 20087, 20083, 20102, 20099, 20076, 20060, 20101, 20092, 20086, 20094, 20055, 20077, 90123, 110150, 110152, 110157, 110154, 110159]
+ResultRelevs: [7.848810195922852, 5.952310085296631, 5.232540130615234, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 4.435110092163086, 4.435110092163086, 4.435110092163086, 4.435110092163086, 4.435110092163086, 4.435110092163086]
+Num of top-k answers: 30
+Num of redundant answers: 0
+Num of duplicate answers: 20
+Num of entries retrieved from the lists: 182
+Num of entries retrieved from NKMaps: 189
+[seoul, pusan, sea]
+srcNodes: [42457, 42174, 100009]
+  path: 0[20097 -> 42457], [South Korea -> Seoul] 
+
+  path: 1[20097 -> 42174], [South Korea -> Pusan] 
+
+  path: 2[20097 -> 100009], [South Korea -> East China Sea] 
+
+srcNodes: [42457, 42174, 100009]
+  path: 0[110149 -> 20097 -> 42457], [Jeju Jeju  volcanic -> South Korea -> Seoul] 
+
+  path: 1[110149 -> 20097 -> 42174], [Jeju Jeju  volcanic -> South Korea -> Pusan] 
+
+  path: 2[110149 -> 100009], [Jeju Jeju  volcanic -> East China Sea] 
+
+srcNodes: [42457, 42174, 100023]
+  path: 0[10002 -> 20097 -> 42457], [Asia -> South Korea -> Seoul] 
+
+  path: 1[10002 -> 20097 -> 42174], [Asia -> South Korea -> Pusan] 
+
+  path: 2[10002 -> 20101 -> 100023], [Asia -> Yemen -> Red Sea] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20072 -> 10002 -> 20097 -> 42457], [Vietnam -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20072 -> 10002 -> 20097 -> 42174], [Vietnam -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20072 -> 100029], [Vietnam -> South China Sea] 
+
+srcNodes: [42457, 42174, 100025]
+  path: 0[20074 -> 10002 -> 20097 -> 42457], [North Korea -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20074 -> 10002 -> 20097 -> 42174], [North Korea -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20074 -> 100025], [North Korea -> Sea of Japan] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20104 -> 10002 -> 20097 -> 42457], [Singapore -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20104 -> 10002 -> 20097 -> 42174], [Singapore -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20104 -> 100029], [Singapore -> South China Sea] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20067 -> 10002 -> 20097 -> 42457], [Brunei -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20067 -> 10002 -> 20097 -> 42174], [Brunei -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20067 -> 100029], [Brunei -> South China Sea] 
+
+srcNodes: [42457, 42174, 100000]
+  path: 0[20070 -> 10002 -> 20097 -> 42457], [Thailand -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20070 -> 10002 -> 20097 -> 42174], [Thailand -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20070 -> 100000], [Thailand -> Andaman Sea] 
+
+srcNodes: [42457, 42174, 100023]
+  path: 0[20101 -> 10002 -> 20097 -> 42457], [Yemen -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20101 -> 10002 -> 20097 -> 42174], [Yemen -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20101 -> 100023], [Yemen -> Red Sea] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20076 -> 10002 -> 20097 -> 42457], [Hong Kong -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20076 -> 10002 -> 20097 -> 42174], [Hong Kong -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20076 -> 100029], [Hong Kong -> South China Sea] 
+
+srcNodes: [42457, 42174, 100007]
+  path: 0[20060 -> 10002 -> 20097 -> 42457], [Georgia -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20060 -> 10002 -> 20097 -> 42174], [Georgia -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20060 -> 100007], [Georgia -> Black Sea] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20077 -> 10002 -> 20097 -> 42457], [Macau -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20077 -> 10002 -> 20097 -> 42174], [Macau -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20077 -> 100029], [Macau -> South China Sea] 
+
+srcNodes: [42457, 42174, 100030]
+  path: 0[20102 -> 10002 -> 20097 -> 42457], [Philippines -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20102 -> 10002 -> 20097 -> 42174], [Philippines -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20102 -> 100030], [Philippines -> Sulawesi Sea] 
+
+srcNodes: [42457, 42174, 100009]
+  path: 0[20106 -> 10002 -> 20097 -> 42457], [Taiwan -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20106 -> 10002 -> 20097 -> 42174], [Taiwan -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20106 -> 100009], [Taiwan -> East China Sea] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20071 -> 10002 -> 20097 -> 42457], [Cambodia -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20071 -> 10002 -> 20097 -> 42174], [Cambodia -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20071 -> 100029], [Cambodia -> South China Sea] 
+
+srcNodes: [42457, 42174, 100023]
+  path: 0[20090 -> 10002 -> 20097 -> 42457], [Jordan -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20090 -> 10002 -> 20097 -> 42174], [Jordan -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20090 -> 100023], [Jordan -> Red Sea] 
+
+srcNodes: [42457, 42174, 100018]
+  path: 0[20083 -> 10002 -> 20097 -> 42457], [Gaza Strip -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20083 -> 10002 -> 20097 -> 42174], [Gaza Strip -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20083 -> 100018], [Gaza Strip -> Mediterranean Sea] 
+
+srcNodes: [42457, 42174, 100001]
+  path: 0[20055 -> 10002 -> 20097 -> 42457], [Pakistan -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20055 -> 10002 -> 20097 -> 42174], [Pakistan -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20055 -> 100001], [Pakistan -> Arabian Sea] 
+
+srcNodes: [42457, 42174, 100018]
+  path: 0[20094 -> 10002 -> 20097 -> 42457], [Lebanon -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20094 -> 10002 -> 20097 -> 42174], [Lebanon -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20094 -> 100018], [Lebanon -> Mediterranean Sea] 
+
+srcNodes: [42457, 42174, 100023]
+  path: 0[20092 -> 10002 -> 20097 -> 42457], [Saudi Arabia -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20092 -> 10002 -> 20097 -> 42174], [Saudi Arabia -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20092 -> 100023], [Saudi Arabia -> Red Sea] 
+
+srcNodes: [42457, 42174, 100001]
+  path: 0[20099 -> 10002 -> 20097 -> 42457], [Oman -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20099 -> 10002 -> 20097 -> 42174], [Oman -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20099 -> 100001], [Oman -> Arabian Sea] 
+
+srcNodes: [42457, 42174, 100000]
+  path: 0[20086 -> 10002 -> 20097 -> 42457], [Indonesia -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20086 -> 10002 -> 20097 -> 42174], [Indonesia -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20086 -> 100000], [Indonesia -> Andaman Sea] 
+
+srcNodes: [42457, 42174, 100018]
+  path: 0[20093 -> 10002 -> 20097 -> 42457], [Syria -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20093 -> 10002 -> 20097 -> 42174], [Syria -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20093 -> 100018], [Syria -> Mediterranean Sea] 
+
+srcNodes: [42457, 42174, 100031]
+  path: 0[20087 -> 10002 -> 20097 -> 42457], [Timor-Leste -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20087 -> 10002 -> 20097 -> 42174], [Timor-Leste -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20087 -> 100031], [Timor-Leste -> Sunda Sea] 
+
+srcNodes: [42457, 42174, 100030]
+  path: 0[110154 -> 20102 -> 10002 -> 20097 -> 42457], [Negros Negros Phillipines  -> Philippines -> Asia -> South Korea -> Seoul] 
+
+  path: 1[110154 -> 20102 -> 10002 -> 20097 -> 42174], [Negros Negros Phillipines  -> Philippines -> Asia -> South Korea -> Pusan] 
+
+  path: 2[110154 -> 100030], [Negros Negros Phillipines  -> Sulawesi Sea] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[90123 -> 20072 -> 10002 -> 20097 -> 42457], [Mekong -> Vietnam -> Asia -> South Korea -> Seoul] 
+
+  path: 1[90123 -> 20072 -> 10002 -> 20097 -> 42174], [Mekong -> Vietnam -> Asia -> South Korea -> Pusan] 
+
+  path: 2[90123 -> 100029], [Mekong -> South China Sea] 
+
+srcNodes: [42457, 42174, 100009]
+  path: 0[110150 -> 20106 -> 10002 -> 20097 -> 42457], [Taiwan Taiwan   -> Taiwan -> Asia -> South Korea -> Seoul] 
+
+  path: 1[110150 -> 20106 -> 10002 -> 20097 -> 42174], [Taiwan Taiwan   -> Taiwan -> Asia -> South Korea -> Pusan] 
+
+  path: 2[110150 -> 100009], [Taiwan Taiwan   -> East China Sea] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[110152 -> 20102 -> 10002 -> 20097 -> 42457], [Luzon Luzon Phillipines  -> Philippines -> Asia -> South Korea -> Seoul] 
+
+  path: 1[110152 -> 20102 -> 10002 -> 20097 -> 42174], [Luzon Luzon Phillipines  -> Philippines -> Asia -> South Korea -> Pusan] 
+
+  path: 2[110152 -> 100029], [Luzon Luzon Phillipines  -> South China Sea] 
+
+srcNodes: [42457, 42174, 100030]
+  path: 0[110157 -> 20102 -> 10002 -> 20097 -> 42457], [Leyte Leyte Phillipines  -> Philippines -> Asia -> South Korea -> Seoul] 
+
+  path: 1[110157 -> 20102 -> 10002 -> 20097 -> 42174], [Leyte Leyte Phillipines  -> Philippines -> Asia -> South Korea -> Pusan] 
+
+  path: 2[110157 -> 100030], [Leyte Leyte Phillipines  -> Sulawesi Sea] 
+
+srcNodes: [42457, 42174, 100030]
+  path: 0[110159 -> 20102 -> 10002 -> 20097 -> 42457], [Cebu Cebu Phillipines  -> Philippines -> Asia -> South Korea -> Seoul] 
+
+  path: 1[110159 -> 20102 -> 10002 -> 20097 -> 42174], [Cebu Cebu Phillipines  -> Philippines -> Asia -> South Korea -> Pusan] 
+
+  path: 2[110159 -> 100030], [Cebu Cebu Phillipines  -> Sulawesi Sea] 
+
+-----------------------------------------
+ResultDestNodes: [20097, 110149, 10002, 20072, 20074, 20104, 20067, 20070, 20101, 20076, 20060, 20077, 20102, 20106, 20071, 20090, 20083, 20055, 20094, 20092, 20099, 20086, 20093, 20087, 110154, 90123, 110150, 110152, 110157, 110159]
+ResultRelevs: [7.848810195922852, 5.952310085296631, 5.232540130615234, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 4.435110092163086, 4.435110092163086, 4.435110092163086, 4.435110092163086, 4.435110092163086, 4.435110092163086]
+Num of top-k answers: 30
+Num of redundant answers: 0
+Num of duplicate answers: 20
+Num of entries retrieved from the lists: 182
+Num of entries retrieved from NKMaps: 189
+Blink Search Using BDB_reduced 30
+[seoul, pusan, sea]
+srcNodes: [42457, 42174, 100009]
+  path: 0[20097 -> 42457], [South Korea -> Seoul] 
+
+  path: 1[20097 -> 42174], [South Korea -> Pusan] 
+
+  path: 2[20097 -> 100009], [South Korea -> East China Sea] 
+
+srcNodes: [42457, 42174, 100009]
+  path: 0[110149 -> 20097 -> 42457], [Jeju Jeju  volcanic -> South Korea -> Seoul] 
+
+  path: 1[110149 -> 20097 -> 42174], [Jeju Jeju  volcanic -> South Korea -> Pusan] 
+
+  path: 2[110149 -> 100009], [Jeju Jeju  volcanic -> East China Sea] 
+
+srcNodes: [42457, 42174, 100023]
+  path: 0[10002 -> 20097 -> 42457], [Asia -> South Korea -> Seoul] 
+
+  path: 1[10002 -> 20097 -> 42174], [Asia -> South Korea -> Pusan] 
+
+  path: 2[10002 -> 20101 -> 100023], [Asia -> Yemen -> Red Sea] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20072 -> 10002 -> 20097 -> 42457], [Vietnam -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20072 -> 10002 -> 20097 -> 42174], [Vietnam -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20072 -> 100029], [Vietnam -> South China Sea] 
+
+srcNodes: [42457, 42174, 100025]
+  path: 0[20074 -> 10002 -> 20097 -> 42457], [North Korea -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20074 -> 10002 -> 20097 -> 42174], [North Korea -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20074 -> 100025], [North Korea -> Sea of Japan] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20104 -> 10002 -> 20097 -> 42457], [Singapore -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20104 -> 10002 -> 20097 -> 42174], [Singapore -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20104 -> 100029], [Singapore -> South China Sea] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20067 -> 10002 -> 20097 -> 42457], [Brunei -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20067 -> 10002 -> 20097 -> 42174], [Brunei -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20067 -> 100029], [Brunei -> South China Sea] 
+
+srcNodes: [42457, 42174, 100000]
+  path: 0[20070 -> 10002 -> 20097 -> 42457], [Thailand -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20070 -> 10002 -> 20097 -> 42174], [Thailand -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20070 -> 100000], [Thailand -> Andaman Sea] 
+
+srcNodes: [42457, 42174, 100030]
+  path: 0[20102 -> 10002 -> 20097 -> 42457], [Philippines -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20102 -> 10002 -> 20097 -> 42174], [Philippines -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20102 -> 100030], [Philippines -> Sulawesi Sea] 
+
+srcNodes: [42457, 42174, 100001]
+  path: 0[20055 -> 10002 -> 20097 -> 42457], [Pakistan -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20055 -> 10002 -> 20097 -> 42174], [Pakistan -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20055 -> 100001], [Pakistan -> Arabian Sea] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20077 -> 10002 -> 20097 -> 42457], [Macau -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20077 -> 10002 -> 20097 -> 42174], [Macau -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20077 -> 100029], [Macau -> South China Sea] 
+
+srcNodes: [42457, 42174, 100018]
+  path: 0[20083 -> 10002 -> 20097 -> 42457], [Gaza Strip -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20083 -> 10002 -> 20097 -> 42174], [Gaza Strip -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20083 -> 100018], [Gaza Strip -> Mediterranean Sea] 
+
+srcNodes: [42457, 42174, 100009]
+  path: 0[20106 -> 10002 -> 20097 -> 42457], [Taiwan -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20106 -> 10002 -> 20097 -> 42174], [Taiwan -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20106 -> 100009], [Taiwan -> East China Sea] 
+
+srcNodes: [42457, 42174, 100001]
+  path: 0[20099 -> 10002 -> 20097 -> 42457], [Oman -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20099 -> 10002 -> 20097 -> 42174], [Oman -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20099 -> 100001], [Oman -> Arabian Sea] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20071 -> 10002 -> 20097 -> 42457], [Cambodia -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20071 -> 10002 -> 20097 -> 42174], [Cambodia -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20071 -> 100029], [Cambodia -> South China Sea] 
+
+srcNodes: [42457, 42174, 100023]
+  path: 0[20090 -> 10002 -> 20097 -> 42457], [Jordan -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20090 -> 10002 -> 20097 -> 42174], [Jordan -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20090 -> 100023], [Jordan -> Red Sea] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20076 -> 10002 -> 20097 -> 42457], [Hong Kong -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20076 -> 10002 -> 20097 -> 42174], [Hong Kong -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20076 -> 100029], [Hong Kong -> South China Sea] 
+
+srcNodes: [42457, 42174, 100007]
+  path: 0[20060 -> 10002 -> 20097 -> 42457], [Georgia -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20060 -> 10002 -> 20097 -> 42174], [Georgia -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20060 -> 100007], [Georgia -> Black Sea] 
+
+srcNodes: [42457, 42174, 100000]
+  path: 0[20086 -> 10002 -> 20097 -> 42457], [Indonesia -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20086 -> 10002 -> 20097 -> 42174], [Indonesia -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20086 -> 100000], [Indonesia -> Andaman Sea] 
+
+srcNodes: [42457, 42174, 100023]
+  path: 0[20101 -> 10002 -> 20097 -> 42457], [Yemen -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20101 -> 10002 -> 20097 -> 42174], [Yemen -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20101 -> 100023], [Yemen -> Red Sea] 
+
+srcNodes: [42457, 42174, 100031]
+  path: 0[20087 -> 10002 -> 20097 -> 42457], [Timor-Leste -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20087 -> 10002 -> 20097 -> 42174], [Timor-Leste -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20087 -> 100031], [Timor-Leste -> Sunda Sea] 
+
+srcNodes: [42457, 42174, 100023]
+  path: 0[20092 -> 10002 -> 20097 -> 42457], [Saudi Arabia -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20092 -> 10002 -> 20097 -> 42174], [Saudi Arabia -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20092 -> 100023], [Saudi Arabia -> Red Sea] 
+
+srcNodes: [42457, 42174, 100018]
+  path: 0[20093 -> 10002 -> 20097 -> 42457], [Syria -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20093 -> 10002 -> 20097 -> 42174], [Syria -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20093 -> 100018], [Syria -> Mediterranean Sea] 
+
+srcNodes: [42457, 42174, 100018]
+  path: 0[20094 -> 10002 -> 20097 -> 42457], [Lebanon -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20094 -> 10002 -> 20097 -> 42174], [Lebanon -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20094 -> 100018], [Lebanon -> Mediterranean Sea] 
+
+srcNodes: [42457, 42174, 100030]
+  path: 0[110154 -> 20102 -> 10002 -> 20097 -> 42457], [Negros Negros Phillipines  -> Philippines -> Asia -> South Korea -> Seoul] 
+
+  path: 1[110154 -> 20102 -> 10002 -> 20097 -> 42174], [Negros Negros Phillipines  -> Philippines -> Asia -> South Korea -> Pusan] 
+
+  path: 2[110154 -> 100030], [Negros Negros Phillipines  -> Sulawesi Sea] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[90123 -> 20072 -> 10002 -> 20097 -> 42457], [Mekong -> Vietnam -> Asia -> South Korea -> Seoul] 
+
+  path: 1[90123 -> 20072 -> 10002 -> 20097 -> 42174], [Mekong -> Vietnam -> Asia -> South Korea -> Pusan] 
+
+  path: 2[90123 -> 100029], [Mekong -> South China Sea] 
+
+srcNodes: [42457, 42174, 100009]
+  path: 0[110150 -> 20106 -> 10002 -> 20097 -> 42457], [Taiwan Taiwan   -> Taiwan -> Asia -> South Korea -> Seoul] 
+
+  path: 1[110150 -> 20106 -> 10002 -> 20097 -> 42174], [Taiwan Taiwan   -> Taiwan -> Asia -> South Korea -> Pusan] 
+
+  path: 2[110150 -> 100009], [Taiwan Taiwan   -> East China Sea] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[110152 -> 20102 -> 10002 -> 20097 -> 42457], [Luzon Luzon Phillipines  -> Philippines -> Asia -> South Korea -> Seoul] 
+
+  path: 1[110152 -> 20102 -> 10002 -> 20097 -> 42174], [Luzon Luzon Phillipines  -> Philippines -> Asia -> South Korea -> Pusan] 
+
+  path: 2[110152 -> 100029], [Luzon Luzon Phillipines  -> South China Sea] 
+
+srcNodes: [42457, 42174, 100030]
+  path: 0[110157 -> 20102 -> 10002 -> 20097 -> 42457], [Leyte Leyte Phillipines  -> Philippines -> Asia -> South Korea -> Seoul] 
+
+  path: 1[110157 -> 20102 -> 10002 -> 20097 -> 42174], [Leyte Leyte Phillipines  -> Philippines -> Asia -> South Korea -> Pusan] 
+
+  path: 2[110157 -> 100030], [Leyte Leyte Phillipines  -> Sulawesi Sea] 
+
+srcNodes: [42457, 42174, 100030]
+  path: 0[110159 -> 20102 -> 10002 -> 20097 -> 42457], [Cebu Cebu Phillipines  -> Philippines -> Asia -> South Korea -> Seoul] 
+
+  path: 1[110159 -> 20102 -> 10002 -> 20097 -> 42174], [Cebu Cebu Phillipines  -> Philippines -> Asia -> South Korea -> Pusan] 
+
+  path: 2[110159 -> 100030], [Cebu Cebu Phillipines  -> Sulawesi Sea] 
+
+-----------------------------------------
+ResultDestNodes: [20097, 110149, 10002, 20072, 20074, 20104, 20067, 20070, 20102, 20055, 20077, 20083, 20106, 20099, 20071, 20090, 20076, 20060, 20086, 20101, 20087, 20092, 20093, 20094, 110154, 90123, 110150, 110152, 110157, 110159]
+ResultRelevs: [7.848810195922852, 5.952310085296631, 5.232540130615234, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 4.435110092163086, 4.435110092163086, 4.435110092163086, 4.435110092163086, 4.435110092163086, 4.435110092163086]
+Num of top-k answers: 30
+Num of redundant answers: 0
+Num of duplicate answers: 20
+Num of entries retrieved from the lists: 182
+Num of entries retrieved from NKMaps: 228
+Num of redundant candidate answers found: 13
+Num of reduced alternative answers found: 6
+[seoul, pusan, sea]
+srcNodes: [42457, 42174, 100009]
+  path: 0[20097 -> 42457], [South Korea -> Seoul] 
+
+  path: 1[20097 -> 42174], [South Korea -> Pusan] 
+
+  path: 2[20097 -> 100009], [South Korea -> East China Sea] 
+
+srcNodes: [42457, 42174, 100023]
+  path: 0[10002 -> 20097 -> 42457], [Asia -> South Korea -> Seoul] 
+
+  path: 1[10002 -> 20097 -> 42174], [Asia -> South Korea -> Pusan] 
+
+  path: 2[10002 -> 20101 -> 100023], [Asia -> Yemen -> Red Sea] 
+
+srcNodes: [42457, 42174, 100033]
+  path: 0[110149 -> 20097 -> 42457], [Jeju Jeju  volcanic -> South Korea -> Seoul] 
+
+  path: 1[110149 -> 20097 -> 42174], [Jeju Jeju  volcanic -> South Korea -> Pusan] 
+
+  path: 2[110149 -> 20097 -> 100033], [Jeju Jeju  volcanic -> South Korea -> Yellow Sea] 
+
+This is a non-reduced answer tree with common first node 20097
+
+srcNodes: [42457, 42174, 100001]
+  path: 0[20055 -> 10002 -> 20097 -> 42457], [Pakistan -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20055 -> 10002 -> 20097 -> 42174], [Pakistan -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20055 -> 100001], [Pakistan -> Arabian Sea] 
+
+srcNodes: [42457, 42174, 100031]
+  path: 0[20087 -> 10002 -> 20097 -> 42457], [Timor-Leste -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20087 -> 10002 -> 20097 -> 42174], [Timor-Leste -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20087 -> 100031], [Timor-Leste -> Sunda Sea] 
+
+srcNodes: [42457, 42174, 100030]
+  path: 0[20102 -> 10002 -> 20097 -> 42457], [Philippines -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20102 -> 10002 -> 20097 -> 42174], [Philippines -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20102 -> 100030], [Philippines -> Sulawesi Sea] 
+
+srcNodes: [42457, 42174, 100018]
+  path: 0[20093 -> 10002 -> 20097 -> 42457], [Syria -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20093 -> 10002 -> 20097 -> 42174], [Syria -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20093 -> 100018], [Syria -> Mediterranean Sea] 
+
+srcNodes: [42457, 42174, 100007]
+  path: 0[20060 -> 10002 -> 20097 -> 42457], [Georgia -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20060 -> 10002 -> 20097 -> 42174], [Georgia -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20060 -> 100007], [Georgia -> Black Sea] 
+
+srcNodes: [42457, 42174, 100029]
+  path: 0[20067 -> 10002 -> 20097 -> 42457], [Brunei -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20067 -> 10002 -> 20097 -> 42174], [Brunei -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20067 -> 100029], [Brunei -> South China Sea] 
+
+srcNodes: [42457, 42174, 100000]
+  path: 0[20070 -> 10002 -> 20097 -> 42457], [Thailand -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20070 -> 10002 -> 20097 -> 42174], [Thailand -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20070 -> 100000], [Thailand -> Andaman Sea] 
+
+srcNodes: [42457, 42174, 100025]
+  path: 0[20074 -> 10002 -> 20097 -> 42457], [North Korea -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20074 -> 10002 -> 20097 -> 42174], [North Korea -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20074 -> 100025], [North Korea -> Sea of Japan] 
+
+srcNodes: [42457, 42174, 100014]
+  path: 0[20104 -> 10002 -> 20097 -> 42457], [Singapore -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20104 -> 10002 -> 20097 -> 42174], [Singapore -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20104 -> 100014], [Singapore -> Indian Ocean] 
+
+srcNodes: [42457, 42174, 100022]
+  path: 0[20062 -> 10002 -> 20097 -> 42457], [Bahrain -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20062 -> 10002 -> 20097 -> 42174], [Bahrain -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20062 -> 100022], [Bahrain -> Persian Gulf] 
+
+srcNodes: [42457, 42174, 80035]
+  path: 0[20095 -> 10002 -> 20097 -> 42457], [West Bank -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20095 -> 10002 -> 20097 -> 42174], [West Bank -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20095 -> 80035], [West Bank -> Dead Sea Dead Sea salt] 
+
+srcNodes: [42457, 42174, 100021]
+  path: 0[20106 -> 10002 -> 20097 -> 42457], [Taiwan -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20106 -> 10002 -> 20097 -> 42174], [Taiwan -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20106 -> 100021], [Taiwan -> Pacific Ocean] 
+
+srcNodes: [42457, 42174, 100011]
+  path: 0[20105 -> 10002 -> 20097 -> 42457], [Sri Lanka -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20105 -> 10002 -> 20097 -> 42174], [Sri Lanka -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20105 -> 100011], [Sri Lanka -> Gulf of Bengal] 
+
+srcNodes: [42457, 42174, 80042]
+  path: 0[20061 -> 10002 -> 20097 -> 42457], [Azerbaijan -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20061 -> 10002 -> 20097 -> 42174], [Azerbaijan -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20061 -> 80042], [Azerbaijan -> Caspian Sea Caspian Sea salt] 
+
+srcNodes: [42457, 42174, 100024]
+  path: 0[20023 -> 10002 -> 20097 -> 42457], [Russia -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20023 -> 10002 -> 20097 -> 42174], [Russia -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20023 -> 30294 -> 100024], [Russia -> Krasnodarsky kray -> Sea of Azov] 
+
+srcNodes: [42457, 42174, 100020]
+  path: 0[20050 -> 10004 -> 20031 -> 10002 -> 20097 -> 42457], [Svalbard -> Europe -> Turkey -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20050 -> 10004 -> 20031 -> 10002 -> 20097 -> 42174], [Svalbard -> Europe -> Turkey -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20050 -> 100020], [Svalbard -> Norwegian Sea] 
+
+srcNodes: [42457, 42174, 100015]
+  path: 0[20047 -> 10004 -> 20031 -> 10002 -> 20097 -> 42457], [Man -> Europe -> Turkey -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20047 -> 10004 -> 20031 -> 10002 -> 20097 -> 42174], [Man -> Europe -> Turkey -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20047 -> 100015], [Man -> Irish Sea] 
+
+srcNodes: [42457, 42174, 100004]
+  path: 0[20019 -> 10004 -> 20031 -> 10002 -> 20097 -> 42457], [Latvia -> Europe -> Turkey -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20019 -> 10004 -> 20031 -> 10002 -> 20097 -> 42174], [Latvia -> Europe -> Turkey -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20019 -> 100004], [Latvia -> Baltic Sea] 
+
+srcNodes: [42457, 42174, 50018]
+  path: 0[20059 -> 10002 -> 20097 -> 42457], [Armenia -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20059 -> 10002 -> 20097 -> 42174], [Armenia -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20059 -> 50018], [Armenia -> Black Sea Economic Cooperation Zone Black Sea Economic Cooperation Zone BSEC] 
+
+srcNodes: [42457, 42174, 100013]
+  path: 0[20100 -> 10002 -> 20097 -> 42457], [United Arab Emirates -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20100 -> 10002 -> 20097 -> 42174], [United Arab Emirates -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20100 -> 30924 -> 100013], [United Arab Emirates -> Al Fujayrah -> Gulf of Oman] 
+
+srcNodes: [42457, 42174, 100032]
+  path: 0[20040 -> 10004 -> 20031 -> 10002 -> 20097 -> 42457], [Guernsey -> Europe -> Turkey -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20040 -> 10004 -> 20031 -> 10002 -> 20097 -> 42174], [Guernsey -> Europe -> Turkey -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20040 -> 100032], [Guernsey -> The Channel] 
+
+srcNodes: [42457, 42174, 100017]
+  path: 0[110163 -> 20086 -> 10002 -> 20097 -> 42457], [Sumatra Sumatra Sunda Islands  -> Indonesia -> Asia -> South Korea -> Seoul] 
+
+  path: 1[110163 -> 20086 -> 10002 -> 20097 -> 42174], [Sumatra Sumatra Sunda Islands  -> Indonesia -> Asia -> South Korea -> Pusan] 
+
+  path: 2[110163 -> 100017], [Sumatra Sumatra Sunda Islands  -> Malakka Strait] 
+
+srcNodes: [42457, 42174, 100005]
+  path: 0[20072 -> 10002 -> 20097 -> 42457], [Vietnam -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20072 -> 10002 -> 20097 -> 42174], [Vietnam -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20072 -> 10002 -> 20023 -> 30245 -> 100005], [Vietnam -> Asia -> Russia -> Murmanskaya oblast -> Barents Sea] 
+
+This is a non-reduced answer tree with common first node 10002
+
+srcNodes: [42457, 42174, 100010]
+  path: 0[20220 -> 10000 -> 20085 -> 10002 -> 20097 -> 42457], [Somalia -> Africa -> Egypt -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20220 -> 10000 -> 20085 -> 10002 -> 20097 -> 42174], [Somalia -> Africa -> Egypt -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20220 -> 100010], [Somalia -> Gulf of Aden] 
+
+srcNodes: [42457, 42174, 100003]
+  path: 0[20186 -> 10000 -> 20085 -> 10002 -> 20097 -> 42457], [Morocco -> Africa -> Egypt -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20186 -> 10000 -> 20085 -> 10002 -> 20097 -> 42174], [Morocco -> Africa -> Egypt -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20186 -> 100003], [Morocco -> Atlantic Ocean] 
+
+srcNodes: [42457, 42174, 100019]
+  path: 0[20026 -> 10004 -> 20031 -> 10002 -> 20097 -> 42457], [Netherlands -> Europe -> Turkey -> Asia -> South Korea -> Seoul] 
+
+  path: 1[20026 -> 10004 -> 20031 -> 10002 -> 20097 -> 42174], [Netherlands -> Europe -> Turkey -> Asia -> South Korea -> Pusan] 
+
+  path: 2[20026 -> 30340 -> 100019], [Netherlands -> Zeeland -> North Sea] 
+
+srcNodes: [42457, 42174, 100027]
+  path: 0[115 -> 20055 -> 10002 -> 20097 -> 42457], [Broad Peak Broad Peak Karakorum  -> Pakistan -> Asia -> South Korea -> Seoul] 
+
+  path: 1[115 -> 20055 -> 10002 -> 20097 -> 42174], [Broad Peak Broad Peak Karakorum  -> Pakistan -> Asia -> South Korea -> Pusan] 
+
+  path: 2[115 -> 30657 -> 90105 -> 30305 -> 100027], [Broad Peak Broad Peak Karakorum  -> Xinjiang Uygur -> Irtysch -> Tyumenskaya oblast -> Sibirian Sea] 
+
+-----------------------------------------
+ResultDestNodes: [20097, 10002, 110149, 20055, 20087, 20102, 20093, 20060, 20067, 20070, 20074, 20104, 20062, 20095, 20106, 20105, 20061, 20023, 20050, 20047, 20019, 20059, 20100, 20040, 110163, 20072, 20220, 20186, 20026, 115]
+ResultRelevs: [7.848810195922852, 5.232540130615234, 5.232540130615234, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 5.004050254821777, 4.371600151062012, 4.371600151062012, 4.371600151062012, 4.371600151062012, 4.371600151062012, 4.371600151062012, 4.284279823303223, 4.055811882019043, 4.055811882019043, 4.055811882019043, 3.9898898601531982, 3.862649917602539, 3.805081844329834, 3.8026599884033203, 3.7084648609161377, 3.4233620166778564, 3.4233620166778564, 3.3360419273376465, 3.1395251750946045]
+Num of top-k answers: 30
+Num of redundant answers in top-k answers: 2
+Num of duplicate answers in top-k answers: 0
+Num of entries retrieved from the lists: 1329
+Num of redundant candidate answers found: 201
+Num of reduced alternative answers found: 44
+Num of duplicate candidate answers found: 263
+Num of unique alternative answers found: 13

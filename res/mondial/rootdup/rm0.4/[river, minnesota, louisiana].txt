@@ -1,0 +1,898 @@
+Blink Search Using BDB 10
+[river, minnesota, louisiana]
+srcNodes: [90142, 31009, 31004]
+  path: 0[31009 -> 90142], [Minnesota -> Mississippi] 
+
+  path: 1[31009 -> 31009], [Minnesota -> Minnesota]
+  path: 2[31009 -> 90142 -> 31004], [Minnesota -> Mississippi -> Louisiana] 
+
+srcNodes: [90142, 31009, 31004]
+  path: 0[31004 -> 90142], [Louisiana -> Mississippi] 
+
+  path: 1[31004 -> 90142 -> 31009], [Louisiana -> Mississippi -> Minnesota] 
+
+  path: 2[31004 -> 31004], [Louisiana -> Louisiana]
+srcNodes: [90142, 31009, 31004]
+  path: 0[90142 -> 90142], [Mississippi -> Mississippi]
+  path: 1[90142 -> 31009], [Mississippi -> Minnesota] 
+
+  path: 2[90142 -> 31004], [Mississippi -> Louisiana] 
+
+srcNodes: [90141, 31009, 31004]
+  path: 0[20118 -> 31018 -> 90141], [United States -> New York -> Hudson River] 
+
+  path: 1[20118 -> 31009], [United States -> Minnesota] 
+
+  path: 2[20118 -> 31004], [United States -> Louisiana] 
+
+srcNodes: [90145, 31009, 31004]
+  path: 0[90145 -> 90145], [Ohio River -> Ohio River]
+  path: 1[90145 -> 31003 -> 90142 -> 31009], [Ohio River -> Kentucky -> Mississippi -> Minnesota] 
+
+  path: 2[90145 -> 31003 -> 90142 -> 31004], [Ohio River -> Kentucky -> Mississippi -> Louisiana] 
+
+srcNodes: [90144, 31009, 31004]
+  path: 0[90144 -> 90144], [Arkansas -> Arkansas]
+  path: 1[90144 -> 30990 -> 90142 -> 31009], [Arkansas -> Arkansas -> Mississippi -> Minnesota] 
+
+  path: 2[90144 -> 30990 -> 90142 -> 31004], [Arkansas -> Arkansas -> Mississippi -> Louisiana] 
+
+srcNodes: [90147, 31009, 31004]
+  path: 0[90147 -> 90147], [Tennessee -> Tennessee]
+  path: 1[90147 -> 31028 -> 90142 -> 31009], [Tennessee -> Tennessee -> Mississippi -> Minnesota] 
+
+  path: 2[90147 -> 31028 -> 90142 -> 31004], [Tennessee -> Tennessee -> Mississippi -> Louisiana] 
+
+srcNodes: [90143, 31009, 31004]
+  path: 0[90143 -> 90143], [Missouri -> Missouri]
+  path: 1[90143 -> 31011 -> 90142 -> 31009], [Missouri -> Missouri -> Mississippi -> Minnesota] 
+
+  path: 2[90143 -> 31011 -> 90142 -> 31004], [Missouri -> Missouri -> Mississippi -> Louisiana] 
+
+srcNodes: [90145, 31009, 31004]
+  path: 0[30999 -> 90145], [Illinois -> Ohio River] 
+
+  path: 1[30999 -> 90142 -> 31009], [Illinois -> Mississippi -> Minnesota] 
+
+  path: 2[30999 -> 90142 -> 31004], [Illinois -> Mississippi -> Louisiana] 
+
+srcNodes: [90145, 31009, 31004]
+  path: 0[31003 -> 90145], [Kentucky -> Ohio River] 
+
+  path: 1[31003 -> 90142 -> 31009], [Kentucky -> Mississippi -> Minnesota] 
+
+  path: 2[31003 -> 90142 -> 31004], [Kentucky -> Mississippi -> Louisiana] 
+
+-----------------------------------------
+ResultDestNodes: [31009, 31004, 90142, 20118, 90145, 90144, 90147, 90143, 30999, 31003]
+ResultRelevs: [8.96325969696045, 8.96325969696045, 8.444040298461914, 6.728300094604492, 5.961150169372559, 5.599279880523682, 5.599279880523682, 5.599279880523682, 5.351200103759766, 5.351200103759766]
+Num of top-k answers: 10
+Num of non-reduced answers: 0
+Num of duplicate answers: 4
+Num of non-redundant answers: 6
+Num of entries retrieved from the lists: 227
+Num of entries retrieved from NKMaps: 228
+
+Blink Search Using ConstRootDup10
+[river, minnesota, louisiana]
+srcNodes: [90142, 31009, 31004]
+  path: 0[31009 -> 90142], [Minnesota -> Mississippi] 
+
+  path: 1[31009 -> 31009], [Minnesota -> Minnesota]
+  path: 2[31009 -> 90142 -> 31004], [Minnesota -> Mississippi -> Louisiana] 
+
+srcNodes: [90142, 31009, 31004]
+  path: 0[31004 -> 90142], [Louisiana -> Mississippi] 
+
+  path: 1[31004 -> 90142 -> 31009], [Louisiana -> Mississippi -> Minnesota] 
+
+  path: 2[31004 -> 31004], [Louisiana -> Louisiana]
+srcNodes: [90142, 31009, 31004]
+  path: 0[90142 -> 90142], [Mississippi -> Mississippi]
+  path: 1[90142 -> 31009], [Mississippi -> Minnesota] 
+
+  path: 2[90142 -> 31004], [Mississippi -> Louisiana] 
+
+srcNodes: [90145, 31009, 31004]
+  path: 0[31009 -> 90142 -> 31003 -> 90145], [Minnesota -> Mississippi -> Kentucky -> Ohio River] 
+
+  path: 1[31009 -> 31009], [Minnesota -> Minnesota]
+  path: 2[31009 -> 90142 -> 31004], [Minnesota -> Mississippi -> Louisiana] 
+
+srcNodes: [90145, 31009, 31004]
+  path: 0[31004 -> 90142 -> 31003 -> 90145], [Louisiana -> Mississippi -> Kentucky -> Ohio River] 
+
+  path: 1[31004 -> 90142 -> 31009], [Louisiana -> Mississippi -> Minnesota] 
+
+  path: 2[31004 -> 31004], [Louisiana -> Louisiana]
+srcNodes: [90143, 31009, 31004]
+  path: 0[31009 -> 90142 -> 31011 -> 90143], [Minnesota -> Mississippi -> Missouri -> Missouri] 
+
+  path: 1[31009 -> 31009], [Minnesota -> Minnesota]
+  path: 2[31009 -> 90142 -> 31004], [Minnesota -> Mississippi -> Louisiana] 
+
+srcNodes: [90141, 31009, 31004]
+  path: 0[20118 -> 31018 -> 90141], [United States -> New York -> Hudson River] 
+
+  path: 1[20118 -> 31009], [United States -> Minnesota] 
+
+  path: 2[20118 -> 31004], [United States -> Louisiana] 
+
+srcNodes: [90145, 31009, 31004]
+  path: 0[90145 -> 90145], [Ohio River -> Ohio River]
+  path: 1[90145 -> 31003 -> 90142 -> 31009], [Ohio River -> Kentucky -> Mississippi -> Minnesota] 
+
+  path: 2[90145 -> 31003 -> 90142 -> 31004], [Ohio River -> Kentucky -> Mississippi -> Louisiana] 
+
+srcNodes: [90144, 31009, 31004]
+  path: 0[90144 -> 90144], [Arkansas -> Arkansas]
+  path: 1[90144 -> 30990 -> 90142 -> 31009], [Arkansas -> Arkansas -> Mississippi -> Minnesota] 
+
+  path: 2[90144 -> 30990 -> 90142 -> 31004], [Arkansas -> Arkansas -> Mississippi -> Louisiana] 
+
+srcNodes: [90147, 31009, 31004]
+  path: 0[90147 -> 90147], [Tennessee -> Tennessee]
+  path: 1[90147 -> 31028 -> 90142 -> 31009], [Tennessee -> Tennessee -> Mississippi -> Minnesota] 
+
+  path: 2[90147 -> 31028 -> 90142 -> 31004], [Tennessee -> Tennessee -> Mississippi -> Louisiana] 
+
+-----------------------------------------
+ResultDestNodes: 
+31009, 31004, 90142, 31009, 31004, 31009, 20118, 90145, 90144, 90147, 
+ResultRelevs: 
+8.96326, 8.96326, 8.44404, 8.365091, 8.365091, 8.274625, 6.7283, 5.96115, 5.59928, 5.59928, 
+Num of top-k answers: 10
+Num of duplicate answers: 4
+Num of duplicate roots in top-k answers: 3
+root duplication ratio: 0.33333334
+given max root duplication param: 0.4
+Num of entries retrieved from the lists: 108
+Num of entries retrieved from NKMaps: 522
+Num of answer trees explored: 284
+
+Blink Search Using BDB 20
+[river, minnesota, louisiana]
+srcNodes: [90142, 31009, 31004]
+  path: 0[31004 -> 90142], [Louisiana -> Mississippi] 
+
+  path: 1[31004 -> 90142 -> 31009], [Louisiana -> Mississippi -> Minnesota] 
+
+  path: 2[31004 -> 31004], [Louisiana -> Louisiana]
+srcNodes: [90142, 31009, 31004]
+  path: 0[31009 -> 90142], [Minnesota -> Mississippi] 
+
+  path: 1[31009 -> 31009], [Minnesota -> Minnesota]
+  path: 2[31009 -> 90142 -> 31004], [Minnesota -> Mississippi -> Louisiana] 
+
+srcNodes: [90142, 31009, 31004]
+  path: 0[90142 -> 90142], [Mississippi -> Mississippi]
+  path: 1[90142 -> 31009], [Mississippi -> Minnesota] 
+
+  path: 2[90142 -> 31004], [Mississippi -> Louisiana] 
+
+srcNodes: [90141, 31009, 31004]
+  path: 0[20118 -> 31018 -> 90141], [United States -> New York -> Hudson River] 
+
+  path: 1[20118 -> 31009], [United States -> Minnesota] 
+
+  path: 2[20118 -> 31004], [United States -> Louisiana] 
+
+srcNodes: [90145, 31009, 31004]
+  path: 0[90145 -> 90145], [Ohio River -> Ohio River]
+  path: 1[90145 -> 31003 -> 90142 -> 31009], [Ohio River -> Kentucky -> Mississippi -> Minnesota] 
+
+  path: 2[90145 -> 31003 -> 90142 -> 31004], [Ohio River -> Kentucky -> Mississippi -> Louisiana] 
+
+srcNodes: [90147, 31009, 31004]
+  path: 0[90147 -> 90147], [Tennessee -> Tennessee]
+  path: 1[90147 -> 31028 -> 90142 -> 31009], [Tennessee -> Tennessee -> Mississippi -> Minnesota] 
+
+  path: 2[90147 -> 31028 -> 90142 -> 31004], [Tennessee -> Tennessee -> Mississippi -> Louisiana] 
+
+srcNodes: [90144, 31009, 31004]
+  path: 0[90144 -> 90144], [Arkansas -> Arkansas]
+  path: 1[90144 -> 30990 -> 90142 -> 31009], [Arkansas -> Arkansas -> Mississippi -> Minnesota] 
+
+  path: 2[90144 -> 30990 -> 90142 -> 31004], [Arkansas -> Arkansas -> Mississippi -> Louisiana] 
+
+srcNodes: [90143, 31009, 31004]
+  path: 0[90143 -> 90143], [Missouri -> Missouri]
+  path: 1[90143 -> 31011 -> 90142 -> 31009], [Missouri -> Missouri -> Mississippi -> Minnesota] 
+
+  path: 2[90143 -> 31011 -> 90142 -> 31004], [Missouri -> Missouri -> Mississippi -> Louisiana] 
+
+srcNodes: [90145, 31009, 31004]
+  path: 0[30999 -> 90145], [Illinois -> Ohio River] 
+
+  path: 1[30999 -> 90142 -> 31009], [Illinois -> Mississippi -> Minnesota] 
+
+  path: 2[30999 -> 90142 -> 31004], [Illinois -> Mississippi -> Louisiana] 
+
+srcNodes: [90145, 31009, 31004]
+  path: 0[31003 -> 90145], [Kentucky -> Ohio River] 
+
+  path: 1[31003 -> 90142 -> 31009], [Kentucky -> Mississippi -> Minnesota] 
+
+  path: 2[31003 -> 90142 -> 31004], [Kentucky -> Mississippi -> Louisiana] 
+
+srcNodes: [90142, 31009, 31004]
+  path: 0[31011 -> 90142], [Missouri -> Mississippi] 
+
+  path: 1[31011 -> 90142 -> 31009], [Missouri -> Mississippi -> Minnesota] 
+
+  path: 2[31011 -> 90142 -> 31004], [Missouri -> Mississippi -> Louisiana] 
+
+This is a non-reduced answer tree with common first node 90142
+
+srcNodes: [90142, 31009, 31004]
+  path: 0[40255 -> 90142], [Baton Rouge -> Mississippi] 
+
+  path: 1[40255 -> 90142 -> 31009], [Baton Rouge -> Mississippi -> Minnesota] 
+
+  path: 2[40255 -> 90142 -> 31004], [Baton Rouge -> Mississippi -> Louisiana] 
+
+This is a non-reduced answer tree with common first node 90142
+
+srcNodes: [90142, 31009, 31004]
+  path: 0[41717 -> 90142], [Minneapolis -> Mississippi] 
+
+  path: 1[41717 -> 90142 -> 31009], [Minneapolis -> Mississippi -> Minnesota] 
+
+  path: 2[41717 -> 90142 -> 31004], [Minneapolis -> Mississippi -> Louisiana] 
+
+This is a non-reduced answer tree with common first node 90142
+
+srcNodes: [90142, 31009, 31004]
+  path: 0[30990 -> 90142], [Arkansas -> Mississippi] 
+
+  path: 1[30990 -> 90142 -> 31009], [Arkansas -> Mississippi -> Minnesota] 
+
+  path: 2[30990 -> 90142 -> 31004], [Arkansas -> Mississippi -> Louisiana] 
+
+This is a non-reduced answer tree with common first node 90142
+
+srcNodes: [90142, 31009, 31004]
+  path: 0[31001 -> 90142], [Iowa -> Mississippi] 
+
+  path: 1[31001 -> 90142 -> 31009], [Iowa -> Mississippi -> Minnesota] 
+
+  path: 2[31001 -> 90142 -> 31004], [Iowa -> Mississippi -> Louisiana] 
+
+This is a non-reduced answer tree with common first node 90142
+
+srcNodes: [90142, 31009, 31004]
+  path: 0[41866 -> 90142], [New Orleans -> Mississippi] 
+
+  path: 1[41866 -> 90142 -> 31009], [New Orleans -> Mississippi -> Minnesota] 
+
+  path: 2[41866 -> 90142 -> 31004], [New Orleans -> Mississippi -> Louisiana] 
+
+This is a non-reduced answer tree with common first node 90142
+
+srcNodes: [90147, 31009, 31004]
+  path: 0[31028 -> 90147], [Tennessee -> Tennessee] 
+
+  path: 1[31028 -> 90142 -> 31009], [Tennessee -> Mississippi -> Minnesota] 
+
+  path: 2[31028 -> 90142 -> 31004], [Tennessee -> Mississippi -> Louisiana] 
+
+srcNodes: [90142, 31009, 31004]
+  path: 0[42578 -> 90142], [St. Paul -> Mississippi] 
+
+  path: 1[42578 -> 90142 -> 31009], [St. Paul -> Mississippi -> Minnesota] 
+
+  path: 2[42578 -> 90142 -> 31004], [St. Paul -> Mississippi -> Louisiana] 
+
+This is a non-reduced answer tree with common first node 90142
+
+srcNodes: [90142, 31009, 31004]
+  path: 0[31035 -> 90142], [Wisconsin -> Mississippi] 
+
+  path: 1[31035 -> 90142 -> 31009], [Wisconsin -> Mississippi -> Minnesota] 
+
+  path: 2[31035 -> 90142 -> 31004], [Wisconsin -> Mississippi -> Louisiana] 
+
+This is a non-reduced answer tree with common first node 90142
+
+srcNodes: [90142, 31009, 31004]
+  path: 0[31010 -> 90142], [Mississippi -> Mississippi] 
+
+  path: 1[31010 -> 90142 -> 31009], [Mississippi -> Mississippi -> Minnesota] 
+
+  path: 2[31010 -> 90142 -> 31004], [Mississippi -> Mississippi -> Louisiana] 
+
+This is a non-reduced answer tree with common first node 90142
+
+-----------------------------------------
+ResultDestNodes: [31004, 31009, 90142, 20118, 90145, 90147, 90144, 90143, 30999, 31003, 31011, 40255, 41717, 30990, 31001, 41866, 31028, 42578, 31035, 31010]
+ResultRelevs: [8.96325969696045, 8.96325969696045, 8.444040298461914, 6.728300094604492, 5.961150169372559, 5.599279880523682, 5.599279880523682, 5.599279880523682, 5.351200103759766, 5.351200103759766, 5.170269966125488, 5.170269966125488, 5.170269966125488, 5.170269966125488, 5.170269966125488, 5.170269966125488, 5.170269966125488, 5.170269966125488, 5.170269966125488, 5.170269966125488]
+Num of top-k answers: 20
+Num of non-reduced answers: 9
+Num of duplicate answers: 14
+Num of non-redundant answers: 6
+Num of entries retrieved from the lists: 228
+Num of entries retrieved from NKMaps: 230
+
+Blink Search Using ConstRootDup20
+[river, minnesota, louisiana]
+srcNodes: [90142, 31009, 31004]
+  path: 0[31004 -> 90142], [Louisiana -> Mississippi] 
+
+  path: 1[31004 -> 90142 -> 31009], [Louisiana -> Mississippi -> Minnesota] 
+
+  path: 2[31004 -> 31004], [Louisiana -> Louisiana]
+srcNodes: [90142, 31009, 31004]
+  path: 0[31009 -> 90142], [Minnesota -> Mississippi] 
+
+  path: 1[31009 -> 31009], [Minnesota -> Minnesota]
+  path: 2[31009 -> 90142 -> 31004], [Minnesota -> Mississippi -> Louisiana] 
+
+srcNodes: [90142, 31009, 31004]
+  path: 0[90142 -> 90142], [Mississippi -> Mississippi]
+  path: 1[90142 -> 31009], [Mississippi -> Minnesota] 
+
+  path: 2[90142 -> 31004], [Mississippi -> Louisiana] 
+
+srcNodes: [90145, 31009, 31004]
+  path: 0[31009 -> 90142 -> 31003 -> 90145], [Minnesota -> Mississippi -> Kentucky -> Ohio River] 
+
+  path: 1[31009 -> 31009], [Minnesota -> Minnesota]
+  path: 2[31009 -> 90142 -> 31004], [Minnesota -> Mississippi -> Louisiana] 
+
+srcNodes: [90145, 31009, 31004]
+  path: 0[31004 -> 90142 -> 31003 -> 90145], [Louisiana -> Mississippi -> Kentucky -> Ohio River] 
+
+  path: 1[31004 -> 90142 -> 31009], [Louisiana -> Mississippi -> Minnesota] 
+
+  path: 2[31004 -> 31004], [Louisiana -> Louisiana]
+srcNodes: [90143, 31009, 31004]
+  path: 0[31009 -> 90142 -> 31011 -> 90143], [Minnesota -> Mississippi -> Missouri -> Missouri] 
+
+  path: 1[31009 -> 31009], [Minnesota -> Minnesota]
+  path: 2[31009 -> 90142 -> 31004], [Minnesota -> Mississippi -> Louisiana] 
+
+srcNodes: [90143, 31009, 31004]
+  path: 0[31004 -> 90142 -> 31011 -> 90143], [Louisiana -> Mississippi -> Missouri -> Missouri] 
+
+  path: 1[31004 -> 90142 -> 31009], [Louisiana -> Mississippi -> Minnesota] 
+
+  path: 2[31004 -> 31004], [Louisiana -> Louisiana]
+srcNodes: [90146, 31009, 31004]
+  path: 0[31004 -> 90142 -> 31003 -> 90145 -> 31024 -> 90146], [Louisiana -> Mississippi -> Kentucky -> Ohio River -> Pennsylvania -> Allegheny River] 
+
+  path: 1[31004 -> 90142 -> 31009], [Louisiana -> Mississippi -> Minnesota] 
+
+  path: 2[31004 -> 31004], [Louisiana -> Louisiana]
+srcNodes: [90146, 31009, 31004]
+  path: 0[31009 -> 90142 -> 31003 -> 90145 -> 31024 -> 90146], [Minnesota -> Mississippi -> Kentucky -> Ohio River -> Pennsylvania -> Allegheny River] 
+
+  path: 1[31009 -> 31009], [Minnesota -> Minnesota]
+  path: 2[31009 -> 90142 -> 31004], [Minnesota -> Mississippi -> Louisiana] 
+
+srcNodes: [90150, 31009, 31004]
+  path: 0[31004 -> 90142 -> 30990 -> 90144 -> 30992 -> 90150], [Louisiana -> Mississippi -> Arkansas -> Arkansas -> Colorado -> Colorado] 
+
+  path: 1[31004 -> 90142 -> 31009], [Louisiana -> Mississippi -> Minnesota] 
+
+  path: 2[31004 -> 31004], [Louisiana -> Louisiana]
+srcNodes: [90141, 31009, 31004]
+  path: 0[20118 -> 31018 -> 90141], [United States -> New York -> Hudson River] 
+
+  path: 1[20118 -> 31009], [United States -> Minnesota] 
+
+  path: 2[20118 -> 31004], [United States -> Louisiana] 
+
+srcNodes: [90145, 31009, 31004]
+  path: 0[90145 -> 90145], [Ohio River -> Ohio River]
+  path: 1[90145 -> 31003 -> 90142 -> 31009], [Ohio River -> Kentucky -> Mississippi -> Minnesota] 
+
+  path: 2[90145 -> 31003 -> 90142 -> 31004], [Ohio River -> Kentucky -> Mississippi -> Louisiana] 
+
+srcNodes: [90147, 31009, 31004]
+  path: 0[90147 -> 90147], [Tennessee -> Tennessee]
+  path: 1[90147 -> 31028 -> 90142 -> 31009], [Tennessee -> Tennessee -> Mississippi -> Minnesota] 
+
+  path: 2[90147 -> 31028 -> 90142 -> 31004], [Tennessee -> Tennessee -> Mississippi -> Louisiana] 
+
+srcNodes: [90144, 31009, 31004]
+  path: 0[90144 -> 90144], [Arkansas -> Arkansas]
+  path: 1[90144 -> 30990 -> 90142 -> 31009], [Arkansas -> Arkansas -> Mississippi -> Minnesota] 
+
+  path: 2[90144 -> 30990 -> 90142 -> 31004], [Arkansas -> Arkansas -> Mississippi -> Louisiana] 
+
+srcNodes: [90143, 31009, 31004]
+  path: 0[90143 -> 90143], [Missouri -> Missouri]
+  path: 1[90143 -> 31011 -> 90142 -> 31009], [Missouri -> Missouri -> Mississippi -> Minnesota] 
+
+  path: 2[90143 -> 31011 -> 90142 -> 31004], [Missouri -> Missouri -> Mississippi -> Louisiana] 
+
+srcNodes: [90145, 31009, 31004]
+  path: 0[30999 -> 90145], [Illinois -> Ohio River] 
+
+  path: 1[30999 -> 90142 -> 31009], [Illinois -> Mississippi -> Minnesota] 
+
+  path: 2[30999 -> 90142 -> 31004], [Illinois -> Mississippi -> Louisiana] 
+
+srcNodes: [90145, 31009, 31004]
+  path: 0[31003 -> 90145], [Kentucky -> Ohio River] 
+
+  path: 1[31003 -> 90142 -> 31009], [Kentucky -> Mississippi -> Minnesota] 
+
+  path: 2[31003 -> 90142 -> 31004], [Kentucky -> Mississippi -> Louisiana] 
+
+srcNodes: [90142, 31009, 31004]
+  path: 0[41688 -> 90142], [Memphis -> Mississippi] 
+
+  path: 1[41688 -> 90142 -> 31009], [Memphis -> Mississippi -> Minnesota] 
+
+  path: 2[41688 -> 90142 -> 31004], [Memphis -> Mississippi -> Louisiana] 
+
+srcNodes: [90142, 31009, 31004]
+  path: 0[30990 -> 90142], [Arkansas -> Mississippi] 
+
+  path: 1[30990 -> 90142 -> 31009], [Arkansas -> Mississippi -> Minnesota] 
+
+  path: 2[30990 -> 90142 -> 31004], [Arkansas -> Mississippi -> Louisiana] 
+
+srcNodes: [90142, 31009, 31004]
+  path: 0[31011 -> 90142], [Missouri -> Mississippi] 
+
+  path: 1[31011 -> 90142 -> 31009], [Missouri -> Mississippi -> Minnesota] 
+
+  path: 2[31011 -> 90142 -> 31004], [Missouri -> Mississippi -> Louisiana] 
+
+-----------------------------------------
+ResultDestNodes: 
+31004, 31009, 90142, 31009, 31004, 31009, 31004, 31004, 31009, 31004, 20118, 90145, 90147, 90144, 90143, 30999, 31003, 41688, 30990, 31011, 
+ResultRelevs: 
+8.96326, 8.96326, 8.44404, 8.365091, 8.365091, 8.274625, 8.274625, 8.105392, 8.1053915, 8.045081, 6.7283, 5.96115, 5.59928, 5.59928, 5.59928, 5.3512, 5.3512, 5.17027, 5.17027, 5.17027, 
+Num of top-k answers: 20
+Num of duplicate answers: 12
+Num of duplicate roots in top-k answers: 7
+root duplication ratio: 0.36842105
+given max root duplication param: 0.4
+Num of entries retrieved from the lists: 228
+Num of entries retrieved from NKMaps: 860
+Num of answer trees explored: 408
+
+Blink Search Using BDB 30
+[river, minnesota, louisiana]
+srcNodes: [90142, 31009, 31004]
+  path: 0[31009 -> 90142], [Minnesota -> Mississippi] 
+
+  path: 1[31009 -> 31009], [Minnesota -> Minnesota]
+  path: 2[31009 -> 90142 -> 31004], [Minnesota -> Mississippi -> Louisiana] 
+
+srcNodes: [90142, 31009, 31004]
+  path: 0[31004 -> 90142], [Louisiana -> Mississippi] 
+
+  path: 1[31004 -> 90142 -> 31009], [Louisiana -> Mississippi -> Minnesota] 
+
+  path: 2[31004 -> 31004], [Louisiana -> Louisiana]
+srcNodes: [90142, 31009, 31004]
+  path: 0[90142 -> 90142], [Mississippi -> Mississippi]
+  path: 1[90142 -> 31009], [Mississippi -> Minnesota] 
+
+  path: 2[90142 -> 31004], [Mississippi -> Louisiana] 
+
+srcNodes: [90141, 31009, 31004]
+  path: 0[20118 -> 31018 -> 90141], [United States -> New York -> Hudson River] 
+
+  path: 1[20118 -> 31009], [United States -> Minnesota] 
+
+  path: 2[20118 -> 31004], [United States -> Louisiana] 
+
+srcNodes: [90145, 31009, 31004]
+  path: 0[90145 -> 90145], [Ohio River -> Ohio River]
+  path: 1[90145 -> 31003 -> 90142 -> 31009], [Ohio River -> Kentucky -> Mississippi -> Minnesota] 
+
+  path: 2[90145 -> 31003 -> 90142 -> 31004], [Ohio River -> Kentucky -> Mississippi -> Louisiana] 
+
+srcNodes: [90144, 31009, 31004]
+  path: 0[90144 -> 90144], [Arkansas -> Arkansas]
+  path: 1[90144 -> 30990 -> 90142 -> 31009], [Arkansas -> Arkansas -> Mississippi -> Minnesota] 
+
+  path: 2[90144 -> 30990 -> 90142 -> 31004], [Arkansas -> Arkansas -> Mississippi -> Louisiana] 
+
+srcNodes: [90147, 31009, 31004]
+  path: 0[90147 -> 90147], [Tennessee -> Tennessee]
+  path: 1[90147 -> 31028 -> 90142 -> 31009], [Tennessee -> Tennessee -> Mississippi -> Minnesota] 
+
+  path: 2[90147 -> 31028 -> 90142 -> 31004], [Tennessee -> Tennessee -> Mississippi -> Louisiana] 
+
+srcNodes: [90143, 31009, 31004]
+  path: 0[90143 -> 90143], [Missouri -> Missouri]
+  path: 1[90143 -> 31011 -> 90142 -> 31009], [Missouri -> Missouri -> Mississippi -> Minnesota] 
+
+  path: 2[90143 -> 31011 -> 90142 -> 31004], [Missouri -> Missouri -> Mississippi -> Louisiana] 
+
+srcNodes: [90145, 31009, 31004]
+  path: 0[30999 -> 90145], [Illinois -> Ohio River] 
+
+  path: 1[30999 -> 90142 -> 31009], [Illinois -> Mississippi -> Minnesota] 
+
+  path: 2[30999 -> 90142 -> 31004], [Illinois -> Mississippi -> Louisiana] 
+
+srcNodes: [90145, 31009, 31004]
+  path: 0[31003 -> 90145], [Kentucky -> Ohio River] 
+
+  path: 1[31003 -> 90142 -> 31009], [Kentucky -> Mississippi -> Minnesota] 
+
+  path: 2[31003 -> 90142 -> 31004], [Kentucky -> Mississippi -> Louisiana] 
+
+srcNodes: [90142, 31009, 31004]
+  path: 0[31011 -> 90142], [Missouri -> Mississippi] 
+
+  path: 1[31011 -> 90142 -> 31009], [Missouri -> Mississippi -> Minnesota] 
+
+  path: 2[31011 -> 90142 -> 31004], [Missouri -> Mississippi -> Louisiana] 
+
+This is a non-reduced answer tree with common first node 90142
+
+srcNodes: [90142, 31009, 31004]
+  path: 0[40255 -> 90142], [Baton Rouge -> Mississippi] 
+
+  path: 1[40255 -> 90142 -> 31009], [Baton Rouge -> Mississippi -> Minnesota] 
+
+  path: 2[40255 -> 90142 -> 31004], [Baton Rouge -> Mississippi -> Louisiana] 
+
+This is a non-reduced answer tree with common first node 90142
+
+srcNodes: [90142, 31009, 31004]
+  path: 0[41717 -> 90142], [Minneapolis -> Mississippi] 
+
+  path: 1[41717 -> 90142 -> 31009], [Minneapolis -> Mississippi -> Minnesota] 
+
+  path: 2[41717 -> 90142 -> 31004], [Minneapolis -> Mississippi -> Louisiana] 
+
+This is a non-reduced answer tree with common first node 90142
+
+srcNodes: [90142, 31009, 31004]
+  path: 0[30990 -> 90142], [Arkansas -> Mississippi] 
+
+  path: 1[30990 -> 90142 -> 31009], [Arkansas -> Mississippi -> Minnesota] 
+
+  path: 2[30990 -> 90142 -> 31004], [Arkansas -> Mississippi -> Louisiana] 
+
+This is a non-reduced answer tree with common first node 90142
+
+srcNodes: [90142, 31009, 31004]
+  path: 0[31001 -> 90142], [Iowa -> Mississippi] 
+
+  path: 1[31001 -> 90142 -> 31009], [Iowa -> Mississippi -> Minnesota] 
+
+  path: 2[31001 -> 90142 -> 31004], [Iowa -> Mississippi -> Louisiana] 
+
+This is a non-reduced answer tree with common first node 90142
+
+srcNodes: [90142, 31009, 31004]
+  path: 0[41866 -> 90142], [New Orleans -> Mississippi] 
+
+  path: 1[41866 -> 90142 -> 31009], [New Orleans -> Mississippi -> Minnesota] 
+
+  path: 2[41866 -> 90142 -> 31004], [New Orleans -> Mississippi -> Louisiana] 
+
+This is a non-reduced answer tree with common first node 90142
+
+srcNodes: [90142, 31009, 31004]
+  path: 0[42577 -> 90142], [St. Louis -> Mississippi] 
+
+  path: 1[42577 -> 90142 -> 31009], [St. Louis -> Mississippi -> Minnesota] 
+
+  path: 2[42577 -> 90142 -> 31004], [St. Louis -> Mississippi -> Louisiana] 
+
+This is a non-reduced answer tree with common first node 90142
+
+srcNodes: [90147, 31009, 31004]
+  path: 0[31028 -> 90147], [Tennessee -> Tennessee] 
+
+  path: 1[31028 -> 90142 -> 31009], [Tennessee -> Mississippi -> Minnesota] 
+
+  path: 2[31028 -> 90142 -> 31004], [Tennessee -> Mississippi -> Louisiana] 
+
+srcNodes: [90142, 31009, 31004]
+  path: 0[42578 -> 90142], [St. Paul -> Mississippi] 
+
+  path: 1[42578 -> 90142 -> 31009], [St. Paul -> Mississippi -> Minnesota] 
+
+  path: 2[42578 -> 90142 -> 31004], [St. Paul -> Mississippi -> Louisiana] 
+
+This is a non-reduced answer tree with common first node 90142
+
+srcNodes: [90142, 31009, 31004]
+  path: 0[31035 -> 90142], [Wisconsin -> Mississippi] 
+
+  path: 1[31035 -> 90142 -> 31009], [Wisconsin -> Mississippi -> Minnesota] 
+
+  path: 2[31035 -> 90142 -> 31004], [Wisconsin -> Mississippi -> Louisiana] 
+
+This is a non-reduced answer tree with common first node 90142
+
+srcNodes: [90142, 31009, 31004]
+  path: 0[31010 -> 90142], [Mississippi -> Mississippi] 
+
+  path: 1[31010 -> 90142 -> 31009], [Mississippi -> Mississippi -> Minnesota] 
+
+  path: 2[31010 -> 90142 -> 31004], [Mississippi -> Mississippi -> Louisiana] 
+
+This is a non-reduced answer tree with common first node 90142
+
+srcNodes: [90142, 31009, 31004]
+  path: 0[41688 -> 90142], [Memphis -> Mississippi] 
+
+  path: 1[41688 -> 90142 -> 31009], [Memphis -> Mississippi -> Minnesota] 
+
+  path: 2[41688 -> 90142 -> 31004], [Memphis -> Mississippi -> Louisiana] 
+
+This is a non-reduced answer tree with common first node 90142
+
+srcNodes: [90163, 31009, 31004]
+  path: 0[90163 -> 90163], [Parana -> Parana]
+  path: 1[90163 -> 20173 -> 10001 -> 20118 -> 31009], [Parana -> Paraguay -> America -> United States -> Minnesota] 
+
+  path: 2[90163 -> 20173 -> 10001 -> 20118 -> 31004], [Parana -> Paraguay -> America -> United States -> Louisiana] 
+
+srcNodes: [90164, 31009, 31004]
+  path: 0[90164 -> 90164], [Paraguay -> Paraguay]
+  path: 1[90164 -> 20173 -> 10001 -> 20118 -> 31009], [Paraguay -> Paraguay -> America -> United States -> Minnesota] 
+
+  path: 2[90164 -> 20173 -> 10001 -> 20118 -> 31004], [Paraguay -> Paraguay -> America -> United States -> Louisiana] 
+
+srcNodes: [90165, 31009, 31004]
+  path: 0[90165 -> 90165], [Uruguay -> Uruguay]
+  path: 1[90165 -> 20174 -> 10001 -> 20118 -> 31009], [Uruguay -> Uruguay -> America -> United States -> Minnesota] 
+
+  path: 2[90165 -> 20174 -> 10001 -> 20118 -> 31004], [Uruguay -> Uruguay -> America -> United States -> Louisiana] 
+
+srcNodes: [90146, 31009, 31004]
+  path: 0[90146 -> 90146], [Allegheny River -> Allegheny River]
+  path: 1[90146 -> 31024 -> 90145 -> 31003 -> 90142 -> 31009], [Allegheny River -> Pennsylvania -> Ohio River -> Kentucky -> Mississippi -> Minnesota] 
+
+  path: 2[90146 -> 31024 -> 90145 -> 31003 -> 90142 -> 31004], [Allegheny River -> Pennsylvania -> Ohio River -> Kentucky -> Mississippi -> Louisiana] 
+
+srcNodes: [90165, 31009, 31004]
+  path: 0[10001 -> 20174 -> 90165], [America -> Uruguay -> Uruguay] 
+
+  path: 1[10001 -> 20118 -> 31009], [America -> United States -> Minnesota] 
+
+  path: 2[10001 -> 20118 -> 31004], [America -> United States -> Louisiana] 
+
+srcNodes: [90150, 31009, 31004]
+  path: 0[90150 -> 90150], [Colorado -> Colorado]
+  path: 1[90150 -> 30992 -> 90144 -> 30990 -> 90142 -> 31009], [Colorado -> Colorado -> Arkansas -> Arkansas -> Mississippi -> Minnesota] 
+
+  path: 2[90150 -> 30992 -> 90144 -> 30990 -> 90142 -> 31004], [Colorado -> Colorado -> Arkansas -> Arkansas -> Mississippi -> Louisiana] 
+
+srcNodes: [90160, 31009, 31004]
+  path: 0[90160 -> 90160], [Rio Mamore -> Rio Mamore]
+  path: 1[90160 -> 20170 -> 10001 -> 20118 -> 31009], [Rio Mamore -> Bolivia -> America -> United States -> Minnesota] 
+
+  path: 2[90160 -> 20170 -> 10001 -> 20118 -> 31004], [Rio Mamore -> Bolivia -> America -> United States -> Louisiana] 
+
+srcNodes: [90159, 31009, 31004]
+  path: 0[90159 -> 90159], [Rio Madeira -> Rio Madeira]
+  path: 1[90159 -> 20170 -> 10001 -> 20118 -> 31009], [Rio Madeira -> Bolivia -> America -> United States -> Minnesota] 
+
+  path: 2[90159 -> 20170 -> 10001 -> 20118 -> 31004], [Rio Madeira -> Bolivia -> America -> United States -> Louisiana] 
+
+-----------------------------------------
+ResultDestNodes: [31009, 31004, 90142, 20118, 90145, 90144, 90147, 90143, 30999, 31003, 31011, 40255, 41717, 30990, 31001, 41866, 42577, 31028, 42578, 31035, 31010, 41688, 90163, 90164, 90165, 90146, 10001, 90150, 90160, 90159]
+ResultRelevs: [8.96325969696045, 8.96325969696045, 8.444040298461914, 6.728300094604492, 5.961150169372559, 5.599279880523682, 5.599279880523682, 5.599279880523682, 5.351200103759766, 5.351200103759766, 5.170269966125488, 5.170269966125488, 5.170269966125488, 5.170269966125488, 5.170269966125488, 5.170269966125488, 5.170269966125488, 5.170269966125488, 5.170269966125488, 5.170269966125488, 5.170269966125488, 5.170269966125488, 5.03033971786499, 5.03033971786499, 5.03033971786499, 5.012911796569824, 4.711180210113525, 4.6510419845581055, 4.479429721832275, 4.479429721832275]
+Num of top-k answers: 30
+Num of non-reduced answers: 11
+Num of duplicate answers: 17
+Num of non-redundant answers: 13
+Num of entries retrieved from the lists: 586
+Num of entries retrieved from NKMaps: 612
+
+Blink Search Using ConstRootDup30
+[river, minnesota, louisiana]
+srcNodes: [90142, 31009, 31004]
+  path: 0[31004 -> 90142], [Louisiana -> Mississippi] 
+
+  path: 1[31004 -> 90142 -> 31009], [Louisiana -> Mississippi -> Minnesota] 
+
+  path: 2[31004 -> 31004], [Louisiana -> Louisiana]
+srcNodes: [90142, 31009, 31004]
+  path: 0[31009 -> 90142], [Minnesota -> Mississippi] 
+
+  path: 1[31009 -> 31009], [Minnesota -> Minnesota]
+  path: 2[31009 -> 90142 -> 31004], [Minnesota -> Mississippi -> Louisiana] 
+
+srcNodes: [90142, 31009, 31004]
+  path: 0[90142 -> 90142], [Mississippi -> Mississippi]
+  path: 1[90142 -> 31009], [Mississippi -> Minnesota] 
+
+  path: 2[90142 -> 31004], [Mississippi -> Louisiana] 
+
+srcNodes: [90145, 31009, 31004]
+  path: 0[31004 -> 90142 -> 31003 -> 90145], [Louisiana -> Mississippi -> Kentucky -> Ohio River] 
+
+  path: 1[31004 -> 90142 -> 31009], [Louisiana -> Mississippi -> Minnesota] 
+
+  path: 2[31004 -> 31004], [Louisiana -> Louisiana]
+srcNodes: [90145, 31009, 31004]
+  path: 0[31009 -> 90142 -> 31003 -> 90145], [Minnesota -> Mississippi -> Kentucky -> Ohio River] 
+
+  path: 1[31009 -> 31009], [Minnesota -> Minnesota]
+  path: 2[31009 -> 90142 -> 31004], [Minnesota -> Mississippi -> Louisiana] 
+
+srcNodes: [90143, 31009, 31004]
+  path: 0[31009 -> 90142 -> 31011 -> 90143], [Minnesota -> Mississippi -> Missouri -> Missouri] 
+
+  path: 1[31009 -> 31009], [Minnesota -> Minnesota]
+  path: 2[31009 -> 90142 -> 31004], [Minnesota -> Mississippi -> Louisiana] 
+
+srcNodes: [90143, 31009, 31004]
+  path: 0[31004 -> 90142 -> 31011 -> 90143], [Louisiana -> Mississippi -> Missouri -> Missouri] 
+
+  path: 1[31004 -> 90142 -> 31009], [Louisiana -> Mississippi -> Minnesota] 
+
+  path: 2[31004 -> 31004], [Louisiana -> Louisiana]
+srcNodes: [90146, 31009, 31004]
+  path: 0[31004 -> 90142 -> 31003 -> 90145 -> 31024 -> 90146], [Louisiana -> Mississippi -> Kentucky -> Ohio River -> Pennsylvania -> Allegheny River] 
+
+  path: 1[31004 -> 90142 -> 31009], [Louisiana -> Mississippi -> Minnesota] 
+
+  path: 2[31004 -> 31004], [Louisiana -> Louisiana]
+srcNodes: [90146, 31009, 31004]
+  path: 0[31009 -> 90142 -> 31003 -> 90145 -> 31024 -> 90146], [Minnesota -> Mississippi -> Kentucky -> Ohio River -> Pennsylvania -> Allegheny River] 
+
+  path: 1[31009 -> 31009], [Minnesota -> Minnesota]
+  path: 2[31009 -> 90142 -> 31004], [Minnesota -> Mississippi -> Louisiana] 
+
+srcNodes: [90150, 31009, 31004]
+  path: 0[31009 -> 90142 -> 30990 -> 90144 -> 30992 -> 90150], [Minnesota -> Mississippi -> Arkansas -> Arkansas -> Colorado -> Colorado] 
+
+  path: 1[31009 -> 31009], [Minnesota -> Minnesota]
+  path: 2[31009 -> 90142 -> 31004], [Minnesota -> Mississippi -> Louisiana] 
+
+srcNodes: [90150, 31009, 31004]
+  path: 0[31004 -> 90142 -> 30990 -> 90144 -> 30992 -> 90150], [Louisiana -> Mississippi -> Arkansas -> Arkansas -> Colorado -> Colorado] 
+
+  path: 1[31004 -> 90142 -> 31009], [Louisiana -> Mississippi -> Minnesota] 
+
+  path: 2[31004 -> 31004], [Louisiana -> Louisiana]
+srcNodes: [90141, 31009, 31004]
+  path: 0[20118 -> 31018 -> 90141], [United States -> New York -> Hudson River] 
+
+  path: 1[20118 -> 31009], [United States -> Minnesota] 
+
+  path: 2[20118 -> 31004], [United States -> Louisiana] 
+
+srcNodes: [90140, 31009, 31004]
+  path: 0[20118 -> 31031 -> 90140], [United States -> Vermont -> Connecticut River] 
+
+  path: 1[20118 -> 31009], [United States -> Minnesota] 
+
+  path: 2[20118 -> 31004], [United States -> Louisiana] 
+
+srcNodes: [90145, 31009, 31004]
+  path: 0[90142 -> 31003 -> 90145], [Mississippi -> Kentucky -> Ohio River] 
+
+  path: 1[90142 -> 31009], [Mississippi -> Minnesota] 
+
+  path: 2[90142 -> 31004], [Mississippi -> Louisiana] 
+
+srcNodes: [90143, 31009, 31004]
+  path: 0[90142 -> 31011 -> 90143], [Mississippi -> Missouri -> Missouri] 
+
+  path: 1[90142 -> 31009], [Mississippi -> Minnesota] 
+
+  path: 2[90142 -> 31004], [Mississippi -> Louisiana] 
+
+srcNodes: [90145, 31009, 31004]
+  path: 0[90145 -> 90145], [Ohio River -> Ohio River]
+  path: 1[90145 -> 31003 -> 90142 -> 31009], [Ohio River -> Kentucky -> Mississippi -> Minnesota] 
+
+  path: 2[90145 -> 31003 -> 90142 -> 31004], [Ohio River -> Kentucky -> Mississippi -> Louisiana] 
+
+srcNodes: [90143, 31009, 31004]
+  path: 0[90143 -> 90143], [Missouri -> Missouri]
+  path: 1[90143 -> 31011 -> 90142 -> 31009], [Missouri -> Missouri -> Mississippi -> Minnesota] 
+
+  path: 2[90143 -> 31011 -> 90142 -> 31004], [Missouri -> Missouri -> Mississippi -> Louisiana] 
+
+srcNodes: [90144, 31009, 31004]
+  path: 0[90144 -> 90144], [Arkansas -> Arkansas]
+  path: 1[90144 -> 30990 -> 90142 -> 31009], [Arkansas -> Arkansas -> Mississippi -> Minnesota] 
+
+  path: 2[90144 -> 30990 -> 90142 -> 31004], [Arkansas -> Arkansas -> Mississippi -> Louisiana] 
+
+srcNodes: [90147, 31009, 31004]
+  path: 0[90147 -> 90147], [Tennessee -> Tennessee]
+  path: 1[90147 -> 31028 -> 90142 -> 31009], [Tennessee -> Tennessee -> Mississippi -> Minnesota] 
+
+  path: 2[90147 -> 31028 -> 90142 -> 31004], [Tennessee -> Tennessee -> Mississippi -> Louisiana] 
+
+srcNodes: [90145, 31009, 31004]
+  path: 0[31003 -> 90145], [Kentucky -> Ohio River] 
+
+  path: 1[31003 -> 90142 -> 31009], [Kentucky -> Mississippi -> Minnesota] 
+
+  path: 2[31003 -> 90142 -> 31004], [Kentucky -> Mississippi -> Louisiana] 
+
+srcNodes: [90145, 31009, 31004]
+  path: 0[30999 -> 90145], [Illinois -> Ohio River] 
+
+  path: 1[30999 -> 90142 -> 31009], [Illinois -> Mississippi -> Minnesota] 
+
+  path: 2[30999 -> 90142 -> 31004], [Illinois -> Mississippi -> Louisiana] 
+
+srcNodes: [90147, 31009, 31004]
+  path: 0[31028 -> 90147], [Tennessee -> Tennessee] 
+
+  path: 1[31028 -> 90142 -> 31009], [Tennessee -> Mississippi -> Minnesota] 
+
+  path: 2[31028 -> 90142 -> 31004], [Tennessee -> Mississippi -> Louisiana] 
+
+srcNodes: [90142, 31009, 31004]
+  path: 0[42578 -> 90142], [St. Paul -> Mississippi] 
+
+  path: 1[42578 -> 90142 -> 31009], [St. Paul -> Mississippi -> Minnesota] 
+
+  path: 2[42578 -> 90142 -> 31004], [St. Paul -> Mississippi -> Louisiana] 
+
+srcNodes: [90142, 31009, 31004]
+  path: 0[31035 -> 90142], [Wisconsin -> Mississippi] 
+
+  path: 1[31035 -> 90142 -> 31009], [Wisconsin -> Mississippi -> Minnesota] 
+
+  path: 2[31035 -> 90142 -> 31004], [Wisconsin -> Mississippi -> Louisiana] 
+
+srcNodes: [90142, 31009, 31004]
+  path: 0[31010 -> 90142], [Mississippi -> Mississippi] 
+
+  path: 1[31010 -> 90142 -> 31009], [Mississippi -> Mississippi -> Minnesota] 
+
+  path: 2[31010 -> 90142 -> 31004], [Mississippi -> Mississippi -> Louisiana] 
+
+srcNodes: [90142, 31009, 31004]
+  path: 0[31011 -> 90142], [Missouri -> Mississippi] 
+
+  path: 1[31011 -> 90142 -> 31009], [Missouri -> Mississippi -> Minnesota] 
+
+  path: 2[31011 -> 90142 -> 31004], [Missouri -> Mississippi -> Louisiana] 
+
+srcNodes: [90142, 31009, 31004]
+  path: 0[40255 -> 90142], [Baton Rouge -> Mississippi] 
+
+  path: 1[40255 -> 90142 -> 31009], [Baton Rouge -> Mississippi -> Minnesota] 
+
+  path: 2[40255 -> 90142 -> 31004], [Baton Rouge -> Mississippi -> Louisiana] 
+
+srcNodes: [90142, 31009, 31004]
+  path: 0[41717 -> 90142], [Minneapolis -> Mississippi] 
+
+  path: 1[41717 -> 90142 -> 31009], [Minneapolis -> Mississippi -> Minnesota] 
+
+  path: 2[41717 -> 90142 -> 31004], [Minneapolis -> Mississippi -> Louisiana] 
+
+srcNodes: [90142, 31009, 31004]
+  path: 0[31001 -> 90142], [Iowa -> Mississippi] 
+
+  path: 1[31001 -> 90142 -> 31009], [Iowa -> Mississippi -> Minnesota] 
+
+  path: 2[31001 -> 90142 -> 31004], [Iowa -> Mississippi -> Louisiana] 
+
+srcNodes: [90142, 31009, 31004]
+  path: 0[30990 -> 90142], [Arkansas -> Mississippi] 
+
+  path: 1[30990 -> 90142 -> 31009], [Arkansas -> Mississippi -> Minnesota] 
+
+  path: 2[30990 -> 90142 -> 31004], [Arkansas -> Mississippi -> Louisiana] 
+
+-----------------------------------------
+ResultDestNodes: 
+31004, 31009, 90142, 31004, 31009, 31009, 31004, 31004, 31009, 31009, 31004, 20118, 20118, 90142, 90142, 90145, 90143, 90144, 90147, 31003, 30999, 31028, 42578, 31035, 31010, 31011, 40255, 41717, 31001, 30990, 
+ResultRelevs: 
+8.96326, 8.96326, 8.44404, 8.365091, 8.365091, 8.274625, 8.274625, 8.105392, 8.1053915, 8.045081, 8.045081, 6.7283, 6.7283, 6.7283, 6.60768, 5.96115, 5.59928, 5.59928, 5.59928, 5.3512, 5.3512, 5.17027, 5.17027, 5.17027, 5.17027, 5.17027, 5.17027, 5.17027, 5.17027, 5.17027, 
+Num of top-k answers: 30
+Num of duplicate answers: 21
+Num of duplicate roots in top-k answers: 11
+root duplication ratio: 0.37931034
+given max root duplication param: 0.4
+Num of entries retrieved from the lists: 228
+Num of entries retrieved from NKMaps: 860
+Num of answer trees explored: 408
+

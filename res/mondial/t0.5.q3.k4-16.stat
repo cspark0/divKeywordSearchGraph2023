@@ -1,0 +1,11 @@
+Top-k, (AvgResultRelev, AvgResultRelev/ResultRelevs[0], AvgResultDiss) numOfKNListsRead, numOfNKMapLookups, numOfAnswerTreesExplored, elapseTime, numOfStatesCreated, numOfStatesExplored, numOfHeuristicSearchPerformed, maxQSize, 
+query: [river, falls, america]
+BlinkSea, 	4, 10.46782, 0.85263, 0.50000, 162, 234, 53, 0.092994443, 
+Exhustiv, 	4, 10.46782, 0.85263, 0.55556, 162, 234, 53, 0.067484439, 34, 13, 26, 2, 
+Astar02, 	4, 10.46782, 0.85263, 0.55556, 162, 234, 53, 0.063338368, 49, 37, 3, 10, 1, 
+Astar1nc_, 	4, 10.46782, 0.85263, 0.55556, 162, 234, 53, 0.057608012, 17, 12, 3, 5, 0, 
+BlinkSea, 	8, 9.97772, 0.81271, 0.50000, 162, 234, 53, 0.054394474, 
+Exhustiv, 	8, 9.92503, 0.80842, 0.50000, 289, 369, 53, 0.113682272, 506, 497, 506, 1, 
+Astar02, 	8, 9.92503, 0.80842, 0.50000, 289, 369, 53, 0.110196737, 362, 328, 10, 38, 1, 
+Astar1nc_, 	8, 9.92503, 0.80842, 0.50000, 289, 369, 53, 0.096318342, 345, 80, 10, 58, 0, 
+BlinkSea, 	12, 9.69002, 0.78928, 0.46970, 162, 234, 53, 0.057626309, 

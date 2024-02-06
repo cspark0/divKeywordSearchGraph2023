@@ -1,0 +1,512 @@
+query: [murder, mystery, nonfiction]
+Top-k Search by Blink-BDB, k=4
+[murder, mystery, nonfiction]
+srcNodes: [8033394, 5000783, 1295088]
+  path: 0[1295088 -> 2326035 -> 1818348 -> 8033394], [Creative Nonfiction (2009) -> Dunham, Lena -> The Viewer (2009) -> interrogation,kaleidoscope,murder,surrealism,telepathy] 
+
+  path: 1[1295088 -> 2041392 -> 1697000 -> 5000783], [Creative Nonfiction (2009) -> Brundage, Richard -> Sex and Justice (2008) -> Mystery,Short,Crime,Drama] 
+
+  path: 2[1295088 -> 1295088], [Creative Nonfiction (2009) -> Creative Nonfiction (2009)]
+srcNodes: [1791106, 1791106, 1295088]
+  path: 0[1791106 -> 1791106], [The Maltese Murder Mystery (2008) -> The Maltese Murder Mystery (2008)]
+  path: 1[1791106 -> 1791106], [The Maltese Murder Mystery (2008) -> The Maltese Murder Mystery (2008)]
+  path: 2[1791106 -> 2072771 -> 1661071 -> 2189412 -> 1295088], [The Maltese Murder Mystery (2008) -> Daniel, Thomas (I) -> Rapturious (2007) -> Lisenco, Sam -> Creative Nonfiction (2009)] 
+
+srcNodes: [8001318, 5000017, 1295088]
+  path: 0[2164503 -> 1813517 -> 2113177 -> 1647634 -> 8001318], [Kelly, Chance -> The Taking of Pelham 1 2 3 (2009) -> Gelber, Jordan -> Pretty Bird (2008) -> murder] 
+
+  path: 1[2164503 -> 1666637 -> 5000017], [Kelly, Chance -> Replay (2003) -> Mystery] 
+
+  path: 2[2164503 -> 1178348 -> 2353053 -> 1295088], [Kelly, Chance -> A Guide to Recognizing Your Saints (2006) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [1580715, 5000017, 1295088]
+  path: 0[2041392 -> 1175876 -> 2148965 -> 1580715], [Brundage, Richard -> A Dangerous Place (2011) -> Interdonato, Kevin -> Murder for Dummys (2011)] 
+
+  path: 1[2041392 -> 1418078 -> 2107768 -> 454585 -> 5000017], [Brundage, Richard -> Hazard (2005) -> Fukami, Motoki -> "Indigo no yoru" (2010) -> Mystery] 
+
+  path: 2[2041392 -> 1295088], [Brundage, Richard -> Creative Nonfiction (2009)] 
+
+-----------------------------------------
+Num of top-k answers: 4
+ResultDestNodes: [1295088, 1791106, 2164503, 2041392]
+ResultRelevs: [9.289730072021484, 8.513285636901855, 8.151376724243164, 8.075632095336914]
+AvgResultRelev: 8.507506132125854
+AvgResultDissimilarity: 0.5777777777777778
+Num of entries retrieved from the lists: 3090
+Num of entries retrieved from NKMaps: 5613
+Num of answer trees explored: 1068
+
+Div Top-k Search by Exhustive, k=4
+[murder, mystery, nonfiction]
+srcNodes: [8033394, 5000783, 1295088]
+  path: 0[1295088 -> 2326035 -> 1818348 -> 8033394], [Creative Nonfiction (2009) -> Dunham, Lena -> The Viewer (2009) -> interrogation,kaleidoscope,murder,surrealism,telepathy] 
+
+  path: 1[1295088 -> 2041392 -> 1697000 -> 5000783], [Creative Nonfiction (2009) -> Brundage, Richard -> Sex and Justice (2008) -> Mystery,Short,Crime,Drama] 
+
+  path: 2[1295088 -> 1295088], [Creative Nonfiction (2009) -> Creative Nonfiction (2009)]
+srcNodes: [1791106, 1791106, 1295088]
+  path: 0[1791106 -> 1791106], [The Maltese Murder Mystery (2008) -> The Maltese Murder Mystery (2008)]
+  path: 1[1791106 -> 1791106], [The Maltese Murder Mystery (2008) -> The Maltese Murder Mystery (2008)]
+  path: 2[1791106 -> 2072771 -> 1661071 -> 2189412 -> 1295088], [The Maltese Murder Mystery (2008) -> Daniel, Thomas (I) -> Rapturious (2007) -> Lisenco, Sam -> Creative Nonfiction (2009)] 
+
+srcNodes: [8001318, 5000017, 1295088]
+  path: 0[2164503 -> 1813517 -> 2113177 -> 1647634 -> 8001318], [Kelly, Chance -> The Taking of Pelham 1 2 3 (2009) -> Gelber, Jordan -> Pretty Bird (2008) -> murder] 
+
+  path: 1[2164503 -> 1666637 -> 5000017], [Kelly, Chance -> Replay (2003) -> Mystery] 
+
+  path: 2[2164503 -> 1178348 -> 2353053 -> 1295088], [Kelly, Chance -> A Guide to Recognizing Your Saints (2006) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [1580715, 5000017, 1295088]
+  path: 0[2041392 -> 1175876 -> 2148965 -> 1580715], [Brundage, Richard -> A Dangerous Place (2011) -> Interdonato, Kevin -> Murder for Dummys (2011)] 
+
+  path: 1[2041392 -> 1418078 -> 2107768 -> 454585 -> 5000017], [Brundage, Richard -> Hazard (2005) -> Fukami, Motoki -> "Indigo no yoru" (2010) -> Mystery] 
+
+  path: 2[2041392 -> 1295088], [Brundage, Richard -> Creative Nonfiction (2009)] 
+
+-----------------------------------------
+ResultDestNodes: [1295088, 1791106, 2164503, 2041392]
+ResultRelevs: [9.289730072021484, 8.513285636901855, 8.151376724243164, 8.075632095336914]
+AvgResultRelev: 8.507506132125854
+AvgResultDissimilarity: 0.5777777830759684
+Num of entries retrieved from the KNLists: 3090
+Num of entries retrieved from NKMaps: 5613
+Num of answer trees explored: 1068
+Num of answer tree sets created: 15
+Num of answer tree sets removed: 12
+
+Div Top-k Search by Astar02, k=4
+[murder, mystery, nonfiction]
+srcNodes: [8033394, 5000783, 1295088]
+  path: 0[1295088 -> 2326035 -> 1818348 -> 8033394], [Creative Nonfiction (2009) -> Dunham, Lena -> The Viewer (2009) -> interrogation,kaleidoscope,murder,surrealism,telepathy] 
+
+  path: 1[1295088 -> 2041392 -> 1697000 -> 5000783], [Creative Nonfiction (2009) -> Brundage, Richard -> Sex and Justice (2008) -> Mystery,Short,Crime,Drama] 
+
+  path: 2[1295088 -> 1295088], [Creative Nonfiction (2009) -> Creative Nonfiction (2009)]
+srcNodes: [1791106, 1791106, 1295088]
+  path: 0[1791106 -> 1791106], [The Maltese Murder Mystery (2008) -> The Maltese Murder Mystery (2008)]
+  path: 1[1791106 -> 1791106], [The Maltese Murder Mystery (2008) -> The Maltese Murder Mystery (2008)]
+  path: 2[1791106 -> 2072771 -> 1661071 -> 2189412 -> 1295088], [The Maltese Murder Mystery (2008) -> Daniel, Thomas (I) -> Rapturious (2007) -> Lisenco, Sam -> Creative Nonfiction (2009)] 
+
+srcNodes: [8001318, 5000017, 1295088]
+  path: 0[2164503 -> 1813517 -> 2113177 -> 1647634 -> 8001318], [Kelly, Chance -> The Taking of Pelham 1 2 3 (2009) -> Gelber, Jordan -> Pretty Bird (2008) -> murder] 
+
+  path: 1[2164503 -> 1666637 -> 5000017], [Kelly, Chance -> Replay (2003) -> Mystery] 
+
+  path: 2[2164503 -> 1178348 -> 2353053 -> 1295088], [Kelly, Chance -> A Guide to Recognizing Your Saints (2006) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [1580715, 5000017, 1295088]
+  path: 0[2041392 -> 1175876 -> 2148965 -> 1580715], [Brundage, Richard -> A Dangerous Place (2011) -> Interdonato, Kevin -> Murder for Dummys (2011)] 
+
+  path: 1[2041392 -> 1418078 -> 2107768 -> 454585 -> 5000017], [Brundage, Richard -> Hazard (2005) -> Fukami, Motoki -> "Indigo no yoru" (2010) -> Mystery] 
+
+  path: 2[2041392 -> 1295088], [Brundage, Richard -> Creative Nonfiction (2009)] 
+
+-----------------------------------------
+ResultDestNodes: [1295088, 1791106, 2164503, 2041392]
+ResultRelevs: [9.289730072021484, 8.513285636901855, 8.151376724243164, 8.075632095336914]
+AvgResultRelev: 8.507506132125854
+AvgResultDissimilarity: 0.5777777777777778
+Num of entries retrieved from the KNLists: 3090
+Num of entries retrieved from NKMaps: 5613
+Num of answer trees explored: 1068
+Num of states created: 11
+Num of states explored: 5
+Num of heuristic search performed: 1
+
+Div Top-k Search by Astar1nc_ap_new, k=4
+[murder, mystery, nonfiction]
+srcNodes: [8033394, 5000783, 1295088]
+  path: 0[1295088 -> 2326035 -> 1818348 -> 8033394], [Creative Nonfiction (2009) -> Dunham, Lena -> The Viewer (2009) -> interrogation,kaleidoscope,murder,surrealism,telepathy] 
+
+  path: 1[1295088 -> 2041392 -> 1697000 -> 5000783], [Creative Nonfiction (2009) -> Brundage, Richard -> Sex and Justice (2008) -> Mystery,Short,Crime,Drama] 
+
+  path: 2[1295088 -> 1295088], [Creative Nonfiction (2009) -> Creative Nonfiction (2009)]
+srcNodes: [1791106, 1791106, 1295088]
+  path: 0[1791106 -> 1791106], [The Maltese Murder Mystery (2008) -> The Maltese Murder Mystery (2008)]
+  path: 1[1791106 -> 1791106], [The Maltese Murder Mystery (2008) -> The Maltese Murder Mystery (2008)]
+  path: 2[1791106 -> 2072771 -> 1661071 -> 2189412 -> 1295088], [The Maltese Murder Mystery (2008) -> Daniel, Thomas (I) -> Rapturious (2007) -> Lisenco, Sam -> Creative Nonfiction (2009)] 
+
+srcNodes: [8001318, 5000017, 1295088]
+  path: 0[2164503 -> 1813517 -> 2113177 -> 1647634 -> 8001318], [Kelly, Chance -> The Taking of Pelham 1 2 3 (2009) -> Gelber, Jordan -> Pretty Bird (2008) -> murder] 
+
+  path: 1[2164503 -> 1666637 -> 5000017], [Kelly, Chance -> Replay (2003) -> Mystery] 
+
+  path: 2[2164503 -> 1178348 -> 2353053 -> 1295088], [Kelly, Chance -> A Guide to Recognizing Your Saints (2006) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [1580715, 5000017, 1295088]
+  path: 0[2041392 -> 1175876 -> 2148965 -> 1580715], [Brundage, Richard -> A Dangerous Place (2011) -> Interdonato, Kevin -> Murder for Dummys (2011)] 
+
+  path: 1[2041392 -> 1418078 -> 2107768 -> 454585 -> 5000017], [Brundage, Richard -> Hazard (2005) -> Fukami, Motoki -> "Indigo no yoru" (2010) -> Mystery] 
+
+  path: 2[2041392 -> 1295088], [Brundage, Richard -> Creative Nonfiction (2009)] 
+
+-----------------------------------------
+ResultDestNodes: [1295088, 1791106, 2164503, 2041392]
+ResultRelevs: [9.289730072021484, 8.513285636901855, 8.151376724243164, 8.075632095336914]
+AvgResultRelev: 8.507506132125854
+AvgResultDissimilarity: 0.5777777777777778
+Num of entries retrieved from the KNLists: 3090
+Num of entries retrieved from NKMaps: 5613
+Num of answer trees explored: 1068
+Num of states created: 5
+Num of states explored: 5
+Num of heuristic search performed: 1
+
+Top-k Search by Blink-BDB, k=8
+[murder, mystery, nonfiction]
+srcNodes: [8033394, 5000783, 1295088]
+  path: 0[1295088 -> 2326035 -> 1818348 -> 8033394], [Creative Nonfiction (2009) -> Dunham, Lena -> The Viewer (2009) -> interrogation,kaleidoscope,murder,surrealism,telepathy] 
+
+  path: 1[1295088 -> 2041392 -> 1697000 -> 5000783], [Creative Nonfiction (2009) -> Brundage, Richard -> Sex and Justice (2008) -> Mystery,Short,Crime,Drama] 
+
+  path: 2[1295088 -> 1295088], [Creative Nonfiction (2009) -> Creative Nonfiction (2009)]
+srcNodes: [1791106, 1791106, 1295088]
+  path: 0[1791106 -> 1791106], [The Maltese Murder Mystery (2008) -> The Maltese Murder Mystery (2008)]
+  path: 1[1791106 -> 1791106], [The Maltese Murder Mystery (2008) -> The Maltese Murder Mystery (2008)]
+  path: 2[1791106 -> 2072771 -> 1661071 -> 2189412 -> 1295088], [The Maltese Murder Mystery (2008) -> Daniel, Thomas (I) -> Rapturious (2007) -> Lisenco, Sam -> Creative Nonfiction (2009)] 
+
+srcNodes: [8001318, 5000017, 1295088]
+  path: 0[2164503 -> 1813517 -> 2113177 -> 1647634 -> 8001318], [Kelly, Chance -> The Taking of Pelham 1 2 3 (2009) -> Gelber, Jordan -> Pretty Bird (2008) -> murder] 
+
+  path: 1[2164503 -> 1666637 -> 5000017], [Kelly, Chance -> Replay (2003) -> Mystery] 
+
+  path: 2[2164503 -> 1178348 -> 2353053 -> 1295088], [Kelly, Chance -> A Guide to Recognizing Your Saints (2006) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [1580715, 5000017, 1295088]
+  path: 0[2041392 -> 1175876 -> 2148965 -> 1580715], [Brundage, Richard -> A Dangerous Place (2011) -> Interdonato, Kevin -> Murder for Dummys (2011)] 
+
+  path: 1[2041392 -> 1418078 -> 2107768 -> 454585 -> 5000017], [Brundage, Richard -> Hazard (2005) -> Fukami, Motoki -> "Indigo no yoru" (2010) -> Mystery] 
+
+  path: 2[2041392 -> 1295088], [Brundage, Richard -> Creative Nonfiction (2009)] 
+
+srcNodes: [8000723, 5000017, 1295088]
+  path: 0[454585 -> 8000723], ["Indigo no yoru" (2010) -> japan,murder,night-club,private-detective,shibuya,shibuya-tokyo,tokyo-japan] 
+
+  path: 1[454585 -> 5000017], ["Indigo no yoru" (2010) -> Mystery] 
+
+  path: 2[454585 -> 2107768 -> 1418078 -> 2041392 -> 1295088], ["Indigo no yoru" (2010) -> Fukami, Motoki -> Hazard (2005) -> Brundage, Richard -> Creative Nonfiction (2009)] 
+
+srcNodes: [1791106, 5000017, 1295088]
+  path: 0[1666637 -> 2388074 -> 1428065 -> 2072771 -> 1791106], [Replay (2003) -> Mader, Rebecca -> Hitch (2005/I) -> Daniel, Thomas (I) -> The Maltese Murder Mystery (2008)] 
+
+  path: 1[1666637 -> 5000017], [Replay (2003) -> Mystery] 
+
+  path: 2[1666637 -> 2164503 -> 1178348 -> 2353053 -> 1295088], [Replay (2003) -> Kelly, Chance -> A Guide to Recognizing Your Saints (2006) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [1580567, 5000017, 1295088]
+  path: 0[390140 -> 2275804 -> 1779601 -> 2468346 -> 1580567], ["HBO Voyeur Project" (2007) -> Rose, Adam (I) -> The Hebrew Hammer (2003) -> Wagner-Roehm, Sarah -> Murder Below the Line (2004)] 
+
+  path: 1[390140 -> 5000017], ["HBO Voyeur Project" (2007) -> Mystery] 
+
+  path: 2[390140 -> 2342879 -> 1402114 -> 2353053 -> 1295088], ["HBO Voyeur Project" (2007) -> Goldhor, Dakota -> Go Get Some Rosemary (2009) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [8031330, 5000017, 1295088]
+  path: 0[2353053 -> 1178348 -> 2051880 -> 1780172 -> 8031330], [Hendricks, Eleonore -> A Guide to Recognizing Your Saints (2006) -> Castelluccio, Federico -> The Hit (2007/II) -> mafia,mobster,murder] 
+
+  path: 1[2353053 -> 1402114 -> 2342879 -> 390140 -> 5000017], [Hendricks, Eleonore -> Go Get Some Rosemary (2009) -> Goldhor, Dakota -> "HBO Voyeur Project" (2007) -> Mystery] 
+
+  path: 2[2353053 -> 1295088], [Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+-----------------------------------------
+Num of top-k answers: 8
+ResultDestNodes: [1295088, 1791106, 2164503, 2041392, 454585, 1666637, 390140, 2353053]
+ResultRelevs: [9.289730072021484, 8.513285636901855, 8.151376724243164, 8.075632095336914, 7.951645851135254, 7.807172775268555, 7.807171821594238, 7.786693572998047]
+AvgResultRelev: 8.172838568687439
+AvgResultDissimilarity: 0.4571428571428573
+Num of entries retrieved from the lists: 4430
+Num of entries retrieved from NKMaps: 7989
+Num of answer trees explored: 1501
+
+Div Top-k Search by Exhustive, k=8
+[murder, mystery, nonfiction]
+srcNodes: [8033394, 5000783, 1295088]
+  path: 0[1295088 -> 2326035 -> 1818348 -> 8033394], [Creative Nonfiction (2009) -> Dunham, Lena -> The Viewer (2009) -> interrogation,kaleidoscope,murder,surrealism,telepathy] 
+
+  path: 1[1295088 -> 2041392 -> 1697000 -> 5000783], [Creative Nonfiction (2009) -> Brundage, Richard -> Sex and Justice (2008) -> Mystery,Short,Crime,Drama] 
+
+  path: 2[1295088 -> 1295088], [Creative Nonfiction (2009) -> Creative Nonfiction (2009)]
+srcNodes: [1791106, 1791106, 1295088]
+  path: 0[1791106 -> 1791106], [The Maltese Murder Mystery (2008) -> The Maltese Murder Mystery (2008)]
+  path: 1[1791106 -> 1791106], [The Maltese Murder Mystery (2008) -> The Maltese Murder Mystery (2008)]
+  path: 2[1791106 -> 2072771 -> 1661071 -> 2189412 -> 1295088], [The Maltese Murder Mystery (2008) -> Daniel, Thomas (I) -> Rapturious (2007) -> Lisenco, Sam -> Creative Nonfiction (2009)] 
+
+srcNodes: [8001318, 5000017, 1295088]
+  path: 0[2164503 -> 1813517 -> 2113177 -> 1647634 -> 8001318], [Kelly, Chance -> The Taking of Pelham 1 2 3 (2009) -> Gelber, Jordan -> Pretty Bird (2008) -> murder] 
+
+  path: 1[2164503 -> 1666637 -> 5000017], [Kelly, Chance -> Replay (2003) -> Mystery] 
+
+  path: 2[2164503 -> 1178348 -> 2353053 -> 1295088], [Kelly, Chance -> A Guide to Recognizing Your Saints (2006) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [1580715, 5000017, 1295088]
+  path: 0[2041392 -> 1175876 -> 2148965 -> 1580715], [Brundage, Richard -> A Dangerous Place (2011) -> Interdonato, Kevin -> Murder for Dummys (2011)] 
+
+  path: 1[2041392 -> 1418078 -> 2107768 -> 454585 -> 5000017], [Brundage, Richard -> Hazard (2005) -> Fukami, Motoki -> "Indigo no yoru" (2010) -> Mystery] 
+
+  path: 2[2041392 -> 1295088], [Brundage, Richard -> Creative Nonfiction (2009)] 
+
+srcNodes: [8000723, 5000017, 1295088]
+  path: 0[454585 -> 8000723], ["Indigo no yoru" (2010) -> japan,murder,night-club,private-detective,shibuya,shibuya-tokyo,tokyo-japan] 
+
+  path: 1[454585 -> 5000017], ["Indigo no yoru" (2010) -> Mystery] 
+
+  path: 2[454585 -> 2107768 -> 1418078 -> 2041392 -> 1295088], ["Indigo no yoru" (2010) -> Fukami, Motoki -> Hazard (2005) -> Brundage, Richard -> Creative Nonfiction (2009)] 
+
+srcNodes: [1791106, 5000017, 1295088]
+  path: 0[1666637 -> 2388074 -> 1428065 -> 2072771 -> 1791106], [Replay (2003) -> Mader, Rebecca -> Hitch (2005/I) -> Daniel, Thomas (I) -> The Maltese Murder Mystery (2008)] 
+
+  path: 1[1666637 -> 5000017], [Replay (2003) -> Mystery] 
+
+  path: 2[1666637 -> 2164503 -> 1178348 -> 2353053 -> 1295088], [Replay (2003) -> Kelly, Chance -> A Guide to Recognizing Your Saints (2006) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [1580567, 5000017, 1295088]
+  path: 0[390140 -> 2275804 -> 1779601 -> 2468346 -> 1580567], ["HBO Voyeur Project" (2007) -> Rose, Adam (I) -> The Hebrew Hammer (2003) -> Wagner-Roehm, Sarah -> Murder Below the Line (2004)] 
+
+  path: 1[390140 -> 5000017], ["HBO Voyeur Project" (2007) -> Mystery] 
+
+  path: 2[390140 -> 2342879 -> 1402114 -> 2353053 -> 1295088], ["HBO Voyeur Project" (2007) -> Goldhor, Dakota -> Go Get Some Rosemary (2009) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [8033394, 5001576, 1295088]
+  path: 0[2326035 -> 1818348 -> 8033394], [Dunham, Lena -> The Viewer (2009) -> interrogation,kaleidoscope,murder,surrealism,telepathy] 
+
+  path: 1[2326035 -> 1781108 -> 2430698 -> 1439202 -> 5001576], [Dunham, Lena -> The House of the Devil (2009) -> Robb, Heather -> I Can See You (2008) -> Mystery,Horror] 
+
+  path: 2[2326035 -> 1295088], [Dunham, Lena -> Creative Nonfiction (2009)] 
+
+-----------------------------------------
+ResultDestNodes: [1295088, 1791106, 2164503, 2041392, 454585, 1666637, 390140, 2326035]
+ResultRelevs: [9.289730072021484, 8.513285636901855, 8.151376724243164, 8.075632095336914, 7.951645851135254, 7.807172775268555, 7.807171821594238, 7.471522331237793]
+AvgResultRelev: 8.133442163467407
+AvgResultDissimilarity: 0.5047619002205985
+Num of entries retrieved from the KNLists: 5834
+Num of entries retrieved from NKMaps: 10183
+Num of answer trees explored: 1929
+Num of answer tree sets created: 1853
+Num of answer tree sets removed: 2006
+
+Div Top-k Search by Astar02, k=8
+[murder, mystery, nonfiction]
+srcNodes: [8033394, 5000783, 1295088]
+  path: 0[1295088 -> 2326035 -> 1818348 -> 8033394], [Creative Nonfiction (2009) -> Dunham, Lena -> The Viewer (2009) -> interrogation,kaleidoscope,murder,surrealism,telepathy] 
+
+  path: 1[1295088 -> 2041392 -> 1697000 -> 5000783], [Creative Nonfiction (2009) -> Brundage, Richard -> Sex and Justice (2008) -> Mystery,Short,Crime,Drama] 
+
+  path: 2[1295088 -> 1295088], [Creative Nonfiction (2009) -> Creative Nonfiction (2009)]
+srcNodes: [1791106, 1791106, 1295088]
+  path: 0[1791106 -> 1791106], [The Maltese Murder Mystery (2008) -> The Maltese Murder Mystery (2008)]
+  path: 1[1791106 -> 1791106], [The Maltese Murder Mystery (2008) -> The Maltese Murder Mystery (2008)]
+  path: 2[1791106 -> 2072771 -> 1661071 -> 2189412 -> 1295088], [The Maltese Murder Mystery (2008) -> Daniel, Thomas (I) -> Rapturious (2007) -> Lisenco, Sam -> Creative Nonfiction (2009)] 
+
+srcNodes: [8001318, 5000017, 1295088]
+  path: 0[2164503 -> 1813517 -> 2113177 -> 1647634 -> 8001318], [Kelly, Chance -> The Taking of Pelham 1 2 3 (2009) -> Gelber, Jordan -> Pretty Bird (2008) -> murder] 
+
+  path: 1[2164503 -> 1666637 -> 5000017], [Kelly, Chance -> Replay (2003) -> Mystery] 
+
+  path: 2[2164503 -> 1178348 -> 2353053 -> 1295088], [Kelly, Chance -> A Guide to Recognizing Your Saints (2006) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [1580715, 5000017, 1295088]
+  path: 0[2041392 -> 1175876 -> 2148965 -> 1580715], [Brundage, Richard -> A Dangerous Place (2011) -> Interdonato, Kevin -> Murder for Dummys (2011)] 
+
+  path: 1[2041392 -> 1418078 -> 2107768 -> 454585 -> 5000017], [Brundage, Richard -> Hazard (2005) -> Fukami, Motoki -> "Indigo no yoru" (2010) -> Mystery] 
+
+  path: 2[2041392 -> 1295088], [Brundage, Richard -> Creative Nonfiction (2009)] 
+
+srcNodes: [8000723, 5000017, 1295088]
+  path: 0[454585 -> 8000723], ["Indigo no yoru" (2010) -> japan,murder,night-club,private-detective,shibuya,shibuya-tokyo,tokyo-japan] 
+
+  path: 1[454585 -> 5000017], ["Indigo no yoru" (2010) -> Mystery] 
+
+  path: 2[454585 -> 2107768 -> 1418078 -> 2041392 -> 1295088], ["Indigo no yoru" (2010) -> Fukami, Motoki -> Hazard (2005) -> Brundage, Richard -> Creative Nonfiction (2009)] 
+
+srcNodes: [1791106, 5000017, 1295088]
+  path: 0[1666637 -> 2388074 -> 1428065 -> 2072771 -> 1791106], [Replay (2003) -> Mader, Rebecca -> Hitch (2005/I) -> Daniel, Thomas (I) -> The Maltese Murder Mystery (2008)] 
+
+  path: 1[1666637 -> 5000017], [Replay (2003) -> Mystery] 
+
+  path: 2[1666637 -> 2164503 -> 1178348 -> 2353053 -> 1295088], [Replay (2003) -> Kelly, Chance -> A Guide to Recognizing Your Saints (2006) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [1580567, 5000017, 1295088]
+  path: 0[390140 -> 2275804 -> 1779601 -> 2468346 -> 1580567], ["HBO Voyeur Project" (2007) -> Rose, Adam (I) -> The Hebrew Hammer (2003) -> Wagner-Roehm, Sarah -> Murder Below the Line (2004)] 
+
+  path: 1[390140 -> 5000017], ["HBO Voyeur Project" (2007) -> Mystery] 
+
+  path: 2[390140 -> 2342879 -> 1402114 -> 2353053 -> 1295088], ["HBO Voyeur Project" (2007) -> Goldhor, Dakota -> Go Get Some Rosemary (2009) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [8033394, 5001576, 1295088]
+  path: 0[2326035 -> 1818348 -> 8033394], [Dunham, Lena -> The Viewer (2009) -> interrogation,kaleidoscope,murder,surrealism,telepathy] 
+
+  path: 1[2326035 -> 1781108 -> 2430698 -> 1439202 -> 5001576], [Dunham, Lena -> The House of the Devil (2009) -> Robb, Heather -> I Can See You (2008) -> Mystery,Horror] 
+
+  path: 2[2326035 -> 1295088], [Dunham, Lena -> Creative Nonfiction (2009)] 
+
+-----------------------------------------
+ResultDestNodes: [1295088, 1791106, 2164503, 2041392, 454585, 1666637, 390140, 2326035]
+ResultRelevs: [9.289730072021484, 8.513285636901855, 8.151376724243164, 8.075632095336914, 7.951645851135254, 7.807172775268555, 7.807171821594238, 7.471522331237793]
+AvgResultRelev: 8.133442163467407
+AvgResultDissimilarity: 0.5047619047619047
+Num of entries retrieved from the KNLists: 5834
+Num of entries retrieved from NKMaps: 10183
+Num of answer trees explored: 1929
+Num of states created: 1778
+Num of states explored: 1726
+Num of heuristic search performed: 4
+
+Div Top-k Search by Astar1nc_ap_new, k=8
+[murder, mystery, nonfiction]
+srcNodes: [8033394, 5000783, 1295088]
+  path: 0[1295088 -> 2326035 -> 1818348 -> 8033394], [Creative Nonfiction (2009) -> Dunham, Lena -> The Viewer (2009) -> interrogation,kaleidoscope,murder,surrealism,telepathy] 
+
+  path: 1[1295088 -> 2041392 -> 1697000 -> 5000783], [Creative Nonfiction (2009) -> Brundage, Richard -> Sex and Justice (2008) -> Mystery,Short,Crime,Drama] 
+
+  path: 2[1295088 -> 1295088], [Creative Nonfiction (2009) -> Creative Nonfiction (2009)]
+srcNodes: [1791106, 1791106, 1295088]
+  path: 0[1791106 -> 1791106], [The Maltese Murder Mystery (2008) -> The Maltese Murder Mystery (2008)]
+  path: 1[1791106 -> 1791106], [The Maltese Murder Mystery (2008) -> The Maltese Murder Mystery (2008)]
+  path: 2[1791106 -> 2072771 -> 1661071 -> 2189412 -> 1295088], [The Maltese Murder Mystery (2008) -> Daniel, Thomas (I) -> Rapturious (2007) -> Lisenco, Sam -> Creative Nonfiction (2009)] 
+
+srcNodes: [8001318, 5000017, 1295088]
+  path: 0[2164503 -> 1813517 -> 2113177 -> 1647634 -> 8001318], [Kelly, Chance -> The Taking of Pelham 1 2 3 (2009) -> Gelber, Jordan -> Pretty Bird (2008) -> murder] 
+
+  path: 1[2164503 -> 1666637 -> 5000017], [Kelly, Chance -> Replay (2003) -> Mystery] 
+
+  path: 2[2164503 -> 1178348 -> 2353053 -> 1295088], [Kelly, Chance -> A Guide to Recognizing Your Saints (2006) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [1580715, 5000017, 1295088]
+  path: 0[2041392 -> 1175876 -> 2148965 -> 1580715], [Brundage, Richard -> A Dangerous Place (2011) -> Interdonato, Kevin -> Murder for Dummys (2011)] 
+
+  path: 1[2041392 -> 1418078 -> 2107768 -> 454585 -> 5000017], [Brundage, Richard -> Hazard (2005) -> Fukami, Motoki -> "Indigo no yoru" (2010) -> Mystery] 
+
+  path: 2[2041392 -> 1295088], [Brundage, Richard -> Creative Nonfiction (2009)] 
+
+srcNodes: [8000723, 5000017, 1295088]
+  path: 0[454585 -> 8000723], ["Indigo no yoru" (2010) -> japan,murder,night-club,private-detective,shibuya,shibuya-tokyo,tokyo-japan] 
+
+  path: 1[454585 -> 5000017], ["Indigo no yoru" (2010) -> Mystery] 
+
+  path: 2[454585 -> 2107768 -> 1418078 -> 2041392 -> 1295088], ["Indigo no yoru" (2010) -> Fukami, Motoki -> Hazard (2005) -> Brundage, Richard -> Creative Nonfiction (2009)] 
+
+srcNodes: [1791106, 5000017, 1295088]
+  path: 0[1666637 -> 2388074 -> 1428065 -> 2072771 -> 1791106], [Replay (2003) -> Mader, Rebecca -> Hitch (2005/I) -> Daniel, Thomas (I) -> The Maltese Murder Mystery (2008)] 
+
+  path: 1[1666637 -> 5000017], [Replay (2003) -> Mystery] 
+
+  path: 2[1666637 -> 2164503 -> 1178348 -> 2353053 -> 1295088], [Replay (2003) -> Kelly, Chance -> A Guide to Recognizing Your Saints (2006) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [1580567, 5000017, 1295088]
+  path: 0[390140 -> 2275804 -> 1779601 -> 2468346 -> 1580567], ["HBO Voyeur Project" (2007) -> Rose, Adam (I) -> The Hebrew Hammer (2003) -> Wagner-Roehm, Sarah -> Murder Below the Line (2004)] 
+
+  path: 1[390140 -> 5000017], ["HBO Voyeur Project" (2007) -> Mystery] 
+
+  path: 2[390140 -> 2342879 -> 1402114 -> 2353053 -> 1295088], ["HBO Voyeur Project" (2007) -> Goldhor, Dakota -> Go Get Some Rosemary (2009) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [8033394, 5001576, 1295088]
+  path: 0[2326035 -> 1818348 -> 8033394], [Dunham, Lena -> The Viewer (2009) -> interrogation,kaleidoscope,murder,surrealism,telepathy] 
+
+  path: 1[2326035 -> 1781108 -> 2430698 -> 1439202 -> 5001576], [Dunham, Lena -> The House of the Devil (2009) -> Robb, Heather -> I Can See You (2008) -> Mystery,Horror] 
+
+  path: 2[2326035 -> 1295088], [Dunham, Lena -> Creative Nonfiction (2009)] 
+
+-----------------------------------------
+ResultDestNodes: [1295088, 1791106, 2164503, 2041392, 454585, 1666637, 390140, 2326035]
+ResultRelevs: [9.289730072021484, 8.513285636901855, 8.151376724243164, 8.075632095336914, 7.951645851135254, 7.807172775268555, 7.807171821594238, 7.471522331237793]
+AvgResultRelev: 8.133442163467407
+AvgResultDissimilarity: 0.5047619047619047
+Num of entries retrieved from the KNLists: 5834
+Num of entries retrieved from NKMaps: 10183
+Num of answer trees explored: 1929
+Num of states created: 72
+Num of states explored: 33
+Num of heuristic search performed: 4
+
+Top-k Search by Blink-BDB, k=12
+[murder, mystery, nonfiction]
+srcNodes: [8033394, 5000783, 1295088]
+  path: 0[1295088 -> 2326035 -> 1818348 -> 8033394], [Creative Nonfiction (2009) -> Dunham, Lena -> The Viewer (2009) -> interrogation,kaleidoscope,murder,surrealism,telepathy] 
+
+  path: 1[1295088 -> 2041392 -> 1697000 -> 5000783], [Creative Nonfiction (2009) -> Brundage, Richard -> Sex and Justice (2008) -> Mystery,Short,Crime,Drama] 
+
+  path: 2[1295088 -> 1295088], [Creative Nonfiction (2009) -> Creative Nonfiction (2009)]
+srcNodes: [1791106, 1791106, 1295088]
+  path: 0[1791106 -> 1791106], [The Maltese Murder Mystery (2008) -> The Maltese Murder Mystery (2008)]
+  path: 1[1791106 -> 1791106], [The Maltese Murder Mystery (2008) -> The Maltese Murder Mystery (2008)]
+  path: 2[1791106 -> 2072771 -> 1661071 -> 2189412 -> 1295088], [The Maltese Murder Mystery (2008) -> Daniel, Thomas (I) -> Rapturious (2007) -> Lisenco, Sam -> Creative Nonfiction (2009)] 
+
+srcNodes: [8001318, 5000017, 1295088]
+  path: 0[2164503 -> 1813517 -> 2113177 -> 1647634 -> 8001318], [Kelly, Chance -> The Taking of Pelham 1 2 3 (2009) -> Gelber, Jordan -> Pretty Bird (2008) -> murder] 
+
+  path: 1[2164503 -> 1666637 -> 5000017], [Kelly, Chance -> Replay (2003) -> Mystery] 
+
+  path: 2[2164503 -> 1178348 -> 2353053 -> 1295088], [Kelly, Chance -> A Guide to Recognizing Your Saints (2006) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [1580715, 5000017, 1295088]
+  path: 0[2041392 -> 1175876 -> 2148965 -> 1580715], [Brundage, Richard -> A Dangerous Place (2011) -> Interdonato, Kevin -> Murder for Dummys (2011)] 
+
+  path: 1[2041392 -> 1418078 -> 2107768 -> 454585 -> 5000017], [Brundage, Richard -> Hazard (2005) -> Fukami, Motoki -> "Indigo no yoru" (2010) -> Mystery] 
+
+  path: 2[2041392 -> 1295088], [Brundage, Richard -> Creative Nonfiction (2009)] 
+
+srcNodes: [8000723, 5000017, 1295088]
+  path: 0[454585 -> 8000723], ["Indigo no yoru" (2010) -> japan,murder,night-club,private-detective,shibuya,shibuya-tokyo,tokyo-japan] 
+
+  path: 1[454585 -> 5000017], ["Indigo no yoru" (2010) -> Mystery] 
+
+  path: 2[454585 -> 2107768 -> 1418078 -> 2041392 -> 1295088], ["Indigo no yoru" (2010) -> Fukami, Motoki -> Hazard (2005) -> Brundage, Richard -> Creative Nonfiction (2009)] 
+
+srcNodes: [1791106, 5000017, 1295088]
+  path: 0[1666637 -> 2388074 -> 1428065 -> 2072771 -> 1791106], [Replay (2003) -> Mader, Rebecca -> Hitch (2005/I) -> Daniel, Thomas (I) -> The Maltese Murder Mystery (2008)] 
+
+  path: 1[1666637 -> 5000017], [Replay (2003) -> Mystery] 
+
+  path: 2[1666637 -> 2164503 -> 1178348 -> 2353053 -> 1295088], [Replay (2003) -> Kelly, Chance -> A Guide to Recognizing Your Saints (2006) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [1580567, 5000017, 1295088]
+  path: 0[390140 -> 2275804 -> 1779601 -> 2468346 -> 1580567], ["HBO Voyeur Project" (2007) -> Rose, Adam (I) -> The Hebrew Hammer (2003) -> Wagner-Roehm, Sarah -> Murder Below the Line (2004)] 
+
+  path: 1[390140 -> 5000017], ["HBO Voyeur Project" (2007) -> Mystery] 
+
+  path: 2[390140 -> 2342879 -> 1402114 -> 2353053 -> 1295088], ["HBO Voyeur Project" (2007) -> Goldhor, Dakota -> Go Get Some Rosemary (2009) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [8031330, 5000017, 1295088]
+  path: 0[2353053 -> 1178348 -> 2051880 -> 1780172 -> 8031330], [Hendricks, Eleonore -> A Guide to Recognizing Your Saints (2006) -> Castelluccio, Federico -> The Hit (2007/II) -> mafia,mobster,murder] 
+
+  path: 1[2353053 -> 1402114 -> 2342879 -> 390140 -> 5000017], [Hendricks, Eleonore -> Go Get Some Rosemary (2009) -> Goldhor, Dakota -> "HBO Voyeur Project" (2007) -> Mystery] 
+
+  path: 2[2353053 -> 1295088], [Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [8031330, 5000017, 1295088]
+  path: 0[1178348 -> 2051880 -> 1780172 -> 8031330], [A Guide to Recognizing Your Saints (2006) -> Castelluccio, Federico -> The Hit (2007/II) -> mafia,mobster,murder] 
+
+  path: 1[1178348 -> 2164503 -> 1666637 -> 5000017], [A Guide to Recognizing Your Saints (2006) -> Kelly, Chance -> Replay (2003) -> Mystery] 
+
+  path: 2[1178348 -> 2353053 -> 1295088], [A Guide to Recognizing Your Saints (2006) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [8003315, 5000017, 1295088]
+  path: 0[1418078 -> 2121481 -> 1206087 -> 8003315], [Hazard (2005) -> Grant, Carson -> An American Cyborg (2002) -> cyborg,double-cross,murder] 
+
+  path: 1[1418078 -> 2107768 -> 454585 -> 5000017], [Hazard (2005) -> Fukami, Motoki -> "Indigo no yoru" (2010) -> Mystery] 
+
+  path: 2[1418078 -> 2041392 -> 1295088], [Hazard (2005) -> Brundage, Richard -> Creative Nonfiction (2009)] 
+
+srcNodes: [8033394, 5001576, 1295088]
+  path: 0[2326035 -> 1818348 -> 8033394], [Dunham, Lena -> The Viewer (2009) -> interrogation,kaleidoscope,murder,surrealism,telepathy] 
+
+  path: 1[2326035 -> 1781108 -> 2430698 -> 1439202 -> 5001576], [Dunham, Lena -> The House of the Devil (2009) -> Robb, Heather -> I Can See You (2008) -> Mystery,Horror] 
+
+  path: 2[2326035 -> 1295088], [Dunham, Lena -> Creative Nonfiction (2009)] 
+
+srcNodes: [1791106, 1791106, 1295088]
+  path: 0[2189412 -> 1661071 -> 2072771 -> 1791106], [Lisenco, Sam -> Rapturious (2007) -> Daniel, Thomas (I) -> The Maltese Murder Mystery (2008)] 
+
+  path: 1[2189412 -> 1661071 -> 2072771 -> 1791106], [Lisenco, Sam -> Rapturious (2007) -> Daniel, Thomas (I) -> The Maltese Murder Mystery (2008)] 
+
+  path: 2[2189412 -> 1295088], [Lisenco, Sam -> Creative Nonfiction (2009)] 
+
+-----------------------------------------
+Num of top-k answers: 12
+ResultDestNodes: [1295088, 1791106, 2164503, 2041392, 454585, 1666637, 390140, 2353053, 1178348, 1418078, 2326035, 2189412]
+ResultRelevs: [9.289730072021484, 8.513285636901855, 8.151376724243164, 8.075632095336914, 7.951645851135254, 7.807172775268555, 7.807171821594238, 7.786693572998047, 7.536357879638672, 7.536355972290039, 7.471522331237793, 7.368856430053711]
+AvgResultRelev: 7.9413167635599775
+AvgResultDissimilarity: 0.47272727272727305
+Num of entries retrieved from the lists: 5834
+Num of entries retrieved from NKMaps: 10183
+Num of answer trees explored: 1929
+

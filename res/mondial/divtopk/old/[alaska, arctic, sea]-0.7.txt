@@ -1,0 +1,37 @@
+Div Top-k Search by Exhustive4
+[alaska, arctic, sea]
+div top-k answers for q do not exist in G!
+
+Div Top-k Search by Astar14
+[alaska, arctic, sea]
+Div top-k answers for q do not exist in G!
+Num of entries retrieved from the KNLists: 702
+Num of entries retrieved from NKMaps: 804
+Num of answer trees explored: 230
+Num of states created: 749490
+Num of states explored: 122537
+Num of heuristic search performed: 228
+Max Num of answer tree sets in Q[]: 12456
+
+Div Top-k Search by Astar24
+[alaska, arctic, sea]
+Div top-k answers for q do not exist in G!
+Num of entries retrieved from the KNLists: 702
+Num of entries retrieved from NKMaps: 804
+Num of answer trees explored: 230
+Num of states created: 749490
+Num of states explored: 122537
+Num of heuristic search performed: 228
+Max Num of answer tree sets in Q[]: 12456
+
+Div Top-k Search by Astar2re4
+[alaska, arctic, sea]
+Div top-k answers for q do not exist in G!
+Num of entries retrieved from the KNLists: 702
+Num of entries retrieved from NKMaps: 804
+Num of answer trees explored: 230
+Num of states created: 16093
+Num of states explored: 3747
+Num of heuristic search performed: 228
+Max Num of answer tree sets in Q[]: 12451
+

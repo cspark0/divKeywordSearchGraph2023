@@ -1,0 +1,885 @@
+Blink Search Using BDB 10
+[republic, protestant, europe]
+srcNodes: [60082, 70329, 10004]
+  path: 0[10004 -> 20082 -> 60082], [Europe -> Cyprus -> republic] 
+
+  path: 1[10004 -> 20003 -> 70329], [Europe -> Serbia -> Protestant] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [20010, 70283, 10004]
+  path: 0[20010 -> 20010], [Czech Republic -> Czech Republic]
+  path: 1[20010 -> 70283], [Czech Republic -> Protestant] 
+
+  path: 2[20010 -> 10004], [Czech Republic -> Europe] 
+
+srcNodes: [60012, 70296, 10004]
+  path: 0[20012 -> 60012], [Hungary -> republic] 
+
+  path: 1[20012 -> 70296], [Hungary -> Protestant] 
+
+  path: 2[20012 -> 10004], [Hungary -> Europe] 
+
+srcNodes: [60042, 70298, 10004]
+  path: 0[20042 -> 60042], [Iceland -> republic] 
+
+  path: 1[20042 -> 70298], [Iceland -> Protestant] 
+
+  path: 2[20042 -> 10004], [Iceland -> Europe] 
+
+srcNodes: [60007, 70288, 10004]
+  path: 0[20007 -> 60007], [France -> republic] 
+
+  path: 1[20007 -> 70288], [France -> Protestant] 
+
+  path: 2[20007 -> 10004], [France -> Europe] 
+
+srcNodes: [60030, 70320, 10004]
+  path: 0[20030 -> 60030], [Romania -> republic] 
+
+  path: 1[20030 -> 70320], [Romania -> Protestant] 
+
+  path: 2[20030 -> 10004], [Romania -> Europe] 
+
+srcNodes: [60049, 70311, 10004]
+  path: 0[20049 -> 60049], [Portugal -> republic] 
+
+  path: 1[20049 -> 70311], [Portugal -> Protestant] 
+
+  path: 2[20049 -> 10004], [Portugal -> Europe] 
+
+srcNodes: [60035, 70325, 10004]
+  path: 0[20035 -> 60035], [Finland -> republic] 
+
+  path: 1[20035 -> 70325], [Finland -> Protestant] 
+
+  path: 2[20035 -> 10004], [Finland -> Europe] 
+
+srcNodes: [60009, 70270, 10004]
+  path: 0[20009 -> 60009], [Austria -> federal republic] 
+
+  path: 1[20009 -> 70270], [Austria -> Protestant] 
+
+  path: 2[20009 -> 10004], [Austria -> Europe] 
+
+srcNodes: [60017, 70282, 10004]
+  path: 0[20017 -> 60017], [Switzerland -> federal republic] 
+
+  path: 1[20017 -> 70282], [Switzerland -> Protestant] 
+
+  path: 2[20017 -> 10004], [Switzerland -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: [10004, 20010, 20012, 20042, 20007, 20030, 20049, 20035, 20009, 20017]
+ResultRelevs: [11.72389030456543, 9.398950576782227, 9.398950576782227, 9.398950576782227, 9.398950576782227, 9.398950576782227, 9.398950576782227, 9.398950576782227, 8.455049514770508, 8.455049514770508]
+Num of top-k answers: 10
+Num of non-reduced answers: 0
+Num of duplicate answers: 0
+Num of non-redundant answers: 10
+Num of entries retrieved from the lists: 302
+Num of entries retrieved from NKMaps: 412
+
+Blink Search Using ConstRootDup10
+[republic, protestant, europe]
+srcNodes: [60082, 70329, 10004]
+  path: 0[10004 -> 20082 -> 60082], [Europe -> Cyprus -> republic] 
+
+  path: 1[10004 -> 20003 -> 70329], [Europe -> Serbia -> Protestant] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60082, 70282, 10004]
+  path: 0[10004 -> 20082 -> 60082], [Europe -> Cyprus -> republic] 
+
+  path: 1[10004 -> 20017 -> 70282], [Europe -> Switzerland -> Protestant] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60035, 70329, 10004]
+  path: 0[10004 -> 20035 -> 60035], [Europe -> Finland -> republic] 
+
+  path: 1[10004 -> 20003 -> 70329], [Europe -> Serbia -> Protestant] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60035, 70282, 10004]
+  path: 0[10004 -> 20035 -> 60035], [Europe -> Finland -> republic] 
+
+  path: 1[10004 -> 20017 -> 70282], [Europe -> Switzerland -> Protestant] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [20010, 70329, 10004]
+  path: 0[10004 -> 20010], [Europe -> Czech Republic] 
+
+  path: 1[10004 -> 20003 -> 70329], [Europe -> Serbia -> Protestant] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [20010, 70283, 10004]
+  path: 0[20010 -> 20010], [Czech Republic -> Czech Republic]
+  path: 1[20010 -> 70283], [Czech Republic -> Protestant] 
+
+  path: 2[20010 -> 10004], [Czech Republic -> Europe] 
+
+srcNodes: [60042, 70298, 10004]
+  path: 0[20042 -> 60042], [Iceland -> republic] 
+
+  path: 1[20042 -> 70298], [Iceland -> Protestant] 
+
+  path: 2[20042 -> 10004], [Iceland -> Europe] 
+
+srcNodes: [60035, 70325, 10004]
+  path: 0[20035 -> 60035], [Finland -> republic] 
+
+  path: 1[20035 -> 70325], [Finland -> Protestant] 
+
+  path: 2[20035 -> 10004], [Finland -> Europe] 
+
+srcNodes: [60012, 70296, 10004]
+  path: 0[20012 -> 60012], [Hungary -> republic] 
+
+  path: 1[20012 -> 70296], [Hungary -> Protestant] 
+
+  path: 2[20012 -> 10004], [Hungary -> Europe] 
+
+srcNodes: [60007, 70288, 10004]
+  path: 0[20007 -> 60007], [France -> republic] 
+
+  path: 1[20007 -> 70288], [France -> Protestant] 
+
+  path: 2[20007 -> 10004], [France -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: 
+10004, 10004, 10004, 10004, 10004, 20010, 20042, 20035, 20012, 20007, 
+ResultRelevs: 
+11.72389, 11.72389, 11.72389, 11.72389, 11.30438, 9.398951, 9.398951, 9.398951, 9.398951, 9.398951, 
+Num of top-k answers: 10
+Num of duplicate answers: 0
+Num of duplicate roots in top-k answers: 4
+root duplication ratio: 0.44444445
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 259
+Num of entries retrieved from NKMaps: 1135
+Num of answer trees explored: 4628
+
+Blink Search Using BDB 20
+[republic, protestant, europe]
+srcNodes: [60082, 70329, 10004]
+  path: 0[10004 -> 20082 -> 60082], [Europe -> Cyprus -> republic] 
+
+  path: 1[10004 -> 20003 -> 70329], [Europe -> Serbia -> Protestant] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60042, 70298, 10004]
+  path: 0[20042 -> 60042], [Iceland -> republic] 
+
+  path: 1[20042 -> 70298], [Iceland -> Protestant] 
+
+  path: 2[20042 -> 10004], [Iceland -> Europe] 
+
+srcNodes: [60007, 70288, 10004]
+  path: 0[20007 -> 60007], [France -> republic] 
+
+  path: 1[20007 -> 70288], [France -> Protestant] 
+
+  path: 2[20007 -> 10004], [France -> Europe] 
+
+srcNodes: [60030, 70320, 10004]
+  path: 0[20030 -> 60030], [Romania -> republic] 
+
+  path: 1[20030 -> 70320], [Romania -> Protestant] 
+
+  path: 2[20030 -> 10004], [Romania -> Europe] 
+
+srcNodes: [60035, 70325, 10004]
+  path: 0[20035 -> 60035], [Finland -> republic] 
+
+  path: 1[20035 -> 70325], [Finland -> Protestant] 
+
+  path: 2[20035 -> 10004], [Finland -> Europe] 
+
+srcNodes: [60012, 70296, 10004]
+  path: 0[20012 -> 60012], [Hungary -> republic] 
+
+  path: 1[20012 -> 70296], [Hungary -> Protestant] 
+
+  path: 2[20012 -> 10004], [Hungary -> Europe] 
+
+srcNodes: [20010, 70283, 10004]
+  path: 0[20010 -> 20010], [Czech Republic -> Czech Republic]
+  path: 1[20010 -> 70283], [Czech Republic -> Protestant] 
+
+  path: 2[20010 -> 10004], [Czech Republic -> Europe] 
+
+srcNodes: [60049, 70311, 10004]
+  path: 0[20049 -> 60049], [Portugal -> republic] 
+
+  path: 1[20049 -> 70311], [Portugal -> Protestant] 
+
+  path: 2[20049 -> 10004], [Portugal -> Europe] 
+
+srcNodes: [60017, 70282, 10004]
+  path: 0[20017 -> 60017], [Switzerland -> federal republic] 
+
+  path: 1[20017 -> 70282], [Switzerland -> Protestant] 
+
+  path: 2[20017 -> 10004], [Switzerland -> Europe] 
+
+srcNodes: [60009, 70270, 10004]
+  path: 0[20009 -> 60009], [Austria -> federal republic] 
+
+  path: 1[20009 -> 70270], [Austria -> Protestant] 
+
+  path: 2[20009 -> 10004], [Austria -> Europe] 
+
+srcNodes: [60011, 70284, 10004]
+  path: 0[20011 -> 60011], [Germany -> federal republic] 
+
+  path: 1[20011 -> 70284], [Germany -> Protestant] 
+
+  path: 2[20011 -> 10004], [Germany -> Europe] 
+
+srcNodes: [60082, 70297, 10004]
+  path: 0[20028 -> 10004 -> 20082 -> 60082], [Croatia -> Europe -> Cyprus -> republic] 
+
+  path: 1[20028 -> 70297], [Croatia -> Protestant] 
+
+  path: 2[20028 -> 10004], [Croatia -> Europe] 
+
+srcNodes: [60082, 70324, 10004]
+  path: 0[20037 -> 10004 -> 20082 -> 60082], [Sweden -> Europe -> Cyprus -> republic] 
+
+  path: 1[20037 -> 70324], [Sweden -> Protestant] 
+
+  path: 2[20037 -> 10004], [Sweden -> Europe] 
+
+srcNodes: [60082, 70293, 10004]
+  path: 0[20039 -> 10004 -> 20082 -> 60082], [Gibraltar -> Europe -> Cyprus -> republic] 
+
+  path: 1[20039 -> 70293], [Gibraltar -> Protestant] 
+
+  path: 2[20039 -> 10004], [Gibraltar -> Europe] 
+
+srcNodes: [60082, 70278, 10004]
+  path: 0[20027 -> 10004 -> 20082 -> 60082], [Bosnia and Herzegovina -> Europe -> Cyprus -> republic] 
+
+  path: 1[20027 -> 70278], [Bosnia and Herzegovina -> Protestant] 
+
+  path: 2[20027 -> 10004], [Bosnia and Herzegovina -> Europe] 
+
+srcNodes: [60082, 70329, 10004]
+  path: 0[20003 -> 10004 -> 20082 -> 60082], [Serbia -> Europe -> Cyprus -> republic] 
+
+  path: 1[20003 -> 70329], [Serbia -> Protestant] 
+
+  path: 2[20003 -> 10004], [Serbia -> Europe] 
+
+srcNodes: [60082, 70285, 10004]
+  path: 0[20032 -> 10004 -> 20082 -> 60082], [Denmark -> Europe -> Cyprus -> republic] 
+
+  path: 1[20032 -> 70285], [Denmark -> Protestant] 
+
+  path: 2[20032 -> 10004], [Denmark -> Europe] 
+
+srcNodes: [60082, 70275, 10004]
+  path: 0[20024 -> 10004 -> 20082 -> 60082], [Belgium -> Europe -> Cyprus -> republic] 
+
+  path: 1[20024 -> 70275], [Belgium -> Protestant] 
+
+  path: 2[20024 -> 10004], [Belgium -> Europe] 
+
+srcNodes: [60082, 70289, 10004]
+  path: 0[20034 -> 10004 -> 20082 -> 60082], [Faroe Islands -> Europe -> Cyprus -> republic] 
+
+  path: 1[20034 -> 70289], [Faroe Islands -> Protestant] 
+
+  path: 2[20034 -> 10004], [Faroe Islands -> Europe] 
+
+srcNodes: [60082, 70326, 10004]
+  path: 0[20015 -> 10004 -> 20082 -> 60082], [Slovakia -> Europe -> Cyprus -> republic] 
+
+  path: 1[20015 -> 70326], [Slovakia -> Protestant] 
+
+  path: 2[20015 -> 10004], [Slovakia -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: [10004, 20042, 20007, 20030, 20035, 20012, 20010, 20049, 20017, 20009, 20011, 20028, 20037, 20039, 20027, 20003, 20032, 20024, 20034, 20015]
+ResultRelevs: [11.72389030456543, 9.398950576782227, 9.398950576782227, 9.398950576782227, 9.398950576782227, 9.398950576782227, 9.398950576782227, 9.398950576782227, 8.455049514770508, 8.455049514770508, 8.455049514770508, 8.140409469604492, 8.140409469604492, 8.140409469604492, 8.140409469604492, 8.140409469604492, 8.140409469604492, 8.140409469604492, 8.140409469604492, 8.140409469604492]
+Num of top-k answers: 20
+Num of non-reduced answers: 0
+Num of duplicate answers: 1
+Num of non-redundant answers: 19
+Num of entries retrieved from the lists: 302
+Num of entries retrieved from NKMaps: 412
+
+Blink Search Using ConstRootDup20
+[republic, protestant, europe]
+srcNodes: [60082, 70329, 10004]
+  path: 0[10004 -> 20082 -> 60082], [Europe -> Cyprus -> republic] 
+
+  path: 1[10004 -> 20003 -> 70329], [Europe -> Serbia -> Protestant] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60035, 70282, 10004]
+  path: 0[10004 -> 20035 -> 60035], [Europe -> Finland -> republic] 
+
+  path: 1[10004 -> 20017 -> 70282], [Europe -> Switzerland -> Protestant] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60082, 70282, 10004]
+  path: 0[10004 -> 20082 -> 60082], [Europe -> Cyprus -> republic] 
+
+  path: 1[10004 -> 20017 -> 70282], [Europe -> Switzerland -> Protestant] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60035, 70329, 10004]
+  path: 0[10004 -> 20035 -> 60035], [Europe -> Finland -> republic] 
+
+  path: 1[10004 -> 20003 -> 70329], [Europe -> Serbia -> Protestant] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [20010, 70282, 10004]
+  path: 0[10004 -> 20010], [Europe -> Czech Republic] 
+
+  path: 1[10004 -> 20017 -> 70282], [Europe -> Switzerland -> Protestant] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [20010, 70329, 10004]
+  path: 0[10004 -> 20010], [Europe -> Czech Republic] 
+
+  path: 1[10004 -> 20003 -> 70329], [Europe -> Serbia -> Protestant] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60011, 70282, 10004]
+  path: 0[10004 -> 20011 -> 60011], [Europe -> Germany -> federal republic] 
+
+  path: 1[10004 -> 20017 -> 70282], [Europe -> Switzerland -> Protestant] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60011, 70329, 10004]
+  path: 0[10004 -> 20011 -> 60011], [Europe -> Germany -> federal republic] 
+
+  path: 1[10004 -> 20003 -> 70329], [Europe -> Serbia -> Protestant] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60055, 70282, 10004]
+  path: 0[10004 -> 20031 -> 10002 -> 20055 -> 60055], [Europe -> Turkey -> Asia -> Pakistan -> republic] 
+
+  path: 1[10004 -> 20017 -> 70282], [Europe -> Switzerland -> Protestant] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60055, 70329, 10004]
+  path: 0[10004 -> 20031 -> 10002 -> 20055 -> 60055], [Europe -> Turkey -> Asia -> Pakistan -> republic] 
+
+  path: 1[10004 -> 20003 -> 70329], [Europe -> Serbia -> Protestant] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60035, 70325, 10004]
+  path: 0[20035 -> 60035], [Finland -> republic] 
+
+  path: 1[20035 -> 70325], [Finland -> Protestant] 
+
+  path: 2[20035 -> 10004], [Finland -> Europe] 
+
+srcNodes: [60049, 70311, 10004]
+  path: 0[20049 -> 60049], [Portugal -> republic] 
+
+  path: 1[20049 -> 70311], [Portugal -> Protestant] 
+
+  path: 2[20049 -> 10004], [Portugal -> Europe] 
+
+srcNodes: [60042, 70298, 10004]
+  path: 0[20042 -> 60042], [Iceland -> republic] 
+
+  path: 1[20042 -> 70298], [Iceland -> Protestant] 
+
+  path: 2[20042 -> 10004], [Iceland -> Europe] 
+
+srcNodes: [60012, 70296, 10004]
+  path: 0[20012 -> 60012], [Hungary -> republic] 
+
+  path: 1[20012 -> 70296], [Hungary -> Protestant] 
+
+  path: 2[20012 -> 10004], [Hungary -> Europe] 
+
+srcNodes: [20010, 70283, 10004]
+  path: 0[20010 -> 20010], [Czech Republic -> Czech Republic]
+  path: 1[20010 -> 70283], [Czech Republic -> Protestant] 
+
+  path: 2[20010 -> 10004], [Czech Republic -> Europe] 
+
+srcNodes: [60007, 70288, 10004]
+  path: 0[20007 -> 60007], [France -> republic] 
+
+  path: 1[20007 -> 70288], [France -> Protestant] 
+
+  path: 2[20007 -> 10004], [France -> Europe] 
+
+srcNodes: [60030, 70320, 10004]
+  path: 0[20030 -> 60030], [Romania -> republic] 
+
+  path: 1[20030 -> 70320], [Romania -> Protestant] 
+
+  path: 2[20030 -> 10004], [Romania -> Europe] 
+
+srcNodes: [60009, 70270, 10004]
+  path: 0[20009 -> 60009], [Austria -> federal republic] 
+
+  path: 1[20009 -> 70270], [Austria -> Protestant] 
+
+  path: 2[20009 -> 10004], [Austria -> Europe] 
+
+srcNodes: [60017, 70282, 10004]
+  path: 0[20017 -> 60017], [Switzerland -> federal republic] 
+
+  path: 1[20017 -> 70282], [Switzerland -> Protestant] 
+
+  path: 2[20017 -> 10004], [Switzerland -> Europe] 
+
+srcNodes: [60011, 70284, 10004]
+  path: 0[20011 -> 60011], [Germany -> federal republic] 
+
+  path: 1[20011 -> 70284], [Germany -> Protestant] 
+
+  path: 2[20011 -> 10004], [Germany -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: 
+10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 20035, 20049, 20042, 20012, 20010, 20007, 20030, 20009, 20017, 20011, 
+ResultRelevs: 
+11.72389, 11.72389, 11.72389, 11.72389, 11.30438, 11.30438, 11.09462, 11.09462, 11.05267, 11.05267, 9.398951, 9.398951, 9.398951, 9.398951, 9.398951, 9.398951, 9.398951, 8.4550495, 8.4550495, 8.4550495, 
+Num of top-k answers: 20
+Num of duplicate answers: 0
+Num of duplicate roots in top-k answers: 9
+root duplication ratio: 0.47368422
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 301
+Num of entries retrieved from NKMaps: 1428
+Num of answer trees explored: 5640
+
+Blink Search Using BDB 30
+[republic, protestant, europe]
+srcNodes: [60082, 70329, 10004]
+  path: 0[10004 -> 20082 -> 60082], [Europe -> Cyprus -> republic] 
+
+  path: 1[10004 -> 20003 -> 70329], [Europe -> Serbia -> Protestant] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60012, 70296, 10004]
+  path: 0[20012 -> 60012], [Hungary -> republic] 
+
+  path: 1[20012 -> 70296], [Hungary -> Protestant] 
+
+  path: 2[20012 -> 10004], [Hungary -> Europe] 
+
+srcNodes: [60030, 70320, 10004]
+  path: 0[20030 -> 60030], [Romania -> republic] 
+
+  path: 1[20030 -> 70320], [Romania -> Protestant] 
+
+  path: 2[20030 -> 10004], [Romania -> Europe] 
+
+srcNodes: [60035, 70325, 10004]
+  path: 0[20035 -> 60035], [Finland -> republic] 
+
+  path: 1[20035 -> 70325], [Finland -> Protestant] 
+
+  path: 2[20035 -> 10004], [Finland -> Europe] 
+
+srcNodes: [60007, 70288, 10004]
+  path: 0[20007 -> 60007], [France -> republic] 
+
+  path: 1[20007 -> 70288], [France -> Protestant] 
+
+  path: 2[20007 -> 10004], [France -> Europe] 
+
+srcNodes: [60042, 70298, 10004]
+  path: 0[20042 -> 60042], [Iceland -> republic] 
+
+  path: 1[20042 -> 70298], [Iceland -> Protestant] 
+
+  path: 2[20042 -> 10004], [Iceland -> Europe] 
+
+srcNodes: [20010, 70283, 10004]
+  path: 0[20010 -> 20010], [Czech Republic -> Czech Republic]
+  path: 1[20010 -> 70283], [Czech Republic -> Protestant] 
+
+  path: 2[20010 -> 10004], [Czech Republic -> Europe] 
+
+srcNodes: [60049, 70311, 10004]
+  path: 0[20049 -> 60049], [Portugal -> republic] 
+
+  path: 1[20049 -> 70311], [Portugal -> Protestant] 
+
+  path: 2[20049 -> 10004], [Portugal -> Europe] 
+
+srcNodes: [60009, 70270, 10004]
+  path: 0[20009 -> 60009], [Austria -> federal republic] 
+
+  path: 1[20009 -> 70270], [Austria -> Protestant] 
+
+  path: 2[20009 -> 10004], [Austria -> Europe] 
+
+srcNodes: [60011, 70284, 10004]
+  path: 0[20011 -> 60011], [Germany -> federal republic] 
+
+  path: 1[20011 -> 70284], [Germany -> Protestant] 
+
+  path: 2[20011 -> 10004], [Germany -> Europe] 
+
+srcNodes: [60017, 70282, 10004]
+  path: 0[20017 -> 60017], [Switzerland -> federal republic] 
+
+  path: 1[20017 -> 70282], [Switzerland -> Protestant] 
+
+  path: 2[20017 -> 10004], [Switzerland -> Europe] 
+
+srcNodes: [60082, 70293, 10004]
+  path: 0[20039 -> 10004 -> 20082 -> 60082], [Gibraltar -> Europe -> Cyprus -> republic] 
+
+  path: 1[20039 -> 70293], [Gibraltar -> Protestant] 
+
+  path: 2[20039 -> 10004], [Gibraltar -> Europe] 
+
+srcNodes: [60082, 70324, 10004]
+  path: 0[20037 -> 10004 -> 20082 -> 60082], [Sweden -> Europe -> Cyprus -> republic] 
+
+  path: 1[20037 -> 70324], [Sweden -> Protestant] 
+
+  path: 2[20037 -> 10004], [Sweden -> Europe] 
+
+srcNodes: [60082, 70290, 10004]
+  path: 0[20014 -> 10004 -> 20082 -> 60082], [Liechtenstein -> Europe -> Cyprus -> republic] 
+
+  path: 1[20014 -> 70290], [Liechtenstein -> Protestant] 
+
+  path: 2[20014 -> 10004], [Liechtenstein -> Europe] 
+
+srcNodes: [60082, 70329, 10004]
+  path: 0[20003 -> 10004 -> 20082 -> 60082], [Serbia -> Europe -> Cyprus -> republic] 
+
+  path: 1[20003 -> 70329], [Serbia -> Protestant] 
+
+  path: 2[20003 -> 10004], [Serbia -> Europe] 
+
+srcNodes: [60082, 70285, 10004]
+  path: 0[20032 -> 10004 -> 20082 -> 60082], [Denmark -> Europe -> Cyprus -> republic] 
+
+  path: 1[20032 -> 70285], [Denmark -> Protestant] 
+
+  path: 2[20032 -> 10004], [Denmark -> Europe] 
+
+srcNodes: [60082, 70309, 10004]
+  path: 0[20026 -> 10004 -> 20082 -> 60082], [Netherlands -> Europe -> Cyprus -> republic] 
+
+  path: 1[20026 -> 70309], [Netherlands -> Protestant] 
+
+  path: 2[20026 -> 10004], [Netherlands -> Europe] 
+
+srcNodes: [60082, 70275, 10004]
+  path: 0[20024 -> 10004 -> 20082 -> 60082], [Belgium -> Europe -> Cyprus -> republic] 
+
+  path: 1[20024 -> 70275], [Belgium -> Protestant] 
+
+  path: 2[20024 -> 10004], [Belgium -> Europe] 
+
+srcNodes: [60082, 70278, 10004]
+  path: 0[20027 -> 10004 -> 20082 -> 60082], [Bosnia and Herzegovina -> Europe -> Cyprus -> republic] 
+
+  path: 1[20027 -> 70278], [Bosnia and Herzegovina -> Protestant] 
+
+  path: 2[20027 -> 10004], [Bosnia and Herzegovina -> Europe] 
+
+srcNodes: [60082, 70289, 10004]
+  path: 0[20034 -> 10004 -> 20082 -> 60082], [Faroe Islands -> Europe -> Cyprus -> republic] 
+
+  path: 1[20034 -> 70289], [Faroe Islands -> Protestant] 
+
+  path: 2[20034 -> 10004], [Faroe Islands -> Europe] 
+
+srcNodes: [60082, 70326, 10004]
+  path: 0[20015 -> 10004 -> 20082 -> 60082], [Slovakia -> Europe -> Cyprus -> republic] 
+
+  path: 1[20015 -> 70326], [Slovakia -> Protestant] 
+
+  path: 2[20015 -> 10004], [Slovakia -> Europe] 
+
+srcNodes: [60082, 70297, 10004]
+  path: 0[20028 -> 10004 -> 20082 -> 60082], [Croatia -> Europe -> Cyprus -> republic] 
+
+  path: 1[20028 -> 70297], [Croatia -> Protestant] 
+
+  path: 2[20028 -> 10004], [Croatia -> Europe] 
+
+srcNodes: [60082, 70305, 10004]
+  path: 0[20036 -> 10004 -> 20082 -> 60082], [Norway -> Europe -> Cyprus -> republic] 
+
+  path: 1[20036 -> 70305], [Norway -> Protestant] 
+
+  path: 2[20036 -> 10004], [Norway -> Europe] 
+
+srcNodes: [60020, 70320, 10004]
+  path: 0[20020 -> 60020], [Lithuania -> republic] 
+
+  path: 1[20020 -> 10004 -> 20030 -> 70320], [Lithuania -> Europe -> Romania -> Protestant] 
+
+  path: 2[20020 -> 10004], [Lithuania -> Europe] 
+
+srcNodes: [60022, 70320, 10004]
+  path: 0[20022 -> 60022], [Ukraine -> republic] 
+
+  path: 1[20022 -> 10004 -> 20030 -> 70320], [Ukraine -> Europe -> Romania -> Protestant] 
+
+  path: 2[20022 -> 10004], [Ukraine -> Europe] 
+
+srcNodes: [60018, 70320, 10004]
+  path: 0[20018 -> 60018], [Belarus -> republic] 
+
+  path: 1[20018 -> 10004 -> 20030 -> 70320], [Belarus -> Europe -> Romania -> Protestant] 
+
+  path: 2[20018 -> 10004], [Belarus -> Europe] 
+
+srcNodes: [60033, 70320, 10004]
+  path: 0[20033 -> 60033], [Estonia -> republic] 
+
+  path: 1[20033 -> 10004 -> 20030 -> 70320], [Estonia -> Europe -> Romania -> Protestant] 
+
+  path: 2[20033 -> 10004], [Estonia -> Europe] 
+
+srcNodes: [60043, 70320, 10004]
+  path: 0[20043 -> 60043], [Ireland -> republic] 
+
+  path: 1[20043 -> 10004 -> 20030 -> 70320], [Ireland -> Europe -> Romania -> Protestant] 
+
+  path: 2[20043 -> 10004], [Ireland -> Europe] 
+
+srcNodes: [60005, 70320, 10004]
+  path: 0[20005 -> 60005], [Kosovo -> republic] 
+
+  path: 1[20005 -> 10004 -> 20030 -> 70320], [Kosovo -> Europe -> Romania -> Protestant] 
+
+  path: 2[20005 -> 10004], [Kosovo -> Europe] 
+
+srcNodes: [60019, 70320, 10004]
+  path: 0[20019 -> 60019], [Latvia -> republic] 
+
+  path: 1[20019 -> 10004 -> 20030 -> 70320], [Latvia -> Europe -> Romania -> Protestant] 
+
+  path: 2[20019 -> 10004], [Latvia -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: [10004, 20012, 20030, 20035, 20007, 20042, 20010, 20049, 20009, 20011, 20017, 20039, 20037, 20014, 20003, 20032, 20026, 20024, 20027, 20034, 20015, 20028, 20036, 20020, 20022, 20018, 20033, 20043, 20005, 20019]
+ResultRelevs: [11.72389030456543, 9.398950576782227, 9.398950576782227, 9.398950576782227, 9.398950576782227, 9.398950576782227, 9.398950576782227, 9.398950576782227, 8.455049514770508, 8.455049514770508, 8.455049514770508, 8.140409469604492, 8.140409469604492, 8.140409469604492, 8.140409469604492, 8.140409469604492, 8.140409469604492, 8.140409469604492, 8.140409469604492, 8.140409469604492, 8.140409469604492, 8.140409469604492, 8.140409469604492, 8.004739761352539, 8.004739761352539, 8.004739761352539, 8.004739761352539, 8.004739761352539, 8.004739761352539, 8.004739761352539]
+Num of top-k answers: 30
+Num of non-reduced answers: 0
+Num of duplicate answers: 1
+Num of non-redundant answers: 29
+Num of entries retrieved from the lists: 312
+Num of entries retrieved from NKMaps: 424
+
+Blink Search Using ConstRootDup30
+[republic, protestant, europe]
+srcNodes: [60035, 70329, 10004]
+  path: 0[10004 -> 20035 -> 60035], [Europe -> Finland -> republic] 
+
+  path: 1[10004 -> 20003 -> 70329], [Europe -> Serbia -> Protestant] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60082, 70282, 10004]
+  path: 0[10004 -> 20082 -> 60082], [Europe -> Cyprus -> republic] 
+
+  path: 1[10004 -> 20017 -> 70282], [Europe -> Switzerland -> Protestant] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60082, 70329, 10004]
+  path: 0[10004 -> 20082 -> 60082], [Europe -> Cyprus -> republic] 
+
+  path: 1[10004 -> 20003 -> 70329], [Europe -> Serbia -> Protestant] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60035, 70282, 10004]
+  path: 0[10004 -> 20035 -> 60035], [Europe -> Finland -> republic] 
+
+  path: 1[10004 -> 20017 -> 70282], [Europe -> Switzerland -> Protestant] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [20010, 70282, 10004]
+  path: 0[10004 -> 20010], [Europe -> Czech Republic] 
+
+  path: 1[10004 -> 20017 -> 70282], [Europe -> Switzerland -> Protestant] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [20010, 70329, 10004]
+  path: 0[10004 -> 20010], [Europe -> Czech Republic] 
+
+  path: 1[10004 -> 20003 -> 70329], [Europe -> Serbia -> Protestant] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60011, 70282, 10004]
+  path: 0[10004 -> 20011 -> 60011], [Europe -> Germany -> federal republic] 
+
+  path: 1[10004 -> 20017 -> 70282], [Europe -> Switzerland -> Protestant] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60011, 70329, 10004]
+  path: 0[10004 -> 20011 -> 60011], [Europe -> Germany -> federal republic] 
+
+  path: 1[10004 -> 20003 -> 70329], [Europe -> Serbia -> Protestant] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60055, 70329, 10004]
+  path: 0[10004 -> 20031 -> 10002 -> 20055 -> 60055], [Europe -> Turkey -> Asia -> Pakistan -> republic] 
+
+  path: 1[10004 -> 20003 -> 70329], [Europe -> Serbia -> Protestant] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60055, 70282, 10004]
+  path: 0[10004 -> 20031 -> 10002 -> 20055 -> 60055], [Europe -> Turkey -> Asia -> Pakistan -> republic] 
+
+  path: 1[10004 -> 20017 -> 70282], [Europe -> Switzerland -> Protestant] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60035, 70330, 10004]
+  path: 0[10004 -> 20035 -> 60035], [Europe -> Finland -> republic] 
+
+  path: 1[10004 -> 20031 -> 10002 -> 20087 -> 70330], [Europe -> Turkey -> Asia -> Timor-Leste -> Protestant] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60082, 70330, 10004]
+  path: 0[10004 -> 20082 -> 60082], [Europe -> Cyprus -> republic] 
+
+  path: 1[10004 -> 20031 -> 10002 -> 20087 -> 70330], [Europe -> Turkey -> Asia -> Timor-Leste -> Protestant] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [20010, 70330, 10004]
+  path: 0[10004 -> 20010], [Europe -> Czech Republic] 
+
+  path: 1[10004 -> 20031 -> 10002 -> 20087 -> 70330], [Europe -> Turkey -> Asia -> Timor-Leste -> Protestant] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60011, 70330, 10004]
+  path: 0[10004 -> 20011 -> 60011], [Europe -> Germany -> federal republic] 
+
+  path: 1[10004 -> 20031 -> 10002 -> 20087 -> 70330], [Europe -> Turkey -> Asia -> Timor-Leste -> Protestant] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60055, 70330, 10004]
+  path: 0[10004 -> 20031 -> 10002 -> 20055 -> 60055], [Europe -> Turkey -> Asia -> Pakistan -> republic] 
+
+  path: 1[10004 -> 20031 -> 10002 -> 20087 -> 70330], [Europe -> Turkey -> Asia -> Timor-Leste -> Protestant] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60035, 70325, 10004]
+  path: 0[20035 -> 60035], [Finland -> republic] 
+
+  path: 1[20035 -> 70325], [Finland -> Protestant] 
+
+  path: 2[20035 -> 10004], [Finland -> Europe] 
+
+srcNodes: [20010, 70283, 10004]
+  path: 0[20010 -> 20010], [Czech Republic -> Czech Republic]
+  path: 1[20010 -> 70283], [Czech Republic -> Protestant] 
+
+  path: 2[20010 -> 10004], [Czech Republic -> Europe] 
+
+srcNodes: [60049, 70311, 10004]
+  path: 0[20049 -> 60049], [Portugal -> republic] 
+
+  path: 1[20049 -> 70311], [Portugal -> Protestant] 
+
+  path: 2[20049 -> 10004], [Portugal -> Europe] 
+
+srcNodes: [60042, 70298, 10004]
+  path: 0[20042 -> 60042], [Iceland -> republic] 
+
+  path: 1[20042 -> 70298], [Iceland -> Protestant] 
+
+  path: 2[20042 -> 10004], [Iceland -> Europe] 
+
+srcNodes: [60012, 70296, 10004]
+  path: 0[20012 -> 60012], [Hungary -> republic] 
+
+  path: 1[20012 -> 70296], [Hungary -> Protestant] 
+
+  path: 2[20012 -> 10004], [Hungary -> Europe] 
+
+srcNodes: [60030, 70320, 10004]
+  path: 0[20030 -> 60030], [Romania -> republic] 
+
+  path: 1[20030 -> 70320], [Romania -> Protestant] 
+
+  path: 2[20030 -> 10004], [Romania -> Europe] 
+
+srcNodes: [60007, 70288, 10004]
+  path: 0[20007 -> 60007], [France -> republic] 
+
+  path: 1[20007 -> 70288], [France -> Protestant] 
+
+  path: 2[20007 -> 10004], [France -> Europe] 
+
+srcNodes: [60009, 70270, 10004]
+  path: 0[20009 -> 60009], [Austria -> federal republic] 
+
+  path: 1[20009 -> 70270], [Austria -> Protestant] 
+
+  path: 2[20009 -> 10004], [Austria -> Europe] 
+
+srcNodes: [60011, 70284, 10004]
+  path: 0[20011 -> 60011], [Germany -> federal republic] 
+
+  path: 1[20011 -> 70284], [Germany -> Protestant] 
+
+  path: 2[20011 -> 10004], [Germany -> Europe] 
+
+srcNodes: [60017, 70282, 10004]
+  path: 0[20017 -> 60017], [Switzerland -> federal republic] 
+
+  path: 1[20017 -> 70282], [Switzerland -> Protestant] 
+
+  path: 2[20017 -> 10004], [Switzerland -> Europe] 
+
+srcNodes: [60082, 70297, 10004]
+  path: 0[20028 -> 10004 -> 20082 -> 60082], [Croatia -> Europe -> Cyprus -> republic] 
+
+  path: 1[20028 -> 70297], [Croatia -> Protestant] 
+
+  path: 2[20028 -> 10004], [Croatia -> Europe] 
+
+srcNodes: [60082, 70289, 10004]
+  path: 0[20034 -> 10004 -> 20082 -> 60082], [Faroe Islands -> Europe -> Cyprus -> republic] 
+
+  path: 1[20034 -> 70289], [Faroe Islands -> Protestant] 
+
+  path: 2[20034 -> 10004], [Faroe Islands -> Europe] 
+
+srcNodes: [60082, 70293, 10004]
+  path: 0[20039 -> 10004 -> 20082 -> 60082], [Gibraltar -> Europe -> Cyprus -> republic] 
+
+  path: 1[20039 -> 70293], [Gibraltar -> Protestant] 
+
+  path: 2[20039 -> 10004], [Gibraltar -> Europe] 
+
+srcNodes: [60082, 70275, 10004]
+  path: 0[20024 -> 10004 -> 20082 -> 60082], [Belgium -> Europe -> Cyprus -> republic] 
+
+  path: 1[20024 -> 70275], [Belgium -> Protestant] 
+
+  path: 2[20024 -> 10004], [Belgium -> Europe] 
+
+srcNodes: [60082, 70278, 10004]
+  path: 0[20027 -> 10004 -> 20082 -> 60082], [Bosnia and Herzegovina -> Europe -> Cyprus -> republic] 
+
+  path: 1[20027 -> 70278], [Bosnia and Herzegovina -> Protestant] 
+
+  path: 2[20027 -> 10004], [Bosnia and Herzegovina -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: 
+10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 20035, 20010, 20049, 20042, 20012, 20030, 20007, 20009, 20011, 20017, 20028, 20034, 20039, 20024, 20027, 
+ResultRelevs: 
+11.72389, 11.72389, 11.72389, 11.72389, 11.30438, 11.30438, 11.09462, 11.09462, 11.05267, 11.05267, 10.98032, 10.98032, 10.56081, 10.35105, 10.3091, 9.398951, 9.398951, 9.398951, 9.398951, 9.398951, 9.398951, 9.398951, 8.4550495, 8.4550495, 8.4550495, 8.140409, 8.140409, 8.140409, 8.140409, 8.140409, 
+Num of top-k answers: 30
+Num of duplicate answers: 0
+Num of duplicate roots in top-k answers: 14
+root duplication ratio: 0.4827586
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 301
+Num of entries retrieved from NKMaps: 1428
+Num of answer trees explored: 5640
+

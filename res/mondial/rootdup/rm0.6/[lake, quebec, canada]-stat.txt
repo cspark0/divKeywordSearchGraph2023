@@ -1,0 +1,11 @@
+ResultDestNodes.length, numOfNonReducedAnswers, numOfDuplicateAnswers, numOfNonredundantAnswers, numOfAccInUpdatePeriod, numOfNKMapLookups, numOfAnswerTreeExplored, numOfNonReducedCandidates, numOfReducedAlternatives, numOfDuplicateCandidates, numOfUniqueAnswersFound: numOfStatesChecked: 
+(numOfNKMapLookups2/(float)numOfNKMapLookupsByKeyword, maxNKMap, minNKMap)
+10, 0, 4, 6, 367, 424, 127, 0, 0, 0, 0: 0: 5.55, 5.55: 0.58:: 2.93, 2.63, (NaN, 0, 0)
+10, -, 2, -, 268, 1116, 955, -, -, -, -: -: 7.77:-:0.81:: 3.94, 3.81::: 5(0.56) 0.0, (-, -, -)
+
+20, 5, 11, 9, 394, 445, 133, 0, 0, 0, 0: 0: 4.88, 5.13: 0.51:: 4.03, 3.52, (NaN, 0, 0)
+20, -, 8, -, 367, 1424, 1245, -, -, -, -: -: 7.09:-:0.74:: 5.70, 5.40::: 11(0.58) 0.0, (-, -, -)
+
+30, 15, 21, 9, 394, 445, 133, 0, 0, 0, 0: 0: 4.63, 5.13: 0.48:: 4.95, 4.26, (NaN, 0, 0)
+30, -, 11, -, 394, 1476, 1274, -, -, -, -: -: 6.38:-:0.67:: 6.80, 6.33::: 17(0.59) 0.0, (-, -, -)
+

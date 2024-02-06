@@ -1,0 +1,8 @@
+Top-k, (AvgResultRelev, AvgResultRelev/ResultRelevs[0], AvgResultDiss) numOfKNListsRead, numOfNKMapLookups, numOfAnswerTreesExplored, elapseTime, 
+Top-k, (AvgResultRelev, AvgResultRelev/ResultRelevs[0], AvgResultDiss) numOfKNListsRead, numOfNKMapLookups, numOfAnswerTreesExplored, numOfAnswerTreeSetsCreated, numOfAnswerTreeSetsRemoved, maxQueueSize, elapseTime, 
+Top-k, (AvgResultRelev, AvgResultRelev/ResultRelevs[0], AvgResultDiss) numOfKNListsRead, numOfNKMapLookups, numOfAnswerTreesExplored, numOfStatesCreated, numOfStatesExplored, numOfHeuristicSearchPerformed maxQSize, elapseTime, 
+queryProcessing.BlinkSearcher, 7, (5.09293, 0.98317, 0.87143) 566, 964, 186, 0.128060704, 
+queryProcessing.Astar1, 7, (5.09293, 0.98317: 0.87143) 566, 964, 186, 65, 16, 2 28, 0.149613379, 
+queryProcessing.Astar1m, 7, (5.09293, 0.98317: 0.87143) 566, 964, 186, 29, 9, 1 21, 0.074837947, 
+queryProcessing.Astar2, 7, (5.09293, 0.98317: 0.87143) 566, 964, 186, 65, 16, 2 28, 0.088900187, 
+queryProcessing.Astar2m, 7, (5.09293, 0.98317: 0.87143) 566, 964, 186, 29, 9, 1 0, 0.089042305, 

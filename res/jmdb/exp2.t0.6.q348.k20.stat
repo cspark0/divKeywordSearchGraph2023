@@ -1,0 +1,13 @@
+Top-k, (AvgResultRelev, AvgResultRelev/ResultRelevs[0], AvgResultDiss) numOfKNListsRead, numOfNKMapLookups, numOfAnswerTreesExplored, elapseTime, numOfStatesCreated, numOfStatesExplored, numOfHeuristicSearchPerformed, numOfATSPrunnedByDissCond, numOfLocalAnswersFound, 
+query: [ghost, mystery, animation]
+BlinkSea, 	20, 8.89516, 0.93163, 0.52105, 5834, 9436, 2930, 0.879316477, 
+Exhustiv, 	20, 8.60568, 0.93346, 0.73509, 8255, 12991, 3787, 51.382723816, 11188243, 216, 2118176, 1, 
+Astar02, 	20, 8.60568, 0.93346, 0.73509, 8255, 12991, 3787, 213.188267909, 13310148, 13296730, 23, 7708425, 0, 
+Astar1nc_, 	20, 8.60568, 0.93346, 0.73509, 8255, 12991, 3787, 0.983030031, 11454, 2157, 3, 29868, 0, 
+query: [mystery, thriller, suspense]
+BlinkSea, 	20, 10.15360, 0.93551, 0.47298, 3588, 6433, 1916, 0.459408642, 
+Exhustiv, 	20, 9.63096, 0.88736, 0.68263, 8254, 14880, 4674, 533.080332019, 94201339, 94201159, 40706748, 3, 
+Astar02, 	20, 9.63096, 0.88736, 0.68263, 8254, 14880, 4674, 2450.008954222, 135065867, 134961640, 37, 71056086, 3, 
+Astar1nc_, 	20, 9.63096, 0.88736, 0.68263, 8254, 14880, 4674, 10.233084872, 145143, 27585, 6, 260595, 0, 
+query: [missing, horror, suspense]
+BlinkSea, 	20, 9.27685, 0.86513, 0.40526, 3185, 5501, 1553, 0.452678186, 

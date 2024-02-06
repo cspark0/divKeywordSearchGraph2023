@@ -1,0 +1,997 @@
+query: [sf, time, travel]
+Top-k Search by Blink-BDB, k=5
+[sf, time, travel]
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[2068636 -> 2068636], [Cooper Jr., Henry S.F. -> Cooper Jr., Henry S.F.]
+  path: 1[2068636 -> 1574939 -> 6020288], [Cooper Jr., Henry S.F. -> Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[2068636 -> 1574939 -> 2072962 -> 1618690 -> 8025845], [Cooper Jr., Henry S.F. -> Moon Beat (2009) -> Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[1618690 -> 2072962 -> 1574939 -> 2068636], [Oswald's Ghost (2007) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1618690 -> 2174891 -> 1555195 -> 2034844 -> 1165514 -> 8005325], [Oswald's Ghost (2007) -> Kennedy, John F. -> Marilyn Monroe - Tod einer Ikone (2010) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[1618690 -> 8025845], [Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[1574939 -> 2068636], [Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1574939 -> 6020288], [Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[1574939 -> 2072962 -> 1618690 -> 8025845], [Moon Beat (2009) -> Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[2072962 -> 1574939 -> 2068636], [Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[2072962 -> 1574939 -> 6020288], [Cronkite, Walter -> Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[2072962 -> 1618690 -> 8025845], [Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2124912, 8020879, 6010649]
+  path: 0[1331228 -> 2124912], [Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1331228 -> 2210328 -> 1194175 -> 2322682 -> 1509958 -> 8020879], [Disgrace (2008) -> Malkovich, John -> Afterwards (2008) -> Catillon, Brigitte -> La vérité ou presque (2007) -> based-on-novel,book,dog,ex-husband-ex-wife-relationship,extramarital-affair,film-in-film,gay,identity-swap,infidelity,jazz-singer,lyon-france,movie-theater,old-age,pregnant-woman,storm,television,tv,tv-station] 
+
+  path: 2[1331228 -> 2095378 -> 1531067 -> 2242238 -> 1355451 -> 6010649], [Disgrace (2008) -> Ebouaney, Eriq -> Lignes de front (2009) -> Nahon, Philippe (I) -> Eldorado (2008) -> Yvan finds a burglar] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [2068636, 1618690, 1574939, 2072962, 1331228]
+ResultRelevs: [8.21480655670166, 7.18338680267334, 7.177365303039551, 6.500222682952881, 6.335360050201416]
+AvgResultRelev: 7.082228279113769
+AvgResultDissimilarity: 0.55
+Num of entries retrieved from the lists: 1184
+Num of entries retrieved from NKMaps: 1670
+Num of answer trees explored: 425
+
+Div Top-k Search by Exhustive, k=5
+[sf, time, travel]
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[2068636 -> 2068636], [Cooper Jr., Henry S.F. -> Cooper Jr., Henry S.F.]
+  path: 1[2068636 -> 1574939 -> 6020288], [Cooper Jr., Henry S.F. -> Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[2068636 -> 1574939 -> 2072962 -> 1618690 -> 8025845], [Cooper Jr., Henry S.F. -> Moon Beat (2009) -> Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[1618690 -> 2072962 -> 1574939 -> 2068636], [Oswald's Ghost (2007) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1618690 -> 2174891 -> 1555195 -> 2034844 -> 1165514 -> 8005325], [Oswald's Ghost (2007) -> Kennedy, John F. -> Marilyn Monroe - Tod einer Ikone (2010) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[1618690 -> 8025845], [Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[1574939 -> 2068636], [Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1574939 -> 6020288], [Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[1574939 -> 2072962 -> 1618690 -> 8025845], [Moon Beat (2009) -> Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2124912, 8020879, 6010649]
+  path: 0[1331228 -> 2124912], [Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1331228 -> 2210328 -> 1194175 -> 2322682 -> 1509958 -> 8020879], [Disgrace (2008) -> Malkovich, John -> Afterwards (2008) -> Catillon, Brigitte -> La vérité ou presque (2007) -> based-on-novel,book,dog,ex-husband-ex-wife-relationship,extramarital-affair,film-in-film,gay,identity-swap,infidelity,jazz-singer,lyon-france,movie-theater,old-age,pregnant-woman,storm,television,tv,tv-station] 
+
+  path: 2[1331228 -> 2095378 -> 1531067 -> 2242238 -> 1355451 -> 6010649], [Disgrace (2008) -> Ebouaney, Eriq -> Lignes de front (2009) -> Nahon, Philippe (I) -> Eldorado (2008) -> Yvan finds a burglar] 
+
+srcNodes: [2124912, 8036989, 8024390]
+  path: 0[2106468 -> 1502772 -> 2095378 -> 1331228 -> 2124912], [Figlarz, Alain -> La horde (2009) -> Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2106468 -> 1840838 -> 8036989], [Figlarz, Alain -> Truands (2007) -> drugs,gangster,one-word-title,paris-france,underworld] 
+
+  path: 2[2106468 -> 1504913 -> 2020724 -> 1588951 -> 8024390], [Figlarz, Alain -> La môme (2007) -> Barbé, Marc -> Nannerl, la soeur de Mozart (2010) -> 14-year-old,1760s,18th-century,abandonment,abbey,book-burning,brother-sister-relationship,candlelight,carmelite,character-name-in-title,child-practices-violin,child-prodigy,composer,concerto,convent,dauphin-of-france,domineering-father,english-channel,famous-father,father-children-relationship,father-daughter-relationship,female-composer,female-musician,feminism,forbidden-book,france,frustration,gender-disguise,harpsichord,harpsichord-score,king,king-louis-xv,menstruation,misunderstood-composer,mozart,musical-composition,nickname,nickname-as-title,overbearing-father,passiveness,pillow-fight,pimple,resignation,royal-court,royal-heir,singing-girl,singing-voice,speaking-latin,submission,talent,tragic-female-character,versailles-france,violin,violinist,virtuosity,virtuoso,voice-over-letter,woman-dressed-as-man] 
+
+-----------------------------------------
+ResultDestNodes: [2068636, 1618690, 1574939, 1331228, 2106468]
+ResultRelevs: [8.21480655670166, 7.18338680267334, 7.177365303039551, 6.335360050201416, 5.677636623382568]
+AvgResultRelev: 6.917711067199707
+AvgResultDissimilarity: 0.7800000309944153
+Num of entries retrieved from the KNLists: 1959
+Num of entries retrieved from NKMaps: 2825
+Num of answer trees explored: 771
+Num of answer tree sets created: 102
+Num of answer tree sets removed: 38
+Max Num of answer tree sets in Q[]: 102
+
+Div Top-k Search by Astar1, k=5
+[sf, time, travel]
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[2068636 -> 2068636], [Cooper Jr., Henry S.F. -> Cooper Jr., Henry S.F.]
+  path: 1[2068636 -> 1574939 -> 6020288], [Cooper Jr., Henry S.F. -> Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[2068636 -> 1574939 -> 2072962 -> 1618690 -> 8025845], [Cooper Jr., Henry S.F. -> Moon Beat (2009) -> Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[1618690 -> 2072962 -> 1574939 -> 2068636], [Oswald's Ghost (2007) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1618690 -> 2174891 -> 1555195 -> 2034844 -> 1165514 -> 8005325], [Oswald's Ghost (2007) -> Kennedy, John F. -> Marilyn Monroe - Tod einer Ikone (2010) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[1618690 -> 8025845], [Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[1574939 -> 2068636], [Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1574939 -> 6020288], [Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[1574939 -> 2072962 -> 1618690 -> 8025845], [Moon Beat (2009) -> Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2124912, 8020879, 6010649]
+  path: 0[1331228 -> 2124912], [Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1331228 -> 2210328 -> 1194175 -> 2322682 -> 1509958 -> 8020879], [Disgrace (2008) -> Malkovich, John -> Afterwards (2008) -> Catillon, Brigitte -> La vérité ou presque (2007) -> based-on-novel,book,dog,ex-husband-ex-wife-relationship,extramarital-affair,film-in-film,gay,identity-swap,infidelity,jazz-singer,lyon-france,movie-theater,old-age,pregnant-woman,storm,television,tv,tv-station] 
+
+  path: 2[1331228 -> 2095378 -> 1531067 -> 2242238 -> 1355451 -> 6010649], [Disgrace (2008) -> Ebouaney, Eriq -> Lignes de front (2009) -> Nahon, Philippe (I) -> Eldorado (2008) -> Yvan finds a burglar] 
+
+srcNodes: [2124912, 8036989, 8024390]
+  path: 0[2106468 -> 1502772 -> 2095378 -> 1331228 -> 2124912], [Figlarz, Alain -> La horde (2009) -> Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2106468 -> 1840838 -> 8036989], [Figlarz, Alain -> Truands (2007) -> drugs,gangster,one-word-title,paris-france,underworld] 
+
+  path: 2[2106468 -> 1504913 -> 2020724 -> 1588951 -> 8024390], [Figlarz, Alain -> La môme (2007) -> Barbé, Marc -> Nannerl, la soeur de Mozart (2010) -> 14-year-old,1760s,18th-century,abandonment,abbey,book-burning,brother-sister-relationship,candlelight,carmelite,character-name-in-title,child-practices-violin,child-prodigy,composer,concerto,convent,dauphin-of-france,domineering-father,english-channel,famous-father,father-children-relationship,father-daughter-relationship,female-composer,female-musician,feminism,forbidden-book,france,frustration,gender-disguise,harpsichord,harpsichord-score,king,king-louis-xv,menstruation,misunderstood-composer,mozart,musical-composition,nickname,nickname-as-title,overbearing-father,passiveness,pillow-fight,pimple,resignation,royal-court,royal-heir,singing-girl,singing-voice,speaking-latin,submission,talent,tragic-female-character,versailles-france,violin,violinist,virtuosity,virtuoso,voice-over-letter,woman-dressed-as-man] 
+
+-----------------------------------------
+ResultDestNodes: [2068636, 1618690, 1574939, 1331228, 2106468]
+ResultRelevs: [8.21480655670166, 7.18338680267334, 7.177365303039551, 6.335360050201416, 5.677636623382568]
+AvgResultRelev: 6.917711067199707
+AvgResultDissimilarity: 0.7800000309944153
+Num of entries retrieved from the KNLists: 1959
+Num of entries retrieved from NKMaps: 2825
+Num of answer trees explored: 771
+Num of states created: 53
+Num of states explored: 18
+Num of heuristic search performed: 3
+Max Num of answer tree sets in Q[]: 16
+
+Div Top-k Search by AstarEnhanced, k=5
+[sf, time, travel]
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[2068636 -> 2068636], [Cooper Jr., Henry S.F. -> Cooper Jr., Henry S.F.]
+  path: 1[2068636 -> 1574939 -> 6020288], [Cooper Jr., Henry S.F. -> Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[2068636 -> 1574939 -> 2072962 -> 1618690 -> 8025845], [Cooper Jr., Henry S.F. -> Moon Beat (2009) -> Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[1618690 -> 2072962 -> 1574939 -> 2068636], [Oswald's Ghost (2007) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1618690 -> 2174891 -> 1555195 -> 2034844 -> 1165514 -> 8005325], [Oswald's Ghost (2007) -> Kennedy, John F. -> Marilyn Monroe - Tod einer Ikone (2010) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[1618690 -> 8025845], [Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[1574939 -> 2068636], [Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1574939 -> 6020288], [Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[1574939 -> 2072962 -> 1618690 -> 8025845], [Moon Beat (2009) -> Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2124912, 8020879, 6010649]
+  path: 0[1331228 -> 2124912], [Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1331228 -> 2210328 -> 1194175 -> 2322682 -> 1509958 -> 8020879], [Disgrace (2008) -> Malkovich, John -> Afterwards (2008) -> Catillon, Brigitte -> La vérité ou presque (2007) -> based-on-novel,book,dog,ex-husband-ex-wife-relationship,extramarital-affair,film-in-film,gay,identity-swap,infidelity,jazz-singer,lyon-france,movie-theater,old-age,pregnant-woman,storm,television,tv,tv-station] 
+
+  path: 2[1331228 -> 2095378 -> 1531067 -> 2242238 -> 1355451 -> 6010649], [Disgrace (2008) -> Ebouaney, Eriq -> Lignes de front (2009) -> Nahon, Philippe (I) -> Eldorado (2008) -> Yvan finds a burglar] 
+
+srcNodes: [2124912, 8036989, 8024390]
+  path: 0[2106468 -> 1502772 -> 2095378 -> 1331228 -> 2124912], [Figlarz, Alain -> La horde (2009) -> Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2106468 -> 1840838 -> 8036989], [Figlarz, Alain -> Truands (2007) -> drugs,gangster,one-word-title,paris-france,underworld] 
+
+  path: 2[2106468 -> 1504913 -> 2020724 -> 1588951 -> 8024390], [Figlarz, Alain -> La môme (2007) -> Barbé, Marc -> Nannerl, la soeur de Mozart (2010) -> 14-year-old,1760s,18th-century,abandonment,abbey,book-burning,brother-sister-relationship,candlelight,carmelite,character-name-in-title,child-practices-violin,child-prodigy,composer,concerto,convent,dauphin-of-france,domineering-father,english-channel,famous-father,father-children-relationship,father-daughter-relationship,female-composer,female-musician,feminism,forbidden-book,france,frustration,gender-disguise,harpsichord,harpsichord-score,king,king-louis-xv,menstruation,misunderstood-composer,mozart,musical-composition,nickname,nickname-as-title,overbearing-father,passiveness,pillow-fight,pimple,resignation,royal-court,royal-heir,singing-girl,singing-voice,speaking-latin,submission,talent,tragic-female-character,versailles-france,violin,violinist,virtuosity,virtuoso,voice-over-letter,woman-dressed-as-man] 
+
+-----------------------------------------
+ResultDestNodes: [2068636, 1618690, 1574939, 1331228, 2106468]
+ResultRelevs: [8.21480655670166, 7.18338680267334, 7.177365303039551, 6.335360050201416, 5.677636623382568]
+AvgResultRelev: 6.917711067199707
+AvgResultDissimilarity: 0.7800000309944153
+Num of entries retrieved from the KNLists: 1959
+Num of entries retrieved from NKMaps: 2825
+Num of answer trees explored: 771
+Num of states created: 104
+Num of states explored: 88
+Num of heuristic search performed: 3
+Max Num of answer tree sets in Q[]: 16
+
+Top-k Search by Blink-BDB, k=10
+[sf, time, travel]
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[2068636 -> 2068636], [Cooper Jr., Henry S.F. -> Cooper Jr., Henry S.F.]
+  path: 1[2068636 -> 1574939 -> 6020288], [Cooper Jr., Henry S.F. -> Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[2068636 -> 1574939 -> 2072962 -> 1618690 -> 8025845], [Cooper Jr., Henry S.F. -> Moon Beat (2009) -> Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[1618690 -> 2072962 -> 1574939 -> 2068636], [Oswald's Ghost (2007) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1618690 -> 2174891 -> 1555195 -> 2034844 -> 1165514 -> 8005325], [Oswald's Ghost (2007) -> Kennedy, John F. -> Marilyn Monroe - Tod einer Ikone (2010) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[1618690 -> 8025845], [Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[1574939 -> 2068636], [Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1574939 -> 6020288], [Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[1574939 -> 2072962 -> 1618690 -> 8025845], [Moon Beat (2009) -> Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[2072962 -> 1574939 -> 2068636], [Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[2072962 -> 1574939 -> 6020288], [Cronkite, Walter -> Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[2072962 -> 1618690 -> 8025845], [Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2124912, 8020879, 6010649]
+  path: 0[1331228 -> 2124912], [Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1331228 -> 2210328 -> 1194175 -> 2322682 -> 1509958 -> 8020879], [Disgrace (2008) -> Malkovich, John -> Afterwards (2008) -> Catillon, Brigitte -> La vérité ou presque (2007) -> based-on-novel,book,dog,ex-husband-ex-wife-relationship,extramarital-affair,film-in-film,gay,identity-swap,infidelity,jazz-singer,lyon-france,movie-theater,old-age,pregnant-woman,storm,television,tv,tv-station] 
+
+  path: 2[1331228 -> 2095378 -> 1531067 -> 2242238 -> 1355451 -> 6010649], [Disgrace (2008) -> Ebouaney, Eriq -> Lignes de front (2009) -> Nahon, Philippe (I) -> Eldorado (2008) -> Yvan finds a burglar] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[2174891 -> 1618690 -> 2072962 -> 1574939 -> 2068636], [Kennedy, John F. -> Oswald's Ghost (2007) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[2174891 -> 1555195 -> 2034844 -> 1165514 -> 8005325], [Kennedy, John F. -> Marilyn Monroe - Tod einer Ikone (2010) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[2174891 -> 1618690 -> 8025845], [Kennedy, John F. -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2124912, 8036989, 8024390]
+  path: 0[2106468 -> 1502772 -> 2095378 -> 1331228 -> 2124912], [Figlarz, Alain -> La horde (2009) -> Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2106468 -> 1840838 -> 8036989], [Figlarz, Alain -> Truands (2007) -> drugs,gangster,one-word-title,paris-france,underworld] 
+
+  path: 2[2106468 -> 1504913 -> 2020724 -> 1588951 -> 8024390], [Figlarz, Alain -> La môme (2007) -> Barbé, Marc -> Nannerl, la soeur de Mozart (2010) -> 14-year-old,1760s,18th-century,abandonment,abbey,book-burning,brother-sister-relationship,candlelight,carmelite,character-name-in-title,child-practices-violin,child-prodigy,composer,concerto,convent,dauphin-of-france,domineering-father,english-channel,famous-father,father-children-relationship,father-daughter-relationship,female-composer,female-musician,feminism,forbidden-book,france,frustration,gender-disguise,harpsichord,harpsichord-score,king,king-louis-xv,menstruation,misunderstood-composer,mozart,musical-composition,nickname,nickname-as-title,overbearing-father,passiveness,pillow-fight,pimple,resignation,royal-court,royal-heir,singing-girl,singing-voice,speaking-latin,submission,talent,tragic-female-character,versailles-france,violin,violinist,virtuosity,virtuoso,voice-over-letter,woman-dressed-as-man] 
+
+srcNodes: [2124912, 8036989, 8024390]
+  path: 0[2136114 -> 1342955 -> 2095378 -> 1331228 -> 2124912], [Hajdi, Youssef -> Duty Calls (2009) -> Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2136114 -> 1840838 -> 8036989], [Hajdi, Youssef -> Truands (2007) -> drugs,gangster,one-word-title,paris-france,underworld] 
+
+  path: 2[2136114 -> 1524124 -> 2123413 -> 1588951 -> 8024390], [Hajdi, Youssef -> Les aventures extraordinaires d'Adèle Blanc-Sec (2010) -> Giraud, Nicolas (I) -> Nannerl, la soeur de Mozart (2010) -> 14-year-old,1760s,18th-century,abandonment,abbey,book-burning,brother-sister-relationship,candlelight,carmelite,character-name-in-title,child-practices-violin,child-prodigy,composer,concerto,convent,dauphin-of-france,domineering-father,english-channel,famous-father,father-children-relationship,father-daughter-relationship,female-composer,female-musician,feminism,forbidden-book,france,frustration,gender-disguise,harpsichord,harpsichord-score,king,king-louis-xv,menstruation,misunderstood-composer,mozart,musical-composition,nickname,nickname-as-title,overbearing-father,passiveness,pillow-fight,pimple,resignation,royal-court,royal-heir,singing-girl,singing-voice,speaking-latin,submission,talent,tragic-female-character,versailles-france,violin,violinist,virtuosity,virtuoso,voice-over-letter,woman-dressed-as-man] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[1452377 -> 2072962 -> 1574939 -> 2068636], [In the Shadow of the Moon (2007) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1452377 -> 2174891 -> 1555195 -> 2034844 -> 1165514 -> 8005325], [In the Shadow of the Moon (2007) -> Kennedy, John F. -> Marilyn Monroe - Tod einer Ikone (2010) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[1452377 -> 2174891 -> 1618690 -> 8025845], [In the Shadow of the Moon (2007) -> Kennedy, John F. -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[1337432 -> 2072962 -> 1574939 -> 2068636], [Double Take (2009) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1337432 -> 2174891 -> 1555195 -> 2034844 -> 1165514 -> 8005325], [Double Take (2009) -> Kennedy, John F. -> Marilyn Monroe - Tod einer Ikone (2010) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[1337432 -> 2279965 -> 1618690 -> 8025845], [Double Take (2009) -> Rather, Dan -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+-----------------------------------------
+Num of top-k answers: 10
+ResultDestNodes: [2068636, 1618690, 1574939, 2072962, 1331228, 2174891, 2106468, 2136114, 1452377, 1337432]
+ResultRelevs: [8.21480655670166, 7.18338680267334, 7.177365303039551, 6.500222682952881, 6.335360050201416, 6.193135738372803, 5.677636623382568, 5.677636623382568, 5.671436309814453, 5.671436309814453]
+AvgResultRelev: 6.430242300033569
+AvgResultDissimilarity: 0.6355555555555555
+Num of entries retrieved from the lists: 2513
+Num of entries retrieved from NKMaps: 3556
+Num of answer trees explored: 933
+
+Div Top-k Search by Exhustive, k=10
+[sf, time, travel]
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[2068636 -> 2068636], [Cooper Jr., Henry S.F. -> Cooper Jr., Henry S.F.]
+  path: 1[2068636 -> 1574939 -> 6020288], [Cooper Jr., Henry S.F. -> Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[2068636 -> 1574939 -> 2072962 -> 1618690 -> 8025845], [Cooper Jr., Henry S.F. -> Moon Beat (2009) -> Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[1618690 -> 2072962 -> 1574939 -> 2068636], [Oswald's Ghost (2007) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1618690 -> 2174891 -> 1555195 -> 2034844 -> 1165514 -> 8005325], [Oswald's Ghost (2007) -> Kennedy, John F. -> Marilyn Monroe - Tod einer Ikone (2010) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[1618690 -> 8025845], [Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[1574939 -> 2068636], [Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1574939 -> 6020288], [Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[1574939 -> 2072962 -> 1618690 -> 8025845], [Moon Beat (2009) -> Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[2072962 -> 1574939 -> 2068636], [Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[2072962 -> 1574939 -> 6020288], [Cronkite, Walter -> Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[2072962 -> 1618690 -> 8025845], [Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2124912, 8020879, 6010649]
+  path: 0[1331228 -> 2124912], [Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1331228 -> 2210328 -> 1194175 -> 2322682 -> 1509958 -> 8020879], [Disgrace (2008) -> Malkovich, John -> Afterwards (2008) -> Catillon, Brigitte -> La vérité ou presque (2007) -> based-on-novel,book,dog,ex-husband-ex-wife-relationship,extramarital-affair,film-in-film,gay,identity-swap,infidelity,jazz-singer,lyon-france,movie-theater,old-age,pregnant-woman,storm,television,tv,tv-station] 
+
+  path: 2[1331228 -> 2095378 -> 1531067 -> 2242238 -> 1355451 -> 6010649], [Disgrace (2008) -> Ebouaney, Eriq -> Lignes de front (2009) -> Nahon, Philippe (I) -> Eldorado (2008) -> Yvan finds a burglar] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[2174891 -> 1618690 -> 2072962 -> 1574939 -> 2068636], [Kennedy, John F. -> Oswald's Ghost (2007) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[2174891 -> 1555195 -> 2034844 -> 1165514 -> 8005325], [Kennedy, John F. -> Marilyn Monroe - Tod einer Ikone (2010) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[2174891 -> 1618690 -> 8025845], [Kennedy, John F. -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2124912, 8036989, 8024390]
+  path: 0[2106468 -> 1502772 -> 2095378 -> 1331228 -> 2124912], [Figlarz, Alain -> La horde (2009) -> Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2106468 -> 1840838 -> 8036989], [Figlarz, Alain -> Truands (2007) -> drugs,gangster,one-word-title,paris-france,underworld] 
+
+  path: 2[2106468 -> 1504913 -> 2020724 -> 1588951 -> 8024390], [Figlarz, Alain -> La môme (2007) -> Barbé, Marc -> Nannerl, la soeur de Mozart (2010) -> 14-year-old,1760s,18th-century,abandonment,abbey,book-burning,brother-sister-relationship,candlelight,carmelite,character-name-in-title,child-practices-violin,child-prodigy,composer,concerto,convent,dauphin-of-france,domineering-father,english-channel,famous-father,father-children-relationship,father-daughter-relationship,female-composer,female-musician,feminism,forbidden-book,france,frustration,gender-disguise,harpsichord,harpsichord-score,king,king-louis-xv,menstruation,misunderstood-composer,mozart,musical-composition,nickname,nickname-as-title,overbearing-father,passiveness,pillow-fight,pimple,resignation,royal-court,royal-heir,singing-girl,singing-voice,speaking-latin,submission,talent,tragic-female-character,versailles-france,violin,violinist,virtuosity,virtuoso,voice-over-letter,woman-dressed-as-man] 
+
+srcNodes: [2124912, 8036989, 8024390]
+  path: 0[2136114 -> 1342955 -> 2095378 -> 1331228 -> 2124912], [Hajdi, Youssef -> Duty Calls (2009) -> Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2136114 -> 1840838 -> 8036989], [Hajdi, Youssef -> Truands (2007) -> drugs,gangster,one-word-title,paris-france,underworld] 
+
+  path: 2[2136114 -> 1524124 -> 2123413 -> 1588951 -> 8024390], [Hajdi, Youssef -> Les aventures extraordinaires d'Adèle Blanc-Sec (2010) -> Giraud, Nicolas (I) -> Nannerl, la soeur de Mozart (2010) -> 14-year-old,1760s,18th-century,abandonment,abbey,book-burning,brother-sister-relationship,candlelight,carmelite,character-name-in-title,child-practices-violin,child-prodigy,composer,concerto,convent,dauphin-of-france,domineering-father,english-channel,famous-father,father-children-relationship,father-daughter-relationship,female-composer,female-musician,feminism,forbidden-book,france,frustration,gender-disguise,harpsichord,harpsichord-score,king,king-louis-xv,menstruation,misunderstood-composer,mozart,musical-composition,nickname,nickname-as-title,overbearing-father,passiveness,pillow-fight,pimple,resignation,royal-court,royal-heir,singing-girl,singing-voice,speaking-latin,submission,talent,tragic-female-character,versailles-france,violin,violinist,virtuosity,virtuoso,voice-over-letter,woman-dressed-as-man] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[1337432 -> 2072962 -> 1574939 -> 2068636], [Double Take (2009) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1337432 -> 2174891 -> 1555195 -> 2034844 -> 1165514 -> 8005325], [Double Take (2009) -> Kennedy, John F. -> Marilyn Monroe - Tod einer Ikone (2010) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[1337432 -> 2279965 -> 1618690 -> 8025845], [Double Take (2009) -> Rather, Dan -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2124912, 8020879, 8021531]
+  path: 0[1194175 -> 2210328 -> 1331228 -> 2124912], [Afterwards (2008) -> Malkovich, John -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1194175 -> 2322682 -> 1509958 -> 8020879], [Afterwards (2008) -> Catillon, Brigitte -> La vérité ou presque (2007) -> based-on-novel,book,dog,ex-husband-ex-wife-relationship,extramarital-affair,film-in-film,gay,identity-swap,infidelity,jazz-singer,lyon-france,movie-theater,old-age,pregnant-woman,storm,television,tv,tv-station] 
+
+  path: 2[1194175 -> 2012298 -> 1286884 -> 2475584 -> 1529027 -> 8021531], [Afterwards (2008) -> Arden, James -> Collision (2007) -> Tanovic, Tajna -> Liberation (2006) -> housewife,introspection,white-mask] 
+
+-----------------------------------------
+ResultDestNodes: [2068636, 1618690, 1574939, 2072962, 1331228, 2174891, 2106468, 2136114, 1337432, 1194175]
+ResultRelevs: [8.21480655670166, 7.18338680267334, 7.177365303039551, 6.500222682952881, 6.335360050201416, 6.193135738372803, 5.677636623382568, 5.677636623382568, 5.671436309814453, 5.535883903503418]
+AvgResultRelev: 6.416687059402466
+AvgResultDissimilarity: 0.7155555486679077
+Num of entries retrieved from the KNLists: 2615
+Num of entries retrieved from NKMaps: 3688
+Num of answer trees explored: 960
+Num of answer tree sets created: 530545
+Num of answer tree sets removed: 530524
+Max Num of answer tree sets in Q[]: 530534
+
+Div Top-k Search by Astar1, k=10
+[sf, time, travel]
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[2068636 -> 2068636], [Cooper Jr., Henry S.F. -> Cooper Jr., Henry S.F.]
+  path: 1[2068636 -> 1574939 -> 6020288], [Cooper Jr., Henry S.F. -> Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[2068636 -> 1574939 -> 2072962 -> 1618690 -> 8025845], [Cooper Jr., Henry S.F. -> Moon Beat (2009) -> Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[1618690 -> 2072962 -> 1574939 -> 2068636], [Oswald's Ghost (2007) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1618690 -> 2174891 -> 1555195 -> 2034844 -> 1165514 -> 8005325], [Oswald's Ghost (2007) -> Kennedy, John F. -> Marilyn Monroe - Tod einer Ikone (2010) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[1618690 -> 8025845], [Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[1574939 -> 2068636], [Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1574939 -> 6020288], [Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[1574939 -> 2072962 -> 1618690 -> 8025845], [Moon Beat (2009) -> Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[2072962 -> 1574939 -> 2068636], [Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[2072962 -> 1574939 -> 6020288], [Cronkite, Walter -> Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[2072962 -> 1618690 -> 8025845], [Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2124912, 8020879, 6010649]
+  path: 0[1331228 -> 2124912], [Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1331228 -> 2210328 -> 1194175 -> 2322682 -> 1509958 -> 8020879], [Disgrace (2008) -> Malkovich, John -> Afterwards (2008) -> Catillon, Brigitte -> La vérité ou presque (2007) -> based-on-novel,book,dog,ex-husband-ex-wife-relationship,extramarital-affair,film-in-film,gay,identity-swap,infidelity,jazz-singer,lyon-france,movie-theater,old-age,pregnant-woman,storm,television,tv,tv-station] 
+
+  path: 2[1331228 -> 2095378 -> 1531067 -> 2242238 -> 1355451 -> 6010649], [Disgrace (2008) -> Ebouaney, Eriq -> Lignes de front (2009) -> Nahon, Philippe (I) -> Eldorado (2008) -> Yvan finds a burglar] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[2174891 -> 1618690 -> 2072962 -> 1574939 -> 2068636], [Kennedy, John F. -> Oswald's Ghost (2007) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[2174891 -> 1555195 -> 2034844 -> 1165514 -> 8005325], [Kennedy, John F. -> Marilyn Monroe - Tod einer Ikone (2010) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[2174891 -> 1618690 -> 8025845], [Kennedy, John F. -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2124912, 8036989, 8024390]
+  path: 0[2106468 -> 1502772 -> 2095378 -> 1331228 -> 2124912], [Figlarz, Alain -> La horde (2009) -> Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2106468 -> 1840838 -> 8036989], [Figlarz, Alain -> Truands (2007) -> drugs,gangster,one-word-title,paris-france,underworld] 
+
+  path: 2[2106468 -> 1504913 -> 2020724 -> 1588951 -> 8024390], [Figlarz, Alain -> La môme (2007) -> Barbé, Marc -> Nannerl, la soeur de Mozart (2010) -> 14-year-old,1760s,18th-century,abandonment,abbey,book-burning,brother-sister-relationship,candlelight,carmelite,character-name-in-title,child-practices-violin,child-prodigy,composer,concerto,convent,dauphin-of-france,domineering-father,english-channel,famous-father,father-children-relationship,father-daughter-relationship,female-composer,female-musician,feminism,forbidden-book,france,frustration,gender-disguise,harpsichord,harpsichord-score,king,king-louis-xv,menstruation,misunderstood-composer,mozart,musical-composition,nickname,nickname-as-title,overbearing-father,passiveness,pillow-fight,pimple,resignation,royal-court,royal-heir,singing-girl,singing-voice,speaking-latin,submission,talent,tragic-female-character,versailles-france,violin,violinist,virtuosity,virtuoso,voice-over-letter,woman-dressed-as-man] 
+
+srcNodes: [2124912, 8036989, 8024390]
+  path: 0[2136114 -> 1342955 -> 2095378 -> 1331228 -> 2124912], [Hajdi, Youssef -> Duty Calls (2009) -> Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2136114 -> 1840838 -> 8036989], [Hajdi, Youssef -> Truands (2007) -> drugs,gangster,one-word-title,paris-france,underworld] 
+
+  path: 2[2136114 -> 1524124 -> 2123413 -> 1588951 -> 8024390], [Hajdi, Youssef -> Les aventures extraordinaires d'Adèle Blanc-Sec (2010) -> Giraud, Nicolas (I) -> Nannerl, la soeur de Mozart (2010) -> 14-year-old,1760s,18th-century,abandonment,abbey,book-burning,brother-sister-relationship,candlelight,carmelite,character-name-in-title,child-practices-violin,child-prodigy,composer,concerto,convent,dauphin-of-france,domineering-father,english-channel,famous-father,father-children-relationship,father-daughter-relationship,female-composer,female-musician,feminism,forbidden-book,france,frustration,gender-disguise,harpsichord,harpsichord-score,king,king-louis-xv,menstruation,misunderstood-composer,mozart,musical-composition,nickname,nickname-as-title,overbearing-father,passiveness,pillow-fight,pimple,resignation,royal-court,royal-heir,singing-girl,singing-voice,speaking-latin,submission,talent,tragic-female-character,versailles-france,violin,violinist,virtuosity,virtuoso,voice-over-letter,woman-dressed-as-man] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[1276931 -> 2072962 -> 1574939 -> 2068636], [Chelsea on the Rocks (2008) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1276931 -> 2142252 -> 1251242 -> 2034844 -> 1165514 -> 8005325], [Chelsea on the Rocks (2008) -> Hawke, Ethan -> Boffo! Tinseltown's Bombs and Blockbusters (2006) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[1276931 -> 2072962 -> 1618690 -> 8025845], [Chelsea on the Rocks (2008) -> Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2124912, 8020879, 8021531]
+  path: 0[1194175 -> 2210328 -> 1331228 -> 2124912], [Afterwards (2008) -> Malkovich, John -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1194175 -> 2322682 -> 1509958 -> 8020879], [Afterwards (2008) -> Catillon, Brigitte -> La vérité ou presque (2007) -> based-on-novel,book,dog,ex-husband-ex-wife-relationship,extramarital-affair,film-in-film,gay,identity-swap,infidelity,jazz-singer,lyon-france,movie-theater,old-age,pregnant-woman,storm,television,tv,tv-station] 
+
+  path: 2[1194175 -> 2012298 -> 1286884 -> 2475584 -> 1529027 -> 8021531], [Afterwards (2008) -> Arden, James -> Collision (2007) -> Tanovic, Tajna -> Liberation (2006) -> housewife,introspection,white-mask] 
+
+-----------------------------------------
+ResultDestNodes: [2068636, 1618690, 1574939, 2072962, 1331228, 2174891, 2106468, 2136114, 1276931, 1194175]
+ResultRelevs: [8.21480655670166, 7.18338680267334, 7.177365303039551, 6.500222682952881, 6.335360050201416, 6.193135738372803, 5.677636623382568, 5.677636623382568, 5.671436309814453, 5.535883903503418]
+AvgResultRelev: 6.416687059402466
+AvgResultDissimilarity: 0.7155555486679077
+Num of entries retrieved from the KNLists: 2615
+Num of entries retrieved from NKMaps: 3688
+Num of answer trees explored: 960
+Num of states created: 1650
+Num of states explored: 245
+Num of heuristic search performed: 14
+Max Num of answer tree sets in Q[]: 176
+
+Div Top-k Search by AstarEnhanced, k=10
+[sf, time, travel]
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[2068636 -> 2068636], [Cooper Jr., Henry S.F. -> Cooper Jr., Henry S.F.]
+  path: 1[2068636 -> 1574939 -> 6020288], [Cooper Jr., Henry S.F. -> Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[2068636 -> 1574939 -> 2072962 -> 1618690 -> 8025845], [Cooper Jr., Henry S.F. -> Moon Beat (2009) -> Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[1618690 -> 2072962 -> 1574939 -> 2068636], [Oswald's Ghost (2007) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1618690 -> 2174891 -> 1555195 -> 2034844 -> 1165514 -> 8005325], [Oswald's Ghost (2007) -> Kennedy, John F. -> Marilyn Monroe - Tod einer Ikone (2010) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[1618690 -> 8025845], [Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[1574939 -> 2068636], [Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1574939 -> 6020288], [Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[1574939 -> 2072962 -> 1618690 -> 8025845], [Moon Beat (2009) -> Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[2072962 -> 1574939 -> 2068636], [Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[2072962 -> 1574939 -> 6020288], [Cronkite, Walter -> Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[2072962 -> 1618690 -> 8025845], [Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2124912, 8020879, 6010649]
+  path: 0[1331228 -> 2124912], [Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1331228 -> 2210328 -> 1194175 -> 2322682 -> 1509958 -> 8020879], [Disgrace (2008) -> Malkovich, John -> Afterwards (2008) -> Catillon, Brigitte -> La vérité ou presque (2007) -> based-on-novel,book,dog,ex-husband-ex-wife-relationship,extramarital-affair,film-in-film,gay,identity-swap,infidelity,jazz-singer,lyon-france,movie-theater,old-age,pregnant-woman,storm,television,tv,tv-station] 
+
+  path: 2[1331228 -> 2095378 -> 1531067 -> 2242238 -> 1355451 -> 6010649], [Disgrace (2008) -> Ebouaney, Eriq -> Lignes de front (2009) -> Nahon, Philippe (I) -> Eldorado (2008) -> Yvan finds a burglar] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[2174891 -> 1618690 -> 2072962 -> 1574939 -> 2068636], [Kennedy, John F. -> Oswald's Ghost (2007) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[2174891 -> 1555195 -> 2034844 -> 1165514 -> 8005325], [Kennedy, John F. -> Marilyn Monroe - Tod einer Ikone (2010) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[2174891 -> 1618690 -> 8025845], [Kennedy, John F. -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2124912, 8036989, 8024390]
+  path: 0[2106468 -> 1502772 -> 2095378 -> 1331228 -> 2124912], [Figlarz, Alain -> La horde (2009) -> Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2106468 -> 1840838 -> 8036989], [Figlarz, Alain -> Truands (2007) -> drugs,gangster,one-word-title,paris-france,underworld] 
+
+  path: 2[2106468 -> 1504913 -> 2020724 -> 1588951 -> 8024390], [Figlarz, Alain -> La môme (2007) -> Barbé, Marc -> Nannerl, la soeur de Mozart (2010) -> 14-year-old,1760s,18th-century,abandonment,abbey,book-burning,brother-sister-relationship,candlelight,carmelite,character-name-in-title,child-practices-violin,child-prodigy,composer,concerto,convent,dauphin-of-france,domineering-father,english-channel,famous-father,father-children-relationship,father-daughter-relationship,female-composer,female-musician,feminism,forbidden-book,france,frustration,gender-disguise,harpsichord,harpsichord-score,king,king-louis-xv,menstruation,misunderstood-composer,mozart,musical-composition,nickname,nickname-as-title,overbearing-father,passiveness,pillow-fight,pimple,resignation,royal-court,royal-heir,singing-girl,singing-voice,speaking-latin,submission,talent,tragic-female-character,versailles-france,violin,violinist,virtuosity,virtuoso,voice-over-letter,woman-dressed-as-man] 
+
+srcNodes: [2124912, 8036989, 8024390]
+  path: 0[2136114 -> 1342955 -> 2095378 -> 1331228 -> 2124912], [Hajdi, Youssef -> Duty Calls (2009) -> Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2136114 -> 1840838 -> 8036989], [Hajdi, Youssef -> Truands (2007) -> drugs,gangster,one-word-title,paris-france,underworld] 
+
+  path: 2[2136114 -> 1524124 -> 2123413 -> 1588951 -> 8024390], [Hajdi, Youssef -> Les aventures extraordinaires d'Adèle Blanc-Sec (2010) -> Giraud, Nicolas (I) -> Nannerl, la soeur de Mozart (2010) -> 14-year-old,1760s,18th-century,abandonment,abbey,book-burning,brother-sister-relationship,candlelight,carmelite,character-name-in-title,child-practices-violin,child-prodigy,composer,concerto,convent,dauphin-of-france,domineering-father,english-channel,famous-father,father-children-relationship,father-daughter-relationship,female-composer,female-musician,feminism,forbidden-book,france,frustration,gender-disguise,harpsichord,harpsichord-score,king,king-louis-xv,menstruation,misunderstood-composer,mozart,musical-composition,nickname,nickname-as-title,overbearing-father,passiveness,pillow-fight,pimple,resignation,royal-court,royal-heir,singing-girl,singing-voice,speaking-latin,submission,talent,tragic-female-character,versailles-france,violin,violinist,virtuosity,virtuoso,voice-over-letter,woman-dressed-as-man] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[1337432 -> 2072962 -> 1574939 -> 2068636], [Double Take (2009) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1337432 -> 2174891 -> 1555195 -> 2034844 -> 1165514 -> 8005325], [Double Take (2009) -> Kennedy, John F. -> Marilyn Monroe - Tod einer Ikone (2010) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[1337432 -> 2279965 -> 1618690 -> 8025845], [Double Take (2009) -> Rather, Dan -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2124912, 8020879, 8021531]
+  path: 0[1194175 -> 2210328 -> 1331228 -> 2124912], [Afterwards (2008) -> Malkovich, John -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1194175 -> 2322682 -> 1509958 -> 8020879], [Afterwards (2008) -> Catillon, Brigitte -> La vérité ou presque (2007) -> based-on-novel,book,dog,ex-husband-ex-wife-relationship,extramarital-affair,film-in-film,gay,identity-swap,infidelity,jazz-singer,lyon-france,movie-theater,old-age,pregnant-woman,storm,television,tv,tv-station] 
+
+  path: 2[1194175 -> 2012298 -> 1286884 -> 2475584 -> 1529027 -> 8021531], [Afterwards (2008) -> Arden, James -> Collision (2007) -> Tanovic, Tajna -> Liberation (2006) -> housewife,introspection,white-mask] 
+
+-----------------------------------------
+ResultDestNodes: [2068636, 1618690, 1574939, 2072962, 1331228, 2174891, 2106468, 2136114, 1337432, 1194175]
+ResultRelevs: [8.21480655670166, 7.18338680267334, 7.177365303039551, 6.500222682952881, 6.335360050201416, 6.193135738372803, 5.677636623382568, 5.677636623382568, 5.671436309814453, 5.535883903503418]
+AvgResultRelev: 6.416687059402466
+AvgResultDissimilarity: 0.7155555486679077
+Num of entries retrieved from the KNLists: 2615
+Num of entries retrieved from NKMaps: 3688
+Num of answer trees explored: 960
+Num of states created: 801938
+Num of states explored: 801785
+Num of heuristic search performed: 14
+Max Num of answer tree sets in Q[]: 16512
+
+Top-k Search by Blink-BDB, k=15
+[sf, time, travel]
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[2068636 -> 2068636], [Cooper Jr., Henry S.F. -> Cooper Jr., Henry S.F.]
+  path: 1[2068636 -> 1574939 -> 6020288], [Cooper Jr., Henry S.F. -> Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[2068636 -> 1574939 -> 2072962 -> 1618690 -> 8025845], [Cooper Jr., Henry S.F. -> Moon Beat (2009) -> Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[1618690 -> 2072962 -> 1574939 -> 2068636], [Oswald's Ghost (2007) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1618690 -> 2174891 -> 1555195 -> 2034844 -> 1165514 -> 8005325], [Oswald's Ghost (2007) -> Kennedy, John F. -> Marilyn Monroe - Tod einer Ikone (2010) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[1618690 -> 8025845], [Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[1574939 -> 2068636], [Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1574939 -> 6020288], [Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[1574939 -> 2072962 -> 1618690 -> 8025845], [Moon Beat (2009) -> Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[2072962 -> 1574939 -> 2068636], [Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[2072962 -> 1574939 -> 6020288], [Cronkite, Walter -> Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[2072962 -> 1618690 -> 8025845], [Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2124912, 8020879, 6010649]
+  path: 0[1331228 -> 2124912], [Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1331228 -> 2210328 -> 1194175 -> 2322682 -> 1509958 -> 8020879], [Disgrace (2008) -> Malkovich, John -> Afterwards (2008) -> Catillon, Brigitte -> La vérité ou presque (2007) -> based-on-novel,book,dog,ex-husband-ex-wife-relationship,extramarital-affair,film-in-film,gay,identity-swap,infidelity,jazz-singer,lyon-france,movie-theater,old-age,pregnant-woman,storm,television,tv,tv-station] 
+
+  path: 2[1331228 -> 2095378 -> 1531067 -> 2242238 -> 1355451 -> 6010649], [Disgrace (2008) -> Ebouaney, Eriq -> Lignes de front (2009) -> Nahon, Philippe (I) -> Eldorado (2008) -> Yvan finds a burglar] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[2174891 -> 1618690 -> 2072962 -> 1574939 -> 2068636], [Kennedy, John F. -> Oswald's Ghost (2007) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[2174891 -> 1555195 -> 2034844 -> 1165514 -> 8005325], [Kennedy, John F. -> Marilyn Monroe - Tod einer Ikone (2010) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[2174891 -> 1618690 -> 8025845], [Kennedy, John F. -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2124912, 8036989, 8024390]
+  path: 0[2106468 -> 1502772 -> 2095378 -> 1331228 -> 2124912], [Figlarz, Alain -> La horde (2009) -> Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2106468 -> 1840838 -> 8036989], [Figlarz, Alain -> Truands (2007) -> drugs,gangster,one-word-title,paris-france,underworld] 
+
+  path: 2[2106468 -> 1504913 -> 2020724 -> 1588951 -> 8024390], [Figlarz, Alain -> La môme (2007) -> Barbé, Marc -> Nannerl, la soeur de Mozart (2010) -> 14-year-old,1760s,18th-century,abandonment,abbey,book-burning,brother-sister-relationship,candlelight,carmelite,character-name-in-title,child-practices-violin,child-prodigy,composer,concerto,convent,dauphin-of-france,domineering-father,english-channel,famous-father,father-children-relationship,father-daughter-relationship,female-composer,female-musician,feminism,forbidden-book,france,frustration,gender-disguise,harpsichord,harpsichord-score,king,king-louis-xv,menstruation,misunderstood-composer,mozart,musical-composition,nickname,nickname-as-title,overbearing-father,passiveness,pillow-fight,pimple,resignation,royal-court,royal-heir,singing-girl,singing-voice,speaking-latin,submission,talent,tragic-female-character,versailles-france,violin,violinist,virtuosity,virtuoso,voice-over-letter,woman-dressed-as-man] 
+
+srcNodes: [2124912, 8036989, 8024390]
+  path: 0[2136114 -> 1342955 -> 2095378 -> 1331228 -> 2124912], [Hajdi, Youssef -> Duty Calls (2009) -> Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2136114 -> 1840838 -> 8036989], [Hajdi, Youssef -> Truands (2007) -> drugs,gangster,one-word-title,paris-france,underworld] 
+
+  path: 2[2136114 -> 1524124 -> 2123413 -> 1588951 -> 8024390], [Hajdi, Youssef -> Les aventures extraordinaires d'Adèle Blanc-Sec (2010) -> Giraud, Nicolas (I) -> Nannerl, la soeur de Mozart (2010) -> 14-year-old,1760s,18th-century,abandonment,abbey,book-burning,brother-sister-relationship,candlelight,carmelite,character-name-in-title,child-practices-violin,child-prodigy,composer,concerto,convent,dauphin-of-france,domineering-father,english-channel,famous-father,father-children-relationship,father-daughter-relationship,female-composer,female-musician,feminism,forbidden-book,france,frustration,gender-disguise,harpsichord,harpsichord-score,king,king-louis-xv,menstruation,misunderstood-composer,mozart,musical-composition,nickname,nickname-as-title,overbearing-father,passiveness,pillow-fight,pimple,resignation,royal-court,royal-heir,singing-girl,singing-voice,speaking-latin,submission,talent,tragic-female-character,versailles-france,violin,violinist,virtuosity,virtuoso,voice-over-letter,woman-dressed-as-man] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[1662297 -> 2178224 -> 1574939 -> 2068636], [Reaching Tranquility: The 40th Anniversary of the Apollo 11 Lunar Landing (2009) -> King, Jack (XI) -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1662297 -> 2174891 -> 1555195 -> 2034844 -> 1165514 -> 8005325], [Reaching Tranquility: The 40th Anniversary of the Apollo 11 Lunar Landing (2009) -> Kennedy, John F. -> Marilyn Monroe - Tod einer Ikone (2010) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[1662297 -> 2174891 -> 1618690 -> 8025845], [Reaching Tranquility: The 40th Anniversary of the Apollo 11 Lunar Landing (2009) -> Kennedy, John F. -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[1337432 -> 2072962 -> 1574939 -> 2068636], [Double Take (2009) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1337432 -> 2174891 -> 1555195 -> 2034844 -> 1165514 -> 8005325], [Double Take (2009) -> Kennedy, John F. -> Marilyn Monroe - Tod einer Ikone (2010) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[1337432 -> 2279965 -> 1618690 -> 8025845], [Double Take (2009) -> Rather, Dan -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[1389060 -> 2072962 -> 1574939 -> 2068636], [Frost/Nixon (2008) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1389060 -> 2017281 -> 1251242 -> 2034844 -> 1165514 -> 8005325], [Frost/Nixon (2008) -> Bacon, Kevin (I) -> Boffo! Tinseltown's Bombs and Blockbusters (2006) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[1389060 -> 2109944 -> 1618690 -> 8025845], [Frost/Nixon (2008) -> Ford, Gerald (I) -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[1833773 -> 2072962 -> 1574939 -> 2068636], [Toots (2006) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1833773 -> 2042952 -> 1251242 -> 2034844 -> 1165514 -> 8005325], [Toots (2006) -> Brown, David (I) -> Boffo! Tinseltown's Bombs and Blockbusters (2006) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[1833773 -> 2072962 -> 1618690 -> 8025845], [Toots (2006) -> Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[1816915 -> 2072962 -> 1574939 -> 2068636], [The U.S. vs. John Lennon (2006) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1816915 -> 2056225 -> 1258526 -> 2098054 -> 1165514 -> 8005325], [The U.S. vs. John Lennon (2006) -> Cavett, Dick -> Brother Theodore (2007) -> Ellison, Harlan -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[1816915 -> 2247824 -> 1618690 -> 8025845], [The U.S. vs. John Lennon (2006) -> Nixon, Richard -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[1276931 -> 2072962 -> 1574939 -> 2068636], [Chelsea on the Rocks (2008) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1276931 -> 2142252 -> 1251242 -> 2034844 -> 1165514 -> 8005325], [Chelsea on the Rocks (2008) -> Hawke, Ethan -> Boffo! Tinseltown's Bombs and Blockbusters (2006) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[1276931 -> 2072962 -> 1618690 -> 8025845], [Chelsea on the Rocks (2008) -> Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[1452377 -> 2072962 -> 1574939 -> 2068636], [In the Shadow of the Moon (2007) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1452377 -> 2174891 -> 1555195 -> 2034844 -> 1165514 -> 8005325], [In the Shadow of the Moon (2007) -> Kennedy, John F. -> Marilyn Monroe - Tod einer Ikone (2010) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[1452377 -> 2174891 -> 1618690 -> 8025845], [In the Shadow of the Moon (2007) -> Kennedy, John F. -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+-----------------------------------------
+Num of top-k answers: 15
+ResultDestNodes: [2068636, 1618690, 1574939, 2072962, 1331228, 2174891, 2106468, 2136114, 1662297, 1337432, 1389060, 1833773, 1816915, 1276931, 1452377]
+ResultRelevs: [8.21480655670166, 7.18338680267334, 7.177365303039551, 6.500222682952881, 6.335360050201416, 6.193135738372803, 5.677636623382568, 5.677636623382568, 5.671436309814453, 5.671436309814453, 5.671436309814453, 5.671436309814453, 5.671436309814453, 5.671436309814453, 5.671436309814453]
+AvgResultRelev: 6.17730696996053
+AvgResultDissimilarity: 0.4866666666666667
+Num of entries retrieved from the lists: 2513
+Num of entries retrieved from NKMaps: 3556
+Num of answer trees explored: 933
+
+Div Top-k Search by Exhustive, k=15
+[sf, time, travel]
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[2068636 -> 2068636], [Cooper Jr., Henry S.F. -> Cooper Jr., Henry S.F.]
+  path: 1[2068636 -> 1574939 -> 6020288], [Cooper Jr., Henry S.F. -> Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[2068636 -> 1574939 -> 2072962 -> 1618690 -> 8025845], [Cooper Jr., Henry S.F. -> Moon Beat (2009) -> Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[1618690 -> 2072962 -> 1574939 -> 2068636], [Oswald's Ghost (2007) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1618690 -> 2174891 -> 1555195 -> 2034844 -> 1165514 -> 8005325], [Oswald's Ghost (2007) -> Kennedy, John F. -> Marilyn Monroe - Tod einer Ikone (2010) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[1618690 -> 8025845], [Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[1574939 -> 2068636], [Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1574939 -> 6020288], [Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[1574939 -> 2072962 -> 1618690 -> 8025845], [Moon Beat (2009) -> Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[2072962 -> 1574939 -> 2068636], [Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[2072962 -> 1574939 -> 6020288], [Cronkite, Walter -> Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[2072962 -> 1618690 -> 8025845], [Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2124912, 8020879, 6010649]
+  path: 0[1331228 -> 2124912], [Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1331228 -> 2210328 -> 1194175 -> 2322682 -> 1509958 -> 8020879], [Disgrace (2008) -> Malkovich, John -> Afterwards (2008) -> Catillon, Brigitte -> La vérité ou presque (2007) -> based-on-novel,book,dog,ex-husband-ex-wife-relationship,extramarital-affair,film-in-film,gay,identity-swap,infidelity,jazz-singer,lyon-france,movie-theater,old-age,pregnant-woman,storm,television,tv,tv-station] 
+
+  path: 2[1331228 -> 2095378 -> 1531067 -> 2242238 -> 1355451 -> 6010649], [Disgrace (2008) -> Ebouaney, Eriq -> Lignes de front (2009) -> Nahon, Philippe (I) -> Eldorado (2008) -> Yvan finds a burglar] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[2174891 -> 1618690 -> 2072962 -> 1574939 -> 2068636], [Kennedy, John F. -> Oswald's Ghost (2007) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[2174891 -> 1555195 -> 2034844 -> 1165514 -> 8005325], [Kennedy, John F. -> Marilyn Monroe - Tod einer Ikone (2010) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[2174891 -> 1618690 -> 8025845], [Kennedy, John F. -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2124912, 8036989, 8024390]
+  path: 0[2106468 -> 1502772 -> 2095378 -> 1331228 -> 2124912], [Figlarz, Alain -> La horde (2009) -> Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2106468 -> 1840838 -> 8036989], [Figlarz, Alain -> Truands (2007) -> drugs,gangster,one-word-title,paris-france,underworld] 
+
+  path: 2[2106468 -> 1504913 -> 2020724 -> 1588951 -> 8024390], [Figlarz, Alain -> La môme (2007) -> Barbé, Marc -> Nannerl, la soeur de Mozart (2010) -> 14-year-old,1760s,18th-century,abandonment,abbey,book-burning,brother-sister-relationship,candlelight,carmelite,character-name-in-title,child-practices-violin,child-prodigy,composer,concerto,convent,dauphin-of-france,domineering-father,english-channel,famous-father,father-children-relationship,father-daughter-relationship,female-composer,female-musician,feminism,forbidden-book,france,frustration,gender-disguise,harpsichord,harpsichord-score,king,king-louis-xv,menstruation,misunderstood-composer,mozart,musical-composition,nickname,nickname-as-title,overbearing-father,passiveness,pillow-fight,pimple,resignation,royal-court,royal-heir,singing-girl,singing-voice,speaking-latin,submission,talent,tragic-female-character,versailles-france,violin,violinist,virtuosity,virtuoso,voice-over-letter,woman-dressed-as-man] 
+
+srcNodes: [2124912, 8036989, 8024390]
+  path: 0[2136114 -> 1342955 -> 2095378 -> 1331228 -> 2124912], [Hajdi, Youssef -> Duty Calls (2009) -> Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2136114 -> 1840838 -> 8036989], [Hajdi, Youssef -> Truands (2007) -> drugs,gangster,one-word-title,paris-france,underworld] 
+
+  path: 2[2136114 -> 1524124 -> 2123413 -> 1588951 -> 8024390], [Hajdi, Youssef -> Les aventures extraordinaires d'Adèle Blanc-Sec (2010) -> Giraud, Nicolas (I) -> Nannerl, la soeur de Mozart (2010) -> 14-year-old,1760s,18th-century,abandonment,abbey,book-burning,brother-sister-relationship,candlelight,carmelite,character-name-in-title,child-practices-violin,child-prodigy,composer,concerto,convent,dauphin-of-france,domineering-father,english-channel,famous-father,father-children-relationship,father-daughter-relationship,female-composer,female-musician,feminism,forbidden-book,france,frustration,gender-disguise,harpsichord,harpsichord-score,king,king-louis-xv,menstruation,misunderstood-composer,mozart,musical-composition,nickname,nickname-as-title,overbearing-father,passiveness,pillow-fight,pimple,resignation,royal-court,royal-heir,singing-girl,singing-voice,speaking-latin,submission,talent,tragic-female-character,versailles-france,violin,violinist,virtuosity,virtuoso,voice-over-letter,woman-dressed-as-man] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[1833773 -> 2072962 -> 1574939 -> 2068636], [Toots (2006) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1833773 -> 2042952 -> 1251242 -> 2034844 -> 1165514 -> 8005325], [Toots (2006) -> Brown, David (I) -> Boffo! Tinseltown's Bombs and Blockbusters (2006) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[1833773 -> 2072962 -> 1618690 -> 8025845], [Toots (2006) -> Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[1567769 -> 2072962 -> 1574939 -> 2068636], [Milk (2008/I) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1567769 -> 2111723 -> 1884334 -> 2098054 -> 1165514 -> 8005325], [Milk (2008/I) -> Franco, James (I) -> With Great Power: The Stan Lee Story (2010) -> Ellison, Harlan -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[1567769 -> 2072962 -> 1618690 -> 8025845], [Milk (2008/I) -> Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[1389060 -> 2072962 -> 1574939 -> 2068636], [Frost/Nixon (2008) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1389060 -> 2017281 -> 1251242 -> 2034844 -> 1165514 -> 8005325], [Frost/Nixon (2008) -> Bacon, Kevin (I) -> Boffo! Tinseltown's Bombs and Blockbusters (2006) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[1389060 -> 2109944 -> 1618690 -> 8025845], [Frost/Nixon (2008) -> Ford, Gerald (I) -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2124912, 8036989, 8024390]
+  path: 0[1172584 -> 2095378 -> 1331228 -> 2124912], [600 kilos d'or pur (2010) -> Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1172584 -> 2244121 -> 1840838 -> 8036989], [600 kilos d'or pur (2010) -> Nebbou, Mehdi -> Truands (2007) -> drugs,gangster,one-word-title,paris-france,underworld] 
+
+  path: 2[1172584 -> 2334040 -> 1691619 -> 2123413 -> 1588951 -> 8024390], [600 kilos d'or pur (2010) -> Dana, Audrey (I) -> Second souffle (2008) -> Giraud, Nicolas (I) -> Nannerl, la soeur de Mozart (2010) -> 14-year-old,1760s,18th-century,abandonment,abbey,book-burning,brother-sister-relationship,candlelight,carmelite,character-name-in-title,child-practices-violin,child-prodigy,composer,concerto,convent,dauphin-of-france,domineering-father,english-channel,famous-father,father-children-relationship,father-daughter-relationship,female-composer,female-musician,feminism,forbidden-book,france,frustration,gender-disguise,harpsichord,harpsichord-score,king,king-louis-xv,menstruation,misunderstood-composer,mozart,musical-composition,nickname,nickname-as-title,overbearing-father,passiveness,pillow-fight,pimple,resignation,royal-court,royal-heir,singing-girl,singing-voice,speaking-latin,submission,talent,tragic-female-character,versailles-france,violin,violinist,virtuosity,virtuoso,voice-over-letter,woman-dressed-as-man] 
+
+srcNodes: [2124912, 8036989, 8024390]
+  path: 0[1264363 -> 2095378 -> 1331228 -> 2124912], [Ca$h (2008) -> Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1264363 -> 2244121 -> 1840838 -> 8036989], [Ca$h (2008) -> Nebbou, Mehdi -> Truands (2007) -> drugs,gangster,one-word-title,paris-france,underworld] 
+
+  path: 2[1264363 -> 2118951 -> 1655858 -> 2326264 -> 1588951 -> 8024390], [Ca$h (2008) -> Gasparin, Steeve -> Qu'un seul tienne et les autres suivront (2009) -> Chuillot, Delphine -> Nannerl, la soeur de Mozart (2010) -> 14-year-old,1760s,18th-century,abandonment,abbey,book-burning,brother-sister-relationship,candlelight,carmelite,character-name-in-title,child-practices-violin,child-prodigy,composer,concerto,convent,dauphin-of-france,domineering-father,english-channel,famous-father,father-children-relationship,father-daughter-relationship,female-composer,female-musician,feminism,forbidden-book,france,frustration,gender-disguise,harpsichord,harpsichord-score,king,king-louis-xv,menstruation,misunderstood-composer,mozart,musical-composition,nickname,nickname-as-title,overbearing-father,passiveness,pillow-fight,pimple,resignation,royal-court,royal-heir,singing-girl,singing-voice,speaking-latin,submission,talent,tragic-female-character,versailles-france,violin,violinist,virtuosity,virtuoso,voice-over-letter,woman-dressed-as-man] 
+
+srcNodes: [2124912, 8020879, 8021531]
+  path: 0[1194175 -> 2210328 -> 1331228 -> 2124912], [Afterwards (2008) -> Malkovich, John -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1194175 -> 2322682 -> 1509958 -> 8020879], [Afterwards (2008) -> Catillon, Brigitte -> La vérité ou presque (2007) -> based-on-novel,book,dog,ex-husband-ex-wife-relationship,extramarital-affair,film-in-film,gay,identity-swap,infidelity,jazz-singer,lyon-france,movie-theater,old-age,pregnant-woman,storm,television,tv,tv-station] 
+
+  path: 2[1194175 -> 2012298 -> 1286884 -> 2475584 -> 1529027 -> 8021531], [Afterwards (2008) -> Arden, James -> Collision (2007) -> Tanovic, Tajna -> Liberation (2006) -> housewife,introspection,white-mask] 
+
+srcNodes: [2124912, 8032103, 8025845]
+  path: 0[2155561 -> 1887823 -> 2286511 -> 1331228 -> 2124912], [Huston, Danny -> X-Men Origins: Wolverine (2009) -> Ritchie, David (II) -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2155561 -> 1278685 -> 2350297 -> 1747093 -> 8032103], [Huston, Danny -> Children of Men (2006) -> Ferris, Pam -> Telstar: The Joe Meek Story (2008) -> 1960s,based-on-play,character-name-in-title,lawyer,london-england,recording-studio,store] 
+
+  path: 2[2155561 -> 1784423 -> 2174891 -> 1618690 -> 8025845], [Huston, Danny -> The Kingdom (2007) -> Kennedy, John F. -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+-----------------------------------------
+ResultDestNodes: [2068636, 1618690, 1574939, 2072962, 1331228, 2174891, 2106468, 2136114, 1833773, 1567769, 1389060, 1172584, 1264363, 1194175, 2155561]
+ResultRelevs: [8.21480655670166, 7.18338680267334, 7.177365303039551, 6.500222682952881, 6.335360050201416, 6.193135738372803, 5.677636623382568, 5.677636623382568, 5.671436309814453, 5.671436309814453, 5.671436309814453, 5.535883903503418, 5.535883903503418, 5.535883903503418, 5.525080680847168]
+AvgResultRelev: 6.1404394467671715
+AvgResultDissimilarity: 0.7009523510932922
+Num of entries retrieved from the KNLists: 7222
+Num of entries retrieved from NKMaps: 9763
+Num of answer trees explored: 2205
+Num of answer tree sets created: 59151440
+Num of answer tree sets removed: 59151418
+Max Num of answer tree sets in Q[]: 59131640
+
+Div Top-k Search by Astar1, k=15
+[sf, time, travel]
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[2068636 -> 2068636], [Cooper Jr., Henry S.F. -> Cooper Jr., Henry S.F.]
+  path: 1[2068636 -> 1574939 -> 6020288], [Cooper Jr., Henry S.F. -> Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[2068636 -> 1574939 -> 2072962 -> 1618690 -> 8025845], [Cooper Jr., Henry S.F. -> Moon Beat (2009) -> Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[1618690 -> 2072962 -> 1574939 -> 2068636], [Oswald's Ghost (2007) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1618690 -> 2174891 -> 1555195 -> 2034844 -> 1165514 -> 8005325], [Oswald's Ghost (2007) -> Kennedy, John F. -> Marilyn Monroe - Tod einer Ikone (2010) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[1618690 -> 8025845], [Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[1574939 -> 2068636], [Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1574939 -> 6020288], [Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[1574939 -> 2072962 -> 1618690 -> 8025845], [Moon Beat (2009) -> Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[2072962 -> 1574939 -> 2068636], [Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[2072962 -> 1574939 -> 6020288], [Cronkite, Walter -> Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[2072962 -> 1618690 -> 8025845], [Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2124912, 8020879, 6010649]
+  path: 0[1331228 -> 2124912], [Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1331228 -> 2210328 -> 1194175 -> 2322682 -> 1509958 -> 8020879], [Disgrace (2008) -> Malkovich, John -> Afterwards (2008) -> Catillon, Brigitte -> La vérité ou presque (2007) -> based-on-novel,book,dog,ex-husband-ex-wife-relationship,extramarital-affair,film-in-film,gay,identity-swap,infidelity,jazz-singer,lyon-france,movie-theater,old-age,pregnant-woman,storm,television,tv,tv-station] 
+
+  path: 2[1331228 -> 2095378 -> 1531067 -> 2242238 -> 1355451 -> 6010649], [Disgrace (2008) -> Ebouaney, Eriq -> Lignes de front (2009) -> Nahon, Philippe (I) -> Eldorado (2008) -> Yvan finds a burglar] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[2174891 -> 1618690 -> 2072962 -> 1574939 -> 2068636], [Kennedy, John F. -> Oswald's Ghost (2007) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[2174891 -> 1555195 -> 2034844 -> 1165514 -> 8005325], [Kennedy, John F. -> Marilyn Monroe - Tod einer Ikone (2010) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[2174891 -> 1618690 -> 8025845], [Kennedy, John F. -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2124912, 8036989, 8024390]
+  path: 0[2106468 -> 1502772 -> 2095378 -> 1331228 -> 2124912], [Figlarz, Alain -> La horde (2009) -> Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2106468 -> 1840838 -> 8036989], [Figlarz, Alain -> Truands (2007) -> drugs,gangster,one-word-title,paris-france,underworld] 
+
+  path: 2[2106468 -> 1504913 -> 2020724 -> 1588951 -> 8024390], [Figlarz, Alain -> La môme (2007) -> Barbé, Marc -> Nannerl, la soeur de Mozart (2010) -> 14-year-old,1760s,18th-century,abandonment,abbey,book-burning,brother-sister-relationship,candlelight,carmelite,character-name-in-title,child-practices-violin,child-prodigy,composer,concerto,convent,dauphin-of-france,domineering-father,english-channel,famous-father,father-children-relationship,father-daughter-relationship,female-composer,female-musician,feminism,forbidden-book,france,frustration,gender-disguise,harpsichord,harpsichord-score,king,king-louis-xv,menstruation,misunderstood-composer,mozart,musical-composition,nickname,nickname-as-title,overbearing-father,passiveness,pillow-fight,pimple,resignation,royal-court,royal-heir,singing-girl,singing-voice,speaking-latin,submission,talent,tragic-female-character,versailles-france,violin,violinist,virtuosity,virtuoso,voice-over-letter,woman-dressed-as-man] 
+
+srcNodes: [2124912, 8036989, 8024390]
+  path: 0[2136114 -> 1342955 -> 2095378 -> 1331228 -> 2124912], [Hajdi, Youssef -> Duty Calls (2009) -> Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2136114 -> 1840838 -> 8036989], [Hajdi, Youssef -> Truands (2007) -> drugs,gangster,one-word-title,paris-france,underworld] 
+
+  path: 2[2136114 -> 1524124 -> 2123413 -> 1588951 -> 8024390], [Hajdi, Youssef -> Les aventures extraordinaires d'Adèle Blanc-Sec (2010) -> Giraud, Nicolas (I) -> Nannerl, la soeur de Mozart (2010) -> 14-year-old,1760s,18th-century,abandonment,abbey,book-burning,brother-sister-relationship,candlelight,carmelite,character-name-in-title,child-practices-violin,child-prodigy,composer,concerto,convent,dauphin-of-france,domineering-father,english-channel,famous-father,father-children-relationship,father-daughter-relationship,female-composer,female-musician,feminism,forbidden-book,france,frustration,gender-disguise,harpsichord,harpsichord-score,king,king-louis-xv,menstruation,misunderstood-composer,mozart,musical-composition,nickname,nickname-as-title,overbearing-father,passiveness,pillow-fight,pimple,resignation,royal-court,royal-heir,singing-girl,singing-voice,speaking-latin,submission,talent,tragic-female-character,versailles-france,violin,violinist,virtuosity,virtuoso,voice-over-letter,woman-dressed-as-man] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[1833773 -> 2072962 -> 1574939 -> 2068636], [Toots (2006) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1833773 -> 2042952 -> 1251242 -> 2034844 -> 1165514 -> 8005325], [Toots (2006) -> Brown, David (I) -> Boffo! Tinseltown's Bombs and Blockbusters (2006) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[1833773 -> 2072962 -> 1618690 -> 8025845], [Toots (2006) -> Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[1389060 -> 2072962 -> 1574939 -> 2068636], [Frost/Nixon (2008) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1389060 -> 2017281 -> 1251242 -> 2034844 -> 1165514 -> 8005325], [Frost/Nixon (2008) -> Bacon, Kevin (I) -> Boffo! Tinseltown's Bombs and Blockbusters (2006) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[1389060 -> 2109944 -> 1618690 -> 8025845], [Frost/Nixon (2008) -> Ford, Gerald (I) -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[1824651 -> 2072962 -> 1574939 -> 2068636], [This Film Is Not Yet Rated (2006) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1824651 -> 2013392 -> 1346132 -> 2034844 -> 1165514 -> 8005325], [This Film Is Not Yet Rated (2006) -> Aronofsky, Darren -> Edge of Outside (2006) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[1824651 -> 2279965 -> 1618690 -> 8025845], [This Film Is Not Yet Rated (2006) -> Rather, Dan -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2124912, 8020879, 8021531]
+  path: 0[1194175 -> 2210328 -> 1331228 -> 2124912], [Afterwards (2008) -> Malkovich, John -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1194175 -> 2322682 -> 1509958 -> 8020879], [Afterwards (2008) -> Catillon, Brigitte -> La vérité ou presque (2007) -> based-on-novel,book,dog,ex-husband-ex-wife-relationship,extramarital-affair,film-in-film,gay,identity-swap,infidelity,jazz-singer,lyon-france,movie-theater,old-age,pregnant-woman,storm,television,tv,tv-station] 
+
+  path: 2[1194175 -> 2012298 -> 1286884 -> 2475584 -> 1529027 -> 8021531], [Afterwards (2008) -> Arden, James -> Collision (2007) -> Tanovic, Tajna -> Liberation (2006) -> housewife,introspection,white-mask] 
+
+srcNodes: [2124912, 8036989, 8024390]
+  path: 0[1718930 -> 2095378 -> 1331228 -> 2124912], [Sous le fard (2009) -> Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1718930 -> 2212405 -> 1840838 -> 8036989], [Sous le fard (2009) -> Marbot, Nicky -> Truands (2007) -> drugs,gangster,one-word-title,paris-france,underworld] 
+
+  path: 2[1718930 -> 2306527 -> 1524124 -> 2123413 -> 1588951 -> 8024390], [Sous le fard (2009) -> Bel, Frédérique -> Les aventures extraordinaires d'Adèle Blanc-Sec (2010) -> Giraud, Nicolas (I) -> Nannerl, la soeur de Mozart (2010) -> 14-year-old,1760s,18th-century,abandonment,abbey,book-burning,brother-sister-relationship,candlelight,carmelite,character-name-in-title,child-practices-violin,child-prodigy,composer,concerto,convent,dauphin-of-france,domineering-father,english-channel,famous-father,father-children-relationship,father-daughter-relationship,female-composer,female-musician,feminism,forbidden-book,france,frustration,gender-disguise,harpsichord,harpsichord-score,king,king-louis-xv,menstruation,misunderstood-composer,mozart,musical-composition,nickname,nickname-as-title,overbearing-father,passiveness,pillow-fight,pimple,resignation,royal-court,royal-heir,singing-girl,singing-voice,speaking-latin,submission,talent,tragic-female-character,versailles-france,violin,violinist,virtuosity,virtuoso,voice-over-letter,woman-dressed-as-man] 
+
+srcNodes: [2124912, 8036989, 8024390]
+  path: 0[1502772 -> 2095378 -> 1331228 -> 2124912], [La horde (2009) -> Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1502772 -> 2106468 -> 1840838 -> 8036989], [La horde (2009) -> Figlarz, Alain -> Truands (2007) -> drugs,gangster,one-word-title,paris-france,underworld] 
+
+  path: 2[1502772 -> 2281002 -> 1525242 -> 2123413 -> 1588951 -> 8024390], [La horde (2009) -> Recoing, Aurélien -> Les fragments d'Antonin (2006) -> Giraud, Nicolas (I) -> Nannerl, la soeur de Mozart (2010) -> 14-year-old,1760s,18th-century,abandonment,abbey,book-burning,brother-sister-relationship,candlelight,carmelite,character-name-in-title,child-practices-violin,child-prodigy,composer,concerto,convent,dauphin-of-france,domineering-father,english-channel,famous-father,father-children-relationship,father-daughter-relationship,female-composer,female-musician,feminism,forbidden-book,france,frustration,gender-disguise,harpsichord,harpsichord-score,king,king-louis-xv,menstruation,misunderstood-composer,mozart,musical-composition,nickname,nickname-as-title,overbearing-father,passiveness,pillow-fight,pimple,resignation,royal-court,royal-heir,singing-girl,singing-voice,speaking-latin,submission,talent,tragic-female-character,versailles-france,violin,violinist,virtuosity,virtuoso,voice-over-letter,woman-dressed-as-man] 
+
+srcNodes: [2124912, 8032103, 8025845]
+  path: 0[2155561 -> 1887823 -> 2286511 -> 1331228 -> 2124912], [Huston, Danny -> X-Men Origins: Wolverine (2009) -> Ritchie, David (II) -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2155561 -> 1278685 -> 2350297 -> 1747093 -> 8032103], [Huston, Danny -> Children of Men (2006) -> Ferris, Pam -> Telstar: The Joe Meek Story (2008) -> 1960s,based-on-play,character-name-in-title,lawyer,london-england,recording-studio,store] 
+
+  path: 2[2155561 -> 1784423 -> 2174891 -> 1618690 -> 8025845], [Huston, Danny -> The Kingdom (2007) -> Kennedy, John F. -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+-----------------------------------------
+ResultDestNodes: [2068636, 1618690, 1574939, 2072962, 1331228, 2174891, 2106468, 2136114, 1833773, 1389060, 1824651, 1194175, 1718930, 1502772, 2155561]
+ResultRelevs: [8.21480655670166, 7.18338680267334, 7.177365303039551, 6.500222682952881, 6.335360050201416, 6.193135738372803, 5.677636623382568, 5.677636623382568, 5.671436309814453, 5.671436309814453, 5.671436309814453, 5.535883903503418, 5.535883903503418, 5.535883903503418, 5.525080680847168]
+AvgResultRelev: 6.1404394467671715
+AvgResultDissimilarity: 0.7009522914886475
+Num of entries retrieved from the KNLists: 7222
+Num of entries retrieved from NKMaps: 9763
+Num of answer trees explored: 2205
+Num of states created: 260663
+Num of states explored: 38123
+Num of heuristic search performed: 25
+Max Num of answer tree sets in Q[]: 85311
+
+Div Top-k Search by AstarEnhanced, k=15
+[sf, time, travel]
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[2068636 -> 2068636], [Cooper Jr., Henry S.F. -> Cooper Jr., Henry S.F.]
+  path: 1[2068636 -> 1574939 -> 6020288], [Cooper Jr., Henry S.F. -> Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[2068636 -> 1574939 -> 2072962 -> 1618690 -> 8025845], [Cooper Jr., Henry S.F. -> Moon Beat (2009) -> Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[1618690 -> 2072962 -> 1574939 -> 2068636], [Oswald's Ghost (2007) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1618690 -> 2174891 -> 1555195 -> 2034844 -> 1165514 -> 8005325], [Oswald's Ghost (2007) -> Kennedy, John F. -> Marilyn Monroe - Tod einer Ikone (2010) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[1618690 -> 8025845], [Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[1574939 -> 2068636], [Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1574939 -> 6020288], [Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[1574939 -> 2072962 -> 1618690 -> 8025845], [Moon Beat (2009) -> Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[2072962 -> 1574939 -> 2068636], [Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[2072962 -> 1574939 -> 6020288], [Cronkite, Walter -> Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[2072962 -> 1618690 -> 8025845], [Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2124912, 8020879, 6010649]
+  path: 0[1331228 -> 2124912], [Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1331228 -> 2210328 -> 1194175 -> 2322682 -> 1509958 -> 8020879], [Disgrace (2008) -> Malkovich, John -> Afterwards (2008) -> Catillon, Brigitte -> La vérité ou presque (2007) -> based-on-novel,book,dog,ex-husband-ex-wife-relationship,extramarital-affair,film-in-film,gay,identity-swap,infidelity,jazz-singer,lyon-france,movie-theater,old-age,pregnant-woman,storm,television,tv,tv-station] 
+
+  path: 2[1331228 -> 2095378 -> 1531067 -> 2242238 -> 1355451 -> 6010649], [Disgrace (2008) -> Ebouaney, Eriq -> Lignes de front (2009) -> Nahon, Philippe (I) -> Eldorado (2008) -> Yvan finds a burglar] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[2174891 -> 1618690 -> 2072962 -> 1574939 -> 2068636], [Kennedy, John F. -> Oswald's Ghost (2007) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[2174891 -> 1555195 -> 2034844 -> 1165514 -> 8005325], [Kennedy, John F. -> Marilyn Monroe - Tod einer Ikone (2010) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[2174891 -> 1618690 -> 8025845], [Kennedy, John F. -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2124912, 8036989, 8024390]
+  path: 0[2106468 -> 1502772 -> 2095378 -> 1331228 -> 2124912], [Figlarz, Alain -> La horde (2009) -> Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2106468 -> 1840838 -> 8036989], [Figlarz, Alain -> Truands (2007) -> drugs,gangster,one-word-title,paris-france,underworld] 
+
+  path: 2[2106468 -> 1504913 -> 2020724 -> 1588951 -> 8024390], [Figlarz, Alain -> La môme (2007) -> Barbé, Marc -> Nannerl, la soeur de Mozart (2010) -> 14-year-old,1760s,18th-century,abandonment,abbey,book-burning,brother-sister-relationship,candlelight,carmelite,character-name-in-title,child-practices-violin,child-prodigy,composer,concerto,convent,dauphin-of-france,domineering-father,english-channel,famous-father,father-children-relationship,father-daughter-relationship,female-composer,female-musician,feminism,forbidden-book,france,frustration,gender-disguise,harpsichord,harpsichord-score,king,king-louis-xv,menstruation,misunderstood-composer,mozart,musical-composition,nickname,nickname-as-title,overbearing-father,passiveness,pillow-fight,pimple,resignation,royal-court,royal-heir,singing-girl,singing-voice,speaking-latin,submission,talent,tragic-female-character,versailles-france,violin,violinist,virtuosity,virtuoso,voice-over-letter,woman-dressed-as-man] 
+
+srcNodes: [2124912, 8036989, 8024390]
+  path: 0[2136114 -> 1342955 -> 2095378 -> 1331228 -> 2124912], [Hajdi, Youssef -> Duty Calls (2009) -> Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2136114 -> 1840838 -> 8036989], [Hajdi, Youssef -> Truands (2007) -> drugs,gangster,one-word-title,paris-france,underworld] 
+
+  path: 2[2136114 -> 1524124 -> 2123413 -> 1588951 -> 8024390], [Hajdi, Youssef -> Les aventures extraordinaires d'Adèle Blanc-Sec (2010) -> Giraud, Nicolas (I) -> Nannerl, la soeur de Mozart (2010) -> 14-year-old,1760s,18th-century,abandonment,abbey,book-burning,brother-sister-relationship,candlelight,carmelite,character-name-in-title,child-practices-violin,child-prodigy,composer,concerto,convent,dauphin-of-france,domineering-father,english-channel,famous-father,father-children-relationship,father-daughter-relationship,female-composer,female-musician,feminism,forbidden-book,france,frustration,gender-disguise,harpsichord,harpsichord-score,king,king-louis-xv,menstruation,misunderstood-composer,mozart,musical-composition,nickname,nickname-as-title,overbearing-father,passiveness,pillow-fight,pimple,resignation,royal-court,royal-heir,singing-girl,singing-voice,speaking-latin,submission,talent,tragic-female-character,versailles-france,violin,violinist,virtuosity,virtuoso,voice-over-letter,woman-dressed-as-man] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[1452377 -> 2072962 -> 1574939 -> 2068636], [In the Shadow of the Moon (2007) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1452377 -> 2174891 -> 1555195 -> 2034844 -> 1165514 -> 8005325], [In the Shadow of the Moon (2007) -> Kennedy, John F. -> Marilyn Monroe - Tod einer Ikone (2010) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[1452377 -> 2174891 -> 1618690 -> 8025845], [In the Shadow of the Moon (2007) -> Kennedy, John F. -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[1662297 -> 2178224 -> 1574939 -> 2068636], [Reaching Tranquility: The 40th Anniversary of the Apollo 11 Lunar Landing (2009) -> King, Jack (XI) -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1662297 -> 2174891 -> 1555195 -> 2034844 -> 1165514 -> 8005325], [Reaching Tranquility: The 40th Anniversary of the Apollo 11 Lunar Landing (2009) -> Kennedy, John F. -> Marilyn Monroe - Tod einer Ikone (2010) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[1662297 -> 2174891 -> 1618690 -> 8025845], [Reaching Tranquility: The 40th Anniversary of the Apollo 11 Lunar Landing (2009) -> Kennedy, John F. -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[1512439 -> 2072962 -> 1574939 -> 2068636], [Larry Flynt: The Right to Be Left Alone (2007) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1512439 -> 2372654 -> 1884334 -> 2098054 -> 1165514 -> 8005325], [Larry Flynt: The Right to Be Left Alone (2007) -> Hilton, Paris -> With Great Power: The Stan Lee Story (2010) -> Ellison, Harlan -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[1512439 -> 2280864 -> 1618690 -> 8025845], [Larry Flynt: The Right to Be Left Alone (2007) -> Reasoner, Harry -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2124912, 8020879, 8021531]
+  path: 0[1194175 -> 2210328 -> 1331228 -> 2124912], [Afterwards (2008) -> Malkovich, John -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1194175 -> 2322682 -> 1509958 -> 8020879], [Afterwards (2008) -> Catillon, Brigitte -> La vérité ou presque (2007) -> based-on-novel,book,dog,ex-husband-ex-wife-relationship,extramarital-affair,film-in-film,gay,identity-swap,infidelity,jazz-singer,lyon-france,movie-theater,old-age,pregnant-woman,storm,television,tv,tv-station] 
+
+  path: 2[1194175 -> 2012298 -> 1286884 -> 2475584 -> 1529027 -> 8021531], [Afterwards (2008) -> Arden, James -> Collision (2007) -> Tanovic, Tajna -> Liberation (2006) -> housewife,introspection,white-mask] 
+
+srcNodes: [2124912, 8036989, 8024390]
+  path: 0[1718930 -> 2095378 -> 1331228 -> 2124912], [Sous le fard (2009) -> Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1718930 -> 2212405 -> 1840838 -> 8036989], [Sous le fard (2009) -> Marbot, Nicky -> Truands (2007) -> drugs,gangster,one-word-title,paris-france,underworld] 
+
+  path: 2[1718930 -> 2306527 -> 1524124 -> 2123413 -> 1588951 -> 8024390], [Sous le fard (2009) -> Bel, Frédérique -> Les aventures extraordinaires d'Adèle Blanc-Sec (2010) -> Giraud, Nicolas (I) -> Nannerl, la soeur de Mozart (2010) -> 14-year-old,1760s,18th-century,abandonment,abbey,book-burning,brother-sister-relationship,candlelight,carmelite,character-name-in-title,child-practices-violin,child-prodigy,composer,concerto,convent,dauphin-of-france,domineering-father,english-channel,famous-father,father-children-relationship,father-daughter-relationship,female-composer,female-musician,feminism,forbidden-book,france,frustration,gender-disguise,harpsichord,harpsichord-score,king,king-louis-xv,menstruation,misunderstood-composer,mozart,musical-composition,nickname,nickname-as-title,overbearing-father,passiveness,pillow-fight,pimple,resignation,royal-court,royal-heir,singing-girl,singing-voice,speaking-latin,submission,talent,tragic-female-character,versailles-france,violin,violinist,virtuosity,virtuoso,voice-over-letter,woman-dressed-as-man] 
+
+srcNodes: [2124912, 8036989, 8024390]
+  path: 0[1502772 -> 2095378 -> 1331228 -> 2124912], [La horde (2009) -> Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1502772 -> 2106468 -> 1840838 -> 8036989], [La horde (2009) -> Figlarz, Alain -> Truands (2007) -> drugs,gangster,one-word-title,paris-france,underworld] 
+
+  path: 2[1502772 -> 2281002 -> 1525242 -> 2123413 -> 1588951 -> 8024390], [La horde (2009) -> Recoing, Aurélien -> Les fragments d'Antonin (2006) -> Giraud, Nicolas (I) -> Nannerl, la soeur de Mozart (2010) -> 14-year-old,1760s,18th-century,abandonment,abbey,book-burning,brother-sister-relationship,candlelight,carmelite,character-name-in-title,child-practices-violin,child-prodigy,composer,concerto,convent,dauphin-of-france,domineering-father,english-channel,famous-father,father-children-relationship,father-daughter-relationship,female-composer,female-musician,feminism,forbidden-book,france,frustration,gender-disguise,harpsichord,harpsichord-score,king,king-louis-xv,menstruation,misunderstood-composer,mozart,musical-composition,nickname,nickname-as-title,overbearing-father,passiveness,pillow-fight,pimple,resignation,royal-court,royal-heir,singing-girl,singing-voice,speaking-latin,submission,talent,tragic-female-character,versailles-france,violin,violinist,virtuosity,virtuoso,voice-over-letter,woman-dressed-as-man] 
+
+srcNodes: [2124912, 8032103, 8025845]
+  path: 0[2155561 -> 1887823 -> 2286511 -> 1331228 -> 2124912], [Huston, Danny -> X-Men Origins: Wolverine (2009) -> Ritchie, David (II) -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2155561 -> 1278685 -> 2350297 -> 1747093 -> 8032103], [Huston, Danny -> Children of Men (2006) -> Ferris, Pam -> Telstar: The Joe Meek Story (2008) -> 1960s,based-on-play,character-name-in-title,lawyer,london-england,recording-studio,store] 
+
+  path: 2[2155561 -> 1784423 -> 2174891 -> 1618690 -> 8025845], [Huston, Danny -> The Kingdom (2007) -> Kennedy, John F. -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+-----------------------------------------
+ResultDestNodes: [2068636, 1618690, 1574939, 2072962, 1331228, 2174891, 2106468, 2136114, 1452377, 1662297, 1512439, 1194175, 1718930, 1502772, 2155561]
+ResultRelevs: [8.21480655670166, 7.18338680267334, 7.177365303039551, 6.500222682952881, 6.335360050201416, 6.193135738372803, 5.677636623382568, 5.677636623382568, 5.671436309814453, 5.671436309814453, 5.671436309814453, 5.535883903503418, 5.535883903503418, 5.535883903503418, 5.525080680847168]
+AvgResultRelev: 6.1404394467671715
+AvgResultDissimilarity: 0.7009522914886475
+Num of entries retrieved from the KNLists: 7222
+Num of entries retrieved from NKMaps: 9763
+Num of answer trees explored: 2205
+Num of states created: 73531759
+Num of states explored: 73547790
+Num of heuristic search performed: 25
+Max Num of answer tree sets in Q[]: 98033
+

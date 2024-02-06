@@ -1,0 +1,1350 @@
+query: [killer, murder, revenge]
+Top-k Search by Blink-BDB, k=4
+[killer, murder, revenge]
+srcNodes: [8033983, 8033983, 8033983]
+  path: 0[8033983 -> 8033983], [burial,friend,killer,murder,revenge -> burial,friend,killer,murder,revenge]
+  path: 1[8033983 -> 8033983], [burial,friend,killer,murder,revenge -> burial,friend,killer,murder,revenge]
+  path: 2[8033983 -> 8033983], [burial,friend,killer,murder,revenge -> burial,friend,killer,murder,revenge]
+srcNodes: [1830487, 8033983, 8033983]
+  path: 0[1830487 -> 1830487], [To Kill a Killer (2008) -> To Kill a Killer (2008)]
+  path: 1[1830487 -> 8033983], [To Kill a Killer (2008) -> burial,friend,killer,murder,revenge] 
+
+  path: 2[1830487 -> 8033983], [To Kill a Killer (2008) -> burial,friend,killer,murder,revenge] 
+
+srcNodes: [1784135, 1580546, 1737365]
+  path: 0[1784135 -> 1784135], [The Killer (2006) -> The Killer (2006)]
+  path: 1[1784135 -> 2133416 -> 1580546], [The Killer (2006) -> Hashmi, Emraan -> Murder (2004)] 
+
+  path: 2[1784135 -> 2166537 -> 1530379 -> 2146731 -> 1737365], [The Killer (2006) -> Khan, Irrfan -> Life of Pi (2012) -> Hussain, Adil (I) -> Sweet Revenge (2005)] 
+
+srcNodes: [8023307, 8005571, 8003479]
+  path: 0[1248630 -> 2162993 -> 1621802 -> 8023307], [Blood Moon (2008) -> Kaufman, Lloyd -> PDA Massacre (2004) -> gore,serial-killer,tromadance] 
+
+  path: 1[1248630 -> 2162993 -> 1251152 -> 8005571], [Blood Moon (2008) -> Kaufman, Lloyd -> Body in a Dumpster (2008) -> barker,hamburger,murder,small-town] 
+
+  path: 2[1248630 -> 8003479], [Blood Moon (2008) -> revenge] 
+
+-----------------------------------------
+Num of top-k answers: 4
+ResultDestNodes: [8033983, 1830487, 1784135, 1248630]
+ResultRelevs: [8.536209106445312, 7.288693428039551, 7.218272686004639, 7.103950500488281]
+AvgResultRelev: 7.536781430244446
+AvgResultDissimilarity: 0.8888888888888888
+Num of entries retrieved from the lists: 2880
+Num of entries retrieved from NKMaps: 4741
+Num of answer trees explored: 1691
+
+Div Top-k Search by Exhustive, k=4
+[killer, murder, revenge]
+srcNodes: [8033983, 8033983, 8033983]
+  path: 0[8033983 -> 8033983], [burial,friend,killer,murder,revenge -> burial,friend,killer,murder,revenge]
+  path: 1[8033983 -> 8033983], [burial,friend,killer,murder,revenge -> burial,friend,killer,murder,revenge]
+  path: 2[8033983 -> 8033983], [burial,friend,killer,murder,revenge -> burial,friend,killer,murder,revenge]
+srcNodes: [1784135, 1580546, 1737365]
+  path: 0[1784135 -> 1784135], [The Killer (2006) -> The Killer (2006)]
+  path: 1[1784135 -> 2133416 -> 1580546], [The Killer (2006) -> Hashmi, Emraan -> Murder (2004)] 
+
+  path: 2[1784135 -> 2166537 -> 1530379 -> 2146731 -> 1737365], [The Killer (2006) -> Khan, Irrfan -> Life of Pi (2012) -> Hussain, Adil (I) -> Sweet Revenge (2005)] 
+
+srcNodes: [8023307, 8005571, 8003479]
+  path: 0[1248630 -> 2162993 -> 1621802 -> 8023307], [Blood Moon (2008) -> Kaufman, Lloyd -> PDA Massacre (2004) -> gore,serial-killer,tromadance] 
+
+  path: 1[1248630 -> 2162993 -> 1251152 -> 8005571], [Blood Moon (2008) -> Kaufman, Lloyd -> Body in a Dumpster (2008) -> barker,hamburger,murder,small-town] 
+
+  path: 2[1248630 -> 8003479], [Blood Moon (2008) -> revenge] 
+
+srcNodes: [1784154, 8001318, 8003479]
+  path: 0[2162993 -> 1784154], [Kaufman, Lloyd -> The Killer Robots and the Battle for the Cosmic Potato (2009)] 
+
+  path: 1[2162993 -> 1645247 -> 2442084 -> 1366185 -> 8001318], [Kaufman, Lloyd -> Poultrygeist: Night of the Chicken Dead (2006) -> Sereboff, Allyson -> Evil Deeds 2 (2010) -> murder] 
+
+  path: 2[2162993 -> 1248630 -> 8003479], [Kaufman, Lloyd -> Blood Moon (2008) -> revenge] 
+
+Dissims of Subsets and t:
+(0~0, 1) : 1.0
+(0~1, 2) : 1.0
+(0~2, 3) : 0.8888888888888888
+-----------------------------------------
+ResultDestNodes: [8033983, 1784135, 1248630, 2162993]
+ResultRelevs: [8.536209106445312, 7.218272686004639, 7.103950500488281, 7.103857040405273]
+AvgResultRelev: 7.4905723333358765
+AvgResultDissimilarity: 0.9444444444444445
+Num of entries retrieved from the KNLists: 2880
+Num of entries retrieved from NKMaps: 4741
+Num of answer trees explored: 1691
+Num of answer tree sets created: 23
+Num of answer tree sets removed: 2
+
+Div Top-k Search by Astar02, k=4
+[killer, murder, revenge]
+srcNodes: [8033983, 8033983, 8033983]
+  path: 0[8033983 -> 8033983], [burial,friend,killer,murder,revenge -> burial,friend,killer,murder,revenge]
+  path: 1[8033983 -> 8033983], [burial,friend,killer,murder,revenge -> burial,friend,killer,murder,revenge]
+  path: 2[8033983 -> 8033983], [burial,friend,killer,murder,revenge -> burial,friend,killer,murder,revenge]
+srcNodes: [1784135, 1580546, 1737365]
+  path: 0[1784135 -> 1784135], [The Killer (2006) -> The Killer (2006)]
+  path: 1[1784135 -> 2133416 -> 1580546], [The Killer (2006) -> Hashmi, Emraan -> Murder (2004)] 
+
+  path: 2[1784135 -> 2166537 -> 1530379 -> 2146731 -> 1737365], [The Killer (2006) -> Khan, Irrfan -> Life of Pi (2012) -> Hussain, Adil (I) -> Sweet Revenge (2005)] 
+
+srcNodes: [8023307, 8005571, 8003479]
+  path: 0[1248630 -> 2162993 -> 1621802 -> 8023307], [Blood Moon (2008) -> Kaufman, Lloyd -> PDA Massacre (2004) -> gore,serial-killer,tromadance] 
+
+  path: 1[1248630 -> 2162993 -> 1251152 -> 8005571], [Blood Moon (2008) -> Kaufman, Lloyd -> Body in a Dumpster (2008) -> barker,hamburger,murder,small-town] 
+
+  path: 2[1248630 -> 8003479], [Blood Moon (2008) -> revenge] 
+
+srcNodes: [1784154, 8001318, 8003479]
+  path: 0[2162993 -> 1784154], [Kaufman, Lloyd -> The Killer Robots and the Battle for the Cosmic Potato (2009)] 
+
+  path: 1[2162993 -> 1645247 -> 2442084 -> 1366185 -> 8001318], [Kaufman, Lloyd -> Poultrygeist: Night of the Chicken Dead (2006) -> Sereboff, Allyson -> Evil Deeds 2 (2010) -> murder] 
+
+  path: 2[2162993 -> 1248630 -> 8003479], [Kaufman, Lloyd -> Blood Moon (2008) -> revenge] 
+
+-----------------------------------------
+ResultDestNodes: [8033983, 1784135, 1248630, 2162993]
+ResultRelevs: [8.536209106445312, 7.218272686004639, 7.103950500488281, 7.103857040405273]
+AvgResultRelev: 7.4905723333358765
+AvgResultDissimilarity: 0.9444444444444445
+Num of entries retrieved from the KNLists: 2880
+Num of entries retrieved from NKMaps: 4741
+Num of answer trees explored: 1691
+Num of states created: 24
+Num of states explored: 17
+Num of heuristic search performed: 2
+
+Div Top-k Search by Astar1nc_ap_new, k=4
+[killer, murder, revenge]
+srcNodes: [8033983, 8033983, 8033983]
+  path: 0[8033983 -> 8033983], [burial,friend,killer,murder,revenge -> burial,friend,killer,murder,revenge]
+  path: 1[8033983 -> 8033983], [burial,friend,killer,murder,revenge -> burial,friend,killer,murder,revenge]
+  path: 2[8033983 -> 8033983], [burial,friend,killer,murder,revenge -> burial,friend,killer,murder,revenge]
+srcNodes: [1784135, 1580546, 1737365]
+  path: 0[1784135 -> 1784135], [The Killer (2006) -> The Killer (2006)]
+  path: 1[1784135 -> 2133416 -> 1580546], [The Killer (2006) -> Hashmi, Emraan -> Murder (2004)] 
+
+  path: 2[1784135 -> 2166537 -> 1530379 -> 2146731 -> 1737365], [The Killer (2006) -> Khan, Irrfan -> Life of Pi (2012) -> Hussain, Adil (I) -> Sweet Revenge (2005)] 
+
+srcNodes: [8023307, 8005571, 8003479]
+  path: 0[1248630 -> 2162993 -> 1621802 -> 8023307], [Blood Moon (2008) -> Kaufman, Lloyd -> PDA Massacre (2004) -> gore,serial-killer,tromadance] 
+
+  path: 1[1248630 -> 2162993 -> 1251152 -> 8005571], [Blood Moon (2008) -> Kaufman, Lloyd -> Body in a Dumpster (2008) -> barker,hamburger,murder,small-town] 
+
+  path: 2[1248630 -> 8003479], [Blood Moon (2008) -> revenge] 
+
+srcNodes: [1784154, 8001318, 8003479]
+  path: 0[2162993 -> 1784154], [Kaufman, Lloyd -> The Killer Robots and the Battle for the Cosmic Potato (2009)] 
+
+  path: 1[2162993 -> 1645247 -> 2442084 -> 1366185 -> 8001318], [Kaufman, Lloyd -> Poultrygeist: Night of the Chicken Dead (2006) -> Sereboff, Allyson -> Evil Deeds 2 (2010) -> murder] 
+
+  path: 2[2162993 -> 1248630 -> 8003479], [Kaufman, Lloyd -> Blood Moon (2008) -> revenge] 
+
+-----------------------------------------
+ResultDestNodes: [8033983, 1784135, 1248630, 2162993]
+ResultRelevs: [8.536209106445312, 7.218272686004639, 7.103950500488281, 7.103857040405273]
+AvgResultRelev: 7.4905723333358765
+AvgResultDissimilarity: 0.9444444444444445
+Num of entries retrieved from the KNLists: 2880
+Num of entries retrieved from NKMaps: 4741
+Num of answer trees explored: 1691
+Num of states created: 15
+Num of states explored: 6
+Num of heuristic search performed: 2
+
+Top-k Search by Blink-BDB, k=8
+[killer, murder, revenge]
+srcNodes: [8033983, 8033983, 8033983]
+  path: 0[8033983 -> 8033983], [burial,friend,killer,murder,revenge -> burial,friend,killer,murder,revenge]
+  path: 1[8033983 -> 8033983], [burial,friend,killer,murder,revenge -> burial,friend,killer,murder,revenge]
+  path: 2[8033983 -> 8033983], [burial,friend,killer,murder,revenge -> burial,friend,killer,murder,revenge]
+srcNodes: [1830487, 8033983, 8033983]
+  path: 0[1830487 -> 1830487], [To Kill a Killer (2008) -> To Kill a Killer (2008)]
+  path: 1[1830487 -> 8033983], [To Kill a Killer (2008) -> burial,friend,killer,murder,revenge] 
+
+  path: 2[1830487 -> 8033983], [To Kill a Killer (2008) -> burial,friend,killer,murder,revenge] 
+
+srcNodes: [1784135, 1580546, 1737365]
+  path: 0[1784135 -> 1784135], [The Killer (2006) -> The Killer (2006)]
+  path: 1[1784135 -> 2133416 -> 1580546], [The Killer (2006) -> Hashmi, Emraan -> Murder (2004)] 
+
+  path: 2[1784135 -> 2166537 -> 1530379 -> 2146731 -> 1737365], [The Killer (2006) -> Khan, Irrfan -> Life of Pi (2012) -> Hussain, Adil (I) -> Sweet Revenge (2005)] 
+
+srcNodes: [8023307, 8005571, 8003479]
+  path: 0[1248630 -> 2162993 -> 1621802 -> 8023307], [Blood Moon (2008) -> Kaufman, Lloyd -> PDA Massacre (2004) -> gore,serial-killer,tromadance] 
+
+  path: 1[1248630 -> 2162993 -> 1251152 -> 8005571], [Blood Moon (2008) -> Kaufman, Lloyd -> Body in a Dumpster (2008) -> barker,hamburger,murder,small-town] 
+
+  path: 2[1248630 -> 8003479], [Blood Moon (2008) -> revenge] 
+
+srcNodes: [1784154, 8001318, 8003479]
+  path: 0[2162993 -> 1784154], [Kaufman, Lloyd -> The Killer Robots and the Battle for the Cosmic Potato (2009)] 
+
+  path: 1[2162993 -> 1645247 -> 2442084 -> 1366185 -> 8001318], [Kaufman, Lloyd -> Poultrygeist: Night of the Chicken Dead (2006) -> Sereboff, Allyson -> Evil Deeds 2 (2010) -> murder] 
+
+  path: 2[2162993 -> 1248630 -> 8003479], [Kaufman, Lloyd -> Blood Moon (2008) -> revenge] 
+
+srcNodes: [1482938, 8002542, 1668342]
+  path: 0[1668342 -> 2314602 -> 1482938], [Revenge (2004) -> Crespo, Tara -> Killer Bud (2001)] 
+
+  path: 1[1668342 -> 2074938 -> 1191052 -> 8002542], [Revenge (2004) -> Davis, William Stanford -> Across the Hall (2009) -> bellhop,betrayal,hitman,hotel,murder] 
+
+  path: 2[1668342 -> 1668342], [Revenge (2004) -> Revenge (2004)]
+srcNodes: [8000059, 1580701, 1668450]
+  path: 0[1580701 -> 8000059], [Murder by Numbers (2004) -> serial-killer] 
+
+  path: 1[1580701 -> 1580701], [Murder by Numbers (2004) -> Murder by Numbers (2004)]
+  path: 2[1580701 -> 2067215 -> 1663760 -> 2017408 -> 1668450], [Murder by Numbers (2004) -> Cox, Brian (I) -> Red Eye (2005/I) -> Baker, Terrence (I) -> Revenge of the Unhappy Campers (2002)] 
+
+srcNodes: [1784135, 1580546, 1737365]
+  path: 0[1580546 -> 2133416 -> 1784135], [Murder (2004) -> Hashmi, Emraan -> The Killer (2006)] 
+
+  path: 1[1580546 -> 1580546], [Murder (2004) -> Murder (2004)]
+  path: 2[1580546 -> 2306488 -> 1450654 -> 2146731 -> 1737365], [Murder (2004) -> Chaddha, Sheeba -> In Othello (2003) -> Hussain, Adil (I) -> Sweet Revenge (2005)] 
+
+-----------------------------------------
+Num of top-k answers: 8
+ResultDestNodes: [8033983, 1830487, 1784135, 1248630, 2162993, 1668342, 1580701, 1580546]
+ResultRelevs: [8.536209106445312, 7.288693428039551, 7.218272686004639, 7.103950500488281, 7.103857040405273, 7.030677795410156, 6.970184326171875, 6.966291427612305]
+AvgResultRelev: 7.277267038822174
+AvgResultDissimilarity: 0.9285714285714286
+Num of entries retrieved from the lists: 2880
+Num of entries retrieved from NKMaps: 4741
+Num of answer trees explored: 1691
+
+Div Top-k Search by Exhustive, k=8
+[killer, murder, revenge]
+srcNodes: [8033983, 8033983, 8033983]
+  path: 0[8033983 -> 8033983], [burial,friend,killer,murder,revenge -> burial,friend,killer,murder,revenge]
+  path: 1[8033983 -> 8033983], [burial,friend,killer,murder,revenge -> burial,friend,killer,murder,revenge]
+  path: 2[8033983 -> 8033983], [burial,friend,killer,murder,revenge -> burial,friend,killer,murder,revenge]
+srcNodes: [1784135, 1580546, 1737365]
+  path: 0[1784135 -> 1784135], [The Killer (2006) -> The Killer (2006)]
+  path: 1[1784135 -> 2133416 -> 1580546], [The Killer (2006) -> Hashmi, Emraan -> Murder (2004)] 
+
+  path: 2[1784135 -> 2166537 -> 1530379 -> 2146731 -> 1737365], [The Killer (2006) -> Khan, Irrfan -> Life of Pi (2012) -> Hussain, Adil (I) -> Sweet Revenge (2005)] 
+
+srcNodes: [8023307, 8005571, 8003479]
+  path: 0[1248630 -> 2162993 -> 1621802 -> 8023307], [Blood Moon (2008) -> Kaufman, Lloyd -> PDA Massacre (2004) -> gore,serial-killer,tromadance] 
+
+  path: 1[1248630 -> 2162993 -> 1251152 -> 8005571], [Blood Moon (2008) -> Kaufman, Lloyd -> Body in a Dumpster (2008) -> barker,hamburger,murder,small-town] 
+
+  path: 2[1248630 -> 8003479], [Blood Moon (2008) -> revenge] 
+
+srcNodes: [1784154, 8001318, 8003479]
+  path: 0[2162993 -> 1784154], [Kaufman, Lloyd -> The Killer Robots and the Battle for the Cosmic Potato (2009)] 
+
+  path: 1[2162993 -> 1645247 -> 2442084 -> 1366185 -> 8001318], [Kaufman, Lloyd -> Poultrygeist: Night of the Chicken Dead (2006) -> Sereboff, Allyson -> Evil Deeds 2 (2010) -> murder] 
+
+  path: 2[2162993 -> 1248630 -> 8003479], [Kaufman, Lloyd -> Blood Moon (2008) -> revenge] 
+
+srcNodes: [1482938, 8002542, 1668342]
+  path: 0[1668342 -> 2314602 -> 1482938], [Revenge (2004) -> Crespo, Tara -> Killer Bud (2001)] 
+
+  path: 1[1668342 -> 2074938 -> 1191052 -> 8002542], [Revenge (2004) -> Davis, William Stanford -> Across the Hall (2009) -> bellhop,betrayal,hitman,hotel,murder] 
+
+  path: 2[1668342 -> 1668342], [Revenge (2004) -> Revenge (2004)]
+srcNodes: [8000059, 1580701, 1668450]
+  path: 0[1580701 -> 8000059], [Murder by Numbers (2004) -> serial-killer] 
+
+  path: 1[1580701 -> 1580701], [Murder by Numbers (2004) -> Murder by Numbers (2004)]
+  path: 2[1580701 -> 2067215 -> 1663760 -> 2017408 -> 1668450], [Murder by Numbers (2004) -> Cox, Brian (I) -> Red Eye (2005/I) -> Baker, Terrence (I) -> Revenge of the Unhappy Campers (2002)] 
+
+srcNodes: [1784135, 1580546, 1737365]
+  path: 0[1580546 -> 2133416 -> 1784135], [Murder (2004) -> Hashmi, Emraan -> The Killer (2006)] 
+
+  path: 1[1580546 -> 1580546], [Murder (2004) -> Murder (2004)]
+  path: 2[1580546 -> 2306488 -> 1450654 -> 2146731 -> 1737365], [Murder (2004) -> Chaddha, Sheeba -> In Othello (2003) -> Hussain, Adil (I) -> Sweet Revenge (2005)] 
+
+srcNodes: [8011367, 8001318, 1737364]
+  path: 0[1296214 -> 2165561 -> 1370135 -> 8011367], [Cross Line (2007) -> Keogh, Danny -> Falling Rocks (2000) -> killer,murder] 
+
+  path: 1[1296214 -> 8001318], [Cross Line (2007) -> murder] 
+
+  path: 2[1296214 -> 2169253 -> 1310659 -> 2123436 -> 1737364], [Cross Line (2007) -> Kirkwood, Langley -> Dead Easy (2004) -> Grieco, Richard (I) -> Sweet Revenge (2002)] 
+
+Dissims of Subsets and t:
+(0~0, 1) : 1.0
+(0~1, 2) : 1.0
+(0~2, 3) : 0.8888888888888888
+(0~3, 4) : 1.0
+(0~4, 5) : 1.0
+(0~5, 6) : 0.8333333333333334
+(0~6, 7) : 0.9523809523809523
+-----------------------------------------
+ResultDestNodes: [8033983, 1784135, 1248630, 2162993, 1668342, 1580701, 1580546, 1296214]
+ResultRelevs: [8.536209106445312, 7.218272686004639, 7.103950500488281, 7.103857040405273, 7.030677795410156, 6.970184326171875, 6.966291427612305, 6.875762939453125]
+AvgResultRelev: 7.225650727748871
+AvgResultDissimilarity: 0.9404761904761905
+Num of entries retrieved from the KNLists: 3624
+Num of entries retrieved from NKMaps: 6120
+Num of answer trees explored: 2324
+Num of answer tree sets created: 369
+Num of answer tree sets removed: 2
+
+Div Top-k Search by Astar02, k=8
+[killer, murder, revenge]
+srcNodes: [8033983, 8033983, 8033983]
+  path: 0[8033983 -> 8033983], [burial,friend,killer,murder,revenge -> burial,friend,killer,murder,revenge]
+  path: 1[8033983 -> 8033983], [burial,friend,killer,murder,revenge -> burial,friend,killer,murder,revenge]
+  path: 2[8033983 -> 8033983], [burial,friend,killer,murder,revenge -> burial,friend,killer,murder,revenge]
+srcNodes: [1784135, 1580546, 1737365]
+  path: 0[1784135 -> 1784135], [The Killer (2006) -> The Killer (2006)]
+  path: 1[1784135 -> 2133416 -> 1580546], [The Killer (2006) -> Hashmi, Emraan -> Murder (2004)] 
+
+  path: 2[1784135 -> 2166537 -> 1530379 -> 2146731 -> 1737365], [The Killer (2006) -> Khan, Irrfan -> Life of Pi (2012) -> Hussain, Adil (I) -> Sweet Revenge (2005)] 
+
+srcNodes: [8023307, 8005571, 8003479]
+  path: 0[1248630 -> 2162993 -> 1621802 -> 8023307], [Blood Moon (2008) -> Kaufman, Lloyd -> PDA Massacre (2004) -> gore,serial-killer,tromadance] 
+
+  path: 1[1248630 -> 2162993 -> 1251152 -> 8005571], [Blood Moon (2008) -> Kaufman, Lloyd -> Body in a Dumpster (2008) -> barker,hamburger,murder,small-town] 
+
+  path: 2[1248630 -> 8003479], [Blood Moon (2008) -> revenge] 
+
+srcNodes: [1784154, 8001318, 8003479]
+  path: 0[2162993 -> 1784154], [Kaufman, Lloyd -> The Killer Robots and the Battle for the Cosmic Potato (2009)] 
+
+  path: 1[2162993 -> 1645247 -> 2442084 -> 1366185 -> 8001318], [Kaufman, Lloyd -> Poultrygeist: Night of the Chicken Dead (2006) -> Sereboff, Allyson -> Evil Deeds 2 (2010) -> murder] 
+
+  path: 2[2162993 -> 1248630 -> 8003479], [Kaufman, Lloyd -> Blood Moon (2008) -> revenge] 
+
+srcNodes: [1482938, 8002542, 1668342]
+  path: 0[1668342 -> 2314602 -> 1482938], [Revenge (2004) -> Crespo, Tara -> Killer Bud (2001)] 
+
+  path: 1[1668342 -> 2074938 -> 1191052 -> 8002542], [Revenge (2004) -> Davis, William Stanford -> Across the Hall (2009) -> bellhop,betrayal,hitman,hotel,murder] 
+
+  path: 2[1668342 -> 1668342], [Revenge (2004) -> Revenge (2004)]
+srcNodes: [8000059, 1580701, 1668450]
+  path: 0[1580701 -> 8000059], [Murder by Numbers (2004) -> serial-killer] 
+
+  path: 1[1580701 -> 1580701], [Murder by Numbers (2004) -> Murder by Numbers (2004)]
+  path: 2[1580701 -> 2067215 -> 1663760 -> 2017408 -> 1668450], [Murder by Numbers (2004) -> Cox, Brian (I) -> Red Eye (2005/I) -> Baker, Terrence (I) -> Revenge of the Unhappy Campers (2002)] 
+
+srcNodes: [1784135, 1580546, 1737365]
+  path: 0[1580546 -> 2133416 -> 1784135], [Murder (2004) -> Hashmi, Emraan -> The Killer (2006)] 
+
+  path: 1[1580546 -> 1580546], [Murder (2004) -> Murder (2004)]
+  path: 2[1580546 -> 2306488 -> 1450654 -> 2146731 -> 1737365], [Murder (2004) -> Chaddha, Sheeba -> In Othello (2003) -> Hussain, Adil (I) -> Sweet Revenge (2005)] 
+
+srcNodes: [8011367, 8001318, 1737364]
+  path: 0[1296214 -> 2165561 -> 1370135 -> 8011367], [Cross Line (2007) -> Keogh, Danny -> Falling Rocks (2000) -> killer,murder] 
+
+  path: 1[1296214 -> 8001318], [Cross Line (2007) -> murder] 
+
+  path: 2[1296214 -> 2169253 -> 1310659 -> 2123436 -> 1737364], [Cross Line (2007) -> Kirkwood, Langley -> Dead Easy (2004) -> Grieco, Richard (I) -> Sweet Revenge (2002)] 
+
+-----------------------------------------
+ResultDestNodes: [8033983, 1784135, 1248630, 2162993, 1668342, 1580701, 1580546, 1296214]
+ResultRelevs: [8.536209106445312, 7.218272686004639, 7.103950500488281, 7.103857040405273, 7.030677795410156, 6.970184326171875, 6.966291427612305, 6.875762939453125]
+AvgResultRelev: 7.225650727748871
+AvgResultDissimilarity: 0.9404761904761905
+Num of entries retrieved from the KNLists: 3624
+Num of entries retrieved from NKMaps: 6120
+Num of answer trees explored: 2324
+Num of states created: 222
+Num of states explored: 194
+Num of heuristic search performed: 2
+
+Div Top-k Search by Astar1nc_ap_new, k=8
+[killer, murder, revenge]
+srcNodes: [8033983, 8033983, 8033983]
+  path: 0[8033983 -> 8033983], [burial,friend,killer,murder,revenge -> burial,friend,killer,murder,revenge]
+  path: 1[8033983 -> 8033983], [burial,friend,killer,murder,revenge -> burial,friend,killer,murder,revenge]
+  path: 2[8033983 -> 8033983], [burial,friend,killer,murder,revenge -> burial,friend,killer,murder,revenge]
+srcNodes: [1784135, 1580546, 1737365]
+  path: 0[1784135 -> 1784135], [The Killer (2006) -> The Killer (2006)]
+  path: 1[1784135 -> 2133416 -> 1580546], [The Killer (2006) -> Hashmi, Emraan -> Murder (2004)] 
+
+  path: 2[1784135 -> 2166537 -> 1530379 -> 2146731 -> 1737365], [The Killer (2006) -> Khan, Irrfan -> Life of Pi (2012) -> Hussain, Adil (I) -> Sweet Revenge (2005)] 
+
+srcNodes: [8023307, 8005571, 8003479]
+  path: 0[1248630 -> 2162993 -> 1621802 -> 8023307], [Blood Moon (2008) -> Kaufman, Lloyd -> PDA Massacre (2004) -> gore,serial-killer,tromadance] 
+
+  path: 1[1248630 -> 2162993 -> 1251152 -> 8005571], [Blood Moon (2008) -> Kaufman, Lloyd -> Body in a Dumpster (2008) -> barker,hamburger,murder,small-town] 
+
+  path: 2[1248630 -> 8003479], [Blood Moon (2008) -> revenge] 
+
+srcNodes: [1784154, 8001318, 8003479]
+  path: 0[2162993 -> 1784154], [Kaufman, Lloyd -> The Killer Robots and the Battle for the Cosmic Potato (2009)] 
+
+  path: 1[2162993 -> 1645247 -> 2442084 -> 1366185 -> 8001318], [Kaufman, Lloyd -> Poultrygeist: Night of the Chicken Dead (2006) -> Sereboff, Allyson -> Evil Deeds 2 (2010) -> murder] 
+
+  path: 2[2162993 -> 1248630 -> 8003479], [Kaufman, Lloyd -> Blood Moon (2008) -> revenge] 
+
+srcNodes: [1482938, 8002542, 1668342]
+  path: 0[1668342 -> 2314602 -> 1482938], [Revenge (2004) -> Crespo, Tara -> Killer Bud (2001)] 
+
+  path: 1[1668342 -> 2074938 -> 1191052 -> 8002542], [Revenge (2004) -> Davis, William Stanford -> Across the Hall (2009) -> bellhop,betrayal,hitman,hotel,murder] 
+
+  path: 2[1668342 -> 1668342], [Revenge (2004) -> Revenge (2004)]
+srcNodes: [8000059, 1580701, 1668450]
+  path: 0[1580701 -> 8000059], [Murder by Numbers (2004) -> serial-killer] 
+
+  path: 1[1580701 -> 1580701], [Murder by Numbers (2004) -> Murder by Numbers (2004)]
+  path: 2[1580701 -> 2067215 -> 1663760 -> 2017408 -> 1668450], [Murder by Numbers (2004) -> Cox, Brian (I) -> Red Eye (2005/I) -> Baker, Terrence (I) -> Revenge of the Unhappy Campers (2002)] 
+
+srcNodes: [1784135, 1580546, 1737365]
+  path: 0[1580546 -> 2133416 -> 1784135], [Murder (2004) -> Hashmi, Emraan -> The Killer (2006)] 
+
+  path: 1[1580546 -> 1580546], [Murder (2004) -> Murder (2004)]
+  path: 2[1580546 -> 2306488 -> 1450654 -> 2146731 -> 1737365], [Murder (2004) -> Chaddha, Sheeba -> In Othello (2003) -> Hussain, Adil (I) -> Sweet Revenge (2005)] 
+
+srcNodes: [8011367, 8001318, 1737364]
+  path: 0[1296214 -> 2165561 -> 1370135 -> 8011367], [Cross Line (2007) -> Keogh, Danny -> Falling Rocks (2000) -> killer,murder] 
+
+  path: 1[1296214 -> 8001318], [Cross Line (2007) -> murder] 
+
+  path: 2[1296214 -> 2169253 -> 1310659 -> 2123436 -> 1737364], [Cross Line (2007) -> Kirkwood, Langley -> Dead Easy (2004) -> Grieco, Richard (I) -> Sweet Revenge (2002)] 
+
+-----------------------------------------
+ResultDestNodes: [8033983, 1784135, 1248630, 2162993, 1668342, 1580701, 1580546, 1296214]
+ResultRelevs: [8.536209106445312, 7.218272686004639, 7.103950500488281, 7.103857040405273, 7.030677795410156, 6.970184326171875, 6.966291427612305, 6.875762939453125]
+AvgResultRelev: 7.225650727748871
+AvgResultDissimilarity: 0.9404761904761905
+Num of entries retrieved from the KNLists: 4156
+Num of entries retrieved from NKMaps: 6962
+Num of answer trees explored: 2627
+Num of states created: 58
+Num of states explored: 10
+Num of heuristic search performed: 2
+
+Top-k Search by Blink-BDB, k=12
+[killer, murder, revenge]
+srcNodes: [8033983, 8033983, 8033983]
+  path: 0[8033983 -> 8033983], [burial,friend,killer,murder,revenge -> burial,friend,killer,murder,revenge]
+  path: 1[8033983 -> 8033983], [burial,friend,killer,murder,revenge -> burial,friend,killer,murder,revenge]
+  path: 2[8033983 -> 8033983], [burial,friend,killer,murder,revenge -> burial,friend,killer,murder,revenge]
+srcNodes: [1830487, 8033983, 8033983]
+  path: 0[1830487 -> 1830487], [To Kill a Killer (2008) -> To Kill a Killer (2008)]
+  path: 1[1830487 -> 8033983], [To Kill a Killer (2008) -> burial,friend,killer,murder,revenge] 
+
+  path: 2[1830487 -> 8033983], [To Kill a Killer (2008) -> burial,friend,killer,murder,revenge] 
+
+srcNodes: [1784135, 1580546, 1737365]
+  path: 0[1784135 -> 1784135], [The Killer (2006) -> The Killer (2006)]
+  path: 1[1784135 -> 2133416 -> 1580546], [The Killer (2006) -> Hashmi, Emraan -> Murder (2004)] 
+
+  path: 2[1784135 -> 2166537 -> 1530379 -> 2146731 -> 1737365], [The Killer (2006) -> Khan, Irrfan -> Life of Pi (2012) -> Hussain, Adil (I) -> Sweet Revenge (2005)] 
+
+srcNodes: [8023307, 8005571, 8003479]
+  path: 0[1248630 -> 2162993 -> 1621802 -> 8023307], [Blood Moon (2008) -> Kaufman, Lloyd -> PDA Massacre (2004) -> gore,serial-killer,tromadance] 
+
+  path: 1[1248630 -> 2162993 -> 1251152 -> 8005571], [Blood Moon (2008) -> Kaufman, Lloyd -> Body in a Dumpster (2008) -> barker,hamburger,murder,small-town] 
+
+  path: 2[1248630 -> 8003479], [Blood Moon (2008) -> revenge] 
+
+srcNodes: [1784154, 8001318, 8003479]
+  path: 0[2162993 -> 1784154], [Kaufman, Lloyd -> The Killer Robots and the Battle for the Cosmic Potato (2009)] 
+
+  path: 1[2162993 -> 1645247 -> 2442084 -> 1366185 -> 8001318], [Kaufman, Lloyd -> Poultrygeist: Night of the Chicken Dead (2006) -> Sereboff, Allyson -> Evil Deeds 2 (2010) -> murder] 
+
+  path: 2[2162993 -> 1248630 -> 8003479], [Kaufman, Lloyd -> Blood Moon (2008) -> revenge] 
+
+srcNodes: [1482938, 8002542, 1668342]
+  path: 0[1668342 -> 2314602 -> 1482938], [Revenge (2004) -> Crespo, Tara -> Killer Bud (2001)] 
+
+  path: 1[1668342 -> 2074938 -> 1191052 -> 8002542], [Revenge (2004) -> Davis, William Stanford -> Across the Hall (2009) -> bellhop,betrayal,hitman,hotel,murder] 
+
+  path: 2[1668342 -> 1668342], [Revenge (2004) -> Revenge (2004)]
+srcNodes: [8000059, 1580701, 1668450]
+  path: 0[1580701 -> 8000059], [Murder by Numbers (2004) -> serial-killer] 
+
+  path: 1[1580701 -> 1580701], [Murder by Numbers (2004) -> Murder by Numbers (2004)]
+  path: 2[1580701 -> 2067215 -> 1663760 -> 2017408 -> 1668450], [Murder by Numbers (2004) -> Cox, Brian (I) -> Red Eye (2005/I) -> Baker, Terrence (I) -> Revenge of the Unhappy Campers (2002)] 
+
+srcNodes: [1784135, 1580546, 1737365]
+  path: 0[1580546 -> 2133416 -> 1784135], [Murder (2004) -> Hashmi, Emraan -> The Killer (2006)] 
+
+  path: 1[1580546 -> 1580546], [Murder (2004) -> Murder (2004)]
+  path: 2[1580546 -> 2306488 -> 1450654 -> 2146731 -> 1737365], [Murder (2004) -> Chaddha, Sheeba -> In Othello (2003) -> Hussain, Adil (I) -> Sweet Revenge (2005)] 
+
+srcNodes: [8011367, 8001318, 1737364]
+  path: 0[1296214 -> 2165561 -> 1370135 -> 8011367], [Cross Line (2007) -> Keogh, Danny -> Falling Rocks (2000) -> killer,murder] 
+
+  path: 1[1296214 -> 8001318], [Cross Line (2007) -> murder] 
+
+  path: 2[1296214 -> 2169253 -> 1310659 -> 2123436 -> 1737364], [Cross Line (2007) -> Kirkwood, Langley -> Dead Easy (2004) -> Grieco, Richard (I) -> Sweet Revenge (2002)] 
+
+srcNodes: [1784135, 1580546, 8025057]
+  path: 0[2133416 -> 1784135], [Hashmi, Emraan -> The Killer (2006)] 
+
+  path: 1[2133416 -> 1580546], [Hashmi, Emraan -> Murder (2004)] 
+
+  path: 2[2133416 -> 1279774 -> 2257877 -> 1660016 -> 8025057], [Hashmi, Emraan -> Chocolate: Deep Dark Secrets (2005) -> Pradhan, Vishwajeet -> Rakta Charitra 2 (2010) -> murder,revenge] 
+
+srcNodes: [1752671, 8001318, 8003479]
+  path: 0[1645247 -> 2059021 -> 1752671], [Poultrygeist: Night of the Chicken Dead (2006) -> Ciesla, Michael -> The Alphabet Killer (2008)] 
+
+  path: 1[1645247 -> 2442084 -> 1366185 -> 8001318], [Poultrygeist: Night of the Chicken Dead (2006) -> Sereboff, Allyson -> Evil Deeds 2 (2010) -> murder] 
+
+  path: 2[1645247 -> 2162993 -> 1248630 -> 8003479], [Poultrygeist: Night of the Chicken Dead (2006) -> Kaufman, Lloyd -> Blood Moon (2008) -> revenge] 
+
+srcNodes: [1784135, 8025057, 8025057]
+  path: 0[1660016 -> 2404914 -> 1846675 -> 2276790 -> 1784135], [Rakta Charitra 2 (2010) -> Mukherjee, Sushmita -> Ugly Aur Pagli (2008) -> Achrekar, Bharati -> The Killer (2006)] 
+
+  path: 1[1660016 -> 8025057], [Rakta Charitra 2 (2010) -> murder,revenge] 
+
+  path: 2[1660016 -> 8025057], [Rakta Charitra 2 (2010) -> murder,revenge] 
+
+-----------------------------------------
+Num of top-k answers: 12
+ResultDestNodes: [8033983, 1830487, 1784135, 1248630, 2162993, 1668342, 1580701, 1580546, 1296214, 2133416, 1645247, 1660016]
+ResultRelevs: [8.536209106445312, 7.288693428039551, 7.218272686004639, 7.103950500488281, 7.103857040405273, 7.030677795410156, 6.970184326171875, 6.966291427612305, 6.875762939453125, 6.847275257110596, 6.835034370422363, 6.830394744873047]
+AvgResultRelev: 7.133883635203044
+AvgResultDissimilarity: 0.9000000000000002
+Num of entries retrieved from the lists: 3872
+Num of entries retrieved from NKMaps: 6516
+Num of answer trees explored: 2470
+
+Div Top-k Search by Exhustive, k=12
+[killer, murder, revenge]
+srcNodes: [8033983, 8033983, 8033983]
+  path: 0[8033983 -> 8033983], [burial,friend,killer,murder,revenge -> burial,friend,killer,murder,revenge]
+  path: 1[8033983 -> 8033983], [burial,friend,killer,murder,revenge -> burial,friend,killer,murder,revenge]
+  path: 2[8033983 -> 8033983], [burial,friend,killer,murder,revenge -> burial,friend,killer,murder,revenge]
+srcNodes: [1784135, 1580546, 1737365]
+  path: 0[1784135 -> 1784135], [The Killer (2006) -> The Killer (2006)]
+  path: 1[1784135 -> 2133416 -> 1580546], [The Killer (2006) -> Hashmi, Emraan -> Murder (2004)] 
+
+  path: 2[1784135 -> 2166537 -> 1530379 -> 2146731 -> 1737365], [The Killer (2006) -> Khan, Irrfan -> Life of Pi (2012) -> Hussain, Adil (I) -> Sweet Revenge (2005)] 
+
+srcNodes: [8023307, 8005571, 8003479]
+  path: 0[1248630 -> 2162993 -> 1621802 -> 8023307], [Blood Moon (2008) -> Kaufman, Lloyd -> PDA Massacre (2004) -> gore,serial-killer,tromadance] 
+
+  path: 1[1248630 -> 2162993 -> 1251152 -> 8005571], [Blood Moon (2008) -> Kaufman, Lloyd -> Body in a Dumpster (2008) -> barker,hamburger,murder,small-town] 
+
+  path: 2[1248630 -> 8003479], [Blood Moon (2008) -> revenge] 
+
+srcNodes: [1784154, 8001318, 8003479]
+  path: 0[2162993 -> 1784154], [Kaufman, Lloyd -> The Killer Robots and the Battle for the Cosmic Potato (2009)] 
+
+  path: 1[2162993 -> 1645247 -> 2442084 -> 1366185 -> 8001318], [Kaufman, Lloyd -> Poultrygeist: Night of the Chicken Dead (2006) -> Sereboff, Allyson -> Evil Deeds 2 (2010) -> murder] 
+
+  path: 2[2162993 -> 1248630 -> 8003479], [Kaufman, Lloyd -> Blood Moon (2008) -> revenge] 
+
+srcNodes: [1482938, 8002542, 1668342]
+  path: 0[1668342 -> 2314602 -> 1482938], [Revenge (2004) -> Crespo, Tara -> Killer Bud (2001)] 
+
+  path: 1[1668342 -> 2074938 -> 1191052 -> 8002542], [Revenge (2004) -> Davis, William Stanford -> Across the Hall (2009) -> bellhop,betrayal,hitman,hotel,murder] 
+
+  path: 2[1668342 -> 1668342], [Revenge (2004) -> Revenge (2004)]
+srcNodes: [8000059, 1580701, 1668450]
+  path: 0[1580701 -> 8000059], [Murder by Numbers (2004) -> serial-killer] 
+
+  path: 1[1580701 -> 1580701], [Murder by Numbers (2004) -> Murder by Numbers (2004)]
+  path: 2[1580701 -> 2067215 -> 1663760 -> 2017408 -> 1668450], [Murder by Numbers (2004) -> Cox, Brian (I) -> Red Eye (2005/I) -> Baker, Terrence (I) -> Revenge of the Unhappy Campers (2002)] 
+
+srcNodes: [1784135, 1580546, 1737365]
+  path: 0[1580546 -> 2133416 -> 1784135], [Murder (2004) -> Hashmi, Emraan -> The Killer (2006)] 
+
+  path: 1[1580546 -> 1580546], [Murder (2004) -> Murder (2004)]
+  path: 2[1580546 -> 2306488 -> 1450654 -> 2146731 -> 1737365], [Murder (2004) -> Chaddha, Sheeba -> In Othello (2003) -> Hussain, Adil (I) -> Sweet Revenge (2005)] 
+
+srcNodes: [8011367, 8001318, 1737364]
+  path: 0[1296214 -> 2165561 -> 1370135 -> 8011367], [Cross Line (2007) -> Keogh, Danny -> Falling Rocks (2000) -> killer,murder] 
+
+  path: 1[1296214 -> 8001318], [Cross Line (2007) -> murder] 
+
+  path: 2[1296214 -> 2169253 -> 1310659 -> 2123436 -> 1737364], [Cross Line (2007) -> Kirkwood, Langley -> Dead Easy (2004) -> Grieco, Richard (I) -> Sweet Revenge (2002)] 
+
+srcNodes: [1784135, 1580546, 8025057]
+  path: 0[2133416 -> 1784135], [Hashmi, Emraan -> The Killer (2006)] 
+
+  path: 1[2133416 -> 1580546], [Hashmi, Emraan -> Murder (2004)] 
+
+  path: 2[2133416 -> 1279774 -> 2257877 -> 1660016 -> 8025057], [Hashmi, Emraan -> Chocolate: Deep Dark Secrets (2005) -> Pradhan, Vishwajeet -> Rakta Charitra 2 (2010) -> murder,revenge] 
+
+srcNodes: [1752671, 8001318, 8003479]
+  path: 0[1645247 -> 2059021 -> 1752671], [Poultrygeist: Night of the Chicken Dead (2006) -> Ciesla, Michael -> The Alphabet Killer (2008)] 
+
+  path: 1[1645247 -> 2442084 -> 1366185 -> 8001318], [Poultrygeist: Night of the Chicken Dead (2006) -> Sereboff, Allyson -> Evil Deeds 2 (2010) -> murder] 
+
+  path: 2[1645247 -> 2162993 -> 1248630 -> 8003479], [Poultrygeist: Night of the Chicken Dead (2006) -> Kaufman, Lloyd -> Blood Moon (2008) -> revenge] 
+
+srcNodes: [1784135, 8025057, 8025057]
+  path: 0[1660016 -> 2404914 -> 1846675 -> 2276790 -> 1784135], [Rakta Charitra 2 (2010) -> Mukherjee, Sushmita -> Ugly Aur Pagli (2008) -> Achrekar, Bharati -> The Killer (2006)] 
+
+  path: 1[1660016 -> 8025057], [Rakta Charitra 2 (2010) -> murder,revenge] 
+
+  path: 2[1660016 -> 8025057], [Rakta Charitra 2 (2010) -> murder,revenge] 
+
+srcNodes: [8010818, 8001318, 8003479]
+  path: 0[2056952 -> 1871877 -> 2476544 -> 1359171 -> 8010818], [Chien, Fernando -> Warrior (2011) -> Yannotti, Giovanna -> End Game (2009) -> killer,serial-killer] 
+
+  path: 1[2056952 -> 1431456 -> 4048625 -> 1802339 -> 8001318], [Chien, Fernando -> Honor (2006) -> Worth, David (II) -> The Prophet's Game (2000) -> murder] 
+
+  path: 2[2056952 -> 1668368 -> 8003479], [Chien, Fernando -> Revenge Tragedies (2008) -> revenge] 
+
+Dissims of Subsets and t:
+(0~0, 1) : 1.0
+(0~1, 2) : 1.0
+(0~2, 3) : 0.8888888888888888
+(0~3, 4) : 1.0
+(0~4, 5) : 1.0
+(0~5, 6) : 0.8333333333333334
+(0~6, 7) : 0.9523809523809523
+(0~7, 8) : 0.8333333333333333
+(0~8, 9) : 0.8518518518518519
+(0~9, 10) : 0.8399999999999999
+(0~10, 11) : 0.8181818181818182
+-----------------------------------------
+ResultDestNodes: [8033983, 1784135, 1248630, 2162993, 1668342, 1580701, 1580546, 1296214, 2133416, 1645247, 1660016, 2056952]
+ResultRelevs: [8.536209106445312, 7.218272686004639, 7.103950500488281, 7.103857040405273, 7.030677795410156, 6.970184326171875, 6.966291427612305, 6.875762939453125, 6.847275257110596, 6.835034370422363, 6.830394744873047, 6.768532752990723]
+AvgResultRelev: 7.090536912282308
+AvgResultDissimilarity: 0.8797979797979799
+Num of entries retrieved from the KNLists: 3872
+Num of entries retrieved from NKMaps: 6516
+Num of answer trees explored: 2470
+Num of answer tree sets created: 5856
+Num of answer tree sets removed: 2
+
+Div Top-k Search by Astar02, k=12
+[killer, murder, revenge]
+srcNodes: [8033983, 8033983, 8033983]
+  path: 0[8033983 -> 8033983], [burial,friend,killer,murder,revenge -> burial,friend,killer,murder,revenge]
+  path: 1[8033983 -> 8033983], [burial,friend,killer,murder,revenge -> burial,friend,killer,murder,revenge]
+  path: 2[8033983 -> 8033983], [burial,friend,killer,murder,revenge -> burial,friend,killer,murder,revenge]
+srcNodes: [1784135, 1580546, 1737365]
+  path: 0[1784135 -> 1784135], [The Killer (2006) -> The Killer (2006)]
+  path: 1[1784135 -> 2133416 -> 1580546], [The Killer (2006) -> Hashmi, Emraan -> Murder (2004)] 
+
+  path: 2[1784135 -> 2166537 -> 1530379 -> 2146731 -> 1737365], [The Killer (2006) -> Khan, Irrfan -> Life of Pi (2012) -> Hussain, Adil (I) -> Sweet Revenge (2005)] 
+
+srcNodes: [8023307, 8005571, 8003479]
+  path: 0[1248630 -> 2162993 -> 1621802 -> 8023307], [Blood Moon (2008) -> Kaufman, Lloyd -> PDA Massacre (2004) -> gore,serial-killer,tromadance] 
+
+  path: 1[1248630 -> 2162993 -> 1251152 -> 8005571], [Blood Moon (2008) -> Kaufman, Lloyd -> Body in a Dumpster (2008) -> barker,hamburger,murder,small-town] 
+
+  path: 2[1248630 -> 8003479], [Blood Moon (2008) -> revenge] 
+
+srcNodes: [1784154, 8001318, 8003479]
+  path: 0[2162993 -> 1784154], [Kaufman, Lloyd -> The Killer Robots and the Battle for the Cosmic Potato (2009)] 
+
+  path: 1[2162993 -> 1645247 -> 2442084 -> 1366185 -> 8001318], [Kaufman, Lloyd -> Poultrygeist: Night of the Chicken Dead (2006) -> Sereboff, Allyson -> Evil Deeds 2 (2010) -> murder] 
+
+  path: 2[2162993 -> 1248630 -> 8003479], [Kaufman, Lloyd -> Blood Moon (2008) -> revenge] 
+
+srcNodes: [1482938, 8002542, 1668342]
+  path: 0[1668342 -> 2314602 -> 1482938], [Revenge (2004) -> Crespo, Tara -> Killer Bud (2001)] 
+
+  path: 1[1668342 -> 2074938 -> 1191052 -> 8002542], [Revenge (2004) -> Davis, William Stanford -> Across the Hall (2009) -> bellhop,betrayal,hitman,hotel,murder] 
+
+  path: 2[1668342 -> 1668342], [Revenge (2004) -> Revenge (2004)]
+srcNodes: [8000059, 1580701, 1668450]
+  path: 0[1580701 -> 8000059], [Murder by Numbers (2004) -> serial-killer] 
+
+  path: 1[1580701 -> 1580701], [Murder by Numbers (2004) -> Murder by Numbers (2004)]
+  path: 2[1580701 -> 2067215 -> 1663760 -> 2017408 -> 1668450], [Murder by Numbers (2004) -> Cox, Brian (I) -> Red Eye (2005/I) -> Baker, Terrence (I) -> Revenge of the Unhappy Campers (2002)] 
+
+srcNodes: [1784135, 1580546, 1737365]
+  path: 0[1580546 -> 2133416 -> 1784135], [Murder (2004) -> Hashmi, Emraan -> The Killer (2006)] 
+
+  path: 1[1580546 -> 1580546], [Murder (2004) -> Murder (2004)]
+  path: 2[1580546 -> 2306488 -> 1450654 -> 2146731 -> 1737365], [Murder (2004) -> Chaddha, Sheeba -> In Othello (2003) -> Hussain, Adil (I) -> Sweet Revenge (2005)] 
+
+srcNodes: [8011367, 8001318, 1737364]
+  path: 0[1296214 -> 2165561 -> 1370135 -> 8011367], [Cross Line (2007) -> Keogh, Danny -> Falling Rocks (2000) -> killer,murder] 
+
+  path: 1[1296214 -> 8001318], [Cross Line (2007) -> murder] 
+
+  path: 2[1296214 -> 2169253 -> 1310659 -> 2123436 -> 1737364], [Cross Line (2007) -> Kirkwood, Langley -> Dead Easy (2004) -> Grieco, Richard (I) -> Sweet Revenge (2002)] 
+
+srcNodes: [1784135, 1580546, 8025057]
+  path: 0[2133416 -> 1784135], [Hashmi, Emraan -> The Killer (2006)] 
+
+  path: 1[2133416 -> 1580546], [Hashmi, Emraan -> Murder (2004)] 
+
+  path: 2[2133416 -> 1279774 -> 2257877 -> 1660016 -> 8025057], [Hashmi, Emraan -> Chocolate: Deep Dark Secrets (2005) -> Pradhan, Vishwajeet -> Rakta Charitra 2 (2010) -> murder,revenge] 
+
+srcNodes: [1752671, 8001318, 8003479]
+  path: 0[1645247 -> 2059021 -> 1752671], [Poultrygeist: Night of the Chicken Dead (2006) -> Ciesla, Michael -> The Alphabet Killer (2008)] 
+
+  path: 1[1645247 -> 2442084 -> 1366185 -> 8001318], [Poultrygeist: Night of the Chicken Dead (2006) -> Sereboff, Allyson -> Evil Deeds 2 (2010) -> murder] 
+
+  path: 2[1645247 -> 2162993 -> 1248630 -> 8003479], [Poultrygeist: Night of the Chicken Dead (2006) -> Kaufman, Lloyd -> Blood Moon (2008) -> revenge] 
+
+srcNodes: [1784135, 8025057, 8025057]
+  path: 0[1660016 -> 2404914 -> 1846675 -> 2276790 -> 1784135], [Rakta Charitra 2 (2010) -> Mukherjee, Sushmita -> Ugly Aur Pagli (2008) -> Achrekar, Bharati -> The Killer (2006)] 
+
+  path: 1[1660016 -> 8025057], [Rakta Charitra 2 (2010) -> murder,revenge] 
+
+  path: 2[1660016 -> 8025057], [Rakta Charitra 2 (2010) -> murder,revenge] 
+
+srcNodes: [8010818, 8001318, 8003479]
+  path: 0[2056952 -> 1871877 -> 2476544 -> 1359171 -> 8010818], [Chien, Fernando -> Warrior (2011) -> Yannotti, Giovanna -> End Game (2009) -> killer,serial-killer] 
+
+  path: 1[2056952 -> 1431456 -> 4048625 -> 1802339 -> 8001318], [Chien, Fernando -> Honor (2006) -> Worth, David (II) -> The Prophet's Game (2000) -> murder] 
+
+  path: 2[2056952 -> 1668368 -> 8003479], [Chien, Fernando -> Revenge Tragedies (2008) -> revenge] 
+
+-----------------------------------------
+ResultDestNodes: [8033983, 1784135, 1248630, 2162993, 1668342, 1580701, 1580546, 1296214, 2133416, 1645247, 1660016, 2056952]
+ResultRelevs: [8.536209106445312, 7.218272686004639, 7.103950500488281, 7.103857040405273, 7.030677795410156, 6.970184326171875, 6.966291427612305, 6.875762939453125, 6.847275257110596, 6.835034370422363, 6.830394744873047, 6.768532752990723]
+AvgResultRelev: 7.090536912282308
+AvgResultDissimilarity: 0.8797979797979799
+Num of entries retrieved from the KNLists: 3872
+Num of entries retrieved from NKMaps: 6516
+Num of answer trees explored: 2470
+Num of states created: 3022
+Num of states explored: 2956
+Num of heuristic search performed: 2
+
+Div Top-k Search by Astar1nc_ap_new, k=12
+[killer, murder, revenge]
+srcNodes: [8033983, 8033983, 8033983]
+  path: 0[8033983 -> 8033983], [burial,friend,killer,murder,revenge -> burial,friend,killer,murder,revenge]
+  path: 1[8033983 -> 8033983], [burial,friend,killer,murder,revenge -> burial,friend,killer,murder,revenge]
+  path: 2[8033983 -> 8033983], [burial,friend,killer,murder,revenge -> burial,friend,killer,murder,revenge]
+srcNodes: [1784135, 1580546, 1737365]
+  path: 0[1784135 -> 1784135], [The Killer (2006) -> The Killer (2006)]
+  path: 1[1784135 -> 2133416 -> 1580546], [The Killer (2006) -> Hashmi, Emraan -> Murder (2004)] 
+
+  path: 2[1784135 -> 2166537 -> 1530379 -> 2146731 -> 1737365], [The Killer (2006) -> Khan, Irrfan -> Life of Pi (2012) -> Hussain, Adil (I) -> Sweet Revenge (2005)] 
+
+srcNodes: [8023307, 8005571, 8003479]
+  path: 0[1248630 -> 2162993 -> 1621802 -> 8023307], [Blood Moon (2008) -> Kaufman, Lloyd -> PDA Massacre (2004) -> gore,serial-killer,tromadance] 
+
+  path: 1[1248630 -> 2162993 -> 1251152 -> 8005571], [Blood Moon (2008) -> Kaufman, Lloyd -> Body in a Dumpster (2008) -> barker,hamburger,murder,small-town] 
+
+  path: 2[1248630 -> 8003479], [Blood Moon (2008) -> revenge] 
+
+srcNodes: [1784154, 8001318, 8003479]
+  path: 0[2162993 -> 1784154], [Kaufman, Lloyd -> The Killer Robots and the Battle for the Cosmic Potato (2009)] 
+
+  path: 1[2162993 -> 1645247 -> 2442084 -> 1366185 -> 8001318], [Kaufman, Lloyd -> Poultrygeist: Night of the Chicken Dead (2006) -> Sereboff, Allyson -> Evil Deeds 2 (2010) -> murder] 
+
+  path: 2[2162993 -> 1248630 -> 8003479], [Kaufman, Lloyd -> Blood Moon (2008) -> revenge] 
+
+srcNodes: [1482938, 8002542, 1668342]
+  path: 0[1668342 -> 2314602 -> 1482938], [Revenge (2004) -> Crespo, Tara -> Killer Bud (2001)] 
+
+  path: 1[1668342 -> 2074938 -> 1191052 -> 8002542], [Revenge (2004) -> Davis, William Stanford -> Across the Hall (2009) -> bellhop,betrayal,hitman,hotel,murder] 
+
+  path: 2[1668342 -> 1668342], [Revenge (2004) -> Revenge (2004)]
+srcNodes: [8000059, 1580701, 1668450]
+  path: 0[1580701 -> 8000059], [Murder by Numbers (2004) -> serial-killer] 
+
+  path: 1[1580701 -> 1580701], [Murder by Numbers (2004) -> Murder by Numbers (2004)]
+  path: 2[1580701 -> 2067215 -> 1663760 -> 2017408 -> 1668450], [Murder by Numbers (2004) -> Cox, Brian (I) -> Red Eye (2005/I) -> Baker, Terrence (I) -> Revenge of the Unhappy Campers (2002)] 
+
+srcNodes: [1784135, 1580546, 1737365]
+  path: 0[1580546 -> 2133416 -> 1784135], [Murder (2004) -> Hashmi, Emraan -> The Killer (2006)] 
+
+  path: 1[1580546 -> 1580546], [Murder (2004) -> Murder (2004)]
+  path: 2[1580546 -> 2306488 -> 1450654 -> 2146731 -> 1737365], [Murder (2004) -> Chaddha, Sheeba -> In Othello (2003) -> Hussain, Adil (I) -> Sweet Revenge (2005)] 
+
+srcNodes: [8011367, 8001318, 1737364]
+  path: 0[1296214 -> 2165561 -> 1370135 -> 8011367], [Cross Line (2007) -> Keogh, Danny -> Falling Rocks (2000) -> killer,murder] 
+
+  path: 1[1296214 -> 8001318], [Cross Line (2007) -> murder] 
+
+  path: 2[1296214 -> 2169253 -> 1310659 -> 2123436 -> 1737364], [Cross Line (2007) -> Kirkwood, Langley -> Dead Easy (2004) -> Grieco, Richard (I) -> Sweet Revenge (2002)] 
+
+srcNodes: [1784135, 1580546, 8025057]
+  path: 0[2133416 -> 1784135], [Hashmi, Emraan -> The Killer (2006)] 
+
+  path: 1[2133416 -> 1580546], [Hashmi, Emraan -> Murder (2004)] 
+
+  path: 2[2133416 -> 1279774 -> 2257877 -> 1660016 -> 8025057], [Hashmi, Emraan -> Chocolate: Deep Dark Secrets (2005) -> Pradhan, Vishwajeet -> Rakta Charitra 2 (2010) -> murder,revenge] 
+
+srcNodes: [1752671, 8001318, 8003479]
+  path: 0[1645247 -> 2059021 -> 1752671], [Poultrygeist: Night of the Chicken Dead (2006) -> Ciesla, Michael -> The Alphabet Killer (2008)] 
+
+  path: 1[1645247 -> 2442084 -> 1366185 -> 8001318], [Poultrygeist: Night of the Chicken Dead (2006) -> Sereboff, Allyson -> Evil Deeds 2 (2010) -> murder] 
+
+  path: 2[1645247 -> 2162993 -> 1248630 -> 8003479], [Poultrygeist: Night of the Chicken Dead (2006) -> Kaufman, Lloyd -> Blood Moon (2008) -> revenge] 
+
+srcNodes: [1784135, 8025057, 8025057]
+  path: 0[1660016 -> 2404914 -> 1846675 -> 2276790 -> 1784135], [Rakta Charitra 2 (2010) -> Mukherjee, Sushmita -> Ugly Aur Pagli (2008) -> Achrekar, Bharati -> The Killer (2006)] 
+
+  path: 1[1660016 -> 8025057], [Rakta Charitra 2 (2010) -> murder,revenge] 
+
+  path: 2[1660016 -> 8025057], [Rakta Charitra 2 (2010) -> murder,revenge] 
+
+srcNodes: [8010818, 8001318, 8003479]
+  path: 0[2056952 -> 1871877 -> 2476544 -> 1359171 -> 8010818], [Chien, Fernando -> Warrior (2011) -> Yannotti, Giovanna -> End Game (2009) -> killer,serial-killer] 
+
+  path: 1[2056952 -> 1431456 -> 4048625 -> 1802339 -> 8001318], [Chien, Fernando -> Honor (2006) -> Worth, David (II) -> The Prophet's Game (2000) -> murder] 
+
+  path: 2[2056952 -> 1668368 -> 8003479], [Chien, Fernando -> Revenge Tragedies (2008) -> revenge] 
+
+-----------------------------------------
+ResultDestNodes: [8033983, 1784135, 1248630, 2162993, 1668342, 1580701, 1580546, 1296214, 2133416, 1645247, 1660016, 2056952]
+ResultRelevs: [8.536209106445312, 7.218272686004639, 7.103950500488281, 7.103857040405273, 7.030677795410156, 6.970184326171875, 6.966291427612305, 6.875762939453125, 6.847275257110596, 6.835034370422363, 6.830394744873047, 6.768532752990723]
+AvgResultRelev: 7.090536912282308
+AvgResultDissimilarity: 0.8797979797979799
+Num of entries retrieved from the KNLists: 4156
+Num of entries retrieved from NKMaps: 6962
+Num of answer trees explored: 2627
+Num of states created: 134
+Num of states explored: 14
+Num of heuristic search performed: 2
+
+Top-k Search by Blink-BDB, k=16
+[killer, murder, revenge]
+srcNodes: [8033983, 8033983, 8033983]
+  path: 0[8033983 -> 8033983], [burial,friend,killer,murder,revenge -> burial,friend,killer,murder,revenge]
+  path: 1[8033983 -> 8033983], [burial,friend,killer,murder,revenge -> burial,friend,killer,murder,revenge]
+  path: 2[8033983 -> 8033983], [burial,friend,killer,murder,revenge -> burial,friend,killer,murder,revenge]
+srcNodes: [1830487, 8033983, 8033983]
+  path: 0[1830487 -> 1830487], [To Kill a Killer (2008) -> To Kill a Killer (2008)]
+  path: 1[1830487 -> 8033983], [To Kill a Killer (2008) -> burial,friend,killer,murder,revenge] 
+
+  path: 2[1830487 -> 8033983], [To Kill a Killer (2008) -> burial,friend,killer,murder,revenge] 
+
+srcNodes: [1784135, 1580546, 1737365]
+  path: 0[1784135 -> 1784135], [The Killer (2006) -> The Killer (2006)]
+  path: 1[1784135 -> 2133416 -> 1580546], [The Killer (2006) -> Hashmi, Emraan -> Murder (2004)] 
+
+  path: 2[1784135 -> 2166537 -> 1530379 -> 2146731 -> 1737365], [The Killer (2006) -> Khan, Irrfan -> Life of Pi (2012) -> Hussain, Adil (I) -> Sweet Revenge (2005)] 
+
+srcNodes: [8023307, 8005571, 8003479]
+  path: 0[1248630 -> 2162993 -> 1621802 -> 8023307], [Blood Moon (2008) -> Kaufman, Lloyd -> PDA Massacre (2004) -> gore,serial-killer,tromadance] 
+
+  path: 1[1248630 -> 2162993 -> 1251152 -> 8005571], [Blood Moon (2008) -> Kaufman, Lloyd -> Body in a Dumpster (2008) -> barker,hamburger,murder,small-town] 
+
+  path: 2[1248630 -> 8003479], [Blood Moon (2008) -> revenge] 
+
+srcNodes: [1784154, 8001318, 8003479]
+  path: 0[2162993 -> 1784154], [Kaufman, Lloyd -> The Killer Robots and the Battle for the Cosmic Potato (2009)] 
+
+  path: 1[2162993 -> 1645247 -> 2442084 -> 1366185 -> 8001318], [Kaufman, Lloyd -> Poultrygeist: Night of the Chicken Dead (2006) -> Sereboff, Allyson -> Evil Deeds 2 (2010) -> murder] 
+
+  path: 2[2162993 -> 1248630 -> 8003479], [Kaufman, Lloyd -> Blood Moon (2008) -> revenge] 
+
+srcNodes: [1482938, 8002542, 1668342]
+  path: 0[1668342 -> 2314602 -> 1482938], [Revenge (2004) -> Crespo, Tara -> Killer Bud (2001)] 
+
+  path: 1[1668342 -> 2074938 -> 1191052 -> 8002542], [Revenge (2004) -> Davis, William Stanford -> Across the Hall (2009) -> bellhop,betrayal,hitman,hotel,murder] 
+
+  path: 2[1668342 -> 1668342], [Revenge (2004) -> Revenge (2004)]
+srcNodes: [8000059, 1580701, 1668450]
+  path: 0[1580701 -> 8000059], [Murder by Numbers (2004) -> serial-killer] 
+
+  path: 1[1580701 -> 1580701], [Murder by Numbers (2004) -> Murder by Numbers (2004)]
+  path: 2[1580701 -> 2067215 -> 1663760 -> 2017408 -> 1668450], [Murder by Numbers (2004) -> Cox, Brian (I) -> Red Eye (2005/I) -> Baker, Terrence (I) -> Revenge of the Unhappy Campers (2002)] 
+
+srcNodes: [1784135, 1580546, 1737365]
+  path: 0[1580546 -> 2133416 -> 1784135], [Murder (2004) -> Hashmi, Emraan -> The Killer (2006)] 
+
+  path: 1[1580546 -> 1580546], [Murder (2004) -> Murder (2004)]
+  path: 2[1580546 -> 2306488 -> 1450654 -> 2146731 -> 1737365], [Murder (2004) -> Chaddha, Sheeba -> In Othello (2003) -> Hussain, Adil (I) -> Sweet Revenge (2005)] 
+
+srcNodes: [8011367, 8001318, 1737364]
+  path: 0[1296214 -> 2165561 -> 1370135 -> 8011367], [Cross Line (2007) -> Keogh, Danny -> Falling Rocks (2000) -> killer,murder] 
+
+  path: 1[1296214 -> 8001318], [Cross Line (2007) -> murder] 
+
+  path: 2[1296214 -> 2169253 -> 1310659 -> 2123436 -> 1737364], [Cross Line (2007) -> Kirkwood, Langley -> Dead Easy (2004) -> Grieco, Richard (I) -> Sweet Revenge (2002)] 
+
+srcNodes: [1784135, 1580546, 8025057]
+  path: 0[2133416 -> 1784135], [Hashmi, Emraan -> The Killer (2006)] 
+
+  path: 1[2133416 -> 1580546], [Hashmi, Emraan -> Murder (2004)] 
+
+  path: 2[2133416 -> 1279774 -> 2257877 -> 1660016 -> 8025057], [Hashmi, Emraan -> Chocolate: Deep Dark Secrets (2005) -> Pradhan, Vishwajeet -> Rakta Charitra 2 (2010) -> murder,revenge] 
+
+srcNodes: [1752671, 8001318, 8003479]
+  path: 0[1645247 -> 2059021 -> 1752671], [Poultrygeist: Night of the Chicken Dead (2006) -> Ciesla, Michael -> The Alphabet Killer (2008)] 
+
+  path: 1[1645247 -> 2442084 -> 1366185 -> 8001318], [Poultrygeist: Night of the Chicken Dead (2006) -> Sereboff, Allyson -> Evil Deeds 2 (2010) -> murder] 
+
+  path: 2[1645247 -> 2162993 -> 1248630 -> 8003479], [Poultrygeist: Night of the Chicken Dead (2006) -> Kaufman, Lloyd -> Blood Moon (2008) -> revenge] 
+
+srcNodes: [1784135, 8025057, 8025057]
+  path: 0[1660016 -> 2404914 -> 1846675 -> 2276790 -> 1784135], [Rakta Charitra 2 (2010) -> Mukherjee, Sushmita -> Ugly Aur Pagli (2008) -> Achrekar, Bharati -> The Killer (2006)] 
+
+  path: 1[1660016 -> 8025057], [Rakta Charitra 2 (2010) -> murder,revenge] 
+
+  path: 2[1660016 -> 8025057], [Rakta Charitra 2 (2010) -> murder,revenge] 
+
+srcNodes: [8010818, 8001318, 8003479]
+  path: 0[2056952 -> 1871877 -> 2476544 -> 1359171 -> 8010818], [Chien, Fernando -> Warrior (2011) -> Yannotti, Giovanna -> End Game (2009) -> killer,serial-killer] 
+
+  path: 1[2056952 -> 1431456 -> 4048625 -> 1802339 -> 8001318], [Chien, Fernando -> Honor (2006) -> Worth, David (II) -> The Prophet's Game (2000) -> murder] 
+
+  path: 2[2056952 -> 1668368 -> 8003479], [Chien, Fernando -> Revenge Tragedies (2008) -> revenge] 
+
+srcNodes: [1482938, 1580546, 1668342]
+  path: 0[1482938 -> 1482938], [Killer Bud (2001) -> Killer Bud (2001)]
+  path: 1[1482938 -> 2231529 -> 1627516 -> 2306488 -> 1580546], [Killer Bud (2001) -> Nemec, Corin -> Parzania (2005) -> Chaddha, Sheeba -> Murder (2004)] 
+
+  path: 2[1482938 -> 2314602 -> 1668342], [Killer Bud (2001) -> Crespo, Tara -> Revenge (2004)] 
+
+srcNodes: [1752671, 8001318, 8003479]
+  path: 0[2022107 -> 1800047 -> 2234891 -> 1752671], [Bauer, Chris (I) -> The Photographer (2000) -> Noonan, Tom (I) -> The Alphabet Killer (2008)] 
+
+  path: 1[2022107 -> 1379558 -> 2143378 -> 1647634 -> 8001318], [Bauer, Chris (I) -> Flags of Our Fathers (2006) -> Hornsby, David -> Pretty Bird (2008) -> murder] 
+
+  path: 2[2022107 -> 1210195 -> 8003479], [Bauer, Chris (I) -> Angels Crest (2002) -> revenge] 
+
+srcNodes: [1752671, 8001318, 8003479]
+  path: 0[2072839 -> 1395160 -> 2209755 -> 1752671], [Daniels, Gary (I) -> Gedo (2001) -> McGee, Jack (I) -> The Alphabet Killer (2008)] 
+
+  path: 1[2072839 -> 1286450 -> 2069807 -> 1743218 -> 8001318], [Daniels, Gary (I) -> Cold Earth (2008) -> Cullen, Ian -> Tanner (2007) -> murder] 
+
+  path: 2[2072839 -> 1668368 -> 8003479], [Daniels, Gary (I) -> Revenge Tragedies (2008) -> revenge] 
+
+-----------------------------------------
+Num of top-k answers: 16
+ResultDestNodes: [8033983, 1830487, 1784135, 1248630, 2162993, 1668342, 1580701, 1580546, 1296214, 2133416, 1645247, 1660016, 2056952, 1482938, 2022107, 2072839]
+ResultRelevs: [8.536209106445312, 7.288693428039551, 7.218272686004639, 7.103950500488281, 7.103857040405273, 7.030677795410156, 6.970184326171875, 6.966291427612305, 6.875762939453125, 6.847275257110596, 6.835034370422363, 6.830394744873047, 6.768532752990723, 6.728642463684082, 6.673966407775879, 6.673966407775879]
+AvgResultRelev: 7.028231978416443
+AvgResultDissimilarity: 0.8561111111111113
+Num of entries retrieved from the lists: 4156
+Num of entries retrieved from NKMaps: 6962
+Num of answer trees explored: 2627
+
+Div Top-k Search by Exhustive, k=16
+[killer, murder, revenge]
+srcNodes: [8033983, 8033983, 8033983]
+  path: 0[8033983 -> 8033983], [burial,friend,killer,murder,revenge -> burial,friend,killer,murder,revenge]
+  path: 1[8033983 -> 8033983], [burial,friend,killer,murder,revenge -> burial,friend,killer,murder,revenge]
+  path: 2[8033983 -> 8033983], [burial,friend,killer,murder,revenge -> burial,friend,killer,murder,revenge]
+srcNodes: [1784135, 1580546, 1737365]
+  path: 0[1784135 -> 1784135], [The Killer (2006) -> The Killer (2006)]
+  path: 1[1784135 -> 2133416 -> 1580546], [The Killer (2006) -> Hashmi, Emraan -> Murder (2004)] 
+
+  path: 2[1784135 -> 2166537 -> 1530379 -> 2146731 -> 1737365], [The Killer (2006) -> Khan, Irrfan -> Life of Pi (2012) -> Hussain, Adil (I) -> Sweet Revenge (2005)] 
+
+srcNodes: [8023307, 8005571, 8003479]
+  path: 0[1248630 -> 2162993 -> 1621802 -> 8023307], [Blood Moon (2008) -> Kaufman, Lloyd -> PDA Massacre (2004) -> gore,serial-killer,tromadance] 
+
+  path: 1[1248630 -> 2162993 -> 1251152 -> 8005571], [Blood Moon (2008) -> Kaufman, Lloyd -> Body in a Dumpster (2008) -> barker,hamburger,murder,small-town] 
+
+  path: 2[1248630 -> 8003479], [Blood Moon (2008) -> revenge] 
+
+srcNodes: [1784154, 8001318, 8003479]
+  path: 0[2162993 -> 1784154], [Kaufman, Lloyd -> The Killer Robots and the Battle for the Cosmic Potato (2009)] 
+
+  path: 1[2162993 -> 1645247 -> 2442084 -> 1366185 -> 8001318], [Kaufman, Lloyd -> Poultrygeist: Night of the Chicken Dead (2006) -> Sereboff, Allyson -> Evil Deeds 2 (2010) -> murder] 
+
+  path: 2[2162993 -> 1248630 -> 8003479], [Kaufman, Lloyd -> Blood Moon (2008) -> revenge] 
+
+srcNodes: [1482938, 8002542, 1668342]
+  path: 0[1668342 -> 2314602 -> 1482938], [Revenge (2004) -> Crespo, Tara -> Killer Bud (2001)] 
+
+  path: 1[1668342 -> 2074938 -> 1191052 -> 8002542], [Revenge (2004) -> Davis, William Stanford -> Across the Hall (2009) -> bellhop,betrayal,hitman,hotel,murder] 
+
+  path: 2[1668342 -> 1668342], [Revenge (2004) -> Revenge (2004)]
+srcNodes: [8000059, 1580701, 1668450]
+  path: 0[1580701 -> 8000059], [Murder by Numbers (2004) -> serial-killer] 
+
+  path: 1[1580701 -> 1580701], [Murder by Numbers (2004) -> Murder by Numbers (2004)]
+  path: 2[1580701 -> 2067215 -> 1663760 -> 2017408 -> 1668450], [Murder by Numbers (2004) -> Cox, Brian (I) -> Red Eye (2005/I) -> Baker, Terrence (I) -> Revenge of the Unhappy Campers (2002)] 
+
+srcNodes: [1784135, 1580546, 1737365]
+  path: 0[1580546 -> 2133416 -> 1784135], [Murder (2004) -> Hashmi, Emraan -> The Killer (2006)] 
+
+  path: 1[1580546 -> 1580546], [Murder (2004) -> Murder (2004)]
+  path: 2[1580546 -> 2306488 -> 1450654 -> 2146731 -> 1737365], [Murder (2004) -> Chaddha, Sheeba -> In Othello (2003) -> Hussain, Adil (I) -> Sweet Revenge (2005)] 
+
+srcNodes: [8011367, 8001318, 1737364]
+  path: 0[1296214 -> 2165561 -> 1370135 -> 8011367], [Cross Line (2007) -> Keogh, Danny -> Falling Rocks (2000) -> killer,murder] 
+
+  path: 1[1296214 -> 8001318], [Cross Line (2007) -> murder] 
+
+  path: 2[1296214 -> 2169253 -> 1310659 -> 2123436 -> 1737364], [Cross Line (2007) -> Kirkwood, Langley -> Dead Easy (2004) -> Grieco, Richard (I) -> Sweet Revenge (2002)] 
+
+srcNodes: [1784135, 1580546, 8025057]
+  path: 0[2133416 -> 1784135], [Hashmi, Emraan -> The Killer (2006)] 
+
+  path: 1[2133416 -> 1580546], [Hashmi, Emraan -> Murder (2004)] 
+
+  path: 2[2133416 -> 1279774 -> 2257877 -> 1660016 -> 8025057], [Hashmi, Emraan -> Chocolate: Deep Dark Secrets (2005) -> Pradhan, Vishwajeet -> Rakta Charitra 2 (2010) -> murder,revenge] 
+
+srcNodes: [1752671, 8001318, 8003479]
+  path: 0[1645247 -> 2059021 -> 1752671], [Poultrygeist: Night of the Chicken Dead (2006) -> Ciesla, Michael -> The Alphabet Killer (2008)] 
+
+  path: 1[1645247 -> 2442084 -> 1366185 -> 8001318], [Poultrygeist: Night of the Chicken Dead (2006) -> Sereboff, Allyson -> Evil Deeds 2 (2010) -> murder] 
+
+  path: 2[1645247 -> 2162993 -> 1248630 -> 8003479], [Poultrygeist: Night of the Chicken Dead (2006) -> Kaufman, Lloyd -> Blood Moon (2008) -> revenge] 
+
+srcNodes: [1784135, 8025057, 8025057]
+  path: 0[1660016 -> 2404914 -> 1846675 -> 2276790 -> 1784135], [Rakta Charitra 2 (2010) -> Mukherjee, Sushmita -> Ugly Aur Pagli (2008) -> Achrekar, Bharati -> The Killer (2006)] 
+
+  path: 1[1660016 -> 8025057], [Rakta Charitra 2 (2010) -> murder,revenge] 
+
+  path: 2[1660016 -> 8025057], [Rakta Charitra 2 (2010) -> murder,revenge] 
+
+srcNodes: [8010818, 8001318, 8003479]
+  path: 0[2056952 -> 1871877 -> 2476544 -> 1359171 -> 8010818], [Chien, Fernando -> Warrior (2011) -> Yannotti, Giovanna -> End Game (2009) -> killer,serial-killer] 
+
+  path: 1[2056952 -> 1431456 -> 4048625 -> 1802339 -> 8001318], [Chien, Fernando -> Honor (2006) -> Worth, David (II) -> The Prophet's Game (2000) -> murder] 
+
+  path: 2[2056952 -> 1668368 -> 8003479], [Chien, Fernando -> Revenge Tragedies (2008) -> revenge] 
+
+srcNodes: [1482938, 1580546, 1668342]
+  path: 0[1482938 -> 1482938], [Killer Bud (2001) -> Killer Bud (2001)]
+  path: 1[1482938 -> 2231529 -> 1627516 -> 2306488 -> 1580546], [Killer Bud (2001) -> Nemec, Corin -> Parzania (2005) -> Chaddha, Sheeba -> Murder (2004)] 
+
+  path: 2[1482938 -> 2314602 -> 1668342], [Killer Bud (2001) -> Crespo, Tara -> Revenge (2004)] 
+
+srcNodes: [1752671, 8001318, 8003479]
+  path: 0[2072839 -> 1395160 -> 2209755 -> 1752671], [Daniels, Gary (I) -> Gedo (2001) -> McGee, Jack (I) -> The Alphabet Killer (2008)] 
+
+  path: 1[2072839 -> 1286450 -> 2069807 -> 1743218 -> 8001318], [Daniels, Gary (I) -> Cold Earth (2008) -> Cullen, Ian -> Tanner (2007) -> murder] 
+
+  path: 2[2072839 -> 1668368 -> 8003479], [Daniels, Gary (I) -> Revenge Tragedies (2008) -> revenge] 
+
+srcNodes: [1752671, 8001318, 8003479]
+  path: 0[2022107 -> 1800047 -> 2234891 -> 1752671], [Bauer, Chris (I) -> The Photographer (2000) -> Noonan, Tom (I) -> The Alphabet Killer (2008)] 
+
+  path: 1[2022107 -> 1379558 -> 2143378 -> 1647634 -> 8001318], [Bauer, Chris (I) -> Flags of Our Fathers (2006) -> Hornsby, David -> Pretty Bird (2008) -> murder] 
+
+  path: 2[2022107 -> 1210195 -> 8003479], [Bauer, Chris (I) -> Angels Crest (2002) -> revenge] 
+
+srcNodes: [1835300, 8001318, 8003479]
+  path: 0[2121062 -> 1219318 -> 2041789 -> 1835300], [Graham, Currie -> Assault on Precinct 13 (2005) -> Bryant, Peter (I) -> Touched by a Killer (2001)] 
+
+  path: 1[2121062 -> 1421787 -> 2113177 -> 1647634 -> 8001318], [Graham, Currie -> Henry's Crime (2010) -> Gelber, Jordan -> Pretty Bird (2008) -> murder] 
+
+  path: 2[2121062 -> 1210195 -> 8003479], [Graham, Currie -> Angels Crest (2002) -> revenge] 
+
+Dissims of Subsets and t:
+(0~0, 1) : 1.0
+(0~1, 2) : 1.0
+(0~2, 3) : 0.8888888888888888
+(0~3, 4) : 1.0
+(0~4, 5) : 1.0
+(0~5, 6) : 0.8333333333333334
+(0~6, 7) : 0.9523809523809523
+(0~7, 8) : 0.8333333333333333
+(0~8, 9) : 0.8518518518518519
+(0~9, 10) : 0.8399999999999999
+(0~10, 11) : 0.8181818181818182
+(0~11, 12) : 0.8611111111111112
+(0~12, 13) : 0.7692307692307694
+(0~13, 14) : 0.7142857142857144
+(0~14, 15) : 0.7333333333333335
+-----------------------------------------
+ResultDestNodes: [8033983, 1784135, 1248630, 2162993, 1668342, 1580701, 1580546, 1296214, 2133416, 1645247, 1660016, 2056952, 1482938, 2072839, 2022107, 2121062]
+ResultRelevs: [8.536209106445312, 7.218272686004639, 7.103950500488281, 7.103857040405273, 7.030677795410156, 6.970184326171875, 6.966291427612305, 6.875762939453125, 6.847275257110596, 6.835034370422363, 6.830394744873047, 6.768532752990723, 6.728642463684082, 6.673966407775879, 6.673966407775879, 6.673964977264404]
+AvgResultRelev: 6.989811450242996
+AvgResultDissimilarity: 0.8283333333333333
+Num of entries retrieved from the KNLists: 4156
+Num of entries retrieved from NKMaps: 6962
+Num of answer trees explored: 2627
+Num of answer tree sets created: 87665
+Num of answer tree sets removed: 2
+
+Div Top-k Search by Astar02, k=16
+[killer, murder, revenge]
+srcNodes: [8033983, 8033983, 8033983]
+  path: 0[8033983 -> 8033983], [burial,friend,killer,murder,revenge -> burial,friend,killer,murder,revenge]
+  path: 1[8033983 -> 8033983], [burial,friend,killer,murder,revenge -> burial,friend,killer,murder,revenge]
+  path: 2[8033983 -> 8033983], [burial,friend,killer,murder,revenge -> burial,friend,killer,murder,revenge]
+srcNodes: [1784135, 1580546, 1737365]
+  path: 0[1784135 -> 1784135], [The Killer (2006) -> The Killer (2006)]
+  path: 1[1784135 -> 2133416 -> 1580546], [The Killer (2006) -> Hashmi, Emraan -> Murder (2004)] 
+
+  path: 2[1784135 -> 2166537 -> 1530379 -> 2146731 -> 1737365], [The Killer (2006) -> Khan, Irrfan -> Life of Pi (2012) -> Hussain, Adil (I) -> Sweet Revenge (2005)] 
+
+srcNodes: [8023307, 8005571, 8003479]
+  path: 0[1248630 -> 2162993 -> 1621802 -> 8023307], [Blood Moon (2008) -> Kaufman, Lloyd -> PDA Massacre (2004) -> gore,serial-killer,tromadance] 
+
+  path: 1[1248630 -> 2162993 -> 1251152 -> 8005571], [Blood Moon (2008) -> Kaufman, Lloyd -> Body in a Dumpster (2008) -> barker,hamburger,murder,small-town] 
+
+  path: 2[1248630 -> 8003479], [Blood Moon (2008) -> revenge] 
+
+srcNodes: [1784154, 8001318, 8003479]
+  path: 0[2162993 -> 1784154], [Kaufman, Lloyd -> The Killer Robots and the Battle for the Cosmic Potato (2009)] 
+
+  path: 1[2162993 -> 1645247 -> 2442084 -> 1366185 -> 8001318], [Kaufman, Lloyd -> Poultrygeist: Night of the Chicken Dead (2006) -> Sereboff, Allyson -> Evil Deeds 2 (2010) -> murder] 
+
+  path: 2[2162993 -> 1248630 -> 8003479], [Kaufman, Lloyd -> Blood Moon (2008) -> revenge] 
+
+srcNodes: [1482938, 8002542, 1668342]
+  path: 0[1668342 -> 2314602 -> 1482938], [Revenge (2004) -> Crespo, Tara -> Killer Bud (2001)] 
+
+  path: 1[1668342 -> 2074938 -> 1191052 -> 8002542], [Revenge (2004) -> Davis, William Stanford -> Across the Hall (2009) -> bellhop,betrayal,hitman,hotel,murder] 
+
+  path: 2[1668342 -> 1668342], [Revenge (2004) -> Revenge (2004)]
+srcNodes: [8000059, 1580701, 1668450]
+  path: 0[1580701 -> 8000059], [Murder by Numbers (2004) -> serial-killer] 
+
+  path: 1[1580701 -> 1580701], [Murder by Numbers (2004) -> Murder by Numbers (2004)]
+  path: 2[1580701 -> 2067215 -> 1663760 -> 2017408 -> 1668450], [Murder by Numbers (2004) -> Cox, Brian (I) -> Red Eye (2005/I) -> Baker, Terrence (I) -> Revenge of the Unhappy Campers (2002)] 
+
+srcNodes: [1784135, 1580546, 1737365]
+  path: 0[1580546 -> 2133416 -> 1784135], [Murder (2004) -> Hashmi, Emraan -> The Killer (2006)] 
+
+  path: 1[1580546 -> 1580546], [Murder (2004) -> Murder (2004)]
+  path: 2[1580546 -> 2306488 -> 1450654 -> 2146731 -> 1737365], [Murder (2004) -> Chaddha, Sheeba -> In Othello (2003) -> Hussain, Adil (I) -> Sweet Revenge (2005)] 
+
+srcNodes: [8011367, 8001318, 1737364]
+  path: 0[1296214 -> 2165561 -> 1370135 -> 8011367], [Cross Line (2007) -> Keogh, Danny -> Falling Rocks (2000) -> killer,murder] 
+
+  path: 1[1296214 -> 8001318], [Cross Line (2007) -> murder] 
+
+  path: 2[1296214 -> 2169253 -> 1310659 -> 2123436 -> 1737364], [Cross Line (2007) -> Kirkwood, Langley -> Dead Easy (2004) -> Grieco, Richard (I) -> Sweet Revenge (2002)] 
+
+srcNodes: [1784135, 1580546, 8025057]
+  path: 0[2133416 -> 1784135], [Hashmi, Emraan -> The Killer (2006)] 
+
+  path: 1[2133416 -> 1580546], [Hashmi, Emraan -> Murder (2004)] 
+
+  path: 2[2133416 -> 1279774 -> 2257877 -> 1660016 -> 8025057], [Hashmi, Emraan -> Chocolate: Deep Dark Secrets (2005) -> Pradhan, Vishwajeet -> Rakta Charitra 2 (2010) -> murder,revenge] 
+
+srcNodes: [1752671, 8001318, 8003479]
+  path: 0[1645247 -> 2059021 -> 1752671], [Poultrygeist: Night of the Chicken Dead (2006) -> Ciesla, Michael -> The Alphabet Killer (2008)] 
+
+  path: 1[1645247 -> 2442084 -> 1366185 -> 8001318], [Poultrygeist: Night of the Chicken Dead (2006) -> Sereboff, Allyson -> Evil Deeds 2 (2010) -> murder] 
+
+  path: 2[1645247 -> 2162993 -> 1248630 -> 8003479], [Poultrygeist: Night of the Chicken Dead (2006) -> Kaufman, Lloyd -> Blood Moon (2008) -> revenge] 
+
+srcNodes: [1784135, 8025057, 8025057]
+  path: 0[1660016 -> 2404914 -> 1846675 -> 2276790 -> 1784135], [Rakta Charitra 2 (2010) -> Mukherjee, Sushmita -> Ugly Aur Pagli (2008) -> Achrekar, Bharati -> The Killer (2006)] 
+
+  path: 1[1660016 -> 8025057], [Rakta Charitra 2 (2010) -> murder,revenge] 
+
+  path: 2[1660016 -> 8025057], [Rakta Charitra 2 (2010) -> murder,revenge] 
+
+srcNodes: [8010818, 8001318, 8003479]
+  path: 0[2056952 -> 1871877 -> 2476544 -> 1359171 -> 8010818], [Chien, Fernando -> Warrior (2011) -> Yannotti, Giovanna -> End Game (2009) -> killer,serial-killer] 
+
+  path: 1[2056952 -> 1431456 -> 4048625 -> 1802339 -> 8001318], [Chien, Fernando -> Honor (2006) -> Worth, David (II) -> The Prophet's Game (2000) -> murder] 
+
+  path: 2[2056952 -> 1668368 -> 8003479], [Chien, Fernando -> Revenge Tragedies (2008) -> revenge] 
+
+srcNodes: [1482938, 1580546, 1668342]
+  path: 0[1482938 -> 1482938], [Killer Bud (2001) -> Killer Bud (2001)]
+  path: 1[1482938 -> 2231529 -> 1627516 -> 2306488 -> 1580546], [Killer Bud (2001) -> Nemec, Corin -> Parzania (2005) -> Chaddha, Sheeba -> Murder (2004)] 
+
+  path: 2[1482938 -> 2314602 -> 1668342], [Killer Bud (2001) -> Crespo, Tara -> Revenge (2004)] 
+
+srcNodes: [1752671, 8001318, 8003479]
+  path: 0[2072839 -> 1395160 -> 2209755 -> 1752671], [Daniels, Gary (I) -> Gedo (2001) -> McGee, Jack (I) -> The Alphabet Killer (2008)] 
+
+  path: 1[2072839 -> 1286450 -> 2069807 -> 1743218 -> 8001318], [Daniels, Gary (I) -> Cold Earth (2008) -> Cullen, Ian -> Tanner (2007) -> murder] 
+
+  path: 2[2072839 -> 1668368 -> 8003479], [Daniels, Gary (I) -> Revenge Tragedies (2008) -> revenge] 
+
+srcNodes: [1752671, 8001318, 8003479]
+  path: 0[2022107 -> 1800047 -> 2234891 -> 1752671], [Bauer, Chris (I) -> The Photographer (2000) -> Noonan, Tom (I) -> The Alphabet Killer (2008)] 
+
+  path: 1[2022107 -> 1379558 -> 2143378 -> 1647634 -> 8001318], [Bauer, Chris (I) -> Flags of Our Fathers (2006) -> Hornsby, David -> Pretty Bird (2008) -> murder] 
+
+  path: 2[2022107 -> 1210195 -> 8003479], [Bauer, Chris (I) -> Angels Crest (2002) -> revenge] 
+
+srcNodes: [1835300, 8001318, 8003479]
+  path: 0[2121062 -> 1219318 -> 2041789 -> 1835300], [Graham, Currie -> Assault on Precinct 13 (2005) -> Bryant, Peter (I) -> Touched by a Killer (2001)] 
+
+  path: 1[2121062 -> 1421787 -> 2113177 -> 1647634 -> 8001318], [Graham, Currie -> Henry's Crime (2010) -> Gelber, Jordan -> Pretty Bird (2008) -> murder] 
+
+  path: 2[2121062 -> 1210195 -> 8003479], [Graham, Currie -> Angels Crest (2002) -> revenge] 
+
+-----------------------------------------
+ResultDestNodes: [8033983, 1784135, 1248630, 2162993, 1668342, 1580701, 1580546, 1296214, 2133416, 1645247, 1660016, 2056952, 1482938, 2072839, 2022107, 2121062]
+ResultRelevs: [8.536209106445312, 7.218272686004639, 7.103950500488281, 7.103857040405273, 7.030677795410156, 6.970184326171875, 6.966291427612305, 6.875762939453125, 6.847275257110596, 6.835034370422363, 6.830394744873047, 6.768532752990723, 6.728642463684082, 6.673966407775879, 6.673966407775879, 6.673964977264404]
+AvgResultRelev: 6.989811450242996
+AvgResultDissimilarity: 0.8283333333333333
+Num of entries retrieved from the KNLists: 4156
+Num of entries retrieved from NKMaps: 6962
+Num of answer trees explored: 2627
+Num of states created: 44080
+Num of states explored: 43960
+Num of heuristic search performed: 2
+
+Div Top-k Search by Astar1nc_ap_new, k=16
+[killer, murder, revenge]
+srcNodes: [8033983, 8033983, 8033983]
+  path: 0[8033983 -> 8033983], [burial,friend,killer,murder,revenge -> burial,friend,killer,murder,revenge]
+  path: 1[8033983 -> 8033983], [burial,friend,killer,murder,revenge -> burial,friend,killer,murder,revenge]
+  path: 2[8033983 -> 8033983], [burial,friend,killer,murder,revenge -> burial,friend,killer,murder,revenge]
+srcNodes: [1784135, 1580546, 1737365]
+  path: 0[1784135 -> 1784135], [The Killer (2006) -> The Killer (2006)]
+  path: 1[1784135 -> 2133416 -> 1580546], [The Killer (2006) -> Hashmi, Emraan -> Murder (2004)] 
+
+  path: 2[1784135 -> 2166537 -> 1530379 -> 2146731 -> 1737365], [The Killer (2006) -> Khan, Irrfan -> Life of Pi (2012) -> Hussain, Adil (I) -> Sweet Revenge (2005)] 
+
+srcNodes: [8023307, 8005571, 8003479]
+  path: 0[1248630 -> 2162993 -> 1621802 -> 8023307], [Blood Moon (2008) -> Kaufman, Lloyd -> PDA Massacre (2004) -> gore,serial-killer,tromadance] 
+
+  path: 1[1248630 -> 2162993 -> 1251152 -> 8005571], [Blood Moon (2008) -> Kaufman, Lloyd -> Body in a Dumpster (2008) -> barker,hamburger,murder,small-town] 
+
+  path: 2[1248630 -> 8003479], [Blood Moon (2008) -> revenge] 
+
+srcNodes: [1784154, 8001318, 8003479]
+  path: 0[2162993 -> 1784154], [Kaufman, Lloyd -> The Killer Robots and the Battle for the Cosmic Potato (2009)] 
+
+  path: 1[2162993 -> 1645247 -> 2442084 -> 1366185 -> 8001318], [Kaufman, Lloyd -> Poultrygeist: Night of the Chicken Dead (2006) -> Sereboff, Allyson -> Evil Deeds 2 (2010) -> murder] 
+
+  path: 2[2162993 -> 1248630 -> 8003479], [Kaufman, Lloyd -> Blood Moon (2008) -> revenge] 
+
+srcNodes: [1482938, 8002542, 1668342]
+  path: 0[1668342 -> 2314602 -> 1482938], [Revenge (2004) -> Crespo, Tara -> Killer Bud (2001)] 
+
+  path: 1[1668342 -> 2074938 -> 1191052 -> 8002542], [Revenge (2004) -> Davis, William Stanford -> Across the Hall (2009) -> bellhop,betrayal,hitman,hotel,murder] 
+
+  path: 2[1668342 -> 1668342], [Revenge (2004) -> Revenge (2004)]
+srcNodes: [8000059, 1580701, 1668450]
+  path: 0[1580701 -> 8000059], [Murder by Numbers (2004) -> serial-killer] 
+
+  path: 1[1580701 -> 1580701], [Murder by Numbers (2004) -> Murder by Numbers (2004)]
+  path: 2[1580701 -> 2067215 -> 1663760 -> 2017408 -> 1668450], [Murder by Numbers (2004) -> Cox, Brian (I) -> Red Eye (2005/I) -> Baker, Terrence (I) -> Revenge of the Unhappy Campers (2002)] 
+
+srcNodes: [1784135, 1580546, 1737365]
+  path: 0[1580546 -> 2133416 -> 1784135], [Murder (2004) -> Hashmi, Emraan -> The Killer (2006)] 
+
+  path: 1[1580546 -> 1580546], [Murder (2004) -> Murder (2004)]
+  path: 2[1580546 -> 2306488 -> 1450654 -> 2146731 -> 1737365], [Murder (2004) -> Chaddha, Sheeba -> In Othello (2003) -> Hussain, Adil (I) -> Sweet Revenge (2005)] 
+
+srcNodes: [8011367, 8001318, 1737364]
+  path: 0[1296214 -> 2165561 -> 1370135 -> 8011367], [Cross Line (2007) -> Keogh, Danny -> Falling Rocks (2000) -> killer,murder] 
+
+  path: 1[1296214 -> 8001318], [Cross Line (2007) -> murder] 
+
+  path: 2[1296214 -> 2169253 -> 1310659 -> 2123436 -> 1737364], [Cross Line (2007) -> Kirkwood, Langley -> Dead Easy (2004) -> Grieco, Richard (I) -> Sweet Revenge (2002)] 
+
+srcNodes: [1784135, 1580546, 8025057]
+  path: 0[2133416 -> 1784135], [Hashmi, Emraan -> The Killer (2006)] 
+
+  path: 1[2133416 -> 1580546], [Hashmi, Emraan -> Murder (2004)] 
+
+  path: 2[2133416 -> 1279774 -> 2257877 -> 1660016 -> 8025057], [Hashmi, Emraan -> Chocolate: Deep Dark Secrets (2005) -> Pradhan, Vishwajeet -> Rakta Charitra 2 (2010) -> murder,revenge] 
+
+srcNodes: [1752671, 8001318, 8003479]
+  path: 0[1645247 -> 2059021 -> 1752671], [Poultrygeist: Night of the Chicken Dead (2006) -> Ciesla, Michael -> The Alphabet Killer (2008)] 
+
+  path: 1[1645247 -> 2442084 -> 1366185 -> 8001318], [Poultrygeist: Night of the Chicken Dead (2006) -> Sereboff, Allyson -> Evil Deeds 2 (2010) -> murder] 
+
+  path: 2[1645247 -> 2162993 -> 1248630 -> 8003479], [Poultrygeist: Night of the Chicken Dead (2006) -> Kaufman, Lloyd -> Blood Moon (2008) -> revenge] 
+
+srcNodes: [1784135, 8025057, 8025057]
+  path: 0[1660016 -> 2404914 -> 1846675 -> 2276790 -> 1784135], [Rakta Charitra 2 (2010) -> Mukherjee, Sushmita -> Ugly Aur Pagli (2008) -> Achrekar, Bharati -> The Killer (2006)] 
+
+  path: 1[1660016 -> 8025057], [Rakta Charitra 2 (2010) -> murder,revenge] 
+
+  path: 2[1660016 -> 8025057], [Rakta Charitra 2 (2010) -> murder,revenge] 
+
+srcNodes: [8010818, 8001318, 8003479]
+  path: 0[2056952 -> 1871877 -> 2476544 -> 1359171 -> 8010818], [Chien, Fernando -> Warrior (2011) -> Yannotti, Giovanna -> End Game (2009) -> killer,serial-killer] 
+
+  path: 1[2056952 -> 1431456 -> 4048625 -> 1802339 -> 8001318], [Chien, Fernando -> Honor (2006) -> Worth, David (II) -> The Prophet's Game (2000) -> murder] 
+
+  path: 2[2056952 -> 1668368 -> 8003479], [Chien, Fernando -> Revenge Tragedies (2008) -> revenge] 
+
+srcNodes: [1482938, 1580546, 1668342]
+  path: 0[1482938 -> 1482938], [Killer Bud (2001) -> Killer Bud (2001)]
+  path: 1[1482938 -> 2231529 -> 1627516 -> 2306488 -> 1580546], [Killer Bud (2001) -> Nemec, Corin -> Parzania (2005) -> Chaddha, Sheeba -> Murder (2004)] 
+
+  path: 2[1482938 -> 2314602 -> 1668342], [Killer Bud (2001) -> Crespo, Tara -> Revenge (2004)] 
+
+srcNodes: [1752671, 8001318, 8003479]
+  path: 0[2072839 -> 1395160 -> 2209755 -> 1752671], [Daniels, Gary (I) -> Gedo (2001) -> McGee, Jack (I) -> The Alphabet Killer (2008)] 
+
+  path: 1[2072839 -> 1286450 -> 2069807 -> 1743218 -> 8001318], [Daniels, Gary (I) -> Cold Earth (2008) -> Cullen, Ian -> Tanner (2007) -> murder] 
+
+  path: 2[2072839 -> 1668368 -> 8003479], [Daniels, Gary (I) -> Revenge Tragedies (2008) -> revenge] 
+
+srcNodes: [1752671, 8001318, 8003479]
+  path: 0[2022107 -> 1800047 -> 2234891 -> 1752671], [Bauer, Chris (I) -> The Photographer (2000) -> Noonan, Tom (I) -> The Alphabet Killer (2008)] 
+
+  path: 1[2022107 -> 1379558 -> 2143378 -> 1647634 -> 8001318], [Bauer, Chris (I) -> Flags of Our Fathers (2006) -> Hornsby, David -> Pretty Bird (2008) -> murder] 
+
+  path: 2[2022107 -> 1210195 -> 8003479], [Bauer, Chris (I) -> Angels Crest (2002) -> revenge] 
+
+srcNodes: [1835300, 8001318, 8003479]
+  path: 0[2121062 -> 1219318 -> 2041789 -> 1835300], [Graham, Currie -> Assault on Precinct 13 (2005) -> Bryant, Peter (I) -> Touched by a Killer (2001)] 
+
+  path: 1[2121062 -> 1421787 -> 2113177 -> 1647634 -> 8001318], [Graham, Currie -> Henry's Crime (2010) -> Gelber, Jordan -> Pretty Bird (2008) -> murder] 
+
+  path: 2[2121062 -> 1210195 -> 8003479], [Graham, Currie -> Angels Crest (2002) -> revenge] 
+
+-----------------------------------------
+ResultDestNodes: [8033983, 1784135, 1248630, 2162993, 1668342, 1580701, 1580546, 1296214, 2133416, 1645247, 1660016, 2056952, 1482938, 2072839, 2022107, 2121062]
+ResultRelevs: [8.536209106445312, 7.218272686004639, 7.103950500488281, 7.103857040405273, 7.030677795410156, 6.970184326171875, 6.966291427612305, 6.875762939453125, 6.847275257110596, 6.835034370422363, 6.830394744873047, 6.768532752990723, 6.728642463684082, 6.673966407775879, 6.673966407775879, 6.673964977264404]
+AvgResultRelev: 6.989811450242996
+AvgResultDissimilarity: 0.8283333333333333
+Num of entries retrieved from the KNLists: 4469
+Num of entries retrieved from NKMaps: 7436
+Num of answer trees explored: 2799
+Num of states created: 240
+Num of states explored: 18
+Num of heuristic search performed: 2
+
+query: [murder, revenge, thriller]
+Top-k Search by Blink-BDB, k=4
+[murder, revenge, thriller]
+srcNodes: [1580567, 8003479, 5000057]
+  path: 0[1210195 -> 2022107 -> 1210639 -> 2273983 -> 1580567], [Angels Crest (2002) -> Bauer, Chris (I) -> Animal Factory (2000) -> Roehm Sr., David C. -> Murder Below the Line (2004)] 
+
+  path: 1[1210195 -> 8003479], [Angels Crest (2002) -> revenge] 
+
+  path: 2[1210195 -> 5000057], [Angels Crest (2002) -> Thriller] 
+
+srcNodes: [8001318, 1668450, 5000057]
+  path: 0[1802339 -> 8001318], [The Prophet's Game (2000) -> murder] 
+
+  path: 1[1802339 -> 2143116 -> 1511828 -> 2398765 -> 1668450], [The Prophet's Game (2000) -> Hopper, Dennis -> Land of the Dead (2005) -> Meyers, Jill (II) -> Revenge of the Unhappy Campers (2002)] 
+
+  path: 2[1802339 -> 5000057], [The Prophet's Game (2000) -> Thriller] 
+
+srcNodes: [8001318, 1837238, 5000057]
+  path: 0[1794943 -> 8001318], [The Murder (2002) -> murder] 
+
+  path: 1[1794943 -> 2355617 -> 1435424 -> 2026217 -> 1837238], [The Murder (2002) -> Hofrichter, Suzi -> How to Kill Your Neighbor's Dog (2000) -> Benyaer, Michael -> Transformers: Revenge of the Fallen (2009)] 
+
+  path: 2[1794943 -> 5000057], [The Murder (2002) -> Thriller] 
+
+srcNodes: [8001318, 8003479, 5000057]
+  path: 0[1286450 -> 2069807 -> 1743218 -> 8001318], [Cold Earth (2008) -> Cullen, Ian -> Tanner (2007) -> murder] 
+
+  path: 1[1286450 -> 2072839 -> 1668368 -> 8003479], [Cold Earth (2008) -> Daniels, Gary (I) -> Revenge Tragedies (2008) -> revenge] 
+
+  path: 2[1286450 -> 5000057], [Cold Earth (2008) -> Thriller] 
+
+-----------------------------------------
+Num of top-k answers: 4
+ResultDestNodes: [1210195, 1802339, 1794943, 1286450]
+ResultRelevs: [10.353940963745117, 9.927732467651367, 9.927730560302734, 9.800355911254883]
+AvgResultRelev: 10.002439975738525
+AvgResultDissimilarity: 0.4444444444444444
+Num of entries retrieved from the lists: 1697
+Num of entries retrieved from NKMaps: 2741
+Num of answer trees explored: 986
+
+Div Top-k Search by Exhustive, k=4
+[murder, revenge, thriller]
+srcNodes: [1580567, 8003479, 5000057]
+  path: 0[1210195 -> 2022107 -> 1210639 -> 2273983 -> 1580567], [Angels Crest (2002) -> Bauer, Chris (I) -> Animal Factory (2000) -> Roehm Sr., David C. -> Murder Below the Line (2004)] 
+
+  path: 1[1210195 -> 8003479], [Angels Crest (2002) -> revenge] 
+
+  path: 2[1210195 -> 5000057], [Angels Crest (2002) -> Thriller] 
+
+srcNodes: [8001318, 1668450, 5000057]
+  path: 0[1802339 -> 8001318], [The Prophet's Game (2000) -> murder] 
+
+  path: 1[1802339 -> 2143116 -> 1511828 -> 2398765 -> 1668450], [The Prophet's Game (2000) -> Hopper, Dennis -> Land of the Dead (2005) -> Meyers, Jill (II) -> Revenge of the Unhappy Campers (2002)] 
+
+  path: 2[1802339 -> 5000057], [The Prophet's Game (2000) -> Thriller] 
+
+srcNodes: [8017149, 1668365, 5000057]
+  path: 0[1668365 -> 2443724 -> 1484954 -> 8017149], [Revenge Live (2006) -> Shepis, Tiffany -> Kiss Your Ass Goodbye (2007) -> beautiful-woman,bowling,dismemberment,murder] 
+
+  path: 1[1668365 -> 1668365], [Revenge Live (2006) -> Revenge Live (2006)]
+  path: 2[1668365 -> 5000057], [Revenge Live (2006) -> Thriller] 
+
+srcNodes: [8001318, 8003479, 5005540]
+  path: 0[1799535 -> 8001318], [The Perfect Crime (2009) -> murder] 
+
+  path: 1[1799535 -> 2175194 -> 1723781 -> 8003479], [The Perfect Crime (2009) -> Krystalis, Manos -> Stage Combat (2010) -> revenge] 
+
+  path: 2[1799535 -> 5005540], [The Perfect Crime (2009) -> Horror,Mystery,Short,Thriller,Crime] 
+
+Dissims of Subsets and t:
+(0~0, 1) : 0.6666666666666666
+(0~1, 2) : 0.6666666666666666
+(0~2, 3) : 0.7777777777777777
+-----------------------------------------
+ResultDestNodes: [1210195, 1802339, 1668365, 1799535]
+ResultRelevs: [10.353940963745117, 9.927732467651367, 9.153477668762207, 8.926234245300293]
+AvgResultRelev: 9.590346336364746
+AvgResultDissimilarity: 0.7222222222222222
+Num of entries retrieved from the KNLists: 2775
+Num of entries retrieved from NKMaps: 4606
+Num of answer trees explored: 1766
+Num of answer tree sets created: 42
+Num of answer tree sets removed: 5
+

@@ -1,0 +1,8 @@
+Top-k, (AvgResultRelev, AvgResultRelev/ResultRelevs[0], AvgResultDiss) numOfKNListsRead, numOfNKMapLookups, numOfAnswerTreesExplored, elapseTime, numOfStatesCreated, numOfStatesExplored, numOfHeuristicSearchPerformed, numOfATSPrunnedByDissCond, numOfLocalAnswersFound, 
+query: [romance, conflict, murder]
+BlinkSea, 	20, 7.52051, 0.91186, 0.55439, 6798, 11932, 4587, 0.542911279, 
+Exhustiv, 	20, 7.17563, 0.87004, 0.72281, 8235, 14520, 5622, 71.233380407, 18072860, 17938528, 528472, 2, 
+Astar02, 	20, 7.17563, 0.87004, 0.72281, 8235, 14520, 5622, 248.404125925, 18633844, 18609082, 17, 303132, 1, 
+Astar1nc_, 	20, 7.17563, 0.87004, 0.72281, 8235, 14520, 5622, 0.466525082, 264, 52, 2, 315, 0, 
+query: [romance, murder, mystery]
+BlinkSea, 	20, 9.14773, 0.88507, 0.40702, 5835, 10097, 4020, 0.430954454, 

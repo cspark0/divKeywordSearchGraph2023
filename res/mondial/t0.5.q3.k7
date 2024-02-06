@@ -1,0 +1,3551 @@
+query: [city, mountain, montana]
+Top-k Search by Blink-BDB, k=7
+[city, mountain, montana]
+srcNodes: [41019, 181, 31012]
+  path: 0[31012 -> 41019], [Montana -> Helena] 
+
+  path: 1[31012 -> 181], [Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+  path: 2[31012 -> 31012], [Montana -> Montana]
+srcNodes: [41019, 181, 31012]
+  path: 0[181 -> 31012 -> 41019], [Granite Peak Granite Peak Rocky Mountains  -> Montana -> Helena] 
+
+  path: 1[181 -> 181], [Granite Peak Granite Peak Rocky Mountains  -> Granite Peak Granite Peak Rocky Mountains ]
+  path: 2[181 -> 31012], [Granite Peak Granite Peak Rocky Mountains  -> Montana] 
+
+srcNodes: [41954, 210, 31012]
+  path: 0[20118 -> 31022 -> 41954], [United States -> Oklahoma -> Oklahoma City] 
+
+  path: 1[20118 -> 10001 -> 20132 -> 210], [United States -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20118 -> 31012], [United States -> Montana] 
+
+srcNodes: [41253, 181, 31012]
+  path: 0[90143 -> 31002 -> 41253], [Missouri -> Kansas -> Kansas City] 
+
+  path: 1[90143 -> 31012 -> 181], [Missouri -> Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+  path: 2[90143 -> 31012], [Missouri -> Montana] 
+
+srcNodes: [41320, 210, 31012]
+  path: 0[210 -> 20132 -> 41320], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> Kingston] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20118 -> 31012], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> Montana] 
+
+srcNodes: [40954, 210, 31012]
+  path: 0[10001 -> 20113 -> 40954], [America -> Guatemala -> Guatemala City] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 20118 -> 31012], [America -> United States -> Montana] 
+
+srcNodes: [41320, 210, 31012]
+  path: 0[20132 -> 41320], [Jamaica -> Kingston] 
+
+  path: 1[20132 -> 210], [Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20132 -> 10001 -> 20118 -> 31012], [Jamaica -> America -> United States -> Montana] 
+
+-----------------------------------------
+Num of top-k answers: 7
+ResultDestNodes: [31012, 181, 20118, 90143, 210, 10001, 20132]
+ResultRelevs: [7.776597023010254, 6.43842887878418, 5.840388298034668, 5.6133832931518555, 5.336813449859619, 5.2193803787231445, 5.163308143615723]
+AvgResultRelev: 5.912614209311349
+AvgResultDissimilarity: 0.4920634920634921
+Num of entries retrieved from the lists: 231
+Num of entries retrieved from NKMaps: 393
+Num of answer trees explored: 78
+
+Div Top-k Search by Exhustive, k=7
+[city, mountain, montana]
+srcNodes: [41019, 181, 31012]
+  path: 0[31012 -> 41019], [Montana -> Helena] 
+
+  path: 1[31012 -> 181], [Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+  path: 2[31012 -> 31012], [Montana -> Montana]
+srcNodes: [41019, 181, 31012]
+  path: 0[181 -> 31012 -> 41019], [Granite Peak Granite Peak Rocky Mountains  -> Montana -> Helena] 
+
+  path: 1[181 -> 181], [Granite Peak Granite Peak Rocky Mountains  -> Granite Peak Granite Peak Rocky Mountains ]
+  path: 2[181 -> 31012], [Granite Peak Granite Peak Rocky Mountains  -> Montana] 
+
+srcNodes: [41954, 210, 31012]
+  path: 0[20118 -> 31022 -> 41954], [United States -> Oklahoma -> Oklahoma City] 
+
+  path: 1[20118 -> 10001 -> 20132 -> 210], [United States -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20118 -> 31012], [United States -> Montana] 
+
+srcNodes: [41253, 181, 31012]
+  path: 0[90143 -> 31002 -> 41253], [Missouri -> Kansas -> Kansas City] 
+
+  path: 1[90143 -> 31012 -> 181], [Missouri -> Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+  path: 2[90143 -> 31012], [Missouri -> Montana] 
+
+srcNodes: [41320, 210, 31012]
+  path: 0[210 -> 20132 -> 41320], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> Kingston] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20118 -> 31012], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> Montana] 
+
+srcNodes: [40954, 210, 31012]
+  path: 0[10001 -> 20113 -> 40954], [America -> Guatemala -> Guatemala City] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 20118 -> 31012], [America -> United States -> Montana] 
+
+srcNodes: [42086, 183, 31012]
+  path: 0[31027 -> 42086], [South Dakota -> Pierre] 
+
+  path: 1[31027 -> 183], [South Dakota -> Harney Peak Harney Peak Rocky Mountains ] 
+
+  path: 2[31027 -> 90143 -> 31012], [South Dakota -> Missouri -> Montana] 
+
+-----------------------------------------
+ResultDestNodes: [31012, 181, 20118, 90143, 210, 10001, 31027]
+ResultRelevs: [7.776597023010254, 6.43842887878418, 5.840388298034668, 5.6133832931518555, 5.336813449859619, 5.2193803787231445, 5.061433792114258]
+AvgResultRelev: 5.898060730525425
+AvgResultDissimilarity: 0.5555555252801805
+Num of entries retrieved from the KNLists: 231
+Num of entries retrieved from NKMaps: 393
+Num of answer trees explored: 78
+Num of answer tree sets created: 253
+Num of answer tree sets removed: 6
+Max Num of answer tree sets in Q[]: 253
+
+Div Top-k Search by Astar02, k=7
+[city, mountain, montana]
+srcNodes: [41019, 181, 31012]
+  path: 0[31012 -> 41019], [Montana -> Helena] 
+
+  path: 1[31012 -> 181], [Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+  path: 2[31012 -> 31012], [Montana -> Montana]
+srcNodes: [41019, 181, 31012]
+  path: 0[181 -> 31012 -> 41019], [Granite Peak Granite Peak Rocky Mountains  -> Montana -> Helena] 
+
+  path: 1[181 -> 181], [Granite Peak Granite Peak Rocky Mountains  -> Granite Peak Granite Peak Rocky Mountains ]
+  path: 2[181 -> 31012], [Granite Peak Granite Peak Rocky Mountains  -> Montana] 
+
+srcNodes: [41954, 210, 31012]
+  path: 0[20118 -> 31022 -> 41954], [United States -> Oklahoma -> Oklahoma City] 
+
+  path: 1[20118 -> 10001 -> 20132 -> 210], [United States -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20118 -> 31012], [United States -> Montana] 
+
+srcNodes: [41253, 181, 31012]
+  path: 0[90143 -> 31002 -> 41253], [Missouri -> Kansas -> Kansas City] 
+
+  path: 1[90143 -> 31012 -> 181], [Missouri -> Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+  path: 2[90143 -> 31012], [Missouri -> Montana] 
+
+srcNodes: [41320, 210, 31012]
+  path: 0[210 -> 20132 -> 41320], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> Kingston] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20118 -> 31012], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> Montana] 
+
+srcNodes: [40954, 210, 31012]
+  path: 0[10001 -> 20113 -> 40954], [America -> Guatemala -> Guatemala City] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 20118 -> 31012], [America -> United States -> Montana] 
+
+srcNodes: [42086, 183, 31012]
+  path: 0[31027 -> 42086], [South Dakota -> Pierre] 
+
+  path: 1[31027 -> 183], [South Dakota -> Harney Peak Harney Peak Rocky Mountains ] 
+
+  path: 2[31027 -> 90143 -> 31012], [South Dakota -> Missouri -> Montana] 
+
+-----------------------------------------
+ResultDestNodes: [31012, 181, 20118, 90143, 210, 10001, 31027]
+ResultRelevs: [7.776597023010254, 6.43842887878418, 5.840388298034668, 5.6133832931518555, 5.336813449859619, 5.2193803787231445, 5.061433792114258]
+AvgResultRelev: 5.898060730525425
+AvgResultDissimilarity: 0.5555555555555555
+Num of entries retrieved from the KNLists: 231
+Num of entries retrieved from NKMaps: 393
+Num of answer trees explored: 78
+Num of states created: 162
+Num of states explored: 135
+Num of heuristic search performed: 2
+Max Num of answer tree sets in Q[]: 28
+
+Div Top-k Search by Astar1nc_ap, k=7
+[city, mountain, montana]
+srcNodes: [41019, 181, 31012]
+  path: 0[31012 -> 41019], [Montana -> Helena] 
+
+  path: 1[31012 -> 181], [Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+  path: 2[31012 -> 31012], [Montana -> Montana]
+srcNodes: [41019, 181, 31012]
+  path: 0[181 -> 31012 -> 41019], [Granite Peak Granite Peak Rocky Mountains  -> Montana -> Helena] 
+
+  path: 1[181 -> 181], [Granite Peak Granite Peak Rocky Mountains  -> Granite Peak Granite Peak Rocky Mountains ]
+  path: 2[181 -> 31012], [Granite Peak Granite Peak Rocky Mountains  -> Montana] 
+
+srcNodes: [41954, 210, 31012]
+  path: 0[20118 -> 31022 -> 41954], [United States -> Oklahoma -> Oklahoma City] 
+
+  path: 1[20118 -> 10001 -> 20132 -> 210], [United States -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20118 -> 31012], [United States -> Montana] 
+
+srcNodes: [41253, 181, 31012]
+  path: 0[90143 -> 31002 -> 41253], [Missouri -> Kansas -> Kansas City] 
+
+  path: 1[90143 -> 31012 -> 181], [Missouri -> Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+  path: 2[90143 -> 31012], [Missouri -> Montana] 
+
+srcNodes: [41320, 210, 31012]
+  path: 0[210 -> 20132 -> 41320], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> Kingston] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20118 -> 31012], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> Montana] 
+
+srcNodes: [40954, 210, 31012]
+  path: 0[10001 -> 20113 -> 40954], [America -> Guatemala -> Guatemala City] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 20118 -> 31012], [America -> United States -> Montana] 
+
+srcNodes: [42086, 183, 31012]
+  path: 0[31027 -> 42086], [South Dakota -> Pierre] 
+
+  path: 1[31027 -> 183], [South Dakota -> Harney Peak Harney Peak Rocky Mountains ] 
+
+  path: 2[31027 -> 90143 -> 31012], [South Dakota -> Missouri -> Montana] 
+
+-----------------------------------------
+ResultDestNodes: [31012, 181, 20118, 90143, 210, 10001, 31027]
+ResultRelevs: [7.776597023010254, 6.43842887878418, 5.840388298034668, 5.6133832931518555, 5.336813449859619, 5.2193803787231445, 5.061433792114258]
+AvgResultRelev: 5.898060730525425
+AvgResultDissimilarity: 0.5555555555555555
+Num of entries retrieved from the KNLists: 231
+Num of entries retrieved from NKMaps: 393
+Num of answer trees explored: 78
+Num of states created: 20
+Num of states explored: 14
+Num of heuristic search performed: 2
+Max Num of answer tree sets in Q[]: 7
+
+query: [city, rocky, mountain]
+Top-k Search by Blink-BDB, k=7
+[city, rocky, mountain]
+srcNodes: [42332, 185, 185]
+  path: 0[185 -> 31030 -> 42332], [Kings Peak Kings Peak Rocky Mountains  -> Utah -> Salt Lake City] 
+
+  path: 1[185 -> 185], [Kings Peak Kings Peak Rocky Mountains  -> Kings Peak Kings Peak Rocky Mountains ]
+  path: 2[185 -> 185], [Kings Peak Kings Peak Rocky Mountains  -> Kings Peak Kings Peak Rocky Mountains ]
+srcNodes: [41430, 187, 187]
+  path: 0[187 -> 30992 -> 41430], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Lakewood] 
+
+  path: 1[187 -> 187], [Pikes Peak Pikes Peak Rocky Mountains  -> Pikes Peak Pikes Peak Rocky Mountains ]
+  path: 2[187 -> 187], [Pikes Peak Pikes Peak Rocky Mountains  -> Pikes Peak Pikes Peak Rocky Mountains ]
+srcNodes: [40411, 176, 176]
+  path: 0[176 -> 30976 -> 40411], [Mt Robson Mt Robson Rocky Mountains  -> British Columbia -> Burnaby] 
+
+  path: 1[176 -> 176], [Mt Robson Mt Robson Rocky Mountains  -> Mt Robson Mt Robson Rocky Mountains ]
+  path: 2[176 -> 176], [Mt Robson Mt Robson Rocky Mountains  -> Mt Robson Mt Robson Rocky Mountains ]
+srcNodes: [40749, 177, 177]
+  path: 0[177 -> 30975 -> 40749], [Mt Columbia Mt Columbia Rocky Mountains  -> Alberta -> Edmonton] 
+
+  path: 1[177 -> 177], [Mt Columbia Mt Columbia Rocky Mountains  -> Mt Columbia Mt Columbia Rocky Mountains ]
+  path: 2[177 -> 177], [Mt Columbia Mt Columbia Rocky Mountains  -> Mt Columbia Mt Columbia Rocky Mountains ]
+srcNodes: [40086, 190, 190]
+  path: 0[190 -> 31029 -> 40086], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Amarillo] 
+
+  path: 1[190 -> 190], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Guadalupe Peak Guadalupe Peak Rocky Mountains ]
+  path: 2[190 -> 190], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Guadalupe Peak Guadalupe Peak Rocky Mountains ]
+srcNodes: [41019, 181, 181]
+  path: 0[181 -> 31012 -> 41019], [Granite Peak Granite Peak Rocky Mountains  -> Montana -> Helena] 
+
+  path: 1[181 -> 181], [Granite Peak Granite Peak Rocky Mountains  -> Granite Peak Granite Peak Rocky Mountains ]
+  path: 2[181 -> 181], [Granite Peak Granite Peak Rocky Mountains  -> Granite Peak Granite Peak Rocky Mountains ]
+srcNodes: [40064, 188, 188]
+  path: 0[188 -> 31017 -> 40064], [Wheeler Peak Wheeler Peak Rocky Mountains  -> New Mexico -> Albuquerque] 
+
+  path: 1[188 -> 188], [Wheeler Peak Wheeler Peak Rocky Mountains  -> Wheeler Peak Wheeler Peak Rocky Mountains ]
+  path: 2[188 -> 188], [Wheeler Peak Wheeler Peak Rocky Mountains  -> Wheeler Peak Wheeler Peak Rocky Mountains ]
+-----------------------------------------
+Num of top-k answers: 7
+ResultDestNodes: [185, 187, 176, 177, 190, 181, 188]
+ResultRelevs: [5.700735092163086, 5.625377178192139, 5.625377178192139, 5.625377178192139, 5.625377178192139, 5.625377178192139, 5.625377178192139]
+AvgResultRelev: 5.636142594473703
+AvgResultDissimilarity: 1.0
+Num of entries retrieved from the lists: 54
+Num of entries retrieved from NKMaps: 93
+Num of answer trees explored: 21
+
+Div Top-k Search by Exhustive, k=7
+[city, rocky, mountain]
+srcNodes: [42332, 185, 185]
+  path: 0[185 -> 31030 -> 42332], [Kings Peak Kings Peak Rocky Mountains  -> Utah -> Salt Lake City] 
+
+  path: 1[185 -> 185], [Kings Peak Kings Peak Rocky Mountains  -> Kings Peak Kings Peak Rocky Mountains ]
+  path: 2[185 -> 185], [Kings Peak Kings Peak Rocky Mountains  -> Kings Peak Kings Peak Rocky Mountains ]
+srcNodes: [40064, 188, 188]
+  path: 0[188 -> 31017 -> 40064], [Wheeler Peak Wheeler Peak Rocky Mountains  -> New Mexico -> Albuquerque] 
+
+  path: 1[188 -> 188], [Wheeler Peak Wheeler Peak Rocky Mountains  -> Wheeler Peak Wheeler Peak Rocky Mountains ]
+  path: 2[188 -> 188], [Wheeler Peak Wheeler Peak Rocky Mountains  -> Wheeler Peak Wheeler Peak Rocky Mountains ]
+srcNodes: [40411, 176, 176]
+  path: 0[176 -> 30976 -> 40411], [Mt Robson Mt Robson Rocky Mountains  -> British Columbia -> Burnaby] 
+
+  path: 1[176 -> 176], [Mt Robson Mt Robson Rocky Mountains  -> Mt Robson Mt Robson Rocky Mountains ]
+  path: 2[176 -> 176], [Mt Robson Mt Robson Rocky Mountains  -> Mt Robson Mt Robson Rocky Mountains ]
+srcNodes: [40345, 182, 182]
+  path: 0[182 -> 30998 -> 40345], [Borah Peak Borah Peak Rocky Mountains  -> Idaho -> Boise] 
+
+  path: 1[182 -> 182], [Borah Peak Borah Peak Rocky Mountains  -> Borah Peak Borah Peak Rocky Mountains ]
+  path: 2[182 -> 182], [Borah Peak Borah Peak Rocky Mountains  -> Borah Peak Borah Peak Rocky Mountains ]
+srcNodes: [40749, 177, 177]
+  path: 0[177 -> 30975 -> 40749], [Mt Columbia Mt Columbia Rocky Mountains  -> Alberta -> Edmonton] 
+
+  path: 1[177 -> 177], [Mt Columbia Mt Columbia Rocky Mountains  -> Mt Columbia Mt Columbia Rocky Mountains ]
+  path: 2[177 -> 177], [Mt Columbia Mt Columbia Rocky Mountains  -> Mt Columbia Mt Columbia Rocky Mountains ]
+srcNodes: [42086, 183, 183]
+  path: 0[183 -> 31027 -> 42086], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Pierre] 
+
+  path: 1[183 -> 183], [Harney Peak Harney Peak Rocky Mountains  -> Harney Peak Harney Peak Rocky Mountains ]
+  path: 2[183 -> 183], [Harney Peak Harney Peak Rocky Mountains  -> Harney Peak Harney Peak Rocky Mountains ]
+srcNodes: [41430, 187, 187]
+  path: 0[187 -> 30992 -> 41430], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Lakewood] 
+
+  path: 1[187 -> 187], [Pikes Peak Pikes Peak Rocky Mountains  -> Pikes Peak Pikes Peak Rocky Mountains ]
+  path: 2[187 -> 187], [Pikes Peak Pikes Peak Rocky Mountains  -> Pikes Peak Pikes Peak Rocky Mountains ]
+-----------------------------------------
+ResultDestNodes: [185, 188, 176, 182, 177, 183, 187]
+ResultRelevs: [5.700735092163086, 5.625377178192139, 5.625377178192139, 5.625377178192139, 5.625377178192139, 5.625377178192139, 5.625377178192139]
+AvgResultRelev: 5.636142594473703
+AvgResultDissimilarity: 1.0
+Num of entries retrieved from the KNLists: 54
+Num of entries retrieved from NKMaps: 93
+Num of answer trees explored: 21
+Num of answer tree sets created: 127
+Num of answer tree sets removed: 0
+Max Num of answer tree sets in Q[]: 127
+
+Div Top-k Search by Astar02, k=7
+[city, rocky, mountain]
+srcNodes: [42332, 185, 185]
+  path: 0[185 -> 31030 -> 42332], [Kings Peak Kings Peak Rocky Mountains  -> Utah -> Salt Lake City] 
+
+  path: 1[185 -> 185], [Kings Peak Kings Peak Rocky Mountains  -> Kings Peak Kings Peak Rocky Mountains ]
+  path: 2[185 -> 185], [Kings Peak Kings Peak Rocky Mountains  -> Kings Peak Kings Peak Rocky Mountains ]
+srcNodes: [40064, 188, 188]
+  path: 0[188 -> 31017 -> 40064], [Wheeler Peak Wheeler Peak Rocky Mountains  -> New Mexico -> Albuquerque] 
+
+  path: 1[188 -> 188], [Wheeler Peak Wheeler Peak Rocky Mountains  -> Wheeler Peak Wheeler Peak Rocky Mountains ]
+  path: 2[188 -> 188], [Wheeler Peak Wheeler Peak Rocky Mountains  -> Wheeler Peak Wheeler Peak Rocky Mountains ]
+srcNodes: [40411, 176, 176]
+  path: 0[176 -> 30976 -> 40411], [Mt Robson Mt Robson Rocky Mountains  -> British Columbia -> Burnaby] 
+
+  path: 1[176 -> 176], [Mt Robson Mt Robson Rocky Mountains  -> Mt Robson Mt Robson Rocky Mountains ]
+  path: 2[176 -> 176], [Mt Robson Mt Robson Rocky Mountains  -> Mt Robson Mt Robson Rocky Mountains ]
+srcNodes: [40345, 182, 182]
+  path: 0[182 -> 30998 -> 40345], [Borah Peak Borah Peak Rocky Mountains  -> Idaho -> Boise] 
+
+  path: 1[182 -> 182], [Borah Peak Borah Peak Rocky Mountains  -> Borah Peak Borah Peak Rocky Mountains ]
+  path: 2[182 -> 182], [Borah Peak Borah Peak Rocky Mountains  -> Borah Peak Borah Peak Rocky Mountains ]
+srcNodes: [40749, 177, 177]
+  path: 0[177 -> 30975 -> 40749], [Mt Columbia Mt Columbia Rocky Mountains  -> Alberta -> Edmonton] 
+
+  path: 1[177 -> 177], [Mt Columbia Mt Columbia Rocky Mountains  -> Mt Columbia Mt Columbia Rocky Mountains ]
+  path: 2[177 -> 177], [Mt Columbia Mt Columbia Rocky Mountains  -> Mt Columbia Mt Columbia Rocky Mountains ]
+srcNodes: [42086, 183, 183]
+  path: 0[183 -> 31027 -> 42086], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Pierre] 
+
+  path: 1[183 -> 183], [Harney Peak Harney Peak Rocky Mountains  -> Harney Peak Harney Peak Rocky Mountains ]
+  path: 2[183 -> 183], [Harney Peak Harney Peak Rocky Mountains  -> Harney Peak Harney Peak Rocky Mountains ]
+srcNodes: [41430, 187, 187]
+  path: 0[187 -> 30992 -> 41430], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Lakewood] 
+
+  path: 1[187 -> 187], [Pikes Peak Pikes Peak Rocky Mountains  -> Pikes Peak Pikes Peak Rocky Mountains ]
+  path: 2[187 -> 187], [Pikes Peak Pikes Peak Rocky Mountains  -> Pikes Peak Pikes Peak Rocky Mountains ]
+-----------------------------------------
+ResultDestNodes: [185, 188, 176, 182, 177, 183, 187]
+ResultRelevs: [5.700735092163086, 5.625377178192139, 5.625377178192139, 5.625377178192139, 5.625377178192139, 5.625377178192139, 5.625377178192139]
+AvgResultRelev: 5.636142594473703
+AvgResultDissimilarity: 1.0
+Num of entries retrieved from the KNLists: 54
+Num of entries retrieved from NKMaps: 93
+Num of answer trees explored: 21
+Num of states created: 70
+Num of states explored: 62
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 21
+
+Div Top-k Search by Astar1nc_ap, k=7
+[city, rocky, mountain]
+srcNodes: [42332, 185, 185]
+  path: 0[185 -> 31030 -> 42332], [Kings Peak Kings Peak Rocky Mountains  -> Utah -> Salt Lake City] 
+
+  path: 1[185 -> 185], [Kings Peak Kings Peak Rocky Mountains  -> Kings Peak Kings Peak Rocky Mountains ]
+  path: 2[185 -> 185], [Kings Peak Kings Peak Rocky Mountains  -> Kings Peak Kings Peak Rocky Mountains ]
+srcNodes: [40064, 188, 188]
+  path: 0[188 -> 31017 -> 40064], [Wheeler Peak Wheeler Peak Rocky Mountains  -> New Mexico -> Albuquerque] 
+
+  path: 1[188 -> 188], [Wheeler Peak Wheeler Peak Rocky Mountains  -> Wheeler Peak Wheeler Peak Rocky Mountains ]
+  path: 2[188 -> 188], [Wheeler Peak Wheeler Peak Rocky Mountains  -> Wheeler Peak Wheeler Peak Rocky Mountains ]
+srcNodes: [40411, 176, 176]
+  path: 0[176 -> 30976 -> 40411], [Mt Robson Mt Robson Rocky Mountains  -> British Columbia -> Burnaby] 
+
+  path: 1[176 -> 176], [Mt Robson Mt Robson Rocky Mountains  -> Mt Robson Mt Robson Rocky Mountains ]
+  path: 2[176 -> 176], [Mt Robson Mt Robson Rocky Mountains  -> Mt Robson Mt Robson Rocky Mountains ]
+srcNodes: [40345, 182, 182]
+  path: 0[182 -> 30998 -> 40345], [Borah Peak Borah Peak Rocky Mountains  -> Idaho -> Boise] 
+
+  path: 1[182 -> 182], [Borah Peak Borah Peak Rocky Mountains  -> Borah Peak Borah Peak Rocky Mountains ]
+  path: 2[182 -> 182], [Borah Peak Borah Peak Rocky Mountains  -> Borah Peak Borah Peak Rocky Mountains ]
+srcNodes: [40749, 177, 177]
+  path: 0[177 -> 30975 -> 40749], [Mt Columbia Mt Columbia Rocky Mountains  -> Alberta -> Edmonton] 
+
+  path: 1[177 -> 177], [Mt Columbia Mt Columbia Rocky Mountains  -> Mt Columbia Mt Columbia Rocky Mountains ]
+  path: 2[177 -> 177], [Mt Columbia Mt Columbia Rocky Mountains  -> Mt Columbia Mt Columbia Rocky Mountains ]
+srcNodes: [42086, 183, 183]
+  path: 0[183 -> 31027 -> 42086], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Pierre] 
+
+  path: 1[183 -> 183], [Harney Peak Harney Peak Rocky Mountains  -> Harney Peak Harney Peak Rocky Mountains ]
+  path: 2[183 -> 183], [Harney Peak Harney Peak Rocky Mountains  -> Harney Peak Harney Peak Rocky Mountains ]
+srcNodes: [41430, 187, 187]
+  path: 0[187 -> 30992 -> 41430], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Lakewood] 
+
+  path: 1[187 -> 187], [Pikes Peak Pikes Peak Rocky Mountains  -> Pikes Peak Pikes Peak Rocky Mountains ]
+  path: 2[187 -> 187], [Pikes Peak Pikes Peak Rocky Mountains  -> Pikes Peak Pikes Peak Rocky Mountains ]
+-----------------------------------------
+ResultDestNodes: [185, 188, 176, 182, 177, 183, 187]
+ResultRelevs: [5.700735092163086, 5.625377178192139, 5.625377178192139, 5.625377178192139, 5.625377178192139, 5.625377178192139, 5.625377178192139]
+AvgResultRelev: 5.636142594473703
+AvgResultDissimilarity: 1.0
+Num of entries retrieved from the KNLists: 54
+Num of entries retrieved from NKMaps: 93
+Num of answer trees explored: 21
+Num of states created: 8
+Num of states explored: 8
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+query: [country, andes, mountains]
+Top-k Search by Blink-BDB, k=7
+[country, andes, mountains]
+srcNodes: [20170, 233, 175]
+  path: 0[20170 -> 20170], [Bolivia -> Bolivia]
+  path: 1[20170 -> 233], [Bolivia -> Sajama Sajama Andes volcano] 
+
+  path: 2[20170 -> 10001 -> 20117 -> 30976 -> 175], [Bolivia -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [20172, 234, 175]
+  path: 0[20172 -> 20172], [Chile -> Chile]
+  path: 1[20172 -> 234], [Chile -> Licancabur Licancabur Andes volcano] 
+
+  path: 2[20172 -> 10001 -> 20117 -> 30976 -> 175], [Chile -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [20180, 222, 175]
+  path: 0[20180 -> 20180], [Ecuador -> Ecuador]
+  path: 1[20180 -> 222], [Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[20180 -> 10001 -> 20117 -> 30976 -> 175], [Ecuador -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [20117, 222, 175]
+  path: 0[20117 -> 20117], [Canada -> Canada]
+  path: 1[20117 -> 10001 -> 20180 -> 222], [Canada -> America -> Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[20117 -> 30976 -> 175], [Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [20171, 233, 175]
+  path: 0[20171 -> 20171], [Brazil -> Brazil]
+  path: 1[20171 -> 20170 -> 233], [Brazil -> Bolivia -> Sajama Sajama Andes volcano] 
+
+  path: 2[20171 -> 10001 -> 20117 -> 30976 -> 175], [Brazil -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [20179, 219, 175]
+  path: 0[20179 -> 20179], [Venezuela -> Venezuela]
+  path: 1[20179 -> 31268 -> 219], [Venezuela -> Merida -> Pico Bolivar Pico Bolivar Andes ] 
+
+  path: 2[20179 -> 10001 -> 20117 -> 30976 -> 175], [Venezuela -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [20169, 233, 175]
+  path: 0[20169 -> 20169], [Argentina -> Argentina]
+  path: 1[20169 -> 20170 -> 233], [Argentina -> Bolivia -> Sajama Sajama Andes volcano] 
+
+  path: 2[20169 -> 10001 -> 20117 -> 30976 -> 175], [Argentina -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+-----------------------------------------
+Num of top-k answers: 7
+ResultDestNodes: [20170, 20172, 20180, 20117, 20171, 20179, 20169]
+ResultRelevs: [6.086256504058838, 6.086256504058838, 6.086256504058838, 5.689543724060059, 5.461991786956787, 5.461991786956787, 5.461991786956787]
+AvgResultRelev: 5.762041228158133
+AvgResultDissimilarity: 0.6031746031746031
+Num of entries retrieved from the lists: 228
+Num of entries retrieved from NKMaps: 336
+Num of answer trees explored: 44
+
+Div Top-k Search by Exhustive, k=7
+[country, andes, mountains]
+srcNodes: [20172, 234, 175]
+  path: 0[20172 -> 20172], [Chile -> Chile]
+  path: 1[20172 -> 234], [Chile -> Licancabur Licancabur Andes volcano] 
+
+  path: 2[20172 -> 10001 -> 20117 -> 30976 -> 175], [Chile -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [20170, 233, 175]
+  path: 0[20170 -> 20170], [Bolivia -> Bolivia]
+  path: 1[20170 -> 233], [Bolivia -> Sajama Sajama Andes volcano] 
+
+  path: 2[20170 -> 10001 -> 20117 -> 30976 -> 175], [Bolivia -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [20180, 222, 175]
+  path: 0[20180 -> 20180], [Ecuador -> Ecuador]
+  path: 1[20180 -> 222], [Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[20180 -> 10001 -> 20117 -> 30976 -> 175], [Ecuador -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [20117, 222, 175]
+  path: 0[20117 -> 20117], [Canada -> Canada]
+  path: 1[20117 -> 10001 -> 20180 -> 222], [Canada -> America -> Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[20117 -> 30976 -> 175], [Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [20137, 222, 175]
+  path: 0[20137 -> 20137], [Colombia -> Colombia]
+  path: 1[20137 -> 20180 -> 222], [Colombia -> Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[20137 -> 10001 -> 20117 -> 30976 -> 175], [Colombia -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [20171, 233, 175]
+  path: 0[20171 -> 20171], [Brazil -> Brazil]
+  path: 1[20171 -> 20170 -> 233], [Brazil -> Bolivia -> Sajama Sajama Andes volcano] 
+
+  path: 2[20171 -> 10001 -> 20117 -> 30976 -> 175], [Brazil -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [20175, 222, 175]
+  path: 0[20175 -> 20175], [Peru -> Peru]
+  path: 1[20175 -> 20180 -> 222], [Peru -> Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[20175 -> 10001 -> 20117 -> 30976 -> 175], [Peru -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+-----------------------------------------
+ResultDestNodes: [20172, 20170, 20180, 20117, 20137, 20171, 20175]
+ResultRelevs: [6.086256504058838, 6.086256504058838, 6.086256504058838, 5.689543724060059, 5.461991786956787, 5.461991786956787, 5.461991786956787]
+AvgResultRelev: 5.762041228158133
+AvgResultDissimilarity: 0.5555555706932431
+Num of entries retrieved from the KNLists: 228
+Num of entries retrieved from NKMaps: 336
+Num of answer trees explored: 44
+Num of answer tree sets created: 127
+Num of answer tree sets removed: 0
+Max Num of answer tree sets in Q[]: 127
+
+Div Top-k Search by Astar02, k=7
+[country, andes, mountains]
+srcNodes: [20172, 234, 175]
+  path: 0[20172 -> 20172], [Chile -> Chile]
+  path: 1[20172 -> 234], [Chile -> Licancabur Licancabur Andes volcano] 
+
+  path: 2[20172 -> 10001 -> 20117 -> 30976 -> 175], [Chile -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [20170, 233, 175]
+  path: 0[20170 -> 20170], [Bolivia -> Bolivia]
+  path: 1[20170 -> 233], [Bolivia -> Sajama Sajama Andes volcano] 
+
+  path: 2[20170 -> 10001 -> 20117 -> 30976 -> 175], [Bolivia -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [20180, 222, 175]
+  path: 0[20180 -> 20180], [Ecuador -> Ecuador]
+  path: 1[20180 -> 222], [Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[20180 -> 10001 -> 20117 -> 30976 -> 175], [Ecuador -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [20117, 222, 175]
+  path: 0[20117 -> 20117], [Canada -> Canada]
+  path: 1[20117 -> 10001 -> 20180 -> 222], [Canada -> America -> Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[20117 -> 30976 -> 175], [Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [20137, 222, 175]
+  path: 0[20137 -> 20137], [Colombia -> Colombia]
+  path: 1[20137 -> 20180 -> 222], [Colombia -> Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[20137 -> 10001 -> 20117 -> 30976 -> 175], [Colombia -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [20171, 233, 175]
+  path: 0[20171 -> 20171], [Brazil -> Brazil]
+  path: 1[20171 -> 20170 -> 233], [Brazil -> Bolivia -> Sajama Sajama Andes volcano] 
+
+  path: 2[20171 -> 10001 -> 20117 -> 30976 -> 175], [Brazil -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [20175, 222, 175]
+  path: 0[20175 -> 20175], [Peru -> Peru]
+  path: 1[20175 -> 20180 -> 222], [Peru -> Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[20175 -> 10001 -> 20117 -> 30976 -> 175], [Peru -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+-----------------------------------------
+ResultDestNodes: [20172, 20170, 20180, 20117, 20137, 20171, 20175]
+ResultRelevs: [6.086256504058838, 6.086256504058838, 6.086256504058838, 5.689543724060059, 5.461991786956787, 5.461991786956787, 5.461991786956787]
+AvgResultRelev: 5.762041228158133
+AvgResultDissimilarity: 0.5555555555555556
+Num of entries retrieved from the KNLists: 228
+Num of entries retrieved from NKMaps: 336
+Num of answer trees explored: 44
+Num of states created: 30
+Num of states explored: 12
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 22
+
+Div Top-k Search by Astar1nc_ap, k=7
+[country, andes, mountains]
+srcNodes: [20172, 234, 175]
+  path: 0[20172 -> 20172], [Chile -> Chile]
+  path: 1[20172 -> 234], [Chile -> Licancabur Licancabur Andes volcano] 
+
+  path: 2[20172 -> 10001 -> 20117 -> 30976 -> 175], [Chile -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [20170, 233, 175]
+  path: 0[20170 -> 20170], [Bolivia -> Bolivia]
+  path: 1[20170 -> 233], [Bolivia -> Sajama Sajama Andes volcano] 
+
+  path: 2[20170 -> 10001 -> 20117 -> 30976 -> 175], [Bolivia -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [20180, 222, 175]
+  path: 0[20180 -> 20180], [Ecuador -> Ecuador]
+  path: 1[20180 -> 222], [Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[20180 -> 10001 -> 20117 -> 30976 -> 175], [Ecuador -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [20117, 222, 175]
+  path: 0[20117 -> 20117], [Canada -> Canada]
+  path: 1[20117 -> 10001 -> 20180 -> 222], [Canada -> America -> Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[20117 -> 30976 -> 175], [Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [20137, 222, 175]
+  path: 0[20137 -> 20137], [Colombia -> Colombia]
+  path: 1[20137 -> 20180 -> 222], [Colombia -> Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[20137 -> 10001 -> 20117 -> 30976 -> 175], [Colombia -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [20171, 233, 175]
+  path: 0[20171 -> 20171], [Brazil -> Brazil]
+  path: 1[20171 -> 20170 -> 233], [Brazil -> Bolivia -> Sajama Sajama Andes volcano] 
+
+  path: 2[20171 -> 10001 -> 20117 -> 30976 -> 175], [Brazil -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [20175, 222, 175]
+  path: 0[20175 -> 20175], [Peru -> Peru]
+  path: 1[20175 -> 20180 -> 222], [Peru -> Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[20175 -> 10001 -> 20117 -> 30976 -> 175], [Peru -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+-----------------------------------------
+ResultDestNodes: [20172, 20170, 20180, 20117, 20137, 20171, 20175]
+ResultRelevs: [6.086256504058838, 6.086256504058838, 6.086256504058838, 5.689543724060059, 5.461991786956787, 5.461991786956787, 5.461991786956787]
+AvgResultRelev: 5.762041228158133
+AvgResultDissimilarity: 0.5555555555555556
+Num of entries retrieved from the KNLists: 228
+Num of entries retrieved from NKMaps: 336
+Num of answer trees explored: 44
+Num of states created: 8
+Num of states explored: 8
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+query: [city, andes, mountains]
+Top-k Search by Blink-BDB, k=7
+[city, andes, mountains]
+srcNodes: [42403, 234, 175]
+  path: 0[20172 -> 42403], [Chile -> Santiago] 
+
+  path: 1[20172 -> 234], [Chile -> Licancabur Licancabur Andes volcano] 
+
+  path: 2[20172 -> 10001 -> 20117 -> 30976 -> 175], [Chile -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [40589, 233, 175]
+  path: 0[20170 -> 40589], [Bolivia -> Cochabamba] 
+
+  path: 1[20170 -> 233], [Bolivia -> Sajama Sajama Andes volcano] 
+
+  path: 2[20170 -> 10001 -> 20117 -> 30976 -> 175], [Bolivia -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [40955, 222, 175]
+  path: 0[20180 -> 40955], [Ecuador -> Guayaquil] 
+
+  path: 1[20180 -> 222], [Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[20180 -> 10001 -> 20117 -> 30976 -> 175], [Ecuador -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [40954, 222, 175]
+  path: 0[10001 -> 20113 -> 40954], [America -> Guatemala -> Guatemala City] 
+
+  path: 1[10001 -> 20180 -> 222], [America -> Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[10001 -> 20117 -> 30976 -> 175], [America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [41954, 222, 181]
+  path: 0[20118 -> 31022 -> 41954], [United States -> Oklahoma -> Oklahoma City] 
+
+  path: 1[20118 -> 10001 -> 20180 -> 222], [United States -> America -> Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[20118 -> 31012 -> 181], [United States -> Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+srcNodes: [40982, 222, 175]
+  path: 0[20117 -> 30981 -> 40982], [Canada -> Nova Scotia -> Halifax] 
+
+  path: 1[20117 -> 10001 -> 20180 -> 222], [Canada -> America -> Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[20117 -> 30976 -> 175], [Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [40167, 233, 175]
+  path: 0[20173 -> 40167], [Paraguay -> Asuncion] 
+
+  path: 1[20173 -> 20170 -> 233], [Paraguay -> Bolivia -> Sajama Sajama Andes volcano] 
+
+  path: 2[20173 -> 10001 -> 20117 -> 30976 -> 175], [Paraguay -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+-----------------------------------------
+Num of top-k answers: 7
+ResultDestNodes: [20172, 20170, 20180, 10001, 20118, 20117, 20173]
+ResultRelevs: [4.15452241897583, 4.15452241897583, 4.15452241897583, 3.705317497253418, 3.639986276626587, 3.5646286010742188, 3.5302577018737793]
+AvgResultRelev: 3.8433939048222134
+AvgResultDissimilarity: 0.6507936507936508
+Num of entries retrieved from the lists: 305
+Num of entries retrieved from NKMaps: 496
+Num of answer trees explored: 53
+
+Div Top-k Search by Exhustive, k=7
+[city, andes, mountains]
+srcNodes: [40589, 233, 175]
+  path: 0[20170 -> 40589], [Bolivia -> Cochabamba] 
+
+  path: 1[20170 -> 233], [Bolivia -> Sajama Sajama Andes volcano] 
+
+  path: 2[20170 -> 10001 -> 20117 -> 30976 -> 175], [Bolivia -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [40955, 222, 175]
+  path: 0[20180 -> 40955], [Ecuador -> Guayaquil] 
+
+  path: 1[20180 -> 222], [Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[20180 -> 10001 -> 20117 -> 30976 -> 175], [Ecuador -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [42403, 234, 175]
+  path: 0[20172 -> 42403], [Chile -> Santiago] 
+
+  path: 1[20172 -> 234], [Chile -> Licancabur Licancabur Andes volcano] 
+
+  path: 2[20172 -> 10001 -> 20117 -> 30976 -> 175], [Chile -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [40954, 222, 175]
+  path: 0[10001 -> 20113 -> 40954], [America -> Guatemala -> Guatemala City] 
+
+  path: 1[10001 -> 20180 -> 222], [America -> Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[10001 -> 20117 -> 30976 -> 175], [America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [41954, 222, 181]
+  path: 0[20118 -> 31022 -> 41954], [United States -> Oklahoma -> Oklahoma City] 
+
+  path: 1[20118 -> 10001 -> 20180 -> 222], [United States -> America -> Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[20118 -> 31012 -> 181], [United States -> Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+srcNodes: [40982, 222, 175]
+  path: 0[20117 -> 30981 -> 40982], [Canada -> Nova Scotia -> Halifax] 
+
+  path: 1[20117 -> 10001 -> 20180 -> 222], [Canada -> America -> Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[20117 -> 30976 -> 175], [Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [40167, 233, 175]
+  path: 0[20173 -> 40167], [Paraguay -> Asuncion] 
+
+  path: 1[20173 -> 20170 -> 233], [Paraguay -> Bolivia -> Sajama Sajama Andes volcano] 
+
+  path: 2[20173 -> 10001 -> 20117 -> 30976 -> 175], [Paraguay -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+-----------------------------------------
+ResultDestNodes: [20170, 20180, 20172, 10001, 20118, 20117, 20173]
+ResultRelevs: [4.15452241897583, 4.15452241897583, 4.15452241897583, 3.705317497253418, 3.639986276626587, 3.5646286010742188, 3.5302577018737793]
+AvgResultRelev: 3.8433939048222134
+AvgResultDissimilarity: 0.6507936659313384
+Num of entries retrieved from the KNLists: 305
+Num of entries retrieved from NKMaps: 496
+Num of answer trees explored: 53
+Num of answer tree sets created: 127
+Num of answer tree sets removed: 0
+Max Num of answer tree sets in Q[]: 127
+
+Div Top-k Search by Astar02, k=7
+[city, andes, mountains]
+srcNodes: [40589, 233, 175]
+  path: 0[20170 -> 40589], [Bolivia -> Cochabamba] 
+
+  path: 1[20170 -> 233], [Bolivia -> Sajama Sajama Andes volcano] 
+
+  path: 2[20170 -> 10001 -> 20117 -> 30976 -> 175], [Bolivia -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [40955, 222, 175]
+  path: 0[20180 -> 40955], [Ecuador -> Guayaquil] 
+
+  path: 1[20180 -> 222], [Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[20180 -> 10001 -> 20117 -> 30976 -> 175], [Ecuador -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [42403, 234, 175]
+  path: 0[20172 -> 42403], [Chile -> Santiago] 
+
+  path: 1[20172 -> 234], [Chile -> Licancabur Licancabur Andes volcano] 
+
+  path: 2[20172 -> 10001 -> 20117 -> 30976 -> 175], [Chile -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [40954, 222, 175]
+  path: 0[10001 -> 20113 -> 40954], [America -> Guatemala -> Guatemala City] 
+
+  path: 1[10001 -> 20180 -> 222], [America -> Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[10001 -> 20117 -> 30976 -> 175], [America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [41954, 222, 181]
+  path: 0[20118 -> 31022 -> 41954], [United States -> Oklahoma -> Oklahoma City] 
+
+  path: 1[20118 -> 10001 -> 20180 -> 222], [United States -> America -> Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[20118 -> 31012 -> 181], [United States -> Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+srcNodes: [40982, 222, 175]
+  path: 0[20117 -> 30981 -> 40982], [Canada -> Nova Scotia -> Halifax] 
+
+  path: 1[20117 -> 10001 -> 20180 -> 222], [Canada -> America -> Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[20117 -> 30976 -> 175], [Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [40167, 233, 175]
+  path: 0[20173 -> 40167], [Paraguay -> Asuncion] 
+
+  path: 1[20173 -> 20170 -> 233], [Paraguay -> Bolivia -> Sajama Sajama Andes volcano] 
+
+  path: 2[20173 -> 10001 -> 20117 -> 30976 -> 175], [Paraguay -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+-----------------------------------------
+ResultDestNodes: [20170, 20180, 20172, 10001, 20118, 20117, 20173]
+ResultRelevs: [4.15452241897583, 4.15452241897583, 4.15452241897583, 3.705317497253418, 3.639986276626587, 3.5646286010742188, 3.5302577018737793]
+AvgResultRelev: 3.8433939048222134
+AvgResultDissimilarity: 0.6507936507936507
+Num of entries retrieved from the KNLists: 305
+Num of entries retrieved from NKMaps: 496
+Num of answer trees explored: 53
+Num of states created: 29
+Num of states explored: 8
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 22
+
+Div Top-k Search by Astar1nc_ap, k=7
+[city, andes, mountains]
+srcNodes: [40589, 233, 175]
+  path: 0[20170 -> 40589], [Bolivia -> Cochabamba] 
+
+  path: 1[20170 -> 233], [Bolivia -> Sajama Sajama Andes volcano] 
+
+  path: 2[20170 -> 10001 -> 20117 -> 30976 -> 175], [Bolivia -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [40955, 222, 175]
+  path: 0[20180 -> 40955], [Ecuador -> Guayaquil] 
+
+  path: 1[20180 -> 222], [Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[20180 -> 10001 -> 20117 -> 30976 -> 175], [Ecuador -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [42403, 234, 175]
+  path: 0[20172 -> 42403], [Chile -> Santiago] 
+
+  path: 1[20172 -> 234], [Chile -> Licancabur Licancabur Andes volcano] 
+
+  path: 2[20172 -> 10001 -> 20117 -> 30976 -> 175], [Chile -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [40954, 222, 175]
+  path: 0[10001 -> 20113 -> 40954], [America -> Guatemala -> Guatemala City] 
+
+  path: 1[10001 -> 20180 -> 222], [America -> Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[10001 -> 20117 -> 30976 -> 175], [America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [41954, 222, 181]
+  path: 0[20118 -> 31022 -> 41954], [United States -> Oklahoma -> Oklahoma City] 
+
+  path: 1[20118 -> 10001 -> 20180 -> 222], [United States -> America -> Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[20118 -> 31012 -> 181], [United States -> Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+srcNodes: [40982, 222, 175]
+  path: 0[20117 -> 30981 -> 40982], [Canada -> Nova Scotia -> Halifax] 
+
+  path: 1[20117 -> 10001 -> 20180 -> 222], [Canada -> America -> Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[20117 -> 30976 -> 175], [Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [40167, 233, 175]
+  path: 0[20173 -> 40167], [Paraguay -> Asuncion] 
+
+  path: 1[20173 -> 20170 -> 233], [Paraguay -> Bolivia -> Sajama Sajama Andes volcano] 
+
+  path: 2[20173 -> 10001 -> 20117 -> 30976 -> 175], [Paraguay -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+-----------------------------------------
+ResultDestNodes: [20170, 20180, 20172, 10001, 20118, 20117, 20173]
+ResultRelevs: [4.15452241897583, 4.15452241897583, 4.15452241897583, 3.705317497253418, 3.639986276626587, 3.5646286010742188, 3.5302577018737793]
+AvgResultRelev: 3.8433939048222134
+AvgResultDissimilarity: 0.6507936507936507
+Num of entries retrieved from the KNLists: 305
+Num of entries retrieved from NKMaps: 496
+Num of answer trees explored: 53
+Num of states created: 8
+Num of states explored: 8
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+query: [volcano, andes, mountains]
+Top-k Search by Blink-BDB, k=7
+[volcano, andes, mountains]
+srcNodes: [234, 234, 175]
+  path: 0[20172 -> 234], [Chile -> Licancabur Licancabur Andes volcano] 
+
+  path: 1[20172 -> 234], [Chile -> Licancabur Licancabur Andes volcano] 
+
+  path: 2[20172 -> 10001 -> 20117 -> 30976 -> 175], [Chile -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [233, 233, 175]
+  path: 0[20170 -> 233], [Bolivia -> Sajama Sajama Andes volcano] 
+
+  path: 1[20170 -> 233], [Bolivia -> Sajama Sajama Andes volcano] 
+
+  path: 2[20170 -> 10001 -> 20117 -> 30976 -> 175], [Bolivia -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [222, 222, 175]
+  path: 0[20180 -> 222], [Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 1[20180 -> 222], [Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[20180 -> 10001 -> 20117 -> 30976 -> 175], [Ecuador -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [206, 222, 175]
+  path: 0[10001 -> 20121 -> 206], [America -> Nicaragua -> Concepcion Concepcion  volcano] 
+
+  path: 1[10001 -> 20180 -> 222], [America -> Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[10001 -> 20117 -> 30976 -> 175], [America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [162, 222, 181]
+  path: 0[20118 -> 30997 -> 162], [United States -> Hawaii -> Haleakala Haleakala Hawaii volcano] 
+
+  path: 1[20118 -> 10001 -> 20180 -> 222], [United States -> America -> Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[20118 -> 31012 -> 181], [United States -> Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+srcNodes: [214, 234, 175]
+  path: 0[20134 -> 214], [Montserrat -> Soufriere Hills Soufriere Hills  volcano] 
+
+  path: 1[20134 -> 10001 -> 20172 -> 234], [Montserrat -> America -> Chile -> Licancabur Licancabur Andes volcano] 
+
+  path: 2[20134 -> 10001 -> 20117 -> 30976 -> 175], [Montserrat -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [215, 222, 175]
+  path: 0[20142 -> 215], [Saint Vincent and the Grenadines -> Soufriere Soufriere  volcano] 
+
+  path: 1[20142 -> 10001 -> 20180 -> 222], [Saint Vincent and the Grenadines -> America -> Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[20142 -> 10001 -> 20117 -> 30976 -> 175], [Saint Vincent and the Grenadines -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+-----------------------------------------
+Num of top-k answers: 7
+ResultDestNodes: [20172, 20170, 20180, 10001, 20118, 20134, 20142]
+ResultRelevs: [5.353190898895264, 5.353190898895264, 5.353190898895264, 4.52664852142334, 4.46131706237793, 4.286001205444336, 4.286001205444336]
+AvgResultRelev: 4.80279152733939
+AvgResultDissimilarity: 0.5857142857142856
+Num of entries retrieved from the lists: 295
+Num of entries retrieved from NKMaps: 398
+Num of answer trees explored: 53
+
+Div Top-k Search by Exhustive, k=7
+[volcano, andes, mountains]
+srcNodes: [233, 233, 175]
+  path: 0[20170 -> 233], [Bolivia -> Sajama Sajama Andes volcano] 
+
+  path: 1[20170 -> 233], [Bolivia -> Sajama Sajama Andes volcano] 
+
+  path: 2[20170 -> 10001 -> 20117 -> 30976 -> 175], [Bolivia -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [222, 222, 175]
+  path: 0[20180 -> 222], [Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 1[20180 -> 222], [Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[20180 -> 10001 -> 20117 -> 30976 -> 175], [Ecuador -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [234, 234, 175]
+  path: 0[20172 -> 234], [Chile -> Licancabur Licancabur Andes volcano] 
+
+  path: 1[20172 -> 234], [Chile -> Licancabur Licancabur Andes volcano] 
+
+  path: 2[20172 -> 10001 -> 20117 -> 30976 -> 175], [Chile -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [206, 222, 175]
+  path: 0[10001 -> 20121 -> 206], [America -> Nicaragua -> Concepcion Concepcion  volcano] 
+
+  path: 1[10001 -> 20180 -> 222], [America -> Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[10001 -> 20117 -> 30976 -> 175], [America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [162, 222, 181]
+  path: 0[20118 -> 30997 -> 162], [United States -> Hawaii -> Haleakala Haleakala Hawaii volcano] 
+
+  path: 1[20118 -> 10001 -> 20180 -> 222], [United States -> America -> Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[20118 -> 31012 -> 181], [United States -> Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+srcNodes: [216, 222, 175]
+  path: 0[20124 -> 216], [Dominica -> Morne Diablotins Morne Diablotins  volcano] 
+
+  path: 1[20124 -> 10001 -> 20180 -> 222], [Dominica -> America -> Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[20124 -> 10001 -> 20117 -> 30976 -> 175], [Dominica -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [206, 222, 175]
+  path: 0[20121 -> 206], [Nicaragua -> Concepcion Concepcion  volcano] 
+
+  path: 1[20121 -> 10001 -> 20180 -> 222], [Nicaragua -> America -> Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[20121 -> 10001 -> 20117 -> 30976 -> 175], [Nicaragua -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+-----------------------------------------
+ResultDestNodes: [20170, 20180, 20172, 10001, 20118, 20124, 20121]
+ResultRelevs: [5.353190898895264, 5.353190898895264, 5.353190898895264, 4.52664852142334, 4.46131706237793, 4.286001205444336, 4.286001205444336]
+AvgResultRelev: 4.80279152733939
+AvgResultDissimilarity: 0.5222222010294596
+Num of entries retrieved from the KNLists: 295
+Num of entries retrieved from NKMaps: 398
+Num of answer trees explored: 53
+Num of answer tree sets created: 127
+Num of answer tree sets removed: 0
+Max Num of answer tree sets in Q[]: 127
+
+Div Top-k Search by Astar02, k=7
+[volcano, andes, mountains]
+srcNodes: [233, 233, 175]
+  path: 0[20170 -> 233], [Bolivia -> Sajama Sajama Andes volcano] 
+
+  path: 1[20170 -> 233], [Bolivia -> Sajama Sajama Andes volcano] 
+
+  path: 2[20170 -> 10001 -> 20117 -> 30976 -> 175], [Bolivia -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [222, 222, 175]
+  path: 0[20180 -> 222], [Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 1[20180 -> 222], [Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[20180 -> 10001 -> 20117 -> 30976 -> 175], [Ecuador -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [234, 234, 175]
+  path: 0[20172 -> 234], [Chile -> Licancabur Licancabur Andes volcano] 
+
+  path: 1[20172 -> 234], [Chile -> Licancabur Licancabur Andes volcano] 
+
+  path: 2[20172 -> 10001 -> 20117 -> 30976 -> 175], [Chile -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [206, 222, 175]
+  path: 0[10001 -> 20121 -> 206], [America -> Nicaragua -> Concepcion Concepcion  volcano] 
+
+  path: 1[10001 -> 20180 -> 222], [America -> Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[10001 -> 20117 -> 30976 -> 175], [America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [162, 222, 181]
+  path: 0[20118 -> 30997 -> 162], [United States -> Hawaii -> Haleakala Haleakala Hawaii volcano] 
+
+  path: 1[20118 -> 10001 -> 20180 -> 222], [United States -> America -> Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[20118 -> 31012 -> 181], [United States -> Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+srcNodes: [216, 222, 175]
+  path: 0[20124 -> 216], [Dominica -> Morne Diablotins Morne Diablotins  volcano] 
+
+  path: 1[20124 -> 10001 -> 20180 -> 222], [Dominica -> America -> Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[20124 -> 10001 -> 20117 -> 30976 -> 175], [Dominica -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [206, 222, 175]
+  path: 0[20121 -> 206], [Nicaragua -> Concepcion Concepcion  volcano] 
+
+  path: 1[20121 -> 10001 -> 20180 -> 222], [Nicaragua -> America -> Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[20121 -> 10001 -> 20117 -> 30976 -> 175], [Nicaragua -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+-----------------------------------------
+ResultDestNodes: [20170, 20180, 20172, 10001, 20118, 20124, 20121]
+ResultRelevs: [5.353190898895264, 5.353190898895264, 5.353190898895264, 4.52664852142334, 4.46131706237793, 4.286001205444336, 4.286001205444336]
+AvgResultRelev: 4.80279152733939
+AvgResultDissimilarity: 0.5222222222222221
+Num of entries retrieved from the KNLists: 295
+Num of entries retrieved from NKMaps: 398
+Num of answer trees explored: 53
+Num of states created: 29
+Num of states explored: 9
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 22
+
+Div Top-k Search by Astar1nc_ap, k=7
+[volcano, andes, mountains]
+srcNodes: [233, 233, 175]
+  path: 0[20170 -> 233], [Bolivia -> Sajama Sajama Andes volcano] 
+
+  path: 1[20170 -> 233], [Bolivia -> Sajama Sajama Andes volcano] 
+
+  path: 2[20170 -> 10001 -> 20117 -> 30976 -> 175], [Bolivia -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [222, 222, 175]
+  path: 0[20180 -> 222], [Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 1[20180 -> 222], [Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[20180 -> 10001 -> 20117 -> 30976 -> 175], [Ecuador -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [234, 234, 175]
+  path: 0[20172 -> 234], [Chile -> Licancabur Licancabur Andes volcano] 
+
+  path: 1[20172 -> 234], [Chile -> Licancabur Licancabur Andes volcano] 
+
+  path: 2[20172 -> 10001 -> 20117 -> 30976 -> 175], [Chile -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [206, 222, 175]
+  path: 0[10001 -> 20121 -> 206], [America -> Nicaragua -> Concepcion Concepcion  volcano] 
+
+  path: 1[10001 -> 20180 -> 222], [America -> Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[10001 -> 20117 -> 30976 -> 175], [America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [162, 222, 181]
+  path: 0[20118 -> 30997 -> 162], [United States -> Hawaii -> Haleakala Haleakala Hawaii volcano] 
+
+  path: 1[20118 -> 10001 -> 20180 -> 222], [United States -> America -> Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[20118 -> 31012 -> 181], [United States -> Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+srcNodes: [216, 222, 175]
+  path: 0[20124 -> 216], [Dominica -> Morne Diablotins Morne Diablotins  volcano] 
+
+  path: 1[20124 -> 10001 -> 20180 -> 222], [Dominica -> America -> Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[20124 -> 10001 -> 20117 -> 30976 -> 175], [Dominica -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+srcNodes: [206, 222, 175]
+  path: 0[20121 -> 206], [Nicaragua -> Concepcion Concepcion  volcano] 
+
+  path: 1[20121 -> 10001 -> 20180 -> 222], [Nicaragua -> America -> Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[20121 -> 10001 -> 20117 -> 30976 -> 175], [Nicaragua -> America -> Canada -> British Columbia -> Mt Waddington Mt Waddington Coast Mountains ] 
+
+-----------------------------------------
+ResultDestNodes: [20170, 20180, 20172, 10001, 20118, 20124, 20121]
+ResultRelevs: [5.353190898895264, 5.353190898895264, 5.353190898895264, 4.52664852142334, 4.46131706237793, 4.286001205444336, 4.286001205444336]
+AvgResultRelev: 4.80279152733939
+AvgResultDissimilarity: 0.5222222222222221
+Num of entries retrieved from the KNLists: 295
+Num of entries retrieved from NKMaps: 398
+Num of answer trees explored: 53
+Num of states created: 8
+Num of states explored: 8
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+query: [volcano, mountain, andes]
+Top-k Search by Blink-BDB, k=7
+[volcano, mountain, andes]
+srcNodes: [223, 223, 223]
+  path: 0[223 -> 223], [Cotopaxi Cotopaxi Andes volcano -> Cotopaxi Cotopaxi Andes volcano]
+  path: 1[223 -> 223], [Cotopaxi Cotopaxi Andes volcano -> Cotopaxi Cotopaxi Andes volcano]
+  path: 2[223 -> 223], [Cotopaxi Cotopaxi Andes volcano -> Cotopaxi Cotopaxi Andes volcano]
+srcNodes: [222, 222, 222]
+  path: 0[222 -> 222], [Cayambe Cayambe Andes volcano -> Cayambe Cayambe Andes volcano]
+  path: 1[222 -> 222], [Cayambe Cayambe Andes volcano -> Cayambe Cayambe Andes volcano]
+  path: 2[222 -> 222], [Cayambe Cayambe Andes volcano -> Cayambe Cayambe Andes volcano]
+srcNodes: [224, 224, 224]
+  path: 0[224 -> 224], [Chimborazo Chimborazo Andes volcano -> Chimborazo Chimborazo Andes volcano]
+  path: 1[224 -> 224], [Chimborazo Chimborazo Andes volcano -> Chimborazo Chimborazo Andes volcano]
+  path: 2[224 -> 224], [Chimborazo Chimborazo Andes volcano -> Chimborazo Chimborazo Andes volcano]
+srcNodes: [233, 233, 233]
+  path: 0[233 -> 233], [Sajama Sajama Andes volcano -> Sajama Sajama Andes volcano]
+  path: 1[233 -> 233], [Sajama Sajama Andes volcano -> Sajama Sajama Andes volcano]
+  path: 2[233 -> 233], [Sajama Sajama Andes volcano -> Sajama Sajama Andes volcano]
+srcNodes: [230, 230, 230]
+  path: 0[230 -> 230], [Ampato Ampato Andes volcano -> Ampato Ampato Andes volcano]
+  path: 1[230 -> 230], [Ampato Ampato Andes volcano -> Ampato Ampato Andes volcano]
+  path: 2[230 -> 230], [Ampato Ampato Andes volcano -> Ampato Ampato Andes volcano]
+srcNodes: [234, 234, 234]
+  path: 0[234 -> 234], [Licancabur Licancabur Andes volcano -> Licancabur Licancabur Andes volcano]
+  path: 1[234 -> 234], [Licancabur Licancabur Andes volcano -> Licancabur Licancabur Andes volcano]
+  path: 2[234 -> 234], [Licancabur Licancabur Andes volcano -> Licancabur Licancabur Andes volcano]
+srcNodes: [239, 239, 239]
+  path: 0[239 -> 239], [Tupungato Tupungato Andes volcano -> Tupungato Tupungato Andes volcano]
+  path: 1[239 -> 239], [Tupungato Tupungato Andes volcano -> Tupungato Tupungato Andes volcano]
+  path: 2[239 -> 239], [Tupungato Tupungato Andes volcano -> Tupungato Tupungato Andes volcano]
+-----------------------------------------
+Num of top-k answers: 7
+ResultDestNodes: [223, 222, 224, 233, 230, 234, 239]
+ResultRelevs: [8.513838768005371, 8.513838768005371, 8.513838768005371, 8.513838768005371, 8.513838768005371, 8.513838768005371, 8.513838768005371]
+AvgResultRelev: 8.513838768005371
+AvgResultDissimilarity: 1.0
+Num of entries retrieved from the lists: 36
+Num of entries retrieved from NKMaps: 61
+Num of answer trees explored: 12
+
+Div Top-k Search by Exhustive, k=7
+[volcano, mountain, andes]
+srcNodes: [224, 224, 224]
+  path: 0[224 -> 224], [Chimborazo Chimborazo Andes volcano -> Chimborazo Chimborazo Andes volcano]
+  path: 1[224 -> 224], [Chimborazo Chimborazo Andes volcano -> Chimborazo Chimborazo Andes volcano]
+  path: 2[224 -> 224], [Chimborazo Chimborazo Andes volcano -> Chimborazo Chimborazo Andes volcano]
+srcNodes: [223, 223, 223]
+  path: 0[223 -> 223], [Cotopaxi Cotopaxi Andes volcano -> Cotopaxi Cotopaxi Andes volcano]
+  path: 1[223 -> 223], [Cotopaxi Cotopaxi Andes volcano -> Cotopaxi Cotopaxi Andes volcano]
+  path: 2[223 -> 223], [Cotopaxi Cotopaxi Andes volcano -> Cotopaxi Cotopaxi Andes volcano]
+srcNodes: [239, 239, 239]
+  path: 0[239 -> 239], [Tupungato Tupungato Andes volcano -> Tupungato Tupungato Andes volcano]
+  path: 1[239 -> 239], [Tupungato Tupungato Andes volcano -> Tupungato Tupungato Andes volcano]
+  path: 2[239 -> 239], [Tupungato Tupungato Andes volcano -> Tupungato Tupungato Andes volcano]
+srcNodes: [233, 233, 233]
+  path: 0[233 -> 233], [Sajama Sajama Andes volcano -> Sajama Sajama Andes volcano]
+  path: 1[233 -> 233], [Sajama Sajama Andes volcano -> Sajama Sajama Andes volcano]
+  path: 2[233 -> 233], [Sajama Sajama Andes volcano -> Sajama Sajama Andes volcano]
+srcNodes: [235, 235, 235]
+  path: 0[235 -> 235], [Llullaillaco Llullaillaco Andes volcano -> Llullaillaco Llullaillaco Andes volcano]
+  path: 1[235 -> 235], [Llullaillaco Llullaillaco Andes volcano -> Llullaillaco Llullaillaco Andes volcano]
+  path: 2[235 -> 235], [Llullaillaco Llullaillaco Andes volcano -> Llullaillaco Llullaillaco Andes volcano]
+srcNodes: [222, 222, 222]
+  path: 0[222 -> 222], [Cayambe Cayambe Andes volcano -> Cayambe Cayambe Andes volcano]
+  path: 1[222 -> 222], [Cayambe Cayambe Andes volcano -> Cayambe Cayambe Andes volcano]
+  path: 2[222 -> 222], [Cayambe Cayambe Andes volcano -> Cayambe Cayambe Andes volcano]
+srcNodes: [234, 234, 234]
+  path: 0[234 -> 234], [Licancabur Licancabur Andes volcano -> Licancabur Licancabur Andes volcano]
+  path: 1[234 -> 234], [Licancabur Licancabur Andes volcano -> Licancabur Licancabur Andes volcano]
+  path: 2[234 -> 234], [Licancabur Licancabur Andes volcano -> Licancabur Licancabur Andes volcano]
+-----------------------------------------
+ResultDestNodes: [224, 223, 239, 233, 235, 222, 234]
+ResultRelevs: [8.513838768005371, 8.513838768005371, 8.513838768005371, 8.513838768005371, 8.513838768005371, 8.513838768005371, 8.513838768005371]
+AvgResultRelev: 8.513838768005371
+AvgResultDissimilarity: 1.0
+Num of entries retrieved from the KNLists: 36
+Num of entries retrieved from NKMaps: 61
+Num of answer trees explored: 12
+Num of answer tree sets created: 127
+Num of answer tree sets removed: 0
+Max Num of answer tree sets in Q[]: 127
+
+Div Top-k Search by Astar02, k=7
+[volcano, mountain, andes]
+srcNodes: [224, 224, 224]
+  path: 0[224 -> 224], [Chimborazo Chimborazo Andes volcano -> Chimborazo Chimborazo Andes volcano]
+  path: 1[224 -> 224], [Chimborazo Chimborazo Andes volcano -> Chimborazo Chimborazo Andes volcano]
+  path: 2[224 -> 224], [Chimborazo Chimborazo Andes volcano -> Chimborazo Chimborazo Andes volcano]
+srcNodes: [223, 223, 223]
+  path: 0[223 -> 223], [Cotopaxi Cotopaxi Andes volcano -> Cotopaxi Cotopaxi Andes volcano]
+  path: 1[223 -> 223], [Cotopaxi Cotopaxi Andes volcano -> Cotopaxi Cotopaxi Andes volcano]
+  path: 2[223 -> 223], [Cotopaxi Cotopaxi Andes volcano -> Cotopaxi Cotopaxi Andes volcano]
+srcNodes: [239, 239, 239]
+  path: 0[239 -> 239], [Tupungato Tupungato Andes volcano -> Tupungato Tupungato Andes volcano]
+  path: 1[239 -> 239], [Tupungato Tupungato Andes volcano -> Tupungato Tupungato Andes volcano]
+  path: 2[239 -> 239], [Tupungato Tupungato Andes volcano -> Tupungato Tupungato Andes volcano]
+srcNodes: [233, 233, 233]
+  path: 0[233 -> 233], [Sajama Sajama Andes volcano -> Sajama Sajama Andes volcano]
+  path: 1[233 -> 233], [Sajama Sajama Andes volcano -> Sajama Sajama Andes volcano]
+  path: 2[233 -> 233], [Sajama Sajama Andes volcano -> Sajama Sajama Andes volcano]
+srcNodes: [235, 235, 235]
+  path: 0[235 -> 235], [Llullaillaco Llullaillaco Andes volcano -> Llullaillaco Llullaillaco Andes volcano]
+  path: 1[235 -> 235], [Llullaillaco Llullaillaco Andes volcano -> Llullaillaco Llullaillaco Andes volcano]
+  path: 2[235 -> 235], [Llullaillaco Llullaillaco Andes volcano -> Llullaillaco Llullaillaco Andes volcano]
+srcNodes: [222, 222, 222]
+  path: 0[222 -> 222], [Cayambe Cayambe Andes volcano -> Cayambe Cayambe Andes volcano]
+  path: 1[222 -> 222], [Cayambe Cayambe Andes volcano -> Cayambe Cayambe Andes volcano]
+  path: 2[222 -> 222], [Cayambe Cayambe Andes volcano -> Cayambe Cayambe Andes volcano]
+srcNodes: [234, 234, 234]
+  path: 0[234 -> 234], [Licancabur Licancabur Andes volcano -> Licancabur Licancabur Andes volcano]
+  path: 1[234 -> 234], [Licancabur Licancabur Andes volcano -> Licancabur Licancabur Andes volcano]
+  path: 2[234 -> 234], [Licancabur Licancabur Andes volcano -> Licancabur Licancabur Andes volcano]
+-----------------------------------------
+ResultDestNodes: [224, 223, 239, 233, 235, 222, 234]
+ResultRelevs: [8.513838768005371, 8.513838768005371, 8.513838768005371, 8.513838768005371, 8.513838768005371, 8.513838768005371, 8.513838768005371]
+AvgResultRelev: 8.513838768005371
+AvgResultDissimilarity: 1.0
+Num of entries retrieved from the KNLists: 36
+Num of entries retrieved from NKMaps: 61
+Num of answer trees explored: 12
+Num of states created: 72
+Num of states explored: 67
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 12
+
+Div Top-k Search by Astar1nc_ap, k=7
+[volcano, mountain, andes]
+srcNodes: [224, 224, 224]
+  path: 0[224 -> 224], [Chimborazo Chimborazo Andes volcano -> Chimborazo Chimborazo Andes volcano]
+  path: 1[224 -> 224], [Chimborazo Chimborazo Andes volcano -> Chimborazo Chimborazo Andes volcano]
+  path: 2[224 -> 224], [Chimborazo Chimborazo Andes volcano -> Chimborazo Chimborazo Andes volcano]
+srcNodes: [223, 223, 223]
+  path: 0[223 -> 223], [Cotopaxi Cotopaxi Andes volcano -> Cotopaxi Cotopaxi Andes volcano]
+  path: 1[223 -> 223], [Cotopaxi Cotopaxi Andes volcano -> Cotopaxi Cotopaxi Andes volcano]
+  path: 2[223 -> 223], [Cotopaxi Cotopaxi Andes volcano -> Cotopaxi Cotopaxi Andes volcano]
+srcNodes: [239, 239, 239]
+  path: 0[239 -> 239], [Tupungato Tupungato Andes volcano -> Tupungato Tupungato Andes volcano]
+  path: 1[239 -> 239], [Tupungato Tupungato Andes volcano -> Tupungato Tupungato Andes volcano]
+  path: 2[239 -> 239], [Tupungato Tupungato Andes volcano -> Tupungato Tupungato Andes volcano]
+srcNodes: [233, 233, 233]
+  path: 0[233 -> 233], [Sajama Sajama Andes volcano -> Sajama Sajama Andes volcano]
+  path: 1[233 -> 233], [Sajama Sajama Andes volcano -> Sajama Sajama Andes volcano]
+  path: 2[233 -> 233], [Sajama Sajama Andes volcano -> Sajama Sajama Andes volcano]
+srcNodes: [235, 235, 235]
+  path: 0[235 -> 235], [Llullaillaco Llullaillaco Andes volcano -> Llullaillaco Llullaillaco Andes volcano]
+  path: 1[235 -> 235], [Llullaillaco Llullaillaco Andes volcano -> Llullaillaco Llullaillaco Andes volcano]
+  path: 2[235 -> 235], [Llullaillaco Llullaillaco Andes volcano -> Llullaillaco Llullaillaco Andes volcano]
+srcNodes: [222, 222, 222]
+  path: 0[222 -> 222], [Cayambe Cayambe Andes volcano -> Cayambe Cayambe Andes volcano]
+  path: 1[222 -> 222], [Cayambe Cayambe Andes volcano -> Cayambe Cayambe Andes volcano]
+  path: 2[222 -> 222], [Cayambe Cayambe Andes volcano -> Cayambe Cayambe Andes volcano]
+srcNodes: [234, 234, 234]
+  path: 0[234 -> 234], [Licancabur Licancabur Andes volcano -> Licancabur Licancabur Andes volcano]
+  path: 1[234 -> 234], [Licancabur Licancabur Andes volcano -> Licancabur Licancabur Andes volcano]
+  path: 2[234 -> 234], [Licancabur Licancabur Andes volcano -> Licancabur Licancabur Andes volcano]
+-----------------------------------------
+ResultDestNodes: [224, 223, 239, 233, 235, 222, 234]
+ResultRelevs: [8.513838768005371, 8.513838768005371, 8.513838768005371, 8.513838768005371, 8.513838768005371, 8.513838768005371, 8.513838768005371]
+AvgResultRelev: 8.513838768005371
+AvgResultDissimilarity: 1.0
+Num of entries retrieved from the KNLists: 36
+Num of entries retrieved from NKMaps: 61
+Num of answer trees explored: 12
+Num of states created: 8
+Num of states explored: 8
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+query: [republic , country, asia]
+Top-k Search by Blink-BDB, k=7
+[republic , country, asia]
+srcNodes: null
+srcNodes: null
+srcNodes: null
+srcNodes: null
+srcNodes: null
+srcNodes: null
+srcNodes: null
+-----------------------------------------
+Num of top-k answers: 7
+ResultDestNodes: [223, 222, 224, 233, 230, 234, 239]
+ResultRelevs: [8.513838768005371, 8.513838768005371, 8.513838768005371, 8.513838768005371, 8.513838768005371, 8.513838768005371, 8.513838768005371]
+AvgResultRelev: 8.513838768005371
+AvgResultDissimilarity: 1.0
+Num of entries retrieved from the lists: 36
+Num of entries retrieved from NKMaps: 61
+Num of answer trees explored: 12
+
+Div Top-k Search by Exhustive, k=7
+[republic , country, asia]
+srcNodes: [224, 224, 224]
+  path: 0[224 -> 224], [Chimborazo Chimborazo Andes volcano -> Chimborazo Chimborazo Andes volcano]
+  path: 1[224 -> 224], [Chimborazo Chimborazo Andes volcano -> Chimborazo Chimborazo Andes volcano]
+  path: 2[224 -> 224], [Chimborazo Chimborazo Andes volcano -> Chimborazo Chimborazo Andes volcano]
+srcNodes: [223, 223, 223]
+  path: 0[223 -> 223], [Cotopaxi Cotopaxi Andes volcano -> Cotopaxi Cotopaxi Andes volcano]
+  path: 1[223 -> 223], [Cotopaxi Cotopaxi Andes volcano -> Cotopaxi Cotopaxi Andes volcano]
+  path: 2[223 -> 223], [Cotopaxi Cotopaxi Andes volcano -> Cotopaxi Cotopaxi Andes volcano]
+srcNodes: [239, 239, 239]
+  path: 0[239 -> 239], [Tupungato Tupungato Andes volcano -> Tupungato Tupungato Andes volcano]
+  path: 1[239 -> 239], [Tupungato Tupungato Andes volcano -> Tupungato Tupungato Andes volcano]
+  path: 2[239 -> 239], [Tupungato Tupungato Andes volcano -> Tupungato Tupungato Andes volcano]
+srcNodes: [233, 233, 233]
+  path: 0[233 -> 233], [Sajama Sajama Andes volcano -> Sajama Sajama Andes volcano]
+  path: 1[233 -> 233], [Sajama Sajama Andes volcano -> Sajama Sajama Andes volcano]
+  path: 2[233 -> 233], [Sajama Sajama Andes volcano -> Sajama Sajama Andes volcano]
+srcNodes: [235, 235, 235]
+  path: 0[235 -> 235], [Llullaillaco Llullaillaco Andes volcano -> Llullaillaco Llullaillaco Andes volcano]
+  path: 1[235 -> 235], [Llullaillaco Llullaillaco Andes volcano -> Llullaillaco Llullaillaco Andes volcano]
+  path: 2[235 -> 235], [Llullaillaco Llullaillaco Andes volcano -> Llullaillaco Llullaillaco Andes volcano]
+srcNodes: [222, 222, 222]
+  path: 0[222 -> 222], [Cayambe Cayambe Andes volcano -> Cayambe Cayambe Andes volcano]
+  path: 1[222 -> 222], [Cayambe Cayambe Andes volcano -> Cayambe Cayambe Andes volcano]
+  path: 2[222 -> 222], [Cayambe Cayambe Andes volcano -> Cayambe Cayambe Andes volcano]
+srcNodes: [234, 234, 234]
+  path: 0[234 -> 234], [Licancabur Licancabur Andes volcano -> Licancabur Licancabur Andes volcano]
+  path: 1[234 -> 234], [Licancabur Licancabur Andes volcano -> Licancabur Licancabur Andes volcano]
+  path: 2[234 -> 234], [Licancabur Licancabur Andes volcano -> Licancabur Licancabur Andes volcano]
+-----------------------------------------
+ResultDestNodes: [224, 223, 239, 233, 235, 222, 234]
+ResultRelevs: [8.513838768005371, 8.513838768005371, 8.513838768005371, 8.513838768005371, 8.513838768005371, 8.513838768005371, 8.513838768005371]
+AvgResultRelev: 8.513838768005371
+AvgResultDissimilarity: 1.0
+Num of entries retrieved from the KNLists: 36
+Num of entries retrieved from NKMaps: 61
+Num of answer trees explored: 12
+Num of answer tree sets created: 127
+Num of answer tree sets removed: 0
+Max Num of answer tree sets in Q[]: 127
+
+Div Top-k Search by Astar02, k=7
+[republic , country, asia]
+srcNodes: [224, 224, 224]
+  path: 0[224 -> 224], [Chimborazo Chimborazo Andes volcano -> Chimborazo Chimborazo Andes volcano]
+  path: 1[224 -> 224], [Chimborazo Chimborazo Andes volcano -> Chimborazo Chimborazo Andes volcano]
+  path: 2[224 -> 224], [Chimborazo Chimborazo Andes volcano -> Chimborazo Chimborazo Andes volcano]
+srcNodes: [223, 223, 223]
+  path: 0[223 -> 223], [Cotopaxi Cotopaxi Andes volcano -> Cotopaxi Cotopaxi Andes volcano]
+  path: 1[223 -> 223], [Cotopaxi Cotopaxi Andes volcano -> Cotopaxi Cotopaxi Andes volcano]
+  path: 2[223 -> 223], [Cotopaxi Cotopaxi Andes volcano -> Cotopaxi Cotopaxi Andes volcano]
+srcNodes: [239, 239, 239]
+  path: 0[239 -> 239], [Tupungato Tupungato Andes volcano -> Tupungato Tupungato Andes volcano]
+  path: 1[239 -> 239], [Tupungato Tupungato Andes volcano -> Tupungato Tupungato Andes volcano]
+  path: 2[239 -> 239], [Tupungato Tupungato Andes volcano -> Tupungato Tupungato Andes volcano]
+srcNodes: [233, 233, 233]
+  path: 0[233 -> 233], [Sajama Sajama Andes volcano -> Sajama Sajama Andes volcano]
+  path: 1[233 -> 233], [Sajama Sajama Andes volcano -> Sajama Sajama Andes volcano]
+  path: 2[233 -> 233], [Sajama Sajama Andes volcano -> Sajama Sajama Andes volcano]
+srcNodes: [235, 235, 235]
+  path: 0[235 -> 235], [Llullaillaco Llullaillaco Andes volcano -> Llullaillaco Llullaillaco Andes volcano]
+  path: 1[235 -> 235], [Llullaillaco Llullaillaco Andes volcano -> Llullaillaco Llullaillaco Andes volcano]
+  path: 2[235 -> 235], [Llullaillaco Llullaillaco Andes volcano -> Llullaillaco Llullaillaco Andes volcano]
+srcNodes: [222, 222, 222]
+  path: 0[222 -> 222], [Cayambe Cayambe Andes volcano -> Cayambe Cayambe Andes volcano]
+  path: 1[222 -> 222], [Cayambe Cayambe Andes volcano -> Cayambe Cayambe Andes volcano]
+  path: 2[222 -> 222], [Cayambe Cayambe Andes volcano -> Cayambe Cayambe Andes volcano]
+srcNodes: [234, 234, 234]
+  path: 0[234 -> 234], [Licancabur Licancabur Andes volcano -> Licancabur Licancabur Andes volcano]
+  path: 1[234 -> 234], [Licancabur Licancabur Andes volcano -> Licancabur Licancabur Andes volcano]
+  path: 2[234 -> 234], [Licancabur Licancabur Andes volcano -> Licancabur Licancabur Andes volcano]
+-----------------------------------------
+ResultDestNodes: [224, 223, 239, 233, 235, 222, 234]
+ResultRelevs: [8.513838768005371, 8.513838768005371, 8.513838768005371, 8.513838768005371, 8.513838768005371, 8.513838768005371, 8.513838768005371]
+AvgResultRelev: 8.513838768005371
+AvgResultDissimilarity: 1.0
+Num of entries retrieved from the KNLists: 36
+Num of entries retrieved from NKMaps: 61
+Num of answer trees explored: 12
+Num of states created: 0
+Num of states explored: 0
+Num of heuristic search performed: 0
+Max Num of answer tree sets in Q[]: 0
+
+Div Top-k Search by Astar1nc_ap, k=7
+[republic , country, asia]
+srcNodes: [224, 224, 224]
+  path: 0[224 -> 224], [Chimborazo Chimborazo Andes volcano -> Chimborazo Chimborazo Andes volcano]
+  path: 1[224 -> 224], [Chimborazo Chimborazo Andes volcano -> Chimborazo Chimborazo Andes volcano]
+  path: 2[224 -> 224], [Chimborazo Chimborazo Andes volcano -> Chimborazo Chimborazo Andes volcano]
+srcNodes: [223, 223, 223]
+  path: 0[223 -> 223], [Cotopaxi Cotopaxi Andes volcano -> Cotopaxi Cotopaxi Andes volcano]
+  path: 1[223 -> 223], [Cotopaxi Cotopaxi Andes volcano -> Cotopaxi Cotopaxi Andes volcano]
+  path: 2[223 -> 223], [Cotopaxi Cotopaxi Andes volcano -> Cotopaxi Cotopaxi Andes volcano]
+srcNodes: [239, 239, 239]
+  path: 0[239 -> 239], [Tupungato Tupungato Andes volcano -> Tupungato Tupungato Andes volcano]
+  path: 1[239 -> 239], [Tupungato Tupungato Andes volcano -> Tupungato Tupungato Andes volcano]
+  path: 2[239 -> 239], [Tupungato Tupungato Andes volcano -> Tupungato Tupungato Andes volcano]
+srcNodes: [233, 233, 233]
+  path: 0[233 -> 233], [Sajama Sajama Andes volcano -> Sajama Sajama Andes volcano]
+  path: 1[233 -> 233], [Sajama Sajama Andes volcano -> Sajama Sajama Andes volcano]
+  path: 2[233 -> 233], [Sajama Sajama Andes volcano -> Sajama Sajama Andes volcano]
+srcNodes: [235, 235, 235]
+  path: 0[235 -> 235], [Llullaillaco Llullaillaco Andes volcano -> Llullaillaco Llullaillaco Andes volcano]
+  path: 1[235 -> 235], [Llullaillaco Llullaillaco Andes volcano -> Llullaillaco Llullaillaco Andes volcano]
+  path: 2[235 -> 235], [Llullaillaco Llullaillaco Andes volcano -> Llullaillaco Llullaillaco Andes volcano]
+srcNodes: [222, 222, 222]
+  path: 0[222 -> 222], [Cayambe Cayambe Andes volcano -> Cayambe Cayambe Andes volcano]
+  path: 1[222 -> 222], [Cayambe Cayambe Andes volcano -> Cayambe Cayambe Andes volcano]
+  path: 2[222 -> 222], [Cayambe Cayambe Andes volcano -> Cayambe Cayambe Andes volcano]
+srcNodes: [234, 234, 234]
+  path: 0[234 -> 234], [Licancabur Licancabur Andes volcano -> Licancabur Licancabur Andes volcano]
+  path: 1[234 -> 234], [Licancabur Licancabur Andes volcano -> Licancabur Licancabur Andes volcano]
+  path: 2[234 -> 234], [Licancabur Licancabur Andes volcano -> Licancabur Licancabur Andes volcano]
+-----------------------------------------
+ResultDestNodes: [224, 223, 239, 233, 235, 222, 234]
+ResultRelevs: [8.513838768005371, 8.513838768005371, 8.513838768005371, 8.513838768005371, 8.513838768005371, 8.513838768005371, 8.513838768005371]
+AvgResultRelev: 8.513838768005371
+AvgResultDissimilarity: 1.0
+Num of entries retrieved from the KNLists: 36
+Num of entries retrieved from NKMaps: 61
+Num of answer trees explored: 12
+Num of states created: 0
+Num of states explored: 0
+Num of heuristic search performed: 0
+Max Num of answer tree sets in Q[]: 0
+
+query: [monarchy, country, europe]
+Top-k Search by Blink-BDB, k=7
+[monarchy, country, europe]
+srcNodes: [60008, 20000, 10004]
+  path: 0[10004 -> 20008 -> 60008], [Europe -> Spain -> parliamentary monarchy] 
+
+  path: 1[10004 -> 20000], [Europe -> Albania] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60038, 20038, 10004]
+  path: 0[20038 -> 60038], [Monaco -> constitutional monarchy] 
+
+  path: 1[20038 -> 20038], [Monaco -> Monaco]
+  path: 2[20038 -> 10004], [Monaco -> Europe] 
+
+srcNodes: [60037, 20037, 10004]
+  path: 0[20037 -> 60037], [Sweden -> constitutional monarchy] 
+
+  path: 1[20037 -> 20037], [Sweden -> Sweden]
+  path: 2[20037 -> 10004], [Sweden -> Europe] 
+
+srcNodes: [60036, 20036, 10004]
+  path: 0[20036 -> 60036], [Norway -> constitutional monarchy] 
+
+  path: 1[20036 -> 20036], [Norway -> Norway]
+  path: 2[20036 -> 10004], [Norway -> Europe] 
+
+srcNodes: [60032, 20032, 10004]
+  path: 0[20032 -> 60032], [Denmark -> constitutional monarchy] 
+
+  path: 1[20032 -> 20032], [Denmark -> Denmark]
+  path: 2[20032 -> 10004], [Denmark -> Europe] 
+
+srcNodes: [60008, 20008, 10004]
+  path: 0[20008 -> 60008], [Spain -> parliamentary monarchy] 
+
+  path: 1[20008 -> 20008], [Spain -> Spain]
+  path: 2[20008 -> 10004], [Spain -> Europe] 
+
+srcNodes: [60014, 20014, 10004]
+  path: 0[20014 -> 60014], [Liechtenstein -> hereditary constitutional monarchy] 
+
+  path: 1[20014 -> 20014], [Liechtenstein -> Liechtenstein]
+  path: 2[20014 -> 10004], [Liechtenstein -> Europe] 
+
+-----------------------------------------
+Num of top-k answers: 7
+ResultDestNodes: [10004, 20038, 20037, 20036, 20032, 20008, 20014]
+ResultRelevs: [12.672675132751465, 11.310312271118164, 11.310312271118164, 11.310312271118164, 11.310312271118164, 11.310312271118164, 11.310312271118164]
+AvgResultRelev: 11.504935537065778
+AvgResultDissimilarity: 0.6507936507936506
+Num of entries retrieved from the lists: 94
+Num of entries retrieved from NKMaps: 159
+Num of answer trees explored: 58
+
+Div Top-k Search by Exhustive, k=7
+[monarchy, country, europe]
+srcNodes: [60008, 20000, 10004]
+  path: 0[10004 -> 20008 -> 60008], [Europe -> Spain -> parliamentary monarchy] 
+
+  path: 1[10004 -> 20000], [Europe -> Albania] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60037, 20037, 10004]
+  path: 0[20037 -> 60037], [Sweden -> constitutional monarchy] 
+
+  path: 1[20037 -> 20037], [Sweden -> Sweden]
+  path: 2[20037 -> 10004], [Sweden -> Europe] 
+
+srcNodes: [60032, 20032, 10004]
+  path: 0[20032 -> 60032], [Denmark -> constitutional monarchy] 
+
+  path: 1[20032 -> 20032], [Denmark -> Denmark]
+  path: 2[20032 -> 10004], [Denmark -> Europe] 
+
+srcNodes: [60036, 20036, 10004]
+  path: 0[20036 -> 60036], [Norway -> constitutional monarchy] 
+
+  path: 1[20036 -> 20036], [Norway -> Norway]
+  path: 2[20036 -> 10004], [Norway -> Europe] 
+
+srcNodes: [60008, 20008, 10004]
+  path: 0[20008 -> 60008], [Spain -> parliamentary monarchy] 
+
+  path: 1[20008 -> 20008], [Spain -> Spain]
+  path: 2[20008 -> 10004], [Spain -> Europe] 
+
+srcNodes: [60038, 20038, 10004]
+  path: 0[20038 -> 60038], [Monaco -> constitutional monarchy] 
+
+  path: 1[20038 -> 20038], [Monaco -> Monaco]
+  path: 2[20038 -> 10004], [Monaco -> Europe] 
+
+srcNodes: [60014, 20014, 10004]
+  path: 0[20014 -> 60014], [Liechtenstein -> hereditary constitutional monarchy] 
+
+  path: 1[20014 -> 20014], [Liechtenstein -> Liechtenstein]
+  path: 2[20014 -> 10004], [Liechtenstein -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: [10004, 20037, 20032, 20036, 20008, 20038, 20014]
+ResultRelevs: [12.672675132751465, 11.310312271118164, 11.310312271118164, 11.310312271118164, 11.310312271118164, 11.310312271118164, 11.310312271118164]
+AvgResultRelev: 11.504935537065778
+AvgResultDissimilarity: 0.6507936659313384
+Num of entries retrieved from the KNLists: 165
+Num of entries retrieved from NKMaps: 265
+Num of answer trees explored: 107
+Num of answer tree sets created: 446
+Num of answer tree sets removed: 431
+Max Num of answer tree sets in Q[]: 326
+
+Div Top-k Search by Astar02, k=7
+[monarchy, country, europe]
+srcNodes: [60008, 20000, 10004]
+  path: 0[10004 -> 20008 -> 60008], [Europe -> Spain -> parliamentary monarchy] 
+
+  path: 1[10004 -> 20000], [Europe -> Albania] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60037, 20037, 10004]
+  path: 0[20037 -> 60037], [Sweden -> constitutional monarchy] 
+
+  path: 1[20037 -> 20037], [Sweden -> Sweden]
+  path: 2[20037 -> 10004], [Sweden -> Europe] 
+
+srcNodes: [60032, 20032, 10004]
+  path: 0[20032 -> 60032], [Denmark -> constitutional monarchy] 
+
+  path: 1[20032 -> 20032], [Denmark -> Denmark]
+  path: 2[20032 -> 10004], [Denmark -> Europe] 
+
+srcNodes: [60036, 20036, 10004]
+  path: 0[20036 -> 60036], [Norway -> constitutional monarchy] 
+
+  path: 1[20036 -> 20036], [Norway -> Norway]
+  path: 2[20036 -> 10004], [Norway -> Europe] 
+
+srcNodes: [60008, 20008, 10004]
+  path: 0[20008 -> 60008], [Spain -> parliamentary monarchy] 
+
+  path: 1[20008 -> 20008], [Spain -> Spain]
+  path: 2[20008 -> 10004], [Spain -> Europe] 
+
+srcNodes: [60038, 20038, 10004]
+  path: 0[20038 -> 60038], [Monaco -> constitutional monarchy] 
+
+  path: 1[20038 -> 20038], [Monaco -> Monaco]
+  path: 2[20038 -> 10004], [Monaco -> Europe] 
+
+srcNodes: [60014, 20014, 10004]
+  path: 0[20014 -> 60014], [Liechtenstein -> hereditary constitutional monarchy] 
+
+  path: 1[20014 -> 20014], [Liechtenstein -> Liechtenstein]
+  path: 2[20014 -> 10004], [Liechtenstein -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: [10004, 20037, 20032, 20036, 20008, 20038, 20014]
+ResultRelevs: [12.672675132751465, 11.310312271118164, 11.310312271118164, 11.310312271118164, 11.310312271118164, 11.310312271118164, 11.310312271118164]
+AvgResultRelev: 11.504935537065778
+AvgResultDissimilarity: 0.6507936507936506
+Num of entries retrieved from the KNLists: 94
+Num of entries retrieved from NKMaps: 159
+Num of answer trees explored: 58
+Num of states created: 70
+Num of states explored: 62
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 21
+
+Div Top-k Search by Astar1nc_ap, k=7
+[monarchy, country, europe]
+srcNodes: [60008, 20000, 10004]
+  path: 0[10004 -> 20008 -> 60008], [Europe -> Spain -> parliamentary monarchy] 
+
+  path: 1[10004 -> 20000], [Europe -> Albania] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [60037, 20037, 10004]
+  path: 0[20037 -> 60037], [Sweden -> constitutional monarchy] 
+
+  path: 1[20037 -> 20037], [Sweden -> Sweden]
+  path: 2[20037 -> 10004], [Sweden -> Europe] 
+
+srcNodes: [60032, 20032, 10004]
+  path: 0[20032 -> 60032], [Denmark -> constitutional monarchy] 
+
+  path: 1[20032 -> 20032], [Denmark -> Denmark]
+  path: 2[20032 -> 10004], [Denmark -> Europe] 
+
+srcNodes: [60036, 20036, 10004]
+  path: 0[20036 -> 60036], [Norway -> constitutional monarchy] 
+
+  path: 1[20036 -> 20036], [Norway -> Norway]
+  path: 2[20036 -> 10004], [Norway -> Europe] 
+
+srcNodes: [60008, 20008, 10004]
+  path: 0[20008 -> 60008], [Spain -> parliamentary monarchy] 
+
+  path: 1[20008 -> 20008], [Spain -> Spain]
+  path: 2[20008 -> 10004], [Spain -> Europe] 
+
+srcNodes: [60038, 20038, 10004]
+  path: 0[20038 -> 60038], [Monaco -> constitutional monarchy] 
+
+  path: 1[20038 -> 20038], [Monaco -> Monaco]
+  path: 2[20038 -> 10004], [Monaco -> Europe] 
+
+srcNodes: [60014, 20014, 10004]
+  path: 0[20014 -> 60014], [Liechtenstein -> hereditary constitutional monarchy] 
+
+  path: 1[20014 -> 20014], [Liechtenstein -> Liechtenstein]
+  path: 2[20014 -> 10004], [Liechtenstein -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: [10004, 20037, 20032, 20036, 20008, 20038, 20014]
+ResultRelevs: [12.672675132751465, 11.310312271118164, 11.310312271118164, 11.310312271118164, 11.310312271118164, 11.310312271118164, 11.310312271118164]
+AvgResultRelev: 11.504935537065778
+AvgResultDissimilarity: 0.6507936507936506
+Num of entries retrieved from the KNLists: 94
+Num of entries retrieved from NKMaps: 159
+Num of answer trees explored: 58
+Num of states created: 8
+Num of states explored: 8
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+query: [monarchy, country, asia]
+Top-k Search by Blink-BDB, k=7
+[monarchy, country, asia]
+srcNodes: [60066, 20023, 10002]
+  path: 0[10002 -> 20066 -> 60066], [Asia -> Bhutan -> monarchy] 
+
+  path: 1[10002 -> 20023], [Asia -> Russia] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60099, 20099, 10002]
+  path: 0[20099 -> 60099], [Oman -> monarchy] 
+
+  path: 1[20099 -> 20099], [Oman -> Oman]
+  path: 2[20099 -> 10002], [Oman -> Asia] 
+
+srcNodes: [60066, 20066, 10002]
+  path: 0[20066 -> 60066], [Bhutan -> monarchy] 
+
+  path: 1[20066 -> 20066], [Bhutan -> Bhutan]
+  path: 2[20066 -> 10002], [Bhutan -> Asia] 
+
+srcNodes: [60092, 20092, 10002]
+  path: 0[20092 -> 60092], [Saudi Arabia -> monarchy] 
+
+  path: 1[20092 -> 20092], [Saudi Arabia -> Saudi Arabia]
+  path: 2[20092 -> 10002], [Saudi Arabia -> Asia] 
+
+srcNodes: [60070, 20070, 10002]
+  path: 0[20070 -> 60070], [Thailand -> constitutional monarchy] 
+
+  path: 1[20070 -> 20070], [Thailand -> Thailand]
+  path: 2[20070 -> 10002], [Thailand -> Asia] 
+
+srcNodes: [60091, 20091, 10002]
+  path: 0[20091 -> 60091], [Kuwait -> nominal constitutional monarchy] 
+
+  path: 1[20091 -> 20091], [Kuwait -> Kuwait]
+  path: 2[20091 -> 10002], [Kuwait -> Asia] 
+
+srcNodes: [60090, 20090, 10002]
+  path: 0[20090 -> 60090], [Jordan -> constitutional monarchy] 
+
+  path: 1[20090 -> 20090], [Jordan -> Jordan]
+  path: 2[20090 -> 10002], [Jordan -> Asia] 
+
+-----------------------------------------
+Num of top-k answers: 7
+ResultDestNodes: [10002, 20099, 20066, 20092, 20070, 20091, 20090]
+ResultRelevs: [13.093005180358887, 11.872198104858398, 11.872198104858398, 11.332489967346191, 11.310312271118164, 11.310312271118164, 11.310312271118164]
+AvgResultRelev: 11.728689738682338
+AvgResultDissimilarity: 0.6507936507936506
+Num of entries retrieved from the lists: 94
+Num of entries retrieved from NKMaps: 155
+Num of answer trees explored: 64
+
+Div Top-k Search by Exhustive, k=7
+[monarchy, country, asia]
+srcNodes: [60066, 20023, 10002]
+  path: 0[10002 -> 20066 -> 60066], [Asia -> Bhutan -> monarchy] 
+
+  path: 1[10002 -> 20023], [Asia -> Russia] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60099, 20099, 10002]
+  path: 0[20099 -> 60099], [Oman -> monarchy] 
+
+  path: 1[20099 -> 20099], [Oman -> Oman]
+  path: 2[20099 -> 10002], [Oman -> Asia] 
+
+srcNodes: [60066, 20066, 10002]
+  path: 0[20066 -> 60066], [Bhutan -> monarchy] 
+
+  path: 1[20066 -> 20066], [Bhutan -> Bhutan]
+  path: 2[20066 -> 10002], [Bhutan -> Asia] 
+
+srcNodes: [60092, 20092, 10002]
+  path: 0[20092 -> 60092], [Saudi Arabia -> monarchy] 
+
+  path: 1[20092 -> 20092], [Saudi Arabia -> Saudi Arabia]
+  path: 2[20092 -> 10002], [Saudi Arabia -> Asia] 
+
+srcNodes: [60090, 20090, 10002]
+  path: 0[20090 -> 60090], [Jordan -> constitutional monarchy] 
+
+  path: 1[20090 -> 20090], [Jordan -> Jordan]
+  path: 2[20090 -> 10002], [Jordan -> Asia] 
+
+srcNodes: [60062, 20062, 10002]
+  path: 0[20062 -> 60062], [Bahrain -> traditional monarchy] 
+
+  path: 1[20062 -> 20062], [Bahrain -> Bahrain]
+  path: 2[20062 -> 10002], [Bahrain -> Asia] 
+
+srcNodes: [60070, 20070, 10002]
+  path: 0[20070 -> 60070], [Thailand -> constitutional monarchy] 
+
+  path: 1[20070 -> 20070], [Thailand -> Thailand]
+  path: 2[20070 -> 10002], [Thailand -> Asia] 
+
+-----------------------------------------
+ResultDestNodes: [10002, 20099, 20066, 20092, 20090, 20062, 20070]
+ResultRelevs: [13.093005180358887, 11.872198104858398, 11.872198104858398, 11.332489967346191, 11.310312271118164, 11.310312271118164, 11.310312271118164]
+AvgResultRelev: 11.728689738682338
+AvgResultDissimilarity: 0.6507936659313384
+Num of entries retrieved from the KNLists: 160
+Num of entries retrieved from NKMaps: 237
+Num of answer trees explored: 105
+Num of answer tree sets created: 149
+Num of answer tree sets removed: 136
+Max Num of answer tree sets in Q[]: 127
+
+Div Top-k Search by Astar02, k=7
+[monarchy, country, asia]
+srcNodes: [60066, 20023, 10002]
+  path: 0[10002 -> 20066 -> 60066], [Asia -> Bhutan -> monarchy] 
+
+  path: 1[10002 -> 20023], [Asia -> Russia] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60099, 20099, 10002]
+  path: 0[20099 -> 60099], [Oman -> monarchy] 
+
+  path: 1[20099 -> 20099], [Oman -> Oman]
+  path: 2[20099 -> 10002], [Oman -> Asia] 
+
+srcNodes: [60066, 20066, 10002]
+  path: 0[20066 -> 60066], [Bhutan -> monarchy] 
+
+  path: 1[20066 -> 20066], [Bhutan -> Bhutan]
+  path: 2[20066 -> 10002], [Bhutan -> Asia] 
+
+srcNodes: [60092, 20092, 10002]
+  path: 0[20092 -> 60092], [Saudi Arabia -> monarchy] 
+
+  path: 1[20092 -> 20092], [Saudi Arabia -> Saudi Arabia]
+  path: 2[20092 -> 10002], [Saudi Arabia -> Asia] 
+
+srcNodes: [60090, 20090, 10002]
+  path: 0[20090 -> 60090], [Jordan -> constitutional monarchy] 
+
+  path: 1[20090 -> 20090], [Jordan -> Jordan]
+  path: 2[20090 -> 10002], [Jordan -> Asia] 
+
+srcNodes: [60062, 20062, 10002]
+  path: 0[20062 -> 60062], [Bahrain -> traditional monarchy] 
+
+  path: 1[20062 -> 20062], [Bahrain -> Bahrain]
+  path: 2[20062 -> 10002], [Bahrain -> Asia] 
+
+srcNodes: [60070, 20070, 10002]
+  path: 0[20070 -> 60070], [Thailand -> constitutional monarchy] 
+
+  path: 1[20070 -> 20070], [Thailand -> Thailand]
+  path: 2[20070 -> 10002], [Thailand -> Asia] 
+
+-----------------------------------------
+ResultDestNodes: [10002, 20099, 20066, 20092, 20090, 20062, 20070]
+ResultRelevs: [13.093005180358887, 11.872198104858398, 11.872198104858398, 11.332489967346191, 11.310312271118164, 11.310312271118164, 11.310312271118164]
+AvgResultRelev: 11.728689738682338
+AvgResultDissimilarity: 0.6507936507936506
+Num of entries retrieved from the KNLists: 94
+Num of entries retrieved from NKMaps: 155
+Num of answer trees explored: 64
+Num of states created: 30
+Num of states explored: 12
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 22
+
+Div Top-k Search by Astar1nc_ap, k=7
+[monarchy, country, asia]
+srcNodes: [60066, 20023, 10002]
+  path: 0[10002 -> 20066 -> 60066], [Asia -> Bhutan -> monarchy] 
+
+  path: 1[10002 -> 20023], [Asia -> Russia] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60099, 20099, 10002]
+  path: 0[20099 -> 60099], [Oman -> monarchy] 
+
+  path: 1[20099 -> 20099], [Oman -> Oman]
+  path: 2[20099 -> 10002], [Oman -> Asia] 
+
+srcNodes: [60066, 20066, 10002]
+  path: 0[20066 -> 60066], [Bhutan -> monarchy] 
+
+  path: 1[20066 -> 20066], [Bhutan -> Bhutan]
+  path: 2[20066 -> 10002], [Bhutan -> Asia] 
+
+srcNodes: [60092, 20092, 10002]
+  path: 0[20092 -> 60092], [Saudi Arabia -> monarchy] 
+
+  path: 1[20092 -> 20092], [Saudi Arabia -> Saudi Arabia]
+  path: 2[20092 -> 10002], [Saudi Arabia -> Asia] 
+
+srcNodes: [60090, 20090, 10002]
+  path: 0[20090 -> 60090], [Jordan -> constitutional monarchy] 
+
+  path: 1[20090 -> 20090], [Jordan -> Jordan]
+  path: 2[20090 -> 10002], [Jordan -> Asia] 
+
+srcNodes: [60062, 20062, 10002]
+  path: 0[20062 -> 60062], [Bahrain -> traditional monarchy] 
+
+  path: 1[20062 -> 20062], [Bahrain -> Bahrain]
+  path: 2[20062 -> 10002], [Bahrain -> Asia] 
+
+srcNodes: [60070, 20070, 10002]
+  path: 0[20070 -> 60070], [Thailand -> constitutional monarchy] 
+
+  path: 1[20070 -> 20070], [Thailand -> Thailand]
+  path: 2[20070 -> 10002], [Thailand -> Asia] 
+
+-----------------------------------------
+ResultDestNodes: [10002, 20099, 20066, 20092, 20090, 20062, 20070]
+ResultRelevs: [13.093005180358887, 11.872198104858398, 11.872198104858398, 11.332489967346191, 11.310312271118164, 11.310312271118164, 11.310312271118164]
+AvgResultRelev: 11.728689738682338
+AvgResultDissimilarity: 0.6507936507936506
+Num of entries retrieved from the KNLists: 94
+Num of entries retrieved from NKMaps: 155
+Num of answer trees explored: 64
+Num of states created: 8
+Num of states explored: 8
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+query: [catholic, country, asia]
+Top-k Search by Blink-BDB, k=7
+[catholic, country, asia]
+srcNodes: [70391, 20023, 10002]
+  path: 0[10002 -> 20077 -> 70391], [Asia -> Macau -> Roman Catholic] 
+
+  path: 1[10002 -> 20023], [Asia -> Russia] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [70391, 20077, 10002]
+  path: 0[20077 -> 70391], [Macau -> Roman Catholic] 
+
+  path: 1[20077 -> 20077], [Macau -> Macau]
+  path: 2[20077 -> 10002], [Macau -> Asia] 
+
+srcNodes: [70419, 20102, 10002]
+  path: 0[20102 -> 70419], [Philippines -> Roman Catholic] 
+
+  path: 1[20102 -> 20102], [Philippines -> Philippines]
+  path: 2[20102 -> 10002], [Philippines -> Asia] 
+
+srcNodes: [70416, 20086, 10002]
+  path: 0[20086 -> 70416], [Indonesia -> Roman Catholic] 
+
+  path: 1[20086 -> 20086], [Indonesia -> Indonesia]
+  path: 2[20086 -> 10002], [Indonesia -> Asia] 
+
+srcNodes: [70391, 20053, 10002]
+  path: 0[20053 -> 20077 -> 70391], [China -> Macau -> Roman Catholic] 
+
+  path: 1[20053 -> 20053], [China -> China]
+  path: 2[20053 -> 10002], [China -> Asia] 
+
+srcNodes: [70416, 20068, 10002]
+  path: 0[20068 -> 20086 -> 70416], [Malaysia -> Indonesia -> Roman Catholic] 
+
+  path: 1[20068 -> 20068], [Malaysia -> Malaysia]
+  path: 2[20068 -> 10002], [Malaysia -> Asia] 
+
+srcNodes: [70397, 20023, 10002]
+  path: 0[20023 -> 20036 -> 70397], [Russia -> Norway -> Roman Catholic] 
+
+  path: 1[20023 -> 20023], [Russia -> Russia]
+  path: 2[20023 -> 10002], [Russia -> Asia] 
+
+-----------------------------------------
+Num of top-k answers: 7
+ResultDestNodes: [10002, 20077, 20102, 20086, 20053, 20068, 20023]
+ResultRelevs: [12.33629035949707, 10.86064338684082, 10.86064338684082, 10.86064338684082, 10.407707214355469, 10.407707214355469, 10.407707214355469]
+AvgResultRelev: 10.877334594726562
+AvgResultDissimilarity: 0.5873015873015872
+Num of entries retrieved from the lists: 165
+Num of entries retrieved from NKMaps: 241
+Num of answer trees explored: 93
+
+Div Top-k Search by Exhustive, k=7
+[catholic, country, asia]
+srcNodes: [70391, 20023, 10002]
+  path: 0[10002 -> 20077 -> 70391], [Asia -> Macau -> Roman Catholic] 
+
+  path: 1[10002 -> 20023], [Asia -> Russia] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [70416, 20086, 10002]
+  path: 0[20086 -> 70416], [Indonesia -> Roman Catholic] 
+
+  path: 1[20086 -> 20086], [Indonesia -> Indonesia]
+  path: 2[20086 -> 10002], [Indonesia -> Asia] 
+
+srcNodes: [70391, 20077, 10002]
+  path: 0[20077 -> 70391], [Macau -> Roman Catholic] 
+
+  path: 1[20077 -> 20077], [Macau -> Macau]
+  path: 2[20077 -> 10002], [Macau -> Asia] 
+
+srcNodes: [70419, 20102, 10002]
+  path: 0[20102 -> 70419], [Philippines -> Roman Catholic] 
+
+  path: 1[20102 -> 20102], [Philippines -> Philippines]
+  path: 2[20102 -> 10002], [Philippines -> Asia] 
+
+srcNodes: [70397, 20023, 10002]
+  path: 0[20023 -> 20036 -> 70397], [Russia -> Norway -> Roman Catholic] 
+
+  path: 1[20023 -> 20023], [Russia -> Russia]
+  path: 2[20023 -> 10002], [Russia -> Asia] 
+
+srcNodes: [70348, 20031, 10002]
+  path: 0[20031 -> 20029 -> 70348], [Turkey -> Bulgaria -> Roman Catholic] 
+
+  path: 1[20031 -> 20031], [Turkey -> Turkey]
+  path: 2[20031 -> 10002], [Turkey -> Asia] 
+
+srcNodes: [70416, 20068, 10002]
+  path: 0[20068 -> 20086 -> 70416], [Malaysia -> Indonesia -> Roman Catholic] 
+
+  path: 1[20068 -> 20068], [Malaysia -> Malaysia]
+  path: 2[20068 -> 10002], [Malaysia -> Asia] 
+
+-----------------------------------------
+ResultDestNodes: [10002, 20086, 20077, 20102, 20023, 20031, 20068]
+ResultRelevs: [12.33629035949707, 10.86064338684082, 10.86064338684082, 10.86064338684082, 10.407707214355469, 10.407707214355469, 10.407707214355469]
+AvgResultRelev: 10.877334594726562
+AvgResultDissimilarity: 0.6190476190476191
+Num of entries retrieved from the KNLists: 165
+Num of entries retrieved from NKMaps: 241
+Num of answer trees explored: 93
+Num of answer tree sets created: 127
+Num of answer tree sets removed: 0
+Max Num of answer tree sets in Q[]: 127
+
+Div Top-k Search by Astar02, k=7
+[catholic, country, asia]
+srcNodes: [70391, 20023, 10002]
+  path: 0[10002 -> 20077 -> 70391], [Asia -> Macau -> Roman Catholic] 
+
+  path: 1[10002 -> 20023], [Asia -> Russia] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [70416, 20086, 10002]
+  path: 0[20086 -> 70416], [Indonesia -> Roman Catholic] 
+
+  path: 1[20086 -> 20086], [Indonesia -> Indonesia]
+  path: 2[20086 -> 10002], [Indonesia -> Asia] 
+
+srcNodes: [70391, 20077, 10002]
+  path: 0[20077 -> 70391], [Macau -> Roman Catholic] 
+
+  path: 1[20077 -> 20077], [Macau -> Macau]
+  path: 2[20077 -> 10002], [Macau -> Asia] 
+
+srcNodes: [70419, 20102, 10002]
+  path: 0[20102 -> 70419], [Philippines -> Roman Catholic] 
+
+  path: 1[20102 -> 20102], [Philippines -> Philippines]
+  path: 2[20102 -> 10002], [Philippines -> Asia] 
+
+srcNodes: [70397, 20023, 10002]
+  path: 0[20023 -> 20036 -> 70397], [Russia -> Norway -> Roman Catholic] 
+
+  path: 1[20023 -> 20023], [Russia -> Russia]
+  path: 2[20023 -> 10002], [Russia -> Asia] 
+
+srcNodes: [70348, 20031, 10002]
+  path: 0[20031 -> 20029 -> 70348], [Turkey -> Bulgaria -> Roman Catholic] 
+
+  path: 1[20031 -> 20031], [Turkey -> Turkey]
+  path: 2[20031 -> 10002], [Turkey -> Asia] 
+
+srcNodes: [70416, 20068, 10002]
+  path: 0[20068 -> 20086 -> 70416], [Malaysia -> Indonesia -> Roman Catholic] 
+
+  path: 1[20068 -> 20068], [Malaysia -> Malaysia]
+  path: 2[20068 -> 10002], [Malaysia -> Asia] 
+
+-----------------------------------------
+ResultDestNodes: [10002, 20086, 20077, 20102, 20023, 20031, 20068]
+ResultRelevs: [12.33629035949707, 10.86064338684082, 10.86064338684082, 10.86064338684082, 10.407707214355469, 10.407707214355469, 10.407707214355469]
+AvgResultRelev: 10.877334594726562
+AvgResultDissimilarity: 0.6190476190476188
+Num of entries retrieved from the KNLists: 165
+Num of entries retrieved from NKMaps: 241
+Num of answer trees explored: 93
+Num of states created: 30
+Num of states explored: 12
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 22
+
+Div Top-k Search by Astar1nc_ap, k=7
+[catholic, country, asia]
+srcNodes: [70391, 20023, 10002]
+  path: 0[10002 -> 20077 -> 70391], [Asia -> Macau -> Roman Catholic] 
+
+  path: 1[10002 -> 20023], [Asia -> Russia] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [70416, 20086, 10002]
+  path: 0[20086 -> 70416], [Indonesia -> Roman Catholic] 
+
+  path: 1[20086 -> 20086], [Indonesia -> Indonesia]
+  path: 2[20086 -> 10002], [Indonesia -> Asia] 
+
+srcNodes: [70391, 20077, 10002]
+  path: 0[20077 -> 70391], [Macau -> Roman Catholic] 
+
+  path: 1[20077 -> 20077], [Macau -> Macau]
+  path: 2[20077 -> 10002], [Macau -> Asia] 
+
+srcNodes: [70419, 20102, 10002]
+  path: 0[20102 -> 70419], [Philippines -> Roman Catholic] 
+
+  path: 1[20102 -> 20102], [Philippines -> Philippines]
+  path: 2[20102 -> 10002], [Philippines -> Asia] 
+
+srcNodes: [70397, 20023, 10002]
+  path: 0[20023 -> 20036 -> 70397], [Russia -> Norway -> Roman Catholic] 
+
+  path: 1[20023 -> 20023], [Russia -> Russia]
+  path: 2[20023 -> 10002], [Russia -> Asia] 
+
+srcNodes: [70348, 20031, 10002]
+  path: 0[20031 -> 20029 -> 70348], [Turkey -> Bulgaria -> Roman Catholic] 
+
+  path: 1[20031 -> 20031], [Turkey -> Turkey]
+  path: 2[20031 -> 10002], [Turkey -> Asia] 
+
+srcNodes: [70416, 20068, 10002]
+  path: 0[20068 -> 20086 -> 70416], [Malaysia -> Indonesia -> Roman Catholic] 
+
+  path: 1[20068 -> 20068], [Malaysia -> Malaysia]
+  path: 2[20068 -> 10002], [Malaysia -> Asia] 
+
+-----------------------------------------
+ResultDestNodes: [10002, 20086, 20077, 20102, 20023, 20031, 20068]
+ResultRelevs: [12.33629035949707, 10.86064338684082, 10.86064338684082, 10.86064338684082, 10.407707214355469, 10.407707214355469, 10.407707214355469]
+AvgResultRelev: 10.877334594726562
+AvgResultDissimilarity: 0.6190476190476188
+Num of entries retrieved from the KNLists: 165
+Num of entries retrieved from NKMaps: 241
+Num of answer trees explored: 93
+Num of states created: 8
+Num of states explored: 8
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+query: [muslim, country, africa]
+Top-k Search by Blink-BDB, k=7
+[muslim, country, africa]
+srcNodes: [70173, 20085, 10000]
+  path: 0[10000 -> 20196 -> 70173], [Africa -> Burkina Faso -> Muslim] 
+
+  path: 1[10000 -> 20085], [Africa -> Egypt] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [70188, 20085, 10000]
+  path: 0[20085 -> 70188], [Egypt -> Muslim] 
+
+  path: 1[20085 -> 20085], [Egypt -> Egypt]
+  path: 2[20085 -> 10000], [Egypt -> Africa] 
+
+srcNodes: [70187, 20226, 10000]
+  path: 0[20226 -> 70187], [Uganda -> Muslim] 
+
+  path: 1[20226 -> 20226], [Uganda -> Uganda]
+  path: 2[20226 -> 10000], [Uganda -> Africa] 
+
+srcNodes: [70231, 20228, 10000]
+  path: 0[20228 -> 70231], [Madagascar -> Muslim] 
+
+  path: 1[20228 -> 20228], [Madagascar -> Madagascar]
+  path: 2[20228 -> 10000], [Madagascar -> Africa] 
+
+srcNodes: [70218, 20229, 10000]
+  path: 0[20229 -> 70218], [Malawi -> Muslim] 
+
+  path: 1[20229 -> 20229], [Malawi -> Malawi]
+  path: 2[20229 -> 10000], [Malawi -> Africa] 
+
+srcNodes: [70215, 20230, 10000]
+  path: 0[20230 -> 70215], [Mozambique -> Muslim] 
+
+  path: 1[20230 -> 20230], [Mozambique -> Mozambique]
+  path: 2[20230 -> 10000], [Mozambique -> Africa] 
+
+srcNodes: [70216, 20231, 10000]
+  path: 0[20231 -> 70216], [Mauritius -> Muslim] 
+
+  path: 1[20231 -> 20231], [Mauritius -> Mauritius]
+  path: 2[20231 -> 10000], [Mauritius -> Africa] 
+
+-----------------------------------------
+Num of top-k answers: 7
+ResultDestNodes: [10000, 20085, 20226, 20228, 20229, 20230, 20231]
+ResultRelevs: [12.691753387451172, 11.3358154296875, 11.3358154296875, 11.3358154296875, 11.3358154296875, 11.3358154296875, 11.3358154296875]
+AvgResultRelev: 11.529520852225167
+AvgResultDissimilarity: 0.6507936507936506
+Num of entries retrieved from the lists: 172
+Num of entries retrieved from NKMaps: 238
+Num of answer trees explored: 73
+
+Div Top-k Search by Exhustive, k=7
+[muslim, country, africa]
+srcNodes: [70173, 20085, 10000]
+  path: 0[10000 -> 20196 -> 70173], [Africa -> Burkina Faso -> Muslim] 
+
+  path: 1[10000 -> 20085], [Africa -> Egypt] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [70231, 20228, 10000]
+  path: 0[20228 -> 70231], [Madagascar -> Muslim] 
+
+  path: 1[20228 -> 20228], [Madagascar -> Madagascar]
+  path: 2[20228 -> 10000], [Madagascar -> Africa] 
+
+srcNodes: [70215, 20230, 10000]
+  path: 0[20230 -> 70215], [Mozambique -> Muslim] 
+
+  path: 1[20230 -> 20230], [Mozambique -> Mozambique]
+  path: 2[20230 -> 10000], [Mozambique -> Africa] 
+
+srcNodes: [70183, 20214, 10000]
+  path: 0[20214 -> 70183], [Comoros -> Muslim] 
+
+  path: 1[20214 -> 20214], [Comoros -> Comoros]
+  path: 2[20214 -> 10000], [Comoros -> Africa] 
+
+srcNodes: [70216, 20231, 10000]
+  path: 0[20231 -> 70216], [Mauritius -> Muslim] 
+
+  path: 1[20231 -> 20231], [Mauritius -> Mauritius]
+  path: 2[20231 -> 10000], [Mauritius -> Africa] 
+
+srcNodes: [70252, 20188, 10000]
+  path: 0[20188 -> 70252], [Tunisia -> Muslim] 
+
+  path: 1[20188 -> 20188], [Tunisia -> Tunisia]
+  path: 2[20188 -> 10000], [Tunisia -> Africa] 
+
+srcNodes: [70265, 20201, 10000]
+  path: 0[20201 -> 70265], [Zimbabwe -> Muslim] 
+
+  path: 1[20201 -> 20201], [Zimbabwe -> Zimbabwe]
+  path: 2[20201 -> 10000], [Zimbabwe -> Africa] 
+
+-----------------------------------------
+ResultDestNodes: [10000, 20228, 20230, 20214, 20231, 20188, 20201]
+ResultRelevs: [12.691753387451172, 11.3358154296875, 11.3358154296875, 11.3358154296875, 11.3358154296875, 11.3358154296875, 11.3358154296875]
+AvgResultRelev: 11.529520852225167
+AvgResultDissimilarity: 0.6666666666666666
+Num of entries retrieved from the KNLists: 171
+Num of entries retrieved from NKMaps: 237
+Num of answer trees explored: 73
+Num of answer tree sets created: 127
+Num of answer tree sets removed: 0
+Max Num of answer tree sets in Q[]: 127
+
+Div Top-k Search by Astar02, k=7
+[muslim, country, africa]
+srcNodes: [70173, 20085, 10000]
+  path: 0[10000 -> 20196 -> 70173], [Africa -> Burkina Faso -> Muslim] 
+
+  path: 1[10000 -> 20085], [Africa -> Egypt] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [70231, 20228, 10000]
+  path: 0[20228 -> 70231], [Madagascar -> Muslim] 
+
+  path: 1[20228 -> 20228], [Madagascar -> Madagascar]
+  path: 2[20228 -> 10000], [Madagascar -> Africa] 
+
+srcNodes: [70215, 20230, 10000]
+  path: 0[20230 -> 70215], [Mozambique -> Muslim] 
+
+  path: 1[20230 -> 20230], [Mozambique -> Mozambique]
+  path: 2[20230 -> 10000], [Mozambique -> Africa] 
+
+srcNodes: [70183, 20214, 10000]
+  path: 0[20214 -> 70183], [Comoros -> Muslim] 
+
+  path: 1[20214 -> 20214], [Comoros -> Comoros]
+  path: 2[20214 -> 10000], [Comoros -> Africa] 
+
+srcNodes: [70216, 20231, 10000]
+  path: 0[20231 -> 70216], [Mauritius -> Muslim] 
+
+  path: 1[20231 -> 20231], [Mauritius -> Mauritius]
+  path: 2[20231 -> 10000], [Mauritius -> Africa] 
+
+srcNodes: [70252, 20188, 10000]
+  path: 0[20188 -> 70252], [Tunisia -> Muslim] 
+
+  path: 1[20188 -> 20188], [Tunisia -> Tunisia]
+  path: 2[20188 -> 10000], [Tunisia -> Africa] 
+
+srcNodes: [70265, 20201, 10000]
+  path: 0[20201 -> 70265], [Zimbabwe -> Muslim] 
+
+  path: 1[20201 -> 20201], [Zimbabwe -> Zimbabwe]
+  path: 2[20201 -> 10000], [Zimbabwe -> Africa] 
+
+-----------------------------------------
+ResultDestNodes: [10000, 20228, 20230, 20214, 20231, 20188, 20201]
+ResultRelevs: [12.691753387451172, 11.3358154296875, 11.3358154296875, 11.3358154296875, 11.3358154296875, 11.3358154296875, 11.3358154296875]
+AvgResultRelev: 11.529520852225167
+AvgResultDissimilarity: 0.6666666666666664
+Num of entries retrieved from the KNLists: 171
+Num of entries retrieved from NKMaps: 237
+Num of answer trees explored: 73
+Num of states created: 70
+Num of states explored: 62
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 21
+
+Div Top-k Search by Astar1nc_ap, k=7
+[muslim, country, africa]
+srcNodes: [70173, 20085, 10000]
+  path: 0[10000 -> 20196 -> 70173], [Africa -> Burkina Faso -> Muslim] 
+
+  path: 1[10000 -> 20085], [Africa -> Egypt] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [70231, 20228, 10000]
+  path: 0[20228 -> 70231], [Madagascar -> Muslim] 
+
+  path: 1[20228 -> 20228], [Madagascar -> Madagascar]
+  path: 2[20228 -> 10000], [Madagascar -> Africa] 
+
+srcNodes: [70215, 20230, 10000]
+  path: 0[20230 -> 70215], [Mozambique -> Muslim] 
+
+  path: 1[20230 -> 20230], [Mozambique -> Mozambique]
+  path: 2[20230 -> 10000], [Mozambique -> Africa] 
+
+srcNodes: [70183, 20214, 10000]
+  path: 0[20214 -> 70183], [Comoros -> Muslim] 
+
+  path: 1[20214 -> 20214], [Comoros -> Comoros]
+  path: 2[20214 -> 10000], [Comoros -> Africa] 
+
+srcNodes: [70216, 20231, 10000]
+  path: 0[20231 -> 70216], [Mauritius -> Muslim] 
+
+  path: 1[20231 -> 20231], [Mauritius -> Mauritius]
+  path: 2[20231 -> 10000], [Mauritius -> Africa] 
+
+srcNodes: [70252, 20188, 10000]
+  path: 0[20188 -> 70252], [Tunisia -> Muslim] 
+
+  path: 1[20188 -> 20188], [Tunisia -> Tunisia]
+  path: 2[20188 -> 10000], [Tunisia -> Africa] 
+
+srcNodes: [70265, 20201, 10000]
+  path: 0[20201 -> 70265], [Zimbabwe -> Muslim] 
+
+  path: 1[20201 -> 20201], [Zimbabwe -> Zimbabwe]
+  path: 2[20201 -> 10000], [Zimbabwe -> Africa] 
+
+-----------------------------------------
+ResultDestNodes: [10000, 20228, 20230, 20214, 20231, 20188, 20201]
+ResultRelevs: [12.691753387451172, 11.3358154296875, 11.3358154296875, 11.3358154296875, 11.3358154296875, 11.3358154296875, 11.3358154296875]
+AvgResultRelev: 11.529520852225167
+AvgResultDissimilarity: 0.6666666666666664
+Num of entries retrieved from the KNLists: 171
+Num of entries retrieved from NKMaps: 237
+Num of answer trees explored: 73
+Num of states created: 8
+Num of states explored: 8
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+query: [muslim, republic, country]
+Top-k Search by Blink-BDB, k=7
+[muslim, republic, country]
+srcNodes: [70230, 60094, 20094]
+  path: 0[20094 -> 70230], [Lebanon -> Muslim] 
+
+  path: 1[20094 -> 60094], [Lebanon -> republic] 
+
+  path: 2[20094 -> 20094], [Lebanon -> Lebanon]
+srcNodes: [70184, 60082, 20082]
+  path: 0[20082 -> 70184], [Cyprus -> Muslim] 
+
+  path: 1[20082 -> 60082], [Cyprus -> republic] 
+
+  path: 2[20082 -> 20082], [Cyprus -> Cyprus]
+srcNodes: [70201, 60084, 20084]
+  path: 0[20084 -> 70201], [Israel -> Muslim] 
+
+  path: 1[20084 -> 60084], [Israel -> republic] 
+
+  path: 2[20084 -> 20084], [Israel -> Israel]
+srcNodes: [70188, 60085, 20085]
+  path: 0[20085 -> 70188], [Egypt -> Muslim] 
+
+  path: 1[20085 -> 60085], [Egypt -> republic] 
+
+  path: 2[20085 -> 20085], [Egypt -> Egypt]
+srcNodes: [70204, 60089, 20089]
+  path: 0[20089 -> 70204], [Iraq -> Muslim] 
+
+  path: 1[20089 -> 60089], [Iraq -> republic] 
+
+  path: 2[20089 -> 20089], [Iraq -> Iraq]
+srcNodes: [70228, 60086, 20086]
+  path: 0[20086 -> 70228], [Indonesia -> Muslim] 
+
+  path: 1[20086 -> 60086], [Indonesia -> republic] 
+
+  path: 2[20086 -> 20086], [Indonesia -> Indonesia]
+srcNodes: [70217, 60098, 20098]
+  path: 0[20098 -> 70217], [Maldives -> Muslim] 
+
+  path: 1[20098 -> 60098], [Maldives -> republic] 
+
+  path: 2[20098 -> 20098], [Maldives -> Maldives]
+-----------------------------------------
+Num of top-k answers: 7
+ResultDestNodes: [20094, 20082, 20084, 20085, 20089, 20086, 20098]
+ResultRelevs: [7.171648979187012, 7.171648979187012, 7.171648979187012, 7.171648979187012, 7.171648979187012, 7.171648979187012, 7.171648979187012]
+AvgResultRelev: 7.171648979187012
+AvgResultDissimilarity: 1.0
+Num of entries retrieved from the lists: 326
+Num of entries retrieved from NKMaps: 439
+Num of answer trees explored: 118
+
+Div Top-k Search by Exhustive, k=7
+[muslim, republic, country]
+srcNodes: [70201, 60084, 20084]
+  path: 0[20084 -> 70201], [Israel -> Muslim] 
+
+  path: 1[20084 -> 60084], [Israel -> republic] 
+
+  path: 2[20084 -> 20084], [Israel -> Israel]
+srcNodes: [70188, 60085, 20085]
+  path: 0[20085 -> 70188], [Egypt -> Muslim] 
+
+  path: 1[20085 -> 60085], [Egypt -> republic] 
+
+  path: 2[20085 -> 20085], [Egypt -> Egypt]
+srcNodes: [70230, 60094, 20094]
+  path: 0[20094 -> 70230], [Lebanon -> Muslim] 
+
+  path: 1[20094 -> 60094], [Lebanon -> republic] 
+
+  path: 2[20094 -> 20094], [Lebanon -> Lebanon]
+srcNodes: [70234, 60102, 20102]
+  path: 0[20102 -> 70234], [Philippines -> Muslim] 
+
+  path: 1[20102 -> 60102], [Philippines -> republic] 
+
+  path: 2[20102 -> 20102], [Philippines -> Philippines]
+srcNodes: [70191, 60149, 20149]
+  path: 0[20149 -> 70191], [Fiji -> Muslim] 
+
+  path: 1[20149 -> 60149], [Fiji -> republic] 
+
+  path: 2[20149 -> 20149], [Fiji -> Fiji]
+srcNodes: [70226, 60191, 20191]
+  path: 0[20191 -> 70226], [Congo -> Muslim] 
+
+  path: 1[20191 -> 60191], [Congo -> republic] 
+
+  path: 2[20191 -> 20191], [Congo -> Congo]
+srcNodes: [70229, 60185, 20185]
+  path: 0[20185 -> 70229], [Mauritania -> Muslim] 
+
+  path: 1[20185 -> 60185], [Mauritania -> republic] 
+
+  path: 2[20185 -> 20185], [Mauritania -> Mauritania]
+-----------------------------------------
+ResultDestNodes: [20084, 20085, 20094, 20102, 20149, 20191, 20185]
+ResultRelevs: [7.171648979187012, 7.171648979187012, 7.171648979187012, 7.171648979187012, 7.171648979187012, 7.171648979187012, 7.171648979187012]
+AvgResultRelev: 7.171648979187012
+AvgResultDissimilarity: 1.0
+Num of entries retrieved from the KNLists: 326
+Num of entries retrieved from NKMaps: 439
+Num of answer trees explored: 118
+Num of answer tree sets created: 127
+Num of answer tree sets removed: 0
+Max Num of answer tree sets in Q[]: 127
+
+Div Top-k Search by Astar02, k=7
+[muslim, republic, country]
+srcNodes: [70201, 60084, 20084]
+  path: 0[20084 -> 70201], [Israel -> Muslim] 
+
+  path: 1[20084 -> 60084], [Israel -> republic] 
+
+  path: 2[20084 -> 20084], [Israel -> Israel]
+srcNodes: [70188, 60085, 20085]
+  path: 0[20085 -> 70188], [Egypt -> Muslim] 
+
+  path: 1[20085 -> 60085], [Egypt -> republic] 
+
+  path: 2[20085 -> 20085], [Egypt -> Egypt]
+srcNodes: [70230, 60094, 20094]
+  path: 0[20094 -> 70230], [Lebanon -> Muslim] 
+
+  path: 1[20094 -> 60094], [Lebanon -> republic] 
+
+  path: 2[20094 -> 20094], [Lebanon -> Lebanon]
+srcNodes: [70234, 60102, 20102]
+  path: 0[20102 -> 70234], [Philippines -> Muslim] 
+
+  path: 1[20102 -> 60102], [Philippines -> republic] 
+
+  path: 2[20102 -> 20102], [Philippines -> Philippines]
+srcNodes: [70191, 60149, 20149]
+  path: 0[20149 -> 70191], [Fiji -> Muslim] 
+
+  path: 1[20149 -> 60149], [Fiji -> republic] 
+
+  path: 2[20149 -> 20149], [Fiji -> Fiji]
+srcNodes: [70226, 60191, 20191]
+  path: 0[20191 -> 70226], [Congo -> Muslim] 
+
+  path: 1[20191 -> 60191], [Congo -> republic] 
+
+  path: 2[20191 -> 20191], [Congo -> Congo]
+srcNodes: [70229, 60185, 20185]
+  path: 0[20185 -> 70229], [Mauritania -> Muslim] 
+
+  path: 1[20185 -> 60185], [Mauritania -> republic] 
+
+  path: 2[20185 -> 20185], [Mauritania -> Mauritania]
+-----------------------------------------
+ResultDestNodes: [20084, 20085, 20094, 20102, 20149, 20191, 20185]
+ResultRelevs: [7.171648979187012, 7.171648979187012, 7.171648979187012, 7.171648979187012, 7.171648979187012, 7.171648979187012, 7.171648979187012]
+AvgResultRelev: 7.171648979187012
+AvgResultDissimilarity: 1.0
+Num of entries retrieved from the KNLists: 326
+Num of entries retrieved from NKMaps: 439
+Num of answer trees explored: 118
+Num of states created: 72
+Num of states explored: 67
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 12
+
+Div Top-k Search by Astar1nc_ap, k=7
+[muslim, republic, country]
+srcNodes: [70201, 60084, 20084]
+  path: 0[20084 -> 70201], [Israel -> Muslim] 
+
+  path: 1[20084 -> 60084], [Israel -> republic] 
+
+  path: 2[20084 -> 20084], [Israel -> Israel]
+srcNodes: [70188, 60085, 20085]
+  path: 0[20085 -> 70188], [Egypt -> Muslim] 
+
+  path: 1[20085 -> 60085], [Egypt -> republic] 
+
+  path: 2[20085 -> 20085], [Egypt -> Egypt]
+srcNodes: [70230, 60094, 20094]
+  path: 0[20094 -> 70230], [Lebanon -> Muslim] 
+
+  path: 1[20094 -> 60094], [Lebanon -> republic] 
+
+  path: 2[20094 -> 20094], [Lebanon -> Lebanon]
+srcNodes: [70234, 60102, 20102]
+  path: 0[20102 -> 70234], [Philippines -> Muslim] 
+
+  path: 1[20102 -> 60102], [Philippines -> republic] 
+
+  path: 2[20102 -> 20102], [Philippines -> Philippines]
+srcNodes: [70191, 60149, 20149]
+  path: 0[20149 -> 70191], [Fiji -> Muslim] 
+
+  path: 1[20149 -> 60149], [Fiji -> republic] 
+
+  path: 2[20149 -> 20149], [Fiji -> Fiji]
+srcNodes: [70226, 60191, 20191]
+  path: 0[20191 -> 70226], [Congo -> Muslim] 
+
+  path: 1[20191 -> 60191], [Congo -> republic] 
+
+  path: 2[20191 -> 20191], [Congo -> Congo]
+srcNodes: [70229, 60185, 20185]
+  path: 0[20185 -> 70229], [Mauritania -> Muslim] 
+
+  path: 1[20185 -> 60185], [Mauritania -> republic] 
+
+  path: 2[20185 -> 20185], [Mauritania -> Mauritania]
+-----------------------------------------
+ResultDestNodes: [20084, 20085, 20094, 20102, 20149, 20191, 20185]
+ResultRelevs: [7.171648979187012, 7.171648979187012, 7.171648979187012, 7.171648979187012, 7.171648979187012, 7.171648979187012, 7.171648979187012]
+AvgResultRelev: 7.171648979187012
+AvgResultDissimilarity: 1.0
+Num of entries retrieved from the KNLists: 326
+Num of entries retrieved from NKMaps: 439
+Num of answer trees explored: 118
+Num of states created: 8
+Num of states explored: 8
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+query: [catholic, monarchy, country]
+Top-k Search by Blink-BDB, k=7
+[catholic, monarchy, country]
+srcNodes: [70422, 60037, 20037]
+  path: 0[20037 -> 70422], [Sweden -> Roman Catholic] 
+
+  path: 1[20037 -> 60037], [Sweden -> constitutional monarchy] 
+
+  path: 2[20037 -> 20037], [Sweden -> Sweden]
+srcNodes: [70365, 60032, 20032]
+  path: 0[20032 -> 70365], [Denmark -> Roman Catholic] 
+
+  path: 1[20032 -> 60032], [Denmark -> constitutional monarchy] 
+
+  path: 2[20032 -> 20032], [Denmark -> Denmark]
+srcNodes: [70374, 60014, 20014]
+  path: 0[20014 -> 70374], [Liechtenstein -> Roman Catholic] 
+
+  path: 1[20014 -> 60014], [Liechtenstein -> hereditary constitutional monarchy] 
+
+  path: 2[20014 -> 20014], [Liechtenstein -> Liechtenstein]
+srcNodes: [70367, 60008, 20008]
+  path: 0[20008 -> 70367], [Spain -> Roman Catholic] 
+
+  path: 1[20008 -> 60008], [Spain -> parliamentary monarchy] 
+
+  path: 2[20008 -> 20008], [Spain -> Spain]
+srcNodes: [70397, 60036, 20036]
+  path: 0[20036 -> 70397], [Norway -> Roman Catholic] 
+
+  path: 1[20036 -> 60036], [Norway -> constitutional monarchy] 
+
+  path: 2[20036 -> 20036], [Norway -> Norway]
+srcNodes: [70393, 60038, 20038]
+  path: 0[20038 -> 70393], [Monaco -> Roman Catholic] 
+
+  path: 1[20038 -> 60038], [Monaco -> constitutional monarchy] 
+
+  path: 2[20038 -> 20038], [Monaco -> Monaco]
+srcNodes: [70389, 60025, 20025]
+  path: 0[20025 -> 70389], [Luxembourg -> Roman Catholic] 
+
+  path: 1[20025 -> 60025], [Luxembourg -> constitutional monarchy] 
+
+  path: 2[20025 -> 20025], [Luxembourg -> Luxembourg]
+-----------------------------------------
+Num of top-k answers: 7
+ResultDestNodes: [20037, 20032, 20014, 20008, 20036, 20038, 20025]
+ResultRelevs: [6.743952751159668, 6.743952751159668, 6.743952751159668, 6.743952751159668, 6.743952751159668, 6.743952751159668, 6.743952751159668]
+AvgResultRelev: 6.743952751159668
+AvgResultDissimilarity: 1.0
+Num of entries retrieved from the lists: 313
+Num of entries retrieved from NKMaps: 462
+Num of answer trees explored: 165
+
+Div Top-k Search by Exhustive, k=7
+[catholic, monarchy, country]
+srcNodes: [70374, 60014, 20014]
+  path: 0[20014 -> 70374], [Liechtenstein -> Roman Catholic] 
+
+  path: 1[20014 -> 60014], [Liechtenstein -> hereditary constitutional monarchy] 
+
+  path: 2[20014 -> 20014], [Liechtenstein -> Liechtenstein]
+srcNodes: [70389, 60025, 20025]
+  path: 0[20025 -> 70389], [Luxembourg -> Roman Catholic] 
+
+  path: 1[20025 -> 60025], [Luxembourg -> constitutional monarchy] 
+
+  path: 2[20025 -> 20025], [Luxembourg -> Luxembourg]
+srcNodes: [70401, 60026, 20026]
+  path: 0[20026 -> 70401], [Netherlands -> Roman Catholic] 
+
+  path: 1[20026 -> 60026], [Netherlands -> constitutional monarchy] 
+
+  path: 2[20026 -> 20026], [Netherlands -> Netherlands]
+srcNodes: [70345, 60024, 20024]
+  path: 0[20024 -> 70345], [Belgium -> Roman Catholic] 
+
+  path: 1[20024 -> 60024], [Belgium -> constitutional monarchy] 
+
+  path: 2[20024 -> 20024], [Belgium -> Belgium]
+srcNodes: [70367, 60008, 20008]
+  path: 0[20008 -> 70367], [Spain -> Roman Catholic] 
+
+  path: 1[20008 -> 60008], [Spain -> parliamentary monarchy] 
+
+  path: 2[20008 -> 20008], [Spain -> Spain]
+srcNodes: [70397, 60036, 20036]
+  path: 0[20036 -> 70397], [Norway -> Roman Catholic] 
+
+  path: 1[20036 -> 60036], [Norway -> constitutional monarchy] 
+
+  path: 2[20036 -> 20036], [Norway -> Norway]
+srcNodes: [70422, 60037, 20037]
+  path: 0[20037 -> 70422], [Sweden -> Roman Catholic] 
+
+  path: 1[20037 -> 60037], [Sweden -> constitutional monarchy] 
+
+  path: 2[20037 -> 20037], [Sweden -> Sweden]
+-----------------------------------------
+ResultDestNodes: [20014, 20025, 20026, 20024, 20008, 20036, 20037]
+ResultRelevs: [6.743952751159668, 6.743952751159668, 6.743952751159668, 6.743952751159668, 6.743952751159668, 6.743952751159668, 6.743952751159668]
+AvgResultRelev: 6.743952751159668
+AvgResultDissimilarity: 1.0
+Num of entries retrieved from the KNLists: 313
+Num of entries retrieved from NKMaps: 462
+Num of answer trees explored: 165
+Num of answer tree sets created: 127
+Num of answer tree sets removed: 0
+Max Num of answer tree sets in Q[]: 127
+
+Div Top-k Search by Astar02, k=7
+[catholic, monarchy, country]
+srcNodes: [70374, 60014, 20014]
+  path: 0[20014 -> 70374], [Liechtenstein -> Roman Catholic] 
+
+  path: 1[20014 -> 60014], [Liechtenstein -> hereditary constitutional monarchy] 
+
+  path: 2[20014 -> 20014], [Liechtenstein -> Liechtenstein]
+srcNodes: [70389, 60025, 20025]
+  path: 0[20025 -> 70389], [Luxembourg -> Roman Catholic] 
+
+  path: 1[20025 -> 60025], [Luxembourg -> constitutional monarchy] 
+
+  path: 2[20025 -> 20025], [Luxembourg -> Luxembourg]
+srcNodes: [70401, 60026, 20026]
+  path: 0[20026 -> 70401], [Netherlands -> Roman Catholic] 
+
+  path: 1[20026 -> 60026], [Netherlands -> constitutional monarchy] 
+
+  path: 2[20026 -> 20026], [Netherlands -> Netherlands]
+srcNodes: [70345, 60024, 20024]
+  path: 0[20024 -> 70345], [Belgium -> Roman Catholic] 
+
+  path: 1[20024 -> 60024], [Belgium -> constitutional monarchy] 
+
+  path: 2[20024 -> 20024], [Belgium -> Belgium]
+srcNodes: [70367, 60008, 20008]
+  path: 0[20008 -> 70367], [Spain -> Roman Catholic] 
+
+  path: 1[20008 -> 60008], [Spain -> parliamentary monarchy] 
+
+  path: 2[20008 -> 20008], [Spain -> Spain]
+srcNodes: [70397, 60036, 20036]
+  path: 0[20036 -> 70397], [Norway -> Roman Catholic] 
+
+  path: 1[20036 -> 60036], [Norway -> constitutional monarchy] 
+
+  path: 2[20036 -> 20036], [Norway -> Norway]
+srcNodes: [70422, 60037, 20037]
+  path: 0[20037 -> 70422], [Sweden -> Roman Catholic] 
+
+  path: 1[20037 -> 60037], [Sweden -> constitutional monarchy] 
+
+  path: 2[20037 -> 20037], [Sweden -> Sweden]
+-----------------------------------------
+ResultDestNodes: [20014, 20025, 20026, 20024, 20008, 20036, 20037]
+ResultRelevs: [6.743952751159668, 6.743952751159668, 6.743952751159668, 6.743952751159668, 6.743952751159668, 6.743952751159668, 6.743952751159668]
+AvgResultRelev: 6.743952751159668
+AvgResultDissimilarity: 1.0
+Num of entries retrieved from the KNLists: 313
+Num of entries retrieved from NKMaps: 462
+Num of answer trees explored: 165
+Num of states created: 72
+Num of states explored: 67
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 12
+
+Div Top-k Search by Astar1nc_ap, k=7
+[catholic, monarchy, country]
+srcNodes: [70374, 60014, 20014]
+  path: 0[20014 -> 70374], [Liechtenstein -> Roman Catholic] 
+
+  path: 1[20014 -> 60014], [Liechtenstein -> hereditary constitutional monarchy] 
+
+  path: 2[20014 -> 20014], [Liechtenstein -> Liechtenstein]
+srcNodes: [70389, 60025, 20025]
+  path: 0[20025 -> 70389], [Luxembourg -> Roman Catholic] 
+
+  path: 1[20025 -> 60025], [Luxembourg -> constitutional monarchy] 
+
+  path: 2[20025 -> 20025], [Luxembourg -> Luxembourg]
+srcNodes: [70401, 60026, 20026]
+  path: 0[20026 -> 70401], [Netherlands -> Roman Catholic] 
+
+  path: 1[20026 -> 60026], [Netherlands -> constitutional monarchy] 
+
+  path: 2[20026 -> 20026], [Netherlands -> Netherlands]
+srcNodes: [70345, 60024, 20024]
+  path: 0[20024 -> 70345], [Belgium -> Roman Catholic] 
+
+  path: 1[20024 -> 60024], [Belgium -> constitutional monarchy] 
+
+  path: 2[20024 -> 20024], [Belgium -> Belgium]
+srcNodes: [70367, 60008, 20008]
+  path: 0[20008 -> 70367], [Spain -> Roman Catholic] 
+
+  path: 1[20008 -> 60008], [Spain -> parliamentary monarchy] 
+
+  path: 2[20008 -> 20008], [Spain -> Spain]
+srcNodes: [70397, 60036, 20036]
+  path: 0[20036 -> 70397], [Norway -> Roman Catholic] 
+
+  path: 1[20036 -> 60036], [Norway -> constitutional monarchy] 
+
+  path: 2[20036 -> 20036], [Norway -> Norway]
+srcNodes: [70422, 60037, 20037]
+  path: 0[20037 -> 70422], [Sweden -> Roman Catholic] 
+
+  path: 1[20037 -> 60037], [Sweden -> constitutional monarchy] 
+
+  path: 2[20037 -> 20037], [Sweden -> Sweden]
+-----------------------------------------
+ResultDestNodes: [20014, 20025, 20026, 20024, 20008, 20036, 20037]
+ResultRelevs: [6.743952751159668, 6.743952751159668, 6.743952751159668, 6.743952751159668, 6.743952751159668, 6.743952751159668, 6.743952751159668]
+AvgResultRelev: 6.743952751159668
+AvgResultDissimilarity: 1.0
+Num of entries retrieved from the KNLists: 313
+Num of entries retrieved from NKMaps: 462
+Num of answer trees explored: 165
+Num of states created: 8
+Num of states explored: 8
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+query: [protestant, republic, country]
+Top-k Search by Blink-BDB, k=7
+[protestant, republic, country]
+srcNodes: [70323, 60205, 20205]
+  path: 0[20205 -> 70323], [Rwanda -> Protestant] 
+
+  path: 1[20205 -> 60205], [Rwanda -> republic] 
+
+  path: 2[20205 -> 20205], [Rwanda -> Rwanda]
+srcNodes: [70315, 60169, 20169]
+  path: 0[20169 -> 70315], [Argentina -> Protestant] 
+
+  path: 1[20169 -> 60169], [Argentina -> republic] 
+
+  path: 2[20169 -> 20169], [Argentina -> Argentina]
+srcNodes: [70301, 60152, 20152]
+  path: 0[20152 -> 70301], [Kiribati -> Protestant] 
+
+  path: 1[20152 -> 60152], [Kiribati -> republic] 
+
+  path: 2[20152 -> 20152], [Kiribati -> Kiribati]
+srcNodes: [70317, 60172, 20172]
+  path: 0[20172 -> 70317], [Chile -> Protestant] 
+
+  path: 1[20172 -> 60172], [Chile -> republic] 
+
+  path: 2[20172 -> 20172], [Chile -> Chile]
+srcNodes: [70322, 60102, 20102]
+  path: 0[20102 -> 70322], [Philippines -> Protestant] 
+
+  path: 1[20102 -> 60102], [Philippines -> republic] 
+
+  path: 2[20102 -> 20102], [Philippines -> Philippines]
+srcNodes: [70319, 60086, 20086]
+  path: 0[20086 -> 70319], [Indonesia -> Protestant] 
+
+  path: 1[20086 -> 60086], [Indonesia -> republic] 
+
+  path: 2[20086 -> 20086], [Indonesia -> Indonesia]
+srcNodes: [70286, 60221, 20221]
+  path: 0[20221 -> 70286], [Kenya -> Protestant] 
+
+  path: 1[20221 -> 60221], [Kenya -> republic] 
+
+  path: 2[20221 -> 20221], [Kenya -> Kenya]
+-----------------------------------------
+Num of top-k answers: 7
+ResultDestNodes: [20205, 20169, 20152, 20172, 20102, 20086, 20221]
+ResultRelevs: [7.335737228393555, 7.335737228393555, 7.335737228393555, 7.335737228393555, 7.335737228393555, 7.335737228393555, 7.335737228393555]
+AvgResultRelev: 7.335737228393555
+AvgResultDissimilarity: 1.0
+Num of entries retrieved from the lists: 326
+Num of entries retrieved from NKMaps: 432
+Num of answer trees explored: 130
+
+Div Top-k Search by Exhustive, k=7
+[protestant, republic, country]
+srcNodes: [70319, 60086, 20086]
+  path: 0[20086 -> 70319], [Indonesia -> Protestant] 
+
+  path: 1[20086 -> 60086], [Indonesia -> republic] 
+
+  path: 2[20086 -> 20086], [Indonesia -> Indonesia]
+srcNodes: [70322, 60102, 20102]
+  path: 0[20102 -> 70322], [Philippines -> Protestant] 
+
+  path: 1[20102 -> 60102], [Philippines -> republic] 
+
+  path: 2[20102 -> 20102], [Philippines -> Philippines]
+srcNodes: [70317, 60172, 20172]
+  path: 0[20172 -> 70317], [Chile -> Protestant] 
+
+  path: 1[20172 -> 60172], [Chile -> republic] 
+
+  path: 2[20172 -> 20172], [Chile -> Chile]
+srcNodes: [70335, 60179, 20179]
+  path: 0[20179 -> 70335], [Venezuela -> Protestant] 
+
+  path: 1[20179 -> 60179], [Venezuela -> republic] 
+
+  path: 2[20179 -> 20179], [Venezuela -> Venezuela]
+srcNodes: [70306, 60192, 20192]
+  path: 0[20192 -> 70306], [Namibia -> Protestant] 
+
+  path: 1[20192 -> 60192], [Namibia -> republic] 
+
+  path: 2[20192 -> 20192], [Namibia -> Namibia]
+srcNodes: [70311, 60049, 20049]
+  path: 0[20049 -> 70311], [Portugal -> Protestant] 
+
+  path: 1[20049 -> 60049], [Portugal -> republic] 
+
+  path: 2[20049 -> 20049], [Portugal -> Portugal]
+srcNodes: [70287, 60226, 20226]
+  path: 0[20226 -> 70287], [Uganda -> Protestant] 
+
+  path: 1[20226 -> 60226], [Uganda -> republic] 
+
+  path: 2[20226 -> 20226], [Uganda -> Uganda]
+-----------------------------------------
+ResultDestNodes: [20086, 20102, 20172, 20179, 20192, 20049, 20226]
+ResultRelevs: [7.335737228393555, 7.335737228393555, 7.335737228393555, 7.335737228393555, 7.335737228393555, 7.335737228393555, 7.335737228393555]
+AvgResultRelev: 7.335737228393555
+AvgResultDissimilarity: 1.0
+Num of entries retrieved from the KNLists: 326
+Num of entries retrieved from NKMaps: 432
+Num of answer trees explored: 130
+Num of answer tree sets created: 127
+Num of answer tree sets removed: 0
+Max Num of answer tree sets in Q[]: 127
+
+Div Top-k Search by Astar02, k=7
+[protestant, republic, country]
+srcNodes: [70319, 60086, 20086]
+  path: 0[20086 -> 70319], [Indonesia -> Protestant] 
+
+  path: 1[20086 -> 60086], [Indonesia -> republic] 
+
+  path: 2[20086 -> 20086], [Indonesia -> Indonesia]
+srcNodes: [70322, 60102, 20102]
+  path: 0[20102 -> 70322], [Philippines -> Protestant] 
+
+  path: 1[20102 -> 60102], [Philippines -> republic] 
+
+  path: 2[20102 -> 20102], [Philippines -> Philippines]
+srcNodes: [70317, 60172, 20172]
+  path: 0[20172 -> 70317], [Chile -> Protestant] 
+
+  path: 1[20172 -> 60172], [Chile -> republic] 
+
+  path: 2[20172 -> 20172], [Chile -> Chile]
+srcNodes: [70335, 60179, 20179]
+  path: 0[20179 -> 70335], [Venezuela -> Protestant] 
+
+  path: 1[20179 -> 60179], [Venezuela -> republic] 
+
+  path: 2[20179 -> 20179], [Venezuela -> Venezuela]
+srcNodes: [70306, 60192, 20192]
+  path: 0[20192 -> 70306], [Namibia -> Protestant] 
+
+  path: 1[20192 -> 60192], [Namibia -> republic] 
+
+  path: 2[20192 -> 20192], [Namibia -> Namibia]
+srcNodes: [70311, 60049, 20049]
+  path: 0[20049 -> 70311], [Portugal -> Protestant] 
+
+  path: 1[20049 -> 60049], [Portugal -> republic] 
+
+  path: 2[20049 -> 20049], [Portugal -> Portugal]
+srcNodes: [70287, 60226, 20226]
+  path: 0[20226 -> 70287], [Uganda -> Protestant] 
+
+  path: 1[20226 -> 60226], [Uganda -> republic] 
+
+  path: 2[20226 -> 20226], [Uganda -> Uganda]
+-----------------------------------------
+ResultDestNodes: [20086, 20102, 20172, 20179, 20192, 20049, 20226]
+ResultRelevs: [7.335737228393555, 7.335737228393555, 7.335737228393555, 7.335737228393555, 7.335737228393555, 7.335737228393555, 7.335737228393555]
+AvgResultRelev: 7.335737228393555
+AvgResultDissimilarity: 1.0
+Num of entries retrieved from the KNLists: 326
+Num of entries retrieved from NKMaps: 432
+Num of answer trees explored: 130
+Num of states created: 72
+Num of states explored: 67
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 12
+
+Div Top-k Search by Astar1nc_ap, k=7
+[protestant, republic, country]
+srcNodes: [70319, 60086, 20086]
+  path: 0[20086 -> 70319], [Indonesia -> Protestant] 
+
+  path: 1[20086 -> 60086], [Indonesia -> republic] 
+
+  path: 2[20086 -> 20086], [Indonesia -> Indonesia]
+srcNodes: [70322, 60102, 20102]
+  path: 0[20102 -> 70322], [Philippines -> Protestant] 
+
+  path: 1[20102 -> 60102], [Philippines -> republic] 
+
+  path: 2[20102 -> 20102], [Philippines -> Philippines]
+srcNodes: [70317, 60172, 20172]
+  path: 0[20172 -> 70317], [Chile -> Protestant] 
+
+  path: 1[20172 -> 60172], [Chile -> republic] 
+
+  path: 2[20172 -> 20172], [Chile -> Chile]
+srcNodes: [70335, 60179, 20179]
+  path: 0[20179 -> 70335], [Venezuela -> Protestant] 
+
+  path: 1[20179 -> 60179], [Venezuela -> republic] 
+
+  path: 2[20179 -> 20179], [Venezuela -> Venezuela]
+srcNodes: [70306, 60192, 20192]
+  path: 0[20192 -> 70306], [Namibia -> Protestant] 
+
+  path: 1[20192 -> 60192], [Namibia -> republic] 
+
+  path: 2[20192 -> 20192], [Namibia -> Namibia]
+srcNodes: [70311, 60049, 20049]
+  path: 0[20049 -> 70311], [Portugal -> Protestant] 
+
+  path: 1[20049 -> 60049], [Portugal -> republic] 
+
+  path: 2[20049 -> 20049], [Portugal -> Portugal]
+srcNodes: [70287, 60226, 20226]
+  path: 0[20226 -> 70287], [Uganda -> Protestant] 
+
+  path: 1[20226 -> 60226], [Uganda -> republic] 
+
+  path: 2[20226 -> 20226], [Uganda -> Uganda]
+-----------------------------------------
+ResultDestNodes: [20086, 20102, 20172, 20179, 20192, 20049, 20226]
+ResultRelevs: [7.335737228393555, 7.335737228393555, 7.335737228393555, 7.335737228393555, 7.335737228393555, 7.335737228393555, 7.335737228393555]
+AvgResultRelev: 7.335737228393555
+AvgResultDissimilarity: 1.0
+Num of entries retrieved from the KNLists: 326
+Num of entries retrieved from NKMaps: 432
+Num of answer trees explored: 130
+Num of states created: 8
+Num of states explored: 8
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+query: [protestant, republic, europe]
+Top-k Search by Blink-BDB, k=7
+[protestant, republic, europe]
+srcNodes: [70270, 20010, 10004]
+  path: 0[10004 -> 20009 -> 70270], [Europe -> Austria -> Protestant] 
+
+  path: 1[10004 -> 20010], [Europe -> Czech Republic] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [70283, 20010, 10004]
+  path: 0[20010 -> 70283], [Czech Republic -> Protestant] 
+
+  path: 1[20010 -> 20010], [Czech Republic -> Czech Republic]
+  path: 2[20010 -> 10004], [Czech Republic -> Europe] 
+
+srcNodes: [70288, 60007, 10004]
+  path: 0[20007 -> 70288], [France -> Protestant] 
+
+  path: 1[20007 -> 60007], [France -> republic] 
+
+  path: 2[20007 -> 10004], [France -> Europe] 
+
+srcNodes: [70296, 60012, 10004]
+  path: 0[20012 -> 70296], [Hungary -> Protestant] 
+
+  path: 1[20012 -> 60012], [Hungary -> republic] 
+
+  path: 2[20012 -> 10004], [Hungary -> Europe] 
+
+srcNodes: [70325, 60035, 10004]
+  path: 0[20035 -> 70325], [Finland -> Protestant] 
+
+  path: 1[20035 -> 60035], [Finland -> republic] 
+
+  path: 2[20035 -> 10004], [Finland -> Europe] 
+
+srcNodes: [70320, 60030, 10004]
+  path: 0[20030 -> 70320], [Romania -> Protestant] 
+
+  path: 1[20030 -> 60030], [Romania -> republic] 
+
+  path: 2[20030 -> 10004], [Romania -> Europe] 
+
+srcNodes: [70311, 60049, 10004]
+  path: 0[20049 -> 70311], [Portugal -> Protestant] 
+
+  path: 1[20049 -> 60049], [Portugal -> republic] 
+
+  path: 2[20049 -> 10004], [Portugal -> Europe] 
+
+-----------------------------------------
+Num of top-k answers: 7
+ResultDestNodes: [10004, 20010, 20007, 20012, 20035, 20030, 20049]
+ResultRelevs: [12.688356399536133, 11.319428443908691, 11.001428604125977, 11.001428604125977, 11.001428604125977, 11.001428604125977, 11.001428604125977]
+AvgResultRelev: 11.287846837724958
+AvgResultDissimilarity: 0.6507936507936506
+Num of entries retrieved from the lists: 202
+Num of entries retrieved from NKMaps: 270
+Num of answer trees explored: 68
+
+Div Top-k Search by Exhustive, k=7
+[protestant, republic, europe]
+srcNodes: [70270, 20010, 10004]
+  path: 0[10004 -> 20009 -> 70270], [Europe -> Austria -> Protestant] 
+
+  path: 1[10004 -> 20010], [Europe -> Czech Republic] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [70283, 20010, 10004]
+  path: 0[20010 -> 70283], [Czech Republic -> Protestant] 
+
+  path: 1[20010 -> 20010], [Czech Republic -> Czech Republic]
+  path: 2[20010 -> 10004], [Czech Republic -> Europe] 
+
+srcNodes: [70296, 60012, 10004]
+  path: 0[20012 -> 70296], [Hungary -> Protestant] 
+
+  path: 1[20012 -> 60012], [Hungary -> republic] 
+
+  path: 2[20012 -> 10004], [Hungary -> Europe] 
+
+srcNodes: [70320, 60030, 10004]
+  path: 0[20030 -> 70320], [Romania -> Protestant] 
+
+  path: 1[20030 -> 60030], [Romania -> republic] 
+
+  path: 2[20030 -> 10004], [Romania -> Europe] 
+
+srcNodes: [70325, 60035, 10004]
+  path: 0[20035 -> 70325], [Finland -> Protestant] 
+
+  path: 1[20035 -> 60035], [Finland -> republic] 
+
+  path: 2[20035 -> 10004], [Finland -> Europe] 
+
+srcNodes: [70288, 60007, 10004]
+  path: 0[20007 -> 70288], [France -> Protestant] 
+
+  path: 1[20007 -> 60007], [France -> republic] 
+
+  path: 2[20007 -> 10004], [France -> Europe] 
+
+srcNodes: [70311, 60049, 10004]
+  path: 0[20049 -> 70311], [Portugal -> Protestant] 
+
+  path: 1[20049 -> 60049], [Portugal -> republic] 
+
+  path: 2[20049 -> 10004], [Portugal -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: [10004, 20010, 20012, 20030, 20035, 20007, 20049]
+ResultRelevs: [12.688356399536133, 11.319428443908691, 11.001428604125977, 11.001428604125977, 11.001428604125977, 11.001428604125977, 11.001428604125977]
+AvgResultRelev: 11.287846837724958
+AvgResultDissimilarity: 0.6507936205182757
+Num of entries retrieved from the KNLists: 202
+Num of entries retrieved from NKMaps: 270
+Num of answer trees explored: 68
+Num of answer tree sets created: 142
+Num of answer tree sets removed: 132
+Max Num of answer tree sets in Q[]: 127
+
+Div Top-k Search by Astar02, k=7
+[protestant, republic, europe]
+srcNodes: [70270, 20010, 10004]
+  path: 0[10004 -> 20009 -> 70270], [Europe -> Austria -> Protestant] 
+
+  path: 1[10004 -> 20010], [Europe -> Czech Republic] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [70283, 20010, 10004]
+  path: 0[20010 -> 70283], [Czech Republic -> Protestant] 
+
+  path: 1[20010 -> 20010], [Czech Republic -> Czech Republic]
+  path: 2[20010 -> 10004], [Czech Republic -> Europe] 
+
+srcNodes: [70296, 60012, 10004]
+  path: 0[20012 -> 70296], [Hungary -> Protestant] 
+
+  path: 1[20012 -> 60012], [Hungary -> republic] 
+
+  path: 2[20012 -> 10004], [Hungary -> Europe] 
+
+srcNodes: [70320, 60030, 10004]
+  path: 0[20030 -> 70320], [Romania -> Protestant] 
+
+  path: 1[20030 -> 60030], [Romania -> republic] 
+
+  path: 2[20030 -> 10004], [Romania -> Europe] 
+
+srcNodes: [70325, 60035, 10004]
+  path: 0[20035 -> 70325], [Finland -> Protestant] 
+
+  path: 1[20035 -> 60035], [Finland -> republic] 
+
+  path: 2[20035 -> 10004], [Finland -> Europe] 
+
+srcNodes: [70288, 60007, 10004]
+  path: 0[20007 -> 70288], [France -> Protestant] 
+
+  path: 1[20007 -> 60007], [France -> republic] 
+
+  path: 2[20007 -> 10004], [France -> Europe] 
+
+srcNodes: [70311, 60049, 10004]
+  path: 0[20049 -> 70311], [Portugal -> Protestant] 
+
+  path: 1[20049 -> 60049], [Portugal -> republic] 
+
+  path: 2[20049 -> 10004], [Portugal -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: [10004, 20010, 20012, 20030, 20035, 20007, 20049]
+ResultRelevs: [12.688356399536133, 11.319428443908691, 11.001428604125977, 11.001428604125977, 11.001428604125977, 11.001428604125977, 11.001428604125977]
+AvgResultRelev: 11.287846837724958
+AvgResultDissimilarity: 0.6507936507936506
+Num of entries retrieved from the KNLists: 202
+Num of entries retrieved from NKMaps: 270
+Num of answer trees explored: 68
+Num of states created: 34
+Num of states explored: 20
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 20
+
+Div Top-k Search by Astar1nc_ap, k=7
+[protestant, republic, europe]
+srcNodes: [70270, 20010, 10004]
+  path: 0[10004 -> 20009 -> 70270], [Europe -> Austria -> Protestant] 
+
+  path: 1[10004 -> 20010], [Europe -> Czech Republic] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [70283, 20010, 10004]
+  path: 0[20010 -> 70283], [Czech Republic -> Protestant] 
+
+  path: 1[20010 -> 20010], [Czech Republic -> Czech Republic]
+  path: 2[20010 -> 10004], [Czech Republic -> Europe] 
+
+srcNodes: [70296, 60012, 10004]
+  path: 0[20012 -> 70296], [Hungary -> Protestant] 
+
+  path: 1[20012 -> 60012], [Hungary -> republic] 
+
+  path: 2[20012 -> 10004], [Hungary -> Europe] 
+
+srcNodes: [70320, 60030, 10004]
+  path: 0[20030 -> 70320], [Romania -> Protestant] 
+
+  path: 1[20030 -> 60030], [Romania -> republic] 
+
+  path: 2[20030 -> 10004], [Romania -> Europe] 
+
+srcNodes: [70325, 60035, 10004]
+  path: 0[20035 -> 70325], [Finland -> Protestant] 
+
+  path: 1[20035 -> 60035], [Finland -> republic] 
+
+  path: 2[20035 -> 10004], [Finland -> Europe] 
+
+srcNodes: [70288, 60007, 10004]
+  path: 0[20007 -> 70288], [France -> Protestant] 
+
+  path: 1[20007 -> 60007], [France -> republic] 
+
+  path: 2[20007 -> 10004], [France -> Europe] 
+
+srcNodes: [70311, 60049, 10004]
+  path: 0[20049 -> 70311], [Portugal -> Protestant] 
+
+  path: 1[20049 -> 60049], [Portugal -> republic] 
+
+  path: 2[20049 -> 10004], [Portugal -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: [10004, 20010, 20012, 20030, 20035, 20007, 20049]
+ResultRelevs: [12.688356399536133, 11.319428443908691, 11.001428604125977, 11.001428604125977, 11.001428604125977, 11.001428604125977, 11.001428604125977]
+AvgResultRelev: 11.287846837724958
+AvgResultDissimilarity: 0.6507936507936506
+Num of entries retrieved from the KNLists: 202
+Num of entries retrieved from NKMaps: 270
+Num of answer trees explored: 68
+Num of states created: 8
+Num of states explored: 8
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+query: [protestant, republic, europe]
+Top-k Search by Blink-BDB, k=7
+[protestant, republic, europe]
+srcNodes: [70270, 20010, 10004]
+  path: 0[10004 -> 20009 -> 70270], [Europe -> Austria -> Protestant] 
+
+  path: 1[10004 -> 20010], [Europe -> Czech Republic] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [70283, 20010, 10004]
+  path: 0[20010 -> 70283], [Czech Republic -> Protestant] 
+
+  path: 1[20010 -> 20010], [Czech Republic -> Czech Republic]
+  path: 2[20010 -> 10004], [Czech Republic -> Europe] 
+
+srcNodes: [70288, 60007, 10004]
+  path: 0[20007 -> 70288], [France -> Protestant] 
+
+  path: 1[20007 -> 60007], [France -> republic] 
+
+  path: 2[20007 -> 10004], [France -> Europe] 
+
+srcNodes: [70296, 60012, 10004]
+  path: 0[20012 -> 70296], [Hungary -> Protestant] 
+
+  path: 1[20012 -> 60012], [Hungary -> republic] 
+
+  path: 2[20012 -> 10004], [Hungary -> Europe] 
+
+srcNodes: [70325, 60035, 10004]
+  path: 0[20035 -> 70325], [Finland -> Protestant] 
+
+  path: 1[20035 -> 60035], [Finland -> republic] 
+
+  path: 2[20035 -> 10004], [Finland -> Europe] 
+
+srcNodes: [70320, 60030, 10004]
+  path: 0[20030 -> 70320], [Romania -> Protestant] 
+
+  path: 1[20030 -> 60030], [Romania -> republic] 
+
+  path: 2[20030 -> 10004], [Romania -> Europe] 
+
+srcNodes: [70311, 60049, 10004]
+  path: 0[20049 -> 70311], [Portugal -> Protestant] 
+
+  path: 1[20049 -> 60049], [Portugal -> republic] 
+
+  path: 2[20049 -> 10004], [Portugal -> Europe] 
+
+-----------------------------------------
+Num of top-k answers: 7
+ResultDestNodes: [10004, 20010, 20007, 20012, 20035, 20030, 20049]
+ResultRelevs: [12.688356399536133, 11.319428443908691, 11.001428604125977, 11.001428604125977, 11.001428604125977, 11.001428604125977, 11.001428604125977]
+AvgResultRelev: 11.287846837724958
+AvgResultDissimilarity: 0.6507936507936506
+Num of entries retrieved from the lists: 202
+Num of entries retrieved from NKMaps: 270
+Num of answer trees explored: 68
+
+Div Top-k Search by Exhustive, k=7
+[protestant, republic, europe]
+srcNodes: [70270, 20010, 10004]
+  path: 0[10004 -> 20009 -> 70270], [Europe -> Austria -> Protestant] 
+
+  path: 1[10004 -> 20010], [Europe -> Czech Republic] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [70283, 20010, 10004]
+  path: 0[20010 -> 70283], [Czech Republic -> Protestant] 
+
+  path: 1[20010 -> 20010], [Czech Republic -> Czech Republic]
+  path: 2[20010 -> 10004], [Czech Republic -> Europe] 
+
+srcNodes: [70296, 60012, 10004]
+  path: 0[20012 -> 70296], [Hungary -> Protestant] 
+
+  path: 1[20012 -> 60012], [Hungary -> republic] 
+
+  path: 2[20012 -> 10004], [Hungary -> Europe] 
+
+srcNodes: [70320, 60030, 10004]
+  path: 0[20030 -> 70320], [Romania -> Protestant] 
+
+  path: 1[20030 -> 60030], [Romania -> republic] 
+
+  path: 2[20030 -> 10004], [Romania -> Europe] 
+
+srcNodes: [70325, 60035, 10004]
+  path: 0[20035 -> 70325], [Finland -> Protestant] 
+
+  path: 1[20035 -> 60035], [Finland -> republic] 
+
+  path: 2[20035 -> 10004], [Finland -> Europe] 
+
+srcNodes: [70288, 60007, 10004]
+  path: 0[20007 -> 70288], [France -> Protestant] 
+
+  path: 1[20007 -> 60007], [France -> republic] 
+
+  path: 2[20007 -> 10004], [France -> Europe] 
+
+srcNodes: [70311, 60049, 10004]
+  path: 0[20049 -> 70311], [Portugal -> Protestant] 
+
+  path: 1[20049 -> 60049], [Portugal -> republic] 
+
+  path: 2[20049 -> 10004], [Portugal -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: [10004, 20010, 20012, 20030, 20035, 20007, 20049]
+ResultRelevs: [12.688356399536133, 11.319428443908691, 11.001428604125977, 11.001428604125977, 11.001428604125977, 11.001428604125977, 11.001428604125977]
+AvgResultRelev: 11.287846837724958
+AvgResultDissimilarity: 0.6507936205182757
+Num of entries retrieved from the KNLists: 202
+Num of entries retrieved from NKMaps: 270
+Num of answer trees explored: 68
+Num of answer tree sets created: 142
+Num of answer tree sets removed: 132
+Max Num of answer tree sets in Q[]: 127
+
+Div Top-k Search by Astar02, k=7
+[protestant, republic, europe]
+srcNodes: [70270, 20010, 10004]
+  path: 0[10004 -> 20009 -> 70270], [Europe -> Austria -> Protestant] 
+
+  path: 1[10004 -> 20010], [Europe -> Czech Republic] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [70283, 20010, 10004]
+  path: 0[20010 -> 70283], [Czech Republic -> Protestant] 
+
+  path: 1[20010 -> 20010], [Czech Republic -> Czech Republic]
+  path: 2[20010 -> 10004], [Czech Republic -> Europe] 
+
+srcNodes: [70296, 60012, 10004]
+  path: 0[20012 -> 70296], [Hungary -> Protestant] 
+
+  path: 1[20012 -> 60012], [Hungary -> republic] 
+
+  path: 2[20012 -> 10004], [Hungary -> Europe] 
+
+srcNodes: [70320, 60030, 10004]
+  path: 0[20030 -> 70320], [Romania -> Protestant] 
+
+  path: 1[20030 -> 60030], [Romania -> republic] 
+
+  path: 2[20030 -> 10004], [Romania -> Europe] 
+
+srcNodes: [70325, 60035, 10004]
+  path: 0[20035 -> 70325], [Finland -> Protestant] 
+
+  path: 1[20035 -> 60035], [Finland -> republic] 
+
+  path: 2[20035 -> 10004], [Finland -> Europe] 
+
+srcNodes: [70288, 60007, 10004]
+  path: 0[20007 -> 70288], [France -> Protestant] 
+
+  path: 1[20007 -> 60007], [France -> republic] 
+
+  path: 2[20007 -> 10004], [France -> Europe] 
+
+srcNodes: [70311, 60049, 10004]
+  path: 0[20049 -> 70311], [Portugal -> Protestant] 
+
+  path: 1[20049 -> 60049], [Portugal -> republic] 
+
+  path: 2[20049 -> 10004], [Portugal -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: [10004, 20010, 20012, 20030, 20035, 20007, 20049]
+ResultRelevs: [12.688356399536133, 11.319428443908691, 11.001428604125977, 11.001428604125977, 11.001428604125977, 11.001428604125977, 11.001428604125977]
+AvgResultRelev: 11.287846837724958
+AvgResultDissimilarity: 0.6507936507936506
+Num of entries retrieved from the KNLists: 202
+Num of entries retrieved from NKMaps: 270
+Num of answer trees explored: 68
+Num of states created: 34
+Num of states explored: 20
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 20
+
+Div Top-k Search by Astar1nc_ap, k=7
+[protestant, republic, europe]
+srcNodes: [70270, 20010, 10004]
+  path: 0[10004 -> 20009 -> 70270], [Europe -> Austria -> Protestant] 
+
+  path: 1[10004 -> 20010], [Europe -> Czech Republic] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [70283, 20010, 10004]
+  path: 0[20010 -> 70283], [Czech Republic -> Protestant] 
+
+  path: 1[20010 -> 20010], [Czech Republic -> Czech Republic]
+  path: 2[20010 -> 10004], [Czech Republic -> Europe] 
+
+srcNodes: [70296, 60012, 10004]
+  path: 0[20012 -> 70296], [Hungary -> Protestant] 
+
+  path: 1[20012 -> 60012], [Hungary -> republic] 
+
+  path: 2[20012 -> 10004], [Hungary -> Europe] 
+
+srcNodes: [70320, 60030, 10004]
+  path: 0[20030 -> 70320], [Romania -> Protestant] 
+
+  path: 1[20030 -> 60030], [Romania -> republic] 
+
+  path: 2[20030 -> 10004], [Romania -> Europe] 
+
+srcNodes: [70325, 60035, 10004]
+  path: 0[20035 -> 70325], [Finland -> Protestant] 
+
+  path: 1[20035 -> 60035], [Finland -> republic] 
+
+  path: 2[20035 -> 10004], [Finland -> Europe] 
+
+srcNodes: [70288, 60007, 10004]
+  path: 0[20007 -> 70288], [France -> Protestant] 
+
+  path: 1[20007 -> 60007], [France -> republic] 
+
+  path: 2[20007 -> 10004], [France -> Europe] 
+
+srcNodes: [70311, 60049, 10004]
+  path: 0[20049 -> 70311], [Portugal -> Protestant] 
+
+  path: 1[20049 -> 60049], [Portugal -> republic] 
+
+  path: 2[20049 -> 10004], [Portugal -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: [10004, 20010, 20012, 20030, 20035, 20007, 20049]
+ResultRelevs: [12.688356399536133, 11.319428443908691, 11.001428604125977, 11.001428604125977, 11.001428604125977, 11.001428604125977, 11.001428604125977]
+AvgResultRelev: 11.287846837724958
+AvgResultDissimilarity: 0.6507936507936506
+Num of entries retrieved from the KNLists: 202
+Num of entries retrieved from NKMaps: 270
+Num of answer trees explored: 68
+Num of states created: 8
+Num of states explored: 8
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+

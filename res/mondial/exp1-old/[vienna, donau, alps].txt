@@ -1,0 +1,2119 @@
+Blink Search Using BDB 10
+[vienna, donau, alps]
+srcNodes: [30061, 90039, 20]
+  path: 0[90039 -> 30061], [Donau -> Vienna] 
+
+  path: 1[90039 -> 90039], [Donau -> Donau]
+  path: 2[90039 -> 30075 -> 20], [Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [42885, 90039, 20]
+  path: 0[42885 -> 42885], [Vienna -> Vienna]
+  path: 1[42885 -> 90039], [Vienna -> Donau] 
+
+  path: 2[42885 -> 90039 -> 30075 -> 20], [Vienna -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [30061, 90039, 20]
+  path: 0[30061 -> 30061], [Vienna -> Vienna]
+  path: 1[30061 -> 90039], [Vienna -> Donau] 
+
+  path: 2[30061 -> 90039 -> 30075 -> 20], [Vienna -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [30061, 90039, 20]
+  path: 0[20 -> 30075 -> 90039 -> 30061], [Zugspitze Zugspitze Alps  -> Bayern -> Donau -> Vienna] 
+
+  path: 1[20 -> 30075 -> 90039], [Zugspitze Zugspitze Alps  -> Bayern -> Donau] 
+
+  path: 2[20 -> 20], [Zugspitze Zugspitze Alps  -> Zugspitze Zugspitze Alps ]
+srcNodes: [30061, 90039, 20]
+  path: 0[30075 -> 90039 -> 30061], [Bayern -> Donau -> Vienna] 
+
+  path: 1[30075 -> 90039], [Bayern -> Donau] 
+
+  path: 2[30075 -> 20], [Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [30061, 90039, 31]
+  path: 0[20009 -> 30061], [Austria -> Vienna] 
+
+  path: 1[20009 -> 30066 -> 90039], [Austria -> Lower Austria -> Donau] 
+
+  path: 2[20009 -> 30059 -> 31], [Austria -> Carinthia -> Grossglockner Grossglockner Alps ] 
+
+srcNodes: [30061, 90039, 32]
+  path: 0[32 -> 30065 -> 90049 -> 30075 -> 90039 -> 30061], [Hochgolling Hochgolling Alps  -> Salzburg -> Salzach -> Bayern -> Donau -> Vienna] 
+
+  path: 1[32 -> 30065 -> 90049 -> 30075 -> 90039], [Hochgolling Hochgolling Alps  -> Salzburg -> Salzach -> Bayern -> Donau] 
+
+  path: 2[32 -> 32], [Hochgolling Hochgolling Alps  -> Hochgolling Hochgolling Alps ]
+srcNodes: [30061, 90039, 28]
+  path: 0[28 -> 30147 -> 90047 -> 30075 -> 90039 -> 30061], [Piz Bernina Piz Bernina Alps  -> GR -> Inn -> Bayern -> Donau -> Vienna] 
+
+  path: 1[28 -> 30147 -> 90047 -> 30075 -> 90039], [Piz Bernina Piz Bernina Alps  -> GR -> Inn -> Bayern -> Donau] 
+
+  path: 2[28 -> 28], [Piz Bernina Piz Bernina Alps  -> Piz Bernina Piz Bernina Alps ]
+srcNodes: [30061, 90039, 31]
+  path: 0[31 -> 30059 -> 90054 -> 20028 -> 90039 -> 30061], [Grossglockner Grossglockner Alps  -> Carinthia -> Drau -> Croatia -> Donau -> Vienna] 
+
+  path: 1[31 -> 30059 -> 90054 -> 20028 -> 90039], [Grossglockner Grossglockner Alps  -> Carinthia -> Drau -> Croatia -> Donau] 
+
+  path: 2[31 -> 31], [Grossglockner Grossglockner Alps  -> Grossglockner Grossglockner Alps ]
+srcNodes: [30061, 90039, 30]
+  path: 0[30 -> 30118 -> 90054 -> 20028 -> 90039 -> 30061], [Marmolata Marmolata Alps  -> Trentino Alto Adige -> Drau -> Croatia -> Donau -> Vienna] 
+
+  path: 1[30 -> 30118 -> 90054 -> 20028 -> 90039], [Marmolata Marmolata Alps  -> Trentino Alto Adige -> Drau -> Croatia -> Donau] 
+
+  path: 2[30 -> 30], [Marmolata Marmolata Alps  -> Marmolata Marmolata Alps ]
+-----------------------------------------
+ResultDestNodes: [90039, 42885, 30061, 20, 30075, 20009, 32, 28, 31, 30]
+ResultRelevs: [9.588910102844238, 9.166866302490234, 9.166866302490234, 6.799659729003906, 6.428839683532715, 5.795920372009277, 5.58805513381958, 5.58805513381958, 5.58805513381958, 5.58805513381958]
+Num of top-k answers: 10
+Num of redundant answers: 0
+Num of duplicate answers: 4
+Num of entries retrieved from the lists: 125
+Num of entries retrieved from NKMaps: 148
+
+Blink Search Using BDB_RedundantExclusion 10
+[vienna, donau, alps]
+srcNodes: [30061, 90039, 20]
+  path: 0[90039 -> 30061], [Donau -> Vienna] 
+
+  path: 1[90039 -> 90039], [Donau -> Donau]
+  path: 2[90039 -> 30075 -> 20], [Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [42885, 90039, 20]
+  path: 0[42885 -> 42885], [Vienna -> Vienna]
+  path: 1[42885 -> 90039], [Vienna -> Donau] 
+
+  path: 2[42885 -> 90039 -> 30075 -> 20], [Vienna -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [30061, 90039, 20]
+  path: 0[30061 -> 30061], [Vienna -> Vienna]
+  path: 1[30061 -> 90039], [Vienna -> Donau] 
+
+  path: 2[30061 -> 90039 -> 30075 -> 20], [Vienna -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [30061, 90039, 20]
+  path: 0[20 -> 30075 -> 90039 -> 30061], [Zugspitze Zugspitze Alps  -> Bayern -> Donau -> Vienna] 
+
+  path: 1[20 -> 30075 -> 90039], [Zugspitze Zugspitze Alps  -> Bayern -> Donau] 
+
+  path: 2[20 -> 20], [Zugspitze Zugspitze Alps  -> Zugspitze Zugspitze Alps ]
+srcNodes: [30061, 90039, 20]
+  path: 0[30075 -> 90039 -> 30061], [Bayern -> Donau -> Vienna] 
+
+  path: 1[30075 -> 90039], [Bayern -> Donau] 
+
+  path: 2[30075 -> 20], [Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [30061, 90039, 31]
+  path: 0[20009 -> 30061], [Austria -> Vienna] 
+
+  path: 1[20009 -> 30066 -> 90039], [Austria -> Lower Austria -> Donau] 
+
+  path: 2[20009 -> 30059 -> 31], [Austria -> Carinthia -> Grossglockner Grossglockner Alps ] 
+
+srcNodes: [30061, 90039, 28]
+  path: 0[28 -> 30147 -> 90047 -> 30075 -> 90039 -> 30061], [Piz Bernina Piz Bernina Alps  -> GR -> Inn -> Bayern -> Donau -> Vienna] 
+
+  path: 1[28 -> 30147 -> 90047 -> 30075 -> 90039], [Piz Bernina Piz Bernina Alps  -> GR -> Inn -> Bayern -> Donau] 
+
+  path: 2[28 -> 28], [Piz Bernina Piz Bernina Alps  -> Piz Bernina Piz Bernina Alps ]
+srcNodes: [30061, 90039, 32]
+  path: 0[32 -> 30065 -> 90049 -> 30075 -> 90039 -> 30061], [Hochgolling Hochgolling Alps  -> Salzburg -> Salzach -> Bayern -> Donau -> Vienna] 
+
+  path: 1[32 -> 30065 -> 90049 -> 30075 -> 90039], [Hochgolling Hochgolling Alps  -> Salzburg -> Salzach -> Bayern -> Donau] 
+
+  path: 2[32 -> 32], [Hochgolling Hochgolling Alps  -> Hochgolling Hochgolling Alps ]
+srcNodes: [30061, 90039, 31]
+  path: 0[31 -> 30059 -> 90054 -> 20028 -> 90039 -> 30061], [Grossglockner Grossglockner Alps  -> Carinthia -> Drau -> Croatia -> Donau -> Vienna] 
+
+  path: 1[31 -> 30059 -> 90054 -> 20028 -> 90039], [Grossglockner Grossglockner Alps  -> Carinthia -> Drau -> Croatia -> Donau] 
+
+  path: 2[31 -> 31], [Grossglockner Grossglockner Alps  -> Grossglockner Grossglockner Alps ]
+srcNodes: [30061, 90039, 30]
+  path: 0[30 -> 30118 -> 90054 -> 20028 -> 90039 -> 30061], [Marmolata Marmolata Alps  -> Trentino Alto Adige -> Drau -> Croatia -> Donau -> Vienna] 
+
+  path: 1[30 -> 30118 -> 90054 -> 20028 -> 90039], [Marmolata Marmolata Alps  -> Trentino Alto Adige -> Drau -> Croatia -> Donau] 
+
+  path: 2[30 -> 30], [Marmolata Marmolata Alps  -> Marmolata Marmolata Alps ]
+-----------------------------------------
+ResultDestNodes: [90039, 42885, 30061, 20, 30075, 20009, 28, 32, 31, 30]
+ResultRelevs: [9.588910102844238, 9.166866302490234, 9.166866302490234, 6.799659729003906, 6.428839683532715, 5.795920372009277, 5.58805513381958, 5.58805513381958, 5.58805513381958, 5.58805513381958]
+Num of top-k answers: 10
+Num of redundant answers: 0
+Num of duplicate answers: 4
+Num of entries retrieved from the lists: 125
+Num of entries retrieved from NKMaps: 148
+
+Blink Search Using BDB_reduced 10
+[vienna, donau, alps]
+srcNodes: [30061, 90039, 20]
+  path: 0[90039 -> 30061], [Donau -> Vienna] 
+
+  path: 1[90039 -> 90039], [Donau -> Donau]
+  path: 2[90039 -> 30075 -> 20], [Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [42885, 90039, 20]
+  path: 0[42885 -> 42885], [Vienna -> Vienna]
+  path: 1[42885 -> 90039], [Vienna -> Donau] 
+
+  path: 2[42885 -> 90039 -> 30075 -> 20], [Vienna -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [30061, 90039, 20]
+  path: 0[30061 -> 30061], [Vienna -> Vienna]
+  path: 1[30061 -> 90039], [Vienna -> Donau] 
+
+  path: 2[30061 -> 90039 -> 30075 -> 20], [Vienna -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [30061, 90039, 20]
+  path: 0[20 -> 30075 -> 90039 -> 30061], [Zugspitze Zugspitze Alps  -> Bayern -> Donau -> Vienna] 
+
+  path: 1[20 -> 30075 -> 90039], [Zugspitze Zugspitze Alps  -> Bayern -> Donau] 
+
+  path: 2[20 -> 20], [Zugspitze Zugspitze Alps  -> Zugspitze Zugspitze Alps ]
+srcNodes: [30061, 90039, 20]
+  path: 0[30075 -> 90039 -> 30061], [Bayern -> Donau -> Vienna] 
+
+  path: 1[30075 -> 90039], [Bayern -> Donau] 
+
+  path: 2[30075 -> 20], [Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [30061, 90039, 31]
+  path: 0[20009 -> 30061], [Austria -> Vienna] 
+
+  path: 1[20009 -> 30066 -> 90039], [Austria -> Lower Austria -> Donau] 
+
+  path: 2[20009 -> 30059 -> 31], [Austria -> Carinthia -> Grossglockner Grossglockner Alps ] 
+
+srcNodes: [30061, 90039, 30]
+  path: 0[30 -> 30118 -> 90054 -> 20028 -> 90039 -> 30061], [Marmolata Marmolata Alps  -> Trentino Alto Adige -> Drau -> Croatia -> Donau -> Vienna] 
+
+  path: 1[30 -> 30118 -> 90054 -> 20028 -> 90039], [Marmolata Marmolata Alps  -> Trentino Alto Adige -> Drau -> Croatia -> Donau] 
+
+  path: 2[30 -> 30], [Marmolata Marmolata Alps  -> Marmolata Marmolata Alps ]
+srcNodes: [30061, 90039, 32]
+  path: 0[32 -> 30065 -> 90049 -> 30075 -> 90039 -> 30061], [Hochgolling Hochgolling Alps  -> Salzburg -> Salzach -> Bayern -> Donau -> Vienna] 
+
+  path: 1[32 -> 30065 -> 90049 -> 30075 -> 90039], [Hochgolling Hochgolling Alps  -> Salzburg -> Salzach -> Bayern -> Donau] 
+
+  path: 2[32 -> 32], [Hochgolling Hochgolling Alps  -> Hochgolling Hochgolling Alps ]
+srcNodes: [30061, 90039, 31]
+  path: 0[31 -> 30059 -> 90054 -> 20028 -> 90039 -> 30061], [Grossglockner Grossglockner Alps  -> Carinthia -> Drau -> Croatia -> Donau -> Vienna] 
+
+  path: 1[31 -> 30059 -> 90054 -> 20028 -> 90039], [Grossglockner Grossglockner Alps  -> Carinthia -> Drau -> Croatia -> Donau] 
+
+  path: 2[31 -> 31], [Grossglockner Grossglockner Alps  -> Grossglockner Grossglockner Alps ]
+srcNodes: [30061, 90039, 28]
+  path: 0[28 -> 30147 -> 90047 -> 30075 -> 90039 -> 30061], [Piz Bernina Piz Bernina Alps  -> GR -> Inn -> Bayern -> Donau -> Vienna] 
+
+  path: 1[28 -> 30147 -> 90047 -> 30075 -> 90039], [Piz Bernina Piz Bernina Alps  -> GR -> Inn -> Bayern -> Donau] 
+
+  path: 2[28 -> 28], [Piz Bernina Piz Bernina Alps  -> Piz Bernina Piz Bernina Alps ]
+-----------------------------------------
+ResultDestNodes: [90039, 42885, 30061, 20, 30075, 20009, 30, 32, 31, 28]
+ResultRelevs: [9.588910102844238, 9.166866302490234, 9.166866302490234, 6.799659729003906, 6.428839683532715, 5.795920372009277, 5.58805513381958, 5.58805513381958, 5.58805513381958, 5.58805513381958]
+Num of top-k answers: 10
+Num of redundant answers: 0
+Num of duplicate answers: 4
+Num of entries retrieved from the lists: 125
+Num of entries retrieved from NKMaps: 259
+Num of redundant candidate answers found: 37
+Num of reduced alternative answers found: 6
+
+Blink Search Using BDB_reducedNunique 10
+[vienna, donau, alps]
+srcNodes: [30061, 90039, 20]
+  path: 0[90039 -> 30061], [Donau -> Vienna] 
+
+  path: 1[90039 -> 90039], [Donau -> Donau]
+  path: 2[90039 -> 30075 -> 20], [Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [42885, 90039, 20]
+  path: 0[42885 -> 42885], [Vienna -> Vienna]
+  path: 1[42885 -> 90039], [Vienna -> Donau] 
+
+  path: 2[42885 -> 90039 -> 30075 -> 20], [Vienna -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [30061, 90039, 32]
+  path: 0[30061 -> 30061], [Vienna -> Vienna]
+  path: 1[30061 -> 90039], [Vienna -> Donau] 
+
+  path: 2[30061 -> 90039 -> 20028 -> 90055 -> 30064 -> 32], [Vienna -> Donau -> Croatia -> Mur -> Styria -> Hochgolling Hochgolling Alps ] 
+
+srcNodes: [30061, 90039, 31]
+  path: 0[20009 -> 30061], [Austria -> Vienna] 
+
+  path: 1[20009 -> 30066 -> 90039], [Austria -> Lower Austria -> Donau] 
+
+  path: 2[20009 -> 30059 -> 31], [Austria -> Carinthia -> Grossglockner Grossglockner Alps ] 
+
+srcNodes: [30061, 90039, 28]
+  path: 0[28 -> 30147 -> 90047 -> 30075 -> 90039 -> 30061], [Piz Bernina Piz Bernina Alps  -> GR -> Inn -> Bayern -> Donau -> Vienna] 
+
+  path: 1[28 -> 30147 -> 90047 -> 30075 -> 90039], [Piz Bernina Piz Bernina Alps  -> GR -> Inn -> Bayern -> Donau] 
+
+  path: 2[28 -> 28], [Piz Bernina Piz Bernina Alps  -> Piz Bernina Piz Bernina Alps ]
+srcNodes: [30061, 90039, 30]
+  path: 0[30 -> 30118 -> 90054 -> 20028 -> 90039 -> 30061], [Marmolata Marmolata Alps  -> Trentino Alto Adige -> Drau -> Croatia -> Donau -> Vienna] 
+
+  path: 1[30 -> 30118 -> 90054 -> 20028 -> 90039], [Marmolata Marmolata Alps  -> Trentino Alto Adige -> Drau -> Croatia -> Donau] 
+
+  path: 2[30 -> 30], [Marmolata Marmolata Alps  -> Marmolata Marmolata Alps ]
+srcNodes: [30061, 90039, 29]
+  path: 0[30074 -> 90039 -> 30061], [Baden Wurttemberg -> Donau -> Vienna] 
+
+  path: 1[30074 -> 90039], [Baden Wurttemberg -> Donau] 
+
+  path: 2[30074 -> 90071 -> 30147 -> 29], [Baden Wurttemberg -> Rhein -> GR -> Crap_Sogn_Gion Crap_Sogn_Gion Alps ] 
+
+srcNodes: [30061, 90039, 21]
+  path: 0[20015 -> 90039 -> 30061], [Slovakia -> Donau -> Vienna] 
+
+  path: 1[20015 -> 90039], [Slovakia -> Donau] 
+
+  path: 2[20015 -> 10004 -> 20007 -> 30040 -> 21], [Slovakia -> Europe -> France -> Rhone Alpes -> Mont Blanc Mont Blanc Alps ] 
+
+srcNodes: [30061, 90039, 25]
+  path: 0[30075 -> 90039 -> 30061], [Bayern -> Donau -> Vienna] 
+
+  path: 1[30075 -> 90039], [Bayern -> Donau] 
+
+  path: 2[30075 -> 90047 -> 30147 -> 28 -> 30117 -> 25], [Bayern -> Inn -> GR -> Piz Bernina Piz Bernina Alps  -> Lombardia -> Monte Rosa Monte Rosa Alps ] 
+
+srcNodes: [42885, 90039, 30]
+  path: 0[20028 -> 90039 -> 30061 -> 42885], [Croatia -> Donau -> Vienna -> Vienna] 
+
+  path: 1[20028 -> 90039], [Croatia -> Donau] 
+
+  path: 2[20028 -> 90054 -> 30118 -> 30], [Croatia -> Drau -> Trentino Alto Adige -> Marmolata Marmolata Alps ] 
+
+-----------------------------------------
+ResultDestNodes: [90039, 42885, 30061, 20009, 28, 30, 30074, 20015, 30075, 20028]
+ResultRelevs: [9.588910102844238, 9.166866302490234, 8.871521949768066, 5.795920372009277, 5.58805513381958, 5.58805513381958, 5.432051658630371, 5.365598678588867, 5.247461795806885, 5.089805603027344]
+Num of top-k answers: 10
+Num of redundant answers in top-k answers: 0
+Num of duplicate answers in top-k answers: 0
+Num of entries retrieved from the lists: 125
+Num of redundant candidate answers found: 37
+Num of reduced alternative answers found: 6
+Num of duplicate candidate answers found: 31
+Num of unique alternative answers found: 11
+
+Blink Search Using BDB_reducedNunique_BruteForce 10
+[vienna, donau, alps]
+srcNodes: [30061, 90039, 20]
+  path: 0[90039 -> 30061], [Donau -> Vienna] 
+
+  path: 1[90039 -> 90039], [Donau -> Donau]
+  path: 2[90039 -> 30075 -> 20], [Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [42885, 90039, 20]
+  path: 0[42885 -> 42885], [Vienna -> Vienna]
+  path: 1[42885 -> 90039], [Vienna -> Donau] 
+
+  path: 2[42885 -> 90039 -> 30075 -> 20], [Vienna -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [30061, 90039, 32]
+  path: 0[30061 -> 30061], [Vienna -> Vienna]
+  path: 1[30061 -> 90039], [Vienna -> Donau] 
+
+  path: 2[30061 -> 90039 -> 20028 -> 90055 -> 30064 -> 32], [Vienna -> Donau -> Croatia -> Mur -> Styria -> Hochgolling Hochgolling Alps ] 
+
+srcNodes: [30061, 90039, 31]
+  path: 0[20009 -> 30061], [Austria -> Vienna] 
+
+  path: 1[20009 -> 30066 -> 90039], [Austria -> Lower Austria -> Donau] 
+
+  path: 2[20009 -> 30059 -> 31], [Austria -> Carinthia -> Grossglockner Grossglockner Alps ] 
+
+srcNodes: [30061, 90039, 28]
+  path: 0[28 -> 30147 -> 90047 -> 30075 -> 90039 -> 30061], [Piz Bernina Piz Bernina Alps  -> GR -> Inn -> Bayern -> Donau -> Vienna] 
+
+  path: 1[28 -> 30147 -> 90047 -> 30075 -> 90039], [Piz Bernina Piz Bernina Alps  -> GR -> Inn -> Bayern -> Donau] 
+
+  path: 2[28 -> 28], [Piz Bernina Piz Bernina Alps  -> Piz Bernina Piz Bernina Alps ]
+srcNodes: [30061, 90039, 30]
+  path: 0[30 -> 30118 -> 90054 -> 20028 -> 90039 -> 30061], [Marmolata Marmolata Alps  -> Trentino Alto Adige -> Drau -> Croatia -> Donau -> Vienna] 
+
+  path: 1[30 -> 30118 -> 90054 -> 20028 -> 90039], [Marmolata Marmolata Alps  -> Trentino Alto Adige -> Drau -> Croatia -> Donau] 
+
+  path: 2[30 -> 30], [Marmolata Marmolata Alps  -> Marmolata Marmolata Alps ]
+srcNodes: [30061, 90039, 29]
+  path: 0[30074 -> 90039 -> 30061], [Baden Wurttemberg -> Donau -> Vienna] 
+
+  path: 1[30074 -> 90039], [Baden Wurttemberg -> Donau] 
+
+  path: 2[30074 -> 90071 -> 30147 -> 29], [Baden Wurttemberg -> Rhein -> GR -> Crap_Sogn_Gion Crap_Sogn_Gion Alps ] 
+
+srcNodes: [30061, 90039, 21]
+  path: 0[20015 -> 90039 -> 30061], [Slovakia -> Donau -> Vienna] 
+
+  path: 1[20015 -> 90039], [Slovakia -> Donau] 
+
+  path: 2[20015 -> 10004 -> 20007 -> 30040 -> 21], [Slovakia -> Europe -> France -> Rhone Alpes -> Mont Blanc Mont Blanc Alps ] 
+
+srcNodes: [30061, 90039, 25]
+  path: 0[30075 -> 90039 -> 30061], [Bayern -> Donau -> Vienna] 
+
+  path: 1[30075 -> 90039], [Bayern -> Donau] 
+
+  path: 2[30075 -> 90047 -> 30147 -> 28 -> 30117 -> 25], [Bayern -> Inn -> GR -> Piz Bernina Piz Bernina Alps  -> Lombardia -> Monte Rosa Monte Rosa Alps ] 
+
+srcNodes: [42885, 90039, 30]
+  path: 0[20028 -> 90039 -> 30061 -> 42885], [Croatia -> Donau -> Vienna -> Vienna] 
+
+  path: 1[20028 -> 90039], [Croatia -> Donau] 
+
+  path: 2[20028 -> 90054 -> 30118 -> 30], [Croatia -> Drau -> Trentino Alto Adige -> Marmolata Marmolata Alps ] 
+
+-----------------------------------------
+ResultDestNodes: [90039, 42885, 30061, 20009, 28, 30, 30074, 20015, 30075, 20028]
+ResultRelevs: [9.588910102844238, 9.166866302490234, 8.871521949768066, 5.795920372009277, 5.58805513381958, 5.58805513381958, 5.432051658630371, 5.365598678588867, 5.247461795806885, 5.089805603027344]
+Num of top-k answers: 10
+Num of redundant answers in top-k answers: 0
+Num of duplicate answers in top-k answers: 0
+Num of entries retrieved from the lists: 125
+Num of redundant candidate answers found: 37
+Num of reduced alternative answers found: 6
+Num of duplicate candidate answers found: 31
+Num of unique alternative answers found: 27
+
+Blink Search Using BDB 20
+[vienna, donau, alps]
+srcNodes: [30061, 90039, 20]
+  path: 0[90039 -> 30061], [Donau -> Vienna] 
+
+  path: 1[90039 -> 90039], [Donau -> Donau]
+  path: 2[90039 -> 30075 -> 20], [Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [42885, 90039, 20]
+  path: 0[42885 -> 42885], [Vienna -> Vienna]
+  path: 1[42885 -> 90039], [Vienna -> Donau] 
+
+  path: 2[42885 -> 90039 -> 30075 -> 20], [Vienna -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [30061, 90039, 20]
+  path: 0[30061 -> 30061], [Vienna -> Vienna]
+  path: 1[30061 -> 90039], [Vienna -> Donau] 
+
+  path: 2[30061 -> 90039 -> 30075 -> 20], [Vienna -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [30061, 90039, 20]
+  path: 0[20 -> 30075 -> 90039 -> 30061], [Zugspitze Zugspitze Alps  -> Bayern -> Donau -> Vienna] 
+
+  path: 1[20 -> 30075 -> 90039], [Zugspitze Zugspitze Alps  -> Bayern -> Donau] 
+
+  path: 2[20 -> 20], [Zugspitze Zugspitze Alps  -> Zugspitze Zugspitze Alps ]
+srcNodes: [30061, 90039, 20]
+  path: 0[30075 -> 90039 -> 30061], [Bayern -> Donau -> Vienna] 
+
+  path: 1[30075 -> 90039], [Bayern -> Donau] 
+
+  path: 2[30075 -> 20], [Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [30061, 90039, 31]
+  path: 0[20009 -> 30061], [Austria -> Vienna] 
+
+  path: 1[20009 -> 30066 -> 90039], [Austria -> Lower Austria -> Donau] 
+
+  path: 2[20009 -> 30059 -> 31], [Austria -> Carinthia -> Grossglockner Grossglockner Alps ] 
+
+srcNodes: [30061, 90039, 31]
+  path: 0[31 -> 30059 -> 90054 -> 20028 -> 90039 -> 30061], [Grossglockner Grossglockner Alps  -> Carinthia -> Drau -> Croatia -> Donau -> Vienna] 
+
+  path: 1[31 -> 30059 -> 90054 -> 20028 -> 90039], [Grossglockner Grossglockner Alps  -> Carinthia -> Drau -> Croatia -> Donau] 
+
+  path: 2[31 -> 31], [Grossglockner Grossglockner Alps  -> Grossglockner Grossglockner Alps ]
+srcNodes: [30061, 90039, 30]
+  path: 0[30 -> 30118 -> 90054 -> 20028 -> 90039 -> 30061], [Marmolata Marmolata Alps  -> Trentino Alto Adige -> Drau -> Croatia -> Donau -> Vienna] 
+
+  path: 1[30 -> 30118 -> 90054 -> 20028 -> 90039], [Marmolata Marmolata Alps  -> Trentino Alto Adige -> Drau -> Croatia -> Donau] 
+
+  path: 2[30 -> 30], [Marmolata Marmolata Alps  -> Marmolata Marmolata Alps ]
+srcNodes: [30061, 90039, 28]
+  path: 0[28 -> 30147 -> 90047 -> 30075 -> 90039 -> 30061], [Piz Bernina Piz Bernina Alps  -> GR -> Inn -> Bayern -> Donau -> Vienna] 
+
+  path: 1[28 -> 30147 -> 90047 -> 30075 -> 90039], [Piz Bernina Piz Bernina Alps  -> GR -> Inn -> Bayern -> Donau] 
+
+  path: 2[28 -> 28], [Piz Bernina Piz Bernina Alps  -> Piz Bernina Piz Bernina Alps ]
+srcNodes: [30061, 90039, 32]
+  path: 0[32 -> 30065 -> 90049 -> 30075 -> 90039 -> 30061], [Hochgolling Hochgolling Alps  -> Salzburg -> Salzach -> Bayern -> Donau -> Vienna] 
+
+  path: 1[32 -> 30065 -> 90049 -> 30075 -> 90039], [Hochgolling Hochgolling Alps  -> Salzburg -> Salzach -> Bayern -> Donau] 
+
+  path: 2[32 -> 32], [Hochgolling Hochgolling Alps  -> Hochgolling Hochgolling Alps ]
+srcNodes: [30061, 90039, 20]
+  path: 0[20003 -> 90039 -> 30061], [Serbia -> Donau -> Vienna] 
+
+  path: 1[20003 -> 90039], [Serbia -> Donau] 
+
+  path: 2[20003 -> 90039 -> 30075 -> 20], [Serbia -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+This is a non-reduced answer tree with common first node 90039
+
+srcNodes: [30061, 90039, 20]
+  path: 0[40375 -> 90039 -> 30061], [Bratislava -> Donau -> Vienna] 
+
+  path: 1[40375 -> 90039], [Bratislava -> Donau] 
+
+  path: 2[40375 -> 90039 -> 30075 -> 20], [Bratislava -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+This is a non-reduced answer tree with common first node 90039
+
+srcNodes: [30061, 90039, 20]
+  path: 0[42827 -> 90039 -> 30061], [Ulm -> Donau -> Vienna] 
+
+  path: 1[42827 -> 90039], [Ulm -> Donau] 
+
+  path: 2[42827 -> 90042 -> 30075 -> 20], [Ulm -> Iller -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [30061, 90039, 20]
+  path: 0[40276 -> 90039 -> 30061], [Belgrade -> Donau -> Vienna] 
+
+  path: 1[40276 -> 90039], [Belgrade -> Donau] 
+
+  path: 2[40276 -> 90039 -> 30075 -> 20], [Belgrade -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+This is a non-reduced answer tree with common first node 90039
+
+srcNodes: [30061, 90039, 20]
+  path: 0[30372 -> 90039 -> 30061], [Mehedinti -> Donau -> Vienna] 
+
+  path: 1[30372 -> 90039], [Mehedinti -> Donau] 
+
+  path: 2[30372 -> 90039 -> 30075 -> 20], [Mehedinti -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+This is a non-reduced answer tree with common first node 90039
+
+srcNodes: [30061, 90039, 20]
+  path: 0[30364 -> 90039 -> 30061], [Galati -> Donau -> Vienna] 
+
+  path: 1[30364 -> 90039], [Galati -> Donau] 
+
+  path: 2[30364 -> 90039 -> 30075 -> 20], [Galati -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+This is a non-reduced answer tree with common first node 90039
+
+srcNodes: [30061, 90039, 20]
+  path: 0[30383 -> 90039 -> 30061], [Tulcea -> Donau -> Vienna] 
+
+  path: 1[30383 -> 90039], [Tulcea -> Donau] 
+
+  path: 2[30383 -> 90039 -> 30075 -> 20], [Tulcea -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+This is a non-reduced answer tree with common first node 90039
+
+srcNodes: [30061, 90039, 20]
+  path: 0[30375 -> 90039 -> 30061], [Olt -> Donau -> Vienna] 
+
+  path: 1[30375 -> 90039], [Olt -> Donau] 
+
+  path: 2[30375 -> 90039 -> 30075 -> 20], [Olt -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+This is a non-reduced answer tree with common first node 90039
+
+srcNodes: [30061, 90039, 20]
+  path: 0[20015 -> 90039 -> 30061], [Slovakia -> Donau -> Vienna] 
+
+  path: 1[20015 -> 90039], [Slovakia -> Donau] 
+
+  path: 2[20015 -> 90039 -> 30075 -> 20], [Slovakia -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+This is a non-reduced answer tree with common first node 90039
+
+srcNodes: [30061, 90039, 20]
+  path: 0[30381 -> 90039 -> 30061], [Teleorman -> Donau -> Vienna] 
+
+  path: 1[30381 -> 90039], [Teleorman -> Donau] 
+
+  path: 2[30381 -> 90039 -> 30075 -> 20], [Teleorman -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+This is a non-reduced answer tree with common first node 90039
+
+-----------------------------------------
+ResultDestNodes: [90039, 42885, 30061, 20, 30075, 20009, 31, 30, 28, 32, 20003, 40375, 42827, 40276, 30372, 30364, 30383, 30375, 20015, 30381]
+ResultRelevs: [9.588910102844238, 9.166866302490234, 9.166866302490234, 6.799659729003906, 6.428839683532715, 5.795920372009277, 5.58805513381958, 5.58805513381958, 5.58805513381958, 5.58805513381958, 5.5428056716918945, 5.5428056716918945, 5.5428056716918945, 5.5428056716918945, 5.5428056716918945, 5.5428056716918945, 5.5428056716918945, 5.5428056716918945, 5.5428056716918945, 5.5428056716918945]
+Num of top-k answers: 20
+Num of redundant answers: 9
+Num of duplicate answers: 14
+Num of entries retrieved from the lists: 125
+Num of entries retrieved from NKMaps: 148
+
+Blink Search Using BDB_RedundantExclusion 20
+[vienna, donau, alps]
+srcNodes: [30061, 90039, 20]
+  path: 0[90039 -> 30061], [Donau -> Vienna] 
+
+  path: 1[90039 -> 90039], [Donau -> Donau]
+  path: 2[90039 -> 30075 -> 20], [Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [42885, 90039, 20]
+  path: 0[42885 -> 42885], [Vienna -> Vienna]
+  path: 1[42885 -> 90039], [Vienna -> Donau] 
+
+  path: 2[42885 -> 90039 -> 30075 -> 20], [Vienna -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [30061, 90039, 20]
+  path: 0[30061 -> 30061], [Vienna -> Vienna]
+  path: 1[30061 -> 90039], [Vienna -> Donau] 
+
+  path: 2[30061 -> 90039 -> 30075 -> 20], [Vienna -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [30061, 90039, 20]
+  path: 0[20 -> 30075 -> 90039 -> 30061], [Zugspitze Zugspitze Alps  -> Bayern -> Donau -> Vienna] 
+
+  path: 1[20 -> 30075 -> 90039], [Zugspitze Zugspitze Alps  -> Bayern -> Donau] 
+
+  path: 2[20 -> 20], [Zugspitze Zugspitze Alps  -> Zugspitze Zugspitze Alps ]
+srcNodes: [30061, 90039, 20]
+  path: 0[30075 -> 90039 -> 30061], [Bayern -> Donau -> Vienna] 
+
+  path: 1[30075 -> 90039], [Bayern -> Donau] 
+
+  path: 2[30075 -> 20], [Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [30061, 90039, 31]
+  path: 0[20009 -> 30061], [Austria -> Vienna] 
+
+  path: 1[20009 -> 30066 -> 90039], [Austria -> Lower Austria -> Donau] 
+
+  path: 2[20009 -> 30059 -> 31], [Austria -> Carinthia -> Grossglockner Grossglockner Alps ] 
+
+srcNodes: [30061, 90039, 31]
+  path: 0[31 -> 30059 -> 90054 -> 20028 -> 90039 -> 30061], [Grossglockner Grossglockner Alps  -> Carinthia -> Drau -> Croatia -> Donau -> Vienna] 
+
+  path: 1[31 -> 30059 -> 90054 -> 20028 -> 90039], [Grossglockner Grossglockner Alps  -> Carinthia -> Drau -> Croatia -> Donau] 
+
+  path: 2[31 -> 31], [Grossglockner Grossglockner Alps  -> Grossglockner Grossglockner Alps ]
+srcNodes: [30061, 90039, 28]
+  path: 0[28 -> 30147 -> 90047 -> 30075 -> 90039 -> 30061], [Piz Bernina Piz Bernina Alps  -> GR -> Inn -> Bayern -> Donau -> Vienna] 
+
+  path: 1[28 -> 30147 -> 90047 -> 30075 -> 90039], [Piz Bernina Piz Bernina Alps  -> GR -> Inn -> Bayern -> Donau] 
+
+  path: 2[28 -> 28], [Piz Bernina Piz Bernina Alps  -> Piz Bernina Piz Bernina Alps ]
+srcNodes: [30061, 90039, 32]
+  path: 0[32 -> 30065 -> 90049 -> 30075 -> 90039 -> 30061], [Hochgolling Hochgolling Alps  -> Salzburg -> Salzach -> Bayern -> Donau -> Vienna] 
+
+  path: 1[32 -> 30065 -> 90049 -> 30075 -> 90039], [Hochgolling Hochgolling Alps  -> Salzburg -> Salzach -> Bayern -> Donau] 
+
+  path: 2[32 -> 32], [Hochgolling Hochgolling Alps  -> Hochgolling Hochgolling Alps ]
+srcNodes: [30061, 90039, 30]
+  path: 0[30 -> 30118 -> 90054 -> 20028 -> 90039 -> 30061], [Marmolata Marmolata Alps  -> Trentino Alto Adige -> Drau -> Croatia -> Donau -> Vienna] 
+
+  path: 1[30 -> 30118 -> 90054 -> 20028 -> 90039], [Marmolata Marmolata Alps  -> Trentino Alto Adige -> Drau -> Croatia -> Donau] 
+
+  path: 2[30 -> 30], [Marmolata Marmolata Alps  -> Marmolata Marmolata Alps ]
+srcNodes: [30061, 90039, 30]
+  path: 0[20028 -> 90039 -> 30061], [Croatia -> Donau -> Vienna] 
+
+  path: 1[20028 -> 90039], [Croatia -> Donau] 
+
+  path: 2[20028 -> 90054 -> 30118 -> 30], [Croatia -> Drau -> Trentino Alto Adige -> Marmolata Marmolata Alps ] 
+
+srcNodes: [30061, 90039, 28]
+  path: 0[30074 -> 90039 -> 30061], [Baden Wurttemberg -> Donau -> Vienna] 
+
+  path: 1[30074 -> 90039], [Baden Wurttemberg -> Donau] 
+
+  path: 2[30074 -> 90071 -> 30147 -> 28], [Baden Wurttemberg -> Rhein -> GR -> Piz Bernina Piz Bernina Alps ] 
+
+srcNodes: [30061, 90039, 20]
+  path: 0[42827 -> 90039 -> 30061], [Ulm -> Donau -> Vienna] 
+
+  path: 1[42827 -> 90039], [Ulm -> Donau] 
+
+  path: 2[42827 -> 90042 -> 30075 -> 20], [Ulm -> Iller -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [30061, 90039, 30]
+  path: 0[30090 -> 90039 -> 30061], [Baranya -> Donau -> Vienna] 
+
+  path: 1[30090 -> 90039], [Baranya -> Donau] 
+
+  path: 2[30090 -> 90054 -> 30118 -> 30], [Baranya -> Drau -> Trentino Alto Adige -> Marmolata Marmolata Alps ] 
+
+srcNodes: [30061, 90039, 29]
+  path: 0[29 -> 30147 -> 90047 -> 30075 -> 90039 -> 30061], [Crap_Sogn_Gion Crap_Sogn_Gion Alps  -> GR -> Inn -> Bayern -> Donau -> Vienna] 
+
+  path: 1[29 -> 30147 -> 90047 -> 30075 -> 90039], [Crap_Sogn_Gion Crap_Sogn_Gion Alps  -> GR -> Inn -> Bayern -> Donau] 
+
+  path: 2[29 -> 29], [Crap_Sogn_Gion Crap_Sogn_Gion Alps  -> Crap_Sogn_Gion Crap_Sogn_Gion Alps ]
+srcNodes: [30061, 90039, 30]
+  path: 0[10004 -> 20009 -> 30061], [Europe -> Austria -> Vienna] 
+
+  path: 1[10004 -> 20048 -> 90039], [Europe -> Moldova -> Donau] 
+
+  path: 2[10004 -> 20013 -> 30119 -> 30], [Europe -> Italy -> Veneto -> Marmolata Marmolata Alps ] 
+
+srcNodes: [30061, 90039, 30]
+  path: 0[90054 -> 20028 -> 90039 -> 30061], [Drau -> Croatia -> Donau -> Vienna] 
+
+  path: 1[90054 -> 20028 -> 90039], [Drau -> Croatia -> Donau] 
+
+  path: 2[90054 -> 30118 -> 30], [Drau -> Trentino Alto Adige -> Marmolata Marmolata Alps ] 
+
+srcNodes: [30061, 90039, 32]
+  path: 0[90055 -> 20028 -> 90039 -> 30061], [Mur -> Croatia -> Donau -> Vienna] 
+
+  path: 1[90055 -> 20028 -> 90039], [Mur -> Croatia -> Donau] 
+
+  path: 2[90055 -> 30065 -> 32], [Mur -> Salzburg -> Hochgolling Hochgolling Alps ] 
+
+srcNodes: [30061, 90039, 32]
+  path: 0[90049 -> 30075 -> 90039 -> 30061], [Salzach -> Bayern -> Donau -> Vienna] 
+
+  path: 1[90049 -> 30075 -> 90039], [Salzach -> Bayern -> Donau] 
+
+  path: 2[90049 -> 30065 -> 32], [Salzach -> Salzburg -> Hochgolling Hochgolling Alps ] 
+
+srcNodes: [30061, 90039, 28]
+  path: 0[90047 -> 30075 -> 90039 -> 30061], [Inn -> Bayern -> Donau -> Vienna] 
+
+  path: 1[90047 -> 30075 -> 90039], [Inn -> Bayern -> Donau] 
+
+  path: 2[90047 -> 30147 -> 28], [Inn -> GR -> Piz Bernina Piz Bernina Alps ] 
+
+-----------------------------------------
+ResultDestNodes: [90039, 42885, 30061, 20, 30075, 20009, 31, 28, 32, 30, 20028, 30074, 42827, 30090, 29, 10004, 90054, 90055, 90049, 90047]
+ResultRelevs: [9.588910102844238, 9.166866302490234, 9.166866302490234, 6.799659729003906, 6.428839683532715, 5.795920372009277, 5.58805513381958, 5.58805513381958, 5.58805513381958, 5.58805513381958, 5.5428056716918945, 5.5428056716918945, 5.5428056716918945, 5.5428056716918945, 5.145045280456543, 4.594555854797363, 4.4369001388549805, 4.4369001388549805, 4.4369001388549805, 4.4369001388549805]
+Num of top-k answers: 20
+Num of redundant answers: 0
+Num of duplicate answers: 13
+Num of entries retrieved from the lists: 130
+Num of entries retrieved from NKMaps: 155
+
+Blink Search Using BDB_reduced 20
+[vienna, donau, alps]
+srcNodes: [30061, 90039, 20]
+  path: 0[90039 -> 30061], [Donau -> Vienna] 
+
+  path: 1[90039 -> 90039], [Donau -> Donau]
+  path: 2[90039 -> 30075 -> 20], [Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [42885, 90039, 20]
+  path: 0[42885 -> 42885], [Vienna -> Vienna]
+  path: 1[42885 -> 90039], [Vienna -> Donau] 
+
+  path: 2[42885 -> 90039 -> 30075 -> 20], [Vienna -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [30061, 90039, 20]
+  path: 0[30061 -> 30061], [Vienna -> Vienna]
+  path: 1[30061 -> 90039], [Vienna -> Donau] 
+
+  path: 2[30061 -> 90039 -> 30075 -> 20], [Vienna -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [30061, 90039, 20]
+  path: 0[20 -> 30075 -> 90039 -> 30061], [Zugspitze Zugspitze Alps  -> Bayern -> Donau -> Vienna] 
+
+  path: 1[20 -> 30075 -> 90039], [Zugspitze Zugspitze Alps  -> Bayern -> Donau] 
+
+  path: 2[20 -> 20], [Zugspitze Zugspitze Alps  -> Zugspitze Zugspitze Alps ]
+srcNodes: [30061, 90039, 20]
+  path: 0[30075 -> 90039 -> 30061], [Bayern -> Donau -> Vienna] 
+
+  path: 1[30075 -> 90039], [Bayern -> Donau] 
+
+  path: 2[30075 -> 20], [Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [30061, 90039, 31]
+  path: 0[20009 -> 30061], [Austria -> Vienna] 
+
+  path: 1[20009 -> 30066 -> 90039], [Austria -> Lower Austria -> Donau] 
+
+  path: 2[20009 -> 30059 -> 31], [Austria -> Carinthia -> Grossglockner Grossglockner Alps ] 
+
+srcNodes: [30061, 90039, 30]
+  path: 0[30 -> 30118 -> 90054 -> 20028 -> 90039 -> 30061], [Marmolata Marmolata Alps  -> Trentino Alto Adige -> Drau -> Croatia -> Donau -> Vienna] 
+
+  path: 1[30 -> 30118 -> 90054 -> 20028 -> 90039], [Marmolata Marmolata Alps  -> Trentino Alto Adige -> Drau -> Croatia -> Donau] 
+
+  path: 2[30 -> 30], [Marmolata Marmolata Alps  -> Marmolata Marmolata Alps ]
+srcNodes: [30061, 90039, 32]
+  path: 0[32 -> 30065 -> 90049 -> 30075 -> 90039 -> 30061], [Hochgolling Hochgolling Alps  -> Salzburg -> Salzach -> Bayern -> Donau -> Vienna] 
+
+  path: 1[32 -> 30065 -> 90049 -> 30075 -> 90039], [Hochgolling Hochgolling Alps  -> Salzburg -> Salzach -> Bayern -> Donau] 
+
+  path: 2[32 -> 32], [Hochgolling Hochgolling Alps  -> Hochgolling Hochgolling Alps ]
+srcNodes: [30061, 90039, 31]
+  path: 0[31 -> 30059 -> 90054 -> 20028 -> 90039 -> 30061], [Grossglockner Grossglockner Alps  -> Carinthia -> Drau -> Croatia -> Donau -> Vienna] 
+
+  path: 1[31 -> 30059 -> 90054 -> 20028 -> 90039], [Grossglockner Grossglockner Alps  -> Carinthia -> Drau -> Croatia -> Donau] 
+
+  path: 2[31 -> 31], [Grossglockner Grossglockner Alps  -> Grossglockner Grossglockner Alps ]
+srcNodes: [30061, 90039, 28]
+  path: 0[28 -> 30147 -> 90047 -> 30075 -> 90039 -> 30061], [Piz Bernina Piz Bernina Alps  -> GR -> Inn -> Bayern -> Donau -> Vienna] 
+
+  path: 1[28 -> 30147 -> 90047 -> 30075 -> 90039], [Piz Bernina Piz Bernina Alps  -> GR -> Inn -> Bayern -> Donau] 
+
+  path: 2[28 -> 28], [Piz Bernina Piz Bernina Alps  -> Piz Bernina Piz Bernina Alps ]
+srcNodes: [30061, 90039, 20]
+  path: 0[42827 -> 90039 -> 30061], [Ulm -> Donau -> Vienna] 
+
+  path: 1[42827 -> 90039], [Ulm -> Donau] 
+
+  path: 2[42827 -> 90042 -> 30075 -> 20], [Ulm -> Iller -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [30061, 90039, 28]
+  path: 0[30074 -> 90039 -> 30061], [Baden Wurttemberg -> Donau -> Vienna] 
+
+  path: 1[30074 -> 90039], [Baden Wurttemberg -> Donau] 
+
+  path: 2[30074 -> 90071 -> 30147 -> 28], [Baden Wurttemberg -> Rhein -> GR -> Piz Bernina Piz Bernina Alps ] 
+
+srcNodes: [30061, 90039, 30]
+  path: 0[20028 -> 90039 -> 30061], [Croatia -> Donau -> Vienna] 
+
+  path: 1[20028 -> 90039], [Croatia -> Donau] 
+
+  path: 2[20028 -> 90054 -> 30118 -> 30], [Croatia -> Drau -> Trentino Alto Adige -> Marmolata Marmolata Alps ] 
+
+srcNodes: [30061, 90039, 30]
+  path: 0[30090 -> 90039 -> 30061], [Baranya -> Donau -> Vienna] 
+
+  path: 1[30090 -> 90039], [Baranya -> Donau] 
+
+  path: 2[30090 -> 90054 -> 30118 -> 30], [Baranya -> Drau -> Trentino Alto Adige -> Marmolata Marmolata Alps ] 
+
+srcNodes: [30061, 90039, 28]
+  path: 0[20029 -> 90039 -> 30061], [Bulgaria -> Donau -> Vienna] 
+
+  path: 1[20029 -> 90039], [Bulgaria -> Donau] 
+
+  path: 2[20029 -> 10004 -> 20013 -> 30117 -> 28], [Bulgaria -> Europe -> Italy -> Lombardia -> Piz Bernina Piz Bernina Alps ] 
+
+srcNodes: [30061, 90039, 28]
+  path: 0[20048 -> 90039 -> 30061], [Moldova -> Donau -> Vienna] 
+
+  path: 1[20048 -> 90039], [Moldova -> Donau] 
+
+  path: 2[20048 -> 10004 -> 20013 -> 30117 -> 28], [Moldova -> Europe -> Italy -> Lombardia -> Piz Bernina Piz Bernina Alps ] 
+
+srcNodes: [30061, 90039, 28]
+  path: 0[20003 -> 90039 -> 30061], [Serbia -> Donau -> Vienna] 
+
+  path: 1[20003 -> 90039], [Serbia -> Donau] 
+
+  path: 2[20003 -> 10004 -> 20013 -> 30117 -> 28], [Serbia -> Europe -> Italy -> Lombardia -> Piz Bernina Piz Bernina Alps ] 
+
+srcNodes: [30061, 90039, 28]
+  path: 0[20015 -> 90039 -> 30061], [Slovakia -> Donau -> Vienna] 
+
+  path: 1[20015 -> 90039], [Slovakia -> Donau] 
+
+  path: 2[20015 -> 10004 -> 20013 -> 30117 -> 28], [Slovakia -> Europe -> Italy -> Lombardia -> Piz Bernina Piz Bernina Alps ] 
+
+srcNodes: [30061, 90039, 32]
+  path: 0[40276 -> 90039 -> 30061], [Belgrade -> Donau -> Vienna] 
+
+  path: 1[40276 -> 90039], [Belgrade -> Donau] 
+
+  path: 2[40276 -> 90057 -> 20028 -> 90055 -> 30065 -> 32], [Belgrade -> Save -> Croatia -> Mur -> Salzburg -> Hochgolling Hochgolling Alps ] 
+
+srcNodes: [30061, 90039, 29]
+  path: 0[29 -> 30147 -> 90047 -> 30075 -> 90039 -> 30061], [Crap_Sogn_Gion Crap_Sogn_Gion Alps  -> GR -> Inn -> Bayern -> Donau -> Vienna] 
+
+  path: 1[29 -> 30147 -> 90047 -> 30075 -> 90039], [Crap_Sogn_Gion Crap_Sogn_Gion Alps  -> GR -> Inn -> Bayern -> Donau] 
+
+  path: 2[29 -> 29], [Crap_Sogn_Gion Crap_Sogn_Gion Alps  -> Crap_Sogn_Gion Crap_Sogn_Gion Alps ]
+-----------------------------------------
+ResultDestNodes: [90039, 42885, 30061, 20, 30075, 20009, 30, 32, 31, 28, 42827, 30074, 20028, 30090, 20029, 20048, 20003, 20015, 40276, 29]
+ResultRelevs: [9.588910102844238, 9.166866302490234, 9.166866302490234, 6.799659729003906, 6.428839683532715, 5.795920372009277, 5.58805513381958, 5.58805513381958, 5.58805513381958, 5.58805513381958, 5.5428056716918945, 5.5428056716918945, 5.5428056716918945, 5.5428056716918945, 5.365598678588867, 5.365598678588867, 5.365598678588867, 5.365598678588867, 5.247461795806885, 5.145045280456543]
+Num of top-k answers: 20
+Num of redundant answers: 0
+Num of duplicate answers: 13
+Num of entries retrieved from the lists: 125
+Num of entries retrieved from NKMaps: 259
+Num of redundant candidate answers found: 37
+Num of reduced alternative answers found: 6
+
+Blink Search Using BDB_reducedNunique 20
+[vienna, donau, alps]
+srcNodes: [30061, 90039, 20]
+  path: 0[90039 -> 30061], [Donau -> Vienna] 
+
+  path: 1[90039 -> 90039], [Donau -> Donau]
+  path: 2[90039 -> 30075 -> 20], [Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [42885, 90039, 20]
+  path: 0[42885 -> 42885], [Vienna -> Vienna]
+  path: 1[42885 -> 90039], [Vienna -> Donau] 
+
+  path: 2[42885 -> 90039 -> 30075 -> 20], [Vienna -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [30061, 90039, 32]
+  path: 0[30061 -> 30061], [Vienna -> Vienna]
+  path: 1[30061 -> 90039], [Vienna -> Donau] 
+
+  path: 2[30061 -> 90039 -> 20028 -> 90055 -> 30064 -> 32], [Vienna -> Donau -> Croatia -> Mur -> Styria -> Hochgolling Hochgolling Alps ] 
+
+srcNodes: [30061, 90039, 31]
+  path: 0[20009 -> 30061], [Austria -> Vienna] 
+
+  path: 1[20009 -> 30066 -> 90039], [Austria -> Lower Austria -> Donau] 
+
+  path: 2[20009 -> 30059 -> 31], [Austria -> Carinthia -> Grossglockner Grossglockner Alps ] 
+
+srcNodes: [30061, 90039, 28]
+  path: 0[28 -> 30147 -> 90047 -> 30075 -> 90039 -> 30061], [Piz Bernina Piz Bernina Alps  -> GR -> Inn -> Bayern -> Donau -> Vienna] 
+
+  path: 1[28 -> 30147 -> 90047 -> 30075 -> 90039], [Piz Bernina Piz Bernina Alps  -> GR -> Inn -> Bayern -> Donau] 
+
+  path: 2[28 -> 28], [Piz Bernina Piz Bernina Alps  -> Piz Bernina Piz Bernina Alps ]
+srcNodes: [30061, 90039, 30]
+  path: 0[30 -> 30118 -> 90054 -> 20028 -> 90039 -> 30061], [Marmolata Marmolata Alps  -> Trentino Alto Adige -> Drau -> Croatia -> Donau -> Vienna] 
+
+  path: 1[30 -> 30118 -> 90054 -> 20028 -> 90039], [Marmolata Marmolata Alps  -> Trentino Alto Adige -> Drau -> Croatia -> Donau] 
+
+  path: 2[30 -> 30], [Marmolata Marmolata Alps  -> Marmolata Marmolata Alps ]
+srcNodes: [30061, 90039, 29]
+  path: 0[30074 -> 90039 -> 30061], [Baden Wurttemberg -> Donau -> Vienna] 
+
+  path: 1[30074 -> 90039], [Baden Wurttemberg -> Donau] 
+
+  path: 2[30074 -> 90071 -> 30147 -> 29], [Baden Wurttemberg -> Rhein -> GR -> Crap_Sogn_Gion Crap_Sogn_Gion Alps ] 
+
+srcNodes: [30061, 90039, 21]
+  path: 0[20015 -> 90039 -> 30061], [Slovakia -> Donau -> Vienna] 
+
+  path: 1[20015 -> 90039], [Slovakia -> Donau] 
+
+  path: 2[20015 -> 10004 -> 20007 -> 30040 -> 21], [Slovakia -> Europe -> France -> Rhone Alpes -> Mont Blanc Mont Blanc Alps ] 
+
+srcNodes: [30061, 90039, 25]
+  path: 0[30075 -> 90039 -> 30061], [Bayern -> Donau -> Vienna] 
+
+  path: 1[30075 -> 90039], [Bayern -> Donau] 
+
+  path: 2[30075 -> 90047 -> 30147 -> 28 -> 30117 -> 25], [Bayern -> Inn -> GR -> Piz Bernina Piz Bernina Alps  -> Lombardia -> Monte Rosa Monte Rosa Alps ] 
+
+srcNodes: [42885, 90039, 30]
+  path: 0[20028 -> 90039 -> 30061 -> 42885], [Croatia -> Donau -> Vienna -> Vienna] 
+
+  path: 1[20028 -> 90039], [Croatia -> Donau] 
+
+  path: 2[20028 -> 90054 -> 30118 -> 30], [Croatia -> Drau -> Trentino Alto Adige -> Marmolata Marmolata Alps ] 
+
+srcNodes: [42885, 90039, 21]
+  path: 0[20048 -> 90039 -> 30061 -> 42885], [Moldova -> Donau -> Vienna -> Vienna] 
+
+  path: 1[20048 -> 90039], [Moldova -> Donau] 
+
+  path: 2[20048 -> 10004 -> 20007 -> 30040 -> 21], [Moldova -> Europe -> France -> Rhone Alpes -> Mont Blanc Mont Blanc Alps ] 
+
+srcNodes: [42885, 90039, 29]
+  path: 0[20029 -> 90039 -> 30061 -> 42885], [Bulgaria -> Donau -> Vienna -> Vienna] 
+
+  path: 1[20029 -> 90039], [Bulgaria -> Donau] 
+
+  path: 2[20029 -> 10004 -> 20017 -> 30147 -> 29], [Bulgaria -> Europe -> Switzerland -> GR -> Crap_Sogn_Gion Crap_Sogn_Gion Alps ] 
+
+srcNodes: [42885, 90039, 31]
+  path: 0[42827 -> 90039 -> 30061 -> 42885], [Ulm -> Donau -> Vienna -> Vienna] 
+
+  path: 1[42827 -> 90039], [Ulm -> Donau] 
+
+  path: 2[42827 -> 90039 -> 20028 -> 90054 -> 30059 -> 31], [Ulm -> Donau -> Croatia -> Drau -> Carinthia -> Grossglockner Grossglockner Alps ] 
+
+This is a non-reduced answer tree with common first node 90039
+
+srcNodes: [42885, 90039, 32]
+  path: 0[30090 -> 90039 -> 30061 -> 42885], [Baranya -> Donau -> Vienna -> Vienna] 
+
+  path: 1[30090 -> 90039], [Baranya -> Donau] 
+
+  path: 2[30090 -> 90054 -> 20028 -> 90055 -> 30065 -> 32], [Baranya -> Drau -> Croatia -> Mur -> Salzburg -> Hochgolling Hochgolling Alps ] 
+
+srcNodes: [42885, 90039, 28]
+  path: 0[90047 -> 30075 -> 90039 -> 30061 -> 42885], [Inn -> Bayern -> Donau -> Vienna -> Vienna] 
+
+  path: 1[90047 -> 30075 -> 90039], [Inn -> Bayern -> Donau] 
+
+  path: 2[90047 -> 30147 -> 28], [Inn -> GR -> Piz Bernina Piz Bernina Alps ] 
+
+srcNodes: [30061, 90039, 23]
+  path: 0[20017 -> 10004 -> 20009 -> 30061], [Switzerland -> Europe -> Austria -> Vienna] 
+
+  path: 1[20017 -> 10004 -> 20048 -> 90039], [Switzerland -> Europe -> Moldova -> Donau] 
+
+  path: 2[20017 -> 30160 -> 23], [Switzerland -> VS -> GrandCombin GrandCombin Alps ] 
+
+srcNodes: [30061, 90039, 22]
+  path: 0[20007 -> 10004 -> 20009 -> 30061], [France -> Europe -> Austria -> Vienna] 
+
+  path: 1[20007 -> 10004 -> 20048 -> 90039], [France -> Europe -> Moldova -> Donau] 
+
+  path: 2[20007 -> 30040 -> 22], [France -> Rhone Alpes -> Barre des Ecrins Barre des Ecrins Alps ] 
+
+srcNodes: [42885, 90039, 22]
+  path: 0[90071 -> 30074 -> 90039 -> 30061 -> 42885], [Rhein -> Baden Wurttemberg -> Donau -> Vienna -> Vienna] 
+
+  path: 1[90071 -> 30074 -> 90039], [Rhein -> Baden Wurttemberg -> Donau] 
+
+  path: 2[90071 -> 20014 -> 10004 -> 20007 -> 30040 -> 22], [Rhein -> Liechtenstein -> Europe -> France -> Rhone Alpes -> Barre des Ecrins Barre des Ecrins Alps ] 
+
+srcNodes: [30061, 90039, 26]
+  path: 0[30138 -> 90071 -> 30074 -> 90039 -> 30061], [AG -> Rhein -> Baden Wurttemberg -> Donau -> Vienna] 
+
+  path: 1[30138 -> 90071 -> 30074 -> 90039], [AG -> Rhein -> Baden Wurttemberg -> Donau] 
+
+  path: 2[30138 -> 90076 -> 30143 -> 26], [AG -> Aare -> BE -> Finsteraarhorn Finsteraarhorn Alps ] 
+
+-----------------------------------------
+ResultDestNodes: [90039, 42885, 30061, 20009, 28, 30, 30074, 20015, 30075, 20028, 20048, 20029, 42827, 30090, 90047, 20017, 20007, 90071, 30138]
+ResultRelevs: [9.588910102844238, 9.166866302490234, 8.871521949768066, 5.795920372009277, 5.58805513381958, 5.58805513381958, 5.432051658630371, 5.365598678588867, 5.247461795806885, 5.089805603027344, 4.912598609924316, 4.8239946365356445, 4.794462203979492, 4.794462203979492, 4.16510009765625, 3.9627699851989746, 3.8150999546051025, 3.500574827194214, 3.3956258296966553]
+Num of top-k answers: 19
+Num of redundant answers in top-k answers: 1
+Num of duplicate answers in top-k answers: 0
+Num of entries retrieved from the lists: 606
+Num of redundant candidate answers found: 202
+Num of reduced alternative answers found: 21
+Num of duplicate candidate answers found: 61
+Num of unique alternative answers found: 21
+
+Blink Search Using BDB_reducedNunique_BruteForce 20
+[vienna, donau, alps]
+srcNodes: [30061, 90039, 20]
+  path: 0[90039 -> 30061], [Donau -> Vienna] 
+
+  path: 1[90039 -> 90039], [Donau -> Donau]
+  path: 2[90039 -> 30075 -> 20], [Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [42885, 90039, 20]
+  path: 0[42885 -> 42885], [Vienna -> Vienna]
+  path: 1[42885 -> 90039], [Vienna -> Donau] 
+
+  path: 2[42885 -> 90039 -> 30075 -> 20], [Vienna -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [30061, 90039, 32]
+  path: 0[30061 -> 30061], [Vienna -> Vienna]
+  path: 1[30061 -> 90039], [Vienna -> Donau] 
+
+  path: 2[30061 -> 90039 -> 20028 -> 90055 -> 30064 -> 32], [Vienna -> Donau -> Croatia -> Mur -> Styria -> Hochgolling Hochgolling Alps ] 
+
+srcNodes: [30061, 90039, 31]
+  path: 0[20009 -> 30061], [Austria -> Vienna] 
+
+  path: 1[20009 -> 30066 -> 90039], [Austria -> Lower Austria -> Donau] 
+
+  path: 2[20009 -> 30059 -> 31], [Austria -> Carinthia -> Grossglockner Grossglockner Alps ] 
+
+srcNodes: [30061, 90039, 28]
+  path: 0[28 -> 30147 -> 90047 -> 30075 -> 90039 -> 30061], [Piz Bernina Piz Bernina Alps  -> GR -> Inn -> Bayern -> Donau -> Vienna] 
+
+  path: 1[28 -> 30147 -> 90047 -> 30075 -> 90039], [Piz Bernina Piz Bernina Alps  -> GR -> Inn -> Bayern -> Donau] 
+
+  path: 2[28 -> 28], [Piz Bernina Piz Bernina Alps  -> Piz Bernina Piz Bernina Alps ]
+srcNodes: [30061, 90039, 30]
+  path: 0[30 -> 30118 -> 90054 -> 20028 -> 90039 -> 30061], [Marmolata Marmolata Alps  -> Trentino Alto Adige -> Drau -> Croatia -> Donau -> Vienna] 
+
+  path: 1[30 -> 30118 -> 90054 -> 20028 -> 90039], [Marmolata Marmolata Alps  -> Trentino Alto Adige -> Drau -> Croatia -> Donau] 
+
+  path: 2[30 -> 30], [Marmolata Marmolata Alps  -> Marmolata Marmolata Alps ]
+srcNodes: [30061, 90039, 29]
+  path: 0[30074 -> 90039 -> 30061], [Baden Wurttemberg -> Donau -> Vienna] 
+
+  path: 1[30074 -> 90039], [Baden Wurttemberg -> Donau] 
+
+  path: 2[30074 -> 90071 -> 30147 -> 29], [Baden Wurttemberg -> Rhein -> GR -> Crap_Sogn_Gion Crap_Sogn_Gion Alps ] 
+
+srcNodes: [30061, 90039, 21]
+  path: 0[20015 -> 90039 -> 30061], [Slovakia -> Donau -> Vienna] 
+
+  path: 1[20015 -> 90039], [Slovakia -> Donau] 
+
+  path: 2[20015 -> 10004 -> 20007 -> 30040 -> 21], [Slovakia -> Europe -> France -> Rhone Alpes -> Mont Blanc Mont Blanc Alps ] 
+
+srcNodes: [30061, 90039, 25]
+  path: 0[30075 -> 90039 -> 30061], [Bayern -> Donau -> Vienna] 
+
+  path: 1[30075 -> 90039], [Bayern -> Donau] 
+
+  path: 2[30075 -> 90047 -> 30147 -> 28 -> 30117 -> 25], [Bayern -> Inn -> GR -> Piz Bernina Piz Bernina Alps  -> Lombardia -> Monte Rosa Monte Rosa Alps ] 
+
+srcNodes: [42885, 90039, 30]
+  path: 0[20028 -> 90039 -> 30061 -> 42885], [Croatia -> Donau -> Vienna -> Vienna] 
+
+  path: 1[20028 -> 90039], [Croatia -> Donau] 
+
+  path: 2[20028 -> 90054 -> 30118 -> 30], [Croatia -> Drau -> Trentino Alto Adige -> Marmolata Marmolata Alps ] 
+
+srcNodes: [42885, 90039, 21]
+  path: 0[20048 -> 90039 -> 30061 -> 42885], [Moldova -> Donau -> Vienna -> Vienna] 
+
+  path: 1[20048 -> 90039], [Moldova -> Donau] 
+
+  path: 2[20048 -> 10004 -> 20007 -> 30040 -> 21], [Moldova -> Europe -> France -> Rhone Alpes -> Mont Blanc Mont Blanc Alps ] 
+
+srcNodes: [42885, 90039, 29]
+  path: 0[20029 -> 90039 -> 30061 -> 42885], [Bulgaria -> Donau -> Vienna -> Vienna] 
+
+  path: 1[20029 -> 90039], [Bulgaria -> Donau] 
+
+  path: 2[20029 -> 10004 -> 20017 -> 30147 -> 29], [Bulgaria -> Europe -> Switzerland -> GR -> Crap_Sogn_Gion Crap_Sogn_Gion Alps ] 
+
+srcNodes: [42885, 90039, 31]
+  path: 0[42827 -> 90039 -> 30061 -> 42885], [Ulm -> Donau -> Vienna -> Vienna] 
+
+  path: 1[42827 -> 90039], [Ulm -> Donau] 
+
+  path: 2[42827 -> 90039 -> 20028 -> 90054 -> 30059 -> 31], [Ulm -> Donau -> Croatia -> Drau -> Carinthia -> Grossglockner Grossglockner Alps ] 
+
+This is a non-reduced answer tree with common first node 90039
+
+srcNodes: [42885, 90039, 32]
+  path: 0[30090 -> 90039 -> 30061 -> 42885], [Baranya -> Donau -> Vienna -> Vienna] 
+
+  path: 1[30090 -> 90039], [Baranya -> Donau] 
+
+  path: 2[30090 -> 90054 -> 20028 -> 90055 -> 30065 -> 32], [Baranya -> Drau -> Croatia -> Mur -> Salzburg -> Hochgolling Hochgolling Alps ] 
+
+srcNodes: [42885, 90039, 28]
+  path: 0[90047 -> 30075 -> 90039 -> 30061 -> 42885], [Inn -> Bayern -> Donau -> Vienna -> Vienna] 
+
+  path: 1[90047 -> 30075 -> 90039], [Inn -> Bayern -> Donau] 
+
+  path: 2[90047 -> 30147 -> 28], [Inn -> GR -> Piz Bernina Piz Bernina Alps ] 
+
+srcNodes: [30061, 90039, 23]
+  path: 0[20017 -> 10004 -> 20009 -> 30061], [Switzerland -> Europe -> Austria -> Vienna] 
+
+  path: 1[20017 -> 10004 -> 20048 -> 90039], [Switzerland -> Europe -> Moldova -> Donau] 
+
+  path: 2[20017 -> 30160 -> 23], [Switzerland -> VS -> GrandCombin GrandCombin Alps ] 
+
+srcNodes: [30061, 90039, 22]
+  path: 0[20007 -> 10004 -> 20009 -> 30061], [France -> Europe -> Austria -> Vienna] 
+
+  path: 1[20007 -> 10004 -> 20048 -> 90039], [France -> Europe -> Moldova -> Donau] 
+
+  path: 2[20007 -> 30040 -> 22], [France -> Rhone Alpes -> Barre des Ecrins Barre des Ecrins Alps ] 
+
+srcNodes: [42885, 90039, 22]
+  path: 0[90071 -> 30074 -> 90039 -> 30061 -> 42885], [Rhein -> Baden Wurttemberg -> Donau -> Vienna -> Vienna] 
+
+  path: 1[90071 -> 30074 -> 90039], [Rhein -> Baden Wurttemberg -> Donau] 
+
+  path: 2[90071 -> 20014 -> 10004 -> 20007 -> 30040 -> 22], [Rhein -> Liechtenstein -> Europe -> France -> Rhone Alpes -> Barre des Ecrins Barre des Ecrins Alps ] 
+
+srcNodes: [30061, 90039, 26]
+  path: 0[30138 -> 90071 -> 30074 -> 90039 -> 30061], [AG -> Rhein -> Baden Wurttemberg -> Donau -> Vienna] 
+
+  path: 1[30138 -> 90071 -> 30074 -> 90039], [AG -> Rhein -> Baden Wurttemberg -> Donau] 
+
+  path: 2[30138 -> 90076 -> 30143 -> 26], [AG -> Aare -> BE -> Finsteraarhorn Finsteraarhorn Alps ] 
+
+-----------------------------------------
+ResultDestNodes: [90039, 42885, 30061, 20009, 28, 30, 30074, 20015, 30075, 20028, 20048, 20029, 42827, 30090, 90047, 20017, 20007, 90071, 30138]
+ResultRelevs: [9.588910102844238, 9.166866302490234, 8.871521949768066, 5.795920372009277, 5.58805513381958, 5.58805513381958, 5.432051658630371, 5.365598678588867, 5.247461795806885, 5.089805603027344, 4.912598609924316, 4.8239946365356445, 4.794461727142334, 4.794461727142334, 4.16510009765625, 3.9627699851989746, 3.8150999546051025, 3.500575304031372, 3.3956258296966553]
+Num of top-k answers: 19
+Num of redundant answers in top-k answers: 1
+Num of duplicate answers in top-k answers: 0
+Num of entries retrieved from the lists: 606
+Num of redundant candidate answers found: 202
+Num of reduced alternative answers found: 21
+Num of duplicate candidate answers found: 63
+Num of unique alternative answers found: 26
+
+Blink Search Using BDB 30
+[vienna, donau, alps]
+srcNodes: [30061, 90039, 20]
+  path: 0[90039 -> 30061], [Donau -> Vienna] 
+
+  path: 1[90039 -> 90039], [Donau -> Donau]
+  path: 2[90039 -> 30075 -> 20], [Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [42885, 90039, 20]
+  path: 0[42885 -> 42885], [Vienna -> Vienna]
+  path: 1[42885 -> 90039], [Vienna -> Donau] 
+
+  path: 2[42885 -> 90039 -> 30075 -> 20], [Vienna -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [30061, 90039, 20]
+  path: 0[30061 -> 30061], [Vienna -> Vienna]
+  path: 1[30061 -> 90039], [Vienna -> Donau] 
+
+  path: 2[30061 -> 90039 -> 30075 -> 20], [Vienna -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [30061, 90039, 20]
+  path: 0[20 -> 30075 -> 90039 -> 30061], [Zugspitze Zugspitze Alps  -> Bayern -> Donau -> Vienna] 
+
+  path: 1[20 -> 30075 -> 90039], [Zugspitze Zugspitze Alps  -> Bayern -> Donau] 
+
+  path: 2[20 -> 20], [Zugspitze Zugspitze Alps  -> Zugspitze Zugspitze Alps ]
+srcNodes: [30061, 90039, 20]
+  path: 0[30075 -> 90039 -> 30061], [Bayern -> Donau -> Vienna] 
+
+  path: 1[30075 -> 90039], [Bayern -> Donau] 
+
+  path: 2[30075 -> 20], [Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [30061, 90039, 31]
+  path: 0[20009 -> 30061], [Austria -> Vienna] 
+
+  path: 1[20009 -> 30066 -> 90039], [Austria -> Lower Austria -> Donau] 
+
+  path: 2[20009 -> 30059 -> 31], [Austria -> Carinthia -> Grossglockner Grossglockner Alps ] 
+
+srcNodes: [30061, 90039, 30]
+  path: 0[30 -> 30118 -> 90054 -> 20028 -> 90039 -> 30061], [Marmolata Marmolata Alps  -> Trentino Alto Adige -> Drau -> Croatia -> Donau -> Vienna] 
+
+  path: 1[30 -> 30118 -> 90054 -> 20028 -> 90039], [Marmolata Marmolata Alps  -> Trentino Alto Adige -> Drau -> Croatia -> Donau] 
+
+  path: 2[30 -> 30], [Marmolata Marmolata Alps  -> Marmolata Marmolata Alps ]
+srcNodes: [30061, 90039, 32]
+  path: 0[32 -> 30065 -> 90049 -> 30075 -> 90039 -> 30061], [Hochgolling Hochgolling Alps  -> Salzburg -> Salzach -> Bayern -> Donau -> Vienna] 
+
+  path: 1[32 -> 30065 -> 90049 -> 30075 -> 90039], [Hochgolling Hochgolling Alps  -> Salzburg -> Salzach -> Bayern -> Donau] 
+
+  path: 2[32 -> 32], [Hochgolling Hochgolling Alps  -> Hochgolling Hochgolling Alps ]
+srcNodes: [30061, 90039, 31]
+  path: 0[31 -> 30059 -> 90054 -> 20028 -> 90039 -> 30061], [Grossglockner Grossglockner Alps  -> Carinthia -> Drau -> Croatia -> Donau -> Vienna] 
+
+  path: 1[31 -> 30059 -> 90054 -> 20028 -> 90039], [Grossglockner Grossglockner Alps  -> Carinthia -> Drau -> Croatia -> Donau] 
+
+  path: 2[31 -> 31], [Grossglockner Grossglockner Alps  -> Grossglockner Grossglockner Alps ]
+srcNodes: [30061, 90039, 28]
+  path: 0[28 -> 30147 -> 90047 -> 30075 -> 90039 -> 30061], [Piz Bernina Piz Bernina Alps  -> GR -> Inn -> Bayern -> Donau -> Vienna] 
+
+  path: 1[28 -> 30147 -> 90047 -> 30075 -> 90039], [Piz Bernina Piz Bernina Alps  -> GR -> Inn -> Bayern -> Donau] 
+
+  path: 2[28 -> 28], [Piz Bernina Piz Bernina Alps  -> Piz Bernina Piz Bernina Alps ]
+srcNodes: [30061, 90039, 20]
+  path: 0[30357 -> 90039 -> 30061], [Calarasi -> Donau -> Vienna] 
+
+  path: 1[30357 -> 90039], [Calarasi -> Donau] 
+
+  path: 2[30357 -> 90039 -> 30075 -> 20], [Calarasi -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+This is a non-reduced answer tree with common first node 90039
+
+srcNodes: [30061, 90039, 20]
+  path: 0[30105 -> 90039 -> 30061], [Tolna -> Donau -> Vienna] 
+
+  path: 1[30105 -> 90039], [Tolna -> Donau] 
+
+  path: 2[30105 -> 90039 -> 30075 -> 20], [Tolna -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+This is a non-reduced answer tree with common first node 90039
+
+srcNodes: [30061, 90039, 30]
+  path: 0[20028 -> 90039 -> 30061], [Croatia -> Donau -> Vienna] 
+
+  path: 1[20028 -> 90039], [Croatia -> Donau] 
+
+  path: 2[20028 -> 90054 -> 30118 -> 30], [Croatia -> Drau -> Trentino Alto Adige -> Marmolata Marmolata Alps ] 
+
+srcNodes: [30061, 90039, 20]
+  path: 0[20029 -> 90039 -> 30061], [Bulgaria -> Donau -> Vienna] 
+
+  path: 1[20029 -> 90039], [Bulgaria -> Donau] 
+
+  path: 2[20029 -> 90039 -> 30075 -> 20], [Bulgaria -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+This is a non-reduced answer tree with common first node 90039
+
+srcNodes: [30061, 90039, 20]
+  path: 0[30230 -> 90039 -> 30061], [Odeska -> Donau -> Vienna] 
+
+  path: 1[30230 -> 90039], [Odeska -> Donau] 
+
+  path: 2[30230 -> 90039 -> 30075 -> 20], [Odeska -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+This is a non-reduced answer tree with common first node 90039
+
+srcNodes: [30061, 90039, 20]
+  path: 0[30358 -> 90039 -> 30061], [Caras Severin -> Donau -> Vienna] 
+
+  path: 1[30358 -> 90039], [Caras Severin -> Donau] 
+
+  path: 2[30358 -> 90039 -> 30075 -> 20], [Caras Severin -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+This is a non-reduced answer tree with common first node 90039
+
+srcNodes: [30061, 90039, 20]
+  path: 0[30109 -> 90039 -> 30061], [Budapest (munic.) -> Donau -> Vienna] 
+
+  path: 1[30109 -> 90039], [Budapest (munic.) -> Donau] 
+
+  path: 2[30109 -> 90039 -> 30075 -> 20], [Budapest (munic.) -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+This is a non-reduced answer tree with common first node 90039
+
+srcNodes: [30061, 90039, 20]
+  path: 0[20048 -> 90039 -> 30061], [Moldova -> Donau -> Vienna] 
+
+  path: 1[20048 -> 90039], [Moldova -> Donau] 
+
+  path: 2[20048 -> 90039 -> 30075 -> 20], [Moldova -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+This is a non-reduced answer tree with common first node 90039
+
+srcNodes: [30061, 90039, 20]
+  path: 0[30365 -> 90039 -> 30061], [Giurgiu -> Donau -> Vienna] 
+
+  path: 1[30365 -> 90039], [Giurgiu -> Donau] 
+
+  path: 2[30365 -> 90039 -> 30075 -> 20], [Giurgiu -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+This is a non-reduced answer tree with common first node 90039
+
+srcNodes: [30061, 90039, 20]
+  path: 0[20003 -> 90039 -> 30061], [Serbia -> Donau -> Vienna] 
+
+  path: 1[20003 -> 90039], [Serbia -> Donau] 
+
+  path: 2[20003 -> 90039 -> 30075 -> 20], [Serbia -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+This is a non-reduced answer tree with common first node 90039
+
+srcNodes: [30061, 90039, 20]
+  path: 0[40375 -> 90039 -> 30061], [Bratislava -> Donau -> Vienna] 
+
+  path: 1[40375 -> 90039], [Bratislava -> Donau] 
+
+  path: 2[40375 -> 90039 -> 30075 -> 20], [Bratislava -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+This is a non-reduced answer tree with common first node 90039
+
+srcNodes: [30061, 90039, 20]
+  path: 0[42827 -> 90039 -> 30061], [Ulm -> Donau -> Vienna] 
+
+  path: 1[42827 -> 90039], [Ulm -> Donau] 
+
+  path: 2[42827 -> 90042 -> 30075 -> 20], [Ulm -> Iller -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [30061, 90039, 20]
+  path: 0[40276 -> 90039 -> 30061], [Belgrade -> Donau -> Vienna] 
+
+  path: 1[40276 -> 90039], [Belgrade -> Donau] 
+
+  path: 2[40276 -> 90039 -> 30075 -> 20], [Belgrade -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+This is a non-reduced answer tree with common first node 90039
+
+srcNodes: [30061, 90039, 20]
+  path: 0[30372 -> 90039 -> 30061], [Mehedinti -> Donau -> Vienna] 
+
+  path: 1[30372 -> 90039], [Mehedinti -> Donau] 
+
+  path: 2[30372 -> 90039 -> 30075 -> 20], [Mehedinti -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+This is a non-reduced answer tree with common first node 90039
+
+srcNodes: [30061, 90039, 20]
+  path: 0[30364 -> 90039 -> 30061], [Galati -> Donau -> Vienna] 
+
+  path: 1[30364 -> 90039], [Galati -> Donau] 
+
+  path: 2[30364 -> 90039 -> 30075 -> 20], [Galati -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+This is a non-reduced answer tree with common first node 90039
+
+srcNodes: [30061, 90039, 20]
+  path: 0[30383 -> 90039 -> 30061], [Tulcea -> Donau -> Vienna] 
+
+  path: 1[30383 -> 90039], [Tulcea -> Donau] 
+
+  path: 2[30383 -> 90039 -> 30075 -> 20], [Tulcea -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+This is a non-reduced answer tree with common first node 90039
+
+srcNodes: [30061, 90039, 20]
+  path: 0[30375 -> 90039 -> 30061], [Olt -> Donau -> Vienna] 
+
+  path: 1[30375 -> 90039], [Olt -> Donau] 
+
+  path: 2[30375 -> 90039 -> 30075 -> 20], [Olt -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+This is a non-reduced answer tree with common first node 90039
+
+srcNodes: [30061, 90039, 20]
+  path: 0[20015 -> 90039 -> 30061], [Slovakia -> Donau -> Vienna] 
+
+  path: 1[20015 -> 90039], [Slovakia -> Donau] 
+
+  path: 2[20015 -> 90039 -> 30075 -> 20], [Slovakia -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+This is a non-reduced answer tree with common first node 90039
+
+srcNodes: [30061, 90039, 20]
+  path: 0[30381 -> 90039 -> 30061], [Teleorman -> Donau -> Vienna] 
+
+  path: 1[30381 -> 90039], [Teleorman -> Donau] 
+
+  path: 2[30381 -> 90039 -> 30075 -> 20], [Teleorman -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+This is a non-reduced answer tree with common first node 90039
+
+srcNodes: [30061, 90039, 20]
+  path: 0[42229 -> 90039 -> 30061], [Regensburg -> Donau -> Vienna] 
+
+  path: 1[42229 -> 90039], [Regensburg -> Donau] 
+
+  path: 2[42229 -> 90039 -> 30075 -> 20], [Regensburg -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+This is a non-reduced answer tree with common first node 90039
+
+-----------------------------------------
+ResultDestNodes: [90039, 42885, 30061, 20, 30075, 20009, 30, 32, 31, 28, 30357, 30105, 20028, 20029, 30230, 30358, 30109, 20048, 30365, 20003, 40375, 42827, 40276, 30372, 30364, 30383, 30375, 20015, 30381, 42229]
+ResultRelevs: [9.588910102844238, 9.166866302490234, 9.166866302490234, 6.799659729003906, 6.428839683532715, 5.795920372009277, 5.58805513381958, 5.58805513381958, 5.58805513381958, 5.58805513381958, 5.5428056716918945, 5.5428056716918945, 5.5428056716918945, 5.5428056716918945, 5.5428056716918945, 5.5428056716918945, 5.5428056716918945, 5.5428056716918945, 5.5428056716918945, 5.5428056716918945, 5.5428056716918945, 5.5428056716918945, 5.5428056716918945, 5.5428056716918945, 5.5428056716918945, 5.5428056716918945, 5.5428056716918945, 5.5428056716918945, 5.5428056716918945, 5.5428056716918945]
+Num of top-k answers: 30
+Num of redundant answers: 18
+Num of duplicate answers: 24
+Num of entries retrieved from the lists: 125
+Num of entries retrieved from NKMaps: 148
+
+Blink Search Using BDB_RedundantExclusion 30
+[vienna, donau, alps]
+srcNodes: [30061, 90039, 20]
+  path: 0[90039 -> 30061], [Donau -> Vienna] 
+
+  path: 1[90039 -> 90039], [Donau -> Donau]
+  path: 2[90039 -> 30075 -> 20], [Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [42885, 90039, 20]
+  path: 0[42885 -> 42885], [Vienna -> Vienna]
+  path: 1[42885 -> 90039], [Vienna -> Donau] 
+
+  path: 2[42885 -> 90039 -> 30075 -> 20], [Vienna -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [30061, 90039, 20]
+  path: 0[30061 -> 30061], [Vienna -> Vienna]
+  path: 1[30061 -> 90039], [Vienna -> Donau] 
+
+  path: 2[30061 -> 90039 -> 30075 -> 20], [Vienna -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [30061, 90039, 20]
+  path: 0[20 -> 30075 -> 90039 -> 30061], [Zugspitze Zugspitze Alps  -> Bayern -> Donau -> Vienna] 
+
+  path: 1[20 -> 30075 -> 90039], [Zugspitze Zugspitze Alps  -> Bayern -> Donau] 
+
+  path: 2[20 -> 20], [Zugspitze Zugspitze Alps  -> Zugspitze Zugspitze Alps ]
+srcNodes: [30061, 90039, 20]
+  path: 0[30075 -> 90039 -> 30061], [Bayern -> Donau -> Vienna] 
+
+  path: 1[30075 -> 90039], [Bayern -> Donau] 
+
+  path: 2[30075 -> 20], [Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [30061, 90039, 31]
+  path: 0[20009 -> 30061], [Austria -> Vienna] 
+
+  path: 1[20009 -> 30066 -> 90039], [Austria -> Lower Austria -> Donau] 
+
+  path: 2[20009 -> 30059 -> 31], [Austria -> Carinthia -> Grossglockner Grossglockner Alps ] 
+
+srcNodes: [30061, 90039, 31]
+  path: 0[31 -> 30059 -> 90054 -> 20028 -> 90039 -> 30061], [Grossglockner Grossglockner Alps  -> Carinthia -> Drau -> Croatia -> Donau -> Vienna] 
+
+  path: 1[31 -> 30059 -> 90054 -> 20028 -> 90039], [Grossglockner Grossglockner Alps  -> Carinthia -> Drau -> Croatia -> Donau] 
+
+  path: 2[31 -> 31], [Grossglockner Grossglockner Alps  -> Grossglockner Grossglockner Alps ]
+srcNodes: [30061, 90039, 28]
+  path: 0[28 -> 30147 -> 90047 -> 30075 -> 90039 -> 30061], [Piz Bernina Piz Bernina Alps  -> GR -> Inn -> Bayern -> Donau -> Vienna] 
+
+  path: 1[28 -> 30147 -> 90047 -> 30075 -> 90039], [Piz Bernina Piz Bernina Alps  -> GR -> Inn -> Bayern -> Donau] 
+
+  path: 2[28 -> 28], [Piz Bernina Piz Bernina Alps  -> Piz Bernina Piz Bernina Alps ]
+srcNodes: [30061, 90039, 32]
+  path: 0[32 -> 30065 -> 90049 -> 30075 -> 90039 -> 30061], [Hochgolling Hochgolling Alps  -> Salzburg -> Salzach -> Bayern -> Donau -> Vienna] 
+
+  path: 1[32 -> 30065 -> 90049 -> 30075 -> 90039], [Hochgolling Hochgolling Alps  -> Salzburg -> Salzach -> Bayern -> Donau] 
+
+  path: 2[32 -> 32], [Hochgolling Hochgolling Alps  -> Hochgolling Hochgolling Alps ]
+srcNodes: [30061, 90039, 30]
+  path: 0[30 -> 30118 -> 90054 -> 20028 -> 90039 -> 30061], [Marmolata Marmolata Alps  -> Trentino Alto Adige -> Drau -> Croatia -> Donau -> Vienna] 
+
+  path: 1[30 -> 30118 -> 90054 -> 20028 -> 90039], [Marmolata Marmolata Alps  -> Trentino Alto Adige -> Drau -> Croatia -> Donau] 
+
+  path: 2[30 -> 30], [Marmolata Marmolata Alps  -> Marmolata Marmolata Alps ]
+srcNodes: [30061, 90039, 30]
+  path: 0[20028 -> 90039 -> 30061], [Croatia -> Donau -> Vienna] 
+
+  path: 1[20028 -> 90039], [Croatia -> Donau] 
+
+  path: 2[20028 -> 90054 -> 30118 -> 30], [Croatia -> Drau -> Trentino Alto Adige -> Marmolata Marmolata Alps ] 
+
+srcNodes: [30061, 90039, 28]
+  path: 0[30074 -> 90039 -> 30061], [Baden Wurttemberg -> Donau -> Vienna] 
+
+  path: 1[30074 -> 90039], [Baden Wurttemberg -> Donau] 
+
+  path: 2[30074 -> 90071 -> 30147 -> 28], [Baden Wurttemberg -> Rhein -> GR -> Piz Bernina Piz Bernina Alps ] 
+
+srcNodes: [30061, 90039, 20]
+  path: 0[42827 -> 90039 -> 30061], [Ulm -> Donau -> Vienna] 
+
+  path: 1[42827 -> 90039], [Ulm -> Donau] 
+
+  path: 2[42827 -> 90042 -> 30075 -> 20], [Ulm -> Iller -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [30061, 90039, 30]
+  path: 0[30090 -> 90039 -> 30061], [Baranya -> Donau -> Vienna] 
+
+  path: 1[30090 -> 90039], [Baranya -> Donau] 
+
+  path: 2[30090 -> 90054 -> 30118 -> 30], [Baranya -> Drau -> Trentino Alto Adige -> Marmolata Marmolata Alps ] 
+
+srcNodes: [30061, 90039, 29]
+  path: 0[29 -> 30147 -> 90047 -> 30075 -> 90039 -> 30061], [Crap_Sogn_Gion Crap_Sogn_Gion Alps  -> GR -> Inn -> Bayern -> Donau -> Vienna] 
+
+  path: 1[29 -> 30147 -> 90047 -> 30075 -> 90039], [Crap_Sogn_Gion Crap_Sogn_Gion Alps  -> GR -> Inn -> Bayern -> Donau] 
+
+  path: 2[29 -> 29], [Crap_Sogn_Gion Crap_Sogn_Gion Alps  -> Crap_Sogn_Gion Crap_Sogn_Gion Alps ]
+srcNodes: [30061, 90039, 30]
+  path: 0[10004 -> 20009 -> 30061], [Europe -> Austria -> Vienna] 
+
+  path: 1[10004 -> 20048 -> 90039], [Europe -> Moldova -> Donau] 
+
+  path: 2[10004 -> 20013 -> 30119 -> 30], [Europe -> Italy -> Veneto -> Marmolata Marmolata Alps ] 
+
+srcNodes: [30061, 90039, 28]
+  path: 0[90047 -> 30075 -> 90039 -> 30061], [Inn -> Bayern -> Donau -> Vienna] 
+
+  path: 1[90047 -> 30075 -> 90039], [Inn -> Bayern -> Donau] 
+
+  path: 2[90047 -> 30147 -> 28], [Inn -> GR -> Piz Bernina Piz Bernina Alps ] 
+
+srcNodes: [30061, 90039, 32]
+  path: 0[90049 -> 30075 -> 90039 -> 30061], [Salzach -> Bayern -> Donau -> Vienna] 
+
+  path: 1[90049 -> 30075 -> 90039], [Salzach -> Bayern -> Donau] 
+
+  path: 2[90049 -> 30065 -> 32], [Salzach -> Salzburg -> Hochgolling Hochgolling Alps ] 
+
+srcNodes: [30061, 90039, 32]
+  path: 0[90055 -> 20028 -> 90039 -> 30061], [Mur -> Croatia -> Donau -> Vienna] 
+
+  path: 1[90055 -> 20028 -> 90039], [Mur -> Croatia -> Donau] 
+
+  path: 2[90055 -> 30065 -> 32], [Mur -> Salzburg -> Hochgolling Hochgolling Alps ] 
+
+srcNodes: [30061, 90039, 30]
+  path: 0[90054 -> 20028 -> 90039 -> 30061], [Drau -> Croatia -> Donau -> Vienna] 
+
+  path: 1[90054 -> 20028 -> 90039], [Drau -> Croatia -> Donau] 
+
+  path: 2[90054 -> 30118 -> 30], [Drau -> Trentino Alto Adige -> Marmolata Marmolata Alps ] 
+
+srcNodes: [30061, 90039, 20]
+  path: 0[20011 -> 10004 -> 20009 -> 30061], [Germany -> Europe -> Austria -> Vienna] 
+
+  path: 1[20011 -> 30075 -> 90039], [Germany -> Bayern -> Donau] 
+
+  path: 2[20011 -> 30075 -> 20], [Germany -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [30061, 90039, 28]
+  path: 0[90071 -> 30074 -> 90039 -> 30061], [Rhein -> Baden Wurttemberg -> Donau -> Vienna] 
+
+  path: 1[90071 -> 30074 -> 90039], [Rhein -> Baden Wurttemberg -> Donau] 
+
+  path: 2[90071 -> 30147 -> 28], [Rhein -> GR -> Piz Bernina Piz Bernina Alps ] 
+
+srcNodes: [30061, 90039, 32]
+  path: 0[30064 -> 90055 -> 20028 -> 90039 -> 30061], [Styria -> Mur -> Croatia -> Donau -> Vienna] 
+
+  path: 1[30064 -> 90055 -> 20028 -> 90039], [Styria -> Mur -> Croatia -> Donau] 
+
+  path: 2[30064 -> 32], [Styria -> Hochgolling Hochgolling Alps ] 
+
+srcNodes: [30061, 90039, 32]
+  path: 0[30065 -> 90049 -> 30075 -> 90039 -> 30061], [Salzburg -> Salzach -> Bayern -> Donau -> Vienna] 
+
+  path: 1[30065 -> 90049 -> 30075 -> 90039], [Salzburg -> Salzach -> Bayern -> Donau] 
+
+  path: 2[30065 -> 32], [Salzburg -> Hochgolling Hochgolling Alps ] 
+
+srcNodes: [30061, 90039, 28]
+  path: 0[30147 -> 90047 -> 30075 -> 90039 -> 30061], [GR -> Inn -> Bayern -> Donau -> Vienna] 
+
+  path: 1[30147 -> 90047 -> 30075 -> 90039], [GR -> Inn -> Bayern -> Donau] 
+
+  path: 2[30147 -> 28], [GR -> Piz Bernina Piz Bernina Alps ] 
+
+srcNodes: [30061, 90039, 31]
+  path: 0[30059 -> 90054 -> 20028 -> 90039 -> 30061], [Carinthia -> Drau -> Croatia -> Donau -> Vienna] 
+
+  path: 1[30059 -> 90054 -> 20028 -> 90039], [Carinthia -> Drau -> Croatia -> Donau] 
+
+  path: 2[30059 -> 31], [Carinthia -> Grossglockner Grossglockner Alps ] 
+
+srcNodes: [30061, 90039, 30]
+  path: 0[30118 -> 90054 -> 20028 -> 90039 -> 30061], [Trentino Alto Adige -> Drau -> Croatia -> Donau -> Vienna] 
+
+  path: 1[30118 -> 90054 -> 20028 -> 90039], [Trentino Alto Adige -> Drau -> Croatia -> Donau] 
+
+  path: 2[30118 -> 30], [Trentino Alto Adige -> Marmolata Marmolata Alps ] 
+
+srcNodes: [30061, 90039, 28]
+  path: 0[20022 -> 10004 -> 20009 -> 30061], [Ukraine -> Europe -> Austria -> Vienna] 
+
+  path: 1[20022 -> 30230 -> 90039], [Ukraine -> Odeska -> Donau] 
+
+  path: 2[20022 -> 10004 -> 20013 -> 30117 -> 28], [Ukraine -> Europe -> Italy -> Lombardia -> Piz Bernina Piz Bernina Alps ] 
+
+srcNodes: [30061, 90039, 28]
+  path: 0[20012 -> 10004 -> 20009 -> 30061], [Hungary -> Europe -> Austria -> Vienna] 
+
+  path: 1[20012 -> 30109 -> 90039], [Hungary -> Budapest (munic.) -> Donau] 
+
+  path: 2[20012 -> 10004 -> 20013 -> 30117 -> 28], [Hungary -> Europe -> Italy -> Lombardia -> Piz Bernina Piz Bernina Alps ] 
+
+srcNodes: [30061, 90039, 28]
+  path: 0[20030 -> 10004 -> 20009 -> 30061], [Romania -> Europe -> Austria -> Vienna] 
+
+  path: 1[20030 -> 30383 -> 90039], [Romania -> Tulcea -> Donau] 
+
+  path: 2[20030 -> 10004 -> 20013 -> 30117 -> 28], [Romania -> Europe -> Italy -> Lombardia -> Piz Bernina Piz Bernina Alps ] 
+
+-----------------------------------------
+ResultDestNodes: [90039, 42885, 30061, 20, 30075, 20009, 31, 28, 32, 30, 20028, 30074, 42827, 30090, 29, 10004, 90047, 90049, 90055, 90054, 20011, 90071, 30064, 30065, 30147, 30059, 30118, 20022, 20012, 20030]
+ResultRelevs: [9.588910102844238, 9.166866302490234, 9.166866302490234, 6.799659729003906, 6.428839683532715, 5.795920372009277, 5.58805513381958, 5.58805513381958, 5.58805513381958, 5.58805513381958, 5.5428056716918945, 5.5428056716918945, 5.5428056716918945, 5.5428056716918945, 5.145045280456543, 4.594555854797363, 4.4369001388549805, 4.4369001388549805, 4.4369001388549805, 4.4369001388549805, 4.4369001388549805, 4.4369001388549805, 4.281660079956055, 4.281660079956055, 4.281660079956055, 4.281660079956055, 4.281660079956055, 3.964348793029785, 3.964348793029785, 3.964348793029785]
+Num of top-k answers: 30
+Num of redundant answers: 0
+Num of duplicate answers: 23
+Num of entries retrieved from the lists: 233
+Num of entries retrieved from NKMaps: 283
+
+Blink Search Using BDB_reduced 30
+[vienna, donau, alps]
+srcNodes: [30061, 90039, 20]
+  path: 0[90039 -> 30061], [Donau -> Vienna] 
+
+  path: 1[90039 -> 90039], [Donau -> Donau]
+  path: 2[90039 -> 30075 -> 20], [Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [42885, 90039, 20]
+  path: 0[42885 -> 42885], [Vienna -> Vienna]
+  path: 1[42885 -> 90039], [Vienna -> Donau] 
+
+  path: 2[42885 -> 90039 -> 30075 -> 20], [Vienna -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [30061, 90039, 20]
+  path: 0[30061 -> 30061], [Vienna -> Vienna]
+  path: 1[30061 -> 90039], [Vienna -> Donau] 
+
+  path: 2[30061 -> 90039 -> 30075 -> 20], [Vienna -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [30061, 90039, 20]
+  path: 0[20 -> 30075 -> 90039 -> 30061], [Zugspitze Zugspitze Alps  -> Bayern -> Donau -> Vienna] 
+
+  path: 1[20 -> 30075 -> 90039], [Zugspitze Zugspitze Alps  -> Bayern -> Donau] 
+
+  path: 2[20 -> 20], [Zugspitze Zugspitze Alps  -> Zugspitze Zugspitze Alps ]
+srcNodes: [30061, 90039, 20]
+  path: 0[30075 -> 90039 -> 30061], [Bayern -> Donau -> Vienna] 
+
+  path: 1[30075 -> 90039], [Bayern -> Donau] 
+
+  path: 2[30075 -> 20], [Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [30061, 90039, 31]
+  path: 0[20009 -> 30061], [Austria -> Vienna] 
+
+  path: 1[20009 -> 30066 -> 90039], [Austria -> Lower Austria -> Donau] 
+
+  path: 2[20009 -> 30059 -> 31], [Austria -> Carinthia -> Grossglockner Grossglockner Alps ] 
+
+srcNodes: [30061, 90039, 30]
+  path: 0[30 -> 30118 -> 90054 -> 20028 -> 90039 -> 30061], [Marmolata Marmolata Alps  -> Trentino Alto Adige -> Drau -> Croatia -> Donau -> Vienna] 
+
+  path: 1[30 -> 30118 -> 90054 -> 20028 -> 90039], [Marmolata Marmolata Alps  -> Trentino Alto Adige -> Drau -> Croatia -> Donau] 
+
+  path: 2[30 -> 30], [Marmolata Marmolata Alps  -> Marmolata Marmolata Alps ]
+srcNodes: [30061, 90039, 32]
+  path: 0[32 -> 30065 -> 90049 -> 30075 -> 90039 -> 30061], [Hochgolling Hochgolling Alps  -> Salzburg -> Salzach -> Bayern -> Donau -> Vienna] 
+
+  path: 1[32 -> 30065 -> 90049 -> 30075 -> 90039], [Hochgolling Hochgolling Alps  -> Salzburg -> Salzach -> Bayern -> Donau] 
+
+  path: 2[32 -> 32], [Hochgolling Hochgolling Alps  -> Hochgolling Hochgolling Alps ]
+srcNodes: [30061, 90039, 31]
+  path: 0[31 -> 30059 -> 90054 -> 20028 -> 90039 -> 30061], [Grossglockner Grossglockner Alps  -> Carinthia -> Drau -> Croatia -> Donau -> Vienna] 
+
+  path: 1[31 -> 30059 -> 90054 -> 20028 -> 90039], [Grossglockner Grossglockner Alps  -> Carinthia -> Drau -> Croatia -> Donau] 
+
+  path: 2[31 -> 31], [Grossglockner Grossglockner Alps  -> Grossglockner Grossglockner Alps ]
+srcNodes: [30061, 90039, 28]
+  path: 0[28 -> 30147 -> 90047 -> 30075 -> 90039 -> 30061], [Piz Bernina Piz Bernina Alps  -> GR -> Inn -> Bayern -> Donau -> Vienna] 
+
+  path: 1[28 -> 30147 -> 90047 -> 30075 -> 90039], [Piz Bernina Piz Bernina Alps  -> GR -> Inn -> Bayern -> Donau] 
+
+  path: 2[28 -> 28], [Piz Bernina Piz Bernina Alps  -> Piz Bernina Piz Bernina Alps ]
+srcNodes: [30061, 90039, 20]
+  path: 0[42827 -> 90039 -> 30061], [Ulm -> Donau -> Vienna] 
+
+  path: 1[42827 -> 90039], [Ulm -> Donau] 
+
+  path: 2[42827 -> 90042 -> 30075 -> 20], [Ulm -> Iller -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [30061, 90039, 28]
+  path: 0[30074 -> 90039 -> 30061], [Baden Wurttemberg -> Donau -> Vienna] 
+
+  path: 1[30074 -> 90039], [Baden Wurttemberg -> Donau] 
+
+  path: 2[30074 -> 90071 -> 30147 -> 28], [Baden Wurttemberg -> Rhein -> GR -> Piz Bernina Piz Bernina Alps ] 
+
+srcNodes: [30061, 90039, 30]
+  path: 0[20028 -> 90039 -> 30061], [Croatia -> Donau -> Vienna] 
+
+  path: 1[20028 -> 90039], [Croatia -> Donau] 
+
+  path: 2[20028 -> 90054 -> 30118 -> 30], [Croatia -> Drau -> Trentino Alto Adige -> Marmolata Marmolata Alps ] 
+
+srcNodes: [30061, 90039, 30]
+  path: 0[30090 -> 90039 -> 30061], [Baranya -> Donau -> Vienna] 
+
+  path: 1[30090 -> 90039], [Baranya -> Donau] 
+
+  path: 2[30090 -> 90054 -> 30118 -> 30], [Baranya -> Drau -> Trentino Alto Adige -> Marmolata Marmolata Alps ] 
+
+srcNodes: [30061, 90039, 28]
+  path: 0[20029 -> 90039 -> 30061], [Bulgaria -> Donau -> Vienna] 
+
+  path: 1[20029 -> 90039], [Bulgaria -> Donau] 
+
+  path: 2[20029 -> 10004 -> 20013 -> 30117 -> 28], [Bulgaria -> Europe -> Italy -> Lombardia -> Piz Bernina Piz Bernina Alps ] 
+
+srcNodes: [30061, 90039, 28]
+  path: 0[20048 -> 90039 -> 30061], [Moldova -> Donau -> Vienna] 
+
+  path: 1[20048 -> 90039], [Moldova -> Donau] 
+
+  path: 2[20048 -> 10004 -> 20013 -> 30117 -> 28], [Moldova -> Europe -> Italy -> Lombardia -> Piz Bernina Piz Bernina Alps ] 
+
+srcNodes: [30061, 90039, 28]
+  path: 0[20003 -> 90039 -> 30061], [Serbia -> Donau -> Vienna] 
+
+  path: 1[20003 -> 90039], [Serbia -> Donau] 
+
+  path: 2[20003 -> 10004 -> 20013 -> 30117 -> 28], [Serbia -> Europe -> Italy -> Lombardia -> Piz Bernina Piz Bernina Alps ] 
+
+srcNodes: [30061, 90039, 28]
+  path: 0[20015 -> 90039 -> 30061], [Slovakia -> Donau -> Vienna] 
+
+  path: 1[20015 -> 90039], [Slovakia -> Donau] 
+
+  path: 2[20015 -> 10004 -> 20013 -> 30117 -> 28], [Slovakia -> Europe -> Italy -> Lombardia -> Piz Bernina Piz Bernina Alps ] 
+
+srcNodes: [30061, 90039, 32]
+  path: 0[40276 -> 90039 -> 30061], [Belgrade -> Donau -> Vienna] 
+
+  path: 1[40276 -> 90039], [Belgrade -> Donau] 
+
+  path: 2[40276 -> 90057 -> 20028 -> 90055 -> 30065 -> 32], [Belgrade -> Save -> Croatia -> Mur -> Salzburg -> Hochgolling Hochgolling Alps ] 
+
+srcNodes: [30061, 90039, 29]
+  path: 0[29 -> 30147 -> 90047 -> 30075 -> 90039 -> 30061], [Crap_Sogn_Gion Crap_Sogn_Gion Alps  -> GR -> Inn -> Bayern -> Donau -> Vienna] 
+
+  path: 1[29 -> 30147 -> 90047 -> 30075 -> 90039], [Crap_Sogn_Gion Crap_Sogn_Gion Alps  -> GR -> Inn -> Bayern -> Donau] 
+
+  path: 2[29 -> 29], [Crap_Sogn_Gion Crap_Sogn_Gion Alps  -> Crap_Sogn_Gion Crap_Sogn_Gion Alps ]
+srcNodes: [30061, 90039, 30]
+  path: 0[10004 -> 20009 -> 30061], [Europe -> Austria -> Vienna] 
+
+  path: 1[10004 -> 20048 -> 90039], [Europe -> Moldova -> Donau] 
+
+  path: 2[10004 -> 20013 -> 30119 -> 30], [Europe -> Italy -> Veneto -> Marmolata Marmolata Alps ] 
+
+srcNodes: [30061, 90039, 32]
+  path: 0[90055 -> 20028 -> 90039 -> 30061], [Mur -> Croatia -> Donau -> Vienna] 
+
+  path: 1[90055 -> 20028 -> 90039], [Mur -> Croatia -> Donau] 
+
+  path: 2[90055 -> 30065 -> 32], [Mur -> Salzburg -> Hochgolling Hochgolling Alps ] 
+
+srcNodes: [30061, 90039, 30]
+  path: 0[90054 -> 20028 -> 90039 -> 30061], [Drau -> Croatia -> Donau -> Vienna] 
+
+  path: 1[90054 -> 20028 -> 90039], [Drau -> Croatia -> Donau] 
+
+  path: 2[90054 -> 30118 -> 30], [Drau -> Trentino Alto Adige -> Marmolata Marmolata Alps ] 
+
+srcNodes: [30061, 90039, 28]
+  path: 0[90047 -> 30075 -> 90039 -> 30061], [Inn -> Bayern -> Donau -> Vienna] 
+
+  path: 1[90047 -> 30075 -> 90039], [Inn -> Bayern -> Donau] 
+
+  path: 2[90047 -> 30147 -> 28], [Inn -> GR -> Piz Bernina Piz Bernina Alps ] 
+
+srcNodes: [30061, 90039, 20]
+  path: 0[20011 -> 10004 -> 20009 -> 30061], [Germany -> Europe -> Austria -> Vienna] 
+
+  path: 1[20011 -> 30075 -> 90039], [Germany -> Bayern -> Donau] 
+
+  path: 2[20011 -> 30075 -> 20], [Germany -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [30061, 90039, 32]
+  path: 0[90049 -> 30075 -> 90039 -> 30061], [Salzach -> Bayern -> Donau -> Vienna] 
+
+  path: 1[90049 -> 30075 -> 90039], [Salzach -> Bayern -> Donau] 
+
+  path: 2[90049 -> 30065 -> 32], [Salzach -> Salzburg -> Hochgolling Hochgolling Alps ] 
+
+srcNodes: [30061, 90039, 28]
+  path: 0[90071 -> 30074 -> 90039 -> 30061], [Rhein -> Baden Wurttemberg -> Donau -> Vienna] 
+
+  path: 1[90071 -> 30074 -> 90039], [Rhein -> Baden Wurttemberg -> Donau] 
+
+  path: 2[90071 -> 30147 -> 28], [Rhein -> GR -> Piz Bernina Piz Bernina Alps ] 
+
+srcNodes: [30061, 90039, 28]
+  path: 0[30147 -> 90047 -> 30075 -> 90039 -> 30061], [GR -> Inn -> Bayern -> Donau -> Vienna] 
+
+  path: 1[30147 -> 90047 -> 30075 -> 90039], [GR -> Inn -> Bayern -> Donau] 
+
+  path: 2[30147 -> 28], [GR -> Piz Bernina Piz Bernina Alps ] 
+
+srcNodes: [30061, 90039, 31]
+  path: 0[30059 -> 90054 -> 20028 -> 90039 -> 30061], [Carinthia -> Drau -> Croatia -> Donau -> Vienna] 
+
+  path: 1[30059 -> 90054 -> 20028 -> 90039], [Carinthia -> Drau -> Croatia -> Donau] 
+
+  path: 2[30059 -> 31], [Carinthia -> Grossglockner Grossglockner Alps ] 
+
+srcNodes: [30061, 90039, 32]
+  path: 0[30064 -> 90055 -> 20028 -> 90039 -> 30061], [Styria -> Mur -> Croatia -> Donau -> Vienna] 
+
+  path: 1[30064 -> 90055 -> 20028 -> 90039], [Styria -> Mur -> Croatia -> Donau] 
+
+  path: 2[30064 -> 32], [Styria -> Hochgolling Hochgolling Alps ] 
+
+-----------------------------------------
+ResultDestNodes: [90039, 42885, 30061, 20, 30075, 20009, 30, 32, 31, 28, 42827, 30074, 20028, 30090, 20029, 20048, 20003, 20015, 40276, 29, 10004, 90055, 90054, 90047, 20011, 90049, 90071, 30147, 30059, 30064]
+ResultRelevs: [9.588910102844238, 9.166866302490234, 9.166866302490234, 6.799659729003906, 6.428839683532715, 5.795920372009277, 5.58805513381958, 5.58805513381958, 5.58805513381958, 5.58805513381958, 5.5428056716918945, 5.5428056716918945, 5.5428056716918945, 5.5428056716918945, 5.365598678588867, 5.365598678588867, 5.365598678588867, 5.365598678588867, 5.247461795806885, 5.145045280456543, 4.594555854797363, 4.4369001388549805, 4.4369001388549805, 4.4369001388549805, 4.4369001388549805, 4.4369001388549805, 4.4369001388549805, 4.281660079956055, 4.281660079956055, 4.281660079956055]
+Num of top-k answers: 30
+Num of redundant answers: 0
+Num of duplicate answers: 23
+Num of entries retrieved from the lists: 186
+Num of entries retrieved from NKMaps: 432
+Num of redundant candidate answers found: 68
+Num of reduced alternative answers found: 11
+
+Blink Search Using BDB_reducedNunique 30
+[vienna, donau, alps]
+srcNodes: [30061, 90039, 20]
+  path: 0[90039 -> 30061], [Donau -> Vienna] 
+
+  path: 1[90039 -> 90039], [Donau -> Donau]
+  path: 2[90039 -> 30075 -> 20], [Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [42885, 90039, 20]
+  path: 0[42885 -> 42885], [Vienna -> Vienna]
+  path: 1[42885 -> 90039], [Vienna -> Donau] 
+
+  path: 2[42885 -> 90039 -> 30075 -> 20], [Vienna -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [30061, 90039, 32]
+  path: 0[30061 -> 30061], [Vienna -> Vienna]
+  path: 1[30061 -> 90039], [Vienna -> Donau] 
+
+  path: 2[30061 -> 90039 -> 20028 -> 90055 -> 30064 -> 32], [Vienna -> Donau -> Croatia -> Mur -> Styria -> Hochgolling Hochgolling Alps ] 
+
+srcNodes: [30061, 90039, 31]
+  path: 0[20009 -> 30061], [Austria -> Vienna] 
+
+  path: 1[20009 -> 30066 -> 90039], [Austria -> Lower Austria -> Donau] 
+
+  path: 2[20009 -> 30059 -> 31], [Austria -> Carinthia -> Grossglockner Grossglockner Alps ] 
+
+srcNodes: [30061, 90039, 28]
+  path: 0[28 -> 30147 -> 90047 -> 30075 -> 90039 -> 30061], [Piz Bernina Piz Bernina Alps  -> GR -> Inn -> Bayern -> Donau -> Vienna] 
+
+  path: 1[28 -> 30147 -> 90047 -> 30075 -> 90039], [Piz Bernina Piz Bernina Alps  -> GR -> Inn -> Bayern -> Donau] 
+
+  path: 2[28 -> 28], [Piz Bernina Piz Bernina Alps  -> Piz Bernina Piz Bernina Alps ]
+srcNodes: [30061, 90039, 30]
+  path: 0[30 -> 30118 -> 90054 -> 20028 -> 90039 -> 30061], [Marmolata Marmolata Alps  -> Trentino Alto Adige -> Drau -> Croatia -> Donau -> Vienna] 
+
+  path: 1[30 -> 30118 -> 90054 -> 20028 -> 90039], [Marmolata Marmolata Alps  -> Trentino Alto Adige -> Drau -> Croatia -> Donau] 
+
+  path: 2[30 -> 30], [Marmolata Marmolata Alps  -> Marmolata Marmolata Alps ]
+srcNodes: [30061, 90039, 29]
+  path: 0[30074 -> 90039 -> 30061], [Baden Wurttemberg -> Donau -> Vienna] 
+
+  path: 1[30074 -> 90039], [Baden Wurttemberg -> Donau] 
+
+  path: 2[30074 -> 90071 -> 30147 -> 29], [Baden Wurttemberg -> Rhein -> GR -> Crap_Sogn_Gion Crap_Sogn_Gion Alps ] 
+
+srcNodes: [30061, 90039, 21]
+  path: 0[20015 -> 90039 -> 30061], [Slovakia -> Donau -> Vienna] 
+
+  path: 1[20015 -> 90039], [Slovakia -> Donau] 
+
+  path: 2[20015 -> 10004 -> 20007 -> 30040 -> 21], [Slovakia -> Europe -> France -> Rhone Alpes -> Mont Blanc Mont Blanc Alps ] 
+
+srcNodes: [30061, 90039, 25]
+  path: 0[30075 -> 90039 -> 30061], [Bayern -> Donau -> Vienna] 
+
+  path: 1[30075 -> 90039], [Bayern -> Donau] 
+
+  path: 2[30075 -> 90047 -> 30147 -> 28 -> 30117 -> 25], [Bayern -> Inn -> GR -> Piz Bernina Piz Bernina Alps  -> Lombardia -> Monte Rosa Monte Rosa Alps ] 
+
+srcNodes: [42885, 90039, 30]
+  path: 0[20028 -> 90039 -> 30061 -> 42885], [Croatia -> Donau -> Vienna -> Vienna] 
+
+  path: 1[20028 -> 90039], [Croatia -> Donau] 
+
+  path: 2[20028 -> 90054 -> 30118 -> 30], [Croatia -> Drau -> Trentino Alto Adige -> Marmolata Marmolata Alps ] 
+
+srcNodes: [42885, 90039, 21]
+  path: 0[20048 -> 90039 -> 30061 -> 42885], [Moldova -> Donau -> Vienna -> Vienna] 
+
+  path: 1[20048 -> 90039], [Moldova -> Donau] 
+
+  path: 2[20048 -> 10004 -> 20007 -> 30040 -> 21], [Moldova -> Europe -> France -> Rhone Alpes -> Mont Blanc Mont Blanc Alps ] 
+
+srcNodes: [42885, 90039, 29]
+  path: 0[20029 -> 90039 -> 30061 -> 42885], [Bulgaria -> Donau -> Vienna -> Vienna] 
+
+  path: 1[20029 -> 90039], [Bulgaria -> Donau] 
+
+  path: 2[20029 -> 10004 -> 20017 -> 30147 -> 29], [Bulgaria -> Europe -> Switzerland -> GR -> Crap_Sogn_Gion Crap_Sogn_Gion Alps ] 
+
+srcNodes: [42885, 90039, 31]
+  path: 0[42827 -> 90039 -> 30061 -> 42885], [Ulm -> Donau -> Vienna -> Vienna] 
+
+  path: 1[42827 -> 90039], [Ulm -> Donau] 
+
+  path: 2[42827 -> 90039 -> 20028 -> 90054 -> 30059 -> 31], [Ulm -> Donau -> Croatia -> Drau -> Carinthia -> Grossglockner Grossglockner Alps ] 
+
+This is a non-reduced answer tree with common first node 90039
+
+srcNodes: [42885, 90039, 32]
+  path: 0[30090 -> 90039 -> 30061 -> 42885], [Baranya -> Donau -> Vienna -> Vienna] 
+
+  path: 1[30090 -> 90039], [Baranya -> Donau] 
+
+  path: 2[30090 -> 90054 -> 20028 -> 90055 -> 30065 -> 32], [Baranya -> Drau -> Croatia -> Mur -> Salzburg -> Hochgolling Hochgolling Alps ] 
+
+srcNodes: [42885, 90039, 28]
+  path: 0[90047 -> 30075 -> 90039 -> 30061 -> 42885], [Inn -> Bayern -> Donau -> Vienna -> Vienna] 
+
+  path: 1[90047 -> 30075 -> 90039], [Inn -> Bayern -> Donau] 
+
+  path: 2[90047 -> 30147 -> 28], [Inn -> GR -> Piz Bernina Piz Bernina Alps ] 
+
+srcNodes: [30061, 90039, 23]
+  path: 0[20017 -> 10004 -> 20009 -> 30061], [Switzerland -> Europe -> Austria -> Vienna] 
+
+  path: 1[20017 -> 10004 -> 20048 -> 90039], [Switzerland -> Europe -> Moldova -> Donau] 
+
+  path: 2[20017 -> 30160 -> 23], [Switzerland -> VS -> GrandCombin GrandCombin Alps ] 
+
+srcNodes: [30061, 90039, 22]
+  path: 0[20007 -> 10004 -> 20009 -> 30061], [France -> Europe -> Austria -> Vienna] 
+
+  path: 1[20007 -> 10004 -> 20048 -> 90039], [France -> Europe -> Moldova -> Donau] 
+
+  path: 2[20007 -> 30040 -> 22], [France -> Rhone Alpes -> Barre des Ecrins Barre des Ecrins Alps ] 
+
+srcNodes: [42885, 90039, 22]
+  path: 0[90071 -> 30074 -> 90039 -> 30061 -> 42885], [Rhein -> Baden Wurttemberg -> Donau -> Vienna -> Vienna] 
+
+  path: 1[90071 -> 30074 -> 90039], [Rhein -> Baden Wurttemberg -> Donau] 
+
+  path: 2[90071 -> 20014 -> 10004 -> 20007 -> 30040 -> 22], [Rhein -> Liechtenstein -> Europe -> France -> Rhone Alpes -> Barre des Ecrins Barre des Ecrins Alps ] 
+
+srcNodes: [30061, 90039, 26]
+  path: 0[30138 -> 90071 -> 30074 -> 90039 -> 30061], [AG -> Rhein -> Baden Wurttemberg -> Donau -> Vienna] 
+
+  path: 1[30138 -> 90071 -> 30074 -> 90039], [AG -> Rhein -> Baden Wurttemberg -> Donau] 
+
+  path: 2[30138 -> 90076 -> 30143 -> 26], [AG -> Aare -> BE -> Finsteraarhorn Finsteraarhorn Alps ] 
+
+srcNodes: [30061, 90039, 166]
+  path: 0[20023 -> 10004 -> 20009 -> 30061], [Russia -> Europe -> Austria -> Vienna] 
+
+  path: 1[20023 -> 10004 -> 20048 -> 90039], [Russia -> Europe -> Moldova -> Donau] 
+
+  path: 2[20023 -> 10002 -> 20086 -> 10003 -> 20157 -> 166], [Russia -> Asia -> Indonesia -> Australia/Oceania -> New Zealand -> Mt. Cook Mt. Cook New Zealand Alps ] 
+
+srcNodes: [42885, 90039, 166]
+  path: 0[20031 -> 10004 -> 20009 -> 30061 -> 42885], [Turkey -> Europe -> Austria -> Vienna -> Vienna] 
+
+  path: 1[20031 -> 10004 -> 20048 -> 90039], [Turkey -> Europe -> Moldova -> Donau] 
+
+  path: 2[20031 -> 10002 -> 20086 -> 10003 -> 20157 -> 166], [Turkey -> Asia -> Indonesia -> Australia/Oceania -> New Zealand -> Mt. Cook Mt. Cook New Zealand Alps ] 
+
+srcNodes: [42885, 90039, 25]
+  path: 0[30063 -> 20 -> 30075 -> 90039 -> 30061 -> 42885], [Tyrol -> Zugspitze Zugspitze Alps  -> Bayern -> Donau -> Vienna -> Vienna] 
+
+  path: 1[30063 -> 20 -> 30075 -> 90039], [Tyrol -> Zugspitze Zugspitze Alps  -> Bayern -> Donau] 
+
+  path: 2[30063 -> 90047 -> 30147 -> 28 -> 30117 -> 25], [Tyrol -> Inn -> GR -> Piz Bernina Piz Bernina Alps  -> Lombardia -> Monte Rosa Monte Rosa Alps ] 
+
+-----------------------------------------
+ResultDestNodes: [90039, 42885, 30061, 20009, 28, 30, 30074, 20015, 30075, 20028, 20048, 20029, 42827, 30090, 90047, 20017, 20007, 90071, 30138, 20023, 20031, 30063]
+ResultRelevs: [9.588910102844238, 9.166866302490234, 8.871521949768066, 5.795920372009277, 5.58805513381958, 5.58805513381958, 5.432051658630371, 5.365598678588867, 5.247461795806885, 5.089805603027344, 4.912598609924316, 4.8239946365356445, 4.794462203979492, 4.794462203979492, 4.16510009765625, 3.9627699851989746, 3.8150999546051025, 3.500574827194214, 3.3956258296966553, 3.2244088649749756, 2.952609062194824, 2.919076919555664]
+Num of top-k answers: 22
+Num of redundant answers in top-k answers: 1
+Num of duplicate answers in top-k answers: 0
+Num of entries retrieved from the lists: 1071
+Num of redundant candidate answers found: 269
+Num of reduced alternative answers found: 26
+Num of duplicate candidate answers found: 72
+Num of unique alternative answers found: 22
+
+Blink Search Using BDB_reducedNunique_BruteForce 30
+[vienna, donau, alps]
+srcNodes: [30061, 90039, 20]
+  path: 0[90039 -> 30061], [Donau -> Vienna] 
+
+  path: 1[90039 -> 90039], [Donau -> Donau]
+  path: 2[90039 -> 30075 -> 20], [Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [42885, 90039, 20]
+  path: 0[42885 -> 42885], [Vienna -> Vienna]
+  path: 1[42885 -> 90039], [Vienna -> Donau] 
+
+  path: 2[42885 -> 90039 -> 30075 -> 20], [Vienna -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [30061, 90039, 32]
+  path: 0[30061 -> 30061], [Vienna -> Vienna]
+  path: 1[30061 -> 90039], [Vienna -> Donau] 
+
+  path: 2[30061 -> 90039 -> 20028 -> 90055 -> 30064 -> 32], [Vienna -> Donau -> Croatia -> Mur -> Styria -> Hochgolling Hochgolling Alps ] 
+
+srcNodes: [30061, 90039, 31]
+  path: 0[20009 -> 30061], [Austria -> Vienna] 
+
+  path: 1[20009 -> 30066 -> 90039], [Austria -> Lower Austria -> Donau] 
+
+  path: 2[20009 -> 30059 -> 31], [Austria -> Carinthia -> Grossglockner Grossglockner Alps ] 
+
+srcNodes: [30061, 90039, 28]
+  path: 0[28 -> 30147 -> 90047 -> 30075 -> 90039 -> 30061], [Piz Bernina Piz Bernina Alps  -> GR -> Inn -> Bayern -> Donau -> Vienna] 
+
+  path: 1[28 -> 30147 -> 90047 -> 30075 -> 90039], [Piz Bernina Piz Bernina Alps  -> GR -> Inn -> Bayern -> Donau] 
+
+  path: 2[28 -> 28], [Piz Bernina Piz Bernina Alps  -> Piz Bernina Piz Bernina Alps ]
+srcNodes: [30061, 90039, 30]
+  path: 0[30 -> 30118 -> 90054 -> 20028 -> 90039 -> 30061], [Marmolata Marmolata Alps  -> Trentino Alto Adige -> Drau -> Croatia -> Donau -> Vienna] 
+
+  path: 1[30 -> 30118 -> 90054 -> 20028 -> 90039], [Marmolata Marmolata Alps  -> Trentino Alto Adige -> Drau -> Croatia -> Donau] 
+
+  path: 2[30 -> 30], [Marmolata Marmolata Alps  -> Marmolata Marmolata Alps ]
+srcNodes: [30061, 90039, 29]
+  path: 0[30074 -> 90039 -> 30061], [Baden Wurttemberg -> Donau -> Vienna] 
+
+  path: 1[30074 -> 90039], [Baden Wurttemberg -> Donau] 
+
+  path: 2[30074 -> 90071 -> 30147 -> 29], [Baden Wurttemberg -> Rhein -> GR -> Crap_Sogn_Gion Crap_Sogn_Gion Alps ] 
+
+srcNodes: [30061, 90039, 21]
+  path: 0[20015 -> 90039 -> 30061], [Slovakia -> Donau -> Vienna] 
+
+  path: 1[20015 -> 90039], [Slovakia -> Donau] 
+
+  path: 2[20015 -> 10004 -> 20007 -> 30040 -> 21], [Slovakia -> Europe -> France -> Rhone Alpes -> Mont Blanc Mont Blanc Alps ] 
+
+srcNodes: [30061, 90039, 25]
+  path: 0[30075 -> 90039 -> 30061], [Bayern -> Donau -> Vienna] 
+
+  path: 1[30075 -> 90039], [Bayern -> Donau] 
+
+  path: 2[30075 -> 90047 -> 30147 -> 28 -> 30117 -> 25], [Bayern -> Inn -> GR -> Piz Bernina Piz Bernina Alps  -> Lombardia -> Monte Rosa Monte Rosa Alps ] 
+
+srcNodes: [42885, 90039, 30]
+  path: 0[20028 -> 90039 -> 30061 -> 42885], [Croatia -> Donau -> Vienna -> Vienna] 
+
+  path: 1[20028 -> 90039], [Croatia -> Donau] 
+
+  path: 2[20028 -> 90054 -> 30118 -> 30], [Croatia -> Drau -> Trentino Alto Adige -> Marmolata Marmolata Alps ] 
+
+srcNodes: [42885, 90039, 21]
+  path: 0[20048 -> 90039 -> 30061 -> 42885], [Moldova -> Donau -> Vienna -> Vienna] 
+
+  path: 1[20048 -> 90039], [Moldova -> Donau] 
+
+  path: 2[20048 -> 10004 -> 20007 -> 30040 -> 21], [Moldova -> Europe -> France -> Rhone Alpes -> Mont Blanc Mont Blanc Alps ] 
+
+srcNodes: [42885, 90039, 29]
+  path: 0[20029 -> 90039 -> 30061 -> 42885], [Bulgaria -> Donau -> Vienna -> Vienna] 
+
+  path: 1[20029 -> 90039], [Bulgaria -> Donau] 
+
+  path: 2[20029 -> 10004 -> 20017 -> 30147 -> 29], [Bulgaria -> Europe -> Switzerland -> GR -> Crap_Sogn_Gion Crap_Sogn_Gion Alps ] 
+
+srcNodes: [42885, 90039, 31]
+  path: 0[42827 -> 90039 -> 30061 -> 42885], [Ulm -> Donau -> Vienna -> Vienna] 
+
+  path: 1[42827 -> 90039], [Ulm -> Donau] 
+
+  path: 2[42827 -> 90039 -> 20028 -> 90054 -> 30059 -> 31], [Ulm -> Donau -> Croatia -> Drau -> Carinthia -> Grossglockner Grossglockner Alps ] 
+
+This is a non-reduced answer tree with common first node 90039
+
+srcNodes: [42885, 90039, 32]
+  path: 0[30090 -> 90039 -> 30061 -> 42885], [Baranya -> Donau -> Vienna -> Vienna] 
+
+  path: 1[30090 -> 90039], [Baranya -> Donau] 
+
+  path: 2[30090 -> 90054 -> 20028 -> 90055 -> 30065 -> 32], [Baranya -> Drau -> Croatia -> Mur -> Salzburg -> Hochgolling Hochgolling Alps ] 
+
+srcNodes: [42885, 90039, 28]
+  path: 0[90047 -> 30075 -> 90039 -> 30061 -> 42885], [Inn -> Bayern -> Donau -> Vienna -> Vienna] 
+
+  path: 1[90047 -> 30075 -> 90039], [Inn -> Bayern -> Donau] 
+
+  path: 2[90047 -> 30147 -> 28], [Inn -> GR -> Piz Bernina Piz Bernina Alps ] 
+
+srcNodes: [30061, 90039, 23]
+  path: 0[20017 -> 10004 -> 20009 -> 30061], [Switzerland -> Europe -> Austria -> Vienna] 
+
+  path: 1[20017 -> 10004 -> 20048 -> 90039], [Switzerland -> Europe -> Moldova -> Donau] 
+
+  path: 2[20017 -> 30160 -> 23], [Switzerland -> VS -> GrandCombin GrandCombin Alps ] 
+
+srcNodes: [30061, 90039, 22]
+  path: 0[20007 -> 10004 -> 20009 -> 30061], [France -> Europe -> Austria -> Vienna] 
+
+  path: 1[20007 -> 10004 -> 20048 -> 90039], [France -> Europe -> Moldova -> Donau] 
+
+  path: 2[20007 -> 30040 -> 22], [France -> Rhone Alpes -> Barre des Ecrins Barre des Ecrins Alps ] 
+
+srcNodes: [42885, 90039, 22]
+  path: 0[90071 -> 30074 -> 90039 -> 30061 -> 42885], [Rhein -> Baden Wurttemberg -> Donau -> Vienna -> Vienna] 
+
+  path: 1[90071 -> 30074 -> 90039], [Rhein -> Baden Wurttemberg -> Donau] 
+
+  path: 2[90071 -> 20014 -> 10004 -> 20007 -> 30040 -> 22], [Rhein -> Liechtenstein -> Europe -> France -> Rhone Alpes -> Barre des Ecrins Barre des Ecrins Alps ] 
+
+srcNodes: [30061, 90039, 26]
+  path: 0[30138 -> 90071 -> 30074 -> 90039 -> 30061], [AG -> Rhein -> Baden Wurttemberg -> Donau -> Vienna] 
+
+  path: 1[30138 -> 90071 -> 30074 -> 90039], [AG -> Rhein -> Baden Wurttemberg -> Donau] 
+
+  path: 2[30138 -> 90076 -> 30143 -> 26], [AG -> Aare -> BE -> Finsteraarhorn Finsteraarhorn Alps ] 
+
+srcNodes: [30061, 90039, 166]
+  path: 0[20023 -> 10004 -> 20009 -> 30061], [Russia -> Europe -> Austria -> Vienna] 
+
+  path: 1[20023 -> 10004 -> 20048 -> 90039], [Russia -> Europe -> Moldova -> Donau] 
+
+  path: 2[20023 -> 10002 -> 20086 -> 10003 -> 20157 -> 166], [Russia -> Asia -> Indonesia -> Australia/Oceania -> New Zealand -> Mt. Cook Mt. Cook New Zealand Alps ] 
+
+srcNodes: [42885, 90039, 166]
+  path: 0[20031 -> 10004 -> 20009 -> 30061 -> 42885], [Turkey -> Europe -> Austria -> Vienna -> Vienna] 
+
+  path: 1[20031 -> 10004 -> 20048 -> 90039], [Turkey -> Europe -> Moldova -> Donau] 
+
+  path: 2[20031 -> 10002 -> 20086 -> 10003 -> 20157 -> 166], [Turkey -> Asia -> Indonesia -> Australia/Oceania -> New Zealand -> Mt. Cook Mt. Cook New Zealand Alps ] 
+
+srcNodes: [42885, 90039, 25]
+  path: 0[30063 -> 20 -> 30075 -> 90039 -> 30061 -> 42885], [Tyrol -> Zugspitze Zugspitze Alps  -> Bayern -> Donau -> Vienna -> Vienna] 
+
+  path: 1[30063 -> 20 -> 30075 -> 90039], [Tyrol -> Zugspitze Zugspitze Alps  -> Bayern -> Donau] 
+
+  path: 2[30063 -> 90047 -> 30147 -> 28 -> 30117 -> 25], [Tyrol -> Inn -> GR -> Piz Bernina Piz Bernina Alps  -> Lombardia -> Monte Rosa Monte Rosa Alps ] 
+
+-----------------------------------------
+ResultDestNodes: [90039, 42885, 30061, 20009, 28, 30, 30074, 20015, 30075, 20028, 20048, 20029, 42827, 30090, 90047, 20017, 20007, 90071, 30138, 20023, 20031, 30063]
+ResultRelevs: [9.588910102844238, 9.166866302490234, 8.871521949768066, 5.795920372009277, 5.58805513381958, 5.58805513381958, 5.432051658630371, 5.365598678588867, 5.247461795806885, 5.089805603027344, 4.912598609924316, 4.8239946365356445, 4.794461727142334, 4.794461727142334, 4.16510009765625, 3.9627699851989746, 3.8150999546051025, 3.500575304031372, 3.3956258296966553, 3.2244088649749756, 2.952608823776245, 2.9190773963928223]
+Num of top-k answers: 22
+Num of redundant answers in top-k answers: 1
+Num of duplicate answers in top-k answers: 0
+Num of entries retrieved from the lists: 1071
+Num of redundant candidate answers found: 269
+Num of reduced alternative answers found: 26
+Num of duplicate candidate answers found: 74
+Num of unique alternative answers found: 24
+

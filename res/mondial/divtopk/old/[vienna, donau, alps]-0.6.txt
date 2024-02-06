@@ -1,0 +1,159 @@
+Div Top-k Search by Exhustive4
+[vienna, donau, alps]
+srcNodes: [42885, 90039, 20]
+  path: 0[42885 -> 42885], [Vienna -> Vienna]
+  path: 1[42885 -> 90039], [Vienna -> Donau] 
+
+  path: 2[42885 -> 90039 -> 30075 -> 20], [Vienna -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [30061, 90039, 31]
+  path: 0[20009 -> 30061], [Austria -> Vienna] 
+
+  path: 1[20009 -> 30066 -> 90039], [Austria -> Lower Austria -> Donau] 
+
+  path: 2[20009 -> 30059 -> 31], [Austria -> Carinthia -> Grossglockner Grossglockner Alps ] 
+
+srcNodes: [30061, 90039, 32]
+  path: 0[32 -> 30065 -> 90049 -> 30075 -> 90039 -> 30061], [Hochgolling Hochgolling Alps  -> Salzburg -> Salzach -> Bayern -> Donau -> Vienna] 
+
+  path: 1[32 -> 30065 -> 90049 -> 30075 -> 90039], [Hochgolling Hochgolling Alps  -> Salzburg -> Salzach -> Bayern -> Donau] 
+
+  path: 2[32 -> 32], [Hochgolling Hochgolling Alps  -> Hochgolling Hochgolling Alps ]
+srcNodes: [30061, 90039, 30]
+  path: 0[30 -> 30118 -> 90054 -> 20028 -> 90039 -> 30061], [Marmolata Marmolata Alps  -> Trentino Alto Adige -> Drau -> Croatia -> Donau -> Vienna] 
+
+  path: 1[30 -> 30118 -> 90054 -> 20028 -> 90039], [Marmolata Marmolata Alps  -> Trentino Alto Adige -> Drau -> Croatia -> Donau] 
+
+  path: 2[30 -> 30], [Marmolata Marmolata Alps  -> Marmolata Marmolata Alps ]
+-----------------------------------------
+ResultDestNodes: [42885, 20009, 32, 30]
+ResultRelevs: [9.166866302490234, 5.795920372009277, 5.58805513381958, 5.58805513381958]
+AvgResultRelev: 6.534724235534668
+AvgResultDissimilarity: 0.6499999761581421
+Num of entries retrieved from the KNLists: 1071
+Num of entries retrieved from NKMaps: 856
+Num of answer trees explored: 315
+Num of answer tree sets created: 746
+Num of answer tree sets removed: 626
+Max Num of answer tree sets in Q[]: 566
+
+Div Top-k Search by Astar14
+[vienna, donau, alps]
+srcNodes: [42885, 90039, 20]
+  path: 0[42885 -> 42885], [Vienna -> Vienna]
+  path: 1[42885 -> 90039], [Vienna -> Donau] 
+
+  path: 2[42885 -> 90039 -> 30075 -> 20], [Vienna -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [30061, 90039, 31]
+  path: 0[20009 -> 30061], [Austria -> Vienna] 
+
+  path: 1[20009 -> 30066 -> 90039], [Austria -> Lower Austria -> Donau] 
+
+  path: 2[20009 -> 30059 -> 31], [Austria -> Carinthia -> Grossglockner Grossglockner Alps ] 
+
+srcNodes: [30061, 90039, 32]
+  path: 0[32 -> 30065 -> 90049 -> 30075 -> 90039 -> 30061], [Hochgolling Hochgolling Alps  -> Salzburg -> Salzach -> Bayern -> Donau -> Vienna] 
+
+  path: 1[32 -> 30065 -> 90049 -> 30075 -> 90039], [Hochgolling Hochgolling Alps  -> Salzburg -> Salzach -> Bayern -> Donau] 
+
+  path: 2[32 -> 32], [Hochgolling Hochgolling Alps  -> Hochgolling Hochgolling Alps ]
+srcNodes: [30061, 90039, 30]
+  path: 0[30 -> 30118 -> 90054 -> 20028 -> 90039 -> 30061], [Marmolata Marmolata Alps  -> Trentino Alto Adige -> Drau -> Croatia -> Donau -> Vienna] 
+
+  path: 1[30 -> 30118 -> 90054 -> 20028 -> 90039], [Marmolata Marmolata Alps  -> Trentino Alto Adige -> Drau -> Croatia -> Donau] 
+
+  path: 2[30 -> 30], [Marmolata Marmolata Alps  -> Marmolata Marmolata Alps ]
+-----------------------------------------
+ResultDestNodes: [42885, 20009, 32, 30]
+ResultRelevs: [9.166866302490234, 5.795920372009277, 5.58805513381958, 5.58805513381958]
+AvgResultRelev: 6.534724235534668
+AvgResultDissimilarity: 0.6499999761581421
+Num of entries retrieved from the KNLists: 1071
+Num of entries retrieved from NKMaps: 856
+Num of answer trees explored: 315
+Num of states created: 1847594
+Num of states explored: 162163
+Num of heuristic search performed: 313
+Max Num of answer tree sets in Q[]: 19088
+
+Div Top-k Search by Astar24
+[vienna, donau, alps]
+srcNodes: [42885, 90039, 20]
+  path: 0[42885 -> 42885], [Vienna -> Vienna]
+  path: 1[42885 -> 90039], [Vienna -> Donau] 
+
+  path: 2[42885 -> 90039 -> 30075 -> 20], [Vienna -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [30061, 90039, 31]
+  path: 0[20009 -> 30061], [Austria -> Vienna] 
+
+  path: 1[20009 -> 30066 -> 90039], [Austria -> Lower Austria -> Donau] 
+
+  path: 2[20009 -> 30059 -> 31], [Austria -> Carinthia -> Grossglockner Grossglockner Alps ] 
+
+srcNodes: [30061, 90039, 30]
+  path: 0[30 -> 30118 -> 90054 -> 20028 -> 90039 -> 30061], [Marmolata Marmolata Alps  -> Trentino Alto Adige -> Drau -> Croatia -> Donau -> Vienna] 
+
+  path: 1[30 -> 30118 -> 90054 -> 20028 -> 90039], [Marmolata Marmolata Alps  -> Trentino Alto Adige -> Drau -> Croatia -> Donau] 
+
+  path: 2[30 -> 30], [Marmolata Marmolata Alps  -> Marmolata Marmolata Alps ]
+srcNodes: [30061, 90039, 28]
+  path: 0[28 -> 30147 -> 90047 -> 30075 -> 90039 -> 30061], [Piz Bernina Piz Bernina Alps  -> GR -> Inn -> Bayern -> Donau -> Vienna] 
+
+  path: 1[28 -> 30147 -> 90047 -> 30075 -> 90039], [Piz Bernina Piz Bernina Alps  -> GR -> Inn -> Bayern -> Donau] 
+
+  path: 2[28 -> 28], [Piz Bernina Piz Bernina Alps  -> Piz Bernina Piz Bernina Alps ]
+-----------------------------------------
+ResultDestNodes: [42885, 20009, 30, 28]
+ResultRelevs: [9.166866302490234, 5.795920372009277, 5.58805513381958, 5.58805513381958]
+AvgResultRelev: 6.534724235534668
+AvgResultDissimilarity: 0.6499999761581421
+Num of entries retrieved from the KNLists: 1071
+Num of entries retrieved from NKMaps: 856
+Num of answer trees explored: 315
+Num of states created: 186175
+Num of states explored: 161292
+Num of heuristic search performed: 313
+Max Num of answer tree sets in Q[]: 19088
+
+Div Top-k Search by Astar2re4
+[vienna, donau, alps]
+srcNodes: [42885, 90039, 20]
+  path: 0[42885 -> 42885], [Vienna -> Vienna]
+  path: 1[42885 -> 90039], [Vienna -> Donau] 
+
+  path: 2[42885 -> 90039 -> 30075 -> 20], [Vienna -> Donau -> Bayern -> Zugspitze Zugspitze Alps ] 
+
+srcNodes: [30061, 90039, 31]
+  path: 0[20009 -> 30061], [Austria -> Vienna] 
+
+  path: 1[20009 -> 30066 -> 90039], [Austria -> Lower Austria -> Donau] 
+
+  path: 2[20009 -> 30059 -> 31], [Austria -> Carinthia -> Grossglockner Grossglockner Alps ] 
+
+srcNodes: [30061, 90039, 30]
+  path: 0[30 -> 30118 -> 90054 -> 20028 -> 90039 -> 30061], [Marmolata Marmolata Alps  -> Trentino Alto Adige -> Drau -> Croatia -> Donau -> Vienna] 
+
+  path: 1[30 -> 30118 -> 90054 -> 20028 -> 90039], [Marmolata Marmolata Alps  -> Trentino Alto Adige -> Drau -> Croatia -> Donau] 
+
+  path: 2[30 -> 30], [Marmolata Marmolata Alps  -> Marmolata Marmolata Alps ]
+srcNodes: [30061, 90039, 28]
+  path: 0[28 -> 30147 -> 90047 -> 30075 -> 90039 -> 30061], [Piz Bernina Piz Bernina Alps  -> GR -> Inn -> Bayern -> Donau -> Vienna] 
+
+  path: 1[28 -> 30147 -> 90047 -> 30075 -> 90039], [Piz Bernina Piz Bernina Alps  -> GR -> Inn -> Bayern -> Donau] 
+
+  path: 2[28 -> 28], [Piz Bernina Piz Bernina Alps  -> Piz Bernina Piz Bernina Alps ]
+-----------------------------------------
+ResultDestNodes: [42885, 20009, 30, 28]
+ResultRelevs: [9.166866302490234, 5.795920372009277, 5.58805513381958, 5.58805513381958]
+AvgResultRelev: 6.534724235534668
+AvgResultDissimilarity: 0.6499999761581421
+Num of entries retrieved from the KNLists: 1071
+Num of entries retrieved from NKMaps: 856
+Num of answer trees explored: 315
+Num of states created: 2521
+Num of states explored: 990
+Num of heuristic search performed: 313
+Max Num of answer tree sets in Q[]: 18984
+

@@ -1,0 +1,871 @@
+Blink Search Using BDB 10
+[mountains, volcano, america]
+srcNodes: [188, 224, 10001]
+  path: 0[10001 -> 20118 -> 31017 -> 188], [America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20180 -> 224], [America -> Ecuador -> Chimborazo Chimborazo Andes volcano] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [190, 213, 10001]
+  path: 0[20131 -> 10001 -> 20118 -> 31029 -> 190], [Guadeloupe -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20131 -> 213], [Guadeloupe -> La Soufriere La Soufriere  volcano] 
+
+  path: 2[20131 -> 10001], [Guadeloupe -> America] 
+
+srcNodes: [190, 216, 10001]
+  path: 0[20124 -> 10001 -> 20118 -> 31029 -> 190], [Dominica -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20124 -> 216], [Dominica -> Morne Diablotins Morne Diablotins  volcano] 
+
+  path: 2[20124 -> 10001], [Dominica -> America] 
+
+srcNodes: [190, 234, 10001]
+  path: 0[20170 -> 10001 -> 20118 -> 31029 -> 190], [Bolivia -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20170 -> 234], [Bolivia -> Licancabur Licancabur Andes volcano] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [190, 215, 10001]
+  path: 0[20142 -> 10001 -> 20118 -> 31029 -> 190], [Saint Vincent and the Grenadines -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20142 -> 215], [Saint Vincent and the Grenadines -> Soufriere Soufriere  volcano] 
+
+  path: 2[20142 -> 10001], [Saint Vincent and the Grenadines -> America] 
+
+srcNodes: [190, 222, 10001]
+  path: 0[20180 -> 10001 -> 20118 -> 31029 -> 190], [Ecuador -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20180 -> 222], [Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[20180 -> 10001], [Ecuador -> America] 
+
+srcNodes: [190, 217, 10001]
+  path: 0[20133 -> 10001 -> 20118 -> 31029 -> 190], [Martinique -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20133 -> 217], [Martinique -> Pelee Pelee  volcano] 
+
+  path: 2[20133 -> 10001], [Martinique -> America] 
+
+srcNodes: [190, 206, 10001]
+  path: 0[20121 -> 10001 -> 20118 -> 31029 -> 190], [Nicaragua -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20121 -> 206], [Nicaragua -> Concepcion Concepcion  volcano] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [190, 235, 10001]
+  path: 0[20172 -> 10001 -> 20118 -> 31029 -> 190], [Chile -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20172 -> 235], [Chile -> Llullaillaco Llullaillaco Andes volcano] 
+
+  path: 2[20172 -> 10001], [Chile -> America] 
+
+srcNodes: [190, 214, 10001]
+  path: 0[20134 -> 10001 -> 20118 -> 31029 -> 190], [Montserrat -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20134 -> 214], [Montserrat -> Soufriere Hills Soufriere Hills  volcano] 
+
+  path: 2[20134 -> 10001], [Montserrat -> America] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20131, 20124, 20170, 20142, 20180, 20133, 20121, 20172, 20134]
+ResultRelevs: [10.102371215820312, 6.214781761169434, 6.214781761169434, 6.214781761169434, 6.214781761169434, 6.214781761169434, 6.214781761169434, 6.214781761169434, 6.214781761169434, 6.214781761169434]
+Num of top-k answers: 10
+Num of non-reduced answers: 0
+Num of duplicate answers: 0
+Num of non-redundant answers: 10
+Num of entries retrieved from the lists: 162
+Num of entries retrieved from NKMaps: 251
+
+Blink Search Using ConstRootDup10
+[mountains, volcano, america]
+srcNodes: [188, 223, 10001]
+  path: 0[10001 -> 20118 -> 31017 -> 188], [America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20180 -> 223], [America -> Ecuador -> Cotopaxi Cotopaxi Andes volcano] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [188, 224, 10001]
+  path: 0[10001 -> 20118 -> 31017 -> 188], [America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20180 -> 224], [America -> Ecuador -> Chimborazo Chimborazo Andes volcano] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [187, 224, 10001]
+  path: 0[10001 -> 20118 -> 30992 -> 187], [America -> United States -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20180 -> 224], [America -> Ecuador -> Chimborazo Chimborazo Andes volcano] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [187, 223, 10001]
+  path: 0[10001 -> 20118 -> 30992 -> 187], [America -> United States -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20180 -> 223], [America -> Ecuador -> Cotopaxi Cotopaxi Andes volcano] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [170, 224, 10001]
+  path: 0[10001 -> 20118 -> 30988 -> 170], [America -> United States -> Alaska -> Mt Blackburn Mt Blackburn Wrangell Mountains volcano] 
+
+  path: 1[10001 -> 20180 -> 224], [America -> Ecuador -> Chimborazo Chimborazo Andes volcano] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [190, 235, 10001]
+  path: 0[20172 -> 10001 -> 20118 -> 31029 -> 190], [Chile -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20172 -> 235], [Chile -> Llullaillaco Llullaillaco Andes volcano] 
+
+  path: 2[20172 -> 10001], [Chile -> America] 
+
+srcNodes: [190, 216, 10001]
+  path: 0[20124 -> 10001 -> 20118 -> 31029 -> 190], [Dominica -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20124 -> 216], [Dominica -> Morne Diablotins Morne Diablotins  volcano] 
+
+  path: 2[20124 -> 10001], [Dominica -> America] 
+
+srcNodes: [190, 206, 10001]
+  path: 0[20121 -> 10001 -> 20118 -> 31029 -> 190], [Nicaragua -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20121 -> 206], [Nicaragua -> Concepcion Concepcion  volcano] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [190, 234, 10001]
+  path: 0[20170 -> 10001 -> 20118 -> 31029 -> 190], [Bolivia -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20170 -> 234], [Bolivia -> Licancabur Licancabur Andes volcano] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [190, 215, 10001]
+  path: 0[20142 -> 10001 -> 20118 -> 31029 -> 190], [Saint Vincent and the Grenadines -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20142 -> 215], [Saint Vincent and the Grenadines -> Soufriere Soufriere  volcano] 
+
+  path: 2[20142 -> 10001], [Saint Vincent and the Grenadines -> America] 
+
+-----------------------------------------
+ResultDestNodes: 
+10001, 10001, 10001, 10001, 10001, 20172, 20124, 20121, 20170, 20142, 
+ResultRelevs: 
+10.102371, 10.102371, 10.102371, 10.102371, 9.994465, 6.2147818, 6.2147818, 6.2147818, 6.2147818, 6.2147818, 
+Num of top-k answers: 10
+Num of duplicate answers: 0
+Num of duplicate roots in top-k answers: 4
+root duplication ratio: 0.44444445
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 162
+Num of entries retrieved from NKMaps: 959
+Num of answer trees explored: 2965
+
+Blink Search Using BDB 20
+[mountains, volcano, america]
+srcNodes: [188, 224, 10001]
+  path: 0[10001 -> 20118 -> 31017 -> 188], [America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20180 -> 224], [America -> Ecuador -> Chimborazo Chimborazo Andes volcano] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [190, 206, 10001]
+  path: 0[20121 -> 10001 -> 20118 -> 31029 -> 190], [Nicaragua -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20121 -> 206], [Nicaragua -> Concepcion Concepcion  volcano] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [190, 213, 10001]
+  path: 0[20131 -> 10001 -> 20118 -> 31029 -> 190], [Guadeloupe -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20131 -> 213], [Guadeloupe -> La Soufriere La Soufriere  volcano] 
+
+  path: 2[20131 -> 10001], [Guadeloupe -> America] 
+
+srcNodes: [190, 215, 10001]
+  path: 0[20142 -> 10001 -> 20118 -> 31029 -> 190], [Saint Vincent and the Grenadines -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20142 -> 215], [Saint Vincent and the Grenadines -> Soufriere Soufriere  volcano] 
+
+  path: 2[20142 -> 10001], [Saint Vincent and the Grenadines -> America] 
+
+srcNodes: [190, 216, 10001]
+  path: 0[20124 -> 10001 -> 20118 -> 31029 -> 190], [Dominica -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20124 -> 216], [Dominica -> Morne Diablotins Morne Diablotins  volcano] 
+
+  path: 2[20124 -> 10001], [Dominica -> America] 
+
+srcNodes: [190, 234, 10001]
+  path: 0[20170 -> 10001 -> 20118 -> 31029 -> 190], [Bolivia -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20170 -> 234], [Bolivia -> Licancabur Licancabur Andes volcano] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [190, 235, 10001]
+  path: 0[20172 -> 10001 -> 20118 -> 31029 -> 190], [Chile -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20172 -> 235], [Chile -> Llullaillaco Llullaillaco Andes volcano] 
+
+  path: 2[20172 -> 10001], [Chile -> America] 
+
+srcNodes: [190, 222, 10001]
+  path: 0[20180 -> 10001 -> 20118 -> 31029 -> 190], [Ecuador -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20180 -> 222], [Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[20180 -> 10001], [Ecuador -> America] 
+
+srcNodes: [190, 217, 10001]
+  path: 0[20133 -> 10001 -> 20118 -> 31029 -> 190], [Martinique -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20133 -> 217], [Martinique -> Pelee Pelee  volcano] 
+
+  path: 2[20133 -> 10001], [Martinique -> America] 
+
+srcNodes: [190, 214, 10001]
+  path: 0[20134 -> 10001 -> 20118 -> 31029 -> 190], [Montserrat -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20134 -> 214], [Montserrat -> Soufriere Hills Soufriere Hills  volcano] 
+
+  path: 2[20134 -> 10001], [Montserrat -> America] 
+
+srcNodes: [190, 162, 10001]
+  path: 0[20118 -> 31029 -> 190], [United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20118 -> 30997 -> 162], [United States -> Hawaii -> Haleakala Haleakala Hawaii volcano] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [188, 223, 10001]
+  path: 0[223 -> 20180 -> 10001 -> 20118 -> 31017 -> 188], [Cotopaxi Cotopaxi Andes volcano -> Ecuador -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[223 -> 223], [Cotopaxi Cotopaxi Andes volcano -> Cotopaxi Cotopaxi Andes volcano]
+  path: 2[223 -> 20180 -> 10001], [Cotopaxi Cotopaxi Andes volcano -> Ecuador -> America] 
+
+srcNodes: [188, 235, 10001]
+  path: 0[235 -> 20172 -> 10001 -> 20118 -> 31017 -> 188], [Llullaillaco Llullaillaco Andes volcano -> Chile -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[235 -> 235], [Llullaillaco Llullaillaco Andes volcano -> Llullaillaco Llullaillaco Andes volcano]
+  path: 2[235 -> 20172 -> 10001], [Llullaillaco Llullaillaco Andes volcano -> Chile -> America] 
+
+srcNodes: [188, 214, 10001]
+  path: 0[214 -> 20134 -> 10001 -> 20118 -> 31017 -> 188], [Soufriere Hills Soufriere Hills  volcano -> Montserrat -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[214 -> 214], [Soufriere Hills Soufriere Hills  volcano -> Soufriere Hills Soufriere Hills  volcano]
+  path: 2[214 -> 20134 -> 10001], [Soufriere Hills Soufriere Hills  volcano -> Montserrat -> America] 
+
+srcNodes: [188, 213, 10001]
+  path: 0[213 -> 20131 -> 10001 -> 20118 -> 31017 -> 188], [La Soufriere La Soufriere  volcano -> Guadeloupe -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[213 -> 213], [La Soufriere La Soufriere  volcano -> La Soufriere La Soufriere  volcano]
+  path: 2[213 -> 20131 -> 10001], [La Soufriere La Soufriere  volcano -> Guadeloupe -> America] 
+
+srcNodes: [188, 222, 10001]
+  path: 0[222 -> 20180 -> 10001 -> 20118 -> 31017 -> 188], [Cayambe Cayambe Andes volcano -> Ecuador -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[222 -> 222], [Cayambe Cayambe Andes volcano -> Cayambe Cayambe Andes volcano]
+  path: 2[222 -> 20180 -> 10001], [Cayambe Cayambe Andes volcano -> Ecuador -> America] 
+
+srcNodes: [188, 233, 10001]
+  path: 0[233 -> 20170 -> 10001 -> 20118 -> 31017 -> 188], [Sajama Sajama Andes volcano -> Bolivia -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[233 -> 233], [Sajama Sajama Andes volcano -> Sajama Sajama Andes volcano]
+  path: 2[233 -> 20170 -> 10001], [Sajama Sajama Andes volcano -> Bolivia -> America] 
+
+srcNodes: [188, 206, 10001]
+  path: 0[206 -> 20121 -> 10001 -> 20118 -> 31017 -> 188], [Concepcion Concepcion  volcano -> Nicaragua -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[206 -> 206], [Concepcion Concepcion  volcano -> Concepcion Concepcion  volcano]
+  path: 2[206 -> 20121 -> 10001], [Concepcion Concepcion  volcano -> Nicaragua -> America] 
+
+srcNodes: [188, 224, 10001]
+  path: 0[224 -> 20180 -> 10001 -> 20118 -> 31017 -> 188], [Chimborazo Chimborazo Andes volcano -> Ecuador -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[224 -> 224], [Chimborazo Chimborazo Andes volcano -> Chimborazo Chimborazo Andes volcano]
+  path: 2[224 -> 20180 -> 10001], [Chimborazo Chimborazo Andes volcano -> Ecuador -> America] 
+
+srcNodes: [188, 234, 10001]
+  path: 0[234 -> 20172 -> 10001 -> 20118 -> 31017 -> 188], [Licancabur Licancabur Andes volcano -> Chile -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[234 -> 234], [Licancabur Licancabur Andes volcano -> Licancabur Licancabur Andes volcano]
+  path: 2[234 -> 20172 -> 10001], [Licancabur Licancabur Andes volcano -> Chile -> America] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20121, 20131, 20142, 20124, 20170, 20172, 20180, 20133, 20134, 20118, 223, 235, 214, 213, 222, 233, 206, 224, 234]
+ResultRelevs: [10.102371215820312, 6.214781761169434, 6.214781761169434, 6.214781761169434, 6.214781761169434, 6.214781761169434, 6.214781761169434, 6.214781761169434, 6.214781761169434, 6.214781761169434, 6.149130821228027, 6.117891311645508, 6.117891311645508, 6.117891311645508, 6.117891311645508, 6.117891311645508, 6.117891311645508, 6.117891311645508, 6.117891311645508, 6.117891311645508]
+Num of top-k answers: 20
+Num of non-reduced answers: 0
+Num of duplicate answers: 1
+Num of non-redundant answers: 19
+Num of entries retrieved from the lists: 165
+Num of entries retrieved from NKMaps: 256
+
+Blink Search Using ConstRootDup20
+[mountains, volcano, america]
+srcNodes: [187, 224, 10001]
+  path: 0[10001 -> 20118 -> 30992 -> 187], [America -> United States -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20180 -> 224], [America -> Ecuador -> Chimborazo Chimborazo Andes volcano] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [188, 224, 10001]
+  path: 0[10001 -> 20118 -> 31017 -> 188], [America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20180 -> 224], [America -> Ecuador -> Chimborazo Chimborazo Andes volcano] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [188, 223, 10001]
+  path: 0[10001 -> 20118 -> 31017 -> 188], [America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20180 -> 223], [America -> Ecuador -> Cotopaxi Cotopaxi Andes volcano] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [187, 223, 10001]
+  path: 0[10001 -> 20118 -> 30992 -> 187], [America -> United States -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20180 -> 223], [America -> Ecuador -> Cotopaxi Cotopaxi Andes volcano] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [170, 223, 10001]
+  path: 0[10001 -> 20118 -> 30988 -> 170], [America -> United States -> Alaska -> Mt Blackburn Mt Blackburn Wrangell Mountains volcano] 
+
+  path: 1[10001 -> 20180 -> 223], [America -> Ecuador -> Cotopaxi Cotopaxi Andes volcano] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [170, 224, 10001]
+  path: 0[10001 -> 20118 -> 30988 -> 170], [America -> United States -> Alaska -> Mt Blackburn Mt Blackburn Wrangell Mountains volcano] 
+
+  path: 1[10001 -> 20180 -> 224], [America -> Ecuador -> Chimborazo Chimborazo Andes volcano] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [188, 239, 10001]
+  path: 0[10001 -> 20118 -> 31017 -> 188], [America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20169 -> 31184 -> 239], [America -> Argentina -> Mendoza -> Tupungato Tupungato Andes volcano] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [187, 239, 10001]
+  path: 0[10001 -> 20118 -> 30992 -> 187], [America -> United States -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20169 -> 31184 -> 239], [America -> Argentina -> Mendoza -> Tupungato Tupungato Andes volcano] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [188, 236, 10001]
+  path: 0[10001 -> 20118 -> 31017 -> 188], [America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20172 -> 236], [America -> Chile -> Ojos del Salado Ojos del Salado Andes volcano] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [187, 236, 10001]
+  path: 0[10001 -> 20118 -> 30992 -> 187], [America -> United States -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20172 -> 236], [America -> Chile -> Ojos del Salado Ojos del Salado Andes volcano] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [190, 213, 10001]
+  path: 0[20131 -> 10001 -> 20118 -> 31029 -> 190], [Guadeloupe -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20131 -> 213], [Guadeloupe -> La Soufriere La Soufriere  volcano] 
+
+  path: 2[20131 -> 10001], [Guadeloupe -> America] 
+
+srcNodes: [190, 215, 10001]
+  path: 0[20142 -> 10001 -> 20118 -> 31029 -> 190], [Saint Vincent and the Grenadines -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20142 -> 215], [Saint Vincent and the Grenadines -> Soufriere Soufriere  volcano] 
+
+  path: 2[20142 -> 10001], [Saint Vincent and the Grenadines -> America] 
+
+srcNodes: [190, 217, 10001]
+  path: 0[20133 -> 10001 -> 20118 -> 31029 -> 190], [Martinique -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20133 -> 217], [Martinique -> Pelee Pelee  volcano] 
+
+  path: 2[20133 -> 10001], [Martinique -> America] 
+
+srcNodes: [190, 222, 10001]
+  path: 0[20180 -> 10001 -> 20118 -> 31029 -> 190], [Ecuador -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20180 -> 222], [Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[20180 -> 10001], [Ecuador -> America] 
+
+srcNodes: [190, 216, 10001]
+  path: 0[20124 -> 10001 -> 20118 -> 31029 -> 190], [Dominica -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20124 -> 216], [Dominica -> Morne Diablotins Morne Diablotins  volcano] 
+
+  path: 2[20124 -> 10001], [Dominica -> America] 
+
+srcNodes: [190, 235, 10001]
+  path: 0[20172 -> 10001 -> 20118 -> 31029 -> 190], [Chile -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20172 -> 235], [Chile -> Llullaillaco Llullaillaco Andes volcano] 
+
+  path: 2[20172 -> 10001], [Chile -> America] 
+
+srcNodes: [190, 206, 10001]
+  path: 0[20121 -> 10001 -> 20118 -> 31029 -> 190], [Nicaragua -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20121 -> 206], [Nicaragua -> Concepcion Concepcion  volcano] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [190, 234, 10001]
+  path: 0[20170 -> 10001 -> 20118 -> 31029 -> 190], [Bolivia -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20170 -> 234], [Bolivia -> Licancabur Licancabur Andes volcano] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [190, 214, 10001]
+  path: 0[20134 -> 10001 -> 20118 -> 31029 -> 190], [Montserrat -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20134 -> 214], [Montserrat -> Soufriere Hills Soufriere Hills  volcano] 
+
+  path: 2[20134 -> 10001], [Montserrat -> America] 
+
+srcNodes: [190, 162, 10001]
+  path: 0[20118 -> 31029 -> 190], [United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20118 -> 30997 -> 162], [United States -> Hawaii -> Haleakala Haleakala Hawaii volcano] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+-----------------------------------------
+ResultDestNodes: 
+10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 20131, 20142, 20133, 20180, 20124, 20172, 20121, 20170, 20134, 20118, 
+ResultRelevs: 
+10.102371, 10.102371, 10.102371, 10.102371, 9.994465, 9.994465, 9.868124, 9.868124, 9.868123, 9.868123, 6.2147818, 6.2147818, 6.2147818, 6.2147818, 6.2147818, 6.2147818, 6.2147818, 6.2147818, 6.2147818, 6.149131, 
+Num of top-k answers: 20
+Num of duplicate answers: 0
+Num of duplicate roots in top-k answers: 9
+root duplication ratio: 0.47368422
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 162
+Num of entries retrieved from NKMaps: 959
+Num of answer trees explored: 2965
+
+Blink Search Using BDB 30
+[mountains, volcano, america]
+srcNodes: [188, 224, 10001]
+  path: 0[10001 -> 20118 -> 31017 -> 188], [America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20180 -> 224], [America -> Ecuador -> Chimborazo Chimborazo Andes volcano] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [190, 222, 10001]
+  path: 0[20180 -> 10001 -> 20118 -> 31029 -> 190], [Ecuador -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20180 -> 222], [Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[20180 -> 10001], [Ecuador -> America] 
+
+srcNodes: [190, 213, 10001]
+  path: 0[20131 -> 10001 -> 20118 -> 31029 -> 190], [Guadeloupe -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20131 -> 213], [Guadeloupe -> La Soufriere La Soufriere  volcano] 
+
+  path: 2[20131 -> 10001], [Guadeloupe -> America] 
+
+srcNodes: [190, 215, 10001]
+  path: 0[20142 -> 10001 -> 20118 -> 31029 -> 190], [Saint Vincent and the Grenadines -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20142 -> 215], [Saint Vincent and the Grenadines -> Soufriere Soufriere  volcano] 
+
+  path: 2[20142 -> 10001], [Saint Vincent and the Grenadines -> America] 
+
+srcNodes: [190, 235, 10001]
+  path: 0[20172 -> 10001 -> 20118 -> 31029 -> 190], [Chile -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20172 -> 235], [Chile -> Llullaillaco Llullaillaco Andes volcano] 
+
+  path: 2[20172 -> 10001], [Chile -> America] 
+
+srcNodes: [190, 217, 10001]
+  path: 0[20133 -> 10001 -> 20118 -> 31029 -> 190], [Martinique -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20133 -> 217], [Martinique -> Pelee Pelee  volcano] 
+
+  path: 2[20133 -> 10001], [Martinique -> America] 
+
+srcNodes: [190, 214, 10001]
+  path: 0[20134 -> 10001 -> 20118 -> 31029 -> 190], [Montserrat -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20134 -> 214], [Montserrat -> Soufriere Hills Soufriere Hills  volcano] 
+
+  path: 2[20134 -> 10001], [Montserrat -> America] 
+
+srcNodes: [190, 216, 10001]
+  path: 0[20124 -> 10001 -> 20118 -> 31029 -> 190], [Dominica -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20124 -> 216], [Dominica -> Morne Diablotins Morne Diablotins  volcano] 
+
+  path: 2[20124 -> 10001], [Dominica -> America] 
+
+srcNodes: [190, 234, 10001]
+  path: 0[20170 -> 10001 -> 20118 -> 31029 -> 190], [Bolivia -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20170 -> 234], [Bolivia -> Licancabur Licancabur Andes volcano] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [190, 206, 10001]
+  path: 0[20121 -> 10001 -> 20118 -> 31029 -> 190], [Nicaragua -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20121 -> 206], [Nicaragua -> Concepcion Concepcion  volcano] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [190, 162, 10001]
+  path: 0[20118 -> 31029 -> 190], [United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20118 -> 30997 -> 162], [United States -> Hawaii -> Haleakala Haleakala Hawaii volcano] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [188, 223, 10001]
+  path: 0[223 -> 20180 -> 10001 -> 20118 -> 31017 -> 188], [Cotopaxi Cotopaxi Andes volcano -> Ecuador -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[223 -> 223], [Cotopaxi Cotopaxi Andes volcano -> Cotopaxi Cotopaxi Andes volcano]
+  path: 2[223 -> 20180 -> 10001], [Cotopaxi Cotopaxi Andes volcano -> Ecuador -> America] 
+
+srcNodes: [188, 213, 10001]
+  path: 0[213 -> 20131 -> 10001 -> 20118 -> 31017 -> 188], [La Soufriere La Soufriere  volcano -> Guadeloupe -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[213 -> 213], [La Soufriere La Soufriere  volcano -> La Soufriere La Soufriere  volcano]
+  path: 2[213 -> 20131 -> 10001], [La Soufriere La Soufriere  volcano -> Guadeloupe -> America] 
+
+srcNodes: [188, 222, 10001]
+  path: 0[222 -> 20180 -> 10001 -> 20118 -> 31017 -> 188], [Cayambe Cayambe Andes volcano -> Ecuador -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[222 -> 222], [Cayambe Cayambe Andes volcano -> Cayambe Cayambe Andes volcano]
+  path: 2[222 -> 20180 -> 10001], [Cayambe Cayambe Andes volcano -> Ecuador -> America] 
+
+srcNodes: [188, 233, 10001]
+  path: 0[233 -> 20170 -> 10001 -> 20118 -> 31017 -> 188], [Sajama Sajama Andes volcano -> Bolivia -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[233 -> 233], [Sajama Sajama Andes volcano -> Sajama Sajama Andes volcano]
+  path: 2[233 -> 20170 -> 10001], [Sajama Sajama Andes volcano -> Bolivia -> America] 
+
+srcNodes: [188, 224, 10001]
+  path: 0[224 -> 20180 -> 10001 -> 20118 -> 31017 -> 188], [Chimborazo Chimborazo Andes volcano -> Ecuador -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[224 -> 224], [Chimborazo Chimborazo Andes volcano -> Chimborazo Chimborazo Andes volcano]
+  path: 2[224 -> 20180 -> 10001], [Chimborazo Chimborazo Andes volcano -> Ecuador -> America] 
+
+srcNodes: [188, 234, 10001]
+  path: 0[234 -> 20172 -> 10001 -> 20118 -> 31017 -> 188], [Licancabur Licancabur Andes volcano -> Chile -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[234 -> 234], [Licancabur Licancabur Andes volcano -> Licancabur Licancabur Andes volcano]
+  path: 2[234 -> 20172 -> 10001], [Licancabur Licancabur Andes volcano -> Chile -> America] 
+
+srcNodes: [188, 217, 10001]
+  path: 0[217 -> 20133 -> 10001 -> 20118 -> 31017 -> 188], [Pelee Pelee  volcano -> Martinique -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[217 -> 217], [Pelee Pelee  volcano -> Pelee Pelee  volcano]
+  path: 2[217 -> 20133 -> 10001], [Pelee Pelee  volcano -> Martinique -> America] 
+
+srcNodes: [188, 215, 10001]
+  path: 0[215 -> 20142 -> 10001 -> 20118 -> 31017 -> 188], [Soufriere Soufriere  volcano -> Saint Vincent and the Grenadines -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[215 -> 215], [Soufriere Soufriere  volcano -> Soufriere Soufriere  volcano]
+  path: 2[215 -> 20142 -> 10001], [Soufriere Soufriere  volcano -> Saint Vincent and the Grenadines -> America] 
+
+srcNodes: [188, 216, 10001]
+  path: 0[216 -> 20124 -> 10001 -> 20118 -> 31017 -> 188], [Morne Diablotins Morne Diablotins  volcano -> Dominica -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[216 -> 216], [Morne Diablotins Morne Diablotins  volcano -> Morne Diablotins Morne Diablotins  volcano]
+  path: 2[216 -> 20124 -> 10001], [Morne Diablotins Morne Diablotins  volcano -> Dominica -> America] 
+
+srcNodes: [188, 235, 10001]
+  path: 0[235 -> 20172 -> 10001 -> 20118 -> 31017 -> 188], [Llullaillaco Llullaillaco Andes volcano -> Chile -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[235 -> 235], [Llullaillaco Llullaillaco Andes volcano -> Llullaillaco Llullaillaco Andes volcano]
+  path: 2[235 -> 20172 -> 10001], [Llullaillaco Llullaillaco Andes volcano -> Chile -> America] 
+
+srcNodes: [188, 206, 10001]
+  path: 0[206 -> 20121 -> 10001 -> 20118 -> 31017 -> 188], [Concepcion Concepcion  volcano -> Nicaragua -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[206 -> 206], [Concepcion Concepcion  volcano -> Concepcion Concepcion  volcano]
+  path: 2[206 -> 20121 -> 10001], [Concepcion Concepcion  volcano -> Nicaragua -> America] 
+
+srcNodes: [188, 214, 10001]
+  path: 0[214 -> 20134 -> 10001 -> 20118 -> 31017 -> 188], [Soufriere Hills Soufriere Hills  volcano -> Montserrat -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[214 -> 214], [Soufriere Hills Soufriere Hills  volcano -> Soufriere Hills Soufriere Hills  volcano]
+  path: 2[214 -> 20134 -> 10001], [Soufriere Hills Soufriere Hills  volcano -> Montserrat -> America] 
+
+srcNodes: [177, 235, 10001]
+  path: 0[20117 -> 30976 -> 177], [Canada -> British Columbia -> Mt Columbia Mt Columbia Rocky Mountains ] 
+
+  path: 1[20117 -> 10001 -> 20172 -> 235], [Canada -> America -> Chile -> Llullaillaco Llullaillaco Andes volcano] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+srcNodes: [190, 230, 10001]
+  path: 0[20175 -> 10001 -> 20118 -> 31029 -> 190], [Peru -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20175 -> 31231 -> 230], [Peru -> Arequipa -> Ampato Ampato Andes volcano] 
+
+  path: 2[20175 -> 10001], [Peru -> America] 
+
+srcNodes: [190, 235, 10001]
+  path: 0[20169 -> 10001 -> 20118 -> 31029 -> 190], [Argentina -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20169 -> 31195 -> 235], [Argentina -> Tucuman -> Llullaillaco Llullaillaco Andes volcano] 
+
+  path: 2[20169 -> 10001], [Argentina -> America] 
+
+srcNodes: [190, 201, 10001]
+  path: 0[20114 -> 10001 -> 20118 -> 31029 -> 190], [Mexico -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20114 -> 30960 -> 201], [Mexico -> Puebla -> Popocatepetl Popocatepetl Cordillera Volcanica volcano] 
+
+  path: 2[20114 -> 10001], [Mexico -> America] 
+
+srcNodes: [190, 235, 10001]
+  path: 0[20173 -> 10001 -> 20118 -> 31029 -> 190], [Paraguay -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20173 -> 10001 -> 20172 -> 235], [Paraguay -> America -> Chile -> Llullaillaco Llullaillaco Andes volcano] 
+
+  path: 2[20173 -> 10001], [Paraguay -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 235, 10001]
+  path: 0[20174 -> 10001 -> 20118 -> 31029 -> 190], [Uruguay -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20174 -> 10001 -> 20172 -> 235], [Uruguay -> America -> Chile -> Llullaillaco Llullaillaco Andes volcano] 
+
+  path: 2[20174 -> 10001], [Uruguay -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 235, 10001]
+  path: 0[20128 -> 10001 -> 20118 -> 31029 -> 190], [Honduras -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20128 -> 10001 -> 20172 -> 235], [Honduras -> America -> Chile -> Llullaillaco Llullaillaco Andes volcano] 
+
+  path: 2[20128 -> 10001], [Honduras -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+-----------------------------------------
+ResultDestNodes: [10001, 20180, 20131, 20142, 20172, 20133, 20134, 20124, 20170, 20121, 20118, 223, 213, 222, 233, 224, 234, 217, 215, 216, 235, 206, 214, 20117, 20175, 20169, 20114, 20173, 20174, 20128]
+ResultRelevs: [10.102371215820312, 6.214781761169434, 6.214781761169434, 6.214781761169434, 6.214781761169434, 6.214781761169434, 6.214781761169434, 6.214781761169434, 6.214781761169434, 6.214781761169434, 6.149130821228027, 6.117891311645508, 6.117891311645508, 6.117891311645508, 6.117891311645508, 6.117891311645508, 6.117891311645508, 6.117891311645508, 6.117891311645508, 6.117891311645508, 6.117891311645508, 6.117891311645508, 6.117891311645508, 5.914884090423584, 5.746283054351807, 5.746283054351807, 5.629158973693848, 5.512035846710205, 5.512035846710205, 5.512035846710205]
+Num of top-k answers: 30
+Num of non-reduced answers: 3
+Num of duplicate answers: 5
+Num of non-redundant answers: 25
+Num of entries retrieved from the lists: 185
+Num of entries retrieved from NKMaps: 284
+
+Blink Search Using ConstRootDup30
+[mountains, volcano, america]
+srcNodes: [187, 223, 10001]
+  path: 0[10001 -> 20118 -> 30992 -> 187], [America -> United States -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20180 -> 223], [America -> Ecuador -> Cotopaxi Cotopaxi Andes volcano] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [187, 224, 10001]
+  path: 0[10001 -> 20118 -> 30992 -> 187], [America -> United States -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20180 -> 224], [America -> Ecuador -> Chimborazo Chimborazo Andes volcano] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [188, 224, 10001]
+  path: 0[10001 -> 20118 -> 31017 -> 188], [America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20180 -> 224], [America -> Ecuador -> Chimborazo Chimborazo Andes volcano] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [188, 223, 10001]
+  path: 0[10001 -> 20118 -> 31017 -> 188], [America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20180 -> 223], [America -> Ecuador -> Cotopaxi Cotopaxi Andes volcano] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [170, 223, 10001]
+  path: 0[10001 -> 20118 -> 30988 -> 170], [America -> United States -> Alaska -> Mt Blackburn Mt Blackburn Wrangell Mountains volcano] 
+
+  path: 1[10001 -> 20180 -> 223], [America -> Ecuador -> Cotopaxi Cotopaxi Andes volcano] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [170, 224, 10001]
+  path: 0[10001 -> 20118 -> 30988 -> 170], [America -> United States -> Alaska -> Mt Blackburn Mt Blackburn Wrangell Mountains volcano] 
+
+  path: 1[10001 -> 20180 -> 224], [America -> Ecuador -> Chimborazo Chimborazo Andes volcano] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [188, 239, 10001]
+  path: 0[10001 -> 20118 -> 31017 -> 188], [America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20169 -> 31184 -> 239], [America -> Argentina -> Mendoza -> Tupungato Tupungato Andes volcano] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [187, 239, 10001]
+  path: 0[10001 -> 20118 -> 30992 -> 187], [America -> United States -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20169 -> 31184 -> 239], [America -> Argentina -> Mendoza -> Tupungato Tupungato Andes volcano] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [188, 236, 10001]
+  path: 0[10001 -> 20118 -> 31017 -> 188], [America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20172 -> 236], [America -> Chile -> Ojos del Salado Ojos del Salado Andes volcano] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [187, 236, 10001]
+  path: 0[10001 -> 20118 -> 30992 -> 187], [America -> United States -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20172 -> 236], [America -> Chile -> Ojos del Salado Ojos del Salado Andes volcano] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [187, 161, 10001]
+  path: 0[10001 -> 20118 -> 30992 -> 187], [America -> United States -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20118 -> 30997 -> 161], [America -> United States -> Hawaii -> Mauna Loa Mauna Loa Hawaii volcano] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [188, 161, 10001]
+  path: 0[10001 -> 20118 -> 31017 -> 188], [America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20118 -> 30997 -> 161], [America -> United States -> Hawaii -> Mauna Loa Mauna Loa Hawaii volcano] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [170, 239, 10001]
+  path: 0[10001 -> 20118 -> 30988 -> 170], [America -> United States -> Alaska -> Mt Blackburn Mt Blackburn Wrangell Mountains volcano] 
+
+  path: 1[10001 -> 20169 -> 31184 -> 239], [America -> Argentina -> Mendoza -> Tupungato Tupungato Andes volcano] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [170, 236, 10001]
+  path: 0[10001 -> 20118 -> 30988 -> 170], [America -> United States -> Alaska -> Mt Blackburn Mt Blackburn Wrangell Mountains volcano] 
+
+  path: 1[10001 -> 20172 -> 236], [America -> Chile -> Ojos del Salado Ojos del Salado Andes volcano] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [170, 161, 10001]
+  path: 0[10001 -> 20118 -> 30988 -> 170], [America -> United States -> Alaska -> Mt Blackburn Mt Blackburn Wrangell Mountains volcano] 
+
+  path: 1[10001 -> 20118 -> 30997 -> 161], [America -> United States -> Hawaii -> Mauna Loa Mauna Loa Hawaii volcano] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [190, 216, 10001]
+  path: 0[20124 -> 10001 -> 20118 -> 31029 -> 190], [Dominica -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20124 -> 216], [Dominica -> Morne Diablotins Morne Diablotins  volcano] 
+
+  path: 2[20124 -> 10001], [Dominica -> America] 
+
+srcNodes: [190, 234, 10001]
+  path: 0[20170 -> 10001 -> 20118 -> 31029 -> 190], [Bolivia -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20170 -> 234], [Bolivia -> Licancabur Licancabur Andes volcano] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [190, 213, 10001]
+  path: 0[20131 -> 10001 -> 20118 -> 31029 -> 190], [Guadeloupe -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20131 -> 213], [Guadeloupe -> La Soufriere La Soufriere  volcano] 
+
+  path: 2[20131 -> 10001], [Guadeloupe -> America] 
+
+srcNodes: [190, 222, 10001]
+  path: 0[20180 -> 10001 -> 20118 -> 31029 -> 190], [Ecuador -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20180 -> 222], [Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 2[20180 -> 10001], [Ecuador -> America] 
+
+srcNodes: [190, 217, 10001]
+  path: 0[20133 -> 10001 -> 20118 -> 31029 -> 190], [Martinique -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20133 -> 217], [Martinique -> Pelee Pelee  volcano] 
+
+  path: 2[20133 -> 10001], [Martinique -> America] 
+
+srcNodes: [190, 235, 10001]
+  path: 0[20172 -> 10001 -> 20118 -> 31029 -> 190], [Chile -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20172 -> 235], [Chile -> Llullaillaco Llullaillaco Andes volcano] 
+
+  path: 2[20172 -> 10001], [Chile -> America] 
+
+srcNodes: [190, 206, 10001]
+  path: 0[20121 -> 10001 -> 20118 -> 31029 -> 190], [Nicaragua -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20121 -> 206], [Nicaragua -> Concepcion Concepcion  volcano] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [190, 215, 10001]
+  path: 0[20142 -> 10001 -> 20118 -> 31029 -> 190], [Saint Vincent and the Grenadines -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20142 -> 215], [Saint Vincent and the Grenadines -> Soufriere Soufriere  volcano] 
+
+  path: 2[20142 -> 10001], [Saint Vincent and the Grenadines -> America] 
+
+srcNodes: [190, 214, 10001]
+  path: 0[20134 -> 10001 -> 20118 -> 31029 -> 190], [Montserrat -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20134 -> 214], [Montserrat -> Soufriere Hills Soufriere Hills  volcano] 
+
+  path: 2[20134 -> 10001], [Montserrat -> America] 
+
+srcNodes: [190, 162, 10001]
+  path: 0[20118 -> 31029 -> 190], [United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20118 -> 30997 -> 162], [United States -> Hawaii -> Haleakala Haleakala Hawaii volcano] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [188, 214, 10001]
+  path: 0[214 -> 20134 -> 10001 -> 20118 -> 31017 -> 188], [Soufriere Hills Soufriere Hills  volcano -> Montserrat -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[214 -> 214], [Soufriere Hills Soufriere Hills  volcano -> Soufriere Hills Soufriere Hills  volcano]
+  path: 2[214 -> 20134 -> 10001], [Soufriere Hills Soufriere Hills  volcano -> Montserrat -> America] 
+
+srcNodes: [188, 216, 10001]
+  path: 0[216 -> 20124 -> 10001 -> 20118 -> 31017 -> 188], [Morne Diablotins Morne Diablotins  volcano -> Dominica -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[216 -> 216], [Morne Diablotins Morne Diablotins  volcano -> Morne Diablotins Morne Diablotins  volcano]
+  path: 2[216 -> 20124 -> 10001], [Morne Diablotins Morne Diablotins  volcano -> Dominica -> America] 
+
+srcNodes: [188, 213, 10001]
+  path: 0[213 -> 20131 -> 10001 -> 20118 -> 31017 -> 188], [La Soufriere La Soufriere  volcano -> Guadeloupe -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[213 -> 213], [La Soufriere La Soufriere  volcano -> La Soufriere La Soufriere  volcano]
+  path: 2[213 -> 20131 -> 10001], [La Soufriere La Soufriere  volcano -> Guadeloupe -> America] 
+
+srcNodes: [188, 206, 10001]
+  path: 0[206 -> 20121 -> 10001 -> 20118 -> 31017 -> 188], [Concepcion Concepcion  volcano -> Nicaragua -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[206 -> 206], [Concepcion Concepcion  volcano -> Concepcion Concepcion  volcano]
+  path: 2[206 -> 20121 -> 10001], [Concepcion Concepcion  volcano -> Nicaragua -> America] 
+
+srcNodes: [188, 215, 10001]
+  path: 0[215 -> 20142 -> 10001 -> 20118 -> 31017 -> 188], [Soufriere Soufriere  volcano -> Saint Vincent and the Grenadines -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[215 -> 215], [Soufriere Soufriere  volcano -> Soufriere Soufriere  volcano]
+  path: 2[215 -> 20142 -> 10001], [Soufriere Soufriere  volcano -> Saint Vincent and the Grenadines -> America] 
+
+-----------------------------------------
+ResultDestNodes: 
+10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 20124, 20170, 20131, 20180, 20133, 20172, 20121, 20142, 20134, 20118, 214, 216, 213, 206, 215, 
+ResultRelevs: 
+10.102371, 10.102371, 10.102371, 10.102371, 9.994465, 9.994465, 9.868124, 9.868124, 9.868123, 9.868123, 9.780281, 9.780281, 9.760218, 9.760217, 9.672375, 6.2147818, 6.2147818, 6.2147818, 6.2147818, 6.2147818, 6.2147818, 6.2147818, 6.2147818, 6.2147818, 6.149131, 6.1178913, 6.1178913, 6.1178913, 6.1178913, 6.1178913, 
+Num of top-k answers: 30
+Num of duplicate answers: 0
+Num of duplicate roots in top-k answers: 14
+root duplication ratio: 0.4827586
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 165
+Num of entries retrieved from NKMaps: 975
+Num of answer trees explored: 3010
+

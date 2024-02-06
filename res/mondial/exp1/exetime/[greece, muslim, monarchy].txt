@@ -1,0 +1,2277 @@
+Blink Search Using BDB 10
+[greece, muslim, monarchy]
+srcNodes: [20001, 70198, 60092]
+  path: 0[20001 -> 20001], [Greece -> Greece]
+  path: 1[20001 -> 70198], [Greece -> Muslim] 
+
+  path: 2[20001 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Greece -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70222, 60099]
+  path: 0[20099 -> 10002 -> 20031 -> 10004 -> 20001], [Oman -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20099 -> 70222], [Oman -> Muslim] 
+
+  path: 2[20099 -> 60099], [Oman -> monarchy] 
+
+srcNodes: [20001, 70238, 60092]
+  path: 0[20092 -> 10002 -> 20031 -> 10004 -> 20001], [Saudi Arabia -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20092 -> 70238], [Saudi Arabia -> Muslim] 
+
+  path: 2[20092 -> 60092], [Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70221, 60026]
+  path: 0[20026 -> 10004 -> 20001], [Netherlands -> Europe -> Greece] 
+
+  path: 1[20026 -> 70221], [Netherlands -> Muslim] 
+
+  path: 2[20026 -> 60026], [Netherlands -> constitutional monarchy] 
+
+srcNodes: [20001, 70253, 60099]
+  path: 0[20031 -> 10004 -> 20001], [Turkey -> Europe -> Greece] 
+
+  path: 1[20031 -> 70253], [Turkey -> Muslim] 
+
+  path: 2[20031 -> 10002 -> 20099 -> 60099], [Turkey -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70239, 60024]
+  path: 0[10004 -> 20001], [Europe -> Greece] 
+
+  path: 1[10004 -> 20016 -> 70239], [Europe -> Slovenia -> Muslim] 
+
+  path: 2[10004 -> 20024 -> 60024], [Europe -> Belgium -> constitutional monarchy] 
+
+srcNodes: [20001, 70224, 60103]
+  path: 0[20103 -> 10002 -> 20031 -> 10004 -> 20001], [Qatar -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20103 -> 70224], [Qatar -> Muslim] 
+
+  path: 2[20103 -> 60103], [Qatar -> traditional monarchy] 
+
+srcNodes: [20001, 70248, 60070]
+  path: 0[20070 -> 10002 -> 20031 -> 10004 -> 20001], [Thailand -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20070 -> 70248], [Thailand -> Muslim] 
+
+  path: 2[20070 -> 60070], [Thailand -> constitutional monarchy] 
+
+srcNodes: [20001, 70177, 60062]
+  path: 0[20062 -> 10002 -> 20031 -> 10004 -> 20001], [Bahrain -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20062 -> 70177], [Bahrain -> Muslim] 
+
+  path: 2[20062 -> 60062], [Bahrain -> traditional monarchy] 
+
+srcNodes: [20001, 70205, 60090]
+  path: 0[20090 -> 10002 -> 20031 -> 10004 -> 20001], [Jordan -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20090 -> 70205], [Jordan -> Muslim] 
+
+  path: 2[20090 -> 60090], [Jordan -> constitutional monarchy] 
+
+-----------------------------------------
+ResultDestNodes: [20001, 20099, 20092, 20026, 20031, 10004, 20103, 20070, 20062, 20090]
+ResultRelevs: [9.361610412597656, 6.953030109405518, 6.953030109405518, 6.506189823150635, 6.1043701171875, 5.917869567871094, 5.747590065002441, 5.747590065002441, 5.747590065002441, 5.747590065002441]
+Num of top-k answers: 10
+Num of non-reduced answers: 0
+Num of duplicate answers: 0
+Num of non-redundant answers: 10
+Num of entries retrieved from the lists: 296
+Num of entries retrieved from NKMaps: 437
+
+Blink Search Using BDB_nored 10
+[greece, muslim, monarchy]
+srcNodes: [20001, 70198, 60092]
+  path: 0[20001 -> 20001], [Greece -> Greece]
+  path: 1[20001 -> 70198], [Greece -> Muslim] 
+
+  path: 2[20001 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Greece -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70222, 60099]
+  path: 0[20099 -> 10002 -> 20031 -> 10004 -> 20001], [Oman -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20099 -> 70222], [Oman -> Muslim] 
+
+  path: 2[20099 -> 60099], [Oman -> monarchy] 
+
+srcNodes: [20001, 70238, 60092]
+  path: 0[20092 -> 10002 -> 20031 -> 10004 -> 20001], [Saudi Arabia -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20092 -> 70238], [Saudi Arabia -> Muslim] 
+
+  path: 2[20092 -> 60092], [Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70221, 60026]
+  path: 0[20026 -> 10004 -> 20001], [Netherlands -> Europe -> Greece] 
+
+  path: 1[20026 -> 70221], [Netherlands -> Muslim] 
+
+  path: 2[20026 -> 60026], [Netherlands -> constitutional monarchy] 
+
+srcNodes: [20001, 70253, 60099]
+  path: 0[20031 -> 10004 -> 20001], [Turkey -> Europe -> Greece] 
+
+  path: 1[20031 -> 70253], [Turkey -> Muslim] 
+
+  path: 2[20031 -> 10002 -> 20099 -> 60099], [Turkey -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70239, 60024]
+  path: 0[10004 -> 20001], [Europe -> Greece] 
+
+  path: 1[10004 -> 20016 -> 70239], [Europe -> Slovenia -> Muslim] 
+
+  path: 2[10004 -> 20024 -> 60024], [Europe -> Belgium -> constitutional monarchy] 
+
+srcNodes: [20001, 70248, 60070]
+  path: 0[20070 -> 10002 -> 20031 -> 10004 -> 20001], [Thailand -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20070 -> 70248], [Thailand -> Muslim] 
+
+  path: 2[20070 -> 60070], [Thailand -> constitutional monarchy] 
+
+srcNodes: [20001, 70177, 60062]
+  path: 0[20062 -> 10002 -> 20031 -> 10004 -> 20001], [Bahrain -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20062 -> 70177], [Bahrain -> Muslim] 
+
+  path: 2[20062 -> 60062], [Bahrain -> traditional monarchy] 
+
+srcNodes: [20001, 70224, 60103]
+  path: 0[20103 -> 10002 -> 20031 -> 10004 -> 20001], [Qatar -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20103 -> 70224], [Qatar -> Muslim] 
+
+  path: 2[20103 -> 60103], [Qatar -> traditional monarchy] 
+
+srcNodes: [20001, 70205, 60090]
+  path: 0[20090 -> 10002 -> 20031 -> 10004 -> 20001], [Jordan -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20090 -> 70205], [Jordan -> Muslim] 
+
+  path: 2[20090 -> 60090], [Jordan -> constitutional monarchy] 
+
+-----------------------------------------
+ResultDestNodes: [20001, 20099, 20092, 20026, 20031, 10004, 20070, 20062, 20103, 20090]
+ResultRelevs: [9.361610412597656, 6.953030109405518, 6.953030109405518, 6.506189823150635, 6.1043701171875, 5.917869567871094, 5.747590065002441, 5.747590065002441, 5.747590065002441, 5.747590065002441]
+Num of top-k answers: 10
+Num of redundant answers: 0
+Num of duplicate answers: 0
+Num of entries retrieved from the lists: 296
+Num of entries retrieved from NKMaps: 437
+
+Blink Search Using BDB_reduced 10
+[greece, muslim, monarchy]
+srcNodes: [20001, 70198, 60092]
+  path: 0[20001 -> 20001], [Greece -> Greece]
+  path: 1[20001 -> 70198], [Greece -> Muslim] 
+
+  path: 2[20001 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Greece -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70222, 60099]
+  path: 0[20099 -> 10002 -> 20031 -> 10004 -> 20001], [Oman -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20099 -> 70222], [Oman -> Muslim] 
+
+  path: 2[20099 -> 60099], [Oman -> monarchy] 
+
+srcNodes: [20001, 70238, 60092]
+  path: 0[20092 -> 10002 -> 20031 -> 10004 -> 20001], [Saudi Arabia -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20092 -> 70238], [Saudi Arabia -> Muslim] 
+
+  path: 2[20092 -> 60092], [Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70221, 60026]
+  path: 0[20026 -> 10004 -> 20001], [Netherlands -> Europe -> Greece] 
+
+  path: 1[20026 -> 70221], [Netherlands -> Muslim] 
+
+  path: 2[20026 -> 60026], [Netherlands -> constitutional monarchy] 
+
+srcNodes: [20001, 70253, 60099]
+  path: 0[20031 -> 10004 -> 20001], [Turkey -> Europe -> Greece] 
+
+  path: 1[20031 -> 70253], [Turkey -> Muslim] 
+
+  path: 2[20031 -> 10002 -> 20099 -> 60099], [Turkey -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70239, 60024]
+  path: 0[10004 -> 20001], [Europe -> Greece] 
+
+  path: 1[10004 -> 20016 -> 70239], [Europe -> Slovenia -> Muslim] 
+
+  path: 2[10004 -> 20024 -> 60024], [Europe -> Belgium -> constitutional monarchy] 
+
+srcNodes: [20001, 70248, 60070]
+  path: 0[20070 -> 10002 -> 20031 -> 10004 -> 20001], [Thailand -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20070 -> 70248], [Thailand -> Muslim] 
+
+  path: 2[20070 -> 60070], [Thailand -> constitutional monarchy] 
+
+srcNodes: [20001, 70177, 60062]
+  path: 0[20062 -> 10002 -> 20031 -> 10004 -> 20001], [Bahrain -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20062 -> 70177], [Bahrain -> Muslim] 
+
+  path: 2[20062 -> 60062], [Bahrain -> traditional monarchy] 
+
+srcNodes: [20001, 70224, 60103]
+  path: 0[20103 -> 10002 -> 20031 -> 10004 -> 20001], [Qatar -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20103 -> 70224], [Qatar -> Muslim] 
+
+  path: 2[20103 -> 60103], [Qatar -> traditional monarchy] 
+
+srcNodes: [20001, 70205, 60090]
+  path: 0[20090 -> 10002 -> 20031 -> 10004 -> 20001], [Jordan -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20090 -> 70205], [Jordan -> Muslim] 
+
+  path: 2[20090 -> 60090], [Jordan -> constitutional monarchy] 
+
+-----------------------------------------
+ResultDestNodes: [20001, 20099, 20092, 20026, 20031, 10004, 20070, 20062, 20103, 20090]
+ResultRelevs: [9.361610412597656, 6.953030109405518, 6.953030109405518, 6.506189823150635, 6.1043701171875, 5.917869567871094, 5.747590065002441, 5.747590065002441, 5.747590065002441, 5.747590065002441]
+Num of top-k answers: 10
+Num of non-reduced answers: 0
+Num of duplicate answers: 0
+Num of non-redundant answers: 10
+Num of entries retrieved from the lists: 296
+Num of entries retrieved from NKMaps: 674
+
+Blink Search Using BDB_reducedNunique_Opt 10
+[greece, muslim, monarchy]
+srcNodes: [20001, 70198, 60092]
+  path: 0[20001 -> 20001], [Greece -> Greece]
+  path: 1[20001 -> 70198], [Greece -> Muslim] 
+
+  path: 2[20001 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Greece -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70222, 60099]
+  path: 0[20099 -> 10002 -> 20031 -> 10004 -> 20001], [Oman -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20099 -> 70222], [Oman -> Muslim] 
+
+  path: 2[20099 -> 60099], [Oman -> monarchy] 
+
+srcNodes: [20001, 70238, 60092]
+  path: 0[20092 -> 10002 -> 20031 -> 10004 -> 20001], [Saudi Arabia -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20092 -> 70238], [Saudi Arabia -> Muslim] 
+
+  path: 2[20092 -> 60092], [Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70221, 60026]
+  path: 0[20026 -> 10004 -> 20001], [Netherlands -> Europe -> Greece] 
+
+  path: 1[20026 -> 70221], [Netherlands -> Muslim] 
+
+  path: 2[20026 -> 60026], [Netherlands -> constitutional monarchy] 
+
+srcNodes: [20001, 70253, 60099]
+  path: 0[20031 -> 10004 -> 20001], [Turkey -> Europe -> Greece] 
+
+  path: 1[20031 -> 70253], [Turkey -> Muslim] 
+
+  path: 2[20031 -> 10002 -> 20099 -> 60099], [Turkey -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70239, 60024]
+  path: 0[10004 -> 20001], [Europe -> Greece] 
+
+  path: 1[10004 -> 20016 -> 70239], [Europe -> Slovenia -> Muslim] 
+
+  path: 2[10004 -> 20024 -> 60024], [Europe -> Belgium -> constitutional monarchy] 
+
+srcNodes: [20001, 70248, 60070]
+  path: 0[20070 -> 10002 -> 20031 -> 10004 -> 20001], [Thailand -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20070 -> 70248], [Thailand -> Muslim] 
+
+  path: 2[20070 -> 60070], [Thailand -> constitutional monarchy] 
+
+srcNodes: [20001, 70177, 60062]
+  path: 0[20062 -> 10002 -> 20031 -> 10004 -> 20001], [Bahrain -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20062 -> 70177], [Bahrain -> Muslim] 
+
+  path: 2[20062 -> 60062], [Bahrain -> traditional monarchy] 
+
+srcNodes: [20001, 70224, 60103]
+  path: 0[20103 -> 10002 -> 20031 -> 10004 -> 20001], [Qatar -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20103 -> 70224], [Qatar -> Muslim] 
+
+  path: 2[20103 -> 60103], [Qatar -> traditional monarchy] 
+
+srcNodes: [20001, 70205, 60090]
+  path: 0[20090 -> 10002 -> 20031 -> 10004 -> 20001], [Jordan -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20090 -> 70205], [Jordan -> Muslim] 
+
+  path: 2[20090 -> 60090], [Jordan -> constitutional monarchy] 
+
+-----------------------------------------
+ResultDestNodes: [20001, 20099, 20092, 20026, 20031, 10004, 20070, 20062, 20103, 20090]
+ResultRelevs: [9.361610412597656, 6.953030109405518, 6.953030109405518, 6.506189823150635, 6.1043701171875, 5.917869567871094, 5.747590065002441, 5.747590065002441, 5.747590065002441, 5.747590065002441]
+Num of top-k answers: 10
+Num of non-reduced answers in top-k answers: 0
+Num of duplicate answers in top-k answers: 0
+Num of non-redundant answers: 10
+Num of entries retrieved from the lists: 296
+Num of redundant candidate answers found: 7
+Num of reduced alternative answers found: 1
+Num of duplicate candidate answers found: 0
+Num of unique alternative answers found: 0
+
+Blink Search Using BDB_reducedNunique_BruteForce 10
+[greece, muslim, monarchy]
+srcNodes: [20001, 70198, 60092]
+  path: 0[20001 -> 20001], [Greece -> Greece]
+  path: 1[20001 -> 70198], [Greece -> Muslim] 
+
+  path: 2[20001 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Greece -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70222, 60099]
+  path: 0[20099 -> 10002 -> 20031 -> 10004 -> 20001], [Oman -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20099 -> 70222], [Oman -> Muslim] 
+
+  path: 2[20099 -> 60099], [Oman -> monarchy] 
+
+srcNodes: [20001, 70238, 60092]
+  path: 0[20092 -> 10002 -> 20031 -> 10004 -> 20001], [Saudi Arabia -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20092 -> 70238], [Saudi Arabia -> Muslim] 
+
+  path: 2[20092 -> 60092], [Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70221, 60026]
+  path: 0[20026 -> 10004 -> 20001], [Netherlands -> Europe -> Greece] 
+
+  path: 1[20026 -> 70221], [Netherlands -> Muslim] 
+
+  path: 2[20026 -> 60026], [Netherlands -> constitutional monarchy] 
+
+srcNodes: [20001, 70253, 60099]
+  path: 0[20031 -> 10004 -> 20001], [Turkey -> Europe -> Greece] 
+
+  path: 1[20031 -> 70253], [Turkey -> Muslim] 
+
+  path: 2[20031 -> 10002 -> 20099 -> 60099], [Turkey -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70239, 60024]
+  path: 0[10004 -> 20001], [Europe -> Greece] 
+
+  path: 1[10004 -> 20016 -> 70239], [Europe -> Slovenia -> Muslim] 
+
+  path: 2[10004 -> 20024 -> 60024], [Europe -> Belgium -> constitutional monarchy] 
+
+srcNodes: [20001, 70248, 60070]
+  path: 0[20070 -> 10002 -> 20031 -> 10004 -> 20001], [Thailand -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20070 -> 70248], [Thailand -> Muslim] 
+
+  path: 2[20070 -> 60070], [Thailand -> constitutional monarchy] 
+
+srcNodes: [20001, 70177, 60062]
+  path: 0[20062 -> 10002 -> 20031 -> 10004 -> 20001], [Bahrain -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20062 -> 70177], [Bahrain -> Muslim] 
+
+  path: 2[20062 -> 60062], [Bahrain -> traditional monarchy] 
+
+srcNodes: [20001, 70224, 60103]
+  path: 0[20103 -> 10002 -> 20031 -> 10004 -> 20001], [Qatar -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20103 -> 70224], [Qatar -> Muslim] 
+
+  path: 2[20103 -> 60103], [Qatar -> traditional monarchy] 
+
+srcNodes: [20001, 70205, 60090]
+  path: 0[20090 -> 10002 -> 20031 -> 10004 -> 20001], [Jordan -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20090 -> 70205], [Jordan -> Muslim] 
+
+  path: 2[20090 -> 60090], [Jordan -> constitutional monarchy] 
+
+-----------------------------------------
+ResultDestNodes: [20001, 20099, 20092, 20026, 20031, 10004, 20070, 20062, 20103, 20090]
+ResultRelevs: [9.361610412597656, 6.953030109405518, 6.953030109405518, 6.506189823150635, 6.1043701171875, 5.917869567871094, 5.747590065002441, 5.747590065002441, 5.747590065002441, 5.747590065002441]
+Num of top-k answers: 10
+Num of redundant answers in top-k answers: 0
+Num of duplicate answers in top-k answers: 0
+Num of entries retrieved from the lists: 296
+Num of redundant candidate answers found: 7
+Num of reduced alternative answers found: 1
+Num of duplicate candidate answers found: 0
+Num of unique alternative answers found: 0
+
+Blink Search Using BDB 20
+[greece, muslim, monarchy]
+srcNodes: [20001, 70198, 60092]
+  path: 0[20001 -> 20001], [Greece -> Greece]
+  path: 1[20001 -> 70198], [Greece -> Muslim] 
+
+  path: 2[20001 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Greece -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70222, 60099]
+  path: 0[20099 -> 10002 -> 20031 -> 10004 -> 20001], [Oman -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20099 -> 70222], [Oman -> Muslim] 
+
+  path: 2[20099 -> 60099], [Oman -> monarchy] 
+
+srcNodes: [20001, 70238, 60092]
+  path: 0[20092 -> 10002 -> 20031 -> 10004 -> 20001], [Saudi Arabia -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20092 -> 70238], [Saudi Arabia -> Muslim] 
+
+  path: 2[20092 -> 60092], [Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70221, 60026]
+  path: 0[20026 -> 10004 -> 20001], [Netherlands -> Europe -> Greece] 
+
+  path: 1[20026 -> 70221], [Netherlands -> Muslim] 
+
+  path: 2[20026 -> 60026], [Netherlands -> constitutional monarchy] 
+
+srcNodes: [20001, 70253, 60099]
+  path: 0[20031 -> 10004 -> 20001], [Turkey -> Europe -> Greece] 
+
+  path: 1[20031 -> 70253], [Turkey -> Muslim] 
+
+  path: 2[20031 -> 10002 -> 20099 -> 60099], [Turkey -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70239, 60024]
+  path: 0[10004 -> 20001], [Europe -> Greece] 
+
+  path: 1[10004 -> 20016 -> 70239], [Europe -> Slovenia -> Muslim] 
+
+  path: 2[10004 -> 20024 -> 60024], [Europe -> Belgium -> constitutional monarchy] 
+
+srcNodes: [20001, 70224, 60103]
+  path: 0[20103 -> 10002 -> 20031 -> 10004 -> 20001], [Qatar -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20103 -> 70224], [Qatar -> Muslim] 
+
+  path: 2[20103 -> 60103], [Qatar -> traditional monarchy] 
+
+srcNodes: [20001, 70205, 60090]
+  path: 0[20090 -> 10002 -> 20031 -> 10004 -> 20001], [Jordan -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20090 -> 70205], [Jordan -> Muslim] 
+
+  path: 2[20090 -> 60090], [Jordan -> constitutional monarchy] 
+
+srcNodes: [20001, 70248, 60070]
+  path: 0[20070 -> 10002 -> 20031 -> 10004 -> 20001], [Thailand -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20070 -> 70248], [Thailand -> Muslim] 
+
+  path: 2[20070 -> 60070], [Thailand -> constitutional monarchy] 
+
+srcNodes: [20001, 70177, 60062]
+  path: 0[20062 -> 10002 -> 20031 -> 10004 -> 20001], [Bahrain -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20062 -> 70177], [Bahrain -> Muslim] 
+
+  path: 2[20062 -> 60062], [Bahrain -> traditional monarchy] 
+
+srcNodes: [20001, 70168, 60066]
+  path: 0[20066 -> 10002 -> 20031 -> 10004 -> 20001], [Bhutan -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20066 -> 10002 -> 20052 -> 70168], [Bhutan -> Asia -> Afghanistan -> Muslim] 
+
+  path: 2[20066 -> 60066], [Bhutan -> monarchy] 
+
+srcNodes: [20001, 70190, 60092]
+  path: 0[20007 -> 10004 -> 20001], [France -> Europe -> Greece] 
+
+  path: 1[20007 -> 70190], [France -> Muslim] 
+
+  path: 2[20007 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [France -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70200, 60092]
+  path: 0[20028 -> 10004 -> 20001], [Croatia -> Europe -> Greece] 
+
+  path: 1[20028 -> 70200], [Croatia -> Muslim] 
+
+  path: 2[20028 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Croatia -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70176, 60092]
+  path: 0[20027 -> 10004 -> 20001], [Bosnia and Herzegovina -> Europe -> Greece] 
+
+  path: 1[20027 -> 70176], [Bosnia and Herzegovina -> Muslim] 
+
+  path: 2[20027 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Bosnia and Herzegovina -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70184, 60092]
+  path: 0[20082 -> 10004 -> 20001], [Cyprus -> Europe -> Greece] 
+
+  path: 1[20082 -> 70184], [Cyprus -> Muslim] 
+
+  path: 2[20082 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Cyprus -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70243, 60092]
+  path: 0[20003 -> 10004 -> 20001], [Serbia -> Europe -> Greece] 
+
+  path: 1[20003 -> 70243], [Serbia -> Muslim] 
+
+  path: 2[20003 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Serbia -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70194, 60092]
+  path: 0[20039 -> 10004 -> 20001], [Gibraltar -> Europe -> Greece] 
+
+  path: 1[20039 -> 70194], [Gibraltar -> Muslim] 
+
+  path: 2[20039 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Gibraltar -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70239, 60092]
+  path: 0[20016 -> 10004 -> 20001], [Slovenia -> Europe -> Greece] 
+
+  path: 1[20016 -> 70239], [Slovenia -> Muslim] 
+
+  path: 2[20016 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Slovenia -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70169, 60092]
+  path: 0[20000 -> 10004 -> 20001], [Albania -> Europe -> Greece] 
+
+  path: 1[20000 -> 70169], [Albania -> Muslim] 
+
+  path: 2[20000 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Albania -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70174, 60092]
+  path: 0[20029 -> 10004 -> 20001], [Bulgaria -> Europe -> Greece] 
+
+  path: 1[20029 -> 70174], [Bulgaria -> Muslim] 
+
+  path: 2[20029 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Bulgaria -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+-----------------------------------------
+ResultDestNodes: [20001, 20099, 20092, 20026, 20031, 10004, 20103, 20090, 20070, 20062, 20066, 20007, 20028, 20027, 20082, 20003, 20039, 20016, 20000, 20029]
+ResultRelevs: [9.361610412597656, 6.953030109405518, 6.953030109405518, 6.506189823150635, 6.1043701171875, 5.917869567871094, 5.747590065002441, 5.747590065002441, 5.747590065002441, 5.747590065002441, 5.652719974517822, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379]
+Num of top-k answers: 20
+Num of non-reduced answers: 0
+Num of duplicate answers: 0
+Num of non-redundant answers: 20
+Num of entries retrieved from the lists: 301
+Num of entries retrieved from NKMaps: 442
+
+Blink Search Using BDB_nored 20
+[greece, muslim, monarchy]
+srcNodes: [20001, 70198, 60092]
+  path: 0[20001 -> 20001], [Greece -> Greece]
+  path: 1[20001 -> 70198], [Greece -> Muslim] 
+
+  path: 2[20001 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Greece -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70238, 60092]
+  path: 0[20092 -> 10002 -> 20031 -> 10004 -> 20001], [Saudi Arabia -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20092 -> 70238], [Saudi Arabia -> Muslim] 
+
+  path: 2[20092 -> 60092], [Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70222, 60099]
+  path: 0[20099 -> 10002 -> 20031 -> 10004 -> 20001], [Oman -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20099 -> 70222], [Oman -> Muslim] 
+
+  path: 2[20099 -> 60099], [Oman -> monarchy] 
+
+srcNodes: [20001, 70221, 60026]
+  path: 0[20026 -> 10004 -> 20001], [Netherlands -> Europe -> Greece] 
+
+  path: 1[20026 -> 70221], [Netherlands -> Muslim] 
+
+  path: 2[20026 -> 60026], [Netherlands -> constitutional monarchy] 
+
+srcNodes: [20001, 70253, 60099]
+  path: 0[20031 -> 10004 -> 20001], [Turkey -> Europe -> Greece] 
+
+  path: 1[20031 -> 70253], [Turkey -> Muslim] 
+
+  path: 2[20031 -> 10002 -> 20099 -> 60099], [Turkey -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70239, 60024]
+  path: 0[10004 -> 20001], [Europe -> Greece] 
+
+  path: 1[10004 -> 20016 -> 70239], [Europe -> Slovenia -> Muslim] 
+
+  path: 2[10004 -> 20024 -> 60024], [Europe -> Belgium -> constitutional monarchy] 
+
+srcNodes: [20001, 70248, 60070]
+  path: 0[20070 -> 10002 -> 20031 -> 10004 -> 20001], [Thailand -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20070 -> 70248], [Thailand -> Muslim] 
+
+  path: 2[20070 -> 60070], [Thailand -> constitutional monarchy] 
+
+srcNodes: [20001, 70177, 60062]
+  path: 0[20062 -> 10002 -> 20031 -> 10004 -> 20001], [Bahrain -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20062 -> 70177], [Bahrain -> Muslim] 
+
+  path: 2[20062 -> 60062], [Bahrain -> traditional monarchy] 
+
+srcNodes: [20001, 70205, 60090]
+  path: 0[20090 -> 10002 -> 20031 -> 10004 -> 20001], [Jordan -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20090 -> 70205], [Jordan -> Muslim] 
+
+  path: 2[20090 -> 60090], [Jordan -> constitutional monarchy] 
+
+srcNodes: [20001, 70224, 60103]
+  path: 0[20103 -> 10002 -> 20031 -> 10004 -> 20001], [Qatar -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20103 -> 70224], [Qatar -> Muslim] 
+
+  path: 2[20103 -> 60103], [Qatar -> traditional monarchy] 
+
+srcNodes: [20001, 70168, 60066]
+  path: 0[20066 -> 10002 -> 20031 -> 10004 -> 20001], [Bhutan -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20066 -> 10002 -> 20052 -> 70168], [Bhutan -> Asia -> Afghanistan -> Muslim] 
+
+  path: 2[20066 -> 60066], [Bhutan -> monarchy] 
+
+srcNodes: [20001, 70174, 60092]
+  path: 0[20029 -> 10004 -> 20001], [Bulgaria -> Europe -> Greece] 
+
+  path: 1[20029 -> 70174], [Bulgaria -> Muslim] 
+
+  path: 2[20029 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Bulgaria -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70169, 60092]
+  path: 0[20000 -> 10004 -> 20001], [Albania -> Europe -> Greece] 
+
+  path: 1[20000 -> 70169], [Albania -> Muslim] 
+
+  path: 2[20000 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Albania -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70200, 60092]
+  path: 0[20028 -> 10004 -> 20001], [Croatia -> Europe -> Greece] 
+
+  path: 1[20028 -> 70200], [Croatia -> Muslim] 
+
+  path: 2[20028 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Croatia -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70239, 60092]
+  path: 0[20016 -> 10004 -> 20001], [Slovenia -> Europe -> Greece] 
+
+  path: 1[20016 -> 70239], [Slovenia -> Muslim] 
+
+  path: 2[20016 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Slovenia -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70190, 60092]
+  path: 0[20007 -> 10004 -> 20001], [France -> Europe -> Greece] 
+
+  path: 1[20007 -> 70190], [France -> Muslim] 
+
+  path: 2[20007 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [France -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70176, 60092]
+  path: 0[20027 -> 10004 -> 20001], [Bosnia and Herzegovina -> Europe -> Greece] 
+
+  path: 1[20027 -> 70176], [Bosnia and Herzegovina -> Muslim] 
+
+  path: 2[20027 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Bosnia and Herzegovina -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70243, 60092]
+  path: 0[20003 -> 10004 -> 20001], [Serbia -> Europe -> Greece] 
+
+  path: 1[20003 -> 70243], [Serbia -> Muslim] 
+
+  path: 2[20003 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Serbia -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70212, 60092]
+  path: 0[20002 -> 10004 -> 20001], [Macedonia -> Europe -> Greece] 
+
+  path: 1[20002 -> 70212], [Macedonia -> Muslim] 
+
+  path: 2[20002 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Macedonia -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70194, 60092]
+  path: 0[20039 -> 10004 -> 20001], [Gibraltar -> Europe -> Greece] 
+
+  path: 1[20039 -> 70194], [Gibraltar -> Muslim] 
+
+  path: 2[20039 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Gibraltar -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+-----------------------------------------
+ResultDestNodes: [20001, 20092, 20099, 20026, 20031, 10004, 20070, 20062, 20090, 20103, 20066, 20029, 20000, 20028, 20016, 20007, 20027, 20003, 20002, 20039]
+ResultRelevs: [9.361610412597656, 6.953030109405518, 6.953030109405518, 6.506189823150635, 6.1043701171875, 5.917869567871094, 5.747590065002441, 5.747590065002441, 5.747590065002441, 5.747590065002441, 5.652719974517822, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379]
+Num of top-k answers: 20
+Num of redundant answers: 0
+Num of duplicate answers: 0
+Num of entries retrieved from the lists: 301
+Num of entries retrieved from NKMaps: 442
+
+Blink Search Using BDB_reduced 20
+[greece, muslim, monarchy]
+srcNodes: [20001, 70198, 60092]
+  path: 0[20001 -> 20001], [Greece -> Greece]
+  path: 1[20001 -> 70198], [Greece -> Muslim] 
+
+  path: 2[20001 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Greece -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70222, 60099]
+  path: 0[20099 -> 10002 -> 20031 -> 10004 -> 20001], [Oman -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20099 -> 70222], [Oman -> Muslim] 
+
+  path: 2[20099 -> 60099], [Oman -> monarchy] 
+
+srcNodes: [20001, 70238, 60092]
+  path: 0[20092 -> 10002 -> 20031 -> 10004 -> 20001], [Saudi Arabia -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20092 -> 70238], [Saudi Arabia -> Muslim] 
+
+  path: 2[20092 -> 60092], [Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70221, 60026]
+  path: 0[20026 -> 10004 -> 20001], [Netherlands -> Europe -> Greece] 
+
+  path: 1[20026 -> 70221], [Netherlands -> Muslim] 
+
+  path: 2[20026 -> 60026], [Netherlands -> constitutional monarchy] 
+
+srcNodes: [20001, 70253, 60099]
+  path: 0[20031 -> 10004 -> 20001], [Turkey -> Europe -> Greece] 
+
+  path: 1[20031 -> 70253], [Turkey -> Muslim] 
+
+  path: 2[20031 -> 10002 -> 20099 -> 60099], [Turkey -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70239, 60024]
+  path: 0[10004 -> 20001], [Europe -> Greece] 
+
+  path: 1[10004 -> 20016 -> 70239], [Europe -> Slovenia -> Muslim] 
+
+  path: 2[10004 -> 20024 -> 60024], [Europe -> Belgium -> constitutional monarchy] 
+
+srcNodes: [20001, 70177, 60062]
+  path: 0[20062 -> 10002 -> 20031 -> 10004 -> 20001], [Bahrain -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20062 -> 70177], [Bahrain -> Muslim] 
+
+  path: 2[20062 -> 60062], [Bahrain -> traditional monarchy] 
+
+srcNodes: [20001, 70224, 60103]
+  path: 0[20103 -> 10002 -> 20031 -> 10004 -> 20001], [Qatar -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20103 -> 70224], [Qatar -> Muslim] 
+
+  path: 2[20103 -> 60103], [Qatar -> traditional monarchy] 
+
+srcNodes: [20001, 70248, 60070]
+  path: 0[20070 -> 10002 -> 20031 -> 10004 -> 20001], [Thailand -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20070 -> 70248], [Thailand -> Muslim] 
+
+  path: 2[20070 -> 60070], [Thailand -> constitutional monarchy] 
+
+srcNodes: [20001, 70205, 60090]
+  path: 0[20090 -> 10002 -> 20031 -> 10004 -> 20001], [Jordan -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20090 -> 70205], [Jordan -> Muslim] 
+
+  path: 2[20090 -> 60090], [Jordan -> constitutional monarchy] 
+
+srcNodes: [20001, 70168, 60066]
+  path: 0[20066 -> 10002 -> 20031 -> 10004 -> 20001], [Bhutan -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20066 -> 10002 -> 20052 -> 70168], [Bhutan -> Asia -> Afghanistan -> Muslim] 
+
+  path: 2[20066 -> 60066], [Bhutan -> monarchy] 
+
+srcNodes: [20001, 70169, 60092]
+  path: 0[20000 -> 10004 -> 20001], [Albania -> Europe -> Greece] 
+
+  path: 1[20000 -> 70169], [Albania -> Muslim] 
+
+  path: 2[20000 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Albania -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70200, 60092]
+  path: 0[20028 -> 10004 -> 20001], [Croatia -> Europe -> Greece] 
+
+  path: 1[20028 -> 70200], [Croatia -> Muslim] 
+
+  path: 2[20028 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Croatia -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70239, 60092]
+  path: 0[20016 -> 10004 -> 20001], [Slovenia -> Europe -> Greece] 
+
+  path: 1[20016 -> 70239], [Slovenia -> Muslim] 
+
+  path: 2[20016 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Slovenia -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70184, 60092]
+  path: 0[20082 -> 10004 -> 20001], [Cyprus -> Europe -> Greece] 
+
+  path: 1[20082 -> 70184], [Cyprus -> Muslim] 
+
+  path: 2[20082 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Cyprus -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70174, 60092]
+  path: 0[20029 -> 10004 -> 20001], [Bulgaria -> Europe -> Greece] 
+
+  path: 1[20029 -> 70174], [Bulgaria -> Muslim] 
+
+  path: 2[20029 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Bulgaria -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70190, 60092]
+  path: 0[20007 -> 10004 -> 20001], [France -> Europe -> Greece] 
+
+  path: 1[20007 -> 70190], [France -> Muslim] 
+
+  path: 2[20007 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [France -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70176, 60092]
+  path: 0[20027 -> 10004 -> 20001], [Bosnia and Herzegovina -> Europe -> Greece] 
+
+  path: 1[20027 -> 70176], [Bosnia and Herzegovina -> Muslim] 
+
+  path: 2[20027 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Bosnia and Herzegovina -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70243, 60092]
+  path: 0[20003 -> 10004 -> 20001], [Serbia -> Europe -> Greece] 
+
+  path: 1[20003 -> 70243], [Serbia -> Muslim] 
+
+  path: 2[20003 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Serbia -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70212, 60092]
+  path: 0[20002 -> 10004 -> 20001], [Macedonia -> Europe -> Greece] 
+
+  path: 1[20002 -> 70212], [Macedonia -> Muslim] 
+
+  path: 2[20002 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Macedonia -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+-----------------------------------------
+ResultDestNodes: [20001, 20099, 20092, 20026, 20031, 10004, 20062, 20103, 20070, 20090, 20066, 20000, 20028, 20016, 20082, 20029, 20007, 20027, 20003, 20002]
+ResultRelevs: [9.361610412597656, 6.953030109405518, 6.953030109405518, 6.506189823150635, 6.1043701171875, 5.917869567871094, 5.747590065002441, 5.747590065002441, 5.747590065002441, 5.747590065002441, 5.652719974517822, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379]
+Num of top-k answers: 20
+Num of non-reduced answers: 0
+Num of duplicate answers: 0
+Num of non-redundant answers: 20
+Num of entries retrieved from the lists: 301
+Num of entries retrieved from NKMaps: 682
+
+Blink Search Using BDB_reducedNunique_Opt 20
+[greece, muslim, monarchy]
+srcNodes: [20001, 70198, 60092]
+  path: 0[20001 -> 20001], [Greece -> Greece]
+  path: 1[20001 -> 70198], [Greece -> Muslim] 
+
+  path: 2[20001 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Greece -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70222, 60099]
+  path: 0[20099 -> 10002 -> 20031 -> 10004 -> 20001], [Oman -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20099 -> 70222], [Oman -> Muslim] 
+
+  path: 2[20099 -> 60099], [Oman -> monarchy] 
+
+srcNodes: [20001, 70238, 60092]
+  path: 0[20092 -> 10002 -> 20031 -> 10004 -> 20001], [Saudi Arabia -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20092 -> 70238], [Saudi Arabia -> Muslim] 
+
+  path: 2[20092 -> 60092], [Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70221, 60026]
+  path: 0[20026 -> 10004 -> 20001], [Netherlands -> Europe -> Greece] 
+
+  path: 1[20026 -> 70221], [Netherlands -> Muslim] 
+
+  path: 2[20026 -> 60026], [Netherlands -> constitutional monarchy] 
+
+srcNodes: [20001, 70253, 60099]
+  path: 0[20031 -> 10004 -> 20001], [Turkey -> Europe -> Greece] 
+
+  path: 1[20031 -> 70253], [Turkey -> Muslim] 
+
+  path: 2[20031 -> 10002 -> 20099 -> 60099], [Turkey -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70239, 60024]
+  path: 0[10004 -> 20001], [Europe -> Greece] 
+
+  path: 1[10004 -> 20016 -> 70239], [Europe -> Slovenia -> Muslim] 
+
+  path: 2[10004 -> 20024 -> 60024], [Europe -> Belgium -> constitutional monarchy] 
+
+srcNodes: [20001, 70177, 60062]
+  path: 0[20062 -> 10002 -> 20031 -> 10004 -> 20001], [Bahrain -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20062 -> 70177], [Bahrain -> Muslim] 
+
+  path: 2[20062 -> 60062], [Bahrain -> traditional monarchy] 
+
+srcNodes: [20001, 70224, 60103]
+  path: 0[20103 -> 10002 -> 20031 -> 10004 -> 20001], [Qatar -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20103 -> 70224], [Qatar -> Muslim] 
+
+  path: 2[20103 -> 60103], [Qatar -> traditional monarchy] 
+
+srcNodes: [20001, 70248, 60070]
+  path: 0[20070 -> 10002 -> 20031 -> 10004 -> 20001], [Thailand -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20070 -> 70248], [Thailand -> Muslim] 
+
+  path: 2[20070 -> 60070], [Thailand -> constitutional monarchy] 
+
+srcNodes: [20001, 70205, 60090]
+  path: 0[20090 -> 10002 -> 20031 -> 10004 -> 20001], [Jordan -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20090 -> 70205], [Jordan -> Muslim] 
+
+  path: 2[20090 -> 60090], [Jordan -> constitutional monarchy] 
+
+srcNodes: [20001, 70168, 60066]
+  path: 0[20066 -> 10002 -> 20031 -> 10004 -> 20001], [Bhutan -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20066 -> 10002 -> 20052 -> 70168], [Bhutan -> Asia -> Afghanistan -> Muslim] 
+
+  path: 2[20066 -> 60066], [Bhutan -> monarchy] 
+
+srcNodes: [20001, 70169, 60092]
+  path: 0[20000 -> 10004 -> 20001], [Albania -> Europe -> Greece] 
+
+  path: 1[20000 -> 70169], [Albania -> Muslim] 
+
+  path: 2[20000 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Albania -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70200, 60092]
+  path: 0[20028 -> 10004 -> 20001], [Croatia -> Europe -> Greece] 
+
+  path: 1[20028 -> 70200], [Croatia -> Muslim] 
+
+  path: 2[20028 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Croatia -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70239, 60092]
+  path: 0[20016 -> 10004 -> 20001], [Slovenia -> Europe -> Greece] 
+
+  path: 1[20016 -> 70239], [Slovenia -> Muslim] 
+
+  path: 2[20016 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Slovenia -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70184, 60092]
+  path: 0[20082 -> 10004 -> 20001], [Cyprus -> Europe -> Greece] 
+
+  path: 1[20082 -> 70184], [Cyprus -> Muslim] 
+
+  path: 2[20082 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Cyprus -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70174, 60092]
+  path: 0[20029 -> 10004 -> 20001], [Bulgaria -> Europe -> Greece] 
+
+  path: 1[20029 -> 70174], [Bulgaria -> Muslim] 
+
+  path: 2[20029 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Bulgaria -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70190, 60092]
+  path: 0[20007 -> 10004 -> 20001], [France -> Europe -> Greece] 
+
+  path: 1[20007 -> 70190], [France -> Muslim] 
+
+  path: 2[20007 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [France -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70176, 60092]
+  path: 0[20027 -> 10004 -> 20001], [Bosnia and Herzegovina -> Europe -> Greece] 
+
+  path: 1[20027 -> 70176], [Bosnia and Herzegovina -> Muslim] 
+
+  path: 2[20027 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Bosnia and Herzegovina -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70243, 60092]
+  path: 0[20003 -> 10004 -> 20001], [Serbia -> Europe -> Greece] 
+
+  path: 1[20003 -> 70243], [Serbia -> Muslim] 
+
+  path: 2[20003 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Serbia -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70212, 60092]
+  path: 0[20002 -> 10004 -> 20001], [Macedonia -> Europe -> Greece] 
+
+  path: 1[20002 -> 70212], [Macedonia -> Muslim] 
+
+  path: 2[20002 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Macedonia -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+-----------------------------------------
+ResultDestNodes: [20001, 20099, 20092, 20026, 20031, 10004, 20062, 20103, 20070, 20090, 20066, 20000, 20028, 20016, 20082, 20029, 20007, 20027, 20003, 20002]
+ResultRelevs: [9.361610412597656, 6.953030109405518, 6.953030109405518, 6.506189823150635, 6.1043701171875, 5.917869567871094, 5.747590065002441, 5.747590065002441, 5.747590065002441, 5.747590065002441, 5.652719974517822, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379]
+Num of top-k answers: 20
+Num of non-reduced answers in top-k answers: 0
+Num of duplicate answers in top-k answers: 0
+Num of non-redundant answers: 20
+Num of entries retrieved from the lists: 301
+Num of redundant candidate answers found: 12
+Num of reduced alternative answers found: 1
+Num of duplicate candidate answers found: 2
+Num of unique alternative answers found: 2
+
+Blink Search Using BDB_reducedNunique_BruteForce 20
+[greece, muslim, monarchy]
+srcNodes: [20001, 70198, 60092]
+  path: 0[20001 -> 20001], [Greece -> Greece]
+  path: 1[20001 -> 70198], [Greece -> Muslim] 
+
+  path: 2[20001 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Greece -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70222, 60099]
+  path: 0[20099 -> 10002 -> 20031 -> 10004 -> 20001], [Oman -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20099 -> 70222], [Oman -> Muslim] 
+
+  path: 2[20099 -> 60099], [Oman -> monarchy] 
+
+srcNodes: [20001, 70238, 60092]
+  path: 0[20092 -> 10002 -> 20031 -> 10004 -> 20001], [Saudi Arabia -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20092 -> 70238], [Saudi Arabia -> Muslim] 
+
+  path: 2[20092 -> 60092], [Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70221, 60026]
+  path: 0[20026 -> 10004 -> 20001], [Netherlands -> Europe -> Greece] 
+
+  path: 1[20026 -> 70221], [Netherlands -> Muslim] 
+
+  path: 2[20026 -> 60026], [Netherlands -> constitutional monarchy] 
+
+srcNodes: [20001, 70253, 60099]
+  path: 0[20031 -> 10004 -> 20001], [Turkey -> Europe -> Greece] 
+
+  path: 1[20031 -> 70253], [Turkey -> Muslim] 
+
+  path: 2[20031 -> 10002 -> 20099 -> 60099], [Turkey -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70239, 60024]
+  path: 0[10004 -> 20001], [Europe -> Greece] 
+
+  path: 1[10004 -> 20016 -> 70239], [Europe -> Slovenia -> Muslim] 
+
+  path: 2[10004 -> 20024 -> 60024], [Europe -> Belgium -> constitutional monarchy] 
+
+srcNodes: [20001, 70177, 60062]
+  path: 0[20062 -> 10002 -> 20031 -> 10004 -> 20001], [Bahrain -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20062 -> 70177], [Bahrain -> Muslim] 
+
+  path: 2[20062 -> 60062], [Bahrain -> traditional monarchy] 
+
+srcNodes: [20001, 70224, 60103]
+  path: 0[20103 -> 10002 -> 20031 -> 10004 -> 20001], [Qatar -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20103 -> 70224], [Qatar -> Muslim] 
+
+  path: 2[20103 -> 60103], [Qatar -> traditional monarchy] 
+
+srcNodes: [20001, 70248, 60070]
+  path: 0[20070 -> 10002 -> 20031 -> 10004 -> 20001], [Thailand -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20070 -> 70248], [Thailand -> Muslim] 
+
+  path: 2[20070 -> 60070], [Thailand -> constitutional monarchy] 
+
+srcNodes: [20001, 70205, 60090]
+  path: 0[20090 -> 10002 -> 20031 -> 10004 -> 20001], [Jordan -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20090 -> 70205], [Jordan -> Muslim] 
+
+  path: 2[20090 -> 60090], [Jordan -> constitutional monarchy] 
+
+srcNodes: [20001, 70168, 60066]
+  path: 0[20066 -> 10002 -> 20031 -> 10004 -> 20001], [Bhutan -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20066 -> 10002 -> 20052 -> 70168], [Bhutan -> Asia -> Afghanistan -> Muslim] 
+
+  path: 2[20066 -> 60066], [Bhutan -> monarchy] 
+
+srcNodes: [20001, 70169, 60092]
+  path: 0[20000 -> 10004 -> 20001], [Albania -> Europe -> Greece] 
+
+  path: 1[20000 -> 70169], [Albania -> Muslim] 
+
+  path: 2[20000 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Albania -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70200, 60092]
+  path: 0[20028 -> 10004 -> 20001], [Croatia -> Europe -> Greece] 
+
+  path: 1[20028 -> 70200], [Croatia -> Muslim] 
+
+  path: 2[20028 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Croatia -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70239, 60092]
+  path: 0[20016 -> 10004 -> 20001], [Slovenia -> Europe -> Greece] 
+
+  path: 1[20016 -> 70239], [Slovenia -> Muslim] 
+
+  path: 2[20016 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Slovenia -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70184, 60092]
+  path: 0[20082 -> 10004 -> 20001], [Cyprus -> Europe -> Greece] 
+
+  path: 1[20082 -> 70184], [Cyprus -> Muslim] 
+
+  path: 2[20082 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Cyprus -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70174, 60092]
+  path: 0[20029 -> 10004 -> 20001], [Bulgaria -> Europe -> Greece] 
+
+  path: 1[20029 -> 70174], [Bulgaria -> Muslim] 
+
+  path: 2[20029 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Bulgaria -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70190, 60092]
+  path: 0[20007 -> 10004 -> 20001], [France -> Europe -> Greece] 
+
+  path: 1[20007 -> 70190], [France -> Muslim] 
+
+  path: 2[20007 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [France -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70176, 60092]
+  path: 0[20027 -> 10004 -> 20001], [Bosnia and Herzegovina -> Europe -> Greece] 
+
+  path: 1[20027 -> 70176], [Bosnia and Herzegovina -> Muslim] 
+
+  path: 2[20027 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Bosnia and Herzegovina -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70243, 60092]
+  path: 0[20003 -> 10004 -> 20001], [Serbia -> Europe -> Greece] 
+
+  path: 1[20003 -> 70243], [Serbia -> Muslim] 
+
+  path: 2[20003 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Serbia -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70212, 60092]
+  path: 0[20002 -> 10004 -> 20001], [Macedonia -> Europe -> Greece] 
+
+  path: 1[20002 -> 70212], [Macedonia -> Muslim] 
+
+  path: 2[20002 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Macedonia -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+-----------------------------------------
+ResultDestNodes: [20001, 20099, 20092, 20026, 20031, 10004, 20062, 20103, 20070, 20090, 20066, 20000, 20028, 20016, 20082, 20029, 20007, 20027, 20003, 20002]
+ResultRelevs: [9.361610412597656, 6.953030109405518, 6.953030109405518, 6.506189823150635, 6.1043701171875, 5.917869567871094, 5.747590065002441, 5.747590065002441, 5.747590065002441, 5.747590065002441, 5.652719974517822, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379]
+Num of top-k answers: 20
+Num of redundant answers in top-k answers: 0
+Num of duplicate answers in top-k answers: 0
+Num of entries retrieved from the lists: 301
+Num of redundant candidate answers found: 12
+Num of reduced alternative answers found: 1
+Num of duplicate candidate answers found: 2
+Num of unique alternative answers found: 2
+
+Blink Search Using BDB 30
+[greece, muslim, monarchy]
+srcNodes: [20001, 70198, 60092]
+  path: 0[20001 -> 20001], [Greece -> Greece]
+  path: 1[20001 -> 70198], [Greece -> Muslim] 
+
+  path: 2[20001 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Greece -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70238, 60092]
+  path: 0[20092 -> 10002 -> 20031 -> 10004 -> 20001], [Saudi Arabia -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20092 -> 70238], [Saudi Arabia -> Muslim] 
+
+  path: 2[20092 -> 60092], [Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70222, 60099]
+  path: 0[20099 -> 10002 -> 20031 -> 10004 -> 20001], [Oman -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20099 -> 70222], [Oman -> Muslim] 
+
+  path: 2[20099 -> 60099], [Oman -> monarchy] 
+
+srcNodes: [20001, 70221, 60026]
+  path: 0[20026 -> 10004 -> 20001], [Netherlands -> Europe -> Greece] 
+
+  path: 1[20026 -> 70221], [Netherlands -> Muslim] 
+
+  path: 2[20026 -> 60026], [Netherlands -> constitutional monarchy] 
+
+srcNodes: [20001, 70253, 60099]
+  path: 0[20031 -> 10004 -> 20001], [Turkey -> Europe -> Greece] 
+
+  path: 1[20031 -> 70253], [Turkey -> Muslim] 
+
+  path: 2[20031 -> 10002 -> 20099 -> 60099], [Turkey -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70239, 60024]
+  path: 0[10004 -> 20001], [Europe -> Greece] 
+
+  path: 1[10004 -> 20016 -> 70239], [Europe -> Slovenia -> Muslim] 
+
+  path: 2[10004 -> 20024 -> 60024], [Europe -> Belgium -> constitutional monarchy] 
+
+srcNodes: [20001, 70248, 60070]
+  path: 0[20070 -> 10002 -> 20031 -> 10004 -> 20001], [Thailand -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20070 -> 70248], [Thailand -> Muslim] 
+
+  path: 2[20070 -> 60070], [Thailand -> constitutional monarchy] 
+
+srcNodes: [20001, 70205, 60090]
+  path: 0[20090 -> 10002 -> 20031 -> 10004 -> 20001], [Jordan -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20090 -> 70205], [Jordan -> Muslim] 
+
+  path: 2[20090 -> 60090], [Jordan -> constitutional monarchy] 
+
+srcNodes: [20001, 70224, 60103]
+  path: 0[20103 -> 10002 -> 20031 -> 10004 -> 20001], [Qatar -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20103 -> 70224], [Qatar -> Muslim] 
+
+  path: 2[20103 -> 60103], [Qatar -> traditional monarchy] 
+
+srcNodes: [20001, 70177, 60062]
+  path: 0[20062 -> 10002 -> 20031 -> 10004 -> 20001], [Bahrain -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20062 -> 70177], [Bahrain -> Muslim] 
+
+  path: 2[20062 -> 60062], [Bahrain -> traditional monarchy] 
+
+srcNodes: [20001, 70168, 60066]
+  path: 0[20066 -> 10002 -> 20031 -> 10004 -> 20001], [Bhutan -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20066 -> 10002 -> 20052 -> 70168], [Bhutan -> Asia -> Afghanistan -> Muslim] 
+
+  path: 2[20066 -> 60066], [Bhutan -> monarchy] 
+
+srcNodes: [20001, 70190, 60092]
+  path: 0[20007 -> 10004 -> 20001], [France -> Europe -> Greece] 
+
+  path: 1[20007 -> 70190], [France -> Muslim] 
+
+  path: 2[20007 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [France -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70194, 60092]
+  path: 0[20039 -> 10004 -> 20001], [Gibraltar -> Europe -> Greece] 
+
+  path: 1[20039 -> 70194], [Gibraltar -> Muslim] 
+
+  path: 2[20039 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Gibraltar -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70212, 60092]
+  path: 0[20002 -> 10004 -> 20001], [Macedonia -> Europe -> Greece] 
+
+  path: 1[20002 -> 70212], [Macedonia -> Muslim] 
+
+  path: 2[20002 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Macedonia -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70169, 60092]
+  path: 0[20000 -> 10004 -> 20001], [Albania -> Europe -> Greece] 
+
+  path: 1[20000 -> 70169], [Albania -> Muslim] 
+
+  path: 2[20000 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Albania -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70200, 60092]
+  path: 0[20028 -> 10004 -> 20001], [Croatia -> Europe -> Greece] 
+
+  path: 1[20028 -> 70200], [Croatia -> Muslim] 
+
+  path: 2[20028 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Croatia -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70239, 60092]
+  path: 0[20016 -> 10004 -> 20001], [Slovenia -> Europe -> Greece] 
+
+  path: 1[20016 -> 70239], [Slovenia -> Muslim] 
+
+  path: 2[20016 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Slovenia -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70213, 60092]
+  path: 0[20004 -> 10004 -> 20001], [Montenegro -> Europe -> Greece] 
+
+  path: 1[20004 -> 70213], [Montenegro -> Muslim] 
+
+  path: 2[20004 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Montenegro -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70174, 60092]
+  path: 0[20029 -> 10004 -> 20001], [Bulgaria -> Europe -> Greece] 
+
+  path: 1[20029 -> 70174], [Bulgaria -> Muslim] 
+
+  path: 2[20029 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Bulgaria -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70243, 60092]
+  path: 0[20003 -> 10004 -> 20001], [Serbia -> Europe -> Greece] 
+
+  path: 1[20003 -> 70243], [Serbia -> Muslim] 
+
+  path: 2[20003 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Serbia -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70176, 60092]
+  path: 0[20027 -> 10004 -> 20001], [Bosnia and Herzegovina -> Europe -> Greece] 
+
+  path: 1[20027 -> 70176], [Bosnia and Herzegovina -> Muslim] 
+
+  path: 2[20027 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Bosnia and Herzegovina -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70184, 60092]
+  path: 0[20082 -> 10004 -> 20001], [Cyprus -> Europe -> Greece] 
+
+  path: 1[20082 -> 70184], [Cyprus -> Muslim] 
+
+  path: 2[20082 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Cyprus -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70228, 60099]
+  path: 0[20086 -> 10002 -> 20031 -> 10004 -> 20001], [Indonesia -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20086 -> 70228], [Indonesia -> Muslim] 
+
+  path: 2[20086 -> 10002 -> 20099 -> 60099], [Indonesia -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70250, 60099]
+  path: 0[20087 -> 10002 -> 20031 -> 10004 -> 20001], [Timor-Leste -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20087 -> 70250], [Timor-Leste -> Muslim] 
+
+  path: 2[20087 -> 10002 -> 20099 -> 60099], [Timor-Leste -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70188, 60099]
+  path: 0[20085 -> 10002 -> 20031 -> 10004 -> 20001], [Egypt -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20085 -> 70188], [Egypt -> Muslim] 
+
+  path: 2[20085 -> 10002 -> 20099 -> 60099], [Egypt -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70181, 60099]
+  path: 0[20105 -> 10002 -> 20031 -> 10004 -> 20001], [Sri Lanka -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20105 -> 70181], [Sri Lanka -> Muslim] 
+
+  path: 2[20105 -> 10002 -> 20099 -> 60099], [Sri Lanka -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70201, 60099]
+  path: 0[20084 -> 10002 -> 20031 -> 10004 -> 20001], [Israel -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20084 -> 70201], [Israel -> Muslim] 
+
+  path: 2[20084 -> 10002 -> 20099 -> 60099], [Israel -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70204, 60099]
+  path: 0[20089 -> 10002 -> 20031 -> 10004 -> 20001], [Iraq -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20089 -> 70204], [Iraq -> Muslim] 
+
+  path: 2[20089 -> 10002 -> 20099 -> 60099], [Iraq -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70193, 60099]
+  path: 0[20083 -> 10002 -> 20031 -> 10004 -> 20001], [Gaza Strip -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20083 -> 70193], [Gaza Strip -> Muslim] 
+
+  path: 2[20083 -> 10002 -> 20099 -> 60099], [Gaza Strip -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70230, 60099]
+  path: 0[20094 -> 10002 -> 20031 -> 10004 -> 20001], [Lebanon -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20094 -> 70230], [Lebanon -> Muslim] 
+
+  path: 2[20094 -> 10002 -> 20099 -> 60099], [Lebanon -> Asia -> Oman -> monarchy] 
+
+-----------------------------------------
+ResultDestNodes: [20001, 20092, 20099, 20026, 20031, 10004, 20070, 20090, 20103, 20062, 20066, 20007, 20039, 20002, 20000, 20028, 20016, 20004, 20029, 20003, 20027, 20082, 20086, 20087, 20085, 20105, 20084, 20089, 20083, 20094]
+ResultRelevs: [9.361610412597656, 6.953030109405518, 6.953030109405518, 6.506189823150635, 6.1043701171875, 5.917869567871094, 5.747590065002441, 5.747590065002441, 5.747590065002441, 5.747590065002441, 5.652719974517822, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.345769882202148, 5.345769882202148, 5.345769882202148, 5.345769882202148, 5.345769882202148, 5.345769882202148, 5.345769882202148, 5.345769882202148]
+Num of top-k answers: 30
+Num of non-reduced answers: 0
+Num of duplicate answers: 0
+Num of non-redundant answers: 30
+Num of entries retrieved from the lists: 301
+Num of entries retrieved from NKMaps: 442
+
+Blink Search Using BDB_nored 30
+[greece, muslim, monarchy]
+srcNodes: [20001, 70198, 60092]
+  path: 0[20001 -> 20001], [Greece -> Greece]
+  path: 1[20001 -> 70198], [Greece -> Muslim] 
+
+  path: 2[20001 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Greece -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70238, 60092]
+  path: 0[20092 -> 10002 -> 20031 -> 10004 -> 20001], [Saudi Arabia -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20092 -> 70238], [Saudi Arabia -> Muslim] 
+
+  path: 2[20092 -> 60092], [Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70222, 60099]
+  path: 0[20099 -> 10002 -> 20031 -> 10004 -> 20001], [Oman -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20099 -> 70222], [Oman -> Muslim] 
+
+  path: 2[20099 -> 60099], [Oman -> monarchy] 
+
+srcNodes: [20001, 70221, 60026]
+  path: 0[20026 -> 10004 -> 20001], [Netherlands -> Europe -> Greece] 
+
+  path: 1[20026 -> 70221], [Netherlands -> Muslim] 
+
+  path: 2[20026 -> 60026], [Netherlands -> constitutional monarchy] 
+
+srcNodes: [20001, 70253, 60099]
+  path: 0[20031 -> 10004 -> 20001], [Turkey -> Europe -> Greece] 
+
+  path: 1[20031 -> 70253], [Turkey -> Muslim] 
+
+  path: 2[20031 -> 10002 -> 20099 -> 60099], [Turkey -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70239, 60024]
+  path: 0[10004 -> 20001], [Europe -> Greece] 
+
+  path: 1[10004 -> 20016 -> 70239], [Europe -> Slovenia -> Muslim] 
+
+  path: 2[10004 -> 20024 -> 60024], [Europe -> Belgium -> constitutional monarchy] 
+
+srcNodes: [20001, 70248, 60070]
+  path: 0[20070 -> 10002 -> 20031 -> 10004 -> 20001], [Thailand -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20070 -> 70248], [Thailand -> Muslim] 
+
+  path: 2[20070 -> 60070], [Thailand -> constitutional monarchy] 
+
+srcNodes: [20001, 70177, 60062]
+  path: 0[20062 -> 10002 -> 20031 -> 10004 -> 20001], [Bahrain -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20062 -> 70177], [Bahrain -> Muslim] 
+
+  path: 2[20062 -> 60062], [Bahrain -> traditional monarchy] 
+
+srcNodes: [20001, 70224, 60103]
+  path: 0[20103 -> 10002 -> 20031 -> 10004 -> 20001], [Qatar -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20103 -> 70224], [Qatar -> Muslim] 
+
+  path: 2[20103 -> 60103], [Qatar -> traditional monarchy] 
+
+srcNodes: [20001, 70205, 60090]
+  path: 0[20090 -> 10002 -> 20031 -> 10004 -> 20001], [Jordan -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20090 -> 70205], [Jordan -> Muslim] 
+
+  path: 2[20090 -> 60090], [Jordan -> constitutional monarchy] 
+
+srcNodes: [20001, 70168, 60066]
+  path: 0[20066 -> 10002 -> 20031 -> 10004 -> 20001], [Bhutan -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20066 -> 10002 -> 20052 -> 70168], [Bhutan -> Asia -> Afghanistan -> Muslim] 
+
+  path: 2[20066 -> 60066], [Bhutan -> monarchy] 
+
+srcNodes: [20001, 70194, 60092]
+  path: 0[20039 -> 10004 -> 20001], [Gibraltar -> Europe -> Greece] 
+
+  path: 1[20039 -> 70194], [Gibraltar -> Muslim] 
+
+  path: 2[20039 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Gibraltar -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70169, 60092]
+  path: 0[20000 -> 10004 -> 20001], [Albania -> Europe -> Greece] 
+
+  path: 1[20000 -> 70169], [Albania -> Muslim] 
+
+  path: 2[20000 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Albania -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70200, 60092]
+  path: 0[20028 -> 10004 -> 20001], [Croatia -> Europe -> Greece] 
+
+  path: 1[20028 -> 70200], [Croatia -> Muslim] 
+
+  path: 2[20028 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Croatia -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70190, 60092]
+  path: 0[20007 -> 10004 -> 20001], [France -> Europe -> Greece] 
+
+  path: 1[20007 -> 70190], [France -> Muslim] 
+
+  path: 2[20007 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [France -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70184, 60092]
+  path: 0[20082 -> 10004 -> 20001], [Cyprus -> Europe -> Greece] 
+
+  path: 1[20082 -> 70184], [Cyprus -> Muslim] 
+
+  path: 2[20082 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Cyprus -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70174, 60092]
+  path: 0[20029 -> 10004 -> 20001], [Bulgaria -> Europe -> Greece] 
+
+  path: 1[20029 -> 70174], [Bulgaria -> Muslim] 
+
+  path: 2[20029 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Bulgaria -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70176, 60092]
+  path: 0[20027 -> 10004 -> 20001], [Bosnia and Herzegovina -> Europe -> Greece] 
+
+  path: 1[20027 -> 70176], [Bosnia and Herzegovina -> Muslim] 
+
+  path: 2[20027 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Bosnia and Herzegovina -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70213, 60092]
+  path: 0[20004 -> 10004 -> 20001], [Montenegro -> Europe -> Greece] 
+
+  path: 1[20004 -> 70213], [Montenegro -> Muslim] 
+
+  path: 2[20004 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Montenegro -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70212, 60092]
+  path: 0[20002 -> 10004 -> 20001], [Macedonia -> Europe -> Greece] 
+
+  path: 1[20002 -> 70212], [Macedonia -> Muslim] 
+
+  path: 2[20002 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Macedonia -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70239, 60092]
+  path: 0[20016 -> 10004 -> 20001], [Slovenia -> Europe -> Greece] 
+
+  path: 1[20016 -> 70239], [Slovenia -> Muslim] 
+
+  path: 2[20016 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Slovenia -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70243, 60092]
+  path: 0[20003 -> 10004 -> 20001], [Serbia -> Europe -> Greece] 
+
+  path: 1[20003 -> 70243], [Serbia -> Muslim] 
+
+  path: 2[20003 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Serbia -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70228, 60099]
+  path: 0[20086 -> 10002 -> 20031 -> 10004 -> 20001], [Indonesia -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20086 -> 70228], [Indonesia -> Muslim] 
+
+  path: 2[20086 -> 10002 -> 20099 -> 60099], [Indonesia -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70250, 60099]
+  path: 0[20087 -> 10002 -> 20031 -> 10004 -> 20001], [Timor-Leste -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20087 -> 70250], [Timor-Leste -> Muslim] 
+
+  path: 2[20087 -> 10002 -> 20099 -> 60099], [Timor-Leste -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70188, 60099]
+  path: 0[20085 -> 10002 -> 20031 -> 10004 -> 20001], [Egypt -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20085 -> 70188], [Egypt -> Muslim] 
+
+  path: 2[20085 -> 10002 -> 20099 -> 60099], [Egypt -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70201, 60099]
+  path: 0[20084 -> 10002 -> 20031 -> 10004 -> 20001], [Israel -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20084 -> 70201], [Israel -> Muslim] 
+
+  path: 2[20084 -> 10002 -> 20099 -> 60099], [Israel -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70181, 60099]
+  path: 0[20105 -> 10002 -> 20031 -> 10004 -> 20001], [Sri Lanka -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20105 -> 70181], [Sri Lanka -> Muslim] 
+
+  path: 2[20105 -> 10002 -> 20099 -> 60099], [Sri Lanka -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70204, 60099]
+  path: 0[20089 -> 10002 -> 20031 -> 10004 -> 20001], [Iraq -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20089 -> 70204], [Iraq -> Muslim] 
+
+  path: 2[20089 -> 10002 -> 20099 -> 60099], [Iraq -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70193, 60099]
+  path: 0[20083 -> 10002 -> 20031 -> 10004 -> 20001], [Gaza Strip -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20083 -> 70193], [Gaza Strip -> Muslim] 
+
+  path: 2[20083 -> 10002 -> 20099 -> 60099], [Gaza Strip -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70230, 60099]
+  path: 0[20094 -> 10002 -> 20031 -> 10004 -> 20001], [Lebanon -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20094 -> 70230], [Lebanon -> Muslim] 
+
+  path: 2[20094 -> 10002 -> 20099 -> 60099], [Lebanon -> Asia -> Oman -> monarchy] 
+
+-----------------------------------------
+ResultDestNodes: [20001, 20092, 20099, 20026, 20031, 10004, 20070, 20062, 20103, 20090, 20066, 20039, 20000, 20028, 20007, 20082, 20029, 20027, 20004, 20002, 20016, 20003, 20086, 20087, 20085, 20084, 20105, 20089, 20083, 20094]
+ResultRelevs: [9.361610412597656, 6.953030109405518, 6.953030109405518, 6.506189823150635, 6.1043701171875, 5.917869567871094, 5.747590065002441, 5.747590065002441, 5.747590065002441, 5.747590065002441, 5.652719974517822, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.345769882202148, 5.345769882202148, 5.345769882202148, 5.345769882202148, 5.345769882202148, 5.345769882202148, 5.345769882202148, 5.345769882202148]
+Num of top-k answers: 30
+Num of redundant answers: 0
+Num of duplicate answers: 0
+Num of entries retrieved from the lists: 453
+Num of entries retrieved from NKMaps: 564
+
+Blink Search Using BDB_reduced 30
+[greece, muslim, monarchy]
+srcNodes: [20001, 70198, 60092]
+  path: 0[20001 -> 20001], [Greece -> Greece]
+  path: 1[20001 -> 70198], [Greece -> Muslim] 
+
+  path: 2[20001 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Greece -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70222, 60099]
+  path: 0[20099 -> 10002 -> 20031 -> 10004 -> 20001], [Oman -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20099 -> 70222], [Oman -> Muslim] 
+
+  path: 2[20099 -> 60099], [Oman -> monarchy] 
+
+srcNodes: [20001, 70238, 60092]
+  path: 0[20092 -> 10002 -> 20031 -> 10004 -> 20001], [Saudi Arabia -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20092 -> 70238], [Saudi Arabia -> Muslim] 
+
+  path: 2[20092 -> 60092], [Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70221, 60026]
+  path: 0[20026 -> 10004 -> 20001], [Netherlands -> Europe -> Greece] 
+
+  path: 1[20026 -> 70221], [Netherlands -> Muslim] 
+
+  path: 2[20026 -> 60026], [Netherlands -> constitutional monarchy] 
+
+srcNodes: [20001, 70253, 60099]
+  path: 0[20031 -> 10004 -> 20001], [Turkey -> Europe -> Greece] 
+
+  path: 1[20031 -> 70253], [Turkey -> Muslim] 
+
+  path: 2[20031 -> 10002 -> 20099 -> 60099], [Turkey -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70239, 60024]
+  path: 0[10004 -> 20001], [Europe -> Greece] 
+
+  path: 1[10004 -> 20016 -> 70239], [Europe -> Slovenia -> Muslim] 
+
+  path: 2[10004 -> 20024 -> 60024], [Europe -> Belgium -> constitutional monarchy] 
+
+srcNodes: [20001, 70177, 60062]
+  path: 0[20062 -> 10002 -> 20031 -> 10004 -> 20001], [Bahrain -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20062 -> 70177], [Bahrain -> Muslim] 
+
+  path: 2[20062 -> 60062], [Bahrain -> traditional monarchy] 
+
+srcNodes: [20001, 70248, 60070]
+  path: 0[20070 -> 10002 -> 20031 -> 10004 -> 20001], [Thailand -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20070 -> 70248], [Thailand -> Muslim] 
+
+  path: 2[20070 -> 60070], [Thailand -> constitutional monarchy] 
+
+srcNodes: [20001, 70205, 60090]
+  path: 0[20090 -> 10002 -> 20031 -> 10004 -> 20001], [Jordan -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20090 -> 70205], [Jordan -> Muslim] 
+
+  path: 2[20090 -> 60090], [Jordan -> constitutional monarchy] 
+
+srcNodes: [20001, 70224, 60103]
+  path: 0[20103 -> 10002 -> 20031 -> 10004 -> 20001], [Qatar -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20103 -> 70224], [Qatar -> Muslim] 
+
+  path: 2[20103 -> 60103], [Qatar -> traditional monarchy] 
+
+srcNodes: [20001, 70168, 60066]
+  path: 0[20066 -> 10002 -> 20031 -> 10004 -> 20001], [Bhutan -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20066 -> 10002 -> 20052 -> 70168], [Bhutan -> Asia -> Afghanistan -> Muslim] 
+
+  path: 2[20066 -> 60066], [Bhutan -> monarchy] 
+
+srcNodes: [20001, 70176, 60092]
+  path: 0[20027 -> 10004 -> 20001], [Bosnia and Herzegovina -> Europe -> Greece] 
+
+  path: 1[20027 -> 70176], [Bosnia and Herzegovina -> Muslim] 
+
+  path: 2[20027 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Bosnia and Herzegovina -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70243, 60092]
+  path: 0[20003 -> 10004 -> 20001], [Serbia -> Europe -> Greece] 
+
+  path: 1[20003 -> 70243], [Serbia -> Muslim] 
+
+  path: 2[20003 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Serbia -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70200, 60092]
+  path: 0[20028 -> 10004 -> 20001], [Croatia -> Europe -> Greece] 
+
+  path: 1[20028 -> 70200], [Croatia -> Muslim] 
+
+  path: 2[20028 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Croatia -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70239, 60092]
+  path: 0[20016 -> 10004 -> 20001], [Slovenia -> Europe -> Greece] 
+
+  path: 1[20016 -> 70239], [Slovenia -> Muslim] 
+
+  path: 2[20016 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Slovenia -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70169, 60092]
+  path: 0[20000 -> 10004 -> 20001], [Albania -> Europe -> Greece] 
+
+  path: 1[20000 -> 70169], [Albania -> Muslim] 
+
+  path: 2[20000 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Albania -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70190, 60092]
+  path: 0[20007 -> 10004 -> 20001], [France -> Europe -> Greece] 
+
+  path: 1[20007 -> 70190], [France -> Muslim] 
+
+  path: 2[20007 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [France -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70184, 60092]
+  path: 0[20082 -> 10004 -> 20001], [Cyprus -> Europe -> Greece] 
+
+  path: 1[20082 -> 70184], [Cyprus -> Muslim] 
+
+  path: 2[20082 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Cyprus -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70213, 60092]
+  path: 0[20004 -> 10004 -> 20001], [Montenegro -> Europe -> Greece] 
+
+  path: 1[20004 -> 70213], [Montenegro -> Muslim] 
+
+  path: 2[20004 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Montenegro -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70194, 60092]
+  path: 0[20039 -> 10004 -> 20001], [Gibraltar -> Europe -> Greece] 
+
+  path: 1[20039 -> 70194], [Gibraltar -> Muslim] 
+
+  path: 2[20039 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Gibraltar -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70212, 60092]
+  path: 0[20002 -> 10004 -> 20001], [Macedonia -> Europe -> Greece] 
+
+  path: 1[20002 -> 70212], [Macedonia -> Muslim] 
+
+  path: 2[20002 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Macedonia -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70174, 60092]
+  path: 0[20029 -> 10004 -> 20001], [Bulgaria -> Europe -> Greece] 
+
+  path: 1[20029 -> 70174], [Bulgaria -> Muslim] 
+
+  path: 2[20029 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Bulgaria -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70228, 60099]
+  path: 0[20086 -> 10002 -> 20031 -> 10004 -> 20001], [Indonesia -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20086 -> 70228], [Indonesia -> Muslim] 
+
+  path: 2[20086 -> 10002 -> 20099 -> 60099], [Indonesia -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70188, 60099]
+  path: 0[20085 -> 10002 -> 20031 -> 10004 -> 20001], [Egypt -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20085 -> 70188], [Egypt -> Muslim] 
+
+  path: 2[20085 -> 10002 -> 20099 -> 60099], [Egypt -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70201, 60099]
+  path: 0[20084 -> 10002 -> 20031 -> 10004 -> 20001], [Israel -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20084 -> 70201], [Israel -> Muslim] 
+
+  path: 2[20084 -> 10002 -> 20099 -> 60099], [Israel -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70181, 60099]
+  path: 0[20105 -> 10002 -> 20031 -> 10004 -> 20001], [Sri Lanka -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20105 -> 70181], [Sri Lanka -> Muslim] 
+
+  path: 2[20105 -> 10002 -> 20099 -> 60099], [Sri Lanka -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70250, 60099]
+  path: 0[20087 -> 10002 -> 20031 -> 10004 -> 20001], [Timor-Leste -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20087 -> 70250], [Timor-Leste -> Muslim] 
+
+  path: 2[20087 -> 10002 -> 20099 -> 60099], [Timor-Leste -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70204, 60099]
+  path: 0[20089 -> 10002 -> 20031 -> 10004 -> 20001], [Iraq -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20089 -> 70204], [Iraq -> Muslim] 
+
+  path: 2[20089 -> 10002 -> 20099 -> 60099], [Iraq -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70193, 60099]
+  path: 0[20083 -> 10002 -> 20031 -> 10004 -> 20001], [Gaza Strip -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20083 -> 70193], [Gaza Strip -> Muslim] 
+
+  path: 2[20083 -> 10002 -> 20099 -> 60099], [Gaza Strip -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70230, 60099]
+  path: 0[20094 -> 10002 -> 20031 -> 10004 -> 20001], [Lebanon -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20094 -> 70230], [Lebanon -> Muslim] 
+
+  path: 2[20094 -> 10002 -> 20099 -> 60099], [Lebanon -> Asia -> Oman -> monarchy] 
+
+-----------------------------------------
+ResultDestNodes: [20001, 20099, 20092, 20026, 20031, 10004, 20062, 20070, 20090, 20103, 20066, 20027, 20003, 20028, 20016, 20000, 20007, 20082, 20004, 20039, 20002, 20029, 20086, 20085, 20084, 20105, 20087, 20089, 20083, 20094]
+ResultRelevs: [9.361610412597656, 6.953030109405518, 6.953030109405518, 6.506189823150635, 6.1043701171875, 5.917869567871094, 5.747590065002441, 5.747590065002441, 5.747590065002441, 5.747590065002441, 5.652719974517822, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.345769882202148, 5.345769882202148, 5.345769882202148, 5.345769882202148, 5.345769882202148, 5.345769882202148, 5.345769882202148, 5.345769882202148]
+Num of top-k answers: 30
+Num of non-reduced answers: 0
+Num of duplicate answers: 0
+Num of non-redundant answers: 30
+Num of entries retrieved from the lists: 453
+Num of entries retrieved from NKMaps: 909
+
+Blink Search Using BDB_reducedNunique_Opt 30
+[greece, muslim, monarchy]
+srcNodes: [20001, 70198, 60092]
+  path: 0[20001 -> 20001], [Greece -> Greece]
+  path: 1[20001 -> 70198], [Greece -> Muslim] 
+
+  path: 2[20001 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Greece -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70222, 60099]
+  path: 0[20099 -> 10002 -> 20031 -> 10004 -> 20001], [Oman -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20099 -> 70222], [Oman -> Muslim] 
+
+  path: 2[20099 -> 60099], [Oman -> monarchy] 
+
+srcNodes: [20001, 70238, 60092]
+  path: 0[20092 -> 10002 -> 20031 -> 10004 -> 20001], [Saudi Arabia -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20092 -> 70238], [Saudi Arabia -> Muslim] 
+
+  path: 2[20092 -> 60092], [Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70221, 60026]
+  path: 0[20026 -> 10004 -> 20001], [Netherlands -> Europe -> Greece] 
+
+  path: 1[20026 -> 70221], [Netherlands -> Muslim] 
+
+  path: 2[20026 -> 60026], [Netherlands -> constitutional monarchy] 
+
+srcNodes: [20001, 70253, 60099]
+  path: 0[20031 -> 10004 -> 20001], [Turkey -> Europe -> Greece] 
+
+  path: 1[20031 -> 70253], [Turkey -> Muslim] 
+
+  path: 2[20031 -> 10002 -> 20099 -> 60099], [Turkey -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70239, 60024]
+  path: 0[10004 -> 20001], [Europe -> Greece] 
+
+  path: 1[10004 -> 20016 -> 70239], [Europe -> Slovenia -> Muslim] 
+
+  path: 2[10004 -> 20024 -> 60024], [Europe -> Belgium -> constitutional monarchy] 
+
+srcNodes: [20001, 70177, 60062]
+  path: 0[20062 -> 10002 -> 20031 -> 10004 -> 20001], [Bahrain -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20062 -> 70177], [Bahrain -> Muslim] 
+
+  path: 2[20062 -> 60062], [Bahrain -> traditional monarchy] 
+
+srcNodes: [20001, 70248, 60070]
+  path: 0[20070 -> 10002 -> 20031 -> 10004 -> 20001], [Thailand -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20070 -> 70248], [Thailand -> Muslim] 
+
+  path: 2[20070 -> 60070], [Thailand -> constitutional monarchy] 
+
+srcNodes: [20001, 70224, 60103]
+  path: 0[20103 -> 10002 -> 20031 -> 10004 -> 20001], [Qatar -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20103 -> 70224], [Qatar -> Muslim] 
+
+  path: 2[20103 -> 60103], [Qatar -> traditional monarchy] 
+
+srcNodes: [20001, 70205, 60090]
+  path: 0[20090 -> 10002 -> 20031 -> 10004 -> 20001], [Jordan -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20090 -> 70205], [Jordan -> Muslim] 
+
+  path: 2[20090 -> 60090], [Jordan -> constitutional monarchy] 
+
+srcNodes: [20001, 70168, 60066]
+  path: 0[20066 -> 10002 -> 20031 -> 10004 -> 20001], [Bhutan -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20066 -> 10002 -> 20052 -> 70168], [Bhutan -> Asia -> Afghanistan -> Muslim] 
+
+  path: 2[20066 -> 60066], [Bhutan -> monarchy] 
+
+srcNodes: [20001, 70176, 60092]
+  path: 0[20027 -> 10004 -> 20001], [Bosnia and Herzegovina -> Europe -> Greece] 
+
+  path: 1[20027 -> 70176], [Bosnia and Herzegovina -> Muslim] 
+
+  path: 2[20027 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Bosnia and Herzegovina -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70200, 60092]
+  path: 0[20028 -> 10004 -> 20001], [Croatia -> Europe -> Greece] 
+
+  path: 1[20028 -> 70200], [Croatia -> Muslim] 
+
+  path: 2[20028 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Croatia -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70239, 60092]
+  path: 0[20016 -> 10004 -> 20001], [Slovenia -> Europe -> Greece] 
+
+  path: 1[20016 -> 70239], [Slovenia -> Muslim] 
+
+  path: 2[20016 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Slovenia -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70169, 60092]
+  path: 0[20000 -> 10004 -> 20001], [Albania -> Europe -> Greece] 
+
+  path: 1[20000 -> 70169], [Albania -> Muslim] 
+
+  path: 2[20000 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Albania -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70174, 60092]
+  path: 0[20029 -> 10004 -> 20001], [Bulgaria -> Europe -> Greece] 
+
+  path: 1[20029 -> 70174], [Bulgaria -> Muslim] 
+
+  path: 2[20029 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Bulgaria -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70184, 60092]
+  path: 0[20082 -> 10004 -> 20001], [Cyprus -> Europe -> Greece] 
+
+  path: 1[20082 -> 70184], [Cyprus -> Muslim] 
+
+  path: 2[20082 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Cyprus -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70213, 60092]
+  path: 0[20004 -> 10004 -> 20001], [Montenegro -> Europe -> Greece] 
+
+  path: 1[20004 -> 70213], [Montenegro -> Muslim] 
+
+  path: 2[20004 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Montenegro -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70190, 60092]
+  path: 0[20007 -> 10004 -> 20001], [France -> Europe -> Greece] 
+
+  path: 1[20007 -> 70190], [France -> Muslim] 
+
+  path: 2[20007 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [France -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70194, 60092]
+  path: 0[20039 -> 10004 -> 20001], [Gibraltar -> Europe -> Greece] 
+
+  path: 1[20039 -> 70194], [Gibraltar -> Muslim] 
+
+  path: 2[20039 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Gibraltar -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70212, 60092]
+  path: 0[20002 -> 10004 -> 20001], [Macedonia -> Europe -> Greece] 
+
+  path: 1[20002 -> 70212], [Macedonia -> Muslim] 
+
+  path: 2[20002 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Macedonia -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70243, 60092]
+  path: 0[20003 -> 10004 -> 20001], [Serbia -> Europe -> Greece] 
+
+  path: 1[20003 -> 70243], [Serbia -> Muslim] 
+
+  path: 2[20003 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Serbia -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70228, 60099]
+  path: 0[20086 -> 10002 -> 20031 -> 10004 -> 20001], [Indonesia -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20086 -> 70228], [Indonesia -> Muslim] 
+
+  path: 2[20086 -> 10002 -> 20099 -> 60099], [Indonesia -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70188, 60099]
+  path: 0[20085 -> 10002 -> 20031 -> 10004 -> 20001], [Egypt -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20085 -> 70188], [Egypt -> Muslim] 
+
+  path: 2[20085 -> 10002 -> 20099 -> 60099], [Egypt -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70201, 60099]
+  path: 0[20084 -> 10002 -> 20031 -> 10004 -> 20001], [Israel -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20084 -> 70201], [Israel -> Muslim] 
+
+  path: 2[20084 -> 10002 -> 20099 -> 60099], [Israel -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70181, 60099]
+  path: 0[20105 -> 10002 -> 20031 -> 10004 -> 20001], [Sri Lanka -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20105 -> 70181], [Sri Lanka -> Muslim] 
+
+  path: 2[20105 -> 10002 -> 20099 -> 60099], [Sri Lanka -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70250, 60099]
+  path: 0[20087 -> 10002 -> 20031 -> 10004 -> 20001], [Timor-Leste -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20087 -> 70250], [Timor-Leste -> Muslim] 
+
+  path: 2[20087 -> 10002 -> 20099 -> 60099], [Timor-Leste -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70204, 60099]
+  path: 0[20089 -> 10002 -> 20031 -> 10004 -> 20001], [Iraq -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20089 -> 70204], [Iraq -> Muslim] 
+
+  path: 2[20089 -> 10002 -> 20099 -> 60099], [Iraq -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70193, 60099]
+  path: 0[20083 -> 10002 -> 20031 -> 10004 -> 20001], [Gaza Strip -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20083 -> 70193], [Gaza Strip -> Muslim] 
+
+  path: 2[20083 -> 10002 -> 20099 -> 60099], [Gaza Strip -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70230, 60099]
+  path: 0[20094 -> 10002 -> 20031 -> 10004 -> 20001], [Lebanon -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20094 -> 70230], [Lebanon -> Muslim] 
+
+  path: 2[20094 -> 10002 -> 20099 -> 60099], [Lebanon -> Asia -> Oman -> monarchy] 
+
+-----------------------------------------
+ResultDestNodes: [20001, 20099, 20092, 20026, 20031, 10004, 20062, 20070, 20103, 20090, 20066, 20027, 20028, 20016, 20000, 20029, 20082, 20004, 20007, 20039, 20002, 20003, 20086, 20085, 20084, 20105, 20087, 20089, 20083, 20094]
+ResultRelevs: [9.361610412597656, 6.953030109405518, 6.953030109405518, 6.506189823150635, 6.1043701171875, 5.917869567871094, 5.747590065002441, 5.747590065002441, 5.747590065002441, 5.747590065002441, 5.652719974517822, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.345769882202148, 5.345769882202148, 5.345769882202148, 5.345769882202148, 5.345769882202148, 5.345769882202148, 5.345769882202148, 5.345769882202148]
+Num of top-k answers: 30
+Num of non-reduced answers in top-k answers: 0
+Num of duplicate answers in top-k answers: 0
+Num of non-redundant answers: 30
+Num of entries retrieved from the lists: 301
+Num of redundant candidate answers found: 18
+Num of reduced alternative answers found: 1
+Num of duplicate candidate answers found: 4
+Num of unique alternative answers found: 3
+
+Blink Search Using BDB_reducedNunique_BruteForce 30
+[greece, muslim, monarchy]
+srcNodes: [20001, 70198, 60092]
+  path: 0[20001 -> 20001], [Greece -> Greece]
+  path: 1[20001 -> 70198], [Greece -> Muslim] 
+
+  path: 2[20001 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Greece -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70222, 60099]
+  path: 0[20099 -> 10002 -> 20031 -> 10004 -> 20001], [Oman -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20099 -> 70222], [Oman -> Muslim] 
+
+  path: 2[20099 -> 60099], [Oman -> monarchy] 
+
+srcNodes: [20001, 70238, 60092]
+  path: 0[20092 -> 10002 -> 20031 -> 10004 -> 20001], [Saudi Arabia -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20092 -> 70238], [Saudi Arabia -> Muslim] 
+
+  path: 2[20092 -> 60092], [Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70221, 60026]
+  path: 0[20026 -> 10004 -> 20001], [Netherlands -> Europe -> Greece] 
+
+  path: 1[20026 -> 70221], [Netherlands -> Muslim] 
+
+  path: 2[20026 -> 60026], [Netherlands -> constitutional monarchy] 
+
+srcNodes: [20001, 70253, 60099]
+  path: 0[20031 -> 10004 -> 20001], [Turkey -> Europe -> Greece] 
+
+  path: 1[20031 -> 70253], [Turkey -> Muslim] 
+
+  path: 2[20031 -> 10002 -> 20099 -> 60099], [Turkey -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70239, 60024]
+  path: 0[10004 -> 20001], [Europe -> Greece] 
+
+  path: 1[10004 -> 20016 -> 70239], [Europe -> Slovenia -> Muslim] 
+
+  path: 2[10004 -> 20024 -> 60024], [Europe -> Belgium -> constitutional monarchy] 
+
+srcNodes: [20001, 70177, 60062]
+  path: 0[20062 -> 10002 -> 20031 -> 10004 -> 20001], [Bahrain -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20062 -> 70177], [Bahrain -> Muslim] 
+
+  path: 2[20062 -> 60062], [Bahrain -> traditional monarchy] 
+
+srcNodes: [20001, 70248, 60070]
+  path: 0[20070 -> 10002 -> 20031 -> 10004 -> 20001], [Thailand -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20070 -> 70248], [Thailand -> Muslim] 
+
+  path: 2[20070 -> 60070], [Thailand -> constitutional monarchy] 
+
+srcNodes: [20001, 70224, 60103]
+  path: 0[20103 -> 10002 -> 20031 -> 10004 -> 20001], [Qatar -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20103 -> 70224], [Qatar -> Muslim] 
+
+  path: 2[20103 -> 60103], [Qatar -> traditional monarchy] 
+
+srcNodes: [20001, 70205, 60090]
+  path: 0[20090 -> 10002 -> 20031 -> 10004 -> 20001], [Jordan -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20090 -> 70205], [Jordan -> Muslim] 
+
+  path: 2[20090 -> 60090], [Jordan -> constitutional monarchy] 
+
+srcNodes: [20001, 70168, 60066]
+  path: 0[20066 -> 10002 -> 20031 -> 10004 -> 20001], [Bhutan -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20066 -> 10002 -> 20052 -> 70168], [Bhutan -> Asia -> Afghanistan -> Muslim] 
+
+  path: 2[20066 -> 60066], [Bhutan -> monarchy] 
+
+srcNodes: [20001, 70176, 60092]
+  path: 0[20027 -> 10004 -> 20001], [Bosnia and Herzegovina -> Europe -> Greece] 
+
+  path: 1[20027 -> 70176], [Bosnia and Herzegovina -> Muslim] 
+
+  path: 2[20027 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Bosnia and Herzegovina -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70200, 60092]
+  path: 0[20028 -> 10004 -> 20001], [Croatia -> Europe -> Greece] 
+
+  path: 1[20028 -> 70200], [Croatia -> Muslim] 
+
+  path: 2[20028 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Croatia -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70239, 60092]
+  path: 0[20016 -> 10004 -> 20001], [Slovenia -> Europe -> Greece] 
+
+  path: 1[20016 -> 70239], [Slovenia -> Muslim] 
+
+  path: 2[20016 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Slovenia -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70169, 60092]
+  path: 0[20000 -> 10004 -> 20001], [Albania -> Europe -> Greece] 
+
+  path: 1[20000 -> 70169], [Albania -> Muslim] 
+
+  path: 2[20000 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Albania -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70174, 60092]
+  path: 0[20029 -> 10004 -> 20001], [Bulgaria -> Europe -> Greece] 
+
+  path: 1[20029 -> 70174], [Bulgaria -> Muslim] 
+
+  path: 2[20029 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Bulgaria -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70184, 60092]
+  path: 0[20082 -> 10004 -> 20001], [Cyprus -> Europe -> Greece] 
+
+  path: 1[20082 -> 70184], [Cyprus -> Muslim] 
+
+  path: 2[20082 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Cyprus -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70213, 60092]
+  path: 0[20004 -> 10004 -> 20001], [Montenegro -> Europe -> Greece] 
+
+  path: 1[20004 -> 70213], [Montenegro -> Muslim] 
+
+  path: 2[20004 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Montenegro -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70190, 60092]
+  path: 0[20007 -> 10004 -> 20001], [France -> Europe -> Greece] 
+
+  path: 1[20007 -> 70190], [France -> Muslim] 
+
+  path: 2[20007 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [France -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70194, 60092]
+  path: 0[20039 -> 10004 -> 20001], [Gibraltar -> Europe -> Greece] 
+
+  path: 1[20039 -> 70194], [Gibraltar -> Muslim] 
+
+  path: 2[20039 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Gibraltar -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70212, 60092]
+  path: 0[20002 -> 10004 -> 20001], [Macedonia -> Europe -> Greece] 
+
+  path: 1[20002 -> 70212], [Macedonia -> Muslim] 
+
+  path: 2[20002 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Macedonia -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70243, 60092]
+  path: 0[20003 -> 10004 -> 20001], [Serbia -> Europe -> Greece] 
+
+  path: 1[20003 -> 70243], [Serbia -> Muslim] 
+
+  path: 2[20003 -> 10004 -> 20031 -> 10002 -> 20092 -> 60092], [Serbia -> Europe -> Turkey -> Asia -> Saudi Arabia -> monarchy] 
+
+srcNodes: [20001, 70228, 60099]
+  path: 0[20086 -> 10002 -> 20031 -> 10004 -> 20001], [Indonesia -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20086 -> 70228], [Indonesia -> Muslim] 
+
+  path: 2[20086 -> 10002 -> 20099 -> 60099], [Indonesia -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70188, 60099]
+  path: 0[20085 -> 10002 -> 20031 -> 10004 -> 20001], [Egypt -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20085 -> 70188], [Egypt -> Muslim] 
+
+  path: 2[20085 -> 10002 -> 20099 -> 60099], [Egypt -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70201, 60099]
+  path: 0[20084 -> 10002 -> 20031 -> 10004 -> 20001], [Israel -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20084 -> 70201], [Israel -> Muslim] 
+
+  path: 2[20084 -> 10002 -> 20099 -> 60099], [Israel -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70181, 60099]
+  path: 0[20105 -> 10002 -> 20031 -> 10004 -> 20001], [Sri Lanka -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20105 -> 70181], [Sri Lanka -> Muslim] 
+
+  path: 2[20105 -> 10002 -> 20099 -> 60099], [Sri Lanka -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70250, 60099]
+  path: 0[20087 -> 10002 -> 20031 -> 10004 -> 20001], [Timor-Leste -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20087 -> 70250], [Timor-Leste -> Muslim] 
+
+  path: 2[20087 -> 10002 -> 20099 -> 60099], [Timor-Leste -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70204, 60099]
+  path: 0[20089 -> 10002 -> 20031 -> 10004 -> 20001], [Iraq -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20089 -> 70204], [Iraq -> Muslim] 
+
+  path: 2[20089 -> 10002 -> 20099 -> 60099], [Iraq -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70193, 60099]
+  path: 0[20083 -> 10002 -> 20031 -> 10004 -> 20001], [Gaza Strip -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20083 -> 70193], [Gaza Strip -> Muslim] 
+
+  path: 2[20083 -> 10002 -> 20099 -> 60099], [Gaza Strip -> Asia -> Oman -> monarchy] 
+
+srcNodes: [20001, 70230, 60099]
+  path: 0[20094 -> 10002 -> 20031 -> 10004 -> 20001], [Lebanon -> Asia -> Turkey -> Europe -> Greece] 
+
+  path: 1[20094 -> 70230], [Lebanon -> Muslim] 
+
+  path: 2[20094 -> 10002 -> 20099 -> 60099], [Lebanon -> Asia -> Oman -> monarchy] 
+
+-----------------------------------------
+ResultDestNodes: [20001, 20099, 20092, 20026, 20031, 10004, 20062, 20070, 20103, 20090, 20066, 20027, 20028, 20016, 20000, 20029, 20082, 20004, 20007, 20039, 20002, 20003, 20086, 20085, 20084, 20105, 20087, 20089, 20083, 20094]
+ResultRelevs: [9.361610412597656, 6.953030109405518, 6.953030109405518, 6.506189823150635, 6.1043701171875, 5.917869567871094, 5.747590065002441, 5.747590065002441, 5.747590065002441, 5.747590065002441, 5.652719974517822, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.568619728088379, 5.345769882202148, 5.345769882202148, 5.345769882202148, 5.345769882202148, 5.345769882202148, 5.345769882202148, 5.345769882202148, 5.345769882202148]
+Num of top-k answers: 30
+Num of redundant answers in top-k answers: 0
+Num of duplicate answers in top-k answers: 0
+Num of entries retrieved from the lists: 301
+Num of redundant candidate answers found: 18
+Num of reduced alternative answers found: 1
+Num of duplicate candidate answers found: 4
+Num of unique alternative answers found: 3
+

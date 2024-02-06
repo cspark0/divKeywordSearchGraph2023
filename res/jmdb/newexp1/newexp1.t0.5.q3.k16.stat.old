@@ -1,0 +1,13 @@
+Top-k, (AvgResultRelev, AvgResultRelev/ResultRelevs[0], AvgResultDiss) numOfKNListsRead, numOfNKMapLookups, numOfAnswerTreesExplored, elapseTime, numOfStatesCreated, numOfStatesExplored, numOfHeuristicSearchPerformed, numOfATSPrunnedByDissCond, numOfLocalAnswersFound, 
+query: [hero, disaster, sacrifice]
+BlinkSea, 	16, 6.94415, 0.90973, 0.47500, 2523, 4451, 1642, 0.435951643, 
+Exhustiv, 	16, 6.93369, 0.90836, 0.50833, 2697, 4771, 1748, 1.309705091, 263100, 527557, 1406, 3, 
+Astar02, 	16, 6.93369, 0.90836, 0.50833, 2697, 4771, 1748, 2.458452345, 200117, 199543, 8, 1359, 3, 
+Astar1nc_, 	16, 6.93369, 0.90836, 0.50833, 2697, 4771, 1748, 0.217719963, 502, 132, 8, 14, 0, 
+query: [hitchcock, thriller, horror]
+BlinkSea, 	16, 11.00226, 0.81069, 0.37500, 3210, 4554, 1340, 0.456315985, 
+Exhustiv, 	16, 10.89596, 0.80285, 0.50278, 14272, 21789, 7551, 79.127192574, 2990636, 20467045, 14485793, 2, 
+Astar02, 	16, 10.89596, 0.80285, 0.50278, 14272, 21789, 7551, 5610.629955866, 19857987, 19782829, 153, 103190650, 2, 
+Astar1nc_, 	16, 10.89596, 0.80285, 0.50278, 14272, 21789, 7551, 3943.03838085, 501127, 309402, 119, 3367675, 0, 
+query: [emperor, rome, conquest]
+BlinkSea, 	16, 7.02541, 0.88796, 0.41111, 1162, 1827, 545, 0.147634994, 

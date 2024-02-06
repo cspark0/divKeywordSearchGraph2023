@@ -1,0 +1,1008 @@
+Blink Search Using BDB 10
+[mountains, falls, asia]
+srcNodes: [190, 42532, 10002]
+  path: 0[20118 -> 31029 -> 190], [United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 30996 -> 90085 -> 20061 -> 10002], [United States -> Georgia -> Kura -> Azerbaijan -> Asia] 
+
+srcNodes: [177, 42532, 50011]
+  path: 0[20117 -> 30976 -> 177], [Canada -> British Columbia -> Mt Columbia Mt Columbia Rocky Mountains ] 
+
+  path: 1[20117 -> 10001 -> 20118 -> 31027 -> 42532], [Canada -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20117 -> 50011], [Canada -> Asia Pacific Economic Cooperation Asia Pacific Economic Cooperation APEC] 
+
+srcNodes: [188, 42951, 10002]
+  path: 0[10001 -> 20118 -> 31017 -> 188], [America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20118 -> 31029 -> 42951], [America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[10001 -> 20118 -> 30996 -> 90085 -> 20061 -> 10002], [America -> United States -> Georgia -> Kura -> Azerbaijan -> Asia] 
+
+This is a non-reduced answer tree with common first node 20118
+
+srcNodes: [190, 42532, 50011]
+  path: 0[20172 -> 10001 -> 20118 -> 31029 -> 190], [Chile -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20172 -> 10001 -> 20118 -> 31027 -> 42532], [Chile -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20172 -> 50011], [Chile -> Asia Pacific Economic Cooperation Asia Pacific Economic Cooperation APEC] 
+
+srcNodes: [190, 42532, 50011]
+  path: 0[20114 -> 10001 -> 20118 -> 31029 -> 190], [Mexico -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20114 -> 10001 -> 20118 -> 31027 -> 42532], [Mexico -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20114 -> 50011], [Mexico -> Asia Pacific Economic Cooperation Asia Pacific Economic Cooperation APEC] 
+
+srcNodes: [190, 42532, 10002]
+  path: 0[20171 -> 10001 -> 20118 -> 31029 -> 190], [Brazil -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20171 -> 10001 -> 20118 -> 31027 -> 42532], [Brazil -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20171 -> 31212 -> 40597 -> 110127 -> 20105 -> 10002], [Brazil -> Parana -> Colombo -> Sri Lanka Sri Lanka   -> Sri Lanka -> Asia] 
+
+srcNodes: [188, 42951, 10002]
+  path: 0[90163 -> 20173 -> 10001 -> 20118 -> 31017 -> 188], [Parana -> Paraguay -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[90163 -> 20173 -> 10001 -> 20118 -> 31029 -> 42951], [Parana -> Paraguay -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[90163 -> 31212 -> 40597 -> 110127 -> 20105 -> 10002], [Parana -> Parana -> Colombo -> Sri Lanka Sri Lanka   -> Sri Lanka -> Asia] 
+
+srcNodes: [188, 42951, 50011]
+  path: 0[235 -> 20172 -> 10001 -> 20118 -> 31017 -> 188], [Llullaillaco Llullaillaco Andes volcano -> Chile -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[235 -> 20172 -> 10001 -> 20118 -> 31029 -> 42951], [Llullaillaco Llullaillaco Andes volcano -> Chile -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[235 -> 20172 -> 50011], [Llullaillaco Llullaillaco Andes volcano -> Chile -> Asia Pacific Economic Cooperation Asia Pacific Economic Cooperation APEC] 
+
+This is a non-reduced answer tree with common first node 20172
+
+srcNodes: [188, 42951, 50011]
+  path: 0[234 -> 20172 -> 10001 -> 20118 -> 31017 -> 188], [Licancabur Licancabur Andes volcano -> Chile -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[234 -> 20172 -> 10001 -> 20118 -> 31029 -> 42951], [Licancabur Licancabur Andes volcano -> Chile -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[234 -> 20172 -> 50011], [Licancabur Licancabur Andes volcano -> Chile -> Asia Pacific Economic Cooperation Asia Pacific Economic Cooperation APEC] 
+
+This is a non-reduced answer tree with common first node 20172
+
+srcNodes: [187, 42951, 50011]
+  path: 0[110273 -> 20172 -> 10001 -> 20118 -> 30992 -> 187], [Osterinsel Osterinsel  volcanic -> Chile -> America -> United States -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[110273 -> 20172 -> 10001 -> 20118 -> 31029 -> 42951], [Osterinsel Osterinsel  volcanic -> Chile -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[110273 -> 20172 -> 50011], [Osterinsel Osterinsel  volcanic -> Chile -> Asia Pacific Economic Cooperation Asia Pacific Economic Cooperation APEC] 
+
+This is a non-reduced answer tree with common first node 20172
+
+-----------------------------------------
+ResultDestNodes: [20118, 20117, 10001, 20172, 20114, 20171, 90163, 235, 234, 110273]
+ResultRelevs: [4.094120025634766, 3.411932945251465, 3.20704984664917, 3.009085178375244, 3.009085178375244, 2.8385350704193115, 2.592863082885742, 2.2517330646514893, 2.2517330646514893, 2.2517330646514893]
+Num of top-k answers: 10
+Num of non-reduced answers: 4
+Num of duplicate answers: 4
+Num of non-redundant answers: 4
+Num of entries retrieved from the lists: 565
+Num of entries retrieved from NKMaps: 716
+
+Blink Search Using ConstRootDup10
+[mountains, falls, asia]
+srcNodes: [190, 42532, 10002]
+  path: 0[20118 -> 31029 -> 190], [United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 30996 -> 90085 -> 20061 -> 10002], [United States -> Georgia -> Kura -> Azerbaijan -> Asia] 
+
+srcNodes: [190, 42951, 10002]
+  path: 0[20118 -> 31029 -> 190], [United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20118 -> 31029 -> 42951], [United States -> Texas -> Wichita Falls] 
+
+  path: 2[20118 -> 30996 -> 90085 -> 20061 -> 10002], [United States -> Georgia -> Kura -> Azerbaijan -> Asia] 
+
+srcNodes: [182, 42532, 10002]
+  path: 0[20118 -> 30998 -> 182], [United States -> Idaho -> Borah Peak Borah Peak Rocky Mountains ] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 30996 -> 90085 -> 20061 -> 10002], [United States -> Georgia -> Kura -> Azerbaijan -> Asia] 
+
+srcNodes: [182, 42951, 10002]
+  path: 0[20118 -> 30998 -> 182], [United States -> Idaho -> Borah Peak Borah Peak Rocky Mountains ] 
+
+  path: 1[20118 -> 31029 -> 42951], [United States -> Texas -> Wichita Falls] 
+
+  path: 2[20118 -> 30996 -> 90085 -> 20061 -> 10002], [United States -> Georgia -> Kura -> Azerbaijan -> Asia] 
+
+srcNodes: [190, 42951, 50035]
+  path: 0[20118 -> 31029 -> 190], [United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20118 -> 31029 -> 42951], [United States -> Texas -> Wichita Falls] 
+
+  path: 2[20118 -> 50035], [United States -> Economic and Social Commission for Asia and the Pacific Economic and Social Commission for Asia and the Pacific ESCAP] 
+
+srcNodes: [177, 42532, 50011]
+  path: 0[20117 -> 30976 -> 177], [Canada -> British Columbia -> Mt Columbia Mt Columbia Rocky Mountains ] 
+
+  path: 1[20117 -> 10001 -> 20118 -> 31027 -> 42532], [Canada -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20117 -> 50011], [Canada -> Asia Pacific Economic Cooperation Asia Pacific Economic Cooperation APEC] 
+
+srcNodes: [188, 42951, 10002]
+  path: 0[10001 -> 20118 -> 31017 -> 188], [America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20118 -> 31029 -> 42951], [America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[10001 -> 20118 -> 30996 -> 90085 -> 20061 -> 10002], [America -> United States -> Georgia -> Kura -> Azerbaijan -> Asia] 
+
+srcNodes: [190, 42532, 50011]
+  path: 0[20114 -> 10001 -> 20118 -> 31029 -> 190], [Mexico -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20114 -> 10001 -> 20118 -> 31027 -> 42532], [Mexico -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20114 -> 50011], [Mexico -> Asia Pacific Economic Cooperation Asia Pacific Economic Cooperation APEC] 
+
+srcNodes: [190, 42532, 50011]
+  path: 0[20172 -> 10001 -> 20118 -> 31029 -> 190], [Chile -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20172 -> 10001 -> 20118 -> 31027 -> 42532], [Chile -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20172 -> 50011], [Chile -> Asia Pacific Economic Cooperation Asia Pacific Economic Cooperation APEC] 
+
+srcNodes: [190, 42532, 10002]
+  path: 0[20171 -> 10001 -> 20118 -> 31029 -> 190], [Brazil -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20171 -> 10001 -> 20118 -> 31027 -> 42532], [Brazil -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20171 -> 31212 -> 40597 -> 110127 -> 20105 -> 10002], [Brazil -> Parana -> Colombo -> Sri Lanka Sri Lanka   -> Sri Lanka -> Asia] 
+
+-----------------------------------------
+ResultDestNodes: 
+20118, 20118, 20118, 20118, 20118, 20117, 10001, 20114, 20172, 20171, 
+ResultRelevs: 
+4.09412, 4.09412, 4.09412, 4.09412, 3.9917798, 3.411933, 3.2070498, 3.0090852, 3.0090852, 2.838535, 
+Num of top-k answers: 10
+Num of duplicate answers: 2
+Num of duplicate roots in top-k answers: 4
+root duplication ratio: 0.44444445
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 565
+Num of entries retrieved from NKMaps: 1390
+Num of answer trees explored: 1448
+
+Blink Search Using BDB 20
+[mountains, falls, asia]
+srcNodes: [190, 42532, 10002]
+  path: 0[20118 -> 31029 -> 190], [United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 30996 -> 90085 -> 20061 -> 10002], [United States -> Georgia -> Kura -> Azerbaijan -> Asia] 
+
+srcNodes: [177, 42532, 50011]
+  path: 0[20117 -> 30976 -> 177], [Canada -> British Columbia -> Mt Columbia Mt Columbia Rocky Mountains ] 
+
+  path: 1[20117 -> 10001 -> 20118 -> 31027 -> 42532], [Canada -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20117 -> 50011], [Canada -> Asia Pacific Economic Cooperation Asia Pacific Economic Cooperation APEC] 
+
+srcNodes: [188, 42951, 10002]
+  path: 0[10001 -> 20118 -> 31017 -> 188], [America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20118 -> 31029 -> 42951], [America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[10001 -> 20118 -> 30996 -> 90085 -> 20061 -> 10002], [America -> United States -> Georgia -> Kura -> Azerbaijan -> Asia] 
+
+This is a non-reduced answer tree with common first node 20118
+
+srcNodes: [190, 42532, 50011]
+  path: 0[20114 -> 10001 -> 20118 -> 31029 -> 190], [Mexico -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20114 -> 10001 -> 20118 -> 31027 -> 42532], [Mexico -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20114 -> 50011], [Mexico -> Asia Pacific Economic Cooperation Asia Pacific Economic Cooperation APEC] 
+
+srcNodes: [190, 42532, 50011]
+  path: 0[20172 -> 10001 -> 20118 -> 31029 -> 190], [Chile -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20172 -> 10001 -> 20118 -> 31027 -> 42532], [Chile -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20172 -> 50011], [Chile -> Asia Pacific Economic Cooperation Asia Pacific Economic Cooperation APEC] 
+
+srcNodes: [190, 42532, 10002]
+  path: 0[20171 -> 10001 -> 20118 -> 31029 -> 190], [Brazil -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20171 -> 10001 -> 20118 -> 31027 -> 42532], [Brazil -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20171 -> 31212 -> 40597 -> 110127 -> 20105 -> 10002], [Brazil -> Parana -> Colombo -> Sri Lanka Sri Lanka   -> Sri Lanka -> Asia] 
+
+srcNodes: [188, 42951, 10002]
+  path: 0[90163 -> 20173 -> 10001 -> 20118 -> 31017 -> 188], [Parana -> Paraguay -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[90163 -> 20173 -> 10001 -> 20118 -> 31029 -> 42951], [Parana -> Paraguay -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[90163 -> 31212 -> 40597 -> 110127 -> 20105 -> 10002], [Parana -> Parana -> Colombo -> Sri Lanka Sri Lanka   -> Sri Lanka -> Asia] 
+
+srcNodes: [188, 42951, 50011]
+  path: 0[236 -> 20172 -> 10001 -> 20118 -> 31017 -> 188], [Ojos del Salado Ojos del Salado Andes volcano -> Chile -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[236 -> 20172 -> 10001 -> 20118 -> 31029 -> 42951], [Ojos del Salado Ojos del Salado Andes volcano -> Chile -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[236 -> 20172 -> 50011], [Ojos del Salado Ojos del Salado Andes volcano -> Chile -> Asia Pacific Economic Cooperation Asia Pacific Economic Cooperation APEC] 
+
+This is a non-reduced answer tree with common first node 20172
+
+srcNodes: [188, 42951, 50011]
+  path: 0[235 -> 20172 -> 10001 -> 20118 -> 31017 -> 188], [Llullaillaco Llullaillaco Andes volcano -> Chile -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[235 -> 20172 -> 10001 -> 20118 -> 31029 -> 42951], [Llullaillaco Llullaillaco Andes volcano -> Chile -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[235 -> 20172 -> 50011], [Llullaillaco Llullaillaco Andes volcano -> Chile -> Asia Pacific Economic Cooperation Asia Pacific Economic Cooperation APEC] 
+
+This is a non-reduced answer tree with common first node 20172
+
+srcNodes: [187, 42951, 50011]
+  path: 0[110273 -> 20172 -> 10001 -> 20118 -> 30992 -> 187], [Osterinsel Osterinsel  volcanic -> Chile -> America -> United States -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[110273 -> 20172 -> 10001 -> 20118 -> 31029 -> 42951], [Osterinsel Osterinsel  volcanic -> Chile -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[110273 -> 20172 -> 50011], [Osterinsel Osterinsel  volcanic -> Chile -> Asia Pacific Economic Cooperation Asia Pacific Economic Cooperation APEC] 
+
+This is a non-reduced answer tree with common first node 20172
+
+srcNodes: [188, 42951, 50011]
+  path: 0[234 -> 20172 -> 10001 -> 20118 -> 31017 -> 188], [Licancabur Licancabur Andes volcano -> Chile -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[234 -> 20172 -> 10001 -> 20118 -> 31029 -> 42951], [Licancabur Licancabur Andes volcano -> Chile -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[234 -> 20172 -> 50011], [Licancabur Licancabur Andes volcano -> Chile -> Asia Pacific Economic Cooperation Asia Pacific Economic Cooperation APEC] 
+
+This is a non-reduced answer tree with common first node 20172
+
+srcNodes: [190, 42532, 50035]
+  path: 0[20120 -> 10001 -> 20118 -> 31029 -> 190], [Costa Rica -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20120 -> 10001 -> 20118 -> 31027 -> 42532], [Costa Rica -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20120 -> 10001 -> 20118 -> 50035], [Costa Rica -> America -> United States -> Economic and Social Commission for Asia and the Pacific Economic and Social Commission for Asia and the Pacific ESCAP] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 50035]
+  path: 0[20145 -> 10001 -> 20118 -> 31029 -> 190], [Virgin Islands -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20145 -> 10001 -> 20118 -> 31027 -> 42532], [Virgin Islands -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20145 -> 10001 -> 20118 -> 50035], [Virgin Islands -> America -> United States -> Economic and Social Commission for Asia and the Pacific Economic and Social Commission for Asia and the Pacific ESCAP] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 50035]
+  path: 0[20138 -> 10001 -> 20118 -> 31029 -> 190], [Puerto Rico -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20138 -> 10001 -> 20118 -> 31027 -> 42532], [Puerto Rico -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20138 -> 10001 -> 20118 -> 50035], [Puerto Rico -> America -> United States -> Economic and Social Commission for Asia and the Pacific Economic and Social Commission for Asia and the Pacific ESCAP] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 50035]
+  path: 0[20107 -> 10001 -> 20118 -> 31029 -> 190], [Anguilla -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20107 -> 10001 -> 20118 -> 31027 -> 42532], [Anguilla -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20107 -> 10001 -> 20118 -> 50035], [Anguilla -> America -> United States -> Economic and Social Commission for Asia and the Pacific Economic and Social Commission for Asia and the Pacific ESCAP] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 50035]
+  path: 0[20119 -> 10001 -> 20118 -> 31029 -> 190], [Cayman Islands -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20119 -> 10001 -> 20118 -> 31027 -> 42532], [Cayman Islands -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20119 -> 10001 -> 20118 -> 50035], [Cayman Islands -> America -> United States -> Economic and Social Commission for Asia and the Pacific Economic and Social Commission for Asia and the Pacific ESCAP] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 50035]
+  path: 0[20129 -> 10001 -> 20118 -> 31029 -> 190], [Greenland -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20129 -> 10001 -> 20118 -> 31027 -> 42532], [Greenland -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20129 -> 10001 -> 20118 -> 50035], [Greenland -> America -> United States -> Economic and Social Commission for Asia and the Pacific Economic and Social Commission for Asia and the Pacific ESCAP] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 50035]
+  path: 0[20170 -> 10001 -> 20118 -> 31029 -> 190], [Bolivia -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20170 -> 10001 -> 20118 -> 31027 -> 42532], [Bolivia -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20170 -> 10001 -> 20118 -> 50035], [Bolivia -> America -> United States -> Economic and Social Commission for Asia and the Pacific Economic and Social Commission for Asia and the Pacific ESCAP] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 50035]
+  path: 0[20110 -> 10001 -> 20118 -> 31029 -> 190], [Bahamas -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20110 -> 10001 -> 20118 -> 31027 -> 42532], [Bahamas -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20110 -> 10001 -> 20118 -> 50035], [Bahamas -> America -> United States -> Economic and Social Commission for Asia and the Pacific Economic and Social Commission for Asia and the Pacific ESCAP] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 50035]
+  path: 0[20128 -> 10001 -> 20118 -> 31029 -> 190], [Honduras -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20128 -> 10001 -> 20118 -> 31027 -> 42532], [Honduras -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20128 -> 10001 -> 20118 -> 50035], [Honduras -> America -> United States -> Economic and Social Commission for Asia and the Pacific Economic and Social Commission for Asia and the Pacific ESCAP] 
+
+This is a non-reduced answer tree with common first node 10001
+
+-----------------------------------------
+ResultDestNodes: [20118, 20117, 10001, 20114, 20172, 20171, 90163, 236, 235, 110273, 234, 20120, 20145, 20138, 20107, 20119, 20129, 20170, 20110, 20128]
+ResultRelevs: [4.094120025634766, 3.411932945251465, 3.20704984664917, 3.009085178375244, 3.009085178375244, 2.8385350704193115, 2.592863082885742, 2.2517330646514893, 2.2517330646514893, 2.2517330646514893, 2.2517330646514893, 2.2415671348571777, 2.2415671348571777, 2.2415671348571777, 2.2415671348571777, 2.2415671348571777, 2.2415671348571777, 2.2415671348571777, 2.2415671348571777, 2.2415671348571777]
+Num of top-k answers: 20
+Num of non-reduced answers: 14
+Num of duplicate answers: 13
+Num of non-redundant answers: 4
+Num of entries retrieved from the lists: 565
+Num of entries retrieved from NKMaps: 716
+
+Blink Search Using ConstRootDup20
+[mountains, falls, asia]
+srcNodes: [190, 42532, 10002]
+  path: 0[20118 -> 31029 -> 190], [United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 30996 -> 90085 -> 20061 -> 10002], [United States -> Georgia -> Kura -> Azerbaijan -> Asia] 
+
+srcNodes: [182, 42951, 10002]
+  path: 0[20118 -> 30998 -> 182], [United States -> Idaho -> Borah Peak Borah Peak Rocky Mountains ] 
+
+  path: 1[20118 -> 31029 -> 42951], [United States -> Texas -> Wichita Falls] 
+
+  path: 2[20118 -> 30996 -> 90085 -> 20061 -> 10002], [United States -> Georgia -> Kura -> Azerbaijan -> Asia] 
+
+srcNodes: [190, 42951, 10002]
+  path: 0[20118 -> 31029 -> 190], [United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20118 -> 31029 -> 42951], [United States -> Texas -> Wichita Falls] 
+
+  path: 2[20118 -> 30996 -> 90085 -> 20061 -> 10002], [United States -> Georgia -> Kura -> Azerbaijan -> Asia] 
+
+srcNodes: [182, 42532, 10002]
+  path: 0[20118 -> 30998 -> 182], [United States -> Idaho -> Borah Peak Borah Peak Rocky Mountains ] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 30996 -> 90085 -> 20061 -> 10002], [United States -> Georgia -> Kura -> Azerbaijan -> Asia] 
+
+srcNodes: [182, 42532, 50035]
+  path: 0[20118 -> 30998 -> 182], [United States -> Idaho -> Borah Peak Borah Peak Rocky Mountains ] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 50035], [United States -> Economic and Social Commission for Asia and the Pacific Economic and Social Commission for Asia and the Pacific ESCAP] 
+
+srcNodes: [190, 42951, 50035]
+  path: 0[20118 -> 31029 -> 190], [United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20118 -> 31029 -> 42951], [United States -> Texas -> Wichita Falls] 
+
+  path: 2[20118 -> 50035], [United States -> Economic and Social Commission for Asia and the Pacific Economic and Social Commission for Asia and the Pacific ESCAP] 
+
+srcNodes: [182, 42951, 50035]
+  path: 0[20118 -> 30998 -> 182], [United States -> Idaho -> Borah Peak Borah Peak Rocky Mountains ] 
+
+  path: 1[20118 -> 31029 -> 42951], [United States -> Texas -> Wichita Falls] 
+
+  path: 2[20118 -> 50035], [United States -> Economic and Social Commission for Asia and the Pacific Economic and Social Commission for Asia and the Pacific ESCAP] 
+
+srcNodes: [190, 42532, 50035]
+  path: 0[20118 -> 31029 -> 190], [United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 50035], [United States -> Economic and Social Commission for Asia and the Pacific Economic and Social Commission for Asia and the Pacific ESCAP] 
+
+srcNodes: [170, 42951, 10002]
+  path: 0[20118 -> 30988 -> 170], [United States -> Alaska -> Mt Blackburn Mt Blackburn Wrangell Mountains volcano] 
+
+  path: 1[20118 -> 31029 -> 42951], [United States -> Texas -> Wichita Falls] 
+
+  path: 2[20118 -> 30996 -> 90085 -> 20061 -> 10002], [United States -> Georgia -> Kura -> Azerbaijan -> Asia] 
+
+srcNodes: [170, 42532, 10002]
+  path: 0[20118 -> 30988 -> 170], [United States -> Alaska -> Mt Blackburn Mt Blackburn Wrangell Mountains volcano] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 30996 -> 90085 -> 20061 -> 10002], [United States -> Georgia -> Kura -> Azerbaijan -> Asia] 
+
+srcNodes: [177, 42532, 50011]
+  path: 0[20117 -> 30976 -> 177], [Canada -> British Columbia -> Mt Columbia Mt Columbia Rocky Mountains ] 
+
+  path: 1[20117 -> 10001 -> 20118 -> 31027 -> 42532], [Canada -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20117 -> 50011], [Canada -> Asia Pacific Economic Cooperation Asia Pacific Economic Cooperation APEC] 
+
+srcNodes: [188, 42951, 10002]
+  path: 0[10001 -> 20118 -> 31017 -> 188], [America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20118 -> 31029 -> 42951], [America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[10001 -> 20118 -> 30996 -> 90085 -> 20061 -> 10002], [America -> United States -> Georgia -> Kura -> Azerbaijan -> Asia] 
+
+srcNodes: [190, 42532, 50011]
+  path: 0[20172 -> 10001 -> 20118 -> 31029 -> 190], [Chile -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20172 -> 10001 -> 20118 -> 31027 -> 42532], [Chile -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20172 -> 50011], [Chile -> Asia Pacific Economic Cooperation Asia Pacific Economic Cooperation APEC] 
+
+srcNodes: [190, 42532, 50011]
+  path: 0[20114 -> 10001 -> 20118 -> 31029 -> 190], [Mexico -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20114 -> 10001 -> 20118 -> 31027 -> 42532], [Mexico -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20114 -> 50011], [Mexico -> Asia Pacific Economic Cooperation Asia Pacific Economic Cooperation APEC] 
+
+srcNodes: [190, 42532, 10002]
+  path: 0[20171 -> 10001 -> 20118 -> 31029 -> 190], [Brazil -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20171 -> 10001 -> 20118 -> 31027 -> 42532], [Brazil -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20171 -> 31212 -> 40597 -> 110127 -> 20105 -> 10002], [Brazil -> Parana -> Colombo -> Sri Lanka Sri Lanka   -> Sri Lanka -> Asia] 
+
+srcNodes: [188, 42951, 10002]
+  path: 0[90163 -> 20173 -> 10001 -> 20118 -> 31017 -> 188], [Parana -> Paraguay -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[90163 -> 20173 -> 10001 -> 20118 -> 31029 -> 42951], [Parana -> Paraguay -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[90163 -> 31212 -> 40597 -> 110127 -> 20105 -> 10002], [Parana -> Parana -> Colombo -> Sri Lanka Sri Lanka   -> Sri Lanka -> Asia] 
+
+srcNodes: [188, 42951, 50011]
+  path: 0[236 -> 20172 -> 10001 -> 20118 -> 31017 -> 188], [Ojos del Salado Ojos del Salado Andes volcano -> Chile -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[236 -> 20172 -> 10001 -> 20118 -> 31029 -> 42951], [Ojos del Salado Ojos del Salado Andes volcano -> Chile -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[236 -> 20172 -> 50011], [Ojos del Salado Ojos del Salado Andes volcano -> Chile -> Asia Pacific Economic Cooperation Asia Pacific Economic Cooperation APEC] 
+
+srcNodes: [188, 42951, 50011]
+  path: 0[235 -> 20172 -> 10001 -> 20118 -> 31017 -> 188], [Llullaillaco Llullaillaco Andes volcano -> Chile -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[235 -> 20172 -> 10001 -> 20118 -> 31029 -> 42951], [Llullaillaco Llullaillaco Andes volcano -> Chile -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[235 -> 20172 -> 50011], [Llullaillaco Llullaillaco Andes volcano -> Chile -> Asia Pacific Economic Cooperation Asia Pacific Economic Cooperation APEC] 
+
+srcNodes: [188, 42951, 50011]
+  path: 0[234 -> 20172 -> 10001 -> 20118 -> 31017 -> 188], [Licancabur Licancabur Andes volcano -> Chile -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[234 -> 20172 -> 10001 -> 20118 -> 31029 -> 42951], [Licancabur Licancabur Andes volcano -> Chile -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[234 -> 20172 -> 50011], [Licancabur Licancabur Andes volcano -> Chile -> Asia Pacific Economic Cooperation Asia Pacific Economic Cooperation APEC] 
+
+srcNodes: [187, 42951, 50011]
+  path: 0[110273 -> 20172 -> 10001 -> 20118 -> 30992 -> 187], [Osterinsel Osterinsel  volcanic -> Chile -> America -> United States -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[110273 -> 20172 -> 10001 -> 20118 -> 31029 -> 42951], [Osterinsel Osterinsel  volcanic -> Chile -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[110273 -> 20172 -> 50011], [Osterinsel Osterinsel  volcanic -> Chile -> Asia Pacific Economic Cooperation Asia Pacific Economic Cooperation APEC] 
+
+-----------------------------------------
+ResultDestNodes: 
+20118, 20118, 20118, 20118, 20118, 20118, 20118, 20118, 20118, 20118, 20117, 10001, 20172, 20114, 20171, 90163, 236, 235, 234, 110273, 
+ResultRelevs: 
+4.09412, 4.09412, 4.09412, 4.09412, 3.9917798, 3.9917798, 3.9917798, 3.9917798, 3.950245, 3.950245, 3.411933, 3.2070498, 3.0090852, 3.0090852, 2.838535, 2.592863, 2.251733, 2.251733, 2.251733, 2.251733, 
+Num of top-k answers: 20
+Num of duplicate answers: 5
+Num of duplicate roots in top-k answers: 9
+root duplication ratio: 0.47368422
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 565
+Num of entries retrieved from NKMaps: 1390
+Num of answer trees explored: 1448
+
+Blink Search Using BDB 30
+[mountains, falls, asia]
+srcNodes: [190, 42532, 10002]
+  path: 0[20118 -> 31029 -> 190], [United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 30996 -> 90085 -> 20061 -> 10002], [United States -> Georgia -> Kura -> Azerbaijan -> Asia] 
+
+srcNodes: [177, 42532, 50011]
+  path: 0[20117 -> 30976 -> 177], [Canada -> British Columbia -> Mt Columbia Mt Columbia Rocky Mountains ] 
+
+  path: 1[20117 -> 10001 -> 20118 -> 31027 -> 42532], [Canada -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20117 -> 50011], [Canada -> Asia Pacific Economic Cooperation Asia Pacific Economic Cooperation APEC] 
+
+srcNodes: [188, 42951, 10002]
+  path: 0[10001 -> 20118 -> 31017 -> 188], [America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20118 -> 31029 -> 42951], [America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[10001 -> 20118 -> 30996 -> 90085 -> 20061 -> 10002], [America -> United States -> Georgia -> Kura -> Azerbaijan -> Asia] 
+
+This is a non-reduced answer tree with common first node 20118
+
+srcNodes: [190, 42532, 50011]
+  path: 0[20114 -> 10001 -> 20118 -> 31029 -> 190], [Mexico -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20114 -> 10001 -> 20118 -> 31027 -> 42532], [Mexico -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20114 -> 50011], [Mexico -> Asia Pacific Economic Cooperation Asia Pacific Economic Cooperation APEC] 
+
+srcNodes: [190, 42532, 50011]
+  path: 0[20172 -> 10001 -> 20118 -> 31029 -> 190], [Chile -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20172 -> 10001 -> 20118 -> 31027 -> 42532], [Chile -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20172 -> 50011], [Chile -> Asia Pacific Economic Cooperation Asia Pacific Economic Cooperation APEC] 
+
+srcNodes: [190, 42532, 10002]
+  path: 0[20171 -> 10001 -> 20118 -> 31029 -> 190], [Brazil -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20171 -> 10001 -> 20118 -> 31027 -> 42532], [Brazil -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20171 -> 31212 -> 40597 -> 110127 -> 20105 -> 10002], [Brazil -> Parana -> Colombo -> Sri Lanka Sri Lanka   -> Sri Lanka -> Asia] 
+
+srcNodes: [188, 42951, 10002]
+  path: 0[90163 -> 20173 -> 10001 -> 20118 -> 31017 -> 188], [Parana -> Paraguay -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[90163 -> 20173 -> 10001 -> 20118 -> 31029 -> 42951], [Parana -> Paraguay -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[90163 -> 31212 -> 40597 -> 110127 -> 20105 -> 10002], [Parana -> Parana -> Colombo -> Sri Lanka Sri Lanka   -> Sri Lanka -> Asia] 
+
+srcNodes: [188, 42951, 50011]
+  path: 0[235 -> 20172 -> 10001 -> 20118 -> 31017 -> 188], [Llullaillaco Llullaillaco Andes volcano -> Chile -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[235 -> 20172 -> 10001 -> 20118 -> 31029 -> 42951], [Llullaillaco Llullaillaco Andes volcano -> Chile -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[235 -> 20172 -> 50011], [Llullaillaco Llullaillaco Andes volcano -> Chile -> Asia Pacific Economic Cooperation Asia Pacific Economic Cooperation APEC] 
+
+This is a non-reduced answer tree with common first node 20172
+
+srcNodes: [188, 42951, 50011]
+  path: 0[236 -> 20172 -> 10001 -> 20118 -> 31017 -> 188], [Ojos del Salado Ojos del Salado Andes volcano -> Chile -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[236 -> 20172 -> 10001 -> 20118 -> 31029 -> 42951], [Ojos del Salado Ojos del Salado Andes volcano -> Chile -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[236 -> 20172 -> 50011], [Ojos del Salado Ojos del Salado Andes volcano -> Chile -> Asia Pacific Economic Cooperation Asia Pacific Economic Cooperation APEC] 
+
+This is a non-reduced answer tree with common first node 20172
+
+srcNodes: [187, 42951, 50011]
+  path: 0[110273 -> 20172 -> 10001 -> 20118 -> 30992 -> 187], [Osterinsel Osterinsel  volcanic -> Chile -> America -> United States -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[110273 -> 20172 -> 10001 -> 20118 -> 31029 -> 42951], [Osterinsel Osterinsel  volcanic -> Chile -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[110273 -> 20172 -> 50011], [Osterinsel Osterinsel  volcanic -> Chile -> Asia Pacific Economic Cooperation Asia Pacific Economic Cooperation APEC] 
+
+This is a non-reduced answer tree with common first node 20172
+
+srcNodes: [188, 42951, 50011]
+  path: 0[234 -> 20172 -> 10001 -> 20118 -> 31017 -> 188], [Licancabur Licancabur Andes volcano -> Chile -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[234 -> 20172 -> 10001 -> 20118 -> 31029 -> 42951], [Licancabur Licancabur Andes volcano -> Chile -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[234 -> 20172 -> 50011], [Licancabur Licancabur Andes volcano -> Chile -> Asia Pacific Economic Cooperation Asia Pacific Economic Cooperation APEC] 
+
+This is a non-reduced answer tree with common first node 20172
+
+srcNodes: [190, 42532, 50035]
+  path: 0[20120 -> 10001 -> 20118 -> 31029 -> 190], [Costa Rica -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20120 -> 10001 -> 20118 -> 31027 -> 42532], [Costa Rica -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20120 -> 10001 -> 20118 -> 50035], [Costa Rica -> America -> United States -> Economic and Social Commission for Asia and the Pacific Economic and Social Commission for Asia and the Pacific ESCAP] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 50035]
+  path: 0[20145 -> 10001 -> 20118 -> 31029 -> 190], [Virgin Islands -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20145 -> 10001 -> 20118 -> 31027 -> 42532], [Virgin Islands -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20145 -> 10001 -> 20118 -> 50035], [Virgin Islands -> America -> United States -> Economic and Social Commission for Asia and the Pacific Economic and Social Commission for Asia and the Pacific ESCAP] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 50035]
+  path: 0[20138 -> 10001 -> 20118 -> 31029 -> 190], [Puerto Rico -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20138 -> 10001 -> 20118 -> 31027 -> 42532], [Puerto Rico -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20138 -> 10001 -> 20118 -> 50035], [Puerto Rico -> America -> United States -> Economic and Social Commission for Asia and the Pacific Economic and Social Commission for Asia and the Pacific ESCAP] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 50035]
+  path: 0[20107 -> 10001 -> 20118 -> 31029 -> 190], [Anguilla -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20107 -> 10001 -> 20118 -> 31027 -> 42532], [Anguilla -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20107 -> 10001 -> 20118 -> 50035], [Anguilla -> America -> United States -> Economic and Social Commission for Asia and the Pacific Economic and Social Commission for Asia and the Pacific ESCAP] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 50035]
+  path: 0[20108 -> 10001 -> 20118 -> 31029 -> 190], [Antigua and Barbuda -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20108 -> 10001 -> 20118 -> 31027 -> 42532], [Antigua and Barbuda -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20108 -> 10001 -> 20118 -> 50035], [Antigua and Barbuda -> America -> United States -> Economic and Social Commission for Asia and the Pacific Economic and Social Commission for Asia and the Pacific ESCAP] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 50035]
+  path: 0[20119 -> 10001 -> 20118 -> 31029 -> 190], [Cayman Islands -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20119 -> 10001 -> 20118 -> 31027 -> 42532], [Cayman Islands -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20119 -> 10001 -> 20118 -> 50035], [Cayman Islands -> America -> United States -> Economic and Social Commission for Asia and the Pacific Economic and Social Commission for Asia and the Pacific ESCAP] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 50035]
+  path: 0[20129 -> 10001 -> 20118 -> 31029 -> 190], [Greenland -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20129 -> 10001 -> 20118 -> 31027 -> 42532], [Greenland -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20129 -> 10001 -> 20118 -> 50035], [Greenland -> America -> United States -> Economic and Social Commission for Asia and the Pacific Economic and Social Commission for Asia and the Pacific ESCAP] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 50035]
+  path: 0[20137 -> 10001 -> 20118 -> 31029 -> 190], [Colombia -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20137 -> 10001 -> 20118 -> 31027 -> 42532], [Colombia -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20137 -> 10001 -> 20118 -> 50035], [Colombia -> America -> United States -> Economic and Social Commission for Asia and the Pacific Economic and Social Commission for Asia and the Pacific ESCAP] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 50035]
+  path: 0[20170 -> 10001 -> 20118 -> 31029 -> 190], [Bolivia -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20170 -> 10001 -> 20118 -> 31027 -> 42532], [Bolivia -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20170 -> 10001 -> 20118 -> 50035], [Bolivia -> America -> United States -> Economic and Social Commission for Asia and the Pacific Economic and Social Commission for Asia and the Pacific ESCAP] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 50035]
+  path: 0[20109 -> 10001 -> 20118 -> 31029 -> 190], [Aruba -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20109 -> 10001 -> 20118 -> 31027 -> 42532], [Aruba -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20109 -> 10001 -> 20118 -> 50035], [Aruba -> America -> United States -> Economic and Social Commission for Asia and the Pacific Economic and Social Commission for Asia and the Pacific ESCAP] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 50035]
+  path: 0[20142 -> 10001 -> 20118 -> 31029 -> 190], [Saint Vincent and the Grenadines -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20142 -> 10001 -> 20118 -> 31027 -> 42532], [Saint Vincent and the Grenadines -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20142 -> 10001 -> 20118 -> 50035], [Saint Vincent and the Grenadines -> America -> United States -> Economic and Social Commission for Asia and the Pacific Economic and Social Commission for Asia and the Pacific ESCAP] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 50035]
+  path: 0[20110 -> 10001 -> 20118 -> 31029 -> 190], [Bahamas -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20110 -> 10001 -> 20118 -> 31027 -> 42532], [Bahamas -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20110 -> 10001 -> 20118 -> 50035], [Bahamas -> America -> United States -> Economic and Social Commission for Asia and the Pacific Economic and Social Commission for Asia and the Pacific ESCAP] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 50035]
+  path: 0[20143 -> 10001 -> 20118 -> 31029 -> 190], [Trinidad and Tobago -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20143 -> 10001 -> 20118 -> 31027 -> 42532], [Trinidad and Tobago -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20143 -> 10001 -> 20118 -> 50035], [Trinidad and Tobago -> America -> United States -> Economic and Social Commission for Asia and the Pacific Economic and Social Commission for Asia and the Pacific ESCAP] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 50035]
+  path: 0[20127 -> 10001 -> 20118 -> 31029 -> 190], [El Salvador -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20127 -> 10001 -> 20118 -> 31027 -> 42532], [El Salvador -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20127 -> 10001 -> 20118 -> 50035], [El Salvador -> America -> United States -> Economic and Social Commission for Asia and the Pacific Economic and Social Commission for Asia and the Pacific ESCAP] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 50035]
+  path: 0[20112 -> 10001 -> 20118 -> 31029 -> 190], [Belize -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20112 -> 10001 -> 20118 -> 31027 -> 42532], [Belize -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20112 -> 10001 -> 20118 -> 50035], [Belize -> America -> United States -> Economic and Social Commission for Asia and the Pacific Economic and Social Commission for Asia and the Pacific ESCAP] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 50035]
+  path: 0[20133 -> 10001 -> 20118 -> 31029 -> 190], [Martinique -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20133 -> 10001 -> 20118 -> 31027 -> 42532], [Martinique -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20133 -> 10001 -> 20118 -> 50035], [Martinique -> America -> United States -> Economic and Social Commission for Asia and the Pacific Economic and Social Commission for Asia and the Pacific ESCAP] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 50035]
+  path: 0[20176 -> 10001 -> 20118 -> 31029 -> 190], [French Guiana -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20176 -> 10001 -> 20118 -> 31027 -> 42532], [French Guiana -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20176 -> 10001 -> 20118 -> 50035], [French Guiana -> America -> United States -> Economic and Social Commission for Asia and the Pacific Economic and Social Commission for Asia and the Pacific ESCAP] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 50035]
+  path: 0[20178 -> 10001 -> 20118 -> 31029 -> 190], [Suriname -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20178 -> 10001 -> 20118 -> 31027 -> 42532], [Suriname -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20178 -> 10001 -> 20118 -> 50035], [Suriname -> America -> United States -> Economic and Social Commission for Asia and the Pacific Economic and Social Commission for Asia and the Pacific ESCAP] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 50035]
+  path: 0[20128 -> 10001 -> 20118 -> 31029 -> 190], [Honduras -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20128 -> 10001 -> 20118 -> 31027 -> 42532], [Honduras -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20128 -> 10001 -> 20118 -> 50035], [Honduras -> America -> United States -> Economic and Social Commission for Asia and the Pacific Economic and Social Commission for Asia and the Pacific ESCAP] 
+
+This is a non-reduced answer tree with common first node 10001
+
+-----------------------------------------
+ResultDestNodes: [20118, 20117, 10001, 20114, 20172, 20171, 90163, 235, 236, 110273, 234, 20120, 20145, 20138, 20107, 20108, 20119, 20129, 20137, 20170, 20109, 20142, 20110, 20143, 20127, 20112, 20133, 20176, 20178, 20128]
+ResultRelevs: [4.094120025634766, 3.411932945251465, 3.20704984664917, 3.009085178375244, 3.009085178375244, 2.8385350704193115, 2.592863082885742, 2.2517330646514893, 2.2517330646514893, 2.2517330646514893, 2.2517330646514893, 2.2415671348571777, 2.2415671348571777, 2.2415671348571777, 2.2415671348571777, 2.2415671348571777, 2.2415671348571777, 2.2415671348571777, 2.2415671348571777, 2.2415671348571777, 2.2415671348571777, 2.2415671348571777, 2.2415671348571777, 2.2415671348571777, 2.2415671348571777, 2.2415671348571777, 2.2415671348571777, 2.2415671348571777, 2.2415671348571777, 2.2415671348571777]
+Num of top-k answers: 30
+Num of non-reduced answers: 24
+Num of duplicate answers: 23
+Num of non-redundant answers: 4
+Num of entries retrieved from the lists: 565
+Num of entries retrieved from NKMaps: 716
+
+Blink Search Using ConstRootDup30
+[mountains, falls, asia]
+srcNodes: [190, 42532, 10002]
+  path: 0[20118 -> 31029 -> 190], [United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 30996 -> 90085 -> 20061 -> 10002], [United States -> Georgia -> Kura -> Azerbaijan -> Asia] 
+
+srcNodes: [182, 42951, 10002]
+  path: 0[20118 -> 30998 -> 182], [United States -> Idaho -> Borah Peak Borah Peak Rocky Mountains ] 
+
+  path: 1[20118 -> 31029 -> 42951], [United States -> Texas -> Wichita Falls] 
+
+  path: 2[20118 -> 30996 -> 90085 -> 20061 -> 10002], [United States -> Georgia -> Kura -> Azerbaijan -> Asia] 
+
+srcNodes: [182, 42532, 10002]
+  path: 0[20118 -> 30998 -> 182], [United States -> Idaho -> Borah Peak Borah Peak Rocky Mountains ] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 30996 -> 90085 -> 20061 -> 10002], [United States -> Georgia -> Kura -> Azerbaijan -> Asia] 
+
+srcNodes: [190, 42951, 10002]
+  path: 0[20118 -> 31029 -> 190], [United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20118 -> 31029 -> 42951], [United States -> Texas -> Wichita Falls] 
+
+  path: 2[20118 -> 30996 -> 90085 -> 20061 -> 10002], [United States -> Georgia -> Kura -> Azerbaijan -> Asia] 
+
+srcNodes: [190, 42951, 50035]
+  path: 0[20118 -> 31029 -> 190], [United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20118 -> 31029 -> 42951], [United States -> Texas -> Wichita Falls] 
+
+  path: 2[20118 -> 50035], [United States -> Economic and Social Commission for Asia and the Pacific Economic and Social Commission for Asia and the Pacific ESCAP] 
+
+srcNodes: [190, 42532, 50035]
+  path: 0[20118 -> 31029 -> 190], [United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 50035], [United States -> Economic and Social Commission for Asia and the Pacific Economic and Social Commission for Asia and the Pacific ESCAP] 
+
+srcNodes: [182, 42532, 50035]
+  path: 0[20118 -> 30998 -> 182], [United States -> Idaho -> Borah Peak Borah Peak Rocky Mountains ] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 50035], [United States -> Economic and Social Commission for Asia and the Pacific Economic and Social Commission for Asia and the Pacific ESCAP] 
+
+srcNodes: [182, 42951, 50035]
+  path: 0[20118 -> 30998 -> 182], [United States -> Idaho -> Borah Peak Borah Peak Rocky Mountains ] 
+
+  path: 1[20118 -> 31029 -> 42951], [United States -> Texas -> Wichita Falls] 
+
+  path: 2[20118 -> 50035], [United States -> Economic and Social Commission for Asia and the Pacific Economic and Social Commission for Asia and the Pacific ESCAP] 
+
+srcNodes: [170, 42951, 10002]
+  path: 0[20118 -> 30988 -> 170], [United States -> Alaska -> Mt Blackburn Mt Blackburn Wrangell Mountains volcano] 
+
+  path: 1[20118 -> 31029 -> 42951], [United States -> Texas -> Wichita Falls] 
+
+  path: 2[20118 -> 30996 -> 90085 -> 20061 -> 10002], [United States -> Georgia -> Kura -> Azerbaijan -> Asia] 
+
+srcNodes: [170, 42532, 10002]
+  path: 0[20118 -> 30988 -> 170], [United States -> Alaska -> Mt Blackburn Mt Blackburn Wrangell Mountains volcano] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 30996 -> 90085 -> 20061 -> 10002], [United States -> Georgia -> Kura -> Azerbaijan -> Asia] 
+
+srcNodes: [170, 42532, 50035]
+  path: 0[20118 -> 30988 -> 170], [United States -> Alaska -> Mt Blackburn Mt Blackburn Wrangell Mountains volcano] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 50035], [United States -> Economic and Social Commission for Asia and the Pacific Economic and Social Commission for Asia and the Pacific ESCAP] 
+
+srcNodes: [170, 42951, 50035]
+  path: 0[20118 -> 30988 -> 170], [United States -> Alaska -> Mt Blackburn Mt Blackburn Wrangell Mountains volcano] 
+
+  path: 1[20118 -> 31029 -> 42951], [United States -> Texas -> Wichita Falls] 
+
+  path: 2[20118 -> 50035], [United States -> Economic and Social Commission for Asia and the Pacific Economic and Social Commission for Asia and the Pacific ESCAP] 
+
+srcNodes: [177, 42951, 10002]
+  path: 0[20118 -> 10001 -> 20117 -> 30976 -> 177], [United States -> America -> Canada -> British Columbia -> Mt Columbia Mt Columbia Rocky Mountains ] 
+
+  path: 1[20118 -> 31029 -> 42951], [United States -> Texas -> Wichita Falls] 
+
+  path: 2[20118 -> 30996 -> 90085 -> 20061 -> 10002], [United States -> Georgia -> Kura -> Azerbaijan -> Asia] 
+
+srcNodes: [177, 42532, 10002]
+  path: 0[20118 -> 10001 -> 20117 -> 30976 -> 177], [United States -> America -> Canada -> British Columbia -> Mt Columbia Mt Columbia Rocky Mountains ] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 30996 -> 90085 -> 20061 -> 10002], [United States -> Georgia -> Kura -> Azerbaijan -> Asia] 
+
+srcNodes: [177, 42532, 50035]
+  path: 0[20118 -> 10001 -> 20117 -> 30976 -> 177], [United States -> America -> Canada -> British Columbia -> Mt Columbia Mt Columbia Rocky Mountains ] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 50035], [United States -> Economic and Social Commission for Asia and the Pacific Economic and Social Commission for Asia and the Pacific ESCAP] 
+
+srcNodes: [177, 42532, 50011]
+  path: 0[20117 -> 30976 -> 177], [Canada -> British Columbia -> Mt Columbia Mt Columbia Rocky Mountains ] 
+
+  path: 1[20117 -> 10001 -> 20118 -> 31027 -> 42532], [Canada -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20117 -> 50011], [Canada -> Asia Pacific Economic Cooperation Asia Pacific Economic Cooperation APEC] 
+
+srcNodes: [188, 42951, 10002]
+  path: 0[10001 -> 20118 -> 31017 -> 188], [America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20118 -> 31029 -> 42951], [America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[10001 -> 20118 -> 30996 -> 90085 -> 20061 -> 10002], [America -> United States -> Georgia -> Kura -> Azerbaijan -> Asia] 
+
+srcNodes: [190, 42532, 50011]
+  path: 0[20114 -> 10001 -> 20118 -> 31029 -> 190], [Mexico -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20114 -> 10001 -> 20118 -> 31027 -> 42532], [Mexico -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20114 -> 50011], [Mexico -> Asia Pacific Economic Cooperation Asia Pacific Economic Cooperation APEC] 
+
+srcNodes: [190, 42532, 50011]
+  path: 0[20172 -> 10001 -> 20118 -> 31029 -> 190], [Chile -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20172 -> 10001 -> 20118 -> 31027 -> 42532], [Chile -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20172 -> 50011], [Chile -> Asia Pacific Economic Cooperation Asia Pacific Economic Cooperation APEC] 
+
+srcNodes: [190, 42532, 10002]
+  path: 0[20171 -> 10001 -> 20118 -> 31029 -> 190], [Brazil -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20171 -> 10001 -> 20118 -> 31027 -> 42532], [Brazil -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20171 -> 31212 -> 40597 -> 110127 -> 20105 -> 10002], [Brazil -> Parana -> Colombo -> Sri Lanka Sri Lanka   -> Sri Lanka -> Asia] 
+
+srcNodes: [188, 42951, 10002]
+  path: 0[90163 -> 20173 -> 10001 -> 20118 -> 31017 -> 188], [Parana -> Paraguay -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[90163 -> 20173 -> 10001 -> 20118 -> 31029 -> 42951], [Parana -> Paraguay -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[90163 -> 31212 -> 40597 -> 110127 -> 20105 -> 10002], [Parana -> Parana -> Colombo -> Sri Lanka Sri Lanka   -> Sri Lanka -> Asia] 
+
+srcNodes: [188, 42951, 50011]
+  path: 0[235 -> 20172 -> 10001 -> 20118 -> 31017 -> 188], [Llullaillaco Llullaillaco Andes volcano -> Chile -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[235 -> 20172 -> 10001 -> 20118 -> 31029 -> 42951], [Llullaillaco Llullaillaco Andes volcano -> Chile -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[235 -> 20172 -> 50011], [Llullaillaco Llullaillaco Andes volcano -> Chile -> Asia Pacific Economic Cooperation Asia Pacific Economic Cooperation APEC] 
+
+srcNodes: [188, 42951, 50011]
+  path: 0[236 -> 20172 -> 10001 -> 20118 -> 31017 -> 188], [Ojos del Salado Ojos del Salado Andes volcano -> Chile -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[236 -> 20172 -> 10001 -> 20118 -> 31029 -> 42951], [Ojos del Salado Ojos del Salado Andes volcano -> Chile -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[236 -> 20172 -> 50011], [Ojos del Salado Ojos del Salado Andes volcano -> Chile -> Asia Pacific Economic Cooperation Asia Pacific Economic Cooperation APEC] 
+
+srcNodes: [187, 42951, 50011]
+  path: 0[110273 -> 20172 -> 10001 -> 20118 -> 30992 -> 187], [Osterinsel Osterinsel  volcanic -> Chile -> America -> United States -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[110273 -> 20172 -> 10001 -> 20118 -> 31029 -> 42951], [Osterinsel Osterinsel  volcanic -> Chile -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[110273 -> 20172 -> 50011], [Osterinsel Osterinsel  volcanic -> Chile -> Asia Pacific Economic Cooperation Asia Pacific Economic Cooperation APEC] 
+
+srcNodes: [188, 42951, 50011]
+  path: 0[234 -> 20172 -> 10001 -> 20118 -> 31017 -> 188], [Licancabur Licancabur Andes volcano -> Chile -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[234 -> 20172 -> 10001 -> 20118 -> 31029 -> 42951], [Licancabur Licancabur Andes volcano -> Chile -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[234 -> 20172 -> 50011], [Licancabur Licancabur Andes volcano -> Chile -> Asia Pacific Economic Cooperation Asia Pacific Economic Cooperation APEC] 
+
+srcNodes: [190, 42532, 50035]
+  path: 0[20135 -> 10001 -> 20118 -> 31029 -> 190], [Netherlands Antilles -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20135 -> 10001 -> 20118 -> 31027 -> 42532], [Netherlands Antilles -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20135 -> 10001 -> 20118 -> 50035], [Netherlands Antilles -> America -> United States -> Economic and Social Commission for Asia and the Pacific Economic and Social Commission for Asia and the Pacific ESCAP] 
+
+srcNodes: [190, 42532, 50035]
+  path: 0[20138 -> 10001 -> 20118 -> 31029 -> 190], [Puerto Rico -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20138 -> 10001 -> 20118 -> 31027 -> 42532], [Puerto Rico -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20138 -> 10001 -> 20118 -> 50035], [Puerto Rico -> America -> United States -> Economic and Social Commission for Asia and the Pacific Economic and Social Commission for Asia and the Pacific ESCAP] 
+
+srcNodes: [190, 42532, 50035]
+  path: 0[20120 -> 10001 -> 20118 -> 31029 -> 190], [Costa Rica -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20120 -> 10001 -> 20118 -> 31027 -> 42532], [Costa Rica -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20120 -> 10001 -> 20118 -> 50035], [Costa Rica -> America -> United States -> Economic and Social Commission for Asia and the Pacific Economic and Social Commission for Asia and the Pacific ESCAP] 
+
+srcNodes: [190, 42532, 50035]
+  path: 0[20107 -> 10001 -> 20118 -> 31029 -> 190], [Anguilla -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20107 -> 10001 -> 20118 -> 31027 -> 42532], [Anguilla -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20107 -> 10001 -> 20118 -> 50035], [Anguilla -> America -> United States -> Economic and Social Commission for Asia and the Pacific Economic and Social Commission for Asia and the Pacific ESCAP] 
+
+srcNodes: [190, 42532, 50035]
+  path: 0[20119 -> 10001 -> 20118 -> 31029 -> 190], [Cayman Islands -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20119 -> 10001 -> 20118 -> 31027 -> 42532], [Cayman Islands -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20119 -> 10001 -> 20118 -> 50035], [Cayman Islands -> America -> United States -> Economic and Social Commission for Asia and the Pacific Economic and Social Commission for Asia and the Pacific ESCAP] 
+
+-----------------------------------------
+ResultDestNodes: 
+20118, 20118, 20118, 20118, 20118, 20118, 20118, 20118, 20118, 20118, 20118, 20118, 20118, 20118, 20118, 20117, 10001, 20114, 20172, 20171, 90163, 235, 236, 110273, 234, 20135, 20138, 20120, 20107, 20119, 
+ResultRelevs: 
+4.09412, 4.09412, 4.09412, 4.09412, 3.9917798, 3.9917798, 3.9917798, 3.9917798, 3.950245, 3.950245, 3.8479052, 3.8479052, 3.6912723, 3.6912723, 3.588932, 3.411933, 3.2070498, 3.0090852, 3.0090852, 2.838535, 2.592863, 2.251733, 2.251733, 2.251733, 2.251733, 2.2415671, 2.2415671, 2.2415671, 2.2415671, 2.2415671, 
+Num of top-k answers: 30
+Num of duplicate answers: 10
+Num of duplicate roots in top-k answers: 14
+root duplication ratio: 0.4827586
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 565
+Num of entries retrieved from NKMaps: 1390
+Num of answer trees explored: 1448
+

@@ -1,0 +1,4 @@
+[korea, japan, china]:0.320 
+[chicago, montreal, ottawa]:0.180 
+[asia, russia, china]:0.280 
+[caldera, lake, america]:0.320 

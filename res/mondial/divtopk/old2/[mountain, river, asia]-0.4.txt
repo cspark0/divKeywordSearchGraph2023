@@ -1,0 +1,402 @@
+Top-k Search by Blink-BDB, k=10
+[mountain, river, asia]
+srcNodes: [101, 90120, 10002]
+  path: 0[10002 -> 20105 -> 101], [Asia -> Sri Lanka -> Pidurutalagala Pidurutalagala  ] 
+
+  path: 1[10002 -> 20052 -> 90120], [Asia -> Afghanistan -> Pjandsh] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [95, 90085, 10002]
+  path: 0[20060 -> 95], [Georgia -> Kasbek Kasbek Kaukasus volcanic] 
+
+  path: 1[20060 -> 90085], [Georgia -> Kura] 
+
+  path: 2[20060 -> 10002], [Georgia -> Asia] 
+
+srcNodes: [107, 90118, 10002]
+  path: 0[20075 -> 107], [Kyrgyzstan -> Pik Lenina Pik Lenina Pamir ] 
+
+  path: 1[20075 -> 90118], [Kyrgyzstan -> Naryn] 
+
+  path: 2[20075 -> 10002], [Kyrgyzstan -> Asia] 
+
+srcNodes: [93, 90084, 10002]
+  path: 0[20094 -> 93], [Lebanon -> Jabal Lubnan Jabal Lubnan Lebanon ] 
+
+  path: 1[20094 -> 90084], [Lebanon -> Jordan] 
+
+  path: 2[20094 -> 10002], [Lebanon -> Asia] 
+
+srcNodes: [116, 90128, 10002]
+  path: 0[20055 -> 116], [Pakistan -> Nanga Parbat Nanga Parbat Karakorum ] 
+
+  path: 1[20055 -> 90128], [Pakistan -> Indus] 
+
+  path: 2[20055 -> 10002], [Pakistan -> Asia] 
+
+srcNodes: [141, 90129, 10002]
+  path: 0[20086 -> 141], [Indonesia -> Leuser Leuser  volcanic] 
+
+  path: 1[20086 -> 90129], [Indonesia -> Asahan] 
+
+  path: 2[20086 -> 10002], [Indonesia -> Asia] 
+
+srcNodes: [111, 90119, 10002]
+  path: 0[20052 -> 111], [Afghanistan -> Tirich Mir Tirich Mir Hindukusch ] 
+
+  path: 1[20052 -> 90119], [Afghanistan -> Amudarja] 
+
+  path: 2[20052 -> 10002], [Afghanistan -> Asia] 
+
+srcNodes: [111, 90119, 10002]
+  path: 0[90119 -> 20052 -> 111], [Amudarja -> Afghanistan -> Tirich Mir Tirich Mir Hindukusch ] 
+
+  path: 1[90119 -> 90119], [Amudarja -> Amudarja]
+  path: 2[90119 -> 20052 -> 10002], [Amudarja -> Afghanistan -> Asia] 
+
+srcNodes: [149, 90129, 10002]
+  path: 0[90129 -> 20086 -> 149], [Asahan -> Indonesia -> Rantekombola Rantekombola  volcanic] 
+
+  path: 1[90129 -> 90129], [Asahan -> Asahan]
+  path: 2[90129 -> 20086 -> 10002], [Asahan -> Indonesia -> Asia] 
+
+srcNodes: [106, 90120, 10002]
+  path: 0[90120 -> 30690 -> 106], [Pjandsh -> Badakhshoni Kuni -> Pik Kommunizma Pik Kommunizma Pamir ] 
+
+  path: 1[90120 -> 90120], [Pjandsh -> Pjandsh]
+  path: 2[90120 -> 20052 -> 10002], [Pjandsh -> Afghanistan -> Asia] 
+
+-----------------------------------------
+Num of top-k answers: 10
+ResultDestNodes: [10002, 20060, 20075, 20094, 20055, 20086, 20052, 90119, 90129, 90120]
+ResultRelevs: [10.003316879272461, 6.548610210418701, 6.548610210418701, 6.548610210418701, 6.548610210418701, 6.548610210418701, 6.548610210418701, 6.202090263366699, 6.202090263366699, 6.202090263366699]
+AvgResultRelev: 6.790124893188477
+AvgResultDissimilarity: 0.7688888888888891
+Num of entries retrieved from the lists: 587
+Num of entries retrieved from NKMaps: 994
+Num of answer trees explored: 290
+
+Div Top-k Search by Astar110
+[mountain, river, asia]
+srcNodes: [101, 90120, 10002]
+  path: 0[10002 -> 20105 -> 101], [Asia -> Sri Lanka -> Pidurutalagala Pidurutalagala  ] 
+
+  path: 1[10002 -> 20052 -> 90120], [Asia -> Afghanistan -> Pjandsh] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [141, 90129, 10002]
+  path: 0[20086 -> 141], [Indonesia -> Leuser Leuser  volcanic] 
+
+  path: 1[20086 -> 90129], [Indonesia -> Asahan] 
+
+  path: 2[20086 -> 10002], [Indonesia -> Asia] 
+
+srcNodes: [93, 90084, 10002]
+  path: 0[20094 -> 93], [Lebanon -> Jabal Lubnan Jabal Lubnan Lebanon ] 
+
+  path: 1[20094 -> 90084], [Lebanon -> Jordan] 
+
+  path: 2[20094 -> 10002], [Lebanon -> Asia] 
+
+srcNodes: [116, 90128, 10002]
+  path: 0[20055 -> 116], [Pakistan -> Nanga Parbat Nanga Parbat Karakorum ] 
+
+  path: 1[20055 -> 90128], [Pakistan -> Indus] 
+
+  path: 2[20055 -> 10002], [Pakistan -> Asia] 
+
+srcNodes: [111, 90119, 10002]
+  path: 0[20052 -> 111], [Afghanistan -> Tirich Mir Tirich Mir Hindukusch ] 
+
+  path: 1[20052 -> 90119], [Afghanistan -> Amudarja] 
+
+  path: 2[20052 -> 10002], [Afghanistan -> Asia] 
+
+srcNodes: [107, 90118, 10002]
+  path: 0[20075 -> 107], [Kyrgyzstan -> Pik Lenina Pik Lenina Pamir ] 
+
+  path: 1[20075 -> 90118], [Kyrgyzstan -> Naryn] 
+
+  path: 2[20075 -> 10002], [Kyrgyzstan -> Asia] 
+
+srcNodes: [95, 90085, 10002]
+  path: 0[20060 -> 95], [Georgia -> Kasbek Kasbek Kaukasus volcanic] 
+
+  path: 1[20060 -> 90085], [Georgia -> Kura] 
+
+  path: 2[20060 -> 10002], [Georgia -> Asia] 
+
+srcNodes: [126, 90123, 10002]
+  path: 0[90123 -> 30658 -> 126], [Mekong -> Tibet -> Makalu Makalu Himalaya ] 
+
+  path: 1[90123 -> 90123], [Mekong -> Mekong]
+  path: 2[90123 -> 20072 -> 10002], [Mekong -> Vietnam -> Asia] 
+
+srcNodes: [95, 90085, 10002]
+  path: 0[90085 -> 20060 -> 95], [Kura -> Georgia -> Kasbek Kasbek Kaukasus volcanic] 
+
+  path: 1[90085 -> 90085], [Kura -> Kura]
+  path: 2[90085 -> 20061 -> 10002], [Kura -> Azerbaijan -> Asia] 
+
+srcNodes: [149, 90129, 10002]
+  path: 0[90129 -> 20086 -> 149], [Asahan -> Indonesia -> Rantekombola Rantekombola  volcanic] 
+
+  path: 1[90129 -> 90129], [Asahan -> Asahan]
+  path: 2[90129 -> 20086 -> 10002], [Asahan -> Indonesia -> Asia] 
+
+-----------------------------------------
+ResultDestNodes: [10002, 20086, 20094, 20055, 20052, 20075, 20060, 90123, 90085, 90129]
+ResultRelevs: [10.003316879272461, 6.548610210418701, 6.548610210418701, 6.548610210418701, 6.548610210418701, 6.548610210418701, 6.548610210418701, 6.202090263366699, 6.202090263366699, 6.202090263366699]
+AvgResultRelev: 6.790124893188477
+AvgResultDissimilarity: 0.7755556106567383
+Num of entries retrieved from the KNLists: 587
+Num of entries retrieved from NKMaps: 994
+Num of answer trees explored: 290
+Num of states created: 957
+Num of states explored: 121
+Num of heuristic search performed: 9
+Max Num of answer tree sets in Q[]: 163
+
+Div Top-k Search by Astar1m10
+[mountain, river, asia]
+srcNodes: [101, 90120, 10002]
+  path: 0[10002 -> 20105 -> 101], [Asia -> Sri Lanka -> Pidurutalagala Pidurutalagala  ] 
+
+  path: 1[10002 -> 20052 -> 90120], [Asia -> Afghanistan -> Pjandsh] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [141, 90129, 10002]
+  path: 0[20086 -> 141], [Indonesia -> Leuser Leuser  volcanic] 
+
+  path: 1[20086 -> 90129], [Indonesia -> Asahan] 
+
+  path: 2[20086 -> 10002], [Indonesia -> Asia] 
+
+srcNodes: [93, 90084, 10002]
+  path: 0[20094 -> 93], [Lebanon -> Jabal Lubnan Jabal Lubnan Lebanon ] 
+
+  path: 1[20094 -> 90084], [Lebanon -> Jordan] 
+
+  path: 2[20094 -> 10002], [Lebanon -> Asia] 
+
+srcNodes: [116, 90128, 10002]
+  path: 0[20055 -> 116], [Pakistan -> Nanga Parbat Nanga Parbat Karakorum ] 
+
+  path: 1[20055 -> 90128], [Pakistan -> Indus] 
+
+  path: 2[20055 -> 10002], [Pakistan -> Asia] 
+
+srcNodes: [111, 90119, 10002]
+  path: 0[20052 -> 111], [Afghanistan -> Tirich Mir Tirich Mir Hindukusch ] 
+
+  path: 1[20052 -> 90119], [Afghanistan -> Amudarja] 
+
+  path: 2[20052 -> 10002], [Afghanistan -> Asia] 
+
+srcNodes: [107, 90118, 10002]
+  path: 0[20075 -> 107], [Kyrgyzstan -> Pik Lenina Pik Lenina Pamir ] 
+
+  path: 1[20075 -> 90118], [Kyrgyzstan -> Naryn] 
+
+  path: 2[20075 -> 10002], [Kyrgyzstan -> Asia] 
+
+srcNodes: [95, 90085, 10002]
+  path: 0[20060 -> 95], [Georgia -> Kasbek Kasbek Kaukasus volcanic] 
+
+  path: 1[20060 -> 90085], [Georgia -> Kura] 
+
+  path: 2[20060 -> 10002], [Georgia -> Asia] 
+
+srcNodes: [126, 90128, 10002]
+  path: 0[90128 -> 30658 -> 126], [Indus -> Tibet -> Makalu Makalu Himalaya ] 
+
+  path: 1[90128 -> 90128], [Indus -> Indus]
+  path: 2[90128 -> 20055 -> 10002], [Indus -> Pakistan -> Asia] 
+
+srcNodes: [126, 90127, 10002]
+  path: 0[90127 -> 30658 -> 126], [Brahmaputra -> Tibet -> Makalu Makalu Himalaya ] 
+
+  path: 1[90127 -> 90127], [Brahmaputra -> Brahmaputra]
+  path: 2[90127 -> 20063 -> 10002], [Brahmaputra -> Bangladesh -> Asia] 
+
+srcNodes: [126, 90123, 10002]
+  path: 0[90123 -> 30658 -> 126], [Mekong -> Tibet -> Makalu Makalu Himalaya ] 
+
+  path: 1[90123 -> 90123], [Mekong -> Mekong]
+  path: 2[90123 -> 20072 -> 10002], [Mekong -> Vietnam -> Asia] 
+
+-----------------------------------------
+ResultDestNodes: [10002, 20086, 20094, 20055, 20052, 20075, 20060, 90128, 90127, 90123]
+ResultRelevs: [10.003316879272461, 6.548610210418701, 6.548610210418701, 6.548610210418701, 6.548610210418701, 6.548610210418701, 6.548610210418701, 6.202090263366699, 6.202090263366699, 6.202090263366699]
+AvgResultRelev: 6.790124893188477
+AvgResultDissimilarity: 0.7733333110809326
+Num of entries retrieved from the KNLists: 587
+Num of entries retrieved from NKMaps: 994
+Num of answer trees explored: 290
+Num of states created: 57
+Num of states explored: 15
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 45
+
+Div Top-k Search by Astar210
+[mountain, river, asia]
+srcNodes: [101, 90120, 10002]
+  path: 0[10002 -> 20105 -> 101], [Asia -> Sri Lanka -> Pidurutalagala Pidurutalagala  ] 
+
+  path: 1[10002 -> 20052 -> 90120], [Asia -> Afghanistan -> Pjandsh] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [141, 90129, 10002]
+  path: 0[20086 -> 141], [Indonesia -> Leuser Leuser  volcanic] 
+
+  path: 1[20086 -> 90129], [Indonesia -> Asahan] 
+
+  path: 2[20086 -> 10002], [Indonesia -> Asia] 
+
+srcNodes: [93, 90084, 10002]
+  path: 0[20094 -> 93], [Lebanon -> Jabal Lubnan Jabal Lubnan Lebanon ] 
+
+  path: 1[20094 -> 90084], [Lebanon -> Jordan] 
+
+  path: 2[20094 -> 10002], [Lebanon -> Asia] 
+
+srcNodes: [116, 90128, 10002]
+  path: 0[20055 -> 116], [Pakistan -> Nanga Parbat Nanga Parbat Karakorum ] 
+
+  path: 1[20055 -> 90128], [Pakistan -> Indus] 
+
+  path: 2[20055 -> 10002], [Pakistan -> Asia] 
+
+srcNodes: [111, 90119, 10002]
+  path: 0[20052 -> 111], [Afghanistan -> Tirich Mir Tirich Mir Hindukusch ] 
+
+  path: 1[20052 -> 90119], [Afghanistan -> Amudarja] 
+
+  path: 2[20052 -> 10002], [Afghanistan -> Asia] 
+
+srcNodes: [107, 90118, 10002]
+  path: 0[20075 -> 107], [Kyrgyzstan -> Pik Lenina Pik Lenina Pamir ] 
+
+  path: 1[20075 -> 90118], [Kyrgyzstan -> Naryn] 
+
+  path: 2[20075 -> 10002], [Kyrgyzstan -> Asia] 
+
+srcNodes: [95, 90085, 10002]
+  path: 0[20060 -> 95], [Georgia -> Kasbek Kasbek Kaukasus volcanic] 
+
+  path: 1[20060 -> 90085], [Georgia -> Kura] 
+
+  path: 2[20060 -> 10002], [Georgia -> Asia] 
+
+srcNodes: [126, 90123, 10002]
+  path: 0[90123 -> 30658 -> 126], [Mekong -> Tibet -> Makalu Makalu Himalaya ] 
+
+  path: 1[90123 -> 90123], [Mekong -> Mekong]
+  path: 2[90123 -> 20072 -> 10002], [Mekong -> Vietnam -> Asia] 
+
+srcNodes: [95, 90085, 10002]
+  path: 0[90085 -> 20060 -> 95], [Kura -> Georgia -> Kasbek Kasbek Kaukasus volcanic] 
+
+  path: 1[90085 -> 90085], [Kura -> Kura]
+  path: 2[90085 -> 20061 -> 10002], [Kura -> Azerbaijan -> Asia] 
+
+srcNodes: [149, 90129, 10002]
+  path: 0[90129 -> 20086 -> 149], [Asahan -> Indonesia -> Rantekombola Rantekombola  volcanic] 
+
+  path: 1[90129 -> 90129], [Asahan -> Asahan]
+  path: 2[90129 -> 20086 -> 10002], [Asahan -> Indonesia -> Asia] 
+
+-----------------------------------------
+ResultDestNodes: [10002, 20086, 20094, 20055, 20052, 20075, 20060, 90123, 90085, 90129]
+ResultRelevs: [10.003316879272461, 6.548610210418701, 6.548610210418701, 6.548610210418701, 6.548610210418701, 6.548610210418701, 6.548610210418701, 6.202090263366699, 6.202090263366699, 6.202090263366699]
+AvgResultRelev: 6.790124893188477
+AvgResultDissimilarity: 0.7755556106567383
+Num of entries retrieved from the KNLists: 587
+Num of entries retrieved from NKMaps: 994
+Num of answer trees explored: 290
+Num of states created: 957
+Num of states explored: 121
+Num of heuristic search performed: 9
+Max Num of answer tree sets in Q[]: 163
+
+Div Top-k Search by Astar2m10
+[mountain, river, asia]
+srcNodes: [101, 90120, 10002]
+  path: 0[10002 -> 20105 -> 101], [Asia -> Sri Lanka -> Pidurutalagala Pidurutalagala  ] 
+
+  path: 1[10002 -> 20052 -> 90120], [Asia -> Afghanistan -> Pjandsh] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [141, 90129, 10002]
+  path: 0[20086 -> 141], [Indonesia -> Leuser Leuser  volcanic] 
+
+  path: 1[20086 -> 90129], [Indonesia -> Asahan] 
+
+  path: 2[20086 -> 10002], [Indonesia -> Asia] 
+
+srcNodes: [93, 90084, 10002]
+  path: 0[20094 -> 93], [Lebanon -> Jabal Lubnan Jabal Lubnan Lebanon ] 
+
+  path: 1[20094 -> 90084], [Lebanon -> Jordan] 
+
+  path: 2[20094 -> 10002], [Lebanon -> Asia] 
+
+srcNodes: [116, 90128, 10002]
+  path: 0[20055 -> 116], [Pakistan -> Nanga Parbat Nanga Parbat Karakorum ] 
+
+  path: 1[20055 -> 90128], [Pakistan -> Indus] 
+
+  path: 2[20055 -> 10002], [Pakistan -> Asia] 
+
+srcNodes: [111, 90119, 10002]
+  path: 0[20052 -> 111], [Afghanistan -> Tirich Mir Tirich Mir Hindukusch ] 
+
+  path: 1[20052 -> 90119], [Afghanistan -> Amudarja] 
+
+  path: 2[20052 -> 10002], [Afghanistan -> Asia] 
+
+srcNodes: [107, 90118, 10002]
+  path: 0[20075 -> 107], [Kyrgyzstan -> Pik Lenina Pik Lenina Pamir ] 
+
+  path: 1[20075 -> 90118], [Kyrgyzstan -> Naryn] 
+
+  path: 2[20075 -> 10002], [Kyrgyzstan -> Asia] 
+
+srcNodes: [95, 90085, 10002]
+  path: 0[20060 -> 95], [Georgia -> Kasbek Kasbek Kaukasus volcanic] 
+
+  path: 1[20060 -> 90085], [Georgia -> Kura] 
+
+  path: 2[20060 -> 10002], [Georgia -> Asia] 
+
+srcNodes: [126, 90128, 10002]
+  path: 0[90128 -> 30658 -> 126], [Indus -> Tibet -> Makalu Makalu Himalaya ] 
+
+  path: 1[90128 -> 90128], [Indus -> Indus]
+  path: 2[90128 -> 20055 -> 10002], [Indus -> Pakistan -> Asia] 
+
+srcNodes: [126, 90127, 10002]
+  path: 0[90127 -> 30658 -> 126], [Brahmaputra -> Tibet -> Makalu Makalu Himalaya ] 
+
+  path: 1[90127 -> 90127], [Brahmaputra -> Brahmaputra]
+  path: 2[90127 -> 20063 -> 10002], [Brahmaputra -> Bangladesh -> Asia] 
+
+srcNodes: [126, 90123, 10002]
+  path: 0[90123 -> 30658 -> 126], [Mekong -> Tibet -> Makalu Makalu Himalaya ] 
+
+  path: 1[90123 -> 90123], [Mekong -> Mekong]
+  path: 2[90123 -> 20072 -> 10002], [Mekong -> Vietnam -> Asia] 
+
+-----------------------------------------
+ResultDestNodes: [10002, 20086, 20094, 20055, 20052, 20075, 20060, 90128, 90127, 90123]
+ResultRelevs: [10.003316879272461, 6.548610210418701, 6.548610210418701, 6.548610210418701, 6.548610210418701, 6.548610210418701, 6.548610210418701, 6.202090263366699, 6.202090263366699, 6.202090263366699]
+AvgResultRelev: 6.790124893188477
+AvgResultDissimilarity: 0.7733333110809326
+Num of entries retrieved from the KNLists: 587
+Num of entries retrieved from NKMaps: 994
+Num of answer trees explored: 290
+Num of states created: 57
+Num of states explored: 15
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 0
+

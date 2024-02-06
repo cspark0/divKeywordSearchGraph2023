@@ -1,0 +1,887 @@
+Blink Search Using BDB 10
+[mountains, river, america]
+srcNodes: [188, 90165, 10001]
+  path: 0[10001 -> 20118 -> 31017 -> 188], [America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20174 -> 90165], [America -> Uruguay -> Uruguay] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [190, 90141, 10001]
+  path: 0[20118 -> 31029 -> 190], [United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20118 -> 31018 -> 90141], [United States -> New York -> Hudson River] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [177, 90130, 10001]
+  path: 0[20117 -> 30976 -> 177], [Canada -> British Columbia -> Mt Columbia Mt Columbia Rocky Mountains ] 
+
+  path: 1[20117 -> 30986 -> 90130], [Canada -> Yukon Territory -> Yukon River] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+srcNodes: [190, 90164, 10001]
+  path: 0[20170 -> 10001 -> 20118 -> 31029 -> 190], [Bolivia -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20170 -> 90164], [Bolivia -> Paraguay] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [190, 90163, 10001]
+  path: 0[20173 -> 10001 -> 20118 -> 31029 -> 190], [Paraguay -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20173 -> 90163], [Paraguay -> Parana] 
+
+  path: 2[20173 -> 10001], [Paraguay -> America] 
+
+srcNodes: [190, 90165, 10001]
+  path: 0[20174 -> 10001 -> 20118 -> 31029 -> 190], [Uruguay -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20174 -> 90165], [Uruguay -> Uruguay] 
+
+  path: 2[20174 -> 10001], [Uruguay -> America] 
+
+srcNodes: [188, 90163, 10001]
+  path: 0[90163 -> 20173 -> 10001 -> 20118 -> 31017 -> 188], [Parana -> Paraguay -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[90163 -> 90163], [Parana -> Parana]
+  path: 2[90163 -> 20173 -> 10001], [Parana -> Paraguay -> America] 
+
+srcNodes: [188, 90164, 10001]
+  path: 0[90164 -> 20173 -> 10001 -> 20118 -> 31017 -> 188], [Paraguay -> Paraguay -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[90164 -> 90164], [Paraguay -> Paraguay]
+  path: 2[90164 -> 20173 -> 10001], [Paraguay -> Paraguay -> America] 
+
+srcNodes: [188, 90165, 10001]
+  path: 0[90165 -> 20174 -> 10001 -> 20118 -> 31017 -> 188], [Uruguay -> Uruguay -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[90165 -> 90165], [Uruguay -> Uruguay]
+  path: 2[90165 -> 20174 -> 10001], [Uruguay -> Uruguay -> America] 
+
+srcNodes: [190, 90153, 10001]
+  path: 0[20121 -> 10001 -> 20118 -> 31029 -> 190], [Nicaragua -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20121 -> 90153], [Nicaragua -> Rio San Juan] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20118, 20117, 20170, 20173, 20174, 90163, 90164, 90165, 20121]
+ResultRelevs: [10.0835599899292, 6.250939846038818, 6.250939846038818, 6.1865620613098145, 6.1865620613098145, 6.1865620613098145, 6.061450958251953, 6.061450958251953, 6.061450958251953, 5.911111831665039]
+Num of top-k answers: 10
+Num of non-reduced answers: 0
+Num of duplicate answers: 1
+Num of non-redundant answers: 9
+Num of entries retrieved from the lists: 369
+Num of entries retrieved from NKMaps: 595
+
+Blink Search Using ConstRootDup10
+[mountains, river, america]
+srcNodes: [187, 90164, 10001]
+  path: 0[10001 -> 20118 -> 30992 -> 187], [America -> United States -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20173 -> 90164], [America -> Paraguay -> Paraguay] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [188, 90165, 10001]
+  path: 0[10001 -> 20118 -> 31017 -> 188], [America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20174 -> 90165], [America -> Uruguay -> Uruguay] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [187, 90165, 10001]
+  path: 0[10001 -> 20118 -> 30992 -> 187], [America -> United States -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20174 -> 90165], [America -> Uruguay -> Uruguay] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [188, 90164, 10001]
+  path: 0[10001 -> 20118 -> 31017 -> 188], [America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20173 -> 90164], [America -> Paraguay -> Paraguay] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [170, 90165, 10001]
+  path: 0[10001 -> 20118 -> 30988 -> 170], [America -> United States -> Alaska -> Mt Blackburn Mt Blackburn Wrangell Mountains volcano] 
+
+  path: 1[10001 -> 20174 -> 90165], [America -> Uruguay -> Uruguay] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [177, 90130, 10001]
+  path: 0[20117 -> 30976 -> 177], [Canada -> British Columbia -> Mt Columbia Mt Columbia Rocky Mountains ] 
+
+  path: 1[20117 -> 30986 -> 90130], [Canada -> Yukon Territory -> Yukon River] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+srcNodes: [190, 90141, 10001]
+  path: 0[20118 -> 31029 -> 190], [United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20118 -> 31018 -> 90141], [United States -> New York -> Hudson River] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [190, 90163, 10001]
+  path: 0[20173 -> 10001 -> 20118 -> 31029 -> 190], [Paraguay -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20173 -> 90163], [Paraguay -> Parana] 
+
+  path: 2[20173 -> 10001], [Paraguay -> America] 
+
+srcNodes: [190, 90164, 10001]
+  path: 0[20170 -> 10001 -> 20118 -> 31029 -> 190], [Bolivia -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20170 -> 90164], [Bolivia -> Paraguay] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [190, 90165, 10001]
+  path: 0[20174 -> 10001 -> 20118 -> 31029 -> 190], [Uruguay -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20174 -> 90165], [Uruguay -> Uruguay] 
+
+  path: 2[20174 -> 10001], [Uruguay -> America] 
+
+-----------------------------------------
+ResultDestNodes: 
+10001, 10001, 10001, 10001, 10001, 20117, 20118, 20173, 20170, 20174, 
+ResultRelevs: 
+10.08356, 10.08356, 10.08356, 10.08356, 9.975654, 6.25094, 6.25094, 6.186562, 6.186562, 6.186562, 
+Num of top-k answers: 10
+Num of duplicate answers: 0
+Num of duplicate roots in top-k answers: 4
+root duplication ratio: 0.44444445
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 366
+Num of entries retrieved from NKMaps: 2112
+Num of answer trees explored: 5530
+
+Blink Search Using BDB 20
+[mountains, river, america]
+srcNodes: [188, 90165, 10001]
+  path: 0[10001 -> 20118 -> 31017 -> 188], [America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20174 -> 90165], [America -> Uruguay -> Uruguay] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [177, 90130, 10001]
+  path: 0[20117 -> 30976 -> 177], [Canada -> British Columbia -> Mt Columbia Mt Columbia Rocky Mountains ] 
+
+  path: 1[20117 -> 30986 -> 90130], [Canada -> Yukon Territory -> Yukon River] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+srcNodes: [190, 90141, 10001]
+  path: 0[20118 -> 31029 -> 190], [United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20118 -> 31018 -> 90141], [United States -> New York -> Hudson River] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [190, 90163, 10001]
+  path: 0[20173 -> 10001 -> 20118 -> 31029 -> 190], [Paraguay -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20173 -> 90163], [Paraguay -> Parana] 
+
+  path: 2[20173 -> 10001], [Paraguay -> America] 
+
+srcNodes: [190, 90164, 10001]
+  path: 0[20170 -> 10001 -> 20118 -> 31029 -> 190], [Bolivia -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20170 -> 90164], [Bolivia -> Paraguay] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [190, 90165, 10001]
+  path: 0[20174 -> 10001 -> 20118 -> 31029 -> 190], [Uruguay -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20174 -> 90165], [Uruguay -> Uruguay] 
+
+  path: 2[20174 -> 10001], [Uruguay -> America] 
+
+srcNodes: [188, 90163, 10001]
+  path: 0[90163 -> 20173 -> 10001 -> 20118 -> 31017 -> 188], [Parana -> Paraguay -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[90163 -> 90163], [Parana -> Parana]
+  path: 2[90163 -> 20173 -> 10001], [Parana -> Paraguay -> America] 
+
+srcNodes: [188, 90165, 10001]
+  path: 0[90165 -> 20174 -> 10001 -> 20118 -> 31017 -> 188], [Uruguay -> Uruguay -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[90165 -> 90165], [Uruguay -> Uruguay]
+  path: 2[90165 -> 20174 -> 10001], [Uruguay -> Uruguay -> America] 
+
+srcNodes: [188, 90164, 10001]
+  path: 0[90164 -> 20173 -> 10001 -> 20118 -> 31017 -> 188], [Paraguay -> Paraguay -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[90164 -> 90164], [Paraguay -> Paraguay]
+  path: 2[90164 -> 20173 -> 10001], [Paraguay -> Paraguay -> America] 
+
+srcNodes: [190, 90153, 10001]
+  path: 0[20121 -> 10001 -> 20118 -> 31029 -> 190], [Nicaragua -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20121 -> 90153], [Nicaragua -> Rio San Juan] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [190, 90156, 10001]
+  path: 0[20171 -> 10001 -> 20118 -> 31029 -> 190], [Brazil -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20171 -> 31201 -> 90156], [Brazil -> Amazonas -> Orinoco] 
+
+  path: 2[20171 -> 10001], [Brazil -> America] 
+
+srcNodes: [190, 90163, 10001]
+  path: 0[20169 -> 10001 -> 20118 -> 31029 -> 190], [Argentina -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20169 -> 31196 -> 90163], [Argentina -> Distrito Federal -> Parana] 
+
+  path: 2[20169 -> 10001], [Argentina -> America] 
+
+srcNodes: [190, 90163, 10001]
+  path: 0[20114 -> 10001 -> 20118 -> 31029 -> 190], [Mexico -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20114 -> 30972 -> 90163], [Mexico -> Distrito Federal -> Parana] 
+
+  path: 2[20114 -> 10001], [Mexico -> America] 
+
+srcNodes: [190, 90157, 10001]
+  path: 0[20137 -> 10001 -> 20118 -> 31029 -> 190], [Colombia -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20137 -> 31102 -> 90157], [Colombia -> Amazonas -> Amazonas] 
+
+  path: 2[20137 -> 10001], [Colombia -> America] 
+
+srcNodes: [190, 90156, 10001]
+  path: 0[20179 -> 10001 -> 20118 -> 31029 -> 190], [Venezuela -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20179 -> 31270 -> 90156], [Venezuela -> Monagas -> Orinoco] 
+
+  path: 2[20179 -> 10001], [Venezuela -> America] 
+
+srcNodes: [190, 90157, 10001]
+  path: 0[20175 -> 10001 -> 20118 -> 31029 -> 190], [Peru -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20175 -> 31252 -> 90157], [Peru -> Ucayali -> Amazonas] 
+
+  path: 2[20175 -> 10001], [Peru -> America] 
+
+srcNodes: [190, 90153, 10001]
+  path: 0[20120 -> 10001 -> 20118 -> 31029 -> 190], [Costa Rica -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20120 -> 31045 -> 90153], [Costa Rica -> Limon -> Rio San Juan] 
+
+  path: 2[20120 -> 10001], [Costa Rica -> America] 
+
+srcNodes: [188, 90160, 10001]
+  path: 0[90160 -> 20170 -> 10001 -> 20118 -> 31017 -> 188], [Rio Mamore -> Bolivia -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[90160 -> 90160], [Rio Mamore -> Rio Mamore]
+  path: 2[90160 -> 20170 -> 10001], [Rio Mamore -> Bolivia -> America] 
+
+srcNodes: [188, 90153, 10001]
+  path: 0[90153 -> 20121 -> 10001 -> 20118 -> 31017 -> 188], [Rio San Juan -> Nicaragua -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[90153 -> 90153], [Rio San Juan -> Rio San Juan]
+  path: 2[90153 -> 20121 -> 10001], [Rio San Juan -> Nicaragua -> America] 
+
+srcNodes: [188, 90154, 10001]
+  path: 0[90154 -> 20170 -> 10001 -> 20118 -> 31017 -> 188], [Rio Desaguadero -> Bolivia -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[90154 -> 90154], [Rio Desaguadero -> Rio Desaguadero]
+  path: 2[90154 -> 20170 -> 10001], [Rio Desaguadero -> Bolivia -> America] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20117, 20118, 20173, 20170, 20174, 90163, 90165, 90164, 20121, 20171, 20169, 20114, 20137, 20179, 20175, 20120, 90160, 90153, 90154]
+ResultRelevs: [10.0835599899292, 6.250939846038818, 6.250939846038818, 6.1865620613098145, 6.1865620613098145, 6.1865620613098145, 6.061450958251953, 6.061450958251953, 6.061450958251953, 5.911111831665039, 5.727471828460693, 5.727471828460693, 5.727471828460693, 5.727471828460693, 5.727471828460693, 5.727471828460693, 5.543835639953613, 5.510540962219238, 5.510540962219238, 5.510540962219238]
+Num of top-k answers: 20
+Num of non-reduced answers: 0
+Num of duplicate answers: 6
+Num of non-redundant answers: 14
+Num of entries retrieved from the lists: 587
+Num of entries retrieved from NKMaps: 895
+
+Blink Search Using ConstRootDup20
+[mountains, river, america]
+srcNodes: [187, 90164, 10001]
+  path: 0[10001 -> 20118 -> 30992 -> 187], [America -> United States -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20173 -> 90164], [America -> Paraguay -> Paraguay] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [188, 90164, 10001]
+  path: 0[10001 -> 20118 -> 31017 -> 188], [America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20173 -> 90164], [America -> Paraguay -> Paraguay] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [187, 90165, 10001]
+  path: 0[10001 -> 20118 -> 30992 -> 187], [America -> United States -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20174 -> 90165], [America -> Uruguay -> Uruguay] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [188, 90165, 10001]
+  path: 0[10001 -> 20118 -> 31017 -> 188], [America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20174 -> 90165], [America -> Uruguay -> Uruguay] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [170, 90165, 10001]
+  path: 0[10001 -> 20118 -> 30988 -> 170], [America -> United States -> Alaska -> Mt Blackburn Mt Blackburn Wrangell Mountains volcano] 
+
+  path: 1[10001 -> 20174 -> 90165], [America -> Uruguay -> Uruguay] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [170, 90164, 10001]
+  path: 0[10001 -> 20118 -> 30988 -> 170], [America -> United States -> Alaska -> Mt Blackburn Mt Blackburn Wrangell Mountains volcano] 
+
+  path: 1[10001 -> 20173 -> 90164], [America -> Paraguay -> Paraguay] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [188, 90135, 10001]
+  path: 0[10001 -> 20118 -> 31017 -> 188], [America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20117 -> 30982 -> 90135], [America -> Canada -> Ontario -> Niagara River] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [187, 90135, 10001]
+  path: 0[10001 -> 20118 -> 30992 -> 187], [America -> United States -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20117 -> 30982 -> 90135], [America -> Canada -> Ontario -> Niagara River] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [188, 90153, 10001]
+  path: 0[10001 -> 20118 -> 31017 -> 188], [America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20121 -> 90153], [America -> Nicaragua -> Rio San Juan] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [187, 90153, 10001]
+  path: 0[10001 -> 20118 -> 30992 -> 187], [America -> United States -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20121 -> 90153], [America -> Nicaragua -> Rio San Juan] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [177, 90130, 10001]
+  path: 0[20117 -> 30976 -> 177], [Canada -> British Columbia -> Mt Columbia Mt Columbia Rocky Mountains ] 
+
+  path: 1[20117 -> 30986 -> 90130], [Canada -> Yukon Territory -> Yukon River] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+srcNodes: [190, 90141, 10001]
+  path: 0[20118 -> 31029 -> 190], [United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20118 -> 31018 -> 90141], [United States -> New York -> Hudson River] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [190, 90164, 10001]
+  path: 0[20170 -> 10001 -> 20118 -> 31029 -> 190], [Bolivia -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20170 -> 90164], [Bolivia -> Paraguay] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [190, 90163, 10001]
+  path: 0[20173 -> 10001 -> 20118 -> 31029 -> 190], [Paraguay -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20173 -> 90163], [Paraguay -> Parana] 
+
+  path: 2[20173 -> 10001], [Paraguay -> America] 
+
+srcNodes: [190, 90165, 10001]
+  path: 0[20174 -> 10001 -> 20118 -> 31029 -> 190], [Uruguay -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20174 -> 90165], [Uruguay -> Uruguay] 
+
+  path: 2[20174 -> 10001], [Uruguay -> America] 
+
+srcNodes: [188, 90164, 10001]
+  path: 0[90164 -> 20173 -> 10001 -> 20118 -> 31017 -> 188], [Paraguay -> Paraguay -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[90164 -> 90164], [Paraguay -> Paraguay]
+  path: 2[90164 -> 20173 -> 10001], [Paraguay -> Paraguay -> America] 
+
+srcNodes: [188, 90165, 10001]
+  path: 0[90165 -> 20174 -> 10001 -> 20118 -> 31017 -> 188], [Uruguay -> Uruguay -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[90165 -> 90165], [Uruguay -> Uruguay]
+  path: 2[90165 -> 20174 -> 10001], [Uruguay -> Uruguay -> America] 
+
+srcNodes: [188, 90163, 10001]
+  path: 0[90163 -> 20173 -> 10001 -> 20118 -> 31017 -> 188], [Parana -> Paraguay -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[90163 -> 90163], [Parana -> Parana]
+  path: 2[90163 -> 20173 -> 10001], [Parana -> Paraguay -> America] 
+
+srcNodes: [190, 90153, 10001]
+  path: 0[20121 -> 10001 -> 20118 -> 31029 -> 190], [Nicaragua -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20121 -> 90153], [Nicaragua -> Rio San Juan] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [190, 90163, 10001]
+  path: 0[20169 -> 10001 -> 20118 -> 31029 -> 190], [Argentina -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20169 -> 31196 -> 90163], [Argentina -> Distrito Federal -> Parana] 
+
+  path: 2[20169 -> 10001], [Argentina -> America] 
+
+-----------------------------------------
+ResultDestNodes: 
+10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 20117, 20118, 20170, 20173, 20174, 90164, 90165, 90163, 20121, 20169, 
+ResultRelevs: 
+10.08356, 10.08356, 10.08356, 10.08356, 9.975654, 9.975654, 9.944482, 9.944482, 9.899923, 9.899923, 6.25094, 6.25094, 6.186562, 6.186562, 6.186562, 6.061451, 6.061451, 6.061451, 5.911112, 5.727472, 
+Num of top-k answers: 20
+Num of duplicate answers: 3
+Num of duplicate roots in top-k answers: 9
+root duplication ratio: 0.47368422
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 369
+Num of entries retrieved from NKMaps: 2116
+Num of answer trees explored: 5530
+
+Blink Search Using BDB 30
+[mountains, river, america]
+srcNodes: [188, 90165, 10001]
+  path: 0[10001 -> 20118 -> 31017 -> 188], [America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20174 -> 90165], [America -> Uruguay -> Uruguay] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [190, 90141, 10001]
+  path: 0[20118 -> 31029 -> 190], [United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20118 -> 31018 -> 90141], [United States -> New York -> Hudson River] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [177, 90130, 10001]
+  path: 0[20117 -> 30976 -> 177], [Canada -> British Columbia -> Mt Columbia Mt Columbia Rocky Mountains ] 
+
+  path: 1[20117 -> 30986 -> 90130], [Canada -> Yukon Territory -> Yukon River] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+srcNodes: [190, 90164, 10001]
+  path: 0[20170 -> 10001 -> 20118 -> 31029 -> 190], [Bolivia -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20170 -> 90164], [Bolivia -> Paraguay] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [190, 90165, 10001]
+  path: 0[20174 -> 10001 -> 20118 -> 31029 -> 190], [Uruguay -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20174 -> 90165], [Uruguay -> Uruguay] 
+
+  path: 2[20174 -> 10001], [Uruguay -> America] 
+
+srcNodes: [190, 90163, 10001]
+  path: 0[20173 -> 10001 -> 20118 -> 31029 -> 190], [Paraguay -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20173 -> 90163], [Paraguay -> Parana] 
+
+  path: 2[20173 -> 10001], [Paraguay -> America] 
+
+srcNodes: [188, 90163, 10001]
+  path: 0[90163 -> 20173 -> 10001 -> 20118 -> 31017 -> 188], [Parana -> Paraguay -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[90163 -> 90163], [Parana -> Parana]
+  path: 2[90163 -> 20173 -> 10001], [Parana -> Paraguay -> America] 
+
+srcNodes: [188, 90164, 10001]
+  path: 0[90164 -> 20173 -> 10001 -> 20118 -> 31017 -> 188], [Paraguay -> Paraguay -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[90164 -> 90164], [Paraguay -> Paraguay]
+  path: 2[90164 -> 20173 -> 10001], [Paraguay -> Paraguay -> America] 
+
+srcNodes: [188, 90165, 10001]
+  path: 0[90165 -> 20174 -> 10001 -> 20118 -> 31017 -> 188], [Uruguay -> Uruguay -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[90165 -> 90165], [Uruguay -> Uruguay]
+  path: 2[90165 -> 20174 -> 10001], [Uruguay -> Uruguay -> America] 
+
+srcNodes: [190, 90153, 10001]
+  path: 0[20121 -> 10001 -> 20118 -> 31029 -> 190], [Nicaragua -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20121 -> 90153], [Nicaragua -> Rio San Juan] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [190, 90156, 10001]
+  path: 0[20179 -> 10001 -> 20118 -> 31029 -> 190], [Venezuela -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20179 -> 31270 -> 90156], [Venezuela -> Monagas -> Orinoco] 
+
+  path: 2[20179 -> 10001], [Venezuela -> America] 
+
+srcNodes: [190, 90163, 10001]
+  path: 0[20169 -> 10001 -> 20118 -> 31029 -> 190], [Argentina -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20169 -> 31196 -> 90163], [Argentina -> Distrito Federal -> Parana] 
+
+  path: 2[20169 -> 10001], [Argentina -> America] 
+
+srcNodes: [190, 90157, 10001]
+  path: 0[20137 -> 10001 -> 20118 -> 31029 -> 190], [Colombia -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20137 -> 31102 -> 90157], [Colombia -> Amazonas -> Amazonas] 
+
+  path: 2[20137 -> 10001], [Colombia -> America] 
+
+srcNodes: [190, 90163, 10001]
+  path: 0[20114 -> 10001 -> 20118 -> 31029 -> 190], [Mexico -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20114 -> 30972 -> 90163], [Mexico -> Distrito Federal -> Parana] 
+
+  path: 2[20114 -> 10001], [Mexico -> America] 
+
+srcNodes: [190, 90156, 10001]
+  path: 0[20171 -> 10001 -> 20118 -> 31029 -> 190], [Brazil -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20171 -> 31201 -> 90156], [Brazil -> Amazonas -> Orinoco] 
+
+  path: 2[20171 -> 10001], [Brazil -> America] 
+
+srcNodes: [190, 90157, 10001]
+  path: 0[20175 -> 10001 -> 20118 -> 31029 -> 190], [Peru -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20175 -> 31252 -> 90157], [Peru -> Ucayali -> Amazonas] 
+
+  path: 2[20175 -> 10001], [Peru -> America] 
+
+srcNodes: [190, 90153, 10001]
+  path: 0[20120 -> 10001 -> 20118 -> 31029 -> 190], [Costa Rica -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20120 -> 31045 -> 90153], [Costa Rica -> Limon -> Rio San Juan] 
+
+  path: 2[20120 -> 10001], [Costa Rica -> America] 
+
+srcNodes: [188, 90159, 10001]
+  path: 0[90159 -> 20170 -> 10001 -> 20118 -> 31017 -> 188], [Rio Madeira -> Bolivia -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[90159 -> 90159], [Rio Madeira -> Rio Madeira]
+  path: 2[90159 -> 20170 -> 10001], [Rio Madeira -> Bolivia -> America] 
+
+srcNodes: [188, 90153, 10001]
+  path: 0[90153 -> 20121 -> 10001 -> 20118 -> 31017 -> 188], [Rio San Juan -> Nicaragua -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[90153 -> 90153], [Rio San Juan -> Rio San Juan]
+  path: 2[90153 -> 20121 -> 10001], [Rio San Juan -> Nicaragua -> America] 
+
+srcNodes: [188, 90160, 10001]
+  path: 0[90160 -> 20170 -> 10001 -> 20118 -> 31017 -> 188], [Rio Mamore -> Bolivia -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[90160 -> 90160], [Rio Mamore -> Rio Mamore]
+  path: 2[90160 -> 20170 -> 10001], [Rio Mamore -> Bolivia -> America] 
+
+srcNodes: [188, 90154, 10001]
+  path: 0[90154 -> 20170 -> 10001 -> 20118 -> 31017 -> 188], [Rio Desaguadero -> Bolivia -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[90154 -> 90154], [Rio Desaguadero -> Rio Desaguadero]
+  path: 2[90154 -> 20170 -> 10001], [Rio Desaguadero -> Bolivia -> America] 
+
+srcNodes: [190, 90164, 10001]
+  path: 0[20176 -> 10001 -> 20118 -> 31029 -> 190], [French Guiana -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20176 -> 10001 -> 20173 -> 90164], [French Guiana -> America -> Paraguay -> Paraguay] 
+
+  path: 2[20176 -> 10001], [French Guiana -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 90164, 10001]
+  path: 0[20181 -> 10001 -> 20118 -> 31029 -> 190], [Falkland Islands -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20181 -> 10001 -> 20173 -> 90164], [Falkland Islands -> America -> Paraguay -> Paraguay] 
+
+  path: 2[20181 -> 10001], [Falkland Islands -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 90164, 10001]
+  path: 0[20141 -> 10001 -> 20118 -> 31029 -> 190], [Saint Pierre and Miquelon -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20141 -> 10001 -> 20173 -> 90164], [Saint Pierre and Miquelon -> America -> Paraguay -> Paraguay] 
+
+  path: 2[20141 -> 10001], [Saint Pierre and Miquelon -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 90164, 10001]
+  path: 0[20142 -> 10001 -> 20118 -> 31029 -> 190], [Saint Vincent and the Grenadines -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20142 -> 10001 -> 20173 -> 90164], [Saint Vincent and the Grenadines -> America -> Paraguay -> Paraguay] 
+
+  path: 2[20142 -> 10001], [Saint Vincent and the Grenadines -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 90164, 10001]
+  path: 0[20143 -> 10001 -> 20118 -> 31029 -> 190], [Trinidad and Tobago -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20143 -> 10001 -> 20173 -> 90164], [Trinidad and Tobago -> America -> Paraguay -> Paraguay] 
+
+  path: 2[20143 -> 10001], [Trinidad and Tobago -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 90164, 10001]
+  path: 0[20124 -> 10001 -> 20118 -> 31029 -> 190], [Dominica -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20124 -> 10001 -> 20173 -> 90164], [Dominica -> America -> Paraguay -> Paraguay] 
+
+  path: 2[20124 -> 10001], [Dominica -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 90164, 10001]
+  path: 0[20180 -> 10001 -> 20118 -> 31029 -> 190], [Ecuador -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20180 -> 10001 -> 20173 -> 90164], [Ecuador -> America -> Paraguay -> Paraguay] 
+
+  path: 2[20180 -> 10001], [Ecuador -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 90164, 10001]
+  path: 0[20144 -> 10001 -> 20118 -> 31029 -> 190], [Turks and Caicos Islands -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20144 -> 10001 -> 20173 -> 90164], [Turks and Caicos Islands -> America -> Paraguay -> Paraguay] 
+
+  path: 2[20144 -> 10001], [Turks and Caicos Islands -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 90164, 10001]
+  path: 0[20145 -> 10001 -> 20118 -> 31029 -> 190], [Virgin Islands -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20145 -> 10001 -> 20173 -> 90164], [Virgin Islands -> America -> Paraguay -> Paraguay] 
+
+  path: 2[20145 -> 10001], [Virgin Islands -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+-----------------------------------------
+ResultDestNodes: [10001, 20118, 20117, 20170, 20174, 20173, 90163, 90164, 90165, 20121, 20179, 20169, 20137, 20114, 20171, 20175, 20120, 90159, 90153, 90160, 90154, 20176, 20181, 20141, 20142, 20143, 20124, 20180, 20144, 20145]
+ResultRelevs: [10.0835599899292, 6.250939846038818, 6.250939846038818, 6.1865620613098145, 6.1865620613098145, 6.1865620613098145, 6.061450958251953, 6.061450958251953, 6.061450958251953, 5.911111831665039, 5.727471828460693, 5.727471828460693, 5.727471828460693, 5.727471828460693, 5.727471828460693, 5.727471828460693, 5.543835639953613, 5.510540962219238, 5.510540962219238, 5.510540962219238, 5.510540962219238, 5.497926712036133, 5.497926712036133, 5.497926712036133, 5.497926712036133, 5.497926712036133, 5.497926712036133, 5.497926712036133, 5.497926712036133, 5.497926712036133]
+Num of top-k answers: 30
+Num of non-reduced answers: 9
+Num of duplicate answers: 15
+Num of non-redundant answers: 15
+Num of entries retrieved from the lists: 587
+Num of entries retrieved from NKMaps: 895
+
+Blink Search Using ConstRootDup30
+[mountains, river, america]
+srcNodes: [187, 90164, 10001]
+  path: 0[10001 -> 20118 -> 30992 -> 187], [America -> United States -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20173 -> 90164], [America -> Paraguay -> Paraguay] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [188, 90164, 10001]
+  path: 0[10001 -> 20118 -> 31017 -> 188], [America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20173 -> 90164], [America -> Paraguay -> Paraguay] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [187, 90165, 10001]
+  path: 0[10001 -> 20118 -> 30992 -> 187], [America -> United States -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20174 -> 90165], [America -> Uruguay -> Uruguay] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [188, 90165, 10001]
+  path: 0[10001 -> 20118 -> 31017 -> 188], [America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20174 -> 90165], [America -> Uruguay -> Uruguay] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [170, 90164, 10001]
+  path: 0[10001 -> 20118 -> 30988 -> 170], [America -> United States -> Alaska -> Mt Blackburn Mt Blackburn Wrangell Mountains volcano] 
+
+  path: 1[10001 -> 20173 -> 90164], [America -> Paraguay -> Paraguay] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [170, 90165, 10001]
+  path: 0[10001 -> 20118 -> 30988 -> 170], [America -> United States -> Alaska -> Mt Blackburn Mt Blackburn Wrangell Mountains volcano] 
+
+  path: 1[10001 -> 20174 -> 90165], [America -> Uruguay -> Uruguay] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [188, 90135, 10001]
+  path: 0[10001 -> 20118 -> 31017 -> 188], [America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20117 -> 30982 -> 90135], [America -> Canada -> Ontario -> Niagara River] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [187, 90135, 10001]
+  path: 0[10001 -> 20118 -> 30992 -> 187], [America -> United States -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20117 -> 30982 -> 90135], [America -> Canada -> Ontario -> Niagara River] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [188, 90153, 10001]
+  path: 0[10001 -> 20118 -> 31017 -> 188], [America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20121 -> 90153], [America -> Nicaragua -> Rio San Juan] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [187, 90153, 10001]
+  path: 0[10001 -> 20118 -> 30992 -> 187], [America -> United States -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20121 -> 90153], [America -> Nicaragua -> Rio San Juan] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [188, 90085, 10001]
+  path: 0[10001 -> 20118 -> 31017 -> 188], [America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20118 -> 30996 -> 90085], [America -> United States -> Georgia -> Kura] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [187, 90085, 10001]
+  path: 0[10001 -> 20118 -> 30992 -> 187], [America -> United States -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20118 -> 30996 -> 90085], [America -> United States -> Georgia -> Kura] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [170, 90135, 10001]
+  path: 0[10001 -> 20118 -> 30988 -> 170], [America -> United States -> Alaska -> Mt Blackburn Mt Blackburn Wrangell Mountains volcano] 
+
+  path: 1[10001 -> 20117 -> 30982 -> 90135], [America -> Canada -> Ontario -> Niagara River] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [170, 90153, 10001]
+  path: 0[10001 -> 20118 -> 30988 -> 170], [America -> United States -> Alaska -> Mt Blackburn Mt Blackburn Wrangell Mountains volcano] 
+
+  path: 1[10001 -> 20121 -> 90153], [America -> Nicaragua -> Rio San Juan] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [170, 90085, 10001]
+  path: 0[10001 -> 20118 -> 30988 -> 170], [America -> United States -> Alaska -> Mt Blackburn Mt Blackburn Wrangell Mountains volcano] 
+
+  path: 1[10001 -> 20118 -> 30996 -> 90085], [America -> United States -> Georgia -> Kura] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [177, 90130, 10001]
+  path: 0[20117 -> 30976 -> 177], [Canada -> British Columbia -> Mt Columbia Mt Columbia Rocky Mountains ] 
+
+  path: 1[20117 -> 30986 -> 90130], [Canada -> Yukon Territory -> Yukon River] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+srcNodes: [190, 90141, 10001]
+  path: 0[20118 -> 31029 -> 190], [United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20118 -> 31018 -> 90141], [United States -> New York -> Hudson River] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [190, 90164, 10001]
+  path: 0[20170 -> 10001 -> 20118 -> 31029 -> 190], [Bolivia -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20170 -> 90164], [Bolivia -> Paraguay] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [190, 90165, 10001]
+  path: 0[20174 -> 10001 -> 20118 -> 31029 -> 190], [Uruguay -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20174 -> 90165], [Uruguay -> Uruguay] 
+
+  path: 2[20174 -> 10001], [Uruguay -> America] 
+
+srcNodes: [190, 90163, 10001]
+  path: 0[20173 -> 10001 -> 20118 -> 31029 -> 190], [Paraguay -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20173 -> 90163], [Paraguay -> Parana] 
+
+  path: 2[20173 -> 10001], [Paraguay -> America] 
+
+srcNodes: [188, 90164, 10001]
+  path: 0[90164 -> 20173 -> 10001 -> 20118 -> 31017 -> 188], [Paraguay -> Paraguay -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[90164 -> 90164], [Paraguay -> Paraguay]
+  path: 2[90164 -> 20173 -> 10001], [Paraguay -> Paraguay -> America] 
+
+srcNodes: [188, 90163, 10001]
+  path: 0[90163 -> 20173 -> 10001 -> 20118 -> 31017 -> 188], [Parana -> Paraguay -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[90163 -> 90163], [Parana -> Parana]
+  path: 2[90163 -> 20173 -> 10001], [Parana -> Paraguay -> America] 
+
+srcNodes: [188, 90165, 10001]
+  path: 0[90165 -> 20174 -> 10001 -> 20118 -> 31017 -> 188], [Uruguay -> Uruguay -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[90165 -> 90165], [Uruguay -> Uruguay]
+  path: 2[90165 -> 20174 -> 10001], [Uruguay -> Uruguay -> America] 
+
+srcNodes: [190, 90153, 10001]
+  path: 0[20121 -> 10001 -> 20118 -> 31029 -> 190], [Nicaragua -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20121 -> 90153], [Nicaragua -> Rio San Juan] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [190, 90157, 10001]
+  path: 0[20137 -> 10001 -> 20118 -> 31029 -> 190], [Colombia -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20137 -> 31102 -> 90157], [Colombia -> Amazonas -> Amazonas] 
+
+  path: 2[20137 -> 10001], [Colombia -> America] 
+
+srcNodes: [190, 90163, 10001]
+  path: 0[20114 -> 10001 -> 20118 -> 31029 -> 190], [Mexico -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20114 -> 30972 -> 90163], [Mexico -> Distrito Federal -> Parana] 
+
+  path: 2[20114 -> 10001], [Mexico -> America] 
+
+srcNodes: [190, 90156, 10001]
+  path: 0[20179 -> 10001 -> 20118 -> 31029 -> 190], [Venezuela -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20179 -> 31270 -> 90156], [Venezuela -> Monagas -> Orinoco] 
+
+  path: 2[20179 -> 10001], [Venezuela -> America] 
+
+srcNodes: [190, 90157, 10001]
+  path: 0[20175 -> 10001 -> 20118 -> 31029 -> 190], [Peru -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20175 -> 31252 -> 90157], [Peru -> Ucayali -> Amazonas] 
+
+  path: 2[20175 -> 10001], [Peru -> America] 
+
+srcNodes: [190, 90163, 10001]
+  path: 0[20169 -> 10001 -> 20118 -> 31029 -> 190], [Argentina -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20169 -> 31196 -> 90163], [Argentina -> Distrito Federal -> Parana] 
+
+  path: 2[20169 -> 10001], [Argentina -> America] 
+
+srcNodes: [190, 90156, 10001]
+  path: 0[20171 -> 10001 -> 20118 -> 31029 -> 190], [Brazil -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20171 -> 31201 -> 90156], [Brazil -> Amazonas -> Orinoco] 
+
+  path: 2[20171 -> 10001], [Brazil -> America] 
+
+-----------------------------------------
+ResultDestNodes: 
+10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 20117, 20118, 20170, 20174, 20173, 90164, 90163, 90165, 20121, 20137, 20114, 20179, 20175, 20169, 20171, 
+ResultRelevs: 
+10.08356, 10.08356, 10.08356, 10.08356, 9.975654, 9.975654, 9.944482, 9.944482, 9.899923, 9.899923, 9.854015, 9.854015, 9.836576, 9.792018, 9.746109, 6.25094, 6.25094, 6.186562, 6.186562, 6.186562, 6.061451, 6.061451, 6.061451, 5.911112, 5.727472, 5.727472, 5.727472, 5.727472, 5.727472, 5.727472, 
+Num of top-k answers: 30
+Num of duplicate answers: 6
+Num of duplicate roots in top-k answers: 14
+root duplication ratio: 0.4827586
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 369
+Num of entries retrieved from NKMaps: 2116
+Num of answer trees explored: 5530
+

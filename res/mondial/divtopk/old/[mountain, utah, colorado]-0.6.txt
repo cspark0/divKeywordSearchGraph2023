@@ -1,0 +1,155 @@
+Div Top-k Search by Exhustive4
+[mountain, utah, colorado]
+srcNodes: [185, 31030, 90150]
+  path: 0[31030 -> 185], [Utah -> Kings Peak Kings Peak Rocky Mountains ] 
+
+  path: 1[31030 -> 31030], [Utah -> Utah]
+  path: 2[31030 -> 90150], [Utah -> Colorado] 
+
+srcNodes: [186, 31030, 90150]
+  path: 0[90150 -> 30992 -> 186], [Colorado -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 1[90150 -> 31030], [Colorado -> Utah] 
+
+  path: 2[90150 -> 90150], [Colorado -> Colorado]
+srcNodes: [187, 31030, 30992]
+  path: 0[30992 -> 187], [Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[30992 -> 90150 -> 31030], [Colorado -> Colorado -> Utah] 
+
+  path: 2[30992 -> 30992], [Colorado -> Colorado]
+srcNodes: [185, 31030, 130005]
+  path: 0[185 -> 185], [Kings Peak Kings Peak Rocky Mountains  -> Kings Peak Kings Peak Rocky Mountains ]
+  path: 1[185 -> 31030], [Kings Peak Kings Peak Rocky Mountains  -> Utah] 
+
+  path: 2[185 -> 31030 -> 130005], [Kings Peak Kings Peak Rocky Mountains  -> Utah -> Colorado Plateau] 
+
+-----------------------------------------
+ResultDestNodes: [31030, 90150, 30992, 185]
+ResultRelevs: [9.191049575805664, 8.590326309204102, 7.956459999084473, 6.436650276184082]
+AvgResultRelev: 8.04362154006958
+AvgResultDissimilarity: 0.699999988079071
+Num of entries retrieved from the KNLists: 52
+Num of entries retrieved from NKMaps: 63
+Num of answer trees explored: 22
+Num of answer tree sets created: 15
+Num of answer tree sets removed: 14
+Max Num of answer tree sets in Q[]: 15
+
+Div Top-k Search by Astar14
+[mountain, utah, colorado]
+srcNodes: [185, 31030, 90150]
+  path: 0[31030 -> 185], [Utah -> Kings Peak Kings Peak Rocky Mountains ] 
+
+  path: 1[31030 -> 31030], [Utah -> Utah]
+  path: 2[31030 -> 90150], [Utah -> Colorado] 
+
+srcNodes: [186, 31030, 90150]
+  path: 0[90150 -> 30992 -> 186], [Colorado -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 1[90150 -> 31030], [Colorado -> Utah] 
+
+  path: 2[90150 -> 90150], [Colorado -> Colorado]
+srcNodes: [187, 31030, 30992]
+  path: 0[30992 -> 187], [Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[30992 -> 90150 -> 31030], [Colorado -> Colorado -> Utah] 
+
+  path: 2[30992 -> 30992], [Colorado -> Colorado]
+srcNodes: [185, 31030, 130005]
+  path: 0[185 -> 185], [Kings Peak Kings Peak Rocky Mountains  -> Kings Peak Kings Peak Rocky Mountains ]
+  path: 1[185 -> 31030], [Kings Peak Kings Peak Rocky Mountains  -> Utah] 
+
+  path: 2[185 -> 31030 -> 130005], [Kings Peak Kings Peak Rocky Mountains  -> Utah -> Colorado Plateau] 
+
+-----------------------------------------
+ResultDestNodes: [31030, 90150, 30992, 185]
+ResultRelevs: [9.191049575805664, 8.590326309204102, 7.956459999084473, 6.436650276184082]
+AvgResultRelev: 8.04362154006958
+AvgResultDissimilarity: 0.699999988079071
+Num of entries retrieved from the KNLists: 52
+Num of entries retrieved from NKMaps: 63
+Num of answer trees explored: 22
+Num of states created: 11
+Num of states explored: 5
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 6
+
+Div Top-k Search by Astar24
+[mountain, utah, colorado]
+srcNodes: [185, 31030, 90150]
+  path: 0[31030 -> 185], [Utah -> Kings Peak Kings Peak Rocky Mountains ] 
+
+  path: 1[31030 -> 31030], [Utah -> Utah]
+  path: 2[31030 -> 90150], [Utah -> Colorado] 
+
+srcNodes: [186, 31030, 90150]
+  path: 0[90150 -> 30992 -> 186], [Colorado -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 1[90150 -> 31030], [Colorado -> Utah] 
+
+  path: 2[90150 -> 90150], [Colorado -> Colorado]
+srcNodes: [187, 31030, 30992]
+  path: 0[30992 -> 187], [Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[30992 -> 90150 -> 31030], [Colorado -> Colorado -> Utah] 
+
+  path: 2[30992 -> 30992], [Colorado -> Colorado]
+srcNodes: [185, 31030, 130005]
+  path: 0[185 -> 185], [Kings Peak Kings Peak Rocky Mountains  -> Kings Peak Kings Peak Rocky Mountains ]
+  path: 1[185 -> 31030], [Kings Peak Kings Peak Rocky Mountains  -> Utah] 
+
+  path: 2[185 -> 31030 -> 130005], [Kings Peak Kings Peak Rocky Mountains  -> Utah -> Colorado Plateau] 
+
+-----------------------------------------
+ResultDestNodes: [31030, 90150, 30992, 185]
+ResultRelevs: [9.191049575805664, 8.590326309204102, 7.956459999084473, 6.436650276184082]
+AvgResultRelev: 8.04362154006958
+AvgResultDissimilarity: 0.699999988079071
+Num of entries retrieved from the KNLists: 52
+Num of entries retrieved from NKMaps: 63
+Num of answer trees explored: 22
+Num of states created: 11
+Num of states explored: 5
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 6
+
+Div Top-k Search by Astar2re4
+[mountain, utah, colorado]
+srcNodes: [185, 31030, 90150]
+  path: 0[31030 -> 185], [Utah -> Kings Peak Kings Peak Rocky Mountains ] 
+
+  path: 1[31030 -> 31030], [Utah -> Utah]
+  path: 2[31030 -> 90150], [Utah -> Colorado] 
+
+srcNodes: [186, 31030, 90150]
+  path: 0[90150 -> 30992 -> 186], [Colorado -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 1[90150 -> 31030], [Colorado -> Utah] 
+
+  path: 2[90150 -> 90150], [Colorado -> Colorado]
+srcNodes: [187, 31030, 30992]
+  path: 0[30992 -> 187], [Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[30992 -> 90150 -> 31030], [Colorado -> Colorado -> Utah] 
+
+  path: 2[30992 -> 30992], [Colorado -> Colorado]
+srcNodes: [185, 31030, 130005]
+  path: 0[185 -> 185], [Kings Peak Kings Peak Rocky Mountains  -> Kings Peak Kings Peak Rocky Mountains ]
+  path: 1[185 -> 31030], [Kings Peak Kings Peak Rocky Mountains  -> Utah] 
+
+  path: 2[185 -> 31030 -> 130005], [Kings Peak Kings Peak Rocky Mountains  -> Utah -> Colorado Plateau] 
+
+-----------------------------------------
+ResultDestNodes: [31030, 90150, 30992, 185]
+ResultRelevs: [9.191049575805664, 8.590326309204102, 7.956459999084473, 6.436650276184082]
+AvgResultRelev: 8.04362154006958
+AvgResultDissimilarity: 0.699999988079071
+Num of entries retrieved from the KNLists: 52
+Num of entries retrieved from NKMaps: 63
+Num of answer trees explored: 22
+Num of states created: 11
+Num of states explored: 5
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 7
+

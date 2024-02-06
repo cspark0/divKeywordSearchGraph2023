@@ -1,0 +1,1621 @@
+Blink Search Using BDB 10
+[caldera, lake, america]
+srcNodes: [80107, 80122, 10001]
+  path: 0[10001 -> 20118 -> 31023 -> 80107], [America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[10001 -> 20170 -> 80122], [America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [80107, 80118, 10001]
+  path: 0[20121 -> 10001 -> 20118 -> 31023 -> 80107], [Nicaragua -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20121 -> 80118], [Nicaragua -> Lake Managua Lake Managua ] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20170 -> 10001 -> 20118 -> 31023 -> 80107], [Bolivia -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20170 -> 80122], [Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [80107, 80115, 10001]
+  path: 0[20118 -> 31023 -> 80107], [United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20118 -> 31027 -> 80115], [United States -> South Dakota -> Lake Oahe Lake Oahe artificial] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [80107, 80125, 10001]
+  path: 0[20172 -> 10001 -> 20118 -> 31023 -> 80107], [Chile -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20172 -> 80125], [Chile -> Licancabur Crater Lake Licancabur Crater Lake crater] 
+
+  path: 2[20172 -> 10001], [Chile -> America] 
+
+srcNodes: [80107, 80101, 10001]
+  path: 0[20117 -> 10001 -> 20118 -> 31023 -> 80107], [Canada -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20117 -> 30984 -> 80101], [Canada -> Quebec -> Lake Champlain Lake Champlain ] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+srcNodes: [80107, 80119, 10001]
+  path: 0[20120 -> 10001 -> 20118 -> 31023 -> 80107], [Costa Rica -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20120 -> 31041 -> 80119], [Costa Rica -> Cartago -> Lake Irazu Lake Irazu acid] 
+
+  path: 2[20120 -> 10001], [Costa Rica -> America] 
+
+srcNodes: [80107, 80120, 10001]
+  path: 0[20179 -> 10001 -> 20118 -> 31023 -> 80107], [Venezuela -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20179 -> 31277 -> 80120], [Venezuela -> Zulia -> Lake Maracaibo Lake Maracaibo ] 
+
+  path: 2[20179 -> 10001], [Venezuela -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20175 -> 10001 -> 20118 -> 31023 -> 80107], [Peru -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20175 -> 31248 -> 80122], [Peru -> Puno -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20175 -> 10001], [Peru -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20119 -> 10001 -> 20118 -> 31023 -> 80107], [Cayman Islands -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20119 -> 10001 -> 20170 -> 80122], [Cayman Islands -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20119 -> 10001], [Cayman Islands -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+-----------------------------------------
+ResultDestNodes: [10001, 20121, 20170, 20118, 20172, 20117, 20120, 20179, 20175, 20119]
+ResultRelevs: [10.531002044677734, 6.711239814758301, 6.711239814758301, 6.647520065307617, 6.494420051574707, 6.133059978485107, 6.133059978485107, 6.133059978485107, 6.133059978485107, 5.843975067138672]
+Num of top-k answers: 10
+Num of redundant answers: 1
+Num of duplicate answers: 3
+Num of entries retrieved from the lists: 368
+Num of entries retrieved from NKMaps: 606
+
+Blink Search Using BDB 10
+[caldera, lake, america]
+srcNodes: [80107, 80122, 10001]
+  path: 0[10001 -> 20118 -> 31023 -> 80107], [America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[10001 -> 20170 -> 80122], [America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [80107, 80118, 10001]
+  path: 0[20121 -> 10001 -> 20118 -> 31023 -> 80107], [Nicaragua -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20121 -> 80118], [Nicaragua -> Lake Managua Lake Managua ] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20170 -> 10001 -> 20118 -> 31023 -> 80107], [Bolivia -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20170 -> 80122], [Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [80107, 80115, 10001]
+  path: 0[20118 -> 31023 -> 80107], [United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20118 -> 31027 -> 80115], [United States -> South Dakota -> Lake Oahe Lake Oahe artificial] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [80107, 80125, 10001]
+  path: 0[20172 -> 10001 -> 20118 -> 31023 -> 80107], [Chile -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20172 -> 80125], [Chile -> Licancabur Crater Lake Licancabur Crater Lake crater] 
+
+  path: 2[20172 -> 10001], [Chile -> America] 
+
+srcNodes: [80107, 80101, 10001]
+  path: 0[20117 -> 10001 -> 20118 -> 31023 -> 80107], [Canada -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20117 -> 30984 -> 80101], [Canada -> Quebec -> Lake Champlain Lake Champlain ] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20175 -> 10001 -> 20118 -> 31023 -> 80107], [Peru -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20175 -> 31248 -> 80122], [Peru -> Puno -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20175 -> 10001], [Peru -> America] 
+
+srcNodes: [80107, 80120, 10001]
+  path: 0[20179 -> 10001 -> 20118 -> 31023 -> 80107], [Venezuela -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20179 -> 31277 -> 80120], [Venezuela -> Zulia -> Lake Maracaibo Lake Maracaibo ] 
+
+  path: 2[20179 -> 10001], [Venezuela -> America] 
+
+srcNodes: [80107, 80119, 10001]
+  path: 0[20120 -> 10001 -> 20118 -> 31023 -> 80107], [Costa Rica -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20120 -> 31041 -> 80119], [Costa Rica -> Cartago -> Lake Irazu Lake Irazu acid] 
+
+  path: 2[20120 -> 10001], [Costa Rica -> America] 
+
+srcNodes: [80107, 80111, 10001]
+  path: 0[20114 -> 10001 -> 20118 -> 31023 -> 80107], [Mexico -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20114 -> 30965 -> 90150 -> 80111], [Mexico -> Sonora -> Colorado -> Lake Powell Lake Powell artificial] 
+
+  path: 2[20114 -> 10001], [Mexico -> America] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20121, 20170, 20118, 20172, 20117, 20175, 20179, 20120, 20114]
+ResultRelevs: [10.531002044677734, 6.711239814758301, 6.711239814758301, 6.647520065307617, 6.494420051574707, 6.133059978485107, 6.133059978485107, 6.133059978485107, 6.133059978485107, 5.843975067138672]
+Num of top-k answers: 10
+Num of redundant answers: 0
+Num of duplicate answers: 2
+Num of entries retrieved from the lists: 368
+Num of entries retrieved from NKMaps: 606
+
+Blink Search Using BDB_reduced 10
+[caldera, lake, america]
+srcNodes: [80107, 80122, 10001]
+  path: 0[10001 -> 20118 -> 31023 -> 80107], [America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[10001 -> 20170 -> 80122], [America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [80107, 80118, 10001]
+  path: 0[20121 -> 10001 -> 20118 -> 31023 -> 80107], [Nicaragua -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20121 -> 80118], [Nicaragua -> Lake Managua Lake Managua ] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20170 -> 10001 -> 20118 -> 31023 -> 80107], [Bolivia -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20170 -> 80122], [Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [80107, 80115, 10001]
+  path: 0[20118 -> 31023 -> 80107], [United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20118 -> 31027 -> 80115], [United States -> South Dakota -> Lake Oahe Lake Oahe artificial] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [80107, 80125, 10001]
+  path: 0[20172 -> 10001 -> 20118 -> 31023 -> 80107], [Chile -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20172 -> 80125], [Chile -> Licancabur Crater Lake Licancabur Crater Lake crater] 
+
+  path: 2[20172 -> 10001], [Chile -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20175 -> 10001 -> 20118 -> 31023 -> 80107], [Peru -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20175 -> 31248 -> 80122], [Peru -> Puno -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20175 -> 10001], [Peru -> America] 
+
+srcNodes: [80107, 80101, 10001]
+  path: 0[20117 -> 10001 -> 20118 -> 31023 -> 80107], [Canada -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20117 -> 30984 -> 80101], [Canada -> Quebec -> Lake Champlain Lake Champlain ] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+srcNodes: [80107, 80120, 10001]
+  path: 0[20179 -> 10001 -> 20118 -> 31023 -> 80107], [Venezuela -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20179 -> 31277 -> 80120], [Venezuela -> Zulia -> Lake Maracaibo Lake Maracaibo ] 
+
+  path: 2[20179 -> 10001], [Venezuela -> America] 
+
+srcNodes: [80107, 80119, 10001]
+  path: 0[20120 -> 10001 -> 20118 -> 31023 -> 80107], [Costa Rica -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20120 -> 31041 -> 80119], [Costa Rica -> Cartago -> Lake Irazu Lake Irazu acid] 
+
+  path: 2[20120 -> 10001], [Costa Rica -> America] 
+
+srcNodes: [80107, 80111, 10001]
+  path: 0[20114 -> 10001 -> 20118 -> 31023 -> 80107], [Mexico -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20114 -> 30965 -> 90150 -> 80111], [Mexico -> Sonora -> Colorado -> Lake Powell Lake Powell artificial] 
+
+  path: 2[20114 -> 10001], [Mexico -> America] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20121, 20170, 20118, 20172, 20175, 20117, 20179, 20120, 20114]
+ResultRelevs: [10.531002044677734, 6.711239814758301, 6.711239814758301, 6.647520065307617, 6.494420051574707, 6.133059978485107, 6.133059978485107, 6.133059978485107, 6.133059978485107, 5.843975067138672]
+Num of top-k answers: 10
+Num of redundant answers: 0
+Num of duplicate answers: 2
+Num of entries retrieved from the lists: 368
+Num of entries retrieved from NKMaps: 1014
+Num of redundant candidate answers found: 136
+Num of reduced alternative answers found: 37
+
+Blink Search Using BDB_reducedNunique 10
+[caldera, lake, america]
+srcNodes: [80107, 80122, 10001]
+srcNodes: [80107, 80118, 10001]
+srcNodes: [80107, 80115, 10001]
+srcNodes: [80107, 80125, 10001]
+srcNodes: [80107, 80123, 10001]
+srcNodes: [80107, 80119, 10001]
+srcNodes: [80107, 80101, 10001]
+srcNodes: [80107, 80120, 10001]
+srcNodes: [80107, 80111, 10001]
+srcNodes: [80107, 80126, 10001]
+-----------------------------------------
+ResultDestNodes: [10001, 20121, 20118, 20172, 20170, 20120, 20117, 20179, 20114, 20169]
+ResultRelevs: [10.531002044677734, 6.711239814758301, 6.647520065307617, 6.494420051574707, 6.20320987701416, 6.133059978485107, 6.133059978485107, 6.133059978485107, 5.843975067138672, 5.692166328430176]
+Num of top-k answers: 10
+Num of redundant answers in top-k answers: 0
+Num of duplicate answers in top-k answers: 0
+Num of entries retrieved from the lists: 369
+Num of redundant candidate answers found: 136
+Num of reduced alternative answers found: 37
+Num of duplicate candidate answers found: 26
+Num of unique alternative answers found: 11
+
+Blink Search Using BDB_reducedNunique_BruteForce 10
+[caldera, lake, america]
+srcNodes: [80107, 80122, 10001]
+srcNodes: [80107, 80118, 10001]
+srcNodes: [80107, 80115, 10001]
+srcNodes: [80107, 80125, 10001]
+srcNodes: [80107, 80123, 10001]
+srcNodes: [80107, 80119, 10001]
+srcNodes: [80107, 80101, 10001]
+srcNodes: [80107, 80120, 10001]
+srcNodes: [80107, 80111, 10001]
+srcNodes: [80107, 80126, 10001]
+-----------------------------------------
+ResultDestNodes: [10001, 20121, 20118, 20172, 20170, 20120, 20117, 20179, 20114, 20169]
+ResultRelevs: [10.531002044677734, 6.711239814758301, 6.647520065307617, 6.494420051574707, 6.20320987701416, 6.133059978485107, 6.133059978485107, 6.133059978485107, 5.843975067138672, 5.692166328430176]
+Num of top-k answers: 10
+Num of redundant answers in top-k answers: 0
+Num of duplicate answers in top-k answers: 0
+Num of entries retrieved from the lists: 369
+Num of redundant candidate answers found: 136
+Num of reduced alternative answers found: 37
+Num of duplicate candidate answers found: 22
+Num of unique alternative answers found: 22
+
+Blink Search Using BDB 20
+[caldera, lake, america]
+srcNodes: [80107, 80122, 10001]
+  path: 0[10001 -> 20118 -> 31023 -> 80107], [America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[10001 -> 20170 -> 80122], [America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [80107, 80118, 10001]
+  path: 0[20121 -> 10001 -> 20118 -> 31023 -> 80107], [Nicaragua -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20121 -> 80118], [Nicaragua -> Lake Managua Lake Managua ] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20170 -> 10001 -> 20118 -> 31023 -> 80107], [Bolivia -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20170 -> 80122], [Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [80107, 80115, 10001]
+  path: 0[20118 -> 31023 -> 80107], [United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20118 -> 31027 -> 80115], [United States -> South Dakota -> Lake Oahe Lake Oahe artificial] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [80107, 80125, 10001]
+  path: 0[20172 -> 10001 -> 20118 -> 31023 -> 80107], [Chile -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20172 -> 80125], [Chile -> Licancabur Crater Lake Licancabur Crater Lake crater] 
+
+  path: 2[20172 -> 10001], [Chile -> America] 
+
+srcNodes: [80107, 80120, 10001]
+  path: 0[20179 -> 10001 -> 20118 -> 31023 -> 80107], [Venezuela -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20179 -> 31277 -> 80120], [Venezuela -> Zulia -> Lake Maracaibo Lake Maracaibo ] 
+
+  path: 2[20179 -> 10001], [Venezuela -> America] 
+
+srcNodes: [80107, 80101, 10001]
+  path: 0[20117 -> 10001 -> 20118 -> 31023 -> 80107], [Canada -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20117 -> 30984 -> 80101], [Canada -> Quebec -> Lake Champlain Lake Champlain ] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20175 -> 10001 -> 20118 -> 31023 -> 80107], [Peru -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20175 -> 31248 -> 80122], [Peru -> Puno -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20175 -> 10001], [Peru -> America] 
+
+srcNodes: [80107, 80119, 10001]
+  path: 0[20120 -> 10001 -> 20118 -> 31023 -> 80107], [Costa Rica -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20120 -> 31041 -> 80119], [Costa Rica -> Cartago -> Lake Irazu Lake Irazu acid] 
+
+  path: 2[20120 -> 10001], [Costa Rica -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20123 -> 10001 -> 20118 -> 31023 -> 80107], [Cuba -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20123 -> 10001 -> 20170 -> 80122], [Cuba -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20123 -> 10001], [Cuba -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20125 -> 10001 -> 20118 -> 31023 -> 80107], [Dominican Republic -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20125 -> 10001 -> 20170 -> 80122], [Dominican Republic -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20125 -> 10001], [Dominican Republic -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20126 -> 10001 -> 20118 -> 31023 -> 80107], [Haiti -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20126 -> 10001 -> 20170 -> 80122], [Haiti -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20126 -> 10001], [Haiti -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20119 -> 10001 -> 20118 -> 31023 -> 80107], [Cayman Islands -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20119 -> 10001 -> 20170 -> 80122], [Cayman Islands -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20119 -> 10001], [Cayman Islands -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20124 -> 10001 -> 20118 -> 31023 -> 80107], [Dominica -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20124 -> 10001 -> 20170 -> 80122], [Dominica -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20124 -> 10001], [Dominica -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20174 -> 10001 -> 20118 -> 31023 -> 80107], [Uruguay -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20174 -> 10001 -> 20170 -> 80122], [Uruguay -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20174 -> 10001], [Uruguay -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20127 -> 10001 -> 20118 -> 31023 -> 80107], [El Salvador -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20127 -> 10001 -> 20170 -> 80122], [El Salvador -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20127 -> 10001], [El Salvador -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20122 -> 10001 -> 20118 -> 31023 -> 80107], [Panama -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20122 -> 10001 -> 20170 -> 80122], [Panama -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20122 -> 10001], [Panama -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20178 -> 10001 -> 20118 -> 31023 -> 80107], [Suriname -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20178 -> 10001 -> 20170 -> 80122], [Suriname -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20178 -> 10001], [Suriname -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20177 -> 10001 -> 20118 -> 31023 -> 80107], [Guyana -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20177 -> 10001 -> 20170 -> 80122], [Guyana -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20177 -> 10001], [Guyana -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20176 -> 10001 -> 20118 -> 31023 -> 80107], [French Guiana -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20176 -> 10001 -> 20170 -> 80122], [French Guiana -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20176 -> 10001], [French Guiana -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+-----------------------------------------
+ResultDestNodes: [10001, 20121, 20170, 20118, 20172, 20179, 20117, 20175, 20120, 20123, 20125, 20126, 20119, 20124, 20174, 20127, 20122, 20178, 20177, 20176]
+ResultRelevs: [10.531002044677734, 6.711239814758301, 6.711239814758301, 6.647520065307617, 6.494420051574707, 6.133059978485107, 6.133059978485107, 6.133059978485107, 6.133059978485107, 5.843975067138672, 5.843975067138672, 5.843975067138672, 5.843975067138672, 5.843975067138672, 5.843975067138672, 5.843975067138672, 5.843975067138672, 5.843975067138672, 5.843975067138672, 5.843975067138672]
+Num of top-k answers: 20
+Num of redundant answers: 11
+Num of duplicate answers: 13
+Num of entries retrieved from the lists: 368
+Num of entries retrieved from NKMaps: 606
+
+Blink Search Using BDB 20
+[caldera, lake, america]
+srcNodes: [80107, 80122, 10001]
+  path: 0[10001 -> 20118 -> 31023 -> 80107], [America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[10001 -> 20170 -> 80122], [America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [80107, 80122, 10001]
+  path: 0[20170 -> 10001 -> 20118 -> 31023 -> 80107], [Bolivia -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20170 -> 80122], [Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [80107, 80118, 10001]
+  path: 0[20121 -> 10001 -> 20118 -> 31023 -> 80107], [Nicaragua -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20121 -> 80118], [Nicaragua -> Lake Managua Lake Managua ] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [80107, 80115, 10001]
+  path: 0[20118 -> 31023 -> 80107], [United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20118 -> 31027 -> 80115], [United States -> South Dakota -> Lake Oahe Lake Oahe artificial] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [80107, 80125, 10001]
+  path: 0[20172 -> 10001 -> 20118 -> 31023 -> 80107], [Chile -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20172 -> 80125], [Chile -> Licancabur Crater Lake Licancabur Crater Lake crater] 
+
+  path: 2[20172 -> 10001], [Chile -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20175 -> 10001 -> 20118 -> 31023 -> 80107], [Peru -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20175 -> 31248 -> 80122], [Peru -> Puno -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20175 -> 10001], [Peru -> America] 
+
+srcNodes: [80107, 80119, 10001]
+  path: 0[20120 -> 10001 -> 20118 -> 31023 -> 80107], [Costa Rica -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20120 -> 31041 -> 80119], [Costa Rica -> Cartago -> Lake Irazu Lake Irazu acid] 
+
+  path: 2[20120 -> 10001], [Costa Rica -> America] 
+
+srcNodes: [80107, 80120, 10001]
+  path: 0[20179 -> 10001 -> 20118 -> 31023 -> 80107], [Venezuela -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20179 -> 31277 -> 80120], [Venezuela -> Zulia -> Lake Maracaibo Lake Maracaibo ] 
+
+  path: 2[20179 -> 10001], [Venezuela -> America] 
+
+srcNodes: [80107, 80101, 10001]
+  path: 0[20117 -> 10001 -> 20118 -> 31023 -> 80107], [Canada -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20117 -> 30984 -> 80101], [Canada -> Quebec -> Lake Champlain Lake Champlain ] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20173 -> 10001 -> 20118 -> 31023 -> 80107], [Paraguay -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20173 -> 90164 -> 20170 -> 80122], [Paraguay -> Paraguay -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20173 -> 10001], [Paraguay -> America] 
+
+srcNodes: [80107, 80111, 10001]
+  path: 0[20114 -> 10001 -> 20118 -> 31023 -> 80107], [Mexico -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20114 -> 30965 -> 90150 -> 80111], [Mexico -> Sonora -> Colorado -> Lake Powell Lake Powell artificial] 
+
+  path: 2[20114 -> 10001], [Mexico -> America] 
+
+srcNodes: [80107, 80118, 10001]
+  path: 0[90153 -> 20121 -> 10001 -> 20118 -> 31023 -> 80107], [Rio San Juan -> Nicaragua -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[90153 -> 80118], [Rio San Juan -> Lake Managua Lake Managua ] 
+
+  path: 2[90153 -> 20121 -> 10001], [Rio San Juan -> Nicaragua -> America] 
+
+srcNodes: [80107, 80123, 10001]
+  path: 0[90154 -> 20170 -> 10001 -> 20118 -> 31023 -> 80107], [Rio Desaguadero -> Bolivia -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[90154 -> 80123], [Rio Desaguadero -> Poopo Poopo salt] 
+
+  path: 2[90154 -> 20170 -> 10001], [Rio Desaguadero -> Bolivia -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[90164 -> 20173 -> 10001 -> 20118 -> 31023 -> 80107], [Paraguay -> Paraguay -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[90164 -> 20170 -> 80122], [Paraguay -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[90164 -> 20173 -> 10001], [Paraguay -> Paraguay -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[234 -> 20172 -> 10001 -> 20118 -> 31023 -> 80107], [Licancabur Licancabur Andes volcano -> Chile -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[234 -> 20170 -> 80122], [Licancabur Licancabur Andes volcano -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[234 -> 20172 -> 10001], [Licancabur Licancabur Andes volcano -> Chile -> America] 
+
+srcNodes: [80018, 80014, 50039]
+  path: 0[80014 -> 90071 -> 30084 -> 80018], [Bodensee Bodensee  -> Rhein -> Rheinland Pfalz -> Laacher Maar Laacher Maar caldera] 
+
+  path: 1[80014 -> 80014], [Bodensee Bodensee  -> Bodensee Bodensee ]
+  path: 2[80014 -> 90071 -> 20014 -> 10004 -> 20051 -> 50039], [Bodensee Bodensee  -> Rhein -> Liechtenstein -> Europe -> United Kingdom -> Economic Commission for Latin America and the Caribbean Economic Commission for Latin America and the Caribbean ECLAC] 
+
+srcNodes: [80047, 80047, 50039]
+  path: 0[20086 -> 80047], [Indonesia -> Lake Toba Lake Toba caldera] 
+
+  path: 1[20086 -> 80047], [Indonesia -> Lake Toba Lake Toba caldera] 
+
+  path: 2[20086 -> 10002 -> 20031 -> 10004 -> 20051 -> 50039], [Indonesia -> Asia -> Turkey -> Europe -> United Kingdom -> Economic Commission for Latin America and the Caribbean Economic Commission for Latin America and the Caribbean ECLAC] 
+
+srcNodes: [80107, 80126, 10001]
+  path: 0[90163 -> 20173 -> 10001 -> 20118 -> 31023 -> 80107], [Parana -> Paraguay -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[90163 -> 31192 -> 80126], [Parana -> Santa Fe -> Laguna Mar Chiquita Laguna Mar Chiquita salt] 
+
+  path: 2[90163 -> 20173 -> 10001], [Parana -> Paraguay -> America] 
+
+srcNodes: [80047, 80047, 10001]
+  path: 0[10003 -> 20086 -> 80047], [Australia/Oceania -> Indonesia -> Lake Toba Lake Toba caldera] 
+
+  path: 1[10003 -> 20086 -> 80047], [Australia/Oceania -> Indonesia -> Lake Toba Lake Toba caldera] 
+
+  path: 2[10003 -> 20159 -> 41321 -> 110205 -> 20132 -> 10001], [Australia/Oceania -> Norfolk Island -> Kingston -> Jamaica Jamaica Greater Antilles  -> Jamaica -> America] 
+
+srcNodes: [80027, 80033, 50039]
+  path: 0[20013 -> 30124 -> 80027], [Italy -> Umbria -> Lago Trasimeno Lago Trasimeno caldera] 
+
+  path: 1[20013 -> 10004 -> 20002 -> 80033], [Italy -> Europe -> Macedonia -> Lake Prespa Lake Prespa ] 
+
+  path: 2[20013 -> 50039], [Italy -> Economic Commission for Latin America and the Caribbean Economic Commission for Latin America and the Caribbean ECLAC] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20170, 20121, 20118, 20172, 20175, 20120, 20179, 20117, 20173, 20114, 90153, 90154, 90164, 234, 80014, 20086, 90163, 10003, 20013]
+ResultRelevs: [10.531002044677734, 6.711239814758301, 6.711239814758301, 6.647520065307617, 6.494420051574707, 6.133059978485107, 6.133059978485107, 6.133059978485107, 6.133059978485107, 5.843975067138672, 5.843975067138672, 5.18095588684082, 4.67292594909668, 4.602776050567627, 4.602776050567627, 4.55648136138916, 4.18937873840332, 4.161881923675537, 3.844180107116699, 3.730294942855835]
+Num of top-k answers: 20
+Num of redundant answers: 0
+Num of duplicate answers: 6
+Num of entries retrieved from the lists: 806
+Num of entries retrieved from NKMaps: 1195
+
+Blink Search Using BDB_reduced 20
+[caldera, lake, america]
+srcNodes: [80107, 80122, 10001]
+  path: 0[10001 -> 20118 -> 31023 -> 80107], [America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[10001 -> 20170 -> 80122], [America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [80107, 80118, 10001]
+  path: 0[20121 -> 10001 -> 20118 -> 31023 -> 80107], [Nicaragua -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20121 -> 80118], [Nicaragua -> Lake Managua Lake Managua ] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20170 -> 10001 -> 20118 -> 31023 -> 80107], [Bolivia -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20170 -> 80122], [Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [80107, 80115, 10001]
+  path: 0[20118 -> 31023 -> 80107], [United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20118 -> 31027 -> 80115], [United States -> South Dakota -> Lake Oahe Lake Oahe artificial] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [80107, 80125, 10001]
+  path: 0[20172 -> 10001 -> 20118 -> 31023 -> 80107], [Chile -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20172 -> 80125], [Chile -> Licancabur Crater Lake Licancabur Crater Lake crater] 
+
+  path: 2[20172 -> 10001], [Chile -> America] 
+
+srcNodes: [80107, 80119, 10001]
+  path: 0[20120 -> 10001 -> 20118 -> 31023 -> 80107], [Costa Rica -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20120 -> 31041 -> 80119], [Costa Rica -> Cartago -> Lake Irazu Lake Irazu acid] 
+
+  path: 2[20120 -> 10001], [Costa Rica -> America] 
+
+srcNodes: [80107, 80101, 10001]
+  path: 0[20117 -> 10001 -> 20118 -> 31023 -> 80107], [Canada -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20117 -> 30984 -> 80101], [Canada -> Quebec -> Lake Champlain Lake Champlain ] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20175 -> 10001 -> 20118 -> 31023 -> 80107], [Peru -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20175 -> 31248 -> 80122], [Peru -> Puno -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20175 -> 10001], [Peru -> America] 
+
+srcNodes: [80107, 80120, 10001]
+  path: 0[20179 -> 10001 -> 20118 -> 31023 -> 80107], [Venezuela -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20179 -> 31277 -> 80120], [Venezuela -> Zulia -> Lake Maracaibo Lake Maracaibo ] 
+
+  path: 2[20179 -> 10001], [Venezuela -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20173 -> 10001 -> 20118 -> 31023 -> 80107], [Paraguay -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20173 -> 90164 -> 20170 -> 80122], [Paraguay -> Paraguay -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20173 -> 10001], [Paraguay -> America] 
+
+srcNodes: [80107, 80111, 10001]
+  path: 0[20114 -> 10001 -> 20118 -> 31023 -> 80107], [Mexico -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20114 -> 30965 -> 90150 -> 80111], [Mexico -> Sonora -> Colorado -> Lake Powell Lake Powell artificial] 
+
+  path: 2[20114 -> 10001], [Mexico -> America] 
+
+srcNodes: [80107, 80126, 10001]
+  path: 0[20169 -> 10001 -> 20118 -> 31023 -> 80107], [Argentina -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20169 -> 31193 -> 80126], [Argentina -> Santiago de Estero -> Laguna Mar Chiquita Laguna Mar Chiquita salt] 
+
+  path: 2[20169 -> 10001], [Argentina -> America] 
+
+srcNodes: [80107, 80121, 10001]
+  path: 0[20171 -> 10001 -> 20118 -> 31023 -> 80107], [Brazil -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20171 -> 31202 -> 80121], [Brazil -> Bahia -> Lago de Sobradinho Lago de Sobradinho artificial] 
+
+  path: 2[20171 -> 10001], [Brazil -> America] 
+
+srcNodes: [80107, 80126, 10001]
+  path: 0[20137 -> 10001 -> 20118 -> 31023 -> 80107], [Colombia -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20137 -> 31114 -> 80126], [Colombia -> Cordoba -> Laguna Mar Chiquita Laguna Mar Chiquita salt] 
+
+  path: 2[20137 -> 10001], [Colombia -> America] 
+
+srcNodes: [80107, 80085, 10001]
+  path: 0[20132 -> 10001 -> 20118 -> 31023 -> 80107], [Jamaica -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20132 -> 41320 -> 110006 -> 31402 -> 90210 -> 80085], [Jamaica -> Kingston -> Great Britain Great Britain British Isles  -> Central -> Zambezi -> Lake Kariba Lake Kariba artificial] 
+
+  path: 2[20132 -> 10001], [Jamaica -> America] 
+
+srcNodes: [80107, 80085, 10001]
+  path: 0[20134 -> 10001 -> 20118 -> 31023 -> 80107], [Montserrat -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20134 -> 42108 -> 110006 -> 31402 -> 90210 -> 80085], [Montserrat -> Plymouth -> Great Britain Great Britain British Isles  -> Central -> Zambezi -> Lake Kariba Lake Kariba artificial] 
+
+  path: 2[20134 -> 10001], [Montserrat -> America] 
+
+srcNodes: [80107, 80118, 10001]
+  path: 0[90153 -> 20121 -> 10001 -> 20118 -> 31023 -> 80107], [Rio San Juan -> Nicaragua -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[90153 -> 80118], [Rio San Juan -> Lake Managua Lake Managua ] 
+
+  path: 2[90153 -> 20121 -> 10001], [Rio San Juan -> Nicaragua -> America] 
+
+srcNodes: [80107, 80123, 10001]
+  path: 0[90154 -> 20170 -> 10001 -> 20118 -> 31023 -> 80107], [Rio Desaguadero -> Bolivia -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[90154 -> 80123], [Rio Desaguadero -> Poopo Poopo salt] 
+
+  path: 2[90154 -> 20170 -> 10001], [Rio Desaguadero -> Bolivia -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[234 -> 20172 -> 10001 -> 20118 -> 31023 -> 80107], [Licancabur Licancabur Andes volcano -> Chile -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[234 -> 20170 -> 80122], [Licancabur Licancabur Andes volcano -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[234 -> 20172 -> 10001], [Licancabur Licancabur Andes volcano -> Chile -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[90164 -> 20173 -> 10001 -> 20118 -> 31023 -> 80107], [Paraguay -> Paraguay -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[90164 -> 20170 -> 80122], [Paraguay -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[90164 -> 20173 -> 10001], [Paraguay -> Paraguay -> America] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20121, 20170, 20118, 20172, 20120, 20117, 20175, 20179, 20173, 20114, 20169, 20171, 20137, 20132, 20134, 90153, 90154, 234, 90164]
+ResultRelevs: [10.531002044677734, 6.711239814758301, 6.711239814758301, 6.647520065307617, 6.494420051574707, 6.133059978485107, 6.133059978485107, 6.133059978485107, 6.133059978485107, 5.843975067138672, 5.843975067138672, 5.692166328430176, 5.692166328430176, 5.692166328430176, 5.5548882484436035, 5.5548882484436035, 5.18095588684082, 4.67292594909668, 4.602776050567627, 4.602776050567627]
+Num of top-k answers: 20
+Num of redundant answers: 0
+Num of duplicate answers: 8
+Num of entries retrieved from the lists: 600
+Num of entries retrieved from NKMaps: 1397
+Num of redundant candidate answers found: 159
+Num of reduced alternative answers found: 39
+
+Blink Search Using BDB_reducedNunique 20
+[caldera, lake, america]
+srcNodes: [80107, 80122, 10001]
+srcNodes: [80107, 80118, 10001]
+srcNodes: [80107, 80115, 10001]
+srcNodes: [80107, 80125, 10001]
+srcNodes: [80107, 80123, 10001]
+srcNodes: [80107, 80101, 10001]
+srcNodes: [80107, 80119, 10001]
+srcNodes: [80107, 80120, 10001]
+srcNodes: [80107, 80111, 10001]
+srcNodes: [80107, 80121, 10001]
+srcNodes: [80107, 80126, 10001]
+srcNodes: [80107, 80089, 10001]
+srcNodes: [80107, 80085, 10001]
+srcNodes: [80107, 80117, 10001]
+srcNodes: [80018, 80014, 50039]
+srcNodes: [80047, 80047, 50039]
+srcNodes: [80107, 80124, 10001]
+srcNodes: [80047, 80047, 10001]
+srcNodes: [80027, 80033, 50039]
+srcNodes: [80018, 80018, 50039]
+-----------------------------------------
+ResultDestNodes: [10001, 20121, 20118, 20172, 20170, 20117, 20120, 20179, 20114, 20171, 20169, 20137, 20132, 90153, 80014, 20086, 90154, 10003, 20013, 30084]
+ResultRelevs: [10.531002044677734, 6.711239814758301, 6.647520065307617, 6.494420051574707, 6.20320987701416, 6.133059978485107, 6.133059978485107, 6.133059978485107, 5.843975067138672, 5.692166328430176, 5.692166328430176, 5.6705217361450195, 5.5548882484436035, 4.602776050567627, 4.55648136138916, 4.18937873840332, 4.161881923675537, 3.844180107116699, 3.730294942855835, 3.681349039077759]
+Num of top-k answers: 20
+Num of redundant answers in top-k answers: 0
+Num of duplicate answers in top-k answers: 0
+Num of entries retrieved from the lists: 814
+Num of redundant candidate answers found: 174
+Num of reduced alternative answers found: 49
+Num of duplicate candidate answers found: 66
+Num of unique alternative answers found: 36
+
+Blink Search Using BDB_reducedNunique_BruteForce 20
+[caldera, lake, america]
+srcNodes: [80107, 80122, 10001]
+srcNodes: [80107, 80118, 10001]
+srcNodes: [80107, 80115, 10001]
+srcNodes: [80107, 80125, 10001]
+srcNodes: [80107, 80123, 10001]
+srcNodes: [80107, 80120, 10001]
+srcNodes: [80107, 80101, 10001]
+srcNodes: [80107, 80119, 10001]
+srcNodes: [80107, 80111, 10001]
+srcNodes: [80107, 80126, 10001]
+srcNodes: [80107, 80121, 10001]
+srcNodes: [80107, 80089, 10001]
+srcNodes: [80107, 80085, 10001]
+srcNodes: [80107, 80117, 10001]
+srcNodes: [80018, 80014, 50039]
+srcNodes: [80047, 80047, 50039]
+srcNodes: [80107, 80124, 10001]
+srcNodes: [80047, 80047, 10001]
+srcNodes: [80027, 80033, 50039]
+srcNodes: [80018, 80018, 50039]
+-----------------------------------------
+ResultDestNodes: [10001, 20121, 20118, 20172, 20170, 20179, 20117, 20120, 20114, 20169, 20171, 20137, 20132, 90153, 80014, 20086, 90154, 10003, 20013, 30084]
+ResultRelevs: [10.531002044677734, 6.711239814758301, 6.647520065307617, 6.494420051574707, 6.20320987701416, 6.133059978485107, 6.133059978485107, 6.133059978485107, 5.843975067138672, 5.692166328430176, 5.692166328430176, 5.670522212982178, 5.5548882484436035, 4.602776050567627, 4.55648136138916, 4.18937873840332, 4.161881923675537, 3.844180107116699, 3.730294942855835, 3.681349039077759]
+Num of top-k answers: 20
+Num of redundant answers in top-k answers: 0
+Num of duplicate answers in top-k answers: 0
+Num of entries retrieved from the lists: 814
+Num of redundant candidate answers found: 174
+Num of reduced alternative answers found: 49
+Num of duplicate candidate answers found: 51
+Num of unique alternative answers found: 51
+
+Blink Search Using BDB 30
+[caldera, lake, america]
+srcNodes: [80107, 80122, 10001]
+  path: 0[10001 -> 20118 -> 31023 -> 80107], [America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[10001 -> 20170 -> 80122], [America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [80107, 80122, 10001]
+  path: 0[20170 -> 10001 -> 20118 -> 31023 -> 80107], [Bolivia -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20170 -> 80122], [Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [80107, 80118, 10001]
+  path: 0[20121 -> 10001 -> 20118 -> 31023 -> 80107], [Nicaragua -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20121 -> 80118], [Nicaragua -> Lake Managua Lake Managua ] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [80107, 80115, 10001]
+  path: 0[20118 -> 31023 -> 80107], [United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20118 -> 31027 -> 80115], [United States -> South Dakota -> Lake Oahe Lake Oahe artificial] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [80107, 80125, 10001]
+  path: 0[20172 -> 10001 -> 20118 -> 31023 -> 80107], [Chile -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20172 -> 80125], [Chile -> Licancabur Crater Lake Licancabur Crater Lake crater] 
+
+  path: 2[20172 -> 10001], [Chile -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20175 -> 10001 -> 20118 -> 31023 -> 80107], [Peru -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20175 -> 31248 -> 80122], [Peru -> Puno -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20175 -> 10001], [Peru -> America] 
+
+srcNodes: [80107, 80119, 10001]
+  path: 0[20120 -> 10001 -> 20118 -> 31023 -> 80107], [Costa Rica -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20120 -> 31041 -> 80119], [Costa Rica -> Cartago -> Lake Irazu Lake Irazu acid] 
+
+  path: 2[20120 -> 10001], [Costa Rica -> America] 
+
+srcNodes: [80107, 80120, 10001]
+  path: 0[20179 -> 10001 -> 20118 -> 31023 -> 80107], [Venezuela -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20179 -> 31277 -> 80120], [Venezuela -> Zulia -> Lake Maracaibo Lake Maracaibo ] 
+
+  path: 2[20179 -> 10001], [Venezuela -> America] 
+
+srcNodes: [80107, 80101, 10001]
+  path: 0[20117 -> 10001 -> 20118 -> 31023 -> 80107], [Canada -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20117 -> 30984 -> 80101], [Canada -> Quebec -> Lake Champlain Lake Champlain ] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20142 -> 10001 -> 20118 -> 31023 -> 80107], [Saint Vincent and the Grenadines -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20142 -> 10001 -> 20170 -> 80122], [Saint Vincent and the Grenadines -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20142 -> 10001], [Saint Vincent and the Grenadines -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20119 -> 10001 -> 20118 -> 31023 -> 80107], [Cayman Islands -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20119 -> 10001 -> 20170 -> 80122], [Cayman Islands -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20119 -> 10001], [Cayman Islands -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20126 -> 10001 -> 20118 -> 31023 -> 80107], [Haiti -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20126 -> 10001 -> 20170 -> 80122], [Haiti -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20126 -> 10001], [Haiti -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20171 -> 10001 -> 20118 -> 31023 -> 80107], [Brazil -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20171 -> 10001 -> 20170 -> 80122], [Brazil -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20171 -> 10001], [Brazil -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20145 -> 10001 -> 20118 -> 31023 -> 80107], [Virgin Islands -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20145 -> 10001 -> 20170 -> 80122], [Virgin Islands -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20145 -> 10001], [Virgin Islands -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20181 -> 10001 -> 20118 -> 31023 -> 80107], [Falkland Islands -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20181 -> 10001 -> 20170 -> 80122], [Falkland Islands -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20181 -> 10001], [Falkland Islands -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20180 -> 10001 -> 20118 -> 31023 -> 80107], [Ecuador -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20180 -> 10001 -> 20170 -> 80122], [Ecuador -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20180 -> 10001], [Ecuador -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20123 -> 10001 -> 20118 -> 31023 -> 80107], [Cuba -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20123 -> 10001 -> 20170 -> 80122], [Cuba -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20123 -> 10001], [Cuba -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20178 -> 10001 -> 20118 -> 31023 -> 80107], [Suriname -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20178 -> 10001 -> 20170 -> 80122], [Suriname -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20178 -> 10001], [Suriname -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20122 -> 10001 -> 20118 -> 31023 -> 80107], [Panama -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20122 -> 10001 -> 20170 -> 80122], [Panama -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20122 -> 10001], [Panama -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20144 -> 10001 -> 20118 -> 31023 -> 80107], [Turks and Caicos Islands -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20144 -> 10001 -> 20170 -> 80122], [Turks and Caicos Islands -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20144 -> 10001], [Turks and Caicos Islands -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20127 -> 10001 -> 20118 -> 31023 -> 80107], [El Salvador -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20127 -> 10001 -> 20170 -> 80122], [El Salvador -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20127 -> 10001], [El Salvador -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20177 -> 10001 -> 20118 -> 31023 -> 80107], [Guyana -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20177 -> 10001 -> 20170 -> 80122], [Guyana -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20177 -> 10001], [Guyana -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20174 -> 10001 -> 20118 -> 31023 -> 80107], [Uruguay -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20174 -> 10001 -> 20170 -> 80122], [Uruguay -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20174 -> 10001], [Uruguay -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20173 -> 10001 -> 20118 -> 31023 -> 80107], [Paraguay -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20173 -> 90164 -> 20170 -> 80122], [Paraguay -> Paraguay -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20173 -> 10001], [Paraguay -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20125 -> 10001 -> 20118 -> 31023 -> 80107], [Dominican Republic -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20125 -> 10001 -> 20170 -> 80122], [Dominican Republic -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20125 -> 10001], [Dominican Republic -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20176 -> 10001 -> 20118 -> 31023 -> 80107], [French Guiana -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20176 -> 10001 -> 20170 -> 80122], [French Guiana -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20176 -> 10001], [French Guiana -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20128 -> 10001 -> 20118 -> 31023 -> 80107], [Honduras -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20128 -> 10001 -> 20170 -> 80122], [Honduras -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20128 -> 10001], [Honduras -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20141 -> 10001 -> 20118 -> 31023 -> 80107], [Saint Pierre and Miquelon -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20141 -> 10001 -> 20170 -> 80122], [Saint Pierre and Miquelon -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20141 -> 10001], [Saint Pierre and Miquelon -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20124 -> 10001 -> 20118 -> 31023 -> 80107], [Dominica -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20124 -> 10001 -> 20170 -> 80122], [Dominica -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20124 -> 10001], [Dominica -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20129 -> 10001 -> 20118 -> 31023 -> 80107], [Greenland -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20129 -> 10001 -> 20170 -> 80122], [Greenland -> America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20129 -> 10001], [Greenland -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+-----------------------------------------
+ResultDestNodes: [10001, 20170, 20121, 20118, 20172, 20175, 20120, 20179, 20117, 20142, 20119, 20126, 20171, 20145, 20181, 20180, 20123, 20178, 20122, 20144, 20127, 20177, 20174, 20173, 20125, 20176, 20128, 20141, 20124, 20129]
+ResultRelevs: [10.531002044677734, 6.711239814758301, 6.711239814758301, 6.647520065307617, 6.494420051574707, 6.133059978485107, 6.133059978485107, 6.133059978485107, 6.133059978485107, 5.843975067138672, 5.843975067138672, 5.843975067138672, 5.843975067138672, 5.843975067138672, 5.843975067138672, 5.843975067138672, 5.843975067138672, 5.843975067138672, 5.843975067138672, 5.843975067138672, 5.843975067138672, 5.843975067138672, 5.843975067138672, 5.843975067138672, 5.843975067138672, 5.843975067138672, 5.843975067138672, 5.843975067138672, 5.843975067138672, 5.843975067138672]
+Num of top-k answers: 30
+Num of redundant answers: 20
+Num of duplicate answers: 23
+Num of entries retrieved from the lists: 368
+Num of entries retrieved from NKMaps: 606
+
+Blink Search Using BDB 30
+[caldera, lake, america]
+srcNodes: [80107, 80122, 10001]ooo
+  path: 0[10001 -> 20118 -> 31023 -> 80107], [America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[10001 -> 20170 -> 80122], [America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [80107, 80118, 10001]ooo
+  path: 0[20121 -> 10001 -> 20118 -> 31023 -> 80107], [Nicaragua -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20121 -> 80118], [Nicaragua -> Lake Managua Lake Managua ] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [80107, 80122, 10001]ooo
+  path: 0[20170 -> 10001 -> 20118 -> 31023 -> 80107], [Bolivia -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20170 -> 80122], [Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [80107, 80115, 10001]ooo
+  path: 0[20118 -> 31023 -> 80107], [United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20118 -> 31027 -> 80115], [United States -> South Dakota -> Lake Oahe Lake Oahe artificial] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [80107, 80125, 10001]ooo
+  path: 0[20172 -> 10001 -> 20118 -> 31023 -> 80107], [Chile -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20172 -> 80125], [Chile -> Licancabur Crater Lake Licancabur Crater Lake crater] 
+
+  path: 2[20172 -> 10001], [Chile -> America] 
+
+srcNodes: [80107, 80101, 10001]
+  path: 0[20117 -> 10001 -> 20118 -> 31023 -> 80107], [Canada -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20117 -> 30984 -> 80101], [Canada -> Quebec -> Lake Champlain Lake Champlain ] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20175 -> 10001 -> 20118 -> 31023 -> 80107], [Peru -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20175 -> 31248 -> 80122], [Peru -> Puno -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20175 -> 10001], [Peru -> America] 
+
+srcNodes: [80107, 80120, 10001]
+  path: 0[20179 -> 10001 -> 20118 -> 31023 -> 80107], [Venezuela -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20179 -> 31277 -> 80120], [Venezuela -> Zulia -> Lake Maracaibo Lake Maracaibo ] 
+
+  path: 2[20179 -> 10001], [Venezuela -> America] 
+
+srcNodes: [80107, 80119, 10001]
+  path: 0[20120 -> 10001 -> 20118 -> 31023 -> 80107], [Costa Rica -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20120 -> 31041 -> 80119], [Costa Rica -> Cartago -> Lake Irazu Lake Irazu acid] 
+
+  path: 2[20120 -> 10001], [Costa Rica -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20173 -> 10001 -> 20118 -> 31023 -> 80107], [Paraguay -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20173 -> 90164 -> 20170 -> 80122], [Paraguay -> Paraguay -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20173 -> 10001], [Paraguay -> America] 
+
+srcNodes: [80107, 80111, 10001]
+  path: 0[20114 -> 10001 -> 20118 -> 31023 -> 80107], [Mexico -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20114 -> 30965 -> 90150 -> 80111], [Mexico -> Sonora -> Colorado -> Lake Powell Lake Powell artificial] 
+
+  path: 2[20114 -> 10001], [Mexico -> America] 
+
+srcNodes: [80107, 80118, 10001]
+  path: 0[90153 -> 20121 -> 10001 -> 20118 -> 31023 -> 80107], [Rio San Juan -> Nicaragua -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[90153 -> 80118], [Rio San Juan -> Lake Managua Lake Managua ] 
+
+  path: 2[90153 -> 20121 -> 10001], [Rio San Juan -> Nicaragua -> America] 
+
+srcNodes: [80107, 80123, 10001]
+  path: 0[90154 -> 20170 -> 10001 -> 20118 -> 31023 -> 80107], [Rio Desaguadero -> Bolivia -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[90154 -> 80123], [Rio Desaguadero -> Poopo Poopo salt] 
+
+  path: 2[90154 -> 20170 -> 10001], [Rio Desaguadero -> Bolivia -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[234 -> 20172 -> 10001 -> 20118 -> 31023 -> 80107], [Licancabur Licancabur Andes volcano -> Chile -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[234 -> 20170 -> 80122], [Licancabur Licancabur Andes volcano -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[234 -> 20172 -> 10001], [Licancabur Licancabur Andes volcano -> Chile -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[90164 -> 20173 -> 10001 -> 20118 -> 31023 -> 80107], [Paraguay -> Paraguay -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[90164 -> 20170 -> 80122], [Paraguay -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[90164 -> 20173 -> 10001], [Paraguay -> Paraguay -> America] 
+
+srcNodes: [80018, 80014, 50039]
+  path: 0[80014 -> 90071 -> 30084 -> 80018], [Bodensee Bodensee  -> Rhein -> Rheinland Pfalz -> Laacher Maar Laacher Maar caldera] 
+
+  path: 1[80014 -> 80014], [Bodensee Bodensee  -> Bodensee Bodensee ]
+  path: 2[80014 -> 90071 -> 20014 -> 10004 -> 20051 -> 50039], [Bodensee Bodensee  -> Rhein -> Liechtenstein -> Europe -> United Kingdom -> Economic Commission for Latin America and the Caribbean Economic Commission for Latin America and the Caribbean ECLAC] 
+
+srcNodes: [80047, 80047, 50039]
+  path: 0[20086 -> 80047], [Indonesia -> Lake Toba Lake Toba caldera] 
+
+  path: 1[20086 -> 80047], [Indonesia -> Lake Toba Lake Toba caldera] 
+
+  path: 2[20086 -> 10002 -> 20031 -> 10004 -> 20051 -> 50039], [Indonesia -> Asia -> Turkey -> Europe -> United Kingdom -> Economic Commission for Latin America and the Caribbean Economic Commission for Latin America and the Caribbean ECLAC] 
+
+srcNodes: [80107, 80126, 10001]
+  path: 0[90163 -> 20173 -> 10001 -> 20118 -> 31023 -> 80107], [Parana -> Paraguay -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[90163 -> 31192 -> 80126], [Parana -> Santa Fe -> Laguna Mar Chiquita Laguna Mar Chiquita salt] 
+
+  path: 2[90163 -> 20173 -> 10001], [Parana -> Paraguay -> America] 
+
+srcNodes: [80047, 80047, 10001]
+  path: 0[10003 -> 20086 -> 80047], [Australia/Oceania -> Indonesia -> Lake Toba Lake Toba caldera] 
+
+  path: 1[10003 -> 20086 -> 80047], [Australia/Oceania -> Indonesia -> Lake Toba Lake Toba caldera] 
+
+  path: 2[10003 -> 20159 -> 41321 -> 110205 -> 20132 -> 10001], [Australia/Oceania -> Norfolk Island -> Kingston -> Jamaica Jamaica Greater Antilles  -> Jamaica -> America] 
+
+srcNodes: [80027, 80033, 50039]
+  path: 0[20013 -> 30124 -> 80027], [Italy -> Umbria -> Lago Trasimeno Lago Trasimeno caldera] 
+
+  path: 1[20013 -> 10004 -> 20002 -> 80033], [Italy -> Europe -> Macedonia -> Lake Prespa Lake Prespa ] 
+
+  path: 2[20013 -> 50039], [Italy -> Economic Commission for Latin America and the Caribbean Economic Commission for Latin America and the Caribbean ECLAC] 
+
+srcNodes: [80018, 80018, 50039]
+  path: 0[30084 -> 80018], [Rheinland Pfalz -> Laacher Maar Laacher Maar caldera] 
+
+  path: 1[30084 -> 80018], [Rheinland Pfalz -> Laacher Maar Laacher Maar caldera] 
+
+  path: 2[30084 -> 90071 -> 20014 -> 10004 -> 20051 -> 50039], [Rheinland Pfalz -> Rhein -> Liechtenstein -> Europe -> United Kingdom -> Economic Commission for Latin America and the Caribbean Economic Commission for Latin America and the Caribbean ECLAC] 
+
+srcNodes: [80047, 80047, 10001]
+  path: 0[20159 -> 10003 -> 20086 -> 80047], [Norfolk Island -> Australia/Oceania -> Indonesia -> Lake Toba Lake Toba caldera] 
+
+  path: 1[20159 -> 10003 -> 20086 -> 80047], [Norfolk Island -> Australia/Oceania -> Indonesia -> Lake Toba Lake Toba caldera] 
+
+  path: 2[20159 -> 41321 -> 110205 -> 20132 -> 10001], [Norfolk Island -> Kingston -> Jamaica Jamaica Greater Antilles  -> Jamaica -> America] 
+
+srcNodes: [80018, 80014, 50039]
+  path: 0[90071 -> 30084 -> 80018], [Rhein -> Rheinland Pfalz -> Laacher Maar Laacher Maar caldera] 
+
+  path: 1[90071 -> 80014], [Rhein -> Bodensee Bodensee ] 
+
+  path: 2[90071 -> 20014 -> 10004 -> 20051 -> 50039], [Rhein -> Liechtenstein -> Europe -> United Kingdom -> Economic Commission for Latin America and the Caribbean Economic Commission for Latin America and the Caribbean ECLAC] 
+
+srcNodes: [80047, 80085, 10001]
+  path: 0[41321 -> 110259 -> 20159 -> 10003 -> 20086 -> 80047], [Kingston -> Norfolk Island Norfolk Island  volcanic -> Norfolk Island -> Australia/Oceania -> Indonesia -> Lake Toba Lake Toba caldera] 
+
+  path: 1[41321 -> 110006 -> 31402 -> 90210 -> 80085], [Kingston -> Great Britain Great Britain British Isles  -> Central -> Zambezi -> Lake Kariba Lake Kariba artificial] 
+
+  path: 2[41321 -> 110205 -> 20132 -> 10001], [Kingston -> Jamaica Jamaica Greater Antilles  -> Jamaica -> America] 
+
+srcNodes: [80047, 80085, 10001]
+  path: 0[41319 -> 110259 -> 20159 -> 10003 -> 20086 -> 80047], [Kingston -> Norfolk Island Norfolk Island  volcanic -> Norfolk Island -> Australia/Oceania -> Indonesia -> Lake Toba Lake Toba caldera] 
+
+  path: 1[41319 -> 110006 -> 31402 -> 90210 -> 80085], [Kingston -> Great Britain Great Britain British Isles  -> Central -> Zambezi -> Lake Kariba Lake Kariba artificial] 
+
+  path: 2[41319 -> 110205 -> 20132 -> 10001], [Kingston -> Jamaica Jamaica Greater Antilles  -> Jamaica -> America] 
+
+srcNodes: [80047, 80085, 10001]
+  path: 0[41320 -> 110259 -> 20159 -> 10003 -> 20086 -> 80047], [Kingston -> Norfolk Island Norfolk Island  volcanic -> Norfolk Island -> Australia/Oceania -> Indonesia -> Lake Toba Lake Toba caldera] 
+
+  path: 1[41320 -> 110006 -> 31402 -> 90210 -> 80085], [Kingston -> Great Britain Great Britain British Isles  -> Central -> Zambezi -> Lake Kariba Lake Kariba artificial] 
+
+  path: 2[41320 -> 110205 -> 20132 -> 10001], [Kingston -> Jamaica Jamaica Greater Antilles  -> Jamaica -> America] 
+
+srcNodes: [80027, 80034, 50039]
+  path: 0[20002 -> 10004 -> 20013 -> 30124 -> 80027], [Macedonia -> Europe -> Italy -> Umbria -> Lago Trasimeno Lago Trasimeno caldera] 
+
+  path: 1[20002 -> 80034], [Macedonia -> Lake Ohrid Lake Ohrid ] 
+
+  path: 2[20002 -> 10004 -> 20051 -> 50039], [Macedonia -> Europe -> United Kingdom -> Economic Commission for Latin America and the Caribbean Economic Commission for Latin America and the Caribbean ECLAC] 
+
+srcNodes: [80027, 80034, 50039]
+  path: 0[20000 -> 10004 -> 20013 -> 30124 -> 80027], [Albania -> Europe -> Italy -> Umbria -> Lago Trasimeno Lago Trasimeno caldera] 
+
+  path: 1[20000 -> 80034], [Albania -> Lake Ohrid Lake Ohrid ] 
+
+  path: 2[20000 -> 10004 -> 20051 -> 50039], [Albania -> Europe -> United Kingdom -> Economic Commission for Latin America and the Caribbean Economic Commission for Latin America and the Caribbean ECLAC] 
+
+srcNodes: [80027, 80032, 50039]
+  path: 0[20004 -> 10004 -> 20013 -> 30124 -> 80027], [Montenegro -> Europe -> Italy -> Umbria -> Lago Trasimeno Lago Trasimeno caldera] 
+
+  path: 1[20004 -> 80032], [Montenegro -> Lake Skutari Lake Skutari ] 
+
+  path: 2[20004 -> 10004 -> 20051 -> 50039], [Montenegro -> Europe -> United Kingdom -> Economic Commission for Latin America and the Caribbean Economic Commission for Latin America and the Caribbean ECLAC] 
+
+srcNodes: [80047, 80036, 50039]
+  path: 0[20093 -> 10002 -> 20086 -> 80047], [Syria -> Asia -> Indonesia -> Lake Toba Lake Toba caldera] 
+
+  path: 1[20093 -> 80036], [Syria -> Lake Genezareth Lake Genezareth ] 
+
+  path: 2[20093 -> 10002 -> 20031 -> 10004 -> 20051 -> 50039], [Syria -> Asia -> Turkey -> Europe -> United Kingdom -> Economic Commission for Latin America and the Caribbean Economic Commission for Latin America and the Caribbean ECLAC] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20121, 20170, 20118, 20172, 20117, 20175, 20179, 20120, 20173, 20114, 90153, 90154, 234, 90164, 80014, 20086, 90163, 10003, 20013, 30084, 20159, 90071, 41321, 41319, 41320, 20002, 20000, 20004, 20093]
+ResultRelevs: [10.531002044677734, 6.711239814758301, 6.711239814758301, 6.647520065307617, 6.494420051574707, 6.133059978485107, 6.133059978485107, 6.133059978485107, 6.133059978485107, 5.843975067138672, 5.843975067138672, 5.18095588684082, 4.67292594909668, 4.602776050567627, 4.602776050567627, 4.55648136138916, 4.18937873840332, 4.161881923675537, 3.844180107116699, 3.730294942855835, 3.681349039077759, 3.5138869285583496, 3.4500231742858887, 3.4393980503082275, 3.4393980503082275, 3.4393980503082275, 3.2946619987487793, 3.2946619987487793, 3.2946619987487793, 3.224771022796631]
+Num of top-k answers: 30
+Num of redundant answers: 0
+Num of duplicate answers: 11
+Num of entries retrieved from the lists: 816
+Num of entries retrieved from NKMaps: 1208
+
+Blink Search Using BDB_reduced 30
+[caldera, lake, america]
+srcNodes: [80107, 80122, 10001]
+  path: 0[10001 -> 20118 -> 31023 -> 80107], [America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[10001 -> 20170 -> 80122], [America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [80107, 80122, 10001]
+  path: 0[20170 -> 10001 -> 20118 -> 31023 -> 80107], [Bolivia -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20170 -> 80122], [Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [80107, 80118, 10001]
+  path: 0[20121 -> 10001 -> 20118 -> 31023 -> 80107], [Nicaragua -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20121 -> 80118], [Nicaragua -> Lake Managua Lake Managua ] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [80107, 80115, 10001]
+  path: 0[20118 -> 31023 -> 80107], [United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20118 -> 31027 -> 80115], [United States -> South Dakota -> Lake Oahe Lake Oahe artificial] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [80107, 80125, 10001]
+  path: 0[20172 -> 10001 -> 20118 -> 31023 -> 80107], [Chile -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20172 -> 80125], [Chile -> Licancabur Crater Lake Licancabur Crater Lake crater] 
+
+  path: 2[20172 -> 10001], [Chile -> America] 
+
+srcNodes: [80107, 80101, 10001]
+  path: 0[20117 -> 10001 -> 20118 -> 31023 -> 80107], [Canada -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20117 -> 30984 -> 80101], [Canada -> Quebec -> Lake Champlain Lake Champlain ] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+srcNodes: [80107, 80120, 10001]
+  path: 0[20179 -> 10001 -> 20118 -> 31023 -> 80107], [Venezuela -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20179 -> 31277 -> 80120], [Venezuela -> Zulia -> Lake Maracaibo Lake Maracaibo ] 
+
+  path: 2[20179 -> 10001], [Venezuela -> America] 
+
+srcNodes: [80107, 80119, 10001]
+  path: 0[20120 -> 10001 -> 20118 -> 31023 -> 80107], [Costa Rica -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20120 -> 31041 -> 80119], [Costa Rica -> Cartago -> Lake Irazu Lake Irazu acid] 
+
+  path: 2[20120 -> 10001], [Costa Rica -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20175 -> 10001 -> 20118 -> 31023 -> 80107], [Peru -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20175 -> 31248 -> 80122], [Peru -> Puno -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20175 -> 10001], [Peru -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20173 -> 10001 -> 20118 -> 31023 -> 80107], [Paraguay -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20173 -> 90164 -> 20170 -> 80122], [Paraguay -> Paraguay -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20173 -> 10001], [Paraguay -> America] 
+
+srcNodes: [80107, 80111, 10001]
+  path: 0[20114 -> 10001 -> 20118 -> 31023 -> 80107], [Mexico -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20114 -> 30965 -> 90150 -> 80111], [Mexico -> Sonora -> Colorado -> Lake Powell Lake Powell artificial] 
+
+  path: 2[20114 -> 10001], [Mexico -> America] 
+
+srcNodes: [80107, 80126, 10001]
+  path: 0[20169 -> 10001 -> 20118 -> 31023 -> 80107], [Argentina -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20169 -> 31193 -> 80126], [Argentina -> Santiago de Estero -> Laguna Mar Chiquita Laguna Mar Chiquita salt] 
+
+  path: 2[20169 -> 10001], [Argentina -> America] 
+
+srcNodes: [80107, 80121, 10001]
+  path: 0[20171 -> 10001 -> 20118 -> 31023 -> 80107], [Brazil -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20171 -> 31202 -> 80121], [Brazil -> Bahia -> Lago de Sobradinho Lago de Sobradinho artificial] 
+
+  path: 2[20171 -> 10001], [Brazil -> America] 
+
+srcNodes: [80107, 80126, 10001]
+  path: 0[20137 -> 10001 -> 20118 -> 31023 -> 80107], [Colombia -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20137 -> 31114 -> 80126], [Colombia -> Cordoba -> Laguna Mar Chiquita Laguna Mar Chiquita salt] 
+
+  path: 2[20137 -> 10001], [Colombia -> America] 
+
+srcNodes: [80107, 80085, 10001]
+  path: 0[20132 -> 10001 -> 20118 -> 31023 -> 80107], [Jamaica -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20132 -> 41320 -> 110006 -> 31402 -> 90210 -> 80085], [Jamaica -> Kingston -> Great Britain Great Britain British Isles  -> Central -> Zambezi -> Lake Kariba Lake Kariba artificial] 
+
+  path: 2[20132 -> 10001], [Jamaica -> America] 
+
+srcNodes: [80107, 80085, 10001]
+  path: 0[20134 -> 10001 -> 20118 -> 31023 -> 80107], [Montserrat -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20134 -> 42108 -> 110006 -> 31402 -> 90210 -> 80085], [Montserrat -> Plymouth -> Great Britain Great Britain British Isles  -> Central -> Zambezi -> Lake Kariba Lake Kariba artificial] 
+
+  path: 2[20134 -> 10001], [Montserrat -> America] 
+
+srcNodes: [80107, 80118, 10001]
+  path: 0[90153 -> 20121 -> 10001 -> 20118 -> 31023 -> 80107], [Rio San Juan -> Nicaragua -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[90153 -> 80118], [Rio San Juan -> Lake Managua Lake Managua ] 
+
+  path: 2[90153 -> 20121 -> 10001], [Rio San Juan -> Nicaragua -> America] 
+
+srcNodes: [80107, 80123, 10001]
+  path: 0[90154 -> 20170 -> 10001 -> 20118 -> 31023 -> 80107], [Rio Desaguadero -> Bolivia -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[90154 -> 80123], [Rio Desaguadero -> Poopo Poopo salt] 
+
+  path: 2[90154 -> 20170 -> 10001], [Rio Desaguadero -> Bolivia -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[234 -> 20172 -> 10001 -> 20118 -> 31023 -> 80107], [Licancabur Licancabur Andes volcano -> Chile -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[234 -> 20170 -> 80122], [Licancabur Licancabur Andes volcano -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[234 -> 20172 -> 10001], [Licancabur Licancabur Andes volcano -> Chile -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[90164 -> 20173 -> 10001 -> 20118 -> 31023 -> 80107], [Paraguay -> Paraguay -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[90164 -> 20170 -> 80122], [Paraguay -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[90164 -> 20173 -> 10001], [Paraguay -> Paraguay -> America] 
+
+srcNodes: [80018, 80014, 50039]
+  path: 0[80014 -> 90071 -> 30084 -> 80018], [Bodensee Bodensee  -> Rhein -> Rheinland Pfalz -> Laacher Maar Laacher Maar caldera] 
+
+  path: 1[80014 -> 80014], [Bodensee Bodensee  -> Bodensee Bodensee ]
+  path: 2[80014 -> 90071 -> 20014 -> 10004 -> 20051 -> 50039], [Bodensee Bodensee  -> Rhein -> Liechtenstein -> Europe -> United Kingdom -> Economic Commission for Latin America and the Caribbean Economic Commission for Latin America and the Caribbean ECLAC] 
+
+srcNodes: [80047, 80047, 50039]
+  path: 0[20086 -> 80047], [Indonesia -> Lake Toba Lake Toba caldera] 
+
+  path: 1[20086 -> 80047], [Indonesia -> Lake Toba Lake Toba caldera] 
+
+  path: 2[20086 -> 10002 -> 20031 -> 10004 -> 20051 -> 50039], [Indonesia -> Asia -> Turkey -> Europe -> United Kingdom -> Economic Commission for Latin America and the Caribbean Economic Commission for Latin America and the Caribbean ECLAC] 
+
+srcNodes: [80107, 80126, 10001]
+  path: 0[90163 -> 20173 -> 10001 -> 20118 -> 31023 -> 80107], [Parana -> Paraguay -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[90163 -> 31192 -> 80126], [Parana -> Santa Fe -> Laguna Mar Chiquita Laguna Mar Chiquita salt] 
+
+  path: 2[90163 -> 20173 -> 10001], [Parana -> Paraguay -> America] 
+
+srcNodes: [80107, 80126, 10001]
+  path: 0[90165 -> 20174 -> 10001 -> 20118 -> 31023 -> 80107], [Uruguay -> Uruguay -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[90165 -> 31185 -> 90163 -> 31192 -> 80126], [Uruguay -> Misiones -> Parana -> Santa Fe -> Laguna Mar Chiquita Laguna Mar Chiquita salt] 
+
+  path: 2[90165 -> 20174 -> 10001], [Uruguay -> Uruguay -> America] 
+
+srcNodes: [80047, 80047, 10001]
+  path: 0[10003 -> 20086 -> 80047], [Australia/Oceania -> Indonesia -> Lake Toba Lake Toba caldera] 
+
+  path: 1[10003 -> 20086 -> 80047], [Australia/Oceania -> Indonesia -> Lake Toba Lake Toba caldera] 
+
+  path: 2[10003 -> 20159 -> 41321 -> 110205 -> 20132 -> 10001], [Australia/Oceania -> Norfolk Island -> Kingston -> Jamaica Jamaica Greater Antilles  -> Jamaica -> America] 
+
+srcNodes: [80027, 80033, 50039]
+  path: 0[20013 -> 30124 -> 80027], [Italy -> Umbria -> Lago Trasimeno Lago Trasimeno caldera] 
+
+  path: 1[20013 -> 10004 -> 20002 -> 80033], [Italy -> Europe -> Macedonia -> Lake Prespa Lake Prespa ] 
+
+  path: 2[20013 -> 50039], [Italy -> Economic Commission for Latin America and the Caribbean Economic Commission for Latin America and the Caribbean ECLAC] 
+
+srcNodes: [80018, 80018, 50039]
+  path: 0[30084 -> 80018], [Rheinland Pfalz -> Laacher Maar Laacher Maar caldera] 
+
+  path: 1[30084 -> 80018], [Rheinland Pfalz -> Laacher Maar Laacher Maar caldera] 
+
+  path: 2[30084 -> 90071 -> 20014 -> 10004 -> 20051 -> 50039], [Rheinland Pfalz -> Rhein -> Liechtenstein -> Europe -> United Kingdom -> Economic Commission for Latin America and the Caribbean Economic Commission for Latin America and the Caribbean ECLAC] 
+
+srcNodes: [80047, 80047, 10001]
+  path: 0[20159 -> 10003 -> 20086 -> 80047], [Norfolk Island -> Australia/Oceania -> Indonesia -> Lake Toba Lake Toba caldera] 
+
+  path: 1[20159 -> 10003 -> 20086 -> 80047], [Norfolk Island -> Australia/Oceania -> Indonesia -> Lake Toba Lake Toba caldera] 
+
+  path: 2[20159 -> 41321 -> 110205 -> 20132 -> 10001], [Norfolk Island -> Kingston -> Jamaica Jamaica Greater Antilles  -> Jamaica -> America] 
+
+srcNodes: [80018, 80014, 50039]
+  path: 0[90071 -> 30084 -> 80018], [Rhein -> Rheinland Pfalz -> Laacher Maar Laacher Maar caldera] 
+
+  path: 1[90071 -> 80014], [Rhein -> Bodensee Bodensee ] 
+
+  path: 2[90071 -> 20014 -> 10004 -> 20051 -> 50039], [Rhein -> Liechtenstein -> Europe -> United Kingdom -> Economic Commission for Latin America and the Caribbean Economic Commission for Latin America and the Caribbean ECLAC] 
+
+srcNodes: [80047, 80085, 10001]
+  path: 0[41319 -> 110259 -> 20159 -> 10003 -> 20086 -> 80047], [Kingston -> Norfolk Island Norfolk Island  volcanic -> Norfolk Island -> Australia/Oceania -> Indonesia -> Lake Toba Lake Toba caldera] 
+
+  path: 1[41319 -> 110006 -> 31402 -> 90210 -> 80085], [Kingston -> Great Britain Great Britain British Isles  -> Central -> Zambezi -> Lake Kariba Lake Kariba artificial] 
+
+  path: 2[41319 -> 110205 -> 20132 -> 10001], [Kingston -> Jamaica Jamaica Greater Antilles  -> Jamaica -> America] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20170, 20121, 20118, 20172, 20117, 20179, 20120, 20175, 20173, 20114, 20169, 20171, 20137, 20132, 20134, 90153, 90154, 234, 90164, 80014, 20086, 90163, 90165, 10003, 20013, 30084, 20159, 90071, 41319]
+ResultRelevs: [10.531002044677734, 6.711239814758301, 6.711239814758301, 6.647520065307617, 6.494420051574707, 6.133059978485107, 6.133059978485107, 6.133059978485107, 6.133059978485107, 5.843975067138672, 5.843975067138672, 5.692166328430176, 5.692166328430176, 5.692166328430176, 5.5548882484436035, 5.5548882484436035, 5.18095588684082, 4.67292594909668, 4.602776050567627, 4.602776050567627, 4.55648136138916, 4.18937873840332, 4.161881923675537, 3.875699996948242, 3.844180107116699, 3.730294942855835, 3.681349039077759, 3.5138869285583496, 3.4500231742858887, 3.4393980503082275]
+Num of top-k answers: 30
+Num of redundant answers: 0
+Num of duplicate answers: 12
+Num of entries retrieved from the lists: 814
+Num of entries retrieved from NKMaps: 1727
+Num of redundant candidate answers found: 174
+Num of reduced alternative answers found: 49
+
+Blink Search Using BDB_reducedNunique 30
+[caldera, lake, america]
+srcNodes: [80107, 80122, 10001]
+srcNodes: [80107, 80118, 10001]
+srcNodes: [80107, 80115, 10001]
+srcNodes: [80107, 80125, 10001]
+srcNodes: [80107, 80123, 10001]
+srcNodes: [80107, 80119, 10001]
+srcNodes: [80107, 80101, 10001]
+srcNodes: [80107, 80120, 10001]
+srcNodes: [80107, 80111, 10001]
+srcNodes: [80107, 80126, 10001]
+srcNodes: [80107, 80121, 10001]
+srcNodes: [80107, 80089, 10001]
+srcNodes: [80107, 80085, 10001]
+srcNodes: [80107, 80117, 10001]
+srcNodes: [80018, 80014, 50039]
+srcNodes: [80047, 80047, 50039]
+srcNodes: [80107, 80124, 10001]
+srcNodes: [80047, 80047, 10001]
+srcNodes: [80027, 80033, 50039]
+srcNodes: [80018, 80018, 50039]
+srcNodes: [80107, 80122, 50039]
+srcNodes: [80047, 80085, 10001]
+srcNodes: [80047, 80013, 10001]
+srcNodes: [80047, 80127, 10001]
+srcNodes: [80027, 80034, 50039]
+srcNodes: [80027, 80032, 50039]
+srcNodes: [80018, 80032, 50039]
+srcNodes: [80047, 80125, 10001]
+srcNodes: [80047, 80036, 50039]
+srcNodes: [80107, 80118, 50039]
+-----------------------------------------
+ResultDestNodes: [10001, 20121, 20118, 20172, 20170, 20120, 20117, 20179, 20114, 20169, 20171, 20137, 20132, 90153, 80014, 20086, 90154, 10003, 20013, 30084, 20175, 41319, 41320, 20159, 20002, 20000, 20004, 41321, 20093, 20122]
+ResultRelevs: [10.531002044677734, 6.711239814758301, 6.647520065307617, 6.494420051574707, 6.20320987701416, 6.133059978485107, 6.133059978485107, 6.133059978485107, 5.843975067138672, 5.692166328430176, 5.692166328430176, 5.6705217361450195, 5.5548882484436035, 4.602776050567627, 4.55648136138916, 4.18937873840332, 4.161881923675537, 3.844180107116699, 3.730294942855835, 3.681349039077759, 3.50492000579834, 3.4393980503082275, 3.358834981918335, 3.3404340744018555, 3.2946619987487793, 3.2946619987487793, 3.2946619987487793, 3.251490831375122, 3.224771022796631, 3.2158350944519043]
+Num of top-k answers: 30
+Num of redundant answers in top-k answers: 0
+Num of duplicate answers in top-k answers: 0
+Num of entries retrieved from the lists: 816
+Num of redundant candidate answers found: 174
+Num of reduced alternative answers found: 49
+Num of duplicate candidate answers found: 91
+Num of unique alternative answers found: 50
+
+Blink Search Using BDB_reducedNunique_BruteForce 30
+[caldera, lake, america]
+srcNodes: [80107, 80122, 10001]
+srcNodes: [80107, 80118, 10001]
+srcNodes: [80107, 80115, 10001]
+srcNodes: [80107, 80125, 10001]
+srcNodes: [80107, 80123, 10001]
+srcNodes: [80107, 80119, 10001]
+srcNodes: [80107, 80101, 10001]
+srcNodes: [80107, 80120, 10001]
+srcNodes: [80107, 80111, 10001]
+srcNodes: [80107, 80126, 10001]
+srcNodes: [80107, 80121, 10001]
+srcNodes: [80107, 80089, 10001]
+srcNodes: [80107, 80085, 10001]
+srcNodes: [80107, 80117, 10001]
+srcNodes: [80018, 80014, 50039]
+srcNodes: [80047, 80047, 50039]
+srcNodes: [80107, 80124, 10001]
+srcNodes: [80047, 80047, 10001]
+srcNodes: [80027, 80033, 50039]
+srcNodes: [80018, 80018, 50039]
+srcNodes: [80107, 80122, 50039]
+srcNodes: [80047, 80085, 10001]
+srcNodes: [80047, 80013, 10001]
+srcNodes: [80047, 80127, 10001]
+srcNodes: [80027, 80032, 50039]
+srcNodes: [80027, 80034, 50039]
+srcNodes: [80018, 80032, 50039]
+srcNodes: [80047, 80125, 10001]
+srcNodes: [80047, 80036, 50039]
+srcNodes: [80107, 80118, 50039]
+-----------------------------------------
+ResultDestNodes: [10001, 20121, 20118, 20172, 20170, 20120, 20117, 20179, 20114, 20169, 20171, 20137, 20132, 90153, 80014, 20086, 90154, 10003, 20013, 30084, 20175, 41319, 41320, 20159, 20000, 20002, 20004, 41321, 20093, 20122]
+ResultRelevs: [10.531002044677734, 6.711239814758301, 6.647520065307617, 6.494420051574707, 6.20320987701416, 6.133059978485107, 6.133059978485107, 6.133059978485107, 5.843975067138672, 5.692166328430176, 5.692166328430176, 5.670522212982178, 5.5548882484436035, 4.602776050567627, 4.55648136138916, 4.18937873840332, 4.161881923675537, 3.844180107116699, 3.730294942855835, 3.681349039077759, 3.50492000579834, 3.4393980503082275, 3.358834981918335, 3.3404340744018555, 3.2946619987487793, 3.2946619987487793, 3.294661521911621, 3.251491069793701, 3.224771022796631, 3.2158350944519043]
+Num of top-k answers: 30
+Num of redundant answers in top-k answers: 0
+Num of duplicate answers in top-k answers: 0
+Num of entries retrieved from the lists: 816
+Num of redundant candidate answers found: 174
+Num of reduced alternative answers found: 49
+Num of duplicate candidate answers found: 69
+Num of unique alternative answers found: 53
+

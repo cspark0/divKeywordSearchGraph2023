@@ -1,0 +1,801 @@
+query: [academy, award, drama]
+Top-k Search by Blink-BDB, k=5
+[academy, award, drama]
+srcNodes: [1751652, 7010989, 5036392]
+  path: 0[1751652 -> 1751652], [The Academy (2009) -> The Academy (2009)]
+  path: 1[1751652 -> 2225758 -> 1788791 -> 7010989], [The Academy (2009) -> McKellen, Ian -> The Lord of the Rings: The Two Towers (2002) -> edited into J.R.R. T] 
+
+  path: 2[1751652 -> 2307587 -> 1558709 -> 5036392], [The Academy (2009) -> Barber, Frances -> Mauvaise passe (1999) -> Drama] 
+
+srcNodes: [1429479, 8003937, 5025753]
+  path: 0[1184978 -> 2294577 -> 1333049 -> 2143874 -> 1429479], [A Temp for All Seasons (2005) -> Roman, Joel (I) -> Dockweiler (2008) -> Hawkes, Will -> Hollywood Acting Academy (2009)] 
+
+  path: 1[1184978 -> 8003937], [A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[1184978 -> 2294577 -> 1423623 -> 5025753], [A Temp for All Seasons (2005) -> Roman, Joel (I) -> Hers (2007) -> Drama] 
+
+srcNodes: [1429479, 8003937, 5025753]
+  path: 0[2294577 -> 1333049 -> 2143874 -> 1429479], [Roman, Joel (I) -> Dockweiler (2008) -> Hawkes, Will -> Hollywood Acting Academy (2009)] 
+
+  path: 1[2294577 -> 1184978 -> 8003937], [Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[2294577 -> 1423623 -> 5025753], [Roman, Joel (I) -> Hers (2007) -> Drama] 
+
+srcNodes: [1751652, 8003937, 5018687]
+  path: 0[1344908 -> 2055694 -> 1402282 -> 2307587 -> 1751652], [East L.A. (2008) -> Castillo, Alex (I) -> Goal! (2005) -> Barber, Frances -> The Academy (2009)] 
+
+  path: 1[1344908 -> 2294577 -> 1184978 -> 8003937], [East L.A. (2008) -> Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[1344908 -> 5018687], [East L.A. (2008) -> Drama] 
+
+srcNodes: [1456291, 8003937, 5025753]
+  path: 0[1423623 -> 2197270 -> 1876964 -> 2059826 -> 1456291], [Hers (2007) -> Lee, Will Yun -> What's Cooking? (2000) -> Chaykin, Maury -> Intern Academy (2004)] 
+
+  path: 1[1423623 -> 2294577 -> 1184978 -> 8003937], [Hers (2007) -> Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[1423623 -> 5025753], [Hers (2007) -> Drama] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [1751652, 1184978, 2294577, 1344908, 1423623]
+ResultRelevs: [6.781313896179199, 6.588901519775391, 6.553767681121826, 6.523447036743164, 6.219379425048828]
+AvgResultRelev: 6.533361911773682
+AvgResultDissimilarity: 0.72
+Num of entries retrieved from the lists: 24882
+Num of entries retrieved from NKMaps: 37386
+Num of answer trees explored: 13002
+
+Div Top-k Search by Exhustive, k=5
+[academy, award, drama]
+srcNodes: [1751652, 7010989, 5036392]
+  path: 0[1751652 -> 1751652], [The Academy (2009) -> The Academy (2009)]
+  path: 1[1751652 -> 2225758 -> 1788791 -> 7010989], [The Academy (2009) -> McKellen, Ian -> The Lord of the Rings: The Two Towers (2002) -> edited into J.R.R. T] 
+
+  path: 2[1751652 -> 2307587 -> 1558709 -> 5036392], [The Academy (2009) -> Barber, Frances -> Mauvaise passe (1999) -> Drama] 
+
+srcNodes: [1429479, 8003937, 5025753]
+  path: 0[1184978 -> 2294577 -> 1333049 -> 2143874 -> 1429479], [A Temp for All Seasons (2005) -> Roman, Joel (I) -> Dockweiler (2008) -> Hawkes, Will -> Hollywood Acting Academy (2009)] 
+
+  path: 1[1184978 -> 8003937], [A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[1184978 -> 2294577 -> 1423623 -> 5025753], [A Temp for All Seasons (2005) -> Roman, Joel (I) -> Hers (2007) -> Drama] 
+
+srcNodes: [1429479, 8003937, 5025753]
+  path: 0[2294577 -> 1333049 -> 2143874 -> 1429479], [Roman, Joel (I) -> Dockweiler (2008) -> Hawkes, Will -> Hollywood Acting Academy (2009)] 
+
+  path: 1[2294577 -> 1184978 -> 8003937], [Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[2294577 -> 1423623 -> 5025753], [Roman, Joel (I) -> Hers (2007) -> Drama] 
+
+srcNodes: [1751652, 8003937, 5018687]
+  path: 0[1344908 -> 2055694 -> 1402282 -> 2307587 -> 1751652], [East L.A. (2008) -> Castillo, Alex (I) -> Goal! (2005) -> Barber, Frances -> The Academy (2009)] 
+
+  path: 1[1344908 -> 2294577 -> 1184978 -> 8003937], [East L.A. (2008) -> Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[1344908 -> 5018687], [East L.A. (2008) -> Drama] 
+
+srcNodes: [1456291, 8003937, 5025753]
+  path: 0[1423623 -> 2197270 -> 1876964 -> 2059826 -> 1456291], [Hers (2007) -> Lee, Will Yun -> What's Cooking? (2000) -> Chaykin, Maury -> Intern Academy (2004)] 
+
+  path: 1[1423623 -> 2294577 -> 1184978 -> 8003937], [Hers (2007) -> Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[1423623 -> 5025753], [Hers (2007) -> Drama] 
+
+-----------------------------------------
+ResultDestNodes: [1751652, 1184978, 2294577, 1344908, 1423623]
+ResultRelevs: [6.781313896179199, 6.588901519775391, 6.553767681121826, 6.523447036743164, 6.219379425048828]
+AvgResultRelev: 6.533361911773682
+AvgResultDissimilarity: 0.7200000286102295
+Num of entries retrieved from the KNLists: 24882
+Num of entries retrieved from NKMaps: 37386
+Num of answer trees explored: 13002
+Num of answer tree sets created: 31
+Num of answer tree sets removed: 30
+Max Num of answer tree sets in Q[]: 31
+
+Div Top-k Search by Astar0, k=5
+[academy, award, drama]
+srcNodes: [1751652, 7010989, 5036392]
+  path: 0[1751652 -> 1751652], [The Academy (2009) -> The Academy (2009)]
+  path: 1[1751652 -> 2225758 -> 1788791 -> 7010989], [The Academy (2009) -> McKellen, Ian -> The Lord of the Rings: The Two Towers (2002) -> edited into J.R.R. T] 
+
+  path: 2[1751652 -> 2307587 -> 1558709 -> 5036392], [The Academy (2009) -> Barber, Frances -> Mauvaise passe (1999) -> Drama] 
+
+srcNodes: [1429479, 8003937, 5025753]
+  path: 0[1184978 -> 2294577 -> 1333049 -> 2143874 -> 1429479], [A Temp for All Seasons (2005) -> Roman, Joel (I) -> Dockweiler (2008) -> Hawkes, Will -> Hollywood Acting Academy (2009)] 
+
+  path: 1[1184978 -> 8003937], [A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[1184978 -> 2294577 -> 1423623 -> 5025753], [A Temp for All Seasons (2005) -> Roman, Joel (I) -> Hers (2007) -> Drama] 
+
+srcNodes: [1429479, 8003937, 5025753]
+  path: 0[2294577 -> 1333049 -> 2143874 -> 1429479], [Roman, Joel (I) -> Dockweiler (2008) -> Hawkes, Will -> Hollywood Acting Academy (2009)] 
+
+  path: 1[2294577 -> 1184978 -> 8003937], [Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[2294577 -> 1423623 -> 5025753], [Roman, Joel (I) -> Hers (2007) -> Drama] 
+
+srcNodes: [1751652, 8003937, 5018687]
+  path: 0[1344908 -> 2055694 -> 1402282 -> 2307587 -> 1751652], [East L.A. (2008) -> Castillo, Alex (I) -> Goal! (2005) -> Barber, Frances -> The Academy (2009)] 
+
+  path: 1[1344908 -> 2294577 -> 1184978 -> 8003937], [East L.A. (2008) -> Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[1344908 -> 5018687], [East L.A. (2008) -> Drama] 
+
+srcNodes: [1456291, 8003937, 5025753]
+  path: 0[1423623 -> 2197270 -> 1876964 -> 2059826 -> 1456291], [Hers (2007) -> Lee, Will Yun -> What's Cooking? (2000) -> Chaykin, Maury -> Intern Academy (2004)] 
+
+  path: 1[1423623 -> 2294577 -> 1184978 -> 8003937], [Hers (2007) -> Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[1423623 -> 5025753], [Hers (2007) -> Drama] 
+
+-----------------------------------------
+ResultDestNodes: [1751652, 1184978, 2294577, 1344908, 1423623]
+ResultRelevs: [6.781313896179199, 6.588901519775391, 6.553767681121826, 6.523447036743164, 6.219379425048828]
+AvgResultRelev: 6.533361911773682
+AvgResultDissimilarity: 0.72
+Num of entries retrieved from the KNLists: 24882
+Num of entries retrieved from NKMaps: 37386
+Num of answer trees explored: 13002
+Num of states created: 6
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+Div Top-k Search by Astar1, k=5
+[academy, award, drama]
+srcNodes: [1751652, 7010989, 5036392]
+  path: 0[1751652 -> 1751652], [The Academy (2009) -> The Academy (2009)]
+  path: 1[1751652 -> 2225758 -> 1788791 -> 7010989], [The Academy (2009) -> McKellen, Ian -> The Lord of the Rings: The Two Towers (2002) -> edited into J.R.R. T] 
+
+  path: 2[1751652 -> 2307587 -> 1558709 -> 5036392], [The Academy (2009) -> Barber, Frances -> Mauvaise passe (1999) -> Drama] 
+
+srcNodes: [1429479, 8003937, 5025753]
+  path: 0[1184978 -> 2294577 -> 1333049 -> 2143874 -> 1429479], [A Temp for All Seasons (2005) -> Roman, Joel (I) -> Dockweiler (2008) -> Hawkes, Will -> Hollywood Acting Academy (2009)] 
+
+  path: 1[1184978 -> 8003937], [A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[1184978 -> 2294577 -> 1423623 -> 5025753], [A Temp for All Seasons (2005) -> Roman, Joel (I) -> Hers (2007) -> Drama] 
+
+srcNodes: [1429479, 8003937, 5025753]
+  path: 0[2294577 -> 1333049 -> 2143874 -> 1429479], [Roman, Joel (I) -> Dockweiler (2008) -> Hawkes, Will -> Hollywood Acting Academy (2009)] 
+
+  path: 1[2294577 -> 1184978 -> 8003937], [Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[2294577 -> 1423623 -> 5025753], [Roman, Joel (I) -> Hers (2007) -> Drama] 
+
+srcNodes: [1751652, 8003937, 5018687]
+  path: 0[1344908 -> 2055694 -> 1402282 -> 2307587 -> 1751652], [East L.A. (2008) -> Castillo, Alex (I) -> Goal! (2005) -> Barber, Frances -> The Academy (2009)] 
+
+  path: 1[1344908 -> 2294577 -> 1184978 -> 8003937], [East L.A. (2008) -> Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[1344908 -> 5018687], [East L.A. (2008) -> Drama] 
+
+srcNodes: [1456291, 8003937, 5025753]
+  path: 0[1423623 -> 2197270 -> 1876964 -> 2059826 -> 1456291], [Hers (2007) -> Lee, Will Yun -> What's Cooking? (2000) -> Chaykin, Maury -> Intern Academy (2004)] 
+
+  path: 1[1423623 -> 2294577 -> 1184978 -> 8003937], [Hers (2007) -> Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[1423623 -> 5025753], [Hers (2007) -> Drama] 
+
+-----------------------------------------
+ResultDestNodes: [1751652, 1184978, 2294577, 1344908, 1423623]
+ResultRelevs: [6.781313896179199, 6.588901519775391, 6.553767681121826, 6.523447036743164, 6.219379425048828]
+AvgResultRelev: 6.533361911773682
+AvgResultDissimilarity: 0.72
+Num of entries retrieved from the KNLists: 24882
+Num of entries retrieved from NKMaps: 37386
+Num of answer trees explored: 13002
+Num of states created: 6
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+Div Top-k Search by Astar2, k=5
+[academy, award, drama]
+srcNodes: [1751652, 7010989, 5036392]
+  path: 0[1751652 -> 1751652], [The Academy (2009) -> The Academy (2009)]
+  path: 1[1751652 -> 2225758 -> 1788791 -> 7010989], [The Academy (2009) -> McKellen, Ian -> The Lord of the Rings: The Two Towers (2002) -> edited into J.R.R. T] 
+
+  path: 2[1751652 -> 2307587 -> 1558709 -> 5036392], [The Academy (2009) -> Barber, Frances -> Mauvaise passe (1999) -> Drama] 
+
+srcNodes: [1429479, 8003937, 5025753]
+  path: 0[1184978 -> 2294577 -> 1333049 -> 2143874 -> 1429479], [A Temp for All Seasons (2005) -> Roman, Joel (I) -> Dockweiler (2008) -> Hawkes, Will -> Hollywood Acting Academy (2009)] 
+
+  path: 1[1184978 -> 8003937], [A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[1184978 -> 2294577 -> 1423623 -> 5025753], [A Temp for All Seasons (2005) -> Roman, Joel (I) -> Hers (2007) -> Drama] 
+
+srcNodes: [1429479, 8003937, 5025753]
+  path: 0[2294577 -> 1333049 -> 2143874 -> 1429479], [Roman, Joel (I) -> Dockweiler (2008) -> Hawkes, Will -> Hollywood Acting Academy (2009)] 
+
+  path: 1[2294577 -> 1184978 -> 8003937], [Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[2294577 -> 1423623 -> 5025753], [Roman, Joel (I) -> Hers (2007) -> Drama] 
+
+srcNodes: [1751652, 8003937, 5018687]
+  path: 0[1344908 -> 2055694 -> 1402282 -> 2307587 -> 1751652], [East L.A. (2008) -> Castillo, Alex (I) -> Goal! (2005) -> Barber, Frances -> The Academy (2009)] 
+
+  path: 1[1344908 -> 2294577 -> 1184978 -> 8003937], [East L.A. (2008) -> Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[1344908 -> 5018687], [East L.A. (2008) -> Drama] 
+
+srcNodes: [1456291, 8003937, 5025753]
+  path: 0[1423623 -> 2197270 -> 1876964 -> 2059826 -> 1456291], [Hers (2007) -> Lee, Will Yun -> What's Cooking? (2000) -> Chaykin, Maury -> Intern Academy (2004)] 
+
+  path: 1[1423623 -> 2294577 -> 1184978 -> 8003937], [Hers (2007) -> Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[1423623 -> 5025753], [Hers (2007) -> Drama] 
+
+-----------------------------------------
+ResultDestNodes: [1751652, 1184978, 2294577, 1344908, 1423623]
+ResultRelevs: [6.781313896179199, 6.588901519775391, 6.553767681121826, 6.523447036743164, 6.219379425048828]
+AvgResultRelev: 6.533361911773682
+AvgResultDissimilarity: 0.72
+Num of entries retrieved from the KNLists: 24882
+Num of entries retrieved from NKMaps: 37386
+Num of answer trees explored: 13002
+Num of states created: 6
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+Div Top-k Search by Astar1nc, k=5
+[academy, award, drama]
+srcNodes: [1751652, 7010989, 5036392]
+  path: 0[1751652 -> 1751652], [The Academy (2009) -> The Academy (2009)]
+  path: 1[1751652 -> 2225758 -> 1788791 -> 7010989], [The Academy (2009) -> McKellen, Ian -> The Lord of the Rings: The Two Towers (2002) -> edited into J.R.R. T] 
+
+  path: 2[1751652 -> 2307587 -> 1558709 -> 5036392], [The Academy (2009) -> Barber, Frances -> Mauvaise passe (1999) -> Drama] 
+
+srcNodes: [1429479, 8003937, 5025753]
+  path: 0[1184978 -> 2294577 -> 1333049 -> 2143874 -> 1429479], [A Temp for All Seasons (2005) -> Roman, Joel (I) -> Dockweiler (2008) -> Hawkes, Will -> Hollywood Acting Academy (2009)] 
+
+  path: 1[1184978 -> 8003937], [A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[1184978 -> 2294577 -> 1423623 -> 5025753], [A Temp for All Seasons (2005) -> Roman, Joel (I) -> Hers (2007) -> Drama] 
+
+srcNodes: [1429479, 8003937, 5025753]
+  path: 0[2294577 -> 1333049 -> 2143874 -> 1429479], [Roman, Joel (I) -> Dockweiler (2008) -> Hawkes, Will -> Hollywood Acting Academy (2009)] 
+
+  path: 1[2294577 -> 1184978 -> 8003937], [Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[2294577 -> 1423623 -> 5025753], [Roman, Joel (I) -> Hers (2007) -> Drama] 
+
+srcNodes: [1751652, 8003937, 5018687]
+  path: 0[1344908 -> 2055694 -> 1402282 -> 2307587 -> 1751652], [East L.A. (2008) -> Castillo, Alex (I) -> Goal! (2005) -> Barber, Frances -> The Academy (2009)] 
+
+  path: 1[1344908 -> 2294577 -> 1184978 -> 8003937], [East L.A. (2008) -> Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[1344908 -> 5018687], [East L.A. (2008) -> Drama] 
+
+srcNodes: [1456291, 8003937, 5025753]
+  path: 0[1423623 -> 2197270 -> 1876964 -> 2059826 -> 1456291], [Hers (2007) -> Lee, Will Yun -> What's Cooking? (2000) -> Chaykin, Maury -> Intern Academy (2004)] 
+
+  path: 1[1423623 -> 2294577 -> 1184978 -> 8003937], [Hers (2007) -> Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[1423623 -> 5025753], [Hers (2007) -> Drama] 
+
+-----------------------------------------
+ResultDestNodes: [1751652, 1184978, 2294577, 1344908, 1423623]
+ResultRelevs: [6.781313896179199, 6.588901519775391, 6.553767681121826, 6.523447036743164, 6.219379425048828]
+AvgResultRelev: 6.533361911773682
+AvgResultDissimilarity: 0.72
+Num of entries retrieved from the KNLists: 24882
+Num of entries retrieved from NKMaps: 37386
+Num of answer trees explored: 13002
+Num of states created: 6
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+Div Top-k Search by Astar2nc, k=5
+[academy, award, drama]
+srcNodes: [1751652, 7010989, 5036392]
+  path: 0[1751652 -> 1751652], [The Academy (2009) -> The Academy (2009)]
+  path: 1[1751652 -> 2225758 -> 1788791 -> 7010989], [The Academy (2009) -> McKellen, Ian -> The Lord of the Rings: The Two Towers (2002) -> edited into J.R.R. T] 
+
+  path: 2[1751652 -> 2307587 -> 1558709 -> 5036392], [The Academy (2009) -> Barber, Frances -> Mauvaise passe (1999) -> Drama] 
+
+srcNodes: [1429479, 8003937, 5025753]
+  path: 0[1184978 -> 2294577 -> 1333049 -> 2143874 -> 1429479], [A Temp for All Seasons (2005) -> Roman, Joel (I) -> Dockweiler (2008) -> Hawkes, Will -> Hollywood Acting Academy (2009)] 
+
+  path: 1[1184978 -> 8003937], [A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[1184978 -> 2294577 -> 1423623 -> 5025753], [A Temp for All Seasons (2005) -> Roman, Joel (I) -> Hers (2007) -> Drama] 
+
+srcNodes: [1429479, 8003937, 5025753]
+  path: 0[2294577 -> 1333049 -> 2143874 -> 1429479], [Roman, Joel (I) -> Dockweiler (2008) -> Hawkes, Will -> Hollywood Acting Academy (2009)] 
+
+  path: 1[2294577 -> 1184978 -> 8003937], [Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[2294577 -> 1423623 -> 5025753], [Roman, Joel (I) -> Hers (2007) -> Drama] 
+
+srcNodes: [1751652, 8003937, 5018687]
+  path: 0[1344908 -> 2055694 -> 1402282 -> 2307587 -> 1751652], [East L.A. (2008) -> Castillo, Alex (I) -> Goal! (2005) -> Barber, Frances -> The Academy (2009)] 
+
+  path: 1[1344908 -> 2294577 -> 1184978 -> 8003937], [East L.A. (2008) -> Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[1344908 -> 5018687], [East L.A. (2008) -> Drama] 
+
+srcNodes: [1456291, 8003937, 5025753]
+  path: 0[1423623 -> 2197270 -> 1876964 -> 2059826 -> 1456291], [Hers (2007) -> Lee, Will Yun -> What's Cooking? (2000) -> Chaykin, Maury -> Intern Academy (2004)] 
+
+  path: 1[1423623 -> 2294577 -> 1184978 -> 8003937], [Hers (2007) -> Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[1423623 -> 5025753], [Hers (2007) -> Drama] 
+
+-----------------------------------------
+ResultDestNodes: [1751652, 1184978, 2294577, 1344908, 1423623]
+ResultRelevs: [6.781313896179199, 6.588901519775391, 6.553767681121826, 6.523447036743164, 6.219379425048828]
+AvgResultRelev: 6.533361911773682
+AvgResultDissimilarity: 0.72
+Num of entries retrieved from the KNLists: 24882
+Num of entries retrieved from NKMaps: 37386
+Num of answer trees explored: 13002
+Num of states created: 6
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+query: [sf, time, travel]
+Top-k Search by Blink-BDB, k=5
+[sf, time, travel]
+srcNodes: [1679750, 690173, 1387326]
+  path: 0[1679750 -> 1679750], [SF: Episode One (1998) -> SF: Episode One (1998)]
+  path: 1[1679750 -> 2256183 -> 1477210 -> 2397565 -> 690173], [SF: Episode One (1998) -> Okamoto, Masahiro (III) -> Kantoku · Banzai! (2007) -> Kimura, Yoshino -> "Over Time" (1999)] 
+
+  path: 2[1679750 -> 2431463 -> 1539351 -> 2355231 -> 1387326], [SF: Episode One (1998) -> Monô, Akiko -> Lost in Translation (2003) -> Faris, Anna -> Frequently Asked Questions About Time Travel (2009)] 
+
+srcNodes: [1679750, 1387326, 1387326]
+  path: 0[1387326 -> 2355231 -> 1539351 -> 2431463 -> 1679750], [Frequently Asked Questions About Time Travel (2009) -> Faris, Anna -> Lost in Translation (2003) -> Monô, Akiko -> SF: Episode One (1998)] 
+
+  path: 1[1387326 -> 1387326], [Frequently Asked Questions About Time Travel (2009) -> Frequently Asked Questions About Time Travel (2009)]
+  path: 2[1387326 -> 1387326], [Frequently Asked Questions About Time Travel (2009) -> Frequently Asked Questions About Time Travel (2009)]
+srcNodes: [1679750, 690173, 8027311]
+  path: 0[2256183 -> 1679750], [Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+  path: 1[2256183 -> 1477210 -> 2397565 -> 690173], [Okamoto, Masahiro (III) -> Kantoku · Banzai! (2007) -> Kimura, Yoshino -> "Over Time" (1999)] 
+
+  path: 2[2256183 -> 1477210 -> 2511717 -> 1564842 -> 8027311], [Okamoto, Masahiro (III) -> Kantoku · Banzai! (2007) -> Yoshiyuki, Kazuko -> Metro ni notte (2006) -> based-on-novel,time-travel] 
+
+srcNodes: [1679750, 690173, 8027311]
+  path: 0[2115522 -> 1679750], [Fukikoshi, Mitsuru -> SF: Episode One (1998)] 
+
+  path: 1[2115522 -> 1485171 -> 2386275 -> 690173], [Fukikoshi, Mitsuru -> Kita no zeronen (2005) -> Ishida, Yuriko -> "Over Time" (1999)] 
+
+  path: 2[2115522 -> 1228921 -> 2256026 -> 1564842 -> 8027311], [Fukikoshi, Mitsuru -> Ballad: Na mo naki koi no uta (2009) -> Ohsawa, Takao -> Metro ni notte (2006) -> based-on-novel,time-travel] 
+
+srcNodes: [1679750, 690173, 8013056]
+  path: 0[2436745 -> 1679750], [Natsuki, Mari -> SF: Episode One (1998)] 
+
+  path: 1[2436745 -> 1681944 -> 2397565 -> 690173], [Natsuki, Mari -> Sakuran (2006) -> Kimura, Yoshino -> "Over Time" (1999)] 
+
+  path: 2[2436745 -> 1694085 -> 2485620 -> 1330015 -> 8013056], [Natsuki, Mari -> Sen to Chihiro no kamikakushi (2001) -> Strong, Tara -> Dino Mom (2010) -> dinosaur,time-travel] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [1679750, 1387326, 2256183, 2115522, 2436745]
+ResultRelevs: [7.757143974304199, 6.758186340332031, 6.490002632141113, 6.490002632141113, 6.490002632141113]
+AvgResultRelev: 6.797067642211914
+AvgResultDissimilarity: 0.5083333333333333
+Num of entries retrieved from the lists: 2402
+Num of entries retrieved from NKMaps: 3213
+Num of answer trees explored: 850
+
+Div Top-k Search by Exhustive, k=5
+[sf, time, travel]
+srcNodes: [1679750, 690173, 1387326]
+  path: 0[1679750 -> 1679750], [SF: Episode One (1998) -> SF: Episode One (1998)]
+  path: 1[1679750 -> 2256183 -> 1477210 -> 2397565 -> 690173], [SF: Episode One (1998) -> Okamoto, Masahiro (III) -> Kantoku · Banzai! (2007) -> Kimura, Yoshino -> "Over Time" (1999)] 
+
+  path: 2[1679750 -> 2431463 -> 1539351 -> 2355231 -> 1387326], [SF: Episode One (1998) -> Monô, Akiko -> Lost in Translation (2003) -> Faris, Anna -> Frequently Asked Questions About Time Travel (2009)] 
+
+srcNodes: [1679750, 1387326, 1387326]
+  path: 0[1387326 -> 2355231 -> 1539351 -> 2431463 -> 1679750], [Frequently Asked Questions About Time Travel (2009) -> Faris, Anna -> Lost in Translation (2003) -> Monô, Akiko -> SF: Episode One (1998)] 
+
+  path: 1[1387326 -> 1387326], [Frequently Asked Questions About Time Travel (2009) -> Frequently Asked Questions About Time Travel (2009)]
+  path: 2[1387326 -> 1387326], [Frequently Asked Questions About Time Travel (2009) -> Frequently Asked Questions About Time Travel (2009)]
+srcNodes: [1679750, 690173, 8027311]
+  path: 0[2256183 -> 1679750], [Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+  path: 1[2256183 -> 1477210 -> 2397565 -> 690173], [Okamoto, Masahiro (III) -> Kantoku · Banzai! (2007) -> Kimura, Yoshino -> "Over Time" (1999)] 
+
+  path: 2[2256183 -> 1477210 -> 2511717 -> 1564842 -> 8027311], [Okamoto, Masahiro (III) -> Kantoku · Banzai! (2007) -> Yoshiyuki, Kazuko -> Metro ni notte (2006) -> based-on-novel,time-travel] 
+
+srcNodes: [1679750, 690173, 8013056]
+  path: 0[2436745 -> 1679750], [Natsuki, Mari -> SF: Episode One (1998)] 
+
+  path: 1[2436745 -> 1681944 -> 2397565 -> 690173], [Natsuki, Mari -> Sakuran (2006) -> Kimura, Yoshino -> "Over Time" (1999)] 
+
+  path: 2[2436745 -> 1694085 -> 2485620 -> 1330015 -> 8013056], [Natsuki, Mari -> Sen to Chihiro no kamikakushi (2001) -> Strong, Tara -> Dino Mom (2010) -> dinosaur,time-travel] 
+
+srcNodes: [1679750, 690173, 8027311]
+  path: 0[2115522 -> 1679750], [Fukikoshi, Mitsuru -> SF: Episode One (1998)] 
+
+  path: 1[2115522 -> 1485171 -> 2386275 -> 690173], [Fukikoshi, Mitsuru -> Kita no zeronen (2005) -> Ishida, Yuriko -> "Over Time" (1999)] 
+
+  path: 2[2115522 -> 1228921 -> 2256026 -> 1564842 -> 8027311], [Fukikoshi, Mitsuru -> Ballad: Na mo naki koi no uta (2009) -> Ohsawa, Takao -> Metro ni notte (2006) -> based-on-novel,time-travel] 
+
+-----------------------------------------
+ResultDestNodes: [1679750, 1387326, 2256183, 2436745, 2115522]
+ResultRelevs: [7.757143974304199, 6.758186340332031, 6.490002632141113, 6.490002632141113, 6.490002632141113]
+AvgResultRelev: 6.797067642211914
+AvgResultDissimilarity: 0.5083333492279053
+Num of entries retrieved from the KNLists: 2402
+Num of entries retrieved from NKMaps: 3213
+Num of answer trees explored: 850
+Num of answer tree sets created: 31
+Num of answer tree sets removed: 30
+Max Num of answer tree sets in Q[]: 31
+
+Div Top-k Search by Astar0, k=5
+[sf, time, travel]
+srcNodes: [1679750, 690173, 1387326]
+  path: 0[1679750 -> 1679750], [SF: Episode One (1998) -> SF: Episode One (1998)]
+  path: 1[1679750 -> 2256183 -> 1477210 -> 2397565 -> 690173], [SF: Episode One (1998) -> Okamoto, Masahiro (III) -> Kantoku · Banzai! (2007) -> Kimura, Yoshino -> "Over Time" (1999)] 
+
+  path: 2[1679750 -> 2431463 -> 1539351 -> 2355231 -> 1387326], [SF: Episode One (1998) -> Monô, Akiko -> Lost in Translation (2003) -> Faris, Anna -> Frequently Asked Questions About Time Travel (2009)] 
+
+srcNodes: [1679750, 1387326, 1387326]
+  path: 0[1387326 -> 2355231 -> 1539351 -> 2431463 -> 1679750], [Frequently Asked Questions About Time Travel (2009) -> Faris, Anna -> Lost in Translation (2003) -> Monô, Akiko -> SF: Episode One (1998)] 
+
+  path: 1[1387326 -> 1387326], [Frequently Asked Questions About Time Travel (2009) -> Frequently Asked Questions About Time Travel (2009)]
+  path: 2[1387326 -> 1387326], [Frequently Asked Questions About Time Travel (2009) -> Frequently Asked Questions About Time Travel (2009)]
+srcNodes: [1679750, 690173, 8027311]
+  path: 0[2256183 -> 1679750], [Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+  path: 1[2256183 -> 1477210 -> 2397565 -> 690173], [Okamoto, Masahiro (III) -> Kantoku · Banzai! (2007) -> Kimura, Yoshino -> "Over Time" (1999)] 
+
+  path: 2[2256183 -> 1477210 -> 2511717 -> 1564842 -> 8027311], [Okamoto, Masahiro (III) -> Kantoku · Banzai! (2007) -> Yoshiyuki, Kazuko -> Metro ni notte (2006) -> based-on-novel,time-travel] 
+
+srcNodes: [1679750, 690173, 8013056]
+  path: 0[2436745 -> 1679750], [Natsuki, Mari -> SF: Episode One (1998)] 
+
+  path: 1[2436745 -> 1681944 -> 2397565 -> 690173], [Natsuki, Mari -> Sakuran (2006) -> Kimura, Yoshino -> "Over Time" (1999)] 
+
+  path: 2[2436745 -> 1694085 -> 2485620 -> 1330015 -> 8013056], [Natsuki, Mari -> Sen to Chihiro no kamikakushi (2001) -> Strong, Tara -> Dino Mom (2010) -> dinosaur,time-travel] 
+
+srcNodes: [1679750, 690173, 8027311]
+  path: 0[2115522 -> 1679750], [Fukikoshi, Mitsuru -> SF: Episode One (1998)] 
+
+  path: 1[2115522 -> 1485171 -> 2386275 -> 690173], [Fukikoshi, Mitsuru -> Kita no zeronen (2005) -> Ishida, Yuriko -> "Over Time" (1999)] 
+
+  path: 2[2115522 -> 1228921 -> 2256026 -> 1564842 -> 8027311], [Fukikoshi, Mitsuru -> Ballad: Na mo naki koi no uta (2009) -> Ohsawa, Takao -> Metro ni notte (2006) -> based-on-novel,time-travel] 
+
+-----------------------------------------
+ResultDestNodes: [1679750, 1387326, 2256183, 2436745, 2115522]
+ResultRelevs: [7.757143974304199, 6.758186340332031, 6.490002632141113, 6.490002632141113, 6.490002632141113]
+AvgResultRelev: 6.797067642211914
+AvgResultDissimilarity: 0.5083333333333333
+Num of entries retrieved from the KNLists: 2402
+Num of entries retrieved from NKMaps: 3213
+Num of answer trees explored: 850
+Num of states created: 6
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+Div Top-k Search by Astar1, k=5
+[sf, time, travel]
+srcNodes: [1679750, 690173, 1387326]
+  path: 0[1679750 -> 1679750], [SF: Episode One (1998) -> SF: Episode One (1998)]
+  path: 1[1679750 -> 2256183 -> 1477210 -> 2397565 -> 690173], [SF: Episode One (1998) -> Okamoto, Masahiro (III) -> Kantoku · Banzai! (2007) -> Kimura, Yoshino -> "Over Time" (1999)] 
+
+  path: 2[1679750 -> 2431463 -> 1539351 -> 2355231 -> 1387326], [SF: Episode One (1998) -> Monô, Akiko -> Lost in Translation (2003) -> Faris, Anna -> Frequently Asked Questions About Time Travel (2009)] 
+
+srcNodes: [1679750, 1387326, 1387326]
+  path: 0[1387326 -> 2355231 -> 1539351 -> 2431463 -> 1679750], [Frequently Asked Questions About Time Travel (2009) -> Faris, Anna -> Lost in Translation (2003) -> Monô, Akiko -> SF: Episode One (1998)] 
+
+  path: 1[1387326 -> 1387326], [Frequently Asked Questions About Time Travel (2009) -> Frequently Asked Questions About Time Travel (2009)]
+  path: 2[1387326 -> 1387326], [Frequently Asked Questions About Time Travel (2009) -> Frequently Asked Questions About Time Travel (2009)]
+srcNodes: [1679750, 690173, 8027311]
+  path: 0[2256183 -> 1679750], [Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+  path: 1[2256183 -> 1477210 -> 2397565 -> 690173], [Okamoto, Masahiro (III) -> Kantoku · Banzai! (2007) -> Kimura, Yoshino -> "Over Time" (1999)] 
+
+  path: 2[2256183 -> 1477210 -> 2511717 -> 1564842 -> 8027311], [Okamoto, Masahiro (III) -> Kantoku · Banzai! (2007) -> Yoshiyuki, Kazuko -> Metro ni notte (2006) -> based-on-novel,time-travel] 
+
+srcNodes: [1679750, 690173, 8013056]
+  path: 0[2436745 -> 1679750], [Natsuki, Mari -> SF: Episode One (1998)] 
+
+  path: 1[2436745 -> 1681944 -> 2397565 -> 690173], [Natsuki, Mari -> Sakuran (2006) -> Kimura, Yoshino -> "Over Time" (1999)] 
+
+  path: 2[2436745 -> 1694085 -> 2485620 -> 1330015 -> 8013056], [Natsuki, Mari -> Sen to Chihiro no kamikakushi (2001) -> Strong, Tara -> Dino Mom (2010) -> dinosaur,time-travel] 
+
+srcNodes: [1679750, 690173, 8027311]
+  path: 0[2115522 -> 1679750], [Fukikoshi, Mitsuru -> SF: Episode One (1998)] 
+
+  path: 1[2115522 -> 1485171 -> 2386275 -> 690173], [Fukikoshi, Mitsuru -> Kita no zeronen (2005) -> Ishida, Yuriko -> "Over Time" (1999)] 
+
+  path: 2[2115522 -> 1228921 -> 2256026 -> 1564842 -> 8027311], [Fukikoshi, Mitsuru -> Ballad: Na mo naki koi no uta (2009) -> Ohsawa, Takao -> Metro ni notte (2006) -> based-on-novel,time-travel] 
+
+-----------------------------------------
+ResultDestNodes: [1679750, 1387326, 2256183, 2436745, 2115522]
+ResultRelevs: [7.757143974304199, 6.758186340332031, 6.490002632141113, 6.490002632141113, 6.490002632141113]
+AvgResultRelev: 6.797067642211914
+AvgResultDissimilarity: 0.5083333333333333
+Num of entries retrieved from the KNLists: 2402
+Num of entries retrieved from NKMaps: 3213
+Num of answer trees explored: 850
+Num of states created: 6
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+Div Top-k Search by Astar2, k=5
+[sf, time, travel]
+srcNodes: [1679750, 690173, 1387326]
+  path: 0[1679750 -> 1679750], [SF: Episode One (1998) -> SF: Episode One (1998)]
+  path: 1[1679750 -> 2256183 -> 1477210 -> 2397565 -> 690173], [SF: Episode One (1998) -> Okamoto, Masahiro (III) -> Kantoku · Banzai! (2007) -> Kimura, Yoshino -> "Over Time" (1999)] 
+
+  path: 2[1679750 -> 2431463 -> 1539351 -> 2355231 -> 1387326], [SF: Episode One (1998) -> Monô, Akiko -> Lost in Translation (2003) -> Faris, Anna -> Frequently Asked Questions About Time Travel (2009)] 
+
+srcNodes: [1679750, 1387326, 1387326]
+  path: 0[1387326 -> 2355231 -> 1539351 -> 2431463 -> 1679750], [Frequently Asked Questions About Time Travel (2009) -> Faris, Anna -> Lost in Translation (2003) -> Monô, Akiko -> SF: Episode One (1998)] 
+
+  path: 1[1387326 -> 1387326], [Frequently Asked Questions About Time Travel (2009) -> Frequently Asked Questions About Time Travel (2009)]
+  path: 2[1387326 -> 1387326], [Frequently Asked Questions About Time Travel (2009) -> Frequently Asked Questions About Time Travel (2009)]
+srcNodes: [1679750, 690173, 8027311]
+  path: 0[2256183 -> 1679750], [Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+  path: 1[2256183 -> 1477210 -> 2397565 -> 690173], [Okamoto, Masahiro (III) -> Kantoku · Banzai! (2007) -> Kimura, Yoshino -> "Over Time" (1999)] 
+
+  path: 2[2256183 -> 1477210 -> 2511717 -> 1564842 -> 8027311], [Okamoto, Masahiro (III) -> Kantoku · Banzai! (2007) -> Yoshiyuki, Kazuko -> Metro ni notte (2006) -> based-on-novel,time-travel] 
+
+srcNodes: [1679750, 690173, 8013056]
+  path: 0[2436745 -> 1679750], [Natsuki, Mari -> SF: Episode One (1998)] 
+
+  path: 1[2436745 -> 1681944 -> 2397565 -> 690173], [Natsuki, Mari -> Sakuran (2006) -> Kimura, Yoshino -> "Over Time" (1999)] 
+
+  path: 2[2436745 -> 1694085 -> 2485620 -> 1330015 -> 8013056], [Natsuki, Mari -> Sen to Chihiro no kamikakushi (2001) -> Strong, Tara -> Dino Mom (2010) -> dinosaur,time-travel] 
+
+srcNodes: [1679750, 690173, 8027311]
+  path: 0[2115522 -> 1679750], [Fukikoshi, Mitsuru -> SF: Episode One (1998)] 
+
+  path: 1[2115522 -> 1485171 -> 2386275 -> 690173], [Fukikoshi, Mitsuru -> Kita no zeronen (2005) -> Ishida, Yuriko -> "Over Time" (1999)] 
+
+  path: 2[2115522 -> 1228921 -> 2256026 -> 1564842 -> 8027311], [Fukikoshi, Mitsuru -> Ballad: Na mo naki koi no uta (2009) -> Ohsawa, Takao -> Metro ni notte (2006) -> based-on-novel,time-travel] 
+
+-----------------------------------------
+ResultDestNodes: [1679750, 1387326, 2256183, 2436745, 2115522]
+ResultRelevs: [7.757143974304199, 6.758186340332031, 6.490002632141113, 6.490002632141113, 6.490002632141113]
+AvgResultRelev: 6.797067642211914
+AvgResultDissimilarity: 0.5083333333333333
+Num of entries retrieved from the KNLists: 2402
+Num of entries retrieved from NKMaps: 3213
+Num of answer trees explored: 850
+Num of states created: 6
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+Div Top-k Search by Astar1nc, k=5
+[sf, time, travel]
+srcNodes: [1679750, 690173, 1387326]
+  path: 0[1679750 -> 1679750], [SF: Episode One (1998) -> SF: Episode One (1998)]
+  path: 1[1679750 -> 2256183 -> 1477210 -> 2397565 -> 690173], [SF: Episode One (1998) -> Okamoto, Masahiro (III) -> Kantoku · Banzai! (2007) -> Kimura, Yoshino -> "Over Time" (1999)] 
+
+  path: 2[1679750 -> 2431463 -> 1539351 -> 2355231 -> 1387326], [SF: Episode One (1998) -> Monô, Akiko -> Lost in Translation (2003) -> Faris, Anna -> Frequently Asked Questions About Time Travel (2009)] 
+
+srcNodes: [1679750, 1387326, 1387326]
+  path: 0[1387326 -> 2355231 -> 1539351 -> 2431463 -> 1679750], [Frequently Asked Questions About Time Travel (2009) -> Faris, Anna -> Lost in Translation (2003) -> Monô, Akiko -> SF: Episode One (1998)] 
+
+  path: 1[1387326 -> 1387326], [Frequently Asked Questions About Time Travel (2009) -> Frequently Asked Questions About Time Travel (2009)]
+  path: 2[1387326 -> 1387326], [Frequently Asked Questions About Time Travel (2009) -> Frequently Asked Questions About Time Travel (2009)]
+srcNodes: [1679750, 690173, 8027311]
+  path: 0[2256183 -> 1679750], [Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+  path: 1[2256183 -> 1477210 -> 2397565 -> 690173], [Okamoto, Masahiro (III) -> Kantoku · Banzai! (2007) -> Kimura, Yoshino -> "Over Time" (1999)] 
+
+  path: 2[2256183 -> 1477210 -> 2511717 -> 1564842 -> 8027311], [Okamoto, Masahiro (III) -> Kantoku · Banzai! (2007) -> Yoshiyuki, Kazuko -> Metro ni notte (2006) -> based-on-novel,time-travel] 
+
+srcNodes: [1679750, 690173, 8013056]
+  path: 0[2436745 -> 1679750], [Natsuki, Mari -> SF: Episode One (1998)] 
+
+  path: 1[2436745 -> 1681944 -> 2397565 -> 690173], [Natsuki, Mari -> Sakuran (2006) -> Kimura, Yoshino -> "Over Time" (1999)] 
+
+  path: 2[2436745 -> 1694085 -> 2485620 -> 1330015 -> 8013056], [Natsuki, Mari -> Sen to Chihiro no kamikakushi (2001) -> Strong, Tara -> Dino Mom (2010) -> dinosaur,time-travel] 
+
+srcNodes: [1679750, 690173, 8027311]
+  path: 0[2115522 -> 1679750], [Fukikoshi, Mitsuru -> SF: Episode One (1998)] 
+
+  path: 1[2115522 -> 1485171 -> 2386275 -> 690173], [Fukikoshi, Mitsuru -> Kita no zeronen (2005) -> Ishida, Yuriko -> "Over Time" (1999)] 
+
+  path: 2[2115522 -> 1228921 -> 2256026 -> 1564842 -> 8027311], [Fukikoshi, Mitsuru -> Ballad: Na mo naki koi no uta (2009) -> Ohsawa, Takao -> Metro ni notte (2006) -> based-on-novel,time-travel] 
+
+-----------------------------------------
+ResultDestNodes: [1679750, 1387326, 2256183, 2436745, 2115522]
+ResultRelevs: [7.757143974304199, 6.758186340332031, 6.490002632141113, 6.490002632141113, 6.490002632141113]
+AvgResultRelev: 6.797067642211914
+AvgResultDissimilarity: 0.5083333333333333
+Num of entries retrieved from the KNLists: 2402
+Num of entries retrieved from NKMaps: 3213
+Num of answer trees explored: 850
+Num of states created: 6
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+Div Top-k Search by Astar2nc, k=5
+[sf, time, travel]
+srcNodes: [1679750, 690173, 1387326]
+  path: 0[1679750 -> 1679750], [SF: Episode One (1998) -> SF: Episode One (1998)]
+  path: 1[1679750 -> 2256183 -> 1477210 -> 2397565 -> 690173], [SF: Episode One (1998) -> Okamoto, Masahiro (III) -> Kantoku · Banzai! (2007) -> Kimura, Yoshino -> "Over Time" (1999)] 
+
+  path: 2[1679750 -> 2431463 -> 1539351 -> 2355231 -> 1387326], [SF: Episode One (1998) -> Monô, Akiko -> Lost in Translation (2003) -> Faris, Anna -> Frequently Asked Questions About Time Travel (2009)] 
+
+srcNodes: [1679750, 1387326, 1387326]
+  path: 0[1387326 -> 2355231 -> 1539351 -> 2431463 -> 1679750], [Frequently Asked Questions About Time Travel (2009) -> Faris, Anna -> Lost in Translation (2003) -> Monô, Akiko -> SF: Episode One (1998)] 
+
+  path: 1[1387326 -> 1387326], [Frequently Asked Questions About Time Travel (2009) -> Frequently Asked Questions About Time Travel (2009)]
+  path: 2[1387326 -> 1387326], [Frequently Asked Questions About Time Travel (2009) -> Frequently Asked Questions About Time Travel (2009)]
+srcNodes: [1679750, 690173, 8027311]
+  path: 0[2256183 -> 1679750], [Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+  path: 1[2256183 -> 1477210 -> 2397565 -> 690173], [Okamoto, Masahiro (III) -> Kantoku · Banzai! (2007) -> Kimura, Yoshino -> "Over Time" (1999)] 
+
+  path: 2[2256183 -> 1477210 -> 2511717 -> 1564842 -> 8027311], [Okamoto, Masahiro (III) -> Kantoku · Banzai! (2007) -> Yoshiyuki, Kazuko -> Metro ni notte (2006) -> based-on-novel,time-travel] 
+
+srcNodes: [1679750, 690173, 8013056]
+  path: 0[2436745 -> 1679750], [Natsuki, Mari -> SF: Episode One (1998)] 
+
+  path: 1[2436745 -> 1681944 -> 2397565 -> 690173], [Natsuki, Mari -> Sakuran (2006) -> Kimura, Yoshino -> "Over Time" (1999)] 
+
+  path: 2[2436745 -> 1694085 -> 2485620 -> 1330015 -> 8013056], [Natsuki, Mari -> Sen to Chihiro no kamikakushi (2001) -> Strong, Tara -> Dino Mom (2010) -> dinosaur,time-travel] 
+
+srcNodes: [1679750, 690173, 8027311]
+  path: 0[2115522 -> 1679750], [Fukikoshi, Mitsuru -> SF: Episode One (1998)] 
+
+  path: 1[2115522 -> 1485171 -> 2386275 -> 690173], [Fukikoshi, Mitsuru -> Kita no zeronen (2005) -> Ishida, Yuriko -> "Over Time" (1999)] 
+
+  path: 2[2115522 -> 1228921 -> 2256026 -> 1564842 -> 8027311], [Fukikoshi, Mitsuru -> Ballad: Na mo naki koi no uta (2009) -> Ohsawa, Takao -> Metro ni notte (2006) -> based-on-novel,time-travel] 
+
+-----------------------------------------
+ResultDestNodes: [1679750, 1387326, 2256183, 2436745, 2115522]
+ResultRelevs: [7.757143974304199, 6.758186340332031, 6.490002632141113, 6.490002632141113, 6.490002632141113]
+AvgResultRelev: 6.797067642211914
+AvgResultDissimilarity: 0.5083333333333333
+Num of entries retrieved from the KNLists: 2402
+Num of entries retrieved from NKMaps: 3213
+Num of answer trees explored: 850
+Num of states created: 6
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+query: [crime, action, thriller]
+Top-k Search by Blink-BDB, k=5
+[crime, action, thriller]
+srcNodes: [1698434, 5048917, 5025083]
+  path: 0[1698434 -> 1698434], [Shadow of Crime (2009) -> Shadow of Crime (2009)]
+  path: 1[1698434 -> 5048917], [Shadow of Crime (2009) -> Action] 
+
+  path: 2[1698434 -> 2277627 -> 1416287 -> 5025083], [Shadow of Crime (2009) -> Priskorn, Jeff -> Harmless Thoughts (2009) -> Thriller] 
+
+srcNodes: [5047855, 5047855, 5047855]
+  path: 0[5047855 -> 5047855], [Action,Thriller,Action,Thriller,Crime,Crime,Drama -> Action,Thriller,Action,Thriller,Crime,Crime,Drama]
+  path: 1[5047855 -> 5047855], [Action,Thriller,Action,Thriller,Crime,Crime,Drama -> Action,Thriller,Action,Thriller,Crime,Crime,Drama]
+  path: 2[5047855 -> 5047855], [Action,Thriller,Action,Thriller,Crime,Crime,Drama -> Action,Thriller,Action,Thriller,Crime,Crime,Drama]
+srcNodes: [5065698, 5036207, 5051345]
+  path: 0[2380890 -> 1872922 -> 5065698], [Hoang, Junie -> Waters Rising (2007) -> Crime] 
+
+  path: 1[2380890 -> 1556325 -> 5036207], [Hoang, Junie -> Martian Successor Nadesico: The Motion Picture - Prince of Darkness (2003) -> Action] 
+
+  path: 2[2380890 -> 1721562 -> 5051345], [Hoang, Junie -> Spirits Among Us (2009) -> Thriller] 
+
+srcNodes: [5065698, 5030843, 5007359]
+  path: 0[2136011 -> 1872922 -> 5065698], [Gwyn, Johnathan -> Waters Rising (2007) -> Crime] 
+
+  path: 1[2136011 -> 1483255 -> 5030843], [Gwyn, Johnathan -> Killing the Badge (1999) -> Action] 
+
+  path: 2[2136011 -> 1215740 -> 5007359], [Gwyn, Johnathan -> Arlington Road (1999) -> Thriller] 
+
+srcNodes: [5067414, 5024712, 5047614]
+  path: 0[4008390 -> 1891230 -> 5067414], [Chung, Siu-hung -> Ying - Saat ji faat (2000) -> Crime] 
+
+  path: 1[4008390 -> 1412659 -> 5024712], [Chung, Siu-hung -> Hak sai lik (2008) -> Action] 
+
+  path: 2[4008390 -> 1682843 -> 5047614], [Chung, Siu-hung -> Sam hon (2003) -> Thriller] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [1698434, 5047855, 2380890, 2136011, 4008390]
+ResultRelevs: [9.013093948364258, 8.948652267456055, 8.822924613952637, 8.822924613952637, 8.822924613952637]
+AvgResultRelev: 8.886104011535645
+AvgResultDissimilarity: 0.9800000000000001
+Num of entries retrieved from the lists: 13014
+Num of entries retrieved from NKMaps: 18702
+Num of answer trees explored: 5826
+
+Div Top-k Search by Exhustive, k=5
+[crime, action, thriller]
+srcNodes: [1698434, 5048917, 5025083]
+  path: 0[1698434 -> 1698434], [Shadow of Crime (2009) -> Shadow of Crime (2009)]
+  path: 1[1698434 -> 5048917], [Shadow of Crime (2009) -> Action] 
+
+  path: 2[1698434 -> 2277627 -> 1416287 -> 5025083], [Shadow of Crime (2009) -> Priskorn, Jeff -> Harmless Thoughts (2009) -> Thriller] 
+
+srcNodes: [5047855, 5047855, 5047855]
+  path: 0[5047855 -> 5047855], [Action,Thriller,Action,Thriller,Crime,Crime,Drama -> Action,Thriller,Action,Thriller,Crime,Crime,Drama]
+  path: 1[5047855 -> 5047855], [Action,Thriller,Action,Thriller,Crime,Crime,Drama -> Action,Thriller,Action,Thriller,Crime,Crime,Drama]
+  path: 2[5047855 -> 5047855], [Action,Thriller,Action,Thriller,Crime,Crime,Drama -> Action,Thriller,Action,Thriller,Crime,Crime,Drama]
+srcNodes: [5038942, 5016529, 5030094]
+  path: 0[2099736 -> 1585832 -> 5038942], [Emoto, Akira -> Môryô no hako (2007) -> Crime] 
+
+  path: 1[2099736 -> 1315199 -> 5016529], [Emoto, Akira -> Denjin Zabôgâ: Gekijô-ban (2011) -> Action] 
+
+  path: 2[2099736 -> 1474211 -> 5030094], [Emoto, Akira -> KT (2002) -> Thriller] 
+
+srcNodes: [5050089, 5034356, 5021124]
+  path: 0[2061229 -> 1709667 -> 5050089], [Chin, Ashley -> Sket (2011) -> Crime] 
+
+  path: 1[2061229 -> 1535756 -> 5034356], [Chin, Ashley -> London Town (2011) -> Action] 
+
+  path: 2[2061229 -> 1375446 -> 5021124], [Chin, Ashley -> Fever (2011) -> Thriller] 
+
+srcNodes: [5015149, 5030095, 5008074]
+  path: 0[2499662 -> 1300916 -> 5015149], [Verma, Pushpa -> Dabdaba (2003) -> Crime] 
+
+  path: 1[2499662 -> 1474241 -> 5030095], [Verma, Pushpa -> Kaaboo (2002) -> Action] 
+
+  path: 2[2499662 -> 1225058 -> 5008074], [Verma, Pushpa -> Baaz: A Bird in Danger (2003) -> Thriller] 
+
+-----------------------------------------
+ResultDestNodes: [1698434, 5047855, 2099736, 2061229, 2499662]
+ResultRelevs: [9.013093948364258, 8.948652267456055, 8.822924613952637, 8.822924613952637, 8.822924613952637]
+AvgResultRelev: 8.886104011535645
+AvgResultDissimilarity: 1.0
+Num of entries retrieved from the KNLists: 13014
+Num of entries retrieved from NKMaps: 18702
+Num of answer trees explored: 5826
+Num of answer tree sets created: 31
+Num of answer tree sets removed: 30
+Max Num of answer tree sets in Q[]: 31
+
+Div Top-k Search by Astar0, k=5
+[crime, action, thriller]
+srcNodes: [1698434, 5048917, 5025083]
+  path: 0[1698434 -> 1698434], [Shadow of Crime (2009) -> Shadow of Crime (2009)]
+  path: 1[1698434 -> 5048917], [Shadow of Crime (2009) -> Action] 
+
+  path: 2[1698434 -> 2277627 -> 1416287 -> 5025083], [Shadow of Crime (2009) -> Priskorn, Jeff -> Harmless Thoughts (2009) -> Thriller] 
+
+srcNodes: [5047855, 5047855, 5047855]
+  path: 0[5047855 -> 5047855], [Action,Thriller,Action,Thriller,Crime,Crime,Drama -> Action,Thriller,Action,Thriller,Crime,Crime,Drama]
+  path: 1[5047855 -> 5047855], [Action,Thriller,Action,Thriller,Crime,Crime,Drama -> Action,Thriller,Action,Thriller,Crime,Crime,Drama]
+  path: 2[5047855 -> 5047855], [Action,Thriller,Action,Thriller,Crime,Crime,Drama -> Action,Thriller,Action,Thriller,Crime,Crime,Drama]
+srcNodes: [5038942, 5016529, 5030094]
+  path: 0[2099736 -> 1585832 -> 5038942], [Emoto, Akira -> Môryô no hako (2007) -> Crime] 
+
+  path: 1[2099736 -> 1315199 -> 5016529], [Emoto, Akira -> Denjin Zabôgâ: Gekijô-ban (2011) -> Action] 
+
+  path: 2[2099736 -> 1474211 -> 5030094], [Emoto, Akira -> KT (2002) -> Thriller] 
+
+srcNodes: [5050089, 5034356, 5021124]
+  path: 0[2061229 -> 1709667 -> 5050089], [Chin, Ashley -> Sket (2011) -> Crime] 
+
+  path: 1[2061229 -> 1535756 -> 5034356], [Chin, Ashley -> London Town (2011) -> Action] 
+
+  path: 2[2061229 -> 1375446 -> 5021124], [Chin, Ashley -> Fever (2011) -> Thriller] 
+
+srcNodes: [5015149, 5030095, 5008074]
+  path: 0[2499662 -> 1300916 -> 5015149], [Verma, Pushpa -> Dabdaba (2003) -> Crime] 
+
+  path: 1[2499662 -> 1474241 -> 5030095], [Verma, Pushpa -> Kaaboo (2002) -> Action] 
+
+  path: 2[2499662 -> 1225058 -> 5008074], [Verma, Pushpa -> Baaz: A Bird in Danger (2003) -> Thriller] 
+
+-----------------------------------------
+ResultDestNodes: [1698434, 5047855, 2099736, 2061229, 2499662]
+ResultRelevs: [9.013093948364258, 8.948652267456055, 8.822924613952637, 8.822924613952637, 8.822924613952637]
+AvgResultRelev: 8.886104011535645
+AvgResultDissimilarity: 1.0
+Num of entries retrieved from the KNLists: 13014
+Num of entries retrieved from NKMaps: 18702
+Num of answer trees explored: 5826
+Num of states created: 6
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+

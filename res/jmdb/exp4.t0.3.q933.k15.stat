@@ -1,0 +1,9 @@
+Top-k, (AvgResultRelev, AvgResultRelev/ResultRelevs[0], AvgResultDiss) numOfKNListsRead, numOfNKMapLookups, numOfAnswerTreesExplored, elapseTime, numOfStatesCreated, numOfStatesExplored, numOfHeuristicSearchPerformed, numOfATSPrunnedByDissCond, numOfLocalAnswersFound, 
+query: [monarchy, revolution, war]
+SimGrpSe, 	15, 6.77578, 1.06957, 0.58730, 4572, 6072, 1534, 0.23705168, 682, 256, 0, 1, 
+query: [crime, thriller, suspense]
+SimGrpSe, 	15, 9.92820, 1.03247, 0.58762, 2925, 5296, 1441, 0.583376929, 6238, 2048, 0, 1, 
+query: [murder, psychopath, mystery]
+SimGrpSe, 	15, 7.56489, 1.08452, 0.51746, 5835, 9627, 3240, 0.568054143, 6247, 2048, 0, 1, 
+query: [romance, conflict, marriage]
+SimGrpSe, 	15, 7.11866, 1.03769, 0.56190, 9105, 16627, 6804, 0.43108419, 88, 16, 0, 1, 

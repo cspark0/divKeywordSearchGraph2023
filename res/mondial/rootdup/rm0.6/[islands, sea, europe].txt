@@ -1,0 +1,863 @@
+Blink Search Using BDB 10
+[islands, sea, europe]
+srcNodes: [20034, 100020, 10004]
+  path: 0[10004 -> 20034], [Europe -> Faroe Islands] 
+
+  path: 1[10004 -> 20050 -> 100020], [Europe -> Svalbard -> Norwegian Sea] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [20034, 100020, 10004]
+  path: 0[20034 -> 20034], [Faroe Islands -> Faroe Islands]
+  path: 1[20034 -> 100020], [Faroe Islands -> Norwegian Sea] 
+
+  path: 2[20034 -> 10004], [Faroe Islands -> Europe] 
+
+srcNodes: [110004, 100020, 10004]
+  path: 0[110004 -> 110004], [Streymoy Streymoy Faroe Islands  -> Streymoy Streymoy Faroe Islands ]
+  path: 1[110004 -> 100020], [Streymoy Streymoy Faroe Islands  -> Norwegian Sea] 
+
+  path: 2[110004 -> 20034 -> 10004], [Streymoy Streymoy Faroe Islands  -> Faroe Islands -> Europe] 
+
+srcNodes: [110029, 100032, 10004]
+  path: 0[20045 -> 110029], [Jersey -> Jersey Jersey Channel Islands ] 
+
+  path: 1[20045 -> 100032], [Jersey -> The Channel] 
+
+  path: 2[20045 -> 10004], [Jersey -> Europe] 
+
+srcNodes: [110028, 100032, 10004]
+  path: 0[20040 -> 110028], [Guernsey -> Guernsey Guernsey Channel Islands ] 
+
+  path: 1[20040 -> 100032], [Guernsey -> The Channel] 
+
+  path: 2[20040 -> 10004], [Guernsey -> Europe] 
+
+srcNodes: [110029, 100032, 10004]
+  path: 0[110029 -> 110029], [Jersey Jersey Channel Islands  -> Jersey Jersey Channel Islands ]
+  path: 1[110029 -> 100032], [Jersey Jersey Channel Islands  -> The Channel] 
+
+  path: 2[110029 -> 20045 -> 10004], [Jersey Jersey Channel Islands  -> Jersey -> Europe] 
+
+srcNodes: [110028, 100032, 10004]
+  path: 0[110028 -> 110028], [Guernsey Guernsey Channel Islands  -> Guernsey Guernsey Channel Islands ]
+  path: 1[110028 -> 100032], [Guernsey Guernsey Channel Islands  -> The Channel] 
+
+  path: 2[110028 -> 20040 -> 10004], [Guernsey Guernsey Channel Islands  -> Guernsey -> Europe] 
+
+srcNodes: [20034, 100004, 10004]
+  path: 0[20019 -> 10004 -> 20034], [Latvia -> Europe -> Faroe Islands] 
+
+  path: 1[20019 -> 100004], [Latvia -> Baltic Sea] 
+
+  path: 2[20019 -> 10004], [Latvia -> Europe] 
+
+srcNodes: [20034, 100004, 10004]
+  path: 0[20020 -> 10004 -> 20034], [Lithuania -> Europe -> Faroe Islands] 
+
+  path: 1[20020 -> 100004], [Lithuania -> Baltic Sea] 
+
+  path: 2[20020 -> 10004], [Lithuania -> Europe] 
+
+srcNodes: [20034, 100018, 10004]
+  path: 0[20039 -> 10004 -> 20034], [Gibraltar -> Europe -> Faroe Islands] 
+
+  path: 1[20039 -> 100018], [Gibraltar -> Mediterranean Sea] 
+
+  path: 2[20039 -> 10004], [Gibraltar -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: [10004, 20034, 110004, 20045, 20040, 110029, 110028, 20019, 20020, 20039]
+ResultRelevs: [10.889289855957031, 8.778459548950195, 7.413969993591309, 7.264880180358887, 7.264880180358887, 7.1632399559021, 7.1632399559021, 7.09466028213501, 7.09466028213501, 7.09466028213501]
+Num of top-k answers: 10
+Num of non-reduced answers: 0
+Num of duplicate answers: 4
+Num of non-redundant answers: 6
+Num of entries retrieved from the lists: 245
+Num of entries retrieved from NKMaps: 404
+
+Blink Search Using ConstRootDup10
+[islands, sea, europe]
+srcNodes: [20034, 100020, 10004]
+  path: 0[10004 -> 20034], [Europe -> Faroe Islands] 
+
+  path: 1[10004 -> 20050 -> 100020], [Europe -> Svalbard -> Norwegian Sea] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [20034, 100018, 10004]
+  path: 0[10004 -> 20034], [Europe -> Faroe Islands] 
+
+  path: 1[10004 -> 20082 -> 100018], [Europe -> Cyprus -> Mediterranean Sea] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [20034, 100016, 10004]
+  path: 0[10004 -> 20034], [Europe -> Faroe Islands] 
+
+  path: 1[10004 -> 20032 -> 100016], [Europe -> Denmark -> Kattegat] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [20034, 100026, 10004]
+  path: 0[10004 -> 20034], [Europe -> Faroe Islands] 
+
+  path: 1[10004 -> 20023 -> 30319 -> 100026], [Europe -> Russia -> Magadanskaya oblast -> Sea of Okhotsk] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [30044, 100020, 10004]
+  path: 0[10004 -> 20008 -> 30044], [Europe -> Spain -> Balearic Islands] 
+
+  path: 1[10004 -> 20050 -> 100020], [Europe -> Svalbard -> Norwegian Sea] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [30044, 100018, 10004]
+  path: 0[10004 -> 20008 -> 30044], [Europe -> Spain -> Balearic Islands] 
+
+  path: 1[10004 -> 20082 -> 100018], [Europe -> Cyprus -> Mediterranean Sea] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [20034, 100020, 10004]
+  path: 0[20034 -> 20034], [Faroe Islands -> Faroe Islands]
+  path: 1[20034 -> 100020], [Faroe Islands -> Norwegian Sea] 
+
+  path: 2[20034 -> 10004], [Faroe Islands -> Europe] 
+
+srcNodes: [110004, 100020, 10004]
+  path: 0[110004 -> 110004], [Streymoy Streymoy Faroe Islands  -> Streymoy Streymoy Faroe Islands ]
+  path: 1[110004 -> 100020], [Streymoy Streymoy Faroe Islands  -> Norwegian Sea] 
+
+  path: 2[110004 -> 20034 -> 10004], [Streymoy Streymoy Faroe Islands  -> Faroe Islands -> Europe] 
+
+srcNodes: [110029, 100032, 10004]
+  path: 0[20045 -> 110029], [Jersey -> Jersey Jersey Channel Islands ] 
+
+  path: 1[20045 -> 100032], [Jersey -> The Channel] 
+
+  path: 2[20045 -> 10004], [Jersey -> Europe] 
+
+srcNodes: [110028, 100032, 10004]
+  path: 0[20040 -> 110028], [Guernsey -> Guernsey Guernsey Channel Islands ] 
+
+  path: 1[20040 -> 100032], [Guernsey -> The Channel] 
+
+  path: 2[20040 -> 10004], [Guernsey -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: 
+10004, 10004, 10004, 10004, 10004, 10004, 20034, 110004, 20045, 20040, 
+ResultRelevs: 
+10.88929, 10.88929, 10.72214, 10.52941, 10.46834, 10.46834, 8.77846, 7.41397, 7.26488, 7.26488, 
+Num of top-k answers: 10
+Num of duplicate answers: 1
+Num of duplicate roots in top-k answers: 5
+root duplication ratio: 0.5555556
+given max root duplication param: 0.6
+Num of entries retrieved from the lists: 174
+Num of entries retrieved from NKMaps: 1341
+Num of answer trees explored: 8350
+
+Blink Search Using BDB 20
+[islands, sea, europe]
+srcNodes: [20034, 100020, 10004]
+  path: 0[10004 -> 20034], [Europe -> Faroe Islands] 
+
+  path: 1[10004 -> 20050 -> 100020], [Europe -> Svalbard -> Norwegian Sea] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [20034, 100020, 10004]
+  path: 0[20034 -> 20034], [Faroe Islands -> Faroe Islands]
+  path: 1[20034 -> 100020], [Faroe Islands -> Norwegian Sea] 
+
+  path: 2[20034 -> 10004], [Faroe Islands -> Europe] 
+
+srcNodes: [110004, 100020, 10004]
+  path: 0[110004 -> 110004], [Streymoy Streymoy Faroe Islands  -> Streymoy Streymoy Faroe Islands ]
+  path: 1[110004 -> 100020], [Streymoy Streymoy Faroe Islands  -> Norwegian Sea] 
+
+  path: 2[110004 -> 20034 -> 10004], [Streymoy Streymoy Faroe Islands  -> Faroe Islands -> Europe] 
+
+srcNodes: [110029, 100032, 10004]
+  path: 0[20045 -> 110029], [Jersey -> Jersey Jersey Channel Islands ] 
+
+  path: 1[20045 -> 100032], [Jersey -> The Channel] 
+
+  path: 2[20045 -> 10004], [Jersey -> Europe] 
+
+srcNodes: [110028, 100032, 10004]
+  path: 0[20040 -> 110028], [Guernsey -> Guernsey Guernsey Channel Islands ] 
+
+  path: 1[20040 -> 100032], [Guernsey -> The Channel] 
+
+  path: 2[20040 -> 10004], [Guernsey -> Europe] 
+
+srcNodes: [110029, 100032, 10004]
+  path: 0[110029 -> 110029], [Jersey Jersey Channel Islands  -> Jersey Jersey Channel Islands ]
+  path: 1[110029 -> 100032], [Jersey Jersey Channel Islands  -> The Channel] 
+
+  path: 2[110029 -> 20045 -> 10004], [Jersey Jersey Channel Islands  -> Jersey -> Europe] 
+
+srcNodes: [110028, 100032, 10004]
+  path: 0[110028 -> 110028], [Guernsey Guernsey Channel Islands  -> Guernsey Guernsey Channel Islands ]
+  path: 1[110028 -> 100032], [Guernsey Guernsey Channel Islands  -> The Channel] 
+
+  path: 2[110028 -> 20040 -> 10004], [Guernsey Guernsey Channel Islands  -> Guernsey -> Europe] 
+
+srcNodes: [20034, 100018, 10004]
+  path: 0[20046 -> 10004 -> 20034], [Malta -> Europe -> Faroe Islands] 
+
+  path: 1[20046 -> 100018], [Malta -> Mediterranean Sea] 
+
+  path: 2[20046 -> 10004], [Malta -> Europe] 
+
+srcNodes: [20034, 100004, 10004]
+  path: 0[20020 -> 10004 -> 20034], [Lithuania -> Europe -> Faroe Islands] 
+
+  path: 1[20020 -> 100004], [Lithuania -> Baltic Sea] 
+
+  path: 2[20020 -> 10004], [Lithuania -> Europe] 
+
+srcNodes: [20034, 100018, 10004]
+  path: 0[20027 -> 10004 -> 20034], [Bosnia and Herzegovina -> Europe -> Faroe Islands] 
+
+  path: 1[20027 -> 100018], [Bosnia and Herzegovina -> Mediterranean Sea] 
+
+  path: 2[20027 -> 10004], [Bosnia and Herzegovina -> Europe] 
+
+srcNodes: [20034, 100020, 10004]
+  path: 0[20050 -> 10004 -> 20034], [Svalbard -> Europe -> Faroe Islands] 
+
+  path: 1[20050 -> 100020], [Svalbard -> Norwegian Sea] 
+
+  path: 2[20050 -> 10004], [Svalbard -> Europe] 
+
+srcNodes: [20034, 100018, 10004]
+  path: 0[20028 -> 10004 -> 20034], [Croatia -> Europe -> Faroe Islands] 
+
+  path: 1[20028 -> 100018], [Croatia -> Mediterranean Sea] 
+
+  path: 2[20028 -> 10004], [Croatia -> Europe] 
+
+srcNodes: [20034, 100018, 10004]
+  path: 0[20038 -> 10004 -> 20034], [Monaco -> Europe -> Faroe Islands] 
+
+  path: 1[20038 -> 100018], [Monaco -> Mediterranean Sea] 
+
+  path: 2[20038 -> 10004], [Monaco -> Europe] 
+
+srcNodes: [20034, 100018, 10004]
+  path: 0[20039 -> 10004 -> 20034], [Gibraltar -> Europe -> Faroe Islands] 
+
+  path: 1[20039 -> 100018], [Gibraltar -> Mediterranean Sea] 
+
+  path: 2[20039 -> 10004], [Gibraltar -> Europe] 
+
+srcNodes: [20034, 100020, 10004]
+  path: 0[20042 -> 10004 -> 20034], [Iceland -> Europe -> Faroe Islands] 
+
+  path: 1[20042 -> 100020], [Iceland -> Norwegian Sea] 
+
+  path: 2[20042 -> 10004], [Iceland -> Europe] 
+
+srcNodes: [20034, 100018, 10004]
+  path: 0[20000 -> 10004 -> 20034], [Albania -> Europe -> Faroe Islands] 
+
+  path: 1[20000 -> 100018], [Albania -> Mediterranean Sea] 
+
+  path: 2[20000 -> 10004], [Albania -> Europe] 
+
+srcNodes: [20034, 100018, 10004]
+  path: 0[20016 -> 10004 -> 20034], [Slovenia -> Europe -> Faroe Islands] 
+
+  path: 1[20016 -> 100018], [Slovenia -> Mediterranean Sea] 
+
+  path: 2[20016 -> 10004], [Slovenia -> Europe] 
+
+srcNodes: [20034, 100004, 10004]
+  path: 0[20019 -> 10004 -> 20034], [Latvia -> Europe -> Faroe Islands] 
+
+  path: 1[20019 -> 100004], [Latvia -> Baltic Sea] 
+
+  path: 2[20019 -> 10004], [Latvia -> Europe] 
+
+srcNodes: [20034, 100015, 10004]
+  path: 0[20043 -> 10004 -> 20034], [Ireland -> Europe -> Faroe Islands] 
+
+  path: 1[20043 -> 100015], [Ireland -> Irish Sea] 
+
+  path: 2[20043 -> 10004], [Ireland -> Europe] 
+
+srcNodes: [20034, 100004, 10004]
+  path: 0[20032 -> 10004 -> 20034], [Denmark -> Europe -> Faroe Islands] 
+
+  path: 1[20032 -> 100004], [Denmark -> Baltic Sea] 
+
+  path: 2[20032 -> 10004], [Denmark -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: [10004, 20034, 110004, 20045, 20040, 110029, 110028, 20046, 20020, 20027, 20050, 20028, 20038, 20039, 20042, 20000, 20016, 20019, 20043, 20032]
+ResultRelevs: [10.889289855957031, 8.778459548950195, 7.413969993591309, 7.264880180358887, 7.264880180358887, 7.1632399559021, 7.1632399559021, 7.09466028213501, 7.09466028213501, 7.09466028213501, 7.09466028213501, 7.09466028213501, 7.09466028213501, 7.09466028213501, 7.09466028213501, 7.09466028213501, 7.09466028213501, 7.09466028213501, 7.09466028213501, 7.09466028213501]
+Num of top-k answers: 20
+Num of non-reduced answers: 0
+Num of duplicate answers: 13
+Num of non-redundant answers: 7
+Num of entries retrieved from the lists: 245
+Num of entries retrieved from NKMaps: 404
+
+Blink Search Using ConstRootDup20
+[islands, sea, europe]
+srcNodes: [20034, 100020, 10004]
+  path: 0[10004 -> 20034], [Europe -> Faroe Islands] 
+
+  path: 1[10004 -> 20050 -> 100020], [Europe -> Svalbard -> Norwegian Sea] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [20034, 100018, 10004]
+  path: 0[10004 -> 20034], [Europe -> Faroe Islands] 
+
+  path: 1[10004 -> 20082 -> 100018], [Europe -> Cyprus -> Mediterranean Sea] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [20034, 100016, 10004]
+  path: 0[10004 -> 20034], [Europe -> Faroe Islands] 
+
+  path: 1[10004 -> 20032 -> 100016], [Europe -> Denmark -> Kattegat] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [20034, 100026, 10004]
+  path: 0[10004 -> 20034], [Europe -> Faroe Islands] 
+
+  path: 1[10004 -> 20023 -> 30319 -> 100026], [Europe -> Russia -> Magadanskaya oblast -> Sea of Okhotsk] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [30044, 100020, 10004]
+  path: 0[10004 -> 20008 -> 30044], [Europe -> Spain -> Balearic Islands] 
+
+  path: 1[10004 -> 20050 -> 100020], [Europe -> Svalbard -> Norwegian Sea] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [30044, 100018, 10004]
+  path: 0[10004 -> 20008 -> 30044], [Europe -> Spain -> Balearic Islands] 
+
+  path: 1[10004 -> 20082 -> 100018], [Europe -> Cyprus -> Mediterranean Sea] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [20034, 100002, 10004]
+  path: 0[10004 -> 20034], [Europe -> Faroe Islands] 
+
+  path: 1[10004 -> 20050 -> 100002], [Europe -> Svalbard -> Arctic Ocean] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [30044, 100016, 10004]
+  path: 0[10004 -> 20008 -> 30044], [Europe -> Spain -> Balearic Islands] 
+
+  path: 1[10004 -> 20032 -> 100016], [Europe -> Denmark -> Kattegat] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [110010, 100018, 10004]
+  path: 0[10004 -> 20051 -> 30628 -> 110010], [Europe -> United Kingdom -> Orkneys -> Hoy Hoy Orkney Islands ] 
+
+  path: 1[10004 -> 20082 -> 100018], [Europe -> Cyprus -> Mediterranean Sea] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [110010, 100020, 10004]
+  path: 0[10004 -> 20051 -> 30628 -> 110010], [Europe -> United Kingdom -> Orkneys -> Hoy Hoy Orkney Islands ] 
+
+  path: 1[10004 -> 20050 -> 100020], [Europe -> Svalbard -> Norwegian Sea] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [110027, 100020, 10004]
+  path: 0[10004 -> 20051 -> 30557 -> 110027], [Europe -> United Kingdom -> Cornwall -> Bishop Rock Bishop Rock Scilly Islands ] 
+
+  path: 1[10004 -> 20050 -> 100020], [Europe -> Svalbard -> Norwegian Sea] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [110027, 100018, 10004]
+  path: 0[10004 -> 20051 -> 30557 -> 110027], [Europe -> United Kingdom -> Cornwall -> Bishop Rock Bishop Rock Scilly Islands ] 
+
+  path: 1[10004 -> 20082 -> 100018], [Europe -> Cyprus -> Mediterranean Sea] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [20034, 100020, 10004]
+  path: 0[20034 -> 20034], [Faroe Islands -> Faroe Islands]
+  path: 1[20034 -> 100020], [Faroe Islands -> Norwegian Sea] 
+
+  path: 2[20034 -> 10004], [Faroe Islands -> Europe] 
+
+srcNodes: [110004, 100020, 10004]
+  path: 0[110004 -> 110004], [Streymoy Streymoy Faroe Islands  -> Streymoy Streymoy Faroe Islands ]
+  path: 1[110004 -> 100020], [Streymoy Streymoy Faroe Islands  -> Norwegian Sea] 
+
+  path: 2[110004 -> 20034 -> 10004], [Streymoy Streymoy Faroe Islands  -> Faroe Islands -> Europe] 
+
+srcNodes: [110029, 100032, 10004]
+  path: 0[20045 -> 110029], [Jersey -> Jersey Jersey Channel Islands ] 
+
+  path: 1[20045 -> 100032], [Jersey -> The Channel] 
+
+  path: 2[20045 -> 10004], [Jersey -> Europe] 
+
+srcNodes: [110028, 100032, 10004]
+  path: 0[20040 -> 110028], [Guernsey -> Guernsey Guernsey Channel Islands ] 
+
+  path: 1[20040 -> 100032], [Guernsey -> The Channel] 
+
+  path: 2[20040 -> 10004], [Guernsey -> Europe] 
+
+srcNodes: [110029, 100032, 10004]
+  path: 0[110029 -> 110029], [Jersey Jersey Channel Islands  -> Jersey Jersey Channel Islands ]
+  path: 1[110029 -> 100032], [Jersey Jersey Channel Islands  -> The Channel] 
+
+  path: 2[110029 -> 20045 -> 10004], [Jersey Jersey Channel Islands  -> Jersey -> Europe] 
+
+srcNodes: [110028, 100032, 10004]
+  path: 0[110028 -> 110028], [Guernsey Guernsey Channel Islands  -> Guernsey Guernsey Channel Islands ]
+  path: 1[110028 -> 100032], [Guernsey Guernsey Channel Islands  -> The Channel] 
+
+  path: 2[110028 -> 20040 -> 10004], [Guernsey Guernsey Channel Islands  -> Guernsey -> Europe] 
+
+srcNodes: [20034, 100004, 10004]
+  path: 0[20020 -> 10004 -> 20034], [Lithuania -> Europe -> Faroe Islands] 
+
+  path: 1[20020 -> 100004], [Lithuania -> Baltic Sea] 
+
+  path: 2[20020 -> 10004], [Lithuania -> Europe] 
+
+srcNodes: [20034, 100018, 10004]
+  path: 0[20038 -> 10004 -> 20034], [Monaco -> Europe -> Faroe Islands] 
+
+  path: 1[20038 -> 100018], [Monaco -> Mediterranean Sea] 
+
+  path: 2[20038 -> 10004], [Monaco -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: 
+10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 20034, 110004, 20045, 20040, 110029, 110028, 20020, 20038, 
+ResultRelevs: 
+10.88929, 10.88929, 10.72214, 10.52941, 10.46834, 10.46834, 10.46766, 10.30119, 10.257866, 10.257866, 10.178938, 10.178938, 8.77846, 7.41397, 7.26488, 7.26488, 7.16324, 7.16324, 7.0946603, 7.0946603, 
+Num of top-k answers: 20
+Num of duplicate answers: 4
+Num of duplicate roots in top-k answers: 11
+root duplication ratio: 0.57894737
+given max root duplication param: 0.6
+Num of entries retrieved from the lists: 244
+Num of entries retrieved from NKMaps: 1841
+Num of answer trees explored: 10900
+
+Blink Search Using BDB 30
+[islands, sea, europe]
+srcNodes: [20034, 100020, 10004]
+  path: 0[10004 -> 20034], [Europe -> Faroe Islands] 
+
+  path: 1[10004 -> 20050 -> 100020], [Europe -> Svalbard -> Norwegian Sea] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [20034, 100020, 10004]
+  path: 0[20034 -> 20034], [Faroe Islands -> Faroe Islands]
+  path: 1[20034 -> 100020], [Faroe Islands -> Norwegian Sea] 
+
+  path: 2[20034 -> 10004], [Faroe Islands -> Europe] 
+
+srcNodes: [110004, 100020, 10004]
+  path: 0[110004 -> 110004], [Streymoy Streymoy Faroe Islands  -> Streymoy Streymoy Faroe Islands ]
+  path: 1[110004 -> 100020], [Streymoy Streymoy Faroe Islands  -> Norwegian Sea] 
+
+  path: 2[110004 -> 20034 -> 10004], [Streymoy Streymoy Faroe Islands  -> Faroe Islands -> Europe] 
+
+srcNodes: [110028, 100032, 10004]
+  path: 0[20040 -> 110028], [Guernsey -> Guernsey Guernsey Channel Islands ] 
+
+  path: 1[20040 -> 100032], [Guernsey -> The Channel] 
+
+  path: 2[20040 -> 10004], [Guernsey -> Europe] 
+
+srcNodes: [110029, 100032, 10004]
+  path: 0[20045 -> 110029], [Jersey -> Jersey Jersey Channel Islands ] 
+
+  path: 1[20045 -> 100032], [Jersey -> The Channel] 
+
+  path: 2[20045 -> 10004], [Jersey -> Europe] 
+
+srcNodes: [110029, 100032, 10004]
+  path: 0[110029 -> 110029], [Jersey Jersey Channel Islands  -> Jersey Jersey Channel Islands ]
+  path: 1[110029 -> 100032], [Jersey Jersey Channel Islands  -> The Channel] 
+
+  path: 2[110029 -> 20045 -> 10004], [Jersey Jersey Channel Islands  -> Jersey -> Europe] 
+
+srcNodes: [110028, 100032, 10004]
+  path: 0[110028 -> 110028], [Guernsey Guernsey Channel Islands  -> Guernsey Guernsey Channel Islands ]
+  path: 1[110028 -> 100032], [Guernsey Guernsey Channel Islands  -> The Channel] 
+
+  path: 2[110028 -> 20040 -> 10004], [Guernsey Guernsey Channel Islands  -> Guernsey -> Europe] 
+
+srcNodes: [20034, 100018, 10004]
+  path: 0[20039 -> 10004 -> 20034], [Gibraltar -> Europe -> Faroe Islands] 
+
+  path: 1[20039 -> 100018], [Gibraltar -> Mediterranean Sea] 
+
+  path: 2[20039 -> 10004], [Gibraltar -> Europe] 
+
+srcNodes: [20034, 100018, 10004]
+  path: 0[20028 -> 10004 -> 20034], [Croatia -> Europe -> Faroe Islands] 
+
+  path: 1[20028 -> 100018], [Croatia -> Mediterranean Sea] 
+
+  path: 2[20028 -> 10004], [Croatia -> Europe] 
+
+srcNodes: [20034, 100004, 10004]
+  path: 0[20020 -> 10004 -> 20034], [Lithuania -> Europe -> Faroe Islands] 
+
+  path: 1[20020 -> 100004], [Lithuania -> Baltic Sea] 
+
+  path: 2[20020 -> 10004], [Lithuania -> Europe] 
+
+srcNodes: [20034, 100007, 10004]
+  path: 0[20029 -> 10004 -> 20034], [Bulgaria -> Europe -> Faroe Islands] 
+
+  path: 1[20029 -> 100007], [Bulgaria -> Black Sea] 
+
+  path: 2[20029 -> 10004], [Bulgaria -> Europe] 
+
+srcNodes: [20034, 100018, 10004]
+  path: 0[20027 -> 10004 -> 20034], [Bosnia and Herzegovina -> Europe -> Faroe Islands] 
+
+  path: 1[20027 -> 100018], [Bosnia and Herzegovina -> Mediterranean Sea] 
+
+  path: 2[20027 -> 10004], [Bosnia and Herzegovina -> Europe] 
+
+srcNodes: [20034, 100018, 10004]
+  path: 0[20082 -> 10004 -> 20034], [Cyprus -> Europe -> Faroe Islands] 
+
+  path: 1[20082 -> 100018], [Cyprus -> Mediterranean Sea] 
+
+  path: 2[20082 -> 10004], [Cyprus -> Europe] 
+
+srcNodes: [20034, 100018, 10004]
+  path: 0[20004 -> 10004 -> 20034], [Montenegro -> Europe -> Faroe Islands] 
+
+  path: 1[20004 -> 100018], [Montenegro -> Mediterranean Sea] 
+
+  path: 2[20004 -> 10004], [Montenegro -> Europe] 
+
+srcNodes: [20034, 100018, 10004]
+  path: 0[20016 -> 10004 -> 20034], [Slovenia -> Europe -> Faroe Islands] 
+
+  path: 1[20016 -> 100018], [Slovenia -> Mediterranean Sea] 
+
+  path: 2[20016 -> 10004], [Slovenia -> Europe] 
+
+srcNodes: [20034, 100018, 10004]
+  path: 0[20046 -> 10004 -> 20034], [Malta -> Europe -> Faroe Islands] 
+
+  path: 1[20046 -> 100018], [Malta -> Mediterranean Sea] 
+
+  path: 2[20046 -> 10004], [Malta -> Europe] 
+
+srcNodes: [20034, 100015, 10004]
+  path: 0[20043 -> 10004 -> 20034], [Ireland -> Europe -> Faroe Islands] 
+
+  path: 1[20043 -> 100015], [Ireland -> Irish Sea] 
+
+  path: 2[20043 -> 10004], [Ireland -> Europe] 
+
+srcNodes: [20034, 100018, 10004]
+  path: 0[20000 -> 10004 -> 20034], [Albania -> Europe -> Faroe Islands] 
+
+  path: 1[20000 -> 100018], [Albania -> Mediterranean Sea] 
+
+  path: 2[20000 -> 10004], [Albania -> Europe] 
+
+srcNodes: [20034, 100018, 10004]
+  path: 0[20038 -> 10004 -> 20034], [Monaco -> Europe -> Faroe Islands] 
+
+  path: 1[20038 -> 100018], [Monaco -> Mediterranean Sea] 
+
+  path: 2[20038 -> 10004], [Monaco -> Europe] 
+
+srcNodes: [20034, 100004, 10004]
+  path: 0[20019 -> 10004 -> 20034], [Latvia -> Europe -> Faroe Islands] 
+
+  path: 1[20019 -> 100004], [Latvia -> Baltic Sea] 
+
+  path: 2[20019 -> 10004], [Latvia -> Europe] 
+
+srcNodes: [20034, 100020, 10004]
+  path: 0[20050 -> 10004 -> 20034], [Svalbard -> Europe -> Faroe Islands] 
+
+  path: 1[20050 -> 100020], [Svalbard -> Norwegian Sea] 
+
+  path: 2[20050 -> 10004], [Svalbard -> Europe] 
+
+srcNodes: [20034, 100004, 10004]
+  path: 0[20033 -> 10004 -> 20034], [Estonia -> Europe -> Faroe Islands] 
+
+  path: 1[20033 -> 100004], [Estonia -> Baltic Sea] 
+
+  path: 2[20033 -> 10004], [Estonia -> Europe] 
+
+srcNodes: [20034, 100004, 10004]
+  path: 0[20032 -> 10004 -> 20034], [Denmark -> Europe -> Faroe Islands] 
+
+  path: 1[20032 -> 100004], [Denmark -> Baltic Sea] 
+
+  path: 2[20032 -> 10004], [Denmark -> Europe] 
+
+srcNodes: [20034, 100015, 10004]
+  path: 0[20047 -> 10004 -> 20034], [Man -> Europe -> Faroe Islands] 
+
+  path: 1[20047 -> 100015], [Man -> Irish Sea] 
+
+  path: 2[20047 -> 10004], [Man -> Europe] 
+
+srcNodes: [20034, 100020, 10004]
+  path: 0[20042 -> 10004 -> 20034], [Iceland -> Europe -> Faroe Islands] 
+
+  path: 1[20042 -> 100020], [Iceland -> Norwegian Sea] 
+
+  path: 2[20042 -> 10004], [Iceland -> Europe] 
+
+srcNodes: [30046, 100018, 10004]
+  path: 0[20008 -> 30046], [Spain -> Canary Islands] 
+
+  path: 1[20008 -> 30057 -> 100018], [Spain -> Valencia -> Mediterranean Sea] 
+
+  path: 2[20008 -> 10004], [Spain -> Europe] 
+
+srcNodes: [20034, 100018, 10004]
+  path: 0[20031 -> 10004 -> 20034], [Turkey -> Europe -> Faroe Islands] 
+
+  path: 1[20031 -> 30439 -> 100018], [Turkey -> Mugla -> Mediterranean Sea] 
+
+  path: 2[20031 -> 10004], [Turkey -> Europe] 
+
+srcNodes: [20034, 100004, 10004]
+  path: 0[20018 -> 10004 -> 20034], [Belarus -> Europe -> Faroe Islands] 
+
+  path: 1[20018 -> 90098 -> 100004], [Belarus -> Western Dwina -> Baltic Sea] 
+
+  path: 2[20018 -> 10004], [Belarus -> Europe] 
+
+srcNodes: [20034, 100024, 10004]
+  path: 0[20022 -> 10004 -> 20034], [Ukraine -> Europe -> Faroe Islands] 
+
+  path: 1[20022 -> 30240 -> 100024], [Ukraine -> Krym -> Sea of Azov] 
+
+  path: 2[20022 -> 10004], [Ukraine -> Europe] 
+
+srcNodes: [20034, 100004, 10004]
+  path: 0[20035 -> 10004 -> 20034], [Finland -> Europe -> Faroe Islands] 
+
+  path: 1[20035 -> 30474 -> 100004], [Finland -> Vaasa -> Baltic Sea] 
+
+  path: 2[20035 -> 10004], [Finland -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: [10004, 20034, 110004, 20040, 20045, 110029, 110028, 20039, 20028, 20020, 20029, 20027, 20082, 20004, 20016, 20046, 20043, 20000, 20038, 20019, 20050, 20033, 20032, 20047, 20042, 20008, 20031, 20018, 20022, 20035]
+ResultRelevs: [10.889289855957031, 8.778459548950195, 7.413969993591309, 7.264880180358887, 7.264880180358887, 7.1632399559021, 7.1632399559021, 7.09466028213501, 7.09466028213501, 7.09466028213501, 7.09466028213501, 7.09466028213501, 7.09466028213501, 7.09466028213501, 7.09466028213501, 7.09466028213501, 7.09466028213501, 7.09466028213501, 7.09466028213501, 7.09466028213501, 7.09466028213501, 7.09466028213501, 7.09466028213501, 7.09466028213501, 7.09466028213501, 6.795840263366699, 6.374890327453613, 6.374890327453613, 6.374890327453613, 6.374890327453613]
+Num of top-k answers: 30
+Num of non-reduced answers: 0
+Num of duplicate answers: 20
+Num of non-redundant answers: 10
+Num of entries retrieved from the lists: 307
+Num of entries retrieved from NKMaps: 507
+
+Blink Search Using ConstRootDup30
+[islands, sea, europe]
+srcNodes: [20034, 100018, 10004]
+  path: 0[10004 -> 20034], [Europe -> Faroe Islands] 
+
+  path: 1[10004 -> 20082 -> 100018], [Europe -> Cyprus -> Mediterranean Sea] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [20034, 100020, 10004]
+  path: 0[10004 -> 20034], [Europe -> Faroe Islands] 
+
+  path: 1[10004 -> 20050 -> 100020], [Europe -> Svalbard -> Norwegian Sea] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [20034, 100016, 10004]
+  path: 0[10004 -> 20034], [Europe -> Faroe Islands] 
+
+  path: 1[10004 -> 20032 -> 100016], [Europe -> Denmark -> Kattegat] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [20034, 100026, 10004]
+  path: 0[10004 -> 20034], [Europe -> Faroe Islands] 
+
+  path: 1[10004 -> 20023 -> 30319 -> 100026], [Europe -> Russia -> Magadanskaya oblast -> Sea of Okhotsk] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [30044, 100018, 10004]
+  path: 0[10004 -> 20008 -> 30044], [Europe -> Spain -> Balearic Islands] 
+
+  path: 1[10004 -> 20082 -> 100018], [Europe -> Cyprus -> Mediterranean Sea] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [30044, 100020, 10004]
+  path: 0[10004 -> 20008 -> 30044], [Europe -> Spain -> Balearic Islands] 
+
+  path: 1[10004 -> 20050 -> 100020], [Europe -> Svalbard -> Norwegian Sea] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [20034, 100002, 10004]
+  path: 0[10004 -> 20034], [Europe -> Faroe Islands] 
+
+  path: 1[10004 -> 20050 -> 100002], [Europe -> Svalbard -> Arctic Ocean] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [30044, 100016, 10004]
+  path: 0[10004 -> 20008 -> 30044], [Europe -> Spain -> Balearic Islands] 
+
+  path: 1[10004 -> 20032 -> 100016], [Europe -> Denmark -> Kattegat] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [110010, 100020, 10004]
+  path: 0[10004 -> 20051 -> 30628 -> 110010], [Europe -> United Kingdom -> Orkneys -> Hoy Hoy Orkney Islands ] 
+
+  path: 1[10004 -> 20050 -> 100020], [Europe -> Svalbard -> Norwegian Sea] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [110010, 100018, 10004]
+  path: 0[10004 -> 20051 -> 30628 -> 110010], [Europe -> United Kingdom -> Orkneys -> Hoy Hoy Orkney Islands ] 
+
+  path: 1[10004 -> 20082 -> 100018], [Europe -> Cyprus -> Mediterranean Sea] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [110027, 100020, 10004]
+  path: 0[10004 -> 20051 -> 30557 -> 110027], [Europe -> United Kingdom -> Cornwall -> Bishop Rock Bishop Rock Scilly Islands ] 
+
+  path: 1[10004 -> 20050 -> 100020], [Europe -> Svalbard -> Norwegian Sea] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [110027, 100018, 10004]
+  path: 0[10004 -> 20051 -> 30557 -> 110027], [Europe -> United Kingdom -> Cornwall -> Bishop Rock Bishop Rock Scilly Islands ] 
+
+  path: 1[10004 -> 20082 -> 100018], [Europe -> Cyprus -> Mediterranean Sea] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [110168, 100020, 10004]
+  path: 0[10004 -> 20031 -> 10002 -> 20086 -> 110168], [Europe -> Turkey -> Asia -> Indonesia -> Java Java Sunda Islands ] 
+
+  path: 1[10004 -> 20050 -> 100020], [Europe -> Svalbard -> Norwegian Sea] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [110168, 100018, 10004]
+  path: 0[10004 -> 20031 -> 10002 -> 20086 -> 110168], [Europe -> Turkey -> Asia -> Indonesia -> Java Java Sunda Islands ] 
+
+  path: 1[10004 -> 20082 -> 100018], [Europe -> Cyprus -> Mediterranean Sea] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [30044, 100026, 10004]
+  path: 0[10004 -> 20008 -> 30044], [Europe -> Spain -> Balearic Islands] 
+
+  path: 1[10004 -> 20023 -> 30319 -> 100026], [Europe -> Russia -> Magadanskaya oblast -> Sea of Okhotsk] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [110010, 100016, 10004]
+  path: 0[10004 -> 20051 -> 30628 -> 110010], [Europe -> United Kingdom -> Orkneys -> Hoy Hoy Orkney Islands ] 
+
+  path: 1[10004 -> 20032 -> 100016], [Europe -> Denmark -> Kattegat] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [30044, 100002, 10004]
+  path: 0[10004 -> 20008 -> 30044], [Europe -> Spain -> Balearic Islands] 
+
+  path: 1[10004 -> 20050 -> 100002], [Europe -> Svalbard -> Arctic Ocean] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [110027, 100016, 10004]
+  path: 0[10004 -> 20051 -> 30557 -> 110027], [Europe -> United Kingdom -> Cornwall -> Bishop Rock Bishop Rock Scilly Islands ] 
+
+  path: 1[10004 -> 20032 -> 100016], [Europe -> Denmark -> Kattegat] 
+
+  path: 2[10004 -> 10004], [Europe -> Europe]
+srcNodes: [20034, 100020, 10004]
+  path: 0[20034 -> 20034], [Faroe Islands -> Faroe Islands]
+  path: 1[20034 -> 100020], [Faroe Islands -> Norwegian Sea] 
+
+  path: 2[20034 -> 10004], [Faroe Islands -> Europe] 
+
+srcNodes: [110004, 100020, 10004]
+  path: 0[110004 -> 110004], [Streymoy Streymoy Faroe Islands  -> Streymoy Streymoy Faroe Islands ]
+  path: 1[110004 -> 100020], [Streymoy Streymoy Faroe Islands  -> Norwegian Sea] 
+
+  path: 2[110004 -> 20034 -> 10004], [Streymoy Streymoy Faroe Islands  -> Faroe Islands -> Europe] 
+
+srcNodes: [110028, 100032, 10004]
+  path: 0[20040 -> 110028], [Guernsey -> Guernsey Guernsey Channel Islands ] 
+
+  path: 1[20040 -> 100032], [Guernsey -> The Channel] 
+
+  path: 2[20040 -> 10004], [Guernsey -> Europe] 
+
+srcNodes: [110029, 100032, 10004]
+  path: 0[20045 -> 110029], [Jersey -> Jersey Jersey Channel Islands ] 
+
+  path: 1[20045 -> 100032], [Jersey -> The Channel] 
+
+  path: 2[20045 -> 10004], [Jersey -> Europe] 
+
+srcNodes: [110029, 100032, 10004]
+  path: 0[110029 -> 110029], [Jersey Jersey Channel Islands  -> Jersey Jersey Channel Islands ]
+  path: 1[110029 -> 100032], [Jersey Jersey Channel Islands  -> The Channel] 
+
+  path: 2[110029 -> 20045 -> 10004], [Jersey Jersey Channel Islands  -> Jersey -> Europe] 
+
+srcNodes: [110028, 100032, 10004]
+  path: 0[110028 -> 110028], [Guernsey Guernsey Channel Islands  -> Guernsey Guernsey Channel Islands ]
+  path: 1[110028 -> 100032], [Guernsey Guernsey Channel Islands  -> The Channel] 
+
+  path: 2[110028 -> 20040 -> 10004], [Guernsey Guernsey Channel Islands  -> Guernsey -> Europe] 
+
+srcNodes: [20034, 100018, 10004]
+  path: 0[20046 -> 10004 -> 20034], [Malta -> Europe -> Faroe Islands] 
+
+  path: 1[20046 -> 100018], [Malta -> Mediterranean Sea] 
+
+  path: 2[20046 -> 10004], [Malta -> Europe] 
+
+srcNodes: [20034, 100020, 10004]
+  path: 0[20050 -> 10004 -> 20034], [Svalbard -> Europe -> Faroe Islands] 
+
+  path: 1[20050 -> 100020], [Svalbard -> Norwegian Sea] 
+
+  path: 2[20050 -> 10004], [Svalbard -> Europe] 
+
+srcNodes: [20034, 100018, 10004]
+  path: 0[20016 -> 10004 -> 20034], [Slovenia -> Europe -> Faroe Islands] 
+
+  path: 1[20016 -> 100018], [Slovenia -> Mediterranean Sea] 
+
+  path: 2[20016 -> 10004], [Slovenia -> Europe] 
+
+srcNodes: [20034, 100018, 10004]
+  path: 0[20000 -> 10004 -> 20034], [Albania -> Europe -> Faroe Islands] 
+
+  path: 1[20000 -> 100018], [Albania -> Mediterranean Sea] 
+
+  path: 2[20000 -> 10004], [Albania -> Europe] 
+
+srcNodes: [20034, 100018, 10004]
+  path: 0[20028 -> 10004 -> 20034], [Croatia -> Europe -> Faroe Islands] 
+
+  path: 1[20028 -> 100018], [Croatia -> Mediterranean Sea] 
+
+  path: 2[20028 -> 10004], [Croatia -> Europe] 
+
+srcNodes: [20034, 100004, 10004]
+  path: 0[20020 -> 10004 -> 20034], [Lithuania -> Europe -> Faroe Islands] 
+
+  path: 1[20020 -> 100004], [Lithuania -> Baltic Sea] 
+
+  path: 2[20020 -> 10004], [Lithuania -> Europe] 
+
+-----------------------------------------
+ResultDestNodes: 
+10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 10004, 20034, 110004, 20040, 20045, 110029, 110028, 20046, 20050, 20016, 20000, 20028, 20020, 
+ResultRelevs: 
+10.88929, 10.88929, 10.72214, 10.52941, 10.46834, 10.46834, 10.46766, 10.30119, 10.257866, 10.257866, 10.178938, 10.178938, 10.131581, 10.131581, 10.10846, 10.090716, 10.04671, 10.011788, 8.77846, 7.41397, 7.26488, 7.26488, 7.16324, 7.16324, 7.0946603, 7.0946603, 7.0946603, 7.0946603, 7.0946603, 7.0946603, 
+Num of top-k answers: 30
+Num of duplicate answers: 8
+Num of duplicate roots in top-k answers: 17
+root duplication ratio: 0.5862069
+given max root duplication param: 0.6
+Num of entries retrieved from the lists: 244
+Num of entries retrieved from NKMaps: 1841
+Num of answer trees explored: 10900
+

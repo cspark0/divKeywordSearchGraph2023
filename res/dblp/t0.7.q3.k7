@@ -1,0 +1,60 @@
+query: [keyword, search, graph]
+Top-k Search by Blink-BDB, k=7
+[keyword, search, graph]
+srcNodes: [9006432, 9006432, 176726]
+  path: 0[1468988 -> 9006432], [Keyword Search in Databases -> Keyword Search in Databases] 
+
+  path: 1[1468988 -> 9006432], [Keyword Search in Databases -> Keyword Search in Databases] 
+
+  path: 2[1468988 -> 5039052 -> 176726], [Keyword Search in Databases -> Jeffrey Xu Yu -> A novel spectral coding in a large graph database.] 
+
+srcNodes: [654710, 654710, 1262335]
+  path: 0[654710 -> 654710], [Boosting Item Keyword Search with Spreading Activation. -> Boosting Item Keyword Search with Spreading Activation.]
+  path: 1[654710 -> 654710], [Boosting Item Keyword Search with Spreading Activation. -> Boosting Item Keyword Search with Spreading Activation.]
+  path: 2[654710 -> 5466892 -> 1498166 -> 5004131 -> 1262335], [Boosting Item Keyword Search with Spreading Activation. -> Syed Toufeeq Ahmed -> Topic development pattern analysis-based adaptation of information spaces. -> K. Selçuk Candan -> CoSeNa: a context-based search and navigation system.] 
+
+srcNodes: [467956, 9005783, 9000980]
+  path: 0[5123161 -> 1440901 -> 5076125 -> 1450446 -> 467956], [Daniel Tunkelang -> HCIR 2009: the third international workshop on human-computer interaction and information retrieval. -> Bill Kules -> From Keyword Search to Exploration: Designing Future Search Interfaces for the Web. -> A longitudinal study of exploratory and keyword search.] 
+
+  path: 1[5123161 -> 1298446 -> 9005783], [Daniel Tunkelang -> Faceted Search -> Faceted Search] 
+
+  path: 2[5123161 -> 225168 -> 9000980], [Daniel Tunkelang -> Lexical Navigation: Using Incremental Graph Drawing for Query Refinement. -> Graph Drawing] 
+
+srcNodes: [641838, 118060, 9000980]
+  path: 0[224836 -> 5082903 -> 473624 -> 641838], [Stress Majorization with Orthogonal Ordering Constraints. -> Yehuda Koren -> Fast direction-aware proximity for graph mining. -> BANKS: Browsing and Keyword Searching in Relational Databases.] 
+
+  path: 1[224836 -> 5003171 -> 118060], [Stress Majorization with Orthogonal Ordering Constraints. -> Kim Marriott -> Adding Search to Zinc.] 
+
+  path: 2[224836 -> 9000980], [Stress Majorization with Orthogonal Ordering Constraints. -> Graph Drawing] 
+
+srcNodes: [89010, 772650, 9000980]
+  path: 0[1361082 -> 5082925 -> 89010], [Layout with Circular and Other Non-linear Constraints Using Procrustes Projection. -> George G. Robertson -> FaThumb: a facet-based interface for mobile search.] 
+
+  path: 1[1361082 -> 5082925 -> 89010 -> 772650], [Layout with Circular and Other Non-linear Constraints Using Procrustes Projection. -> George G. Robertson -> FaThumb: a facet-based interface for mobile search. -> Finding the flow in web site search.] 
+
+  path: 2[1361082 -> 9000980], [Layout with Circular and Other Non-linear Constraints Using Procrustes Projection. -> Graph Drawing] 
+
+srcNodes: [643972, 644239, 9000980]
+  path: 0[224752 -> 5038593 -> 1212845 -> 643972], [Straight-Line Drawing Algorithms for Hierarchical Graphs and Clustered Graphs. -> Xuemin Lin -> Keyword search on structured and semi-structured data. -> NUITS: A Novel User Interface for Efficient Keyword Search over Databases.] 
+
+  path: 1[224752 -> 5038593 -> 1212845 -> 644239], [Straight-Line Drawing Algorithms for Hierarchical Graphs and Clustered Graphs. -> Xuemin Lin -> Keyword search on structured and semi-structured data. -> XSeek: A Semantic XML Search Engine Using Keywords.] 
+
+  path: 2[224752 -> 9000980], [Straight-Line Drawing Algorithms for Hierarchical Graphs and Clustered Graphs. -> Graph Drawing] 
+
+srcNodes: [1274348, 9005783, 9000980]
+  path: 0[1298446 -> 5123161 -> 1440901 -> 5058473 -> 1274348], [Faceted Search -> Daniel Tunkelang -> HCIR 2009: the third international workshop on human-computer interaction and information retrieval. -> Ryen W. White -> Evaluating advanced search interfaces using established information-seeking models.] 
+
+  path: 1[1298446 -> 9005783], [Faceted Search -> Faceted Search] 
+
+  path: 2[1298446 -> 5123161 -> 225168 -> 9000980], [Faceted Search -> Daniel Tunkelang -> Lexical Navigation: Using Incremental Graph Drawing for Query Refinement. -> Graph Drawing] 
+
+-----------------------------------------
+Num of top-k answers: 7
+ResultDestNodes: [1468988, 654710, 5123161, 224836, 1361082, 224752, 1298446]
+ResultRelevs: [5.600490093231201, 4.274522304534912, 4.072222709655762, 4.03978967666626, 4.03237771987915, 3.9583840370178223, 3.953232765197754]
+AvgResultRelev: 4.275859900883266
+AvgResultDissimilarity: 0.8253968253968254
+Num of entries retrieved from the lists: 1118
+Num of entries retrieved from NKMaps: 1311
+Num of answer trees explored: 562
+

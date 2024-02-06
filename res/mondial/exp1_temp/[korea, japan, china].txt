@@ -1,0 +1,1809 @@
+[korea, japan, china]
+srcNodes: [20097, 100025, 100009]
+  path: 0[20097 -> 20097], [South Korea -> South Korea]
+  path: 1[20097 -> 100025], [South Korea -> Sea of Japan] 
+
+  path: 2[20097 -> 100009], [South Korea -> East China Sea] 
+
+srcNodes: [20074, 20096, 20053]
+  path: 0[20053 -> 10002 -> 20074], [China -> Asia -> North Korea] 
+
+  path: 1[20053 -> 10002 -> 20096], [China -> Asia -> Japan] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [20074, 20096, 20053]
+  path: 0[20096 -> 10002 -> 20074], [Japan -> Asia -> North Korea] 
+
+  path: 1[20096 -> 20096], [Japan -> Japan]
+  path: 2[20096 -> 10002 -> 20053], [Japan -> Asia -> China] 
+
+srcNodes: [20074, 100025, 20053]
+  path: 0[20074 -> 20074], [North Korea -> North Korea]
+  path: 1[20074 -> 100025], [North Korea -> Sea of Japan] 
+
+  path: 2[20074 -> 10002 -> 20053], [North Korea -> Asia -> China] 
+
+srcNodes: [20097, 20096, 20053]
+  path: 0[10002 -> 20097], [Asia -> South Korea] 
+
+  path: 1[10002 -> 20096], [Asia -> Japan] 
+
+  path: 2[10002 -> 20053], [Asia -> China] 
+
+srcNodes: [20097, 100025, 100009]
+  path: 0[110149 -> 20097], [Jeju Jeju  volcanic -> South Korea] 
+
+  path: 1[110149 -> 20097 -> 100025], [Jeju Jeju  volcanic -> South Korea -> Sea of Japan] 
+
+  path: 2[110149 -> 100009], [Jeju Jeju  volcanic -> East China Sea] 
+
+srcNodes: [20074, 20096, 60077]
+  path: 0[20077 -> 10002 -> 20074], [Macau -> Asia -> North Korea] 
+
+  path: 1[20077 -> 10002 -> 20096], [Macau -> Asia -> Japan] 
+
+  path: 2[20077 -> 60077], [Macau -> special administrative area in China] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20104 -> 10002 -> 20074], [Singapore -> Asia -> North Korea] 
+
+  path: 1[20104 -> 10002 -> 20096], [Singapore -> Asia -> Japan] 
+
+  path: 2[20104 -> 100029], [Singapore -> South China Sea] 
+
+srcNodes: [20074, 20096, 60076]
+  path: 0[20076 -> 10002 -> 20074], [Hong Kong -> Asia -> North Korea] 
+
+  path: 1[20076 -> 10002 -> 20096], [Hong Kong -> Asia -> Japan] 
+
+  path: 2[20076 -> 60076], [Hong Kong -> special administrative area in China] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20067 -> 10002 -> 20074], [Brunei -> Asia -> North Korea] 
+
+  path: 1[20067 -> 10002 -> 20096], [Brunei -> Asia -> Japan] 
+
+  path: 2[20067 -> 100029], [Brunei -> South China Sea] 
+
+-----------------------------------------
+ResultDestNodes: [20097, 20053, 20096, 20074, 10002, 110149, 20077, 20104, 20076, 20067]
+ResultRelevs: [8.023809432983398, 7.975029945373535, 7.855159759521484, 7.690289497375488, 6.959690093994141, 5.334020137786865, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965]
+Num of top-k answers: 10
+Num of redundant answers: 0
+Num of duplicate answers: 3
+Num of entries retrieved from the lists: 172
+Num of entries retrieved from NKMaps: 231
+[korea, japan, china]
+srcNodes: [20097, 100025, 100009]
+  path: 0[20097 -> 20097], [South Korea -> South Korea]
+  path: 1[20097 -> 100025], [South Korea -> Sea of Japan] 
+
+  path: 2[20097 -> 100009], [South Korea -> East China Sea] 
+
+srcNodes: [20074, 20096, 20053]
+  path: 0[20053 -> 10002 -> 20074], [China -> Asia -> North Korea] 
+
+  path: 1[20053 -> 10002 -> 20096], [China -> Asia -> Japan] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [20074, 20096, 20053]
+  path: 0[20096 -> 10002 -> 20074], [Japan -> Asia -> North Korea] 
+
+  path: 1[20096 -> 20096], [Japan -> Japan]
+  path: 2[20096 -> 10002 -> 20053], [Japan -> Asia -> China] 
+
+srcNodes: [20074, 100025, 20053]
+  path: 0[20074 -> 20074], [North Korea -> North Korea]
+  path: 1[20074 -> 100025], [North Korea -> Sea of Japan] 
+
+  path: 2[20074 -> 10002 -> 20053], [North Korea -> Asia -> China] 
+
+srcNodes: [20097, 20096, 20053]
+  path: 0[10002 -> 20097], [Asia -> South Korea] 
+
+  path: 1[10002 -> 20096], [Asia -> Japan] 
+
+  path: 2[10002 -> 20053], [Asia -> China] 
+
+srcNodes: [20097, 100025, 100009]
+  path: 0[110149 -> 20097], [Jeju Jeju  volcanic -> South Korea] 
+
+  path: 1[110149 -> 20097 -> 100025], [Jeju Jeju  volcanic -> South Korea -> Sea of Japan] 
+
+  path: 2[110149 -> 100009], [Jeju Jeju  volcanic -> East China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20067 -> 10002 -> 20074], [Brunei -> Asia -> North Korea] 
+
+  path: 1[20067 -> 10002 -> 20096], [Brunei -> Asia -> Japan] 
+
+  path: 2[20067 -> 100029], [Brunei -> South China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20104 -> 10002 -> 20074], [Singapore -> Asia -> North Korea] 
+
+  path: 1[20104 -> 10002 -> 20096], [Singapore -> Asia -> Japan] 
+
+  path: 2[20104 -> 100029], [Singapore -> South China Sea] 
+
+srcNodes: [20074, 20096, 60077]
+  path: 0[20077 -> 10002 -> 20074], [Macau -> Asia -> North Korea] 
+
+  path: 1[20077 -> 10002 -> 20096], [Macau -> Asia -> Japan] 
+
+  path: 2[20077 -> 60077], [Macau -> special administrative area in China] 
+
+srcNodes: [20074, 20096, 60076]
+  path: 0[20076 -> 10002 -> 20074], [Hong Kong -> Asia -> North Korea] 
+
+  path: 1[20076 -> 10002 -> 20096], [Hong Kong -> Asia -> Japan] 
+
+  path: 2[20076 -> 60076], [Hong Kong -> special administrative area in China] 
+
+-----------------------------------------
+ResultDestNodes: [20097, 20053, 20096, 20074, 10002, 110149, 20067, 20104, 20077, 20076]
+ResultRelevs: [8.023809432983398, 7.975029945373535, 7.855159759521484, 7.690289497375488, 6.959690093994141, 5.334020137786865, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965]
+Num of top-k answers: 10
+Num of redundant answers: 0
+Num of duplicate answers: 3
+Num of entries retrieved from the lists: 172
+Num of entries retrieved from NKMaps: 231
+Blink Search Using BDB_reduced 10
+[korea, japan, china]
+srcNodes: [20097, 100025, 100009]
+  path: 0[20097 -> 20097], [South Korea -> South Korea]
+  path: 1[20097 -> 100025], [South Korea -> Sea of Japan] 
+
+  path: 2[20097 -> 100009], [South Korea -> East China Sea] 
+
+srcNodes: [20074, 20096, 20053]
+  path: 0[20053 -> 10002 -> 20074], [China -> Asia -> North Korea] 
+
+  path: 1[20053 -> 10002 -> 20096], [China -> Asia -> Japan] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [20074, 20096, 20053]
+  path: 0[20096 -> 10002 -> 20074], [Japan -> Asia -> North Korea] 
+
+  path: 1[20096 -> 20096], [Japan -> Japan]
+  path: 2[20096 -> 10002 -> 20053], [Japan -> Asia -> China] 
+
+srcNodes: [20074, 100025, 20053]
+  path: 0[20074 -> 20074], [North Korea -> North Korea]
+  path: 1[20074 -> 100025], [North Korea -> Sea of Japan] 
+
+  path: 2[20074 -> 10002 -> 20053], [North Korea -> Asia -> China] 
+
+srcNodes: [20097, 20096, 20053]
+  path: 0[10002 -> 20097], [Asia -> South Korea] 
+
+  path: 1[10002 -> 20096], [Asia -> Japan] 
+
+  path: 2[10002 -> 20053], [Asia -> China] 
+
+srcNodes: [20097, 100025, 100009]
+  path: 0[110149 -> 20097], [Jeju Jeju  volcanic -> South Korea] 
+
+  path: 1[110149 -> 20097 -> 100025], [Jeju Jeju  volcanic -> South Korea -> Sea of Japan] 
+
+  path: 2[110149 -> 100009], [Jeju Jeju  volcanic -> East China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20067 -> 10002 -> 20074], [Brunei -> Asia -> North Korea] 
+
+  path: 1[20067 -> 10002 -> 20096], [Brunei -> Asia -> Japan] 
+
+  path: 2[20067 -> 100029], [Brunei -> South China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20104 -> 10002 -> 20074], [Singapore -> Asia -> North Korea] 
+
+  path: 1[20104 -> 10002 -> 20096], [Singapore -> Asia -> Japan] 
+
+  path: 2[20104 -> 100029], [Singapore -> South China Sea] 
+
+srcNodes: [20074, 20096, 60077]
+  path: 0[20077 -> 10002 -> 20074], [Macau -> Asia -> North Korea] 
+
+  path: 1[20077 -> 10002 -> 20096], [Macau -> Asia -> Japan] 
+
+  path: 2[20077 -> 60077], [Macau -> special administrative area in China] 
+
+srcNodes: [20074, 20096, 60076]
+  path: 0[20076 -> 10002 -> 20074], [Hong Kong -> Asia -> North Korea] 
+
+  path: 1[20076 -> 10002 -> 20096], [Hong Kong -> Asia -> Japan] 
+
+  path: 2[20076 -> 60076], [Hong Kong -> special administrative area in China] 
+
+-----------------------------------------
+ResultDestNodes: [20097, 20053, 20096, 20074, 10002, 110149, 20067, 20104, 20077, 20076]
+ResultRelevs: [8.023809432983398, 7.975029945373535, 7.855159759521484, 7.690289497375488, 6.959690093994141, 5.334020137786865, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965]
+Num of top-k answers: 10
+Num of redundant answers: 0
+Num of duplicate answers: 3
+Num of entries retrieved from the lists: 172
+Num of entries retrieved from NKMaps: 357
+Num of redundant candidate answers found: 42
+Num of reduced alternative answers found: 3
+[korea, japan, china]
+srcNodes: [20097, 100025, 100009]
+  path: 0[20097 -> 20097], [South Korea -> South Korea]
+  path: 1[20097 -> 100025], [South Korea -> Sea of Japan] 
+
+  path: 2[20097 -> 100009], [South Korea -> East China Sea] 
+
+srcNodes: [20074, 20096, 20053]
+  path: 0[20053 -> 10002 -> 20074], [China -> Asia -> North Korea] 
+
+  path: 1[20053 -> 10002 -> 20096], [China -> Asia -> Japan] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [20074, 100025, 20053]
+  path: 0[20074 -> 20074], [North Korea -> North Korea]
+  path: 1[20074 -> 100025], [North Korea -> Sea of Japan] 
+
+  path: 2[20074 -> 10002 -> 20053], [North Korea -> Asia -> China] 
+
+srcNodes: [20074, 20096, 100009]
+  path: 0[20096 -> 10002 -> 20074], [Japan -> Asia -> North Korea] 
+
+  path: 1[20096 -> 20096], [Japan -> Japan]
+  path: 2[20096 -> 30917 -> 100009], [Japan -> Okinawa -> East China Sea] 
+
+srcNodes: [20097, 20096, 20053]
+  path: 0[10002 -> 20097], [Asia -> South Korea] 
+
+  path: 1[10002 -> 20096], [Asia -> Japan] 
+
+  path: 2[10002 -> 20053], [Asia -> China] 
+
+srcNodes: [20097, 20096, 100009]
+  path: 0[110149 -> 20097], [Jeju Jeju  volcanic -> South Korea] 
+
+  path: 1[110149 -> 20097 -> 10002 -> 20096], [Jeju Jeju  volcanic -> South Korea -> Asia -> Japan] 
+
+  path: 2[110149 -> 100009], [Jeju Jeju  volcanic -> East China Sea] 
+
+srcNodes: [20074, 20096, 60077]
+  path: 0[20077 -> 10002 -> 20074], [Macau -> Asia -> North Korea] 
+
+  path: 1[20077 -> 10002 -> 20096], [Macau -> Asia -> Japan] 
+
+  path: 2[20077 -> 60077], [Macau -> special administrative area in China] 
+
+srcNodes: [20074, 20096, 60076]
+  path: 0[20076 -> 10002 -> 20074], [Hong Kong -> Asia -> North Korea] 
+
+  path: 1[20076 -> 10002 -> 20096], [Hong Kong -> Asia -> Japan] 
+
+  path: 2[20076 -> 60076], [Hong Kong -> special administrative area in China] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20104 -> 10002 -> 20074], [Singapore -> Asia -> North Korea] 
+
+  path: 1[20104 -> 10002 -> 20096], [Singapore -> Asia -> Japan] 
+
+  path: 2[20104 -> 100029], [Singapore -> South China Sea] 
+
+srcNodes: [20074, 100025, 100029]
+  path: 0[20067 -> 10002 -> 20074], [Brunei -> Asia -> North Korea] 
+
+  path: 1[20067 -> 10002 -> 20097 -> 100025], [Brunei -> Asia -> South Korea -> Sea of Japan] 
+
+  path: 2[20067 -> 100029], [Brunei -> South China Sea] 
+
+-----------------------------------------
+ResultDestNodes: [20097, 20053, 20074, 20096, 10002, 110149, 20077, 20076, 20104, 20067]
+ResultRelevs: [8.023809432983398, 7.975029945373535, 7.690289497375488, 7.521639823913574, 6.959690093994141, 5.253640174865723, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.3302321434021]
+Num of top-k answers: 10
+Num of redundant answers in top-k answers: 0
+Num of duplicate answers in top-k answers: 0
+Num of entries retrieved from the lists: 315
+Num of redundant candidate answers found: 82
+Num of reduced alternative answers found: 9
+Num of duplicate candidate answers found: 27
+Num of unique alternative answers found: 3
+[korea, japan, china]
+srcNodes: [20097, 100025, 100009]
+  path: 0[20097 -> 20097], [South Korea -> South Korea]
+  path: 1[20097 -> 100025], [South Korea -> Sea of Japan] 
+
+  path: 2[20097 -> 100009], [South Korea -> East China Sea] 
+
+srcNodes: [20074, 20096, 20053]
+  path: 0[20053 -> 10002 -> 20074], [China -> Asia -> North Korea] 
+
+  path: 1[20053 -> 10002 -> 20096], [China -> Asia -> Japan] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [20074, 20096, 20053]
+  path: 0[20096 -> 10002 -> 20074], [Japan -> Asia -> North Korea] 
+
+  path: 1[20096 -> 20096], [Japan -> Japan]
+  path: 2[20096 -> 10002 -> 20053], [Japan -> Asia -> China] 
+
+srcNodes: [20074, 100025, 20053]
+  path: 0[20074 -> 20074], [North Korea -> North Korea]
+  path: 1[20074 -> 100025], [North Korea -> Sea of Japan] 
+
+  path: 2[20074 -> 10002 -> 20053], [North Korea -> Asia -> China] 
+
+srcNodes: [20097, 20096, 20053]
+  path: 0[10002 -> 20097], [Asia -> South Korea] 
+
+  path: 1[10002 -> 20096], [Asia -> Japan] 
+
+  path: 2[10002 -> 20053], [Asia -> China] 
+
+srcNodes: [20097, 100025, 100009]
+  path: 0[110149 -> 20097], [Jeju Jeju  volcanic -> South Korea] 
+
+  path: 1[110149 -> 20097 -> 100025], [Jeju Jeju  volcanic -> South Korea -> Sea of Japan] 
+
+  path: 2[110149 -> 100009], [Jeju Jeju  volcanic -> East China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20067 -> 10002 -> 20074], [Brunei -> Asia -> North Korea] 
+
+  path: 1[20067 -> 10002 -> 20096], [Brunei -> Asia -> Japan] 
+
+  path: 2[20067 -> 100029], [Brunei -> South China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20086 -> 10002 -> 20074], [Indonesia -> Asia -> North Korea] 
+
+  path: 1[20086 -> 10002 -> 20096], [Indonesia -> Asia -> Japan] 
+
+  path: 2[20086 -> 100029], [Indonesia -> South China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20072 -> 10002 -> 20074], [Vietnam -> Asia -> North Korea] 
+
+  path: 1[20072 -> 10002 -> 20096], [Vietnam -> Asia -> Japan] 
+
+  path: 2[20072 -> 100029], [Vietnam -> South China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20071 -> 10002 -> 20074], [Cambodia -> Asia -> North Korea] 
+
+  path: 1[20071 -> 10002 -> 20096], [Cambodia -> Asia -> Japan] 
+
+  path: 2[20071 -> 100029], [Cambodia -> South China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20102 -> 10002 -> 20074], [Philippines -> Asia -> North Korea] 
+
+  path: 1[20102 -> 10002 -> 20096], [Philippines -> Asia -> Japan] 
+
+  path: 2[20102 -> 100029], [Philippines -> South China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20070 -> 10002 -> 20074], [Thailand -> Asia -> North Korea] 
+
+  path: 1[20070 -> 10002 -> 20096], [Thailand -> Asia -> Japan] 
+
+  path: 2[20070 -> 100029], [Thailand -> South China Sea] 
+
+srcNodes: [20074, 20096, 60077]
+  path: 0[20077 -> 10002 -> 20074], [Macau -> Asia -> North Korea] 
+
+  path: 1[20077 -> 10002 -> 20096], [Macau -> Asia -> Japan] 
+
+  path: 2[20077 -> 60077], [Macau -> special administrative area in China] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20106 -> 10002 -> 20074], [Taiwan -> Asia -> North Korea] 
+
+  path: 1[20106 -> 10002 -> 20096], [Taiwan -> Asia -> Japan] 
+
+  path: 2[20106 -> 100029], [Taiwan -> South China Sea] 
+
+srcNodes: [20074, 20096, 60076]
+  path: 0[20076 -> 10002 -> 20074], [Hong Kong -> Asia -> North Korea] 
+
+  path: 1[20076 -> 10002 -> 20096], [Hong Kong -> Asia -> Japan] 
+
+  path: 2[20076 -> 60076], [Hong Kong -> special administrative area in China] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20104 -> 10002 -> 20074], [Singapore -> Asia -> North Korea] 
+
+  path: 1[20104 -> 10002 -> 20096], [Singapore -> Asia -> Japan] 
+
+  path: 2[20104 -> 100029], [Singapore -> South China Sea] 
+
+srcNodes: [20074, 20096, 20053]
+  path: 0[20093 -> 10002 -> 20074], [Syria -> Asia -> North Korea] 
+
+  path: 1[20093 -> 10002 -> 20096], [Syria -> Asia -> Japan] 
+
+  path: 2[20093 -> 10002 -> 20053], [Syria -> Asia -> China] 
+
+This is a non-reduced answer tree with common first node 10002
+
+srcNodes: [20074, 20096, 20053]
+  path: 0[20075 -> 10002 -> 20074], [Kyrgyzstan -> Asia -> North Korea] 
+
+  path: 1[20075 -> 10002 -> 20096], [Kyrgyzstan -> Asia -> Japan] 
+
+  path: 2[20075 -> 10002 -> 20053], [Kyrgyzstan -> Asia -> China] 
+
+This is a non-reduced answer tree with common first node 10002
+
+srcNodes: [20074, 20096, 20053]
+  path: 0[20103 -> 10002 -> 20074], [Qatar -> Asia -> North Korea] 
+
+  path: 1[20103 -> 10002 -> 20096], [Qatar -> Asia -> Japan] 
+
+  path: 2[20103 -> 10002 -> 20053], [Qatar -> Asia -> China] 
+
+This is a non-reduced answer tree with common first node 10002
+
+srcNodes: [20074, 20096, 20053]
+  path: 0[20094 -> 10002 -> 20074], [Lebanon -> Asia -> North Korea] 
+
+  path: 1[20094 -> 10002 -> 20096], [Lebanon -> Asia -> Japan] 
+
+  path: 2[20094 -> 10002 -> 20053], [Lebanon -> Asia -> China] 
+
+This is a non-reduced answer tree with common first node 10002
+
+-----------------------------------------
+ResultDestNodes: [20097, 20053, 20096, 20074, 10002, 110149, 20067, 20086, 20072, 20071, 20102, 20070, 20077, 20106, 20076, 20104, 20093, 20075, 20103, 20094]
+ResultRelevs: [8.023809432983398, 7.975029945373535, 7.855159759521484, 7.690289497375488, 6.959690093994141, 5.334020137786865, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.639789581298828, 4.639789581298828, 4.639789581298828, 4.639789581298828]
+Num of top-k answers: 20
+Num of redundant answers: 4
+Num of duplicate answers: 13
+Num of entries retrieved from the lists: 193
+Num of entries retrieved from NKMaps: 253
+[korea, japan, china]
+srcNodes: [20097, 100025, 100009]
+  path: 0[20097 -> 20097], [South Korea -> South Korea]
+  path: 1[20097 -> 100025], [South Korea -> Sea of Japan] 
+
+  path: 2[20097 -> 100009], [South Korea -> East China Sea] 
+
+srcNodes: [20074, 20096, 20053]
+  path: 0[20053 -> 10002 -> 20074], [China -> Asia -> North Korea] 
+
+  path: 1[20053 -> 10002 -> 20096], [China -> Asia -> Japan] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [20074, 20096, 20053]
+  path: 0[20096 -> 10002 -> 20074], [Japan -> Asia -> North Korea] 
+
+  path: 1[20096 -> 20096], [Japan -> Japan]
+  path: 2[20096 -> 10002 -> 20053], [Japan -> Asia -> China] 
+
+srcNodes: [20074, 100025, 20053]
+  path: 0[20074 -> 20074], [North Korea -> North Korea]
+  path: 1[20074 -> 100025], [North Korea -> Sea of Japan] 
+
+  path: 2[20074 -> 10002 -> 20053], [North Korea -> Asia -> China] 
+
+srcNodes: [20097, 20096, 20053]
+  path: 0[10002 -> 20097], [Asia -> South Korea] 
+
+  path: 1[10002 -> 20096], [Asia -> Japan] 
+
+  path: 2[10002 -> 20053], [Asia -> China] 
+
+srcNodes: [20097, 100025, 100009]
+  path: 0[110149 -> 20097], [Jeju Jeju  volcanic -> South Korea] 
+
+  path: 1[110149 -> 20097 -> 100025], [Jeju Jeju  volcanic -> South Korea -> Sea of Japan] 
+
+  path: 2[110149 -> 100009], [Jeju Jeju  volcanic -> East China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20072 -> 10002 -> 20074], [Vietnam -> Asia -> North Korea] 
+
+  path: 1[20072 -> 10002 -> 20096], [Vietnam -> Asia -> Japan] 
+
+  path: 2[20072 -> 100029], [Vietnam -> South China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20071 -> 10002 -> 20074], [Cambodia -> Asia -> North Korea] 
+
+  path: 1[20071 -> 10002 -> 20096], [Cambodia -> Asia -> Japan] 
+
+  path: 2[20071 -> 100029], [Cambodia -> South China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20102 -> 10002 -> 20074], [Philippines -> Asia -> North Korea] 
+
+  path: 1[20102 -> 10002 -> 20096], [Philippines -> Asia -> Japan] 
+
+  path: 2[20102 -> 100029], [Philippines -> South China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20106 -> 10002 -> 20074], [Taiwan -> Asia -> North Korea] 
+
+  path: 1[20106 -> 10002 -> 20096], [Taiwan -> Asia -> Japan] 
+
+  path: 2[20106 -> 100029], [Taiwan -> South China Sea] 
+
+srcNodes: [20074, 20096, 60076]
+  path: 0[20076 -> 10002 -> 20074], [Hong Kong -> Asia -> North Korea] 
+
+  path: 1[20076 -> 10002 -> 20096], [Hong Kong -> Asia -> Japan] 
+
+  path: 2[20076 -> 60076], [Hong Kong -> special administrative area in China] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20086 -> 10002 -> 20074], [Indonesia -> Asia -> North Korea] 
+
+  path: 1[20086 -> 10002 -> 20096], [Indonesia -> Asia -> Japan] 
+
+  path: 2[20086 -> 100029], [Indonesia -> South China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20104 -> 10002 -> 20074], [Singapore -> Asia -> North Korea] 
+
+  path: 1[20104 -> 10002 -> 20096], [Singapore -> Asia -> Japan] 
+
+  path: 2[20104 -> 100029], [Singapore -> South China Sea] 
+
+srcNodes: [20074, 20096, 60077]
+  path: 0[20077 -> 10002 -> 20074], [Macau -> Asia -> North Korea] 
+
+  path: 1[20077 -> 10002 -> 20096], [Macau -> Asia -> Japan] 
+
+  path: 2[20077 -> 60077], [Macau -> special administrative area in China] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20067 -> 10002 -> 20074], [Brunei -> Asia -> North Korea] 
+
+  path: 1[20067 -> 10002 -> 20096], [Brunei -> Asia -> Japan] 
+
+  path: 2[20067 -> 100029], [Brunei -> South China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20070 -> 10002 -> 20074], [Thailand -> Asia -> North Korea] 
+
+  path: 1[20070 -> 10002 -> 20096], [Thailand -> Asia -> Japan] 
+
+  path: 2[20070 -> 100029], [Thailand -> South China Sea] 
+
+srcNodes: [20097, 20096, 100029]
+  path: 0[110161 -> 20102 -> 10002 -> 20097], [Palawan Palawan Phillipines  -> Philippines -> Asia -> South Korea] 
+
+  path: 1[110161 -> 20102 -> 10002 -> 20096], [Palawan Palawan Phillipines  -> Philippines -> Asia -> Japan] 
+
+  path: 2[110161 -> 100029], [Palawan Palawan Phillipines  -> South China Sea] 
+
+srcNodes: [20097, 20096, 100029]
+  path: 0[110169 -> 20086 -> 10002 -> 20097], [Borneo Borneo Sunda Islands  -> Indonesia -> Asia -> South Korea] 
+
+  path: 1[110169 -> 20086 -> 10002 -> 20096], [Borneo Borneo Sunda Islands  -> Indonesia -> Asia -> Japan] 
+
+  path: 2[110169 -> 100029], [Borneo Borneo Sunda Islands  -> South China Sea] 
+
+srcNodes: [20097, 20096, 100029]
+  path: 0[110153 -> 20102 -> 10002 -> 20097], [Mindoro Mindoro Phillipines  -> Philippines -> Asia -> South Korea] 
+
+  path: 1[110153 -> 20102 -> 10002 -> 20096], [Mindoro Mindoro Phillipines  -> Philippines -> Asia -> Japan] 
+
+  path: 2[110153 -> 100029], [Mindoro Mindoro Phillipines  -> South China Sea] 
+
+srcNodes: [20097, 20096, 100029]
+  path: 0[90123 -> 20072 -> 10002 -> 20097], [Mekong -> Vietnam -> Asia -> South Korea] 
+
+  path: 1[90123 -> 20072 -> 10002 -> 20096], [Mekong -> Vietnam -> Asia -> Japan] 
+
+  path: 2[90123 -> 100029], [Mekong -> South China Sea] 
+
+-----------------------------------------
+ResultDestNodes: [20097, 20053, 20096, 20074, 10002, 110149, 20072, 20071, 20102, 20106, 20076, 20086, 20104, 20077, 20067, 20070, 110161, 110169, 110153, 90123]
+ResultRelevs: [8.023809432983398, 7.975029945373535, 7.855159759521484, 7.690289497375488, 6.959690093994141, 5.334020137786865, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.2302703857421875, 4.2302703857421875, 4.2302703857421875, 4.2302703857421875]
+Num of top-k answers: 20
+Num of redundant answers: 0
+Num of duplicate answers: 12
+Num of entries retrieved from the lists: 369
+Num of entries retrieved from NKMaps: 431
+Blink Search Using BDB_reduced 20
+[korea, japan, china]
+srcNodes: [20097, 100025, 100009]
+  path: 0[20097 -> 20097], [South Korea -> South Korea]
+  path: 1[20097 -> 100025], [South Korea -> Sea of Japan] 
+
+  path: 2[20097 -> 100009], [South Korea -> East China Sea] 
+
+srcNodes: [20074, 20096, 20053]
+  path: 0[20053 -> 10002 -> 20074], [China -> Asia -> North Korea] 
+
+  path: 1[20053 -> 10002 -> 20096], [China -> Asia -> Japan] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [20074, 20096, 20053]
+  path: 0[20096 -> 10002 -> 20074], [Japan -> Asia -> North Korea] 
+
+  path: 1[20096 -> 20096], [Japan -> Japan]
+  path: 2[20096 -> 10002 -> 20053], [Japan -> Asia -> China] 
+
+srcNodes: [20074, 100025, 20053]
+  path: 0[20074 -> 20074], [North Korea -> North Korea]
+  path: 1[20074 -> 100025], [North Korea -> Sea of Japan] 
+
+  path: 2[20074 -> 10002 -> 20053], [North Korea -> Asia -> China] 
+
+srcNodes: [20097, 20096, 20053]
+  path: 0[10002 -> 20097], [Asia -> South Korea] 
+
+  path: 1[10002 -> 20096], [Asia -> Japan] 
+
+  path: 2[10002 -> 20053], [Asia -> China] 
+
+srcNodes: [20097, 100025, 100009]
+  path: 0[110149 -> 20097], [Jeju Jeju  volcanic -> South Korea] 
+
+  path: 1[110149 -> 20097 -> 100025], [Jeju Jeju  volcanic -> South Korea -> Sea of Japan] 
+
+  path: 2[110149 -> 100009], [Jeju Jeju  volcanic -> East China Sea] 
+
+srcNodes: [20074, 20096, 60076]
+  path: 0[20076 -> 10002 -> 20074], [Hong Kong -> Asia -> North Korea] 
+
+  path: 1[20076 -> 10002 -> 20096], [Hong Kong -> Asia -> Japan] 
+
+  path: 2[20076 -> 60076], [Hong Kong -> special administrative area in China] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20086 -> 10002 -> 20074], [Indonesia -> Asia -> North Korea] 
+
+  path: 1[20086 -> 10002 -> 20096], [Indonesia -> Asia -> Japan] 
+
+  path: 2[20086 -> 100029], [Indonesia -> South China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20072 -> 10002 -> 20074], [Vietnam -> Asia -> North Korea] 
+
+  path: 1[20072 -> 10002 -> 20096], [Vietnam -> Asia -> Japan] 
+
+  path: 2[20072 -> 100029], [Vietnam -> South China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20071 -> 10002 -> 20074], [Cambodia -> Asia -> North Korea] 
+
+  path: 1[20071 -> 10002 -> 20096], [Cambodia -> Asia -> Japan] 
+
+  path: 2[20071 -> 100029], [Cambodia -> South China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20102 -> 10002 -> 20074], [Philippines -> Asia -> North Korea] 
+
+  path: 1[20102 -> 10002 -> 20096], [Philippines -> Asia -> Japan] 
+
+  path: 2[20102 -> 100029], [Philippines -> South China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20106 -> 10002 -> 20074], [Taiwan -> Asia -> North Korea] 
+
+  path: 1[20106 -> 10002 -> 20096], [Taiwan -> Asia -> Japan] 
+
+  path: 2[20106 -> 100029], [Taiwan -> South China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20104 -> 10002 -> 20074], [Singapore -> Asia -> North Korea] 
+
+  path: 1[20104 -> 10002 -> 20096], [Singapore -> Asia -> Japan] 
+
+  path: 2[20104 -> 100029], [Singapore -> South China Sea] 
+
+srcNodes: [20074, 20096, 60077]
+  path: 0[20077 -> 10002 -> 20074], [Macau -> Asia -> North Korea] 
+
+  path: 1[20077 -> 10002 -> 20096], [Macau -> Asia -> Japan] 
+
+  path: 2[20077 -> 60077], [Macau -> special administrative area in China] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20067 -> 10002 -> 20074], [Brunei -> Asia -> North Korea] 
+
+  path: 1[20067 -> 10002 -> 20096], [Brunei -> Asia -> Japan] 
+
+  path: 2[20067 -> 100029], [Brunei -> South China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20070 -> 10002 -> 20074], [Thailand -> Asia -> North Korea] 
+
+  path: 1[20070 -> 10002 -> 20096], [Thailand -> Asia -> Japan] 
+
+  path: 2[20070 -> 100029], [Thailand -> South China Sea] 
+
+srcNodes: [20074, 100025, 20053]
+  path: 0[20023 -> 10002 -> 20074], [Russia -> Asia -> North Korea] 
+
+  path: 1[20023 -> 30320 -> 100025], [Russia -> Sakhalinskaya oblast -> Sea of Japan] 
+
+  path: 2[20023 -> 10002 -> 20053], [Russia -> Asia -> China] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20069 -> 10002 -> 20074], [Laos -> Asia -> North Korea] 
+
+  path: 1[20069 -> 10002 -> 20096], [Laos -> Asia -> Japan] 
+
+  path: 2[20069 -> 90123 -> 100029], [Laos -> Mekong -> South China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20068 -> 10002 -> 20074], [Malaysia -> Asia -> North Korea] 
+
+  path: 1[20068 -> 10002 -> 20096], [Malaysia -> Asia -> Japan] 
+
+  path: 2[20068 -> 30775 -> 100029], [Malaysia -> Terengganu -> South China Sea] 
+
+srcNodes: [20097, 20096, 100029]
+  path: 0[110161 -> 20102 -> 10002 -> 20097], [Palawan Palawan Phillipines  -> Philippines -> Asia -> South Korea] 
+
+  path: 1[110161 -> 20102 -> 10002 -> 20096], [Palawan Palawan Phillipines  -> Philippines -> Asia -> Japan] 
+
+  path: 2[110161 -> 100029], [Palawan Palawan Phillipines  -> South China Sea] 
+
+-----------------------------------------
+ResultDestNodes: [20097, 20053, 20096, 20074, 10002, 110149, 20076, 20086, 20072, 20071, 20102, 20106, 20104, 20077, 20067, 20070, 20023, 20069, 20068, 110161]
+ResultRelevs: [8.023809432983398, 7.975029945373535, 7.855159759521484, 7.690289497375488, 6.959690093994141, 5.334020137786865, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.318249702453613, 4.306269645690918, 4.306269645690918, 4.2302703857421875]
+Num of top-k answers: 20
+Num of redundant answers: 0
+Num of duplicate answers: 12
+Num of entries retrieved from the lists: 369
+Num of entries retrieved from NKMaps: 725
+Num of redundant candidate answers found: 98
+Num of reduced alternative answers found: 10
+[korea, japan, china]
+srcNodes: [20097, 100025, 100009]
+  path: 0[20097 -> 20097], [South Korea -> South Korea]
+  path: 1[20097 -> 100025], [South Korea -> Sea of Japan] 
+
+  path: 2[20097 -> 100009], [South Korea -> East China Sea] 
+
+srcNodes: [20074, 20096, 20053]
+  path: 0[20053 -> 10002 -> 20074], [China -> Asia -> North Korea] 
+
+  path: 1[20053 -> 10002 -> 20096], [China -> Asia -> Japan] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [20074, 100025, 20053]
+  path: 0[20074 -> 20074], [North Korea -> North Korea]
+  path: 1[20074 -> 100025], [North Korea -> Sea of Japan] 
+
+  path: 2[20074 -> 10002 -> 20053], [North Korea -> Asia -> China] 
+
+srcNodes: [20074, 20096, 100009]
+  path: 0[20096 -> 10002 -> 20074], [Japan -> Asia -> North Korea] 
+
+  path: 1[20096 -> 20096], [Japan -> Japan]
+  path: 2[20096 -> 30917 -> 100009], [Japan -> Okinawa -> East China Sea] 
+
+srcNodes: [20097, 20096, 20053]
+  path: 0[10002 -> 20097], [Asia -> South Korea] 
+
+  path: 1[10002 -> 20096], [Asia -> Japan] 
+
+  path: 2[10002 -> 20053], [Asia -> China] 
+
+srcNodes: [20097, 20096, 100009]
+  path: 0[110149 -> 20097], [Jeju Jeju  volcanic -> South Korea] 
+
+  path: 1[110149 -> 20097 -> 10002 -> 20096], [Jeju Jeju  volcanic -> South Korea -> Asia -> Japan] 
+
+  path: 2[110149 -> 100009], [Jeju Jeju  volcanic -> East China Sea] 
+
+srcNodes: [20074, 20096, 60077]
+  path: 0[20077 -> 10002 -> 20074], [Macau -> Asia -> North Korea] 
+
+  path: 1[20077 -> 10002 -> 20096], [Macau -> Asia -> Japan] 
+
+  path: 2[20077 -> 60077], [Macau -> special administrative area in China] 
+
+srcNodes: [20074, 20096, 60076]
+  path: 0[20076 -> 10002 -> 20074], [Hong Kong -> Asia -> North Korea] 
+
+  path: 1[20076 -> 10002 -> 20096], [Hong Kong -> Asia -> Japan] 
+
+  path: 2[20076 -> 60076], [Hong Kong -> special administrative area in China] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20104 -> 10002 -> 20074], [Singapore -> Asia -> North Korea] 
+
+  path: 1[20104 -> 10002 -> 20096], [Singapore -> Asia -> Japan] 
+
+  path: 2[20104 -> 100029], [Singapore -> South China Sea] 
+
+srcNodes: [20097, 100025, 100029]
+  path: 0[20102 -> 10002 -> 20097], [Philippines -> Asia -> South Korea] 
+
+  path: 1[20102 -> 10002 -> 20097 -> 100025], [Philippines -> Asia -> South Korea -> Sea of Japan] 
+
+  path: 2[20102 -> 100029], [Philippines -> South China Sea] 
+
+srcNodes: [20074, 100025, 100009]
+  path: 0[20106 -> 10002 -> 20074], [Taiwan -> Asia -> North Korea] 
+
+  path: 1[20106 -> 10002 -> 20097 -> 100025], [Taiwan -> Asia -> South Korea -> Sea of Japan] 
+
+  path: 2[20106 -> 100009], [Taiwan -> East China Sea] 
+
+srcNodes: [20074, 100025, 100029]
+  path: 0[20067 -> 10002 -> 20074], [Brunei -> Asia -> North Korea] 
+
+  path: 1[20067 -> 10002 -> 20097 -> 100025], [Brunei -> Asia -> South Korea -> Sea of Japan] 
+
+  path: 2[20067 -> 100029], [Brunei -> South China Sea] 
+
+srcNodes: [20097, 20096, 100029]
+  path: 0[110152 -> 20102 -> 10002 -> 20097], [Luzon Luzon Phillipines  -> Philippines -> Asia -> South Korea] 
+
+  path: 1[110152 -> 20102 -> 10002 -> 20096], [Luzon Luzon Phillipines  -> Philippines -> Asia -> Japan] 
+
+  path: 2[110152 -> 100029], [Luzon Luzon Phillipines  -> South China Sea] 
+
+srcNodes: [20074, 110144, 100029]
+  path: 0[20070 -> 10002 -> 20074], [Thailand -> Asia -> North Korea] 
+
+  path: 1[20070 -> 10002 -> 20096 -> 30871 -> 110144], [Thailand -> Asia -> Japan -> Hokkaido -> Hokkaido Hokkaido Japan volcanic] 
+
+  path: 2[20070 -> 100029], [Thailand -> South China Sea] 
+
+srcNodes: [20097, 110144, 100029]
+  path: 0[20086 -> 10002 -> 20097], [Indonesia -> Asia -> South Korea] 
+
+  path: 1[20086 -> 10002 -> 20096 -> 30871 -> 110144], [Indonesia -> Asia -> Japan -> Hokkaido -> Hokkaido Hokkaido Japan volcanic] 
+
+  path: 2[20086 -> 100029], [Indonesia -> South China Sea] 
+
+srcNodes: [20097, 100025, 20053]
+  path: 0[20072 -> 10002 -> 20097], [Vietnam -> Asia -> South Korea] 
+
+  path: 1[20072 -> 10002 -> 20097 -> 100025], [Vietnam -> Asia -> South Korea -> Sea of Japan] 
+
+  path: 2[20072 -> 10002 -> 20053], [Vietnam -> Asia -> China] 
+
+This is a non-reduced answer tree with common first node 10002
+
+srcNodes: [20074, 110144, 20053]
+  path: 0[20071 -> 10002 -> 20074], [Cambodia -> Asia -> North Korea] 
+
+  path: 1[20071 -> 10002 -> 20096 -> 30871 -> 110144], [Cambodia -> Asia -> Japan -> Hokkaido -> Hokkaido Hokkaido Japan volcanic] 
+
+  path: 2[20071 -> 10002 -> 20053], [Cambodia -> Asia -> China] 
+
+This is a non-reduced answer tree with common first node 10002
+
+srcNodes: [20097, 110147, 100029]
+  path: 0[110161 -> 20102 -> 10002 -> 20097], [Palawan Palawan Phillipines  -> Philippines -> Asia -> South Korea] 
+
+  path: 1[110161 -> 20102 -> 10002 -> 20096 -> 30905 -> 110147], [Palawan Palawan Phillipines  -> Philippines -> Asia -> Japan -> Yamaguchi -> Honshu Honshu Japan volcanic] 
+
+  path: 2[110161 -> 100029], [Palawan Palawan Phillipines  -> South China Sea] 
+
+srcNodes: [20074, 110146, 100029]
+  path: 0[110153 -> 20102 -> 10002 -> 20074], [Mindoro Mindoro Phillipines  -> Philippines -> Asia -> North Korea] 
+
+  path: 1[110153 -> 20102 -> 10002 -> 20096 -> 30909 -> 110146], [Mindoro Mindoro Phillipines  -> Philippines -> Asia -> Japan -> Kochi -> Shikoku Shikoku Japan volcanic] 
+
+  path: 2[110153 -> 100029], [Mindoro Mindoro Phillipines  -> South China Sea] 
+
+-----------------------------------------
+ResultDestNodes: [20097, 20053, 20074, 20096, 10002, 110149, 20077, 20076, 20104, 20102, 20106, 20067, 110152, 20070, 20086, 20072, 20071, 110161, 110153]
+ResultRelevs: [8.023809432983398, 7.975029945373535, 7.690289497375488, 7.521639823913574, 6.959690093994141, 5.253640174865723, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.3302321434021, 4.3302321434021, 4.3302321434021, 4.2302703857421875, 4.137310028076172, 4.137310028076172, 3.9967119693756104, 3.8037900924682617, 3.6675760746002197, 3.6675760746002197]
+Num of top-k answers: 19
+Num of redundant answers in top-k answers: 2
+Num of duplicate answers in top-k answers: 0
+Num of entries retrieved from the lists: 518
+Num of redundant candidate answers found: 156
+Num of reduced alternative answers found: 11
+Num of duplicate candidate answers found: 61
+Num of unique alternative answers found: 28
+[korea, japan, china]
+srcNodes: [20097, 100025, 100009]
+  path: 0[20097 -> 20097], [South Korea -> South Korea]
+  path: 1[20097 -> 100025], [South Korea -> Sea of Japan] 
+
+  path: 2[20097 -> 100009], [South Korea -> East China Sea] 
+
+srcNodes: [20074, 20096, 20053]
+  path: 0[20053 -> 10002 -> 20074], [China -> Asia -> North Korea] 
+
+  path: 1[20053 -> 10002 -> 20096], [China -> Asia -> Japan] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [20074, 20096, 20053]
+  path: 0[20096 -> 10002 -> 20074], [Japan -> Asia -> North Korea] 
+
+  path: 1[20096 -> 20096], [Japan -> Japan]
+  path: 2[20096 -> 10002 -> 20053], [Japan -> Asia -> China] 
+
+srcNodes: [20074, 100025, 20053]
+  path: 0[20074 -> 20074], [North Korea -> North Korea]
+  path: 1[20074 -> 100025], [North Korea -> Sea of Japan] 
+
+  path: 2[20074 -> 10002 -> 20053], [North Korea -> Asia -> China] 
+
+srcNodes: [20097, 20096, 20053]
+  path: 0[10002 -> 20097], [Asia -> South Korea] 
+
+  path: 1[10002 -> 20096], [Asia -> Japan] 
+
+  path: 2[10002 -> 20053], [Asia -> China] 
+
+srcNodes: [20097, 100025, 100009]
+  path: 0[110149 -> 20097], [Jeju Jeju  volcanic -> South Korea] 
+
+  path: 1[110149 -> 20097 -> 100025], [Jeju Jeju  volcanic -> South Korea -> Sea of Japan] 
+
+  path: 2[110149 -> 100009], [Jeju Jeju  volcanic -> East China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20106 -> 10002 -> 20074], [Taiwan -> Asia -> North Korea] 
+
+  path: 1[20106 -> 10002 -> 20096], [Taiwan -> Asia -> Japan] 
+
+  path: 2[20106 -> 100029], [Taiwan -> South China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20072 -> 10002 -> 20074], [Vietnam -> Asia -> North Korea] 
+
+  path: 1[20072 -> 10002 -> 20096], [Vietnam -> Asia -> Japan] 
+
+  path: 2[20072 -> 100029], [Vietnam -> South China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20071 -> 10002 -> 20074], [Cambodia -> Asia -> North Korea] 
+
+  path: 1[20071 -> 10002 -> 20096], [Cambodia -> Asia -> Japan] 
+
+  path: 2[20071 -> 100029], [Cambodia -> South China Sea] 
+
+srcNodes: [20074, 20096, 60076]
+  path: 0[20076 -> 10002 -> 20074], [Hong Kong -> Asia -> North Korea] 
+
+  path: 1[20076 -> 10002 -> 20096], [Hong Kong -> Asia -> Japan] 
+
+  path: 2[20076 -> 60076], [Hong Kong -> special administrative area in China] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20104 -> 10002 -> 20074], [Singapore -> Asia -> North Korea] 
+
+  path: 1[20104 -> 10002 -> 20096], [Singapore -> Asia -> Japan] 
+
+  path: 2[20104 -> 100029], [Singapore -> South China Sea] 
+
+srcNodes: [20074, 20096, 60077]
+  path: 0[20077 -> 10002 -> 20074], [Macau -> Asia -> North Korea] 
+
+  path: 1[20077 -> 10002 -> 20096], [Macau -> Asia -> Japan] 
+
+  path: 2[20077 -> 60077], [Macau -> special administrative area in China] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20067 -> 10002 -> 20074], [Brunei -> Asia -> North Korea] 
+
+  path: 1[20067 -> 10002 -> 20096], [Brunei -> Asia -> Japan] 
+
+  path: 2[20067 -> 100029], [Brunei -> South China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20102 -> 10002 -> 20074], [Philippines -> Asia -> North Korea] 
+
+  path: 1[20102 -> 10002 -> 20096], [Philippines -> Asia -> Japan] 
+
+  path: 2[20102 -> 100029], [Philippines -> South China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20070 -> 10002 -> 20074], [Thailand -> Asia -> North Korea] 
+
+  path: 1[20070 -> 10002 -> 20096], [Thailand -> Asia -> Japan] 
+
+  path: 2[20070 -> 100029], [Thailand -> South China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20086 -> 10002 -> 20074], [Indonesia -> Asia -> North Korea] 
+
+  path: 1[20086 -> 10002 -> 20096], [Indonesia -> Asia -> Japan] 
+
+  path: 2[20086 -> 100029], [Indonesia -> South China Sea] 
+
+srcNodes: [20074, 20096, 20053]
+  path: 0[20057 -> 10002 -> 20074], [Turkmenistan -> Asia -> North Korea] 
+
+  path: 1[20057 -> 10002 -> 20096], [Turkmenistan -> Asia -> Japan] 
+
+  path: 2[20057 -> 10002 -> 20053], [Turkmenistan -> Asia -> China] 
+
+This is a non-reduced answer tree with common first node 10002
+
+srcNodes: [20074, 20096, 20053]
+  path: 0[20078 -> 10002 -> 20074], [Mongolia -> Asia -> North Korea] 
+
+  path: 1[20078 -> 10002 -> 20096], [Mongolia -> Asia -> Japan] 
+
+  path: 2[20078 -> 10002 -> 20053], [Mongolia -> Asia -> China] 
+
+This is a non-reduced answer tree with common first node 10002
+
+srcNodes: [20074, 20096, 20053]
+  path: 0[20056 -> 10002 -> 20074], [Tajikistan -> Asia -> North Korea] 
+
+  path: 1[20056 -> 10002 -> 20096], [Tajikistan -> Asia -> Japan] 
+
+  path: 2[20056 -> 10002 -> 20053], [Tajikistan -> Asia -> China] 
+
+This is a non-reduced answer tree with common first node 10002
+
+srcNodes: [20074, 20096, 20053]
+  path: 0[20065 -> 10002 -> 20074], [India -> Asia -> North Korea] 
+
+  path: 1[20065 -> 10002 -> 20096], [India -> Asia -> Japan] 
+
+  path: 2[20065 -> 10002 -> 20053], [India -> Asia -> China] 
+
+This is a non-reduced answer tree with common first node 10002
+
+srcNodes: [20074, 20096, 20053]
+  path: 0[20061 -> 10002 -> 20074], [Azerbaijan -> Asia -> North Korea] 
+
+  path: 1[20061 -> 10002 -> 20096], [Azerbaijan -> Asia -> Japan] 
+
+  path: 2[20061 -> 10002 -> 20053], [Azerbaijan -> Asia -> China] 
+
+This is a non-reduced answer tree with common first node 10002
+
+srcNodes: [20074, 20096, 20053]
+  path: 0[20066 -> 10002 -> 20074], [Bhutan -> Asia -> North Korea] 
+
+  path: 1[20066 -> 10002 -> 20096], [Bhutan -> Asia -> Japan] 
+
+  path: 2[20066 -> 10002 -> 20053], [Bhutan -> Asia -> China] 
+
+This is a non-reduced answer tree with common first node 10002
+
+srcNodes: [20074, 20096, 20053]
+  path: 0[20060 -> 10002 -> 20074], [Georgia -> Asia -> North Korea] 
+
+  path: 1[20060 -> 10002 -> 20096], [Georgia -> Asia -> Japan] 
+
+  path: 2[20060 -> 10002 -> 20053], [Georgia -> Asia -> China] 
+
+This is a non-reduced answer tree with common first node 10002
+
+srcNodes: [20074, 20096, 20053]
+  path: 0[20073 -> 10002 -> 20074], [Kazakstan -> Asia -> North Korea] 
+
+  path: 1[20073 -> 10002 -> 20096], [Kazakstan -> Asia -> Japan] 
+
+  path: 2[20073 -> 10002 -> 20053], [Kazakstan -> Asia -> China] 
+
+This is a non-reduced answer tree with common first node 10002
+
+srcNodes: [20074, 20096, 20053]
+  path: 0[20092 -> 10002 -> 20074], [Saudi Arabia -> Asia -> North Korea] 
+
+  path: 1[20092 -> 10002 -> 20096], [Saudi Arabia -> Asia -> Japan] 
+
+  path: 2[20092 -> 10002 -> 20053], [Saudi Arabia -> Asia -> China] 
+
+This is a non-reduced answer tree with common first node 10002
+
+srcNodes: [20074, 20096, 20053]
+  path: 0[20094 -> 10002 -> 20074], [Lebanon -> Asia -> North Korea] 
+
+  path: 1[20094 -> 10002 -> 20096], [Lebanon -> Asia -> Japan] 
+
+  path: 2[20094 -> 10002 -> 20053], [Lebanon -> Asia -> China] 
+
+This is a non-reduced answer tree with common first node 10002
+
+srcNodes: [20074, 20096, 20053]
+  path: 0[20059 -> 10002 -> 20074], [Armenia -> Asia -> North Korea] 
+
+  path: 1[20059 -> 10002 -> 20096], [Armenia -> Asia -> Japan] 
+
+  path: 2[20059 -> 10002 -> 20053], [Armenia -> Asia -> China] 
+
+This is a non-reduced answer tree with common first node 10002
+
+srcNodes: [20074, 20096, 20053]
+  path: 0[20093 -> 10002 -> 20074], [Syria -> Asia -> North Korea] 
+
+  path: 1[20093 -> 10002 -> 20096], [Syria -> Asia -> Japan] 
+
+  path: 2[20093 -> 10002 -> 20053], [Syria -> Asia -> China] 
+
+This is a non-reduced answer tree with common first node 10002
+
+srcNodes: [20074, 20096, 20053]
+  path: 0[20075 -> 10002 -> 20074], [Kyrgyzstan -> Asia -> North Korea] 
+
+  path: 1[20075 -> 10002 -> 20096], [Kyrgyzstan -> Asia -> Japan] 
+
+  path: 2[20075 -> 10002 -> 20053], [Kyrgyzstan -> Asia -> China] 
+
+This is a non-reduced answer tree with common first node 10002
+
+srcNodes: [20074, 20096, 20053]
+  path: 0[20103 -> 10002 -> 20074], [Qatar -> Asia -> North Korea] 
+
+  path: 1[20103 -> 10002 -> 20096], [Qatar -> Asia -> Japan] 
+
+  path: 2[20103 -> 10002 -> 20053], [Qatar -> Asia -> China] 
+
+This is a non-reduced answer tree with common first node 10002
+
+-----------------------------------------
+ResultDestNodes: [20097, 20053, 20096, 20074, 10002, 110149, 20106, 20072, 20071, 20076, 20104, 20077, 20067, 20102, 20070, 20086, 20057, 20078, 20056, 20065, 20061, 20066, 20060, 20073, 20092, 20094, 20059, 20093, 20075, 20103]
+ResultRelevs: [8.023809432983398, 7.975029945373535, 7.855159759521484, 7.690289497375488, 6.959690093994141, 5.334020137786865, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.639789581298828, 4.639789581298828, 4.639789581298828, 4.639789581298828, 4.639789581298828, 4.639789581298828, 4.639789581298828, 4.639789581298828, 4.639789581298828, 4.639789581298828, 4.639789581298828, 4.639789581298828, 4.639789581298828, 4.639789581298828]
+Num of top-k answers: 30
+Num of redundant answers: 14
+Num of duplicate answers: 23
+Num of entries retrieved from the lists: 193
+Num of entries retrieved from NKMaps: 253
+[korea, japan, china]
+srcNodes: [20097, 100025, 100009]
+  path: 0[20097 -> 20097], [South Korea -> South Korea]
+  path: 1[20097 -> 100025], [South Korea -> Sea of Japan] 
+
+  path: 2[20097 -> 100009], [South Korea -> East China Sea] 
+
+srcNodes: [20074, 20096, 20053]
+  path: 0[20053 -> 10002 -> 20074], [China -> Asia -> North Korea] 
+
+  path: 1[20053 -> 10002 -> 20096], [China -> Asia -> Japan] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [20074, 20096, 20053]
+  path: 0[20096 -> 10002 -> 20074], [Japan -> Asia -> North Korea] 
+
+  path: 1[20096 -> 20096], [Japan -> Japan]
+  path: 2[20096 -> 10002 -> 20053], [Japan -> Asia -> China] 
+
+srcNodes: [20074, 100025, 20053]
+  path: 0[20074 -> 20074], [North Korea -> North Korea]
+  path: 1[20074 -> 100025], [North Korea -> Sea of Japan] 
+
+  path: 2[20074 -> 10002 -> 20053], [North Korea -> Asia -> China] 
+
+srcNodes: [20097, 20096, 20053]
+  path: 0[10002 -> 20097], [Asia -> South Korea] 
+
+  path: 1[10002 -> 20096], [Asia -> Japan] 
+
+  path: 2[10002 -> 20053], [Asia -> China] 
+
+srcNodes: [20097, 100025, 100009]
+  path: 0[110149 -> 20097], [Jeju Jeju  volcanic -> South Korea] 
+
+  path: 1[110149 -> 20097 -> 100025], [Jeju Jeju  volcanic -> South Korea -> Sea of Japan] 
+
+  path: 2[110149 -> 100009], [Jeju Jeju  volcanic -> East China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20072 -> 10002 -> 20074], [Vietnam -> Asia -> North Korea] 
+
+  path: 1[20072 -> 10002 -> 20096], [Vietnam -> Asia -> Japan] 
+
+  path: 2[20072 -> 100029], [Vietnam -> South China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20086 -> 10002 -> 20074], [Indonesia -> Asia -> North Korea] 
+
+  path: 1[20086 -> 10002 -> 20096], [Indonesia -> Asia -> Japan] 
+
+  path: 2[20086 -> 100029], [Indonesia -> South China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20102 -> 10002 -> 20074], [Philippines -> Asia -> North Korea] 
+
+  path: 1[20102 -> 10002 -> 20096], [Philippines -> Asia -> Japan] 
+
+  path: 2[20102 -> 100029], [Philippines -> South China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20070 -> 10002 -> 20074], [Thailand -> Asia -> North Korea] 
+
+  path: 1[20070 -> 10002 -> 20096], [Thailand -> Asia -> Japan] 
+
+  path: 2[20070 -> 100029], [Thailand -> South China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20104 -> 10002 -> 20074], [Singapore -> Asia -> North Korea] 
+
+  path: 1[20104 -> 10002 -> 20096], [Singapore -> Asia -> Japan] 
+
+  path: 2[20104 -> 100029], [Singapore -> South China Sea] 
+
+srcNodes: [20074, 20096, 60077]
+  path: 0[20077 -> 10002 -> 20074], [Macau -> Asia -> North Korea] 
+
+  path: 1[20077 -> 10002 -> 20096], [Macau -> Asia -> Japan] 
+
+  path: 2[20077 -> 60077], [Macau -> special administrative area in China] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20067 -> 10002 -> 20074], [Brunei -> Asia -> North Korea] 
+
+  path: 1[20067 -> 10002 -> 20096], [Brunei -> Asia -> Japan] 
+
+  path: 2[20067 -> 100029], [Brunei -> South China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20071 -> 10002 -> 20074], [Cambodia -> Asia -> North Korea] 
+
+  path: 1[20071 -> 10002 -> 20096], [Cambodia -> Asia -> Japan] 
+
+  path: 2[20071 -> 100029], [Cambodia -> South China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20106 -> 10002 -> 20074], [Taiwan -> Asia -> North Korea] 
+
+  path: 1[20106 -> 10002 -> 20096], [Taiwan -> Asia -> Japan] 
+
+  path: 2[20106 -> 100029], [Taiwan -> South China Sea] 
+
+srcNodes: [20074, 20096, 60076]
+  path: 0[20076 -> 10002 -> 20074], [Hong Kong -> Asia -> North Korea] 
+
+  path: 1[20076 -> 10002 -> 20096], [Hong Kong -> Asia -> Japan] 
+
+  path: 2[20076 -> 60076], [Hong Kong -> special administrative area in China] 
+
+srcNodes: [20097, 20096, 100029]
+  path: 0[110161 -> 20102 -> 10002 -> 20097], [Palawan Palawan Phillipines  -> Philippines -> Asia -> South Korea] 
+
+  path: 1[110161 -> 20102 -> 10002 -> 20096], [Palawan Palawan Phillipines  -> Philippines -> Asia -> Japan] 
+
+  path: 2[110161 -> 100029], [Palawan Palawan Phillipines  -> South China Sea] 
+
+srcNodes: [20097, 20096, 100029]
+  path: 0[110169 -> 20086 -> 10002 -> 20097], [Borneo Borneo Sunda Islands  -> Indonesia -> Asia -> South Korea] 
+
+  path: 1[110169 -> 20086 -> 10002 -> 20096], [Borneo Borneo Sunda Islands  -> Indonesia -> Asia -> Japan] 
+
+  path: 2[110169 -> 100029], [Borneo Borneo Sunda Islands  -> South China Sea] 
+
+srcNodes: [20097, 20096, 100029]
+  path: 0[90123 -> 20072 -> 10002 -> 20097], [Mekong -> Vietnam -> Asia -> South Korea] 
+
+  path: 1[90123 -> 20072 -> 10002 -> 20096], [Mekong -> Vietnam -> Asia -> Japan] 
+
+  path: 2[90123 -> 100029], [Mekong -> South China Sea] 
+
+srcNodes: [20097, 20096, 100029]
+  path: 0[110152 -> 20102 -> 10002 -> 20097], [Luzon Luzon Phillipines  -> Philippines -> Asia -> South Korea] 
+
+  path: 1[110152 -> 20102 -> 10002 -> 20096], [Luzon Luzon Phillipines  -> Philippines -> Asia -> Japan] 
+
+  path: 2[110152 -> 100029], [Luzon Luzon Phillipines  -> South China Sea] 
+
+srcNodes: [20097, 20096, 100029]
+  path: 0[110153 -> 20102 -> 10002 -> 20097], [Mindoro Mindoro Phillipines  -> Philippines -> Asia -> South Korea] 
+
+  path: 1[110153 -> 20102 -> 10002 -> 20096], [Mindoro Mindoro Phillipines  -> Philippines -> Asia -> Japan] 
+
+  path: 2[110153 -> 100029], [Mindoro Mindoro Phillipines  -> South China Sea] 
+
+srcNodes: [20097, 20096, 100029]
+  path: 0[110163 -> 20086 -> 10002 -> 20097], [Sumatra Sumatra Sunda Islands  -> Indonesia -> Asia -> South Korea] 
+
+  path: 1[110163 -> 20086 -> 10002 -> 20096], [Sumatra Sumatra Sunda Islands  -> Indonesia -> Asia -> Japan] 
+
+  path: 2[110163 -> 100029], [Sumatra Sumatra Sunda Islands  -> South China Sea] 
+
+srcNodes: [20097, 20096, 100029]
+  path: 0[110162 -> 20104 -> 10002 -> 20097], [Singapore Singapore   -> Singapore -> Asia -> South Korea] 
+
+  path: 1[110162 -> 20104 -> 10002 -> 20096], [Singapore Singapore   -> Singapore -> Asia -> Japan] 
+
+  path: 2[110162 -> 100029], [Singapore Singapore   -> South China Sea] 
+
+srcNodes: [20097, 20096, 100029]
+  path: 0[110150 -> 20106 -> 10002 -> 20097], [Taiwan Taiwan   -> Taiwan -> Asia -> South Korea] 
+
+  path: 1[110150 -> 20106 -> 10002 -> 20096], [Taiwan Taiwan   -> Taiwan -> Asia -> Japan] 
+
+  path: 2[110150 -> 100029], [Taiwan Taiwan   -> South China Sea] 
+
+srcNodes: [20097, 20096, 100029]
+  path: 0[110166 -> 20086 -> 10002 -> 20097], [Bangka Bangka Sunda Islands  -> Indonesia -> Asia -> South Korea] 
+
+  path: 1[110166 -> 20086 -> 10002 -> 20096], [Bangka Bangka Sunda Islands  -> Indonesia -> Asia -> Japan] 
+
+  path: 2[110166 -> 100029], [Bangka Bangka Sunda Islands  -> South China Sea] 
+
+srcNodes: [20097, 20096, 100029]
+  path: 0[110165 -> 20086 -> 10002 -> 20097], [Batam Batam Sunda Islands  -> Indonesia -> Asia -> South Korea] 
+
+  path: 1[110165 -> 20086 -> 10002 -> 20096], [Batam Batam Sunda Islands  -> Indonesia -> Asia -> Japan] 
+
+  path: 2[110165 -> 100029], [Batam Batam Sunda Islands  -> South China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[41256 -> 110150 -> 20106 -> 10002 -> 20074], [Kaohsiung -> Taiwan Taiwan   -> Taiwan -> Asia -> North Korea] 
+
+  path: 1[41256 -> 110150 -> 20106 -> 10002 -> 20096], [Kaohsiung -> Taiwan Taiwan   -> Taiwan -> Asia -> Japan] 
+
+  path: 2[41256 -> 100029], [Kaohsiung -> South China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[40252 -> 110165 -> 20086 -> 10002 -> 20074], [Batam -> Batam Batam Sunda Islands  -> Indonesia -> Asia -> North Korea] 
+
+  path: 1[40252 -> 110165 -> 20086 -> 10002 -> 20096], [Batam -> Batam Batam Sunda Islands  -> Indonesia -> Asia -> Japan] 
+
+  path: 2[40252 -> 100029], [Batam -> South China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[42119 -> 110169 -> 20086 -> 10002 -> 20074], [Pontianak -> Borneo Borneo Sunda Islands  -> Indonesia -> Asia -> North Korea] 
+
+  path: 1[42119 -> 110169 -> 20086 -> 10002 -> 20096], [Pontianak -> Borneo Borneo Sunda Islands  -> Indonesia -> Asia -> Japan] 
+
+  path: 2[42119 -> 100029], [Pontianak -> South China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[41621 -> 110152 -> 20102 -> 10002 -> 20074], [Manila -> Luzon Luzon Phillipines  -> Philippines -> Asia -> North Korea] 
+
+  path: 1[41621 -> 110152 -> 20102 -> 10002 -> 20096], [Manila -> Luzon Luzon Phillipines  -> Philippines -> Asia -> Japan] 
+
+  path: 2[41621 -> 100029], [Manila -> South China Sea] 
+
+-----------------------------------------
+ResultDestNodes: [20097, 20053, 20096, 20074, 10002, 110149, 20072, 20086, 20102, 20070, 20104, 20077, 20067, 20071, 20106, 20076, 110161, 110169, 90123, 110152, 110153, 110163, 110162, 110150, 110166, 110165, 41256, 40252, 42119, 41621]
+ResultRelevs: [8.023809432983398, 7.975029945373535, 7.855159759521484, 7.690289497375488, 6.959690093994141, 5.334020137786865, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.2302703857421875, 4.2302703857421875, 4.2302703857421875, 4.2302703857421875, 4.2302703857421875, 4.2302703857421875, 4.2302703857421875, 4.2302703857421875, 4.2302703857421875, 4.2302703857421875, 3.784442186355591, 3.784442186355591, 3.784442186355591, 3.784442186355591]
+Num of top-k answers: 30
+Num of redundant answers: 0
+Num of duplicate answers: 22
+Num of entries retrieved from the lists: 427
+Num of entries retrieved from NKMaps: 486
+Blink Search Using BDB_reduced 30
+[korea, japan, china]
+srcNodes: [20097, 100025, 100009]
+  path: 0[20097 -> 20097], [South Korea -> South Korea]
+  path: 1[20097 -> 100025], [South Korea -> Sea of Japan] 
+
+  path: 2[20097 -> 100009], [South Korea -> East China Sea] 
+
+srcNodes: [20074, 20096, 20053]
+  path: 0[20053 -> 10002 -> 20074], [China -> Asia -> North Korea] 
+
+  path: 1[20053 -> 10002 -> 20096], [China -> Asia -> Japan] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [20074, 20096, 20053]
+  path: 0[20096 -> 10002 -> 20074], [Japan -> Asia -> North Korea] 
+
+  path: 1[20096 -> 20096], [Japan -> Japan]
+  path: 2[20096 -> 10002 -> 20053], [Japan -> Asia -> China] 
+
+srcNodes: [20074, 100025, 20053]
+  path: 0[20074 -> 20074], [North Korea -> North Korea]
+  path: 1[20074 -> 100025], [North Korea -> Sea of Japan] 
+
+  path: 2[20074 -> 10002 -> 20053], [North Korea -> Asia -> China] 
+
+srcNodes: [20097, 20096, 20053]
+  path: 0[10002 -> 20097], [Asia -> South Korea] 
+
+  path: 1[10002 -> 20096], [Asia -> Japan] 
+
+  path: 2[10002 -> 20053], [Asia -> China] 
+
+srcNodes: [20097, 100025, 100009]
+  path: 0[110149 -> 20097], [Jeju Jeju  volcanic -> South Korea] 
+
+  path: 1[110149 -> 20097 -> 100025], [Jeju Jeju  volcanic -> South Korea -> Sea of Japan] 
+
+  path: 2[110149 -> 100009], [Jeju Jeju  volcanic -> East China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20104 -> 10002 -> 20074], [Singapore -> Asia -> North Korea] 
+
+  path: 1[20104 -> 10002 -> 20096], [Singapore -> Asia -> Japan] 
+
+  path: 2[20104 -> 100029], [Singapore -> South China Sea] 
+
+srcNodes: [20074, 20096, 60077]
+  path: 0[20077 -> 10002 -> 20074], [Macau -> Asia -> North Korea] 
+
+  path: 1[20077 -> 10002 -> 20096], [Macau -> Asia -> Japan] 
+
+  path: 2[20077 -> 60077], [Macau -> special administrative area in China] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20067 -> 10002 -> 20074], [Brunei -> Asia -> North Korea] 
+
+  path: 1[20067 -> 10002 -> 20096], [Brunei -> Asia -> Japan] 
+
+  path: 2[20067 -> 100029], [Brunei -> South China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20071 -> 10002 -> 20074], [Cambodia -> Asia -> North Korea] 
+
+  path: 1[20071 -> 10002 -> 20096], [Cambodia -> Asia -> Japan] 
+
+  path: 2[20071 -> 100029], [Cambodia -> South China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20102 -> 10002 -> 20074], [Philippines -> Asia -> North Korea] 
+
+  path: 1[20102 -> 10002 -> 20096], [Philippines -> Asia -> Japan] 
+
+  path: 2[20102 -> 100029], [Philippines -> South China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20106 -> 10002 -> 20074], [Taiwan -> Asia -> North Korea] 
+
+  path: 1[20106 -> 10002 -> 20096], [Taiwan -> Asia -> Japan] 
+
+  path: 2[20106 -> 100029], [Taiwan -> South China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20072 -> 10002 -> 20074], [Vietnam -> Asia -> North Korea] 
+
+  path: 1[20072 -> 10002 -> 20096], [Vietnam -> Asia -> Japan] 
+
+  path: 2[20072 -> 100029], [Vietnam -> South China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20086 -> 10002 -> 20074], [Indonesia -> Asia -> North Korea] 
+
+  path: 1[20086 -> 10002 -> 20096], [Indonesia -> Asia -> Japan] 
+
+  path: 2[20086 -> 100029], [Indonesia -> South China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20070 -> 10002 -> 20074], [Thailand -> Asia -> North Korea] 
+
+  path: 1[20070 -> 10002 -> 20096], [Thailand -> Asia -> Japan] 
+
+  path: 2[20070 -> 100029], [Thailand -> South China Sea] 
+
+srcNodes: [20074, 20096, 60076]
+  path: 0[20076 -> 10002 -> 20074], [Hong Kong -> Asia -> North Korea] 
+
+  path: 1[20076 -> 10002 -> 20096], [Hong Kong -> Asia -> Japan] 
+
+  path: 2[20076 -> 60076], [Hong Kong -> special administrative area in China] 
+
+srcNodes: [20074, 100025, 20053]
+  path: 0[20023 -> 10002 -> 20074], [Russia -> Asia -> North Korea] 
+
+  path: 1[20023 -> 30320 -> 100025], [Russia -> Sakhalinskaya oblast -> Sea of Japan] 
+
+  path: 2[20023 -> 10002 -> 20053], [Russia -> Asia -> China] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20068 -> 10002 -> 20074], [Malaysia -> Asia -> North Korea] 
+
+  path: 1[20068 -> 10002 -> 20096], [Malaysia -> Asia -> Japan] 
+
+  path: 2[20068 -> 30775 -> 100029], [Malaysia -> Terengganu -> South China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20069 -> 10002 -> 20074], [Laos -> Asia -> North Korea] 
+
+  path: 1[20069 -> 10002 -> 20096], [Laos -> Asia -> Japan] 
+
+  path: 2[20069 -> 90123 -> 100029], [Laos -> Mekong -> South China Sea] 
+
+srcNodes: [20097, 20096, 100029]
+  path: 0[90123 -> 20072 -> 10002 -> 20097], [Mekong -> Vietnam -> Asia -> South Korea] 
+
+  path: 1[90123 -> 20072 -> 10002 -> 20096], [Mekong -> Vietnam -> Asia -> Japan] 
+
+  path: 2[90123 -> 100029], [Mekong -> South China Sea] 
+
+srcNodes: [20097, 20096, 100029]
+  path: 0[110162 -> 20104 -> 10002 -> 20097], [Singapore Singapore   -> Singapore -> Asia -> South Korea] 
+
+  path: 1[110162 -> 20104 -> 10002 -> 20096], [Singapore Singapore   -> Singapore -> Asia -> Japan] 
+
+  path: 2[110162 -> 100029], [Singapore Singapore   -> South China Sea] 
+
+srcNodes: [20097, 20096, 100029]
+  path: 0[110153 -> 20102 -> 10002 -> 20097], [Mindoro Mindoro Phillipines  -> Philippines -> Asia -> South Korea] 
+
+  path: 1[110153 -> 20102 -> 10002 -> 20096], [Mindoro Mindoro Phillipines  -> Philippines -> Asia -> Japan] 
+
+  path: 2[110153 -> 100029], [Mindoro Mindoro Phillipines  -> South China Sea] 
+
+srcNodes: [20097, 20096, 100029]
+  path: 0[110163 -> 20086 -> 10002 -> 20097], [Sumatra Sumatra Sunda Islands  -> Indonesia -> Asia -> South Korea] 
+
+  path: 1[110163 -> 20086 -> 10002 -> 20096], [Sumatra Sumatra Sunda Islands  -> Indonesia -> Asia -> Japan] 
+
+  path: 2[110163 -> 100029], [Sumatra Sumatra Sunda Islands  -> South China Sea] 
+
+srcNodes: [20097, 20096, 100029]
+  path: 0[110161 -> 20102 -> 10002 -> 20097], [Palawan Palawan Phillipines  -> Philippines -> Asia -> South Korea] 
+
+  path: 1[110161 -> 20102 -> 10002 -> 20096], [Palawan Palawan Phillipines  -> Philippines -> Asia -> Japan] 
+
+  path: 2[110161 -> 100029], [Palawan Palawan Phillipines  -> South China Sea] 
+
+srcNodes: [20097, 20096, 100029]
+  path: 0[110169 -> 20086 -> 10002 -> 20097], [Borneo Borneo Sunda Islands  -> Indonesia -> Asia -> South Korea] 
+
+  path: 1[110169 -> 20086 -> 10002 -> 20096], [Borneo Borneo Sunda Islands  -> Indonesia -> Asia -> Japan] 
+
+  path: 2[110169 -> 100029], [Borneo Borneo Sunda Islands  -> South China Sea] 
+
+srcNodes: [20097, 20096, 100029]
+  path: 0[110166 -> 20086 -> 10002 -> 20097], [Bangka Bangka Sunda Islands  -> Indonesia -> Asia -> South Korea] 
+
+  path: 1[110166 -> 20086 -> 10002 -> 20096], [Bangka Bangka Sunda Islands  -> Indonesia -> Asia -> Japan] 
+
+  path: 2[110166 -> 100029], [Bangka Bangka Sunda Islands  -> South China Sea] 
+
+srcNodes: [20097, 20096, 100029]
+  path: 0[110165 -> 20086 -> 10002 -> 20097], [Batam Batam Sunda Islands  -> Indonesia -> Asia -> South Korea] 
+
+  path: 1[110165 -> 20086 -> 10002 -> 20096], [Batam Batam Sunda Islands  -> Indonesia -> Asia -> Japan] 
+
+  path: 2[110165 -> 100029], [Batam Batam Sunda Islands  -> South China Sea] 
+
+srcNodes: [20097, 20096, 100029]
+  path: 0[110152 -> 20102 -> 10002 -> 20097], [Luzon Luzon Phillipines  -> Philippines -> Asia -> South Korea] 
+
+  path: 1[110152 -> 20102 -> 10002 -> 20096], [Luzon Luzon Phillipines  -> Philippines -> Asia -> Japan] 
+
+  path: 2[110152 -> 100029], [Luzon Luzon Phillipines  -> South China Sea] 
+
+srcNodes: [20097, 20096, 100029]
+  path: 0[110150 -> 20106 -> 10002 -> 20097], [Taiwan Taiwan   -> Taiwan -> Asia -> South Korea] 
+
+  path: 1[110150 -> 20106 -> 10002 -> 20096], [Taiwan Taiwan   -> Taiwan -> Asia -> Japan] 
+
+  path: 2[110150 -> 100029], [Taiwan Taiwan   -> South China Sea] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[41256 -> 110150 -> 20106 -> 10002 -> 20074], [Kaohsiung -> Taiwan Taiwan   -> Taiwan -> Asia -> North Korea] 
+
+  path: 1[41256 -> 110150 -> 20106 -> 10002 -> 20096], [Kaohsiung -> Taiwan Taiwan   -> Taiwan -> Asia -> Japan] 
+
+  path: 2[41256 -> 100029], [Kaohsiung -> South China Sea] 
+
+-----------------------------------------
+ResultDestNodes: [20097, 20053, 20096, 20074, 10002, 110149, 20104, 20077, 20067, 20071, 20102, 20106, 20072, 20086, 20070, 20076, 20023, 20068, 20069, 90123, 110162, 110153, 110163, 110161, 110169, 110166, 110165, 110152, 110150, 41256]
+ResultRelevs: [8.023809432983398, 7.975029945373535, 7.855159759521484, 7.690289497375488, 6.959690093994141, 5.334020137786865, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.318249702453613, 4.306269645690918, 4.306269645690918, 4.2302703857421875, 4.2302703857421875, 4.2302703857421875, 4.2302703857421875, 4.2302703857421875, 4.2302703857421875, 4.2302703857421875, 4.2302703857421875, 4.2302703857421875, 4.2302703857421875, 3.784442186355591]
+Num of top-k answers: 30
+Num of redundant answers: 0
+Num of duplicate answers: 22
+Num of entries retrieved from the lists: 427
+Num of entries retrieved from NKMaps: 840
+Num of redundant candidate answers found: 118
+Num of reduced alternative answers found: 11
+[korea, japan, china]
+srcNodes: [20097, 100025, 100009]
+  path: 0[20097 -> 20097], [South Korea -> South Korea]
+  path: 1[20097 -> 100025], [South Korea -> Sea of Japan] 
+
+  path: 2[20097 -> 100009], [South Korea -> East China Sea] 
+
+srcNodes: [20074, 20096, 20053]
+  path: 0[20053 -> 10002 -> 20074], [China -> Asia -> North Korea] 
+
+  path: 1[20053 -> 10002 -> 20096], [China -> Asia -> Japan] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [20074, 100025, 20053]
+  path: 0[20074 -> 20074], [North Korea -> North Korea]
+  path: 1[20074 -> 100025], [North Korea -> Sea of Japan] 
+
+  path: 2[20074 -> 10002 -> 20053], [North Korea -> Asia -> China] 
+
+srcNodes: [20074, 20096, 100009]
+  path: 0[20096 -> 10002 -> 20074], [Japan -> Asia -> North Korea] 
+
+  path: 1[20096 -> 20096], [Japan -> Japan]
+  path: 2[20096 -> 30917 -> 100009], [Japan -> Okinawa -> East China Sea] 
+
+srcNodes: [20097, 20096, 20053]
+  path: 0[10002 -> 20097], [Asia -> South Korea] 
+
+  path: 1[10002 -> 20096], [Asia -> Japan] 
+
+  path: 2[10002 -> 20053], [Asia -> China] 
+
+srcNodes: [20097, 20096, 100009]
+  path: 0[110149 -> 20097], [Jeju Jeju  volcanic -> South Korea] 
+
+  path: 1[110149 -> 20097 -> 10002 -> 20096], [Jeju Jeju  volcanic -> South Korea -> Asia -> Japan] 
+
+  path: 2[110149 -> 100009], [Jeju Jeju  volcanic -> East China Sea] 
+
+srcNodes: [20074, 20096, 60077]
+  path: 0[20077 -> 10002 -> 20074], [Macau -> Asia -> North Korea] 
+
+  path: 1[20077 -> 10002 -> 20096], [Macau -> Asia -> Japan] 
+
+  path: 2[20077 -> 60077], [Macau -> special administrative area in China] 
+
+srcNodes: [20074, 20096, 60076]
+  path: 0[20076 -> 10002 -> 20074], [Hong Kong -> Asia -> North Korea] 
+
+  path: 1[20076 -> 10002 -> 20096], [Hong Kong -> Asia -> Japan] 
+
+  path: 2[20076 -> 60076], [Hong Kong -> special administrative area in China] 
+
+srcNodes: [20074, 20096, 100029]
+  path: 0[20104 -> 10002 -> 20074], [Singapore -> Asia -> North Korea] 
+
+  path: 1[20104 -> 10002 -> 20096], [Singapore -> Asia -> Japan] 
+
+  path: 2[20104 -> 100029], [Singapore -> South China Sea] 
+
+srcNodes: [20097, 100025, 100029]
+  path: 0[20102 -> 10002 -> 20097], [Philippines -> Asia -> South Korea] 
+
+  path: 1[20102 -> 10002 -> 20097 -> 100025], [Philippines -> Asia -> South Korea -> Sea of Japan] 
+
+  path: 2[20102 -> 100029], [Philippines -> South China Sea] 
+
+srcNodes: [20074, 100025, 100009]
+  path: 0[20106 -> 10002 -> 20074], [Taiwan -> Asia -> North Korea] 
+
+  path: 1[20106 -> 10002 -> 20097 -> 100025], [Taiwan -> Asia -> South Korea -> Sea of Japan] 
+
+  path: 2[20106 -> 100009], [Taiwan -> East China Sea] 
+
+srcNodes: [20074, 100025, 100029]
+  path: 0[20067 -> 10002 -> 20074], [Brunei -> Asia -> North Korea] 
+
+  path: 1[20067 -> 10002 -> 20097 -> 100025], [Brunei -> Asia -> South Korea -> Sea of Japan] 
+
+  path: 2[20067 -> 100029], [Brunei -> South China Sea] 
+
+srcNodes: [20097, 20096, 100029]
+  path: 0[110152 -> 20102 -> 10002 -> 20097], [Luzon Luzon Phillipines  -> Philippines -> Asia -> South Korea] 
+
+  path: 1[110152 -> 20102 -> 10002 -> 20096], [Luzon Luzon Phillipines  -> Philippines -> Asia -> Japan] 
+
+  path: 2[110152 -> 100029], [Luzon Luzon Phillipines  -> South China Sea] 
+
+srcNodes: [20074, 110144, 100029]
+  path: 0[20070 -> 10002 -> 20074], [Thailand -> Asia -> North Korea] 
+
+  path: 1[20070 -> 10002 -> 20096 -> 30871 -> 110144], [Thailand -> Asia -> Japan -> Hokkaido -> Hokkaido Hokkaido Japan volcanic] 
+
+  path: 2[20070 -> 100029], [Thailand -> South China Sea] 
+
+srcNodes: [20097, 110144, 100029]
+  path: 0[20086 -> 10002 -> 20097], [Indonesia -> Asia -> South Korea] 
+
+  path: 1[20086 -> 10002 -> 20096 -> 30871 -> 110144], [Indonesia -> Asia -> Japan -> Hokkaido -> Hokkaido Hokkaido Japan volcanic] 
+
+  path: 2[20086 -> 100029], [Indonesia -> South China Sea] 
+
+srcNodes: [20097, 100025, 20053]
+  path: 0[20072 -> 10002 -> 20097], [Vietnam -> Asia -> South Korea] 
+
+  path: 1[20072 -> 10002 -> 20097 -> 100025], [Vietnam -> Asia -> South Korea -> Sea of Japan] 
+
+  path: 2[20072 -> 10002 -> 20053], [Vietnam -> Asia -> China] 
+
+This is a non-reduced answer tree with common first node 10002
+
+srcNodes: [20074, 110144, 20053]
+  path: 0[20071 -> 10002 -> 20074], [Cambodia -> Asia -> North Korea] 
+
+  path: 1[20071 -> 10002 -> 20096 -> 30871 -> 110144], [Cambodia -> Asia -> Japan -> Hokkaido -> Hokkaido Hokkaido Japan volcanic] 
+
+  path: 2[20071 -> 10002 -> 20053], [Cambodia -> Asia -> China] 
+
+This is a non-reduced answer tree with common first node 10002
+
+srcNodes: [20097, 110147, 100029]
+  path: 0[110161 -> 20102 -> 10002 -> 20097], [Palawan Palawan Phillipines  -> Philippines -> Asia -> South Korea] 
+
+  path: 1[110161 -> 20102 -> 10002 -> 20096 -> 30905 -> 110147], [Palawan Palawan Phillipines  -> Philippines -> Asia -> Japan -> Yamaguchi -> Honshu Honshu Japan volcanic] 
+
+  path: 2[110161 -> 100029], [Palawan Palawan Phillipines  -> South China Sea] 
+
+srcNodes: [20097, 110146, 100029]
+  path: 0[90123 -> 20072 -> 10002 -> 20097], [Mekong -> Vietnam -> Asia -> South Korea] 
+
+  path: 1[90123 -> 20072 -> 10002 -> 20096 -> 30909 -> 110146], [Mekong -> Vietnam -> Asia -> Japan -> Kochi -> Shikoku Shikoku Japan volcanic] 
+
+  path: 2[90123 -> 100029], [Mekong -> South China Sea] 
+
+srcNodes: [20074, 110147, 100029]
+  path: 0[110162 -> 20104 -> 10002 -> 20074], [Singapore Singapore   -> Singapore -> Asia -> North Korea] 
+
+  path: 1[110162 -> 20104 -> 10002 -> 20096 -> 30905 -> 110147], [Singapore Singapore   -> Singapore -> Asia -> Japan -> Yamaguchi -> Honshu Honshu Japan volcanic] 
+
+  path: 2[110162 -> 100029], [Singapore Singapore   -> South China Sea] 
+
+srcNodes: [20097, 110146, 100009]
+  path: 0[110150 -> 20106 -> 10002 -> 20097], [Taiwan Taiwan   -> Taiwan -> Asia -> South Korea] 
+
+  path: 1[110150 -> 20106 -> 10002 -> 20096 -> 30909 -> 110146], [Taiwan Taiwan   -> Taiwan -> Asia -> Japan -> Kochi -> Shikoku Shikoku Japan volcanic] 
+
+  path: 2[110150 -> 100009], [Taiwan Taiwan   -> East China Sea] 
+
+srcNodes: [20074, 110146, 100029]
+  path: 0[110153 -> 20102 -> 10002 -> 20074], [Mindoro Mindoro Phillipines  -> Philippines -> Asia -> North Korea] 
+
+  path: 1[110153 -> 20102 -> 10002 -> 20096 -> 30909 -> 110146], [Mindoro Mindoro Phillipines  -> Philippines -> Asia -> Japan -> Kochi -> Shikoku Shikoku Japan volcanic] 
+
+  path: 2[110153 -> 100029], [Mindoro Mindoro Phillipines  -> South China Sea] 
+
+srcNodes: [20097, 20096, 60077]
+  path: 0[110169 -> 20086 -> 10002 -> 20097], [Borneo Borneo Sunda Islands  -> Indonesia -> Asia -> South Korea] 
+
+  path: 1[110169 -> 20086 -> 10002 -> 20096], [Borneo Borneo Sunda Islands  -> Indonesia -> Asia -> Japan] 
+
+  path: 2[110169 -> 20086 -> 10002 -> 20077 -> 60077], [Borneo Borneo Sunda Islands  -> Indonesia -> Asia -> Macau -> special administrative area in China] 
+
+This is a non-reduced answer tree with common first node 20086
+
+srcNodes: [20097, 20096, 60076]
+  path: 0[110165 -> 20086 -> 10002 -> 20097], [Batam Batam Sunda Islands  -> Indonesia -> Asia -> South Korea] 
+
+  path: 1[110165 -> 20086 -> 10002 -> 20096], [Batam Batam Sunda Islands  -> Indonesia -> Asia -> Japan] 
+
+  path: 2[110165 -> 20086 -> 10002 -> 20076 -> 60076], [Batam Batam Sunda Islands  -> Indonesia -> Asia -> Hong Kong -> special administrative area in China] 
+
+This is a non-reduced answer tree with common first node 20086
+
+srcNodes: [20097, 110147, 20053]
+  path: 0[110166 -> 20086 -> 10002 -> 20097], [Bangka Bangka Sunda Islands  -> Indonesia -> Asia -> South Korea] 
+
+  path: 1[110166 -> 20086 -> 10002 -> 20096 -> 30905 -> 110147], [Bangka Bangka Sunda Islands  -> Indonesia -> Asia -> Japan -> Yamaguchi -> Honshu Honshu Japan volcanic] 
+
+  path: 2[110166 -> 20086 -> 10002 -> 20053], [Bangka Bangka Sunda Islands  -> Indonesia -> Asia -> China] 
+
+This is a non-reduced answer tree with common first node 20086
+
+srcNodes: [20097, 110148, 20053]
+  path: 0[126 -> 20079 -> 10002 -> 20097], [Makalu Makalu Himalaya  -> Nepal -> Asia -> South Korea] 
+
+  path: 1[126 -> 20079 -> 10002 -> 20096 -> 30917 -> 110148], [Makalu Makalu Himalaya  -> Nepal -> Asia -> Japan -> Okinawa -> Okinawa Okinawa Japan volcanic] 
+
+  path: 2[126 -> 20079 -> 10002 -> 20053], [Makalu Makalu Himalaya  -> Nepal -> Asia -> China] 
+
+This is a non-reduced answer tree with common first node 20079
+
+srcNodes: [20074, 110146, 20053]
+  path: 0[90128 -> 20055 -> 10002 -> 20074], [Indus -> Pakistan -> Asia -> North Korea] 
+
+  path: 1[90128 -> 20055 -> 10002 -> 20096 -> 30909 -> 110146], [Indus -> Pakistan -> Asia -> Japan -> Kochi -> Shikoku Shikoku Japan volcanic] 
+
+  path: 2[90128 -> 20055 -> 10002 -> 20053], [Indus -> Pakistan -> Asia -> China] 
+
+This is a non-reduced answer tree with common first node 20055
+
+srcNodes: [20097, 110146, 20053]
+  path: 0[90127 -> 20063 -> 10002 -> 20097], [Brahmaputra -> Bangladesh -> Asia -> South Korea] 
+
+  path: 1[90127 -> 20063 -> 10002 -> 20096 -> 30909 -> 110146], [Brahmaputra -> Bangladesh -> Asia -> Japan -> Kochi -> Shikoku Shikoku Japan volcanic] 
+
+  path: 2[90127 -> 20063 -> 10002 -> 20053], [Brahmaputra -> Bangladesh -> Asia -> China] 
+
+This is a non-reduced answer tree with common first node 20063
+
+srcNodes: [20074, 110147, 20053]
+  path: 0[110163 -> 20086 -> 10002 -> 20074], [Sumatra Sumatra Sunda Islands  -> Indonesia -> Asia -> North Korea] 
+
+  path: 1[110163 -> 20086 -> 10002 -> 20096 -> 30905 -> 110147], [Sumatra Sumatra Sunda Islands  -> Indonesia -> Asia -> Japan -> Yamaguchi -> Honshu Honshu Japan volcanic] 
+
+  path: 2[110163 -> 20086 -> 10002 -> 20053], [Sumatra Sumatra Sunda Islands  -> Indonesia -> Asia -> China] 
+
+This is a non-reduced answer tree with common first node 20086
+
+srcNodes: [20097, 100025, 60076]
+  path: 0[10004 -> 20031 -> 10002 -> 20097], [Europe -> Turkey -> Asia -> South Korea] 
+
+  path: 1[10004 -> 20023 -> 30320 -> 100025], [Europe -> Russia -> Sakhalinskaya oblast -> Sea of Japan] 
+
+  path: 2[10004 -> 20031 -> 10002 -> 20076 -> 60076], [Europe -> Turkey -> Asia -> Hong Kong -> special administrative area in China] 
+
+-----------------------------------------
+ResultDestNodes: [20097, 20053, 20074, 20096, 10002, 110149, 20077, 20076, 20104, 20102, 20106, 20067, 110152, 20070, 20086, 20072, 20071, 110161, 90123, 110162, 110150, 110153, 110169, 110165, 110166, 126, 90128, 90127, 110163, 10004]
+ResultRelevs: [8.023809432983398, 7.975029945373535, 7.690289497375488, 7.521639823913574, 6.959690093994141, 5.253640174865723, 4.9733099937438965, 4.9733099937438965, 4.9733099937438965, 4.3302321434021, 4.3302321434021, 4.3302321434021, 4.2302703857421875, 4.137310028076172, 4.137310028076172, 3.9967119693756104, 3.8037900924682617, 3.6675760746002197, 3.6675760746002197, 3.6675760746002197, 3.6675760746002197, 3.6675760746002197, 3.029587984085083, 3.029587984085083, 2.9171559810638428, 2.9171559810638428, 2.9171559810638428, 2.9171559810638428, 2.9171559810638428, 2.7884299755096436]
+Num of top-k answers: 30
+Num of redundant answers in top-k answers: 9
+Num of duplicate answers in top-k answers: 0
+Num of entries retrieved from the lists: 814
+Num of redundant candidate answers found: 243
+Num of reduced alternative answers found: 11
+Num of duplicate candidate answers found: 64
+Num of unique alternative answers found: 35

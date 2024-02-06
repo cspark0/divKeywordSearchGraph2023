@@ -1,0 +1,912 @@
+Blink Search Using BDB 10
+[river, falls, america]
+srcNodes: [90165, 42951, 10001]
+  path: 0[10001 -> 20174 -> 90165], [America -> Uruguay -> Uruguay] 
+
+  path: 1[10001 -> 20118 -> 31029 -> 42951], [America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90141, 42532, 10001]
+  path: 0[20118 -> 31018 -> 90141], [United States -> New York -> Hudson River] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [90164, 42532, 10001]
+  path: 0[20170 -> 90164], [Bolivia -> Paraguay] 
+
+  path: 1[20170 -> 10001 -> 20118 -> 31027 -> 42532], [Bolivia -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [90165, 42532, 10001]
+  path: 0[20174 -> 90165], [Uruguay -> Uruguay] 
+
+  path: 1[20174 -> 10001 -> 20118 -> 31027 -> 42532], [Uruguay -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20174 -> 10001], [Uruguay -> America] 
+
+srcNodes: [90163, 42532, 10001]
+  path: 0[20173 -> 90163], [Paraguay -> Parana] 
+
+  path: 1[20173 -> 10001 -> 20118 -> 31027 -> 42532], [Paraguay -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20173 -> 10001], [Paraguay -> America] 
+
+srcNodes: [90163, 42951, 10001]
+  path: 0[90163 -> 90163], [Parana -> Parana]
+  path: 1[90163 -> 20173 -> 10001 -> 20118 -> 31029 -> 42951], [Parana -> Paraguay -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[90163 -> 20173 -> 10001], [Parana -> Paraguay -> America] 
+
+srcNodes: [90164, 42951, 10001]
+  path: 0[90164 -> 90164], [Paraguay -> Paraguay]
+  path: 1[90164 -> 20173 -> 10001 -> 20118 -> 31029 -> 42951], [Paraguay -> Paraguay -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[90164 -> 20173 -> 10001], [Paraguay -> Paraguay -> America] 
+
+srcNodes: [90165, 42951, 10001]
+  path: 0[90165 -> 90165], [Uruguay -> Uruguay]
+  path: 1[90165 -> 20174 -> 10001 -> 20118 -> 31029 -> 42951], [Uruguay -> Uruguay -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[90165 -> 20174 -> 10001], [Uruguay -> Uruguay -> America] 
+
+srcNodes: [90153, 42532, 10001]
+  path: 0[20121 -> 90153], [Nicaragua -> Rio San Juan] 
+
+  path: 1[20121 -> 10001 -> 20118 -> 31027 -> 42532], [Nicaragua -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [90130, 42532, 10001]
+  path: 0[20117 -> 30986 -> 90130], [Canada -> Yukon Territory -> Yukon River] 
+
+  path: 1[20117 -> 10001 -> 20118 -> 31027 -> 42532], [Canada -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20118, 20170, 20174, 20173, 90163, 90164, 90165, 20121, 20117]
+ResultRelevs: [10.41543960571289, 6.693439960479736, 6.452062606811523, 6.452062606811523, 6.452062606811523, 6.2827019691467285, 6.2827019691467285, 6.2827019691467285, 6.176612854003906, 6.113593101501465]
+Num of top-k answers: 10
+Num of non-reduced answers: 0
+Num of duplicate answers: 1
+Num of non-redundant answers: 9
+Num of entries retrieved from the lists: 366
+Num of entries retrieved from NKMaps: 455
+
+Blink Search Using ConstRootDup10
+[river, falls, america]
+srcNodes: [90165, 42532, 10001]
+  path: 0[10001 -> 20174 -> 90165], [America -> Uruguay -> Uruguay] 
+
+  path: 1[10001 -> 20118 -> 31027 -> 42532], [America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90164, 42951, 10001]
+  path: 0[10001 -> 20173 -> 90164], [America -> Paraguay -> Paraguay] 
+
+  path: 1[10001 -> 20118 -> 31029 -> 42951], [America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90164, 42532, 10001]
+  path: 0[10001 -> 20173 -> 90164], [America -> Paraguay -> Paraguay] 
+
+  path: 1[10001 -> 20118 -> 31027 -> 42532], [America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90165, 42951, 10001]
+  path: 0[10001 -> 20174 -> 90165], [America -> Uruguay -> Uruguay] 
+
+  path: 1[10001 -> 20118 -> 31029 -> 42951], [America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90135, 42951, 10001]
+  path: 0[10001 -> 20117 -> 30982 -> 90135], [America -> Canada -> Ontario -> Niagara River] 
+
+  path: 1[10001 -> 20118 -> 31029 -> 42951], [America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90141, 42532, 10001]
+  path: 0[20118 -> 31018 -> 90141], [United States -> New York -> Hudson River] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [90163, 42532, 10001]
+  path: 0[20173 -> 90163], [Paraguay -> Parana] 
+
+  path: 1[20173 -> 10001 -> 20118 -> 31027 -> 42532], [Paraguay -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20173 -> 10001], [Paraguay -> America] 
+
+srcNodes: [90164, 42532, 10001]
+  path: 0[20170 -> 90164], [Bolivia -> Paraguay] 
+
+  path: 1[20170 -> 10001 -> 20118 -> 31027 -> 42532], [Bolivia -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [90165, 42532, 10001]
+  path: 0[20174 -> 90165], [Uruguay -> Uruguay] 
+
+  path: 1[20174 -> 10001 -> 20118 -> 31027 -> 42532], [Uruguay -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20174 -> 10001], [Uruguay -> America] 
+
+srcNodes: [90164, 42951, 10001]
+  path: 0[90164 -> 90164], [Paraguay -> Paraguay]
+  path: 1[90164 -> 20173 -> 10001 -> 20118 -> 31029 -> 42951], [Paraguay -> Paraguay -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[90164 -> 20173 -> 10001], [Paraguay -> Paraguay -> America] 
+
+-----------------------------------------
+ResultDestNodes: 
+10001, 10001, 10001, 10001, 10001, 20118, 20173, 20170, 20174, 90164, 
+ResultRelevs: 
+10.41544, 10.41544, 10.41544, 10.41544, 10.276361, 6.69344, 6.4520626, 6.4520626, 6.4520626, 6.282702, 
+Num of top-k answers: 10
+Num of duplicate answers: 3
+Num of duplicate roots in top-k answers: 4
+root duplication ratio: 0.44444445
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 290
+Num of entries retrieved from NKMaps: 1548
+Num of answer trees explored: 2850
+
+Blink Search Using BDB 20
+[river, falls, america]
+srcNodes: [90165, 42951, 10001]
+  path: 0[10001 -> 20174 -> 90165], [America -> Uruguay -> Uruguay] 
+
+  path: 1[10001 -> 20118 -> 31029 -> 42951], [America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90141, 42532, 10001]
+  path: 0[20118 -> 31018 -> 90141], [United States -> New York -> Hudson River] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [90165, 42532, 10001]
+  path: 0[20174 -> 90165], [Uruguay -> Uruguay] 
+
+  path: 1[20174 -> 10001 -> 20118 -> 31027 -> 42532], [Uruguay -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20174 -> 10001], [Uruguay -> America] 
+
+srcNodes: [90163, 42532, 10001]
+  path: 0[20173 -> 90163], [Paraguay -> Parana] 
+
+  path: 1[20173 -> 10001 -> 20118 -> 31027 -> 42532], [Paraguay -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20173 -> 10001], [Paraguay -> America] 
+
+srcNodes: [90164, 42532, 10001]
+  path: 0[20170 -> 90164], [Bolivia -> Paraguay] 
+
+  path: 1[20170 -> 10001 -> 20118 -> 31027 -> 42532], [Bolivia -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [90165, 42951, 10001]
+  path: 0[90165 -> 90165], [Uruguay -> Uruguay]
+  path: 1[90165 -> 20174 -> 10001 -> 20118 -> 31029 -> 42951], [Uruguay -> Uruguay -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[90165 -> 20174 -> 10001], [Uruguay -> Uruguay -> America] 
+
+srcNodes: [90163, 42951, 10001]
+  path: 0[90163 -> 90163], [Parana -> Parana]
+  path: 1[90163 -> 20173 -> 10001 -> 20118 -> 31029 -> 42951], [Parana -> Paraguay -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[90163 -> 20173 -> 10001], [Parana -> Paraguay -> America] 
+
+srcNodes: [90164, 42951, 10001]
+  path: 0[90164 -> 90164], [Paraguay -> Paraguay]
+  path: 1[90164 -> 20173 -> 10001 -> 20118 -> 31029 -> 42951], [Paraguay -> Paraguay -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[90164 -> 20173 -> 10001], [Paraguay -> Paraguay -> America] 
+
+srcNodes: [90153, 42532, 10001]
+  path: 0[20121 -> 90153], [Nicaragua -> Rio San Juan] 
+
+  path: 1[20121 -> 10001 -> 20118 -> 31027 -> 42532], [Nicaragua -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [90130, 42532, 10001]
+  path: 0[20117 -> 30986 -> 90130], [Canada -> Yukon Territory -> Yukon River] 
+
+  path: 1[20117 -> 10001 -> 20118 -> 31027 -> 42532], [Canada -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+srcNodes: [90157, 42532, 10001]
+  path: 0[20137 -> 31102 -> 90157], [Colombia -> Amazonas -> Amazonas] 
+
+  path: 1[20137 -> 10001 -> 20118 -> 31027 -> 42532], [Colombia -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20137 -> 10001], [Colombia -> America] 
+
+srcNodes: [90163, 42532, 10001]
+  path: 0[20169 -> 31196 -> 90163], [Argentina -> Distrito Federal -> Parana] 
+
+  path: 1[20169 -> 10001 -> 20118 -> 31027 -> 42532], [Argentina -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20169 -> 10001], [Argentina -> America] 
+
+srcNodes: [90163, 42532, 10001]
+  path: 0[20114 -> 30972 -> 90163], [Mexico -> Distrito Federal -> Parana] 
+
+  path: 1[20114 -> 10001 -> 20118 -> 31027 -> 42532], [Mexico -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20114 -> 10001], [Mexico -> America] 
+
+srcNodes: [90156, 42532, 10001]
+  path: 0[20171 -> 31201 -> 90156], [Brazil -> Amazonas -> Orinoco] 
+
+  path: 1[20171 -> 10001 -> 20118 -> 31027 -> 42532], [Brazil -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20171 -> 10001], [Brazil -> America] 
+
+srcNodes: [90156, 42532, 10001]
+  path: 0[20179 -> 31270 -> 90156], [Venezuela -> Monagas -> Orinoco] 
+
+  path: 1[20179 -> 10001 -> 20118 -> 31027 -> 42532], [Venezuela -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20179 -> 10001], [Venezuela -> America] 
+
+srcNodes: [90157, 42532, 10001]
+  path: 0[20175 -> 31252 -> 90157], [Peru -> Ucayali -> Amazonas] 
+
+  path: 1[20175 -> 10001 -> 20118 -> 31027 -> 42532], [Peru -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20175 -> 10001], [Peru -> America] 
+
+srcNodes: [90153, 42532, 10001]
+  path: 0[20120 -> 31045 -> 90153], [Costa Rica -> Limon -> Rio San Juan] 
+
+  path: 1[20120 -> 10001 -> 20118 -> 31027 -> 42532], [Costa Rica -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20120 -> 10001], [Costa Rica -> America] 
+
+srcNodes: [90164, 42532, 10001]
+  path: 0[20176 -> 10001 -> 20173 -> 90164], [French Guiana -> America -> Paraguay -> Paraguay] 
+
+  path: 1[20176 -> 10001 -> 20118 -> 31027 -> 42532], [French Guiana -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20176 -> 10001], [French Guiana -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [90164, 42532, 10001]
+  path: 0[20141 -> 10001 -> 20173 -> 90164], [Saint Pierre and Miquelon -> America -> Paraguay -> Paraguay] 
+
+  path: 1[20141 -> 10001 -> 20118 -> 31027 -> 42532], [Saint Pierre and Miquelon -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20141 -> 10001], [Saint Pierre and Miquelon -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [90164, 42532, 10001]
+  path: 0[20124 -> 10001 -> 20173 -> 90164], [Dominica -> America -> Paraguay -> Paraguay] 
+
+  path: 1[20124 -> 10001 -> 20118 -> 31027 -> 42532], [Dominica -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20124 -> 10001], [Dominica -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+-----------------------------------------
+ResultDestNodes: [10001, 20118, 20174, 20173, 20170, 90165, 90163, 90164, 20121, 20117, 20137, 20169, 20114, 20171, 20179, 20175, 20120, 20176, 20141, 20124]
+ResultRelevs: [10.41543960571289, 6.693439960479736, 6.452062606811523, 6.452062606811523, 6.452062606811523, 6.2827019691467285, 6.2827019691467285, 6.2827019691467285, 6.176612854003906, 6.113593101501465, 5.9929728507995605, 5.9929728507995605, 5.9929728507995605, 5.9929728507995605, 5.9929728507995605, 5.9929728507995605, 5.8093366622924805, 5.763427734375, 5.763427734375, 5.763427734375]
+Num of top-k answers: 20
+Num of non-reduced answers: 3
+Num of duplicate answers: 9
+Num of non-redundant answers: 11
+Num of entries retrieved from the lists: 369
+Num of entries retrieved from NKMaps: 458
+
+Blink Search Using ConstRootDup20
+[river, falls, america]
+srcNodes: [90164, 42951, 10001]
+  path: 0[10001 -> 20173 -> 90164], [America -> Paraguay -> Paraguay] 
+
+  path: 1[10001 -> 20118 -> 31029 -> 42951], [America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90165, 42532, 10001]
+  path: 0[10001 -> 20174 -> 90165], [America -> Uruguay -> Uruguay] 
+
+  path: 1[10001 -> 20118 -> 31027 -> 42532], [America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90165, 42951, 10001]
+  path: 0[10001 -> 20174 -> 90165], [America -> Uruguay -> Uruguay] 
+
+  path: 1[10001 -> 20118 -> 31029 -> 42951], [America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90164, 42532, 10001]
+  path: 0[10001 -> 20173 -> 90164], [America -> Paraguay -> Paraguay] 
+
+  path: 1[10001 -> 20118 -> 31027 -> 42532], [America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90135, 42532, 10001]
+  path: 0[10001 -> 20117 -> 30982 -> 90135], [America -> Canada -> Ontario -> Niagara River] 
+
+  path: 1[10001 -> 20118 -> 31027 -> 42532], [America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90135, 42951, 10001]
+  path: 0[10001 -> 20117 -> 30982 -> 90135], [America -> Canada -> Ontario -> Niagara River] 
+
+  path: 1[10001 -> 20118 -> 31029 -> 42951], [America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90153, 42951, 10001]
+  path: 0[10001 -> 20121 -> 90153], [America -> Nicaragua -> Rio San Juan] 
+
+  path: 1[10001 -> 20118 -> 31029 -> 42951], [America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90153, 42532, 10001]
+  path: 0[10001 -> 20121 -> 90153], [America -> Nicaragua -> Rio San Juan] 
+
+  path: 1[10001 -> 20118 -> 31027 -> 42532], [America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90085, 42951, 10001]
+  path: 0[10001 -> 20118 -> 30996 -> 90085], [America -> United States -> Georgia -> Kura] 
+
+  path: 1[10001 -> 20118 -> 31029 -> 42951], [America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90085, 42532, 10001]
+  path: 0[10001 -> 20118 -> 30996 -> 90085], [America -> United States -> Georgia -> Kura] 
+
+  path: 1[10001 -> 20118 -> 31027 -> 42532], [America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90141, 42532, 10001]
+  path: 0[20118 -> 31018 -> 90141], [United States -> New York -> Hudson River] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [90164, 42532, 10001]
+  path: 0[20170 -> 90164], [Bolivia -> Paraguay] 
+
+  path: 1[20170 -> 10001 -> 20118 -> 31027 -> 42532], [Bolivia -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [90163, 42532, 10001]
+  path: 0[20173 -> 90163], [Paraguay -> Parana] 
+
+  path: 1[20173 -> 10001 -> 20118 -> 31027 -> 42532], [Paraguay -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20173 -> 10001], [Paraguay -> America] 
+
+srcNodes: [90165, 42532, 10001]
+  path: 0[20174 -> 90165], [Uruguay -> Uruguay] 
+
+  path: 1[20174 -> 10001 -> 20118 -> 31027 -> 42532], [Uruguay -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20174 -> 10001], [Uruguay -> America] 
+
+srcNodes: [90164, 42951, 10001]
+  path: 0[90164 -> 90164], [Paraguay -> Paraguay]
+  path: 1[90164 -> 20173 -> 10001 -> 20118 -> 31029 -> 42951], [Paraguay -> Paraguay -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[90164 -> 20173 -> 10001], [Paraguay -> Paraguay -> America] 
+
+srcNodes: [90165, 42951, 10001]
+  path: 0[90165 -> 90165], [Uruguay -> Uruguay]
+  path: 1[90165 -> 20174 -> 10001 -> 20118 -> 31029 -> 42951], [Uruguay -> Uruguay -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[90165 -> 20174 -> 10001], [Uruguay -> Uruguay -> America] 
+
+srcNodes: [90163, 42951, 10001]
+  path: 0[90163 -> 90163], [Parana -> Parana]
+  path: 1[90163 -> 20173 -> 10001 -> 20118 -> 31029 -> 42951], [Parana -> Paraguay -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[90163 -> 20173 -> 10001], [Parana -> Paraguay -> America] 
+
+srcNodes: [90153, 42532, 10001]
+  path: 0[20121 -> 90153], [Nicaragua -> Rio San Juan] 
+
+  path: 1[20121 -> 10001 -> 20118 -> 31027 -> 42532], [Nicaragua -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [90130, 42532, 10001]
+  path: 0[20117 -> 30986 -> 90130], [Canada -> Yukon Territory -> Yukon River] 
+
+  path: 1[20117 -> 10001 -> 20118 -> 31027 -> 42532], [Canada -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+srcNodes: [90163, 42532, 10001]
+  path: 0[20169 -> 31196 -> 90163], [Argentina -> Distrito Federal -> Parana] 
+
+  path: 1[20169 -> 10001 -> 20118 -> 31027 -> 42532], [Argentina -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20169 -> 10001], [Argentina -> America] 
+
+-----------------------------------------
+ResultDestNodes: 
+10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 20118, 20170, 20173, 20174, 90164, 90165, 90163, 20121, 20117, 20169, 
+ResultRelevs: 
+10.41544, 10.41544, 10.41544, 10.41544, 10.276361, 10.276361, 10.231804, 10.231804, 10.185895, 10.185895, 6.69344, 6.4520626, 6.4520626, 6.4520626, 6.282702, 6.282702, 6.282702, 6.176613, 6.113593, 5.992973, 
+Num of top-k answers: 20
+Num of duplicate answers: 6
+Num of duplicate roots in top-k answers: 9
+root duplication ratio: 0.47368422
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 369
+Num of entries retrieved from NKMaps: 1915
+Num of answer trees explored: 3600
+
+Blink Search Using BDB 30
+[river, falls, america]
+srcNodes: [90165, 42951, 10001]
+  path: 0[10001 -> 20174 -> 90165], [America -> Uruguay -> Uruguay] 
+
+  path: 1[10001 -> 20118 -> 31029 -> 42951], [America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90141, 42532, 10001]
+  path: 0[20118 -> 31018 -> 90141], [United States -> New York -> Hudson River] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [90164, 42532, 10001]
+  path: 0[20170 -> 90164], [Bolivia -> Paraguay] 
+
+  path: 1[20170 -> 10001 -> 20118 -> 31027 -> 42532], [Bolivia -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [90163, 42532, 10001]
+  path: 0[20173 -> 90163], [Paraguay -> Parana] 
+
+  path: 1[20173 -> 10001 -> 20118 -> 31027 -> 42532], [Paraguay -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20173 -> 10001], [Paraguay -> America] 
+
+srcNodes: [90165, 42532, 10001]
+  path: 0[20174 -> 90165], [Uruguay -> Uruguay] 
+
+  path: 1[20174 -> 10001 -> 20118 -> 31027 -> 42532], [Uruguay -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20174 -> 10001], [Uruguay -> America] 
+
+srcNodes: [90164, 42951, 10001]
+  path: 0[90164 -> 90164], [Paraguay -> Paraguay]
+  path: 1[90164 -> 20173 -> 10001 -> 20118 -> 31029 -> 42951], [Paraguay -> Paraguay -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[90164 -> 20173 -> 10001], [Paraguay -> Paraguay -> America] 
+
+srcNodes: [90163, 42951, 10001]
+  path: 0[90163 -> 90163], [Parana -> Parana]
+  path: 1[90163 -> 20173 -> 10001 -> 20118 -> 31029 -> 42951], [Parana -> Paraguay -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[90163 -> 20173 -> 10001], [Parana -> Paraguay -> America] 
+
+srcNodes: [90165, 42951, 10001]
+  path: 0[90165 -> 90165], [Uruguay -> Uruguay]
+  path: 1[90165 -> 20174 -> 10001 -> 20118 -> 31029 -> 42951], [Uruguay -> Uruguay -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[90165 -> 20174 -> 10001], [Uruguay -> Uruguay -> America] 
+
+srcNodes: [90153, 42532, 10001]
+  path: 0[20121 -> 90153], [Nicaragua -> Rio San Juan] 
+
+  path: 1[20121 -> 10001 -> 20118 -> 31027 -> 42532], [Nicaragua -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [90130, 42532, 10001]
+  path: 0[20117 -> 30986 -> 90130], [Canada -> Yukon Territory -> Yukon River] 
+
+  path: 1[20117 -> 10001 -> 20118 -> 31027 -> 42532], [Canada -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+srcNodes: [90156, 42532, 10001]
+  path: 0[20171 -> 31201 -> 90156], [Brazil -> Amazonas -> Orinoco] 
+
+  path: 1[20171 -> 10001 -> 20118 -> 31027 -> 42532], [Brazil -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20171 -> 10001], [Brazil -> America] 
+
+srcNodes: [90163, 42532, 10001]
+  path: 0[20169 -> 31196 -> 90163], [Argentina -> Distrito Federal -> Parana] 
+
+  path: 1[20169 -> 10001 -> 20118 -> 31027 -> 42532], [Argentina -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20169 -> 10001], [Argentina -> America] 
+
+srcNodes: [90157, 42532, 10001]
+  path: 0[20137 -> 31102 -> 90157], [Colombia -> Amazonas -> Amazonas] 
+
+  path: 1[20137 -> 10001 -> 20118 -> 31027 -> 42532], [Colombia -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20137 -> 10001], [Colombia -> America] 
+
+srcNodes: [90163, 42532, 10001]
+  path: 0[20114 -> 30972 -> 90163], [Mexico -> Distrito Federal -> Parana] 
+
+  path: 1[20114 -> 10001 -> 20118 -> 31027 -> 42532], [Mexico -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20114 -> 10001], [Mexico -> America] 
+
+srcNodes: [90156, 42532, 10001]
+  path: 0[20179 -> 31270 -> 90156], [Venezuela -> Monagas -> Orinoco] 
+
+  path: 1[20179 -> 10001 -> 20118 -> 31027 -> 42532], [Venezuela -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20179 -> 10001], [Venezuela -> America] 
+
+srcNodes: [90157, 42532, 10001]
+  path: 0[20175 -> 31252 -> 90157], [Peru -> Ucayali -> Amazonas] 
+
+  path: 1[20175 -> 10001 -> 20118 -> 31027 -> 42532], [Peru -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20175 -> 10001], [Peru -> America] 
+
+srcNodes: [90153, 42532, 10001]
+  path: 0[20120 -> 31045 -> 90153], [Costa Rica -> Limon -> Rio San Juan] 
+
+  path: 1[20120 -> 10001 -> 20118 -> 31027 -> 42532], [Costa Rica -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20120 -> 10001], [Costa Rica -> America] 
+
+srcNodes: [90164, 42532, 10001]
+  path: 0[20176 -> 10001 -> 20173 -> 90164], [French Guiana -> America -> Paraguay -> Paraguay] 
+
+  path: 1[20176 -> 10001 -> 20118 -> 31027 -> 42532], [French Guiana -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20176 -> 10001], [French Guiana -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [90164, 42532, 10001]
+  path: 0[20181 -> 10001 -> 20173 -> 90164], [Falkland Islands -> America -> Paraguay -> Paraguay] 
+
+  path: 1[20181 -> 10001 -> 20118 -> 31027 -> 42532], [Falkland Islands -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20181 -> 10001], [Falkland Islands -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [90164, 42532, 10001]
+  path: 0[20141 -> 10001 -> 20173 -> 90164], [Saint Pierre and Miquelon -> America -> Paraguay -> Paraguay] 
+
+  path: 1[20141 -> 10001 -> 20118 -> 31027 -> 42532], [Saint Pierre and Miquelon -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20141 -> 10001], [Saint Pierre and Miquelon -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [90164, 42532, 10001]
+  path: 0[20124 -> 10001 -> 20173 -> 90164], [Dominica -> America -> Paraguay -> Paraguay] 
+
+  path: 1[20124 -> 10001 -> 20118 -> 31027 -> 42532], [Dominica -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20124 -> 10001], [Dominica -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [90164, 42532, 10001]
+  path: 0[20144 -> 10001 -> 20173 -> 90164], [Turks and Caicos Islands -> America -> Paraguay -> Paraguay] 
+
+  path: 1[20144 -> 10001 -> 20118 -> 31027 -> 42532], [Turks and Caicos Islands -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20144 -> 10001], [Turks and Caicos Islands -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [90164, 42532, 10001]
+  path: 0[20145 -> 10001 -> 20173 -> 90164], [Virgin Islands -> America -> Paraguay -> Paraguay] 
+
+  path: 1[20145 -> 10001 -> 20118 -> 31027 -> 42532], [Virgin Islands -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20145 -> 10001], [Virgin Islands -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [90164, 42532, 10001]
+  path: 0[20125 -> 10001 -> 20173 -> 90164], [Dominican Republic -> America -> Paraguay -> Paraguay] 
+
+  path: 1[20125 -> 10001 -> 20118 -> 31027 -> 42532], [Dominican Republic -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20125 -> 10001], [Dominican Republic -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [90164, 42532, 10001]
+  path: 0[20143 -> 10001 -> 20173 -> 90164], [Trinidad and Tobago -> America -> Paraguay -> Paraguay] 
+
+  path: 1[20143 -> 10001 -> 20118 -> 31027 -> 42532], [Trinidad and Tobago -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20143 -> 10001], [Trinidad and Tobago -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [90164, 42532, 10001]
+  path: 0[20142 -> 10001 -> 20173 -> 90164], [Saint Vincent and the Grenadines -> America -> Paraguay -> Paraguay] 
+
+  path: 1[20142 -> 10001 -> 20118 -> 31027 -> 42532], [Saint Vincent and the Grenadines -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20142 -> 10001], [Saint Vincent and the Grenadines -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [90164, 42532, 10001]
+  path: 0[20119 -> 10001 -> 20173 -> 90164], [Cayman Islands -> America -> Paraguay -> Paraguay] 
+
+  path: 1[20119 -> 10001 -> 20118 -> 31027 -> 42532], [Cayman Islands -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20119 -> 10001], [Cayman Islands -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [90164, 42532, 10001]
+  path: 0[20180 -> 10001 -> 20173 -> 90164], [Ecuador -> America -> Paraguay -> Paraguay] 
+
+  path: 1[20180 -> 10001 -> 20118 -> 31027 -> 42532], [Ecuador -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20180 -> 10001], [Ecuador -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [90164, 42532, 10001]
+  path: 0[20126 -> 10001 -> 20173 -> 90164], [Haiti -> America -> Paraguay -> Paraguay] 
+
+  path: 1[20126 -> 10001 -> 20118 -> 31027 -> 42532], [Haiti -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20126 -> 10001], [Haiti -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [90164, 42532, 10001]
+  path: 0[20172 -> 10001 -> 20173 -> 90164], [Chile -> America -> Paraguay -> Paraguay] 
+
+  path: 1[20172 -> 10001 -> 20118 -> 31027 -> 42532], [Chile -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20172 -> 10001], [Chile -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+-----------------------------------------
+ResultDestNodes: [10001, 20118, 20170, 20173, 20174, 90164, 90163, 90165, 20121, 20117, 20171, 20169, 20137, 20114, 20179, 20175, 20120, 20176, 20181, 20141, 20124, 20144, 20145, 20125, 20143, 20142, 20119, 20180, 20126, 20172]
+ResultRelevs: [10.41543960571289, 6.693439960479736, 6.452062606811523, 6.452062606811523, 6.452062606811523, 6.2827019691467285, 6.2827019691467285, 6.2827019691467285, 6.176612854003906, 6.113593101501465, 5.9929728507995605, 5.9929728507995605, 5.9929728507995605, 5.9929728507995605, 5.9929728507995605, 5.9929728507995605, 5.8093366622924805, 5.763427734375, 5.763427734375, 5.763427734375, 5.763427734375, 5.763427734375, 5.763427734375, 5.763427734375, 5.763427734375, 5.763427734375, 5.763427734375, 5.763427734375, 5.763427734375, 5.763427734375]
+Num of top-k answers: 30
+Num of non-reduced answers: 13
+Num of duplicate answers: 19
+Num of non-redundant answers: 11
+Num of entries retrieved from the lists: 369
+Num of entries retrieved from NKMaps: 458
+
+Blink Search Using ConstRootDup30
+[river, falls, america]
+srcNodes: [90165, 42532, 10001]
+  path: 0[10001 -> 20174 -> 90165], [America -> Uruguay -> Uruguay] 
+
+  path: 1[10001 -> 20118 -> 31027 -> 42532], [America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90165, 42951, 10001]
+  path: 0[10001 -> 20174 -> 90165], [America -> Uruguay -> Uruguay] 
+
+  path: 1[10001 -> 20118 -> 31029 -> 42951], [America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90164, 42532, 10001]
+  path: 0[10001 -> 20173 -> 90164], [America -> Paraguay -> Paraguay] 
+
+  path: 1[10001 -> 20118 -> 31027 -> 42532], [America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90164, 42951, 10001]
+  path: 0[10001 -> 20173 -> 90164], [America -> Paraguay -> Paraguay] 
+
+  path: 1[10001 -> 20118 -> 31029 -> 42951], [America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90135, 42532, 10001]
+  path: 0[10001 -> 20117 -> 30982 -> 90135], [America -> Canada -> Ontario -> Niagara River] 
+
+  path: 1[10001 -> 20118 -> 31027 -> 42532], [America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90135, 42951, 10001]
+  path: 0[10001 -> 20117 -> 30982 -> 90135], [America -> Canada -> Ontario -> Niagara River] 
+
+  path: 1[10001 -> 20118 -> 31029 -> 42951], [America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90153, 42532, 10001]
+  path: 0[10001 -> 20121 -> 90153], [America -> Nicaragua -> Rio San Juan] 
+
+  path: 1[10001 -> 20118 -> 31027 -> 42532], [America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90153, 42951, 10001]
+  path: 0[10001 -> 20121 -> 90153], [America -> Nicaragua -> Rio San Juan] 
+
+  path: 1[10001 -> 20118 -> 31029 -> 42951], [America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90085, 42532, 10001]
+  path: 0[10001 -> 20118 -> 30996 -> 90085], [America -> United States -> Georgia -> Kura] 
+
+  path: 1[10001 -> 20118 -> 31027 -> 42532], [America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90085, 42951, 10001]
+  path: 0[10001 -> 20118 -> 30996 -> 90085], [America -> United States -> Georgia -> Kura] 
+
+  path: 1[10001 -> 20118 -> 31029 -> 42951], [America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [90141, 42951, 10001]
+  path: 0[20118 -> 31018 -> 90141], [United States -> New York -> Hudson River] 
+
+  path: 1[20118 -> 31029 -> 42951], [United States -> Texas -> Wichita Falls] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [90140, 42951, 10001]
+  path: 0[20118 -> 31031 -> 90140], [United States -> Vermont -> Connecticut River] 
+
+  path: 1[20118 -> 31029 -> 42951], [United States -> Texas -> Wichita Falls] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [90140, 42532, 10001]
+  path: 0[20118 -> 31031 -> 90140], [United States -> Vermont -> Connecticut River] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [90141, 42532, 10001]
+  path: 0[20118 -> 31018 -> 90141], [United States -> New York -> Hudson River] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [90142, 42951, 10001]
+  path: 0[20118 -> 31035 -> 90142], [United States -> Wisconsin -> Mississippi] 
+
+  path: 1[20118 -> 31029 -> 42951], [United States -> Texas -> Wichita Falls] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [90142, 42532, 10001]
+  path: 0[20118 -> 31035 -> 90142], [United States -> Wisconsin -> Mississippi] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [90164, 42532, 10001]
+  path: 0[20170 -> 90164], [Bolivia -> Paraguay] 
+
+  path: 1[20170 -> 10001 -> 20118 -> 31027 -> 42532], [Bolivia -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [90165, 42532, 10001]
+  path: 0[20174 -> 90165], [Uruguay -> Uruguay] 
+
+  path: 1[20174 -> 10001 -> 20118 -> 31027 -> 42532], [Uruguay -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20174 -> 10001], [Uruguay -> America] 
+
+srcNodes: [90163, 42532, 10001]
+  path: 0[20173 -> 90163], [Paraguay -> Parana] 
+
+  path: 1[20173 -> 10001 -> 20118 -> 31027 -> 42532], [Paraguay -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20173 -> 10001], [Paraguay -> America] 
+
+srcNodes: [90165, 42951, 10001]
+  path: 0[90165 -> 90165], [Uruguay -> Uruguay]
+  path: 1[90165 -> 20174 -> 10001 -> 20118 -> 31029 -> 42951], [Uruguay -> Uruguay -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[90165 -> 20174 -> 10001], [Uruguay -> Uruguay -> America] 
+
+srcNodes: [90164, 42951, 10001]
+  path: 0[90164 -> 90164], [Paraguay -> Paraguay]
+  path: 1[90164 -> 20173 -> 10001 -> 20118 -> 31029 -> 42951], [Paraguay -> Paraguay -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[90164 -> 20173 -> 10001], [Paraguay -> Paraguay -> America] 
+
+srcNodes: [90163, 42951, 10001]
+  path: 0[90163 -> 90163], [Parana -> Parana]
+  path: 1[90163 -> 20173 -> 10001 -> 20118 -> 31029 -> 42951], [Parana -> Paraguay -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[90163 -> 20173 -> 10001], [Parana -> Paraguay -> America] 
+
+srcNodes: [90153, 42532, 10001]
+  path: 0[20121 -> 90153], [Nicaragua -> Rio San Juan] 
+
+  path: 1[20121 -> 10001 -> 20118 -> 31027 -> 42532], [Nicaragua -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [90130, 42532, 10001]
+  path: 0[20117 -> 30986 -> 90130], [Canada -> Yukon Territory -> Yukon River] 
+
+  path: 1[20117 -> 10001 -> 20118 -> 31027 -> 42532], [Canada -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+srcNodes: [90157, 42532, 10001]
+  path: 0[20137 -> 31102 -> 90157], [Colombia -> Amazonas -> Amazonas] 
+
+  path: 1[20137 -> 10001 -> 20118 -> 31027 -> 42532], [Colombia -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20137 -> 10001], [Colombia -> America] 
+
+srcNodes: [90163, 42532, 10001]
+  path: 0[20114 -> 30972 -> 90163], [Mexico -> Distrito Federal -> Parana] 
+
+  path: 1[20114 -> 10001 -> 20118 -> 31027 -> 42532], [Mexico -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20114 -> 10001], [Mexico -> America] 
+
+srcNodes: [90156, 42532, 10001]
+  path: 0[20179 -> 31270 -> 90156], [Venezuela -> Monagas -> Orinoco] 
+
+  path: 1[20179 -> 10001 -> 20118 -> 31027 -> 42532], [Venezuela -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20179 -> 10001], [Venezuela -> America] 
+
+srcNodes: [90157, 42532, 10001]
+  path: 0[20175 -> 31252 -> 90157], [Peru -> Ucayali -> Amazonas] 
+
+  path: 1[20175 -> 10001 -> 20118 -> 31027 -> 42532], [Peru -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20175 -> 10001], [Peru -> America] 
+
+srcNodes: [90165, 42532, 10001]
+  path: 0[20169 -> 31185 -> 90165], [Argentina -> Misiones -> Uruguay] 
+
+  path: 1[20169 -> 10001 -> 20118 -> 31027 -> 42532], [Argentina -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20169 -> 10001], [Argentina -> America] 
+
+srcNodes: [90156, 42532, 10001]
+  path: 0[20171 -> 31201 -> 90156], [Brazil -> Amazonas -> Orinoco] 
+
+  path: 1[20171 -> 10001 -> 20118 -> 31027 -> 42532], [Brazil -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20171 -> 10001], [Brazil -> America] 
+
+-----------------------------------------
+ResultDestNodes: 
+10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 20118, 20118, 20118, 20118, 20118, 20118, 20170, 20174, 20173, 90165, 90164, 90163, 20121, 20117, 20137, 20114, 20179, 20175, 20169, 20171, 
+ResultRelevs: 
+10.41544, 10.41544, 10.41544, 10.41544, 10.276361, 10.276361, 10.231804, 10.231804, 10.185895, 10.185895, 6.69344, 6.69344, 6.69344, 6.69344, 6.5728197, 6.5728197, 6.4520626, 6.4520626, 6.4520626, 6.282702, 6.282702, 6.282702, 6.176613, 6.113593, 5.992973, 5.992973, 5.992973, 5.992973, 5.992973, 5.992973, 
+Num of top-k answers: 30
+Num of duplicate answers: 9
+Num of duplicate roots in top-k answers: 14
+root duplication ratio: 0.4827586
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 369
+Num of entries retrieved from NKMaps: 1915
+Num of answer trees explored: 3600
+

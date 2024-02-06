@@ -1,0 +1,2938 @@
+query: [disaster, sacrifice, hero]
+Top-k Search by Blink-BDB, k=4
+[disaster, sacrifice, hero]
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[1330956 -> 1330956], [Disaster! (2006) -> Disaster! (2006)]
+  path: 1[1330956 -> 2240326 -> 1763648 -> 2242199 -> 1806449], [Disaster! (2006) -> Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[1330956 -> 2240326 -> 112029 -> 2001445 -> 1747558], [Disaster! (2006) -> Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1680609 -> 2065348 -> 1782878 -> 2240326 -> 1330956], [Sacrifice (2011/I) -> Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1680609 -> 1680609], [Sacrifice (2011/I) -> Sacrifice (2011/I)]
+  path: 2[1680609 -> 2127977 -> 1423271], [Sacrifice (2011/I) -> Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2127977 -> 1630220 -> 2240326 -> 1330956], [Gooding Jr., Cuba -> Pearl Harbor (2001) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2127977 -> 1680609], [Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[2127977 -> 1423271], [Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2065348 -> 1782878 -> 2240326 -> 1330956], [Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2065348 -> 1680609], [Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[2065348 -> 1423271], [Coates, Kim -> Hero Wanted (2008)] 
+
+-----------------------------------------
+Num of top-k answers: 4
+ResultDestNodes: [1330956, 1680609, 2127977, 2065348]
+ResultRelevs: [7.624281883239746, 7.562954902648926, 7.480304718017578, 7.480304718017578]
+AvgResultRelev: 7.536961555480957
+AvgResultDissimilarity: 0.3333333333333333
+Num of entries retrieved from the lists: 611
+Num of entries retrieved from NKMaps: 897
+Num of answer trees explored: 273
+
+Div Top-k Search by Exhustive, k=4
+[disaster, sacrifice, hero]
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[1330956 -> 1330956], [Disaster! (2006) -> Disaster! (2006)]
+  path: 1[1330956 -> 2240326 -> 1763648 -> 2242199 -> 1806449], [Disaster! (2006) -> Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[1330956 -> 2240326 -> 112029 -> 2001445 -> 1747558], [Disaster! (2006) -> Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1680609 -> 2065348 -> 1782878 -> 2240326 -> 1330956], [Sacrifice (2011/I) -> Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1680609 -> 1680609], [Sacrifice (2011/I) -> Sacrifice (2011/I)]
+  path: 2[1680609 -> 2127977 -> 1423271], [Sacrifice (2011/I) -> Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2065348 -> 1782878 -> 2240326 -> 1330956], [Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2065348 -> 1680609], [Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[2065348 -> 1423271], [Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330948, 1806449, 1423248]
+  path: 0[1330948 -> 1330948], [Disaster Movie (2008) -> Disaster Movie (2008)]
+  path: 1[1330948 -> 2072180 -> 1779601 -> 2289409 -> 1806449], [Disaster Movie (2008) -> Cox, Tony (I) -> The Hebrew Hammer (2003) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1330948 -> 2141400 -> 1532726 -> 2438526 -> 1423248], [Disaster Movie (2008) -> Harpster, Noah -> Little Black Book (2004) -> Nicholson, Julianne -> Hero (2000)] 
+
+-----------------------------------------
+ResultDestNodes: [1330956, 1680609, 2065348, 1330948]
+ResultRelevs: [7.624281883239746, 7.562954902648926, 7.480304718017578, 6.831882953643799]
+AvgResultRelev: 7.374856114387512
+AvgResultDissimilarity: 0.6666666666666666
+Num of entries retrieved from the KNLists: 1642
+Num of entries retrieved from NKMaps: 2732
+Num of answer trees explored: 1031
+Num of answer tree sets created: 51
+Num of answer tree sets removed: 60
+
+Div Top-k Search by Astar02, k=4
+[disaster, sacrifice, hero]
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[1330956 -> 1330956], [Disaster! (2006) -> Disaster! (2006)]
+  path: 1[1330956 -> 2240326 -> 1763648 -> 2242199 -> 1806449], [Disaster! (2006) -> Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[1330956 -> 2240326 -> 112029 -> 2001445 -> 1747558], [Disaster! (2006) -> Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1680609 -> 2065348 -> 1782878 -> 2240326 -> 1330956], [Sacrifice (2011/I) -> Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1680609 -> 1680609], [Sacrifice (2011/I) -> Sacrifice (2011/I)]
+  path: 2[1680609 -> 2127977 -> 1423271], [Sacrifice (2011/I) -> Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2127977 -> 1630220 -> 2240326 -> 1330956], [Gooding Jr., Cuba -> Pearl Harbor (2001) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2127977 -> 1680609], [Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[2127977 -> 1423271], [Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330948, 1806449, 1423248]
+  path: 0[1330948 -> 1330948], [Disaster Movie (2008) -> Disaster Movie (2008)]
+  path: 1[1330948 -> 2072180 -> 1779601 -> 2289409 -> 1806449], [Disaster Movie (2008) -> Cox, Tony (I) -> The Hebrew Hammer (2003) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1330948 -> 2141400 -> 1532726 -> 2438526 -> 1423248], [Disaster Movie (2008) -> Harpster, Noah -> Little Black Book (2004) -> Nicholson, Julianne -> Hero (2000)] 
+
+-----------------------------------------
+ResultDestNodes: [1330956, 1680609, 2127977, 1330948]
+ResultRelevs: [7.624281883239746, 7.562954902648926, 7.480304718017578, 6.831882953643799]
+AvgResultRelev: 7.374856114387512
+AvgResultDissimilarity: 0.6666666666666666
+Num of entries retrieved from the KNLists: 1642
+Num of entries retrieved from NKMaps: 2732
+Num of answer trees explored: 1031
+Num of states created: 69
+Num of states explored: 50
+Num of heuristic search performed: 3
+
+Div Top-k Search by Astar1nc_ap, k=4
+[disaster, sacrifice, hero]
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[1330956 -> 1330956], [Disaster! (2006) -> Disaster! (2006)]
+  path: 1[1330956 -> 2240326 -> 1763648 -> 2242199 -> 1806449], [Disaster! (2006) -> Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[1330956 -> 2240326 -> 112029 -> 2001445 -> 1747558], [Disaster! (2006) -> Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1680609 -> 2065348 -> 1782878 -> 2240326 -> 1330956], [Sacrifice (2011/I) -> Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1680609 -> 1680609], [Sacrifice (2011/I) -> Sacrifice (2011/I)]
+  path: 2[1680609 -> 2127977 -> 1423271], [Sacrifice (2011/I) -> Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2065348 -> 1782878 -> 2240326 -> 1330956], [Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2065348 -> 1680609], [Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[2065348 -> 1423271], [Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330948, 1806449, 1423248]
+  path: 0[1330948 -> 1330948], [Disaster Movie (2008) -> Disaster Movie (2008)]
+  path: 1[1330948 -> 2072180 -> 1779601 -> 2289409 -> 1806449], [Disaster Movie (2008) -> Cox, Tony (I) -> The Hebrew Hammer (2003) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1330948 -> 2141400 -> 1532726 -> 2438526 -> 1423248], [Disaster Movie (2008) -> Harpster, Noah -> Little Black Book (2004) -> Nicholson, Julianne -> Hero (2000)] 
+
+-----------------------------------------
+ResultDestNodes: [1330956, 1680609, 2065348, 1330948]
+ResultRelevs: [7.624281883239746, 7.562954902648926, 7.480304718017578, 6.831882953643799]
+AvgResultRelev: 7.374856114387512
+AvgResultDissimilarity: 0.6666666666666666
+Num of entries retrieved from the KNLists: 1642
+Num of entries retrieved from NKMaps: 2732
+Num of answer trees explored: 1031
+Num of states created: 26
+Num of states explored: 16
+Num of heuristic search performed: 3
+
+Top-k Search by Blink-BDB, k=8
+[disaster, sacrifice, hero]
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[1330956 -> 1330956], [Disaster! (2006) -> Disaster! (2006)]
+  path: 1[1330956 -> 2240326 -> 1763648 -> 2242199 -> 1806449], [Disaster! (2006) -> Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[1330956 -> 2240326 -> 112029 -> 2001445 -> 1747558], [Disaster! (2006) -> Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1680609 -> 2065348 -> 1782878 -> 2240326 -> 1330956], [Sacrifice (2011/I) -> Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1680609 -> 1680609], [Sacrifice (2011/I) -> Sacrifice (2011/I)]
+  path: 2[1680609 -> 2127977 -> 1423271], [Sacrifice (2011/I) -> Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2065348 -> 1782878 -> 2240326 -> 1330956], [Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2065348 -> 1680609], [Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[2065348 -> 1423271], [Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2127977 -> 1630220 -> 2240326 -> 1330956], [Gooding Jr., Cuba -> Pearl Harbor (2001) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2127977 -> 1680609], [Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[2127977 -> 1423271], [Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1423271 -> 2324634 -> 1796034 -> 2197237 -> 1330956], [Hero Wanted (2008) -> Campbell, Christa -> The New Guy (2002) -> Lee, Tommy (VI) -> Disaster! (2006)] 
+
+  path: 1[1423271 -> 2127977 -> 1680609], [Hero Wanted (2008) -> Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[1423271 -> 1423271], [Hero Wanted (2008) -> Hero Wanted (2008)]
+srcNodes: [1330948, 1806449, 1423248]
+  path: 0[1330948 -> 1330948], [Disaster Movie (2008) -> Disaster Movie (2008)]
+  path: 1[1330948 -> 2072180 -> 1779601 -> 2289409 -> 1806449], [Disaster Movie (2008) -> Cox, Tony (I) -> The Hebrew Hammer (2003) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1330948 -> 2141400 -> 1532726 -> 2438526 -> 1423248], [Disaster Movie (2008) -> Harpster, Noah -> Little Black Book (2004) -> Nicholson, Julianne -> Hero (2000)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1782878 -> 2240326 -> 1330956], [The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1782878 -> 2065348 -> 1680609], [The Island (2005) -> Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[1782878 -> 2065348 -> 1423271], [The Island (2005) -> Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1245871 -> 2240326 -> 1330956], [Black Hawk Down (2001) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1245871 -> 2065348 -> 1680609], [Black Hawk Down (2001) -> Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[1245871 -> 2065348 -> 1423271], [Black Hawk Down (2001) -> Coates, Kim -> Hero Wanted (2008)] 
+
+-----------------------------------------
+Num of top-k answers: 8
+ResultDestNodes: [1330956, 1680609, 2065348, 2127977, 1423271, 1330948, 1782878, 1245871]
+ResultRelevs: [7.624281883239746, 7.562954902648926, 7.480304718017578, 7.480304718017578, 7.326974868774414, 6.831882953643799, 6.7923078536987305, 6.7923078536987305]
+AvgResultRelev: 7.236414968967438
+AvgResultDissimilarity: 0.38095238095238093
+Num of entries retrieved from the lists: 1642
+Num of entries retrieved from NKMaps: 2732
+Num of answer trees explored: 1031
+
+Div Top-k Search by Exhustive, k=8
+[disaster, sacrifice, hero]
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[1330956 -> 1330956], [Disaster! (2006) -> Disaster! (2006)]
+  path: 1[1330956 -> 2240326 -> 1763648 -> 2242199 -> 1806449], [Disaster! (2006) -> Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[1330956 -> 2240326 -> 112029 -> 2001445 -> 1747558], [Disaster! (2006) -> Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1680609 -> 2065348 -> 1782878 -> 2240326 -> 1330956], [Sacrifice (2011/I) -> Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1680609 -> 1680609], [Sacrifice (2011/I) -> Sacrifice (2011/I)]
+  path: 2[1680609 -> 2127977 -> 1423271], [Sacrifice (2011/I) -> Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2065348 -> 1782878 -> 2240326 -> 1330956], [Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2065348 -> 1680609], [Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[2065348 -> 1423271], [Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2127977 -> 1630220 -> 2240326 -> 1330956], [Gooding Jr., Cuba -> Pearl Harbor (2001) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2127977 -> 1680609], [Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[2127977 -> 1423271], [Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1423271 -> 2324634 -> 1796034 -> 2197237 -> 1330956], [Hero Wanted (2008) -> Campbell, Christa -> The New Guy (2002) -> Lee, Tommy (VI) -> Disaster! (2006)] 
+
+  path: 1[1423271 -> 2127977 -> 1680609], [Hero Wanted (2008) -> Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[1423271 -> 1423271], [Hero Wanted (2008) -> Hero Wanted (2008)]
+srcNodes: [1330948, 1806449, 1423248]
+  path: 0[1330948 -> 1330948], [Disaster Movie (2008) -> Disaster Movie (2008)]
+  path: 1[1330948 -> 2072180 -> 1779601 -> 2289409 -> 1806449], [Disaster Movie (2008) -> Cox, Tony (I) -> The Hebrew Hammer (2003) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1330948 -> 2141400 -> 1532726 -> 2438526 -> 1423248], [Disaster Movie (2008) -> Harpster, Noah -> Little Black Book (2004) -> Nicholson, Julianne -> Hero (2000)] 
+
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[2240326 -> 1330956], [Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2240326 -> 1763648 -> 2242199 -> 1806449], [Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[2240326 -> 112029 -> 2001445 -> 1747558], [Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1806449, 1365881]
+  path: 0[1806449 -> 2242199 -> 1763648 -> 2240326 -> 1330956], [The Sacrifice (2008/I) -> Mulkey, Chris (I) -> The Commission (2003) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1806449 -> 1806449], [The Sacrifice (2008/I) -> The Sacrifice (2008/I)]
+  path: 2[1806449 -> 2455767 -> 1870425 -> 2146007 -> 1365881], [The Sacrifice (2008/I) -> Quinn, Molly C. -> Walk Hard: The Dewey Cox Story (2007) -> Helms, Ed (I) -> Everyone's Hero (2006)] 
+
+-----------------------------------------
+ResultDestNodes: [1330956, 1680609, 2065348, 2127977, 1423271, 1330948, 2240326, 1806449]
+ResultRelevs: [7.624281883239746, 7.562954902648926, 7.480304718017578, 7.480304718017578, 7.326974868774414, 6.831882953643799, 6.7687883377075195, 6.766260147094727]
+AvgResultRelev: 7.230219066143036
+AvgResultDissimilarity: 0.5238095351627895
+Num of entries retrieved from the KNLists: 2508
+Num of entries retrieved from NKMaps: 4267
+Num of answer trees explored: 1681
+Num of answer tree sets created: 3111
+Num of answer tree sets removed: 6602
+
+Div Top-k Search by Astar02, k=8
+[disaster, sacrifice, hero]
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[1330956 -> 1330956], [Disaster! (2006) -> Disaster! (2006)]
+  path: 1[1330956 -> 2240326 -> 1763648 -> 2242199 -> 1806449], [Disaster! (2006) -> Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[1330956 -> 2240326 -> 112029 -> 2001445 -> 1747558], [Disaster! (2006) -> Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1680609 -> 2065348 -> 1782878 -> 2240326 -> 1330956], [Sacrifice (2011/I) -> Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1680609 -> 1680609], [Sacrifice (2011/I) -> Sacrifice (2011/I)]
+  path: 2[1680609 -> 2127977 -> 1423271], [Sacrifice (2011/I) -> Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2065348 -> 1782878 -> 2240326 -> 1330956], [Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2065348 -> 1680609], [Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[2065348 -> 1423271], [Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2127977 -> 1630220 -> 2240326 -> 1330956], [Gooding Jr., Cuba -> Pearl Harbor (2001) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2127977 -> 1680609], [Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[2127977 -> 1423271], [Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1423271 -> 2324634 -> 1796034 -> 2197237 -> 1330956], [Hero Wanted (2008) -> Campbell, Christa -> The New Guy (2002) -> Lee, Tommy (VI) -> Disaster! (2006)] 
+
+  path: 1[1423271 -> 2127977 -> 1680609], [Hero Wanted (2008) -> Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[1423271 -> 1423271], [Hero Wanted (2008) -> Hero Wanted (2008)]
+srcNodes: [1330948, 1806449, 1423248]
+  path: 0[1330948 -> 1330948], [Disaster Movie (2008) -> Disaster Movie (2008)]
+  path: 1[1330948 -> 2072180 -> 1779601 -> 2289409 -> 1806449], [Disaster Movie (2008) -> Cox, Tony (I) -> The Hebrew Hammer (2003) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1330948 -> 2141400 -> 1532726 -> 2438526 -> 1423248], [Disaster Movie (2008) -> Harpster, Noah -> Little Black Book (2004) -> Nicholson, Julianne -> Hero (2000)] 
+
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[2240326 -> 1330956], [Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2240326 -> 1763648 -> 2242199 -> 1806449], [Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[2240326 -> 112029 -> 2001445 -> 1747558], [Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1806449, 1365881]
+  path: 0[1806449 -> 2242199 -> 1763648 -> 2240326 -> 1330956], [The Sacrifice (2008/I) -> Mulkey, Chris (I) -> The Commission (2003) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1806449 -> 1806449], [The Sacrifice (2008/I) -> The Sacrifice (2008/I)]
+  path: 2[1806449 -> 2455767 -> 1870425 -> 2146007 -> 1365881], [The Sacrifice (2008/I) -> Quinn, Molly C. -> Walk Hard: The Dewey Cox Story (2007) -> Helms, Ed (I) -> Everyone's Hero (2006)] 
+
+-----------------------------------------
+ResultDestNodes: [1330956, 1680609, 2065348, 2127977, 1423271, 1330948, 2240326, 1806449]
+ResultRelevs: [7.624281883239746, 7.562954902648926, 7.480304718017578, 7.480304718017578, 7.326974868774414, 6.831882953643799, 6.7687883377075195, 6.766260147094727]
+AvgResultRelev: 7.230219066143036
+AvgResultDissimilarity: 0.5238095238095236
+Num of entries retrieved from the KNLists: 2508
+Num of entries retrieved from NKMaps: 4267
+Num of answer trees explored: 1681
+Num of states created: 3320
+Num of states explored: 3268
+Num of heuristic search performed: 6
+
+Div Top-k Search by Astar1nc_ap, k=8
+[disaster, sacrifice, hero]
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[1330956 -> 1330956], [Disaster! (2006) -> Disaster! (2006)]
+  path: 1[1330956 -> 2240326 -> 1763648 -> 2242199 -> 1806449], [Disaster! (2006) -> Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[1330956 -> 2240326 -> 112029 -> 2001445 -> 1747558], [Disaster! (2006) -> Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1680609 -> 2065348 -> 1782878 -> 2240326 -> 1330956], [Sacrifice (2011/I) -> Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1680609 -> 1680609], [Sacrifice (2011/I) -> Sacrifice (2011/I)]
+  path: 2[1680609 -> 2127977 -> 1423271], [Sacrifice (2011/I) -> Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2065348 -> 1782878 -> 2240326 -> 1330956], [Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2065348 -> 1680609], [Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[2065348 -> 1423271], [Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2127977 -> 1630220 -> 2240326 -> 1330956], [Gooding Jr., Cuba -> Pearl Harbor (2001) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2127977 -> 1680609], [Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[2127977 -> 1423271], [Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1423271 -> 2324634 -> 1796034 -> 2197237 -> 1330956], [Hero Wanted (2008) -> Campbell, Christa -> The New Guy (2002) -> Lee, Tommy (VI) -> Disaster! (2006)] 
+
+  path: 1[1423271 -> 2127977 -> 1680609], [Hero Wanted (2008) -> Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[1423271 -> 1423271], [Hero Wanted (2008) -> Hero Wanted (2008)]
+srcNodes: [1330948, 1806449, 1423248]
+  path: 0[1330948 -> 1330948], [Disaster Movie (2008) -> Disaster Movie (2008)]
+  path: 1[1330948 -> 2072180 -> 1779601 -> 2289409 -> 1806449], [Disaster Movie (2008) -> Cox, Tony (I) -> The Hebrew Hammer (2003) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1330948 -> 2141400 -> 1532726 -> 2438526 -> 1423248], [Disaster Movie (2008) -> Harpster, Noah -> Little Black Book (2004) -> Nicholson, Julianne -> Hero (2000)] 
+
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[2240326 -> 1330956], [Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2240326 -> 1763648 -> 2242199 -> 1806449], [Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[2240326 -> 112029 -> 2001445 -> 1747558], [Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1806449, 1365881]
+  path: 0[1806449 -> 2242199 -> 1763648 -> 2240326 -> 1330956], [The Sacrifice (2008/I) -> Mulkey, Chris (I) -> The Commission (2003) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1806449 -> 1806449], [The Sacrifice (2008/I) -> The Sacrifice (2008/I)]
+  path: 2[1806449 -> 2455767 -> 1870425 -> 2146007 -> 1365881], [The Sacrifice (2008/I) -> Quinn, Molly C. -> Walk Hard: The Dewey Cox Story (2007) -> Helms, Ed (I) -> Everyone's Hero (2006)] 
+
+-----------------------------------------
+ResultDestNodes: [1330956, 1680609, 2065348, 2127977, 1423271, 1330948, 2240326, 1806449]
+ResultRelevs: [7.624281883239746, 7.562954902648926, 7.480304718017578, 7.480304718017578, 7.326974868774414, 6.831882953643799, 6.7687883377075195, 6.766260147094727]
+AvgResultRelev: 7.230219066143036
+AvgResultDissimilarity: 0.5238095238095236
+Num of entries retrieved from the KNLists: 2508
+Num of entries retrieved from NKMaps: 4267
+Num of answer trees explored: 1681
+Num of states created: 124
+Num of states explored: 48
+Num of heuristic search performed: 6
+
+Top-k Search by Blink-BDB, k=12
+[disaster, sacrifice, hero]
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[1330956 -> 1330956], [Disaster! (2006) -> Disaster! (2006)]
+  path: 1[1330956 -> 2240326 -> 1763648 -> 2242199 -> 1806449], [Disaster! (2006) -> Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[1330956 -> 2240326 -> 112029 -> 2001445 -> 1747558], [Disaster! (2006) -> Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1680609 -> 2065348 -> 1782878 -> 2240326 -> 1330956], [Sacrifice (2011/I) -> Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1680609 -> 1680609], [Sacrifice (2011/I) -> Sacrifice (2011/I)]
+  path: 2[1680609 -> 2127977 -> 1423271], [Sacrifice (2011/I) -> Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2065348 -> 1782878 -> 2240326 -> 1330956], [Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2065348 -> 1680609], [Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[2065348 -> 1423271], [Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2127977 -> 1630220 -> 2240326 -> 1330956], [Gooding Jr., Cuba -> Pearl Harbor (2001) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2127977 -> 1680609], [Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[2127977 -> 1423271], [Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1423271 -> 2324634 -> 1796034 -> 2197237 -> 1330956], [Hero Wanted (2008) -> Campbell, Christa -> The New Guy (2002) -> Lee, Tommy (VI) -> Disaster! (2006)] 
+
+  path: 1[1423271 -> 2127977 -> 1680609], [Hero Wanted (2008) -> Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[1423271 -> 1423271], [Hero Wanted (2008) -> Hero Wanted (2008)]
+srcNodes: [1330948, 1806449, 1423248]
+  path: 0[1330948 -> 1330948], [Disaster Movie (2008) -> Disaster Movie (2008)]
+  path: 1[1330948 -> 2072180 -> 1779601 -> 2289409 -> 1806449], [Disaster Movie (2008) -> Cox, Tony (I) -> The Hebrew Hammer (2003) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1330948 -> 2141400 -> 1532726 -> 2438526 -> 1423248], [Disaster Movie (2008) -> Harpster, Noah -> Little Black Book (2004) -> Nicholson, Julianne -> Hero (2000)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1782878 -> 2240326 -> 1330956], [The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1782878 -> 2065348 -> 1680609], [The Island (2005) -> Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[1782878 -> 2065348 -> 1423271], [The Island (2005) -> Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1245871 -> 2240326 -> 1330956], [Black Hawk Down (2001) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1245871 -> 2065348 -> 1680609], [Black Hawk Down (2001) -> Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[1245871 -> 2065348 -> 1423271], [Black Hawk Down (2001) -> Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1432780 -> 2240326 -> 1330956], [Hostage (2005/I) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1432780 -> 2065348 -> 1680609], [Hostage (2005/I) -> Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[1432780 -> 2065348 -> 1423271], [Hostage (2005/I) -> Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1630220 -> 2240326 -> 1330956], [Pearl Harbor (2001) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1630220 -> 2127977 -> 1680609], [Pearl Harbor (2001) -> Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[1630220 -> 2127977 -> 1423271], [Pearl Harbor (2001) -> Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[2240326 -> 1330956], [Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2240326 -> 1763648 -> 2242199 -> 1806449], [Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[2240326 -> 112029 -> 2001445 -> 1747558], [Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1806449, 1365881]
+  path: 0[1806449 -> 2242199 -> 1763648 -> 2240326 -> 1330956], [The Sacrifice (2008/I) -> Mulkey, Chris (I) -> The Commission (2003) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1806449 -> 1806449], [The Sacrifice (2008/I) -> The Sacrifice (2008/I)]
+  path: 2[1806449 -> 2455767 -> 1870425 -> 2146007 -> 1365881], [The Sacrifice (2008/I) -> Quinn, Molly C. -> Walk Hard: The Dewey Cox Story (2007) -> Helms, Ed (I) -> Everyone's Hero (2006)] 
+
+-----------------------------------------
+Num of top-k answers: 12
+ResultDestNodes: [1330956, 1680609, 2065348, 2127977, 1423271, 1330948, 1782878, 1245871, 1432780, 1630220, 2240326, 1806449]
+ResultRelevs: [7.624281883239746, 7.562954902648926, 7.480304718017578, 7.480304718017578, 7.326974868774414, 6.831882953643799, 6.7923078536987305, 6.7923078536987305, 6.7923078536987305, 6.7923078536987305, 6.7687883377075195, 6.766260147094727]
+AvgResultRelev: 7.084248661994934
+AvgResultDissimilarity: 0.4040404040404042
+Num of entries retrieved from the lists: 1669
+Num of entries retrieved from NKMaps: 2774
+Num of answer trees explored: 1047
+
+Div Top-k Search by Exhustive, k=12
+[disaster, sacrifice, hero]
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[1330956 -> 1330956], [Disaster! (2006) -> Disaster! (2006)]
+  path: 1[1330956 -> 2240326 -> 1763648 -> 2242199 -> 1806449], [Disaster! (2006) -> Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[1330956 -> 2240326 -> 112029 -> 2001445 -> 1747558], [Disaster! (2006) -> Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1680609 -> 2065348 -> 1782878 -> 2240326 -> 1330956], [Sacrifice (2011/I) -> Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1680609 -> 1680609], [Sacrifice (2011/I) -> Sacrifice (2011/I)]
+  path: 2[1680609 -> 2127977 -> 1423271], [Sacrifice (2011/I) -> Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2065348 -> 1782878 -> 2240326 -> 1330956], [Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2065348 -> 1680609], [Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[2065348 -> 1423271], [Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2127977 -> 1630220 -> 2240326 -> 1330956], [Gooding Jr., Cuba -> Pearl Harbor (2001) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2127977 -> 1680609], [Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[2127977 -> 1423271], [Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1423271 -> 2324634 -> 1796034 -> 2197237 -> 1330956], [Hero Wanted (2008) -> Campbell, Christa -> The New Guy (2002) -> Lee, Tommy (VI) -> Disaster! (2006)] 
+
+  path: 1[1423271 -> 2127977 -> 1680609], [Hero Wanted (2008) -> Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[1423271 -> 1423271], [Hero Wanted (2008) -> Hero Wanted (2008)]
+srcNodes: [1330948, 1806449, 1423248]
+  path: 0[1330948 -> 1330948], [Disaster Movie (2008) -> Disaster Movie (2008)]
+  path: 1[1330948 -> 2072180 -> 1779601 -> 2289409 -> 1806449], [Disaster Movie (2008) -> Cox, Tony (I) -> The Hebrew Hammer (2003) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1330948 -> 2141400 -> 1532726 -> 2438526 -> 1423248], [Disaster Movie (2008) -> Harpster, Noah -> Little Black Book (2004) -> Nicholson, Julianne -> Hero (2000)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1245871 -> 2240326 -> 1330956], [Black Hawk Down (2001) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1245871 -> 2065348 -> 1680609], [Black Hawk Down (2001) -> Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[1245871 -> 2065348 -> 1423271], [Black Hawk Down (2001) -> Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1782878 -> 2240326 -> 1330956], [The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1782878 -> 2065348 -> 1680609], [The Island (2005) -> Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[1782878 -> 2065348 -> 1423271], [The Island (2005) -> Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1432780 -> 2240326 -> 1330956], [Hostage (2005/I) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1432780 -> 2065348 -> 1680609], [Hostage (2005/I) -> Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[1432780 -> 2065348 -> 1423271], [Hostage (2005/I) -> Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[2240326 -> 1330956], [Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2240326 -> 1763648 -> 2242199 -> 1806449], [Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[2240326 -> 112029 -> 2001445 -> 1747558], [Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1806449, 1365881]
+  path: 0[1806449 -> 2242199 -> 1763648 -> 2240326 -> 1330956], [The Sacrifice (2008/I) -> Mulkey, Chris (I) -> The Commission (2003) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1806449 -> 1806449], [The Sacrifice (2008/I) -> The Sacrifice (2008/I)]
+  path: 2[1806449 -> 2455767 -> 1870425 -> 2146007 -> 1365881], [The Sacrifice (2008/I) -> Quinn, Molly C. -> Walk Hard: The Dewey Cox Story (2007) -> Helms, Ed (I) -> Everyone's Hero (2006)] 
+
+srcNodes: [8026594, 1806449, 1794812]
+  path: 0[1794812 -> 2485327 -> 1645693 -> 8026594], [The Movie Hero (2003) -> Strassman, Marcia -> Power Play (2003) -> disaster,energy,power] 
+
+  path: 1[1794812 -> 2365787 -> 1584828 -> 2289409 -> 1806449], [The Movie Hero (2003) -> Gibbs, Reedy -> Mysterious Skin (2004) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1794812 -> 1794812], [The Movie Hero (2003) -> The Movie Hero (2003)]
+-----------------------------------------
+ResultDestNodes: [1330956, 1680609, 2065348, 2127977, 1423271, 1330948, 1245871, 1782878, 1432780, 2240326, 1806449, 1794812]
+ResultRelevs: [7.624281883239746, 7.562954902648926, 7.480304718017578, 7.480304718017578, 7.326974868774414, 6.831882953643799, 6.7923078536987305, 6.7923078536987305, 6.7923078536987305, 6.7687883377075195, 6.766260147094727, 6.51259183883667]
+AvgResultRelev: 7.060938994089763
+AvgResultDissimilarity: 0.5050505435828007
+Num of entries retrieved from the KNLists: 2508
+Num of entries retrieved from NKMaps: 4267
+Num of answer trees explored: 1681
+Num of answer tree sets created: 16307
+Num of answer tree sets removed: 16381
+
+Div Top-k Search by Astar02, k=12
+[disaster, sacrifice, hero]
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[1330956 -> 1330956], [Disaster! (2006) -> Disaster! (2006)]
+  path: 1[1330956 -> 2240326 -> 1763648 -> 2242199 -> 1806449], [Disaster! (2006) -> Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[1330956 -> 2240326 -> 112029 -> 2001445 -> 1747558], [Disaster! (2006) -> Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1680609 -> 2065348 -> 1782878 -> 2240326 -> 1330956], [Sacrifice (2011/I) -> Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1680609 -> 1680609], [Sacrifice (2011/I) -> Sacrifice (2011/I)]
+  path: 2[1680609 -> 2127977 -> 1423271], [Sacrifice (2011/I) -> Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2065348 -> 1782878 -> 2240326 -> 1330956], [Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2065348 -> 1680609], [Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[2065348 -> 1423271], [Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2127977 -> 1630220 -> 2240326 -> 1330956], [Gooding Jr., Cuba -> Pearl Harbor (2001) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2127977 -> 1680609], [Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[2127977 -> 1423271], [Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1423271 -> 2324634 -> 1796034 -> 2197237 -> 1330956], [Hero Wanted (2008) -> Campbell, Christa -> The New Guy (2002) -> Lee, Tommy (VI) -> Disaster! (2006)] 
+
+  path: 1[1423271 -> 2127977 -> 1680609], [Hero Wanted (2008) -> Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[1423271 -> 1423271], [Hero Wanted (2008) -> Hero Wanted (2008)]
+srcNodes: [1330948, 1806449, 1423248]
+  path: 0[1330948 -> 1330948], [Disaster Movie (2008) -> Disaster Movie (2008)]
+  path: 1[1330948 -> 2072180 -> 1779601 -> 2289409 -> 1806449], [Disaster Movie (2008) -> Cox, Tony (I) -> The Hebrew Hammer (2003) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1330948 -> 2141400 -> 1532726 -> 2438526 -> 1423248], [Disaster Movie (2008) -> Harpster, Noah -> Little Black Book (2004) -> Nicholson, Julianne -> Hero (2000)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1245871 -> 2240326 -> 1330956], [Black Hawk Down (2001) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1245871 -> 2065348 -> 1680609], [Black Hawk Down (2001) -> Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[1245871 -> 2065348 -> 1423271], [Black Hawk Down (2001) -> Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1782878 -> 2240326 -> 1330956], [The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1782878 -> 2065348 -> 1680609], [The Island (2005) -> Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[1782878 -> 2065348 -> 1423271], [The Island (2005) -> Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1432780 -> 2240326 -> 1330956], [Hostage (2005/I) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1432780 -> 2065348 -> 1680609], [Hostage (2005/I) -> Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[1432780 -> 2065348 -> 1423271], [Hostage (2005/I) -> Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[2240326 -> 1330956], [Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2240326 -> 1763648 -> 2242199 -> 1806449], [Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[2240326 -> 112029 -> 2001445 -> 1747558], [Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1806449, 1365881]
+  path: 0[1806449 -> 2242199 -> 1763648 -> 2240326 -> 1330956], [The Sacrifice (2008/I) -> Mulkey, Chris (I) -> The Commission (2003) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1806449 -> 1806449], [The Sacrifice (2008/I) -> The Sacrifice (2008/I)]
+  path: 2[1806449 -> 2455767 -> 1870425 -> 2146007 -> 1365881], [The Sacrifice (2008/I) -> Quinn, Molly C. -> Walk Hard: The Dewey Cox Story (2007) -> Helms, Ed (I) -> Everyone's Hero (2006)] 
+
+srcNodes: [8026594, 1806449, 1794812]
+  path: 0[1794812 -> 2485327 -> 1645693 -> 8026594], [The Movie Hero (2003) -> Strassman, Marcia -> Power Play (2003) -> disaster,energy,power] 
+
+  path: 1[1794812 -> 2365787 -> 1584828 -> 2289409 -> 1806449], [The Movie Hero (2003) -> Gibbs, Reedy -> Mysterious Skin (2004) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1794812 -> 1794812], [The Movie Hero (2003) -> The Movie Hero (2003)]
+-----------------------------------------
+ResultDestNodes: [1330956, 1680609, 2065348, 2127977, 1423271, 1330948, 1245871, 1782878, 1432780, 2240326, 1806449, 1794812]
+ResultRelevs: [7.624281883239746, 7.562954902648926, 7.480304718017578, 7.480304718017578, 7.326974868774414, 6.831882953643799, 6.7923078536987305, 6.7923078536987305, 6.7923078536987305, 6.7687883377075195, 6.766260147094727, 6.51259183883667]
+AvgResultRelev: 7.060938994089763
+AvgResultDissimilarity: 0.5050505050505051
+Num of entries retrieved from the KNLists: 2508
+Num of entries retrieved from NKMaps: 4267
+Num of answer trees explored: 1681
+Num of states created: 12398
+Num of states explored: 12268
+Num of heuristic search performed: 3
+
+Div Top-k Search by Astar1nc_ap, k=12
+[disaster, sacrifice, hero]
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[1330956 -> 1330956], [Disaster! (2006) -> Disaster! (2006)]
+  path: 1[1330956 -> 2240326 -> 1763648 -> 2242199 -> 1806449], [Disaster! (2006) -> Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[1330956 -> 2240326 -> 112029 -> 2001445 -> 1747558], [Disaster! (2006) -> Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1680609 -> 2065348 -> 1782878 -> 2240326 -> 1330956], [Sacrifice (2011/I) -> Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1680609 -> 1680609], [Sacrifice (2011/I) -> Sacrifice (2011/I)]
+  path: 2[1680609 -> 2127977 -> 1423271], [Sacrifice (2011/I) -> Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2065348 -> 1782878 -> 2240326 -> 1330956], [Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2065348 -> 1680609], [Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[2065348 -> 1423271], [Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2127977 -> 1630220 -> 2240326 -> 1330956], [Gooding Jr., Cuba -> Pearl Harbor (2001) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2127977 -> 1680609], [Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[2127977 -> 1423271], [Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1423271 -> 2324634 -> 1796034 -> 2197237 -> 1330956], [Hero Wanted (2008) -> Campbell, Christa -> The New Guy (2002) -> Lee, Tommy (VI) -> Disaster! (2006)] 
+
+  path: 1[1423271 -> 2127977 -> 1680609], [Hero Wanted (2008) -> Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[1423271 -> 1423271], [Hero Wanted (2008) -> Hero Wanted (2008)]
+srcNodes: [1330948, 1806449, 1423248]
+  path: 0[1330948 -> 1330948], [Disaster Movie (2008) -> Disaster Movie (2008)]
+  path: 1[1330948 -> 2072180 -> 1779601 -> 2289409 -> 1806449], [Disaster Movie (2008) -> Cox, Tony (I) -> The Hebrew Hammer (2003) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1330948 -> 2141400 -> 1532726 -> 2438526 -> 1423248], [Disaster Movie (2008) -> Harpster, Noah -> Little Black Book (2004) -> Nicholson, Julianne -> Hero (2000)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1245871 -> 2240326 -> 1330956], [Black Hawk Down (2001) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1245871 -> 2065348 -> 1680609], [Black Hawk Down (2001) -> Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[1245871 -> 2065348 -> 1423271], [Black Hawk Down (2001) -> Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1782878 -> 2240326 -> 1330956], [The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1782878 -> 2065348 -> 1680609], [The Island (2005) -> Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[1782878 -> 2065348 -> 1423271], [The Island (2005) -> Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1432780 -> 2240326 -> 1330956], [Hostage (2005/I) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1432780 -> 2065348 -> 1680609], [Hostage (2005/I) -> Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[1432780 -> 2065348 -> 1423271], [Hostage (2005/I) -> Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[2240326 -> 1330956], [Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2240326 -> 1763648 -> 2242199 -> 1806449], [Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[2240326 -> 112029 -> 2001445 -> 1747558], [Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1806449, 1365881]
+  path: 0[1806449 -> 2242199 -> 1763648 -> 2240326 -> 1330956], [The Sacrifice (2008/I) -> Mulkey, Chris (I) -> The Commission (2003) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1806449 -> 1806449], [The Sacrifice (2008/I) -> The Sacrifice (2008/I)]
+  path: 2[1806449 -> 2455767 -> 1870425 -> 2146007 -> 1365881], [The Sacrifice (2008/I) -> Quinn, Molly C. -> Walk Hard: The Dewey Cox Story (2007) -> Helms, Ed (I) -> Everyone's Hero (2006)] 
+
+srcNodes: [8026594, 1806449, 1794812]
+  path: 0[1794812 -> 2485327 -> 1645693 -> 8026594], [The Movie Hero (2003) -> Strassman, Marcia -> Power Play (2003) -> disaster,energy,power] 
+
+  path: 1[1794812 -> 2365787 -> 1584828 -> 2289409 -> 1806449], [The Movie Hero (2003) -> Gibbs, Reedy -> Mysterious Skin (2004) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1794812 -> 1794812], [The Movie Hero (2003) -> The Movie Hero (2003)]
+-----------------------------------------
+ResultDestNodes: [1330956, 1680609, 2065348, 2127977, 1423271, 1330948, 1245871, 1782878, 1432780, 2240326, 1806449, 1794812]
+ResultRelevs: [7.624281883239746, 7.562954902648926, 7.480304718017578, 7.480304718017578, 7.326974868774414, 6.831882953643799, 6.7923078536987305, 6.7923078536987305, 6.7923078536987305, 6.7687883377075195, 6.766260147094727, 6.51259183883667]
+AvgResultRelev: 7.060938994089763
+AvgResultDissimilarity: 0.5050505050505051
+Num of entries retrieved from the KNLists: 2508
+Num of entries retrieved from NKMaps: 4267
+Num of answer trees explored: 1681
+Num of states created: 93
+Num of states explored: 57
+Num of heuristic search performed: 3
+
+query: [epic, history, war]
+Top-k Search by Blink-BDB, k=4
+[epic, history, war]
+srcNodes: [8018522, 5003808, 5003808]
+  path: 0[1481810 -> 8018522], [Khunsuk (2003) -> epic] 
+
+  path: 1[1481810 -> 5003808], [Khunsuk (2003) -> Action,History,War] 
+
+  path: 2[1481810 -> 5003808], [Khunsuk (2003) -> Action,History,War] 
+
+srcNodes: [8018522, 5000177, 1871383]
+  path: 0[1871383 -> 2270422 -> 1755436 -> 8018522], [War (2007) -> Phan, Johnson -> The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[1871383 -> 2200906 -> 1467044 -> 5000177], [War (2007) -> Li, Jet -> Jian guo da ye (2009) -> Drama,History] 
+
+  path: 2[1871383 -> 1871383], [War (2007) -> War (2007)]
+srcNodes: [8018522, 5000065, 5000194]
+  path: 0[1198220 -> 2249272 -> 1481810 -> 8018522], [Alexander (2004) -> Ngamdee, Jaran -> Khunsuk (2003) -> epic] 
+
+  path: 1[1198220 -> 2033659 -> 1478934 -> 5000065], [Alexander (2004) -> Blessed, Brian -> Katherine of Alexandria (2011) -> History] 
+
+  path: 2[1198220 -> 2175478 -> 1871457 -> 5000194], [Alexander (2004) -> Kebbell, Toby -> War Horse (2011) -> War] 
+
+srcNodes: [8010264, 5000065, 5000194]
+  path: 0[1324058 -> 8010264], [Didgori: Land of Sacrificed Knights (2009) -> battle,blacksmith,castle,christianity,cross,epic,georgia,holy-grail,mystic,spear-of-destiny,student-film,sword-fight,templar-knight] 
+
+  path: 1[1324058 -> 5000065], [Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[1324058 -> 4024162 -> 1396839 -> 5000194], [Didgori: Land of Sacrificed Knights (2009) -> Khomasuridze, Nikoloz -> Georgian: Warrior of Honor (2011) -> War] 
+
+-----------------------------------------
+Num of top-k answers: 4
+ResultDestNodes: [1481810, 1871383, 1198220, 1324058]
+ResultRelevs: [10.394692420959473, 8.878751754760742, 8.498119354248047, 8.493865966796875]
+AvgResultRelev: 9.066357374191284
+AvgResultDissimilarity: 0.7000000000000001
+Num of entries retrieved from the lists: 2928
+Num of entries retrieved from NKMaps: 4734
+Num of answer trees explored: 1802
+
+Div Top-k Search by Exhustive, k=4
+[epic, history, war]
+srcNodes: [8018522, 5003808, 5003808]
+  path: 0[1481810 -> 8018522], [Khunsuk (2003) -> epic] 
+
+  path: 1[1481810 -> 5003808], [Khunsuk (2003) -> Action,History,War] 
+
+  path: 2[1481810 -> 5003808], [Khunsuk (2003) -> Action,History,War] 
+
+srcNodes: [8018522, 5000177, 1871383]
+  path: 0[1871383 -> 2270422 -> 1755436 -> 8018522], [War (2007) -> Phan, Johnson -> The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[1871383 -> 2200906 -> 1467044 -> 5000177], [War (2007) -> Li, Jet -> Jian guo da ye (2009) -> Drama,History] 
+
+  path: 2[1871383 -> 1871383], [War (2007) -> War (2007)]
+srcNodes: [8018522, 5000065, 5000194]
+  path: 0[1198220 -> 2249272 -> 1481810 -> 8018522], [Alexander (2004) -> Ngamdee, Jaran -> Khunsuk (2003) -> epic] 
+
+  path: 1[1198220 -> 2033659 -> 1478934 -> 5000065], [Alexander (2004) -> Blessed, Brian -> Katherine of Alexandria (2011) -> History] 
+
+  path: 2[1198220 -> 2175478 -> 1871457 -> 5000194], [Alexander (2004) -> Kebbell, Toby -> War Horse (2011) -> War] 
+
+srcNodes: [8010264, 5000065, 5000194]
+  path: 0[1324058 -> 8010264], [Didgori: Land of Sacrificed Knights (2009) -> battle,blacksmith,castle,christianity,cross,epic,georgia,holy-grail,mystic,spear-of-destiny,student-film,sword-fight,templar-knight] 
+
+  path: 1[1324058 -> 5000065], [Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[1324058 -> 4024162 -> 1396839 -> 5000194], [Didgori: Land of Sacrificed Knights (2009) -> Khomasuridze, Nikoloz -> Georgian: Warrior of Honor (2011) -> War] 
+
+-----------------------------------------
+ResultDestNodes: [1481810, 1871383, 1198220, 1324058]
+ResultRelevs: [10.394692420959473, 8.878751754760742, 8.498119354248047, 8.493865966796875]
+AvgResultRelev: 9.066357374191284
+AvgResultDissimilarity: 0.6999999682108561
+Num of entries retrieved from the KNLists: 2928
+Num of entries retrieved from NKMaps: 4734
+Num of answer trees explored: 1802
+Num of answer tree sets created: 15
+Num of answer tree sets removed: 12
+
+Div Top-k Search by Astar02, k=4
+[epic, history, war]
+srcNodes: [8018522, 5003808, 5003808]
+  path: 0[1481810 -> 8018522], [Khunsuk (2003) -> epic] 
+
+  path: 1[1481810 -> 5003808], [Khunsuk (2003) -> Action,History,War] 
+
+  path: 2[1481810 -> 5003808], [Khunsuk (2003) -> Action,History,War] 
+
+srcNodes: [8018522, 5000177, 1871383]
+  path: 0[1871383 -> 2270422 -> 1755436 -> 8018522], [War (2007) -> Phan, Johnson -> The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[1871383 -> 2200906 -> 1467044 -> 5000177], [War (2007) -> Li, Jet -> Jian guo da ye (2009) -> Drama,History] 
+
+  path: 2[1871383 -> 1871383], [War (2007) -> War (2007)]
+srcNodes: [8018522, 5000065, 5000194]
+  path: 0[1198220 -> 2249272 -> 1481810 -> 8018522], [Alexander (2004) -> Ngamdee, Jaran -> Khunsuk (2003) -> epic] 
+
+  path: 1[1198220 -> 2033659 -> 1478934 -> 5000065], [Alexander (2004) -> Blessed, Brian -> Katherine of Alexandria (2011) -> History] 
+
+  path: 2[1198220 -> 2175478 -> 1871457 -> 5000194], [Alexander (2004) -> Kebbell, Toby -> War Horse (2011) -> War] 
+
+srcNodes: [8010264, 5000065, 5000194]
+  path: 0[1324058 -> 8010264], [Didgori: Land of Sacrificed Knights (2009) -> battle,blacksmith,castle,christianity,cross,epic,georgia,holy-grail,mystic,spear-of-destiny,student-film,sword-fight,templar-knight] 
+
+  path: 1[1324058 -> 5000065], [Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[1324058 -> 4024162 -> 1396839 -> 5000194], [Didgori: Land of Sacrificed Knights (2009) -> Khomasuridze, Nikoloz -> Georgian: Warrior of Honor (2011) -> War] 
+
+-----------------------------------------
+ResultDestNodes: [1481810, 1871383, 1198220, 1324058]
+ResultRelevs: [10.394692420959473, 8.878751754760742, 8.498119354248047, 8.493865966796875]
+AvgResultRelev: 9.066357374191284
+AvgResultDissimilarity: 0.7000000000000001
+Num of entries retrieved from the KNLists: 2928
+Num of entries retrieved from NKMaps: 4734
+Num of answer trees explored: 1802
+Num of states created: 11
+Num of states explored: 5
+Num of heuristic search performed: 1
+
+Div Top-k Search by Astar1nc_ap, k=4
+[epic, history, war]
+srcNodes: [8018522, 5003808, 5003808]
+  path: 0[1481810 -> 8018522], [Khunsuk (2003) -> epic] 
+
+  path: 1[1481810 -> 5003808], [Khunsuk (2003) -> Action,History,War] 
+
+  path: 2[1481810 -> 5003808], [Khunsuk (2003) -> Action,History,War] 
+
+srcNodes: [8018522, 5000177, 1871383]
+  path: 0[1871383 -> 2270422 -> 1755436 -> 8018522], [War (2007) -> Phan, Johnson -> The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[1871383 -> 2200906 -> 1467044 -> 5000177], [War (2007) -> Li, Jet -> Jian guo da ye (2009) -> Drama,History] 
+
+  path: 2[1871383 -> 1871383], [War (2007) -> War (2007)]
+srcNodes: [8018522, 5000065, 5000194]
+  path: 0[1198220 -> 2249272 -> 1481810 -> 8018522], [Alexander (2004) -> Ngamdee, Jaran -> Khunsuk (2003) -> epic] 
+
+  path: 1[1198220 -> 2033659 -> 1478934 -> 5000065], [Alexander (2004) -> Blessed, Brian -> Katherine of Alexandria (2011) -> History] 
+
+  path: 2[1198220 -> 2175478 -> 1871457 -> 5000194], [Alexander (2004) -> Kebbell, Toby -> War Horse (2011) -> War] 
+
+srcNodes: [8010264, 5000065, 5000194]
+  path: 0[1324058 -> 8010264], [Didgori: Land of Sacrificed Knights (2009) -> battle,blacksmith,castle,christianity,cross,epic,georgia,holy-grail,mystic,spear-of-destiny,student-film,sword-fight,templar-knight] 
+
+  path: 1[1324058 -> 5000065], [Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[1324058 -> 4024162 -> 1396839 -> 5000194], [Didgori: Land of Sacrificed Knights (2009) -> Khomasuridze, Nikoloz -> Georgian: Warrior of Honor (2011) -> War] 
+
+-----------------------------------------
+ResultDestNodes: [1481810, 1871383, 1198220, 1324058]
+ResultRelevs: [10.394692420959473, 8.878751754760742, 8.498119354248047, 8.493865966796875]
+AvgResultRelev: 9.066357374191284
+AvgResultDissimilarity: 0.7000000000000001
+Num of entries retrieved from the KNLists: 2928
+Num of entries retrieved from NKMaps: 4734
+Num of answer trees explored: 1802
+Num of states created: 5
+Num of states explored: 5
+Num of heuristic search performed: 1
+
+Top-k Search by Blink-BDB, k=8
+[epic, history, war]
+srcNodes: [8018522, 5003808, 5003808]
+  path: 0[1481810 -> 8018522], [Khunsuk (2003) -> epic] 
+
+  path: 1[1481810 -> 5003808], [Khunsuk (2003) -> Action,History,War] 
+
+  path: 2[1481810 -> 5003808], [Khunsuk (2003) -> Action,History,War] 
+
+srcNodes: [8018522, 5000177, 1871383]
+  path: 0[1871383 -> 2270422 -> 1755436 -> 8018522], [War (2007) -> Phan, Johnson -> The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[1871383 -> 2200906 -> 1467044 -> 5000177], [War (2007) -> Li, Jet -> Jian guo da ye (2009) -> Drama,History] 
+
+  path: 2[1871383 -> 1871383], [War (2007) -> War (2007)]
+srcNodes: [8018522, 5000065, 5000194]
+  path: 0[1198220 -> 2249272 -> 1481810 -> 8018522], [Alexander (2004) -> Ngamdee, Jaran -> Khunsuk (2003) -> epic] 
+
+  path: 1[1198220 -> 2033659 -> 1478934 -> 5000065], [Alexander (2004) -> Blessed, Brian -> Katherine of Alexandria (2011) -> History] 
+
+  path: 2[1198220 -> 2175478 -> 1871457 -> 5000194], [Alexander (2004) -> Kebbell, Toby -> War Horse (2011) -> War] 
+
+srcNodes: [8010264, 5000065, 5000194]
+  path: 0[1324058 -> 8010264], [Didgori: Land of Sacrificed Knights (2009) -> battle,blacksmith,castle,christianity,cross,epic,georgia,holy-grail,mystic,spear-of-destiny,student-film,sword-fight,templar-knight] 
+
+  path: 1[1324058 -> 5000065], [Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[1324058 -> 4024162 -> 1396839 -> 5000194], [Didgori: Land of Sacrificed Knights (2009) -> Khomasuridze, Nikoloz -> Georgian: Warrior of Honor (2011) -> War] 
+
+srcNodes: [1360948, 5000065, 5000194]
+  path: 0[2232465 -> 1379558 -> 2422463 -> 1360948], [Millan, Nevin -> Flags of Our Fathers (2006) -> Mays, Jayma -> Epic Movie (2007)] 
+
+  path: 1[2232465 -> 1324058 -> 5000065], [Millan, Nevin -> Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[2232465 -> 1396839 -> 5000194], [Millan, Nevin -> Georgian: Warrior of Honor (2011) -> War] 
+
+srcNodes: [8018522, 5000177, 1871383]
+  path: 0[2270422 -> 1755436 -> 8018522], [Phan, Johnson -> The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[2270422 -> 1887823 -> 2161337 -> 1713528 -> 5000177], [Phan, Johnson -> X-Men Origins: Wolverine (2009) -> Jackman, Hugh -> Snow Flower and the Secret Fan (2011) -> Drama,History] 
+
+  path: 2[2270422 -> 1871383], [Phan, Johnson -> War (2007)] 
+
+srcNodes: [8018522, 5000065, 5000194]
+  path: 0[2249272 -> 1481810 -> 8018522], [Ngamdee, Jaran -> Khunsuk (2003) -> epic] 
+
+  path: 1[2249272 -> 1198220 -> 2033659 -> 1478934 -> 5000065], [Ngamdee, Jaran -> Alexander (2004) -> Blessed, Brian -> Katherine of Alexandria (2011) -> History] 
+
+  path: 2[2249272 -> 1198220 -> 2175478 -> 1871457 -> 5000194], [Ngamdee, Jaran -> Alexander (2004) -> Kebbell, Toby -> War Horse (2011) -> War] 
+
+srcNodes: [1360948, 5000065, 5000194]
+  path: 0[1396839 -> 2463664 -> 1272874 -> 2327631 -> 1360948], [Georgian: Warrior of Honor (2011) -> Romanoff, Lara -> Cellular (2004) -> Castro, Mary -> Epic Movie (2007)] 
+
+  path: 1[1396839 -> 4024162 -> 1324058 -> 5000065], [Georgian: Warrior of Honor (2011) -> Khomasuridze, Nikoloz -> Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[1396839 -> 5000194], [Georgian: Warrior of Honor (2011) -> War] 
+
+-----------------------------------------
+Num of top-k answers: 8
+ResultDestNodes: [1481810, 1871383, 1198220, 1324058, 2232465, 2270422, 2249272, 1396839]
+ResultRelevs: [10.394692420959473, 8.878751754760742, 8.498119354248047, 8.493865966796875, 8.449406623840332, 8.356127738952637, 8.289361000061035, 8.275429725646973]
+AvgResultRelev: 8.704469323158264
+AvgResultDissimilarity: 0.5976190476190475
+Num of entries retrieved from the lists: 4003
+Num of entries retrieved from NKMaps: 6283
+Num of answer trees explored: 2312
+
+Div Top-k Search by Exhustive, k=8
+[epic, history, war]
+srcNodes: [8018522, 5003808, 5003808]
+  path: 0[1481810 -> 8018522], [Khunsuk (2003) -> epic] 
+
+  path: 1[1481810 -> 5003808], [Khunsuk (2003) -> Action,History,War] 
+
+  path: 2[1481810 -> 5003808], [Khunsuk (2003) -> Action,History,War] 
+
+srcNodes: [8018522, 5000177, 1871383]
+  path: 0[1871383 -> 2270422 -> 1755436 -> 8018522], [War (2007) -> Phan, Johnson -> The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[1871383 -> 2200906 -> 1467044 -> 5000177], [War (2007) -> Li, Jet -> Jian guo da ye (2009) -> Drama,History] 
+
+  path: 2[1871383 -> 1871383], [War (2007) -> War (2007)]
+srcNodes: [8018522, 5000065, 5000194]
+  path: 0[1198220 -> 2249272 -> 1481810 -> 8018522], [Alexander (2004) -> Ngamdee, Jaran -> Khunsuk (2003) -> epic] 
+
+  path: 1[1198220 -> 2033659 -> 1478934 -> 5000065], [Alexander (2004) -> Blessed, Brian -> Katherine of Alexandria (2011) -> History] 
+
+  path: 2[1198220 -> 2175478 -> 1871457 -> 5000194], [Alexander (2004) -> Kebbell, Toby -> War Horse (2011) -> War] 
+
+srcNodes: [8010264, 5000065, 5000194]
+  path: 0[1324058 -> 8010264], [Didgori: Land of Sacrificed Knights (2009) -> battle,blacksmith,castle,christianity,cross,epic,georgia,holy-grail,mystic,spear-of-destiny,student-film,sword-fight,templar-knight] 
+
+  path: 1[1324058 -> 5000065], [Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[1324058 -> 4024162 -> 1396839 -> 5000194], [Didgori: Land of Sacrificed Knights (2009) -> Khomasuridze, Nikoloz -> Georgian: Warrior of Honor (2011) -> War] 
+
+srcNodes: [1360948, 5000065, 5000194]
+  path: 0[2232465 -> 1379558 -> 2422463 -> 1360948], [Millan, Nevin -> Flags of Our Fathers (2006) -> Mays, Jayma -> Epic Movie (2007)] 
+
+  path: 1[2232465 -> 1324058 -> 5000065], [Millan, Nevin -> Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[2232465 -> 1396839 -> 5000194], [Millan, Nevin -> Georgian: Warrior of Honor (2011) -> War] 
+
+srcNodes: [8018522, 5000177, 1871383]
+  path: 0[2270422 -> 1755436 -> 8018522], [Phan, Johnson -> The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[2270422 -> 1887823 -> 2161337 -> 1713528 -> 5000177], [Phan, Johnson -> X-Men Origins: Wolverine (2009) -> Jackman, Hugh -> Snow Flower and the Secret Fan (2011) -> Drama,History] 
+
+  path: 2[2270422 -> 1871383], [Phan, Johnson -> War (2007)] 
+
+srcNodes: [8018522, 5000065, 5000194]
+  path: 0[2249272 -> 1481810 -> 8018522], [Ngamdee, Jaran -> Khunsuk (2003) -> epic] 
+
+  path: 1[2249272 -> 1198220 -> 2033659 -> 1478934 -> 5000065], [Ngamdee, Jaran -> Alexander (2004) -> Blessed, Brian -> Katherine of Alexandria (2011) -> History] 
+
+  path: 2[2249272 -> 1198220 -> 2175478 -> 1871457 -> 5000194], [Ngamdee, Jaran -> Alexander (2004) -> Kebbell, Toby -> War Horse (2011) -> War] 
+
+srcNodes: [1360948, 5000065, 5000194]
+  path: 0[1396839 -> 2463664 -> 1272874 -> 2327631 -> 1360948], [Georgian: Warrior of Honor (2011) -> Romanoff, Lara -> Cellular (2004) -> Castro, Mary -> Epic Movie (2007)] 
+
+  path: 1[1396839 -> 4024162 -> 1324058 -> 5000065], [Georgian: Warrior of Honor (2011) -> Khomasuridze, Nikoloz -> Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[1396839 -> 5000194], [Georgian: Warrior of Honor (2011) -> War] 
+
+-----------------------------------------
+ResultDestNodes: [1481810, 1871383, 1198220, 1324058, 2232465, 2270422, 2249272, 1396839]
+ResultRelevs: [10.394692420959473, 8.878751754760742, 8.498119354248047, 8.493865966796875, 8.449406623840332, 8.356127738952637, 8.289361000061035, 8.275429725646973]
+AvgResultRelev: 8.704469323158264
+AvgResultDissimilarity: 0.5976190567016602
+Num of entries retrieved from the KNLists: 4003
+Num of entries retrieved from NKMaps: 6283
+Num of answer trees explored: 2312
+Num of answer tree sets created: 255
+Num of answer tree sets removed: 248
+
+Div Top-k Search by Astar02, k=8
+[epic, history, war]
+srcNodes: [8018522, 5003808, 5003808]
+  path: 0[1481810 -> 8018522], [Khunsuk (2003) -> epic] 
+
+  path: 1[1481810 -> 5003808], [Khunsuk (2003) -> Action,History,War] 
+
+  path: 2[1481810 -> 5003808], [Khunsuk (2003) -> Action,History,War] 
+
+srcNodes: [8018522, 5000177, 1871383]
+  path: 0[1871383 -> 2270422 -> 1755436 -> 8018522], [War (2007) -> Phan, Johnson -> The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[1871383 -> 2200906 -> 1467044 -> 5000177], [War (2007) -> Li, Jet -> Jian guo da ye (2009) -> Drama,History] 
+
+  path: 2[1871383 -> 1871383], [War (2007) -> War (2007)]
+srcNodes: [8018522, 5000065, 5000194]
+  path: 0[1198220 -> 2249272 -> 1481810 -> 8018522], [Alexander (2004) -> Ngamdee, Jaran -> Khunsuk (2003) -> epic] 
+
+  path: 1[1198220 -> 2033659 -> 1478934 -> 5000065], [Alexander (2004) -> Blessed, Brian -> Katherine of Alexandria (2011) -> History] 
+
+  path: 2[1198220 -> 2175478 -> 1871457 -> 5000194], [Alexander (2004) -> Kebbell, Toby -> War Horse (2011) -> War] 
+
+srcNodes: [8010264, 5000065, 5000194]
+  path: 0[1324058 -> 8010264], [Didgori: Land of Sacrificed Knights (2009) -> battle,blacksmith,castle,christianity,cross,epic,georgia,holy-grail,mystic,spear-of-destiny,student-film,sword-fight,templar-knight] 
+
+  path: 1[1324058 -> 5000065], [Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[1324058 -> 4024162 -> 1396839 -> 5000194], [Didgori: Land of Sacrificed Knights (2009) -> Khomasuridze, Nikoloz -> Georgian: Warrior of Honor (2011) -> War] 
+
+srcNodes: [1360948, 5000065, 5000194]
+  path: 0[2232465 -> 1379558 -> 2422463 -> 1360948], [Millan, Nevin -> Flags of Our Fathers (2006) -> Mays, Jayma -> Epic Movie (2007)] 
+
+  path: 1[2232465 -> 1324058 -> 5000065], [Millan, Nevin -> Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[2232465 -> 1396839 -> 5000194], [Millan, Nevin -> Georgian: Warrior of Honor (2011) -> War] 
+
+srcNodes: [8018522, 5000177, 1871383]
+  path: 0[2270422 -> 1755436 -> 8018522], [Phan, Johnson -> The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[2270422 -> 1887823 -> 2161337 -> 1713528 -> 5000177], [Phan, Johnson -> X-Men Origins: Wolverine (2009) -> Jackman, Hugh -> Snow Flower and the Secret Fan (2011) -> Drama,History] 
+
+  path: 2[2270422 -> 1871383], [Phan, Johnson -> War (2007)] 
+
+srcNodes: [8018522, 5000065, 5000194]
+  path: 0[2249272 -> 1481810 -> 8018522], [Ngamdee, Jaran -> Khunsuk (2003) -> epic] 
+
+  path: 1[2249272 -> 1198220 -> 2033659 -> 1478934 -> 5000065], [Ngamdee, Jaran -> Alexander (2004) -> Blessed, Brian -> Katherine of Alexandria (2011) -> History] 
+
+  path: 2[2249272 -> 1198220 -> 2175478 -> 1871457 -> 5000194], [Ngamdee, Jaran -> Alexander (2004) -> Kebbell, Toby -> War Horse (2011) -> War] 
+
+srcNodes: [1360948, 5000065, 5000194]
+  path: 0[1396839 -> 2463664 -> 1272874 -> 2327631 -> 1360948], [Georgian: Warrior of Honor (2011) -> Romanoff, Lara -> Cellular (2004) -> Castro, Mary -> Epic Movie (2007)] 
+
+  path: 1[1396839 -> 4024162 -> 1324058 -> 5000065], [Georgian: Warrior of Honor (2011) -> Khomasuridze, Nikoloz -> Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[1396839 -> 5000194], [Georgian: Warrior of Honor (2011) -> War] 
+
+-----------------------------------------
+ResultDestNodes: [1481810, 1871383, 1198220, 1324058, 2232465, 2270422, 2249272, 1396839]
+ResultRelevs: [10.394692420959473, 8.878751754760742, 8.498119354248047, 8.493865966796875, 8.449406623840332, 8.356127738952637, 8.289361000061035, 8.275429725646973]
+AvgResultRelev: 8.704469323158264
+AvgResultDissimilarity: 0.5976190476190475
+Num of entries retrieved from the KNLists: 4003
+Num of entries retrieved from NKMaps: 6283
+Num of answer trees explored: 2312
+Num of states created: 37
+Num of states explored: 9
+Num of heuristic search performed: 1
+
+Div Top-k Search by Astar1nc_ap, k=8
+[epic, history, war]
+srcNodes: [8018522, 5003808, 5003808]
+  path: 0[1481810 -> 8018522], [Khunsuk (2003) -> epic] 
+
+  path: 1[1481810 -> 5003808], [Khunsuk (2003) -> Action,History,War] 
+
+  path: 2[1481810 -> 5003808], [Khunsuk (2003) -> Action,History,War] 
+
+srcNodes: [8018522, 5000177, 1871383]
+  path: 0[1871383 -> 2270422 -> 1755436 -> 8018522], [War (2007) -> Phan, Johnson -> The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[1871383 -> 2200906 -> 1467044 -> 5000177], [War (2007) -> Li, Jet -> Jian guo da ye (2009) -> Drama,History] 
+
+  path: 2[1871383 -> 1871383], [War (2007) -> War (2007)]
+srcNodes: [8018522, 5000065, 5000194]
+  path: 0[1198220 -> 2249272 -> 1481810 -> 8018522], [Alexander (2004) -> Ngamdee, Jaran -> Khunsuk (2003) -> epic] 
+
+  path: 1[1198220 -> 2033659 -> 1478934 -> 5000065], [Alexander (2004) -> Blessed, Brian -> Katherine of Alexandria (2011) -> History] 
+
+  path: 2[1198220 -> 2175478 -> 1871457 -> 5000194], [Alexander (2004) -> Kebbell, Toby -> War Horse (2011) -> War] 
+
+srcNodes: [8010264, 5000065, 5000194]
+  path: 0[1324058 -> 8010264], [Didgori: Land of Sacrificed Knights (2009) -> battle,blacksmith,castle,christianity,cross,epic,georgia,holy-grail,mystic,spear-of-destiny,student-film,sword-fight,templar-knight] 
+
+  path: 1[1324058 -> 5000065], [Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[1324058 -> 4024162 -> 1396839 -> 5000194], [Didgori: Land of Sacrificed Knights (2009) -> Khomasuridze, Nikoloz -> Georgian: Warrior of Honor (2011) -> War] 
+
+srcNodes: [1360948, 5000065, 5000194]
+  path: 0[2232465 -> 1379558 -> 2422463 -> 1360948], [Millan, Nevin -> Flags of Our Fathers (2006) -> Mays, Jayma -> Epic Movie (2007)] 
+
+  path: 1[2232465 -> 1324058 -> 5000065], [Millan, Nevin -> Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[2232465 -> 1396839 -> 5000194], [Millan, Nevin -> Georgian: Warrior of Honor (2011) -> War] 
+
+srcNodes: [8018522, 5000177, 1871383]
+  path: 0[2270422 -> 1755436 -> 8018522], [Phan, Johnson -> The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[2270422 -> 1887823 -> 2161337 -> 1713528 -> 5000177], [Phan, Johnson -> X-Men Origins: Wolverine (2009) -> Jackman, Hugh -> Snow Flower and the Secret Fan (2011) -> Drama,History] 
+
+  path: 2[2270422 -> 1871383], [Phan, Johnson -> War (2007)] 
+
+srcNodes: [8018522, 5000065, 5000194]
+  path: 0[2249272 -> 1481810 -> 8018522], [Ngamdee, Jaran -> Khunsuk (2003) -> epic] 
+
+  path: 1[2249272 -> 1198220 -> 2033659 -> 1478934 -> 5000065], [Ngamdee, Jaran -> Alexander (2004) -> Blessed, Brian -> Katherine of Alexandria (2011) -> History] 
+
+  path: 2[2249272 -> 1198220 -> 2175478 -> 1871457 -> 5000194], [Ngamdee, Jaran -> Alexander (2004) -> Kebbell, Toby -> War Horse (2011) -> War] 
+
+srcNodes: [1360948, 5000065, 5000194]
+  path: 0[1396839 -> 2463664 -> 1272874 -> 2327631 -> 1360948], [Georgian: Warrior of Honor (2011) -> Romanoff, Lara -> Cellular (2004) -> Castro, Mary -> Epic Movie (2007)] 
+
+  path: 1[1396839 -> 4024162 -> 1324058 -> 5000065], [Georgian: Warrior of Honor (2011) -> Khomasuridze, Nikoloz -> Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[1396839 -> 5000194], [Georgian: Warrior of Honor (2011) -> War] 
+
+-----------------------------------------
+ResultDestNodes: [1481810, 1871383, 1198220, 1324058, 2232465, 2270422, 2249272, 1396839]
+ResultRelevs: [10.394692420959473, 8.878751754760742, 8.498119354248047, 8.493865966796875, 8.449406623840332, 8.356127738952637, 8.289361000061035, 8.275429725646973]
+AvgResultRelev: 8.704469323158264
+AvgResultDissimilarity: 0.5976190476190475
+Num of entries retrieved from the KNLists: 4003
+Num of entries retrieved from NKMaps: 6283
+Num of answer trees explored: 2312
+Num of states created: 9
+Num of states explored: 9
+Num of heuristic search performed: 1
+
+Top-k Search by Blink-BDB, k=12
+[epic, history, war]
+srcNodes: [8018522, 5003808, 5003808]
+  path: 0[1481810 -> 8018522], [Khunsuk (2003) -> epic] 
+
+  path: 1[1481810 -> 5003808], [Khunsuk (2003) -> Action,History,War] 
+
+  path: 2[1481810 -> 5003808], [Khunsuk (2003) -> Action,History,War] 
+
+srcNodes: [8018522, 5000177, 1871383]
+  path: 0[1871383 -> 2270422 -> 1755436 -> 8018522], [War (2007) -> Phan, Johnson -> The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[1871383 -> 2200906 -> 1467044 -> 5000177], [War (2007) -> Li, Jet -> Jian guo da ye (2009) -> Drama,History] 
+
+  path: 2[1871383 -> 1871383], [War (2007) -> War (2007)]
+srcNodes: [8018522, 5000065, 5000194]
+  path: 0[1198220 -> 2249272 -> 1481810 -> 8018522], [Alexander (2004) -> Ngamdee, Jaran -> Khunsuk (2003) -> epic] 
+
+  path: 1[1198220 -> 2033659 -> 1478934 -> 5000065], [Alexander (2004) -> Blessed, Brian -> Katherine of Alexandria (2011) -> History] 
+
+  path: 2[1198220 -> 2175478 -> 1871457 -> 5000194], [Alexander (2004) -> Kebbell, Toby -> War Horse (2011) -> War] 
+
+srcNodes: [8010264, 5000065, 5000194]
+  path: 0[1324058 -> 8010264], [Didgori: Land of Sacrificed Knights (2009) -> battle,blacksmith,castle,christianity,cross,epic,georgia,holy-grail,mystic,spear-of-destiny,student-film,sword-fight,templar-knight] 
+
+  path: 1[1324058 -> 5000065], [Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[1324058 -> 4024162 -> 1396839 -> 5000194], [Didgori: Land of Sacrificed Knights (2009) -> Khomasuridze, Nikoloz -> Georgian: Warrior of Honor (2011) -> War] 
+
+srcNodes: [1360948, 5000065, 5000194]
+  path: 0[2232465 -> 1379558 -> 2422463 -> 1360948], [Millan, Nevin -> Flags of Our Fathers (2006) -> Mays, Jayma -> Epic Movie (2007)] 
+
+  path: 1[2232465 -> 1324058 -> 5000065], [Millan, Nevin -> Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[2232465 -> 1396839 -> 5000194], [Millan, Nevin -> Georgian: Warrior of Honor (2011) -> War] 
+
+srcNodes: [8018522, 5000177, 1871383]
+  path: 0[2270422 -> 1755436 -> 8018522], [Phan, Johnson -> The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[2270422 -> 1887823 -> 2161337 -> 1713528 -> 5000177], [Phan, Johnson -> X-Men Origins: Wolverine (2009) -> Jackman, Hugh -> Snow Flower and the Secret Fan (2011) -> Drama,History] 
+
+  path: 2[2270422 -> 1871383], [Phan, Johnson -> War (2007)] 
+
+srcNodes: [8018522, 5000065, 5000194]
+  path: 0[2249272 -> 1481810 -> 8018522], [Ngamdee, Jaran -> Khunsuk (2003) -> epic] 
+
+  path: 1[2249272 -> 1198220 -> 2033659 -> 1478934 -> 5000065], [Ngamdee, Jaran -> Alexander (2004) -> Blessed, Brian -> Katherine of Alexandria (2011) -> History] 
+
+  path: 2[2249272 -> 1198220 -> 2175478 -> 1871457 -> 5000194], [Ngamdee, Jaran -> Alexander (2004) -> Kebbell, Toby -> War Horse (2011) -> War] 
+
+srcNodes: [1360948, 5000065, 5000194]
+  path: 0[1396839 -> 2463664 -> 1272874 -> 2327631 -> 1360948], [Georgian: Warrior of Honor (2011) -> Romanoff, Lara -> Cellular (2004) -> Castro, Mary -> Epic Movie (2007)] 
+
+  path: 1[1396839 -> 4024162 -> 1324058 -> 5000065], [Georgian: Warrior of Honor (2011) -> Khomasuridze, Nikoloz -> Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[1396839 -> 5000194], [Georgian: Warrior of Honor (2011) -> War] 
+
+srcNodes: [8018522, 6042542, 1871383]
+  path: 0[1755436 -> 8018522], [The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[1755436 -> 2270422 -> 1887823 -> 6042542], [The Battle of Burgledorf (2010) -> Phan, Johnson -> X-Men Origins: Wolverine (2009) -> Two mutant brothers,] 
+
+  path: 2[1755436 -> 2270422 -> 1871383], [The Battle of Burgledorf (2010) -> Phan, Johnson -> War (2007)] 
+
+srcNodes: [8018522, 5000065, 5000194]
+  path: 0[2033659 -> 1198220 -> 2249272 -> 1481810 -> 8018522], [Blessed, Brian -> Alexander (2004) -> Ngamdee, Jaran -> Khunsuk (2003) -> epic] 
+
+  path: 1[2033659 -> 1478934 -> 5000065], [Blessed, Brian -> Katherine of Alexandria (2011) -> History] 
+
+  path: 2[2033659 -> 1198220 -> 2175478 -> 1871457 -> 5000194], [Blessed, Brian -> Alexander (2004) -> Kebbell, Toby -> War Horse (2011) -> War] 
+
+srcNodes: [8018522, 5001670, 1819342]
+  path: 0[4022393 -> 1481810 -> 8018522], [Jitnukul, Tanit -> Khunsuk (2003) -> epic] 
+
+  path: 1[4022393 -> 1230006 -> 5001670], [Jitnukul, Tanit -> Bangrajan (2000) -> War,Action,Drama,History] 
+
+  path: 2[4022393 -> 1481667 -> 2451965 -> 1819342], [Jitnukul, Tanit -> Khon len khong (2004) -> Platt, Tara -> The War on the War on Drugs (2002)] 
+
+srcNodes: [1360948, 5000065, 8001055]
+  path: 0[535478 -> 2122933 -> 1580355 -> 2091141 -> 1360948], ["Le dernier seigneur des Balkans" (2005) -> Giannatos, Mihalis -> Munich (2005) -> Dorr, Sabi -> Epic Movie (2007)] 
+
+  path: 1[535478 -> 5000065], ["Le dernier seigneur des Balkans" (2005) -> History] 
+
+  path: 2[535478 -> 8001055], ["Le dernier seigneur des Balkans" (2005) -> balkan-war,tv-mini-series,world-war-one,world-war-two] 
+
+-----------------------------------------
+Num of top-k answers: 12
+ResultDestNodes: [1481810, 1871383, 1198220, 1324058, 2232465, 2270422, 2249272, 1396839, 1755436, 2033659, 4022393, 535478]
+ResultRelevs: [10.394692420959473, 8.878751754760742, 8.498119354248047, 8.493865966796875, 8.449406623840332, 8.356127738952637, 8.289361000061035, 8.275429725646973, 8.212804794311523, 7.9401326179504395, 7.898720741271973, 7.887504577636719]
+AvgResultRelev: 8.464576443036398
+AvgResultDissimilarity: 0.6343434343434342
+Num of entries retrieved from the lists: 4402
+Num of entries retrieved from NKMaps: 6785
+Num of answer trees explored: 2432
+
+Div Top-k Search by Exhustive, k=12
+[epic, history, war]
+srcNodes: [8018522, 5003808, 5003808]
+  path: 0[1481810 -> 8018522], [Khunsuk (2003) -> epic] 
+
+  path: 1[1481810 -> 5003808], [Khunsuk (2003) -> Action,History,War] 
+
+  path: 2[1481810 -> 5003808], [Khunsuk (2003) -> Action,History,War] 
+
+srcNodes: [8018522, 5000177, 1871383]
+  path: 0[1871383 -> 2270422 -> 1755436 -> 8018522], [War (2007) -> Phan, Johnson -> The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[1871383 -> 2200906 -> 1467044 -> 5000177], [War (2007) -> Li, Jet -> Jian guo da ye (2009) -> Drama,History] 
+
+  path: 2[1871383 -> 1871383], [War (2007) -> War (2007)]
+srcNodes: [8018522, 5000065, 5000194]
+  path: 0[1198220 -> 2249272 -> 1481810 -> 8018522], [Alexander (2004) -> Ngamdee, Jaran -> Khunsuk (2003) -> epic] 
+
+  path: 1[1198220 -> 2033659 -> 1478934 -> 5000065], [Alexander (2004) -> Blessed, Brian -> Katherine of Alexandria (2011) -> History] 
+
+  path: 2[1198220 -> 2175478 -> 1871457 -> 5000194], [Alexander (2004) -> Kebbell, Toby -> War Horse (2011) -> War] 
+
+srcNodes: [8010264, 5000065, 5000194]
+  path: 0[1324058 -> 8010264], [Didgori: Land of Sacrificed Knights (2009) -> battle,blacksmith,castle,christianity,cross,epic,georgia,holy-grail,mystic,spear-of-destiny,student-film,sword-fight,templar-knight] 
+
+  path: 1[1324058 -> 5000065], [Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[1324058 -> 4024162 -> 1396839 -> 5000194], [Didgori: Land of Sacrificed Knights (2009) -> Khomasuridze, Nikoloz -> Georgian: Warrior of Honor (2011) -> War] 
+
+srcNodes: [1360948, 5000065, 5000194]
+  path: 0[2232465 -> 1379558 -> 2422463 -> 1360948], [Millan, Nevin -> Flags of Our Fathers (2006) -> Mays, Jayma -> Epic Movie (2007)] 
+
+  path: 1[2232465 -> 1324058 -> 5000065], [Millan, Nevin -> Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[2232465 -> 1396839 -> 5000194], [Millan, Nevin -> Georgian: Warrior of Honor (2011) -> War] 
+
+srcNodes: [8018522, 5000177, 1871383]
+  path: 0[2270422 -> 1755436 -> 8018522], [Phan, Johnson -> The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[2270422 -> 1887823 -> 2161337 -> 1713528 -> 5000177], [Phan, Johnson -> X-Men Origins: Wolverine (2009) -> Jackman, Hugh -> Snow Flower and the Secret Fan (2011) -> Drama,History] 
+
+  path: 2[2270422 -> 1871383], [Phan, Johnson -> War (2007)] 
+
+srcNodes: [8018522, 5000065, 5000194]
+  path: 0[2249272 -> 1481810 -> 8018522], [Ngamdee, Jaran -> Khunsuk (2003) -> epic] 
+
+  path: 1[2249272 -> 1198220 -> 2033659 -> 1478934 -> 5000065], [Ngamdee, Jaran -> Alexander (2004) -> Blessed, Brian -> Katherine of Alexandria (2011) -> History] 
+
+  path: 2[2249272 -> 1198220 -> 2175478 -> 1871457 -> 5000194], [Ngamdee, Jaran -> Alexander (2004) -> Kebbell, Toby -> War Horse (2011) -> War] 
+
+srcNodes: [1360948, 5000065, 5000194]
+  path: 0[1396839 -> 2463664 -> 1272874 -> 2327631 -> 1360948], [Georgian: Warrior of Honor (2011) -> Romanoff, Lara -> Cellular (2004) -> Castro, Mary -> Epic Movie (2007)] 
+
+  path: 1[1396839 -> 4024162 -> 1324058 -> 5000065], [Georgian: Warrior of Honor (2011) -> Khomasuridze, Nikoloz -> Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[1396839 -> 5000194], [Georgian: Warrior of Honor (2011) -> War] 
+
+srcNodes: [8018522, 6042542, 1871383]
+  path: 0[1755436 -> 8018522], [The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[1755436 -> 2270422 -> 1887823 -> 6042542], [The Battle of Burgledorf (2010) -> Phan, Johnson -> X-Men Origins: Wolverine (2009) -> Two mutant brothers,] 
+
+  path: 2[1755436 -> 2270422 -> 1871383], [The Battle of Burgledorf (2010) -> Phan, Johnson -> War (2007)] 
+
+srcNodes: [8018522, 5000065, 5000194]
+  path: 0[2033659 -> 1198220 -> 2249272 -> 1481810 -> 8018522], [Blessed, Brian -> Alexander (2004) -> Ngamdee, Jaran -> Khunsuk (2003) -> epic] 
+
+  path: 1[2033659 -> 1478934 -> 5000065], [Blessed, Brian -> Katherine of Alexandria (2011) -> History] 
+
+  path: 2[2033659 -> 1198220 -> 2175478 -> 1871457 -> 5000194], [Blessed, Brian -> Alexander (2004) -> Kebbell, Toby -> War Horse (2011) -> War] 
+
+srcNodes: [8018522, 5001670, 1819342]
+  path: 0[4022393 -> 1481810 -> 8018522], [Jitnukul, Tanit -> Khunsuk (2003) -> epic] 
+
+  path: 1[4022393 -> 1230006 -> 5001670], [Jitnukul, Tanit -> Bangrajan (2000) -> War,Action,Drama,History] 
+
+  path: 2[4022393 -> 1481667 -> 2451965 -> 1819342], [Jitnukul, Tanit -> Khon len khong (2004) -> Platt, Tara -> The War on the War on Drugs (2002)] 
+
+srcNodes: [1360948, 5000065, 8001055]
+  path: 0[535478 -> 2122933 -> 1580355 -> 2091141 -> 1360948], ["Le dernier seigneur des Balkans" (2005) -> Giannatos, Mihalis -> Munich (2005) -> Dorr, Sabi -> Epic Movie (2007)] 
+
+  path: 1[535478 -> 5000065], ["Le dernier seigneur des Balkans" (2005) -> History] 
+
+  path: 2[535478 -> 8001055], ["Le dernier seigneur des Balkans" (2005) -> balkan-war,tv-mini-series,world-war-one,world-war-two] 
+
+-----------------------------------------
+ResultDestNodes: [1481810, 1871383, 1198220, 1324058, 2232465, 2270422, 2249272, 1396839, 1755436, 2033659, 4022393, 535478]
+ResultRelevs: [10.394692420959473, 8.878751754760742, 8.498119354248047, 8.493865966796875, 8.449406623840332, 8.356127738952637, 8.289361000061035, 8.275429725646973, 8.212804794311523, 7.9401326179504395, 7.898720741271973, 7.887504577636719]
+AvgResultRelev: 8.464576443036398
+AvgResultDissimilarity: 0.6343434073708274
+Num of entries retrieved from the KNLists: 4402
+Num of entries retrieved from NKMaps: 6785
+Num of answer trees explored: 2432
+Num of answer tree sets created: 4095
+Num of answer tree sets removed: 4084
+
+Div Top-k Search by Astar02, k=12
+[epic, history, war]
+srcNodes: [8018522, 5003808, 5003808]
+  path: 0[1481810 -> 8018522], [Khunsuk (2003) -> epic] 
+
+  path: 1[1481810 -> 5003808], [Khunsuk (2003) -> Action,History,War] 
+
+  path: 2[1481810 -> 5003808], [Khunsuk (2003) -> Action,History,War] 
+
+srcNodes: [8018522, 5000177, 1871383]
+  path: 0[1871383 -> 2270422 -> 1755436 -> 8018522], [War (2007) -> Phan, Johnson -> The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[1871383 -> 2200906 -> 1467044 -> 5000177], [War (2007) -> Li, Jet -> Jian guo da ye (2009) -> Drama,History] 
+
+  path: 2[1871383 -> 1871383], [War (2007) -> War (2007)]
+srcNodes: [8018522, 5000065, 5000194]
+  path: 0[1198220 -> 2249272 -> 1481810 -> 8018522], [Alexander (2004) -> Ngamdee, Jaran -> Khunsuk (2003) -> epic] 
+
+  path: 1[1198220 -> 2033659 -> 1478934 -> 5000065], [Alexander (2004) -> Blessed, Brian -> Katherine of Alexandria (2011) -> History] 
+
+  path: 2[1198220 -> 2175478 -> 1871457 -> 5000194], [Alexander (2004) -> Kebbell, Toby -> War Horse (2011) -> War] 
+
+srcNodes: [8010264, 5000065, 5000194]
+  path: 0[1324058 -> 8010264], [Didgori: Land of Sacrificed Knights (2009) -> battle,blacksmith,castle,christianity,cross,epic,georgia,holy-grail,mystic,spear-of-destiny,student-film,sword-fight,templar-knight] 
+
+  path: 1[1324058 -> 5000065], [Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[1324058 -> 4024162 -> 1396839 -> 5000194], [Didgori: Land of Sacrificed Knights (2009) -> Khomasuridze, Nikoloz -> Georgian: Warrior of Honor (2011) -> War] 
+
+srcNodes: [1360948, 5000065, 5000194]
+  path: 0[2232465 -> 1379558 -> 2422463 -> 1360948], [Millan, Nevin -> Flags of Our Fathers (2006) -> Mays, Jayma -> Epic Movie (2007)] 
+
+  path: 1[2232465 -> 1324058 -> 5000065], [Millan, Nevin -> Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[2232465 -> 1396839 -> 5000194], [Millan, Nevin -> Georgian: Warrior of Honor (2011) -> War] 
+
+srcNodes: [8018522, 5000177, 1871383]
+  path: 0[2270422 -> 1755436 -> 8018522], [Phan, Johnson -> The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[2270422 -> 1887823 -> 2161337 -> 1713528 -> 5000177], [Phan, Johnson -> X-Men Origins: Wolverine (2009) -> Jackman, Hugh -> Snow Flower and the Secret Fan (2011) -> Drama,History] 
+
+  path: 2[2270422 -> 1871383], [Phan, Johnson -> War (2007)] 
+
+srcNodes: [8018522, 5000065, 5000194]
+  path: 0[2249272 -> 1481810 -> 8018522], [Ngamdee, Jaran -> Khunsuk (2003) -> epic] 
+
+  path: 1[2249272 -> 1198220 -> 2033659 -> 1478934 -> 5000065], [Ngamdee, Jaran -> Alexander (2004) -> Blessed, Brian -> Katherine of Alexandria (2011) -> History] 
+
+  path: 2[2249272 -> 1198220 -> 2175478 -> 1871457 -> 5000194], [Ngamdee, Jaran -> Alexander (2004) -> Kebbell, Toby -> War Horse (2011) -> War] 
+
+srcNodes: [1360948, 5000065, 5000194]
+  path: 0[1396839 -> 2463664 -> 1272874 -> 2327631 -> 1360948], [Georgian: Warrior of Honor (2011) -> Romanoff, Lara -> Cellular (2004) -> Castro, Mary -> Epic Movie (2007)] 
+
+  path: 1[1396839 -> 4024162 -> 1324058 -> 5000065], [Georgian: Warrior of Honor (2011) -> Khomasuridze, Nikoloz -> Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[1396839 -> 5000194], [Georgian: Warrior of Honor (2011) -> War] 
+
+srcNodes: [8018522, 6042542, 1871383]
+  path: 0[1755436 -> 8018522], [The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[1755436 -> 2270422 -> 1887823 -> 6042542], [The Battle of Burgledorf (2010) -> Phan, Johnson -> X-Men Origins: Wolverine (2009) -> Two mutant brothers,] 
+
+  path: 2[1755436 -> 2270422 -> 1871383], [The Battle of Burgledorf (2010) -> Phan, Johnson -> War (2007)] 
+
+srcNodes: [8018522, 5000065, 5000194]
+  path: 0[2033659 -> 1198220 -> 2249272 -> 1481810 -> 8018522], [Blessed, Brian -> Alexander (2004) -> Ngamdee, Jaran -> Khunsuk (2003) -> epic] 
+
+  path: 1[2033659 -> 1478934 -> 5000065], [Blessed, Brian -> Katherine of Alexandria (2011) -> History] 
+
+  path: 2[2033659 -> 1198220 -> 2175478 -> 1871457 -> 5000194], [Blessed, Brian -> Alexander (2004) -> Kebbell, Toby -> War Horse (2011) -> War] 
+
+srcNodes: [8018522, 5001670, 1819342]
+  path: 0[4022393 -> 1481810 -> 8018522], [Jitnukul, Tanit -> Khunsuk (2003) -> epic] 
+
+  path: 1[4022393 -> 1230006 -> 5001670], [Jitnukul, Tanit -> Bangrajan (2000) -> War,Action,Drama,History] 
+
+  path: 2[4022393 -> 1481667 -> 2451965 -> 1819342], [Jitnukul, Tanit -> Khon len khong (2004) -> Platt, Tara -> The War on the War on Drugs (2002)] 
+
+srcNodes: [1360948, 5000065, 8001055]
+  path: 0[535478 -> 2122933 -> 1580355 -> 2091141 -> 1360948], ["Le dernier seigneur des Balkans" (2005) -> Giannatos, Mihalis -> Munich (2005) -> Dorr, Sabi -> Epic Movie (2007)] 
+
+  path: 1[535478 -> 5000065], ["Le dernier seigneur des Balkans" (2005) -> History] 
+
+  path: 2[535478 -> 8001055], ["Le dernier seigneur des Balkans" (2005) -> balkan-war,tv-mini-series,world-war-one,world-war-two] 
+
+-----------------------------------------
+ResultDestNodes: [1481810, 1871383, 1198220, 1324058, 2232465, 2270422, 2249272, 1396839, 1755436, 2033659, 4022393, 535478]
+ResultRelevs: [10.394692420959473, 8.878751754760742, 8.498119354248047, 8.493865966796875, 8.449406623840332, 8.356127738952637, 8.289361000061035, 8.275429725646973, 8.212804794311523, 7.9401326179504395, 7.898720741271973, 7.887504577636719]
+AvgResultRelev: 8.464576443036398
+AvgResultDissimilarity: 0.6343434343434342
+Num of entries retrieved from the KNLists: 4402
+Num of entries retrieved from NKMaps: 6785
+Num of answer trees explored: 2432
+Num of states created: 79
+Num of states explored: 13
+Num of heuristic search performed: 1
+
+Div Top-k Search by Astar1nc_ap, k=12
+[epic, history, war]
+srcNodes: [8018522, 5003808, 5003808]
+  path: 0[1481810 -> 8018522], [Khunsuk (2003) -> epic] 
+
+  path: 1[1481810 -> 5003808], [Khunsuk (2003) -> Action,History,War] 
+
+  path: 2[1481810 -> 5003808], [Khunsuk (2003) -> Action,History,War] 
+
+srcNodes: [8018522, 5000177, 1871383]
+  path: 0[1871383 -> 2270422 -> 1755436 -> 8018522], [War (2007) -> Phan, Johnson -> The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[1871383 -> 2200906 -> 1467044 -> 5000177], [War (2007) -> Li, Jet -> Jian guo da ye (2009) -> Drama,History] 
+
+  path: 2[1871383 -> 1871383], [War (2007) -> War (2007)]
+srcNodes: [8018522, 5000065, 5000194]
+  path: 0[1198220 -> 2249272 -> 1481810 -> 8018522], [Alexander (2004) -> Ngamdee, Jaran -> Khunsuk (2003) -> epic] 
+
+  path: 1[1198220 -> 2033659 -> 1478934 -> 5000065], [Alexander (2004) -> Blessed, Brian -> Katherine of Alexandria (2011) -> History] 
+
+  path: 2[1198220 -> 2175478 -> 1871457 -> 5000194], [Alexander (2004) -> Kebbell, Toby -> War Horse (2011) -> War] 
+
+srcNodes: [8010264, 5000065, 5000194]
+  path: 0[1324058 -> 8010264], [Didgori: Land of Sacrificed Knights (2009) -> battle,blacksmith,castle,christianity,cross,epic,georgia,holy-grail,mystic,spear-of-destiny,student-film,sword-fight,templar-knight] 
+
+  path: 1[1324058 -> 5000065], [Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[1324058 -> 4024162 -> 1396839 -> 5000194], [Didgori: Land of Sacrificed Knights (2009) -> Khomasuridze, Nikoloz -> Georgian: Warrior of Honor (2011) -> War] 
+
+srcNodes: [1360948, 5000065, 5000194]
+  path: 0[2232465 -> 1379558 -> 2422463 -> 1360948], [Millan, Nevin -> Flags of Our Fathers (2006) -> Mays, Jayma -> Epic Movie (2007)] 
+
+  path: 1[2232465 -> 1324058 -> 5000065], [Millan, Nevin -> Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[2232465 -> 1396839 -> 5000194], [Millan, Nevin -> Georgian: Warrior of Honor (2011) -> War] 
+
+srcNodes: [8018522, 5000177, 1871383]
+  path: 0[2270422 -> 1755436 -> 8018522], [Phan, Johnson -> The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[2270422 -> 1887823 -> 2161337 -> 1713528 -> 5000177], [Phan, Johnson -> X-Men Origins: Wolverine (2009) -> Jackman, Hugh -> Snow Flower and the Secret Fan (2011) -> Drama,History] 
+
+  path: 2[2270422 -> 1871383], [Phan, Johnson -> War (2007)] 
+
+srcNodes: [8018522, 5000065, 5000194]
+  path: 0[2249272 -> 1481810 -> 8018522], [Ngamdee, Jaran -> Khunsuk (2003) -> epic] 
+
+  path: 1[2249272 -> 1198220 -> 2033659 -> 1478934 -> 5000065], [Ngamdee, Jaran -> Alexander (2004) -> Blessed, Brian -> Katherine of Alexandria (2011) -> History] 
+
+  path: 2[2249272 -> 1198220 -> 2175478 -> 1871457 -> 5000194], [Ngamdee, Jaran -> Alexander (2004) -> Kebbell, Toby -> War Horse (2011) -> War] 
+
+srcNodes: [1360948, 5000065, 5000194]
+  path: 0[1396839 -> 2463664 -> 1272874 -> 2327631 -> 1360948], [Georgian: Warrior of Honor (2011) -> Romanoff, Lara -> Cellular (2004) -> Castro, Mary -> Epic Movie (2007)] 
+
+  path: 1[1396839 -> 4024162 -> 1324058 -> 5000065], [Georgian: Warrior of Honor (2011) -> Khomasuridze, Nikoloz -> Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+  path: 2[1396839 -> 5000194], [Georgian: Warrior of Honor (2011) -> War] 
+
+srcNodes: [8018522, 6042542, 1871383]
+  path: 0[1755436 -> 8018522], [The Battle of Burgledorf (2010) -> epic] 
+
+  path: 1[1755436 -> 2270422 -> 1887823 -> 6042542], [The Battle of Burgledorf (2010) -> Phan, Johnson -> X-Men Origins: Wolverine (2009) -> Two mutant brothers,] 
+
+  path: 2[1755436 -> 2270422 -> 1871383], [The Battle of Burgledorf (2010) -> Phan, Johnson -> War (2007)] 
+
+srcNodes: [8018522, 5000065, 5000194]
+  path: 0[2033659 -> 1198220 -> 2249272 -> 1481810 -> 8018522], [Blessed, Brian -> Alexander (2004) -> Ngamdee, Jaran -> Khunsuk (2003) -> epic] 
+
+  path: 1[2033659 -> 1478934 -> 5000065], [Blessed, Brian -> Katherine of Alexandria (2011) -> History] 
+
+  path: 2[2033659 -> 1198220 -> 2175478 -> 1871457 -> 5000194], [Blessed, Brian -> Alexander (2004) -> Kebbell, Toby -> War Horse (2011) -> War] 
+
+srcNodes: [8018522, 5001670, 1819342]
+  path: 0[4022393 -> 1481810 -> 8018522], [Jitnukul, Tanit -> Khunsuk (2003) -> epic] 
+
+  path: 1[4022393 -> 1230006 -> 5001670], [Jitnukul, Tanit -> Bangrajan (2000) -> War,Action,Drama,History] 
+
+  path: 2[4022393 -> 1481667 -> 2451965 -> 1819342], [Jitnukul, Tanit -> Khon len khong (2004) -> Platt, Tara -> The War on the War on Drugs (2002)] 
+
+srcNodes: [1360948, 5000065, 8001055]
+  path: 0[535478 -> 2122933 -> 1580355 -> 2091141 -> 1360948], ["Le dernier seigneur des Balkans" (2005) -> Giannatos, Mihalis -> Munich (2005) -> Dorr, Sabi -> Epic Movie (2007)] 
+
+  path: 1[535478 -> 5000065], ["Le dernier seigneur des Balkans" (2005) -> History] 
+
+  path: 2[535478 -> 8001055], ["Le dernier seigneur des Balkans" (2005) -> balkan-war,tv-mini-series,world-war-one,world-war-two] 
+
+-----------------------------------------
+ResultDestNodes: [1481810, 1871383, 1198220, 1324058, 2232465, 2270422, 2249272, 1396839, 1755436, 2033659, 4022393, 535478]
+ResultRelevs: [10.394692420959473, 8.878751754760742, 8.498119354248047, 8.493865966796875, 8.449406623840332, 8.356127738952637, 8.289361000061035, 8.275429725646973, 8.212804794311523, 7.9401326179504395, 7.898720741271973, 7.887504577636719]
+AvgResultRelev: 8.464576443036398
+AvgResultDissimilarity: 0.6343434343434342
+Num of entries retrieved from the KNLists: 4402
+Num of entries retrieved from NKMaps: 6785
+Num of answer trees explored: 2432
+Num of states created: 13
+Num of states explored: 13
+Num of heuristic search performed: 1
+
+query: [robot, action, sf]
+Top-k Search by Blink-BDB, k=4
+[robot, action, sf]
+srcNodes: [1073572, 5000140, 1679750]
+  path: 0[1679750 -> 2115522 -> 1435669 -> 2143011 -> 1073572], [SF: Episode One (1998) -> Fukikoshi, Mitsuru -> Howaitoauto (2000) -> Hashimoto, Satoshi (II) -> "Transformer: Car Robot" (2000)] 
+
+  path: 1[1679750 -> 2256183 -> 1492186 -> 5000140], [SF: Episode One (1998) -> Okamoto, Masahiro (III) -> Kôshônin: Mashita Masayoshi (2005) -> Action] 
+
+  path: 2[1679750 -> 1679750], [SF: Episode One (1998) -> SF: Episode One (1998)]
+srcNodes: [1442817, 5000140, 1679750]
+  path: 0[1302178 -> 2234861 -> 1442817], [Damage (2009) -> Mitchell, Phillip (I) -> I, Robot (2004)] 
+
+  path: 1[1302178 -> 5000140], [Damage (2009) -> Action] 
+
+  path: 2[1302178 -> 2287888 -> 737240 -> 2175195 -> 1679750], [Damage (2009) -> Rhodes, Donnelly -> "Proof of the Man" (2004) -> Kazama, Morio -> SF: Episode One (1998)] 
+
+srcNodes: [2292356, 5000140, 1679750]
+  path: 0[1725194 -> 2126372 -> 1536932 -> 2292356], [Starrcade: The Essential Collection (2009) -> Goldberg, Bill (I) -> Looney Tunes: Back in Action (2003) -> Robot, Robby the] 
+
+  path: 1[1725194 -> 5000140], [Starrcade: The Essential Collection (2009) -> Action] 
+
+  path: 2[1725194 -> 2063065 -> 1477210 -> 2256183 -> 1679750], [Starrcade: The Essential Collection (2009) -> Chôno, Masahiro -> Kantoku · Banzai! (2007) -> Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+srcNodes: [8009967, 5000140, 1679750]
+  path: 0[2256183 -> 1405580 -> 2303908 -> 1315199 -> 8009967], [Okamoto, Masahiro (III) -> Gosurori shokeinin (2010) -> Asami (II) -> Denjin Zabôgâ: Gekijô-ban (2011) -> based-on-television-series,based-on-tv-series,based-on-tv-show,blue,motorcycle,red,robot,scantily-clad-female,tokusatsu,transforming-robot,yellow] 
+
+  path: 1[2256183 -> 1492186 -> 5000140], [Okamoto, Masahiro (III) -> Kôshônin: Mashita Masayoshi (2005) -> Action] 
+
+  path: 2[2256183 -> 1679750], [Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+-----------------------------------------
+Num of top-k answers: 4
+ResultDestNodes: [1679750, 1302178, 1725194, 2256183]
+ResultRelevs: [9.81962776184082, 8.472618103027344, 8.367293357849121, 8.338920593261719]
+AvgResultRelev: 8.749614953994751
+AvgResultDissimilarity: 0.3333333333333333
+Num of entries retrieved from the lists: 2317
+Num of entries retrieved from NKMaps: 4137
+Num of answer trees explored: 984
+
+Div Top-k Search by Exhustive, k=4
+[robot, action, sf]
+srcNodes: [1073572, 5000140, 1679750]
+  path: 0[1679750 -> 2115522 -> 1435669 -> 2143011 -> 1073572], [SF: Episode One (1998) -> Fukikoshi, Mitsuru -> Howaitoauto (2000) -> Hashimoto, Satoshi (II) -> "Transformer: Car Robot" (2000)] 
+
+  path: 1[1679750 -> 2256183 -> 1492186 -> 5000140], [SF: Episode One (1998) -> Okamoto, Masahiro (III) -> Kôshônin: Mashita Masayoshi (2005) -> Action] 
+
+  path: 2[1679750 -> 1679750], [SF: Episode One (1998) -> SF: Episode One (1998)]
+srcNodes: [1442817, 5000140, 1679750]
+  path: 0[1302178 -> 2234861 -> 1442817], [Damage (2009) -> Mitchell, Phillip (I) -> I, Robot (2004)] 
+
+  path: 1[1302178 -> 5000140], [Damage (2009) -> Action] 
+
+  path: 2[1302178 -> 2287888 -> 737240 -> 2175195 -> 1679750], [Damage (2009) -> Rhodes, Donnelly -> "Proof of the Man" (2004) -> Kazama, Morio -> SF: Episode One (1998)] 
+
+srcNodes: [2292356, 1536932, 1679750]
+  path: 0[1536932 -> 2292356], [Looney Tunes: Back in Action (2003) -> Robot, Robby the] 
+
+  path: 1[1536932 -> 1536932], [Looney Tunes: Back in Action (2003) -> Looney Tunes: Back in Action (2003)]
+  path: 2[1536932 -> 2028402 -> 1694085 -> 2436745 -> 1679750], [Looney Tunes: Back in Action (2003) -> Bergen, Bob (I) -> Sen to Chihiro no kamikakushi (2001) -> Natsuki, Mari -> SF: Episode One (1998)] 
+
+srcNodes: [1073572, 5006038, 1679750]
+  path: 0[2175195 -> 1694314 -> 2143011 -> 1073572], [Kazama, Morio -> Sennen no koi - Hikaru Genji monogatari (2001) -> Hashimoto, Satoshi (II) -> "Transformer: Car Robot" (2000)] 
+
+  path: 1[2175195 -> 1841754 -> 5006038], [Kazama, Morio -> Tsubaki Sanjûrô (2007) -> Action,Drama,History,Action] 
+
+  path: 2[2175195 -> 1679750], [Kazama, Morio -> SF: Episode One (1998)] 
+
+-----------------------------------------
+ResultDestNodes: [1679750, 1302178, 1536932, 2175195]
+ResultRelevs: [9.81962776184082, 8.472618103027344, 8.241310119628906, 8.229083061218262]
+AvgResultRelev: 8.690659761428833
+AvgResultDissimilarity: 0.555555542310079
+Num of entries retrieved from the KNLists: 4320
+Num of entries retrieved from NKMaps: 7902
+Num of answer trees explored: 1932
+Num of answer tree sets created: 47
+Num of answer tree sets removed: 100
+
+Div Top-k Search by Astar02, k=4
+[robot, action, sf]
+srcNodes: [1073572, 5000140, 1679750]
+  path: 0[1679750 -> 2115522 -> 1435669 -> 2143011 -> 1073572], [SF: Episode One (1998) -> Fukikoshi, Mitsuru -> Howaitoauto (2000) -> Hashimoto, Satoshi (II) -> "Transformer: Car Robot" (2000)] 
+
+  path: 1[1679750 -> 2256183 -> 1492186 -> 5000140], [SF: Episode One (1998) -> Okamoto, Masahiro (III) -> Kôshônin: Mashita Masayoshi (2005) -> Action] 
+
+  path: 2[1679750 -> 1679750], [SF: Episode One (1998) -> SF: Episode One (1998)]
+srcNodes: [1442817, 5000140, 1679750]
+  path: 0[1302178 -> 2234861 -> 1442817], [Damage (2009) -> Mitchell, Phillip (I) -> I, Robot (2004)] 
+
+  path: 1[1302178 -> 5000140], [Damage (2009) -> Action] 
+
+  path: 2[1302178 -> 2287888 -> 737240 -> 2175195 -> 1679750], [Damage (2009) -> Rhodes, Donnelly -> "Proof of the Man" (2004) -> Kazama, Morio -> SF: Episode One (1998)] 
+
+srcNodes: [2292356, 1536932, 1679750]
+  path: 0[1536932 -> 2292356], [Looney Tunes: Back in Action (2003) -> Robot, Robby the] 
+
+  path: 1[1536932 -> 1536932], [Looney Tunes: Back in Action (2003) -> Looney Tunes: Back in Action (2003)]
+  path: 2[1536932 -> 2028402 -> 1694085 -> 2436745 -> 1679750], [Looney Tunes: Back in Action (2003) -> Bergen, Bob (I) -> Sen to Chihiro no kamikakushi (2001) -> Natsuki, Mari -> SF: Episode One (1998)] 
+
+srcNodes: [1073572, 5006038, 1679750]
+  path: 0[2175195 -> 1694314 -> 2143011 -> 1073572], [Kazama, Morio -> Sennen no koi - Hikaru Genji monogatari (2001) -> Hashimoto, Satoshi (II) -> "Transformer: Car Robot" (2000)] 
+
+  path: 1[2175195 -> 1841754 -> 5006038], [Kazama, Morio -> Tsubaki Sanjûrô (2007) -> Action,Drama,History,Action] 
+
+  path: 2[2175195 -> 1679750], [Kazama, Morio -> SF: Episode One (1998)] 
+
+-----------------------------------------
+ResultDestNodes: [1679750, 1302178, 1536932, 2175195]
+ResultRelevs: [9.81962776184082, 8.472618103027344, 8.241310119628906, 8.229083061218262]
+AvgResultRelev: 8.690659761428833
+AvgResultDissimilarity: 0.5555555555555555
+Num of entries retrieved from the KNLists: 4320
+Num of entries retrieved from NKMaps: 7902
+Num of answer trees explored: 1932
+Num of states created: 76
+Num of states explored: 64
+Num of heuristic search performed: 6
+
+Div Top-k Search by Astar1nc_ap, k=4
+[robot, action, sf]
+srcNodes: [1073572, 5000140, 1679750]
+  path: 0[1679750 -> 2115522 -> 1435669 -> 2143011 -> 1073572], [SF: Episode One (1998) -> Fukikoshi, Mitsuru -> Howaitoauto (2000) -> Hashimoto, Satoshi (II) -> "Transformer: Car Robot" (2000)] 
+
+  path: 1[1679750 -> 2256183 -> 1492186 -> 5000140], [SF: Episode One (1998) -> Okamoto, Masahiro (III) -> Kôshônin: Mashita Masayoshi (2005) -> Action] 
+
+  path: 2[1679750 -> 1679750], [SF: Episode One (1998) -> SF: Episode One (1998)]
+srcNodes: [1442817, 5000140, 1679750]
+  path: 0[1302178 -> 2234861 -> 1442817], [Damage (2009) -> Mitchell, Phillip (I) -> I, Robot (2004)] 
+
+  path: 1[1302178 -> 5000140], [Damage (2009) -> Action] 
+
+  path: 2[1302178 -> 2287888 -> 737240 -> 2175195 -> 1679750], [Damage (2009) -> Rhodes, Donnelly -> "Proof of the Man" (2004) -> Kazama, Morio -> SF: Episode One (1998)] 
+
+srcNodes: [2292356, 1536932, 1679750]
+  path: 0[1536932 -> 2292356], [Looney Tunes: Back in Action (2003) -> Robot, Robby the] 
+
+  path: 1[1536932 -> 1536932], [Looney Tunes: Back in Action (2003) -> Looney Tunes: Back in Action (2003)]
+  path: 2[1536932 -> 2028402 -> 1694085 -> 2436745 -> 1679750], [Looney Tunes: Back in Action (2003) -> Bergen, Bob (I) -> Sen to Chihiro no kamikakushi (2001) -> Natsuki, Mari -> SF: Episode One (1998)] 
+
+srcNodes: [1073572, 5006038, 1679750]
+  path: 0[2175195 -> 1694314 -> 2143011 -> 1073572], [Kazama, Morio -> Sennen no koi - Hikaru Genji monogatari (2001) -> Hashimoto, Satoshi (II) -> "Transformer: Car Robot" (2000)] 
+
+  path: 1[2175195 -> 1841754 -> 5006038], [Kazama, Morio -> Tsubaki Sanjûrô (2007) -> Action,Drama,History,Action] 
+
+  path: 2[2175195 -> 1679750], [Kazama, Morio -> SF: Episode One (1998)] 
+
+-----------------------------------------
+ResultDestNodes: [1679750, 1302178, 1536932, 2175195]
+ResultRelevs: [9.81962776184082, 8.472618103027344, 8.241310119628906, 8.229083061218262]
+AvgResultRelev: 8.690659761428833
+AvgResultDissimilarity: 0.5555555555555555
+Num of entries retrieved from the KNLists: 4320
+Num of entries retrieved from NKMaps: 7902
+Num of answer trees explored: 1932
+Num of states created: 50
+Num of states explored: 25
+Num of heuristic search performed: 6
+
+Top-k Search by Blink-BDB, k=8
+[robot, action, sf]
+srcNodes: [1073572, 5000140, 1679750]
+  path: 0[1679750 -> 2115522 -> 1435669 -> 2143011 -> 1073572], [SF: Episode One (1998) -> Fukikoshi, Mitsuru -> Howaitoauto (2000) -> Hashimoto, Satoshi (II) -> "Transformer: Car Robot" (2000)] 
+
+  path: 1[1679750 -> 2256183 -> 1492186 -> 5000140], [SF: Episode One (1998) -> Okamoto, Masahiro (III) -> Kôshônin: Mashita Masayoshi (2005) -> Action] 
+
+  path: 2[1679750 -> 1679750], [SF: Episode One (1998) -> SF: Episode One (1998)]
+srcNodes: [1442817, 5000140, 1679750]
+  path: 0[1302178 -> 2234861 -> 1442817], [Damage (2009) -> Mitchell, Phillip (I) -> I, Robot (2004)] 
+
+  path: 1[1302178 -> 5000140], [Damage (2009) -> Action] 
+
+  path: 2[1302178 -> 2287888 -> 737240 -> 2175195 -> 1679750], [Damage (2009) -> Rhodes, Donnelly -> "Proof of the Man" (2004) -> Kazama, Morio -> SF: Episode One (1998)] 
+
+srcNodes: [2292356, 5000140, 1679750]
+  path: 0[1725194 -> 2126372 -> 1536932 -> 2292356], [Starrcade: The Essential Collection (2009) -> Goldberg, Bill (I) -> Looney Tunes: Back in Action (2003) -> Robot, Robby the] 
+
+  path: 1[1725194 -> 5000140], [Starrcade: The Essential Collection (2009) -> Action] 
+
+  path: 2[1725194 -> 2063065 -> 1477210 -> 2256183 -> 1679750], [Starrcade: The Essential Collection (2009) -> Chôno, Masahiro -> Kantoku · Banzai! (2007) -> Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+srcNodes: [8009967, 5000140, 1679750]
+  path: 0[2256183 -> 1405580 -> 2303908 -> 1315199 -> 8009967], [Okamoto, Masahiro (III) -> Gosurori shokeinin (2010) -> Asami (II) -> Denjin Zabôgâ: Gekijô-ban (2011) -> based-on-television-series,based-on-tv-series,based-on-tv-show,blue,motorcycle,red,robot,scantily-clad-female,tokusatsu,transforming-robot,yellow] 
+
+  path: 1[2256183 -> 1492186 -> 5000140], [Okamoto, Masahiro (III) -> Kôshônin: Mashita Masayoshi (2005) -> Action] 
+
+  path: 2[2256183 -> 1679750], [Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+srcNodes: [2292356, 1536932, 1679750]
+  path: 0[1536932 -> 2292356], [Looney Tunes: Back in Action (2003) -> Robot, Robby the] 
+
+  path: 1[1536932 -> 1536932], [Looney Tunes: Back in Action (2003) -> Looney Tunes: Back in Action (2003)]
+  path: 2[1536932 -> 2028402 -> 1694085 -> 2436745 -> 1679750], [Looney Tunes: Back in Action (2003) -> Bergen, Bob (I) -> Sen to Chihiro no kamikakushi (2001) -> Natsuki, Mari -> SF: Episode One (1998)] 
+
+srcNodes: [1073572, 5006038, 1679750]
+  path: 0[2175195 -> 1694314 -> 2143011 -> 1073572], [Kazama, Morio -> Sennen no koi - Hikaru Genji monogatari (2001) -> Hashimoto, Satoshi (II) -> "Transformer: Car Robot" (2000)] 
+
+  path: 1[2175195 -> 1841754 -> 5006038], [Kazama, Morio -> Tsubaki Sanjûrô (2007) -> Action,Drama,History,Action] 
+
+  path: 2[2175195 -> 1679750], [Kazama, Morio -> SF: Episode One (1998)] 
+
+srcNodes: [8018293, 5000140, 1679750]
+  path: 0[1492186 -> 2256183 -> 1477210 -> 8018293], [Kôshônin: Mashita Masayoshi (2005) -> Okamoto, Masahiro (III) -> Kantoku · Banzai! (2007) -> 1950s,blood,bomb,bridge,car,car-accident,directed-by-star,doll,duck,escape,fighting,filmmaker,inflatable-doll,japan,lake,letter,ninja,police,puppet,robot,rocket,samurai,setagaya,sex-education,shinkansen,tokyo-japan,train,yakuza,zatoichi] 
+
+  path: 1[1492186 -> 5000140], [Kôshônin: Mashita Masayoshi (2005) -> Action] 
+
+  path: 2[1492186 -> 2256183 -> 1679750], [Kôshônin: Mashita Masayoshi (2005) -> Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+srcNodes: [1073572, 5001119, 1679750]
+  path: 0[1435669 -> 2143011 -> 1073572], [Howaitoauto (2000) -> Hashimoto, Satoshi (II) -> "Transformer: Car Robot" (2000)] 
+
+  path: 1[1435669 -> 5001119], [Howaitoauto (2000) -> Action,Thriller] 
+
+  path: 2[1435669 -> 2115522 -> 1679750], [Howaitoauto (2000) -> Fukikoshi, Mitsuru -> SF: Episode One (1998)] 
+
+-----------------------------------------
+Num of top-k answers: 8
+ResultDestNodes: [1679750, 1302178, 1725194, 2256183, 1536932, 2175195, 1492186, 1435669]
+ResultRelevs: [9.81962776184082, 8.472618103027344, 8.367293357849121, 8.338920593261719, 8.241310119628906, 8.229083061218262, 8.15748119354248, 8.11936092376709]
+AvgResultRelev: 8.468211889266968
+AvgResultDissimilarity: 0.49999999999999994
+Num of entries retrieved from the lists: 4320
+Num of entries retrieved from NKMaps: 7902
+Num of answer trees explored: 1932
+
+Div Top-k Search by Exhustive, k=8
+[robot, action, sf]
+srcNodes: [1073572, 5000140, 1679750]
+  path: 0[1679750 -> 2115522 -> 1435669 -> 2143011 -> 1073572], [SF: Episode One (1998) -> Fukikoshi, Mitsuru -> Howaitoauto (2000) -> Hashimoto, Satoshi (II) -> "Transformer: Car Robot" (2000)] 
+
+  path: 1[1679750 -> 2256183 -> 1492186 -> 5000140], [SF: Episode One (1998) -> Okamoto, Masahiro (III) -> Kôshônin: Mashita Masayoshi (2005) -> Action] 
+
+  path: 2[1679750 -> 1679750], [SF: Episode One (1998) -> SF: Episode One (1998)]
+srcNodes: [1442817, 5000140, 1679750]
+  path: 0[1302178 -> 2234861 -> 1442817], [Damage (2009) -> Mitchell, Phillip (I) -> I, Robot (2004)] 
+
+  path: 1[1302178 -> 5000140], [Damage (2009) -> Action] 
+
+  path: 2[1302178 -> 2287888 -> 737240 -> 2175195 -> 1679750], [Damage (2009) -> Rhodes, Donnelly -> "Proof of the Man" (2004) -> Kazama, Morio -> SF: Episode One (1998)] 
+
+srcNodes: [2292356, 5000140, 1679750]
+  path: 0[1725194 -> 2126372 -> 1536932 -> 2292356], [Starrcade: The Essential Collection (2009) -> Goldberg, Bill (I) -> Looney Tunes: Back in Action (2003) -> Robot, Robby the] 
+
+  path: 1[1725194 -> 5000140], [Starrcade: The Essential Collection (2009) -> Action] 
+
+  path: 2[1725194 -> 2063065 -> 1477210 -> 2256183 -> 1679750], [Starrcade: The Essential Collection (2009) -> Chôno, Masahiro -> Kantoku · Banzai! (2007) -> Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+srcNodes: [8009967, 5000140, 1679750]
+  path: 0[2256183 -> 1405580 -> 2303908 -> 1315199 -> 8009967], [Okamoto, Masahiro (III) -> Gosurori shokeinin (2010) -> Asami (II) -> Denjin Zabôgâ: Gekijô-ban (2011) -> based-on-television-series,based-on-tv-series,based-on-tv-show,blue,motorcycle,red,robot,scantily-clad-female,tokusatsu,transforming-robot,yellow] 
+
+  path: 1[2256183 -> 1492186 -> 5000140], [Okamoto, Masahiro (III) -> Kôshônin: Mashita Masayoshi (2005) -> Action] 
+
+  path: 2[2256183 -> 1679750], [Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+srcNodes: [2292356, 1536932, 1679750]
+  path: 0[1536932 -> 2292356], [Looney Tunes: Back in Action (2003) -> Robot, Robby the] 
+
+  path: 1[1536932 -> 1536932], [Looney Tunes: Back in Action (2003) -> Looney Tunes: Back in Action (2003)]
+  path: 2[1536932 -> 2028402 -> 1694085 -> 2436745 -> 1679750], [Looney Tunes: Back in Action (2003) -> Bergen, Bob (I) -> Sen to Chihiro no kamikakushi (2001) -> Natsuki, Mari -> SF: Episode One (1998)] 
+
+srcNodes: [1073572, 5006038, 1679750]
+  path: 0[2175195 -> 1694314 -> 2143011 -> 1073572], [Kazama, Morio -> Sennen no koi - Hikaru Genji monogatari (2001) -> Hashimoto, Satoshi (II) -> "Transformer: Car Robot" (2000)] 
+
+  path: 1[2175195 -> 1841754 -> 5006038], [Kazama, Morio -> Tsubaki Sanjûrô (2007) -> Action,Drama,History,Action] 
+
+  path: 2[2175195 -> 1679750], [Kazama, Morio -> SF: Episode One (1998)] 
+
+srcNodes: [1073572, 5001119, 1679750]
+  path: 0[1435669 -> 2143011 -> 1073572], [Howaitoauto (2000) -> Hashimoto, Satoshi (II) -> "Transformer: Car Robot" (2000)] 
+
+  path: 1[1435669 -> 5001119], [Howaitoauto (2000) -> Action,Thriller] 
+
+  path: 2[1435669 -> 2115522 -> 1679750], [Howaitoauto (2000) -> Fukikoshi, Mitsuru -> SF: Episode One (1998)] 
+
+srcNodes: [8000256, 5000140, 1679750]
+  path: 0[1395586 -> 2232043 -> 121090 -> 8000256], [Gekijô-ban Kamen Raidâ Den-Ô: Ore, tanjô! (2007) -> Miki, Shinichirô -> "Brain Powerd" (1998) -> anime,giant-robot,piloted-giant-robot] 
+
+  path: 1[1395586 -> 5000140], [Gekijô-ban Kamen Raidâ Den-Ô: Ore, tanjô! (2007) -> Action] 
+
+  path: 2[1395586 -> 2298202 -> 1405580 -> 2256183 -> 1679750], [Gekijô-ban Kamen Raidâ Den-Ô: Ore, tanjô! (2007) -> Akiyama, Rina -> Gosurori shokeinin (2010) -> Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+-----------------------------------------
+ResultDestNodes: [1679750, 1302178, 1725194, 2256183, 1536932, 2175195, 1435669, 1395586]
+ResultRelevs: [9.81962776184082, 8.472618103027344, 8.367293357849121, 8.338920593261719, 8.241310119628906, 8.229083061218262, 8.11936092376709, 8.055523872375488]
+AvgResultRelev: 8.455467224121094
+AvgResultDissimilarity: 0.5
+Num of entries retrieved from the KNLists: 4320
+Num of entries retrieved from NKMaps: 7902
+Num of answer trees explored: 1932
+Num of answer tree sets created: 507
+Num of answer tree sets removed: 1018
+
+Div Top-k Search by Astar02, k=8
+[robot, action, sf]
+srcNodes: [1073572, 5000140, 1679750]
+  path: 0[1679750 -> 2115522 -> 1435669 -> 2143011 -> 1073572], [SF: Episode One (1998) -> Fukikoshi, Mitsuru -> Howaitoauto (2000) -> Hashimoto, Satoshi (II) -> "Transformer: Car Robot" (2000)] 
+
+  path: 1[1679750 -> 2256183 -> 1492186 -> 5000140], [SF: Episode One (1998) -> Okamoto, Masahiro (III) -> Kôshônin: Mashita Masayoshi (2005) -> Action] 
+
+  path: 2[1679750 -> 1679750], [SF: Episode One (1998) -> SF: Episode One (1998)]
+srcNodes: [1442817, 5000140, 1679750]
+  path: 0[1302178 -> 2234861 -> 1442817], [Damage (2009) -> Mitchell, Phillip (I) -> I, Robot (2004)] 
+
+  path: 1[1302178 -> 5000140], [Damage (2009) -> Action] 
+
+  path: 2[1302178 -> 2287888 -> 737240 -> 2175195 -> 1679750], [Damage (2009) -> Rhodes, Donnelly -> "Proof of the Man" (2004) -> Kazama, Morio -> SF: Episode One (1998)] 
+
+srcNodes: [2292356, 5000140, 1679750]
+  path: 0[1725194 -> 2126372 -> 1536932 -> 2292356], [Starrcade: The Essential Collection (2009) -> Goldberg, Bill (I) -> Looney Tunes: Back in Action (2003) -> Robot, Robby the] 
+
+  path: 1[1725194 -> 5000140], [Starrcade: The Essential Collection (2009) -> Action] 
+
+  path: 2[1725194 -> 2063065 -> 1477210 -> 2256183 -> 1679750], [Starrcade: The Essential Collection (2009) -> Chôno, Masahiro -> Kantoku · Banzai! (2007) -> Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+srcNodes: [8009967, 5000140, 1679750]
+  path: 0[2256183 -> 1405580 -> 2303908 -> 1315199 -> 8009967], [Okamoto, Masahiro (III) -> Gosurori shokeinin (2010) -> Asami (II) -> Denjin Zabôgâ: Gekijô-ban (2011) -> based-on-television-series,based-on-tv-series,based-on-tv-show,blue,motorcycle,red,robot,scantily-clad-female,tokusatsu,transforming-robot,yellow] 
+
+  path: 1[2256183 -> 1492186 -> 5000140], [Okamoto, Masahiro (III) -> Kôshônin: Mashita Masayoshi (2005) -> Action] 
+
+  path: 2[2256183 -> 1679750], [Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+srcNodes: [2292356, 1536932, 1679750]
+  path: 0[1536932 -> 2292356], [Looney Tunes: Back in Action (2003) -> Robot, Robby the] 
+
+  path: 1[1536932 -> 1536932], [Looney Tunes: Back in Action (2003) -> Looney Tunes: Back in Action (2003)]
+  path: 2[1536932 -> 2028402 -> 1694085 -> 2436745 -> 1679750], [Looney Tunes: Back in Action (2003) -> Bergen, Bob (I) -> Sen to Chihiro no kamikakushi (2001) -> Natsuki, Mari -> SF: Episode One (1998)] 
+
+srcNodes: [1073572, 5006038, 1679750]
+  path: 0[2175195 -> 1694314 -> 2143011 -> 1073572], [Kazama, Morio -> Sennen no koi - Hikaru Genji monogatari (2001) -> Hashimoto, Satoshi (II) -> "Transformer: Car Robot" (2000)] 
+
+  path: 1[2175195 -> 1841754 -> 5006038], [Kazama, Morio -> Tsubaki Sanjûrô (2007) -> Action,Drama,History,Action] 
+
+  path: 2[2175195 -> 1679750], [Kazama, Morio -> SF: Episode One (1998)] 
+
+srcNodes: [1073572, 5001119, 1679750]
+  path: 0[1435669 -> 2143011 -> 1073572], [Howaitoauto (2000) -> Hashimoto, Satoshi (II) -> "Transformer: Car Robot" (2000)] 
+
+  path: 1[1435669 -> 5001119], [Howaitoauto (2000) -> Action,Thriller] 
+
+  path: 2[1435669 -> 2115522 -> 1679750], [Howaitoauto (2000) -> Fukikoshi, Mitsuru -> SF: Episode One (1998)] 
+
+srcNodes: [8000256, 5000140, 1679750]
+  path: 0[1395586 -> 2232043 -> 121090 -> 8000256], [Gekijô-ban Kamen Raidâ Den-Ô: Ore, tanjô! (2007) -> Miki, Shinichirô -> "Brain Powerd" (1998) -> anime,giant-robot,piloted-giant-robot] 
+
+  path: 1[1395586 -> 5000140], [Gekijô-ban Kamen Raidâ Den-Ô: Ore, tanjô! (2007) -> Action] 
+
+  path: 2[1395586 -> 2298202 -> 1405580 -> 2256183 -> 1679750], [Gekijô-ban Kamen Raidâ Den-Ô: Ore, tanjô! (2007) -> Akiyama, Rina -> Gosurori shokeinin (2010) -> Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+-----------------------------------------
+ResultDestNodes: [1679750, 1302178, 1725194, 2256183, 1536932, 2175195, 1435669, 1395586]
+ResultRelevs: [9.81962776184082, 8.472618103027344, 8.367293357849121, 8.338920593261719, 8.241310119628906, 8.229083061218262, 8.11936092376709, 8.055523872375488]
+AvgResultRelev: 8.455467224121094
+AvgResultDissimilarity: 0.5
+Num of entries retrieved from the KNLists: 4320
+Num of entries retrieved from NKMaps: 7902
+Num of answer trees explored: 1932
+Num of states created: 588
+Num of states explored: 528
+Num of heuristic search performed: 4
+
+Div Top-k Search by Astar1nc_ap, k=8
+[robot, action, sf]
+srcNodes: [1073572, 5000140, 1679750]
+  path: 0[1679750 -> 2115522 -> 1435669 -> 2143011 -> 1073572], [SF: Episode One (1998) -> Fukikoshi, Mitsuru -> Howaitoauto (2000) -> Hashimoto, Satoshi (II) -> "Transformer: Car Robot" (2000)] 
+
+  path: 1[1679750 -> 2256183 -> 1492186 -> 5000140], [SF: Episode One (1998) -> Okamoto, Masahiro (III) -> Kôshônin: Mashita Masayoshi (2005) -> Action] 
+
+  path: 2[1679750 -> 1679750], [SF: Episode One (1998) -> SF: Episode One (1998)]
+srcNodes: [1442817, 5000140, 1679750]
+  path: 0[1302178 -> 2234861 -> 1442817], [Damage (2009) -> Mitchell, Phillip (I) -> I, Robot (2004)] 
+
+  path: 1[1302178 -> 5000140], [Damage (2009) -> Action] 
+
+  path: 2[1302178 -> 2287888 -> 737240 -> 2175195 -> 1679750], [Damage (2009) -> Rhodes, Donnelly -> "Proof of the Man" (2004) -> Kazama, Morio -> SF: Episode One (1998)] 
+
+srcNodes: [2292356, 5000140, 1679750]
+  path: 0[1725194 -> 2126372 -> 1536932 -> 2292356], [Starrcade: The Essential Collection (2009) -> Goldberg, Bill (I) -> Looney Tunes: Back in Action (2003) -> Robot, Robby the] 
+
+  path: 1[1725194 -> 5000140], [Starrcade: The Essential Collection (2009) -> Action] 
+
+  path: 2[1725194 -> 2063065 -> 1477210 -> 2256183 -> 1679750], [Starrcade: The Essential Collection (2009) -> Chôno, Masahiro -> Kantoku · Banzai! (2007) -> Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+srcNodes: [8009967, 5000140, 1679750]
+  path: 0[2256183 -> 1405580 -> 2303908 -> 1315199 -> 8009967], [Okamoto, Masahiro (III) -> Gosurori shokeinin (2010) -> Asami (II) -> Denjin Zabôgâ: Gekijô-ban (2011) -> based-on-television-series,based-on-tv-series,based-on-tv-show,blue,motorcycle,red,robot,scantily-clad-female,tokusatsu,transforming-robot,yellow] 
+
+  path: 1[2256183 -> 1492186 -> 5000140], [Okamoto, Masahiro (III) -> Kôshônin: Mashita Masayoshi (2005) -> Action] 
+
+  path: 2[2256183 -> 1679750], [Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+srcNodes: [2292356, 1536932, 1679750]
+  path: 0[1536932 -> 2292356], [Looney Tunes: Back in Action (2003) -> Robot, Robby the] 
+
+  path: 1[1536932 -> 1536932], [Looney Tunes: Back in Action (2003) -> Looney Tunes: Back in Action (2003)]
+  path: 2[1536932 -> 2028402 -> 1694085 -> 2436745 -> 1679750], [Looney Tunes: Back in Action (2003) -> Bergen, Bob (I) -> Sen to Chihiro no kamikakushi (2001) -> Natsuki, Mari -> SF: Episode One (1998)] 
+
+srcNodes: [1073572, 5006038, 1679750]
+  path: 0[2175195 -> 1694314 -> 2143011 -> 1073572], [Kazama, Morio -> Sennen no koi - Hikaru Genji monogatari (2001) -> Hashimoto, Satoshi (II) -> "Transformer: Car Robot" (2000)] 
+
+  path: 1[2175195 -> 1841754 -> 5006038], [Kazama, Morio -> Tsubaki Sanjûrô (2007) -> Action,Drama,History,Action] 
+
+  path: 2[2175195 -> 1679750], [Kazama, Morio -> SF: Episode One (1998)] 
+
+srcNodes: [1073572, 5001119, 1679750]
+  path: 0[1435669 -> 2143011 -> 1073572], [Howaitoauto (2000) -> Hashimoto, Satoshi (II) -> "Transformer: Car Robot" (2000)] 
+
+  path: 1[1435669 -> 5001119], [Howaitoauto (2000) -> Action,Thriller] 
+
+  path: 2[1435669 -> 2115522 -> 1679750], [Howaitoauto (2000) -> Fukikoshi, Mitsuru -> SF: Episode One (1998)] 
+
+srcNodes: [8000256, 5000140, 1679750]
+  path: 0[1395586 -> 2232043 -> 121090 -> 8000256], [Gekijô-ban Kamen Raidâ Den-Ô: Ore, tanjô! (2007) -> Miki, Shinichirô -> "Brain Powerd" (1998) -> anime,giant-robot,piloted-giant-robot] 
+
+  path: 1[1395586 -> 5000140], [Gekijô-ban Kamen Raidâ Den-Ô: Ore, tanjô! (2007) -> Action] 
+
+  path: 2[1395586 -> 2298202 -> 1405580 -> 2256183 -> 1679750], [Gekijô-ban Kamen Raidâ Den-Ô: Ore, tanjô! (2007) -> Akiyama, Rina -> Gosurori shokeinin (2010) -> Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+-----------------------------------------
+ResultDestNodes: [1679750, 1302178, 1725194, 2256183, 1536932, 2175195, 1435669, 1395586]
+ResultRelevs: [9.81962776184082, 8.472618103027344, 8.367293357849121, 8.338920593261719, 8.241310119628906, 8.229083061218262, 8.11936092376709, 8.055523872375488]
+AvgResultRelev: 8.455467224121094
+AvgResultDissimilarity: 0.5
+Num of entries retrieved from the KNLists: 4320
+Num of entries retrieved from NKMaps: 7902
+Num of answer trees explored: 1932
+Num of states created: 66
+Num of states explored: 32
+Num of heuristic search performed: 4
+
+Top-k Search by Blink-BDB, k=12
+[robot, action, sf]
+srcNodes: [1073572, 5000140, 1679750]
+  path: 0[1679750 -> 2115522 -> 1435669 -> 2143011 -> 1073572], [SF: Episode One (1998) -> Fukikoshi, Mitsuru -> Howaitoauto (2000) -> Hashimoto, Satoshi (II) -> "Transformer: Car Robot" (2000)] 
+
+  path: 1[1679750 -> 2256183 -> 1492186 -> 5000140], [SF: Episode One (1998) -> Okamoto, Masahiro (III) -> Kôshônin: Mashita Masayoshi (2005) -> Action] 
+
+  path: 2[1679750 -> 1679750], [SF: Episode One (1998) -> SF: Episode One (1998)]
+srcNodes: [1442817, 5000140, 1679750]
+  path: 0[1302178 -> 2234861 -> 1442817], [Damage (2009) -> Mitchell, Phillip (I) -> I, Robot (2004)] 
+
+  path: 1[1302178 -> 5000140], [Damage (2009) -> Action] 
+
+  path: 2[1302178 -> 2287888 -> 737240 -> 2175195 -> 1679750], [Damage (2009) -> Rhodes, Donnelly -> "Proof of the Man" (2004) -> Kazama, Morio -> SF: Episode One (1998)] 
+
+srcNodes: [2292356, 5000140, 1679750]
+  path: 0[1725194 -> 2126372 -> 1536932 -> 2292356], [Starrcade: The Essential Collection (2009) -> Goldberg, Bill (I) -> Looney Tunes: Back in Action (2003) -> Robot, Robby the] 
+
+  path: 1[1725194 -> 5000140], [Starrcade: The Essential Collection (2009) -> Action] 
+
+  path: 2[1725194 -> 2063065 -> 1477210 -> 2256183 -> 1679750], [Starrcade: The Essential Collection (2009) -> Chôno, Masahiro -> Kantoku · Banzai! (2007) -> Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+srcNodes: [8009967, 5000140, 1679750]
+  path: 0[2256183 -> 1405580 -> 2303908 -> 1315199 -> 8009967], [Okamoto, Masahiro (III) -> Gosurori shokeinin (2010) -> Asami (II) -> Denjin Zabôgâ: Gekijô-ban (2011) -> based-on-television-series,based-on-tv-series,based-on-tv-show,blue,motorcycle,red,robot,scantily-clad-female,tokusatsu,transforming-robot,yellow] 
+
+  path: 1[2256183 -> 1492186 -> 5000140], [Okamoto, Masahiro (III) -> Kôshônin: Mashita Masayoshi (2005) -> Action] 
+
+  path: 2[2256183 -> 1679750], [Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+srcNodes: [2292356, 1536932, 1679750]
+  path: 0[1536932 -> 2292356], [Looney Tunes: Back in Action (2003) -> Robot, Robby the] 
+
+  path: 1[1536932 -> 1536932], [Looney Tunes: Back in Action (2003) -> Looney Tunes: Back in Action (2003)]
+  path: 2[1536932 -> 2028402 -> 1694085 -> 2436745 -> 1679750], [Looney Tunes: Back in Action (2003) -> Bergen, Bob (I) -> Sen to Chihiro no kamikakushi (2001) -> Natsuki, Mari -> SF: Episode One (1998)] 
+
+srcNodes: [1073572, 5006038, 1679750]
+  path: 0[2175195 -> 1694314 -> 2143011 -> 1073572], [Kazama, Morio -> Sennen no koi - Hikaru Genji monogatari (2001) -> Hashimoto, Satoshi (II) -> "Transformer: Car Robot" (2000)] 
+
+  path: 1[2175195 -> 1841754 -> 5006038], [Kazama, Morio -> Tsubaki Sanjûrô (2007) -> Action,Drama,History,Action] 
+
+  path: 2[2175195 -> 1679750], [Kazama, Morio -> SF: Episode One (1998)] 
+
+srcNodes: [8018293, 5000140, 1679750]
+  path: 0[1492186 -> 2256183 -> 1477210 -> 8018293], [Kôshônin: Mashita Masayoshi (2005) -> Okamoto, Masahiro (III) -> Kantoku · Banzai! (2007) -> 1950s,blood,bomb,bridge,car,car-accident,directed-by-star,doll,duck,escape,fighting,filmmaker,inflatable-doll,japan,lake,letter,ninja,police,puppet,robot,rocket,samurai,setagaya,sex-education,shinkansen,tokyo-japan,train,yakuza,zatoichi] 
+
+  path: 1[1492186 -> 5000140], [Kôshônin: Mashita Masayoshi (2005) -> Action] 
+
+  path: 2[1492186 -> 2256183 -> 1679750], [Kôshônin: Mashita Masayoshi (2005) -> Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+srcNodes: [1073572, 5001119, 1679750]
+  path: 0[1435669 -> 2143011 -> 1073572], [Howaitoauto (2000) -> Hashimoto, Satoshi (II) -> "Transformer: Car Robot" (2000)] 
+
+  path: 1[1435669 -> 5001119], [Howaitoauto (2000) -> Action,Thriller] 
+
+  path: 2[1435669 -> 2115522 -> 1679750], [Howaitoauto (2000) -> Fukikoshi, Mitsuru -> SF: Episode One (1998)] 
+
+srcNodes: [8009967, 5000140, 1679750]
+  path: 0[1315199 -> 8009967], [Denjin Zabôgâ: Gekijô-ban (2011) -> based-on-television-series,based-on-tv-series,based-on-tv-show,blue,motorcycle,red,robot,scantily-clad-female,tokusatsu,transforming-robot,yellow] 
+
+  path: 1[1315199 -> 5000140], [Denjin Zabôgâ: Gekijô-ban (2011) -> Action] 
+
+  path: 2[1315199 -> 2160667 -> 1845558 -> 2161028 -> 1679750], [Denjin Zabôgâ: Gekijô-ban (2011) -> Itao, Itsuji -> Tôkyô tawâ: Okan to boku to, tokidoki, oton (2007) -> Iwamatsu, Ryô -> SF: Episode One (1998)] 
+
+srcNodes: [8000256, 5000140, 1679750]
+  path: 0[1395586 -> 2232043 -> 121090 -> 8000256], [Gekijô-ban Kamen Raidâ Den-Ô: Ore, tanjô! (2007) -> Miki, Shinichirô -> "Brain Powerd" (1998) -> anime,giant-robot,piloted-giant-robot] 
+
+  path: 1[1395586 -> 5000140], [Gekijô-ban Kamen Raidâ Den-Ô: Ore, tanjô! (2007) -> Action] 
+
+  path: 2[1395586 -> 2298202 -> 1405580 -> 2256183 -> 1679750], [Gekijô-ban Kamen Raidâ Den-Ô: Ore, tanjô! (2007) -> Akiyama, Rina -> Gosurori shokeinin (2010) -> Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+srcNodes: [1073572, 5000005, 1679750]
+  path: 0[2115522 -> 1435669 -> 2143011 -> 1073572], [Fukikoshi, Mitsuru -> Howaitoauto (2000) -> Hashimoto, Satoshi (II) -> "Transformer: Car Robot" (2000)] 
+
+  path: 1[2115522 -> 1531680 -> 5000005], [Fukikoshi, Mitsuru -> Limit of Love: Umizaru (2006) -> Action,Drama] 
+
+  path: 2[2115522 -> 1679750], [Fukikoshi, Mitsuru -> SF: Episode One (1998)] 
+
+srcNodes: [8000219, 5000224, 1679750]
+  path: 0[1337137 -> 2101763 -> 1458364 -> 8000219], [Double Deception (2001) -> Estevez, Joe -> Iron Soldier (2010) -> robot] 
+
+  path: 1[1337137 -> 5000224], [Double Deception (2001) -> Thriller,Action] 
+
+  path: 2[1337137 -> 2397062 -> 1456008 -> 2172404 -> 1679750], [Double Deception (2001) -> Kikukawa, Rei -> Insutôru (2004) -> Kanbe, Hiroshi -> SF: Episode One (1998)] 
+
+-----------------------------------------
+Num of top-k answers: 12
+ResultDestNodes: [1679750, 1302178, 1725194, 2256183, 1536932, 2175195, 1492186, 1435669, 1315199, 1395586, 2115522, 1337137]
+ResultRelevs: [9.81962776184082, 8.472618103027344, 8.367293357849121, 8.338920593261719, 8.241310119628906, 8.229083061218262, 8.15748119354248, 8.11936092376709, 8.098502159118652, 8.055523872375488, 7.9527435302734375, 7.915107250213623]
+AvgResultRelev: 8.313964327176413
+AvgResultDissimilarity: 0.5202020202020202
+Num of entries retrieved from the lists: 4320
+Num of entries retrieved from NKMaps: 7902
+Num of answer trees explored: 1932
+
+Div Top-k Search by Exhustive, k=12
+[robot, action, sf]
+srcNodes: [1073572, 5000140, 1679750]
+  path: 0[1679750 -> 2115522 -> 1435669 -> 2143011 -> 1073572], [SF: Episode One (1998) -> Fukikoshi, Mitsuru -> Howaitoauto (2000) -> Hashimoto, Satoshi (II) -> "Transformer: Car Robot" (2000)] 
+
+  path: 1[1679750 -> 2256183 -> 1492186 -> 5000140], [SF: Episode One (1998) -> Okamoto, Masahiro (III) -> Kôshônin: Mashita Masayoshi (2005) -> Action] 
+
+  path: 2[1679750 -> 1679750], [SF: Episode One (1998) -> SF: Episode One (1998)]
+srcNodes: [1442817, 5000140, 1679750]
+  path: 0[1302178 -> 2234861 -> 1442817], [Damage (2009) -> Mitchell, Phillip (I) -> I, Robot (2004)] 
+
+  path: 1[1302178 -> 5000140], [Damage (2009) -> Action] 
+
+  path: 2[1302178 -> 2287888 -> 737240 -> 2175195 -> 1679750], [Damage (2009) -> Rhodes, Donnelly -> "Proof of the Man" (2004) -> Kazama, Morio -> SF: Episode One (1998)] 
+
+srcNodes: [2292356, 5000140, 1679750]
+  path: 0[1725194 -> 2126372 -> 1536932 -> 2292356], [Starrcade: The Essential Collection (2009) -> Goldberg, Bill (I) -> Looney Tunes: Back in Action (2003) -> Robot, Robby the] 
+
+  path: 1[1725194 -> 5000140], [Starrcade: The Essential Collection (2009) -> Action] 
+
+  path: 2[1725194 -> 2063065 -> 1477210 -> 2256183 -> 1679750], [Starrcade: The Essential Collection (2009) -> Chôno, Masahiro -> Kantoku · Banzai! (2007) -> Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+srcNodes: [8009967, 5000140, 1679750]
+  path: 0[2256183 -> 1405580 -> 2303908 -> 1315199 -> 8009967], [Okamoto, Masahiro (III) -> Gosurori shokeinin (2010) -> Asami (II) -> Denjin Zabôgâ: Gekijô-ban (2011) -> based-on-television-series,based-on-tv-series,based-on-tv-show,blue,motorcycle,red,robot,scantily-clad-female,tokusatsu,transforming-robot,yellow] 
+
+  path: 1[2256183 -> 1492186 -> 5000140], [Okamoto, Masahiro (III) -> Kôshônin: Mashita Masayoshi (2005) -> Action] 
+
+  path: 2[2256183 -> 1679750], [Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+srcNodes: [2292356, 1536932, 1679750]
+  path: 0[1536932 -> 2292356], [Looney Tunes: Back in Action (2003) -> Robot, Robby the] 
+
+  path: 1[1536932 -> 1536932], [Looney Tunes: Back in Action (2003) -> Looney Tunes: Back in Action (2003)]
+  path: 2[1536932 -> 2028402 -> 1694085 -> 2436745 -> 1679750], [Looney Tunes: Back in Action (2003) -> Bergen, Bob (I) -> Sen to Chihiro no kamikakushi (2001) -> Natsuki, Mari -> SF: Episode One (1998)] 
+
+srcNodes: [1073572, 5006038, 1679750]
+  path: 0[2175195 -> 1694314 -> 2143011 -> 1073572], [Kazama, Morio -> Sennen no koi - Hikaru Genji monogatari (2001) -> Hashimoto, Satoshi (II) -> "Transformer: Car Robot" (2000)] 
+
+  path: 1[2175195 -> 1841754 -> 5006038], [Kazama, Morio -> Tsubaki Sanjûrô (2007) -> Action,Drama,History,Action] 
+
+  path: 2[2175195 -> 1679750], [Kazama, Morio -> SF: Episode One (1998)] 
+
+srcNodes: [8018293, 5000140, 1679750]
+  path: 0[1492186 -> 2256183 -> 1477210 -> 8018293], [Kôshônin: Mashita Masayoshi (2005) -> Okamoto, Masahiro (III) -> Kantoku · Banzai! (2007) -> 1950s,blood,bomb,bridge,car,car-accident,directed-by-star,doll,duck,escape,fighting,filmmaker,inflatable-doll,japan,lake,letter,ninja,police,puppet,robot,rocket,samurai,setagaya,sex-education,shinkansen,tokyo-japan,train,yakuza,zatoichi] 
+
+  path: 1[1492186 -> 5000140], [Kôshônin: Mashita Masayoshi (2005) -> Action] 
+
+  path: 2[1492186 -> 2256183 -> 1679750], [Kôshônin: Mashita Masayoshi (2005) -> Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+srcNodes: [1073572, 5001119, 1679750]
+  path: 0[1435669 -> 2143011 -> 1073572], [Howaitoauto (2000) -> Hashimoto, Satoshi (II) -> "Transformer: Car Robot" (2000)] 
+
+  path: 1[1435669 -> 5001119], [Howaitoauto (2000) -> Action,Thriller] 
+
+  path: 2[1435669 -> 2115522 -> 1679750], [Howaitoauto (2000) -> Fukikoshi, Mitsuru -> SF: Episode One (1998)] 
+
+srcNodes: [8009967, 5000140, 1679750]
+  path: 0[1315199 -> 8009967], [Denjin Zabôgâ: Gekijô-ban (2011) -> based-on-television-series,based-on-tv-series,based-on-tv-show,blue,motorcycle,red,robot,scantily-clad-female,tokusatsu,transforming-robot,yellow] 
+
+  path: 1[1315199 -> 5000140], [Denjin Zabôgâ: Gekijô-ban (2011) -> Action] 
+
+  path: 2[1315199 -> 2160667 -> 1845558 -> 2161028 -> 1679750], [Denjin Zabôgâ: Gekijô-ban (2011) -> Itao, Itsuji -> Tôkyô tawâ: Okan to boku to, tokidoki, oton (2007) -> Iwamatsu, Ryô -> SF: Episode One (1998)] 
+
+srcNodes: [8000256, 5000140, 1679750]
+  path: 0[1395586 -> 2232043 -> 121090 -> 8000256], [Gekijô-ban Kamen Raidâ Den-Ô: Ore, tanjô! (2007) -> Miki, Shinichirô -> "Brain Powerd" (1998) -> anime,giant-robot,piloted-giant-robot] 
+
+  path: 1[1395586 -> 5000140], [Gekijô-ban Kamen Raidâ Den-Ô: Ore, tanjô! (2007) -> Action] 
+
+  path: 2[1395586 -> 2298202 -> 1405580 -> 2256183 -> 1679750], [Gekijô-ban Kamen Raidâ Den-Ô: Ore, tanjô! (2007) -> Akiyama, Rina -> Gosurori shokeinin (2010) -> Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+srcNodes: [1073572, 5000005, 1679750]
+  path: 0[2115522 -> 1435669 -> 2143011 -> 1073572], [Fukikoshi, Mitsuru -> Howaitoauto (2000) -> Hashimoto, Satoshi (II) -> "Transformer: Car Robot" (2000)] 
+
+  path: 1[2115522 -> 1531680 -> 5000005], [Fukikoshi, Mitsuru -> Limit of Love: Umizaru (2006) -> Action,Drama] 
+
+  path: 2[2115522 -> 1679750], [Fukikoshi, Mitsuru -> SF: Episode One (1998)] 
+
+srcNodes: [8000219, 5000224, 1679750]
+  path: 0[1337137 -> 2101763 -> 1458364 -> 8000219], [Double Deception (2001) -> Estevez, Joe -> Iron Soldier (2010) -> robot] 
+
+  path: 1[1337137 -> 5000224], [Double Deception (2001) -> Thriller,Action] 
+
+  path: 2[1337137 -> 2397062 -> 1456008 -> 2172404 -> 1679750], [Double Deception (2001) -> Kikukawa, Rei -> Insutôru (2004) -> Kanbe, Hiroshi -> SF: Episode One (1998)] 
+
+-----------------------------------------
+ResultDestNodes: [1679750, 1302178, 1725194, 2256183, 1536932, 2175195, 1492186, 1435669, 1315199, 1395586, 2115522, 1337137]
+ResultRelevs: [9.81962776184082, 8.472618103027344, 8.367293357849121, 8.338920593261719, 8.241310119628906, 8.229083061218262, 8.15748119354248, 8.11936092376709, 8.098502159118652, 8.055523872375488, 7.9527435302734375, 7.915107250213623]
+AvgResultRelev: 8.313964327176413
+AvgResultDissimilarity: 0.5202020009358724
+Num of entries retrieved from the KNLists: 4320
+Num of entries retrieved from NKMaps: 7902
+Num of answer trees explored: 1932
+Num of answer tree sets created: 4095
+Num of answer tree sets removed: 4084
+
+Div Top-k Search by Astar02, k=12
+[robot, action, sf]
+srcNodes: [1073572, 5000140, 1679750]
+  path: 0[1679750 -> 2115522 -> 1435669 -> 2143011 -> 1073572], [SF: Episode One (1998) -> Fukikoshi, Mitsuru -> Howaitoauto (2000) -> Hashimoto, Satoshi (II) -> "Transformer: Car Robot" (2000)] 
+
+  path: 1[1679750 -> 2256183 -> 1492186 -> 5000140], [SF: Episode One (1998) -> Okamoto, Masahiro (III) -> Kôshônin: Mashita Masayoshi (2005) -> Action] 
+
+  path: 2[1679750 -> 1679750], [SF: Episode One (1998) -> SF: Episode One (1998)]
+srcNodes: [1442817, 5000140, 1679750]
+  path: 0[1302178 -> 2234861 -> 1442817], [Damage (2009) -> Mitchell, Phillip (I) -> I, Robot (2004)] 
+
+  path: 1[1302178 -> 5000140], [Damage (2009) -> Action] 
+
+  path: 2[1302178 -> 2287888 -> 737240 -> 2175195 -> 1679750], [Damage (2009) -> Rhodes, Donnelly -> "Proof of the Man" (2004) -> Kazama, Morio -> SF: Episode One (1998)] 
+
+srcNodes: [2292356, 5000140, 1679750]
+  path: 0[1725194 -> 2126372 -> 1536932 -> 2292356], [Starrcade: The Essential Collection (2009) -> Goldberg, Bill (I) -> Looney Tunes: Back in Action (2003) -> Robot, Robby the] 
+
+  path: 1[1725194 -> 5000140], [Starrcade: The Essential Collection (2009) -> Action] 
+
+  path: 2[1725194 -> 2063065 -> 1477210 -> 2256183 -> 1679750], [Starrcade: The Essential Collection (2009) -> Chôno, Masahiro -> Kantoku · Banzai! (2007) -> Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+srcNodes: [8009967, 5000140, 1679750]
+  path: 0[2256183 -> 1405580 -> 2303908 -> 1315199 -> 8009967], [Okamoto, Masahiro (III) -> Gosurori shokeinin (2010) -> Asami (II) -> Denjin Zabôgâ: Gekijô-ban (2011) -> based-on-television-series,based-on-tv-series,based-on-tv-show,blue,motorcycle,red,robot,scantily-clad-female,tokusatsu,transforming-robot,yellow] 
+
+  path: 1[2256183 -> 1492186 -> 5000140], [Okamoto, Masahiro (III) -> Kôshônin: Mashita Masayoshi (2005) -> Action] 
+
+  path: 2[2256183 -> 1679750], [Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+srcNodes: [2292356, 1536932, 1679750]
+  path: 0[1536932 -> 2292356], [Looney Tunes: Back in Action (2003) -> Robot, Robby the] 
+
+  path: 1[1536932 -> 1536932], [Looney Tunes: Back in Action (2003) -> Looney Tunes: Back in Action (2003)]
+  path: 2[1536932 -> 2028402 -> 1694085 -> 2436745 -> 1679750], [Looney Tunes: Back in Action (2003) -> Bergen, Bob (I) -> Sen to Chihiro no kamikakushi (2001) -> Natsuki, Mari -> SF: Episode One (1998)] 
+
+srcNodes: [1073572, 5006038, 1679750]
+  path: 0[2175195 -> 1694314 -> 2143011 -> 1073572], [Kazama, Morio -> Sennen no koi - Hikaru Genji monogatari (2001) -> Hashimoto, Satoshi (II) -> "Transformer: Car Robot" (2000)] 
+
+  path: 1[2175195 -> 1841754 -> 5006038], [Kazama, Morio -> Tsubaki Sanjûrô (2007) -> Action,Drama,History,Action] 
+
+  path: 2[2175195 -> 1679750], [Kazama, Morio -> SF: Episode One (1998)] 
+
+srcNodes: [8018293, 5000140, 1679750]
+  path: 0[1492186 -> 2256183 -> 1477210 -> 8018293], [Kôshônin: Mashita Masayoshi (2005) -> Okamoto, Masahiro (III) -> Kantoku · Banzai! (2007) -> 1950s,blood,bomb,bridge,car,car-accident,directed-by-star,doll,duck,escape,fighting,filmmaker,inflatable-doll,japan,lake,letter,ninja,police,puppet,robot,rocket,samurai,setagaya,sex-education,shinkansen,tokyo-japan,train,yakuza,zatoichi] 
+
+  path: 1[1492186 -> 5000140], [Kôshônin: Mashita Masayoshi (2005) -> Action] 
+
+  path: 2[1492186 -> 2256183 -> 1679750], [Kôshônin: Mashita Masayoshi (2005) -> Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+srcNodes: [1073572, 5001119, 1679750]
+  path: 0[1435669 -> 2143011 -> 1073572], [Howaitoauto (2000) -> Hashimoto, Satoshi (II) -> "Transformer: Car Robot" (2000)] 
+
+  path: 1[1435669 -> 5001119], [Howaitoauto (2000) -> Action,Thriller] 
+
+  path: 2[1435669 -> 2115522 -> 1679750], [Howaitoauto (2000) -> Fukikoshi, Mitsuru -> SF: Episode One (1998)] 
+
+srcNodes: [8009967, 5000140, 1679750]
+  path: 0[1315199 -> 8009967], [Denjin Zabôgâ: Gekijô-ban (2011) -> based-on-television-series,based-on-tv-series,based-on-tv-show,blue,motorcycle,red,robot,scantily-clad-female,tokusatsu,transforming-robot,yellow] 
+
+  path: 1[1315199 -> 5000140], [Denjin Zabôgâ: Gekijô-ban (2011) -> Action] 
+
+  path: 2[1315199 -> 2160667 -> 1845558 -> 2161028 -> 1679750], [Denjin Zabôgâ: Gekijô-ban (2011) -> Itao, Itsuji -> Tôkyô tawâ: Okan to boku to, tokidoki, oton (2007) -> Iwamatsu, Ryô -> SF: Episode One (1998)] 
+
+srcNodes: [8000256, 5000140, 1679750]
+  path: 0[1395586 -> 2232043 -> 121090 -> 8000256], [Gekijô-ban Kamen Raidâ Den-Ô: Ore, tanjô! (2007) -> Miki, Shinichirô -> "Brain Powerd" (1998) -> anime,giant-robot,piloted-giant-robot] 
+
+  path: 1[1395586 -> 5000140], [Gekijô-ban Kamen Raidâ Den-Ô: Ore, tanjô! (2007) -> Action] 
+
+  path: 2[1395586 -> 2298202 -> 1405580 -> 2256183 -> 1679750], [Gekijô-ban Kamen Raidâ Den-Ô: Ore, tanjô! (2007) -> Akiyama, Rina -> Gosurori shokeinin (2010) -> Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+srcNodes: [1073572, 5000005, 1679750]
+  path: 0[2115522 -> 1435669 -> 2143011 -> 1073572], [Fukikoshi, Mitsuru -> Howaitoauto (2000) -> Hashimoto, Satoshi (II) -> "Transformer: Car Robot" (2000)] 
+
+  path: 1[2115522 -> 1531680 -> 5000005], [Fukikoshi, Mitsuru -> Limit of Love: Umizaru (2006) -> Action,Drama] 
+
+  path: 2[2115522 -> 1679750], [Fukikoshi, Mitsuru -> SF: Episode One (1998)] 
+
+srcNodes: [8000219, 5000224, 1679750]
+  path: 0[1337137 -> 2101763 -> 1458364 -> 8000219], [Double Deception (2001) -> Estevez, Joe -> Iron Soldier (2010) -> robot] 
+
+  path: 1[1337137 -> 5000224], [Double Deception (2001) -> Thriller,Action] 
+
+  path: 2[1337137 -> 2397062 -> 1456008 -> 2172404 -> 1679750], [Double Deception (2001) -> Kikukawa, Rei -> Insutôru (2004) -> Kanbe, Hiroshi -> SF: Episode One (1998)] 
+
+-----------------------------------------
+ResultDestNodes: [1679750, 1302178, 1725194, 2256183, 1536932, 2175195, 1492186, 1435669, 1315199, 1395586, 2115522, 1337137]
+ResultRelevs: [9.81962776184082, 8.472618103027344, 8.367293357849121, 8.338920593261719, 8.241310119628906, 8.229083061218262, 8.15748119354248, 8.11936092376709, 8.098502159118652, 8.055523872375488, 7.9527435302734375, 7.915107250213623]
+AvgResultRelev: 8.313964327176413
+AvgResultDissimilarity: 0.5202020202020202
+Num of entries retrieved from the KNLists: 4320
+Num of entries retrieved from NKMaps: 7902
+Num of answer trees explored: 1932
+Num of states created: 79
+Num of states explored: 13
+Num of heuristic search performed: 1
+
+Div Top-k Search by Astar1nc_ap, k=12
+[robot, action, sf]
+srcNodes: [1073572, 5000140, 1679750]
+  path: 0[1679750 -> 2115522 -> 1435669 -> 2143011 -> 1073572], [SF: Episode One (1998) -> Fukikoshi, Mitsuru -> Howaitoauto (2000) -> Hashimoto, Satoshi (II) -> "Transformer: Car Robot" (2000)] 
+
+  path: 1[1679750 -> 2256183 -> 1492186 -> 5000140], [SF: Episode One (1998) -> Okamoto, Masahiro (III) -> Kôshônin: Mashita Masayoshi (2005) -> Action] 
+
+  path: 2[1679750 -> 1679750], [SF: Episode One (1998) -> SF: Episode One (1998)]
+srcNodes: [1442817, 5000140, 1679750]
+  path: 0[1302178 -> 2234861 -> 1442817], [Damage (2009) -> Mitchell, Phillip (I) -> I, Robot (2004)] 
+
+  path: 1[1302178 -> 5000140], [Damage (2009) -> Action] 
+
+  path: 2[1302178 -> 2287888 -> 737240 -> 2175195 -> 1679750], [Damage (2009) -> Rhodes, Donnelly -> "Proof of the Man" (2004) -> Kazama, Morio -> SF: Episode One (1998)] 
+
+srcNodes: [2292356, 5000140, 1679750]
+  path: 0[1725194 -> 2126372 -> 1536932 -> 2292356], [Starrcade: The Essential Collection (2009) -> Goldberg, Bill (I) -> Looney Tunes: Back in Action (2003) -> Robot, Robby the] 
+
+  path: 1[1725194 -> 5000140], [Starrcade: The Essential Collection (2009) -> Action] 
+
+  path: 2[1725194 -> 2063065 -> 1477210 -> 2256183 -> 1679750], [Starrcade: The Essential Collection (2009) -> Chôno, Masahiro -> Kantoku · Banzai! (2007) -> Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+srcNodes: [8009967, 5000140, 1679750]
+  path: 0[2256183 -> 1405580 -> 2303908 -> 1315199 -> 8009967], [Okamoto, Masahiro (III) -> Gosurori shokeinin (2010) -> Asami (II) -> Denjin Zabôgâ: Gekijô-ban (2011) -> based-on-television-series,based-on-tv-series,based-on-tv-show,blue,motorcycle,red,robot,scantily-clad-female,tokusatsu,transforming-robot,yellow] 
+
+  path: 1[2256183 -> 1492186 -> 5000140], [Okamoto, Masahiro (III) -> Kôshônin: Mashita Masayoshi (2005) -> Action] 
+
+  path: 2[2256183 -> 1679750], [Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+srcNodes: [2292356, 1536932, 1679750]
+  path: 0[1536932 -> 2292356], [Looney Tunes: Back in Action (2003) -> Robot, Robby the] 
+
+  path: 1[1536932 -> 1536932], [Looney Tunes: Back in Action (2003) -> Looney Tunes: Back in Action (2003)]
+  path: 2[1536932 -> 2028402 -> 1694085 -> 2436745 -> 1679750], [Looney Tunes: Back in Action (2003) -> Bergen, Bob (I) -> Sen to Chihiro no kamikakushi (2001) -> Natsuki, Mari -> SF: Episode One (1998)] 
+
+srcNodes: [1073572, 5006038, 1679750]
+  path: 0[2175195 -> 1694314 -> 2143011 -> 1073572], [Kazama, Morio -> Sennen no koi - Hikaru Genji monogatari (2001) -> Hashimoto, Satoshi (II) -> "Transformer: Car Robot" (2000)] 
+
+  path: 1[2175195 -> 1841754 -> 5006038], [Kazama, Morio -> Tsubaki Sanjûrô (2007) -> Action,Drama,History,Action] 
+
+  path: 2[2175195 -> 1679750], [Kazama, Morio -> SF: Episode One (1998)] 
+
+srcNodes: [8018293, 5000140, 1679750]
+  path: 0[1492186 -> 2256183 -> 1477210 -> 8018293], [Kôshônin: Mashita Masayoshi (2005) -> Okamoto, Masahiro (III) -> Kantoku · Banzai! (2007) -> 1950s,blood,bomb,bridge,car,car-accident,directed-by-star,doll,duck,escape,fighting,filmmaker,inflatable-doll,japan,lake,letter,ninja,police,puppet,robot,rocket,samurai,setagaya,sex-education,shinkansen,tokyo-japan,train,yakuza,zatoichi] 
+
+  path: 1[1492186 -> 5000140], [Kôshônin: Mashita Masayoshi (2005) -> Action] 
+
+  path: 2[1492186 -> 2256183 -> 1679750], [Kôshônin: Mashita Masayoshi (2005) -> Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+srcNodes: [1073572, 5001119, 1679750]
+  path: 0[1435669 -> 2143011 -> 1073572], [Howaitoauto (2000) -> Hashimoto, Satoshi (II) -> "Transformer: Car Robot" (2000)] 
+
+  path: 1[1435669 -> 5001119], [Howaitoauto (2000) -> Action,Thriller] 
+
+  path: 2[1435669 -> 2115522 -> 1679750], [Howaitoauto (2000) -> Fukikoshi, Mitsuru -> SF: Episode One (1998)] 
+
+srcNodes: [8009967, 5000140, 1679750]
+  path: 0[1315199 -> 8009967], [Denjin Zabôgâ: Gekijô-ban (2011) -> based-on-television-series,based-on-tv-series,based-on-tv-show,blue,motorcycle,red,robot,scantily-clad-female,tokusatsu,transforming-robot,yellow] 
+
+  path: 1[1315199 -> 5000140], [Denjin Zabôgâ: Gekijô-ban (2011) -> Action] 
+
+  path: 2[1315199 -> 2160667 -> 1845558 -> 2161028 -> 1679750], [Denjin Zabôgâ: Gekijô-ban (2011) -> Itao, Itsuji -> Tôkyô tawâ: Okan to boku to, tokidoki, oton (2007) -> Iwamatsu, Ryô -> SF: Episode One (1998)] 
+
+srcNodes: [8000256, 5000140, 1679750]
+  path: 0[1395586 -> 2232043 -> 121090 -> 8000256], [Gekijô-ban Kamen Raidâ Den-Ô: Ore, tanjô! (2007) -> Miki, Shinichirô -> "Brain Powerd" (1998) -> anime,giant-robot,piloted-giant-robot] 
+
+  path: 1[1395586 -> 5000140], [Gekijô-ban Kamen Raidâ Den-Ô: Ore, tanjô! (2007) -> Action] 
+
+  path: 2[1395586 -> 2298202 -> 1405580 -> 2256183 -> 1679750], [Gekijô-ban Kamen Raidâ Den-Ô: Ore, tanjô! (2007) -> Akiyama, Rina -> Gosurori shokeinin (2010) -> Okamoto, Masahiro (III) -> SF: Episode One (1998)] 
+
+srcNodes: [1073572, 5000005, 1679750]
+  path: 0[2115522 -> 1435669 -> 2143011 -> 1073572], [Fukikoshi, Mitsuru -> Howaitoauto (2000) -> Hashimoto, Satoshi (II) -> "Transformer: Car Robot" (2000)] 
+
+  path: 1[2115522 -> 1531680 -> 5000005], [Fukikoshi, Mitsuru -> Limit of Love: Umizaru (2006) -> Action,Drama] 
+
+  path: 2[2115522 -> 1679750], [Fukikoshi, Mitsuru -> SF: Episode One (1998)] 
+
+srcNodes: [8000219, 5000224, 1679750]
+  path: 0[1337137 -> 2101763 -> 1458364 -> 8000219], [Double Deception (2001) -> Estevez, Joe -> Iron Soldier (2010) -> robot] 
+
+  path: 1[1337137 -> 5000224], [Double Deception (2001) -> Thriller,Action] 
+
+  path: 2[1337137 -> 2397062 -> 1456008 -> 2172404 -> 1679750], [Double Deception (2001) -> Kikukawa, Rei -> Insutôru (2004) -> Kanbe, Hiroshi -> SF: Episode One (1998)] 
+
+-----------------------------------------
+ResultDestNodes: [1679750, 1302178, 1725194, 2256183, 1536932, 2175195, 1492186, 1435669, 1315199, 1395586, 2115522, 1337137]
+ResultRelevs: [9.81962776184082, 8.472618103027344, 8.367293357849121, 8.338920593261719, 8.241310119628906, 8.229083061218262, 8.15748119354248, 8.11936092376709, 8.098502159118652, 8.055523872375488, 7.9527435302734375, 7.915107250213623]
+AvgResultRelev: 8.313964327176413
+AvgResultDissimilarity: 0.5202020202020202
+Num of entries retrieved from the KNLists: 4320
+Num of entries retrieved from NKMaps: 7902
+Num of answer trees explored: 1932
+Num of states created: 13
+Num of states explored: 13
+Num of heuristic search performed: 1
+
+query: [sf, future, dystopia]
+Top-k Search by Blink-BDB, k=4
+[sf, future, dystopia]
+srcNodes: [1679750, 1726535, 8003374]
+  path: 0[1726535 -> 4033566 -> 1679750], [Stereo Future (2001) -> Nakano, Hiroyuki (I) -> SF: Episode One (1998)] 
+
+  path: 1[1726535 -> 1726535], [Stereo Future (2001) -> Stereo Future (2001)]
+  path: 2[1726535 -> 2220632 -> 1199341 -> 8003374], [Stereo Future (2001) -> Matsuoka, Shunsuke -> Alive (2002/I) -> anti-hero,based-on-comic,based-on-manga,blood,broken-bottle,cloud,dystopia,electric-chair,fight,future,haircut,hanged-girl,heat,human-experimentation,impalement,incarceration,monitor,murder,murderer,noise,parasite,prison,scientist,steak,suicide,supernatural-power,temperature,violence,warrior,wine] 
+
+srcNodes: [1679750, 1726535, 8003374]
+  path: 0[4033566 -> 1679750], [Nakano, Hiroyuki (I) -> SF: Episode One (1998)] 
+
+  path: 1[4033566 -> 1726535], [Nakano, Hiroyuki (I) -> Stereo Future (2001)] 
+
+  path: 2[4033566 -> 1726535 -> 2220632 -> 1199341 -> 8003374], [Nakano, Hiroyuki (I) -> Stereo Future (2001) -> Matsuoka, Shunsuke -> Alive (2002/I) -> anti-hero,based-on-comic,based-on-manga,blood,broken-bottle,cloud,dystopia,electric-chair,fight,future,haircut,hanged-girl,heat,human-experimentation,impalement,incarceration,monitor,murder,murderer,noise,parasite,prison,scientist,steak,suicide,supernatural-power,temperature,violence,warrior,wine] 
+
+srcNodes: [1679750, 1726535, 8003374]
+  path: 0[2003797 -> 1679750], [Akaboshi, Shoichiro -> SF: Episode One (1998)] 
+
+  path: 1[2003797 -> 1726535], [Akaboshi, Shoichiro -> Stereo Future (2001)] 
+
+  path: 2[2003797 -> 1726535 -> 2220632 -> 1199341 -> 8003374], [Akaboshi, Shoichiro -> Stereo Future (2001) -> Matsuoka, Shunsuke -> Alive (2002/I) -> anti-hero,based-on-comic,based-on-manga,blood,broken-bottle,cloud,dystopia,electric-chair,fight,future,haircut,hanged-girl,heat,human-experimentation,impalement,incarceration,monitor,murder,murderer,noise,parasite,prison,scientist,steak,suicide,supernatural-power,temperature,violence,warrior,wine] 
+
+srcNodes: [1679750, 1726535, 8003374]
+  path: 0[2441953 -> 1679750], [Ogawa, Tamaki -> SF: Episode One (1998)] 
+
+  path: 1[2441953 -> 1726535], [Ogawa, Tamaki -> Stereo Future (2001)] 
+
+  path: 2[2441953 -> 472997 -> 2466814 -> 1199341 -> 8003374], [Ogawa, Tamaki -> "Jikô keisatsu" (2006) -> Ryô (I) -> Alive (2002/I) -> anti-hero,based-on-comic,based-on-manga,blood,broken-bottle,cloud,dystopia,electric-chair,fight,future,haircut,hanged-girl,heat,human-experimentation,impalement,incarceration,monitor,murder,murderer,noise,parasite,prison,scientist,steak,suicide,supernatural-power,temperature,violence,warrior,wine] 
+
+-----------------------------------------
+Num of top-k answers: 4
+ResultDestNodes: [1726535, 4033566, 2003797, 2441953]
+ResultRelevs: [7.19544792175293, 7.070196151733398, 7.070196151733398, 7.070196151733398]
+AvgResultRelev: 7.101509094238281
+AvgResultDissimilarity: 0.0
+Num of entries retrieved from the lists: 1169
+Num of entries retrieved from NKMaps: 1627
+Num of answer trees explored: 362
+
+Div Top-k Search by Exhustive, k=4
+[sf, future, dystopia]
+srcNodes: [1679750, 1726535, 8003374]
+  path: 0[1726535 -> 4033566 -> 1679750], [Stereo Future (2001) -> Nakano, Hiroyuki (I) -> SF: Episode One (1998)] 
+
+  path: 1[1726535 -> 1726535], [Stereo Future (2001) -> Stereo Future (2001)]
+  path: 2[1726535 -> 2220632 -> 1199341 -> 8003374], [Stereo Future (2001) -> Matsuoka, Shunsuke -> Alive (2002/I) -> anti-hero,based-on-comic,based-on-manga,blood,broken-bottle,cloud,dystopia,electric-chair,fight,future,haircut,hanged-girl,heat,human-experimentation,impalement,incarceration,monitor,murder,murderer,noise,parasite,prison,scientist,steak,suicide,supernatural-power,temperature,violence,warrior,wine] 
+
+srcNodes: [1679750, 1726535, 8003374]
+  path: 0[2115522 -> 1679750], [Fukikoshi, Mitsuru -> SF: Episode One (1998)] 
+
+  path: 1[2115522 -> 1726535], [Fukikoshi, Mitsuru -> Stereo Future (2001)] 
+
+  path: 2[2115522 -> 1485171 -> 2160280 -> 1199341 -> 8003374], [Fukikoshi, Mitsuru -> Kita no zeronen (2005) -> Ishibashi, Renji -> Alive (2002/I) -> anti-hero,based-on-comic,based-on-manga,blood,broken-bottle,cloud,dystopia,electric-chair,fight,future,haircut,hanged-girl,heat,human-experimentation,impalement,incarceration,monitor,murder,murderer,noise,parasite,prison,scientist,steak,suicide,supernatural-power,temperature,violence,warrior,wine] 
+
+srcNodes: [1679750, 1726535, 8013360]
+  path: 0[2431463 -> 1679750], [Monô, Akiko -> SF: Episode One (1998)] 
+
+  path: 1[2431463 -> 1726535], [Monô, Akiko -> Stereo Future (2001)] 
+
+  path: 2[2431463 -> 1749336 -> 2094177 -> 1385408 -> 8013360], [Monô, Akiko -> Tetsuo: The Bullet Man (2009) -> Duncan, Mike (III) -> Frame 137 (2010) -> alcohol,anti-hero,assassin,bounty-hunter,child-slavery,children,comic-book,cyberpunk,cyborg,detroit-michigan,digit-in-title,drugs,dystopia,fire-breathing,future,gang,hacker,katana,martial-arts,number-in-title,post-apocalypse,punk,super-hero,two-word-title] 
+
+srcNodes: [6008116, 1391262, 8020462]
+  path: 0[2222561 -> 1829488 -> 2084851 -> 1292180 -> 6008116], [McBurney, Simon -> Tinker, Tailor, Soldier, Spy (2011) -> Dencik, David -> Cornelis (2010) -> Cornelis is the uniq] 
+
+  path: 1[2222561 -> 1791875 -> 2386027 -> 1391262], [McBurney, Simon -> The Manchurian Candidate (2004) -> Ireland, Marin -> Future Weather (2011)] 
+
+  path: 2[2222561 -> 1672369 -> 2197584 -> 1647482 -> 8020462], [McBurney, Simon -> Robin Hood (2010) -> Leger, Jean-Christophe -> Press Play (2006) -> dystopia] 
+
+-----------------------------------------
+ResultDestNodes: [1726535, 2115522, 2431463, 2222561]
+ResultRelevs: [7.19544792175293, 7.070196151733398, 7.070196151733398, 4.931601524353027]
+AvgResultRelev: 6.5668604373931885
+AvgResultDissimilarity: 0.6111111243565878
+Num of entries retrieved from the KNLists: 4757
+Num of entries retrieved from NKMaps: 6619
+Num of answer trees explored: 1548
+Num of answer tree sets created: 1868
+Num of answer tree sets removed: 24028
+
+Div Top-k Search by Astar02, k=4
+[sf, future, dystopia]
+srcNodes: [1679750, 1726535, 8003374]
+  path: 0[1726535 -> 4033566 -> 1679750], [Stereo Future (2001) -> Nakano, Hiroyuki (I) -> SF: Episode One (1998)] 
+
+  path: 1[1726535 -> 1726535], [Stereo Future (2001) -> Stereo Future (2001)]
+  path: 2[1726535 -> 2220632 -> 1199341 -> 8003374], [Stereo Future (2001) -> Matsuoka, Shunsuke -> Alive (2002/I) -> anti-hero,based-on-comic,based-on-manga,blood,broken-bottle,cloud,dystopia,electric-chair,fight,future,haircut,hanged-girl,heat,human-experimentation,impalement,incarceration,monitor,murder,murderer,noise,parasite,prison,scientist,steak,suicide,supernatural-power,temperature,violence,warrior,wine] 
+
+srcNodes: [1679750, 1726535, 8003374]
+  path: 0[2115522 -> 1679750], [Fukikoshi, Mitsuru -> SF: Episode One (1998)] 
+
+  path: 1[2115522 -> 1726535], [Fukikoshi, Mitsuru -> Stereo Future (2001)] 
+
+  path: 2[2115522 -> 1485171 -> 2160280 -> 1199341 -> 8003374], [Fukikoshi, Mitsuru -> Kita no zeronen (2005) -> Ishibashi, Renji -> Alive (2002/I) -> anti-hero,based-on-comic,based-on-manga,blood,broken-bottle,cloud,dystopia,electric-chair,fight,future,haircut,hanged-girl,heat,human-experimentation,impalement,incarceration,monitor,murder,murderer,noise,parasite,prison,scientist,steak,suicide,supernatural-power,temperature,violence,warrior,wine] 
+
+srcNodes: [1679750, 1726535, 8003374]
+  path: 0[2181630 -> 1679750], [Kitarô (II) -> SF: Episode One (1998)] 
+
+  path: 1[2181630 -> 1726535], [Kitarô (II) -> Stereo Future (2001)] 
+
+  path: 2[2181630 -> 1643206 -> 2160280 -> 1199341 -> 8003374], [Kitarô (II) -> Poppoya (1999) -> Ishibashi, Renji -> Alive (2002/I) -> anti-hero,based-on-comic,based-on-manga,blood,broken-bottle,cloud,dystopia,electric-chair,fight,future,haircut,hanged-girl,heat,human-experimentation,impalement,incarceration,monitor,murder,murderer,noise,parasite,prison,scientist,steak,suicide,supernatural-power,temperature,violence,warrior,wine] 
+
+srcNodes: [6008116, 1391262, 8020462]
+  path: 0[2222561 -> 1829488 -> 2084851 -> 1292180 -> 6008116], [McBurney, Simon -> Tinker, Tailor, Soldier, Spy (2011) -> Dencik, David -> Cornelis (2010) -> Cornelis is the uniq] 
+
+  path: 1[2222561 -> 1791875 -> 2386027 -> 1391262], [McBurney, Simon -> The Manchurian Candidate (2004) -> Ireland, Marin -> Future Weather (2011)] 
+
+  path: 2[2222561 -> 1672369 -> 2197584 -> 1647482 -> 8020462], [McBurney, Simon -> Robin Hood (2010) -> Leger, Jean-Christophe -> Press Play (2006) -> dystopia] 
+
+-----------------------------------------
+ResultDestNodes: [1726535, 2115522, 2181630, 2222561]
+ResultRelevs: [7.19544792175293, 7.070196151733398, 7.070196151733398, 4.931601524353027]
+AvgResultRelev: 6.5668604373931885
+AvgResultDissimilarity: 0.5
+Num of entries retrieved from the KNLists: 4757
+Num of entries retrieved from NKMaps: 6619
+Num of answer trees explored: 1548
+Num of states created: 26988
+Num of states explored: 25887
+Num of heuristic search performed: 78
+
+Div Top-k Search by Astar1nc_ap, k=4
+[sf, future, dystopia]
+srcNodes: [1679750, 1726535, 8003374]
+  path: 0[1726535 -> 4033566 -> 1679750], [Stereo Future (2001) -> Nakano, Hiroyuki (I) -> SF: Episode One (1998)] 
+
+  path: 1[1726535 -> 1726535], [Stereo Future (2001) -> Stereo Future (2001)]
+  path: 2[1726535 -> 2220632 -> 1199341 -> 8003374], [Stereo Future (2001) -> Matsuoka, Shunsuke -> Alive (2002/I) -> anti-hero,based-on-comic,based-on-manga,blood,broken-bottle,cloud,dystopia,electric-chair,fight,future,haircut,hanged-girl,heat,human-experimentation,impalement,incarceration,monitor,murder,murderer,noise,parasite,prison,scientist,steak,suicide,supernatural-power,temperature,violence,warrior,wine] 
+
+srcNodes: [1679750, 1726535, 8003374]
+  path: 0[2115522 -> 1679750], [Fukikoshi, Mitsuru -> SF: Episode One (1998)] 
+
+  path: 1[2115522 -> 1726535], [Fukikoshi, Mitsuru -> Stereo Future (2001)] 
+
+  path: 2[2115522 -> 1485171 -> 2160280 -> 1199341 -> 8003374], [Fukikoshi, Mitsuru -> Kita no zeronen (2005) -> Ishibashi, Renji -> Alive (2002/I) -> anti-hero,based-on-comic,based-on-manga,blood,broken-bottle,cloud,dystopia,electric-chair,fight,future,haircut,hanged-girl,heat,human-experimentation,impalement,incarceration,monitor,murder,murderer,noise,parasite,prison,scientist,steak,suicide,supernatural-power,temperature,violence,warrior,wine] 
+
+srcNodes: [1679750, 1726535, 8013360]
+  path: 0[2431463 -> 1679750], [Monô, Akiko -> SF: Episode One (1998)] 
+
+  path: 1[2431463 -> 1726535], [Monô, Akiko -> Stereo Future (2001)] 
+
+  path: 2[2431463 -> 1749336 -> 2094177 -> 1385408 -> 8013360], [Monô, Akiko -> Tetsuo: The Bullet Man (2009) -> Duncan, Mike (III) -> Frame 137 (2010) -> alcohol,anti-hero,assassin,bounty-hunter,child-slavery,children,comic-book,cyberpunk,cyborg,detroit-michigan,digit-in-title,drugs,dystopia,fire-breathing,future,gang,hacker,katana,martial-arts,number-in-title,post-apocalypse,punk,super-hero,two-word-title] 
+
+srcNodes: [6008116, 1391262, 8020462]
+  path: 0[2222561 -> 1829488 -> 2084851 -> 1292180 -> 6008116], [McBurney, Simon -> Tinker, Tailor, Soldier, Spy (2011) -> Dencik, David -> Cornelis (2010) -> Cornelis is the uniq] 
+
+  path: 1[2222561 -> 1791875 -> 2386027 -> 1391262], [McBurney, Simon -> The Manchurian Candidate (2004) -> Ireland, Marin -> Future Weather (2011)] 
+
+  path: 2[2222561 -> 1672369 -> 2197584 -> 1647482 -> 8020462], [McBurney, Simon -> Robin Hood (2010) -> Leger, Jean-Christophe -> Press Play (2006) -> dystopia] 
+
+-----------------------------------------
+ResultDestNodes: [1726535, 2115522, 2431463, 2222561]
+ResultRelevs: [7.19544792175293, 7.070196151733398, 7.070196151733398, 4.931601524353027]
+AvgResultRelev: 6.5668604373931885
+AvgResultDissimilarity: 0.611111111111111
+Num of entries retrieved from the KNLists: 4757
+Num of entries retrieved from NKMaps: 6619
+Num of answer trees explored: 1548
+Num of states created: 9891
+Num of states explored: 2650
+Num of heuristic search performed: 78
+
+Top-k Search by Blink-BDB, k=8
+[sf, future, dystopia]
+srcNodes: [1679750, 1726535, 8003374]
+  path: 0[1726535 -> 4033566 -> 1679750], [Stereo Future (2001) -> Nakano, Hiroyuki (I) -> SF: Episode One (1998)] 
+
+  path: 1[1726535 -> 1726535], [Stereo Future (2001) -> Stereo Future (2001)]
+  path: 2[1726535 -> 2220632 -> 1199341 -> 8003374], [Stereo Future (2001) -> Matsuoka, Shunsuke -> Alive (2002/I) -> anti-hero,based-on-comic,based-on-manga,blood,broken-bottle,cloud,dystopia,electric-chair,fight,future,haircut,hanged-girl,heat,human-experimentation,impalement,incarceration,monitor,murder,murderer,noise,parasite,prison,scientist,steak,suicide,supernatural-power,temperature,violence,warrior,wine] 
+
+srcNodes: [1679750, 1726535, 8003374]
+  path: 0[4033566 -> 1679750], [Nakano, Hiroyuki (I) -> SF: Episode One (1998)] 
+
+  path: 1[4033566 -> 1726535], [Nakano, Hiroyuki (I) -> Stereo Future (2001)] 
+
+  path: 2[4033566 -> 1726535 -> 2220632 -> 1199341 -> 8003374], [Nakano, Hiroyuki (I) -> Stereo Future (2001) -> Matsuoka, Shunsuke -> Alive (2002/I) -> anti-hero,based-on-comic,based-on-manga,blood,broken-bottle,cloud,dystopia,electric-chair,fight,future,haircut,hanged-girl,heat,human-experimentation,impalement,incarceration,monitor,murder,murderer,noise,parasite,prison,scientist,steak,suicide,supernatural-power,temperature,violence,warrior,wine] 
+
+srcNodes: [1679750, 1726535, 8003374]
+  path: 0[2115522 -> 1679750], [Fukikoshi, Mitsuru -> SF: Episode One (1998)] 
+
+  path: 1[2115522 -> 1726535], [Fukikoshi, Mitsuru -> Stereo Future (2001)] 
+
+  path: 2[2115522 -> 1485171 -> 2160280 -> 1199341 -> 8003374], [Fukikoshi, Mitsuru -> Kita no zeronen (2005) -> Ishibashi, Renji -> Alive (2002/I) -> anti-hero,based-on-comic,based-on-manga,blood,broken-bottle,cloud,dystopia,electric-chair,fight,future,haircut,hanged-girl,heat,human-experimentation,impalement,incarceration,monitor,murder,murderer,noise,parasite,prison,scientist,steak,suicide,supernatural-power,temperature,violence,warrior,wine] 
+
+srcNodes: [1679750, 1726535, 8003374]
+  path: 0[2175195 -> 1679750], [Kazama, Morio -> SF: Episode One (1998)] 
+
+  path: 1[2175195 -> 1726535], [Kazama, Morio -> Stereo Future (2001)] 
+
+  path: 2[2175195 -> 737240 -> 2188633 -> 1199341 -> 8003374], [Kazama, Morio -> "Proof of the Man" (2004) -> Kunimura, Jun -> Alive (2002/I) -> anti-hero,based-on-comic,based-on-manga,blood,broken-bottle,cloud,dystopia,electric-chair,fight,future,haircut,hanged-girl,heat,human-experimentation,impalement,incarceration,monitor,murder,murderer,noise,parasite,prison,scientist,steak,suicide,supernatural-power,temperature,violence,warrior,wine] 
+
+srcNodes: [1679750, 1726535, 8013360]
+  path: 0[2431463 -> 1679750], [Monô, Akiko -> SF: Episode One (1998)] 
+
+  path: 1[2431463 -> 1726535], [Monô, Akiko -> Stereo Future (2001)] 
+
+  path: 2[2431463 -> 1749336 -> 2094177 -> 1385408 -> 8013360], [Monô, Akiko -> Tetsuo: The Bullet Man (2009) -> Duncan, Mike (III) -> Frame 137 (2010) -> alcohol,anti-hero,assassin,bounty-hunter,child-slavery,children,comic-book,cyberpunk,cyborg,detroit-michigan,digit-in-title,drugs,dystopia,fire-breathing,future,gang,hacker,katana,martial-arts,number-in-title,post-apocalypse,punk,super-hero,two-word-title] 
+
+srcNodes: [1679750, 1726535, 8003374]
+  path: 0[2441953 -> 1679750], [Ogawa, Tamaki -> SF: Episode One (1998)] 
+
+  path: 1[2441953 -> 1726535], [Ogawa, Tamaki -> Stereo Future (2001)] 
+
+  path: 2[2441953 -> 472997 -> 2466814 -> 1199341 -> 8003374], [Ogawa, Tamaki -> "Jikô keisatsu" (2006) -> Ryô (I) -> Alive (2002/I) -> anti-hero,based-on-comic,based-on-manga,blood,broken-bottle,cloud,dystopia,electric-chair,fight,future,haircut,hanged-girl,heat,human-experimentation,impalement,incarceration,monitor,murder,murderer,noise,parasite,prison,scientist,steak,suicide,supernatural-power,temperature,violence,warrior,wine] 
+
+srcNodes: [1679750, 1726535, 8003374]
+  path: 0[2003797 -> 1679750], [Akaboshi, Shoichiro -> SF: Episode One (1998)] 
+
+  path: 1[2003797 -> 1726535], [Akaboshi, Shoichiro -> Stereo Future (2001)] 
+
+  path: 2[2003797 -> 1726535 -> 2220632 -> 1199341 -> 8003374], [Akaboshi, Shoichiro -> Stereo Future (2001) -> Matsuoka, Shunsuke -> Alive (2002/I) -> anti-hero,based-on-comic,based-on-manga,blood,broken-bottle,cloud,dystopia,electric-chair,fight,future,haircut,hanged-girl,heat,human-experimentation,impalement,incarceration,monitor,murder,murderer,noise,parasite,prison,scientist,steak,suicide,supernatural-power,temperature,violence,warrior,wine] 
+
+srcNodes: [1679750, 1726535, 8003374]
+  path: 0[2181630 -> 1679750], [Kitarô (II) -> SF: Episode One (1998)] 
+
+  path: 1[2181630 -> 1726535], [Kitarô (II) -> Stereo Future (2001)] 
+
+  path: 2[2181630 -> 1643206 -> 2160280 -> 1199341 -> 8003374], [Kitarô (II) -> Poppoya (1999) -> Ishibashi, Renji -> Alive (2002/I) -> anti-hero,based-on-comic,based-on-manga,blood,broken-bottle,cloud,dystopia,electric-chair,fight,future,haircut,hanged-girl,heat,human-experimentation,impalement,incarceration,monitor,murder,murderer,noise,parasite,prison,scientist,steak,suicide,supernatural-power,temperature,violence,warrior,wine] 
+
+-----------------------------------------
+Num of top-k answers: 8
+ResultDestNodes: [1726535, 4033566, 2115522, 2175195, 2431463, 2441953, 2003797, 2181630]
+ResultRelevs: [7.19544792175293, 7.070196151733398, 7.070196151733398, 7.070196151733398, 7.070196151733398, 7.070196151733398, 7.070196151733398, 7.070196151733398]
+AvgResultRelev: 7.08585262298584
+AvgResultDissimilarity: 0.08333333333333333
+Num of entries retrieved from the lists: 1169
+Num of entries retrieved from NKMaps: 1627
+Num of answer trees explored: 362
+
+Div Top-k Search by Exhustive, k=8
+[sf, future, dystopia]
+srcNodes: [1679750, 1726535, 8003374]
+  path: 0[1726535 -> 4033566 -> 1679750], [Stereo Future (2001) -> Nakano, Hiroyuki (I) -> SF: Episode One (1998)] 
+
+  path: 1[1726535 -> 1726535], [Stereo Future (2001) -> Stereo Future (2001)]
+  path: 2[1726535 -> 2220632 -> 1199341 -> 8003374], [Stereo Future (2001) -> Matsuoka, Shunsuke -> Alive (2002/I) -> anti-hero,based-on-comic,based-on-manga,blood,broken-bottle,cloud,dystopia,electric-chair,fight,future,haircut,hanged-girl,heat,human-experimentation,impalement,incarceration,monitor,murder,murderer,noise,parasite,prison,scientist,steak,suicide,supernatural-power,temperature,violence,warrior,wine] 
+
+srcNodes: [1679750, 1726535, 8013360]
+  path: 0[2431463 -> 1679750], [Monô, Akiko -> SF: Episode One (1998)] 
+
+  path: 1[2431463 -> 1726535], [Monô, Akiko -> Stereo Future (2001)] 
+
+  path: 2[2431463 -> 1749336 -> 2094177 -> 1385408 -> 8013360], [Monô, Akiko -> Tetsuo: The Bullet Man (2009) -> Duncan, Mike (III) -> Frame 137 (2010) -> alcohol,anti-hero,assassin,bounty-hunter,child-slavery,children,comic-book,cyberpunk,cyborg,detroit-michigan,digit-in-title,drugs,dystopia,fire-breathing,future,gang,hacker,katana,martial-arts,number-in-title,post-apocalypse,punk,super-hero,two-word-title] 
+
+srcNodes: [1679750, 1726535, 8003374]
+  path: 0[4033566 -> 1679750], [Nakano, Hiroyuki (I) -> SF: Episode One (1998)] 
+
+  path: 1[4033566 -> 1726535], [Nakano, Hiroyuki (I) -> Stereo Future (2001)] 
+
+  path: 2[4033566 -> 1726535 -> 2220632 -> 1199341 -> 8003374], [Nakano, Hiroyuki (I) -> Stereo Future (2001) -> Matsuoka, Shunsuke -> Alive (2002/I) -> anti-hero,based-on-comic,based-on-manga,blood,broken-bottle,cloud,dystopia,electric-chair,fight,future,haircut,hanged-girl,heat,human-experimentation,impalement,incarceration,monitor,murder,murderer,noise,parasite,prison,scientist,steak,suicide,supernatural-power,temperature,violence,warrior,wine] 
+
+srcNodes: [1679750, 1726535, 8003374]
+  path: 0[2175195 -> 1679750], [Kazama, Morio -> SF: Episode One (1998)] 
+
+  path: 1[2175195 -> 1726535], [Kazama, Morio -> Stereo Future (2001)] 
+
+  path: 2[2175195 -> 737240 -> 2188633 -> 1199341 -> 8003374], [Kazama, Morio -> "Proof of the Man" (2004) -> Kunimura, Jun -> Alive (2002/I) -> anti-hero,based-on-comic,based-on-manga,blood,broken-bottle,cloud,dystopia,electric-chair,fight,future,haircut,hanged-girl,heat,human-experimentation,impalement,incarceration,monitor,murder,murderer,noise,parasite,prison,scientist,steak,suicide,supernatural-power,temperature,violence,warrior,wine] 
+
+srcNodes: [1679750, 1726535, 8003374]
+  path: 0[2441953 -> 1679750], [Ogawa, Tamaki -> SF: Episode One (1998)] 
+
+  path: 1[2441953 -> 1726535], [Ogawa, Tamaki -> Stereo Future (2001)] 
+
+  path: 2[2441953 -> 472997 -> 2466814 -> 1199341 -> 8003374], [Ogawa, Tamaki -> "Jikô keisatsu" (2006) -> Ryô (I) -> Alive (2002/I) -> anti-hero,based-on-comic,based-on-manga,blood,broken-bottle,cloud,dystopia,electric-chair,fight,future,haircut,hanged-girl,heat,human-experimentation,impalement,incarceration,monitor,murder,murderer,noise,parasite,prison,scientist,steak,suicide,supernatural-power,temperature,violence,warrior,wine] 
+
+srcNodes: [1679750, 1726535, 1343474]
+  path: 0[1539351 -> 2431463 -> 1679750], [Lost in Translation (2003) -> Monô, Akiko -> SF: Episode One (1998)] 
+
+  path: 1[1539351 -> 2431463 -> 1726535], [Lost in Translation (2003) -> Monô, Akiko -> Stereo Future (2001)] 
+
+  path: 2[1539351 -> 2355231 -> 1559194 -> 2425305 -> 1343474], [Lost in Translation (2003) -> Faris, Anna -> May (2002) -> McVay, Jude -> Dystopia (2004)] 
+
+srcNodes: [1679750, 7004807, 8002100]
+  path: 0[1694085 -> 2436745 -> 1679750], [Sen to Chihiro no kamikakushi (2001) -> Natsuki, Mari -> SF: Episode One (1998)] 
+
+  path: 1[1694085 -> 2329548 -> 1417366 -> 7004807], [Sen to Chihiro no kamikakushi (2001) -> Chase, Daveigh -> Haunted Lighthouse (2003) -> references Back to t] 
+
+  path: 2[1694085 -> 2419774 -> 1137379 -> 8002100], [Sen to Chihiro no kamikakushi (2001) -> Marshall, Mona (I) -> "Wolf's Rain" (2003) -> adapted-into-a-manga,animal-in-title,anime,apostrophe-in-title,desolation,dystopia,escape,famine,future,heritage,hunter,innocence,legend,mythology,paradise,persecution,post-apocalypse,punctuation-in-title,quest,shape-shifter,supernatural-power,surrealism,teenage-boy,werewolf,wolf] 
+
+srcNodes: [6008116, 1391262, 8020462]
+  path: 0[2222561 -> 1829488 -> 2084851 -> 1292180 -> 6008116], [McBurney, Simon -> Tinker, Tailor, Soldier, Spy (2011) -> Dencik, David -> Cornelis (2010) -> Cornelis is the uniq] 
+
+  path: 1[2222561 -> 1791875 -> 2386027 -> 1391262], [McBurney, Simon -> The Manchurian Candidate (2004) -> Ireland, Marin -> Future Weather (2011)] 
+
+  path: 2[2222561 -> 1672369 -> 2197584 -> 1647482 -> 8020462], [McBurney, Simon -> Robin Hood (2010) -> Leger, Jean-Christophe -> Press Play (2006) -> dystopia] 
+
+-----------------------------------------
+ResultDestNodes: [1726535, 2431463, 4033566, 2175195, 2441953, 1539351, 1694085, 2222561]
+ResultRelevs: [7.19544792175293, 7.070196151733398, 7.070196151733398, 7.070196151733398, 7.070196151733398, 6.813504219055176, 5.129255771636963, 4.931601524353027]
+AvgResultRelev: 6.543824255466461
+AvgResultDissimilarity: 0.5
+Num of entries retrieved from the KNLists: 5144
+Num of entries retrieved from NKMaps: 7107
+Num of answer trees explored: 1625
+Num of answer tree sets created: 4492334
+Num of answer tree sets removed: 23537771
+
+Div Top-k Search by Astar02, k=8
+[sf, future, dystopia]
+srcNodes: [1679750, 1726535, 8003374]
+  path: 0[1726535 -> 4033566 -> 1679750], [Stereo Future (2001) -> Nakano, Hiroyuki (I) -> SF: Episode One (1998)] 
+
+  path: 1[1726535 -> 1726535], [Stereo Future (2001) -> Stereo Future (2001)]
+  path: 2[1726535 -> 2220632 -> 1199341 -> 8003374], [Stereo Future (2001) -> Matsuoka, Shunsuke -> Alive (2002/I) -> anti-hero,based-on-comic,based-on-manga,blood,broken-bottle,cloud,dystopia,electric-chair,fight,future,haircut,hanged-girl,heat,human-experimentation,impalement,incarceration,monitor,murder,murderer,noise,parasite,prison,scientist,steak,suicide,supernatural-power,temperature,violence,warrior,wine] 
+
+srcNodes: [1679750, 1726535, 8003374]
+  path: 0[2115522 -> 1679750], [Fukikoshi, Mitsuru -> SF: Episode One (1998)] 
+
+  path: 1[2115522 -> 1726535], [Fukikoshi, Mitsuru -> Stereo Future (2001)] 
+
+  path: 2[2115522 -> 1485171 -> 2160280 -> 1199341 -> 8003374], [Fukikoshi, Mitsuru -> Kita no zeronen (2005) -> Ishibashi, Renji -> Alive (2002/I) -> anti-hero,based-on-comic,based-on-manga,blood,broken-bottle,cloud,dystopia,electric-chair,fight,future,haircut,hanged-girl,heat,human-experimentation,impalement,incarceration,monitor,murder,murderer,noise,parasite,prison,scientist,steak,suicide,supernatural-power,temperature,violence,warrior,wine] 
+
+srcNodes: [1679750, 1726535, 8013360]
+  path: 0[2431463 -> 1679750], [Monô, Akiko -> SF: Episode One (1998)] 
+
+  path: 1[2431463 -> 1726535], [Monô, Akiko -> Stereo Future (2001)] 
+
+  path: 2[2431463 -> 1749336 -> 2094177 -> 1385408 -> 8013360], [Monô, Akiko -> Tetsuo: The Bullet Man (2009) -> Duncan, Mike (III) -> Frame 137 (2010) -> alcohol,anti-hero,assassin,bounty-hunter,child-slavery,children,comic-book,cyberpunk,cyborg,detroit-michigan,digit-in-title,drugs,dystopia,fire-breathing,future,gang,hacker,katana,martial-arts,number-in-title,post-apocalypse,punk,super-hero,two-word-title] 
+
+srcNodes: [1679750, 1726535, 8003374]
+  path: 0[2175195 -> 1679750], [Kazama, Morio -> SF: Episode One (1998)] 
+
+  path: 1[2175195 -> 1726535], [Kazama, Morio -> Stereo Future (2001)] 
+
+  path: 2[2175195 -> 737240 -> 2188633 -> 1199341 -> 8003374], [Kazama, Morio -> "Proof of the Man" (2004) -> Kunimura, Jun -> Alive (2002/I) -> anti-hero,based-on-comic,based-on-manga,blood,broken-bottle,cloud,dystopia,electric-chair,fight,future,haircut,hanged-girl,heat,human-experimentation,impalement,incarceration,monitor,murder,murderer,noise,parasite,prison,scientist,steak,suicide,supernatural-power,temperature,violence,warrior,wine] 
+
+srcNodes: [1679750, 1726535, 8003374]
+  path: 0[2441953 -> 1679750], [Ogawa, Tamaki -> SF: Episode One (1998)] 
+
+  path: 1[2441953 -> 1726535], [Ogawa, Tamaki -> Stereo Future (2001)] 
+
+  path: 2[2441953 -> 472997 -> 2466814 -> 1199341 -> 8003374], [Ogawa, Tamaki -> "Jikô keisatsu" (2006) -> Ryô (I) -> Alive (2002/I) -> anti-hero,based-on-comic,based-on-manga,blood,broken-bottle,cloud,dystopia,electric-chair,fight,future,haircut,hanged-girl,heat,human-experimentation,impalement,incarceration,monitor,murder,murderer,noise,parasite,prison,scientist,steak,suicide,supernatural-power,temperature,violence,warrior,wine] 
+
+srcNodes: [1679750, 1726535, 1343474]
+  path: 0[1539351 -> 2431463 -> 1679750], [Lost in Translation (2003) -> Monô, Akiko -> SF: Episode One (1998)] 
+
+  path: 1[1539351 -> 2431463 -> 1726535], [Lost in Translation (2003) -> Monô, Akiko -> Stereo Future (2001)] 
+
+  path: 2[1539351 -> 2355231 -> 1559194 -> 2425305 -> 1343474], [Lost in Translation (2003) -> Faris, Anna -> May (2002) -> McVay, Jude -> Dystopia (2004)] 
+
+srcNodes: [1679750, 7004807, 8002100]
+  path: 0[1694085 -> 2436745 -> 1679750], [Sen to Chihiro no kamikakushi (2001) -> Natsuki, Mari -> SF: Episode One (1998)] 
+
+  path: 1[1694085 -> 2329548 -> 1417366 -> 7004807], [Sen to Chihiro no kamikakushi (2001) -> Chase, Daveigh -> Haunted Lighthouse (2003) -> references Back to t] 
+
+  path: 2[1694085 -> 2419774 -> 1137379 -> 8002100], [Sen to Chihiro no kamikakushi (2001) -> Marshall, Mona (I) -> "Wolf's Rain" (2003) -> adapted-into-a-manga,animal-in-title,anime,apostrophe-in-title,desolation,dystopia,escape,famine,future,heritage,hunter,innocence,legend,mythology,paradise,persecution,post-apocalypse,punctuation-in-title,quest,shape-shifter,supernatural-power,surrealism,teenage-boy,werewolf,wolf] 
+
+srcNodes: [6008116, 1391262, 8020462]
+  path: 0[2222561 -> 1829488 -> 2084851 -> 1292180 -> 6008116], [McBurney, Simon -> Tinker, Tailor, Soldier, Spy (2011) -> Dencik, David -> Cornelis (2010) -> Cornelis is the uniq] 
+
+  path: 1[2222561 -> 1791875 -> 2386027 -> 1391262], [McBurney, Simon -> The Manchurian Candidate (2004) -> Ireland, Marin -> Future Weather (2011)] 
+
+  path: 2[2222561 -> 1672369 -> 2197584 -> 1647482 -> 8020462], [McBurney, Simon -> Robin Hood (2010) -> Leger, Jean-Christophe -> Press Play (2006) -> dystopia] 
+
+-----------------------------------------
+ResultDestNodes: [1726535, 2115522, 2431463, 2175195, 2441953, 1539351, 1694085, 2222561]
+ResultRelevs: [7.19544792175293, 7.070196151733398, 7.070196151733398, 7.070196151733398, 7.070196151733398, 6.813504219055176, 5.129255771636963, 4.931601524353027]
+AvgResultRelev: 6.543824255466461
+AvgResultDissimilarity: 0.5
+Num of entries retrieved from the KNLists: 5144
+Num of entries retrieved from NKMaps: 7107
+Num of answer trees explored: 1625
+Num of states created: 20412024
+Num of states explored: 20018685
+Num of heuristic search performed: 78
+
+Div Top-k Search by Astar1nc_ap, k=8
+[sf, future, dystopia]
+srcNodes: [1679750, 1726535, 8003374]
+  path: 0[1726535 -> 4033566 -> 1679750], [Stereo Future (2001) -> Nakano, Hiroyuki (I) -> SF: Episode One (1998)] 
+
+  path: 1[1726535 -> 1726535], [Stereo Future (2001) -> Stereo Future (2001)]
+  path: 2[1726535 -> 2220632 -> 1199341 -> 8003374], [Stereo Future (2001) -> Matsuoka, Shunsuke -> Alive (2002/I) -> anti-hero,based-on-comic,based-on-manga,blood,broken-bottle,cloud,dystopia,electric-chair,fight,future,haircut,hanged-girl,heat,human-experimentation,impalement,incarceration,monitor,murder,murderer,noise,parasite,prison,scientist,steak,suicide,supernatural-power,temperature,violence,warrior,wine] 
+
+srcNodes: [1679750, 1726535, 8003374]
+  path: 0[2115522 -> 1679750], [Fukikoshi, Mitsuru -> SF: Episode One (1998)] 
+
+  path: 1[2115522 -> 1726535], [Fukikoshi, Mitsuru -> Stereo Future (2001)] 
+
+  path: 2[2115522 -> 1485171 -> 2160280 -> 1199341 -> 8003374], [Fukikoshi, Mitsuru -> Kita no zeronen (2005) -> Ishibashi, Renji -> Alive (2002/I) -> anti-hero,based-on-comic,based-on-manga,blood,broken-bottle,cloud,dystopia,electric-chair,fight,future,haircut,hanged-girl,heat,human-experimentation,impalement,incarceration,monitor,murder,murderer,noise,parasite,prison,scientist,steak,suicide,supernatural-power,temperature,violence,warrior,wine] 
+
+srcNodes: [1679750, 1726535, 8013360]
+  path: 0[2431463 -> 1679750], [Monô, Akiko -> SF: Episode One (1998)] 
+
+  path: 1[2431463 -> 1726535], [Monô, Akiko -> Stereo Future (2001)] 
+
+  path: 2[2431463 -> 1749336 -> 2094177 -> 1385408 -> 8013360], [Monô, Akiko -> Tetsuo: The Bullet Man (2009) -> Duncan, Mike (III) -> Frame 137 (2010) -> alcohol,anti-hero,assassin,bounty-hunter,child-slavery,children,comic-book,cyberpunk,cyborg,detroit-michigan,digit-in-title,drugs,dystopia,fire-breathing,future,gang,hacker,katana,martial-arts,number-in-title,post-apocalypse,punk,super-hero,two-word-title] 
+
+srcNodes: [1679750, 1726535, 8003374]
+  path: 0[2181630 -> 1679750], [Kitarô (II) -> SF: Episode One (1998)] 
+
+  path: 1[2181630 -> 1726535], [Kitarô (II) -> Stereo Future (2001)] 
+
+  path: 2[2181630 -> 1643206 -> 2160280 -> 1199341 -> 8003374], [Kitarô (II) -> Poppoya (1999) -> Ishibashi, Renji -> Alive (2002/I) -> anti-hero,based-on-comic,based-on-manga,blood,broken-bottle,cloud,dystopia,electric-chair,fight,future,haircut,hanged-girl,heat,human-experimentation,impalement,incarceration,monitor,murder,murderer,noise,parasite,prison,scientist,steak,suicide,supernatural-power,temperature,violence,warrior,wine] 
+
+srcNodes: [1679750, 1726535, 8003374]
+  path: 0[2175195 -> 1679750], [Kazama, Morio -> SF: Episode One (1998)] 
+
+  path: 1[2175195 -> 1726535], [Kazama, Morio -> Stereo Future (2001)] 
+
+  path: 2[2175195 -> 737240 -> 2188633 -> 1199341 -> 8003374], [Kazama, Morio -> "Proof of the Man" (2004) -> Kunimura, Jun -> Alive (2002/I) -> anti-hero,based-on-comic,based-on-manga,blood,broken-bottle,cloud,dystopia,electric-chair,fight,future,haircut,hanged-girl,heat,human-experimentation,impalement,incarceration,monitor,murder,murderer,noise,parasite,prison,scientist,steak,suicide,supernatural-power,temperature,violence,warrior,wine] 
+
+srcNodes: [1679750, 1726535, 1343474]
+  path: 0[1539351 -> 2431463 -> 1679750], [Lost in Translation (2003) -> Monô, Akiko -> SF: Episode One (1998)] 
+
+  path: 1[1539351 -> 2431463 -> 1726535], [Lost in Translation (2003) -> Monô, Akiko -> Stereo Future (2001)] 
+
+  path: 2[1539351 -> 2355231 -> 1559194 -> 2425305 -> 1343474], [Lost in Translation (2003) -> Faris, Anna -> May (2002) -> McVay, Jude -> Dystopia (2004)] 
+
+srcNodes: [1679750, 7004807, 8002100]
+  path: 0[1694085 -> 2436745 -> 1679750], [Sen to Chihiro no kamikakushi (2001) -> Natsuki, Mari -> SF: Episode One (1998)] 
+
+  path: 1[1694085 -> 2329548 -> 1417366 -> 7004807], [Sen to Chihiro no kamikakushi (2001) -> Chase, Daveigh -> Haunted Lighthouse (2003) -> references Back to t] 
+
+  path: 2[1694085 -> 2419774 -> 1137379 -> 8002100], [Sen to Chihiro no kamikakushi (2001) -> Marshall, Mona (I) -> "Wolf's Rain" (2003) -> adapted-into-a-manga,animal-in-title,anime,apostrophe-in-title,desolation,dystopia,escape,famine,future,heritage,hunter,innocence,legend,mythology,paradise,persecution,post-apocalypse,punctuation-in-title,quest,shape-shifter,supernatural-power,surrealism,teenage-boy,werewolf,wolf] 
+
+srcNodes: [6008116, 1391262, 8020462]
+  path: 0[2222561 -> 1829488 -> 2084851 -> 1292180 -> 6008116], [McBurney, Simon -> Tinker, Tailor, Soldier, Spy (2011) -> Dencik, David -> Cornelis (2010) -> Cornelis is the uniq] 
+
+  path: 1[2222561 -> 1791875 -> 2386027 -> 1391262], [McBurney, Simon -> The Manchurian Candidate (2004) -> Ireland, Marin -> Future Weather (2011)] 
+
+  path: 2[2222561 -> 1672369 -> 2197584 -> 1647482 -> 8020462], [McBurney, Simon -> Robin Hood (2010) -> Leger, Jean-Christophe -> Press Play (2006) -> dystopia] 
+
+-----------------------------------------
+ResultDestNodes: [1726535, 2115522, 2431463, 2181630, 2175195, 1539351, 1694085, 2222561]
+ResultRelevs: [7.19544792175293, 7.070196151733398, 7.070196151733398, 7.070196151733398, 7.070196151733398, 6.813504219055176, 5.129255771636963, 4.931601524353027]
+AvgResultRelev: 6.543824255466461
+AvgResultDissimilarity: 0.5
+Num of entries retrieved from the KNLists: 5144
+Num of entries retrieved from NKMaps: 7107
+Num of answer trees explored: 1625
+Num of states created: 36626
+Num of states explored: 11106
+Num of heuristic search performed: 42
+
+Top-k Search by Blink-BDB, k=12
+[sf, future, dystopia]
+srcNodes: [1679750, 1726535, 8003374]
+  path: 0[1726535 -> 4033566 -> 1679750], [Stereo Future (2001) -> Nakano, Hiroyuki (I) -> SF: Episode One (1998)] 
+
+  path: 1[1726535 -> 1726535], [Stereo Future (2001) -> Stereo Future (2001)]
+  path: 2[1726535 -> 2220632 -> 1199341 -> 8003374], [Stereo Future (2001) -> Matsuoka, Shunsuke -> Alive (2002/I) -> anti-hero,based-on-comic,based-on-manga,blood,broken-bottle,cloud,dystopia,electric-chair,fight,future,haircut,hanged-girl,heat,human-experimentation,impalement,incarceration,monitor,murder,murderer,noise,parasite,prison,scientist,steak,suicide,supernatural-power,temperature,violence,warrior,wine] 
+
+srcNodes: [1679750, 1726535, 8003374]
+  path: 0[2181630 -> 1679750], [Kitarô (II) -> SF: Episode One (1998)] 
+
+  path: 1[2181630 -> 1726535], [Kitarô (II) -> Stereo Future (2001)] 
+
+  path: 2[2181630 -> 1643206 -> 2160280 -> 1199341 -> 8003374], [Kitarô (II) -> Poppoya (1999) -> Ishibashi, Renji -> Alive (2002/I) -> anti-hero,based-on-comic,based-on-manga,blood,broken-bottle,cloud,dystopia,electric-chair,fight,future,haircut,hanged-girl,heat,human-experimentation,impalement,incarceration,monitor,murder,murderer,noise,parasite,prison,scientist,steak,suicide,supernatural-power,temperature,violence,warrior,wine] 
+
+srcNodes: [1679750, 1726535, 8003374]
+  path: 0[4033566 -> 1679750], [Nakano, Hiroyuki (I) -> SF: Episode One (1998)] 
+
+  path: 1[4033566 -> 1726535], [Nakano, Hiroyuki (I) -> Stereo Future (2001)] 
+
+  path: 2[4033566 -> 1726535 -> 2220632 -> 1199341 -> 8003374], [Nakano, Hiroyuki (I) -> Stereo Future (2001) -> Matsuoka, Shunsuke -> Alive (2002/I) -> anti-hero,based-on-comic,based-on-manga,blood,broken-bottle,cloud,dystopia,electric-chair,fight,future,haircut,hanged-girl,heat,human-experimentation,impalement,incarceration,monitor,murder,murderer,noise,parasite,prison,scientist,steak,suicide,supernatural-power,temperature,violence,warrior,wine] 
+
+srcNodes: [1679750, 1726535, 8003374]
+  path: 0[2175195 -> 1679750], [Kazama, Morio -> SF: Episode One (1998)] 
+
+  path: 1[2175195 -> 1726535], [Kazama, Morio -> Stereo Future (2001)] 
+
+  path: 2[2175195 -> 737240 -> 2188633 -> 1199341 -> 8003374], [Kazama, Morio -> "Proof of the Man" (2004) -> Kunimura, Jun -> Alive (2002/I) -> anti-hero,based-on-comic,based-on-manga,blood,broken-bottle,cloud,dystopia,electric-chair,fight,future,haircut,hanged-girl,heat,human-experimentation,impalement,incarceration,monitor,murder,murderer,noise,parasite,prison,scientist,steak,suicide,supernatural-power,temperature,violence,warrior,wine] 
+
+srcNodes: [1679750, 1726535, 8013360]
+  path: 0[2431463 -> 1679750], [Monô, Akiko -> SF: Episode One (1998)] 
+
+  path: 1[2431463 -> 1726535], [Monô, Akiko -> Stereo Future (2001)] 
+
+  path: 2[2431463 -> 1749336 -> 2094177 -> 1385408 -> 8013360], [Monô, Akiko -> Tetsuo: The Bullet Man (2009) -> Duncan, Mike (III) -> Frame 137 (2010) -> alcohol,anti-hero,assassin,bounty-hunter,child-slavery,children,comic-book,cyberpunk,cyborg,detroit-michigan,digit-in-title,drugs,dystopia,fire-breathing,future,gang,hacker,katana,martial-arts,number-in-title,post-apocalypse,punk,super-hero,two-word-title] 
+
+srcNodes: [1679750, 1726535, 8003374]
+  path: 0[2441953 -> 1679750], [Ogawa, Tamaki -> SF: Episode One (1998)] 
+
+  path: 1[2441953 -> 1726535], [Ogawa, Tamaki -> Stereo Future (2001)] 
+
+  path: 2[2441953 -> 472997 -> 2466814 -> 1199341 -> 8003374], [Ogawa, Tamaki -> "Jikô keisatsu" (2006) -> Ryô (I) -> Alive (2002/I) -> anti-hero,based-on-comic,based-on-manga,blood,broken-bottle,cloud,dystopia,electric-chair,fight,future,haircut,hanged-girl,heat,human-experimentation,impalement,incarceration,monitor,murder,murderer,noise,parasite,prison,scientist,steak,suicide,supernatural-power,temperature,violence,warrior,wine] 
+
+srcNodes: [1679750, 1726535, 8003374]
+  path: 0[2003797 -> 1679750], [Akaboshi, Shoichiro -> SF: Episode One (1998)] 
+
+  path: 1[2003797 -> 1726535], [Akaboshi, Shoichiro -> Stereo Future (2001)] 
+
+  path: 2[2003797 -> 1726535 -> 2220632 -> 1199341 -> 8003374], [Akaboshi, Shoichiro -> Stereo Future (2001) -> Matsuoka, Shunsuke -> Alive (2002/I) -> anti-hero,based-on-comic,based-on-manga,blood,broken-bottle,cloud,dystopia,electric-chair,fight,future,haircut,hanged-girl,heat,human-experimentation,impalement,incarceration,monitor,murder,murderer,noise,parasite,prison,scientist,steak,suicide,supernatural-power,temperature,violence,warrior,wine] 
+
+srcNodes: [1679750, 1726535, 8003374]
+  path: 0[2115522 -> 1679750], [Fukikoshi, Mitsuru -> SF: Episode One (1998)] 
+
+  path: 1[2115522 -> 1726535], [Fukikoshi, Mitsuru -> Stereo Future (2001)] 
+
+  path: 2[2115522 -> 1485171 -> 2160280 -> 1199341 -> 8003374], [Fukikoshi, Mitsuru -> Kita no zeronen (2005) -> Ishibashi, Renji -> Alive (2002/I) -> anti-hero,based-on-comic,based-on-manga,blood,broken-bottle,cloud,dystopia,electric-chair,fight,future,haircut,hanged-girl,heat,human-experimentation,impalement,incarceration,monitor,murder,murderer,noise,parasite,prison,scientist,steak,suicide,supernatural-power,temperature,violence,warrior,wine] 
+
+srcNodes: [1679750, 1726535, 1343474]
+  path: 0[1539351 -> 2431463 -> 1679750], [Lost in Translation (2003) -> Monô, Akiko -> SF: Episode One (1998)] 
+
+  path: 1[1539351 -> 2431463 -> 1726535], [Lost in Translation (2003) -> Monô, Akiko -> Stereo Future (2001)] 
+
+  path: 2[1539351 -> 2355231 -> 1559194 -> 2425305 -> 1343474], [Lost in Translation (2003) -> Faris, Anna -> May (2002) -> McVay, Jude -> Dystopia (2004)] 
+
+srcNodes: [1679750, 1726535, 1343474]
+  path: 0[2355231 -> 1539351 -> 2431463 -> 1679750], [Faris, Anna -> Lost in Translation (2003) -> Monô, Akiko -> SF: Episode One (1998)] 
+
+  path: 1[2355231 -> 1539351 -> 2431463 -> 1726535], [Faris, Anna -> Lost in Translation (2003) -> Monô, Akiko -> Stereo Future (2001)] 
+
+  path: 2[2355231 -> 1559194 -> 2425305 -> 1343474], [Faris, Anna -> May (2002) -> McVay, Jude -> Dystopia (2004)] 
+
+srcNodes: [1679750, 1726535, 1343474]
+  path: 0[1559194 -> 2355231 -> 1539351 -> 2431463 -> 1679750], [May (2002) -> Faris, Anna -> Lost in Translation (2003) -> Monô, Akiko -> SF: Episode One (1998)] 
+
+  path: 1[1559194 -> 2355231 -> 1539351 -> 2431463 -> 1726535], [May (2002) -> Faris, Anna -> Lost in Translation (2003) -> Monô, Akiko -> Stereo Future (2001)] 
+
+  path: 2[1559194 -> 2425305 -> 1343474], [May (2002) -> McVay, Jude -> Dystopia (2004)] 
+
+srcNodes: [1679750, 1726535, 8003374]
+  path: 0[2148832 -> 1679750], [Hida, Yasuhito -> SF: Episode One (1998)] 
+
+  path: 1[2148832 -> 472997 -> 2304429 -> 1726535], [Hida, Yasuhito -> "Jikô keisatsu" (2006) -> Asô, Kumiko (I) -> Stereo Future (2001)] 
+
+  path: 2[2148832 -> 472997 -> 2466814 -> 1199341 -> 8003374], [Hida, Yasuhito -> "Jikô keisatsu" (2006) -> Ryô (I) -> Alive (2002/I) -> anti-hero,based-on-comic,based-on-manga,blood,broken-bottle,cloud,dystopia,electric-chair,fight,future,haircut,hanged-girl,heat,human-experimentation,impalement,incarceration,monitor,murder,murderer,noise,parasite,prison,scientist,steak,suicide,supernatural-power,temperature,violence,warrior,wine] 
+
+-----------------------------------------
+Num of top-k answers: 12
+ResultDestNodes: [1726535, 2181630, 4033566, 2175195, 2431463, 2441953, 2003797, 2115522, 1539351, 2355231, 1559194, 2148832]
+ResultRelevs: [7.19544792175293, 7.070196151733398, 7.070196151733398, 7.070196151733398, 7.070196151733398, 7.070196151733398, 7.070196151733398, 7.070196151733398, 6.813504219055176, 6.237198829650879, 6.100212097167969, 6.037099838256836]
+AvgResultRelev: 6.822902997334798
+AvgResultDissimilarity: 0.17676767676767682
+Num of entries retrieved from the lists: 3977
+Num of entries retrieved from NKMaps: 5613
+Num of answer trees explored: 1372
+

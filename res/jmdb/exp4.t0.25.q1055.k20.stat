@@ -1,0 +1,17 @@
+Top-k, (AvgResultRelev, AvgResultRelev/ResultRelevs[0], AvgResultDiss) numOfKNListsRead, numOfNKMapLookups, numOfAnswerTreesExplored, elapseTime, numOfStatesCreated, numOfStatesExplored, numOfHeuristicSearchPerformed, numOfATSPrunnedByDissCond, numOfLocalAnswersFound, 
+query: [hero, sacrifice, disaster]
+SimGrpSe, 	20, 6.52733, 1.06893, 0.70351, 2750, 4781, 1782, 1.927135846, 14853, 2560, 0, 1, 
+query: [monster, fantasy, animation]
+SimGrpSe, 	20, 8.91470, 1.04887, 0.61509, 6887, 10713, 3297, 48.929835645, 79462, 16200, 0, 1, 
+query: [monarchy, revolution, war]
+SimGrpSe, 	20, 6.64798, 1.06953, 0.68947, 8457, 11681, 3372, 0.753338849, 1100, 320, 0, 1, 
+query: [emperor, battle, history]
+SimGrpSe, 	20, 6.89377, 1.07196, 0.67368, 5871, 9323, 3452, 6.981379946, 19395, 5040, 0, 1, 
+query: [missing, murder, revenge]
+SimGrpSe, 	20, 6.62058, 1.05879, 0.72456, 3900, 6469, 2481, 0.736843525, 2496, 300, 0, 1, 
+query: [crime, thriller, suspense]
+SimGrpSe, 	20, 9.78967, 1.04572, 0.64368, 9301, 17544, 5838, 2.33345973, 7866, 1248, 0, 1, 
+query: [ghost, mystery, animation]
+SimGrpSe, 	20, 8.76794, 1.05599, 0.71404, 8255, 12991, 3787, 1.469941358, 6406, 1800, 0, 1, 
+query: [romance, conflict, marriage]
+SimGrpSe, 	20, 7.05401, 1.02827, 0.53684, 9105, 16627, 6804, 1.203979534, 232, 32, 0, 1, 

@@ -1,0 +1,6 @@
+Top-k, (AvgResultRelev, AvgResultRelev/ResultRelevs[0], AvgResultDiss) numOfKNListsRead, numOfNKMapLookups, numOfAnswerTreesExplored, elapseTime, 
+BlinkSearcher, 5, 7.46615, 0.87480, 0.60000, 251, 213, 33, 0.148433245, 
+BlinkSearcher, 5, 7.46615, 0.87480, 0.60000, 251, 213, 33, 0.08371294, 
+ExhustiveSearcher, 5, 7.16831, 0.83991, 0.81000, 287, 251, 46, 0.103832075, 109, 93, 86, 
+Astar1m, 5, 7.16831, 0.83991, 0.81000, 287, 251, 46, 0.100033617, 506, 205, 12 59, 
+Astar2m, 5, (no result) 354836, 294434, 86371, 5.707458636, 259202, 259190, 86368 0, 

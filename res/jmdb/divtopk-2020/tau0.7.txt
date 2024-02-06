@@ -1,0 +1,7 @@
+query: [sf, time, travel]
+Top-k Search by Blink-BDB, k=16
+
+Div Top-k Search by Astar116
+
+Div Top-k Search by Astar216
+

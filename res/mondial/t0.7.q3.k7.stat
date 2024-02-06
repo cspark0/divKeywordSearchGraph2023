@@ -1,0 +1,8 @@
+Top-k, (AvgResultRelev, AvgResultRelev/ResultRelevs[0], AvgResultDiss) numOfKNListsRead, numOfNKMapLookups, numOfAnswerTreesExplored, elapseTime, numOfStatesCreated, numOfStatesExplored, numOfHeuristicSearchPerformed, maxQSize, 
+query: [city, desert, california]
+BlinkSea, 	7, 4.72163, 0.74142, 0.74603, 98, 148, 30, 0.100155556, 
+Exhustiv, 	7, 4.72163, 0.74142, 0.74603, 98, 148, 30, 0.107308975, 127, 0, 127, 1, 
+Astar02, 	7, 4.72163, 0.74142, 0.74603, 98, 148, 30, 0.093602013, 29, 8, 1, 22, 0, 
+Astar1nc_ap, 	7, 4.72163, 0.74142, 0.74603, 98, 148, 30, 0.09018306, 8, 8, 1, 1, 0, 
+query: [mountain, himalaya, india]
+BlinkSea, 	7, 7.23883, 0.97984, 0.52857, 33, 54, 22, 0.085791307, 

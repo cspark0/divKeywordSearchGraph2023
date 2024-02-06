@@ -1,0 +1,372 @@
+Top-k Search by Blink-BDB, k=10
+[country, river, asia]
+srcNodes: [20031, 90120, 10002]
+  path: 0[10002 -> 20031], [Asia -> Turkey] 
+
+  path: 1[10002 -> 20052 -> 90120], [Asia -> Afghanistan -> Pjandsh] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [20055, 90128, 10002]
+  path: 0[20055 -> 20055], [Pakistan -> Pakistan]
+  path: 1[20055 -> 90128], [Pakistan -> Indus] 
+
+  path: 2[20055 -> 10002], [Pakistan -> Asia] 
+
+srcNodes: [20086, 90129, 10002]
+  path: 0[20086 -> 20086], [Indonesia -> Indonesia]
+  path: 1[20086 -> 90129], [Indonesia -> Asahan] 
+
+  path: 2[20086 -> 10002], [Indonesia -> Asia] 
+
+srcNodes: [20061, 90085, 10002]
+  path: 0[20061 -> 20061], [Azerbaijan -> Azerbaijan]
+  path: 1[20061 -> 90085], [Azerbaijan -> Kura] 
+
+  path: 2[20061 -> 10002], [Azerbaijan -> Asia] 
+
+srcNodes: [20094, 90084, 10002]
+  path: 0[20094 -> 20094], [Lebanon -> Lebanon]
+  path: 1[20094 -> 90084], [Lebanon -> Jordan] 
+
+  path: 2[20094 -> 10002], [Lebanon -> Asia] 
+
+srcNodes: [20052, 90119, 10002]
+  path: 0[20052 -> 20052], [Afghanistan -> Afghanistan]
+  path: 1[20052 -> 90119], [Afghanistan -> Amudarja] 
+
+  path: 2[20052 -> 10002], [Afghanistan -> Asia] 
+
+srcNodes: [20060, 90085, 10002]
+  path: 0[20060 -> 20060], [Georgia -> Georgia]
+  path: 1[20060 -> 90085], [Georgia -> Kura] 
+
+  path: 2[20060 -> 10002], [Georgia -> Asia] 
+
+srcNodes: [20090, 90084, 10002]
+  path: 0[20090 -> 20090], [Jordan -> Jordan]
+  path: 1[20090 -> 90084], [Jordan -> Jordan] 
+
+  path: 2[20090 -> 10002], [Jordan -> Asia] 
+
+srcNodes: [20093, 90088, 10002]
+  path: 0[20093 -> 20093], [Syria -> Syria]
+  path: 1[20093 -> 90088], [Syria -> Euphrat] 
+
+  path: 2[20093 -> 10002], [Syria -> Asia] 
+
+srcNodes: [20075, 90118, 10002]
+  path: 0[20075 -> 20075], [Kyrgyzstan -> Kyrgyzstan]
+  path: 1[20075 -> 90118], [Kyrgyzstan -> Naryn] 
+
+  path: 2[20075 -> 10002], [Kyrgyzstan -> Asia] 
+
+-----------------------------------------
+Num of top-k answers: 10
+ResultDestNodes: [10002, 20055, 20086, 20061, 20094, 20052, 20060, 20090, 20093, 20075]
+ResultRelevs: [10.453740119934082, 8.16802978515625, 8.16802978515625, 8.16802978515625, 8.16802978515625, 8.16802978515625, 8.16802978515625, 8.16802978515625, 8.16802978515625, 8.16802978515625]
+AvgResultRelev: 8.396600818634033
+AvgResultDissimilarity: 0.7866666666666668
+Num of entries retrieved from the lists: 436
+Num of entries retrieved from NKMaps: 773
+Num of answer trees explored: 307
+
+Div Top-k Search by Astar110
+[country, river, asia]
+srcNodes: [20031, 90120, 10002]
+  path: 0[10002 -> 20031], [Asia -> Turkey] 
+
+  path: 1[10002 -> 20052 -> 90120], [Asia -> Afghanistan -> Pjandsh] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [20086, 90129, 10002]
+  path: 0[20086 -> 20086], [Indonesia -> Indonesia]
+  path: 1[20086 -> 90129], [Indonesia -> Asahan] 
+
+  path: 2[20086 -> 10002], [Indonesia -> Asia] 
+
+srcNodes: [20061, 90085, 10002]
+  path: 0[20061 -> 20061], [Azerbaijan -> Azerbaijan]
+  path: 1[20061 -> 90085], [Azerbaijan -> Kura] 
+
+  path: 2[20061 -> 10002], [Azerbaijan -> Asia] 
+
+srcNodes: [20060, 90085, 10002]
+  path: 0[20060 -> 20060], [Georgia -> Georgia]
+  path: 1[20060 -> 90085], [Georgia -> Kura] 
+
+  path: 2[20060 -> 10002], [Georgia -> Asia] 
+
+srcNodes: [20052, 90119, 10002]
+  path: 0[20052 -> 20052], [Afghanistan -> Afghanistan]
+  path: 1[20052 -> 90119], [Afghanistan -> Amudarja] 
+
+  path: 2[20052 -> 10002], [Afghanistan -> Asia] 
+
+srcNodes: [20070, 90123, 10002]
+  path: 0[20070 -> 20070], [Thailand -> Thailand]
+  path: 1[20070 -> 90123], [Thailand -> Mekong] 
+
+  path: 2[20070 -> 10002], [Thailand -> Asia] 
+
+srcNodes: [20069, 90123, 10002]
+  path: 0[20069 -> 20069], [Laos -> Laos]
+  path: 1[20069 -> 90123], [Laos -> Mekong] 
+
+  path: 2[20069 -> 10002], [Laos -> Asia] 
+
+srcNodes: [20063, 90126, 10002]
+  path: 0[20063 -> 20063], [Bangladesh -> Bangladesh]
+  path: 1[20063 -> 90126], [Bangladesh -> Ganges] 
+
+  path: 2[20063 -> 10002], [Bangladesh -> Asia] 
+
+srcNodes: [20094, 90084, 10002]
+  path: 0[20094 -> 20094], [Lebanon -> Lebanon]
+  path: 1[20094 -> 90084], [Lebanon -> Jordan] 
+
+  path: 2[20094 -> 10002], [Lebanon -> Asia] 
+
+srcNodes: [20072, 90123, 10002]
+  path: 0[20072 -> 20072], [Vietnam -> Vietnam]
+  path: 1[20072 -> 90123], [Vietnam -> Mekong] 
+
+  path: 2[20072 -> 10002], [Vietnam -> Asia] 
+
+-----------------------------------------
+ResultDestNodes: [10002, 20086, 20061, 20060, 20052, 20070, 20069, 20063, 20094, 20072]
+ResultRelevs: [10.453740119934082, 8.16802978515625, 8.16802978515625, 8.16802978515625, 8.16802978515625, 8.16802978515625, 8.16802978515625, 8.16802978515625, 8.16802978515625, 8.16802978515625]
+AvgResultRelev: 8.396600818634033
+AvgResultDissimilarity: 0.7733333110809326
+Num of entries retrieved from the KNLists: 435
+Num of entries retrieved from NKMaps: 771
+Num of answer trees explored: 306
+Num of states created: 1155
+Num of states explored: 158
+Num of heuristic search performed: 7
+Max Num of answer tree sets in Q[]: 749
+
+Div Top-k Search by Astar1m10
+[country, river, asia]
+srcNodes: [20031, 90120, 10002]
+  path: 0[10002 -> 20031], [Asia -> Turkey] 
+
+  path: 1[10002 -> 20052 -> 90120], [Asia -> Afghanistan -> Pjandsh] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [20090, 90084, 10002]
+  path: 0[20090 -> 20090], [Jordan -> Jordan]
+  path: 1[20090 -> 90084], [Jordan -> Jordan] 
+
+  path: 2[20090 -> 10002], [Jordan -> Asia] 
+
+srcNodes: [20086, 90129, 10002]
+  path: 0[20086 -> 20086], [Indonesia -> Indonesia]
+  path: 1[20086 -> 90129], [Indonesia -> Asahan] 
+
+  path: 2[20086 -> 10002], [Indonesia -> Asia] 
+
+srcNodes: [20061, 90085, 10002]
+  path: 0[20061 -> 20061], [Azerbaijan -> Azerbaijan]
+  path: 1[20061 -> 90085], [Azerbaijan -> Kura] 
+
+  path: 2[20061 -> 10002], [Azerbaijan -> Asia] 
+
+srcNodes: [20060, 90085, 10002]
+  path: 0[20060 -> 20060], [Georgia -> Georgia]
+  path: 1[20060 -> 90085], [Georgia -> Kura] 
+
+  path: 2[20060 -> 10002], [Georgia -> Asia] 
+
+srcNodes: [20052, 90119, 10002]
+  path: 0[20052 -> 20052], [Afghanistan -> Afghanistan]
+  path: 1[20052 -> 90119], [Afghanistan -> Amudarja] 
+
+  path: 2[20052 -> 10002], [Afghanistan -> Asia] 
+
+srcNodes: [20071, 90123, 10002]
+  path: 0[20071 -> 20071], [Cambodia -> Cambodia]
+  path: 1[20071 -> 90123], [Cambodia -> Mekong] 
+
+  path: 2[20071 -> 10002], [Cambodia -> Asia] 
+
+srcNodes: [20093, 90088, 10002]
+  path: 0[20093 -> 20093], [Syria -> Syria]
+  path: 1[20093 -> 90088], [Syria -> Euphrat] 
+
+  path: 2[20093 -> 10002], [Syria -> Asia] 
+
+srcNodes: [20055, 90128, 10002]
+  path: 0[20055 -> 20055], [Pakistan -> Pakistan]
+  path: 1[20055 -> 90128], [Pakistan -> Indus] 
+
+  path: 2[20055 -> 10002], [Pakistan -> Asia] 
+
+srcNodes: [20070, 90123, 10002]
+  path: 0[20070 -> 20070], [Thailand -> Thailand]
+  path: 1[20070 -> 90123], [Thailand -> Mekong] 
+
+  path: 2[20070 -> 10002], [Thailand -> Asia] 
+
+-----------------------------------------
+ResultDestNodes: [10002, 20090, 20086, 20061, 20060, 20052, 20071, 20093, 20055, 20070]
+ResultRelevs: [10.453740119934082, 8.16802978515625, 8.16802978515625, 8.16802978515625, 8.16802978515625, 8.16802978515625, 8.16802978515625, 8.16802978515625, 8.16802978515625, 8.16802978515625]
+AvgResultRelev: 8.396600818634033
+AvgResultDissimilarity: 0.7866666913032532
+Num of entries retrieved from the KNLists: 435
+Num of entries retrieved from NKMaps: 771
+Num of answer trees explored: 306
+Num of states created: 321
+Num of states explored: 300
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 30
+
+Div Top-k Search by Astar210
+[country, river, asia]
+srcNodes: [20031, 90120, 10002]
+  path: 0[10002 -> 20031], [Asia -> Turkey] 
+
+  path: 1[10002 -> 20052 -> 90120], [Asia -> Afghanistan -> Pjandsh] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [20086, 90129, 10002]
+  path: 0[20086 -> 20086], [Indonesia -> Indonesia]
+  path: 1[20086 -> 90129], [Indonesia -> Asahan] 
+
+  path: 2[20086 -> 10002], [Indonesia -> Asia] 
+
+srcNodes: [20061, 90085, 10002]
+  path: 0[20061 -> 20061], [Azerbaijan -> Azerbaijan]
+  path: 1[20061 -> 90085], [Azerbaijan -> Kura] 
+
+  path: 2[20061 -> 10002], [Azerbaijan -> Asia] 
+
+srcNodes: [20060, 90085, 10002]
+  path: 0[20060 -> 20060], [Georgia -> Georgia]
+  path: 1[20060 -> 90085], [Georgia -> Kura] 
+
+  path: 2[20060 -> 10002], [Georgia -> Asia] 
+
+srcNodes: [20052, 90119, 10002]
+  path: 0[20052 -> 20052], [Afghanistan -> Afghanistan]
+  path: 1[20052 -> 90119], [Afghanistan -> Amudarja] 
+
+  path: 2[20052 -> 10002], [Afghanistan -> Asia] 
+
+srcNodes: [20070, 90123, 10002]
+  path: 0[20070 -> 20070], [Thailand -> Thailand]
+  path: 1[20070 -> 90123], [Thailand -> Mekong] 
+
+  path: 2[20070 -> 10002], [Thailand -> Asia] 
+
+srcNodes: [20069, 90123, 10002]
+  path: 0[20069 -> 20069], [Laos -> Laos]
+  path: 1[20069 -> 90123], [Laos -> Mekong] 
+
+  path: 2[20069 -> 10002], [Laos -> Asia] 
+
+srcNodes: [20063, 90126, 10002]
+  path: 0[20063 -> 20063], [Bangladesh -> Bangladesh]
+  path: 1[20063 -> 90126], [Bangladesh -> Ganges] 
+
+  path: 2[20063 -> 10002], [Bangladesh -> Asia] 
+
+srcNodes: [20094, 90084, 10002]
+  path: 0[20094 -> 20094], [Lebanon -> Lebanon]
+  path: 1[20094 -> 90084], [Lebanon -> Jordan] 
+
+  path: 2[20094 -> 10002], [Lebanon -> Asia] 
+
+srcNodes: [20072, 90123, 10002]
+  path: 0[20072 -> 20072], [Vietnam -> Vietnam]
+  path: 1[20072 -> 90123], [Vietnam -> Mekong] 
+
+  path: 2[20072 -> 10002], [Vietnam -> Asia] 
+
+-----------------------------------------
+ResultDestNodes: [10002, 20086, 20061, 20060, 20052, 20070, 20069, 20063, 20094, 20072]
+ResultRelevs: [10.453740119934082, 8.16802978515625, 8.16802978515625, 8.16802978515625, 8.16802978515625, 8.16802978515625, 8.16802978515625, 8.16802978515625, 8.16802978515625, 8.16802978515625]
+AvgResultRelev: 8.396600818634033
+AvgResultDissimilarity: 0.7733333110809326
+Num of entries retrieved from the KNLists: 435
+Num of entries retrieved from NKMaps: 771
+Num of answer trees explored: 306
+Num of states created: 1155
+Num of states explored: 158
+Num of heuristic search performed: 7
+Max Num of answer tree sets in Q[]: 749
+
+Div Top-k Search by Astar2m10
+[country, river, asia]
+srcNodes: [20031, 90120, 10002]
+  path: 0[10002 -> 20031], [Asia -> Turkey] 
+
+  path: 1[10002 -> 20052 -> 90120], [Asia -> Afghanistan -> Pjandsh] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [20090, 90084, 10002]
+  path: 0[20090 -> 20090], [Jordan -> Jordan]
+  path: 1[20090 -> 90084], [Jordan -> Jordan] 
+
+  path: 2[20090 -> 10002], [Jordan -> Asia] 
+
+srcNodes: [20086, 90129, 10002]
+  path: 0[20086 -> 20086], [Indonesia -> Indonesia]
+  path: 1[20086 -> 90129], [Indonesia -> Asahan] 
+
+  path: 2[20086 -> 10002], [Indonesia -> Asia] 
+
+srcNodes: [20061, 90085, 10002]
+  path: 0[20061 -> 20061], [Azerbaijan -> Azerbaijan]
+  path: 1[20061 -> 90085], [Azerbaijan -> Kura] 
+
+  path: 2[20061 -> 10002], [Azerbaijan -> Asia] 
+
+srcNodes: [20060, 90085, 10002]
+  path: 0[20060 -> 20060], [Georgia -> Georgia]
+  path: 1[20060 -> 90085], [Georgia -> Kura] 
+
+  path: 2[20060 -> 10002], [Georgia -> Asia] 
+
+srcNodes: [20052, 90119, 10002]
+  path: 0[20052 -> 20052], [Afghanistan -> Afghanistan]
+  path: 1[20052 -> 90119], [Afghanistan -> Amudarja] 
+
+  path: 2[20052 -> 10002], [Afghanistan -> Asia] 
+
+srcNodes: [20071, 90123, 10002]
+  path: 0[20071 -> 20071], [Cambodia -> Cambodia]
+  path: 1[20071 -> 90123], [Cambodia -> Mekong] 
+
+  path: 2[20071 -> 10002], [Cambodia -> Asia] 
+
+srcNodes: [20093, 90088, 10002]
+  path: 0[20093 -> 20093], [Syria -> Syria]
+  path: 1[20093 -> 90088], [Syria -> Euphrat] 
+
+  path: 2[20093 -> 10002], [Syria -> Asia] 
+
+srcNodes: [20055, 90128, 10002]
+  path: 0[20055 -> 20055], [Pakistan -> Pakistan]
+  path: 1[20055 -> 90128], [Pakistan -> Indus] 
+
+  path: 2[20055 -> 10002], [Pakistan -> Asia] 
+
+srcNodes: [20070, 90123, 10002]
+  path: 0[20070 -> 20070], [Thailand -> Thailand]
+  path: 1[20070 -> 90123], [Thailand -> Mekong] 
+
+  path: 2[20070 -> 10002], [Thailand -> Asia] 
+
+-----------------------------------------
+ResultDestNodes: [10002, 20090, 20086, 20061, 20060, 20052, 20071, 20093, 20055, 20070]
+ResultRelevs: [10.453740119934082, 8.16802978515625, 8.16802978515625, 8.16802978515625, 8.16802978515625, 8.16802978515625, 8.16802978515625, 8.16802978515625, 8.16802978515625, 8.16802978515625]
+AvgResultRelev: 8.396600818634033
+AvgResultDissimilarity: 0.7866666913032532
+Num of entries retrieved from the KNLists: 435
+Num of entries retrieved from NKMaps: 771
+Num of answer trees explored: 306
+Num of states created: 321
+Num of states explored: 300
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 0
+

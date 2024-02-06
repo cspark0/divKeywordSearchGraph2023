@@ -1,0 +1,155 @@
+Div Top-k Search by Exhustive4
+[mountains, river, falls]
+srcNodes: [183, 90143, 42532]
+  path: 0[183 -> 183], [Harney Peak Harney Peak Rocky Mountains  -> Harney Peak Harney Peak Rocky Mountains ]
+  path: 1[183 -> 31027 -> 90143], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Missouri] 
+
+  path: 2[183 -> 31027 -> 42532], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Sioux Falls] 
+
+srcNodes: [183, 90143, 42532]
+  path: 0[90143 -> 31027 -> 183], [Missouri -> South Dakota -> Harney Peak Harney Peak Rocky Mountains ] 
+
+  path: 1[90143 -> 90143], [Missouri -> Missouri]
+  path: 2[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [190, 90151, 42951]
+  path: 0[190 -> 190], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Guadalupe Peak Guadalupe Peak Rocky Mountains ]
+  path: 1[190 -> 31029 -> 90151], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Rio Grande] 
+
+  path: 2[190 -> 31029 -> 42951], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Wichita Falls] 
+
+srcNodes: [187, 90144, 42951]
+  path: 0[187 -> 187], [Pikes Peak Pikes Peak Rocky Mountains  -> Pikes Peak Pikes Peak Rocky Mountains ]
+  path: 1[187 -> 30992 -> 90144], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Arkansas] 
+
+  path: 2[187 -> 30992 -> 90151 -> 31029 -> 42951], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+-----------------------------------------
+ResultDestNodes: [183, 90143, 190, 187]
+ResultRelevs: [5.38916015625, 5.21127986907959, 5.20552396774292, 4.80931282043457]
+AvgResultRelev: 5.15381920337677
+AvgResultDissimilarity: 0.800000011920929
+Num of entries retrieved from the KNLists: 117
+Num of entries retrieved from NKMaps: 180
+Num of answer trees explored: 46
+Num of answer tree sets created: 27
+Num of answer tree sets removed: 16
+Max Num of answer tree sets in Q[]: 27
+
+Div Top-k Search by Astar14
+[mountains, river, falls]
+srcNodes: [183, 90143, 42532]
+  path: 0[183 -> 183], [Harney Peak Harney Peak Rocky Mountains  -> Harney Peak Harney Peak Rocky Mountains ]
+  path: 1[183 -> 31027 -> 90143], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Missouri] 
+
+  path: 2[183 -> 31027 -> 42532], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Sioux Falls] 
+
+srcNodes: [183, 90143, 42532]
+  path: 0[90143 -> 31027 -> 183], [Missouri -> South Dakota -> Harney Peak Harney Peak Rocky Mountains ] 
+
+  path: 1[90143 -> 90143], [Missouri -> Missouri]
+  path: 2[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [190, 90151, 42951]
+  path: 0[190 -> 190], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Guadalupe Peak Guadalupe Peak Rocky Mountains ]
+  path: 1[190 -> 31029 -> 90151], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Rio Grande] 
+
+  path: 2[190 -> 31029 -> 42951], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Wichita Falls] 
+
+srcNodes: [187, 90144, 42951]
+  path: 0[187 -> 187], [Pikes Peak Pikes Peak Rocky Mountains  -> Pikes Peak Pikes Peak Rocky Mountains ]
+  path: 1[187 -> 30992 -> 90144], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Arkansas] 
+
+  path: 2[187 -> 30992 -> 90151 -> 31029 -> 42951], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+-----------------------------------------
+ResultDestNodes: [183, 90143, 190, 187]
+ResultRelevs: [5.38916015625, 5.21127986907959, 5.20552396774292, 4.80931282043457]
+AvgResultRelev: 5.15381920337677
+AvgResultDissimilarity: 0.800000011920929
+Num of entries retrieved from the KNLists: 117
+Num of entries retrieved from NKMaps: 180
+Num of answer trees explored: 46
+Num of states created: 23
+Num of states explored: 11
+Num of heuristic search performed: 2
+Max Num of answer tree sets in Q[]: 8
+
+Div Top-k Search by Astar24
+[mountains, river, falls]
+srcNodes: [183, 90143, 42532]
+  path: 0[183 -> 183], [Harney Peak Harney Peak Rocky Mountains  -> Harney Peak Harney Peak Rocky Mountains ]
+  path: 1[183 -> 31027 -> 90143], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Missouri] 
+
+  path: 2[183 -> 31027 -> 42532], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Sioux Falls] 
+
+srcNodes: [183, 90143, 42532]
+  path: 0[90143 -> 31027 -> 183], [Missouri -> South Dakota -> Harney Peak Harney Peak Rocky Mountains ] 
+
+  path: 1[90143 -> 90143], [Missouri -> Missouri]
+  path: 2[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [190, 90151, 42951]
+  path: 0[190 -> 190], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Guadalupe Peak Guadalupe Peak Rocky Mountains ]
+  path: 1[190 -> 31029 -> 90151], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Rio Grande] 
+
+  path: 2[190 -> 31029 -> 42951], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Wichita Falls] 
+
+srcNodes: [187, 90144, 42951]
+  path: 0[187 -> 187], [Pikes Peak Pikes Peak Rocky Mountains  -> Pikes Peak Pikes Peak Rocky Mountains ]
+  path: 1[187 -> 30992 -> 90144], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Arkansas] 
+
+  path: 2[187 -> 30992 -> 90151 -> 31029 -> 42951], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+-----------------------------------------
+ResultDestNodes: [183, 90143, 190, 187]
+ResultRelevs: [5.38916015625, 5.21127986907959, 5.20552396774292, 4.80931282043457]
+AvgResultRelev: 5.15381920337677
+AvgResultDissimilarity: 0.800000011920929
+Num of entries retrieved from the KNLists: 117
+Num of entries retrieved from NKMaps: 180
+Num of answer trees explored: 46
+Num of states created: 23
+Num of states explored: 11
+Num of heuristic search performed: 2
+Max Num of answer tree sets in Q[]: 8
+
+Div Top-k Search by Astar2re4
+[mountains, river, falls]
+srcNodes: [183, 90143, 42532]
+  path: 0[183 -> 183], [Harney Peak Harney Peak Rocky Mountains  -> Harney Peak Harney Peak Rocky Mountains ]
+  path: 1[183 -> 31027 -> 90143], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Missouri] 
+
+  path: 2[183 -> 31027 -> 42532], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Sioux Falls] 
+
+srcNodes: [183, 90143, 42532]
+  path: 0[90143 -> 31027 -> 183], [Missouri -> South Dakota -> Harney Peak Harney Peak Rocky Mountains ] 
+
+  path: 1[90143 -> 90143], [Missouri -> Missouri]
+  path: 2[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [190, 90151, 42951]
+  path: 0[190 -> 190], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Guadalupe Peak Guadalupe Peak Rocky Mountains ]
+  path: 1[190 -> 31029 -> 90151], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Rio Grande] 
+
+  path: 2[190 -> 31029 -> 42951], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Wichita Falls] 
+
+srcNodes: [187, 90144, 42951]
+  path: 0[187 -> 187], [Pikes Peak Pikes Peak Rocky Mountains  -> Pikes Peak Pikes Peak Rocky Mountains ]
+  path: 1[187 -> 30992 -> 90144], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Arkansas] 
+
+  path: 2[187 -> 30992 -> 90151 -> 31029 -> 42951], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+-----------------------------------------
+ResultDestNodes: [183, 90143, 190, 187]
+ResultRelevs: [5.38916015625, 5.21127986907959, 5.20552396774292, 4.80931282043457]
+AvgResultRelev: 5.15381920337677
+AvgResultDissimilarity: 0.800000011920929
+Num of entries retrieved from the KNLists: 117
+Num of entries retrieved from NKMaps: 180
+Num of answer trees explored: 46
+Num of states created: 15
+Num of states explored: 7
+Num of heuristic search performed: 2
+Max Num of answer tree sets in Q[]: 10
+

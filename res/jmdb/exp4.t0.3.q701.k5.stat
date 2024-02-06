@@ -1,0 +1,21 @@
+Top-k, (AvgResultRelev, AvgResultRelev/ResultRelevs[0], AvgResultDiss) numOfKNListsRead, numOfNKMapLookups, numOfAnswerTreesExplored, elapseTime, numOfStatesCreated, numOfStatesExplored, numOfHeuristicSearchPerformed, numOfATSPrunnedByDissCond, numOfLocalAnswersFound, 
+query: [hero, sacrifice, disaster]
+SimGrpSe, 	5, 7.11986, 1.05071, 0.66667, 1584, 2650, 955, 0.209357872, 29, 8, 0, 1, 
+query: [monster, fantasy, animation]
+SimGrpSe, 	5, 9.53057, 1.03450, 0.46667, 5646, 9097, 2938, 0.297241418, 17, 5, 0, 1, 
+query: [monarchy, revolution, war]
+SimGrpSe, 	5, 7.19434, 1.06583, 0.50000, 2835, 3580, 751, 0.102164302, 5, 1, 0, 1, 
+query: [emperor, battle, history]
+SimGrpSe, 	5, 7.42319, 1.04504, 0.53333, 4455, 7231, 2759, 0.26069772, 15, 4, 0, 1, 
+query: [missing, murder, revenge]
+SimGrpSe, 	5, 7.08899, 1.04347, 0.43333, 3582, 5963, 2291, 0.213984129, 8, 2, 0, 1, 
+query: [crime, thriller, suspense]
+SimGrpSe, 	5, 10.21685, 1.01723, 0.44000, 2801, 5077, 1378, 0.24926033, 10, 2, 0, 1, 
+query: [ghost, mystery, animation]
+SimGrpSe, 	5, 9.20201, 1.01612, 0.46667, 5646, 9206, 2904, 0.259321471, 5, 1, 0, 1, 
+query: [fraud, deception, betrayal]
+SimGrpSe, 	5, 7.05547, 1.12419, 0.43333, 1571, 2567, 939, 0.122793226, 17, 5, 0, 1, 
+query: [murder, psychopath, mystery]
+SimGrpSe, 	5, 8.05370, 1.02819, 0.46667, 3311, 5684, 1943, 0.226941324, 5, 1, 0, 1, 
+query: [romance, conflict, marriage]
+SimGrpSe, 	5, 7.39028, 1.02967, 0.56667, 1608, 2625, 814, 0.115278559, 5, 1, 0, 1, 

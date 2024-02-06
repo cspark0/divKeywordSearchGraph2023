@@ -1,0 +1,1794 @@
+query: [war, genocide, history]
+Top-k Search by Blink-BDB, k=5
+[war, genocide, history]
+srcNodes: [5001029, 8015510, 5004331]
+  path: 0[1452028 -> 4038961 -> 1477401 -> 5001029], [In the Hills of Deleij (2009) -> Sage, Paul (II) -> Kapisa (2009) -> Short,War,Drama] 
+
+  path: 1[1452028 -> 8015510], [In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[1452028 -> 2412226 -> 1603899 -> 5004331], [In the Hills of Deleij (2009) -> Oghie, Ochuwa -> Nurse Seacole (2010) -> Action,Drama,History,Short] 
+
+srcNodes: [5000166, 8015510, 5000150]
+  path: 0[2330082 -> 1752218 -> 4042392 -> 1871457 -> 5000166], [Etoile, Sana -> The Adventures of Tintin: The Secret of the Unicorn (2011) -> Spielberg, Steven -> War Horse (2011) -> War] 
+
+  path: 1[2330082 -> 1452028 -> 8015510], [Etoile, Sana -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2330082 -> 1752218 -> 2157635 -> 1389060 -> 5000150], [Etoile, Sana -> The Adventures of Tintin: The Secret of the Unicorn (2011) -> Jones, Toby (I) -> Frost/Nixon (2008) -> Drama,History] 
+
+srcNodes: [5000166, 8015510, 5000055]
+  path: 0[4042392 -> 1871457 -> 5000166], [Spielberg, Steven -> War Horse (2011) -> War] 
+
+  path: 1[4042392 -> 1752218 -> 2330082 -> 1452028 -> 8015510], [Spielberg, Steven -> The Adventures of Tintin: The Secret of the Unicorn (2011) -> Etoile, Sana -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[4042392 -> 1580355 -> 2114690 -> 535478 -> 5000055], [Spielberg, Steven -> Munich (2005) -> Giannatos, Mihalis -> "Le dernier seigneur des Balkans" (2005) -> History] 
+
+srcNodes: [5000166, 8015510, 5000150]
+  path: 0[1752218 -> 4042392 -> 1871457 -> 5000166], [The Adventures of Tintin: The Secret of the Unicorn (2011) -> Spielberg, Steven -> War Horse (2011) -> War] 
+
+  path: 1[1752218 -> 2330082 -> 1452028 -> 8015510], [The Adventures of Tintin: The Secret of the Unicorn (2011) -> Etoile, Sana -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[1752218 -> 2157635 -> 1389060 -> 5000150], [The Adventures of Tintin: The Secret of the Unicorn (2011) -> Jones, Toby (I) -> Frost/Nixon (2008) -> Drama,History] 
+
+srcNodes: [5001029, 8015510, 5004331]
+  path: 0[2412226 -> 1452028 -> 4038961 -> 1477401 -> 5001029], [Oghie, Ochuwa -> In the Hills of Deleij (2009) -> Sage, Paul (II) -> Kapisa (2009) -> Short,War,Drama] 
+
+  path: 1[2412226 -> 1452028 -> 8015510], [Oghie, Ochuwa -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2412226 -> 1603899 -> 5004331], [Oghie, Ochuwa -> Nurse Seacole (2010) -> Action,Drama,History,Short] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [1452028, 2330082, 4042392, 1752218, 2412226]
+ResultRelevs: [9.450151443481445, 8.275921821594238, 8.233617782592773, 8.058707237243652, 7.8464741706848145]
+AvgResultRelev: 8.372974491119384
+AvgResultDissimilarity: 0.4666666666666666
+Num of entries retrieved from the lists: 4389
+Num of entries retrieved from NKMaps: 6882
+Num of answer trees explored: 1872
+
+Div Top-k Search by Exhustive, k=5
+[war, genocide, history]
+srcNodes: [5001029, 8015510, 5004331]
+  path: 0[1452028 -> 4038961 -> 1477401 -> 5001029], [In the Hills of Deleij (2009) -> Sage, Paul (II) -> Kapisa (2009) -> Short,War,Drama] 
+
+  path: 1[1452028 -> 8015510], [In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[1452028 -> 2412226 -> 1603899 -> 5004331], [In the Hills of Deleij (2009) -> Oghie, Ochuwa -> Nurse Seacole (2010) -> Action,Drama,History,Short] 
+
+srcNodes: [5000166, 8015510, 5000150]
+  path: 0[2330082 -> 1752218 -> 4042392 -> 1871457 -> 5000166], [Etoile, Sana -> The Adventures of Tintin: The Secret of the Unicorn (2011) -> Spielberg, Steven -> War Horse (2011) -> War] 
+
+  path: 1[2330082 -> 1452028 -> 8015510], [Etoile, Sana -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2330082 -> 1752218 -> 2157635 -> 1389060 -> 5000150], [Etoile, Sana -> The Adventures of Tintin: The Secret of the Unicorn (2011) -> Jones, Toby (I) -> Frost/Nixon (2008) -> Drama,History] 
+
+srcNodes: [1816501, 8015510, 5000050]
+  path: 0[2178688 -> 1637619 -> 2199735 -> 1816501], [Lamar, Jason -> Pirates of the Caribbean: At World's End (2007) -> Manesh, Marshall -> The Truth About the War in Heaven: Declaration of War (2011)] 
+
+  path: 1[2178688 -> 1452028 -> 8015510], [Lamar, Jason -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2178688 -> 1637619 -> 2372301 -> 1799442 -> 5000050], [Lamar, Jason -> Pirates of the Caribbean: At World's End (2007) -> Knightley, Keira -> The People Speak UK (2010) -> Documentary,History] 
+
+srcNodes: [1871603, 8015510, 5000003]
+  path: 0[2187318 -> 1782644 -> 2333654 -> 1871603], [Lewis, Vernon -> The Invasion (2007/I) -> Fischer, Pamela (I) -> War of the Worlds (2005)] 
+
+  path: 1[2187318 -> 1452028 -> 8015510], [Lewis, Vernon -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2187318 -> 1782644 -> 2304980 -> 1612496 -> 5000003], [Lewis, Vernon -> The Invasion (2007/I) -> Cartwright, Veronica -> On the Edge of Black and White (2008) -> History,Documentary] 
+
+srcNodes: [1819680, 2113391, 6038738]
+  path: 0[2113391 -> 1756034 -> 2049772 -> 1819680], [Genocide Fatale -> The Belly of the Beast (2007) -> Carney, Patrick Michael -> The Way of War (2009)] 
+
+  path: 1[2113391 -> 2113391], [Genocide Fatale -> Genocide Fatale]
+  path: 2[2113391 -> 1756034 -> 2049772 -> 1868936 -> 6038738], [Genocide Fatale -> The Belly of the Beast (2007) -> Carney, Patrick Michael -> W. (2008/I) -> Oliver Stone's biogr] 
+
+Dissims of Subsets and t:
+(0~0, 1) : 0.6666666666666666
+(0~1, 2) : 0.6666666666666666
+(0~2, 3) : 0.6666666666666666
+(0~3, 4) : 1.0
+-----------------------------------------
+ResultDestNodes: [1452028, 2330082, 2178688, 2187318, 2113391]
+ResultRelevs: [9.450151443481445, 8.275921821594238, 7.720733642578125, 7.6462721824646, 7.624637126922607]
+AvgResultRelev: 8.143543243408203
+AvgResultDissimilarity: 0.8
+Num of entries retrieved from the KNLists: 4561
+Num of entries retrieved from NKMaps: 7120
+Num of answer trees explored: 1944
+Num of answer tree sets created: 191
+Num of answer tree sets removed: 18
+
+Div Top-k Search by Astar02, k=5
+[war, genocide, history]
+srcNodes: [5001029, 8015510, 5004331]
+  path: 0[1452028 -> 4038961 -> 1477401 -> 5001029], [In the Hills of Deleij (2009) -> Sage, Paul (II) -> Kapisa (2009) -> Short,War,Drama] 
+
+  path: 1[1452028 -> 8015510], [In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[1452028 -> 2412226 -> 1603899 -> 5004331], [In the Hills of Deleij (2009) -> Oghie, Ochuwa -> Nurse Seacole (2010) -> Action,Drama,History,Short] 
+
+srcNodes: [5000166, 8015510, 5000150]
+  path: 0[2330082 -> 1752218 -> 4042392 -> 1871457 -> 5000166], [Etoile, Sana -> The Adventures of Tintin: The Secret of the Unicorn (2011) -> Spielberg, Steven -> War Horse (2011) -> War] 
+
+  path: 1[2330082 -> 1452028 -> 8015510], [Etoile, Sana -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2330082 -> 1752218 -> 2157635 -> 1389060 -> 5000150], [Etoile, Sana -> The Adventures of Tintin: The Secret of the Unicorn (2011) -> Jones, Toby (I) -> Frost/Nixon (2008) -> Drama,History] 
+
+srcNodes: [1816501, 8015510, 5000050]
+  path: 0[2178688 -> 1637619 -> 2199735 -> 1816501], [Lamar, Jason -> Pirates of the Caribbean: At World's End (2007) -> Manesh, Marshall -> The Truth About the War in Heaven: Declaration of War (2011)] 
+
+  path: 1[2178688 -> 1452028 -> 8015510], [Lamar, Jason -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2178688 -> 1637619 -> 2372301 -> 1799442 -> 5000050], [Lamar, Jason -> Pirates of the Caribbean: At World's End (2007) -> Knightley, Keira -> The People Speak UK (2010) -> Documentary,History] 
+
+srcNodes: [1871603, 8015510, 5000003]
+  path: 0[2187318 -> 1782644 -> 2333654 -> 1871603], [Lewis, Vernon -> The Invasion (2007/I) -> Fischer, Pamela (I) -> War of the Worlds (2005)] 
+
+  path: 1[2187318 -> 1452028 -> 8015510], [Lewis, Vernon -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2187318 -> 1782644 -> 2304980 -> 1612496 -> 5000003], [Lewis, Vernon -> The Invasion (2007/I) -> Cartwright, Veronica -> On the Edge of Black and White (2008) -> History,Documentary] 
+
+srcNodes: [1819680, 2113391, 6038738]
+  path: 0[2113391 -> 1756034 -> 2049772 -> 1819680], [Genocide Fatale -> The Belly of the Beast (2007) -> Carney, Patrick Michael -> The Way of War (2009)] 
+
+  path: 1[2113391 -> 2113391], [Genocide Fatale -> Genocide Fatale]
+  path: 2[2113391 -> 1756034 -> 2049772 -> 1868936 -> 6038738], [Genocide Fatale -> The Belly of the Beast (2007) -> Carney, Patrick Michael -> W. (2008/I) -> Oliver Stone's biogr] 
+
+-----------------------------------------
+ResultDestNodes: [1452028, 2330082, 2178688, 2187318, 2113391]
+ResultRelevs: [9.450151443481445, 8.275921821594238, 7.720733642578125, 7.6462721824646, 7.624637126922607]
+AvgResultRelev: 8.143543243408203
+AvgResultDissimilarity: 0.8
+Num of entries retrieved from the KNLists: 4561
+Num of entries retrieved from NKMaps: 7120
+Num of answer trees explored: 1944
+Num of states created: 246
+Num of states explored: 226
+Num of heuristic search performed: 6
+
+Div Top-k Search by Astar1nc_ap_new, k=5
+[war, genocide, history]
+srcNodes: [5001029, 8015510, 5004331]
+  path: 0[1452028 -> 4038961 -> 1477401 -> 5001029], [In the Hills of Deleij (2009) -> Sage, Paul (II) -> Kapisa (2009) -> Short,War,Drama] 
+
+  path: 1[1452028 -> 8015510], [In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[1452028 -> 2412226 -> 1603899 -> 5004331], [In the Hills of Deleij (2009) -> Oghie, Ochuwa -> Nurse Seacole (2010) -> Action,Drama,History,Short] 
+
+srcNodes: [5000166, 8015510, 5000150]
+  path: 0[2330082 -> 1752218 -> 4042392 -> 1871457 -> 5000166], [Etoile, Sana -> The Adventures of Tintin: The Secret of the Unicorn (2011) -> Spielberg, Steven -> War Horse (2011) -> War] 
+
+  path: 1[2330082 -> 1452028 -> 8015510], [Etoile, Sana -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2330082 -> 1752218 -> 2157635 -> 1389060 -> 5000150], [Etoile, Sana -> The Adventures of Tintin: The Secret of the Unicorn (2011) -> Jones, Toby (I) -> Frost/Nixon (2008) -> Drama,History] 
+
+srcNodes: [1816501, 8015510, 5000050]
+  path: 0[2178688 -> 1637619 -> 2199735 -> 1816501], [Lamar, Jason -> Pirates of the Caribbean: At World's End (2007) -> Manesh, Marshall -> The Truth About the War in Heaven: Declaration of War (2011)] 
+
+  path: 1[2178688 -> 1452028 -> 8015510], [Lamar, Jason -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2178688 -> 1637619 -> 2372301 -> 1799442 -> 5000050], [Lamar, Jason -> Pirates of the Caribbean: At World's End (2007) -> Knightley, Keira -> The People Speak UK (2010) -> Documentary,History] 
+
+srcNodes: [1871603, 8015510, 5000003]
+  path: 0[2187318 -> 1782644 -> 2333654 -> 1871603], [Lewis, Vernon -> The Invasion (2007/I) -> Fischer, Pamela (I) -> War of the Worlds (2005)] 
+
+  path: 1[2187318 -> 1452028 -> 8015510], [Lewis, Vernon -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2187318 -> 1782644 -> 2304980 -> 1612496 -> 5000003], [Lewis, Vernon -> The Invasion (2007/I) -> Cartwright, Veronica -> On the Edge of Black and White (2008) -> History,Documentary] 
+
+srcNodes: [1819680, 2113391, 6038738]
+  path: 0[2113391 -> 1756034 -> 2049772 -> 1819680], [Genocide Fatale -> The Belly of the Beast (2007) -> Carney, Patrick Michael -> The Way of War (2009)] 
+
+  path: 1[2113391 -> 2113391], [Genocide Fatale -> Genocide Fatale]
+  path: 2[2113391 -> 1756034 -> 2049772 -> 1868936 -> 6038738], [Genocide Fatale -> The Belly of the Beast (2007) -> Carney, Patrick Michael -> W. (2008/I) -> Oliver Stone's biogr] 
+
+-----------------------------------------
+ResultDestNodes: [1452028, 2330082, 2178688, 2187318, 2113391]
+ResultRelevs: [9.450151443481445, 8.275921821594238, 7.720733642578125, 7.6462721824646, 7.624637126922607]
+AvgResultRelev: 8.143543243408203
+AvgResultDissimilarity: 0.8
+Num of entries retrieved from the KNLists: 4570
+Num of entries retrieved from NKMaps: 7132
+Num of answer trees explored: 1946
+Num of states created: 27
+Num of states explored: 11
+Num of heuristic search performed: 3
+
+Top-k Search by Blink-BDB, k=10
+[war, genocide, history]
+srcNodes: [5001029, 8015510, 5004331]
+  path: 0[1452028 -> 4038961 -> 1477401 -> 5001029], [In the Hills of Deleij (2009) -> Sage, Paul (II) -> Kapisa (2009) -> Short,War,Drama] 
+
+  path: 1[1452028 -> 8015510], [In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[1452028 -> 2412226 -> 1603899 -> 5004331], [In the Hills of Deleij (2009) -> Oghie, Ochuwa -> Nurse Seacole (2010) -> Action,Drama,History,Short] 
+
+srcNodes: [5000166, 8015510, 5000150]
+  path: 0[2330082 -> 1752218 -> 4042392 -> 1871457 -> 5000166], [Etoile, Sana -> The Adventures of Tintin: The Secret of the Unicorn (2011) -> Spielberg, Steven -> War Horse (2011) -> War] 
+
+  path: 1[2330082 -> 1452028 -> 8015510], [Etoile, Sana -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2330082 -> 1752218 -> 2157635 -> 1389060 -> 5000150], [Etoile, Sana -> The Adventures of Tintin: The Secret of the Unicorn (2011) -> Jones, Toby (I) -> Frost/Nixon (2008) -> Drama,History] 
+
+srcNodes: [5000166, 8015510, 5000055]
+  path: 0[4042392 -> 1871457 -> 5000166], [Spielberg, Steven -> War Horse (2011) -> War] 
+
+  path: 1[4042392 -> 1752218 -> 2330082 -> 1452028 -> 8015510], [Spielberg, Steven -> The Adventures of Tintin: The Secret of the Unicorn (2011) -> Etoile, Sana -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[4042392 -> 1580355 -> 2114690 -> 535478 -> 5000055], [Spielberg, Steven -> Munich (2005) -> Giannatos, Mihalis -> "Le dernier seigneur des Balkans" (2005) -> History] 
+
+srcNodes: [5000166, 8015510, 5000150]
+  path: 0[1752218 -> 4042392 -> 1871457 -> 5000166], [The Adventures of Tintin: The Secret of the Unicorn (2011) -> Spielberg, Steven -> War Horse (2011) -> War] 
+
+  path: 1[1752218 -> 2330082 -> 1452028 -> 8015510], [The Adventures of Tintin: The Secret of the Unicorn (2011) -> Etoile, Sana -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[1752218 -> 2157635 -> 1389060 -> 5000150], [The Adventures of Tintin: The Secret of the Unicorn (2011) -> Jones, Toby (I) -> Frost/Nixon (2008) -> Drama,History] 
+
+srcNodes: [5001029, 8015510, 5004331]
+  path: 0[2412226 -> 1452028 -> 4038961 -> 1477401 -> 5001029], [Oghie, Ochuwa -> In the Hills of Deleij (2009) -> Sage, Paul (II) -> Kapisa (2009) -> Short,War,Drama] 
+
+  path: 1[2412226 -> 1452028 -> 8015510], [Oghie, Ochuwa -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2412226 -> 1603899 -> 5004331], [Oghie, Ochuwa -> Nurse Seacole (2010) -> Action,Drama,History,Short] 
+
+srcNodes: [5001029, 8015510, 5004331]
+  path: 0[4038961 -> 1477401 -> 5001029], [Sage, Paul (II) -> Kapisa (2009) -> Short,War,Drama] 
+
+  path: 1[4038961 -> 1452028 -> 8015510], [Sage, Paul (II) -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[4038961 -> 1452028 -> 2412226 -> 1603899 -> 5004331], [Sage, Paul (II) -> In the Hills of Deleij (2009) -> Oghie, Ochuwa -> Nurse Seacole (2010) -> Action,Drama,History,Short] 
+
+srcNodes: [1816501, 8015510, 5000050]
+  path: 0[2178688 -> 1637619 -> 2199735 -> 1816501], [Lamar, Jason -> Pirates of the Caribbean: At World's End (2007) -> Manesh, Marshall -> The Truth About the War in Heaven: Declaration of War (2011)] 
+
+  path: 1[2178688 -> 1452028 -> 8015510], [Lamar, Jason -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2178688 -> 1637619 -> 2372301 -> 1799442 -> 5000050], [Lamar, Jason -> Pirates of the Caribbean: At World's End (2007) -> Knightley, Keira -> The People Speak UK (2010) -> Documentary,History] 
+
+srcNodes: [1871603, 8015510, 5000003]
+  path: 0[2187318 -> 1782644 -> 2333654 -> 1871603], [Lewis, Vernon -> The Invasion (2007/I) -> Fischer, Pamela (I) -> War of the Worlds (2005)] 
+
+  path: 1[2187318 -> 1452028 -> 8015510], [Lewis, Vernon -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2187318 -> 1782644 -> 2304980 -> 1612496 -> 5000003], [Lewis, Vernon -> The Invasion (2007/I) -> Cartwright, Veronica -> On the Edge of Black and White (2008) -> History,Documentary] 
+
+srcNodes: [1275566, 8015510, 5000003]
+  path: 0[2007695 -> 1796892 -> 2283419 -> 1275566], [Amerson, Coier -> The Number 23 (2007) -> Arthur, Michelle (I) -> Charlie Wilson's War (2007)] 
+
+  path: 1[2007695 -> 1452028 -> 8015510], [Amerson, Coier -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2007695 -> 1796892 -> 2065936 -> 1449117 -> 5000003], [Amerson, Coier -> The Number 23 (2007) -> Cort, Bud -> Imaginary Witness: Hollywood and the Holocaust (2004) -> History,Documentary] 
+
+srcNodes: [1819680, 2113391, 6038738]
+  path: 0[2113391 -> 1756034 -> 2049772 -> 1819680], [Genocide Fatale -> The Belly of the Beast (2007) -> Carney, Patrick Michael -> The Way of War (2009)] 
+
+  path: 1[2113391 -> 2113391], [Genocide Fatale -> Genocide Fatale]
+  path: 2[2113391 -> 1756034 -> 2049772 -> 1868936 -> 6038738], [Genocide Fatale -> The Belly of the Beast (2007) -> Carney, Patrick Michael -> W. (2008/I) -> Oliver Stone's biogr] 
+
+-----------------------------------------
+Num of top-k answers: 10
+ResultDestNodes: [1452028, 2330082, 4042392, 1752218, 2412226, 4038961, 2178688, 2187318, 2007695, 2113391]
+ResultRelevs: [9.450151443481445, 8.275921821594238, 8.233617782592773, 8.058707237243652, 7.8464741706848145, 7.775416851043701, 7.720733642578125, 7.6462721824646, 7.646268367767334, 7.624637126922607]
+AvgResultRelev: 8.027820062637328
+AvgResultDissimilarity: 0.6518518518518518
+Num of entries retrieved from the lists: 4561
+Num of entries retrieved from NKMaps: 7120
+Num of answer trees explored: 1944
+
+Div Top-k Search by Exhustive, k=10
+[war, genocide, history]
+srcNodes: [5001029, 8015510, 5004331]
+  path: 0[1452028 -> 4038961 -> 1477401 -> 5001029], [In the Hills of Deleij (2009) -> Sage, Paul (II) -> Kapisa (2009) -> Short,War,Drama] 
+
+  path: 1[1452028 -> 8015510], [In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[1452028 -> 2412226 -> 1603899 -> 5004331], [In the Hills of Deleij (2009) -> Oghie, Ochuwa -> Nurse Seacole (2010) -> Action,Drama,History,Short] 
+
+srcNodes: [5000166, 8015510, 5000150]
+  path: 0[2330082 -> 1752218 -> 4042392 -> 1871457 -> 5000166], [Etoile, Sana -> The Adventures of Tintin: The Secret of the Unicorn (2011) -> Spielberg, Steven -> War Horse (2011) -> War] 
+
+  path: 1[2330082 -> 1452028 -> 8015510], [Etoile, Sana -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2330082 -> 1752218 -> 2157635 -> 1389060 -> 5000150], [Etoile, Sana -> The Adventures of Tintin: The Secret of the Unicorn (2011) -> Jones, Toby (I) -> Frost/Nixon (2008) -> Drama,History] 
+
+srcNodes: [1816501, 8015510, 5000050]
+  path: 0[2178688 -> 1637619 -> 2199735 -> 1816501], [Lamar, Jason -> Pirates of the Caribbean: At World's End (2007) -> Manesh, Marshall -> The Truth About the War in Heaven: Declaration of War (2011)] 
+
+  path: 1[2178688 -> 1452028 -> 8015510], [Lamar, Jason -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2178688 -> 1637619 -> 2372301 -> 1799442 -> 5000050], [Lamar, Jason -> Pirates of the Caribbean: At World's End (2007) -> Knightley, Keira -> The People Speak UK (2010) -> Documentary,History] 
+
+srcNodes: [1871603, 8015510, 5000003]
+  path: 0[2187318 -> 1782644 -> 2333654 -> 1871603], [Lewis, Vernon -> The Invasion (2007/I) -> Fischer, Pamela (I) -> War of the Worlds (2005)] 
+
+  path: 1[2187318 -> 1452028 -> 8015510], [Lewis, Vernon -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2187318 -> 1782644 -> 2304980 -> 1612496 -> 5000003], [Lewis, Vernon -> The Invasion (2007/I) -> Cartwright, Veronica -> On the Edge of Black and White (2008) -> History,Documentary] 
+
+srcNodes: [1819680, 2113391, 6038738]
+  path: 0[2113391 -> 1756034 -> 2049772 -> 1819680], [Genocide Fatale -> The Belly of the Beast (2007) -> Carney, Patrick Michael -> The Way of War (2009)] 
+
+  path: 1[2113391 -> 2113391], [Genocide Fatale -> Genocide Fatale]
+  path: 2[2113391 -> 1756034 -> 2049772 -> 1868936 -> 6038738], [Genocide Fatale -> The Belly of the Beast (2007) -> Carney, Patrick Michael -> W. (2008/I) -> Oliver Stone's biogr] 
+
+srcNodes: [1871590, 8027027, 5000055]
+  path: 0[143094 -> 2140336 -> 1871590], ["Canada: A People's History" (2000) -> Hitler, Adolf -> War of the Gods (2010)] 
+
+  path: 1[143094 -> 2178555 -> 1698855 -> 8027027], ["Canada: A People's History" (2000) -> Lalonde, Robert (I) -> Shake Hands with the Devil (2007) -> betrayal,cnn-reporter,genocide,rwanda,united-nations,violence] 
+
+  path: 2[143094 -> 5000055], ["Canada: A People's History" (2000) -> History] 
+
+srcNodes: [8019184, 1396223, 5000055]
+  path: 0[1539110 -> 8019184], [Lost River (2009) -> abraham-lincoln,military-strategy,presidential-cabinet,u.s.-civil-war] 
+
+  path: 1[1539110 -> 2177527 -> 1223849 -> 2085498 -> 1396223], [Lost River (2009) -> LaBrucherie, Dave -> Away We Go (2009) -> Douglas, Rob -> Genital Genocide (2008)] 
+
+  path: 2[1539110 -> 5000055], [Lost River (2009) -> History] 
+
+srcNodes: [5000166, 8003468, 5000055]
+  path: 0[2216920 -> 1396839 -> 5000166], [Millan, Nevin -> Georgian: Warrior of Honor (2011) -> War] 
+
+  path: 1[2216920 -> 1869941 -> 2472272 -> 1209983 -> 8003468], [Millan, Nevin -> Waiting for Isaac (2006) -> Whitfield, Stephanie -> Angel of Hate (2005) -> african,angel,burundi,camera,digital,genocide,hate,malibu,mini-dv,ocean,rwanda] 
+
+  path: 2[2216920 -> 1324058 -> 5000055], [Millan, Nevin -> Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+srcNodes: [5000166, 1396223, 5000055]
+  path: 0[2134583 -> 1835495 -> 2139691 -> 1692500 -> 5000166], [Hayes, David C. -> Tour de Force (2010) -> Hilmi, Rami -> See It Through (2006) -> War] 
+
+  path: 1[2134583 -> 1396223], [Hayes, David C. -> Genital Genocide (2008)] 
+
+  path: 2[2134583 -> 1462410 -> 2015810 -> 1539110 -> 5000055], [Hayes, David C. -> Jackrabbit Sky (2009) -> Babola, Stan -> Lost River (2009) -> History] 
+
+srcNodes: [1871603, 8015510, 5000150]
+  path: 0[2153853 -> 1871603], [Jennings, Anthony (II) -> War of the Worlds (2005)] 
+
+  path: 1[2153853 -> 1637619 -> 2178688 -> 1452028 -> 8015510], [Jennings, Anthony (II) -> Pirates of the Caribbean: At World's End (2007) -> Lamar, Jason -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2153853 -> 1250659 -> 5000150], [Jennings, Anthony (II) -> Bobby (2006) -> Drama,History] 
+
+Dissims of Subsets and t:
+(0~0, 1) : 0.6666666666666666
+(0~1, 2) : 0.6666666666666666
+(0~2, 3) : 0.6666666666666666
+(0~3, 4) : 1.0
+(0~4, 5) : 1.0
+(0~5, 6) : 0.9444444444444445
+(0~6, 7) : 0.8571428571428571
+(0~7, 8) : 0.7499999999999999
+(0~8, 9) : 0.7777777777777778
+-----------------------------------------
+ResultDestNodes: [1452028, 2330082, 2178688, 2187318, 2113391, 143094, 1539110, 2216920, 2134583, 2153853]
+ResultRelevs: [9.450151443481445, 8.275921821594238, 7.720733642578125, 7.6462721824646, 7.624637126922607, 7.594778060913086, 7.586444854736328, 7.526118278503418, 7.341020584106445, 7.33936882019043]
+AvgResultRelev: 7.810544681549072
+AvgResultDissimilarity: 0.8370370370370371
+Num of entries retrieved from the KNLists: 5871
+Num of entries retrieved from NKMaps: 9145
+Num of answer trees explored: 2488
+Num of answer tree sets created: 5829
+Num of answer tree sets removed: 18
+
+Div Top-k Search by Astar02, k=10
+[war, genocide, history]
+srcNodes: [5001029, 8015510, 5004331]
+  path: 0[1452028 -> 4038961 -> 1477401 -> 5001029], [In the Hills of Deleij (2009) -> Sage, Paul (II) -> Kapisa (2009) -> Short,War,Drama] 
+
+  path: 1[1452028 -> 8015510], [In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[1452028 -> 2412226 -> 1603899 -> 5004331], [In the Hills of Deleij (2009) -> Oghie, Ochuwa -> Nurse Seacole (2010) -> Action,Drama,History,Short] 
+
+srcNodes: [5000166, 8015510, 5000150]
+  path: 0[2330082 -> 1752218 -> 4042392 -> 1871457 -> 5000166], [Etoile, Sana -> The Adventures of Tintin: The Secret of the Unicorn (2011) -> Spielberg, Steven -> War Horse (2011) -> War] 
+
+  path: 1[2330082 -> 1452028 -> 8015510], [Etoile, Sana -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2330082 -> 1752218 -> 2157635 -> 1389060 -> 5000150], [Etoile, Sana -> The Adventures of Tintin: The Secret of the Unicorn (2011) -> Jones, Toby (I) -> Frost/Nixon (2008) -> Drama,History] 
+
+srcNodes: [1816501, 8015510, 5000050]
+  path: 0[2178688 -> 1637619 -> 2199735 -> 1816501], [Lamar, Jason -> Pirates of the Caribbean: At World's End (2007) -> Manesh, Marshall -> The Truth About the War in Heaven: Declaration of War (2011)] 
+
+  path: 1[2178688 -> 1452028 -> 8015510], [Lamar, Jason -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2178688 -> 1637619 -> 2372301 -> 1799442 -> 5000050], [Lamar, Jason -> Pirates of the Caribbean: At World's End (2007) -> Knightley, Keira -> The People Speak UK (2010) -> Documentary,History] 
+
+srcNodes: [1871603, 8015510, 5000003]
+  path: 0[2187318 -> 1782644 -> 2333654 -> 1871603], [Lewis, Vernon -> The Invasion (2007/I) -> Fischer, Pamela (I) -> War of the Worlds (2005)] 
+
+  path: 1[2187318 -> 1452028 -> 8015510], [Lewis, Vernon -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2187318 -> 1782644 -> 2304980 -> 1612496 -> 5000003], [Lewis, Vernon -> The Invasion (2007/I) -> Cartwright, Veronica -> On the Edge of Black and White (2008) -> History,Documentary] 
+
+srcNodes: [1819680, 2113391, 6038738]
+  path: 0[2113391 -> 1756034 -> 2049772 -> 1819680], [Genocide Fatale -> The Belly of the Beast (2007) -> Carney, Patrick Michael -> The Way of War (2009)] 
+
+  path: 1[2113391 -> 2113391], [Genocide Fatale -> Genocide Fatale]
+  path: 2[2113391 -> 1756034 -> 2049772 -> 1868936 -> 6038738], [Genocide Fatale -> The Belly of the Beast (2007) -> Carney, Patrick Michael -> W. (2008/I) -> Oliver Stone's biogr] 
+
+srcNodes: [1871590, 8027027, 5000055]
+  path: 0[143094 -> 2140336 -> 1871590], ["Canada: A People's History" (2000) -> Hitler, Adolf -> War of the Gods (2010)] 
+
+  path: 1[143094 -> 2178555 -> 1698855 -> 8027027], ["Canada: A People's History" (2000) -> Lalonde, Robert (I) -> Shake Hands with the Devil (2007) -> betrayal,cnn-reporter,genocide,rwanda,united-nations,violence] 
+
+  path: 2[143094 -> 5000055], ["Canada: A People's History" (2000) -> History] 
+
+srcNodes: [8019184, 1396223, 5000055]
+  path: 0[1539110 -> 8019184], [Lost River (2009) -> abraham-lincoln,military-strategy,presidential-cabinet,u.s.-civil-war] 
+
+  path: 1[1539110 -> 2177527 -> 1223849 -> 2085498 -> 1396223], [Lost River (2009) -> LaBrucherie, Dave -> Away We Go (2009) -> Douglas, Rob -> Genital Genocide (2008)] 
+
+  path: 2[1539110 -> 5000055], [Lost River (2009) -> History] 
+
+srcNodes: [5000166, 8003468, 5000055]
+  path: 0[2216920 -> 1396839 -> 5000166], [Millan, Nevin -> Georgian: Warrior of Honor (2011) -> War] 
+
+  path: 1[2216920 -> 1869941 -> 2472272 -> 1209983 -> 8003468], [Millan, Nevin -> Waiting for Isaac (2006) -> Whitfield, Stephanie -> Angel of Hate (2005) -> african,angel,burundi,camera,digital,genocide,hate,malibu,mini-dv,ocean,rwanda] 
+
+  path: 2[2216920 -> 1324058 -> 5000055], [Millan, Nevin -> Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+srcNodes: [5000166, 1396223, 5000055]
+  path: 0[2134583 -> 1835495 -> 2139691 -> 1692500 -> 5000166], [Hayes, David C. -> Tour de Force (2010) -> Hilmi, Rami -> See It Through (2006) -> War] 
+
+  path: 1[2134583 -> 1396223], [Hayes, David C. -> Genital Genocide (2008)] 
+
+  path: 2[2134583 -> 1462410 -> 2015810 -> 1539110 -> 5000055], [Hayes, David C. -> Jackrabbit Sky (2009) -> Babola, Stan -> Lost River (2009) -> History] 
+
+srcNodes: [1871603, 8015510, 5000150]
+  path: 0[2153853 -> 1871603], [Jennings, Anthony (II) -> War of the Worlds (2005)] 
+
+  path: 1[2153853 -> 1637619 -> 2178688 -> 1452028 -> 8015510], [Jennings, Anthony (II) -> Pirates of the Caribbean: At World's End (2007) -> Lamar, Jason -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2153853 -> 1250659 -> 5000150], [Jennings, Anthony (II) -> Bobby (2006) -> Drama,History] 
+
+-----------------------------------------
+ResultDestNodes: [1452028, 2330082, 2178688, 2187318, 2113391, 143094, 1539110, 2216920, 2134583, 2153853]
+ResultRelevs: [9.450151443481445, 8.275921821594238, 7.720733642578125, 7.6462721824646, 7.624637126922607, 7.594778060913086, 7.586444854736328, 7.526118278503418, 7.341020584106445, 7.33936882019043]
+AvgResultRelev: 7.810544681549072
+AvgResultDissimilarity: 0.8370370370370371
+Num of entries retrieved from the KNLists: 5871
+Num of entries retrieved from NKMaps: 9145
+Num of answer trees explored: 2488
+Num of states created: 5943
+Num of states explored: 5863
+Num of heuristic search performed: 6
+
+Div Top-k Search by Astar1nc_ap_new, k=10
+[war, genocide, history]
+srcNodes: [5001029, 8015510, 5004331]
+  path: 0[1452028 -> 4038961 -> 1477401 -> 5001029], [In the Hills of Deleij (2009) -> Sage, Paul (II) -> Kapisa (2009) -> Short,War,Drama] 
+
+  path: 1[1452028 -> 8015510], [In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[1452028 -> 2412226 -> 1603899 -> 5004331], [In the Hills of Deleij (2009) -> Oghie, Ochuwa -> Nurse Seacole (2010) -> Action,Drama,History,Short] 
+
+srcNodes: [5000166, 8015510, 5000150]
+  path: 0[2330082 -> 1752218 -> 4042392 -> 1871457 -> 5000166], [Etoile, Sana -> The Adventures of Tintin: The Secret of the Unicorn (2011) -> Spielberg, Steven -> War Horse (2011) -> War] 
+
+  path: 1[2330082 -> 1452028 -> 8015510], [Etoile, Sana -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2330082 -> 1752218 -> 2157635 -> 1389060 -> 5000150], [Etoile, Sana -> The Adventures of Tintin: The Secret of the Unicorn (2011) -> Jones, Toby (I) -> Frost/Nixon (2008) -> Drama,History] 
+
+srcNodes: [1816501, 8015510, 5000050]
+  path: 0[2178688 -> 1637619 -> 2199735 -> 1816501], [Lamar, Jason -> Pirates of the Caribbean: At World's End (2007) -> Manesh, Marshall -> The Truth About the War in Heaven: Declaration of War (2011)] 
+
+  path: 1[2178688 -> 1452028 -> 8015510], [Lamar, Jason -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2178688 -> 1637619 -> 2372301 -> 1799442 -> 5000050], [Lamar, Jason -> Pirates of the Caribbean: At World's End (2007) -> Knightley, Keira -> The People Speak UK (2010) -> Documentary,History] 
+
+srcNodes: [1871603, 8015510, 5000003]
+  path: 0[2187318 -> 1782644 -> 2333654 -> 1871603], [Lewis, Vernon -> The Invasion (2007/I) -> Fischer, Pamela (I) -> War of the Worlds (2005)] 
+
+  path: 1[2187318 -> 1452028 -> 8015510], [Lewis, Vernon -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2187318 -> 1782644 -> 2304980 -> 1612496 -> 5000003], [Lewis, Vernon -> The Invasion (2007/I) -> Cartwright, Veronica -> On the Edge of Black and White (2008) -> History,Documentary] 
+
+srcNodes: [1819680, 2113391, 6038738]
+  path: 0[2113391 -> 1756034 -> 2049772 -> 1819680], [Genocide Fatale -> The Belly of the Beast (2007) -> Carney, Patrick Michael -> The Way of War (2009)] 
+
+  path: 1[2113391 -> 2113391], [Genocide Fatale -> Genocide Fatale]
+  path: 2[2113391 -> 1756034 -> 2049772 -> 1868936 -> 6038738], [Genocide Fatale -> The Belly of the Beast (2007) -> Carney, Patrick Michael -> W. (2008/I) -> Oliver Stone's biogr] 
+
+srcNodes: [1871590, 8027027, 5000055]
+  path: 0[143094 -> 2140336 -> 1871590], ["Canada: A People's History" (2000) -> Hitler, Adolf -> War of the Gods (2010)] 
+
+  path: 1[143094 -> 2178555 -> 1698855 -> 8027027], ["Canada: A People's History" (2000) -> Lalonde, Robert (I) -> Shake Hands with the Devil (2007) -> betrayal,cnn-reporter,genocide,rwanda,united-nations,violence] 
+
+  path: 2[143094 -> 5000055], ["Canada: A People's History" (2000) -> History] 
+
+srcNodes: [8019184, 1396223, 5000055]
+  path: 0[1539110 -> 8019184], [Lost River (2009) -> abraham-lincoln,military-strategy,presidential-cabinet,u.s.-civil-war] 
+
+  path: 1[1539110 -> 2177527 -> 1223849 -> 2085498 -> 1396223], [Lost River (2009) -> LaBrucherie, Dave -> Away We Go (2009) -> Douglas, Rob -> Genital Genocide (2008)] 
+
+  path: 2[1539110 -> 5000055], [Lost River (2009) -> History] 
+
+srcNodes: [5000166, 8003468, 5000055]
+  path: 0[2216920 -> 1396839 -> 5000166], [Millan, Nevin -> Georgian: Warrior of Honor (2011) -> War] 
+
+  path: 1[2216920 -> 1869941 -> 2472272 -> 1209983 -> 8003468], [Millan, Nevin -> Waiting for Isaac (2006) -> Whitfield, Stephanie -> Angel of Hate (2005) -> african,angel,burundi,camera,digital,genocide,hate,malibu,mini-dv,ocean,rwanda] 
+
+  path: 2[2216920 -> 1324058 -> 5000055], [Millan, Nevin -> Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+srcNodes: [5000166, 1396223, 5000055]
+  path: 0[2134583 -> 1835495 -> 2139691 -> 1692500 -> 5000166], [Hayes, David C. -> Tour de Force (2010) -> Hilmi, Rami -> See It Through (2006) -> War] 
+
+  path: 1[2134583 -> 1396223], [Hayes, David C. -> Genital Genocide (2008)] 
+
+  path: 2[2134583 -> 1462410 -> 2015810 -> 1539110 -> 5000055], [Hayes, David C. -> Jackrabbit Sky (2009) -> Babola, Stan -> Lost River (2009) -> History] 
+
+srcNodes: [1871603, 8015510, 5000150]
+  path: 0[2153853 -> 1871603], [Jennings, Anthony (II) -> War of the Worlds (2005)] 
+
+  path: 1[2153853 -> 1637619 -> 2178688 -> 1452028 -> 8015510], [Jennings, Anthony (II) -> Pirates of the Caribbean: At World's End (2007) -> Lamar, Jason -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2153853 -> 1250659 -> 5000150], [Jennings, Anthony (II) -> Bobby (2006) -> Drama,History] 
+
+-----------------------------------------
+ResultDestNodes: [1452028, 2330082, 2178688, 2187318, 2113391, 143094, 1539110, 2216920, 2134583, 2153853]
+ResultRelevs: [9.450151443481445, 8.275921821594238, 7.720733642578125, 7.6462721824646, 7.624637126922607, 7.594778060913086, 7.586444854736328, 7.526118278503418, 7.341020584106445, 7.33936882019043]
+AvgResultRelev: 7.810544681549072
+AvgResultDissimilarity: 0.8370370370370371
+Num of entries retrieved from the KNLists: 5871
+Num of entries retrieved from NKMaps: 9145
+Num of answer trees explored: 2488
+Num of states created: 73
+Num of states explored: 17
+Num of heuristic search performed: 2
+
+Top-k Search by Blink-BDB, k=15
+[war, genocide, history]
+srcNodes: [5001029, 8015510, 5004331]
+  path: 0[1452028 -> 4038961 -> 1477401 -> 5001029], [In the Hills of Deleij (2009) -> Sage, Paul (II) -> Kapisa (2009) -> Short,War,Drama] 
+
+  path: 1[1452028 -> 8015510], [In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[1452028 -> 2412226 -> 1603899 -> 5004331], [In the Hills of Deleij (2009) -> Oghie, Ochuwa -> Nurse Seacole (2010) -> Action,Drama,History,Short] 
+
+srcNodes: [5000166, 8015510, 5000150]
+  path: 0[2330082 -> 1752218 -> 4042392 -> 1871457 -> 5000166], [Etoile, Sana -> The Adventures of Tintin: The Secret of the Unicorn (2011) -> Spielberg, Steven -> War Horse (2011) -> War] 
+
+  path: 1[2330082 -> 1452028 -> 8015510], [Etoile, Sana -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2330082 -> 1752218 -> 2157635 -> 1389060 -> 5000150], [Etoile, Sana -> The Adventures of Tintin: The Secret of the Unicorn (2011) -> Jones, Toby (I) -> Frost/Nixon (2008) -> Drama,History] 
+
+srcNodes: [5000166, 8015510, 5000055]
+  path: 0[4042392 -> 1871457 -> 5000166], [Spielberg, Steven -> War Horse (2011) -> War] 
+
+  path: 1[4042392 -> 1752218 -> 2330082 -> 1452028 -> 8015510], [Spielberg, Steven -> The Adventures of Tintin: The Secret of the Unicorn (2011) -> Etoile, Sana -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[4042392 -> 1580355 -> 2114690 -> 535478 -> 5000055], [Spielberg, Steven -> Munich (2005) -> Giannatos, Mihalis -> "Le dernier seigneur des Balkans" (2005) -> History] 
+
+srcNodes: [5000166, 8015510, 5000150]
+  path: 0[1752218 -> 4042392 -> 1871457 -> 5000166], [The Adventures of Tintin: The Secret of the Unicorn (2011) -> Spielberg, Steven -> War Horse (2011) -> War] 
+
+  path: 1[1752218 -> 2330082 -> 1452028 -> 8015510], [The Adventures of Tintin: The Secret of the Unicorn (2011) -> Etoile, Sana -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[1752218 -> 2157635 -> 1389060 -> 5000150], [The Adventures of Tintin: The Secret of the Unicorn (2011) -> Jones, Toby (I) -> Frost/Nixon (2008) -> Drama,History] 
+
+srcNodes: [5001029, 8015510, 5004331]
+  path: 0[2412226 -> 1452028 -> 4038961 -> 1477401 -> 5001029], [Oghie, Ochuwa -> In the Hills of Deleij (2009) -> Sage, Paul (II) -> Kapisa (2009) -> Short,War,Drama] 
+
+  path: 1[2412226 -> 1452028 -> 8015510], [Oghie, Ochuwa -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2412226 -> 1603899 -> 5004331], [Oghie, Ochuwa -> Nurse Seacole (2010) -> Action,Drama,History,Short] 
+
+srcNodes: [5001029, 8015510, 5004331]
+  path: 0[4038961 -> 1477401 -> 5001029], [Sage, Paul (II) -> Kapisa (2009) -> Short,War,Drama] 
+
+  path: 1[4038961 -> 1452028 -> 8015510], [Sage, Paul (II) -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[4038961 -> 1452028 -> 2412226 -> 1603899 -> 5004331], [Sage, Paul (II) -> In the Hills of Deleij (2009) -> Oghie, Ochuwa -> Nurse Seacole (2010) -> Action,Drama,History,Short] 
+
+srcNodes: [1816501, 8015510, 5000050]
+  path: 0[2178688 -> 1637619 -> 2199735 -> 1816501], [Lamar, Jason -> Pirates of the Caribbean: At World's End (2007) -> Manesh, Marshall -> The Truth About the War in Heaven: Declaration of War (2011)] 
+
+  path: 1[2178688 -> 1452028 -> 8015510], [Lamar, Jason -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2178688 -> 1637619 -> 2372301 -> 1799442 -> 5000050], [Lamar, Jason -> Pirates of the Caribbean: At World's End (2007) -> Knightley, Keira -> The People Speak UK (2010) -> Documentary,History] 
+
+srcNodes: [1871603, 8015510, 5000003]
+  path: 0[2187318 -> 1782644 -> 2333654 -> 1871603], [Lewis, Vernon -> The Invasion (2007/I) -> Fischer, Pamela (I) -> War of the Worlds (2005)] 
+
+  path: 1[2187318 -> 1452028 -> 8015510], [Lewis, Vernon -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2187318 -> 1782644 -> 2304980 -> 1612496 -> 5000003], [Lewis, Vernon -> The Invasion (2007/I) -> Cartwright, Veronica -> On the Edge of Black and White (2008) -> History,Documentary] 
+
+srcNodes: [1275566, 8015510, 5000003]
+  path: 0[2007695 -> 1796892 -> 2283419 -> 1275566], [Amerson, Coier -> The Number 23 (2007) -> Arthur, Michelle (I) -> Charlie Wilson's War (2007)] 
+
+  path: 1[2007695 -> 1452028 -> 8015510], [Amerson, Coier -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2007695 -> 1796892 -> 2065936 -> 1449117 -> 5000003], [Amerson, Coier -> The Number 23 (2007) -> Cort, Bud -> Imaginary Witness: Hollywood and the Holocaust (2004) -> History,Documentary] 
+
+srcNodes: [1819680, 2113391, 6038738]
+  path: 0[2113391 -> 1756034 -> 2049772 -> 1819680], [Genocide Fatale -> The Belly of the Beast (2007) -> Carney, Patrick Michael -> The Way of War (2009)] 
+
+  path: 1[2113391 -> 2113391], [Genocide Fatale -> Genocide Fatale]
+  path: 2[2113391 -> 1756034 -> 2049772 -> 1868936 -> 6038738], [Genocide Fatale -> The Belly of the Beast (2007) -> Carney, Patrick Michael -> W. (2008/I) -> Oliver Stone's biogr] 
+
+srcNodes: [1871590, 8027027, 5000055]
+  path: 0[143094 -> 2140336 -> 1871590], ["Canada: A People's History" (2000) -> Hitler, Adolf -> War of the Gods (2010)] 
+
+  path: 1[143094 -> 2178555 -> 1698855 -> 8027027], ["Canada: A People's History" (2000) -> Lalonde, Robert (I) -> Shake Hands with the Devil (2007) -> betrayal,cnn-reporter,genocide,rwanda,united-nations,violence] 
+
+  path: 2[143094 -> 5000055], ["Canada: A People's History" (2000) -> History] 
+
+srcNodes: [8019184, 1396223, 5000055]
+  path: 0[1539110 -> 8019184], [Lost River (2009) -> abraham-lincoln,military-strategy,presidential-cabinet,u.s.-civil-war] 
+
+  path: 1[1539110 -> 2177527 -> 1223849 -> 2085498 -> 1396223], [Lost River (2009) -> LaBrucherie, Dave -> Away We Go (2009) -> Douglas, Rob -> Genital Genocide (2008)] 
+
+  path: 2[1539110 -> 5000055], [Lost River (2009) -> History] 
+
+srcNodes: [5000166, 8003468, 5000055]
+  path: 0[2216920 -> 1396839 -> 5000166], [Millan, Nevin -> Georgian: Warrior of Honor (2011) -> War] 
+
+  path: 1[2216920 -> 1869941 -> 2472272 -> 1209983 -> 8003468], [Millan, Nevin -> Waiting for Isaac (2006) -> Whitfield, Stephanie -> Angel of Hate (2005) -> african,angel,burundi,camera,digital,genocide,hate,malibu,mini-dv,ocean,rwanda] 
+
+  path: 2[2216920 -> 1324058 -> 5000055], [Millan, Nevin -> Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+srcNodes: [5000166, 1396223, 5000055]
+  path: 0[2134583 -> 1835495 -> 2139691 -> 1692500 -> 5000166], [Hayes, David C. -> Tour de Force (2010) -> Hilmi, Rami -> See It Through (2006) -> War] 
+
+  path: 1[2134583 -> 1396223], [Hayes, David C. -> Genital Genocide (2008)] 
+
+  path: 2[2134583 -> 1462410 -> 2015810 -> 1539110 -> 5000055], [Hayes, David C. -> Jackrabbit Sky (2009) -> Babola, Stan -> Lost River (2009) -> History] 
+
+srcNodes: [1871603, 8015510, 5000150]
+  path: 0[2153853 -> 1871603], [Jennings, Anthony (II) -> War of the Worlds (2005)] 
+
+  path: 1[2153853 -> 1637619 -> 2178688 -> 1452028 -> 8015510], [Jennings, Anthony (II) -> Pirates of the Caribbean: At World's End (2007) -> Lamar, Jason -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2153853 -> 1250659 -> 5000150], [Jennings, Anthony (II) -> Bobby (2006) -> Drama,History] 
+
+-----------------------------------------
+Num of top-k answers: 15
+ResultDestNodes: [1452028, 2330082, 4042392, 1752218, 2412226, 4038961, 2178688, 2187318, 2007695, 2113391, 143094, 1539110, 2216920, 2134583, 2153853]
+ResultRelevs: [9.450151443481445, 8.275921821594238, 8.233617782592773, 8.058707237243652, 7.8464741706848145, 7.775416851043701, 7.720733642578125, 7.6462721824646, 7.646268367767334, 7.624637126922607, 7.594778060913086, 7.586444854736328, 7.526118278503418, 7.341020584106445, 7.33936882019043]
+AvgResultRelev: 7.8443954149882
+AvgResultDissimilarity: 0.7555555555555555
+Num of entries retrieved from the lists: 5871
+Num of entries retrieved from NKMaps: 9145
+Num of answer trees explored: 2488
+
+Div Top-k Search by Exhustive, k=15
+[war, genocide, history]
+srcNodes: [5001029, 8015510, 5004331]
+  path: 0[1452028 -> 4038961 -> 1477401 -> 5001029], [In the Hills of Deleij (2009) -> Sage, Paul (II) -> Kapisa (2009) -> Short,War,Drama] 
+
+  path: 1[1452028 -> 8015510], [In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[1452028 -> 2412226 -> 1603899 -> 5004331], [In the Hills of Deleij (2009) -> Oghie, Ochuwa -> Nurse Seacole (2010) -> Action,Drama,History,Short] 
+
+srcNodes: [5000166, 8015510, 5000150]
+  path: 0[2330082 -> 1752218 -> 4042392 -> 1871457 -> 5000166], [Etoile, Sana -> The Adventures of Tintin: The Secret of the Unicorn (2011) -> Spielberg, Steven -> War Horse (2011) -> War] 
+
+  path: 1[2330082 -> 1452028 -> 8015510], [Etoile, Sana -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2330082 -> 1752218 -> 2157635 -> 1389060 -> 5000150], [Etoile, Sana -> The Adventures of Tintin: The Secret of the Unicorn (2011) -> Jones, Toby (I) -> Frost/Nixon (2008) -> Drama,History] 
+
+srcNodes: [1816501, 8015510, 5000050]
+  path: 0[2178688 -> 1637619 -> 2199735 -> 1816501], [Lamar, Jason -> Pirates of the Caribbean: At World's End (2007) -> Manesh, Marshall -> The Truth About the War in Heaven: Declaration of War (2011)] 
+
+  path: 1[2178688 -> 1452028 -> 8015510], [Lamar, Jason -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2178688 -> 1637619 -> 2372301 -> 1799442 -> 5000050], [Lamar, Jason -> Pirates of the Caribbean: At World's End (2007) -> Knightley, Keira -> The People Speak UK (2010) -> Documentary,History] 
+
+srcNodes: [1871603, 8015510, 5000003]
+  path: 0[2187318 -> 1782644 -> 2333654 -> 1871603], [Lewis, Vernon -> The Invasion (2007/I) -> Fischer, Pamela (I) -> War of the Worlds (2005)] 
+
+  path: 1[2187318 -> 1452028 -> 8015510], [Lewis, Vernon -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2187318 -> 1782644 -> 2304980 -> 1612496 -> 5000003], [Lewis, Vernon -> The Invasion (2007/I) -> Cartwright, Veronica -> On the Edge of Black and White (2008) -> History,Documentary] 
+
+srcNodes: [1819680, 2113391, 6038738]
+  path: 0[2113391 -> 1756034 -> 2049772 -> 1819680], [Genocide Fatale -> The Belly of the Beast (2007) -> Carney, Patrick Michael -> The Way of War (2009)] 
+
+  path: 1[2113391 -> 2113391], [Genocide Fatale -> Genocide Fatale]
+  path: 2[2113391 -> 1756034 -> 2049772 -> 1868936 -> 6038738], [Genocide Fatale -> The Belly of the Beast (2007) -> Carney, Patrick Michael -> W. (2008/I) -> Oliver Stone's biogr] 
+
+srcNodes: [1871590, 8027027, 5000055]
+  path: 0[143094 -> 2140336 -> 1871590], ["Canada: A People's History" (2000) -> Hitler, Adolf -> War of the Gods (2010)] 
+
+  path: 1[143094 -> 2178555 -> 1698855 -> 8027027], ["Canada: A People's History" (2000) -> Lalonde, Robert (I) -> Shake Hands with the Devil (2007) -> betrayal,cnn-reporter,genocide,rwanda,united-nations,violence] 
+
+  path: 2[143094 -> 5000055], ["Canada: A People's History" (2000) -> History] 
+
+srcNodes: [8019184, 1396223, 5000055]
+  path: 0[1539110 -> 8019184], [Lost River (2009) -> abraham-lincoln,military-strategy,presidential-cabinet,u.s.-civil-war] 
+
+  path: 1[1539110 -> 2177527 -> 1223849 -> 2085498 -> 1396223], [Lost River (2009) -> LaBrucherie, Dave -> Away We Go (2009) -> Douglas, Rob -> Genital Genocide (2008)] 
+
+  path: 2[1539110 -> 5000055], [Lost River (2009) -> History] 
+
+srcNodes: [5000166, 8003468, 5000055]
+  path: 0[2216920 -> 1396839 -> 5000166], [Millan, Nevin -> Georgian: Warrior of Honor (2011) -> War] 
+
+  path: 1[2216920 -> 1869941 -> 2472272 -> 1209983 -> 8003468], [Millan, Nevin -> Waiting for Isaac (2006) -> Whitfield, Stephanie -> Angel of Hate (2005) -> african,angel,burundi,camera,digital,genocide,hate,malibu,mini-dv,ocean,rwanda] 
+
+  path: 2[2216920 -> 1324058 -> 5000055], [Millan, Nevin -> Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+srcNodes: [5000166, 1396223, 5000055]
+  path: 0[2134583 -> 1835495 -> 2139691 -> 1692500 -> 5000166], [Hayes, David C. -> Tour de Force (2010) -> Hilmi, Rami -> See It Through (2006) -> War] 
+
+  path: 1[2134583 -> 1396223], [Hayes, David C. -> Genital Genocide (2008)] 
+
+  path: 2[2134583 -> 1462410 -> 2015810 -> 1539110 -> 5000055], [Hayes, David C. -> Jackrabbit Sky (2009) -> Babola, Stan -> Lost River (2009) -> History] 
+
+srcNodes: [1871603, 8015510, 5000150]
+  path: 0[2153853 -> 1871603], [Jennings, Anthony (II) -> War of the Worlds (2005)] 
+
+  path: 1[2153853 -> 1637619 -> 2178688 -> 1452028 -> 8015510], [Jennings, Anthony (II) -> Pirates of the Caribbean: At World's End (2007) -> Lamar, Jason -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2153853 -> 1250659 -> 5000150], [Jennings, Anthony (II) -> Bobby (2006) -> Drama,History] 
+
+srcNodes: [5000166, 8027191, 5000055]
+  path: 0[1619074 -> 5000166], [Otoko-tachi no Yamato (2005) -> War] 
+
+  path: 1[1619074 -> 2239125 -> 1702269 -> 8027191], [Otoko-tachi no Yamato (2005) -> Okuda, Eiji -> Shinkuronishiti (2004) -> airport,ancestry,androgyny,antichrist,based-on-novel,beating,black-gloves,blood,businessman,catholic,chase,christmas,city,claustrophobia,colonel,colonialism,confession,conscience,conspiracy,conundrum,convent,corporeal-mortification,corpse,courtroom,cruelty,cryogenics,cryptography,cyberpunk,dead-body,dead-man,death,deer,deity,demon,demonstration,detective,dominatrix,double-cross,dream-sequence,duplicity,dystopia,engagement,extraterrestrial,family-relationships,fire,flagellation,flashback,gas-mask,gay-interest,general,genocide,glam-rock,gloves,goddess,gore,gossip,goth,grenade,gunfire,hologram,homosexual,hybrid,illuminati,infidelity,interracial-relationship,invasion,investigation,japan,judge,killer,killing,laboratory,leader,logging,loss,male-nudity,masturbation,military,mind-control,misogyny,missile,missionary,monastery,murder,murder-investigation,murder-mystery,mutilation,mystery-killer,nun,obsession,outcast,paraplegic,pentangle,perversion,police,police-detective,police-investigation,pol] 
+
+  path: 2[1619074 -> 4039543 -> 1681937 -> 5000055], [Otoko-tachi no Yamato (2005) -> Satô, Jun'ya -> Sakuradamon-gai no hen (2010) -> History] 
+
+srcNodes: [5000021, 8015510, 5004331]
+  path: 0[2156660 -> 1588775 -> 2145061 -> 1333509 -> 5000021], [Jolly, James (I) -> Nancy Picks & Chooses (2008) -> Huchro, Eddie -> Dog Jack (2010) -> Drama,War] 
+
+  path: 1[2156660 -> 1452028 -> 8015510], [Jolly, James (I) -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2156660 -> 1452028 -> 2412226 -> 1603899 -> 5004331], [Jolly, James (I) -> In the Hills of Deleij (2009) -> Oghie, Ochuwa -> Nurse Seacole (2010) -> Action,Drama,History,Short] 
+
+srcNodes: [1816501, 8015510, 5000050]
+  path: 0[1637619 -> 2199735 -> 1816501], [Pirates of the Caribbean: At World's End (2007) -> Manesh, Marshall -> The Truth About the War in Heaven: Declaration of War (2011)] 
+
+  path: 1[1637619 -> 2178688 -> 1452028 -> 8015510], [Pirates of the Caribbean: At World's End (2007) -> Lamar, Jason -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[1637619 -> 2372301 -> 1799442 -> 5000050], [Pirates of the Caribbean: At World's End (2007) -> Knightley, Keira -> The People Speak UK (2010) -> Documentary,History] 
+
+srcNodes: [1871383, 1396223, 5000055]
+  path: 0[1223849 -> 2183920 -> 1871383], [Away We Go (2009) -> Lee, Randy (I) -> War (2007)] 
+
+  path: 1[1223849 -> 2085498 -> 1396223], [Away We Go (2009) -> Douglas, Rob -> Genital Genocide (2008)] 
+
+  path: 2[1223849 -> 2177527 -> 1539110 -> 5000055], [Away We Go (2009) -> LaBrucherie, Dave -> Lost River (2009) -> History] 
+
+srcNodes: [1871590, 1396223, 5000055]
+  path: 0[1871590 -> 1871590], [War of the Gods (2010) -> War of the Gods (2010)]
+  path: 1[1871590 -> 2154212 -> 1248632 -> 2357707 -> 1396223], [War of the Gods (2010) -> Jeremy, Ron -> Blood Moon Rising (2009) -> Hubbard, Liana -> Genital Genocide (2008)] 
+
+  path: 2[1871590 -> 2140336 -> 143094 -> 5000055], [War of the Gods (2010) -> Hitler, Adolf -> "Canada: A People's History" (2000) -> History] 
+
+Dissims of Subsets and t:
+(0~0, 1) : 0.6666666666666666
+(0~1, 2) : 0.6666666666666666
+(0~2, 3) : 0.6666666666666666
+(0~3, 4) : 1.0
+(0~4, 5) : 1.0
+(0~5, 6) : 0.9444444444444445
+(0~6, 7) : 0.8571428571428571
+(0~7, 8) : 0.7499999999999999
+(0~8, 9) : 0.7777777777777778
+(0~9, 10) : 0.7666666666666666
+(0~10, 11) : 0.8181818181818182
+(0~11, 12) : 0.7777777777777778
+(0~12, 13) : 0.8205128205128205
+(0~13, 14) : 0.7619047619047619
+-----------------------------------------
+ResultDestNodes: [1452028, 2330082, 2178688, 2187318, 2113391, 143094, 1539110, 2216920, 2134583, 2153853, 1619074, 2156660, 1637619, 1223849, 1871590]
+ResultRelevs: [9.450151443481445, 8.275921821594238, 7.720733642578125, 7.6462721824646, 7.624637126922607, 7.594778060913086, 7.586444854736328, 7.526118278503418, 7.341020584106445, 7.33936882019043, 7.32769775390625, 7.323226451873779, 7.314419746398926, 7.294886589050293, 7.273560523986816]
+AvgResultRelev: 7.642615858713786
+AvgResultDissimilarity: 0.8095238095238095
+Num of entries retrieved from the KNLists: 5871
+Num of entries retrieved from NKMaps: 9145
+Num of answer trees explored: 2488
+Num of answer tree sets created: 181184
+Num of answer tree sets removed: 18
+
+Div Top-k Search by Astar02, k=15
+[war, genocide, history]
+srcNodes: [5001029, 8015510, 5004331]
+  path: 0[1452028 -> 4038961 -> 1477401 -> 5001029], [In the Hills of Deleij (2009) -> Sage, Paul (II) -> Kapisa (2009) -> Short,War,Drama] 
+
+  path: 1[1452028 -> 8015510], [In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[1452028 -> 2412226 -> 1603899 -> 5004331], [In the Hills of Deleij (2009) -> Oghie, Ochuwa -> Nurse Seacole (2010) -> Action,Drama,History,Short] 
+
+srcNodes: [5000166, 8015510, 5000150]
+  path: 0[2330082 -> 1752218 -> 4042392 -> 1871457 -> 5000166], [Etoile, Sana -> The Adventures of Tintin: The Secret of the Unicorn (2011) -> Spielberg, Steven -> War Horse (2011) -> War] 
+
+  path: 1[2330082 -> 1452028 -> 8015510], [Etoile, Sana -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2330082 -> 1752218 -> 2157635 -> 1389060 -> 5000150], [Etoile, Sana -> The Adventures of Tintin: The Secret of the Unicorn (2011) -> Jones, Toby (I) -> Frost/Nixon (2008) -> Drama,History] 
+
+srcNodes: [1816501, 8015510, 5000050]
+  path: 0[2178688 -> 1637619 -> 2199735 -> 1816501], [Lamar, Jason -> Pirates of the Caribbean: At World's End (2007) -> Manesh, Marshall -> The Truth About the War in Heaven: Declaration of War (2011)] 
+
+  path: 1[2178688 -> 1452028 -> 8015510], [Lamar, Jason -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2178688 -> 1637619 -> 2372301 -> 1799442 -> 5000050], [Lamar, Jason -> Pirates of the Caribbean: At World's End (2007) -> Knightley, Keira -> The People Speak UK (2010) -> Documentary,History] 
+
+srcNodes: [1871603, 8015510, 5000003]
+  path: 0[2187318 -> 1782644 -> 2333654 -> 1871603], [Lewis, Vernon -> The Invasion (2007/I) -> Fischer, Pamela (I) -> War of the Worlds (2005)] 
+
+  path: 1[2187318 -> 1452028 -> 8015510], [Lewis, Vernon -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2187318 -> 1782644 -> 2304980 -> 1612496 -> 5000003], [Lewis, Vernon -> The Invasion (2007/I) -> Cartwright, Veronica -> On the Edge of Black and White (2008) -> History,Documentary] 
+
+srcNodes: [1819680, 2113391, 6038738]
+  path: 0[2113391 -> 1756034 -> 2049772 -> 1819680], [Genocide Fatale -> The Belly of the Beast (2007) -> Carney, Patrick Michael -> The Way of War (2009)] 
+
+  path: 1[2113391 -> 2113391], [Genocide Fatale -> Genocide Fatale]
+  path: 2[2113391 -> 1756034 -> 2049772 -> 1868936 -> 6038738], [Genocide Fatale -> The Belly of the Beast (2007) -> Carney, Patrick Michael -> W. (2008/I) -> Oliver Stone's biogr] 
+
+srcNodes: [1871590, 8027027, 5000055]
+  path: 0[143094 -> 2140336 -> 1871590], ["Canada: A People's History" (2000) -> Hitler, Adolf -> War of the Gods (2010)] 
+
+  path: 1[143094 -> 2178555 -> 1698855 -> 8027027], ["Canada: A People's History" (2000) -> Lalonde, Robert (I) -> Shake Hands with the Devil (2007) -> betrayal,cnn-reporter,genocide,rwanda,united-nations,violence] 
+
+  path: 2[143094 -> 5000055], ["Canada: A People's History" (2000) -> History] 
+
+srcNodes: [8019184, 1396223, 5000055]
+  path: 0[1539110 -> 8019184], [Lost River (2009) -> abraham-lincoln,military-strategy,presidential-cabinet,u.s.-civil-war] 
+
+  path: 1[1539110 -> 2177527 -> 1223849 -> 2085498 -> 1396223], [Lost River (2009) -> LaBrucherie, Dave -> Away We Go (2009) -> Douglas, Rob -> Genital Genocide (2008)] 
+
+  path: 2[1539110 -> 5000055], [Lost River (2009) -> History] 
+
+srcNodes: [5000166, 8003468, 5000055]
+  path: 0[2216920 -> 1396839 -> 5000166], [Millan, Nevin -> Georgian: Warrior of Honor (2011) -> War] 
+
+  path: 1[2216920 -> 1869941 -> 2472272 -> 1209983 -> 8003468], [Millan, Nevin -> Waiting for Isaac (2006) -> Whitfield, Stephanie -> Angel of Hate (2005) -> african,angel,burundi,camera,digital,genocide,hate,malibu,mini-dv,ocean,rwanda] 
+
+  path: 2[2216920 -> 1324058 -> 5000055], [Millan, Nevin -> Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+srcNodes: [5000166, 1396223, 5000055]
+  path: 0[2134583 -> 1835495 -> 2139691 -> 1692500 -> 5000166], [Hayes, David C. -> Tour de Force (2010) -> Hilmi, Rami -> See It Through (2006) -> War] 
+
+  path: 1[2134583 -> 1396223], [Hayes, David C. -> Genital Genocide (2008)] 
+
+  path: 2[2134583 -> 1462410 -> 2015810 -> 1539110 -> 5000055], [Hayes, David C. -> Jackrabbit Sky (2009) -> Babola, Stan -> Lost River (2009) -> History] 
+
+srcNodes: [1871603, 8015510, 5000150]
+  path: 0[2153853 -> 1871603], [Jennings, Anthony (II) -> War of the Worlds (2005)] 
+
+  path: 1[2153853 -> 1637619 -> 2178688 -> 1452028 -> 8015510], [Jennings, Anthony (II) -> Pirates of the Caribbean: At World's End (2007) -> Lamar, Jason -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2153853 -> 1250659 -> 5000150], [Jennings, Anthony (II) -> Bobby (2006) -> Drama,History] 
+
+srcNodes: [5000166, 8027191, 5000055]
+  path: 0[1619074 -> 5000166], [Otoko-tachi no Yamato (2005) -> War] 
+
+  path: 1[1619074 -> 2239125 -> 1702269 -> 8027191], [Otoko-tachi no Yamato (2005) -> Okuda, Eiji -> Shinkuronishiti (2004) -> airport,ancestry,androgyny,antichrist,based-on-novel,beating,black-gloves,blood,businessman,catholic,chase,christmas,city,claustrophobia,colonel,colonialism,confession,conscience,conspiracy,conundrum,convent,corporeal-mortification,corpse,courtroom,cruelty,cryogenics,cryptography,cyberpunk,dead-body,dead-man,death,deer,deity,demon,demonstration,detective,dominatrix,double-cross,dream-sequence,duplicity,dystopia,engagement,extraterrestrial,family-relationships,fire,flagellation,flashback,gas-mask,gay-interest,general,genocide,glam-rock,gloves,goddess,gore,gossip,goth,grenade,gunfire,hologram,homosexual,hybrid,illuminati,infidelity,interracial-relationship,invasion,investigation,japan,judge,killer,killing,laboratory,leader,logging,loss,male-nudity,masturbation,military,mind-control,misogyny,missile,missionary,monastery,murder,murder-investigation,murder-mystery,mutilation,mystery-killer,nun,obsession,outcast,paraplegic,pentangle,perversion,police,police-detective,police-investigation,pol] 
+
+  path: 2[1619074 -> 4039543 -> 1681937 -> 5000055], [Otoko-tachi no Yamato (2005) -> Satô, Jun'ya -> Sakuradamon-gai no hen (2010) -> History] 
+
+srcNodes: [5000021, 8015510, 5004331]
+  path: 0[2156660 -> 1588775 -> 2145061 -> 1333509 -> 5000021], [Jolly, James (I) -> Nancy Picks & Chooses (2008) -> Huchro, Eddie -> Dog Jack (2010) -> Drama,War] 
+
+  path: 1[2156660 -> 1452028 -> 8015510], [Jolly, James (I) -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2156660 -> 1452028 -> 2412226 -> 1603899 -> 5004331], [Jolly, James (I) -> In the Hills of Deleij (2009) -> Oghie, Ochuwa -> Nurse Seacole (2010) -> Action,Drama,History,Short] 
+
+srcNodes: [1816501, 8015510, 5000050]
+  path: 0[1637619 -> 2199735 -> 1816501], [Pirates of the Caribbean: At World's End (2007) -> Manesh, Marshall -> The Truth About the War in Heaven: Declaration of War (2011)] 
+
+  path: 1[1637619 -> 2178688 -> 1452028 -> 8015510], [Pirates of the Caribbean: At World's End (2007) -> Lamar, Jason -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[1637619 -> 2372301 -> 1799442 -> 5000050], [Pirates of the Caribbean: At World's End (2007) -> Knightley, Keira -> The People Speak UK (2010) -> Documentary,History] 
+
+srcNodes: [1871383, 1396223, 5000055]
+  path: 0[1223849 -> 2183920 -> 1871383], [Away We Go (2009) -> Lee, Randy (I) -> War (2007)] 
+
+  path: 1[1223849 -> 2085498 -> 1396223], [Away We Go (2009) -> Douglas, Rob -> Genital Genocide (2008)] 
+
+  path: 2[1223849 -> 2177527 -> 1539110 -> 5000055], [Away We Go (2009) -> LaBrucherie, Dave -> Lost River (2009) -> History] 
+
+srcNodes: [1871590, 1396223, 5000055]
+  path: 0[1871590 -> 1871590], [War of the Gods (2010) -> War of the Gods (2010)]
+  path: 1[1871590 -> 2154212 -> 1248632 -> 2357707 -> 1396223], [War of the Gods (2010) -> Jeremy, Ron -> Blood Moon Rising (2009) -> Hubbard, Liana -> Genital Genocide (2008)] 
+
+  path: 2[1871590 -> 2140336 -> 143094 -> 5000055], [War of the Gods (2010) -> Hitler, Adolf -> "Canada: A People's History" (2000) -> History] 
+
+-----------------------------------------
+ResultDestNodes: [1452028, 2330082, 2178688, 2187318, 2113391, 143094, 1539110, 2216920, 2134583, 2153853, 1619074, 2156660, 1637619, 1223849, 1871590]
+ResultRelevs: [9.450151443481445, 8.275921821594238, 7.720733642578125, 7.6462721824646, 7.624637126922607, 7.594778060913086, 7.586444854736328, 7.526118278503418, 7.341020584106445, 7.33936882019043, 7.32769775390625, 7.323226451873779, 7.314419746398926, 7.294886589050293, 7.273560523986816]
+AvgResultRelev: 7.642615858713786
+AvgResultDissimilarity: 0.8095238095238095
+Num of entries retrieved from the KNLists: 5871
+Num of entries retrieved from NKMaps: 9145
+Num of answer trees explored: 2488
+Num of states created: 177002
+Num of states explored: 176854
+Num of heuristic search performed: 6
+
+Div Top-k Search by Astar1nc_ap_new, k=15
+[war, genocide, history]
+srcNodes: [5001029, 8015510, 5004331]
+  path: 0[1452028 -> 4038961 -> 1477401 -> 5001029], [In the Hills of Deleij (2009) -> Sage, Paul (II) -> Kapisa (2009) -> Short,War,Drama] 
+
+  path: 1[1452028 -> 8015510], [In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[1452028 -> 2412226 -> 1603899 -> 5004331], [In the Hills of Deleij (2009) -> Oghie, Ochuwa -> Nurse Seacole (2010) -> Action,Drama,History,Short] 
+
+srcNodes: [5000166, 8015510, 5000150]
+  path: 0[2330082 -> 1752218 -> 4042392 -> 1871457 -> 5000166], [Etoile, Sana -> The Adventures of Tintin: The Secret of the Unicorn (2011) -> Spielberg, Steven -> War Horse (2011) -> War] 
+
+  path: 1[2330082 -> 1452028 -> 8015510], [Etoile, Sana -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2330082 -> 1752218 -> 2157635 -> 1389060 -> 5000150], [Etoile, Sana -> The Adventures of Tintin: The Secret of the Unicorn (2011) -> Jones, Toby (I) -> Frost/Nixon (2008) -> Drama,History] 
+
+srcNodes: [1816501, 8015510, 5000050]
+  path: 0[2178688 -> 1637619 -> 2199735 -> 1816501], [Lamar, Jason -> Pirates of the Caribbean: At World's End (2007) -> Manesh, Marshall -> The Truth About the War in Heaven: Declaration of War (2011)] 
+
+  path: 1[2178688 -> 1452028 -> 8015510], [Lamar, Jason -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2178688 -> 1637619 -> 2372301 -> 1799442 -> 5000050], [Lamar, Jason -> Pirates of the Caribbean: At World's End (2007) -> Knightley, Keira -> The People Speak UK (2010) -> Documentary,History] 
+
+srcNodes: [1871603, 8015510, 5000003]
+  path: 0[2187318 -> 1782644 -> 2333654 -> 1871603], [Lewis, Vernon -> The Invasion (2007/I) -> Fischer, Pamela (I) -> War of the Worlds (2005)] 
+
+  path: 1[2187318 -> 1452028 -> 8015510], [Lewis, Vernon -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2187318 -> 1782644 -> 2304980 -> 1612496 -> 5000003], [Lewis, Vernon -> The Invasion (2007/I) -> Cartwright, Veronica -> On the Edge of Black and White (2008) -> History,Documentary] 
+
+srcNodes: [1819680, 2113391, 6038738]
+  path: 0[2113391 -> 1756034 -> 2049772 -> 1819680], [Genocide Fatale -> The Belly of the Beast (2007) -> Carney, Patrick Michael -> The Way of War (2009)] 
+
+  path: 1[2113391 -> 2113391], [Genocide Fatale -> Genocide Fatale]
+  path: 2[2113391 -> 1756034 -> 2049772 -> 1868936 -> 6038738], [Genocide Fatale -> The Belly of the Beast (2007) -> Carney, Patrick Michael -> W. (2008/I) -> Oliver Stone's biogr] 
+
+srcNodes: [1871590, 8027027, 5000055]
+  path: 0[143094 -> 2140336 -> 1871590], ["Canada: A People's History" (2000) -> Hitler, Adolf -> War of the Gods (2010)] 
+
+  path: 1[143094 -> 2178555 -> 1698855 -> 8027027], ["Canada: A People's History" (2000) -> Lalonde, Robert (I) -> Shake Hands with the Devil (2007) -> betrayal,cnn-reporter,genocide,rwanda,united-nations,violence] 
+
+  path: 2[143094 -> 5000055], ["Canada: A People's History" (2000) -> History] 
+
+srcNodes: [8019184, 1396223, 5000055]
+  path: 0[1539110 -> 8019184], [Lost River (2009) -> abraham-lincoln,military-strategy,presidential-cabinet,u.s.-civil-war] 
+
+  path: 1[1539110 -> 2177527 -> 1223849 -> 2085498 -> 1396223], [Lost River (2009) -> LaBrucherie, Dave -> Away We Go (2009) -> Douglas, Rob -> Genital Genocide (2008)] 
+
+  path: 2[1539110 -> 5000055], [Lost River (2009) -> History] 
+
+srcNodes: [5000166, 8003468, 5000055]
+  path: 0[2216920 -> 1396839 -> 5000166], [Millan, Nevin -> Georgian: Warrior of Honor (2011) -> War] 
+
+  path: 1[2216920 -> 1869941 -> 2472272 -> 1209983 -> 8003468], [Millan, Nevin -> Waiting for Isaac (2006) -> Whitfield, Stephanie -> Angel of Hate (2005) -> african,angel,burundi,camera,digital,genocide,hate,malibu,mini-dv,ocean,rwanda] 
+
+  path: 2[2216920 -> 1324058 -> 5000055], [Millan, Nevin -> Didgori: Land of Sacrificed Knights (2009) -> History] 
+
+srcNodes: [5000166, 1396223, 5000055]
+  path: 0[2134583 -> 1835495 -> 2139691 -> 1692500 -> 5000166], [Hayes, David C. -> Tour de Force (2010) -> Hilmi, Rami -> See It Through (2006) -> War] 
+
+  path: 1[2134583 -> 1396223], [Hayes, David C. -> Genital Genocide (2008)] 
+
+  path: 2[2134583 -> 1462410 -> 2015810 -> 1539110 -> 5000055], [Hayes, David C. -> Jackrabbit Sky (2009) -> Babola, Stan -> Lost River (2009) -> History] 
+
+srcNodes: [1871603, 8015510, 5000150]
+  path: 0[2153853 -> 1871603], [Jennings, Anthony (II) -> War of the Worlds (2005)] 
+
+  path: 1[2153853 -> 1637619 -> 2178688 -> 1452028 -> 8015510], [Jennings, Anthony (II) -> Pirates of the Caribbean: At World's End (2007) -> Lamar, Jason -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2153853 -> 1250659 -> 5000150], [Jennings, Anthony (II) -> Bobby (2006) -> Drama,History] 
+
+srcNodes: [5000166, 8027191, 5000055]
+  path: 0[1619074 -> 5000166], [Otoko-tachi no Yamato (2005) -> War] 
+
+  path: 1[1619074 -> 2239125 -> 1702269 -> 8027191], [Otoko-tachi no Yamato (2005) -> Okuda, Eiji -> Shinkuronishiti (2004) -> airport,ancestry,androgyny,antichrist,based-on-novel,beating,black-gloves,blood,businessman,catholic,chase,christmas,city,claustrophobia,colonel,colonialism,confession,conscience,conspiracy,conundrum,convent,corporeal-mortification,corpse,courtroom,cruelty,cryogenics,cryptography,cyberpunk,dead-body,dead-man,death,deer,deity,demon,demonstration,detective,dominatrix,double-cross,dream-sequence,duplicity,dystopia,engagement,extraterrestrial,family-relationships,fire,flagellation,flashback,gas-mask,gay-interest,general,genocide,glam-rock,gloves,goddess,gore,gossip,goth,grenade,gunfire,hologram,homosexual,hybrid,illuminati,infidelity,interracial-relationship,invasion,investigation,japan,judge,killer,killing,laboratory,leader,logging,loss,male-nudity,masturbation,military,mind-control,misogyny,missile,missionary,monastery,murder,murder-investigation,murder-mystery,mutilation,mystery-killer,nun,obsession,outcast,paraplegic,pentangle,perversion,police,police-detective,police-investigation,pol] 
+
+  path: 2[1619074 -> 4039543 -> 1681937 -> 5000055], [Otoko-tachi no Yamato (2005) -> Satô, Jun'ya -> Sakuradamon-gai no hen (2010) -> History] 
+
+srcNodes: [5000021, 8015510, 5004331]
+  path: 0[2156660 -> 1588775 -> 2145061 -> 1333509 -> 5000021], [Jolly, James (I) -> Nancy Picks & Chooses (2008) -> Huchro, Eddie -> Dog Jack (2010) -> Drama,War] 
+
+  path: 1[2156660 -> 1452028 -> 8015510], [Jolly, James (I) -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[2156660 -> 1452028 -> 2412226 -> 1603899 -> 5004331], [Jolly, James (I) -> In the Hills of Deleij (2009) -> Oghie, Ochuwa -> Nurse Seacole (2010) -> Action,Drama,History,Short] 
+
+srcNodes: [1816501, 8015510, 5000050]
+  path: 0[1637619 -> 2199735 -> 1816501], [Pirates of the Caribbean: At World's End (2007) -> Manesh, Marshall -> The Truth About the War in Heaven: Declaration of War (2011)] 
+
+  path: 1[1637619 -> 2178688 -> 1452028 -> 8015510], [Pirates of the Caribbean: At World's End (2007) -> Lamar, Jason -> In the Hills of Deleij (2009) -> genocide] 
+
+  path: 2[1637619 -> 2372301 -> 1799442 -> 5000050], [Pirates of the Caribbean: At World's End (2007) -> Knightley, Keira -> The People Speak UK (2010) -> Documentary,History] 
+
+srcNodes: [1871383, 1396223, 5000055]
+  path: 0[1223849 -> 2183920 -> 1871383], [Away We Go (2009) -> Lee, Randy (I) -> War (2007)] 
+
+  path: 1[1223849 -> 2085498 -> 1396223], [Away We Go (2009) -> Douglas, Rob -> Genital Genocide (2008)] 
+
+  path: 2[1223849 -> 2177527 -> 1539110 -> 5000055], [Away We Go (2009) -> LaBrucherie, Dave -> Lost River (2009) -> History] 
+
+srcNodes: [1871590, 1396223, 5000055]
+  path: 0[1871590 -> 1871590], [War of the Gods (2010) -> War of the Gods (2010)]
+  path: 1[1871590 -> 2154212 -> 1248632 -> 2357707 -> 1396223], [War of the Gods (2010) -> Jeremy, Ron -> Blood Moon Rising (2009) -> Hubbard, Liana -> Genital Genocide (2008)] 
+
+  path: 2[1871590 -> 2140336 -> 143094 -> 5000055], [War of the Gods (2010) -> Hitler, Adolf -> "Canada: A People's History" (2000) -> History] 
+
+-----------------------------------------
+ResultDestNodes: [1452028, 2330082, 2178688, 2187318, 2113391, 143094, 1539110, 2216920, 2134583, 2153853, 1619074, 2156660, 1637619, 1223849, 1871590]
+ResultRelevs: [9.450151443481445, 8.275921821594238, 7.720733642578125, 7.6462721824646, 7.624637126922607, 7.594778060913086, 7.586444854736328, 7.526118278503418, 7.341020584106445, 7.33936882019043, 7.32769775390625, 7.323226451873779, 7.314419746398926, 7.294886589050293, 7.273560523986816]
+AvgResultRelev: 7.642615858713786
+AvgResultDissimilarity: 0.8095238095238095
+Num of entries retrieved from the KNLists: 6275
+Num of entries retrieved from NKMaps: 9841
+Num of answer trees explored: 2690
+Num of states created: 178
+Num of states explored: 22
+Num of heuristic search performed: 2
+
+query: [war, genocide, nonfiction]
+Top-k Search by Blink-BDB, k=5
+[war, genocide, nonfiction]
+srcNodes: [1871383, 1396223, 1295088]
+  path: 0[1871383 -> 1871383], [War (2007) -> War (2007)]
+  path: 1[1871383 -> 2183920 -> 1223849 -> 2085498 -> 1396223], [War (2007) -> Lee, Randy (I) -> Away We Go (2009) -> Douglas, Rob -> Genital Genocide (2008)] 
+
+  path: 2[1871383 -> 2126792 -> 1376140 -> 2353053 -> 1295088], [War (2007) -> Guzmán, Luis (I) -> Fighting (2009) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [1871383, 2113391, 1295088]
+  path: 0[2126792 -> 1871383], [Guzmán, Luis (I) -> War (2007)] 
+
+  path: 1[2126792 -> 1418473 -> 2396776 -> 1756034 -> 2113391], [Guzmán, Luis (I) -> He's Just Not That Into You (2009) -> McVicar, Kimberly -> The Belly of the Beast (2007) -> Genocide Fatale] 
+
+  path: 2[2126792 -> 1376140 -> 2353053 -> 1295088], [Guzmán, Luis (I) -> Fighting (2009) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [1871439, 2113391, 1295088]
+  path: 0[2047635 -> 1871439], [Campbell, Scott Michael -> War Flowers (2011)] 
+
+  path: 1[2047635 -> 1826811 -> 2396776 -> 1756034 -> 2113391], [Campbell, Scott Michael -> Throwing Stars (2007) -> McVicar, Kimberly -> The Belly of the Beast (2007) -> Genocide Fatale] 
+
+  path: 2[2047635 -> 1178348 -> 2353053 -> 1295088], [Campbell, Scott Michael -> A Guide to Recognizing Your Saints (2006) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [1537184, 2113391, 1295088]
+  path: 0[2186177 -> 1537184], [Leto, Jared -> Lord of War (2005)] 
+
+  path: 1[2186177 -> 1535893 -> 2010441 -> 1756034 -> 2113391], [Leto, Jared -> Lonely Hearts (2006) -> Antonius, Petrus -> The Belly of the Beast (2007) -> Genocide Fatale] 
+
+  path: 2[2186177 -> 1425490 -> 2353053 -> 1295088], [Leto, Jared -> Highway (2002/I) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [1871603, 1396223, 1295088]
+  path: 0[1591519 -> 2435145 -> 1871603], [Neal Cassady (2007) -> Ryan, Amy (I) -> War of the Worlds (2005)] 
+
+  path: 1[1591519 -> 2129671 -> 1223849 -> 2085498 -> 1396223], [Neal Cassady (2007) -> Hamilton, Josh (I) -> Away We Go (2009) -> Douglas, Rob -> Genital Genocide (2008)] 
+
+  path: 2[1591519 -> 2189412 -> 1295088], [Neal Cassady (2007) -> Lisenco, Sam -> Creative Nonfiction (2009)] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [1871383, 2126792, 2047635, 2186177, 1591519]
+ResultRelevs: [7.403951644897461, 7.279051780700684, 6.740016937255859, 6.740015029907227, 6.6859002113342285]
+AvgResultRelev: 6.969787120819092
+AvgResultDissimilarity: 0.5000000000000001
+Num of entries retrieved from the lists: 4570
+Num of entries retrieved from NKMaps: 7725
+Num of answer trees explored: 556
+
+Div Top-k Search by Exhustive, k=5
+[war, genocide, nonfiction]
+srcNodes: [1871439, 2113391, 1295088]
+  path: 0[2047635 -> 1871439], [Campbell, Scott Michael -> War Flowers (2011)] 
+
+  path: 1[2047635 -> 1826811 -> 2396776 -> 1756034 -> 2113391], [Campbell, Scott Michael -> Throwing Stars (2007) -> McVicar, Kimberly -> The Belly of the Beast (2007) -> Genocide Fatale] 
+
+  path: 2[2047635 -> 1178348 -> 2353053 -> 1295088], [Campbell, Scott Michael -> A Guide to Recognizing Your Saints (2006) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [1871603, 1396223, 1295088]
+  path: 0[1591519 -> 2435145 -> 1871603], [Neal Cassady (2007) -> Ryan, Amy (I) -> War of the Worlds (2005)] 
+
+  path: 1[1591519 -> 2129671 -> 1223849 -> 2085498 -> 1396223], [Neal Cassady (2007) -> Hamilton, Josh (I) -> Away We Go (2009) -> Douglas, Rob -> Genital Genocide (2008)] 
+
+  path: 2[1591519 -> 2189412 -> 1295088], [Neal Cassady (2007) -> Lisenco, Sam -> Creative Nonfiction (2009)] 
+
+srcNodes: [1871383, 8005229, 1295088]
+  path: 0[2353053 -> 1376140 -> 2126792 -> 1871383], [Hendricks, Eleonore -> Fighting (2009) -> Guzmán, Luis (I) -> War (2007)] 
+
+  path: 1[2353053 -> 1425490 -> 2254724 -> 1245871 -> 8005229], [Hendricks, Eleonore -> Highway (2002/I) -> Piven, Jeremy -> Black Hawk Down (2001) -> 180th-soar,1990s,africa,african,airport,all-male-cast,ambush,ammunition,anti-war,arkansas,armor,arms-dealer,army-rangers,asthma,automatic-weapon,bakara-market-mogadishu-somalia,based-on-book,based-on-novel,basketball,battle,battle-of-mogadishu,bicycle,bird's-eye-shot,blood,blood-on-camera-lens,blood-spatter,blood-spurting,blown-to-pieces,body-torn-apart,bravery,broken-arm,brotherhood,bullet,burning-tire,businessman,call-to-prayer,camaraderie,captain,car-accident,cell-phone,chain-of-command,chaos,chess,children,cigar-smoking,cigarette-smoking,civil-war,cnn,code,coffee,colonel,computer,corpse,courage,cuban-cigar,dead-body,dead-child,dead-soldier,death,delta-force,disembodied-hand,dismemberment,dog,donkey,drawing,east-africa,epilepsy,epileptic-seizure,exploding-body,explosion,falling-to-one's-death,famine,finger-gun,fingers-shot-off,flatbed-truck,food,food-distribution,gatling-gun,general,genocide,gore,grunge,gun,gunship,hearing-loss,helicopter,helicopter-crash,heroic-military,heroism,hit] 
+
+  path: 2[2353053 -> 1295088], [Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [1537184, 8027027, 1295088]
+  path: 0[1537184 -> 1537184], [Lord of War (2005) -> Lord of War (2005)]
+  path: 1[1537184 -> 2240184 -> 1698855 -> 8027027], [Lord of War (2005) -> Omotoso, Akin -> Shake Hands with the Devil (2007) -> betrayal,cnn-reporter,genocide,rwanda,united-nations,violence] 
+
+  path: 2[1537184 -> 2186177 -> 1425490 -> 2353053 -> 1295088], [Lord of War (2005) -> Leto, Jared -> Highway (2002/I) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [5000021, 8024597, 1295088]
+  path: 0[2041392 -> 1175876 -> 2267423 -> 1851680 -> 5000021], [Brundage, Richard -> A Dangerous Place (2011) -> Rendino, Sal -> Under Jakob's Ladder (2011) -> Drama,War] 
+
+  path: 1[2041392 -> 1887198 -> 2086641 -> 1650879 -> 8024597], [Brundage, Richard -> Writer's Block (2010/VI) -> Droxler, Dave -> Project: Valkyrie (2002) -> armor,battle,bravery,compassion,courage,cult-favorite,decapitation,demon,fate,fictional-war,flashback,friendship,genocide,giant-robot,good-versus-evil,greed,heroism,hit-in-the-crotch,impalement,knife-in-thigh,loan-shark,loyalty,male-bonding,martial-arts,monster,mutant,prologue,promise,quest,redemption,rescue,robot,sacrifice,sequel-mentioned-during-end-credits,stabbing,supernatural-power,swarm-tactic,sword,sword-fight,throat-slitting] 
+
+  path: 2[2041392 -> 1295088], [Brundage, Richard -> Creative Nonfiction (2009)] 
+
+Dissims of Subsets and t:
+(0~0, 1) : 0.6666666666666666
+(0~1, 2) : 0.6666666666666666
+(0~2, 3) : 0.6666666666666666
+(0~3, 4) : 0.6666666666666666
+-----------------------------------------
+ResultDestNodes: [2047635, 1591519, 2353053, 1537184, 2041392]
+ResultRelevs: [6.740016937255859, 6.6859002113342285, 6.569982528686523, 6.375746726989746, 6.3349504470825195]
+AvgResultRelev: 6.541319370269775
+AvgResultDissimilarity: 0.6666666666666667
+Num of entries retrieved from the KNLists: 9257
+Num of entries retrieved from NKMaps: 15726
+Num of answer trees explored: 1165
+Num of answer tree sets created: 253
+Num of answer tree sets removed: 253
+
+Div Top-k Search by Astar02, k=5
+[war, genocide, nonfiction]
+srcNodes: [1871439, 2113391, 1295088]
+  path: 0[2047635 -> 1871439], [Campbell, Scott Michael -> War Flowers (2011)] 
+
+  path: 1[2047635 -> 1826811 -> 2396776 -> 1756034 -> 2113391], [Campbell, Scott Michael -> Throwing Stars (2007) -> McVicar, Kimberly -> The Belly of the Beast (2007) -> Genocide Fatale] 
+
+  path: 2[2047635 -> 1178348 -> 2353053 -> 1295088], [Campbell, Scott Michael -> A Guide to Recognizing Your Saints (2006) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [1871603, 1396223, 1295088]
+  path: 0[1591519 -> 2435145 -> 1871603], [Neal Cassady (2007) -> Ryan, Amy (I) -> War of the Worlds (2005)] 
+
+  path: 1[1591519 -> 2129671 -> 1223849 -> 2085498 -> 1396223], [Neal Cassady (2007) -> Hamilton, Josh (I) -> Away We Go (2009) -> Douglas, Rob -> Genital Genocide (2008)] 
+
+  path: 2[1591519 -> 2189412 -> 1295088], [Neal Cassady (2007) -> Lisenco, Sam -> Creative Nonfiction (2009)] 
+
+srcNodes: [1871383, 8005229, 1295088]
+  path: 0[2353053 -> 1376140 -> 2126792 -> 1871383], [Hendricks, Eleonore -> Fighting (2009) -> Guzmán, Luis (I) -> War (2007)] 
+
+  path: 1[2353053 -> 1425490 -> 2254724 -> 1245871 -> 8005229], [Hendricks, Eleonore -> Highway (2002/I) -> Piven, Jeremy -> Black Hawk Down (2001) -> 180th-soar,1990s,africa,african,airport,all-male-cast,ambush,ammunition,anti-war,arkansas,armor,arms-dealer,army-rangers,asthma,automatic-weapon,bakara-market-mogadishu-somalia,based-on-book,based-on-novel,basketball,battle,battle-of-mogadishu,bicycle,bird's-eye-shot,blood,blood-on-camera-lens,blood-spatter,blood-spurting,blown-to-pieces,body-torn-apart,bravery,broken-arm,brotherhood,bullet,burning-tire,businessman,call-to-prayer,camaraderie,captain,car-accident,cell-phone,chain-of-command,chaos,chess,children,cigar-smoking,cigarette-smoking,civil-war,cnn,code,coffee,colonel,computer,corpse,courage,cuban-cigar,dead-body,dead-child,dead-soldier,death,delta-force,disembodied-hand,dismemberment,dog,donkey,drawing,east-africa,epilepsy,epileptic-seizure,exploding-body,explosion,falling-to-one's-death,famine,finger-gun,fingers-shot-off,flatbed-truck,food,food-distribution,gatling-gun,general,genocide,gore,grunge,gun,gunship,hearing-loss,helicopter,helicopter-crash,heroic-military,heroism,hit] 
+
+  path: 2[2353053 -> 1295088], [Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [1537184, 8027027, 1295088]
+  path: 0[1537184 -> 1537184], [Lord of War (2005) -> Lord of War (2005)]
+  path: 1[1537184 -> 2240184 -> 1698855 -> 8027027], [Lord of War (2005) -> Omotoso, Akin -> Shake Hands with the Devil (2007) -> betrayal,cnn-reporter,genocide,rwanda,united-nations,violence] 
+
+  path: 2[1537184 -> 2186177 -> 1425490 -> 2353053 -> 1295088], [Lord of War (2005) -> Leto, Jared -> Highway (2002/I) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [5000021, 8024597, 1295088]
+  path: 0[2041392 -> 1175876 -> 2267423 -> 1851680 -> 5000021], [Brundage, Richard -> A Dangerous Place (2011) -> Rendino, Sal -> Under Jakob's Ladder (2011) -> Drama,War] 
+
+  path: 1[2041392 -> 1887198 -> 2086641 -> 1650879 -> 8024597], [Brundage, Richard -> Writer's Block (2010/VI) -> Droxler, Dave -> Project: Valkyrie (2002) -> armor,battle,bravery,compassion,courage,cult-favorite,decapitation,demon,fate,fictional-war,flashback,friendship,genocide,giant-robot,good-versus-evil,greed,heroism,hit-in-the-crotch,impalement,knife-in-thigh,loan-shark,loyalty,male-bonding,martial-arts,monster,mutant,prologue,promise,quest,redemption,rescue,robot,sacrifice,sequel-mentioned-during-end-credits,stabbing,supernatural-power,swarm-tactic,sword,sword-fight,throat-slitting] 
+
+  path: 2[2041392 -> 1295088], [Brundage, Richard -> Creative Nonfiction (2009)] 
+
+-----------------------------------------
+ResultDestNodes: [2047635, 1591519, 2353053, 1537184, 2041392]
+ResultRelevs: [6.740016937255859, 6.6859002113342285, 6.569982528686523, 6.375746726989746, 6.3349504470825195]
+AvgResultRelev: 6.541319370269775
+AvgResultDissimilarity: 0.6666666666666667
+Num of entries retrieved from the KNLists: 9257
+Num of entries retrieved from NKMaps: 15726
+Num of answer trees explored: 1165
+Num of states created: 1893
+Num of states explored: 1834
+Num of heuristic search performed: 47
+
+Div Top-k Search by Astar1nc_ap_new, k=5
+[war, genocide, nonfiction]
+srcNodes: [1871439, 2113391, 1295088]
+  path: 0[2047635 -> 1871439], [Campbell, Scott Michael -> War Flowers (2011)] 
+
+  path: 1[2047635 -> 1826811 -> 2396776 -> 1756034 -> 2113391], [Campbell, Scott Michael -> Throwing Stars (2007) -> McVicar, Kimberly -> The Belly of the Beast (2007) -> Genocide Fatale] 
+
+  path: 2[2047635 -> 1178348 -> 2353053 -> 1295088], [Campbell, Scott Michael -> A Guide to Recognizing Your Saints (2006) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [1871603, 1396223, 1295088]
+  path: 0[1591519 -> 2435145 -> 1871603], [Neal Cassady (2007) -> Ryan, Amy (I) -> War of the Worlds (2005)] 
+
+  path: 1[1591519 -> 2129671 -> 1223849 -> 2085498 -> 1396223], [Neal Cassady (2007) -> Hamilton, Josh (I) -> Away We Go (2009) -> Douglas, Rob -> Genital Genocide (2008)] 
+
+  path: 2[1591519 -> 2189412 -> 1295088], [Neal Cassady (2007) -> Lisenco, Sam -> Creative Nonfiction (2009)] 
+
+srcNodes: [1871383, 8005229, 1295088]
+  path: 0[2353053 -> 1376140 -> 2126792 -> 1871383], [Hendricks, Eleonore -> Fighting (2009) -> Guzmán, Luis (I) -> War (2007)] 
+
+  path: 1[2353053 -> 1425490 -> 2254724 -> 1245871 -> 8005229], [Hendricks, Eleonore -> Highway (2002/I) -> Piven, Jeremy -> Black Hawk Down (2001) -> 180th-soar,1990s,africa,african,airport,all-male-cast,ambush,ammunition,anti-war,arkansas,armor,arms-dealer,army-rangers,asthma,automatic-weapon,bakara-market-mogadishu-somalia,based-on-book,based-on-novel,basketball,battle,battle-of-mogadishu,bicycle,bird's-eye-shot,blood,blood-on-camera-lens,blood-spatter,blood-spurting,blown-to-pieces,body-torn-apart,bravery,broken-arm,brotherhood,bullet,burning-tire,businessman,call-to-prayer,camaraderie,captain,car-accident,cell-phone,chain-of-command,chaos,chess,children,cigar-smoking,cigarette-smoking,civil-war,cnn,code,coffee,colonel,computer,corpse,courage,cuban-cigar,dead-body,dead-child,dead-soldier,death,delta-force,disembodied-hand,dismemberment,dog,donkey,drawing,east-africa,epilepsy,epileptic-seizure,exploding-body,explosion,falling-to-one's-death,famine,finger-gun,fingers-shot-off,flatbed-truck,food,food-distribution,gatling-gun,general,genocide,gore,grunge,gun,gunship,hearing-loss,helicopter,helicopter-crash,heroic-military,heroism,hit] 
+
+  path: 2[2353053 -> 1295088], [Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [1537184, 8027027, 1295088]
+  path: 0[1537184 -> 1537184], [Lord of War (2005) -> Lord of War (2005)]
+  path: 1[1537184 -> 2240184 -> 1698855 -> 8027027], [Lord of War (2005) -> Omotoso, Akin -> Shake Hands with the Devil (2007) -> betrayal,cnn-reporter,genocide,rwanda,united-nations,violence] 
+
+  path: 2[1537184 -> 2186177 -> 1425490 -> 2353053 -> 1295088], [Lord of War (2005) -> Leto, Jared -> Highway (2002/I) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [5000021, 8024597, 1295088]
+  path: 0[2041392 -> 1175876 -> 2267423 -> 1851680 -> 5000021], [Brundage, Richard -> A Dangerous Place (2011) -> Rendino, Sal -> Under Jakob's Ladder (2011) -> Drama,War] 
+
+  path: 1[2041392 -> 1887198 -> 2086641 -> 1650879 -> 8024597], [Brundage, Richard -> Writer's Block (2010/VI) -> Droxler, Dave -> Project: Valkyrie (2002) -> armor,battle,bravery,compassion,courage,cult-favorite,decapitation,demon,fate,fictional-war,flashback,friendship,genocide,giant-robot,good-versus-evil,greed,heroism,hit-in-the-crotch,impalement,knife-in-thigh,loan-shark,loyalty,male-bonding,martial-arts,monster,mutant,prologue,promise,quest,redemption,rescue,robot,sacrifice,sequel-mentioned-during-end-credits,stabbing,supernatural-power,swarm-tactic,sword,sword-fight,throat-slitting] 
+
+  path: 2[2041392 -> 1295088], [Brundage, Richard -> Creative Nonfiction (2009)] 
+
+-----------------------------------------
+ResultDestNodes: [2047635, 1591519, 2353053, 1537184, 2041392]
+ResultRelevs: [6.740016937255859, 6.6859002113342285, 6.569982528686523, 6.375746726989746, 6.3349504470825195]
+AvgResultRelev: 6.541319370269775
+AvgResultDissimilarity: 0.6666666666666667
+Num of entries retrieved from the KNLists: 9257
+Num of entries retrieved from NKMaps: 15726
+Num of answer trees explored: 1165
+Num of states created: 2283
+Num of states explored: 772
+Num of heuristic search performed: 38
+
+Top-k Search by Blink-BDB, k=10
+[war, genocide, nonfiction]
+srcNodes: [1871383, 1396223, 1295088]
+  path: 0[1871383 -> 1871383], [War (2007) -> War (2007)]
+  path: 1[1871383 -> 2183920 -> 1223849 -> 2085498 -> 1396223], [War (2007) -> Lee, Randy (I) -> Away We Go (2009) -> Douglas, Rob -> Genital Genocide (2008)] 
+
+  path: 2[1871383 -> 2126792 -> 1376140 -> 2353053 -> 1295088], [War (2007) -> Guzmán, Luis (I) -> Fighting (2009) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [1871383, 2113391, 1295088]
+  path: 0[2126792 -> 1871383], [Guzmán, Luis (I) -> War (2007)] 
+
+  path: 1[2126792 -> 1418473 -> 2396776 -> 1756034 -> 2113391], [Guzmán, Luis (I) -> He's Just Not That Into You (2009) -> McVicar, Kimberly -> The Belly of the Beast (2007) -> Genocide Fatale] 
+
+  path: 2[2126792 -> 1376140 -> 2353053 -> 1295088], [Guzmán, Luis (I) -> Fighting (2009) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [1871439, 2113391, 1295088]
+  path: 0[2047635 -> 1871439], [Campbell, Scott Michael -> War Flowers (2011)] 
+
+  path: 1[2047635 -> 1826811 -> 2396776 -> 1756034 -> 2113391], [Campbell, Scott Michael -> Throwing Stars (2007) -> McVicar, Kimberly -> The Belly of the Beast (2007) -> Genocide Fatale] 
+
+  path: 2[2047635 -> 1178348 -> 2353053 -> 1295088], [Campbell, Scott Michael -> A Guide to Recognizing Your Saints (2006) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [1537184, 2113391, 1295088]
+  path: 0[2186177 -> 1537184], [Leto, Jared -> Lord of War (2005)] 
+
+  path: 1[2186177 -> 1535893 -> 2010441 -> 1756034 -> 2113391], [Leto, Jared -> Lonely Hearts (2006) -> Antonius, Petrus -> The Belly of the Beast (2007) -> Genocide Fatale] 
+
+  path: 2[2186177 -> 1425490 -> 2353053 -> 1295088], [Leto, Jared -> Highway (2002/I) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [1871603, 1396223, 1295088]
+  path: 0[1591519 -> 2435145 -> 1871603], [Neal Cassady (2007) -> Ryan, Amy (I) -> War of the Worlds (2005)] 
+
+  path: 1[1591519 -> 2129671 -> 1223849 -> 2085498 -> 1396223], [Neal Cassady (2007) -> Hamilton, Josh (I) -> Away We Go (2009) -> Douglas, Rob -> Genital Genocide (2008)] 
+
+  path: 2[1591519 -> 2189412 -> 1295088], [Neal Cassady (2007) -> Lisenco, Sam -> Creative Nonfiction (2009)] 
+
+srcNodes: [1871439, 1396223, 1295088]
+  path: 0[1178348 -> 2047635 -> 1871439], [A Guide to Recognizing Your Saints (2006) -> Campbell, Scott Michael -> War Flowers (2011)] 
+
+  path: 1[1178348 -> 2244026 -> 1469554 -> 2243542 -> 1396223], [A Guide to Recognizing Your Saints (2006) -> Palminteri, Chazz -> Jolene (2008) -> Palacio, Daren -> Genital Genocide (2008)] 
+
+  path: 2[1178348 -> 2353053 -> 1295088], [A Guide to Recognizing Your Saints (2006) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [1537184, 1396223, 1295088]
+  path: 0[1425490 -> 2186177 -> 1537184], [Highway (2002/I) -> Leto, Jared -> Lord of War (2005)] 
+
+  path: 1[1425490 -> 2254724 -> 1784423 -> 2243542 -> 1396223], [Highway (2002/I) -> Piven, Jeremy -> The Kingdom (2007) -> Palacio, Daren -> Genital Genocide (2008)] 
+
+  path: 2[1425490 -> 2353053 -> 1295088], [Highway (2002/I) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [1871383, 1396223, 1295088]
+  path: 0[1223849 -> 2183920 -> 1871383], [Away We Go (2009) -> Lee, Randy (I) -> War (2007)] 
+
+  path: 1[1223849 -> 2085498 -> 1396223], [Away We Go (2009) -> Douglas, Rob -> Genital Genocide (2008)] 
+
+  path: 2[1223849 -> 2129671 -> 1591519 -> 2189412 -> 1295088], [Away We Go (2009) -> Hamilton, Josh (I) -> Neal Cassady (2007) -> Lisenco, Sam -> Creative Nonfiction (2009)] 
+
+srcNodes: [1871603, 1396223, 1295088]
+  path: 0[1871603 -> 1871603], [War of the Worlds (2005) -> War of the Worlds (2005)]
+  path: 1[1871603 -> 2333659 -> 1851480 -> 2414264 -> 1396223], [War of the Worlds (2005) -> Fischer, Takayo -> Uncross the Stars (2008) -> Overbey, Debbie -> Genital Genocide (2008)] 
+
+  path: 2[1871603 -> 2435145 -> 1591519 -> 2189412 -> 1295088], [War of the Worlds (2005) -> Ryan, Amy (I) -> Neal Cassady (2007) -> Lisenco, Sam -> Creative Nonfiction (2009)] 
+
+srcNodes: [1871383, 8005229, 1295088]
+  path: 0[2353053 -> 1376140 -> 2126792 -> 1871383], [Hendricks, Eleonore -> Fighting (2009) -> Guzmán, Luis (I) -> War (2007)] 
+
+  path: 1[2353053 -> 1425490 -> 2254724 -> 1245871 -> 8005229], [Hendricks, Eleonore -> Highway (2002/I) -> Piven, Jeremy -> Black Hawk Down (2001) -> 180th-soar,1990s,africa,african,airport,all-male-cast,ambush,ammunition,anti-war,arkansas,armor,arms-dealer,army-rangers,asthma,automatic-weapon,bakara-market-mogadishu-somalia,based-on-book,based-on-novel,basketball,battle,battle-of-mogadishu,bicycle,bird's-eye-shot,blood,blood-on-camera-lens,blood-spatter,blood-spurting,blown-to-pieces,body-torn-apart,bravery,broken-arm,brotherhood,bullet,burning-tire,businessman,call-to-prayer,camaraderie,captain,car-accident,cell-phone,chain-of-command,chaos,chess,children,cigar-smoking,cigarette-smoking,civil-war,cnn,code,coffee,colonel,computer,corpse,courage,cuban-cigar,dead-body,dead-child,dead-soldier,death,delta-force,disembodied-hand,dismemberment,dog,donkey,drawing,east-africa,epilepsy,epileptic-seizure,exploding-body,explosion,falling-to-one's-death,famine,finger-gun,fingers-shot-off,flatbed-truck,food,food-distribution,gatling-gun,general,genocide,gore,grunge,gun,gunship,hearing-loss,helicopter,helicopter-crash,heroic-military,heroism,hit] 
+
+  path: 2[2353053 -> 1295088], [Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+-----------------------------------------
+Num of top-k answers: 10
+ResultDestNodes: [1871383, 2126792, 2047635, 2186177, 1591519, 1178348, 1425490, 1223849, 1871603, 2353053]
+ResultRelevs: [7.403951644897461, 7.279051780700684, 6.740016937255859, 6.740015029907227, 6.6859002113342285, 6.6858978271484375, 6.685896396636963, 6.65408992767334, 6.6327714920043945, 6.569982528686523]
+AvgResultRelev: 6.807757377624512
+AvgResultDissimilarity: 0.46666666666666684
+Num of entries retrieved from the lists: 4570
+Num of entries retrieved from NKMaps: 7725
+Num of answer trees explored: 556
+
+Div Top-k Search by Exhustive, k=10
+[war, genocide, nonfiction]
+srcNodes: [1871603, 1396223, 1295088]
+  path: 0[1591519 -> 2435145 -> 1871603], [Neal Cassady (2007) -> Ryan, Amy (I) -> War of the Worlds (2005)] 
+
+  path: 1[1591519 -> 2129671 -> 1223849 -> 2085498 -> 1396223], [Neal Cassady (2007) -> Hamilton, Josh (I) -> Away We Go (2009) -> Douglas, Rob -> Genital Genocide (2008)] 
+
+  path: 2[1591519 -> 2189412 -> 1295088], [Neal Cassady (2007) -> Lisenco, Sam -> Creative Nonfiction (2009)] 
+
+srcNodes: [1871383, 8005229, 1295088]
+  path: 0[2353053 -> 1376140 -> 2126792 -> 1871383], [Hendricks, Eleonore -> Fighting (2009) -> Guzmán, Luis (I) -> War (2007)] 
+
+  path: 1[2353053 -> 1425490 -> 2254724 -> 1245871 -> 8005229], [Hendricks, Eleonore -> Highway (2002/I) -> Piven, Jeremy -> Black Hawk Down (2001) -> 180th-soar,1990s,africa,african,airport,all-male-cast,ambush,ammunition,anti-war,arkansas,armor,arms-dealer,army-rangers,asthma,automatic-weapon,bakara-market-mogadishu-somalia,based-on-book,based-on-novel,basketball,battle,battle-of-mogadishu,bicycle,bird's-eye-shot,blood,blood-on-camera-lens,blood-spatter,blood-spurting,blown-to-pieces,body-torn-apart,bravery,broken-arm,brotherhood,bullet,burning-tire,businessman,call-to-prayer,camaraderie,captain,car-accident,cell-phone,chain-of-command,chaos,chess,children,cigar-smoking,cigarette-smoking,civil-war,cnn,code,coffee,colonel,computer,corpse,courage,cuban-cigar,dead-body,dead-child,dead-soldier,death,delta-force,disembodied-hand,dismemberment,dog,donkey,drawing,east-africa,epilepsy,epileptic-seizure,exploding-body,explosion,falling-to-one's-death,famine,finger-gun,fingers-shot-off,flatbed-truck,food,food-distribution,gatling-gun,general,genocide,gore,grunge,gun,gunship,hearing-loss,helicopter,helicopter-crash,heroic-military,heroism,hit] 
+
+  path: 2[2353053 -> 1295088], [Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [1537184, 8027027, 1295088]
+  path: 0[1537184 -> 1537184], [Lord of War (2005) -> Lord of War (2005)]
+  path: 1[1537184 -> 2240184 -> 1698855 -> 8027027], [Lord of War (2005) -> Omotoso, Akin -> Shake Hands with the Devil (2007) -> betrayal,cnn-reporter,genocide,rwanda,united-nations,violence] 
+
+  path: 2[1537184 -> 2186177 -> 1425490 -> 2353053 -> 1295088], [Lord of War (2005) -> Leto, Jared -> Highway (2002/I) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [5000021, 8024597, 1295088]
+  path: 0[2041392 -> 1175876 -> 2267423 -> 1851680 -> 5000021], [Brundage, Richard -> A Dangerous Place (2011) -> Rendino, Sal -> Under Jakob's Ladder (2011) -> Drama,War] 
+
+  path: 1[2041392 -> 1887198 -> 2086641 -> 1650879 -> 8024597], [Brundage, Richard -> Writer's Block (2010/VI) -> Droxler, Dave -> Project: Valkyrie (2002) -> armor,battle,bravery,compassion,courage,cult-favorite,decapitation,demon,fate,fictional-war,flashback,friendship,genocide,giant-robot,good-versus-evil,greed,heroism,hit-in-the-crotch,impalement,knife-in-thigh,loan-shark,loyalty,male-bonding,martial-arts,monster,mutant,prologue,promise,quest,redemption,rescue,robot,sacrifice,sequel-mentioned-during-end-credits,stabbing,supernatural-power,swarm-tactic,sword,sword-fight,throat-slitting] 
+
+  path: 2[2041392 -> 1295088], [Brundage, Richard -> Creative Nonfiction (2009)] 
+
+srcNodes: [1819342, 2113391, 1295088]
+  path: 0[2271821 -> 1706701 -> 2192787 -> 1819342], [Roberts, Eric (I) -> Silver Case (2011) -> Lowenthal, Yuri -> The War on the War on Drugs (2002)] 
+
+  path: 1[2271821 -> 1359504 -> 2210663 -> 1756034 -> 2113391], [Roberts, Eric (I) -> Enemies Among Us (2010) -> McKeel, Dale -> The Belly of the Beast (2007) -> Genocide Fatale] 
+
+  path: 2[2271821 -> 1178348 -> 2353053 -> 1295088], [Roberts, Eric (I) -> A Guide to Recognizing Your Saints (2006) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [5001748, 2113391, 1295088]
+  path: 0[2293720 -> 1384852 -> 5001748], [Blair, Selma -> Four Saints (2011) -> History,War,Action,Drama] 
+
+  path: 1[2293720 -> 1583640 -> 2258100 -> 1756034 -> 2113391], [Blair, Selma -> My Mom's New Boyfriend (2008) -> Pratt, Keith (II) -> The Belly of the Beast (2007) -> Genocide Fatale] 
+
+  path: 2[2293720 -> 1425490 -> 2353053 -> 1295088], [Blair, Selma -> Highway (2002/I) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [5000166, 1396223, 1295088]
+  path: 0[1892243 -> 2309210 -> 1396839 -> 5000166], [You Don't Mess with the Zohan (2008) -> Christopher-Pantoliano, Ella -> Georgian: Warrior of Honor (2011) -> War] 
+
+  path: 1[1892243 -> 2448154 -> 1825393 -> 2134583 -> 1396223], [You Don't Mess with the Zohan (2008) -> So, Lina -> Thorns from a Rose (2011) -> Hayes, David C. -> Genital Genocide (2008)] 
+
+  path: 2[1892243 -> 2115491 -> 1887198 -> 2041392 -> 1295088], [You Don't Mess with the Zohan (2008) -> Giles, Ronald E. -> Writer's Block (2010/VI) -> Brundage, Richard -> Creative Nonfiction (2009)] 
+
+srcNodes: [1416650, 8027027, 1295088]
+  path: 0[2144292 -> 1416650], [Howard, Terrence -> Hart's War (2002)] 
+
+  path: 1[2144292 -> 1397437 -> 2003730 -> 1698855 -> 8027027], [Howard, Terrence -> Get Rich or Die Tryin' (2005) -> Akin, Philip -> Shake Hands with the Devil (2007) -> betrayal,cnn-reporter,genocide,rwanda,united-nations,violence] 
+
+  path: 2[2144292 -> 1376140 -> 2353053 -> 1295088], [Howard, Terrence -> Fighting (2009) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [5000166, 8035637, 1295088]
+  path: 0[1532827 -> 2169214 -> 1692440 -> 5000166], [Little Children (2006) -> Kirkpatrick, Bruce -> Seduction of the Will (2001) -> War] 
+
+  path: 1[1532827 -> 2040267 -> 1867684 -> 8035637], [Little Children (2006) -> Brown, Chadwick (I) -> Vote and Die: Liszt for President (2008) -> genocide,kill,life-sucks,political-comedy,political-satire] 
+
+  path: 2[1532827 -> 2394531 -> 1781108 -> 2326035 -> 1295088], [Little Children (2006) -> McCann, Mary B. -> The House of the Devil (2009) -> Dunham, Lena -> Creative Nonfiction (2009)] 
+
+srcNodes: [5001778, 8024597, 1295088]
+  path: 0[1887198 -> 2374943 -> 1248083 -> 5001778], [Writer's Block (2010/VI) -> Kuchma, Anna -> Blitzkrieg: Escape from Stalag 69 (2008) -> Horror,War] 
+
+  path: 1[1887198 -> 2086641 -> 1650879 -> 8024597], [Writer's Block (2010/VI) -> Droxler, Dave -> Project: Valkyrie (2002) -> armor,battle,bravery,compassion,courage,cult-favorite,decapitation,demon,fate,fictional-war,flashback,friendship,genocide,giant-robot,good-versus-evil,greed,heroism,hit-in-the-crotch,impalement,knife-in-thigh,loan-shark,loyalty,male-bonding,martial-arts,monster,mutant,prologue,promise,quest,redemption,rescue,robot,sacrifice,sequel-mentioned-during-end-credits,stabbing,supernatural-power,swarm-tactic,sword,sword-fight,throat-slitting] 
+
+  path: 2[1887198 -> 2041392 -> 1295088], [Writer's Block (2010/VI) -> Brundage, Richard -> Creative Nonfiction (2009)] 
+
+Dissims of Subsets and t:
+(0~0, 1) : 0.6666666666666666
+(0~1, 2) : 0.6666666666666666
+(0~2, 3) : 0.6666666666666666
+(0~3, 4) : 0.6666666666666666
+(0~4, 5) : 0.6
+(0~5, 6) : 0.611111111111111
+(0~6, 7) : 0.619047619047619
+(0~7, 8) : 0.625
+(0~8, 9) : 0.6296296296296297
+-----------------------------------------
+ResultDestNodes: [1591519, 2353053, 1537184, 2041392, 2271821, 2293720, 1892243, 2144292, 1532827, 1887198]
+ResultRelevs: [6.6859002113342285, 6.569982528686523, 6.375746726989746, 6.3349504470825195, 6.319882869720459, 6.196824073791504, 6.003111839294434, 5.815727233886719, 5.746096611022949, 5.617254257202148]
+AvgResultRelev: 6.166547679901123
+AvgResultDissimilarity: 0.6296296296296299
+Num of entries retrieved from the KNLists: 9257
+Num of entries retrieved from NKMaps: 15726
+Num of answer trees explored: 1165
+Num of answer tree sets created: 105539
+Num of answer tree sets removed: 104297
+
+Div Top-k Search by Astar02, k=10
+[war, genocide, nonfiction]
+srcNodes: [1871603, 1396223, 1295088]
+  path: 0[1591519 -> 2435145 -> 1871603], [Neal Cassady (2007) -> Ryan, Amy (I) -> War of the Worlds (2005)] 
+
+  path: 1[1591519 -> 2129671 -> 1223849 -> 2085498 -> 1396223], [Neal Cassady (2007) -> Hamilton, Josh (I) -> Away We Go (2009) -> Douglas, Rob -> Genital Genocide (2008)] 
+
+  path: 2[1591519 -> 2189412 -> 1295088], [Neal Cassady (2007) -> Lisenco, Sam -> Creative Nonfiction (2009)] 
+
+srcNodes: [1871383, 8005229, 1295088]
+  path: 0[2353053 -> 1376140 -> 2126792 -> 1871383], [Hendricks, Eleonore -> Fighting (2009) -> Guzmán, Luis (I) -> War (2007)] 
+
+  path: 1[2353053 -> 1425490 -> 2254724 -> 1245871 -> 8005229], [Hendricks, Eleonore -> Highway (2002/I) -> Piven, Jeremy -> Black Hawk Down (2001) -> 180th-soar,1990s,africa,african,airport,all-male-cast,ambush,ammunition,anti-war,arkansas,armor,arms-dealer,army-rangers,asthma,automatic-weapon,bakara-market-mogadishu-somalia,based-on-book,based-on-novel,basketball,battle,battle-of-mogadishu,bicycle,bird's-eye-shot,blood,blood-on-camera-lens,blood-spatter,blood-spurting,blown-to-pieces,body-torn-apart,bravery,broken-arm,brotherhood,bullet,burning-tire,businessman,call-to-prayer,camaraderie,captain,car-accident,cell-phone,chain-of-command,chaos,chess,children,cigar-smoking,cigarette-smoking,civil-war,cnn,code,coffee,colonel,computer,corpse,courage,cuban-cigar,dead-body,dead-child,dead-soldier,death,delta-force,disembodied-hand,dismemberment,dog,donkey,drawing,east-africa,epilepsy,epileptic-seizure,exploding-body,explosion,falling-to-one's-death,famine,finger-gun,fingers-shot-off,flatbed-truck,food,food-distribution,gatling-gun,general,genocide,gore,grunge,gun,gunship,hearing-loss,helicopter,helicopter-crash,heroic-military,heroism,hit] 
+
+  path: 2[2353053 -> 1295088], [Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [1537184, 8027027, 1295088]
+  path: 0[1537184 -> 1537184], [Lord of War (2005) -> Lord of War (2005)]
+  path: 1[1537184 -> 2240184 -> 1698855 -> 8027027], [Lord of War (2005) -> Omotoso, Akin -> Shake Hands with the Devil (2007) -> betrayal,cnn-reporter,genocide,rwanda,united-nations,violence] 
+
+  path: 2[1537184 -> 2186177 -> 1425490 -> 2353053 -> 1295088], [Lord of War (2005) -> Leto, Jared -> Highway (2002/I) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [5000021, 8024597, 1295088]
+  path: 0[2041392 -> 1175876 -> 2267423 -> 1851680 -> 5000021], [Brundage, Richard -> A Dangerous Place (2011) -> Rendino, Sal -> Under Jakob's Ladder (2011) -> Drama,War] 
+
+  path: 1[2041392 -> 1887198 -> 2086641 -> 1650879 -> 8024597], [Brundage, Richard -> Writer's Block (2010/VI) -> Droxler, Dave -> Project: Valkyrie (2002) -> armor,battle,bravery,compassion,courage,cult-favorite,decapitation,demon,fate,fictional-war,flashback,friendship,genocide,giant-robot,good-versus-evil,greed,heroism,hit-in-the-crotch,impalement,knife-in-thigh,loan-shark,loyalty,male-bonding,martial-arts,monster,mutant,prologue,promise,quest,redemption,rescue,robot,sacrifice,sequel-mentioned-during-end-credits,stabbing,supernatural-power,swarm-tactic,sword,sword-fight,throat-slitting] 
+
+  path: 2[2041392 -> 1295088], [Brundage, Richard -> Creative Nonfiction (2009)] 
+
+srcNodes: [1819342, 2113391, 1295088]
+  path: 0[2271821 -> 1706701 -> 2192787 -> 1819342], [Roberts, Eric (I) -> Silver Case (2011) -> Lowenthal, Yuri -> The War on the War on Drugs (2002)] 
+
+  path: 1[2271821 -> 1359504 -> 2210663 -> 1756034 -> 2113391], [Roberts, Eric (I) -> Enemies Among Us (2010) -> McKeel, Dale -> The Belly of the Beast (2007) -> Genocide Fatale] 
+
+  path: 2[2271821 -> 1178348 -> 2353053 -> 1295088], [Roberts, Eric (I) -> A Guide to Recognizing Your Saints (2006) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [5001748, 2113391, 1295088]
+  path: 0[2293720 -> 1384852 -> 5001748], [Blair, Selma -> Four Saints (2011) -> History,War,Action,Drama] 
+
+  path: 1[2293720 -> 1583640 -> 2258100 -> 1756034 -> 2113391], [Blair, Selma -> My Mom's New Boyfriend (2008) -> Pratt, Keith (II) -> The Belly of the Beast (2007) -> Genocide Fatale] 
+
+  path: 2[2293720 -> 1425490 -> 2353053 -> 1295088], [Blair, Selma -> Highway (2002/I) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [5000166, 1396223, 1295088]
+  path: 0[1648603 -> 2240951 -> 1871457 -> 5000166], [Prince of Persia: The Sands of Time (2010) -> Orpheus, David -> War Horse (2011) -> War] 
+
+  path: 1[1648603 -> 2168713 -> 1876592 -> 2243542 -> 1396223], [Prince of Persia: The Sands of Time (2010) -> Kingsley, Ben -> What Planet Are You From? (2000) -> Palacio, Daren -> Genital Genocide (2008)] 
+
+  path: 2[1648603 -> 2126958 -> 1425490 -> 2353053 -> 1295088], [Prince of Persia: The Sands of Time (2010) -> Gyllenhaal, Jake -> Highway (2002/I) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [1416650, 8027027, 1295088]
+  path: 0[2144292 -> 1416650], [Howard, Terrence -> Hart's War (2002)] 
+
+  path: 1[2144292 -> 1397437 -> 2003730 -> 1698855 -> 8027027], [Howard, Terrence -> Get Rich or Die Tryin' (2005) -> Akin, Philip -> Shake Hands with the Devil (2007) -> betrayal,cnn-reporter,genocide,rwanda,united-nations,violence] 
+
+  path: 2[2144292 -> 1376140 -> 2353053 -> 1295088], [Howard, Terrence -> Fighting (2009) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [5000166, 8035637, 1295088]
+  path: 0[1532827 -> 2169214 -> 1692440 -> 5000166], [Little Children (2006) -> Kirkpatrick, Bruce -> Seduction of the Will (2001) -> War] 
+
+  path: 1[1532827 -> 2040267 -> 1867684 -> 8035637], [Little Children (2006) -> Brown, Chadwick (I) -> Vote and Die: Liszt for President (2008) -> genocide,kill,life-sucks,political-comedy,political-satire] 
+
+  path: 2[1532827 -> 2394531 -> 1781108 -> 2326035 -> 1295088], [Little Children (2006) -> McCann, Mary B. -> The House of the Devil (2009) -> Dunham, Lena -> Creative Nonfiction (2009)] 
+
+srcNodes: [5001778, 8024597, 1295088]
+  path: 0[1887198 -> 2374943 -> 1248083 -> 5001778], [Writer's Block (2010/VI) -> Kuchma, Anna -> Blitzkrieg: Escape from Stalag 69 (2008) -> Horror,War] 
+
+  path: 1[1887198 -> 2086641 -> 1650879 -> 8024597], [Writer's Block (2010/VI) -> Droxler, Dave -> Project: Valkyrie (2002) -> armor,battle,bravery,compassion,courage,cult-favorite,decapitation,demon,fate,fictional-war,flashback,friendship,genocide,giant-robot,good-versus-evil,greed,heroism,hit-in-the-crotch,impalement,knife-in-thigh,loan-shark,loyalty,male-bonding,martial-arts,monster,mutant,prologue,promise,quest,redemption,rescue,robot,sacrifice,sequel-mentioned-during-end-credits,stabbing,supernatural-power,swarm-tactic,sword,sword-fight,throat-slitting] 
+
+  path: 2[1887198 -> 2041392 -> 1295088], [Writer's Block (2010/VI) -> Brundage, Richard -> Creative Nonfiction (2009)] 
+
+-----------------------------------------
+ResultDestNodes: [1591519, 2353053, 1537184, 2041392, 2271821, 2293720, 1648603, 2144292, 1532827, 1887198]
+ResultRelevs: [6.6859002113342285, 6.569982528686523, 6.375746726989746, 6.3349504470825195, 6.319882869720459, 6.196824073791504, 6.003111839294434, 5.815727233886719, 5.746096611022949, 5.617254257202148]
+AvgResultRelev: 6.166547679901123
+AvgResultDissimilarity: 0.6296296296296299
+Num of entries retrieved from the KNLists: 9257
+Num of entries retrieved from NKMaps: 15726
+Num of answer trees explored: 1165
+Num of states created: 631982
+Num of states explored: 622008
+Num of heuristic search performed: 61
+
+Div Top-k Search by Astar1nc_ap_new, k=10
+[war, genocide, nonfiction]
+srcNodes: [1871603, 1396223, 1295088]
+  path: 0[1591519 -> 2435145 -> 1871603], [Neal Cassady (2007) -> Ryan, Amy (I) -> War of the Worlds (2005)] 
+
+  path: 1[1591519 -> 2129671 -> 1223849 -> 2085498 -> 1396223], [Neal Cassady (2007) -> Hamilton, Josh (I) -> Away We Go (2009) -> Douglas, Rob -> Genital Genocide (2008)] 
+
+  path: 2[1591519 -> 2189412 -> 1295088], [Neal Cassady (2007) -> Lisenco, Sam -> Creative Nonfiction (2009)] 
+
+srcNodes: [1871383, 8005229, 1295088]
+  path: 0[2353053 -> 1376140 -> 2126792 -> 1871383], [Hendricks, Eleonore -> Fighting (2009) -> Guzmán, Luis (I) -> War (2007)] 
+
+  path: 1[2353053 -> 1425490 -> 2254724 -> 1245871 -> 8005229], [Hendricks, Eleonore -> Highway (2002/I) -> Piven, Jeremy -> Black Hawk Down (2001) -> 180th-soar,1990s,africa,african,airport,all-male-cast,ambush,ammunition,anti-war,arkansas,armor,arms-dealer,army-rangers,asthma,automatic-weapon,bakara-market-mogadishu-somalia,based-on-book,based-on-novel,basketball,battle,battle-of-mogadishu,bicycle,bird's-eye-shot,blood,blood-on-camera-lens,blood-spatter,blood-spurting,blown-to-pieces,body-torn-apart,bravery,broken-arm,brotherhood,bullet,burning-tire,businessman,call-to-prayer,camaraderie,captain,car-accident,cell-phone,chain-of-command,chaos,chess,children,cigar-smoking,cigarette-smoking,civil-war,cnn,code,coffee,colonel,computer,corpse,courage,cuban-cigar,dead-body,dead-child,dead-soldier,death,delta-force,disembodied-hand,dismemberment,dog,donkey,drawing,east-africa,epilepsy,epileptic-seizure,exploding-body,explosion,falling-to-one's-death,famine,finger-gun,fingers-shot-off,flatbed-truck,food,food-distribution,gatling-gun,general,genocide,gore,grunge,gun,gunship,hearing-loss,helicopter,helicopter-crash,heroic-military,heroism,hit] 
+
+  path: 2[2353053 -> 1295088], [Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [1537184, 8027027, 1295088]
+  path: 0[1537184 -> 1537184], [Lord of War (2005) -> Lord of War (2005)]
+  path: 1[1537184 -> 2240184 -> 1698855 -> 8027027], [Lord of War (2005) -> Omotoso, Akin -> Shake Hands with the Devil (2007) -> betrayal,cnn-reporter,genocide,rwanda,united-nations,violence] 
+
+  path: 2[1537184 -> 2186177 -> 1425490 -> 2353053 -> 1295088], [Lord of War (2005) -> Leto, Jared -> Highway (2002/I) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [5000021, 8024597, 1295088]
+  path: 0[2041392 -> 1175876 -> 2267423 -> 1851680 -> 5000021], [Brundage, Richard -> A Dangerous Place (2011) -> Rendino, Sal -> Under Jakob's Ladder (2011) -> Drama,War] 
+
+  path: 1[2041392 -> 1887198 -> 2086641 -> 1650879 -> 8024597], [Brundage, Richard -> Writer's Block (2010/VI) -> Droxler, Dave -> Project: Valkyrie (2002) -> armor,battle,bravery,compassion,courage,cult-favorite,decapitation,demon,fate,fictional-war,flashback,friendship,genocide,giant-robot,good-versus-evil,greed,heroism,hit-in-the-crotch,impalement,knife-in-thigh,loan-shark,loyalty,male-bonding,martial-arts,monster,mutant,prologue,promise,quest,redemption,rescue,robot,sacrifice,sequel-mentioned-during-end-credits,stabbing,supernatural-power,swarm-tactic,sword,sword-fight,throat-slitting] 
+
+  path: 2[2041392 -> 1295088], [Brundage, Richard -> Creative Nonfiction (2009)] 
+
+srcNodes: [1819342, 2113391, 1295088]
+  path: 0[2271821 -> 1706701 -> 2192787 -> 1819342], [Roberts, Eric (I) -> Silver Case (2011) -> Lowenthal, Yuri -> The War on the War on Drugs (2002)] 
+
+  path: 1[2271821 -> 1359504 -> 2210663 -> 1756034 -> 2113391], [Roberts, Eric (I) -> Enemies Among Us (2010) -> McKeel, Dale -> The Belly of the Beast (2007) -> Genocide Fatale] 
+
+  path: 2[2271821 -> 1178348 -> 2353053 -> 1295088], [Roberts, Eric (I) -> A Guide to Recognizing Your Saints (2006) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [5001748, 2113391, 1295088]
+  path: 0[2293720 -> 1384852 -> 5001748], [Blair, Selma -> Four Saints (2011) -> History,War,Action,Drama] 
+
+  path: 1[2293720 -> 1583640 -> 2258100 -> 1756034 -> 2113391], [Blair, Selma -> My Mom's New Boyfriend (2008) -> Pratt, Keith (II) -> The Belly of the Beast (2007) -> Genocide Fatale] 
+
+  path: 2[2293720 -> 1425490 -> 2353053 -> 1295088], [Blair, Selma -> Highway (2002/I) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [5000166, 1396223, 1295088]
+  path: 0[1785527 -> 2311265 -> 1396839 -> 5000166], [The Last Godfather (2010) -> Cole, Neva -> Georgian: Warrior of Honor (2011) -> War] 
+
+  path: 1[1785527 -> 2255827 -> 1535236 -> 2089168 -> 1396223], [The Last Godfather (2010) -> Polito, Jon -> Locker 13 (2009) -> Dyer, Rick (II) -> Genital Genocide (2008)] 
+
+  path: 2[1785527 -> 2324036 -> 1781108 -> 2326035 -> 1295088], [The Last Godfather (2010) -> Donahue, Jocelin -> The House of the Devil (2009) -> Dunham, Lena -> Creative Nonfiction (2009)] 
+
+srcNodes: [1416650, 8027027, 1295088]
+  path: 0[2144292 -> 1416650], [Howard, Terrence -> Hart's War (2002)] 
+
+  path: 1[2144292 -> 1397437 -> 2003730 -> 1698855 -> 8027027], [Howard, Terrence -> Get Rich or Die Tryin' (2005) -> Akin, Philip -> Shake Hands with the Devil (2007) -> betrayal,cnn-reporter,genocide,rwanda,united-nations,violence] 
+
+  path: 2[2144292 -> 1376140 -> 2353053 -> 1295088], [Howard, Terrence -> Fighting (2009) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [5000166, 8035637, 1295088]
+  path: 0[1532827 -> 2169214 -> 1692440 -> 5000166], [Little Children (2006) -> Kirkpatrick, Bruce -> Seduction of the Will (2001) -> War] 
+
+  path: 1[1532827 -> 2040267 -> 1867684 -> 8035637], [Little Children (2006) -> Brown, Chadwick (I) -> Vote and Die: Liszt for President (2008) -> genocide,kill,life-sucks,political-comedy,political-satire] 
+
+  path: 2[1532827 -> 2394531 -> 1781108 -> 2326035 -> 1295088], [Little Children (2006) -> McCann, Mary B. -> The House of the Devil (2009) -> Dunham, Lena -> Creative Nonfiction (2009)] 
+
+srcNodes: [5001778, 8024597, 1295088]
+  path: 0[1887198 -> 2374943 -> 1248083 -> 5001778], [Writer's Block (2010/VI) -> Kuchma, Anna -> Blitzkrieg: Escape from Stalag 69 (2008) -> Horror,War] 
+
+  path: 1[1887198 -> 2086641 -> 1650879 -> 8024597], [Writer's Block (2010/VI) -> Droxler, Dave -> Project: Valkyrie (2002) -> armor,battle,bravery,compassion,courage,cult-favorite,decapitation,demon,fate,fictional-war,flashback,friendship,genocide,giant-robot,good-versus-evil,greed,heroism,hit-in-the-crotch,impalement,knife-in-thigh,loan-shark,loyalty,male-bonding,martial-arts,monster,mutant,prologue,promise,quest,redemption,rescue,robot,sacrifice,sequel-mentioned-during-end-credits,stabbing,supernatural-power,swarm-tactic,sword,sword-fight,throat-slitting] 
+
+  path: 2[1887198 -> 2041392 -> 1295088], [Writer's Block (2010/VI) -> Brundage, Richard -> Creative Nonfiction (2009)] 
+
+-----------------------------------------
+ResultDestNodes: [1591519, 2353053, 1537184, 2041392, 2271821, 2293720, 1785527, 2144292, 1532827, 1887198]
+ResultRelevs: [6.6859002113342285, 6.569982528686523, 6.375746726989746, 6.3349504470825195, 6.319882869720459, 6.196824073791504, 6.003111839294434, 5.815727233886719, 5.746096611022949, 5.617254257202148]
+AvgResultRelev: 6.166547679901123
+AvgResultDissimilarity: 0.6296296296296299
+Num of entries retrieved from the KNLists: 9257
+Num of entries retrieved from NKMaps: 15726
+Num of answer trees explored: 1165
+Num of states created: 66757
+Num of states explored: 10107
+Num of heuristic search performed: 22
+
+Top-k Search by Blink-BDB, k=15
+[war, genocide, nonfiction]
+srcNodes: [1871383, 1396223, 1295088]
+  path: 0[1871383 -> 1871383], [War (2007) -> War (2007)]
+  path: 1[1871383 -> 2183920 -> 1223849 -> 2085498 -> 1396223], [War (2007) -> Lee, Randy (I) -> Away We Go (2009) -> Douglas, Rob -> Genital Genocide (2008)] 
+
+  path: 2[1871383 -> 2126792 -> 1376140 -> 2353053 -> 1295088], [War (2007) -> Guzmán, Luis (I) -> Fighting (2009) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [1871383, 2113391, 1295088]
+  path: 0[2126792 -> 1871383], [Guzmán, Luis (I) -> War (2007)] 
+
+  path: 1[2126792 -> 1418473 -> 2396776 -> 1756034 -> 2113391], [Guzmán, Luis (I) -> He's Just Not That Into You (2009) -> McVicar, Kimberly -> The Belly of the Beast (2007) -> Genocide Fatale] 
+
+  path: 2[2126792 -> 1376140 -> 2353053 -> 1295088], [Guzmán, Luis (I) -> Fighting (2009) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [1871439, 2113391, 1295088]
+  path: 0[2047635 -> 1871439], [Campbell, Scott Michael -> War Flowers (2011)] 
+
+  path: 1[2047635 -> 1826811 -> 2396776 -> 1756034 -> 2113391], [Campbell, Scott Michael -> Throwing Stars (2007) -> McVicar, Kimberly -> The Belly of the Beast (2007) -> Genocide Fatale] 
+
+  path: 2[2047635 -> 1178348 -> 2353053 -> 1295088], [Campbell, Scott Michael -> A Guide to Recognizing Your Saints (2006) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [1537184, 2113391, 1295088]
+  path: 0[2186177 -> 1537184], [Leto, Jared -> Lord of War (2005)] 
+
+  path: 1[2186177 -> 1535893 -> 2010441 -> 1756034 -> 2113391], [Leto, Jared -> Lonely Hearts (2006) -> Antonius, Petrus -> The Belly of the Beast (2007) -> Genocide Fatale] 
+
+  path: 2[2186177 -> 1425490 -> 2353053 -> 1295088], [Leto, Jared -> Highway (2002/I) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [1871603, 1396223, 1295088]
+  path: 0[1591519 -> 2435145 -> 1871603], [Neal Cassady (2007) -> Ryan, Amy (I) -> War of the Worlds (2005)] 
+
+  path: 1[1591519 -> 2129671 -> 1223849 -> 2085498 -> 1396223], [Neal Cassady (2007) -> Hamilton, Josh (I) -> Away We Go (2009) -> Douglas, Rob -> Genital Genocide (2008)] 
+
+  path: 2[1591519 -> 2189412 -> 1295088], [Neal Cassady (2007) -> Lisenco, Sam -> Creative Nonfiction (2009)] 
+
+srcNodes: [1871439, 1396223, 1295088]
+  path: 0[1178348 -> 2047635 -> 1871439], [A Guide to Recognizing Your Saints (2006) -> Campbell, Scott Michael -> War Flowers (2011)] 
+
+  path: 1[1178348 -> 2244026 -> 1469554 -> 2243542 -> 1396223], [A Guide to Recognizing Your Saints (2006) -> Palminteri, Chazz -> Jolene (2008) -> Palacio, Daren -> Genital Genocide (2008)] 
+
+  path: 2[1178348 -> 2353053 -> 1295088], [A Guide to Recognizing Your Saints (2006) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [1537184, 1396223, 1295088]
+  path: 0[1425490 -> 2186177 -> 1537184], [Highway (2002/I) -> Leto, Jared -> Lord of War (2005)] 
+
+  path: 1[1425490 -> 2254724 -> 1784423 -> 2243542 -> 1396223], [Highway (2002/I) -> Piven, Jeremy -> The Kingdom (2007) -> Palacio, Daren -> Genital Genocide (2008)] 
+
+  path: 2[1425490 -> 2353053 -> 1295088], [Highway (2002/I) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [1871383, 1396223, 1295088]
+  path: 0[1223849 -> 2183920 -> 1871383], [Away We Go (2009) -> Lee, Randy (I) -> War (2007)] 
+
+  path: 1[1223849 -> 2085498 -> 1396223], [Away We Go (2009) -> Douglas, Rob -> Genital Genocide (2008)] 
+
+  path: 2[1223849 -> 2129671 -> 1591519 -> 2189412 -> 1295088], [Away We Go (2009) -> Hamilton, Josh (I) -> Neal Cassady (2007) -> Lisenco, Sam -> Creative Nonfiction (2009)] 
+
+srcNodes: [1871603, 1396223, 1295088]
+  path: 0[1871603 -> 1871603], [War of the Worlds (2005) -> War of the Worlds (2005)]
+  path: 1[1871603 -> 2333659 -> 1851480 -> 2414264 -> 1396223], [War of the Worlds (2005) -> Fischer, Takayo -> Uncross the Stars (2008) -> Overbey, Debbie -> Genital Genocide (2008)] 
+
+  path: 2[1871603 -> 2435145 -> 1591519 -> 2189412 -> 1295088], [War of the Worlds (2005) -> Ryan, Amy (I) -> Neal Cassady (2007) -> Lisenco, Sam -> Creative Nonfiction (2009)] 
+
+srcNodes: [1871383, 8005229, 1295088]
+  path: 0[2353053 -> 1376140 -> 2126792 -> 1871383], [Hendricks, Eleonore -> Fighting (2009) -> Guzmán, Luis (I) -> War (2007)] 
+
+  path: 1[2353053 -> 1425490 -> 2254724 -> 1245871 -> 8005229], [Hendricks, Eleonore -> Highway (2002/I) -> Piven, Jeremy -> Black Hawk Down (2001) -> 180th-soar,1990s,africa,african,airport,all-male-cast,ambush,ammunition,anti-war,arkansas,armor,arms-dealer,army-rangers,asthma,automatic-weapon,bakara-market-mogadishu-somalia,based-on-book,based-on-novel,basketball,battle,battle-of-mogadishu,bicycle,bird's-eye-shot,blood,blood-on-camera-lens,blood-spatter,blood-spurting,blown-to-pieces,body-torn-apart,bravery,broken-arm,brotherhood,bullet,burning-tire,businessman,call-to-prayer,camaraderie,captain,car-accident,cell-phone,chain-of-command,chaos,chess,children,cigar-smoking,cigarette-smoking,civil-war,cnn,code,coffee,colonel,computer,corpse,courage,cuban-cigar,dead-body,dead-child,dead-soldier,death,delta-force,disembodied-hand,dismemberment,dog,donkey,drawing,east-africa,epilepsy,epileptic-seizure,exploding-body,explosion,falling-to-one's-death,famine,finger-gun,fingers-shot-off,flatbed-truck,food,food-distribution,gatling-gun,general,genocide,gore,grunge,gun,gunship,hearing-loss,helicopter,helicopter-crash,heroic-military,heroism,hit] 
+
+  path: 2[2353053 -> 1295088], [Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [5000166, 1396223, 1295088]
+  path: 0[2254724 -> 1673375 -> 2163745 -> 1871457 -> 5000166], [Piven, Jeremy -> RocknRolla (2008) -> Kebbell, Toby -> War Horse (2011) -> War] 
+
+  path: 1[2254724 -> 1784423 -> 2243542 -> 1396223], [Piven, Jeremy -> The Kingdom (2007) -> Palacio, Daren -> Genital Genocide (2008)] 
+
+  path: 2[2254724 -> 1425490 -> 2353053 -> 1295088], [Piven, Jeremy -> Highway (2002/I) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [1871383, 2113391, 1295088]
+  path: 0[1418473 -> 2126792 -> 1871383], [He's Just Not That Into You (2009) -> Guzmán, Luis (I) -> War (2007)] 
+
+  path: 1[1418473 -> 2396776 -> 1756034 -> 2113391], [He's Just Not That Into You (2009) -> McVicar, Kimberly -> The Belly of the Beast (2007) -> Genocide Fatale] 
+
+  path: 2[1418473 -> 2294263 -> 1392085 -> 2326035 -> 1295088], [He's Just Not That Into You (2009) -> Bloom, Brooke -> Gabi on the Roof in July (2010) -> Dunham, Lena -> Creative Nonfiction (2009)] 
+
+srcNodes: [5000166, 2113391, 1295088]
+  path: 0[2126958 -> 1648603 -> 2240951 -> 1871457 -> 5000166], [Gyllenhaal, Jake -> Prince of Persia: The Sands of Time (2010) -> Orpheus, David -> War Horse (2011) -> War] 
+
+  path: 1[2126958 -> 1776844 -> 2295643 -> 1756034 -> 2113391], [Gyllenhaal, Jake -> The Good Girl (2002) -> Borges, Gail -> The Belly of the Beast (2007) -> Genocide Fatale] 
+
+  path: 2[2126958 -> 1425490 -> 2353053 -> 1295088], [Gyllenhaal, Jake -> Highway (2002/I) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [5000166, 2113391, 1295088]
+  path: 0[2324036 -> 1785527 -> 2311265 -> 1396839 -> 5000166], [Donahue, Jocelin -> The Last Godfather (2010) -> Cole, Neva -> Georgian: Warrior of Honor (2011) -> War] 
+
+  path: 1[2324036 -> 1418473 -> 2396776 -> 1756034 -> 2113391], [Donahue, Jocelin -> He's Just Not That Into You (2009) -> McVicar, Kimberly -> The Belly of the Beast (2007) -> Genocide Fatale] 
+
+  path: 2[2324036 -> 1781108 -> 2326035 -> 1295088], [Donahue, Jocelin -> The House of the Devil (2009) -> Dunham, Lena -> Creative Nonfiction (2009)] 
+
+srcNodes: [1537184, 8027027, 1295088]
+  path: 0[1537184 -> 1537184], [Lord of War (2005) -> Lord of War (2005)]
+  path: 1[1537184 -> 2240184 -> 1698855 -> 8027027], [Lord of War (2005) -> Omotoso, Akin -> Shake Hands with the Devil (2007) -> betrayal,cnn-reporter,genocide,rwanda,united-nations,violence] 
+
+  path: 2[1537184 -> 2186177 -> 1425490 -> 2353053 -> 1295088], [Lord of War (2005) -> Leto, Jared -> Highway (2002/I) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+-----------------------------------------
+Num of top-k answers: 15
+ResultDestNodes: [1871383, 2126792, 2047635, 2186177, 1591519, 1178348, 1425490, 1223849, 1871603, 2353053, 2254724, 1418473, 2126958, 2324036, 1537184]
+ResultRelevs: [7.403951644897461, 7.279051780700684, 6.740016937255859, 6.740015029907227, 6.6859002113342285, 6.6858978271484375, 6.685896396636963, 6.65408992767334, 6.6327714920043945, 6.569982528686523, 6.547446250915527, 6.529043197631836, 6.441075325012207, 6.441075325012207, 6.375746726989746]
+AvgResultRelev: 6.694130706787109
+AvgResultDissimilarity: 0.495238095238095
+Num of entries retrieved from the lists: 6488
+Num of entries retrieved from NKMaps: 11039
+Num of answer trees explored: 824
+
+Div Top-k Search by Exhustive, k=15
+[war, genocide, nonfiction]
+srcNodes: [1871603, 1396223, 1295088]
+  path: 0[1591519 -> 2435145 -> 1871603], [Neal Cassady (2007) -> Ryan, Amy (I) -> War of the Worlds (2005)] 
+
+  path: 1[1591519 -> 2129671 -> 1223849 -> 2085498 -> 1396223], [Neal Cassady (2007) -> Hamilton, Josh (I) -> Away We Go (2009) -> Douglas, Rob -> Genital Genocide (2008)] 
+
+  path: 2[1591519 -> 2189412 -> 1295088], [Neal Cassady (2007) -> Lisenco, Sam -> Creative Nonfiction (2009)] 
+
+srcNodes: [1871383, 8005229, 1295088]
+  path: 0[2353053 -> 1376140 -> 2126792 -> 1871383], [Hendricks, Eleonore -> Fighting (2009) -> Guzmán, Luis (I) -> War (2007)] 
+
+  path: 1[2353053 -> 1425490 -> 2254724 -> 1245871 -> 8005229], [Hendricks, Eleonore -> Highway (2002/I) -> Piven, Jeremy -> Black Hawk Down (2001) -> 180th-soar,1990s,africa,african,airport,all-male-cast,ambush,ammunition,anti-war,arkansas,armor,arms-dealer,army-rangers,asthma,automatic-weapon,bakara-market-mogadishu-somalia,based-on-book,based-on-novel,basketball,battle,battle-of-mogadishu,bicycle,bird's-eye-shot,blood,blood-on-camera-lens,blood-spatter,blood-spurting,blown-to-pieces,body-torn-apart,bravery,broken-arm,brotherhood,bullet,burning-tire,businessman,call-to-prayer,camaraderie,captain,car-accident,cell-phone,chain-of-command,chaos,chess,children,cigar-smoking,cigarette-smoking,civil-war,cnn,code,coffee,colonel,computer,corpse,courage,cuban-cigar,dead-body,dead-child,dead-soldier,death,delta-force,disembodied-hand,dismemberment,dog,donkey,drawing,east-africa,epilepsy,epileptic-seizure,exploding-body,explosion,falling-to-one's-death,famine,finger-gun,fingers-shot-off,flatbed-truck,food,food-distribution,gatling-gun,general,genocide,gore,grunge,gun,gunship,hearing-loss,helicopter,helicopter-crash,heroic-military,heroism,hit] 
+
+  path: 2[2353053 -> 1295088], [Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [1537184, 8027027, 1295088]
+  path: 0[1537184 -> 1537184], [Lord of War (2005) -> Lord of War (2005)]
+  path: 1[1537184 -> 2240184 -> 1698855 -> 8027027], [Lord of War (2005) -> Omotoso, Akin -> Shake Hands with the Devil (2007) -> betrayal,cnn-reporter,genocide,rwanda,united-nations,violence] 
+
+  path: 2[1537184 -> 2186177 -> 1425490 -> 2353053 -> 1295088], [Lord of War (2005) -> Leto, Jared -> Highway (2002/I) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [5000021, 8024597, 1295088]
+  path: 0[2041392 -> 1175876 -> 2267423 -> 1851680 -> 5000021], [Brundage, Richard -> A Dangerous Place (2011) -> Rendino, Sal -> Under Jakob's Ladder (2011) -> Drama,War] 
+
+  path: 1[2041392 -> 1887198 -> 2086641 -> 1650879 -> 8024597], [Brundage, Richard -> Writer's Block (2010/VI) -> Droxler, Dave -> Project: Valkyrie (2002) -> armor,battle,bravery,compassion,courage,cult-favorite,decapitation,demon,fate,fictional-war,flashback,friendship,genocide,giant-robot,good-versus-evil,greed,heroism,hit-in-the-crotch,impalement,knife-in-thigh,loan-shark,loyalty,male-bonding,martial-arts,monster,mutant,prologue,promise,quest,redemption,rescue,robot,sacrifice,sequel-mentioned-during-end-credits,stabbing,supernatural-power,swarm-tactic,sword,sword-fight,throat-slitting] 
+
+  path: 2[2041392 -> 1295088], [Brundage, Richard -> Creative Nonfiction (2009)] 
+
+srcNodes: [1819342, 2113391, 1295088]
+  path: 0[2271821 -> 1706701 -> 2192787 -> 1819342], [Roberts, Eric (I) -> Silver Case (2011) -> Lowenthal, Yuri -> The War on the War on Drugs (2002)] 
+
+  path: 1[2271821 -> 1359504 -> 2210663 -> 1756034 -> 2113391], [Roberts, Eric (I) -> Enemies Among Us (2010) -> McKeel, Dale -> The Belly of the Beast (2007) -> Genocide Fatale] 
+
+  path: 2[2271821 -> 1178348 -> 2353053 -> 1295088], [Roberts, Eric (I) -> A Guide to Recognizing Your Saints (2006) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [5001748, 2113391, 1295088]
+  path: 0[2293720 -> 1384852 -> 5001748], [Blair, Selma -> Four Saints (2011) -> History,War,Action,Drama] 
+
+  path: 1[2293720 -> 1583640 -> 2258100 -> 1756034 -> 2113391], [Blair, Selma -> My Mom's New Boyfriend (2008) -> Pratt, Keith (II) -> The Belly of the Beast (2007) -> Genocide Fatale] 
+
+  path: 2[2293720 -> 1425490 -> 2353053 -> 1295088], [Blair, Selma -> Highway (2002/I) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [5000166, 1396223, 1295088]
+  path: 0[1397352 -> 2240951 -> 1871457 -> 5000166], [Get Him to the Greek (2010) -> Orpheus, David -> War Horse (2011) -> War] 
+
+  path: 1[1397352 -> 2010469 -> 1223849 -> 2085498 -> 1396223], [Get Him to the Greek (2010) -> Antonucci, Steve -> Away We Go (2009) -> Douglas, Rob -> Genital Genocide (2008)] 
+
+  path: 2[1397352 -> 2374943 -> 1887198 -> 2041392 -> 1295088], [Get Him to the Greek (2010) -> Kuchma, Anna -> Writer's Block (2010/VI) -> Brundage, Richard -> Creative Nonfiction (2009)] 
+
+srcNodes: [1416650, 8027027, 1295088]
+  path: 0[2144292 -> 1416650], [Howard, Terrence -> Hart's War (2002)] 
+
+  path: 1[2144292 -> 1397437 -> 2003730 -> 1698855 -> 8027027], [Howard, Terrence -> Get Rich or Die Tryin' (2005) -> Akin, Philip -> Shake Hands with the Devil (2007) -> betrayal,cnn-reporter,genocide,rwanda,united-nations,violence] 
+
+  path: 2[2144292 -> 1376140 -> 2353053 -> 1295088], [Howard, Terrence -> Fighting (2009) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [5000166, 8027130, 1295088]
+  path: 0[2092167 -> 1435444 -> 2427498 -> 1663357 -> 5000166], [Elli (V) -> How to Lose Friends & Alienate People (2008) -> Redington, Tracy -> Recon 7 Down (2007) -> War] 
+
+  path: 1[2092167 -> 1233675 -> 2191058 -> 1701027 -> 8027130], [Elli (V) -> BearCity (2010) -> Lomoriello, Vinny -> Shelter (2010/I) -> concentration-camp,genocide,holocaust,isolation,survival] 
+
+  path: 2[2092167 -> 1887198 -> 2041392 -> 1295088], [Elli (V) -> Writer's Block (2010/VI) -> Brundage, Richard -> Creative Nonfiction (2009)] 
+
+srcNodes: [5001778, 8024597, 1295088]
+  path: 0[1887198 -> 2374943 -> 1248083 -> 5001778], [Writer's Block (2010/VI) -> Kuchma, Anna -> Blitzkrieg: Escape from Stalag 69 (2008) -> Horror,War] 
+
+  path: 1[1887198 -> 2086641 -> 1650879 -> 8024597], [Writer's Block (2010/VI) -> Droxler, Dave -> Project: Valkyrie (2002) -> armor,battle,bravery,compassion,courage,cult-favorite,decapitation,demon,fate,fictional-war,flashback,friendship,genocide,giant-robot,good-versus-evil,greed,heroism,hit-in-the-crotch,impalement,knife-in-thigh,loan-shark,loyalty,male-bonding,martial-arts,monster,mutant,prologue,promise,quest,redemption,rescue,robot,sacrifice,sequel-mentioned-during-end-credits,stabbing,supernatural-power,swarm-tactic,sword,sword-fight,throat-slitting] 
+
+  path: 2[1887198 -> 2041392 -> 1295088], [Writer's Block (2010/VI) -> Brundage, Richard -> Creative Nonfiction (2009)] 
+
+srcNodes: [1871381, 1396223, 1295088]
+  path: 0[1393072 -> 4040473 -> 1871381], [Game of Death (2010) -> Serafini, Giorgio -> War (2005)] 
+
+  path: 1[1393072 -> 2091764 -> 1784423 -> 2243542 -> 1396223], [Game of Death (2010) -> Elbitar, Eyad -> The Kingdom (2007) -> Palacio, Daren -> Genital Genocide (2008)] 
+
+  path: 2[1393072 -> 2240487 -> 1661071 -> 2189412 -> 1295088], [Game of Death (2010) -> Oppel, Robert -> Rapturious (2007) -> Lisenco, Sam -> Creative Nonfiction (2009)] 
+
+srcNodes: [5000166, 8035637, 1295088]
+  path: 0[2164503 -> 1532827 -> 2169214 -> 1692440 -> 5000166], [Kelly, Chance -> Little Children (2006) -> Kirkpatrick, Bruce -> Seduction of the Will (2001) -> War] 
+
+  path: 1[2164503 -> 1386919 -> 2422693 -> 1867684 -> 8035637], [Kelly, Chance -> Freedomland (2006) -> Portia (III) -> Vote and Die: Liszt for President (2008) -> genocide,kill,life-sucks,political-comedy,political-satire] 
+
+  path: 2[2164503 -> 1178348 -> 2353053 -> 1295088], [Kelly, Chance -> A Guide to Recognizing Your Saints (2006) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [1416650, 8029518, 1295088]
+  path: 0[1416650 -> 1416650], [Hart's War (2002) -> Hart's War (2002)]
+  path: 1[1416650 -> 2134006 -> 1745410 -> 8029518], [Hart's War (2002) -> Hauser, Cole -> Tears of the Sun (2003) -> africa,aircraft-carrier,airlift,airplane,anti-war,archive-footage,beautiful-woman,betrayal,bomber-jet,box-office-flop,cameroon,catholic-mission,civil-war,commando,conscience,death,death-of-child,doctor,ethnic-cleansing,evacuation,exploding-body,face-slap,field-hospital,genocide,gun,hand-grenade,handgun,helicopter,honor,human-dignity,human-relationship,jet-fighter,jungle,loss-of-friend,machete,machine-gun,martial-arts,massacre,military,mine,missile-launcher,mutilation,navy,navy-sea-air-and-land-force,nigeria,nigeria-cameroon-border,nun,pistol,rebel,redemption,refugee,severed-leg,shot-in-the-back,shot-in-the-chest,shot-in-the-shoulder,shot-to-death,skydiving,sniper,sniper-rifle,special-forces,special-ops,spit-in-the-face,stabbed-in-the-arm,surgery,television-reporter,tragedy,trap,tribal-chief,tyranny,tyrant,village,violence,war-crime,warrior,wilhelm-scream] 
+
+  path: 2[1416650 -> 2047635 -> 1178348 -> 2353053 -> 1295088], [Hart's War (2002) -> Campbell, Scott Michael -> A Guide to Recognizing Your Saints (2006) -> Hendricks, Eleonore -> Creative Nonfiction (2009)] 
+
+srcNodes: [8009867, 8027191, 1295088]
+  path: 0[1418078 -> 2121481 -> 1337844 -> 8009867], [Hazard (2005) -> Grant, Carson -> Down That Road and Back (2000) -> fictional-war] 
+
+  path: 1[1418078 -> 2238368 -> 1702269 -> 8027191], [Hazard (2005) -> Odagiri, Jô -> Shinkuronishiti (2004) -> airport,ancestry,androgyny,antichrist,based-on-novel,beating,black-gloves,blood,businessman,catholic,chase,christmas,city,claustrophobia,colonel,colonialism,confession,conscience,conspiracy,conundrum,convent,corporeal-mortification,corpse,courtroom,cruelty,cryogenics,cryptography,cyberpunk,dead-body,dead-man,death,deer,deity,demon,demonstration,detective,dominatrix,double-cross,dream-sequence,duplicity,dystopia,engagement,extraterrestrial,family-relationships,fire,flagellation,flashback,gas-mask,gay-interest,general,genocide,glam-rock,gloves,goddess,gore,gossip,goth,grenade,gunfire,hologram,homosexual,hybrid,illuminati,infidelity,interracial-relationship,invasion,investigation,japan,judge,killer,killing,laboratory,leader,logging,loss,male-nudity,masturbation,military,mind-control,misogyny,missile,missionary,monastery,murder,murder-investigation,murder-mystery,mutilation,mystery-killer,nun,obsession,outcast,paraplegic,pentangle,perversion,police,police-detective,police-investigation,pol] 
+
+  path: 2[1418078 -> 2041392 -> 1295088], [Hazard (2005) -> Brundage, Richard -> Creative Nonfiction (2009)] 
+
+srcNodes: [1871603, 8033839, 1295088]
+  path: 0[2435145 -> 1871603], [Ryan, Amy (I) -> War of the Worlds (2005)] 
+
+  path: 1[2435145 -> 1404139 -> 2132186 -> 1827460 -> 8033839], [Ryan, Amy (I) -> Gone Baby Gone (2007) -> Harris, Ed (I) -> Tibet: Cry of the Snow Lion (2002) -> american-foreign-policy,brutality,buddhism,china,communism,communist,conquest,cultural-assimilation,cultural-genocide,cultural-revolution,dalai-lama,ethnic-cleansing,expose,genocide,guerilla-warfare,human-rights,independence-movement,invasion,military-occupation,monk,passive-resistance,political-oppression,political-persecution,politics,protest,religious-leader,resistance-movement,self-immolation,tibet,torture] 
+
+  path: 2[2435145 -> 1591519 -> 2189412 -> 1295088], [Ryan, Amy (I) -> Neal Cassady (2007) -> Lisenco, Sam -> Creative Nonfiction (2009)] 
+
+Dissims of Subsets and t:
+(0~0, 1) : 0.6666666666666666
+(0~1, 2) : 0.6666666666666666
+(0~2, 3) : 0.6666666666666666
+(0~3, 4) : 0.6666666666666666
+(0~4, 5) : 0.6
+(0~5, 6) : 0.611111111111111
+(0~6, 7) : 0.619047619047619
+(0~7, 8) : 0.625
+(0~8, 9) : 0.6296296296296297
+(0~9, 10) : 0.6
+(0~10, 11) : 0.6060606060606061
+(0~11, 12) : 0.638888888888889
+(0~12, 13) : 0.6666666666666666
+(0~13, 14) : 0.6428571428571429
+-----------------------------------------
+ResultDestNodes: [1591519, 2353053, 1537184, 2041392, 2271821, 2293720, 1397352, 2144292, 2092167, 1887198, 1393072, 2164503, 1416650, 1418078, 2435145]
+ResultRelevs: [6.6859002113342285, 6.569982528686523, 6.375746726989746, 6.3349504470825195, 6.319882869720459, 6.196824073791504, 6.003111839294434, 5.815727233886719, 5.701642990112305, 5.617254257202148, 5.564216136932373, 5.516788005828857, 5.459367275238037, 5.433979511260986, 5.414297580718994]
+AvgResultRelev: 5.9339781125386555
+AvgResultDissimilarity: 0.6317460317460312
+Num of entries retrieved from the KNLists: 9257
+Num of entries retrieved from NKMaps: 15726
+Num of answer trees explored: 1165
+Num of answer tree sets created: 18044019
+Num of answer tree sets removed: 169008
+

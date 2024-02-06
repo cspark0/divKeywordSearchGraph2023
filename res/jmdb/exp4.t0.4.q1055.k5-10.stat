@@ -1,0 +1,27 @@
+Top-k, (AvgResultRelev, AvgResultRelev/ResultRelevs[0], AvgResultDiss) numOfKNListsRead, numOfNKMapLookups, numOfAnswerTreesExplored, elapseTime, numOfStatesCreated, numOfStatesExplored, numOfHeuristicSearchPerformed, numOfATSPrunnedByDissCond, numOfLocalAnswersFound, 
+query: [hero, sacrifice, disaster]
+SimGrpSe, 	5, 6.87753, 1.05503, 0.83333, 2287, 3950, 1485, 0.21898899, 45, 10, 0, 1, 
+SimGrpSe, 	10, 6.49830, 1.10883, 0.85926, 4366, 7743, 3121, 2120.96839389, 359004, 84292, 0, 1, 
+query: [monster, fantasy, animation]
+SimGrpSe, 	5, 9.22715, 1.05712, 0.64000, 6884, 10709, 3297, 0.316537141, 239, 69, 0, 2, 
+SimGrpSe, 	10, 8.84977, 1.06695, 0.71407, 8658, 13273, 4007, 0.579687433, 4911, 1426, 0, 3, 
+query: [monarchy, revolution, war]
+SimGrpSe, 	5, 6.86264, 1.09107, 0.80000, 4572, 6072, 1534, 0.146136378, 321, 128, 0, 2, 
+SimGrpSe, 	10, 6.48167, 1.09294, 0.88889, 14185, 19774, 6000, 34.662470764, 59536, 25120, 0, 5, 
+query: [emperor, battle, history]
+SimGrpSe, 	5, 7.23171, 1.06904, 0.76667, 5249, 8346, 3097, 0.302694664, 112, 32, 0, 1, 
+SimGrpSe, 	10, 6.79465, 1.08665, 0.82963, 9809, 16007, 6274, 15.654500769, 41719, 11920, 0, 3, 
+query: [missing, murder, revenge]
+SimGrpSe, 	5, 7.01290, 1.07026, 0.80000, 3886, 6453, 2478, 0.226489008, 36, 8, 0, 1, 
+SimGrpSe, 	10, 6.70206, 1.06420, 0.81481, 3892, 6460, 2479, 0.233813223, 120, 9, 0, 1, 
+query: [crime, thriller, suspense]
+SimGrpSe, 	5, 10.13295, 1.03524, 0.72333, 2925, 5296, 1441, 0.164240088, 28, 7, 0, 2, 
+SimGrpSe, 	10, 9.79333, 1.07868, 0.73704, 10954, 20398, 6712, 0.5109464, 258, 67, 0, 4, 
+query: [ghost, mystery, animation]
+SimGrpSe, 	5, 9.00465, 1.04663, 0.83333, 5834, 9436, 2930, 0.265092424, 67, 23, 0, 5, 
+SimGrpSe, 	10, 8.75593, 1.04035, 0.86667, 6394, 10090, 2988, 0.267276821, 312, 32, 0, 1, 
+query: [romance, conflict, marriage]
+SimGrpSe, 	5, 7.32580, 1.03912, 0.66667, 8466, 15453, 6271, 0.439389608, 20, 3, 0, 1, 
+SimGrpSe, 	10, 6.98850, 1.06918, 0.80741, 12684, 22933, 9186, 145.147109736, 103532, 21630, 0, 1, 
+query: [fraud, deception, betrayal]
+SimGrpSe, 	5, 6.42676, 1.13073, 0.90000, 6304, 11257, 4912, 0.320991431, 183, 71, 0, 8, 

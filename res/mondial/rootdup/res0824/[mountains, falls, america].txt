@@ -1,0 +1,1006 @@
+Blink Search Using BDB 10
+[mountains, falls, america]
+srcNodes: [188, 42951, 10001]
+  path: 0[10001 -> 20118 -> 31017 -> 188], [America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20118 -> 31029 -> 42951], [America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [190, 42532, 10001]
+  path: 0[20118 -> 31029 -> 190], [United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [177, 42532, 10001]
+  path: 0[20117 -> 30976 -> 177], [Canada -> British Columbia -> Mt Columbia Mt Columbia Rocky Mountains ] 
+
+  path: 1[20117 -> 10001 -> 20118 -> 31027 -> 42532], [Canada -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20123 -> 10001 -> 20118 -> 31029 -> 190], [Cuba -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20123 -> 10001 -> 20118 -> 31027 -> 42532], [Cuba -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20123 -> 10001], [Cuba -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20119 -> 10001 -> 20118 -> 31029 -> 190], [Cayman Islands -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20119 -> 10001 -> 20118 -> 31027 -> 42532], [Cayman Islands -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20119 -> 10001], [Cayman Islands -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20121 -> 10001 -> 20118 -> 31029 -> 190], [Nicaragua -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20121 -> 10001 -> 20118 -> 31027 -> 42532], [Nicaragua -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20128 -> 10001 -> 20118 -> 31029 -> 190], [Honduras -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20128 -> 10001 -> 20118 -> 31027 -> 42532], [Honduras -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20128 -> 10001], [Honduras -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20129 -> 10001 -> 20118 -> 31029 -> 190], [Greenland -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20129 -> 10001 -> 20118 -> 31027 -> 42532], [Greenland -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20129 -> 10001], [Greenland -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20127 -> 10001 -> 20118 -> 31029 -> 190], [El Salvador -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20127 -> 10001 -> 20118 -> 31027 -> 42532], [El Salvador -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20127 -> 10001], [El Salvador -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20122 -> 10001 -> 20118 -> 31029 -> 190], [Panama -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20122 -> 10001 -> 20118 -> 31027 -> 42532], [Panama -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20122 -> 10001], [Panama -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+-----------------------------------------
+ResultDestNodes: [10001, 20118, 20117, 20123, 20119, 20121, 20128, 20129, 20127, 20122]
+ResultRelevs: [10.252599716186523, 6.661759853363037, 6.081912994384766, 5.679064750671387, 5.679064750671387, 5.679064750671387, 5.679064750671387, 5.679064750671387, 5.679064750671387, 5.679064750671387]
+Num of top-k answers: 10
+Num of non-reduced answers: 7
+Num of duplicate answers: 7
+Num of non-redundant answers: 3
+Num of entries retrieved from the lists: 162
+Num of entries retrieved from NKMaps: 228
+
+Blink Search Using ConstRootDup10
+[mountains, falls, america]
+srcNodes: [187, 42532, 10001]
+  path: 0[10001 -> 20118 -> 30992 -> 187], [America -> United States -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20118 -> 31027 -> 42532], [America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [187, 42951, 10001]
+  path: 0[10001 -> 20118 -> 30992 -> 187], [America -> United States -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20118 -> 31029 -> 42951], [America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [188, 42532, 10001]
+  path: 0[10001 -> 20118 -> 31017 -> 188], [America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20118 -> 31027 -> 42532], [America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [188, 42951, 10001]
+  path: 0[10001 -> 20118 -> 31017 -> 188], [America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20118 -> 31029 -> 42951], [America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [170, 42951, 10001]
+  path: 0[10001 -> 20118 -> 30988 -> 170], [America -> United States -> Alaska -> Mt Blackburn Mt Blackburn Wrangell Mountains volcano] 
+
+  path: 1[10001 -> 20118 -> 31029 -> 42951], [America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [190, 42532, 10001]
+  path: 0[20118 -> 31029 -> 190], [United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [177, 42532, 10001]
+  path: 0[20117 -> 30976 -> 177], [Canada -> British Columbia -> Mt Columbia Mt Columbia Rocky Mountains ] 
+
+  path: 1[20117 -> 10001 -> 20118 -> 31027 -> 42532], [Canada -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20123 -> 10001 -> 20118 -> 31029 -> 190], [Cuba -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20123 -> 10001 -> 20118 -> 31027 -> 42532], [Cuba -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20123 -> 10001], [Cuba -> America] 
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20119 -> 10001 -> 20118 -> 31029 -> 190], [Cayman Islands -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20119 -> 10001 -> 20118 -> 31027 -> 42532], [Cayman Islands -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20119 -> 10001], [Cayman Islands -> America] 
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20121 -> 10001 -> 20118 -> 31029 -> 190], [Nicaragua -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20121 -> 10001 -> 20118 -> 31027 -> 42532], [Nicaragua -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+-----------------------------------------
+ResultDestNodes: 
+10001, 10001, 10001, 10001, 10001, 20118, 20117, 20123, 20119, 20121, 
+ResultRelevs: 
+10.2526, 10.2526, 10.2526, 10.2526, 10.144693, 6.66176, 6.081913, 5.6790648, 5.6790648, 5.6790648, 
+Num of top-k answers: 10
+Num of duplicate answers: 3
+Num of duplicate roots in top-k answers: 4
+root duplication ratio: 0.44444445
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 162
+Num of entries retrieved from NKMaps: 679
+Num of answer trees explored: 966
+
+Blink Search Using BDB 20
+[mountains, falls, america]
+srcNodes: [188, 42951, 10001]
+  path: 0[10001 -> 20118 -> 31017 -> 188], [America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20118 -> 31029 -> 42951], [America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [190, 42532, 10001]
+  path: 0[20118 -> 31029 -> 190], [United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [177, 42532, 10001]
+  path: 0[20117 -> 30976 -> 177], [Canada -> British Columbia -> Mt Columbia Mt Columbia Rocky Mountains ] 
+
+  path: 1[20117 -> 10001 -> 20118 -> 31027 -> 42532], [Canada -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20123 -> 10001 -> 20118 -> 31029 -> 190], [Cuba -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20123 -> 10001 -> 20118 -> 31027 -> 42532], [Cuba -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20123 -> 10001], [Cuba -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20119 -> 10001 -> 20118 -> 31029 -> 190], [Cayman Islands -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20119 -> 10001 -> 20118 -> 31027 -> 42532], [Cayman Islands -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20119 -> 10001], [Cayman Islands -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20141 -> 10001 -> 20118 -> 31029 -> 190], [Saint Pierre and Miquelon -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20141 -> 10001 -> 20118 -> 31027 -> 42532], [Saint Pierre and Miquelon -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20141 -> 10001], [Saint Pierre and Miquelon -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20121 -> 10001 -> 20118 -> 31029 -> 190], [Nicaragua -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20121 -> 10001 -> 20118 -> 31027 -> 42532], [Nicaragua -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20128 -> 10001 -> 20118 -> 31029 -> 190], [Honduras -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20128 -> 10001 -> 20118 -> 31027 -> 42532], [Honduras -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20128 -> 10001], [Honduras -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20127 -> 10001 -> 20118 -> 31029 -> 190], [El Salvador -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20127 -> 10001 -> 20118 -> 31027 -> 42532], [El Salvador -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20127 -> 10001], [El Salvador -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20126 -> 10001 -> 20118 -> 31029 -> 190], [Haiti -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20126 -> 10001 -> 20118 -> 31027 -> 42532], [Haiti -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20126 -> 10001], [Haiti -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20125 -> 10001 -> 20118 -> 31029 -> 190], [Dominican Republic -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20125 -> 10001 -> 20118 -> 31027 -> 42532], [Dominican Republic -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20125 -> 10001], [Dominican Republic -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20124 -> 10001 -> 20118 -> 31029 -> 190], [Dominica -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20124 -> 10001 -> 20118 -> 31027 -> 42532], [Dominica -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20124 -> 10001], [Dominica -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20178 -> 10001 -> 20118 -> 31029 -> 190], [Suriname -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20178 -> 10001 -> 20118 -> 31027 -> 42532], [Suriname -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20178 -> 10001], [Suriname -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20176 -> 10001 -> 20118 -> 31029 -> 190], [French Guiana -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20176 -> 10001 -> 20118 -> 31027 -> 42532], [French Guiana -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20176 -> 10001], [French Guiana -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20177 -> 10001 -> 20118 -> 31029 -> 190], [Guyana -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20177 -> 10001 -> 20118 -> 31027 -> 42532], [Guyana -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20177 -> 10001], [Guyana -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20129 -> 10001 -> 20118 -> 31029 -> 190], [Greenland -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20129 -> 10001 -> 20118 -> 31027 -> 42532], [Greenland -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20129 -> 10001], [Greenland -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20175 -> 10001 -> 20118 -> 31029 -> 190], [Peru -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20175 -> 10001 -> 20118 -> 31027 -> 42532], [Peru -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20175 -> 10001], [Peru -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20174 -> 10001 -> 20118 -> 31029 -> 190], [Uruguay -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20174 -> 10001 -> 20118 -> 31027 -> 42532], [Uruguay -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20174 -> 10001], [Uruguay -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20173 -> 10001 -> 20118 -> 31029 -> 190], [Paraguay -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20173 -> 10001 -> 20118 -> 31027 -> 42532], [Paraguay -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20173 -> 10001], [Paraguay -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20122 -> 10001 -> 20118 -> 31029 -> 190], [Panama -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20122 -> 10001 -> 20118 -> 31027 -> 42532], [Panama -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20122 -> 10001], [Panama -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+-----------------------------------------
+ResultDestNodes: [10001, 20118, 20117, 20123, 20119, 20141, 20121, 20128, 20127, 20126, 20125, 20124, 20178, 20176, 20177, 20129, 20175, 20174, 20173, 20122]
+ResultRelevs: [10.252599716186523, 6.661759853363037, 6.081912994384766, 5.679064750671387, 5.679064750671387, 5.679064750671387, 5.679064750671387, 5.679064750671387, 5.679064750671387, 5.679064750671387, 5.679064750671387, 5.679064750671387, 5.679064750671387, 5.679064750671387, 5.679064750671387, 5.679064750671387, 5.679064750671387, 5.679064750671387, 5.679064750671387, 5.679064750671387]
+Num of top-k answers: 20
+Num of non-reduced answers: 17
+Num of duplicate answers: 17
+Num of non-redundant answers: 3
+Num of entries retrieved from the lists: 162
+Num of entries retrieved from NKMaps: 228
+
+Blink Search Using ConstRootDup20
+[mountains, falls, america]
+srcNodes: [188, 42532, 10001]
+  path: 0[10001 -> 20118 -> 31017 -> 188], [America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20118 -> 31027 -> 42532], [America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [187, 42951, 10001]
+  path: 0[10001 -> 20118 -> 30992 -> 187], [America -> United States -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20118 -> 31029 -> 42951], [America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [188, 42951, 10001]
+  path: 0[10001 -> 20118 -> 31017 -> 188], [America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20118 -> 31029 -> 42951], [America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [187, 42532, 10001]
+  path: 0[10001 -> 20118 -> 30992 -> 187], [America -> United States -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20118 -> 31027 -> 42532], [America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [170, 42532, 10001]
+  path: 0[10001 -> 20118 -> 30988 -> 170], [America -> United States -> Alaska -> Mt Blackburn Mt Blackburn Wrangell Mountains volcano] 
+
+  path: 1[10001 -> 20118 -> 31027 -> 42532], [America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [170, 42951, 10001]
+  path: 0[10001 -> 20118 -> 30988 -> 170], [America -> United States -> Alaska -> Mt Blackburn Mt Blackburn Wrangell Mountains volcano] 
+
+  path: 1[10001 -> 20118 -> 31029 -> 42951], [America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [182, 42532, 10001]
+  path: 0[20118 -> 30998 -> 182], [United States -> Idaho -> Borah Peak Borah Peak Rocky Mountains ] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [182, 42951, 10001]
+  path: 0[20118 -> 30998 -> 182], [United States -> Idaho -> Borah Peak Borah Peak Rocky Mountains ] 
+
+  path: 1[20118 -> 31029 -> 42951], [United States -> Texas -> Wichita Falls] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [190, 42951, 10001]
+  path: 0[20118 -> 31029 -> 190], [United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20118 -> 31029 -> 42951], [United States -> Texas -> Wichita Falls] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20118 -> 31029 -> 190], [United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [170, 42532, 10001]
+  path: 0[20118 -> 30988 -> 170], [United States -> Alaska -> Mt Blackburn Mt Blackburn Wrangell Mountains volcano] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [177, 42532, 10001]
+  path: 0[20117 -> 30976 -> 177], [Canada -> British Columbia -> Mt Columbia Mt Columbia Rocky Mountains ] 
+
+  path: 1[20117 -> 10001 -> 20118 -> 31027 -> 42532], [Canada -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+srcNodes: [190, 42951, 10001]
+  path: 0[20119 -> 10001 -> 20118 -> 31029 -> 190], [Cayman Islands -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20119 -> 10001 -> 20118 -> 31029 -> 42951], [Cayman Islands -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[20119 -> 10001], [Cayman Islands -> America] 
+
+srcNodes: [185, 42532, 10001]
+  path: 0[20121 -> 10001 -> 20118 -> 31030 -> 185], [Nicaragua -> America -> United States -> Utah -> Kings Peak Kings Peak Rocky Mountains ] 
+
+  path: 1[20121 -> 10001 -> 20118 -> 31027 -> 42532], [Nicaragua -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [190, 42951, 10001]
+  path: 0[20122 -> 10001 -> 20118 -> 31029 -> 190], [Panama -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20122 -> 10001 -> 20118 -> 31029 -> 42951], [Panama -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[20122 -> 10001], [Panama -> America] 
+
+srcNodes: [185, 42532, 10001]
+  path: 0[20123 -> 10001 -> 20118 -> 31030 -> 185], [Cuba -> America -> United States -> Utah -> Kings Peak Kings Peak Rocky Mountains ] 
+
+  path: 1[20123 -> 10001 -> 20118 -> 31027 -> 42532], [Cuba -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20123 -> 10001], [Cuba -> America] 
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20126 -> 10001 -> 20118 -> 31029 -> 190], [Haiti -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20126 -> 10001 -> 20118 -> 31027 -> 42532], [Haiti -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20126 -> 10001], [Haiti -> America] 
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20127 -> 10001 -> 20118 -> 31029 -> 190], [El Salvador -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20127 -> 10001 -> 20118 -> 31027 -> 42532], [El Salvador -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20127 -> 10001], [El Salvador -> America] 
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20128 -> 10001 -> 20118 -> 31029 -> 190], [Honduras -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20128 -> 10001 -> 20118 -> 31027 -> 42532], [Honduras -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20128 -> 10001], [Honduras -> America] 
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20129 -> 10001 -> 20118 -> 31029 -> 190], [Greenland -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20129 -> 10001 -> 20118 -> 31027 -> 42532], [Greenland -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20129 -> 10001], [Greenland -> America] 
+
+-----------------------------------------
+ResultDestNodes: 
+10001, 10001, 10001, 10001, 10001, 10001, 20118, 20118, 20118, 20118, 20118, 20117, 20119, 20121, 20122, 20123, 20126, 20127, 20128, 20129, 
+ResultRelevs: 
+10.2526, 10.2526, 10.2526, 10.2526, 10.144693, 10.144693, 6.66176, 6.66176, 6.66176, 6.66176, 6.517885, 6.081913, 5.6790648, 5.6790648, 5.6790648, 5.6790648, 5.6790648, 5.6790648, 5.6790648, 5.6790648, 
+Num of top-k answers: 20
+Num of duplicate answers: 8
+Num of duplicate roots in top-k answers: 9
+root duplication ratio: 0.47368422
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 162
+Num of entries retrieved from NKMaps: 679
+Num of answer trees explored: 966
+
+Blink Search Using BDB 30
+[mountains, falls, america]
+srcNodes: [188, 42951, 10001]
+  path: 0[10001 -> 20118 -> 31017 -> 188], [America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20118 -> 31029 -> 42951], [America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [190, 42532, 10001]
+  path: 0[20118 -> 31029 -> 190], [United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [177, 42532, 10001]
+  path: 0[20117 -> 30976 -> 177], [Canada -> British Columbia -> Mt Columbia Mt Columbia Rocky Mountains ] 
+
+  path: 1[20117 -> 10001 -> 20118 -> 31027 -> 42532], [Canada -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20123 -> 10001 -> 20118 -> 31029 -> 190], [Cuba -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20123 -> 10001 -> 20118 -> 31027 -> 42532], [Cuba -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20123 -> 10001], [Cuba -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20119 -> 10001 -> 20118 -> 31029 -> 190], [Cayman Islands -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20119 -> 10001 -> 20118 -> 31027 -> 42532], [Cayman Islands -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20119 -> 10001], [Cayman Islands -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20141 -> 10001 -> 20118 -> 31029 -> 190], [Saint Pierre and Miquelon -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20141 -> 10001 -> 20118 -> 31027 -> 42532], [Saint Pierre and Miquelon -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20141 -> 10001], [Saint Pierre and Miquelon -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20121 -> 10001 -> 20118 -> 31029 -> 190], [Nicaragua -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20121 -> 10001 -> 20118 -> 31027 -> 42532], [Nicaragua -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20128 -> 10001 -> 20118 -> 31029 -> 190], [Honduras -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20128 -> 10001 -> 20118 -> 31027 -> 42532], [Honduras -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20128 -> 10001], [Honduras -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20127 -> 10001 -> 20118 -> 31029 -> 190], [El Salvador -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20127 -> 10001 -> 20118 -> 31027 -> 42532], [El Salvador -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20127 -> 10001], [El Salvador -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20126 -> 10001 -> 20118 -> 31029 -> 190], [Haiti -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20126 -> 10001 -> 20118 -> 31027 -> 42532], [Haiti -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20126 -> 10001], [Haiti -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20125 -> 10001 -> 20118 -> 31029 -> 190], [Dominican Republic -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20125 -> 10001 -> 20118 -> 31027 -> 42532], [Dominican Republic -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20125 -> 10001], [Dominican Republic -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20124 -> 10001 -> 20118 -> 31029 -> 190], [Dominica -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20124 -> 10001 -> 20118 -> 31027 -> 42532], [Dominica -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20124 -> 10001], [Dominica -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20181 -> 10001 -> 20118 -> 31029 -> 190], [Falkland Islands -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20181 -> 10001 -> 20118 -> 31027 -> 42532], [Falkland Islands -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20181 -> 10001], [Falkland Islands -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20176 -> 10001 -> 20118 -> 31029 -> 190], [French Guiana -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20176 -> 10001 -> 20118 -> 31027 -> 42532], [French Guiana -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20176 -> 10001], [French Guiana -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20178 -> 10001 -> 20118 -> 31029 -> 190], [Suriname -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20178 -> 10001 -> 20118 -> 31027 -> 42532], [Suriname -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20178 -> 10001], [Suriname -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20177 -> 10001 -> 20118 -> 31029 -> 190], [Guyana -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20177 -> 10001 -> 20118 -> 31027 -> 42532], [Guyana -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20177 -> 10001], [Guyana -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20175 -> 10001 -> 20118 -> 31029 -> 190], [Peru -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20175 -> 10001 -> 20118 -> 31027 -> 42532], [Peru -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20175 -> 10001], [Peru -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20174 -> 10001 -> 20118 -> 31029 -> 190], [Uruguay -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20174 -> 10001 -> 20118 -> 31027 -> 42532], [Uruguay -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20174 -> 10001], [Uruguay -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20173 -> 10001 -> 20118 -> 31029 -> 190], [Paraguay -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20173 -> 10001 -> 20118 -> 31027 -> 42532], [Paraguay -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20173 -> 10001], [Paraguay -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20172 -> 10001 -> 20118 -> 31029 -> 190], [Chile -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20172 -> 10001 -> 20118 -> 31027 -> 42532], [Chile -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20172 -> 10001], [Chile -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20171 -> 10001 -> 20118 -> 31029 -> 190], [Brazil -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20171 -> 10001 -> 20118 -> 31027 -> 42532], [Brazil -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20171 -> 10001], [Brazil -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20170 -> 10001 -> 20118 -> 31029 -> 190], [Bolivia -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20170 -> 10001 -> 20118 -> 31027 -> 42532], [Bolivia -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20145 -> 10001 -> 20118 -> 31029 -> 190], [Virgin Islands -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20145 -> 10001 -> 20118 -> 31027 -> 42532], [Virgin Islands -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20145 -> 10001], [Virgin Islands -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20144 -> 10001 -> 20118 -> 31029 -> 190], [Turks and Caicos Islands -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20144 -> 10001 -> 20118 -> 31027 -> 42532], [Turks and Caicos Islands -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20144 -> 10001], [Turks and Caicos Islands -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20143 -> 10001 -> 20118 -> 31029 -> 190], [Trinidad and Tobago -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20143 -> 10001 -> 20118 -> 31027 -> 42532], [Trinidad and Tobago -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20143 -> 10001], [Trinidad and Tobago -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20142 -> 10001 -> 20118 -> 31029 -> 190], [Saint Vincent and the Grenadines -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20142 -> 10001 -> 20118 -> 31027 -> 42532], [Saint Vincent and the Grenadines -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20142 -> 10001], [Saint Vincent and the Grenadines -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20129 -> 10001 -> 20118 -> 31029 -> 190], [Greenland -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20129 -> 10001 -> 20118 -> 31027 -> 42532], [Greenland -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20129 -> 10001], [Greenland -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20180 -> 10001 -> 20118 -> 31029 -> 190], [Ecuador -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20180 -> 10001 -> 20118 -> 31027 -> 42532], [Ecuador -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20180 -> 10001], [Ecuador -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20179 -> 10001 -> 20118 -> 31029 -> 190], [Venezuela -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20179 -> 10001 -> 20118 -> 31027 -> 42532], [Venezuela -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20179 -> 10001], [Venezuela -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20122 -> 10001 -> 20118 -> 31029 -> 190], [Panama -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20122 -> 10001 -> 20118 -> 31027 -> 42532], [Panama -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20122 -> 10001], [Panama -> America] 
+
+This is a non-reduced answer tree with common first node 10001
+
+-----------------------------------------
+ResultDestNodes: [10001, 20118, 20117, 20123, 20119, 20141, 20121, 20128, 20127, 20126, 20125, 20124, 20181, 20176, 20178, 20177, 20175, 20174, 20173, 20172, 20171, 20170, 20145, 20144, 20143, 20142, 20129, 20180, 20179, 20122]
+ResultRelevs: [10.252599716186523, 6.661759853363037, 6.081912994384766, 5.679064750671387, 5.679064750671387, 5.679064750671387, 5.679064750671387, 5.679064750671387, 5.679064750671387, 5.679064750671387, 5.679064750671387, 5.679064750671387, 5.679064750671387, 5.679064750671387, 5.679064750671387, 5.679064750671387, 5.679064750671387, 5.679064750671387, 5.679064750671387, 5.679064750671387, 5.679064750671387, 5.679064750671387, 5.679064750671387, 5.679064750671387, 5.679064750671387, 5.679064750671387, 5.679064750671387, 5.679064750671387, 5.679064750671387, 5.679064750671387]
+Num of top-k answers: 30
+Num of non-reduced answers: 27
+Num of duplicate answers: 27
+Num of non-redundant answers: 3
+Num of entries retrieved from the lists: 162
+Num of entries retrieved from NKMaps: 228
+
+Blink Search Using ConstRootDup30
+[mountains, falls, america]
+srcNodes: [188, 42951, 10001]
+  path: 0[10001 -> 20118 -> 31017 -> 188], [America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20118 -> 31029 -> 42951], [America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [187, 42532, 10001]
+  path: 0[10001 -> 20118 -> 30992 -> 187], [America -> United States -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20118 -> 31027 -> 42532], [America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [187, 42951, 10001]
+  path: 0[10001 -> 20118 -> 30992 -> 187], [America -> United States -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20118 -> 31029 -> 42951], [America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [188, 42532, 10001]
+  path: 0[10001 -> 20118 -> 31017 -> 188], [America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[10001 -> 20118 -> 31027 -> 42532], [America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [170, 42532, 10001]
+  path: 0[10001 -> 20118 -> 30988 -> 170], [America -> United States -> Alaska -> Mt Blackburn Mt Blackburn Wrangell Mountains volcano] 
+
+  path: 1[10001 -> 20118 -> 31027 -> 42532], [America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [170, 42951, 10001]
+  path: 0[10001 -> 20118 -> 30988 -> 170], [America -> United States -> Alaska -> Mt Blackburn Mt Blackburn Wrangell Mountains volcano] 
+
+  path: 1[10001 -> 20118 -> 31029 -> 42951], [America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [190, 42532, 10001]
+  path: 0[20118 -> 31029 -> 190], [United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [190, 42951, 10001]
+  path: 0[20118 -> 31029 -> 190], [United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20118 -> 31029 -> 42951], [United States -> Texas -> Wichita Falls] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [182, 42951, 10001]
+  path: 0[20118 -> 30998 -> 182], [United States -> Idaho -> Borah Peak Borah Peak Rocky Mountains ] 
+
+  path: 1[20118 -> 31029 -> 42951], [United States -> Texas -> Wichita Falls] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [182, 42532, 10001]
+  path: 0[20118 -> 30998 -> 182], [United States -> Idaho -> Borah Peak Borah Peak Rocky Mountains ] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [170, 42951, 10001]
+  path: 0[20118 -> 30988 -> 170], [United States -> Alaska -> Mt Blackburn Mt Blackburn Wrangell Mountains volcano] 
+
+  path: 1[20118 -> 31029 -> 42951], [United States -> Texas -> Wichita Falls] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [170, 42532, 10001]
+  path: 0[20118 -> 30988 -> 170], [United States -> Alaska -> Mt Blackburn Mt Blackburn Wrangell Mountains volcano] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [177, 42951, 10001]
+  path: 0[20118 -> 10001 -> 20117 -> 30976 -> 177], [United States -> America -> Canada -> British Columbia -> Mt Columbia Mt Columbia Rocky Mountains ] 
+
+  path: 1[20118 -> 31029 -> 42951], [United States -> Texas -> Wichita Falls] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [177, 42532, 10001]
+  path: 0[20118 -> 10001 -> 20117 -> 30976 -> 177], [United States -> America -> Canada -> British Columbia -> Mt Columbia Mt Columbia Rocky Mountains ] 
+
+  path: 1[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [176, 42532, 10001]
+  path: 0[20117 -> 30976 -> 176], [Canada -> British Columbia -> Mt Robson Mt Robson Rocky Mountains ] 
+
+  path: 1[20117 -> 10001 -> 20118 -> 31027 -> 42532], [Canada -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+srcNodes: [177, 42951, 10001]
+  path: 0[20117 -> 30976 -> 177], [Canada -> British Columbia -> Mt Columbia Mt Columbia Rocky Mountains ] 
+
+  path: 1[20117 -> 10001 -> 20118 -> 31029 -> 42951], [Canada -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+srcNodes: [177, 42532, 10001]
+  path: 0[20117 -> 30976 -> 177], [Canada -> British Columbia -> Mt Columbia Mt Columbia Rocky Mountains ] 
+
+  path: 1[20117 -> 10001 -> 20118 -> 31027 -> 42532], [Canada -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20117 -> 10001], [Canada -> America] 
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20177 -> 10001 -> 20118 -> 31029 -> 190], [Guyana -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20177 -> 10001 -> 20118 -> 31027 -> 42532], [Guyana -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20177 -> 10001], [Guyana -> America] 
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20176 -> 10001 -> 20118 -> 31029 -> 190], [French Guiana -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20176 -> 10001 -> 20118 -> 31027 -> 42532], [French Guiana -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20176 -> 10001], [French Guiana -> America] 
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20141 -> 10001 -> 20118 -> 31029 -> 190], [Saint Pierre and Miquelon -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20141 -> 10001 -> 20118 -> 31027 -> 42532], [Saint Pierre and Miquelon -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20141 -> 10001], [Saint Pierre and Miquelon -> America] 
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20125 -> 10001 -> 20118 -> 31029 -> 190], [Dominican Republic -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20125 -> 10001 -> 20118 -> 31027 -> 42532], [Dominican Republic -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20125 -> 10001], [Dominican Republic -> America] 
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20126 -> 10001 -> 20118 -> 31029 -> 190], [Haiti -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20126 -> 10001 -> 20118 -> 31027 -> 42532], [Haiti -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20126 -> 10001], [Haiti -> America] 
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20127 -> 10001 -> 20118 -> 31029 -> 190], [El Salvador -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20127 -> 10001 -> 20118 -> 31027 -> 42532], [El Salvador -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20127 -> 10001], [El Salvador -> America] 
+
+srcNodes: [190, 42532, 10001]
+  path: 0[20169 -> 10001 -> 20118 -> 31029 -> 190], [Argentina -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20169 -> 10001 -> 20118 -> 31027 -> 42532], [Argentina -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20169 -> 10001], [Argentina -> America] 
+
+srcNodes: [190, 42951, 10001]
+  path: 0[20128 -> 10001 -> 20118 -> 31029 -> 190], [Honduras -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20128 -> 10001 -> 20118 -> 31029 -> 42951], [Honduras -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[20128 -> 10001], [Honduras -> America] 
+
+srcNodes: [190, 42951, 10001]
+  path: 0[20124 -> 10001 -> 20118 -> 31029 -> 190], [Dominica -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20124 -> 10001 -> 20118 -> 31029 -> 42951], [Dominica -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[20124 -> 10001], [Dominica -> America] 
+
+srcNodes: [185, 42532, 10001]
+  path: 0[20129 -> 10001 -> 20118 -> 31030 -> 185], [Greenland -> America -> United States -> Utah -> Kings Peak Kings Peak Rocky Mountains ] 
+
+  path: 1[20129 -> 10001 -> 20118 -> 31027 -> 42532], [Greenland -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20129 -> 10001], [Greenland -> America] 
+
+srcNodes: [185, 42532, 10001]
+  path: 0[20119 -> 10001 -> 20118 -> 31030 -> 185], [Cayman Islands -> America -> United States -> Utah -> Kings Peak Kings Peak Rocky Mountains ] 
+
+  path: 1[20119 -> 10001 -> 20118 -> 31027 -> 42532], [Cayman Islands -> America -> United States -> South Dakota -> Sioux Falls] 
+
+  path: 2[20119 -> 10001], [Cayman Islands -> America] 
+
+srcNodes: [190, 42951, 10001]
+  path: 0[20121 -> 10001 -> 20118 -> 31029 -> 190], [Nicaragua -> America -> United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20121 -> 10001 -> 20118 -> 31029 -> 42951], [Nicaragua -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [185, 42951, 10001]
+  path: 0[20122 -> 10001 -> 20118 -> 31030 -> 185], [Panama -> America -> United States -> Utah -> Kings Peak Kings Peak Rocky Mountains ] 
+
+  path: 1[20122 -> 10001 -> 20118 -> 31029 -> 42951], [Panama -> America -> United States -> Texas -> Wichita Falls] 
+
+  path: 2[20122 -> 10001], [Panama -> America] 
+
+-----------------------------------------
+ResultDestNodes: 
+10001, 10001, 10001, 10001, 10001, 10001, 20118, 20118, 20118, 20118, 20118, 20118, 20118, 20118, 20117, 20117, 20117, 20177, 20176, 20141, 20125, 20126, 20127, 20169, 20128, 20124, 20129, 20119, 20121, 20122, 
+ResultRelevs: 
+10.2526, 10.2526, 10.2526, 10.2526, 10.144693, 10.144693, 6.66176, 6.66176, 6.66176, 6.66176, 6.517885, 6.517885, 6.258912, 6.258912, 6.081913, 6.081913, 6.081913, 5.6790648, 5.6790648, 5.6790648, 5.6790648, 5.6790648, 5.6790648, 5.6790648, 5.6790648, 5.6790648, 5.6790648, 5.6790648, 5.6790648, 5.6790648, 
+Num of top-k answers: 30
+Num of duplicate answers: 15
+Num of duplicate roots in top-k answers: 14
+root duplication ratio: 0.4827586
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 162
+Num of entries retrieved from NKMaps: 679
+Num of answer trees explored: 966
+

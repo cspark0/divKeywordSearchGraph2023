@@ -1,0 +1,7 @@
+query: [police, gangster, fight]
+Top-k Search by Blink-BDB, k=12
+
+Div Top-k Search by Astar112
+
+Div Top-k Search by Astar212
+

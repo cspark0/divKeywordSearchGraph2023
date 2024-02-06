@@ -1,0 +1,8 @@
+ResultDestNodes.length, numOfKNListsRead, numOfNKMapLookups, numOfAnswerTreesExplored, (AvgResultRelev, AvgResultRelev/ResultRelevs[0], AvgResultDiss) elapseTime, 
+ResultDestNodes.length, numOfKNListsRead, numOfNKMapLookups, numOfAnswerTreesExplored, (AvgResultRelev, AvgResultRelev/ResultRelevs[0], AvgResultDiss), elapseTime, numOfAnswerTreeSetsCreated, 
+ResultDestNodes.length, numOfKNListsRead, numOfNKMapLookups, numOfAnswerTreesExplored, (AvgResultRelev, AvgResultRelev/ResultRelevs[0], AvgResultDiss) elapseTime, numOfStatesCreated, numOfStatesExplored, numOfHeuristicSearchPerformed 
+10, 118, 182, 47, (4.93750, 0.91619, 0.76222) 0.116725439, 
+10, 370, 508, 130, (4.91848, 0.91266: 0.80889) 0.200184473, 4018, 
+10, 370, 508, 130, (4.91848, 0.91266: 0.80889) 0.098466051, 147, 37, 3 
+10, 370, 508, 130, (4.91848, 0.91266: 0.80889) 0.082261817, 147, 37, 3 
+10, 370, 508, 130, (4.91848, 0.91266: 0.80889) 0.083880496, 55, 67, 3 

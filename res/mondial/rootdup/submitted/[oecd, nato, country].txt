@@ -1,0 +1,805 @@
+Blink Search Using BDB 10
+[oecd, nato, country]
+srcNodes: [50100, 50097, 20026]
+  path: 0[20026 -> 50100], [Netherlands -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20026 -> 50097], [Netherlands -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20026 -> 20026], [Netherlands -> Netherlands]
+srcNodes: [50100, 50097, 20024]
+  path: 0[20024 -> 50100], [Belgium -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20024 -> 50097], [Belgium -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20024 -> 20024], [Belgium -> Belgium]
+srcNodes: [50100, 50097, 20011]
+  path: 0[20011 -> 50100], [Germany -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20011 -> 50097], [Germany -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20011 -> 20011], [Germany -> Germany]
+srcNodes: [50100, 50097, 20013]
+  path: 0[20013 -> 50100], [Italy -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20013 -> 50097], [Italy -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20013 -> 20013], [Italy -> Italy]
+srcNodes: [50100, 50097, 20032]
+  path: 0[20032 -> 50100], [Denmark -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20032 -> 50097], [Denmark -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20032 -> 20032], [Denmark -> Denmark]
+srcNodes: [50100, 50097, 20025]
+  path: 0[20025 -> 50100], [Luxembourg -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20025 -> 50097], [Luxembourg -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20025 -> 20025], [Luxembourg -> Luxembourg]
+srcNodes: [50100, 50097, 20042]
+  path: 0[20042 -> 50100], [Iceland -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20042 -> 50097], [Iceland -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20042 -> 20042], [Iceland -> Iceland]
+srcNodes: [50100, 50097, 20117]
+  path: 0[20117 -> 50100], [Canada -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20117 -> 50097], [Canada -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [50100, 50097, 20049]
+  path: 0[20049 -> 50100], [Portugal -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20049 -> 50097], [Portugal -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20049 -> 20049], [Portugal -> Portugal]
+srcNodes: [50100, 50097, 20031]
+  path: 0[20031 -> 50100], [Turkey -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20031 -> 50097], [Turkey -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20031 -> 20031], [Turkey -> Turkey]
+-----------------------------------------
+ResultDestNodes: [20026, 20024, 20011, 20013, 20032, 20025, 20042, 20117, 20049, 20031]
+ResultRelevs: [6.1110100746154785, 6.1110100746154785, 6.1110100746154785, 6.1110100746154785, 6.1110100746154785, 6.1110100746154785, 6.1110100746154785, 6.1110100746154785, 6.1110100746154785, 6.1110100746154785]
+Num of top-k answers: 10
+Num of non-reduced answers: 0
+Num of duplicate answers: 0
+Num of non-redundant answers: 10
+Num of entries retrieved from the lists: 29
+Num of entries retrieved from NKMaps: 50
+
+Blink Search Using ConstRootDup10
+[oecd, nato, country]
+srcNodes: [50100, 50097, 20024]
+  path: 0[20024 -> 50100], [Belgium -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20024 -> 50097], [Belgium -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20024 -> 20024], [Belgium -> Belgium]
+srcNodes: [50100, 50097, 20049]
+  path: 0[20049 -> 50100], [Portugal -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20049 -> 50097], [Portugal -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20049 -> 20049], [Portugal -> Portugal]
+srcNodes: [50100, 50097, 20026]
+  path: 0[20026 -> 50100], [Netherlands -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20026 -> 50097], [Netherlands -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20026 -> 20026], [Netherlands -> Netherlands]
+srcNodes: [50100, 50097, 20013]
+  path: 0[20013 -> 50100], [Italy -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20013 -> 50097], [Italy -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20013 -> 20013], [Italy -> Italy]
+srcNodes: [50100, 50097, 20025]
+  path: 0[20025 -> 50100], [Luxembourg -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20025 -> 50097], [Luxembourg -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20025 -> 20025], [Luxembourg -> Luxembourg]
+srcNodes: [50100, 50097, 20011]
+  path: 0[20011 -> 50100], [Germany -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20011 -> 50097], [Germany -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20011 -> 20011], [Germany -> Germany]
+srcNodes: [50100, 50097, 20117]
+  path: 0[20117 -> 50100], [Canada -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20117 -> 50097], [Canada -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [50100, 50097, 20032]
+  path: 0[20032 -> 50100], [Denmark -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20032 -> 50097], [Denmark -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20032 -> 20032], [Denmark -> Denmark]
+srcNodes: [50100, 50097, 20042]
+  path: 0[20042 -> 50100], [Iceland -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20042 -> 50097], [Iceland -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20042 -> 20042], [Iceland -> Iceland]
+srcNodes: [50100, 50097, 20031]
+  path: 0[20031 -> 50100], [Turkey -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20031 -> 50097], [Turkey -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20031 -> 20031], [Turkey -> Turkey]
+-----------------------------------------
+ResultDestNodes: 
+20024, 20049, 20026, 20013, 20025, 20011, 20117, 20032, 20042, 20031, 
+ResultRelevs: 
+6.11101, 6.11101, 6.11101, 6.11101, 6.11101, 6.11101, 6.11101, 6.11101, 6.11101, 6.11101, 
+Num of top-k answers: 10
+Num of duplicate answers: 0
+Num of duplicate roots in top-k answers: 0
+root duplication ratio: 0.0
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 29
+Num of entries retrieved from NKMaps: 169
+Num of answer trees explored: 120
+
+Blink Search Using BDB 20
+[oecd, nato, country]
+srcNodes: [50100, 50097, 20042]
+  path: 0[20042 -> 50100], [Iceland -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20042 -> 50097], [Iceland -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20042 -> 20042], [Iceland -> Iceland]
+srcNodes: [50100, 50097, 20013]
+  path: 0[20013 -> 50100], [Italy -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20013 -> 50097], [Italy -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20013 -> 20013], [Italy -> Italy]
+srcNodes: [50100, 50097, 20026]
+  path: 0[20026 -> 50100], [Netherlands -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20026 -> 50097], [Netherlands -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20026 -> 20026], [Netherlands -> Netherlands]
+srcNodes: [50100, 50097, 20049]
+  path: 0[20049 -> 50100], [Portugal -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20049 -> 50097], [Portugal -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20049 -> 20049], [Portugal -> Portugal]
+srcNodes: [50100, 50097, 20008]
+  path: 0[20008 -> 50100], [Spain -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20008 -> 50097], [Spain -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20008 -> 20008], [Spain -> Spain]
+srcNodes: [50100, 50097, 20031]
+  path: 0[20031 -> 50100], [Turkey -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20031 -> 50097], [Turkey -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20031 -> 20031], [Turkey -> Turkey]
+srcNodes: [50100, 50097, 20024]
+  path: 0[20024 -> 50100], [Belgium -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20024 -> 50097], [Belgium -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20024 -> 20024], [Belgium -> Belgium]
+srcNodes: [50100, 50097, 20007]
+  path: 0[20007 -> 50100], [France -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20007 -> 50097], [France -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20007 -> 20007], [France -> France]
+srcNodes: [50100, 50097, 20001]
+  path: 0[20001 -> 50100], [Greece -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20001 -> 50097], [Greece -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20001 -> 20001], [Greece -> Greece]
+srcNodes: [50100, 50097, 20117]
+  path: 0[20117 -> 50100], [Canada -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20117 -> 50097], [Canada -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [50100, 50097, 20032]
+  path: 0[20032 -> 50100], [Denmark -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20032 -> 50097], [Denmark -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20032 -> 20032], [Denmark -> Denmark]
+srcNodes: [50100, 50097, 20011]
+  path: 0[20011 -> 50100], [Germany -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20011 -> 50097], [Germany -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20011 -> 20011], [Germany -> Germany]
+srcNodes: [50100, 50097, 20025]
+  path: 0[20025 -> 50100], [Luxembourg -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20025 -> 50097], [Luxembourg -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20025 -> 20025], [Luxembourg -> Luxembourg]
+srcNodes: [50100, 50097, 20036]
+  path: 0[20036 -> 50100], [Norway -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20036 -> 50097], [Norway -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20036 -> 20036], [Norway -> Norway]
+srcNodes: [50100, 50097, 20118]
+  path: 0[20118 -> 50100], [United States -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20118 -> 50097], [United States -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20118 -> 20118], [United States -> United States]
+srcNodes: [50100, 50097, 20051]
+  path: 0[20051 -> 50100], [United Kingdom -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20051 -> 50097], [United Kingdom -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20051 -> 20051], [United Kingdom -> United Kingdom]
+srcNodes: [50100, 50097, 20035]
+  path: 0[20035 -> 50100], [Finland -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20035 -> 10004 -> 20051 -> 50097], [Finland -> Europe -> United Kingdom -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20035 -> 20035], [Finland -> Finland]
+srcNodes: [50100, 50097, 20114]
+  path: 0[20114 -> 50100], [Mexico -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20114 -> 10001 -> 20118 -> 50097], [Mexico -> America -> United States -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20114 -> 20114], [Mexico -> Mexico]
+srcNodes: [50100, 50097, 20043]
+  path: 0[20043 -> 50100], [Ireland -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20043 -> 10004 -> 20051 -> 50097], [Ireland -> Europe -> United Kingdom -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20043 -> 20043], [Ireland -> Ireland]
+srcNodes: [50100, 50097, 20096]
+  path: 0[20096 -> 50100], [Japan -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20096 -> 10002 -> 20031 -> 50097], [Japan -> Asia -> Turkey -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20096 -> 20096], [Japan -> Japan]
+-----------------------------------------
+ResultDestNodes: [20042, 20013, 20026, 20049, 20008, 20031, 20024, 20007, 20001, 20117, 20032, 20011, 20025, 20036, 20118, 20051, 20035, 20114, 20043, 20096]
+ResultRelevs: [6.1110100746154785, 6.1110100746154785, 6.1110100746154785, 6.1110100746154785, 6.1110100746154785, 6.1110100746154785, 6.1110100746154785, 6.1110100746154785, 6.1110100746154785, 6.1110100746154785, 6.1110100746154785, 6.1110100746154785, 6.1110100746154785, 6.1110100746154785, 5.571550369262695, 5.571550369262695, 5.257584095001221, 5.257584095001221, 5.257584095001221, 5.257584095001221]
+Num of top-k answers: 20
+Num of non-reduced answers: 0
+Num of duplicate answers: 0
+Num of non-redundant answers: 20
+Num of entries retrieved from the lists: 86
+Num of entries retrieved from NKMaps: 136
+
+Blink Search Using ConstRootDup20
+[oecd, nato, country]
+srcNodes: [50100, 50097, 20117]
+  path: 0[20117 -> 50100], [Canada -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20117 -> 50097], [Canada -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [50100, 50097, 20032]
+  path: 0[20032 -> 50100], [Denmark -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20032 -> 50097], [Denmark -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20032 -> 20032], [Denmark -> Denmark]
+srcNodes: [50100, 50097, 20007]
+  path: 0[20007 -> 50100], [France -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20007 -> 50097], [France -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20007 -> 20007], [France -> France]
+srcNodes: [50100, 50097, 20026]
+  path: 0[20026 -> 50100], [Netherlands -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20026 -> 50097], [Netherlands -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20026 -> 20026], [Netherlands -> Netherlands]
+srcNodes: [50100, 50097, 20042]
+  path: 0[20042 -> 50100], [Iceland -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20042 -> 50097], [Iceland -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20042 -> 20042], [Iceland -> Iceland]
+srcNodes: [50100, 50097, 20011]
+  path: 0[20011 -> 50100], [Germany -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20011 -> 50097], [Germany -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20011 -> 20011], [Germany -> Germany]
+srcNodes: [50100, 50097, 20031]
+  path: 0[20031 -> 50100], [Turkey -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20031 -> 50097], [Turkey -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20031 -> 20031], [Turkey -> Turkey]
+srcNodes: [50100, 50097, 20036]
+  path: 0[20036 -> 50100], [Norway -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20036 -> 50097], [Norway -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20036 -> 20036], [Norway -> Norway]
+srcNodes: [50100, 50097, 20001]
+  path: 0[20001 -> 50100], [Greece -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20001 -> 50097], [Greece -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20001 -> 20001], [Greece -> Greece]
+srcNodes: [50100, 50097, 20025]
+  path: 0[20025 -> 50100], [Luxembourg -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20025 -> 50097], [Luxembourg -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20025 -> 20025], [Luxembourg -> Luxembourg]
+srcNodes: [50100, 50097, 20024]
+  path: 0[20024 -> 50100], [Belgium -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20024 -> 50097], [Belgium -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20024 -> 20024], [Belgium -> Belgium]
+srcNodes: [50100, 50097, 20008]
+  path: 0[20008 -> 50100], [Spain -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20008 -> 50097], [Spain -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20008 -> 20008], [Spain -> Spain]
+srcNodes: [50100, 50097, 20013]
+  path: 0[20013 -> 50100], [Italy -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20013 -> 50097], [Italy -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20013 -> 20013], [Italy -> Italy]
+srcNodes: [50100, 50097, 20049]
+  path: 0[20049 -> 50100], [Portugal -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20049 -> 50097], [Portugal -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20049 -> 20049], [Portugal -> Portugal]
+srcNodes: [50100, 50097, 20118]
+  path: 0[20118 -> 50100], [United States -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20118 -> 50097], [United States -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20118 -> 20118], [United States -> United States]
+srcNodes: [50100, 50097, 20051]
+  path: 0[20051 -> 50100], [United Kingdom -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20051 -> 50097], [United Kingdom -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20051 -> 20051], [United Kingdom -> United Kingdom]
+srcNodes: [50100, 50097, 20114]
+  path: 0[20114 -> 50100], [Mexico -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20114 -> 10001 -> 20118 -> 50097], [Mexico -> America -> United States -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20114 -> 20114], [Mexico -> Mexico]
+srcNodes: [50100, 50097, 20017]
+  path: 0[20017 -> 50100], [Switzerland -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20017 -> 10004 -> 20051 -> 50097], [Switzerland -> Europe -> United Kingdom -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20017 -> 20017], [Switzerland -> Switzerland]
+srcNodes: [50100, 50097, 20096]
+  path: 0[20096 -> 50100], [Japan -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20096 -> 10002 -> 20031 -> 50097], [Japan -> Asia -> Turkey -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20096 -> 20096], [Japan -> Japan]
+srcNodes: [50100, 50097, 20035]
+  path: 0[20035 -> 50100], [Finland -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20035 -> 10004 -> 20051 -> 50097], [Finland -> Europe -> United Kingdom -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20035 -> 20035], [Finland -> Finland]
+-----------------------------------------
+ResultDestNodes: 
+20117, 20032, 20007, 20026, 20042, 20011, 20031, 20036, 20001, 20025, 20024, 20008, 20013, 20049, 20118, 20051, 20114, 20017, 20096, 20035, 
+ResultRelevs: 
+6.11101, 6.11101, 6.11101, 6.11101, 6.11101, 6.11101, 6.11101, 6.11101, 6.11101, 6.11101, 6.11101, 6.11101, 6.11101, 6.11101, 5.5715504, 5.5715504, 5.257584, 5.257584, 5.257584, 5.257584, 
+Num of top-k answers: 20
+Num of duplicate answers: 0
+Num of duplicate roots in top-k answers: 0
+root duplication ratio: 0.0
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 85
+Num of entries retrieved from NKMaps: 463
+Num of answer trees explored: 330
+
+Blink Search Using BDB 30
+[oecd, nato, country]
+srcNodes: [50100, 50097, 20042]
+  path: 0[20042 -> 50100], [Iceland -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20042 -> 50097], [Iceland -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20042 -> 20042], [Iceland -> Iceland]
+srcNodes: [50100, 50097, 20013]
+  path: 0[20013 -> 50100], [Italy -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20013 -> 50097], [Italy -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20013 -> 20013], [Italy -> Italy]
+srcNodes: [50100, 50097, 20001]
+  path: 0[20001 -> 50100], [Greece -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20001 -> 50097], [Greece -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20001 -> 20001], [Greece -> Greece]
+srcNodes: [50100, 50097, 20049]
+  path: 0[20049 -> 50100], [Portugal -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20049 -> 50097], [Portugal -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20049 -> 20049], [Portugal -> Portugal]
+srcNodes: [50100, 50097, 20032]
+  path: 0[20032 -> 50100], [Denmark -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20032 -> 50097], [Denmark -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20032 -> 20032], [Denmark -> Denmark]
+srcNodes: [50100, 50097, 20026]
+  path: 0[20026 -> 50100], [Netherlands -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20026 -> 50097], [Netherlands -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20026 -> 20026], [Netherlands -> Netherlands]
+srcNodes: [50100, 50097, 20007]
+  path: 0[20007 -> 50100], [France -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20007 -> 50097], [France -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20007 -> 20007], [France -> France]
+srcNodes: [50100, 50097, 20031]
+  path: 0[20031 -> 50100], [Turkey -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20031 -> 50097], [Turkey -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20031 -> 20031], [Turkey -> Turkey]
+srcNodes: [50100, 50097, 20024]
+  path: 0[20024 -> 50100], [Belgium -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20024 -> 50097], [Belgium -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20024 -> 20024], [Belgium -> Belgium]
+srcNodes: [50100, 50097, 20117]
+  path: 0[20117 -> 50100], [Canada -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20117 -> 50097], [Canada -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [50100, 50097, 20025]
+  path: 0[20025 -> 50100], [Luxembourg -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20025 -> 50097], [Luxembourg -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20025 -> 20025], [Luxembourg -> Luxembourg]
+srcNodes: [50100, 50097, 20011]
+  path: 0[20011 -> 50100], [Germany -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20011 -> 50097], [Germany -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20011 -> 20011], [Germany -> Germany]
+srcNodes: [50100, 50097, 20036]
+  path: 0[20036 -> 50100], [Norway -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20036 -> 50097], [Norway -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20036 -> 20036], [Norway -> Norway]
+srcNodes: [50100, 50097, 20008]
+  path: 0[20008 -> 50100], [Spain -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20008 -> 50097], [Spain -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20008 -> 20008], [Spain -> Spain]
+srcNodes: [50100, 50097, 20118]
+  path: 0[20118 -> 50100], [United States -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20118 -> 50097], [United States -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20118 -> 20118], [United States -> United States]
+srcNodes: [50100, 50097, 20051]
+  path: 0[20051 -> 50100], [United Kingdom -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20051 -> 50097], [United Kingdom -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20051 -> 20051], [United Kingdom -> United Kingdom]
+srcNodes: [50100, 50097, 20037]
+  path: 0[20037 -> 50100], [Sweden -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20037 -> 10004 -> 20051 -> 50097], [Sweden -> Europe -> United Kingdom -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20037 -> 20037], [Sweden -> Sweden]
+srcNodes: [50100, 50097, 20012]
+  path: 0[20012 -> 50100], [Hungary -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20012 -> 10004 -> 20051 -> 50097], [Hungary -> Europe -> United Kingdom -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20012 -> 20012], [Hungary -> Hungary]
+srcNodes: [50100, 50097, 20114]
+  path: 0[20114 -> 50100], [Mexico -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20114 -> 10001 -> 20118 -> 50097], [Mexico -> America -> United States -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20114 -> 20114], [Mexico -> Mexico]
+srcNodes: [50100, 50097, 20009]
+  path: 0[20009 -> 50100], [Austria -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20009 -> 10004 -> 20051 -> 50097], [Austria -> Europe -> United Kingdom -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20009 -> 20009], [Austria -> Austria]
+srcNodes: [50100, 50097, 20096]
+  path: 0[20096 -> 50100], [Japan -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20096 -> 10002 -> 20031 -> 50097], [Japan -> Asia -> Turkey -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20096 -> 20096], [Japan -> Japan]
+srcNodes: [50100, 50097, 20043]
+  path: 0[20043 -> 50100], [Ireland -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20043 -> 10004 -> 20051 -> 50097], [Ireland -> Europe -> United Kingdom -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20043 -> 20043], [Ireland -> Ireland]
+srcNodes: [50100, 50097, 20017]
+  path: 0[20017 -> 50100], [Switzerland -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20017 -> 10004 -> 20051 -> 50097], [Switzerland -> Europe -> United Kingdom -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20017 -> 20017], [Switzerland -> Switzerland]
+srcNodes: [50100, 50097, 20035]
+  path: 0[20035 -> 50100], [Finland -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20035 -> 10004 -> 20051 -> 50097], [Finland -> Europe -> United Kingdom -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20035 -> 20035], [Finland -> Finland]
+srcNodes: [50100, 50097, 20147]
+  path: 0[20147 -> 50100], [Australia -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20147 -> 10003 -> 20086 -> 10002 -> 20031 -> 50097], [Australia -> Australia/Oceania -> Indonesia -> Asia -> Turkey -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20147 -> 20147], [Australia -> Australia]
+srcNodes: [50100, 50097, 20010]
+  path: 0[20010 -> 50100], [Czech Republic -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20010 -> 10004 -> 20051 -> 50097], [Czech Republic -> Europe -> United Kingdom -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20010 -> 20010], [Czech Republic -> Czech Republic]
+srcNodes: [50100, 50097, 20157]
+  path: 0[20157 -> 50100], [New Zealand -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20157 -> 10003 -> 20086 -> 10002 -> 20031 -> 50097], [New Zealand -> Australia/Oceania -> Indonesia -> Asia -> Turkey -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20157 -> 20157], [New Zealand -> New Zealand]
+srcNodes: [50100, 50097, 20053]
+  path: 0[20053 -> 10002 -> 20096 -> 50100], [China -> Asia -> Japan -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20053 -> 10002 -> 20031 -> 50097], [China -> Asia -> Turkey -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20053 -> 20053], [China -> China]
+srcNodes: [50100, 50097, 20052]
+  path: 0[20052 -> 10002 -> 20096 -> 50100], [Afghanistan -> Asia -> Japan -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20052 -> 10002 -> 20031 -> 50097], [Afghanistan -> Asia -> Turkey -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20052 -> 20052], [Afghanistan -> Afghanistan]
+srcNodes: [50100, 50097, 20054]
+  path: 0[20054 -> 10002 -> 20096 -> 50100], [Iran -> Asia -> Japan -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20054 -> 10002 -> 20031 -> 50097], [Iran -> Asia -> Turkey -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20054 -> 20054], [Iran -> Iran]
+-----------------------------------------
+ResultDestNodes: [20042, 20013, 20001, 20049, 20032, 20026, 20007, 20031, 20024, 20117, 20025, 20011, 20036, 20008, 20118, 20051, 20037, 20012, 20114, 20009, 20096, 20043, 20017, 20035, 20147, 20010, 20157, 20053, 20052, 20054]
+ResultRelevs: [6.1110100746154785, 6.1110100746154785, 6.1110100746154785, 6.1110100746154785, 6.1110100746154785, 6.1110100746154785, 6.1110100746154785, 6.1110100746154785, 6.1110100746154785, 6.1110100746154785, 6.1110100746154785, 6.1110100746154785, 6.1110100746154785, 6.1110100746154785, 5.571550369262695, 5.571550369262695, 5.257584095001221, 5.257584095001221, 5.257584095001221, 5.257584095001221, 5.257584095001221, 5.257584095001221, 5.257584095001221, 5.257584095001221, 4.973111152648926, 4.7181243896484375, 4.433650970458984, 4.404158115386963, 4.404158115386963, 4.404158115386963]
+Num of top-k answers: 30
+Num of non-reduced answers: 0
+Num of duplicate answers: 0
+Num of non-redundant answers: 30
+Num of entries retrieved from the lists: 142
+Num of entries retrieved from NKMaps: 200
+
+Blink Search Using ConstRootDup30
+[oecd, nato, country]
+srcNodes: [50100, 50097, 20024]
+  path: 0[20024 -> 50100], [Belgium -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20024 -> 50097], [Belgium -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20024 -> 20024], [Belgium -> Belgium]
+srcNodes: [50100, 50097, 20032]
+  path: 0[20032 -> 50100], [Denmark -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20032 -> 50097], [Denmark -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20032 -> 20032], [Denmark -> Denmark]
+srcNodes: [50100, 50097, 20025]
+  path: 0[20025 -> 50100], [Luxembourg -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20025 -> 50097], [Luxembourg -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20025 -> 20025], [Luxembourg -> Luxembourg]
+srcNodes: [50100, 50097, 20011]
+  path: 0[20011 -> 50100], [Germany -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20011 -> 50097], [Germany -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20011 -> 20011], [Germany -> Germany]
+srcNodes: [50100, 50097, 20049]
+  path: 0[20049 -> 50100], [Portugal -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20049 -> 50097], [Portugal -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20049 -> 20049], [Portugal -> Portugal]
+srcNodes: [50100, 50097, 20117]
+  path: 0[20117 -> 50100], [Canada -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20117 -> 50097], [Canada -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [50100, 50097, 20036]
+  path: 0[20036 -> 50100], [Norway -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20036 -> 50097], [Norway -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20036 -> 20036], [Norway -> Norway]
+srcNodes: [50100, 50097, 20031]
+  path: 0[20031 -> 50100], [Turkey -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20031 -> 50097], [Turkey -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20031 -> 20031], [Turkey -> Turkey]
+srcNodes: [50100, 50097, 20007]
+  path: 0[20007 -> 50100], [France -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20007 -> 50097], [France -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20007 -> 20007], [France -> France]
+srcNodes: [50100, 50097, 20042]
+  path: 0[20042 -> 50100], [Iceland -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20042 -> 50097], [Iceland -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20042 -> 20042], [Iceland -> Iceland]
+srcNodes: [50100, 50097, 20008]
+  path: 0[20008 -> 50100], [Spain -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20008 -> 50097], [Spain -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20008 -> 20008], [Spain -> Spain]
+srcNodes: [50100, 50097, 20001]
+  path: 0[20001 -> 50100], [Greece -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20001 -> 50097], [Greece -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20001 -> 20001], [Greece -> Greece]
+srcNodes: [50100, 50097, 20026]
+  path: 0[20026 -> 50100], [Netherlands -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20026 -> 50097], [Netherlands -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20026 -> 20026], [Netherlands -> Netherlands]
+srcNodes: [50100, 50097, 20013]
+  path: 0[20013 -> 50100], [Italy -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20013 -> 50097], [Italy -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20013 -> 20013], [Italy -> Italy]
+srcNodes: [50100, 50097, 20118]
+  path: 0[20118 -> 50100], [United States -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20118 -> 50097], [United States -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20118 -> 20118], [United States -> United States]
+srcNodes: [50100, 50097, 20051]
+  path: 0[20051 -> 50100], [United Kingdom -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20051 -> 50097], [United Kingdom -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20051 -> 20051], [United Kingdom -> United Kingdom]
+srcNodes: [50100, 50097, 20037]
+  path: 0[20037 -> 50100], [Sweden -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20037 -> 10004 -> 20051 -> 50097], [Sweden -> Europe -> United Kingdom -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20037 -> 20037], [Sweden -> Sweden]
+srcNodes: [50100, 50097, 20114]
+  path: 0[20114 -> 50100], [Mexico -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20114 -> 10001 -> 20118 -> 50097], [Mexico -> America -> United States -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20114 -> 20114], [Mexico -> Mexico]
+srcNodes: [50100, 50097, 20012]
+  path: 0[20012 -> 50100], [Hungary -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20012 -> 10004 -> 20051 -> 50097], [Hungary -> Europe -> United Kingdom -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20012 -> 20012], [Hungary -> Hungary]
+srcNodes: [50100, 50097, 20035]
+  path: 0[20035 -> 50100], [Finland -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20035 -> 10004 -> 20051 -> 50097], [Finland -> Europe -> United Kingdom -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20035 -> 20035], [Finland -> Finland]
+srcNodes: [50100, 50097, 20043]
+  path: 0[20043 -> 50100], [Ireland -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20043 -> 10004 -> 20051 -> 50097], [Ireland -> Europe -> United Kingdom -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20043 -> 20043], [Ireland -> Ireland]
+srcNodes: [50100, 50097, 20096]
+  path: 0[20096 -> 50100], [Japan -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20096 -> 10002 -> 20031 -> 50097], [Japan -> Asia -> Turkey -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20096 -> 20096], [Japan -> Japan]
+srcNodes: [50100, 50097, 20017]
+  path: 0[20017 -> 50100], [Switzerland -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20017 -> 10004 -> 20051 -> 50097], [Switzerland -> Europe -> United Kingdom -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20017 -> 20017], [Switzerland -> Switzerland]
+srcNodes: [50100, 50097, 20009]
+  path: 0[20009 -> 50100], [Austria -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20009 -> 10004 -> 20051 -> 50097], [Austria -> Europe -> United Kingdom -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20009 -> 20009], [Austria -> Austria]
+srcNodes: [50100, 50097, 20147]
+  path: 0[20147 -> 50100], [Australia -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20147 -> 10003 -> 20086 -> 10002 -> 20031 -> 50097], [Australia -> Australia/Oceania -> Indonesia -> Asia -> Turkey -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20147 -> 20147], [Australia -> Australia]
+srcNodes: [50100, 50097, 20010]
+  path: 0[20010 -> 50100], [Czech Republic -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20010 -> 10004 -> 20051 -> 50097], [Czech Republic -> Europe -> United Kingdom -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20010 -> 20010], [Czech Republic -> Czech Republic]
+srcNodes: [50100, 50097, 30045]
+  path: 0[20008 -> 50100], [Spain -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20008 -> 50097], [Spain -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20008 -> 30045], [Spain -> Basque Country] 
+
+srcNodes: [50100, 50097, 20157]
+  path: 0[20157 -> 50100], [New Zealand -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20157 -> 10003 -> 20086 -> 10002 -> 20031 -> 50097], [New Zealand -> Australia/Oceania -> Indonesia -> Asia -> Turkey -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20157 -> 20157], [New Zealand -> New Zealand]
+srcNodes: [50100, 50097, 20054]
+  path: 0[20054 -> 10002 -> 20096 -> 50100], [Iran -> Asia -> Japan -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20054 -> 10002 -> 20031 -> 50097], [Iran -> Asia -> Turkey -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20054 -> 20054], [Iran -> Iran]
+srcNodes: [50100, 50097, 20052]
+  path: 0[20052 -> 10002 -> 20096 -> 50100], [Afghanistan -> Asia -> Japan -> Organization for Economic Cooperation and Development Organization for Economic Cooperation and Development OECD] 
+
+  path: 1[20052 -> 10002 -> 20031 -> 50097], [Afghanistan -> Asia -> Turkey -> North Atlantic Treaty Organization North Atlantic Treaty Organization NATO] 
+
+  path: 2[20052 -> 20052], [Afghanistan -> Afghanistan]
+-----------------------------------------
+ResultDestNodes: 
+20024, 20032, 20025, 20011, 20049, 20117, 20036, 20031, 20007, 20042, 20008, 20001, 20026, 20013, 20118, 20051, 20037, 20114, 20012, 20035, 20043, 20096, 20017, 20009, 20147, 20010, 20008, 20157, 20054, 20052, 
+ResultRelevs: 
+6.11101, 6.11101, 6.11101, 6.11101, 6.11101, 6.11101, 6.11101, 6.11101, 6.11101, 6.11101, 6.11101, 6.11101, 6.11101, 6.11101, 5.5715504, 5.5715504, 5.257584, 5.257584, 5.257584, 5.257584, 5.257584, 5.257584, 5.257584, 5.257584, 4.973111, 4.7181244, 4.49263, 4.433651, 4.404158, 4.404158, 
+Num of top-k answers: 30
+Num of duplicate answers: 0
+Num of duplicate roots in top-k answers: 1
+root duplication ratio: 0.03448276
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 142
+Num of entries retrieved from NKMaps: 678
+Num of answer trees explored: 479
+

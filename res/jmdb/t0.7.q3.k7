@@ -1,0 +1,609 @@
+query: [cowboy, western, action]
+Top-k Search by Blink-BDB, k=7
+[cowboy, western, action]
+srcNodes: [2071901, 5000167, 5000140]
+  path: 0[1398414 -> 2071901], [Ghost Town: The Movie (2007) -> Coward, Herbert 'Cowboy'] 
+
+  path: 1[1398414 -> 5000167], [Ghost Town: The Movie (2007) -> Western] 
+
+  path: 2[1398414 -> 2025169 -> 1194590 -> 5000140], [Ghost Town: The Movie (2007) -> Becker, Tony -> Agent Red (2000) -> Action] 
+
+srcNodes: [321026, 5000167, 5000140]
+  path: 0[2287888 -> 321026], [Rhodes, Donnelly -> "Eyes of a Cowboy" (1998)] 
+
+  path: 1[2287888 -> 126285 -> 5000167], [Rhodes, Donnelly -> "Broken Trail" (2006) -> Western] 
+
+  path: 2[2287888 -> 1302178 -> 5000140], [Rhodes, Donnelly -> Damage (2009) -> Action] 
+
+srcNodes: [321026, 5000167, 5000140]
+  path: 0[126285 -> 2287888 -> 321026], ["Broken Trail" (2006) -> Rhodes, Donnelly -> "Eyes of a Cowboy" (1998)] 
+
+  path: 1[126285 -> 5000167], ["Broken Trail" (2006) -> Western] 
+
+  path: 2[126285 -> 2287888 -> 1302178 -> 5000140], ["Broken Trail" (2006) -> Rhodes, Donnelly -> Damage (2009) -> Action] 
+
+srcNodes: [2071901, 5000167, 5000140]
+  path: 0[2071901 -> 2071901], [Coward, Herbert 'Cowboy' -> Coward, Herbert 'Cowboy']
+  path: 1[2071901 -> 1398414 -> 5000167], [Coward, Herbert 'Cowboy' -> Ghost Town: The Movie (2007) -> Western] 
+
+  path: 2[2071901 -> 1398414 -> 2025169 -> 1194590 -> 5000140], [Coward, Herbert 'Cowboy' -> Ghost Town: The Movie (2007) -> Becker, Tony -> Agent Red (2000) -> Action] 
+
+srcNodes: [2071913, 5000167, 5000140]
+  path: 0[1732921 -> 2077520 -> 1670979 -> 2071913], [Summer Love (2006) -> Daly, Steve (I) -> Rise of the Footsoldier (2007) -> Cowboy (IX)] 
+
+  path: 1[1732921 -> 5000167], [Summer Love (2006) -> Western] 
+
+  path: 2[1732921 -> 2182507 -> 1710176 -> 5000140], [Summer Love (2006) -> Klos, Romuald Andrzej -> Skorumpowani (2008) -> Action] 
+
+srcNodes: [1294026, 5000167, 5000140]
+  path: 0[1807007 -> 2111339 -> 1294026], [The Scarlet Worm (2011) -> Forest, Michael (I) -> Cowboy Bebop: Tengoku no tobira (2001)] 
+
+  path: 1[1807007 -> 5000167], [The Scarlet Worm (2011) -> Western] 
+
+  path: 2[1807007 -> 2012072 -> 1683481 -> 5000140], [The Scarlet Worm (2011) -> Arcangeli, Domiziano -> Samurai Avenger: The Blind Wolf (2009) -> Action] 
+
+srcNodes: [1294026, 5000167, 5000140]
+  path: 0[1565031 -> 2131970 -> 1294026], [Mexican Gold (2009) -> Gregory, Michael (I) -> Cowboy Bebop: Tengoku no tobira (2001)] 
+
+  path: 1[1565031 -> 5000167], [Mexican Gold (2009) -> Western] 
+
+  path: 2[1565031 -> 2191461 -> 1514247 -> 5000140], [Mexican Gold (2009) -> Lamas, Lorenzo -> Latin Dragon (2004) -> Action] 
+
+-----------------------------------------
+Num of top-k answers: 7
+ResultDestNodes: [1398414, 2287888, 126285, 2071901, 1732921, 1807007, 1565031]
+ResultRelevs: [11.114188194274902, 10.509421348571777, 10.368456840515137, 10.356285095214844, 10.260661125183105, 10.091663360595703, 10.091663360595703]
+AvgResultRelev: 10.398905617850167
+AvgResultDissimilarity: 0.28571428571428564
+Num of entries retrieved from the lists: 2635
+Num of entries retrieved from NKMaps: 4500
+Num of answer trees explored: 1720
+
+Div Top-k Search by Exhustive, k=7
+[cowboy, western, action]
+srcNodes: [2071901, 5000167, 5000140]
+  path: 0[1398414 -> 2071901], [Ghost Town: The Movie (2007) -> Coward, Herbert 'Cowboy'] 
+
+  path: 1[1398414 -> 5000167], [Ghost Town: The Movie (2007) -> Western] 
+
+  path: 2[1398414 -> 2025169 -> 1194590 -> 5000140], [Ghost Town: The Movie (2007) -> Becker, Tony -> Agent Red (2000) -> Action] 
+
+srcNodes: [321026, 5000167, 5000140]
+  path: 0[2287888 -> 321026], [Rhodes, Donnelly -> "Eyes of a Cowboy" (1998)] 
+
+  path: 1[2287888 -> 126285 -> 5000167], [Rhodes, Donnelly -> "Broken Trail" (2006) -> Western] 
+
+  path: 2[2287888 -> 1302178 -> 5000140], [Rhodes, Donnelly -> Damage (2009) -> Action] 
+
+srcNodes: [321026, 5000167, 5000140]
+  path: 0[126285 -> 2287888 -> 321026], ["Broken Trail" (2006) -> Rhodes, Donnelly -> "Eyes of a Cowboy" (1998)] 
+
+  path: 1[126285 -> 5000167], ["Broken Trail" (2006) -> Western] 
+
+  path: 2[126285 -> 2287888 -> 1302178 -> 5000140], ["Broken Trail" (2006) -> Rhodes, Donnelly -> Damage (2009) -> Action] 
+
+srcNodes: [2071901, 5000167, 5000140]
+  path: 0[2071901 -> 2071901], [Coward, Herbert 'Cowboy' -> Coward, Herbert 'Cowboy']
+  path: 1[2071901 -> 1398414 -> 5000167], [Coward, Herbert 'Cowboy' -> Ghost Town: The Movie (2007) -> Western] 
+
+  path: 2[2071901 -> 1398414 -> 2025169 -> 1194590 -> 5000140], [Coward, Herbert 'Cowboy' -> Ghost Town: The Movie (2007) -> Becker, Tony -> Agent Red (2000) -> Action] 
+
+srcNodes: [1535993, 5001006, 5000108]
+  path: 0[1535993 -> 1535993], [Lonestar Cowboy (2003) -> Lonestar Cowboy (2003)]
+  path: 1[1535993 -> 5001006], [Lonestar Cowboy (2003) -> Drama,Western] 
+
+  path: 2[1535993 -> 2102310 -> 1873768 -> 5000108], [Lonestar Cowboy (2003) -> Evans, James (I) -> Weapon of Mass Destruction (2004) -> Action,Comedy] 
+
+srcNodes: [1592968, 5000167, 5002745]
+  path: 0[1564410 -> 2160057 -> 1229452 -> 2431747 -> 1592968], [Mesteno (2009) -> Irvingsen, Mark -> Banana Moon (2003) -> Moore, Lee Anne -> Neptune Cowboy (2008)] 
+
+  path: 1[1564410 -> 5000167], [Mesteno (2009) -> Western] 
+
+  path: 2[1564410 -> 2244645 -> 1482803 -> 5002745], [Mesteno (2009) -> Méndez, Eloy -> Kill Speed (2010) -> Action,Action] 
+
+srcNodes: [1294026, 1732585, 5005268]
+  path: 0[1732585 -> 2160280 -> 1294026], [Sukiyaki Western Django (2007) -> Ishibashi, Renji -> Cowboy Bebop: Tengoku no tobira (2001)] 
+
+  path: 1[1732585 -> 1732585], [Sukiyaki Western Django (2007) -> Sukiyaki Western Django (2007)]
+  path: 2[1732585 -> 5005268], [Sukiyaki Western Django (2007) -> Western,Action,Action] 
+
+-----------------------------------------
+ResultDestNodes: [1398414, 2287888, 126285, 2071901, 1535993, 1564410, 1732585]
+ResultRelevs: [11.114188194274902, 10.509421348571777, 10.368456840515137, 10.356285095214844, 9.331236839294434, 9.131521224975586, 9.11953353881836]
+AvgResultRelev: 9.99009186880929
+AvgResultDissimilarity: 0.7142857142857143
+Num of entries retrieved from the KNLists: 3221
+Num of entries retrieved from NKMaps: 5367
+Num of answer trees explored: 1986
+Num of answer tree sets created: 1667005
+Num of answer tree sets removed: 182513
+Max Num of answer tree sets in Q[]: 1667005
+
+Div Top-k Search by Astar0, k=7
+[cowboy, western, action]
+srcNodes: [2071901, 5000167, 5000140]
+  path: 0[1398414 -> 2071901], [Ghost Town: The Movie (2007) -> Coward, Herbert 'Cowboy'] 
+
+  path: 1[1398414 -> 5000167], [Ghost Town: The Movie (2007) -> Western] 
+
+  path: 2[1398414 -> 2025169 -> 1194590 -> 5000140], [Ghost Town: The Movie (2007) -> Becker, Tony -> Agent Red (2000) -> Action] 
+
+srcNodes: [321026, 5000167, 5000140]
+  path: 0[2287888 -> 321026], [Rhodes, Donnelly -> "Eyes of a Cowboy" (1998)] 
+
+  path: 1[2287888 -> 126285 -> 5000167], [Rhodes, Donnelly -> "Broken Trail" (2006) -> Western] 
+
+  path: 2[2287888 -> 1302178 -> 5000140], [Rhodes, Donnelly -> Damage (2009) -> Action] 
+
+srcNodes: [321026, 5000167, 5000140]
+  path: 0[126285 -> 2287888 -> 321026], ["Broken Trail" (2006) -> Rhodes, Donnelly -> "Eyes of a Cowboy" (1998)] 
+
+  path: 1[126285 -> 5000167], ["Broken Trail" (2006) -> Western] 
+
+  path: 2[126285 -> 2287888 -> 1302178 -> 5000140], ["Broken Trail" (2006) -> Rhodes, Donnelly -> Damage (2009) -> Action] 
+
+srcNodes: [2071901, 5000167, 5000140]
+  path: 0[2071901 -> 2071901], [Coward, Herbert 'Cowboy' -> Coward, Herbert 'Cowboy']
+  path: 1[2071901 -> 1398414 -> 5000167], [Coward, Herbert 'Cowboy' -> Ghost Town: The Movie (2007) -> Western] 
+
+  path: 2[2071901 -> 1398414 -> 2025169 -> 1194590 -> 5000140], [Coward, Herbert 'Cowboy' -> Ghost Town: The Movie (2007) -> Becker, Tony -> Agent Red (2000) -> Action] 
+
+srcNodes: [1535993, 5001006, 5000108]
+  path: 0[1535993 -> 1535993], [Lonestar Cowboy (2003) -> Lonestar Cowboy (2003)]
+  path: 1[1535993 -> 5001006], [Lonestar Cowboy (2003) -> Drama,Western] 
+
+  path: 2[1535993 -> 2102310 -> 1873768 -> 5000108], [Lonestar Cowboy (2003) -> Evans, James (I) -> Weapon of Mass Destruction (2004) -> Action,Comedy] 
+
+srcNodes: [1592968, 5000167, 5002745]
+  path: 0[1564410 -> 2160057 -> 1229452 -> 2431747 -> 1592968], [Mesteno (2009) -> Irvingsen, Mark -> Banana Moon (2003) -> Moore, Lee Anne -> Neptune Cowboy (2008)] 
+
+  path: 1[1564410 -> 5000167], [Mesteno (2009) -> Western] 
+
+  path: 2[1564410 -> 2244645 -> 1482803 -> 5002745], [Mesteno (2009) -> Méndez, Eloy -> Kill Speed (2010) -> Action,Action] 
+
+srcNodes: [1294026, 1732585, 5005268]
+  path: 0[1732585 -> 2160280 -> 1294026], [Sukiyaki Western Django (2007) -> Ishibashi, Renji -> Cowboy Bebop: Tengoku no tobira (2001)] 
+
+  path: 1[1732585 -> 1732585], [Sukiyaki Western Django (2007) -> Sukiyaki Western Django (2007)]
+  path: 2[1732585 -> 5005268], [Sukiyaki Western Django (2007) -> Western,Action,Action] 
+
+-----------------------------------------
+ResultDestNodes: [1398414, 2287888, 126285, 2071901, 1535993, 1564410, 1732585]
+ResultRelevs: [11.114188194274902, 10.509421348571777, 10.368456840515137, 10.356285095214844, 9.331236839294434, 9.131521224975586, 9.11953353881836]
+AvgResultRelev: 9.99009186880929
+AvgResultDissimilarity: 0.7142857142857143
+Num of entries retrieved from the KNLists: 3221
+Num of entries retrieved from NKMaps: 5367
+Num of answer trees explored: 1986
+Num of states created: 4977973
+Num of states explored: 4973483
+Num of heuristic search performed: 45
+Max Num of answer tree sets in Q[]: 74505
+
+Div Top-k Search by Astar1, k=7
+[cowboy, western, action]
+srcNodes: [2071901, 5000167, 5000140]
+  path: 0[1398414 -> 2071901], [Ghost Town: The Movie (2007) -> Coward, Herbert 'Cowboy'] 
+
+  path: 1[1398414 -> 5000167], [Ghost Town: The Movie (2007) -> Western] 
+
+  path: 2[1398414 -> 2025169 -> 1194590 -> 5000140], [Ghost Town: The Movie (2007) -> Becker, Tony -> Agent Red (2000) -> Action] 
+
+srcNodes: [321026, 5000167, 5000140]
+  path: 0[2287888 -> 321026], [Rhodes, Donnelly -> "Eyes of a Cowboy" (1998)] 
+
+  path: 1[2287888 -> 126285 -> 5000167], [Rhodes, Donnelly -> "Broken Trail" (2006) -> Western] 
+
+  path: 2[2287888 -> 1302178 -> 5000140], [Rhodes, Donnelly -> Damage (2009) -> Action] 
+
+srcNodes: [321026, 5000167, 5000140]
+  path: 0[126285 -> 2287888 -> 321026], ["Broken Trail" (2006) -> Rhodes, Donnelly -> "Eyes of a Cowboy" (1998)] 
+
+  path: 1[126285 -> 5000167], ["Broken Trail" (2006) -> Western] 
+
+  path: 2[126285 -> 2287888 -> 1302178 -> 5000140], ["Broken Trail" (2006) -> Rhodes, Donnelly -> Damage (2009) -> Action] 
+
+srcNodes: [2071901, 5000167, 5000140]
+  path: 0[2071901 -> 2071901], [Coward, Herbert 'Cowboy' -> Coward, Herbert 'Cowboy']
+  path: 1[2071901 -> 1398414 -> 5000167], [Coward, Herbert 'Cowboy' -> Ghost Town: The Movie (2007) -> Western] 
+
+  path: 2[2071901 -> 1398414 -> 2025169 -> 1194590 -> 5000140], [Coward, Herbert 'Cowboy' -> Ghost Town: The Movie (2007) -> Becker, Tony -> Agent Red (2000) -> Action] 
+
+srcNodes: [1535993, 5001006, 5000108]
+  path: 0[1535993 -> 1535993], [Lonestar Cowboy (2003) -> Lonestar Cowboy (2003)]
+  path: 1[1535993 -> 5001006], [Lonestar Cowboy (2003) -> Drama,Western] 
+
+  path: 2[1535993 -> 2102310 -> 1873768 -> 5000108], [Lonestar Cowboy (2003) -> Evans, James (I) -> Weapon of Mass Destruction (2004) -> Action,Comedy] 
+
+srcNodes: [1592968, 5000167, 5002745]
+  path: 0[1564410 -> 2160057 -> 1229452 -> 2431747 -> 1592968], [Mesteno (2009) -> Irvingsen, Mark -> Banana Moon (2003) -> Moore, Lee Anne -> Neptune Cowboy (2008)] 
+
+  path: 1[1564410 -> 5000167], [Mesteno (2009) -> Western] 
+
+  path: 2[1564410 -> 2244645 -> 1482803 -> 5002745], [Mesteno (2009) -> Méndez, Eloy -> Kill Speed (2010) -> Action,Action] 
+
+srcNodes: [1294026, 1732585, 5005268]
+  path: 0[1732585 -> 2160280 -> 1294026], [Sukiyaki Western Django (2007) -> Ishibashi, Renji -> Cowboy Bebop: Tengoku no tobira (2001)] 
+
+  path: 1[1732585 -> 1732585], [Sukiyaki Western Django (2007) -> Sukiyaki Western Django (2007)]
+  path: 2[1732585 -> 5005268], [Sukiyaki Western Django (2007) -> Western,Action,Action] 
+
+-----------------------------------------
+ResultDestNodes: [1398414, 2287888, 126285, 2071901, 1535993, 1564410, 1732585]
+ResultRelevs: [11.114188194274902, 10.509421348571777, 10.368456840515137, 10.356285095214844, 9.331236839294434, 9.131521224975586, 9.11953353881836]
+AvgResultRelev: 9.99009186880929
+AvgResultDissimilarity: 0.7142857142857143
+Num of entries retrieved from the KNLists: 3221
+Num of entries retrieved from NKMaps: 5367
+Num of answer trees explored: 1986
+Num of states created: 78227
+Num of states explored: 2710
+Num of heuristic search performed: 45
+Max Num of answer tree sets in Q[]: 4491
+
+Div Top-k Search by Astar12, k=7
+[cowboy, western, action]
+srcNodes: [2071901, 5000167, 5000140]
+  path: 0[1398414 -> 2071901], [Ghost Town: The Movie (2007) -> Coward, Herbert 'Cowboy'] 
+
+  path: 1[1398414 -> 5000167], [Ghost Town: The Movie (2007) -> Western] 
+
+  path: 2[1398414 -> 2025169 -> 1194590 -> 5000140], [Ghost Town: The Movie (2007) -> Becker, Tony -> Agent Red (2000) -> Action] 
+
+srcNodes: [321026, 5000167, 5000140]
+  path: 0[2287888 -> 321026], [Rhodes, Donnelly -> "Eyes of a Cowboy" (1998)] 
+
+  path: 1[2287888 -> 126285 -> 5000167], [Rhodes, Donnelly -> "Broken Trail" (2006) -> Western] 
+
+  path: 2[2287888 -> 1302178 -> 5000140], [Rhodes, Donnelly -> Damage (2009) -> Action] 
+
+srcNodes: [321026, 5000167, 5000140]
+  path: 0[126285 -> 2287888 -> 321026], ["Broken Trail" (2006) -> Rhodes, Donnelly -> "Eyes of a Cowboy" (1998)] 
+
+  path: 1[126285 -> 5000167], ["Broken Trail" (2006) -> Western] 
+
+  path: 2[126285 -> 2287888 -> 1302178 -> 5000140], ["Broken Trail" (2006) -> Rhodes, Donnelly -> Damage (2009) -> Action] 
+
+srcNodes: [2071901, 5000167, 5000140]
+  path: 0[2071901 -> 2071901], [Coward, Herbert 'Cowboy' -> Coward, Herbert 'Cowboy']
+  path: 1[2071901 -> 1398414 -> 5000167], [Coward, Herbert 'Cowboy' -> Ghost Town: The Movie (2007) -> Western] 
+
+  path: 2[2071901 -> 1398414 -> 2025169 -> 1194590 -> 5000140], [Coward, Herbert 'Cowboy' -> Ghost Town: The Movie (2007) -> Becker, Tony -> Agent Red (2000) -> Action] 
+
+srcNodes: [1535993, 5001006, 5000108]
+  path: 0[1535993 -> 1535993], [Lonestar Cowboy (2003) -> Lonestar Cowboy (2003)]
+  path: 1[1535993 -> 5001006], [Lonestar Cowboy (2003) -> Drama,Western] 
+
+  path: 2[1535993 -> 2102310 -> 1873768 -> 5000108], [Lonestar Cowboy (2003) -> Evans, James (I) -> Weapon of Mass Destruction (2004) -> Action,Comedy] 
+
+srcNodes: [1592968, 5000167, 5002745]
+  path: 0[1564410 -> 2160057 -> 1229452 -> 2431747 -> 1592968], [Mesteno (2009) -> Irvingsen, Mark -> Banana Moon (2003) -> Moore, Lee Anne -> Neptune Cowboy (2008)] 
+
+  path: 1[1564410 -> 5000167], [Mesteno (2009) -> Western] 
+
+  path: 2[1564410 -> 2244645 -> 1482803 -> 5002745], [Mesteno (2009) -> Méndez, Eloy -> Kill Speed (2010) -> Action,Action] 
+
+srcNodes: [1294026, 1732585, 5005268]
+  path: 0[1732585 -> 2160280 -> 1294026], [Sukiyaki Western Django (2007) -> Ishibashi, Renji -> Cowboy Bebop: Tengoku no tobira (2001)] 
+
+  path: 1[1732585 -> 1732585], [Sukiyaki Western Django (2007) -> Sukiyaki Western Django (2007)]
+  path: 2[1732585 -> 5005268], [Sukiyaki Western Django (2007) -> Western,Action,Action] 
+
+-----------------------------------------
+ResultDestNodes: [1398414, 2287888, 126285, 2071901, 1535993, 1564410, 1732585]
+ResultRelevs: [11.114188194274902, 10.509421348571777, 10.368456840515137, 10.356285095214844, 9.331236839294434, 9.131521224975586, 9.11953353881836]
+AvgResultRelev: 9.99009186880929
+AvgResultDissimilarity: 0.7142857142857143
+Num of entries retrieved from the KNLists: 3221
+Num of entries retrieved from NKMaps: 5367
+Num of answer trees explored: 1986
+Num of states created: 78227
+Num of states explored: 2710
+Num of heuristic search performed: 45
+Max Num of answer tree sets in Q[]: 4491
+
+Div Top-k Search by Astar0nc, k=7
+[cowboy, western, action]
+srcNodes: [2071901, 5000167, 5000140]
+  path: 0[1398414 -> 2071901], [Ghost Town: The Movie (2007) -> Coward, Herbert 'Cowboy'] 
+
+  path: 1[1398414 -> 5000167], [Ghost Town: The Movie (2007) -> Western] 
+
+  path: 2[1398414 -> 2025169 -> 1194590 -> 5000140], [Ghost Town: The Movie (2007) -> Becker, Tony -> Agent Red (2000) -> Action] 
+
+srcNodes: [321026, 5000167, 5000140]
+  path: 0[2287888 -> 321026], [Rhodes, Donnelly -> "Eyes of a Cowboy" (1998)] 
+
+  path: 1[2287888 -> 126285 -> 5000167], [Rhodes, Donnelly -> "Broken Trail" (2006) -> Western] 
+
+  path: 2[2287888 -> 1302178 -> 5000140], [Rhodes, Donnelly -> Damage (2009) -> Action] 
+
+srcNodes: [321026, 5000167, 5000140]
+  path: 0[126285 -> 2287888 -> 321026], ["Broken Trail" (2006) -> Rhodes, Donnelly -> "Eyes of a Cowboy" (1998)] 
+
+  path: 1[126285 -> 5000167], ["Broken Trail" (2006) -> Western] 
+
+  path: 2[126285 -> 2287888 -> 1302178 -> 5000140], ["Broken Trail" (2006) -> Rhodes, Donnelly -> Damage (2009) -> Action] 
+
+srcNodes: [2071901, 5000167, 5000140]
+  path: 0[2071901 -> 2071901], [Coward, Herbert 'Cowboy' -> Coward, Herbert 'Cowboy']
+  path: 1[2071901 -> 1398414 -> 5000167], [Coward, Herbert 'Cowboy' -> Ghost Town: The Movie (2007) -> Western] 
+
+  path: 2[2071901 -> 1398414 -> 2025169 -> 1194590 -> 5000140], [Coward, Herbert 'Cowboy' -> Ghost Town: The Movie (2007) -> Becker, Tony -> Agent Red (2000) -> Action] 
+
+srcNodes: [1535993, 5001006, 5000108]
+  path: 0[1535993 -> 1535993], [Lonestar Cowboy (2003) -> Lonestar Cowboy (2003)]
+  path: 1[1535993 -> 5001006], [Lonestar Cowboy (2003) -> Drama,Western] 
+
+  path: 2[1535993 -> 2102310 -> 1873768 -> 5000108], [Lonestar Cowboy (2003) -> Evans, James (I) -> Weapon of Mass Destruction (2004) -> Action,Comedy] 
+
+srcNodes: [1592968, 5000167, 5002745]
+  path: 0[1564410 -> 2160057 -> 1229452 -> 2431747 -> 1592968], [Mesteno (2009) -> Irvingsen, Mark -> Banana Moon (2003) -> Moore, Lee Anne -> Neptune Cowboy (2008)] 
+
+  path: 1[1564410 -> 5000167], [Mesteno (2009) -> Western] 
+
+  path: 2[1564410 -> 2244645 -> 1482803 -> 5002745], [Mesteno (2009) -> Méndez, Eloy -> Kill Speed (2010) -> Action,Action] 
+
+srcNodes: [1294026, 1732585, 5005268]
+  path: 0[1732585 -> 2160280 -> 1294026], [Sukiyaki Western Django (2007) -> Ishibashi, Renji -> Cowboy Bebop: Tengoku no tobira (2001)] 
+
+  path: 1[1732585 -> 1732585], [Sukiyaki Western Django (2007) -> Sukiyaki Western Django (2007)]
+  path: 2[1732585 -> 5005268], [Sukiyaki Western Django (2007) -> Western,Action,Action] 
+
+-----------------------------------------
+ResultDestNodes: [1398414, 2287888, 126285, 2071901, 1535993, 1564410, 1732585]
+ResultRelevs: [11.114188194274902, 10.509421348571777, 10.368456840515137, 10.356285095214844, 9.331236839294434, 9.131521224975586, 9.11953353881836]
+AvgResultRelev: 9.99009186880929
+AvgResultDissimilarity: 0.7142857142857143
+Num of entries retrieved from the KNLists: 3221
+Num of entries retrieved from NKMaps: 5367
+Num of answer trees explored: 1986
+Num of states created: 2152137
+Num of states explored: 2147647
+Num of heuristic search performed: 19
+Max Num of answer tree sets in Q[]: 64153
+
+Div Top-k Search by Astar1nc, k=7
+[cowboy, western, action]
+srcNodes: [2071901, 5000167, 5000140]
+  path: 0[1398414 -> 2071901], [Ghost Town: The Movie (2007) -> Coward, Herbert 'Cowboy'] 
+
+  path: 1[1398414 -> 5000167], [Ghost Town: The Movie (2007) -> Western] 
+
+  path: 2[1398414 -> 2025169 -> 1194590 -> 5000140], [Ghost Town: The Movie (2007) -> Becker, Tony -> Agent Red (2000) -> Action] 
+
+srcNodes: [321026, 5000167, 5000140]
+  path: 0[2287888 -> 321026], [Rhodes, Donnelly -> "Eyes of a Cowboy" (1998)] 
+
+  path: 1[2287888 -> 126285 -> 5000167], [Rhodes, Donnelly -> "Broken Trail" (2006) -> Western] 
+
+  path: 2[2287888 -> 1302178 -> 5000140], [Rhodes, Donnelly -> Damage (2009) -> Action] 
+
+srcNodes: [321026, 5000167, 5000140]
+  path: 0[126285 -> 2287888 -> 321026], ["Broken Trail" (2006) -> Rhodes, Donnelly -> "Eyes of a Cowboy" (1998)] 
+
+  path: 1[126285 -> 5000167], ["Broken Trail" (2006) -> Western] 
+
+  path: 2[126285 -> 2287888 -> 1302178 -> 5000140], ["Broken Trail" (2006) -> Rhodes, Donnelly -> Damage (2009) -> Action] 
+
+srcNodes: [2071901, 5000167, 5000140]
+  path: 0[2071901 -> 2071901], [Coward, Herbert 'Cowboy' -> Coward, Herbert 'Cowboy']
+  path: 1[2071901 -> 1398414 -> 5000167], [Coward, Herbert 'Cowboy' -> Ghost Town: The Movie (2007) -> Western] 
+
+  path: 2[2071901 -> 1398414 -> 2025169 -> 1194590 -> 5000140], [Coward, Herbert 'Cowboy' -> Ghost Town: The Movie (2007) -> Becker, Tony -> Agent Red (2000) -> Action] 
+
+srcNodes: [1535993, 5001006, 5000108]
+  path: 0[1535993 -> 1535993], [Lonestar Cowboy (2003) -> Lonestar Cowboy (2003)]
+  path: 1[1535993 -> 5001006], [Lonestar Cowboy (2003) -> Drama,Western] 
+
+  path: 2[1535993 -> 2102310 -> 1873768 -> 5000108], [Lonestar Cowboy (2003) -> Evans, James (I) -> Weapon of Mass Destruction (2004) -> Action,Comedy] 
+
+srcNodes: [1592968, 5000167, 5002745]
+  path: 0[1564410 -> 2160057 -> 1229452 -> 2431747 -> 1592968], [Mesteno (2009) -> Irvingsen, Mark -> Banana Moon (2003) -> Moore, Lee Anne -> Neptune Cowboy (2008)] 
+
+  path: 1[1564410 -> 5000167], [Mesteno (2009) -> Western] 
+
+  path: 2[1564410 -> 2244645 -> 1482803 -> 5002745], [Mesteno (2009) -> Méndez, Eloy -> Kill Speed (2010) -> Action,Action] 
+
+srcNodes: [1294026, 1732585, 5005268]
+  path: 0[1732585 -> 2160280 -> 1294026], [Sukiyaki Western Django (2007) -> Ishibashi, Renji -> Cowboy Bebop: Tengoku no tobira (2001)] 
+
+  path: 1[1732585 -> 1732585], [Sukiyaki Western Django (2007) -> Sukiyaki Western Django (2007)]
+  path: 2[1732585 -> 5005268], [Sukiyaki Western Django (2007) -> Western,Action,Action] 
+
+-----------------------------------------
+ResultDestNodes: [1398414, 2287888, 126285, 2071901, 1535993, 1564410, 1732585]
+ResultRelevs: [11.114188194274902, 10.509421348571777, 10.368456840515137, 10.356285095214844, 9.331236839294434, 9.131521224975586, 9.11953353881836]
+AvgResultRelev: 9.99009186880929
+AvgResultDissimilarity: 0.7142857142857143
+Num of entries retrieved from the KNLists: 3221
+Num of entries retrieved from NKMaps: 5367
+Num of answer trees explored: 1986
+Num of states created: 38329
+Num of states explored: 1265
+Num of heuristic search performed: 19
+Max Num of answer tree sets in Q[]: 4491
+
+Div Top-k Search by Astar12nc, k=7
+[cowboy, western, action]
+srcNodes: [2071901, 5000167, 5000140]
+  path: 0[1398414 -> 2071901], [Ghost Town: The Movie (2007) -> Coward, Herbert 'Cowboy'] 
+
+  path: 1[1398414 -> 5000167], [Ghost Town: The Movie (2007) -> Western] 
+
+  path: 2[1398414 -> 2025169 -> 1194590 -> 5000140], [Ghost Town: The Movie (2007) -> Becker, Tony -> Agent Red (2000) -> Action] 
+
+srcNodes: [321026, 5000167, 5000140]
+  path: 0[2287888 -> 321026], [Rhodes, Donnelly -> "Eyes of a Cowboy" (1998)] 
+
+  path: 1[2287888 -> 126285 -> 5000167], [Rhodes, Donnelly -> "Broken Trail" (2006) -> Western] 
+
+  path: 2[2287888 -> 1302178 -> 5000140], [Rhodes, Donnelly -> Damage (2009) -> Action] 
+
+srcNodes: [321026, 5000167, 5000140]
+  path: 0[126285 -> 2287888 -> 321026], ["Broken Trail" (2006) -> Rhodes, Donnelly -> "Eyes of a Cowboy" (1998)] 
+
+  path: 1[126285 -> 5000167], ["Broken Trail" (2006) -> Western] 
+
+  path: 2[126285 -> 2287888 -> 1302178 -> 5000140], ["Broken Trail" (2006) -> Rhodes, Donnelly -> Damage (2009) -> Action] 
+
+srcNodes: [2071901, 5000167, 5000140]
+  path: 0[2071901 -> 2071901], [Coward, Herbert 'Cowboy' -> Coward, Herbert 'Cowboy']
+  path: 1[2071901 -> 1398414 -> 5000167], [Coward, Herbert 'Cowboy' -> Ghost Town: The Movie (2007) -> Western] 
+
+  path: 2[2071901 -> 1398414 -> 2025169 -> 1194590 -> 5000140], [Coward, Herbert 'Cowboy' -> Ghost Town: The Movie (2007) -> Becker, Tony -> Agent Red (2000) -> Action] 
+
+srcNodes: [1535993, 5001006, 5000108]
+  path: 0[1535993 -> 1535993], [Lonestar Cowboy (2003) -> Lonestar Cowboy (2003)]
+  path: 1[1535993 -> 5001006], [Lonestar Cowboy (2003) -> Drama,Western] 
+
+  path: 2[1535993 -> 2102310 -> 1873768 -> 5000108], [Lonestar Cowboy (2003) -> Evans, James (I) -> Weapon of Mass Destruction (2004) -> Action,Comedy] 
+
+srcNodes: [1592968, 5000167, 5002745]
+  path: 0[1564410 -> 2160057 -> 1229452 -> 2431747 -> 1592968], [Mesteno (2009) -> Irvingsen, Mark -> Banana Moon (2003) -> Moore, Lee Anne -> Neptune Cowboy (2008)] 
+
+  path: 1[1564410 -> 5000167], [Mesteno (2009) -> Western] 
+
+  path: 2[1564410 -> 2244645 -> 1482803 -> 5002745], [Mesteno (2009) -> Méndez, Eloy -> Kill Speed (2010) -> Action,Action] 
+
+srcNodes: [1294026, 1732585, 5005268]
+  path: 0[1732585 -> 2160280 -> 1294026], [Sukiyaki Western Django (2007) -> Ishibashi, Renji -> Cowboy Bebop: Tengoku no tobira (2001)] 
+
+  path: 1[1732585 -> 1732585], [Sukiyaki Western Django (2007) -> Sukiyaki Western Django (2007)]
+  path: 2[1732585 -> 5005268], [Sukiyaki Western Django (2007) -> Western,Action,Action] 
+
+-----------------------------------------
+ResultDestNodes: [1398414, 2287888, 126285, 2071901, 1535993, 1564410, 1732585]
+ResultRelevs: [11.114188194274902, 10.509421348571777, 10.368456840515137, 10.356285095214844, 9.331236839294434, 9.131521224975586, 9.11953353881836]
+AvgResultRelev: 9.99009186880929
+AvgResultDissimilarity: 0.7142857142857143
+Num of entries retrieved from the KNLists: 3221
+Num of entries retrieved from NKMaps: 5367
+Num of answer trees explored: 1986
+Num of states created: 38329
+Num of states explored: 1265
+Num of heuristic search performed: 19
+Max Num of answer tree sets in Q[]: 4491
+
+Div Top-k Search by Astar1_ap, k=7
+[cowboy, western, action]
+srcNodes: [2071901, 5000167, 5000140]
+  path: 0[1398414 -> 2071901], [Ghost Town: The Movie (2007) -> Coward, Herbert 'Cowboy'] 
+
+  path: 1[1398414 -> 5000167], [Ghost Town: The Movie (2007) -> Western] 
+
+  path: 2[1398414 -> 2025169 -> 1194590 -> 5000140], [Ghost Town: The Movie (2007) -> Becker, Tony -> Agent Red (2000) -> Action] 
+
+srcNodes: [321026, 5000167, 5000140]
+  path: 0[2287888 -> 321026], [Rhodes, Donnelly -> "Eyes of a Cowboy" (1998)] 
+
+  path: 1[2287888 -> 126285 -> 5000167], [Rhodes, Donnelly -> "Broken Trail" (2006) -> Western] 
+
+  path: 2[2287888 -> 1302178 -> 5000140], [Rhodes, Donnelly -> Damage (2009) -> Action] 
+
+srcNodes: [321026, 5000167, 5000140]
+  path: 0[126285 -> 2287888 -> 321026], ["Broken Trail" (2006) -> Rhodes, Donnelly -> "Eyes of a Cowboy" (1998)] 
+
+  path: 1[126285 -> 5000167], ["Broken Trail" (2006) -> Western] 
+
+  path: 2[126285 -> 2287888 -> 1302178 -> 5000140], ["Broken Trail" (2006) -> Rhodes, Donnelly -> Damage (2009) -> Action] 
+
+srcNodes: [2071901, 5000167, 5000140]
+  path: 0[2071901 -> 2071901], [Coward, Herbert 'Cowboy' -> Coward, Herbert 'Cowboy']
+  path: 1[2071901 -> 1398414 -> 5000167], [Coward, Herbert 'Cowboy' -> Ghost Town: The Movie (2007) -> Western] 
+
+  path: 2[2071901 -> 1398414 -> 2025169 -> 1194590 -> 5000140], [Coward, Herbert 'Cowboy' -> Ghost Town: The Movie (2007) -> Becker, Tony -> Agent Red (2000) -> Action] 
+
+srcNodes: [1535993, 5001006, 5000108]
+  path: 0[1535993 -> 1535993], [Lonestar Cowboy (2003) -> Lonestar Cowboy (2003)]
+  path: 1[1535993 -> 5001006], [Lonestar Cowboy (2003) -> Drama,Western] 
+
+  path: 2[1535993 -> 2102310 -> 1873768 -> 5000108], [Lonestar Cowboy (2003) -> Evans, James (I) -> Weapon of Mass Destruction (2004) -> Action,Comedy] 
+
+srcNodes: [1592968, 5000167, 5002745]
+  path: 0[1564410 -> 2160057 -> 1229452 -> 2431747 -> 1592968], [Mesteno (2009) -> Irvingsen, Mark -> Banana Moon (2003) -> Moore, Lee Anne -> Neptune Cowboy (2008)] 
+
+  path: 1[1564410 -> 5000167], [Mesteno (2009) -> Western] 
+
+  path: 2[1564410 -> 2244645 -> 1482803 -> 5002745], [Mesteno (2009) -> Méndez, Eloy -> Kill Speed (2010) -> Action,Action] 
+
+srcNodes: [1294026, 1732585, 5005268]
+  path: 0[1732585 -> 2160280 -> 1294026], [Sukiyaki Western Django (2007) -> Ishibashi, Renji -> Cowboy Bebop: Tengoku no tobira (2001)] 
+
+  path: 1[1732585 -> 1732585], [Sukiyaki Western Django (2007) -> Sukiyaki Western Django (2007)]
+  path: 2[1732585 -> 5005268], [Sukiyaki Western Django (2007) -> Western,Action,Action] 
+
+-----------------------------------------
+ResultDestNodes: [1398414, 2287888, 126285, 2071901, 1535993, 1564410, 1732585]
+ResultRelevs: [11.114188194274902, 10.509421348571777, 10.368456840515137, 10.356285095214844, 9.331236839294434, 9.131521224975586, 9.11953353881836]
+AvgResultRelev: 9.99009186880929
+AvgResultDissimilarity: 0.7142857142857143
+Num of entries retrieved from the KNLists: 3221
+Num of entries retrieved from NKMaps: 5367
+Num of answer trees explored: 1986
+Num of states created: 4992
+Num of states explored: 2644
+Num of heuristic search performed: 45
+Max Num of answer tree sets in Q[]: 189
+
+Div Top-k Search by Astar1nc_ap, k=7
+[cowboy, western, action]
+srcNodes: [2071901, 5000167, 5000140]
+  path: 0[1398414 -> 2071901], [Ghost Town: The Movie (2007) -> Coward, Herbert 'Cowboy'] 
+
+  path: 1[1398414 -> 5000167], [Ghost Town: The Movie (2007) -> Western] 
+
+  path: 2[1398414 -> 2025169 -> 1194590 -> 5000140], [Ghost Town: The Movie (2007) -> Becker, Tony -> Agent Red (2000) -> Action] 
+
+srcNodes: [321026, 5000167, 5000140]
+  path: 0[2287888 -> 321026], [Rhodes, Donnelly -> "Eyes of a Cowboy" (1998)] 
+
+  path: 1[2287888 -> 126285 -> 5000167], [Rhodes, Donnelly -> "Broken Trail" (2006) -> Western] 
+
+  path: 2[2287888 -> 1302178 -> 5000140], [Rhodes, Donnelly -> Damage (2009) -> Action] 
+
+srcNodes: [321026, 5000167, 5000140]
+  path: 0[126285 -> 2287888 -> 321026], ["Broken Trail" (2006) -> Rhodes, Donnelly -> "Eyes of a Cowboy" (1998)] 
+
+  path: 1[126285 -> 5000167], ["Broken Trail" (2006) -> Western] 
+
+  path: 2[126285 -> 2287888 -> 1302178 -> 5000140], ["Broken Trail" (2006) -> Rhodes, Donnelly -> Damage (2009) -> Action] 
+
+srcNodes: [2071901, 5000167, 5000140]
+  path: 0[2071901 -> 2071901], [Coward, Herbert 'Cowboy' -> Coward, Herbert 'Cowboy']
+  path: 1[2071901 -> 1398414 -> 5000167], [Coward, Herbert 'Cowboy' -> Ghost Town: The Movie (2007) -> Western] 
+
+  path: 2[2071901 -> 1398414 -> 2025169 -> 1194590 -> 5000140], [Coward, Herbert 'Cowboy' -> Ghost Town: The Movie (2007) -> Becker, Tony -> Agent Red (2000) -> Action] 
+
+srcNodes: [1535993, 5001006, 5000108]
+  path: 0[1535993 -> 1535993], [Lonestar Cowboy (2003) -> Lonestar Cowboy (2003)]
+  path: 1[1535993 -> 5001006], [Lonestar Cowboy (2003) -> Drama,Western] 
+
+  path: 2[1535993 -> 2102310 -> 1873768 -> 5000108], [Lonestar Cowboy (2003) -> Evans, James (I) -> Weapon of Mass Destruction (2004) -> Action,Comedy] 
+
+srcNodes: [1592968, 5000167, 5002745]
+  path: 0[1564410 -> 2160057 -> 1229452 -> 2431747 -> 1592968], [Mesteno (2009) -> Irvingsen, Mark -> Banana Moon (2003) -> Moore, Lee Anne -> Neptune Cowboy (2008)] 
+
+  path: 1[1564410 -> 5000167], [Mesteno (2009) -> Western] 
+
+  path: 2[1564410 -> 2244645 -> 1482803 -> 5002745], [Mesteno (2009) -> Méndez, Eloy -> Kill Speed (2010) -> Action,Action] 
+
+srcNodes: [1294026, 1732585, 5005268]
+  path: 0[1732585 -> 2160280 -> 1294026], [Sukiyaki Western Django (2007) -> Ishibashi, Renji -> Cowboy Bebop: Tengoku no tobira (2001)] 
+
+  path: 1[1732585 -> 1732585], [Sukiyaki Western Django (2007) -> Sukiyaki Western Django (2007)]
+  path: 2[1732585 -> 5005268], [Sukiyaki Western Django (2007) -> Western,Action,Action] 
+
+-----------------------------------------
+ResultDestNodes: [1398414, 2287888, 126285, 2071901, 1535993, 1564410, 1732585]
+ResultRelevs: [11.114188194274902, 10.509421348571777, 10.368456840515137, 10.356285095214844, 9.331236839294434, 9.131521224975586, 9.11953353881836]
+AvgResultRelev: 9.99009186880929
+AvgResultDissimilarity: 0.7142857142857143
+Num of entries retrieved from the KNLists: 3221
+Num of entries retrieved from NKMaps: 5367
+Num of answer trees explored: 1986
+Num of states created: 2365
+Num of states explored: 1242
+Num of heuristic search performed: 20
+Max Num of answer tree sets in Q[]: 189
+

@@ -1,0 +1,774 @@
+query: [company, fraud, deception]
+Top-k Search by Blink-BDB, k=20
+[company, fraud, deception]
+srcNodes: [1289002, 1578358, 8024801]
+  path: 0[1289002 -> 1289002], [Company (2002) -> Company (2002)]
+  path: 1[1289002 -> 2080393 -> 1578358], [Company (2002) -> Devgan, Ajay -> Mr. Fraud (2009)] 
+
+  path: 2[1289002 -> 2373357 -> 1654718 -> 8024801], [Company (2002) -> Koppikar, Isha -> Pyaar Ishq Aur Mohabbat (2001) -> broken-heart,deception,extremely-rich,fashion-model,heart-disease,love,money,photograph,rose,scholarship,scotland,soul-selling] 
+
+srcNodes: [1763704, 1369736, 1312705]
+  path: 0[1312705 -> 2257489 -> 1539049 -> 2302982 -> 1763704], [Deception (2003) -> Powell, Charles Edwin -> Lost Junction (2003) -> Campbell, Neve -> The Company (2003)] 
+
+  path: 1[1312705 -> 2470481 -> 1264895 -> 2292097 -> 1369736], [Deception (2003) -> Webb, Jacklin -> Café Olé (2000) -> Besso, Claudia -> Faith, Fraud, & Minimum Wage (2010)] 
+
+  path: 2[1312705 -> 1312705], [Deception (2003) -> Deception (2003)]
+srcNodes: [1289002, 1578358, 8014816]
+  path: 0[1578358 -> 2080393 -> 1289002], [Mr. Fraud (2009) -> Devgan, Ajay -> Company (2002)] 
+
+  path: 1[1578358 -> 1578358], [Mr. Fraud (2009) -> Mr. Fraud (2009)]
+  path: 2[1578358 -> 4005943 -> 1437037 -> 8014816], [Mr. Fraud (2009) -> Burmawalla, Mastan Alibhai -> Humraaz (2002) -> billionaire,blackmail,cruise-ship,dance-team,deception,gold-digger,lap-dog,marriage-by-trickery,murder,one-way-mirror,revenge,rock-band,violence] 
+
+srcNodes: [1763704, 1578358, 1312705]
+  path: 0[1763704 -> 1763704], [The Company (2003) -> The Company (2003)]
+  path: 1[1763704 -> 2302982 -> 1708011 -> 2288473 -> 1578358], [The Company (2003) -> Campbell, Neve -> Singularity (2011/II) -> Basu, Bipasha -> Mr. Fraud (2009)] 
+
+  path: 2[1763704 -> 2302982 -> 1539049 -> 2257489 -> 1312705], [The Company (2003) -> Campbell, Neve -> Lost Junction (2003) -> Powell, Charles Edwin -> Deception (2003)] 
+
+srcNodes: [1289002, 1578358, 8018063]
+  path: 0[2080393 -> 1289002], [Devgan, Ajay -> Company (2002)] 
+
+  path: 1[2080393 -> 1578358], [Devgan, Ajay -> Mr. Fraud (2009)] 
+
+  path: 2[2080393 -> 1413103 -> 2028401 -> 1513299 -> 8018063], [Devgan, Ajay -> Halla Bol (2008) -> Bhargav, Abhay -> Lashkar: The War Against Terror (2010) -> deception,emotional-shock,government,terrorism] 
+
+srcNodes: [1763704, 1578358, 1312705]
+  path: 0[2302982 -> 1763704], [Campbell, Neve -> The Company (2003)] 
+
+  path: 1[2302982 -> 1708011 -> 2288473 -> 1578358], [Campbell, Neve -> Singularity (2011/II) -> Basu, Bipasha -> Mr. Fraud (2009)] 
+
+  path: 2[2302982 -> 1539049 -> 2257489 -> 1312705], [Campbell, Neve -> Lost Junction (2003) -> Powell, Charles Edwin -> Deception (2003)] 
+
+srcNodes: [1763704, 1369736, 1312705]
+  path: 0[2257489 -> 1539049 -> 2302982 -> 1763704], [Powell, Charles Edwin -> Lost Junction (2003) -> Campbell, Neve -> The Company (2003)] 
+
+  path: 1[2257489 -> 1236356 -> 2195450 -> 1369736], [Powell, Charles Edwin -> Believe (2000/I) -> Mabe, Ricky -> Faith, Fraud, & Minimum Wage (2010)] 
+
+  path: 2[2257489 -> 1312705], [Powell, Charles Edwin -> Deception (2003)] 
+
+srcNodes: [1763709, 1369736, 1312705]
+  path: 0[1459234 -> 2139538 -> 1763709], [Isn't She Great (2000) -> Hill, William (I) -> The Company Men (2010)] 
+
+  path: 1[1459234 -> 2195450 -> 1369736], [Isn't She Great (2000) -> Mabe, Ricky -> Faith, Fraud, & Minimum Wage (2010)] 
+
+  path: 2[1459234 -> 2470481 -> 1312705], [Isn't She Great (2000) -> Webb, Jacklin -> Deception (2003)] 
+
+srcNodes: [1450286, 1369736, 1312705]
+  path: 0[1369736 -> 2186430 -> 1458190 -> 2054956 -> 1450286], [Faith, Fraud, & Minimum Wage (2010) -> Levert, Gary -> Irish Eyes (2004) -> Chapman, Kevin (I) -> In Good Company (2004)] 
+
+  path: 1[1369736 -> 1369736], [Faith, Fraud, & Minimum Wage (2010) -> Faith, Fraud, & Minimum Wage (2010)]
+  path: 2[1369736 -> 2195450 -> 1236356 -> 2257489 -> 1312705], [Faith, Fraud, & Minimum Wage (2010) -> Mabe, Ricky -> Believe (2000/I) -> Powell, Charles Edwin -> Deception (2003)] 
+
+srcNodes: [1763704, 1369736, 1312711]
+  path: 0[1312711 -> 2426309 -> 1442427 -> 2209398 -> 1763704], [Deception (2008/I) -> Rampling, Charlotte -> I'll Sleep When I'm Dead (2003) -> McDowell, Malcolm -> The Company (2003)] 
+
+  path: 1[1312711 -> 2473353 -> 1178682 -> 2396287 -> 1369736], [Deception (2008/I) -> Williams, Michelle (I) -> A Hole in One (2004) -> McLean, Rhonda -> Faith, Fraud, & Minimum Wage (2010)] 
+
+  path: 2[1312711 -> 1312711], [Deception (2008/I) -> Deception (2008/I)]
+srcNodes: [1763704, 1369736, 1796784]
+  path: 0[1796784 -> 2033890 -> 1232442 -> 2310577 -> 1763704], [The North Pole Deception (2010) -> Boone Junior, Mark -> Batman Begins (2005) -> Closson, Kimber -> The Company (2003)] 
+
+  path: 1[1796784 -> 2033890 -> 1562455 -> 2267526 -> 1369736], [The North Pole Deception (2010) -> Boone Junior, Mark -> Memento (2000) -> Rennie, Callum Keith -> Faith, Fraud, & Minimum Wage (2010)] 
+
+  path: 2[1796784 -> 1796784], [The North Pole Deception (2010) -> The North Pole Deception (2010)]
+srcNodes: [1763709, 1369736, 1312705]
+  path: 0[2470481 -> 1459234 -> 2139538 -> 1763709], [Webb, Jacklin -> Isn't She Great (2000) -> Hill, William (I) -> The Company Men (2010)] 
+
+  path: 1[2470481 -> 1264895 -> 2292097 -> 1369736], [Webb, Jacklin -> Café Olé (2000) -> Besso, Claudia -> Faith, Fraud, & Minimum Wage (2010)] 
+
+  path: 2[2470481 -> 1312705], [Webb, Jacklin -> Deception (2003)] 
+
+srcNodes: [1763704, 1578358, 1312705]
+  path: 0[1539049 -> 2302982 -> 1763704], [Lost Junction (2003) -> Campbell, Neve -> The Company (2003)] 
+
+  path: 1[1539049 -> 2302982 -> 1708011 -> 2288473 -> 1578358], [Lost Junction (2003) -> Campbell, Neve -> Singularity (2011/II) -> Basu, Bipasha -> Mr. Fraud (2009)] 
+
+  path: 2[1539049 -> 2257489 -> 1312705], [Lost Junction (2003) -> Powell, Charles Edwin -> Deception (2003)] 
+
+srcNodes: [1450286, 1369736, 1312705]
+  path: 0[1450286 -> 1450286], [In Good Company (2004) -> In Good Company (2004)]
+  path: 1[1450286 -> 2248109 -> 1228083 -> 2006374 -> 1369736], [In Good Company (2004) -> Paymer, David -> Bait (2000) -> Allison, Don -> Faith, Fraud, & Minimum Wage (2010)] 
+
+  path: 2[1450286 -> 2051979 -> 1173890 -> 2394118 -> 1312705], [In Good Company (2004) -> Castillo, Enrique (I) -> A Beautiful Life (2008) -> Mazar, Debi -> Deception (2003)] 
+
+srcNodes: [1763709, 1369736, 1312705]
+  path: 0[1763709 -> 1763709], [The Company Men (2010) -> The Company Men (2010)]
+  path: 1[1763709 -> 2290313 -> 1178653 -> 2006374 -> 1369736], [The Company Men (2010) -> Bello, Maria (I) -> A History of Violence (2005) -> Allison, Don -> Faith, Fraud, & Minimum Wage (2010)] 
+
+  path: 2[1763709 -> 2435354 -> 1821518 -> 2394118 -> 1312705], [The Company Men (2010) -> Ryland, Denece -> The Women (2008/I) -> Mazar, Debi -> Deception (2003)] 
+
+srcNodes: [1800665, 1369736, 1312705]
+  path: 0[1800665 -> 1800665], [The Pleasure of Your Company (2006) -> The Pleasure of Your Company (2006)]
+  path: 1[1800665 -> 2244664 -> 1562455 -> 2267526 -> 1369736], [The Pleasure of Your Company (2006) -> Pantoliano, Joe -> Memento (2000) -> Rennie, Callum Keith -> Faith, Fraud, & Minimum Wage (2010)] 
+
+  path: 2[1800665 -> 2342254 -> 1821518 -> 2394118 -> 1312705], [The Pleasure of Your Company (2006) -> Gleason, Joanna (I) -> The Women (2008/I) -> Mazar, Debi -> Deception (2003)] 
+
+srcNodes: [1763709, 1369736, 8008896]
+  path: 0[1796477 -> 2421758 -> 1763709], [The Night Listener (2006) -> Plunkett, Maryann -> The Company Men (2010)] 
+
+  path: 1[1796477 -> 2224328 -> 1629900 -> 2267526 -> 1369736], [The Night Listener (2006) -> Morton, Joe (I) -> Paycheck (2003) -> Rennie, Callum Keith -> Faith, Fraud, & Minimum Wage (2010)] 
+
+  path: 2[1796477 -> 2381047 -> 1647614 -> 8008896], [The Night Listener (2006) -> Lemos, Guenia -> Pretty (2005) -> deception] 
+
+srcNodes: [1763704, 1578358, 1312705]
+  path: 0[1708011 -> 2302982 -> 1763704], [Singularity (2011/II) -> Campbell, Neve -> The Company (2003)] 
+
+  path: 1[1708011 -> 2288473 -> 1578358], [Singularity (2011/II) -> Basu, Bipasha -> Mr. Fraud (2009)] 
+
+  path: 2[1708011 -> 2302982 -> 1539049 -> 2257489 -> 1312705], [Singularity (2011/II) -> Campbell, Neve -> Lost Junction (2003) -> Powell, Charles Edwin -> Deception (2003)] 
+
+srcNodes: [1227474, 1578358, 1312711]
+  path: 0[1227474 -> 1227474], [Badmaa$h Company (2010) -> Badmaa$h Company (2010)]
+  path: 1[1227474 -> 2161518 -> 1701770 -> 2288473 -> 1578358], [Badmaa$h Company (2010) -> Kapoor, Shahid -> Shikhar (2005) -> Basu, Bipasha -> Mr. Fraud (2009)] 
+
+  path: 2[1227474 -> 2316040 -> 1680978 -> 2165909 -> 1312711], [Badmaa$h Company (2010) -> Czop, Jessica -> Safe (2011/II) -> Kershner, Basil -> Deception (2008/I)] 
+
+srcNodes: [1763709, 1369736, 1312705]
+  path: 0[2195450 -> 1459234 -> 2139538 -> 1763709], [Mabe, Ricky -> Isn't She Great (2000) -> Hill, William (I) -> The Company Men (2010)] 
+
+  path: 1[2195450 -> 1369736], [Mabe, Ricky -> Faith, Fraud, & Minimum Wage (2010)] 
+
+  path: 2[2195450 -> 1236356 -> 2257489 -> 1312705], [Mabe, Ricky -> Believe (2000/I) -> Powell, Charles Edwin -> Deception (2003)] 
+
+-----------------------------------------
+Num of top-k answers: 20
+ResultDestNodes: [1289002, 1312705, 1578358, 1763704, 2080393, 2302982, 2257489, 1459234, 1369736, 1312711, 1796784, 2470481, 1539049, 1450286, 1763709, 1800665, 1796477, 1708011, 1227474, 2195450]
+ResultRelevs: [7.743301868438721, 7.679237365722656, 7.632668972015381, 7.54166316986084, 7.523935794830322, 7.086666107177734, 6.991399765014648, 6.6960835456848145, 6.672904968261719, 6.664731025695801, 6.664725303649902, 6.623088359832764, 6.459029674530029, 6.442753791809082, 6.442748069763184, 6.442747116088867, 6.379101276397705, 6.3558244705200195, 6.310724258422852, 6.309678077697754]
+AvgResultRelev: 6.83315064907074
+AvgResultDissimilarity: 0.62280701754386
+Num of entries retrieved from the lists: 3517
+Num of entries retrieved from NKMaps: 6472
+Num of answer trees explored: 2613
+
+Div Top-k Search by Exhustive, k=20
+[company, fraud, deception]
+srcNodes: [1289002, 1578358, 8024801]
+  path: 0[1289002 -> 1289002], [Company (2002) -> Company (2002)]
+  path: 1[1289002 -> 2080393 -> 1578358], [Company (2002) -> Devgan, Ajay -> Mr. Fraud (2009)] 
+
+  path: 2[1289002 -> 2373357 -> 1654718 -> 8024801], [Company (2002) -> Koppikar, Isha -> Pyaar Ishq Aur Mohabbat (2001) -> broken-heart,deception,extremely-rich,fashion-model,heart-disease,love,money,photograph,rose,scholarship,scotland,soul-selling] 
+
+srcNodes: [1763704, 1369736, 1312705]
+  path: 0[1312705 -> 2257489 -> 1539049 -> 2302982 -> 1763704], [Deception (2003) -> Powell, Charles Edwin -> Lost Junction (2003) -> Campbell, Neve -> The Company (2003)] 
+
+  path: 1[1312705 -> 2470481 -> 1264895 -> 2292097 -> 1369736], [Deception (2003) -> Webb, Jacklin -> Café Olé (2000) -> Besso, Claudia -> Faith, Fraud, & Minimum Wage (2010)] 
+
+  path: 2[1312705 -> 1312705], [Deception (2003) -> Deception (2003)]
+srcNodes: [1289002, 1578358, 8014816]
+  path: 0[1578358 -> 2080393 -> 1289002], [Mr. Fraud (2009) -> Devgan, Ajay -> Company (2002)] 
+
+  path: 1[1578358 -> 1578358], [Mr. Fraud (2009) -> Mr. Fraud (2009)]
+  path: 2[1578358 -> 4005943 -> 1437037 -> 8014816], [Mr. Fraud (2009) -> Burmawalla, Mastan Alibhai -> Humraaz (2002) -> billionaire,blackmail,cruise-ship,dance-team,deception,gold-digger,lap-dog,marriage-by-trickery,murder,one-way-mirror,revenge,rock-band,violence] 
+
+srcNodes: [1763704, 1369736, 1312705]
+  path: 0[2257489 -> 1539049 -> 2302982 -> 1763704], [Powell, Charles Edwin -> Lost Junction (2003) -> Campbell, Neve -> The Company (2003)] 
+
+  path: 1[2257489 -> 1236356 -> 2195450 -> 1369736], [Powell, Charles Edwin -> Believe (2000/I) -> Mabe, Ricky -> Faith, Fraud, & Minimum Wage (2010)] 
+
+  path: 2[2257489 -> 1312705], [Powell, Charles Edwin -> Deception (2003)] 
+
+srcNodes: [1763709, 1369736, 1312705]
+  path: 0[1459234 -> 2139538 -> 1763709], [Isn't She Great (2000) -> Hill, William (I) -> The Company Men (2010)] 
+
+  path: 1[1459234 -> 2195450 -> 1369736], [Isn't She Great (2000) -> Mabe, Ricky -> Faith, Fraud, & Minimum Wage (2010)] 
+
+  path: 2[1459234 -> 2470481 -> 1312705], [Isn't She Great (2000) -> Webb, Jacklin -> Deception (2003)] 
+
+srcNodes: [1450286, 1369736, 1312705]
+  path: 0[1369736 -> 2186430 -> 1458190 -> 2054956 -> 1450286], [Faith, Fraud, & Minimum Wage (2010) -> Levert, Gary -> Irish Eyes (2004) -> Chapman, Kevin (I) -> In Good Company (2004)] 
+
+  path: 1[1369736 -> 1369736], [Faith, Fraud, & Minimum Wage (2010) -> Faith, Fraud, & Minimum Wage (2010)]
+  path: 2[1369736 -> 2195450 -> 1236356 -> 2257489 -> 1312705], [Faith, Fraud, & Minimum Wage (2010) -> Mabe, Ricky -> Believe (2000/I) -> Powell, Charles Edwin -> Deception (2003)] 
+
+srcNodes: [1763704, 1369736, 1312711]
+  path: 0[1312711 -> 2426309 -> 1442427 -> 2209398 -> 1763704], [Deception (2008/I) -> Rampling, Charlotte -> I'll Sleep When I'm Dead (2003) -> McDowell, Malcolm -> The Company (2003)] 
+
+  path: 1[1312711 -> 2473353 -> 1178682 -> 2396287 -> 1369736], [Deception (2008/I) -> Williams, Michelle (I) -> A Hole in One (2004) -> McLean, Rhonda -> Faith, Fraud, & Minimum Wage (2010)] 
+
+  path: 2[1312711 -> 1312711], [Deception (2008/I) -> Deception (2008/I)]
+srcNodes: [1763704, 1369736, 1796784]
+  path: 0[1796784 -> 2033890 -> 1232442 -> 2310577 -> 1763704], [The North Pole Deception (2010) -> Boone Junior, Mark -> Batman Begins (2005) -> Closson, Kimber -> The Company (2003)] 
+
+  path: 1[1796784 -> 2033890 -> 1562455 -> 2267526 -> 1369736], [The North Pole Deception (2010) -> Boone Junior, Mark -> Memento (2000) -> Rennie, Callum Keith -> Faith, Fraud, & Minimum Wage (2010)] 
+
+  path: 2[1796784 -> 1796784], [The North Pole Deception (2010) -> The North Pole Deception (2010)]
+srcNodes: [1763709, 1369736, 8008896]
+  path: 0[1796477 -> 2421758 -> 1763709], [The Night Listener (2006) -> Plunkett, Maryann -> The Company Men (2010)] 
+
+  path: 1[1796477 -> 2224328 -> 1629900 -> 2267526 -> 1369736], [The Night Listener (2006) -> Morton, Joe (I) -> Paycheck (2003) -> Rennie, Callum Keith -> Faith, Fraud, & Minimum Wage (2010)] 
+
+  path: 2[1796477 -> 2381047 -> 1647614 -> 8008896], [The Night Listener (2006) -> Lemos, Guenia -> Pretty (2005) -> deception] 
+
+srcNodes: [1763704, 1578358, 1312705]
+  path: 0[1708011 -> 2302982 -> 1763704], [Singularity (2011/II) -> Campbell, Neve -> The Company (2003)] 
+
+  path: 1[1708011 -> 2288473 -> 1578358], [Singularity (2011/II) -> Basu, Bipasha -> Mr. Fraud (2009)] 
+
+  path: 2[1708011 -> 2302982 -> 1539049 -> 2257489 -> 1312705], [Singularity (2011/II) -> Campbell, Neve -> Lost Junction (2003) -> Powell, Charles Edwin -> Deception (2003)] 
+
+srcNodes: [1227474, 1578358, 1312711]
+  path: 0[1227474 -> 1227474], [Badmaa$h Company (2010) -> Badmaa$h Company (2010)]
+  path: 1[1227474 -> 2161518 -> 1701770 -> 2288473 -> 1578358], [Badmaa$h Company (2010) -> Kapoor, Shahid -> Shikhar (2005) -> Basu, Bipasha -> Mr. Fraud (2009)] 
+
+  path: 2[1227474 -> 2316040 -> 1680978 -> 2165909 -> 1312711], [Badmaa$h Company (2010) -> Czop, Jessica -> Safe (2011/II) -> Kershner, Basil -> Deception (2008/I)] 
+
+srcNodes: [1800665, 1369736, 1312705]
+  path: 0[2292097 -> 1443330 -> 2219516 -> 1800665], [Besso, Claudia -> Ice Age: Dawn of the Dinosaurs (2009) -> Mizrahi, Regan -> The Pleasure of Your Company (2006)] 
+
+  path: 1[2292097 -> 1369736], [Besso, Claudia -> Faith, Fraud, & Minimum Wage (2010)] 
+
+  path: 2[2292097 -> 1264895 -> 2470481 -> 1312705], [Besso, Claudia -> Café Olé (2000) -> Webb, Jacklin -> Deception (2003)] 
+
+srcNodes: [1763704, 1369736, 1796784]
+  path: 0[2033890 -> 1232442 -> 2310577 -> 1763704], [Boone Junior, Mark -> Batman Begins (2005) -> Closson, Kimber -> The Company (2003)] 
+
+  path: 1[2033890 -> 1562455 -> 2267526 -> 1369736], [Boone Junior, Mark -> Memento (2000) -> Rennie, Callum Keith -> Faith, Fraud, & Minimum Wage (2010)] 
+
+  path: 2[2033890 -> 1796784], [Boone Junior, Mark -> The North Pole Deception (2010)] 
+
+srcNodes: [1289002, 1578358, 8018063]
+  path: 0[1474308 -> 2373357 -> 1289002], [Kaante (2002) -> Koppikar, Isha -> Company (2002)] 
+
+  path: 1[1474308 -> 2088863 -> 1578358], [Kaante (2002) -> Dutt, Sanjay -> Mr. Fraud (2009)] 
+
+  path: 2[1474308 -> 2124463 -> 1513299 -> 8018063], [Kaante (2002) -> Grover, Gulshan -> Lashkar: The War Against Terror (2010) -> deception,emotional-shock,government,terrorism] 
+
+srcNodes: [1289002, 1578358, 8018063]
+  path: 0[1417171 -> 2056766 -> 1289002], [Hathyar: Face to Face with Reality (2002) -> Chhaya, Harsh -> Company (2002)] 
+
+  path: 1[1417171 -> 2088863 -> 1578358], [Hathyar: Face to Face with Reality (2002) -> Dutt, Sanjay -> Mr. Fraud (2009)] 
+
+  path: 2[1417171 -> 2124463 -> 1513299 -> 8018063], [Hathyar: Face to Face with Reality (2002) -> Grover, Gulshan -> Lashkar: The War Against Terror (2010) -> deception,emotional-shock,government,terrorism] 
+
+srcNodes: [1289002, 1578358, 8018063]
+  path: 0[1511255 -> 2393226 -> 1289002], [Lajja (2001) -> Matondkar, Urmila -> Company (2002)] 
+
+  path: 1[1511255 -> 2080393 -> 1578358], [Lajja (2001) -> Devgan, Ajay -> Mr. Fraud (2009)] 
+
+  path: 2[1511255 -> 2124463 -> 1513299 -> 8018063], [Lajja (2001) -> Grover, Gulshan -> Lashkar: The War Against Terror (2010) -> deception,emotional-shock,government,terrorism] 
+
+srcNodes: [1289002, 1578358, 8018063]
+  path: 0[1413103 -> 2080393 -> 1289002], [Halla Bol (2008) -> Devgan, Ajay -> Company (2002)] 
+
+  path: 1[1413103 -> 2080393 -> 1578358], [Halla Bol (2008) -> Devgan, Ajay -> Mr. Fraud (2009)] 
+
+  path: 2[1413103 -> 2028401 -> 1513299 -> 8018063], [Halla Bol (2008) -> Bhargav, Abhay -> Lashkar: The War Against Terror (2010) -> deception,emotional-shock,government,terrorism] 
+
+srcNodes: [1289002, 1578358, 8018063]
+  path: 0[1225000 -> 2372811 -> 1289002], [Baaghi (2000) -> Koirala, Manisha -> Company (2002)] 
+
+  path: 1[1225000 -> 2088863 -> 1578358], [Baaghi (2000) -> Dutt, Sanjay -> Mr. Fraud (2009)] 
+
+  path: 2[1225000 -> 2124463 -> 1513299 -> 8018063], [Baaghi (2000) -> Grover, Gulshan -> Lashkar: The War Against Terror (2010) -> deception,emotional-shock,government,terrorism] 
+
+srcNodes: [1289002, 1578358, 8018063]
+  path: 0[1313433 -> 2393226 -> 1289002], [Deewane (2000) -> Matondkar, Urmila -> Company (2002)] 
+
+  path: 1[1313433 -> 2080393 -> 1578358], [Deewane (2000) -> Devgan, Ajay -> Mr. Fraud (2009)] 
+
+  path: 2[1313433 -> 2124463 -> 1513299 -> 8018063], [Deewane (2000) -> Grover, Gulshan -> Lashkar: The War Against Terror (2010) -> deception,emotional-shock,government,terrorism] 
+
+srcNodes: [7001142, 1578358, 8018063]
+  path: 0[2288473 -> 1213230 -> 7001142], [Basu, Bipasha -> Apaharan (2005) -> references Company (] 
+
+  path: 1[2288473 -> 1578358], [Basu, Bipasha -> Mr. Fraud (2009)] 
+
+  path: 2[2288473 -> 1592112 -> 2270719 -> 1513299 -> 8018063], [Basu, Bipasha -> Nehlle Pe Dehlla (2007) -> Rishi, Mukesh -> Lashkar: The War Against Terror (2010) -> deception,emotional-shock,government,terrorism] 
+
+Dissims of Subsets and t:
+(0~0, 1) : 1.0
+(0~1, 2) : 0.6666666666666666
+(0~2, 3) : 0.6666666666666666
+(0~3, 4) : 0.6666666666666666
+(0~4, 5) : 0.6
+(0~5, 6) : 0.6666666666666666
+(0~6, 7) : 0.619047619047619
+(0~7, 8) : 0.7083333333333334
+(0~8, 9) : 0.6296296296296295
+(0~9, 10) : 0.8666666666666666
+(0~10, 11) : 0.6363636363636365
+(0~11, 12) : 0.6111111111111112
+(0~12, 13) : 0.846153846153846
+(0~13, 14) : 0.7857142857142856
+(0~14, 15) : 0.7333333333333332
+(0~15, 16) : 0.6874999999999999
+(0~16, 17) : 0.6470588235294117
+(0~17, 18) : 0.611111111111111
+(0~18, 19) : 0.7192982456140351
+-----------------------------------------
+ResultDestNodes: [1289002, 1312705, 1578358, 2257489, 1459234, 1369736, 1312711, 1796784, 1796477, 1708011, 1227474, 2292097, 2033890, 1474308, 1417171, 1511255, 1413103, 1225000, 1313433, 2288473]
+ResultRelevs: [7.743301868438721, 7.679237365722656, 7.632668972015381, 6.991399765014648, 6.6960835456848145, 6.672904968261719, 6.664731025695801, 6.664725303649902, 6.379101276397705, 6.3558244705200195, 6.310724258422852, 6.3096771240234375, 6.282286643981934, 6.2418317794799805, 6.2418317794799805, 6.2418317794799805, 6.2418317794799805, 6.2418317794799805, 6.2418317794799805, 6.225097179412842]
+AvgResultRelev: 6.602937722206116
+AvgResultDissimilarity: 0.6964912280701765
+Num of entries retrieved from the KNLists: 3526
+Num of entries retrieved from NKMaps: 6486
+Num of answer trees explored: 2616
+Num of answer tree sets created: 2173193
+Num of answer tree sets removed: 2129637
+
+Div Top-k Search by Astar02, k=20
+[company, fraud, deception]
+srcNodes: [1289002, 1578358, 8024801]
+  path: 0[1289002 -> 1289002], [Company (2002) -> Company (2002)]
+  path: 1[1289002 -> 2080393 -> 1578358], [Company (2002) -> Devgan, Ajay -> Mr. Fraud (2009)] 
+
+  path: 2[1289002 -> 2373357 -> 1654718 -> 8024801], [Company (2002) -> Koppikar, Isha -> Pyaar Ishq Aur Mohabbat (2001) -> broken-heart,deception,extremely-rich,fashion-model,heart-disease,love,money,photograph,rose,scholarship,scotland,soul-selling] 
+
+srcNodes: [1763704, 1369736, 1312705]
+  path: 0[1312705 -> 2257489 -> 1539049 -> 2302982 -> 1763704], [Deception (2003) -> Powell, Charles Edwin -> Lost Junction (2003) -> Campbell, Neve -> The Company (2003)] 
+
+  path: 1[1312705 -> 2470481 -> 1264895 -> 2292097 -> 1369736], [Deception (2003) -> Webb, Jacklin -> Café Olé (2000) -> Besso, Claudia -> Faith, Fraud, & Minimum Wage (2010)] 
+
+  path: 2[1312705 -> 1312705], [Deception (2003) -> Deception (2003)]
+srcNodes: [1289002, 1578358, 8014816]
+  path: 0[1578358 -> 2080393 -> 1289002], [Mr. Fraud (2009) -> Devgan, Ajay -> Company (2002)] 
+
+  path: 1[1578358 -> 1578358], [Mr. Fraud (2009) -> Mr. Fraud (2009)]
+  path: 2[1578358 -> 4005943 -> 1437037 -> 8014816], [Mr. Fraud (2009) -> Burmawalla, Mastan Alibhai -> Humraaz (2002) -> billionaire,blackmail,cruise-ship,dance-team,deception,gold-digger,lap-dog,marriage-by-trickery,murder,one-way-mirror,revenge,rock-band,violence] 
+
+srcNodes: [1763704, 1369736, 1312705]
+  path: 0[2257489 -> 1539049 -> 2302982 -> 1763704], [Powell, Charles Edwin -> Lost Junction (2003) -> Campbell, Neve -> The Company (2003)] 
+
+  path: 1[2257489 -> 1236356 -> 2195450 -> 1369736], [Powell, Charles Edwin -> Believe (2000/I) -> Mabe, Ricky -> Faith, Fraud, & Minimum Wage (2010)] 
+
+  path: 2[2257489 -> 1312705], [Powell, Charles Edwin -> Deception (2003)] 
+
+srcNodes: [1763709, 1369736, 1312705]
+  path: 0[1459234 -> 2139538 -> 1763709], [Isn't She Great (2000) -> Hill, William (I) -> The Company Men (2010)] 
+
+  path: 1[1459234 -> 2195450 -> 1369736], [Isn't She Great (2000) -> Mabe, Ricky -> Faith, Fraud, & Minimum Wage (2010)] 
+
+  path: 2[1459234 -> 2470481 -> 1312705], [Isn't She Great (2000) -> Webb, Jacklin -> Deception (2003)] 
+
+srcNodes: [1450286, 1369736, 1312705]
+  path: 0[1369736 -> 2186430 -> 1458190 -> 2054956 -> 1450286], [Faith, Fraud, & Minimum Wage (2010) -> Levert, Gary -> Irish Eyes (2004) -> Chapman, Kevin (I) -> In Good Company (2004)] 
+
+  path: 1[1369736 -> 1369736], [Faith, Fraud, & Minimum Wage (2010) -> Faith, Fraud, & Minimum Wage (2010)]
+  path: 2[1369736 -> 2195450 -> 1236356 -> 2257489 -> 1312705], [Faith, Fraud, & Minimum Wage (2010) -> Mabe, Ricky -> Believe (2000/I) -> Powell, Charles Edwin -> Deception (2003)] 
+
+srcNodes: [1763704, 1369736, 1312711]
+  path: 0[1312711 -> 2426309 -> 1442427 -> 2209398 -> 1763704], [Deception (2008/I) -> Rampling, Charlotte -> I'll Sleep When I'm Dead (2003) -> McDowell, Malcolm -> The Company (2003)] 
+
+  path: 1[1312711 -> 2473353 -> 1178682 -> 2396287 -> 1369736], [Deception (2008/I) -> Williams, Michelle (I) -> A Hole in One (2004) -> McLean, Rhonda -> Faith, Fraud, & Minimum Wage (2010)] 
+
+  path: 2[1312711 -> 1312711], [Deception (2008/I) -> Deception (2008/I)]
+srcNodes: [1763704, 1369736, 1796784]
+  path: 0[1796784 -> 2033890 -> 1232442 -> 2310577 -> 1763704], [The North Pole Deception (2010) -> Boone Junior, Mark -> Batman Begins (2005) -> Closson, Kimber -> The Company (2003)] 
+
+  path: 1[1796784 -> 2033890 -> 1562455 -> 2267526 -> 1369736], [The North Pole Deception (2010) -> Boone Junior, Mark -> Memento (2000) -> Rennie, Callum Keith -> Faith, Fraud, & Minimum Wage (2010)] 
+
+  path: 2[1796784 -> 1796784], [The North Pole Deception (2010) -> The North Pole Deception (2010)]
+srcNodes: [1763709, 1369736, 8008896]
+  path: 0[1796477 -> 2421758 -> 1763709], [The Night Listener (2006) -> Plunkett, Maryann -> The Company Men (2010)] 
+
+  path: 1[1796477 -> 2224328 -> 1629900 -> 2267526 -> 1369736], [The Night Listener (2006) -> Morton, Joe (I) -> Paycheck (2003) -> Rennie, Callum Keith -> Faith, Fraud, & Minimum Wage (2010)] 
+
+  path: 2[1796477 -> 2381047 -> 1647614 -> 8008896], [The Night Listener (2006) -> Lemos, Guenia -> Pretty (2005) -> deception] 
+
+srcNodes: [1763704, 1578358, 1312705]
+  path: 0[1708011 -> 2302982 -> 1763704], [Singularity (2011/II) -> Campbell, Neve -> The Company (2003)] 
+
+  path: 1[1708011 -> 2288473 -> 1578358], [Singularity (2011/II) -> Basu, Bipasha -> Mr. Fraud (2009)] 
+
+  path: 2[1708011 -> 2302982 -> 1539049 -> 2257489 -> 1312705], [Singularity (2011/II) -> Campbell, Neve -> Lost Junction (2003) -> Powell, Charles Edwin -> Deception (2003)] 
+
+srcNodes: [1227474, 1578358, 1312711]
+  path: 0[1227474 -> 1227474], [Badmaa$h Company (2010) -> Badmaa$h Company (2010)]
+  path: 1[1227474 -> 2161518 -> 1701770 -> 2288473 -> 1578358], [Badmaa$h Company (2010) -> Kapoor, Shahid -> Shikhar (2005) -> Basu, Bipasha -> Mr. Fraud (2009)] 
+
+  path: 2[1227474 -> 2316040 -> 1680978 -> 2165909 -> 1312711], [Badmaa$h Company (2010) -> Czop, Jessica -> Safe (2011/II) -> Kershner, Basil -> Deception (2008/I)] 
+
+srcNodes: [1800665, 1369736, 1312705]
+  path: 0[2292097 -> 1443330 -> 2219516 -> 1800665], [Besso, Claudia -> Ice Age: Dawn of the Dinosaurs (2009) -> Mizrahi, Regan -> The Pleasure of Your Company (2006)] 
+
+  path: 1[2292097 -> 1369736], [Besso, Claudia -> Faith, Fraud, & Minimum Wage (2010)] 
+
+  path: 2[2292097 -> 1264895 -> 2470481 -> 1312705], [Besso, Claudia -> Café Olé (2000) -> Webb, Jacklin -> Deception (2003)] 
+
+srcNodes: [1763704, 1369736, 1796784]
+  path: 0[2033890 -> 1232442 -> 2310577 -> 1763704], [Boone Junior, Mark -> Batman Begins (2005) -> Closson, Kimber -> The Company (2003)] 
+
+  path: 1[2033890 -> 1562455 -> 2267526 -> 1369736], [Boone Junior, Mark -> Memento (2000) -> Rennie, Callum Keith -> Faith, Fraud, & Minimum Wage (2010)] 
+
+  path: 2[2033890 -> 1796784], [Boone Junior, Mark -> The North Pole Deception (2010)] 
+
+srcNodes: [1289002, 1578358, 8018063]
+  path: 0[1417171 -> 2056766 -> 1289002], [Hathyar: Face to Face with Reality (2002) -> Chhaya, Harsh -> Company (2002)] 
+
+  path: 1[1417171 -> 2088863 -> 1578358], [Hathyar: Face to Face with Reality (2002) -> Dutt, Sanjay -> Mr. Fraud (2009)] 
+
+  path: 2[1417171 -> 2124463 -> 1513299 -> 8018063], [Hathyar: Face to Face with Reality (2002) -> Grover, Gulshan -> Lashkar: The War Against Terror (2010) -> deception,emotional-shock,government,terrorism] 
+
+srcNodes: [1289002, 1578358, 8018063]
+  path: 0[1511255 -> 2393226 -> 1289002], [Lajja (2001) -> Matondkar, Urmila -> Company (2002)] 
+
+  path: 1[1511255 -> 2080393 -> 1578358], [Lajja (2001) -> Devgan, Ajay -> Mr. Fraud (2009)] 
+
+  path: 2[1511255 -> 2124463 -> 1513299 -> 8018063], [Lajja (2001) -> Grover, Gulshan -> Lashkar: The War Against Terror (2010) -> deception,emotional-shock,government,terrorism] 
+
+srcNodes: [1289002, 1578358, 8018063]
+  path: 0[1413103 -> 2080393 -> 1289002], [Halla Bol (2008) -> Devgan, Ajay -> Company (2002)] 
+
+  path: 1[1413103 -> 2080393 -> 1578358], [Halla Bol (2008) -> Devgan, Ajay -> Mr. Fraud (2009)] 
+
+  path: 2[1413103 -> 2028401 -> 1513299 -> 8018063], [Halla Bol (2008) -> Bhargav, Abhay -> Lashkar: The War Against Terror (2010) -> deception,emotional-shock,government,terrorism] 
+
+srcNodes: [1289002, 1578358, 8018063]
+  path: 0[1313433 -> 2393226 -> 1289002], [Deewane (2000) -> Matondkar, Urmila -> Company (2002)] 
+
+  path: 1[1313433 -> 2080393 -> 1578358], [Deewane (2000) -> Devgan, Ajay -> Mr. Fraud (2009)] 
+
+  path: 2[1313433 -> 2124463 -> 1513299 -> 8018063], [Deewane (2000) -> Grover, Gulshan -> Lashkar: The War Against Terror (2010) -> deception,emotional-shock,government,terrorism] 
+
+srcNodes: [1289002, 1578358, 8018063]
+  path: 0[1436727 -> 2080393 -> 1289002], [Hum Kisi Se Kum Nahin (2002) -> Devgan, Ajay -> Company (2002)] 
+
+  path: 1[1436727 -> 2088863 -> 1578358], [Hum Kisi Se Kum Nahin (2002) -> Dutt, Sanjay -> Mr. Fraud (2009)] 
+
+  path: 2[1436727 -> 2270719 -> 1513299 -> 8018063], [Hum Kisi Se Kum Nahin (2002) -> Rishi, Mukesh -> Lashkar: The War Against Terror (2010) -> deception,emotional-shock,government,terrorism] 
+
+srcNodes: [1289002, 1578358, 8018063]
+  path: 0[1740236 -> 2080393 -> 1289002], [Taarzan: The Wonder Car (2004) -> Devgan, Ajay -> Company (2002)] 
+
+  path: 1[1740236 -> 4005943 -> 1578358], [Taarzan: The Wonder Car (2004) -> Burmawalla, Mastan Alibhai -> Mr. Fraud (2009)] 
+
+  path: 2[1740236 -> 2124463 -> 1513299 -> 8018063], [Taarzan: The Wonder Car (2004) -> Grover, Gulshan -> Lashkar: The War Against Terror (2010) -> deception,emotional-shock,government,terrorism] 
+
+srcNodes: [7001142, 1578358, 8018063]
+  path: 0[2288473 -> 1213230 -> 7001142], [Basu, Bipasha -> Apaharan (2005) -> references Company (] 
+
+  path: 1[2288473 -> 1578358], [Basu, Bipasha -> Mr. Fraud (2009)] 
+
+  path: 2[2288473 -> 1592112 -> 2270719 -> 1513299 -> 8018063], [Basu, Bipasha -> Nehlle Pe Dehlla (2007) -> Rishi, Mukesh -> Lashkar: The War Against Terror (2010) -> deception,emotional-shock,government,terrorism] 
+
+-----------------------------------------
+ResultDestNodes: [1289002, 1312705, 1578358, 2257489, 1459234, 1369736, 1312711, 1796784, 1796477, 1708011, 1227474, 2292097, 2033890, 1417171, 1511255, 1413103, 1313433, 1436727, 1740236, 2288473]
+ResultRelevs: [7.743301868438721, 7.679237365722656, 7.632668972015381, 6.991399765014648, 6.6960835456848145, 6.672904968261719, 6.664731025695801, 6.664725303649902, 6.379101276397705, 6.3558244705200195, 6.310724258422852, 6.3096771240234375, 6.282286643981934, 6.2418317794799805, 6.2418317794799805, 6.2418317794799805, 6.2418317794799805, 6.2418317794799805, 6.2418317794799805, 6.225097179412842]
+AvgResultRelev: 6.602937722206116
+AvgResultDissimilarity: 0.6964912280701765
+Num of entries retrieved from the KNLists: 3526
+Num of entries retrieved from NKMaps: 6486
+Num of answer trees explored: 2616
+Num of states created: 2848163
+Num of states explored: 2845958
+Num of heuristic search performed: 14
+
+Div Top-k Search by Astar1nc_ap_new, k=20
+[company, fraud, deception]
+srcNodes: [1289002, 1578358, 8024801]
+  path: 0[1289002 -> 1289002], [Company (2002) -> Company (2002)]
+  path: 1[1289002 -> 2080393 -> 1578358], [Company (2002) -> Devgan, Ajay -> Mr. Fraud (2009)] 
+
+  path: 2[1289002 -> 2373357 -> 1654718 -> 8024801], [Company (2002) -> Koppikar, Isha -> Pyaar Ishq Aur Mohabbat (2001) -> broken-heart,deception,extremely-rich,fashion-model,heart-disease,love,money,photograph,rose,scholarship,scotland,soul-selling] 
+
+srcNodes: [1763704, 1369736, 1312705]
+  path: 0[1312705 -> 2257489 -> 1539049 -> 2302982 -> 1763704], [Deception (2003) -> Powell, Charles Edwin -> Lost Junction (2003) -> Campbell, Neve -> The Company (2003)] 
+
+  path: 1[1312705 -> 2470481 -> 1264895 -> 2292097 -> 1369736], [Deception (2003) -> Webb, Jacklin -> Café Olé (2000) -> Besso, Claudia -> Faith, Fraud, & Minimum Wage (2010)] 
+
+  path: 2[1312705 -> 1312705], [Deception (2003) -> Deception (2003)]
+srcNodes: [1289002, 1578358, 8014816]
+  path: 0[1578358 -> 2080393 -> 1289002], [Mr. Fraud (2009) -> Devgan, Ajay -> Company (2002)] 
+
+  path: 1[1578358 -> 1578358], [Mr. Fraud (2009) -> Mr. Fraud (2009)]
+  path: 2[1578358 -> 4005943 -> 1437037 -> 8014816], [Mr. Fraud (2009) -> Burmawalla, Mastan Alibhai -> Humraaz (2002) -> billionaire,blackmail,cruise-ship,dance-team,deception,gold-digger,lap-dog,marriage-by-trickery,murder,one-way-mirror,revenge,rock-band,violence] 
+
+srcNodes: [1763704, 1369736, 1312705]
+  path: 0[2257489 -> 1539049 -> 2302982 -> 1763704], [Powell, Charles Edwin -> Lost Junction (2003) -> Campbell, Neve -> The Company (2003)] 
+
+  path: 1[2257489 -> 1236356 -> 2195450 -> 1369736], [Powell, Charles Edwin -> Believe (2000/I) -> Mabe, Ricky -> Faith, Fraud, & Minimum Wage (2010)] 
+
+  path: 2[2257489 -> 1312705], [Powell, Charles Edwin -> Deception (2003)] 
+
+srcNodes: [1763709, 1369736, 1312705]
+  path: 0[1459234 -> 2139538 -> 1763709], [Isn't She Great (2000) -> Hill, William (I) -> The Company Men (2010)] 
+
+  path: 1[1459234 -> 2195450 -> 1369736], [Isn't She Great (2000) -> Mabe, Ricky -> Faith, Fraud, & Minimum Wage (2010)] 
+
+  path: 2[1459234 -> 2470481 -> 1312705], [Isn't She Great (2000) -> Webb, Jacklin -> Deception (2003)] 
+
+srcNodes: [1450286, 1369736, 1312705]
+  path: 0[1369736 -> 2186430 -> 1458190 -> 2054956 -> 1450286], [Faith, Fraud, & Minimum Wage (2010) -> Levert, Gary -> Irish Eyes (2004) -> Chapman, Kevin (I) -> In Good Company (2004)] 
+
+  path: 1[1369736 -> 1369736], [Faith, Fraud, & Minimum Wage (2010) -> Faith, Fraud, & Minimum Wage (2010)]
+  path: 2[1369736 -> 2195450 -> 1236356 -> 2257489 -> 1312705], [Faith, Fraud, & Minimum Wage (2010) -> Mabe, Ricky -> Believe (2000/I) -> Powell, Charles Edwin -> Deception (2003)] 
+
+srcNodes: [1763704, 1369736, 1312711]
+  path: 0[1312711 -> 2426309 -> 1442427 -> 2209398 -> 1763704], [Deception (2008/I) -> Rampling, Charlotte -> I'll Sleep When I'm Dead (2003) -> McDowell, Malcolm -> The Company (2003)] 
+
+  path: 1[1312711 -> 2473353 -> 1178682 -> 2396287 -> 1369736], [Deception (2008/I) -> Williams, Michelle (I) -> A Hole in One (2004) -> McLean, Rhonda -> Faith, Fraud, & Minimum Wage (2010)] 
+
+  path: 2[1312711 -> 1312711], [Deception (2008/I) -> Deception (2008/I)]
+srcNodes: [1763704, 1369736, 1796784]
+  path: 0[1796784 -> 2033890 -> 1232442 -> 2310577 -> 1763704], [The North Pole Deception (2010) -> Boone Junior, Mark -> Batman Begins (2005) -> Closson, Kimber -> The Company (2003)] 
+
+  path: 1[1796784 -> 2033890 -> 1562455 -> 2267526 -> 1369736], [The North Pole Deception (2010) -> Boone Junior, Mark -> Memento (2000) -> Rennie, Callum Keith -> Faith, Fraud, & Minimum Wage (2010)] 
+
+  path: 2[1796784 -> 1796784], [The North Pole Deception (2010) -> The North Pole Deception (2010)]
+srcNodes: [1763709, 1369736, 8008896]
+  path: 0[1796477 -> 2421758 -> 1763709], [The Night Listener (2006) -> Plunkett, Maryann -> The Company Men (2010)] 
+
+  path: 1[1796477 -> 2224328 -> 1629900 -> 2267526 -> 1369736], [The Night Listener (2006) -> Morton, Joe (I) -> Paycheck (2003) -> Rennie, Callum Keith -> Faith, Fraud, & Minimum Wage (2010)] 
+
+  path: 2[1796477 -> 2381047 -> 1647614 -> 8008896], [The Night Listener (2006) -> Lemos, Guenia -> Pretty (2005) -> deception] 
+
+srcNodes: [1763704, 1578358, 1312705]
+  path: 0[1708011 -> 2302982 -> 1763704], [Singularity (2011/II) -> Campbell, Neve -> The Company (2003)] 
+
+  path: 1[1708011 -> 2288473 -> 1578358], [Singularity (2011/II) -> Basu, Bipasha -> Mr. Fraud (2009)] 
+
+  path: 2[1708011 -> 2302982 -> 1539049 -> 2257489 -> 1312705], [Singularity (2011/II) -> Campbell, Neve -> Lost Junction (2003) -> Powell, Charles Edwin -> Deception (2003)] 
+
+srcNodes: [1227474, 1578358, 1312711]
+  path: 0[1227474 -> 1227474], [Badmaa$h Company (2010) -> Badmaa$h Company (2010)]
+  path: 1[1227474 -> 2161518 -> 1701770 -> 2288473 -> 1578358], [Badmaa$h Company (2010) -> Kapoor, Shahid -> Shikhar (2005) -> Basu, Bipasha -> Mr. Fraud (2009)] 
+
+  path: 2[1227474 -> 2316040 -> 1680978 -> 2165909 -> 1312711], [Badmaa$h Company (2010) -> Czop, Jessica -> Safe (2011/II) -> Kershner, Basil -> Deception (2008/I)] 
+
+srcNodes: [1800665, 1369736, 1312705]
+  path: 0[2292097 -> 1443330 -> 2219516 -> 1800665], [Besso, Claudia -> Ice Age: Dawn of the Dinosaurs (2009) -> Mizrahi, Regan -> The Pleasure of Your Company (2006)] 
+
+  path: 1[2292097 -> 1369736], [Besso, Claudia -> Faith, Fraud, & Minimum Wage (2010)] 
+
+  path: 2[2292097 -> 1264895 -> 2470481 -> 1312705], [Besso, Claudia -> Café Olé (2000) -> Webb, Jacklin -> Deception (2003)] 
+
+srcNodes: [1763704, 1369736, 1796784]
+  path: 0[2033890 -> 1232442 -> 2310577 -> 1763704], [Boone Junior, Mark -> Batman Begins (2005) -> Closson, Kimber -> The Company (2003)] 
+
+  path: 1[2033890 -> 1562455 -> 2267526 -> 1369736], [Boone Junior, Mark -> Memento (2000) -> Rennie, Callum Keith -> Faith, Fraud, & Minimum Wage (2010)] 
+
+  path: 2[2033890 -> 1796784], [Boone Junior, Mark -> The North Pole Deception (2010)] 
+
+srcNodes: [1289002, 1578358, 8018063]
+  path: 0[1474308 -> 2373357 -> 1289002], [Kaante (2002) -> Koppikar, Isha -> Company (2002)] 
+
+  path: 1[1474308 -> 2088863 -> 1578358], [Kaante (2002) -> Dutt, Sanjay -> Mr. Fraud (2009)] 
+
+  path: 2[1474308 -> 2124463 -> 1513299 -> 8018063], [Kaante (2002) -> Grover, Gulshan -> Lashkar: The War Against Terror (2010) -> deception,emotional-shock,government,terrorism] 
+
+srcNodes: [1289002, 1578358, 8018063]
+  path: 0[1511255 -> 2393226 -> 1289002], [Lajja (2001) -> Matondkar, Urmila -> Company (2002)] 
+
+  path: 1[1511255 -> 2080393 -> 1578358], [Lajja (2001) -> Devgan, Ajay -> Mr. Fraud (2009)] 
+
+  path: 2[1511255 -> 2124463 -> 1513299 -> 8018063], [Lajja (2001) -> Grover, Gulshan -> Lashkar: The War Against Terror (2010) -> deception,emotional-shock,government,terrorism] 
+
+srcNodes: [1289002, 1578358, 8018063]
+  path: 0[1413103 -> 2080393 -> 1289002], [Halla Bol (2008) -> Devgan, Ajay -> Company (2002)] 
+
+  path: 1[1413103 -> 2080393 -> 1578358], [Halla Bol (2008) -> Devgan, Ajay -> Mr. Fraud (2009)] 
+
+  path: 2[1413103 -> 2028401 -> 1513299 -> 8018063], [Halla Bol (2008) -> Bhargav, Abhay -> Lashkar: The War Against Terror (2010) -> deception,emotional-shock,government,terrorism] 
+
+srcNodes: [1289002, 1578358, 8018063]
+  path: 0[1225000 -> 2372811 -> 1289002], [Baaghi (2000) -> Koirala, Manisha -> Company (2002)] 
+
+  path: 1[1225000 -> 2088863 -> 1578358], [Baaghi (2000) -> Dutt, Sanjay -> Mr. Fraud (2009)] 
+
+  path: 2[1225000 -> 2124463 -> 1513299 -> 8018063], [Baaghi (2000) -> Grover, Gulshan -> Lashkar: The War Against Terror (2010) -> deception,emotional-shock,government,terrorism] 
+
+srcNodes: [1289002, 1578358, 8018063]
+  path: 0[1313433 -> 2393226 -> 1289002], [Deewane (2000) -> Matondkar, Urmila -> Company (2002)] 
+
+  path: 1[1313433 -> 2080393 -> 1578358], [Deewane (2000) -> Devgan, Ajay -> Mr. Fraud (2009)] 
+
+  path: 2[1313433 -> 2124463 -> 1513299 -> 8018063], [Deewane (2000) -> Grover, Gulshan -> Lashkar: The War Against Terror (2010) -> deception,emotional-shock,government,terrorism] 
+
+srcNodes: [1289002, 1578358, 8018063]
+  path: 0[1246873 -> 2080393 -> 1289002], [Blackmail (2005) -> Devgan, Ajay -> Company (2002)] 
+
+  path: 1[1246873 -> 2080393 -> 1578358], [Blackmail (2005) -> Devgan, Ajay -> Mr. Fraud (2009)] 
+
+  path: 2[1246873 -> 2270719 -> 1513299 -> 8018063], [Blackmail (2005) -> Rishi, Mukesh -> Lashkar: The War Against Terror (2010) -> deception,emotional-shock,government,terrorism] 
+
+srcNodes: [7001142, 1578358, 8018063]
+  path: 0[2288473 -> 1213230 -> 7001142], [Basu, Bipasha -> Apaharan (2005) -> references Company (] 
+
+  path: 1[2288473 -> 1578358], [Basu, Bipasha -> Mr. Fraud (2009)] 
+
+  path: 2[2288473 -> 1592112 -> 2270719 -> 1513299 -> 8018063], [Basu, Bipasha -> Nehlle Pe Dehlla (2007) -> Rishi, Mukesh -> Lashkar: The War Against Terror (2010) -> deception,emotional-shock,government,terrorism] 
+
+-----------------------------------------
+ResultDestNodes: [1289002, 1312705, 1578358, 2257489, 1459234, 1369736, 1312711, 1796784, 1796477, 1708011, 1227474, 2292097, 2033890, 1474308, 1511255, 1413103, 1225000, 1313433, 1246873, 2288473]
+ResultRelevs: [7.743301868438721, 7.679237365722656, 7.632668972015381, 6.991399765014648, 6.6960835456848145, 6.672904968261719, 6.664731025695801, 6.664725303649902, 6.379101276397705, 6.3558244705200195, 6.310724258422852, 6.3096771240234375, 6.282286643981934, 6.2418317794799805, 6.2418317794799805, 6.2418317794799805, 6.2418317794799805, 6.2418317794799805, 6.2418317794799805, 6.225097179412842]
+AvgResultRelev: 6.602937722206116
+AvgResultDissimilarity: 0.6964912280701765
+Num of entries retrieved from the KNLists: 3562
+Num of entries retrieved from NKMaps: 6551
+Num of answer trees explored: 2637
+Num of states created: 1815
+Num of states explored: 287
+Num of heuristic search performed: 2
+
+query: [murder, psycho, thriller]
+Top-k Search by Blink-BDB, k=20
+[murder, psycho, thriller]
+srcNodes: [8001318, 7009862, 5000057]
+  path: 0[1802339 -> 8001318], [The Prophet's Game (2000) -> murder] 
+
+  path: 1[1802339 -> 7009862], [The Prophet's Game (2000) -> references Psycho (1] 
+
+  path: 2[1802339 -> 5000057], [The Prophet's Game (2000) -> Thriller] 
+
+srcNodes: [1817790, 7010142, 5000057]
+  path: 0[1817790 -> 1817790], [The Utah Murder Project (2006) -> The Utah Murder Project (2006)]
+  path: 1[1817790 -> 7010142], [The Utah Murder Project (2006) -> references Psycho (1] 
+
+  path: 2[1817790 -> 5000057], [The Utah Murder Project (2006) -> Thriller] 
+
+srcNodes: [8029630, 8029630, 8029630]
+  path: 0[8029630 -> 8029630], [murder,psycho-thriller -> murder,psycho-thriller]
+  path: 1[8029630 -> 8029630], [murder,psycho-thriller -> murder,psycho-thriller]
+  path: 2[8029630 -> 8029630], [murder,psycho-thriller -> murder,psycho-thriller]
+srcNodes: [1580700, 8002365, 5000057]
+  path: 0[1429143 -> 2179796 -> 1301087 -> 2061208 -> 1580700], [Holding God (2011) -> Langham, Wallace -> Daddy Day Care (2003) -> Cockrum, Dennis -> Murder by Numbers (2002)] 
+
+  path: 1[1429143 -> 8002365], [Holding God (2011) -> psycho-thriller] 
+
+  path: 2[1429143 -> 5000057], [Holding God (2011) -> Thriller] 
+
+srcNodes: [8029737, 8029737, 8029737]
+  path: 0[8029737 -> 8029737], [cult,murder,psycho-thriller,suspense -> cult,murder,psycho-thriller,suspense]
+  path: 1[8029737 -> 8029737], [cult,murder,psycho-thriller,suspense -> cult,murder,psycho-thriller,suspense]
+  path: 2[8029737 -> 8029737], [cult,murder,psycho-thriller,suspense -> cult,murder,psycho-thriller,suspense]
+srcNodes: [1709131, 8002365, 5000057]
+  path: 0[1291479 -> 2364606 -> 1504309 -> 2423892 -> 1709131], [Convictions (2004) -> Jones, Melvina -> La mission (2009) -> Prinz, Anya -> Six Sex Scenes and a Murder (2008)] 
+
+  path: 1[1291479 -> 8002365], [Convictions (2004) -> psycho-thriller] 
+
+  path: 2[1291479 -> 5000057], [Convictions (2004) -> Thriller] 
+
+srcNodes: [8001318, 7011077, 5000057]
+  path: 0[1794943 -> 8001318], [The Murder (2002) -> murder] 
+
+  path: 1[1794943 -> 2462372 -> 1885834 -> 7011077], [The Murder (2002) -> Turner, Tracey D. -> Wonder Boys (2000) -> featured in ... A Fa] 
+
+  path: 2[1794943 -> 5000057], [The Murder (2002) -> Thriller] 
+
+srcNodes: [8001318, 7009862, 5000057]
+  path: 0[2128295 -> 1802339 -> 8001318], [Haines, Craig -> The Prophet's Game (2000) -> murder] 
+
+  path: 1[2128295 -> 1802339 -> 7009862], [Haines, Craig -> The Prophet's Game (2000) -> references Psycho (1] 
+
+  path: 2[2128295 -> 1802339 -> 5000057], [Haines, Craig -> The Prophet's Game (2000) -> Thriller] 
+
+This is a non-reduced answer tree with common first node 1802339
+
+srcNodes: [8001318, 7009862, 5000057]
+  path: 0[2479067 -> 1802339 -> 8001318], [Zimbalist, Stephanie -> The Prophet's Game (2000) -> murder] 
+
+  path: 1[2479067 -> 1802339 -> 7009862], [Zimbalist, Stephanie -> The Prophet's Game (2000) -> references Psycho (1] 
+
+  path: 2[2479067 -> 1802339 -> 5000057], [Zimbalist, Stephanie -> The Prophet's Game (2000) -> Thriller] 
+
+This is a non-reduced answer tree with common first node 1802339
+
+srcNodes: [8001318, 7009862, 5000057]
+  path: 0[2087129 -> 1802339 -> 8001318], [Ducote, Andrew -> The Prophet's Game (2000) -> murder] 
+
+  path: 1[2087129 -> 1802339 -> 7009862], [Ducote, Andrew -> The Prophet's Game (2000) -> references Psycho (1] 
+
+  path: 2[2087129 -> 1802339 -> 5000057], [Ducote, Andrew -> The Prophet's Game (2000) -> Thriller] 
+
+This is a non-reduced answer tree with common first node 1802339
+
+srcNodes: [8001318, 7009862, 5000057]
+  path: 0[2064654 -> 1802339 -> 8001318], [Cooper, Darin -> The Prophet's Game (2000) -> murder] 
+
+  path: 1[2064654 -> 1802339 -> 7009862], [Cooper, Darin -> The Prophet's Game (2000) -> references Psycho (1] 
+
+  path: 2[2064654 -> 1802339 -> 5000057], [Cooper, Darin -> The Prophet's Game (2000) -> Thriller] 
+
+This is a non-reduced answer tree with common first node 1802339
+
+srcNodes: [8001318, 7009862, 5000057]
+  path: 0[2187044 -> 1802339 -> 8001318], [Lewis, Geoffrey (I) -> The Prophet's Game (2000) -> murder] 
+
+  path: 1[2187044 -> 1802339 -> 7009862], [Lewis, Geoffrey (I) -> The Prophet's Game (2000) -> references Psycho (1] 
+
+  path: 2[2187044 -> 1802339 -> 5000057], [Lewis, Geoffrey (I) -> The Prophet's Game (2000) -> Thriller] 
+
+This is a non-reduced answer tree with common first node 1802339
+
+srcNodes: [8001318, 7009862, 5000057]
+  path: 0[2394805 -> 1802339 -> 8001318], [McCole Bartusiak, Skye -> The Prophet's Game (2000) -> murder] 
+
+  path: 1[2394805 -> 1802339 -> 7009862], [McCole Bartusiak, Skye -> The Prophet's Game (2000) -> references Psycho (1] 
+
+  path: 2[2394805 -> 1802339 -> 5000057], [McCole Bartusiak, Skye -> The Prophet's Game (2000) -> Thriller] 
+
+This is a non-reduced answer tree with common first node 1802339
+
+srcNodes: [8001318, 7009862, 5000057]
+  path: 0[2294411 -> 1802339 -> 8001318], [Blye, Margaret -> The Prophet's Game (2000) -> murder] 
+
+  path: 1[2294411 -> 1802339 -> 7009862], [Blye, Margaret -> The Prophet's Game (2000) -> references Psycho (1] 
+
+  path: 2[2294411 -> 1802339 -> 5000057], [Blye, Margaret -> The Prophet's Game (2000) -> Thriller] 
+
+This is a non-reduced answer tree with common first node 1802339
+
+srcNodes: [8001318, 7009862, 5000057]
+  path: 0[2249562 -> 1802339 -> 8001318], [Penny, Joe -> The Prophet's Game (2000) -> murder] 
+
+  path: 1[2249562 -> 1802339 -> 7009862], [Penny, Joe -> The Prophet's Game (2000) -> references Psycho (1] 
+
+  path: 2[2249562 -> 1802339 -> 5000057], [Penny, Joe -> The Prophet's Game (2000) -> Thriller] 
+
+This is a non-reduced answer tree with common first node 1802339
+
+srcNodes: [8001318, 7009862, 5000057]
+  path: 0[2159824 -> 1802339 -> 8001318], [Kahler, John -> The Prophet's Game (2000) -> murder] 
+
+  path: 1[2159824 -> 1802339 -> 7009862], [Kahler, John -> The Prophet's Game (2000) -> references Psycho (1] 
+
+  path: 2[2159824 -> 1802339 -> 5000057], [Kahler, John -> The Prophet's Game (2000) -> Thriller] 
+
+This is a non-reduced answer tree with common first node 1802339
+
+srcNodes: [8001318, 7009862, 5000057]
+  path: 0[2163408 -> 1802339 -> 8001318], [Kaye, Thorsten -> The Prophet's Game (2000) -> murder] 
+
+  path: 1[2163408 -> 1802339 -> 7009862], [Kaye, Thorsten -> The Prophet's Game (2000) -> references Psycho (1] 
+
+  path: 2[2163408 -> 1802339 -> 5000057], [Kaye, Thorsten -> The Prophet's Game (2000) -> Thriller] 
+
+This is a non-reduced answer tree with common first node 1802339
+
+srcNodes: [8001318, 7009862, 5000057]
+  path: 0[2401883 -> 1802339 -> 8001318], [Momsen, Taylor -> The Prophet's Game (2000) -> murder] 
+
+  path: 1[2401883 -> 1802339 -> 7009862], [Momsen, Taylor -> The Prophet's Game (2000) -> references Psycho (1] 
+
+  path: 2[2401883 -> 1802339 -> 5000057], [Momsen, Taylor -> The Prophet's Game (2000) -> Thriller] 
+
+This is a non-reduced answer tree with common first node 1802339
+
+srcNodes: [8001318, 7009862, 5000057]
+  path: 0[2004552 -> 1802339 -> 8001318], [Albrecht, Craig (I) -> The Prophet's Game (2000) -> murder] 
+
+  path: 1[2004552 -> 1802339 -> 7009862], [Albrecht, Craig (I) -> The Prophet's Game (2000) -> references Psycho (1] 
+
+  path: 2[2004552 -> 1802339 -> 5000057], [Albrecht, Craig (I) -> The Prophet's Game (2000) -> Thriller] 
+
+This is a non-reduced answer tree with common first node 1802339
+
+srcNodes: [8001318, 7009862, 5000057]
+  path: 0[2384172 -> 1802339 -> 8001318], [Locke, Sondra -> The Prophet's Game (2000) -> murder] 
+
+  path: 1[2384172 -> 1802339 -> 7009862], [Locke, Sondra -> The Prophet's Game (2000) -> references Psycho (1] 
+
+  path: 2[2384172 -> 1802339 -> 5000057], [Locke, Sondra -> The Prophet's Game (2000) -> Thriller] 
+
+This is a non-reduced answer tree with common first node 1802339
+
+-----------------------------------------
+Num of top-k answers: 20
+ResultDestNodes: [1802339, 1817790, 8029630, 1429143, 8029737, 1291479, 1794943, 2128295, 2479067, 2087129, 2064654, 2187044, 2394805, 2294411, 2249562, 2159824, 2163408, 2401883, 2004552, 2384172]
+ResultRelevs: [11.827208518981934, 10.640739440917969, 10.544944763183594, 9.28522777557373, 9.226827621459961, 9.173036575317383, 9.120607376098633, 8.847588539123535, 8.847588539123535, 8.847588539123535, 8.847588539123535, 8.847588539123535, 8.847588539123535, 8.847588539123535, 8.847588539123535, 8.847588539123535, 8.847588539123535, 8.847588539123535, 8.847588539123535, 8.847588539123535]
+AvgResultRelev: 9.241862154006958
+AvgResultDissimilarity: 0.38596491228070173
+Num of entries retrieved from the lists: 2655
+Num of entries retrieved from NKMaps: 4467
+Num of answer trees explored: 1603
+

@@ -1,0 +1,1095 @@
+query: [disaster, sacrifice, hero]
+Top-k Search by Blink-BDB, k=7
+[disaster, sacrifice, hero]
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[1330956 -> 1330956], [Disaster! (2006) -> Disaster! (2006)]
+  path: 1[1330956 -> 2240326 -> 1763648 -> 2242199 -> 1806449], [Disaster! (2006) -> Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[1330956 -> 2240326 -> 112029 -> 2001445 -> 1747558], [Disaster! (2006) -> Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1680609 -> 2065348 -> 1782878 -> 2240326 -> 1330956], [Sacrifice (2011/I) -> Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1680609 -> 1680609], [Sacrifice (2011/I) -> Sacrifice (2011/I)]
+  path: 2[1680609 -> 2127977 -> 1423271], [Sacrifice (2011/I) -> Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2127977 -> 1630220 -> 2240326 -> 1330956], [Gooding Jr., Cuba -> Pearl Harbor (2001) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2127977 -> 1680609], [Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[2127977 -> 1423271], [Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2065348 -> 1782878 -> 2240326 -> 1330956], [Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2065348 -> 1680609], [Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[2065348 -> 1423271], [Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1423271 -> 2324634 -> 1796034 -> 2197237 -> 1330956], [Hero Wanted (2008) -> Campbell, Christa -> The New Guy (2002) -> Lee, Tommy (VI) -> Disaster! (2006)] 
+
+  path: 1[1423271 -> 2127977 -> 1680609], [Hero Wanted (2008) -> Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[1423271 -> 1423271], [Hero Wanted (2008) -> Hero Wanted (2008)]
+srcNodes: [1330948, 1806449, 1423248]
+  path: 0[1330948 -> 1330948], [Disaster Movie (2008) -> Disaster Movie (2008)]
+  path: 1[1330948 -> 2072180 -> 1779601 -> 2289409 -> 1806449], [Disaster Movie (2008) -> Cox, Tony (I) -> The Hebrew Hammer (2003) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1330948 -> 2141400 -> 1532726 -> 2438526 -> 1423248], [Disaster Movie (2008) -> Harpster, Noah -> Little Black Book (2004) -> Nicholson, Julianne -> Hero (2000)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1245871 -> 2240326 -> 1330956], [Black Hawk Down (2001) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1245871 -> 2065348 -> 1680609], [Black Hawk Down (2001) -> Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[1245871 -> 2065348 -> 1423271], [Black Hawk Down (2001) -> Coates, Kim -> Hero Wanted (2008)] 
+
+-----------------------------------------
+Num of top-k answers: 7
+ResultDestNodes: [1330956, 1680609, 2127977, 2065348, 1423271, 1330948, 1245871]
+ResultRelevs: [7.624281883239746, 7.562954902648926, 7.480304718017578, 7.480304718017578, 7.326974868774414, 6.831882953643799, 6.7923078536987305]
+AvgResultRelev: 7.299858842577253
+AvgResultDissimilarity: 0.42857142857142855
+Num of entries retrieved from the lists: 1642
+Num of entries retrieved from NKMaps: 2732
+Num of answer trees explored: 1031
+
+Div Top-k Search by Exhustive, k=7
+[disaster, sacrifice, hero]
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[1330956 -> 1330956], [Disaster! (2006) -> Disaster! (2006)]
+  path: 1[1330956 -> 2240326 -> 1763648 -> 2242199 -> 1806449], [Disaster! (2006) -> Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[1330956 -> 2240326 -> 112029 -> 2001445 -> 1747558], [Disaster! (2006) -> Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1680609 -> 2065348 -> 1782878 -> 2240326 -> 1330956], [Sacrifice (2011/I) -> Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1680609 -> 1680609], [Sacrifice (2011/I) -> Sacrifice (2011/I)]
+  path: 2[1680609 -> 2127977 -> 1423271], [Sacrifice (2011/I) -> Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2065348 -> 1782878 -> 2240326 -> 1330956], [Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2065348 -> 1680609], [Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[2065348 -> 1423271], [Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2127977 -> 1630220 -> 2240326 -> 1330956], [Gooding Jr., Cuba -> Pearl Harbor (2001) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2127977 -> 1680609], [Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[2127977 -> 1423271], [Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330948, 1806449, 1423248]
+  path: 0[1330948 -> 1330948], [Disaster Movie (2008) -> Disaster Movie (2008)]
+  path: 1[1330948 -> 2072180 -> 1779601 -> 2289409 -> 1806449], [Disaster Movie (2008) -> Cox, Tony (I) -> The Hebrew Hammer (2003) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1330948 -> 2141400 -> 1532726 -> 2438526 -> 1423248], [Disaster Movie (2008) -> Harpster, Noah -> Little Black Book (2004) -> Nicholson, Julianne -> Hero (2000)] 
+
+srcNodes: [8026594, 1806449, 1794812]
+  path: 0[1794812 -> 2485327 -> 1645693 -> 8026594], [The Movie Hero (2003) -> Strassman, Marcia -> Power Play (2003) -> disaster,energy,power] 
+
+  path: 1[1794812 -> 2365787 -> 1584828 -> 2289409 -> 1806449], [The Movie Hero (2003) -> Gibbs, Reedy -> Mysterious Skin (2004) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1794812 -> 1794812], [The Movie Hero (2003) -> The Movie Hero (2003)]
+srcNodes: [1330946, 1680609, 1716592]
+  path: 0[1716592 -> 2121490 -> 1616338 -> 2168475 -> 1330946], [Sometimes a Hero (2003) -> Genesse, Bryan -> Operation Delta Force 3: Clear Target (1999) -> Jones, John Simon -> Disaster (2003)] 
+
+  path: 1[1716592 -> 2336663 -> 1762566 -> 2013018 -> 1680609], [Sometimes a Hero (2003) -> Cox, Christina (I) -> The Chronicles of Riddick (2004) -> Armstrong, Michasha -> Sacrifice (2011/I)] 
+
+  path: 2[1716592 -> 1716592], [Sometimes a Hero (2003) -> Sometimes a Hero (2003)]
+-----------------------------------------
+ResultDestNodes: [1330956, 1680609, 2065348, 2127977, 1330948, 1794812, 1716592]
+ResultRelevs: [7.624281883239746, 7.562954902648926, 7.480304718017578, 7.480304718017578, 6.831882953643799, 6.51259183883667, 6.420555114746094]
+AvgResultRelev: 7.130410875592913
+AvgResultDissimilarity: 0.7142857142857143
+Num of entries retrieved from the KNLists: 2873
+Num of entries retrieved from NKMaps: 4873
+Num of answer trees explored: 1913
+Num of answer tree sets created: 4147
+Num of answer tree sets removed: 4136
+Max Num of answer tree sets in Q[]: 4137
+
+Div Top-k Search by Astar0, k=7
+[disaster, sacrifice, hero]
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[1330956 -> 1330956], [Disaster! (2006) -> Disaster! (2006)]
+  path: 1[1330956 -> 2240326 -> 1763648 -> 2242199 -> 1806449], [Disaster! (2006) -> Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[1330956 -> 2240326 -> 112029 -> 2001445 -> 1747558], [Disaster! (2006) -> Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1680609 -> 2065348 -> 1782878 -> 2240326 -> 1330956], [Sacrifice (2011/I) -> Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1680609 -> 1680609], [Sacrifice (2011/I) -> Sacrifice (2011/I)]
+  path: 2[1680609 -> 2127977 -> 1423271], [Sacrifice (2011/I) -> Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2065348 -> 1782878 -> 2240326 -> 1330956], [Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2065348 -> 1680609], [Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[2065348 -> 1423271], [Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2127977 -> 1630220 -> 2240326 -> 1330956], [Gooding Jr., Cuba -> Pearl Harbor (2001) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2127977 -> 1680609], [Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[2127977 -> 1423271], [Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330948, 1806449, 1423248]
+  path: 0[1330948 -> 1330948], [Disaster Movie (2008) -> Disaster Movie (2008)]
+  path: 1[1330948 -> 2072180 -> 1779601 -> 2289409 -> 1806449], [Disaster Movie (2008) -> Cox, Tony (I) -> The Hebrew Hammer (2003) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1330948 -> 2141400 -> 1532726 -> 2438526 -> 1423248], [Disaster Movie (2008) -> Harpster, Noah -> Little Black Book (2004) -> Nicholson, Julianne -> Hero (2000)] 
+
+srcNodes: [8026594, 1806449, 1794812]
+  path: 0[1794812 -> 2485327 -> 1645693 -> 8026594], [The Movie Hero (2003) -> Strassman, Marcia -> Power Play (2003) -> disaster,energy,power] 
+
+  path: 1[1794812 -> 2365787 -> 1584828 -> 2289409 -> 1806449], [The Movie Hero (2003) -> Gibbs, Reedy -> Mysterious Skin (2004) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1794812 -> 1794812], [The Movie Hero (2003) -> The Movie Hero (2003)]
+srcNodes: [1330946, 1680609, 1716592]
+  path: 0[1716592 -> 2121490 -> 1616338 -> 2168475 -> 1330946], [Sometimes a Hero (2003) -> Genesse, Bryan -> Operation Delta Force 3: Clear Target (1999) -> Jones, John Simon -> Disaster (2003)] 
+
+  path: 1[1716592 -> 2336663 -> 1762566 -> 2013018 -> 1680609], [Sometimes a Hero (2003) -> Cox, Christina (I) -> The Chronicles of Riddick (2004) -> Armstrong, Michasha -> Sacrifice (2011/I)] 
+
+  path: 2[1716592 -> 1716592], [Sometimes a Hero (2003) -> Sometimes a Hero (2003)]
+-----------------------------------------
+ResultDestNodes: [1330956, 1680609, 2065348, 2127977, 1330948, 1794812, 1716592]
+ResultRelevs: [7.624281883239746, 7.562954902648926, 7.480304718017578, 7.480304718017578, 6.831882953643799, 6.51259183883667, 6.420555114746094]
+AvgResultRelev: 7.130410875592913
+AvgResultDissimilarity: 0.7142857142857141
+Num of entries retrieved from the KNLists: 2873
+Num of entries retrieved from NKMaps: 4873
+Num of answer trees explored: 1913
+Num of states created: 8515
+Num of states explored: 5930
+Num of heuristic search performed: 19
+Max Num of answer tree sets in Q[]: 415
+
+Div Top-k Search by Astar1, k=7
+[disaster, sacrifice, hero]
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[1330956 -> 1330956], [Disaster! (2006) -> Disaster! (2006)]
+  path: 1[1330956 -> 2240326 -> 1763648 -> 2242199 -> 1806449], [Disaster! (2006) -> Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[1330956 -> 2240326 -> 112029 -> 2001445 -> 1747558], [Disaster! (2006) -> Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1680609 -> 2065348 -> 1782878 -> 2240326 -> 1330956], [Sacrifice (2011/I) -> Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1680609 -> 1680609], [Sacrifice (2011/I) -> Sacrifice (2011/I)]
+  path: 2[1680609 -> 2127977 -> 1423271], [Sacrifice (2011/I) -> Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2065348 -> 1782878 -> 2240326 -> 1330956], [Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2065348 -> 1680609], [Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[2065348 -> 1423271], [Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2127977 -> 1630220 -> 2240326 -> 1330956], [Gooding Jr., Cuba -> Pearl Harbor (2001) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2127977 -> 1680609], [Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[2127977 -> 1423271], [Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330948, 1806449, 1423248]
+  path: 0[1330948 -> 1330948], [Disaster Movie (2008) -> Disaster Movie (2008)]
+  path: 1[1330948 -> 2072180 -> 1779601 -> 2289409 -> 1806449], [Disaster Movie (2008) -> Cox, Tony (I) -> The Hebrew Hammer (2003) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1330948 -> 2141400 -> 1532726 -> 2438526 -> 1423248], [Disaster Movie (2008) -> Harpster, Noah -> Little Black Book (2004) -> Nicholson, Julianne -> Hero (2000)] 
+
+srcNodes: [8026594, 1806449, 1794812]
+  path: 0[1794812 -> 2485327 -> 1645693 -> 8026594], [The Movie Hero (2003) -> Strassman, Marcia -> Power Play (2003) -> disaster,energy,power] 
+
+  path: 1[1794812 -> 2365787 -> 1584828 -> 2289409 -> 1806449], [The Movie Hero (2003) -> Gibbs, Reedy -> Mysterious Skin (2004) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1794812 -> 1794812], [The Movie Hero (2003) -> The Movie Hero (2003)]
+srcNodes: [1330946, 1680609, 1716592]
+  path: 0[1716592 -> 2121490 -> 1616338 -> 2168475 -> 1330946], [Sometimes a Hero (2003) -> Genesse, Bryan -> Operation Delta Force 3: Clear Target (1999) -> Jones, John Simon -> Disaster (2003)] 
+
+  path: 1[1716592 -> 2336663 -> 1762566 -> 2013018 -> 1680609], [Sometimes a Hero (2003) -> Cox, Christina (I) -> The Chronicles of Riddick (2004) -> Armstrong, Michasha -> Sacrifice (2011/I)] 
+
+  path: 2[1716592 -> 1716592], [Sometimes a Hero (2003) -> Sometimes a Hero (2003)]
+-----------------------------------------
+ResultDestNodes: [1330956, 1680609, 2065348, 2127977, 1330948, 1794812, 1716592]
+ResultRelevs: [7.624281883239746, 7.562954902648926, 7.480304718017578, 7.480304718017578, 6.831882953643799, 6.51259183883667, 6.420555114746094]
+AvgResultRelev: 7.130410875592913
+AvgResultDissimilarity: 0.7142857142857141
+Num of entries retrieved from the KNLists: 2873
+Num of entries retrieved from NKMaps: 4873
+Num of answer trees explored: 1913
+Num of states created: 2889
+Num of states explored: 265
+Num of heuristic search performed: 19
+Max Num of answer tree sets in Q[]: 280
+
+Div Top-k Search by Astar2, k=7
+[disaster, sacrifice, hero]
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[1330956 -> 1330956], [Disaster! (2006) -> Disaster! (2006)]
+  path: 1[1330956 -> 2240326 -> 1763648 -> 2242199 -> 1806449], [Disaster! (2006) -> Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[1330956 -> 2240326 -> 112029 -> 2001445 -> 1747558], [Disaster! (2006) -> Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1680609 -> 2065348 -> 1782878 -> 2240326 -> 1330956], [Sacrifice (2011/I) -> Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1680609 -> 1680609], [Sacrifice (2011/I) -> Sacrifice (2011/I)]
+  path: 2[1680609 -> 2127977 -> 1423271], [Sacrifice (2011/I) -> Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2065348 -> 1782878 -> 2240326 -> 1330956], [Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2065348 -> 1680609], [Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[2065348 -> 1423271], [Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2127977 -> 1630220 -> 2240326 -> 1330956], [Gooding Jr., Cuba -> Pearl Harbor (2001) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2127977 -> 1680609], [Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[2127977 -> 1423271], [Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330948, 1806449, 1423248]
+  path: 0[1330948 -> 1330948], [Disaster Movie (2008) -> Disaster Movie (2008)]
+  path: 1[1330948 -> 2072180 -> 1779601 -> 2289409 -> 1806449], [Disaster Movie (2008) -> Cox, Tony (I) -> The Hebrew Hammer (2003) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1330948 -> 2141400 -> 1532726 -> 2438526 -> 1423248], [Disaster Movie (2008) -> Harpster, Noah -> Little Black Book (2004) -> Nicholson, Julianne -> Hero (2000)] 
+
+srcNodes: [8026594, 1806449, 1794812]
+  path: 0[1794812 -> 2485327 -> 1645693 -> 8026594], [The Movie Hero (2003) -> Strassman, Marcia -> Power Play (2003) -> disaster,energy,power] 
+
+  path: 1[1794812 -> 2365787 -> 1584828 -> 2289409 -> 1806449], [The Movie Hero (2003) -> Gibbs, Reedy -> Mysterious Skin (2004) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1794812 -> 1794812], [The Movie Hero (2003) -> The Movie Hero (2003)]
+srcNodes: [1330946, 1680609, 1716592]
+  path: 0[1716592 -> 2121490 -> 1616338 -> 2168475 -> 1330946], [Sometimes a Hero (2003) -> Genesse, Bryan -> Operation Delta Force 3: Clear Target (1999) -> Jones, John Simon -> Disaster (2003)] 
+
+  path: 1[1716592 -> 2336663 -> 1762566 -> 2013018 -> 1680609], [Sometimes a Hero (2003) -> Cox, Christina (I) -> The Chronicles of Riddick (2004) -> Armstrong, Michasha -> Sacrifice (2011/I)] 
+
+  path: 2[1716592 -> 1716592], [Sometimes a Hero (2003) -> Sometimes a Hero (2003)]
+-----------------------------------------
+ResultDestNodes: [1330956, 1680609, 2065348, 2127977, 1330948, 1794812, 1716592]
+ResultRelevs: [7.624281883239746, 7.562954902648926, 7.480304718017578, 7.480304718017578, 6.831882953643799, 6.51259183883667, 6.420555114746094]
+AvgResultRelev: 7.130410875592913
+AvgResultDissimilarity: 0.7142857142857141
+Num of entries retrieved from the KNLists: 2873
+Num of entries retrieved from NKMaps: 4873
+Num of answer trees explored: 1913
+Num of states created: 6260
+Num of states explored: 5910
+Num of heuristic search performed: 19
+Max Num of answer tree sets in Q[]: 415
+
+Div Top-k Search by Astar12, k=7
+[disaster, sacrifice, hero]
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[1330956 -> 1330956], [Disaster! (2006) -> Disaster! (2006)]
+  path: 1[1330956 -> 2240326 -> 1763648 -> 2242199 -> 1806449], [Disaster! (2006) -> Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[1330956 -> 2240326 -> 112029 -> 2001445 -> 1747558], [Disaster! (2006) -> Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1680609 -> 2065348 -> 1782878 -> 2240326 -> 1330956], [Sacrifice (2011/I) -> Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1680609 -> 1680609], [Sacrifice (2011/I) -> Sacrifice (2011/I)]
+  path: 2[1680609 -> 2127977 -> 1423271], [Sacrifice (2011/I) -> Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2065348 -> 1782878 -> 2240326 -> 1330956], [Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2065348 -> 1680609], [Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[2065348 -> 1423271], [Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2127977 -> 1630220 -> 2240326 -> 1330956], [Gooding Jr., Cuba -> Pearl Harbor (2001) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2127977 -> 1680609], [Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[2127977 -> 1423271], [Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330948, 1806449, 1423248]
+  path: 0[1330948 -> 1330948], [Disaster Movie (2008) -> Disaster Movie (2008)]
+  path: 1[1330948 -> 2072180 -> 1779601 -> 2289409 -> 1806449], [Disaster Movie (2008) -> Cox, Tony (I) -> The Hebrew Hammer (2003) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1330948 -> 2141400 -> 1532726 -> 2438526 -> 1423248], [Disaster Movie (2008) -> Harpster, Noah -> Little Black Book (2004) -> Nicholson, Julianne -> Hero (2000)] 
+
+srcNodes: [8026594, 1806449, 1794812]
+  path: 0[1794812 -> 2485327 -> 1645693 -> 8026594], [The Movie Hero (2003) -> Strassman, Marcia -> Power Play (2003) -> disaster,energy,power] 
+
+  path: 1[1794812 -> 2365787 -> 1584828 -> 2289409 -> 1806449], [The Movie Hero (2003) -> Gibbs, Reedy -> Mysterious Skin (2004) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1794812 -> 1794812], [The Movie Hero (2003) -> The Movie Hero (2003)]
+srcNodes: [1330946, 1680609, 1716592]
+  path: 0[1716592 -> 2121490 -> 1616338 -> 2168475 -> 1330946], [Sometimes a Hero (2003) -> Genesse, Bryan -> Operation Delta Force 3: Clear Target (1999) -> Jones, John Simon -> Disaster (2003)] 
+
+  path: 1[1716592 -> 2336663 -> 1762566 -> 2013018 -> 1680609], [Sometimes a Hero (2003) -> Cox, Christina (I) -> The Chronicles of Riddick (2004) -> Armstrong, Michasha -> Sacrifice (2011/I)] 
+
+  path: 2[1716592 -> 1716592], [Sometimes a Hero (2003) -> Sometimes a Hero (2003)]
+-----------------------------------------
+ResultDestNodes: [1330956, 1680609, 2065348, 2127977, 1330948, 1794812, 1716592]
+ResultRelevs: [7.624281883239746, 7.562954902648926, 7.480304718017578, 7.480304718017578, 6.831882953643799, 6.51259183883667, 6.420555114746094]
+AvgResultRelev: 7.130410875592913
+AvgResultDissimilarity: 0.7142857142857141
+Num of entries retrieved from the KNLists: 2873
+Num of entries retrieved from NKMaps: 4873
+Num of answer trees explored: 1913
+Num of states created: 2889
+Num of states explored: 265
+Num of heuristic search performed: 19
+Max Num of answer tree sets in Q[]: 280
+
+Div Top-k Search by Astar0nc, k=7
+[disaster, sacrifice, hero]
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[1330956 -> 1330956], [Disaster! (2006) -> Disaster! (2006)]
+  path: 1[1330956 -> 2240326 -> 1763648 -> 2242199 -> 1806449], [Disaster! (2006) -> Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[1330956 -> 2240326 -> 112029 -> 2001445 -> 1747558], [Disaster! (2006) -> Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1680609 -> 2065348 -> 1782878 -> 2240326 -> 1330956], [Sacrifice (2011/I) -> Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1680609 -> 1680609], [Sacrifice (2011/I) -> Sacrifice (2011/I)]
+  path: 2[1680609 -> 2127977 -> 1423271], [Sacrifice (2011/I) -> Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2065348 -> 1782878 -> 2240326 -> 1330956], [Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2065348 -> 1680609], [Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[2065348 -> 1423271], [Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2127977 -> 1630220 -> 2240326 -> 1330956], [Gooding Jr., Cuba -> Pearl Harbor (2001) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2127977 -> 1680609], [Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[2127977 -> 1423271], [Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330948, 1806449, 1423248]
+  path: 0[1330948 -> 1330948], [Disaster Movie (2008) -> Disaster Movie (2008)]
+  path: 1[1330948 -> 2072180 -> 1779601 -> 2289409 -> 1806449], [Disaster Movie (2008) -> Cox, Tony (I) -> The Hebrew Hammer (2003) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1330948 -> 2141400 -> 1532726 -> 2438526 -> 1423248], [Disaster Movie (2008) -> Harpster, Noah -> Little Black Book (2004) -> Nicholson, Julianne -> Hero (2000)] 
+
+srcNodes: [8026594, 1806449, 1794812]
+  path: 0[1794812 -> 2485327 -> 1645693 -> 8026594], [The Movie Hero (2003) -> Strassman, Marcia -> Power Play (2003) -> disaster,energy,power] 
+
+  path: 1[1794812 -> 2365787 -> 1584828 -> 2289409 -> 1806449], [The Movie Hero (2003) -> Gibbs, Reedy -> Mysterious Skin (2004) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1794812 -> 1794812], [The Movie Hero (2003) -> The Movie Hero (2003)]
+srcNodes: [1330946, 1680609, 1716592]
+  path: 0[1716592 -> 2121490 -> 1616338 -> 2168475 -> 1330946], [Sometimes a Hero (2003) -> Genesse, Bryan -> Operation Delta Force 3: Clear Target (1999) -> Jones, John Simon -> Disaster (2003)] 
+
+  path: 1[1716592 -> 2336663 -> 1762566 -> 2013018 -> 1680609], [Sometimes a Hero (2003) -> Cox, Christina (I) -> The Chronicles of Riddick (2004) -> Armstrong, Michasha -> Sacrifice (2011/I)] 
+
+  path: 2[1716592 -> 1716592], [Sometimes a Hero (2003) -> Sometimes a Hero (2003)]
+-----------------------------------------
+ResultDestNodes: [1330956, 1680609, 2065348, 2127977, 1330948, 1794812, 1716592]
+ResultRelevs: [7.624281883239746, 7.562954902648926, 7.480304718017578, 7.480304718017578, 6.831882953643799, 6.51259183883667, 6.420555114746094]
+AvgResultRelev: 7.130410875592913
+AvgResultDissimilarity: 0.7142857142857141
+Num of entries retrieved from the KNLists: 2873
+Num of entries retrieved from NKMaps: 4873
+Num of answer trees explored: 1913
+Num of states created: 6485
+Num of states explored: 3900
+Num of heuristic search performed: 16
+Max Num of answer tree sets in Q[]: 415
+
+Div Top-k Search by Astar12nc, k=7
+[disaster, sacrifice, hero]
+srcNodes: [1330956, 1806449, 1747558]
+  path: 0[1330956 -> 1330956], [Disaster! (2006) -> Disaster! (2006)]
+  path: 1[1330956 -> 2240326 -> 1763648 -> 2242199 -> 1806449], [Disaster! (2006) -> Morshower, Glenn -> The Commission (2003) -> Mulkey, Chris (I) -> The Sacrifice (2008/I)] 
+
+  path: 2[1330956 -> 2240326 -> 112029 -> 2001445 -> 1747558], [Disaster! (2006) -> Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[1680609 -> 2065348 -> 1782878 -> 2240326 -> 1330956], [Sacrifice (2011/I) -> Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1680609 -> 1680609], [Sacrifice (2011/I) -> Sacrifice (2011/I)]
+  path: 2[1680609 -> 2127977 -> 1423271], [Sacrifice (2011/I) -> Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+srcNodes: [1330956, 1680609, 1423271]
+  path: 0[2065348 -> 1782878 -> 2240326 -> 1330956], [Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[2065348 -> 1680609], [Coates, Kim -> Sacrifice (2011/I)] 
+
+  path: 2[2065348 -> 1423271], [Coates, Kim -> Hero Wanted (2008)] 
+
+srcNodes: [1330948, 1806449, 1423248]
+  path: 0[1330948 -> 1330948], [Disaster Movie (2008) -> Disaster Movie (2008)]
+  path: 1[1330948 -> 2072180 -> 1779601 -> 2289409 -> 1806449], [Disaster Movie (2008) -> Cox, Tony (I) -> The Hebrew Hammer (2003) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1330948 -> 2141400 -> 1532726 -> 2438526 -> 1423248], [Disaster Movie (2008) -> Harpster, Noah -> Little Black Book (2004) -> Nicholson, Julianne -> Hero (2000)] 
+
+srcNodes: [1330956, 1806449, 1365881]
+  path: 0[1806449 -> 2242199 -> 1763648 -> 2240326 -> 1330956], [The Sacrifice (2008/I) -> Mulkey, Chris (I) -> The Commission (2003) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1806449 -> 1806449], [The Sacrifice (2008/I) -> The Sacrifice (2008/I)]
+  path: 2[1806449 -> 2455767 -> 1870425 -> 2146007 -> 1365881], [The Sacrifice (2008/I) -> Quinn, Molly C. -> Walk Hard: The Dewey Cox Story (2007) -> Helms, Ed (I) -> Everyone's Hero (2006)] 
+
+srcNodes: [1330956, 8035265, 1535806]
+  path: 0[1535806 -> 2259931 -> 1764226 -> 2240326 -> 1330956], [Lone Hero (2002) -> Oyarzun, Alonso -> The Core (2003) -> Morshower, Glenn -> Disaster! (2006)] 
+
+  path: 1[1535806 -> 2024157 -> 1799233 -> 8035265], [Lone Hero (2002) -> Baylis, James R. -> The Peace Offering (2009) -> family-relationships,peace,sacrifice,suicide] 
+
+  path: 2[1535806 -> 1535806], [Lone Hero (2002) -> Lone Hero (2002)]
+srcNodes: [8026594, 1806449, 1794812]
+  path: 0[1794812 -> 2485327 -> 1645693 -> 8026594], [The Movie Hero (2003) -> Strassman, Marcia -> Power Play (2003) -> disaster,energy,power] 
+
+  path: 1[1794812 -> 2365787 -> 1584828 -> 2289409 -> 1806449], [The Movie Hero (2003) -> Gibbs, Reedy -> Mysterious Skin (2004) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1794812 -> 1794812], [The Movie Hero (2003) -> The Movie Hero (2003)]
+-----------------------------------------
+ResultDestNodes: [1330956, 1680609, 2065348, 1330948, 1806449, 1535806, 1794812]
+ResultRelevs: [7.624281883239746, 7.562954902648926, 7.480304718017578, 6.831882953643799, 6.766260147094727, 6.613269329071045, 6.51259183883667]
+AvgResultRelev: 7.055935110364642
+AvgResultDissimilarity: 0.7142857142857142
+Num of entries retrieved from the KNLists: 2508
+Num of entries retrieved from NKMaps: 4267
+Num of answer trees explored: 1681
+Num of states created: 2546
+Num of states explored: 549
+Num of heuristic search performed: 5
+Max Num of answer tree sets in Q[]: 1020
+
+query: [academy, award, thriller]
+Top-k Search by Blink-BDB, k=7
+[academy, award, thriller]
+srcNodes: [1456291, 8002666, 5000052]
+  path: 0[1778221 -> 2299613 -> 1370958 -> 2110601 -> 1456291], [The Grind (2009/II) -> Allen, Tanya (I) -> Fancy Dancing (2002) -> Foley, Dave (I) -> Intern Academy (2004)] 
+
+  path: 1[1778221 -> 2294577 -> 1184978 -> 8002666], [The Grind (2009/II) -> Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[1778221 -> 5000052], [The Grind (2009/II) -> Thriller] 
+
+srcNodes: [1429479, 8002666, 5000052]
+  path: 0[2294577 -> 1333049 -> 2143874 -> 1429479], [Roman, Joel (I) -> Dockweiler (2008) -> Hawkes, Will -> Hollywood Acting Academy (2009)] 
+
+  path: 1[2294577 -> 1184978 -> 8002666], [Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[2294577 -> 1778221 -> 5000052], [Roman, Joel (I) -> The Grind (2009/II) -> Thriller] 
+
+srcNodes: [1751652, 7010989, 5000052]
+  path: 0[1751652 -> 1751652], [The Academy (2009) -> The Academy (2009)]
+  path: 1[1751652 -> 2225758 -> 1788791 -> 7010989], [The Academy (2009) -> McKellen, Ian -> The Lord of the Rings: The Two Towers (2002) -> edited into J.R.R. T] 
+
+  path: 2[1751652 -> 2428645 -> 1248065 -> 5000052], [The Academy (2009) -> Miller, Joanna (III) -> Blitz (2011) -> Thriller] 
+
+srcNodes: [1751652, 8024956, 5000052]
+  path: 0[1780304 -> 2075390 -> 1724977 -> 2225758 -> 1751652], [The Holding (2011) -> Curran, Jake -> Stardust (2007) -> McKellen, Ian -> The Academy (2009)] 
+
+  path: 1[1780304 -> 4021873 -> 1613766 -> 8024956], [The Holding (2011) -> Jacobson, Susan -> One Hundredth of a Second (2006) -> award,dilemma,journalist,photograph,prize] 
+
+  path: 2[1780304 -> 5000052], [The Holding (2011) -> Thriller] 
+
+srcNodes: [1751652, 8033529, 5000052]
+  path: 0[1248065 -> 2428645 -> 1751652], [Blitz (2011) -> Miller, Joanna (III) -> The Academy (2009)] 
+
+  path: 1[1248065 -> 2085006 -> 1769253 -> 8033529], [Blitz (2011) -> Dennehy, Ned -> The Eagle (2011) -> animal-in-title,animal-killing,arena,award,bare-chested-male,based-on-novel,based-on-tv-series,battle,beating,betrayal,bilingualism,bird-in-title,blood,boar,body-armor,britain,burned-alive,campfire,centurion,character's-point-of-view-camera-shot,character-repeating-someone-else's-dialogue,child-murder,conquest,corpse,cowardice,culture-clash,cut-arm,cut-leg,dagger,death,death-of-child,death-of-family,death-of-father,decapitation,deception,deserter,disappearance,dragged-by-a-horse,drowning,eagle,execution,father-son-relationship,fight-to-the-death,film-starts-with-text,flashback,forest,fort,funeral-pyre,gladiator,hadrian's-wall,helmet,honor,honorable-discharge,horse,horse-riding,hung-upside-down,hunt,impalement,injury,journey,kicked-in-the-face,knife,knife-in-the-back,knife-throwing,knocked-out,leg-wound,loss-of-father,master-slave-relationship,murder,necklace,person-on-fire,punched-in-the-face,rat,ring,ritual,river,role-reversal,roman,roman-empire,scar,senator,severed-head,siege,slave,s] 
+
+  path: 2[1248065 -> 5000052], [Blitz (2011) -> Thriller] 
+
+srcNodes: [1429479, 8002666, 5000052]
+  path: 0[1184978 -> 2294577 -> 1333049 -> 2143874 -> 1429479], [A Temp for All Seasons (2005) -> Roman, Joel (I) -> Dockweiler (2008) -> Hawkes, Will -> Hollywood Acting Academy (2009)] 
+
+  path: 1[1184978 -> 8002666], [A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[1184978 -> 2294577 -> 1778221 -> 5000052], [A Temp for All Seasons (2005) -> Roman, Joel (I) -> The Grind (2009/II) -> Thriller] 
+
+srcNodes: [1751652, 1208858, 5000052]
+  path: 0[1291102 -> 2111859 -> 1887841 -> 2225758 -> 1751652], [Contraband (2012) -> Foster, Ben (I) -> X-Men: The Last Stand (2006) -> McKellen, Ian -> The Academy (2009)] 
+
+  path: 1[1291102 -> 2310304 -> 1829647 -> 2342460 -> 1208858], [Contraband (2012) -> Beckinsale, Kate -> Tiptoes (2003) -> de Rousse, Marcia -> And the Award Goes To (2007)] 
+
+  path: 2[1291102 -> 5000052], [Contraband (2012) -> Thriller] 
+
+-----------------------------------------
+Num of top-k answers: 7
+ResultDestNodes: [1778221, 2294577, 1751652, 1780304, 1248065, 1184978, 1291102]
+ResultRelevs: [8.062837600708008, 7.912077903747559, 7.79355001449585, 7.732388496398926, 7.630597114562988, 7.605564594268799, 7.532917022705078]
+AvgResultRelev: 7.752847535269601
+AvgResultDissimilarity: 0.5079365079365079
+Num of entries retrieved from the lists: 3066
+Num of entries retrieved from NKMaps: 5081
+Num of answer trees explored: 1679
+
+Div Top-k Search by Exhustive, k=7
+[academy, award, thriller]
+srcNodes: [1456291, 8002666, 5000052]
+  path: 0[1778221 -> 2299613 -> 1370958 -> 2110601 -> 1456291], [The Grind (2009/II) -> Allen, Tanya (I) -> Fancy Dancing (2002) -> Foley, Dave (I) -> Intern Academy (2004)] 
+
+  path: 1[1778221 -> 2294577 -> 1184978 -> 8002666], [The Grind (2009/II) -> Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[1778221 -> 5000052], [The Grind (2009/II) -> Thriller] 
+
+srcNodes: [1429479, 8002666, 5000052]
+  path: 0[2294577 -> 1333049 -> 2143874 -> 1429479], [Roman, Joel (I) -> Dockweiler (2008) -> Hawkes, Will -> Hollywood Acting Academy (2009)] 
+
+  path: 1[2294577 -> 1184978 -> 8002666], [Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[2294577 -> 1778221 -> 5000052], [Roman, Joel (I) -> The Grind (2009/II) -> Thriller] 
+
+srcNodes: [1751652, 7010989, 5000052]
+  path: 0[1751652 -> 1751652], [The Academy (2009) -> The Academy (2009)]
+  path: 1[1751652 -> 2225758 -> 1788791 -> 7010989], [The Academy (2009) -> McKellen, Ian -> The Lord of the Rings: The Two Towers (2002) -> edited into J.R.R. T] 
+
+  path: 2[1751652 -> 2428645 -> 1248065 -> 5000052], [The Academy (2009) -> Miller, Joanna (III) -> Blitz (2011) -> Thriller] 
+
+srcNodes: [1751652, 8033529, 5000052]
+  path: 0[1248065 -> 2428645 -> 1751652], [Blitz (2011) -> Miller, Joanna (III) -> The Academy (2009)] 
+
+  path: 1[1248065 -> 2085006 -> 1769253 -> 8033529], [Blitz (2011) -> Dennehy, Ned -> The Eagle (2011) -> animal-in-title,animal-killing,arena,award,bare-chested-male,based-on-novel,based-on-tv-series,battle,beating,betrayal,bilingualism,bird-in-title,blood,boar,body-armor,britain,burned-alive,campfire,centurion,character's-point-of-view-camera-shot,character-repeating-someone-else's-dialogue,child-murder,conquest,corpse,cowardice,culture-clash,cut-arm,cut-leg,dagger,death,death-of-child,death-of-family,death-of-father,decapitation,deception,deserter,disappearance,dragged-by-a-horse,drowning,eagle,execution,father-son-relationship,fight-to-the-death,film-starts-with-text,flashback,forest,fort,funeral-pyre,gladiator,hadrian's-wall,helmet,honor,honorable-discharge,horse,horse-riding,hung-upside-down,hunt,impalement,injury,journey,kicked-in-the-face,knife,knife-in-the-back,knife-throwing,knocked-out,leg-wound,loss-of-father,master-slave-relationship,murder,necklace,person-on-fire,punched-in-the-face,rat,ring,ritual,river,role-reversal,roman,roman-empire,scar,senator,severed-head,siege,slave,s] 
+
+  path: 2[1248065 -> 5000052], [Blitz (2011) -> Thriller] 
+
+srcNodes: [324734, 8024956, 5000052]
+  path: 0[1344495 -> 2088052 -> 1310507 -> 2255255 -> 324734], [EMR (2004) -> Dillane, Richard -> De-Lovely (2004) -> Obika, Lemar -> "Fame Academy" (2002/I)] 
+
+  path: 1[1344495 -> 2088052 -> 1613766 -> 8024956], [EMR (2004) -> Dillane, Richard -> One Hundredth of a Second (2006) -> award,dilemma,journalist,photograph,prize] 
+
+  path: 2[1344495 -> 5000052], [EMR (2004) -> Thriller] 
+
+srcNodes: [1456291, 8029119, 5000052]
+  path: 0[1311364 -> 2351349 -> 1456291], [Deadly Little Secrets (2002) -> Eglington, Holly -> Intern Academy (2004)] 
+
+  path: 1[1311364 -> 2330428 -> 1692481 -> 8029119], [Deadly Little Secrets (2002) -> Chiarelli, Gina -> See Grace Fly (2003) -> actress-breaking-typecast,award,bare-breasts,character-name-in-title,christian-subtext,christianity,coitus-interruptus,crotch-shot,female-nudity,frotteurism,junkie,lesbian-rape,lesbian-subtext,love,mental-illness,panties,religion,schizophrenia,sex,somnophilia,spontaneous-sex,spreadeagle] 
+
+  path: 2[1311364 -> 5000052], [Deadly Little Secrets (2002) -> Thriller] 
+
+srcNodes: [1753545, 8027007, 5002155]
+  path: 0[1837750 -> 2049610 -> 1753545], [Trapped in Perfection (2008) -> Calabretta, Zan -> The Arbuckle Academy (2003)] 
+
+  path: 1[1837750 -> 2200525 -> 1654431 -> 8027007], [Trapped in Perfection (2008) -> Lewis, Mark (XIV) -> Put the Needle on the Record (2004) -> award,band,conference,d.j.,dance,dance-music,disc-jockey,dj,electronic-music,entertainment,house,house-music,ibiza-spain,miami-beach,musician,needle,party,radio,record,recording,singer,singing,song,techno,trance,winter] 
+
+  path: 2[1837750 -> 5002155], [Trapped in Perfection (2008) -> Thriller,Thriller] 
+
+-----------------------------------------
+ResultDestNodes: [1778221, 2294577, 1751652, 1248065, 1344495, 1311364, 1837750]
+ResultRelevs: [8.062837600708008, 7.912077903747559, 7.79355001449585, 7.630597114562988, 7.431754112243652, 7.371357440948486, 6.819026947021484]
+AvgResultRelev: 7.5744573048182895
+AvgResultDissimilarity: 0.7142857142857143
+Num of entries retrieved from the KNLists: 3635
+Num of entries retrieved from NKMaps: 6058
+Num of answer trees explored: 2056
+Num of answer tree sets created: 1076849
+Num of answer tree sets removed: 301260
+Max Num of answer tree sets in Q[]: 1076849
+
+Div Top-k Search by Astar0, k=7
+[academy, award, thriller]
+srcNodes: [1456291, 8002666, 5000052]
+  path: 0[1778221 -> 2299613 -> 1370958 -> 2110601 -> 1456291], [The Grind (2009/II) -> Allen, Tanya (I) -> Fancy Dancing (2002) -> Foley, Dave (I) -> Intern Academy (2004)] 
+
+  path: 1[1778221 -> 2294577 -> 1184978 -> 8002666], [The Grind (2009/II) -> Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[1778221 -> 5000052], [The Grind (2009/II) -> Thriller] 
+
+srcNodes: [1429479, 8002666, 5000052]
+  path: 0[2294577 -> 1333049 -> 2143874 -> 1429479], [Roman, Joel (I) -> Dockweiler (2008) -> Hawkes, Will -> Hollywood Acting Academy (2009)] 
+
+  path: 1[2294577 -> 1184978 -> 8002666], [Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[2294577 -> 1778221 -> 5000052], [Roman, Joel (I) -> The Grind (2009/II) -> Thriller] 
+
+srcNodes: [1751652, 7010989, 5000052]
+  path: 0[1751652 -> 1751652], [The Academy (2009) -> The Academy (2009)]
+  path: 1[1751652 -> 2225758 -> 1788791 -> 7010989], [The Academy (2009) -> McKellen, Ian -> The Lord of the Rings: The Two Towers (2002) -> edited into J.R.R. T] 
+
+  path: 2[1751652 -> 2428645 -> 1248065 -> 5000052], [The Academy (2009) -> Miller, Joanna (III) -> Blitz (2011) -> Thriller] 
+
+srcNodes: [1751652, 8033529, 5000052]
+  path: 0[1248065 -> 2428645 -> 1751652], [Blitz (2011) -> Miller, Joanna (III) -> The Academy (2009)] 
+
+  path: 1[1248065 -> 2085006 -> 1769253 -> 8033529], [Blitz (2011) -> Dennehy, Ned -> The Eagle (2011) -> animal-in-title,animal-killing,arena,award,bare-chested-male,based-on-novel,based-on-tv-series,battle,beating,betrayal,bilingualism,bird-in-title,blood,boar,body-armor,britain,burned-alive,campfire,centurion,character's-point-of-view-camera-shot,character-repeating-someone-else's-dialogue,child-murder,conquest,corpse,cowardice,culture-clash,cut-arm,cut-leg,dagger,death,death-of-child,death-of-family,death-of-father,decapitation,deception,deserter,disappearance,dragged-by-a-horse,drowning,eagle,execution,father-son-relationship,fight-to-the-death,film-starts-with-text,flashback,forest,fort,funeral-pyre,gladiator,hadrian's-wall,helmet,honor,honorable-discharge,horse,horse-riding,hung-upside-down,hunt,impalement,injury,journey,kicked-in-the-face,knife,knife-in-the-back,knife-throwing,knocked-out,leg-wound,loss-of-father,master-slave-relationship,murder,necklace,person-on-fire,punched-in-the-face,rat,ring,ritual,river,role-reversal,roman,roman-empire,scar,senator,severed-head,siege,slave,s] 
+
+  path: 2[1248065 -> 5000052], [Blitz (2011) -> Thriller] 
+
+srcNodes: [324734, 8024956, 5000052]
+  path: 0[1344495 -> 2088052 -> 1310507 -> 2255255 -> 324734], [EMR (2004) -> Dillane, Richard -> De-Lovely (2004) -> Obika, Lemar -> "Fame Academy" (2002/I)] 
+
+  path: 1[1344495 -> 2088052 -> 1613766 -> 8024956], [EMR (2004) -> Dillane, Richard -> One Hundredth of a Second (2006) -> award,dilemma,journalist,photograph,prize] 
+
+  path: 2[1344495 -> 5000052], [EMR (2004) -> Thriller] 
+
+srcNodes: [1456291, 8029119, 5000052]
+  path: 0[1311364 -> 2351349 -> 1456291], [Deadly Little Secrets (2002) -> Eglington, Holly -> Intern Academy (2004)] 
+
+  path: 1[1311364 -> 2330428 -> 1692481 -> 8029119], [Deadly Little Secrets (2002) -> Chiarelli, Gina -> See Grace Fly (2003) -> actress-breaking-typecast,award,bare-breasts,character-name-in-title,christian-subtext,christianity,coitus-interruptus,crotch-shot,female-nudity,frotteurism,junkie,lesbian-rape,lesbian-subtext,love,mental-illness,panties,religion,schizophrenia,sex,somnophilia,spontaneous-sex,spreadeagle] 
+
+  path: 2[1311364 -> 5000052], [Deadly Little Secrets (2002) -> Thriller] 
+
+srcNodes: [1753545, 8027007, 5002155]
+  path: 0[1837750 -> 2049610 -> 1753545], [Trapped in Perfection (2008) -> Calabretta, Zan -> The Arbuckle Academy (2003)] 
+
+  path: 1[1837750 -> 2200525 -> 1654431 -> 8027007], [Trapped in Perfection (2008) -> Lewis, Mark (XIV) -> Put the Needle on the Record (2004) -> award,band,conference,d.j.,dance,dance-music,disc-jockey,dj,electronic-music,entertainment,house,house-music,ibiza-spain,miami-beach,musician,needle,party,radio,record,recording,singer,singing,song,techno,trance,winter] 
+
+  path: 2[1837750 -> 5002155], [Trapped in Perfection (2008) -> Thriller,Thriller] 
+
+-----------------------------------------
+ResultDestNodes: [1778221, 2294577, 1751652, 1248065, 1344495, 1311364, 1837750]
+ResultRelevs: [8.062837600708008, 7.912077903747559, 7.79355001449585, 7.630597114562988, 7.431754112243652, 7.371357440948486, 6.819026947021484]
+AvgResultRelev: 7.5744573048182895
+AvgResultDissimilarity: 0.7142857142857143
+Num of entries retrieved from the KNLists: 3635
+Num of entries retrieved from NKMaps: 6058
+Num of answer trees explored: 2056
+Num of states created: 2768386
+Num of states explored: 2766429
+Num of heuristic search performed: 27
+Max Num of answer tree sets in Q[]: 87089
+
+Div Top-k Search by Astar1, k=7
+[academy, award, thriller]
+srcNodes: [1456291, 8002666, 5000052]
+  path: 0[1778221 -> 2299613 -> 1370958 -> 2110601 -> 1456291], [The Grind (2009/II) -> Allen, Tanya (I) -> Fancy Dancing (2002) -> Foley, Dave (I) -> Intern Academy (2004)] 
+
+  path: 1[1778221 -> 2294577 -> 1184978 -> 8002666], [The Grind (2009/II) -> Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[1778221 -> 5000052], [The Grind (2009/II) -> Thriller] 
+
+srcNodes: [1429479, 8002666, 5000052]
+  path: 0[2294577 -> 1333049 -> 2143874 -> 1429479], [Roman, Joel (I) -> Dockweiler (2008) -> Hawkes, Will -> Hollywood Acting Academy (2009)] 
+
+  path: 1[2294577 -> 1184978 -> 8002666], [Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[2294577 -> 1778221 -> 5000052], [Roman, Joel (I) -> The Grind (2009/II) -> Thriller] 
+
+srcNodes: [1751652, 7010989, 5000052]
+  path: 0[1751652 -> 1751652], [The Academy (2009) -> The Academy (2009)]
+  path: 1[1751652 -> 2225758 -> 1788791 -> 7010989], [The Academy (2009) -> McKellen, Ian -> The Lord of the Rings: The Two Towers (2002) -> edited into J.R.R. T] 
+
+  path: 2[1751652 -> 2428645 -> 1248065 -> 5000052], [The Academy (2009) -> Miller, Joanna (III) -> Blitz (2011) -> Thriller] 
+
+srcNodes: [1751652, 8033529, 5000052]
+  path: 0[1248065 -> 2428645 -> 1751652], [Blitz (2011) -> Miller, Joanna (III) -> The Academy (2009)] 
+
+  path: 1[1248065 -> 2085006 -> 1769253 -> 8033529], [Blitz (2011) -> Dennehy, Ned -> The Eagle (2011) -> animal-in-title,animal-killing,arena,award,bare-chested-male,based-on-novel,based-on-tv-series,battle,beating,betrayal,bilingualism,bird-in-title,blood,boar,body-armor,britain,burned-alive,campfire,centurion,character's-point-of-view-camera-shot,character-repeating-someone-else's-dialogue,child-murder,conquest,corpse,cowardice,culture-clash,cut-arm,cut-leg,dagger,death,death-of-child,death-of-family,death-of-father,decapitation,deception,deserter,disappearance,dragged-by-a-horse,drowning,eagle,execution,father-son-relationship,fight-to-the-death,film-starts-with-text,flashback,forest,fort,funeral-pyre,gladiator,hadrian's-wall,helmet,honor,honorable-discharge,horse,horse-riding,hung-upside-down,hunt,impalement,injury,journey,kicked-in-the-face,knife,knife-in-the-back,knife-throwing,knocked-out,leg-wound,loss-of-father,master-slave-relationship,murder,necklace,person-on-fire,punched-in-the-face,rat,ring,ritual,river,role-reversal,roman,roman-empire,scar,senator,severed-head,siege,slave,s] 
+
+  path: 2[1248065 -> 5000052], [Blitz (2011) -> Thriller] 
+
+srcNodes: [324734, 8024956, 5000052]
+  path: 0[1344495 -> 2088052 -> 1310507 -> 2255255 -> 324734], [EMR (2004) -> Dillane, Richard -> De-Lovely (2004) -> Obika, Lemar -> "Fame Academy" (2002/I)] 
+
+  path: 1[1344495 -> 2088052 -> 1613766 -> 8024956], [EMR (2004) -> Dillane, Richard -> One Hundredth of a Second (2006) -> award,dilemma,journalist,photograph,prize] 
+
+  path: 2[1344495 -> 5000052], [EMR (2004) -> Thriller] 
+
+srcNodes: [1456291, 8029119, 5000052]
+  path: 0[1311364 -> 2351349 -> 1456291], [Deadly Little Secrets (2002) -> Eglington, Holly -> Intern Academy (2004)] 
+
+  path: 1[1311364 -> 2330428 -> 1692481 -> 8029119], [Deadly Little Secrets (2002) -> Chiarelli, Gina -> See Grace Fly (2003) -> actress-breaking-typecast,award,bare-breasts,character-name-in-title,christian-subtext,christianity,coitus-interruptus,crotch-shot,female-nudity,frotteurism,junkie,lesbian-rape,lesbian-subtext,love,mental-illness,panties,religion,schizophrenia,sex,somnophilia,spontaneous-sex,spreadeagle] 
+
+  path: 2[1311364 -> 5000052], [Deadly Little Secrets (2002) -> Thriller] 
+
+srcNodes: [1753545, 8027007, 5002155]
+  path: 0[1837750 -> 2049610 -> 1753545], [Trapped in Perfection (2008) -> Calabretta, Zan -> The Arbuckle Academy (2003)] 
+
+  path: 1[1837750 -> 2200525 -> 1654431 -> 8027007], [Trapped in Perfection (2008) -> Lewis, Mark (XIV) -> Put the Needle on the Record (2004) -> award,band,conference,d.j.,dance,dance-music,disc-jockey,dj,electronic-music,entertainment,house,house-music,ibiza-spain,miami-beach,musician,needle,party,radio,record,recording,singer,singing,song,techno,trance,winter] 
+
+  path: 2[1837750 -> 5002155], [Trapped in Perfection (2008) -> Thriller,Thriller] 
+
+-----------------------------------------
+ResultDestNodes: [1778221, 2294577, 1751652, 1248065, 1344495, 1311364, 1837750]
+ResultRelevs: [8.062837600708008, 7.912077903747559, 7.79355001449585, 7.630597114562988, 7.431754112243652, 7.371357440948486, 6.819026947021484]
+AvgResultRelev: 7.5744573048182895
+AvgResultDissimilarity: 0.7142857142857143
+Num of entries retrieved from the KNLists: 3635
+Num of entries retrieved from NKMaps: 6058
+Num of answer trees explored: 2056
+Num of states created: 20245
+Num of states explored: 1179
+Num of heuristic search performed: 27
+Max Num of answer tree sets in Q[]: 1958
+
+Div Top-k Search by Astar2, k=7
+[academy, award, thriller]
+srcNodes: [1456291, 8002666, 5000052]
+  path: 0[1778221 -> 2299613 -> 1370958 -> 2110601 -> 1456291], [The Grind (2009/II) -> Allen, Tanya (I) -> Fancy Dancing (2002) -> Foley, Dave (I) -> Intern Academy (2004)] 
+
+  path: 1[1778221 -> 2294577 -> 1184978 -> 8002666], [The Grind (2009/II) -> Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[1778221 -> 5000052], [The Grind (2009/II) -> Thriller] 
+
+srcNodes: [1429479, 8002666, 5000052]
+  path: 0[2294577 -> 1333049 -> 2143874 -> 1429479], [Roman, Joel (I) -> Dockweiler (2008) -> Hawkes, Will -> Hollywood Acting Academy (2009)] 
+
+  path: 1[2294577 -> 1184978 -> 8002666], [Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[2294577 -> 1778221 -> 5000052], [Roman, Joel (I) -> The Grind (2009/II) -> Thriller] 
+
+srcNodes: [1751652, 7010989, 5000052]
+  path: 0[1751652 -> 1751652], [The Academy (2009) -> The Academy (2009)]
+  path: 1[1751652 -> 2225758 -> 1788791 -> 7010989], [The Academy (2009) -> McKellen, Ian -> The Lord of the Rings: The Two Towers (2002) -> edited into J.R.R. T] 
+
+  path: 2[1751652 -> 2428645 -> 1248065 -> 5000052], [The Academy (2009) -> Miller, Joanna (III) -> Blitz (2011) -> Thriller] 
+
+srcNodes: [1751652, 8033529, 5000052]
+  path: 0[1248065 -> 2428645 -> 1751652], [Blitz (2011) -> Miller, Joanna (III) -> The Academy (2009)] 
+
+  path: 1[1248065 -> 2085006 -> 1769253 -> 8033529], [Blitz (2011) -> Dennehy, Ned -> The Eagle (2011) -> animal-in-title,animal-killing,arena,award,bare-chested-male,based-on-novel,based-on-tv-series,battle,beating,betrayal,bilingualism,bird-in-title,blood,boar,body-armor,britain,burned-alive,campfire,centurion,character's-point-of-view-camera-shot,character-repeating-someone-else's-dialogue,child-murder,conquest,corpse,cowardice,culture-clash,cut-arm,cut-leg,dagger,death,death-of-child,death-of-family,death-of-father,decapitation,deception,deserter,disappearance,dragged-by-a-horse,drowning,eagle,execution,father-son-relationship,fight-to-the-death,film-starts-with-text,flashback,forest,fort,funeral-pyre,gladiator,hadrian's-wall,helmet,honor,honorable-discharge,horse,horse-riding,hung-upside-down,hunt,impalement,injury,journey,kicked-in-the-face,knife,knife-in-the-back,knife-throwing,knocked-out,leg-wound,loss-of-father,master-slave-relationship,murder,necklace,person-on-fire,punched-in-the-face,rat,ring,ritual,river,role-reversal,roman,roman-empire,scar,senator,severed-head,siege,slave,s] 
+
+  path: 2[1248065 -> 5000052], [Blitz (2011) -> Thriller] 
+
+srcNodes: [324734, 8024956, 5000052]
+  path: 0[1344495 -> 2088052 -> 1310507 -> 2255255 -> 324734], [EMR (2004) -> Dillane, Richard -> De-Lovely (2004) -> Obika, Lemar -> "Fame Academy" (2002/I)] 
+
+  path: 1[1344495 -> 2088052 -> 1613766 -> 8024956], [EMR (2004) -> Dillane, Richard -> One Hundredth of a Second (2006) -> award,dilemma,journalist,photograph,prize] 
+
+  path: 2[1344495 -> 5000052], [EMR (2004) -> Thriller] 
+
+srcNodes: [1456291, 8029119, 5000052]
+  path: 0[1311364 -> 2351349 -> 1456291], [Deadly Little Secrets (2002) -> Eglington, Holly -> Intern Academy (2004)] 
+
+  path: 1[1311364 -> 2330428 -> 1692481 -> 8029119], [Deadly Little Secrets (2002) -> Chiarelli, Gina -> See Grace Fly (2003) -> actress-breaking-typecast,award,bare-breasts,character-name-in-title,christian-subtext,christianity,coitus-interruptus,crotch-shot,female-nudity,frotteurism,junkie,lesbian-rape,lesbian-subtext,love,mental-illness,panties,religion,schizophrenia,sex,somnophilia,spontaneous-sex,spreadeagle] 
+
+  path: 2[1311364 -> 5000052], [Deadly Little Secrets (2002) -> Thriller] 
+
+srcNodes: [1753545, 8027007, 5002155]
+  path: 0[1837750 -> 2049610 -> 1753545], [Trapped in Perfection (2008) -> Calabretta, Zan -> The Arbuckle Academy (2003)] 
+
+  path: 1[1837750 -> 2200525 -> 1654431 -> 8027007], [Trapped in Perfection (2008) -> Lewis, Mark (XIV) -> Put the Needle on the Record (2004) -> award,band,conference,d.j.,dance,dance-music,disc-jockey,dj,electronic-music,entertainment,house,house-music,ibiza-spain,miami-beach,musician,needle,party,radio,record,recording,singer,singing,song,techno,trance,winter] 
+
+  path: 2[1837750 -> 5002155], [Trapped in Perfection (2008) -> Thriller,Thriller] 
+
+-----------------------------------------
+ResultDestNodes: [1778221, 2294577, 1751652, 1248065, 1344495, 1311364, 1837750]
+ResultRelevs: [8.062837600708008, 7.912077903747559, 7.79355001449585, 7.630597114562988, 7.431754112243652, 7.371357440948486, 6.819026947021484]
+AvgResultRelev: 7.5744573048182895
+AvgResultDissimilarity: 0.7142857142857143
+Num of entries retrieved from the KNLists: 3635
+Num of entries retrieved from NKMaps: 6058
+Num of answer trees explored: 2056
+Num of states created: 2768386
+Num of states explored: 2766429
+Num of heuristic search performed: 27
+Max Num of answer tree sets in Q[]: 87089
+
+Div Top-k Search by Astar12, k=7
+[academy, award, thriller]
+srcNodes: [1456291, 8002666, 5000052]
+  path: 0[1778221 -> 2299613 -> 1370958 -> 2110601 -> 1456291], [The Grind (2009/II) -> Allen, Tanya (I) -> Fancy Dancing (2002) -> Foley, Dave (I) -> Intern Academy (2004)] 
+
+  path: 1[1778221 -> 2294577 -> 1184978 -> 8002666], [The Grind (2009/II) -> Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[1778221 -> 5000052], [The Grind (2009/II) -> Thriller] 
+
+srcNodes: [1429479, 8002666, 5000052]
+  path: 0[2294577 -> 1333049 -> 2143874 -> 1429479], [Roman, Joel (I) -> Dockweiler (2008) -> Hawkes, Will -> Hollywood Acting Academy (2009)] 
+
+  path: 1[2294577 -> 1184978 -> 8002666], [Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[2294577 -> 1778221 -> 5000052], [Roman, Joel (I) -> The Grind (2009/II) -> Thriller] 
+
+srcNodes: [1751652, 7010989, 5000052]
+  path: 0[1751652 -> 1751652], [The Academy (2009) -> The Academy (2009)]
+  path: 1[1751652 -> 2225758 -> 1788791 -> 7010989], [The Academy (2009) -> McKellen, Ian -> The Lord of the Rings: The Two Towers (2002) -> edited into J.R.R. T] 
+
+  path: 2[1751652 -> 2428645 -> 1248065 -> 5000052], [The Academy (2009) -> Miller, Joanna (III) -> Blitz (2011) -> Thriller] 
+
+srcNodes: [1751652, 8033529, 5000052]
+  path: 0[1248065 -> 2428645 -> 1751652], [Blitz (2011) -> Miller, Joanna (III) -> The Academy (2009)] 
+
+  path: 1[1248065 -> 2085006 -> 1769253 -> 8033529], [Blitz (2011) -> Dennehy, Ned -> The Eagle (2011) -> animal-in-title,animal-killing,arena,award,bare-chested-male,based-on-novel,based-on-tv-series,battle,beating,betrayal,bilingualism,bird-in-title,blood,boar,body-armor,britain,burned-alive,campfire,centurion,character's-point-of-view-camera-shot,character-repeating-someone-else's-dialogue,child-murder,conquest,corpse,cowardice,culture-clash,cut-arm,cut-leg,dagger,death,death-of-child,death-of-family,death-of-father,decapitation,deception,deserter,disappearance,dragged-by-a-horse,drowning,eagle,execution,father-son-relationship,fight-to-the-death,film-starts-with-text,flashback,forest,fort,funeral-pyre,gladiator,hadrian's-wall,helmet,honor,honorable-discharge,horse,horse-riding,hung-upside-down,hunt,impalement,injury,journey,kicked-in-the-face,knife,knife-in-the-back,knife-throwing,knocked-out,leg-wound,loss-of-father,master-slave-relationship,murder,necklace,person-on-fire,punched-in-the-face,rat,ring,ritual,river,role-reversal,roman,roman-empire,scar,senator,severed-head,siege,slave,s] 
+
+  path: 2[1248065 -> 5000052], [Blitz (2011) -> Thriller] 
+
+srcNodes: [324734, 8024956, 5000052]
+  path: 0[1344495 -> 2088052 -> 1310507 -> 2255255 -> 324734], [EMR (2004) -> Dillane, Richard -> De-Lovely (2004) -> Obika, Lemar -> "Fame Academy" (2002/I)] 
+
+  path: 1[1344495 -> 2088052 -> 1613766 -> 8024956], [EMR (2004) -> Dillane, Richard -> One Hundredth of a Second (2006) -> award,dilemma,journalist,photograph,prize] 
+
+  path: 2[1344495 -> 5000052], [EMR (2004) -> Thriller] 
+
+srcNodes: [1456291, 8029119, 5000052]
+  path: 0[1311364 -> 2351349 -> 1456291], [Deadly Little Secrets (2002) -> Eglington, Holly -> Intern Academy (2004)] 
+
+  path: 1[1311364 -> 2330428 -> 1692481 -> 8029119], [Deadly Little Secrets (2002) -> Chiarelli, Gina -> See Grace Fly (2003) -> actress-breaking-typecast,award,bare-breasts,character-name-in-title,christian-subtext,christianity,coitus-interruptus,crotch-shot,female-nudity,frotteurism,junkie,lesbian-rape,lesbian-subtext,love,mental-illness,panties,religion,schizophrenia,sex,somnophilia,spontaneous-sex,spreadeagle] 
+
+  path: 2[1311364 -> 5000052], [Deadly Little Secrets (2002) -> Thriller] 
+
+srcNodes: [1753545, 8027007, 5002155]
+  path: 0[1837750 -> 2049610 -> 1753545], [Trapped in Perfection (2008) -> Calabretta, Zan -> The Arbuckle Academy (2003)] 
+
+  path: 1[1837750 -> 2200525 -> 1654431 -> 8027007], [Trapped in Perfection (2008) -> Lewis, Mark (XIV) -> Put the Needle on the Record (2004) -> award,band,conference,d.j.,dance,dance-music,disc-jockey,dj,electronic-music,entertainment,house,house-music,ibiza-spain,miami-beach,musician,needle,party,radio,record,recording,singer,singing,song,techno,trance,winter] 
+
+  path: 2[1837750 -> 5002155], [Trapped in Perfection (2008) -> Thriller,Thriller] 
+
+-----------------------------------------
+ResultDestNodes: [1778221, 2294577, 1751652, 1248065, 1344495, 1311364, 1837750]
+ResultRelevs: [8.062837600708008, 7.912077903747559, 7.79355001449585, 7.630597114562988, 7.431754112243652, 7.371357440948486, 6.819026947021484]
+AvgResultRelev: 7.5744573048182895
+AvgResultDissimilarity: 0.7142857142857143
+Num of entries retrieved from the KNLists: 3635
+Num of entries retrieved from NKMaps: 6058
+Num of answer trees explored: 2056
+Num of states created: 20245
+Num of states explored: 1179
+Num of heuristic search performed: 27
+Max Num of answer tree sets in Q[]: 1958
+
+Div Top-k Search by Astar0nc, k=7
+[academy, award, thriller]
+srcNodes: [1456291, 8002666, 5000052]
+  path: 0[1778221 -> 2299613 -> 1370958 -> 2110601 -> 1456291], [The Grind (2009/II) -> Allen, Tanya (I) -> Fancy Dancing (2002) -> Foley, Dave (I) -> Intern Academy (2004)] 
+
+  path: 1[1778221 -> 2294577 -> 1184978 -> 8002666], [The Grind (2009/II) -> Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[1778221 -> 5000052], [The Grind (2009/II) -> Thriller] 
+
+srcNodes: [1429479, 8002666, 5000052]
+  path: 0[2294577 -> 1333049 -> 2143874 -> 1429479], [Roman, Joel (I) -> Dockweiler (2008) -> Hawkes, Will -> Hollywood Acting Academy (2009)] 
+
+  path: 1[2294577 -> 1184978 -> 8002666], [Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[2294577 -> 1778221 -> 5000052], [Roman, Joel (I) -> The Grind (2009/II) -> Thriller] 
+
+srcNodes: [1751652, 7010989, 5000052]
+  path: 0[1751652 -> 1751652], [The Academy (2009) -> The Academy (2009)]
+  path: 1[1751652 -> 2225758 -> 1788791 -> 7010989], [The Academy (2009) -> McKellen, Ian -> The Lord of the Rings: The Two Towers (2002) -> edited into J.R.R. T] 
+
+  path: 2[1751652 -> 2428645 -> 1248065 -> 5000052], [The Academy (2009) -> Miller, Joanna (III) -> Blitz (2011) -> Thriller] 
+
+srcNodes: [1751652, 8033529, 5000052]
+  path: 0[1248065 -> 2428645 -> 1751652], [Blitz (2011) -> Miller, Joanna (III) -> The Academy (2009)] 
+
+  path: 1[1248065 -> 2085006 -> 1769253 -> 8033529], [Blitz (2011) -> Dennehy, Ned -> The Eagle (2011) -> animal-in-title,animal-killing,arena,award,bare-chested-male,based-on-novel,based-on-tv-series,battle,beating,betrayal,bilingualism,bird-in-title,blood,boar,body-armor,britain,burned-alive,campfire,centurion,character's-point-of-view-camera-shot,character-repeating-someone-else's-dialogue,child-murder,conquest,corpse,cowardice,culture-clash,cut-arm,cut-leg,dagger,death,death-of-child,death-of-family,death-of-father,decapitation,deception,deserter,disappearance,dragged-by-a-horse,drowning,eagle,execution,father-son-relationship,fight-to-the-death,film-starts-with-text,flashback,forest,fort,funeral-pyre,gladiator,hadrian's-wall,helmet,honor,honorable-discharge,horse,horse-riding,hung-upside-down,hunt,impalement,injury,journey,kicked-in-the-face,knife,knife-in-the-back,knife-throwing,knocked-out,leg-wound,loss-of-father,master-slave-relationship,murder,necklace,person-on-fire,punched-in-the-face,rat,ring,ritual,river,role-reversal,roman,roman-empire,scar,senator,severed-head,siege,slave,s] 
+
+  path: 2[1248065 -> 5000052], [Blitz (2011) -> Thriller] 
+
+srcNodes: [324734, 8024956, 5000052]
+  path: 0[1344495 -> 2088052 -> 1310507 -> 2255255 -> 324734], [EMR (2004) -> Dillane, Richard -> De-Lovely (2004) -> Obika, Lemar -> "Fame Academy" (2002/I)] 
+
+  path: 1[1344495 -> 2088052 -> 1613766 -> 8024956], [EMR (2004) -> Dillane, Richard -> One Hundredth of a Second (2006) -> award,dilemma,journalist,photograph,prize] 
+
+  path: 2[1344495 -> 5000052], [EMR (2004) -> Thriller] 
+
+srcNodes: [1456291, 8029119, 5000052]
+  path: 0[1311364 -> 2351349 -> 1456291], [Deadly Little Secrets (2002) -> Eglington, Holly -> Intern Academy (2004)] 
+
+  path: 1[1311364 -> 2330428 -> 1692481 -> 8029119], [Deadly Little Secrets (2002) -> Chiarelli, Gina -> See Grace Fly (2003) -> actress-breaking-typecast,award,bare-breasts,character-name-in-title,christian-subtext,christianity,coitus-interruptus,crotch-shot,female-nudity,frotteurism,junkie,lesbian-rape,lesbian-subtext,love,mental-illness,panties,religion,schizophrenia,sex,somnophilia,spontaneous-sex,spreadeagle] 
+
+  path: 2[1311364 -> 5000052], [Deadly Little Secrets (2002) -> Thriller] 
+
+srcNodes: [1753545, 8027007, 5002155]
+  path: 0[1837750 -> 2049610 -> 1753545], [Trapped in Perfection (2008) -> Calabretta, Zan -> The Arbuckle Academy (2003)] 
+
+  path: 1[1837750 -> 2200525 -> 1654431 -> 8027007], [Trapped in Perfection (2008) -> Lewis, Mark (XIV) -> Put the Needle on the Record (2004) -> award,band,conference,d.j.,dance,dance-music,disc-jockey,dj,electronic-music,entertainment,house,house-music,ibiza-spain,miami-beach,musician,needle,party,radio,record,recording,singer,singing,song,techno,trance,winter] 
+
+  path: 2[1837750 -> 5002155], [Trapped in Perfection (2008) -> Thriller,Thriller] 
+
+-----------------------------------------
+ResultDestNodes: [1778221, 2294577, 1751652, 1248065, 1344495, 1311364, 1837750]
+ResultRelevs: [8.062837600708008, 7.912077903747559, 7.79355001449585, 7.630597114562988, 7.431754112243652, 7.371357440948486, 6.819026947021484]
+AvgResultRelev: 7.5744573048182895
+AvgResultDissimilarity: 0.7142857142857143
+Num of entries retrieved from the KNLists: 3635
+Num of entries retrieved from NKMaps: 6058
+Num of answer trees explored: 2056
+Num of states created: 2576247
+Num of states explored: 2574290
+Num of heuristic search performed: 18
+Max Num of answer tree sets in Q[]: 87089
+
+Div Top-k Search by Astar12nc, k=7
+[academy, award, thriller]
+srcNodes: [1456291, 8002666, 5000052]
+  path: 0[1778221 -> 2299613 -> 1370958 -> 2110601 -> 1456291], [The Grind (2009/II) -> Allen, Tanya (I) -> Fancy Dancing (2002) -> Foley, Dave (I) -> Intern Academy (2004)] 
+
+  path: 1[1778221 -> 2294577 -> 1184978 -> 8002666], [The Grind (2009/II) -> Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[1778221 -> 5000052], [The Grind (2009/II) -> Thriller] 
+
+srcNodes: [1429479, 8002666, 5000052]
+  path: 0[2294577 -> 1333049 -> 2143874 -> 1429479], [Roman, Joel (I) -> Dockweiler (2008) -> Hawkes, Will -> Hollywood Acting Academy (2009)] 
+
+  path: 1[2294577 -> 1184978 -> 8002666], [Roman, Joel (I) -> A Temp for All Seasons (2005) -> award,office] 
+
+  path: 2[2294577 -> 1778221 -> 5000052], [Roman, Joel (I) -> The Grind (2009/II) -> Thriller] 
+
+srcNodes: [1751652, 7010989, 5000052]
+  path: 0[1751652 -> 1751652], [The Academy (2009) -> The Academy (2009)]
+  path: 1[1751652 -> 2225758 -> 1788791 -> 7010989], [The Academy (2009) -> McKellen, Ian -> The Lord of the Rings: The Two Towers (2002) -> edited into J.R.R. T] 
+
+  path: 2[1751652 -> 2428645 -> 1248065 -> 5000052], [The Academy (2009) -> Miller, Joanna (III) -> Blitz (2011) -> Thriller] 
+
+srcNodes: [1751652, 8033529, 5000052]
+  path: 0[1248065 -> 2428645 -> 1751652], [Blitz (2011) -> Miller, Joanna (III) -> The Academy (2009)] 
+
+  path: 1[1248065 -> 2085006 -> 1769253 -> 8033529], [Blitz (2011) -> Dennehy, Ned -> The Eagle (2011) -> animal-in-title,animal-killing,arena,award,bare-chested-male,based-on-novel,based-on-tv-series,battle,beating,betrayal,bilingualism,bird-in-title,blood,boar,body-armor,britain,burned-alive,campfire,centurion,character's-point-of-view-camera-shot,character-repeating-someone-else's-dialogue,child-murder,conquest,corpse,cowardice,culture-clash,cut-arm,cut-leg,dagger,death,death-of-child,death-of-family,death-of-father,decapitation,deception,deserter,disappearance,dragged-by-a-horse,drowning,eagle,execution,father-son-relationship,fight-to-the-death,film-starts-with-text,flashback,forest,fort,funeral-pyre,gladiator,hadrian's-wall,helmet,honor,honorable-discharge,horse,horse-riding,hung-upside-down,hunt,impalement,injury,journey,kicked-in-the-face,knife,knife-in-the-back,knife-throwing,knocked-out,leg-wound,loss-of-father,master-slave-relationship,murder,necklace,person-on-fire,punched-in-the-face,rat,ring,ritual,river,role-reversal,roman,roman-empire,scar,senator,severed-head,siege,slave,s] 
+
+  path: 2[1248065 -> 5000052], [Blitz (2011) -> Thriller] 
+
+srcNodes: [324734, 8024956, 5000052]
+  path: 0[1344495 -> 2088052 -> 1310507 -> 2255255 -> 324734], [EMR (2004) -> Dillane, Richard -> De-Lovely (2004) -> Obika, Lemar -> "Fame Academy" (2002/I)] 
+
+  path: 1[1344495 -> 2088052 -> 1613766 -> 8024956], [EMR (2004) -> Dillane, Richard -> One Hundredth of a Second (2006) -> award,dilemma,journalist,photograph,prize] 
+
+  path: 2[1344495 -> 5000052], [EMR (2004) -> Thriller] 
+
+srcNodes: [1456291, 8029119, 5000052]
+  path: 0[1311364 -> 2351349 -> 1456291], [Deadly Little Secrets (2002) -> Eglington, Holly -> Intern Academy (2004)] 
+
+  path: 1[1311364 -> 2330428 -> 1692481 -> 8029119], [Deadly Little Secrets (2002) -> Chiarelli, Gina -> See Grace Fly (2003) -> actress-breaking-typecast,award,bare-breasts,character-name-in-title,christian-subtext,christianity,coitus-interruptus,crotch-shot,female-nudity,frotteurism,junkie,lesbian-rape,lesbian-subtext,love,mental-illness,panties,religion,schizophrenia,sex,somnophilia,spontaneous-sex,spreadeagle] 
+
+  path: 2[1311364 -> 5000052], [Deadly Little Secrets (2002) -> Thriller] 
+
+srcNodes: [1753545, 8027007, 5002155]
+  path: 0[1837750 -> 2049610 -> 1753545], [Trapped in Perfection (2008) -> Calabretta, Zan -> The Arbuckle Academy (2003)] 
+
+  path: 1[1837750 -> 2200525 -> 1654431 -> 8027007], [Trapped in Perfection (2008) -> Lewis, Mark (XIV) -> Put the Needle on the Record (2004) -> award,band,conference,d.j.,dance,dance-music,disc-jockey,dj,electronic-music,entertainment,house,house-music,ibiza-spain,miami-beach,musician,needle,party,radio,record,recording,singer,singing,song,techno,trance,winter] 
+
+  path: 2[1837750 -> 5002155], [Trapped in Perfection (2008) -> Thriller,Thriller] 
+
+-----------------------------------------
+ResultDestNodes: [1778221, 2294577, 1751652, 1248065, 1344495, 1311364, 1837750]
+ResultRelevs: [8.062837600708008, 7.912077903747559, 7.79355001449585, 7.630597114562988, 7.431754112243652, 7.371357440948486, 6.819026947021484]
+AvgResultRelev: 7.5744573048182895
+AvgResultDissimilarity: 0.7142857142857143
+Num of entries retrieved from the KNLists: 3635
+Num of entries retrieved from NKMaps: 6058
+Num of answer trees explored: 2056
+Num of states created: 2523129
+Num of states explored: 493411
+Num of heuristic search performed: 25
+Max Num of answer tree sets in Q[]: 414018
+
+query: [academy, award, sf]
+Top-k Search by Blink-BDB, k=7
+[academy, award, sf]
+srcNodes: [7009563, 8006166, 1679750]
+  path: 0[2175195 -> 1841754 -> 2486952 -> 1713526 -> 7009563], [Kazama, Morio -> Tsubaki Sanjûrô (2007) -> Suzuki, Anne -> Snow Falling on Cedars (1999) -> featured in Spotligh] 
+
+  path: 1[2175195 -> 1841754 -> 2183363 -> 1249706 -> 8006166], [Kazama, Morio -> Tsubaki Sanjûrô (2007) -> Kobayashi, Yukichi -> Blue Labyrinth (2007) -> award,mermaid,novelist] 
+
+  path: 2[2175195 -> 1679750], [Kazama, Morio -> SF: Episode One (1998)] 
+
+srcNodes: [7010126, 8006166, 1679750]
+  path: 0[2181630 -> 1643206 -> 2183342 -> 1744206 -> 7010126], [Kitarô (II) -> Poppoya (1999) -> Kobayashi, Nenji -> Tasogare Seibei (2002) -> featured in The 76th] 
+
+  path: 1[2181630 -> 1217222 -> 2183363 -> 1249706 -> 8006166], [Kitarô (II) -> Arugentin babâ (2007) -> Kobayashi, Yukichi -> Blue Labyrinth (2007) -> award,mermaid,novelist] 
+
+  path: 2[2181630 -> 1679750], [Kitarô (II) -> SF: Episode One (1998)] 
+
+srcNodes: [1762542, 8006166, 1679750]
+  path: 0[1841754 -> 2432765 -> 1247408 -> 2110388 -> 1762542], [Tsubaki Sanjûrô (2007) -> Morishita, Chisato -> Bleach: Memories of Nobody (2006) -> Flynn, Quinton -> The Christopher Walken Ecstatic Dance Academy (2001)] 
+
+  path: 1[1841754 -> 2183363 -> 1249706 -> 8006166], [Tsubaki Sanjûrô (2007) -> Kobayashi, Yukichi -> Blue Labyrinth (2007) -> award,mermaid,novelist] 
+
+  path: 2[1841754 -> 2175195 -> 1679750], [Tsubaki Sanjûrô (2007) -> Kazama, Morio -> SF: Episode One (1998)] 
+
+srcNodes: [7010126, 6002808, 1679750]
+  path: 0[2172404 -> 1744206 -> 7010126], [Kanbe, Hiroshi -> Tasogare Seibei (2002) -> featured in The 76th] 
+
+  path: 1[2172404 -> 1202500 -> 4051261 -> 1202507 -> 6002808], [Kanbe, Hiroshi -> Always san-chôme no yûhi (2005) -> Yamazaki, Takashi -> Always zoku san-chôme no yûhi (2007) -> Chagawa finds it inc] 
+
+  path: 2[2172404 -> 1679750], [Kanbe, Hiroshi -> SF: Episode One (1998)] 
+
+srcNodes: [7010126, 6002808, 1679750]
+  path: 0[2115522 -> 1744206 -> 7010126], [Fukikoshi, Mitsuru -> Tasogare Seibei (2002) -> featured in The 76th] 
+
+  path: 1[2115522 -> 1228921 -> 4051261 -> 1202507 -> 6002808], [Fukikoshi, Mitsuru -> Ballad: Na mo naki koi no uta (2009) -> Yamazaki, Takashi -> Always zoku san-chôme no yûhi (2007) -> Chagawa finds it inc] 
+
+  path: 2[2115522 -> 1679750], [Fukikoshi, Mitsuru -> SF: Episode One (1998)] 
+
+srcNodes: [7009563, 8006166, 1679750]
+  path: 0[2183363 -> 1841754 -> 2486952 -> 1713526 -> 7009563], [Kobayashi, Yukichi -> Tsubaki Sanjûrô (2007) -> Suzuki, Anne -> Snow Falling on Cedars (1999) -> featured in Spotligh] 
+
+  path: 1[2183363 -> 1249706 -> 8006166], [Kobayashi, Yukichi -> Blue Labyrinth (2007) -> award,mermaid,novelist] 
+
+  path: 2[2183363 -> 1217222 -> 2181630 -> 1679750], [Kobayashi, Yukichi -> Arugentin babâ (2007) -> Kitarô (II) -> SF: Episode One (1998)] 
+
+srcNodes: [1751652, 8027470, 1679750]
+  path: 0[2434657 -> 1593801 -> 2225758 -> 1751652], [Murphy, Brittany -> Neverwas (2005) -> McKellen, Ian -> The Academy (2009)] 
+
+  path: 1[2434657 -> 1370138 -> 2284317 -> 1663552 -> 8027470], [Murphy, Brittany -> Falling Sky (1999) -> Raymont, Daniel -> Recycling Flo (2004) -> award-winning,cannes-film-festival,character-name-in-title,sex-comedy] 
+
+  path: 2[2434657 -> 1803223 -> 2431463 -> 1679750], [Murphy, Brittany -> The Ramen Girl (2008) -> Monô, Akiko -> SF: Episode One (1998)] 
+
+-----------------------------------------
+Num of top-k answers: 7
+ResultDestNodes: [2175195, 2181630, 1841754, 2172404, 2115522, 2183363, 2434657]
+ResultRelevs: [6.076948165893555, 5.926631450653076, 5.72865104675293, 5.224608421325684, 5.224608421325684, 5.205177307128906, 5.1753950119018555]
+AvgResultRelev: 5.508859974997384
+AvgResultDissimilarity: 0.492063492063492
+Num of entries retrieved from the lists: 4320
+Num of entries retrieved from NKMaps: 7681
+Num of answer trees explored: 839
+
+Div Top-k Search by Exhustive, k=7
+[academy, award, sf]
+srcNodes: [7009563, 8006166, 1679750]
+  path: 0[2175195 -> 1841754 -> 2486952 -> 1713526 -> 7009563], [Kazama, Morio -> Tsubaki Sanjûrô (2007) -> Suzuki, Anne -> Snow Falling on Cedars (1999) -> featured in Spotligh] 
+
+  path: 1[2175195 -> 1841754 -> 2183363 -> 1249706 -> 8006166], [Kazama, Morio -> Tsubaki Sanjûrô (2007) -> Kobayashi, Yukichi -> Blue Labyrinth (2007) -> award,mermaid,novelist] 
+
+  path: 2[2175195 -> 1679750], [Kazama, Morio -> SF: Episode One (1998)] 
+
+srcNodes: [7010126, 8006166, 1679750]
+  path: 0[2181630 -> 1643206 -> 2183342 -> 1744206 -> 7010126], [Kitarô (II) -> Poppoya (1999) -> Kobayashi, Nenji -> Tasogare Seibei (2002) -> featured in The 76th] 
+
+  path: 1[2181630 -> 1217222 -> 2183363 -> 1249706 -> 8006166], [Kitarô (II) -> Arugentin babâ (2007) -> Kobayashi, Yukichi -> Blue Labyrinth (2007) -> award,mermaid,novelist] 
+
+  path: 2[2181630 -> 1679750], [Kitarô (II) -> SF: Episode One (1998)] 
+
+srcNodes: [1762542, 8006166, 1679750]
+  path: 0[1841754 -> 2432765 -> 1247408 -> 2110388 -> 1762542], [Tsubaki Sanjûrô (2007) -> Morishita, Chisato -> Bleach: Memories of Nobody (2006) -> Flynn, Quinton -> The Christopher Walken Ecstatic Dance Academy (2001)] 
+
+  path: 1[1841754 -> 2183363 -> 1249706 -> 8006166], [Tsubaki Sanjûrô (2007) -> Kobayashi, Yukichi -> Blue Labyrinth (2007) -> award,mermaid,novelist] 
+
+  path: 2[1841754 -> 2175195 -> 1679750], [Tsubaki Sanjûrô (2007) -> Kazama, Morio -> SF: Episode One (1998)] 
+
+srcNodes: [7010126, 6002808, 1679750]
+  path: 0[2115522 -> 1744206 -> 7010126], [Fukikoshi, Mitsuru -> Tasogare Seibei (2002) -> featured in The 76th] 
+
+  path: 1[2115522 -> 1228921 -> 4051261 -> 1202507 -> 6002808], [Fukikoshi, Mitsuru -> Ballad: Na mo naki koi no uta (2009) -> Yamazaki, Takashi -> Always zoku san-chôme no yûhi (2007) -> Chagawa finds it inc] 
+
+  path: 2[2115522 -> 1679750], [Fukikoshi, Mitsuru -> SF: Episode One (1998)] 
+
+srcNodes: [7010126, 6002808, 1679750]
+  path: 0[2172404 -> 1744206 -> 7010126], [Kanbe, Hiroshi -> Tasogare Seibei (2002) -> featured in The 76th] 
+
+  path: 1[2172404 -> 1202500 -> 4051261 -> 1202507 -> 6002808], [Kanbe, Hiroshi -> Always san-chôme no yûhi (2005) -> Yamazaki, Takashi -> Always zoku san-chôme no yûhi (2007) -> Chagawa finds it inc] 
+
+  path: 2[2172404 -> 1679750], [Kanbe, Hiroshi -> SF: Episode One (1998)] 
+
+srcNodes: [1456291, 8032152, 7011751]
+  path: 0[2110601 -> 1456291], [Foley, Dave (I) -> Intern Academy (2004)] 
+
+  path: 1[2110601 -> 1574021 -> 2090750 -> 1744923 -> 8032152], [Foley, Dave (I) -> Monkeybone (2001) -> Donovan, Jamie (I) -> Tc3 (2002) -> award,film-festival] 
+
+  path: 2[2110601 -> 1174437 -> 2192042 -> 1829855 -> 7011751], [Foley, Dave (I) -> A Bug's Life (1998) -> Lander, David L. -> Titan A.E. (2000) -> featured in "Troldsp] 
+
+srcNodes: [1751652, 6008528, 6017374]
+  path: 0[2225758 -> 1751652], [McKellen, Ian -> The Academy (2009)] 
+
+  path: 1[2225758 -> 1887841 -> 2288928 -> 1298896 -> 6008528], [McKellen, Ian -> X-Men: The Last Stand (2006) -> Richings, Julian -> Curious Stories, Crooked Symbols (2009) -> A grisly murder reca] 
+
+  path: 2[2225758 -> 1670533 -> 2001403 -> 1457138 -> 6017374], [McKellen, Ian -> Ringers: Lord of the Fans (2005) -> Ackerman, Forrest J -> Into the Zone: The Story of the Cacophony Society (2011) -> The story of the Cac] 
+
+-----------------------------------------
+ResultDestNodes: [2175195, 2181630, 1841754, 2115522, 2172404, 2110601, 2225758]
+ResultRelevs: [6.076948165893555, 5.926631450653076, 5.72865104675293, 5.224608421325684, 5.224608421325684, 4.348066806793213, 4.336277008056641]
+AvgResultRelev: 5.266541617257254
+AvgResultDissimilarity: 0.7301587604341053
+Num of entries retrieved from the KNLists: 9285
+Num of entries retrieved from NKMaps: 16708
+Num of answer trees explored: 1971
+Num of answer tree sets created: 39040822
+Num of answer tree sets removed: 39040810
+Max Num of answer tree sets in Q[]: 39040802
+

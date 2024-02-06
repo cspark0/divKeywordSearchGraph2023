@@ -1,0 +1,768 @@
+Blink Search Using BDB 10
+[volcano, mountain, america]
+srcNodes: [224, 210, 10001]
+  path: 0[10001 -> 20180 -> 224], [America -> Ecuador -> Chimborazo Chimborazo Andes volcano] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [214, 214, 10001]
+  path: 0[214 -> 214], [Soufriere Hills Soufriere Hills  volcano -> Soufriere Hills Soufriere Hills  volcano]
+  path: 1[214 -> 214], [Soufriere Hills Soufriere Hills  volcano -> Soufriere Hills Soufriere Hills  volcano]
+  path: 2[214 -> 20134 -> 10001], [Soufriere Hills Soufriere Hills  volcano -> Montserrat -> America] 
+
+srcNodes: [215, 215, 10001]
+  path: 0[215 -> 215], [Soufriere Soufriere  volcano -> Soufriere Soufriere  volcano]
+  path: 1[215 -> 215], [Soufriere Soufriere  volcano -> Soufriere Soufriere  volcano]
+  path: 2[215 -> 20142 -> 10001], [Soufriere Soufriere  volcano -> Saint Vincent and the Grenadines -> America] 
+
+srcNodes: [206, 206, 10001]
+  path: 0[206 -> 206], [Concepcion Concepcion  volcano -> Concepcion Concepcion  volcano]
+  path: 1[206 -> 206], [Concepcion Concepcion  volcano -> Concepcion Concepcion  volcano]
+  path: 2[206 -> 20121 -> 10001], [Concepcion Concepcion  volcano -> Nicaragua -> America] 
+
+srcNodes: [223, 223, 10001]
+  path: 0[223 -> 223], [Cotopaxi Cotopaxi Andes volcano -> Cotopaxi Cotopaxi Andes volcano]
+  path: 1[223 -> 223], [Cotopaxi Cotopaxi Andes volcano -> Cotopaxi Cotopaxi Andes volcano]
+  path: 2[223 -> 20180 -> 10001], [Cotopaxi Cotopaxi Andes volcano -> Ecuador -> America] 
+
+srcNodes: [222, 222, 10001]
+  path: 0[222 -> 222], [Cayambe Cayambe Andes volcano -> Cayambe Cayambe Andes volcano]
+  path: 1[222 -> 222], [Cayambe Cayambe Andes volcano -> Cayambe Cayambe Andes volcano]
+  path: 2[222 -> 20180 -> 10001], [Cayambe Cayambe Andes volcano -> Ecuador -> America] 
+
+srcNodes: [217, 217, 10001]
+  path: 0[217 -> 217], [Pelee Pelee  volcano -> Pelee Pelee  volcano]
+  path: 1[217 -> 217], [Pelee Pelee  volcano -> Pelee Pelee  volcano]
+  path: 2[217 -> 20133 -> 10001], [Pelee Pelee  volcano -> Martinique -> America] 
+
+srcNodes: [213, 213, 10001]
+  path: 0[213 -> 213], [La Soufriere La Soufriere  volcano -> La Soufriere La Soufriere  volcano]
+  path: 1[213 -> 213], [La Soufriere La Soufriere  volcano -> La Soufriere La Soufriere  volcano]
+  path: 2[213 -> 20131 -> 10001], [La Soufriere La Soufriere  volcano -> Guadeloupe -> America] 
+
+srcNodes: [224, 224, 10001]
+  path: 0[224 -> 224], [Chimborazo Chimborazo Andes volcano -> Chimborazo Chimborazo Andes volcano]
+  path: 1[224 -> 224], [Chimborazo Chimborazo Andes volcano -> Chimborazo Chimborazo Andes volcano]
+  path: 2[224 -> 20180 -> 10001], [Chimborazo Chimborazo Andes volcano -> Ecuador -> America] 
+
+srcNodes: [216, 216, 10001]
+  path: 0[216 -> 216], [Morne Diablotins Morne Diablotins  volcano -> Morne Diablotins Morne Diablotins  volcano]
+  path: 1[216 -> 216], [Morne Diablotins Morne Diablotins  volcano -> Morne Diablotins Morne Diablotins  volcano]
+  path: 2[216 -> 20124 -> 10001], [Morne Diablotins Morne Diablotins  volcano -> Dominica -> America] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 214, 215, 206, 223, 222, 217, 213, 224, 216]
+ResultRelevs: [10.36327075958252, 7.770100116729736, 7.770100116729736, 7.770100116729736, 7.770100116729736, 7.770100116729736, 7.770100116729736, 7.770100116729736, 7.770100116729736, 7.770100116729736]
+Num of top-k answers: 10
+Num of non-reduced answers: 0
+Num of duplicate answers: 0
+Num of non-redundant answers: 10
+Num of entries retrieved from the lists: 162
+Num of entries retrieved from NKMaps: 277
+
+Blink Search Using ConstRootDup10
+[volcano, mountain, america]
+srcNodes: [223, 210, 10001]
+  path: 0[10001 -> 20180 -> 223], [America -> Ecuador -> Cotopaxi Cotopaxi Andes volcano] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [224, 210, 10001]
+  path: 0[10001 -> 20180 -> 224], [America -> Ecuador -> Chimborazo Chimborazo Andes volcano] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [239, 210, 10001]
+  path: 0[10001 -> 20169 -> 31184 -> 239], [America -> Argentina -> Mendoza -> Tupungato Tupungato Andes volcano] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [236, 210, 10001]
+  path: 0[10001 -> 20172 -> 236], [America -> Chile -> Ojos del Salado Ojos del Salado Andes volcano] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [223, 211, 10001]
+  path: 0[10001 -> 20180 -> 223], [America -> Ecuador -> Cotopaxi Cotopaxi Andes volcano] 
+
+  path: 1[10001 -> 20125 -> 211], [America -> Dominican Republic -> Pico Duarte Pico Duarte  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [223, 223, 10001]
+  path: 0[223 -> 223], [Cotopaxi Cotopaxi Andes volcano -> Cotopaxi Cotopaxi Andes volcano]
+  path: 1[223 -> 223], [Cotopaxi Cotopaxi Andes volcano -> Cotopaxi Cotopaxi Andes volcano]
+  path: 2[223 -> 20180 -> 10001], [Cotopaxi Cotopaxi Andes volcano -> Ecuador -> America] 
+
+srcNodes: [222, 222, 10001]
+  path: 0[222 -> 222], [Cayambe Cayambe Andes volcano -> Cayambe Cayambe Andes volcano]
+  path: 1[222 -> 222], [Cayambe Cayambe Andes volcano -> Cayambe Cayambe Andes volcano]
+  path: 2[222 -> 20180 -> 10001], [Cayambe Cayambe Andes volcano -> Ecuador -> America] 
+
+srcNodes: [224, 224, 10001]
+  path: 0[224 -> 224], [Chimborazo Chimborazo Andes volcano -> Chimborazo Chimborazo Andes volcano]
+  path: 1[224 -> 224], [Chimborazo Chimborazo Andes volcano -> Chimborazo Chimborazo Andes volcano]
+  path: 2[224 -> 20180 -> 10001], [Chimborazo Chimborazo Andes volcano -> Ecuador -> America] 
+
+srcNodes: [206, 206, 10001]
+  path: 0[206 -> 206], [Concepcion Concepcion  volcano -> Concepcion Concepcion  volcano]
+  path: 1[206 -> 206], [Concepcion Concepcion  volcano -> Concepcion Concepcion  volcano]
+  path: 2[206 -> 20121 -> 10001], [Concepcion Concepcion  volcano -> Nicaragua -> America] 
+
+srcNodes: [213, 213, 10001]
+  path: 0[213 -> 213], [La Soufriere La Soufriere  volcano -> La Soufriere La Soufriere  volcano]
+  path: 1[213 -> 213], [La Soufriere La Soufriere  volcano -> La Soufriere La Soufriere  volcano]
+  path: 2[213 -> 20131 -> 10001], [La Soufriere La Soufriere  volcano -> Guadeloupe -> America] 
+
+-----------------------------------------
+ResultDestNodes: 
+10001, 10001, 10001, 10001, 10001, 223, 222, 224, 206, 213, 
+ResultRelevs: 
+10.363271, 10.363271, 10.129024, 10.129023, 10.06562, 7.7701, 7.7701, 7.7701, 7.7701, 7.7701, 
+Num of top-k answers: 10
+Num of duplicate answers: 0
+Num of duplicate roots in top-k answers: 4
+root duplication ratio: 0.44444445
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 162
+Num of entries retrieved from NKMaps: 1240
+Num of answer trees explored: 5075
+
+Blink Search Using BDB 20
+[volcano, mountain, america]
+srcNodes: [224, 210, 10001]
+  path: 0[10001 -> 20180 -> 224], [America -> Ecuador -> Chimborazo Chimborazo Andes volcano] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [222, 222, 10001]
+  path: 0[222 -> 222], [Cayambe Cayambe Andes volcano -> Cayambe Cayambe Andes volcano]
+  path: 1[222 -> 222], [Cayambe Cayambe Andes volcano -> Cayambe Cayambe Andes volcano]
+  path: 2[222 -> 20180 -> 10001], [Cayambe Cayambe Andes volcano -> Ecuador -> America] 
+
+srcNodes: [216, 216, 10001]
+  path: 0[216 -> 216], [Morne Diablotins Morne Diablotins  volcano -> Morne Diablotins Morne Diablotins  volcano]
+  path: 1[216 -> 216], [Morne Diablotins Morne Diablotins  volcano -> Morne Diablotins Morne Diablotins  volcano]
+  path: 2[216 -> 20124 -> 10001], [Morne Diablotins Morne Diablotins  volcano -> Dominica -> America] 
+
+srcNodes: [215, 215, 10001]
+  path: 0[215 -> 215], [Soufriere Soufriere  volcano -> Soufriere Soufriere  volcano]
+  path: 1[215 -> 215], [Soufriere Soufriere  volcano -> Soufriere Soufriere  volcano]
+  path: 2[215 -> 20142 -> 10001], [Soufriere Soufriere  volcano -> Saint Vincent and the Grenadines -> America] 
+
+srcNodes: [234, 234, 10001]
+  path: 0[234 -> 234], [Licancabur Licancabur Andes volcano -> Licancabur Licancabur Andes volcano]
+  path: 1[234 -> 234], [Licancabur Licancabur Andes volcano -> Licancabur Licancabur Andes volcano]
+  path: 2[234 -> 20172 -> 10001], [Licancabur Licancabur Andes volcano -> Chile -> America] 
+
+srcNodes: [213, 213, 10001]
+  path: 0[213 -> 213], [La Soufriere La Soufriere  volcano -> La Soufriere La Soufriere  volcano]
+  path: 1[213 -> 213], [La Soufriere La Soufriere  volcano -> La Soufriere La Soufriere  volcano]
+  path: 2[213 -> 20131 -> 10001], [La Soufriere La Soufriere  volcano -> Guadeloupe -> America] 
+
+srcNodes: [217, 217, 10001]
+  path: 0[217 -> 217], [Pelee Pelee  volcano -> Pelee Pelee  volcano]
+  path: 1[217 -> 217], [Pelee Pelee  volcano -> Pelee Pelee  volcano]
+  path: 2[217 -> 20133 -> 10001], [Pelee Pelee  volcano -> Martinique -> America] 
+
+srcNodes: [235, 235, 10001]
+  path: 0[235 -> 235], [Llullaillaco Llullaillaco Andes volcano -> Llullaillaco Llullaillaco Andes volcano]
+  path: 1[235 -> 235], [Llullaillaco Llullaillaco Andes volcano -> Llullaillaco Llullaillaco Andes volcano]
+  path: 2[235 -> 20172 -> 10001], [Llullaillaco Llullaillaco Andes volcano -> Chile -> America] 
+
+srcNodes: [224, 224, 10001]
+  path: 0[224 -> 224], [Chimborazo Chimborazo Andes volcano -> Chimborazo Chimborazo Andes volcano]
+  path: 1[224 -> 224], [Chimborazo Chimborazo Andes volcano -> Chimborazo Chimborazo Andes volcano]
+  path: 2[224 -> 20180 -> 10001], [Chimborazo Chimborazo Andes volcano -> Ecuador -> America] 
+
+srcNodes: [233, 233, 10001]
+  path: 0[233 -> 233], [Sajama Sajama Andes volcano -> Sajama Sajama Andes volcano]
+  path: 1[233 -> 233], [Sajama Sajama Andes volcano -> Sajama Sajama Andes volcano]
+  path: 2[233 -> 20170 -> 10001], [Sajama Sajama Andes volcano -> Bolivia -> America] 
+
+srcNodes: [206, 206, 10001]
+  path: 0[206 -> 206], [Concepcion Concepcion  volcano -> Concepcion Concepcion  volcano]
+  path: 1[206 -> 206], [Concepcion Concepcion  volcano -> Concepcion Concepcion  volcano]
+  path: 2[206 -> 20121 -> 10001], [Concepcion Concepcion  volcano -> Nicaragua -> America] 
+
+srcNodes: [223, 223, 10001]
+  path: 0[223 -> 223], [Cotopaxi Cotopaxi Andes volcano -> Cotopaxi Cotopaxi Andes volcano]
+  path: 1[223 -> 223], [Cotopaxi Cotopaxi Andes volcano -> Cotopaxi Cotopaxi Andes volcano]
+  path: 2[223 -> 20180 -> 10001], [Cotopaxi Cotopaxi Andes volcano -> Ecuador -> America] 
+
+srcNodes: [214, 214, 10001]
+  path: 0[214 -> 214], [Soufriere Hills Soufriere Hills  volcano -> Soufriere Hills Soufriere Hills  volcano]
+  path: 1[214 -> 214], [Soufriere Hills Soufriere Hills  volcano -> Soufriere Hills Soufriere Hills  volcano]
+  path: 2[214 -> 20134 -> 10001], [Soufriere Hills Soufriere Hills  volcano -> Montserrat -> America] 
+
+srcNodes: [235, 235, 10001]
+  path: 0[20172 -> 235], [Chile -> Llullaillaco Llullaillaco Andes volcano] 
+
+  path: 1[20172 -> 235], [Chile -> Llullaillaco Llullaillaco Andes volcano] 
+
+  path: 2[20172 -> 10001], [Chile -> America] 
+
+srcNodes: [234, 233, 10001]
+  path: 0[20170 -> 234], [Bolivia -> Licancabur Licancabur Andes volcano] 
+
+  path: 1[20170 -> 233], [Bolivia -> Sajama Sajama Andes volcano] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [215, 215, 10001]
+  path: 0[20142 -> 215], [Saint Vincent and the Grenadines -> Soufriere Soufriere  volcano] 
+
+  path: 1[20142 -> 215], [Saint Vincent and the Grenadines -> Soufriere Soufriere  volcano] 
+
+  path: 2[20142 -> 10001], [Saint Vincent and the Grenadines -> America] 
+
+srcNodes: [216, 216, 10001]
+  path: 0[20124 -> 216], [Dominica -> Morne Diablotins Morne Diablotins  volcano] 
+
+  path: 1[20124 -> 216], [Dominica -> Morne Diablotins Morne Diablotins  volcano] 
+
+  path: 2[20124 -> 10001], [Dominica -> America] 
+
+srcNodes: [206, 206, 10001]
+  path: 0[20121 -> 206], [Nicaragua -> Concepcion Concepcion  volcano] 
+
+  path: 1[20121 -> 206], [Nicaragua -> Concepcion Concepcion  volcano] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [222, 224, 10001]
+  path: 0[20180 -> 222], [Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 1[20180 -> 224], [Ecuador -> Chimborazo Chimborazo Andes volcano] 
+
+  path: 2[20180 -> 10001], [Ecuador -> America] 
+
+srcNodes: [213, 213, 10001]
+  path: 0[20131 -> 213], [Guadeloupe -> La Soufriere La Soufriere  volcano] 
+
+  path: 1[20131 -> 213], [Guadeloupe -> La Soufriere La Soufriere  volcano] 
+
+  path: 2[20131 -> 10001], [Guadeloupe -> America] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 222, 216, 215, 234, 213, 217, 235, 224, 233, 206, 223, 214, 20172, 20170, 20142, 20124, 20121, 20180, 20131]
+ResultRelevs: [10.36327075958252, 7.770100116729736, 7.770100116729736, 7.770100116729736, 7.770100116729736, 7.770100116729736, 7.770100116729736, 7.770100116729736, 7.770100116729736, 7.770100116729736, 7.770100116729736, 7.770100116729736, 7.770100116729736, 6.6884002685546875, 6.6884002685546875, 6.6884002685546875, 6.6884002685546875, 6.6884002685546875, 6.6884002685546875, 6.6884002685546875]
+Num of top-k answers: 20
+Num of non-reduced answers: 0
+Num of duplicate answers: 5
+Num of non-redundant answers: 15
+Num of entries retrieved from the lists: 193
+Num of entries retrieved from NKMaps: 329
+
+Blink Search Using ConstRootDup20
+[volcano, mountain, america]
+srcNodes: [224, 210, 10001]
+  path: 0[10001 -> 20180 -> 224], [America -> Ecuador -> Chimborazo Chimborazo Andes volcano] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [223, 210, 10001]
+  path: 0[10001 -> 20180 -> 223], [America -> Ecuador -> Cotopaxi Cotopaxi Andes volcano] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [239, 210, 10001]
+  path: 0[10001 -> 20169 -> 31184 -> 239], [America -> Argentina -> Mendoza -> Tupungato Tupungato Andes volcano] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [236, 210, 10001]
+  path: 0[10001 -> 20172 -> 236], [America -> Chile -> Ojos del Salado Ojos del Salado Andes volcano] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [224, 211, 10001]
+  path: 0[10001 -> 20180 -> 224], [America -> Ecuador -> Chimborazo Chimborazo Andes volcano] 
+
+  path: 1[10001 -> 20125 -> 211], [America -> Dominican Republic -> Pico Duarte Pico Duarte  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [223, 211, 10001]
+  path: 0[10001 -> 20180 -> 223], [America -> Ecuador -> Cotopaxi Cotopaxi Andes volcano] 
+
+  path: 1[10001 -> 20125 -> 211], [America -> Dominican Republic -> Pico Duarte Pico Duarte  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [161, 210, 10001]
+  path: 0[10001 -> 20118 -> 30997 -> 161], [America -> United States -> Hawaii -> Mauna Loa Mauna Loa Hawaii volcano] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [223, 205, 10001]
+  path: 0[10001 -> 20180 -> 223], [America -> Ecuador -> Cotopaxi Cotopaxi Andes volcano] 
+
+  path: 1[10001 -> 20113 -> 205], [America -> Guatemala -> Tajumulco Tajumulco Sierra Madre volcanic] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [224, 205, 10001]
+  path: 0[10001 -> 20180 -> 224], [America -> Ecuador -> Chimborazo Chimborazo Andes volcano] 
+
+  path: 1[10001 -> 20113 -> 205], [America -> Guatemala -> Tajumulco Tajumulco Sierra Madre volcanic] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [223, 95, 10001]
+  path: 0[10001 -> 20180 -> 223], [America -> Ecuador -> Cotopaxi Cotopaxi Andes volcano] 
+
+  path: 1[10001 -> 20118 -> 30996 -> 95], [America -> United States -> Georgia -> Kasbek Kasbek Kaukasus volcanic] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [215, 215, 10001]
+  path: 0[215 -> 215], [Soufriere Soufriere  volcano -> Soufriere Soufriere  volcano]
+  path: 1[215 -> 215], [Soufriere Soufriere  volcano -> Soufriere Soufriere  volcano]
+  path: 2[215 -> 20142 -> 10001], [Soufriere Soufriere  volcano -> Saint Vincent and the Grenadines -> America] 
+
+srcNodes: [223, 223, 10001]
+  path: 0[223 -> 223], [Cotopaxi Cotopaxi Andes volcano -> Cotopaxi Cotopaxi Andes volcano]
+  path: 1[223 -> 223], [Cotopaxi Cotopaxi Andes volcano -> Cotopaxi Cotopaxi Andes volcano]
+  path: 2[223 -> 20180 -> 10001], [Cotopaxi Cotopaxi Andes volcano -> Ecuador -> America] 
+
+srcNodes: [217, 217, 10001]
+  path: 0[217 -> 217], [Pelee Pelee  volcano -> Pelee Pelee  volcano]
+  path: 1[217 -> 217], [Pelee Pelee  volcano -> Pelee Pelee  volcano]
+  path: 2[217 -> 20133 -> 10001], [Pelee Pelee  volcano -> Martinique -> America] 
+
+srcNodes: [224, 224, 10001]
+  path: 0[224 -> 224], [Chimborazo Chimborazo Andes volcano -> Chimborazo Chimborazo Andes volcano]
+  path: 1[224 -> 224], [Chimborazo Chimborazo Andes volcano -> Chimborazo Chimborazo Andes volcano]
+  path: 2[224 -> 20180 -> 10001], [Chimborazo Chimborazo Andes volcano -> Ecuador -> America] 
+
+srcNodes: [206, 206, 10001]
+  path: 0[206 -> 206], [Concepcion Concepcion  volcano -> Concepcion Concepcion  volcano]
+  path: 1[206 -> 206], [Concepcion Concepcion  volcano -> Concepcion Concepcion  volcano]
+  path: 2[206 -> 20121 -> 10001], [Concepcion Concepcion  volcano -> Nicaragua -> America] 
+
+srcNodes: [213, 213, 10001]
+  path: 0[213 -> 213], [La Soufriere La Soufriere  volcano -> La Soufriere La Soufriere  volcano]
+  path: 1[213 -> 213], [La Soufriere La Soufriere  volcano -> La Soufriere La Soufriere  volcano]
+  path: 2[213 -> 20131 -> 10001], [La Soufriere La Soufriere  volcano -> Guadeloupe -> America] 
+
+srcNodes: [222, 222, 10001]
+  path: 0[222 -> 222], [Cayambe Cayambe Andes volcano -> Cayambe Cayambe Andes volcano]
+  path: 1[222 -> 222], [Cayambe Cayambe Andes volcano -> Cayambe Cayambe Andes volcano]
+  path: 2[222 -> 20180 -> 10001], [Cayambe Cayambe Andes volcano -> Ecuador -> America] 
+
+srcNodes: [214, 214, 10001]
+  path: 0[214 -> 214], [Soufriere Hills Soufriere Hills  volcano -> Soufriere Hills Soufriere Hills  volcano]
+  path: 1[214 -> 214], [Soufriere Hills Soufriere Hills  volcano -> Soufriere Hills Soufriere Hills  volcano]
+  path: 2[214 -> 20134 -> 10001], [Soufriere Hills Soufriere Hills  volcano -> Montserrat -> America] 
+
+srcNodes: [216, 216, 10001]
+  path: 0[216 -> 216], [Morne Diablotins Morne Diablotins  volcano -> Morne Diablotins Morne Diablotins  volcano]
+  path: 1[216 -> 216], [Morne Diablotins Morne Diablotins  volcano -> Morne Diablotins Morne Diablotins  volcano]
+  path: 2[216 -> 20124 -> 10001], [Morne Diablotins Morne Diablotins  volcano -> Dominica -> America] 
+
+srcNodes: [235, 235, 10001]
+  path: 0[235 -> 235], [Llullaillaco Llullaillaco Andes volcano -> Llullaillaco Llullaillaco Andes volcano]
+  path: 1[235 -> 235], [Llullaillaco Llullaillaco Andes volcano -> Llullaillaco Llullaillaco Andes volcano]
+  path: 2[235 -> 20172 -> 10001], [Llullaillaco Llullaillaco Andes volcano -> Chile -> America] 
+
+-----------------------------------------
+ResultDestNodes: 
+10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 215, 223, 217, 224, 206, 213, 222, 214, 216, 235, 
+ResultRelevs: 
+10.363271, 10.363271, 10.129024, 10.129023, 10.06562, 10.06562, 10.041181, 9.975797, 9.975797, 9.885974, 7.7701, 7.7701, 7.7701, 7.7701, 7.7701, 7.7701, 7.7701, 7.7701, 7.7701, 7.7701, 
+Num of top-k answers: 20
+Num of duplicate answers: 0
+Num of duplicate roots in top-k answers: 9
+root duplication ratio: 0.47368422
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 162
+Num of entries retrieved from NKMaps: 1240
+Num of answer trees explored: 5075
+
+Blink Search Using BDB 30
+[volcano, mountain, america]
+srcNodes: [224, 210, 10001]
+  path: 0[10001 -> 20180 -> 224], [America -> Ecuador -> Chimborazo Chimborazo Andes volcano] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [222, 222, 10001]
+  path: 0[222 -> 222], [Cayambe Cayambe Andes volcano -> Cayambe Cayambe Andes volcano]
+  path: 1[222 -> 222], [Cayambe Cayambe Andes volcano -> Cayambe Cayambe Andes volcano]
+  path: 2[222 -> 20180 -> 10001], [Cayambe Cayambe Andes volcano -> Ecuador -> America] 
+
+srcNodes: [213, 213, 10001]
+  path: 0[213 -> 213], [La Soufriere La Soufriere  volcano -> La Soufriere La Soufriere  volcano]
+  path: 1[213 -> 213], [La Soufriere La Soufriere  volcano -> La Soufriere La Soufriere  volcano]
+  path: 2[213 -> 20131 -> 10001], [La Soufriere La Soufriere  volcano -> Guadeloupe -> America] 
+
+srcNodes: [224, 224, 10001]
+  path: 0[224 -> 224], [Chimborazo Chimborazo Andes volcano -> Chimborazo Chimborazo Andes volcano]
+  path: 1[224 -> 224], [Chimborazo Chimborazo Andes volcano -> Chimborazo Chimborazo Andes volcano]
+  path: 2[224 -> 20180 -> 10001], [Chimborazo Chimborazo Andes volcano -> Ecuador -> America] 
+
+srcNodes: [215, 215, 10001]
+  path: 0[215 -> 215], [Soufriere Soufriere  volcano -> Soufriere Soufriere  volcano]
+  path: 1[215 -> 215], [Soufriere Soufriere  volcano -> Soufriere Soufriere  volcano]
+  path: 2[215 -> 20142 -> 10001], [Soufriere Soufriere  volcano -> Saint Vincent and the Grenadines -> America] 
+
+srcNodes: [214, 214, 10001]
+  path: 0[214 -> 214], [Soufriere Hills Soufriere Hills  volcano -> Soufriere Hills Soufriere Hills  volcano]
+  path: 1[214 -> 214], [Soufriere Hills Soufriere Hills  volcano -> Soufriere Hills Soufriere Hills  volcano]
+  path: 2[214 -> 20134 -> 10001], [Soufriere Hills Soufriere Hills  volcano -> Montserrat -> America] 
+
+srcNodes: [216, 216, 10001]
+  path: 0[216 -> 216], [Morne Diablotins Morne Diablotins  volcano -> Morne Diablotins Morne Diablotins  volcano]
+  path: 1[216 -> 216], [Morne Diablotins Morne Diablotins  volcano -> Morne Diablotins Morne Diablotins  volcano]
+  path: 2[216 -> 20124 -> 10001], [Morne Diablotins Morne Diablotins  volcano -> Dominica -> America] 
+
+srcNodes: [235, 235, 10001]
+  path: 0[235 -> 235], [Llullaillaco Llullaillaco Andes volcano -> Llullaillaco Llullaillaco Andes volcano]
+  path: 1[235 -> 235], [Llullaillaco Llullaillaco Andes volcano -> Llullaillaco Llullaillaco Andes volcano]
+  path: 2[235 -> 20172 -> 10001], [Llullaillaco Llullaillaco Andes volcano -> Chile -> America] 
+
+srcNodes: [233, 233, 10001]
+  path: 0[233 -> 233], [Sajama Sajama Andes volcano -> Sajama Sajama Andes volcano]
+  path: 1[233 -> 233], [Sajama Sajama Andes volcano -> Sajama Sajama Andes volcano]
+  path: 2[233 -> 20170 -> 10001], [Sajama Sajama Andes volcano -> Bolivia -> America] 
+
+srcNodes: [223, 223, 10001]
+  path: 0[223 -> 223], [Cotopaxi Cotopaxi Andes volcano -> Cotopaxi Cotopaxi Andes volcano]
+  path: 1[223 -> 223], [Cotopaxi Cotopaxi Andes volcano -> Cotopaxi Cotopaxi Andes volcano]
+  path: 2[223 -> 20180 -> 10001], [Cotopaxi Cotopaxi Andes volcano -> Ecuador -> America] 
+
+srcNodes: [234, 234, 10001]
+  path: 0[234 -> 234], [Licancabur Licancabur Andes volcano -> Licancabur Licancabur Andes volcano]
+  path: 1[234 -> 234], [Licancabur Licancabur Andes volcano -> Licancabur Licancabur Andes volcano]
+  path: 2[234 -> 20172 -> 10001], [Licancabur Licancabur Andes volcano -> Chile -> America] 
+
+srcNodes: [206, 206, 10001]
+  path: 0[206 -> 206], [Concepcion Concepcion  volcano -> Concepcion Concepcion  volcano]
+  path: 1[206 -> 206], [Concepcion Concepcion  volcano -> Concepcion Concepcion  volcano]
+  path: 2[206 -> 20121 -> 10001], [Concepcion Concepcion  volcano -> Nicaragua -> America] 
+
+srcNodes: [217, 217, 10001]
+  path: 0[217 -> 217], [Pelee Pelee  volcano -> Pelee Pelee  volcano]
+  path: 1[217 -> 217], [Pelee Pelee  volcano -> Pelee Pelee  volcano]
+  path: 2[217 -> 20133 -> 10001], [Pelee Pelee  volcano -> Martinique -> America] 
+
+srcNodes: [217, 217, 10001]
+  path: 0[20133 -> 217], [Martinique -> Pelee Pelee  volcano] 
+
+  path: 1[20133 -> 217], [Martinique -> Pelee Pelee  volcano] 
+
+  path: 2[20133 -> 10001], [Martinique -> America] 
+
+srcNodes: [215, 215, 10001]
+  path: 0[20142 -> 215], [Saint Vincent and the Grenadines -> Soufriere Soufriere  volcano] 
+
+  path: 1[20142 -> 215], [Saint Vincent and the Grenadines -> Soufriere Soufriere  volcano] 
+
+  path: 2[20142 -> 10001], [Saint Vincent and the Grenadines -> America] 
+
+srcNodes: [222, 224, 10001]
+  path: 0[20180 -> 222], [Ecuador -> Cayambe Cayambe Andes volcano] 
+
+  path: 1[20180 -> 224], [Ecuador -> Chimborazo Chimborazo Andes volcano] 
+
+  path: 2[20180 -> 10001], [Ecuador -> America] 
+
+srcNodes: [214, 214, 10001]
+  path: 0[20134 -> 214], [Montserrat -> Soufriere Hills Soufriere Hills  volcano] 
+
+  path: 1[20134 -> 214], [Montserrat -> Soufriere Hills Soufriere Hills  volcano] 
+
+  path: 2[20134 -> 10001], [Montserrat -> America] 
+
+srcNodes: [213, 213, 10001]
+  path: 0[20131 -> 213], [Guadeloupe -> La Soufriere La Soufriere  volcano] 
+
+  path: 1[20131 -> 213], [Guadeloupe -> La Soufriere La Soufriere  volcano] 
+
+  path: 2[20131 -> 10001], [Guadeloupe -> America] 
+
+srcNodes: [216, 216, 10001]
+  path: 0[20124 -> 216], [Dominica -> Morne Diablotins Morne Diablotins  volcano] 
+
+  path: 1[20124 -> 216], [Dominica -> Morne Diablotins Morne Diablotins  volcano] 
+
+  path: 2[20124 -> 10001], [Dominica -> America] 
+
+srcNodes: [206, 206, 10001]
+  path: 0[20121 -> 206], [Nicaragua -> Concepcion Concepcion  volcano] 
+
+  path: 1[20121 -> 206], [Nicaragua -> Concepcion Concepcion  volcano] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [235, 235, 10001]
+  path: 0[20172 -> 235], [Chile -> Llullaillaco Llullaillaco Andes volcano] 
+
+  path: 1[20172 -> 235], [Chile -> Llullaillaco Llullaillaco Andes volcano] 
+
+  path: 2[20172 -> 10001], [Chile -> America] 
+
+srcNodes: [234, 233, 10001]
+  path: 0[20170 -> 234], [Bolivia -> Licancabur Licancabur Andes volcano] 
+
+  path: 1[20170 -> 233], [Bolivia -> Sajama Sajama Andes volcano] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [236, 236, 10001]
+  path: 0[236 -> 236], [Ojos del Salado Ojos del Salado Andes volcano -> Ojos del Salado Ojos del Salado Andes volcano]
+  path: 1[236 -> 236], [Ojos del Salado Ojos del Salado Andes volcano -> Ojos del Salado Ojos del Salado Andes volcano]
+  path: 2[236 -> 20172 -> 10001], [Ojos del Salado Ojos del Salado Andes volcano -> Chile -> America] 
+
+srcNodes: [235, 210, 10001]
+  path: 0[20132 -> 10001 -> 20172 -> 235], [Jamaica -> America -> Chile -> Llullaillaco Llullaillaco Andes volcano] 
+
+  path: 1[20132 -> 210], [Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20132 -> 10001], [Jamaica -> America] 
+
+srcNodes: [235, 210, 10001]
+  path: 0[210 -> 20132 -> 10001 -> 20172 -> 235], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> Chile -> Llullaillaco Llullaillaco Andes volcano] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America] 
+
+srcNodes: [235, 212, 10001]
+  path: 0[20138 -> 10001 -> 20172 -> 235], [Puerto Rico -> America -> Chile -> Llullaillaco Llullaillaco Andes volcano] 
+
+  path: 1[20138 -> 212], [Puerto Rico -> Cerro de Punta Cerro de Punta  ] 
+
+  path: 2[20138 -> 10001], [Puerto Rico -> America] 
+
+srcNodes: [235, 211, 10001]
+  path: 0[20125 -> 10001 -> 20172 -> 235], [Dominican Republic -> America -> Chile -> Llullaillaco Llullaillaco Andes volcano] 
+
+  path: 1[20125 -> 211], [Dominican Republic -> Pico Duarte Pico Duarte  ] 
+
+  path: 2[20125 -> 10001], [Dominican Republic -> America] 
+
+srcNodes: [230, 210, 10001]
+  path: 0[20175 -> 31231 -> 230], [Peru -> Arequipa -> Ampato Ampato Andes volcano] 
+
+  path: 1[20175 -> 10001 -> 20132 -> 210], [Peru -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20175 -> 10001], [Peru -> America] 
+
+srcNodes: [235, 210, 10001]
+  path: 0[20169 -> 31195 -> 235], [Argentina -> Tucuman -> Llullaillaco Llullaillaco Andes volcano] 
+
+  path: 1[20169 -> 10001 -> 20132 -> 210], [Argentina -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20169 -> 10001], [Argentina -> America] 
+
+srcNodes: [162, 210, 10001]
+  path: 0[20118 -> 30997 -> 162], [United States -> Hawaii -> Haleakala Haleakala Hawaii volcano] 
+
+  path: 1[20118 -> 10001 -> 20132 -> 210], [United States -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 222, 213, 224, 215, 214, 216, 235, 233, 223, 234, 206, 217, 20133, 20142, 20180, 20134, 20131, 20124, 20121, 20172, 20170, 236, 20132, 210, 20138, 20125, 20175, 20169, 20118]
+ResultRelevs: [10.36327075958252, 7.770100116729736, 7.770100116729736, 7.770100116729736, 7.770100116729736, 7.770100116729736, 7.770100116729736, 7.770100116729736, 7.770100116729736, 7.770100116729736, 7.770100116729736, 7.770100116729736, 7.770100116729736, 6.6884002685546875, 6.6884002685546875, 6.6884002685546875, 6.6884002685546875, 6.6884002685546875, 6.6884002685546875, 6.6884002685546875, 6.6884002685546875, 6.6884002685546875, 6.528409957885742, 6.432124137878418, 6.414264678955078, 5.985653877258301, 5.985653877258301, 5.904191017150879, 5.904191017150879, 5.904191017150879]
+Num of top-k answers: 30
+Num of non-reduced answers: 0
+Num of duplicate answers: 9
+Num of non-redundant answers: 21
+Num of entries retrieved from the lists: 340
+Num of entries retrieved from NKMaps: 547
+
+Blink Search Using ConstRootDup30
+[volcano, mountain, america]
+srcNodes: [224, 210, 10001]
+  path: 0[10001 -> 20180 -> 224], [America -> Ecuador -> Chimborazo Chimborazo Andes volcano] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [223, 210, 10001]
+  path: 0[10001 -> 20180 -> 223], [America -> Ecuador -> Cotopaxi Cotopaxi Andes volcano] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [239, 210, 10001]
+  path: 0[10001 -> 20169 -> 31184 -> 239], [America -> Argentina -> Mendoza -> Tupungato Tupungato Andes volcano] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [236, 210, 10001]
+  path: 0[10001 -> 20172 -> 236], [America -> Chile -> Ojos del Salado Ojos del Salado Andes volcano] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [224, 211, 10001]
+  path: 0[10001 -> 20180 -> 224], [America -> Ecuador -> Chimborazo Chimborazo Andes volcano] 
+
+  path: 1[10001 -> 20125 -> 211], [America -> Dominican Republic -> Pico Duarte Pico Duarte  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [223, 211, 10001]
+  path: 0[10001 -> 20180 -> 223], [America -> Ecuador -> Cotopaxi Cotopaxi Andes volcano] 
+
+  path: 1[10001 -> 20125 -> 211], [America -> Dominican Republic -> Pico Duarte Pico Duarte  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [161, 210, 10001]
+  path: 0[10001 -> 20118 -> 30997 -> 161], [America -> United States -> Hawaii -> Mauna Loa Mauna Loa Hawaii volcano] 
+
+  path: 1[10001 -> 20132 -> 210], [America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [223, 205, 10001]
+  path: 0[10001 -> 20180 -> 223], [America -> Ecuador -> Cotopaxi Cotopaxi Andes volcano] 
+
+  path: 1[10001 -> 20113 -> 205], [America -> Guatemala -> Tajumulco Tajumulco Sierra Madre volcanic] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [224, 205, 10001]
+  path: 0[10001 -> 20180 -> 224], [America -> Ecuador -> Chimborazo Chimborazo Andes volcano] 
+
+  path: 1[10001 -> 20113 -> 205], [America -> Guatemala -> Tajumulco Tajumulco Sierra Madre volcanic] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [224, 95, 10001]
+  path: 0[10001 -> 20180 -> 224], [America -> Ecuador -> Chimborazo Chimborazo Andes volcano] 
+
+  path: 1[10001 -> 20118 -> 30996 -> 95], [America -> United States -> Georgia -> Kasbek Kasbek Kaukasus volcanic] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [223, 95, 10001]
+  path: 0[10001 -> 20180 -> 223], [America -> Ecuador -> Cotopaxi Cotopaxi Andes volcano] 
+
+  path: 1[10001 -> 20118 -> 30996 -> 95], [America -> United States -> Georgia -> Kasbek Kasbek Kaukasus volcanic] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [223, 236, 10001]
+  path: 0[10001 -> 20180 -> 223], [America -> Ecuador -> Cotopaxi Cotopaxi Andes volcano] 
+
+  path: 1[10001 -> 20172 -> 236], [America -> Chile -> Ojos del Salado Ojos del Salado Andes volcano] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [224, 236, 10001]
+  path: 0[10001 -> 20180 -> 224], [America -> Ecuador -> Chimborazo Chimborazo Andes volcano] 
+
+  path: 1[10001 -> 20172 -> 236], [America -> Chile -> Ojos del Salado Ojos del Salado Andes volcano] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [239, 211, 10001]
+  path: 0[10001 -> 20169 -> 31184 -> 239], [America -> Argentina -> Mendoza -> Tupungato Tupungato Andes volcano] 
+
+  path: 1[10001 -> 20125 -> 211], [America -> Dominican Republic -> Pico Duarte Pico Duarte  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [236, 211, 10001]
+  path: 0[10001 -> 20172 -> 236], [America -> Chile -> Ojos del Salado Ojos del Salado Andes volcano] 
+
+  path: 1[10001 -> 20125 -> 211], [America -> Dominican Republic -> Pico Duarte Pico Duarte  ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [234, 234, 10001]
+  path: 0[234 -> 234], [Licancabur Licancabur Andes volcano -> Licancabur Licancabur Andes volcano]
+  path: 1[234 -> 234], [Licancabur Licancabur Andes volcano -> Licancabur Licancabur Andes volcano]
+  path: 2[234 -> 20172 -> 10001], [Licancabur Licancabur Andes volcano -> Chile -> America] 
+
+srcNodes: [213, 213, 10001]
+  path: 0[213 -> 213], [La Soufriere La Soufriere  volcano -> La Soufriere La Soufriere  volcano]
+  path: 1[213 -> 213], [La Soufriere La Soufriere  volcano -> La Soufriere La Soufriere  volcano]
+  path: 2[213 -> 20131 -> 10001], [La Soufriere La Soufriere  volcano -> Guadeloupe -> America] 
+
+srcNodes: [206, 206, 10001]
+  path: 0[206 -> 206], [Concepcion Concepcion  volcano -> Concepcion Concepcion  volcano]
+  path: 1[206 -> 206], [Concepcion Concepcion  volcano -> Concepcion Concepcion  volcano]
+  path: 2[206 -> 20121 -> 10001], [Concepcion Concepcion  volcano -> Nicaragua -> America] 
+
+srcNodes: [217, 217, 10001]
+  path: 0[217 -> 217], [Pelee Pelee  volcano -> Pelee Pelee  volcano]
+  path: 1[217 -> 217], [Pelee Pelee  volcano -> Pelee Pelee  volcano]
+  path: 2[217 -> 20133 -> 10001], [Pelee Pelee  volcano -> Martinique -> America] 
+
+srcNodes: [216, 216, 10001]
+  path: 0[216 -> 216], [Morne Diablotins Morne Diablotins  volcano -> Morne Diablotins Morne Diablotins  volcano]
+  path: 1[216 -> 216], [Morne Diablotins Morne Diablotins  volcano -> Morne Diablotins Morne Diablotins  volcano]
+  path: 2[216 -> 20124 -> 10001], [Morne Diablotins Morne Diablotins  volcano -> Dominica -> America] 
+
+srcNodes: [215, 215, 10001]
+  path: 0[215 -> 215], [Soufriere Soufriere  volcano -> Soufriere Soufriere  volcano]
+  path: 1[215 -> 215], [Soufriere Soufriere  volcano -> Soufriere Soufriere  volcano]
+  path: 2[215 -> 20142 -> 10001], [Soufriere Soufriere  volcano -> Saint Vincent and the Grenadines -> America] 
+
+srcNodes: [214, 214, 10001]
+  path: 0[214 -> 214], [Soufriere Hills Soufriere Hills  volcano -> Soufriere Hills Soufriere Hills  volcano]
+  path: 1[214 -> 214], [Soufriere Hills Soufriere Hills  volcano -> Soufriere Hills Soufriere Hills  volcano]
+  path: 2[214 -> 20134 -> 10001], [Soufriere Hills Soufriere Hills  volcano -> Montserrat -> America] 
+
+srcNodes: [222, 222, 10001]
+  path: 0[222 -> 222], [Cayambe Cayambe Andes volcano -> Cayambe Cayambe Andes volcano]
+  path: 1[222 -> 222], [Cayambe Cayambe Andes volcano -> Cayambe Cayambe Andes volcano]
+  path: 2[222 -> 20180 -> 10001], [Cayambe Cayambe Andes volcano -> Ecuador -> America] 
+
+srcNodes: [235, 235, 10001]
+  path: 0[235 -> 235], [Llullaillaco Llullaillaco Andes volcano -> Llullaillaco Llullaillaco Andes volcano]
+  path: 1[235 -> 235], [Llullaillaco Llullaillaco Andes volcano -> Llullaillaco Llullaillaco Andes volcano]
+  path: 2[235 -> 20172 -> 10001], [Llullaillaco Llullaillaco Andes volcano -> Chile -> America] 
+
+srcNodes: [224, 224, 10001]
+  path: 0[224 -> 224], [Chimborazo Chimborazo Andes volcano -> Chimborazo Chimborazo Andes volcano]
+  path: 1[224 -> 224], [Chimborazo Chimborazo Andes volcano -> Chimborazo Chimborazo Andes volcano]
+  path: 2[224 -> 20180 -> 10001], [Chimborazo Chimborazo Andes volcano -> Ecuador -> America] 
+
+srcNodes: [223, 223, 10001]
+  path: 0[223 -> 223], [Cotopaxi Cotopaxi Andes volcano -> Cotopaxi Cotopaxi Andes volcano]
+  path: 1[223 -> 223], [Cotopaxi Cotopaxi Andes volcano -> Cotopaxi Cotopaxi Andes volcano]
+  path: 2[223 -> 20180 -> 10001], [Cotopaxi Cotopaxi Andes volcano -> Ecuador -> America] 
+
+srcNodes: [233, 233, 10001]
+  path: 0[233 -> 233], [Sajama Sajama Andes volcano -> Sajama Sajama Andes volcano]
+  path: 1[233 -> 233], [Sajama Sajama Andes volcano -> Sajama Sajama Andes volcano]
+  path: 2[233 -> 20170 -> 10001], [Sajama Sajama Andes volcano -> Bolivia -> America] 
+
+srcNodes: [216, 216, 10001]
+  path: 0[20124 -> 216], [Dominica -> Morne Diablotins Morne Diablotins  volcano] 
+
+  path: 1[20124 -> 216], [Dominica -> Morne Diablotins Morne Diablotins  volcano] 
+
+  path: 2[20124 -> 10001], [Dominica -> America] 
+
+srcNodes: [235, 235, 10001]
+  path: 0[20172 -> 235], [Chile -> Llullaillaco Llullaillaco Andes volcano] 
+
+  path: 1[20172 -> 235], [Chile -> Llullaillaco Llullaillaco Andes volcano] 
+
+  path: 2[20172 -> 10001], [Chile -> America] 
+
+srcNodes: [234, 233, 10001]
+  path: 0[20170 -> 234], [Bolivia -> Licancabur Licancabur Andes volcano] 
+
+  path: 1[20170 -> 233], [Bolivia -> Sajama Sajama Andes volcano] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+-----------------------------------------
+ResultDestNodes: 
+10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 10001, 234, 213, 206, 217, 216, 215, 214, 222, 235, 224, 223, 233, 20124, 20172, 20170, 
+ResultRelevs: 
+10.363271, 10.363271, 10.129024, 10.129023, 10.06562, 10.06562, 10.041181, 9.975797, 9.975797, 9.885974, 9.885974, 9.885973, 9.885973, 9.831374, 9.831373, 7.7701, 7.7701, 7.7701, 7.7701, 7.7701, 7.7701, 7.7701, 7.7701, 7.7701, 7.7701, 7.7701, 7.7701, 6.6884003, 6.6884003, 6.6884003, 
+Num of top-k answers: 30
+Num of duplicate answers: 2
+Num of duplicate roots in top-k answers: 14
+root duplication ratio: 0.4827586
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 193
+Num of entries retrieved from NKMaps: 1436
+Num of answer trees explored: 5900
+

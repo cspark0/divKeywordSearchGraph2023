@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. -->
+<project basedir="." default="build" name="keywordSearch-reducedAnswer-jmdb">
+    <property environment="env"/>
+    <property name="ECLIPSE_HOME" value="../../../../Program Files/eclipse-jee-indigo-SR2-win32-x86_64/eclipse"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.6"/>
+    <property name="source" value="1.6"/>
+    <path id="keywordSearch.classpath">
+        <pathelement location="bin"/>
+        <pathelement location="../../.m2/repository/org/jgrapht/jgrapht-jdk1.5/0.7.3/jgrapht-jdk1.5-0.7.3.jar"/>
+        <pathelement location="../../.m2/repository/org/apache/lucene/lucene-core/3.3.0/lucene-core-3.3.0.jar"/>
+        <pathelement location="../../.m2/repository/com/sleepycat/je/4.0.92/je-4.0.92.jar"/>
+        <pathelement location="../../.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar"/>
+        <pathelement location="../../.m2/repository/junit/junit/4.4/junit-4.4.jar"/>
+        <pathelement location="../../.m2/repository/com/eaio/uuid/uuid/3.2/uuid-3.2.jar"/>
+        <pathelement location="../../.m2/repository/commons-pool/commons-pool/1.5.5/commons-pool-1.5.5.jar"/>
+        <pathelement location="../../.m2/repository/mysql/mysql-connector-java/5.1.19/mysql-connector-java-5.1.19.jar"/>
+        <pathelement location="../../.m2/repository/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4.jar"/>
+        <pathelement location="../../.m2/repository/org/slf4j/slf4j-log4j12/1.6.4/slf4j-log4j12-1.6.4.jar"/>
+        <pathelement location="../../.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar"/>
+    </path>
+    <target name="init">
+        <mkdir dir="bin"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" source="${source}" target="${target}">
+            <src path="src"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+    <target name="buildGraph">
+        <java classname="index.jmdb.buildGraph" failonerror="true" fork="yes">
+            <jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+    </target>
+    <target name="buildIndex">
+        <java classname="index.jmdb.buildIndex" failonerror="true" fork="yes">
+            <jvmarg line="-Xms12g -Xmx12g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+    </target>
+    <target name="buildInvertedIndex">
+        <java classname="index.jmdb.buildInvertedIndex" failonerror="true" fork="yes">
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+    </target>
+    <target name="Exp1">
+        <java classname="exp.jmdb.Exp1" failonerror="true" fork="yes">
+            <jvmarg line="-Xms13g -Xmx13g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+    </target>
+	<target name="Exp1cq">
+	        <java classname="exp.jmdb.Exp1cq" failonerror="true" fork="yes">
+	            <jvmarg line="-Xms13g -Xmx13g"/>
+	            <classpath refid="keywordSearch.classpath"/>
+	        </java>
+	</target>
+    <target name="Exp1vpNKMap-k10">
+    	<java classname="exp.jmdb.Exp1vpNKMap" failonerror="true" fork="yes">
+    	    <arg value="10"/>
+    	    <arg value="4"/>
+    	    <jvmarg line="-Xms8g -Xmx8g"/>
+    	    <classpath refid="keywordSearch.classpath"/>
+    	</java>
+    	<java classname="exp.jmdb.Exp1vpNKMap" failonerror="true" fork="yes">
+    	    <arg value="10"/>
+    	    <arg value="5"/>
+    	    <jvmarg line="-Xms8g -Xmx8g"/>
+    	    <classpath refid="keywordSearch.classpath"/>
+    	</java>
+    	<java classname="exp.jmdb.Exp1vpNKMap" failonerror="true" fork="yes">
+    	    <arg value="10"/>
+    	    <arg value="6"/>
+    	    <jvmarg line="-Xms8g -Xmx8g"/>
+    	    <classpath refid="keywordSearch.classpath"/>
+    	</java>
+       	<java classname="exp.jmdb.Exp1vpNKMap" failonerror="true" fork="yes">
+       	    <arg value="10"/>
+       	    <arg value="7"/>
+       	    <jvmarg line="-Xms8g -Xmx8g"/>
+       	    <classpath refid="keywordSearch.classpath"/>
+       	</java>
+       	<java classname="exp.jmdb.Exp1vpNKMap" failonerror="true" fork="yes">
+       	    <arg value="10"/>
+       	    <arg value="8"/>
+       	    <jvmarg line="-Xms8g -Xmx8g"/>
+       	    <classpath refid="keywordSearch.classpath"/>
+       	</java>
+    </target>
+    <target name="Exp1vpNKMap-k20">
+    	<java classname="exp.jmdb.Exp1vpNKMap" failonerror="true" fork="yes">
+    	    <arg value="20"/>
+    	    <arg value="4"/>
+    	    <jvmarg line="-Xms8g -Xmx8g"/>
+    	    <classpath refid="keywordSearch.classpath"/>
+    	</java>
+    	<java classname="exp.jmdb.Exp1vpNKMap" failonerror="true" fork="yes">
+    	    <arg value="20"/>
+    	    <arg value="5"/>
+    	    <jvmarg line="-Xms8g -Xmx8g"/>
+    	    <classpath refid="keywordSearch.classpath"/>
+    	</java>
+    	<java classname="exp.jmdb.Exp1vpNKMap" failonerror="true" fork="yes">
+    	    <arg value="20"/>
+    	    <arg value="6"/>
+    	    <jvmarg line="-Xms8g -Xmx8g"/>
+    	    <classpath refid="keywordSearch.classpath"/>
+    	</java>
+       	<java classname="exp.jmdb.Exp1vpNKMap" failonerror="true" fork="yes">
+       	    <arg value="20"/>
+       	    <arg value="7"/>
+       	    <jvmarg line="-Xms8g -Xmx8g"/>
+       	    <classpath refid="keywordSearch.classpath"/>
+       	</java>
+       	<java classname="exp.jmdb.Exp1vpNKMap" failonerror="true" fork="yes">
+       	    <arg value="20"/>
+       	    <arg value="8"/>
+       	    <jvmarg line="-Xms8g -Xmx8g"/>
+       	    <classpath refid="keywordSearch.classpath"/>
+       	</java>
+    </target>
+	<target name="Exp2Basic-q3">
+        <java classname="exp.jmdb.Exp2Basic" failonerror="true" fork="yes">
+        	<arg value="3"/>
+        	<arg value="5"/>
+        	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+        <java classname="exp.jmdb.Exp2Basic" failonerror="true" fork="yes">
+        	<arg value="3"/>
+        	<arg value="10"/>
+         	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+        <java classname="exp.jmdb.Exp2Basic" failonerror="true" fork="yes">
+        	<arg value="3"/>
+        	<arg value="15"/>
+         	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+        <java classname="exp.jmdb.Exp2Basic" failonerror="true" fork="yes">
+        	<arg value="3"/>
+        	<arg value="20"/>
+         	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+        <java classname="exp.jmdb.Exp2Basic" failonerror="true" fork="yes">
+        	<arg value="3"/>
+        	<arg value="25"/>
+         	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+        <java classname="exp.jmdb.Exp2Basic" failonerror="true" fork="yes">
+        	<arg value="3"/>
+        	<arg value="30"/>
+         	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>    	
+    </target>   
+    <target name="Exp2Blink-q3">
+        <java classname="exp.jmdb.Exp2Blink" failonerror="true" fork="yes">
+        	<arg value="3"/>
+        	<arg value="5"/>
+        	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+        <java classname="exp.jmdb.Exp2Blink" failonerror="true" fork="yes">
+        	<arg value="3"/>
+        	<arg value="10"/>
+         	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+        <java classname="exp.jmdb.Exp2Blink" failonerror="true" fork="yes">
+        	<arg value="3"/>
+        	<arg value="15"/>
+         	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+        <java classname="exp.jmdb.Exp2Blink" failonerror="true" fork="yes">
+        	<arg value="3"/>
+        	<arg value="20"/>
+         	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+        <java classname="exp.jmdb.Exp2Blink" failonerror="true" fork="yes">
+        	<arg value="3"/>
+        	<arg value="25"/>
+         	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+        <java classname="exp.jmdb.Exp2Blink" failonerror="true" fork="yes">
+        	<arg value="3"/>
+        	<arg value="30"/>
+         	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>    	
+    </target>
+    <target name="Exp2Enhanced-q3">
+        <java classname="exp.jmdb.Exp2Enhanced" failonerror="true" fork="yes">
+        	<arg value="3"/>
+        	<arg value="5"/>
+        	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+        <java classname="exp.jmdb.Exp2Enhanced" failonerror="true" fork="yes">
+        	<arg value="3"/>
+        	<arg value="10"/>
+         	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+        <java classname="exp.jmdb.Exp2Enhanced" failonerror="true" fork="yes">
+        	<arg value="3"/>
+        	<arg value="15"/>
+         	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+        <java classname="exp.jmdb.Exp2Enhanced" failonerror="true" fork="yes">
+        	<arg value="3"/>
+        	<arg value="20"/>
+         	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+        <java classname="exp.jmdb.Exp2Enhanced" failonerror="true" fork="yes">
+        	<arg value="3"/>
+        	<arg value="25"/>
+         	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+        <java classname="exp.jmdb.Exp2Enhanced" failonerror="true" fork="yes">
+        	<arg value="3"/>
+        	<arg value="30"/>
+         	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>    	
+    </target>
+    <target name="Exp2NKMap-q3">
+        <java classname="exp.jmdb.Exp2NKMap" failonerror="true" fork="yes">
+        	<arg value="3"/>
+        	<arg value="5"/>
+        	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+        <java classname="exp.jmdb.Exp2NKMap" failonerror="true" fork="yes">
+        	<arg value="3"/>
+        	<arg value="10"/>
+         	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+        <java classname="exp.jmdb.Exp2NKMap" failonerror="true" fork="yes">
+        	<arg value="3"/>
+        	<arg value="15"/>
+         	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+        <java classname="exp.jmdb.Exp2NKMap" failonerror="true" fork="yes">
+        	<arg value="3"/>
+        	<arg value="20"/>
+         	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+        <java classname="exp.jmdb.Exp2NKMap" failonerror="true" fork="yes">
+        	<arg value="3"/>
+        	<arg value="25"/>
+         	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+        <java classname="exp.jmdb.Exp2NKMap" failonerror="true" fork="yes">
+        	<arg value="3"/>
+        	<arg value="30"/>
+         	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>    	
+    </target>
+    <target name="Exp2Basic-q4">
+        <java classname="exp.jmdb.Exp2Basic" failonerror="true" fork="yes">
+        	<arg value="4"/>
+        	<arg value="5"/>
+        	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+        <java classname="exp.jmdb.Exp2Basic" failonerror="true" fork="yes">
+        	<arg value="4"/>
+        	<arg value="10"/>
+         	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+        <java classname="exp.jmdb.Exp2Basic" failonerror="true" fork="yes">
+        	<arg value="4"/>
+        	<arg value="15"/>
+         	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+        <java classname="exp.jmdb.Exp2Basic" failonerror="true" fork="yes">
+        	<arg value="4"/>
+        	<arg value="20"/>
+         	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+        <java classname="exp.jmdb.Exp2Basic" failonerror="true" fork="yes">
+        	<arg value="4"/>
+        	<arg value="25"/>
+         	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+        <java classname="exp.jmdb.Exp2Basic" failonerror="true" fork="yes">
+        	<arg value="4"/>
+        	<arg value="30"/>
+         	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>    	
+    </target>   
+    <target name="Exp2Blink-q4">
+        <java classname="exp.jmdb.Exp2Blink" failonerror="true" fork="yes">
+        	<arg value="4"/>
+        	<arg value="5"/>
+        	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+        <java classname="exp.jmdb.Exp2Blink" failonerror="true" fork="yes">
+        	<arg value="4"/>
+        	<arg value="10"/>
+         	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+        <java classname="exp.jmdb.Exp2Blink" failonerror="true" fork="yes">
+        	<arg value="4"/>
+        	<arg value="15"/>
+         	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+        <java classname="exp.jmdb.Exp2Blink" failonerror="true" fork="yes">
+        	<arg value="4"/>
+        	<arg value="20"/>
+         	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+        <java classname="exp.jmdb.Exp2Blink" failonerror="true" fork="yes">
+        	<arg value="4"/>
+        	<arg value="25"/>
+         	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+        <java classname="exp.jmdb.Exp2Blink" failonerror="true" fork="yes">
+        	<arg value="4"/>
+        	<arg value="30"/>
+         	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>    	
+    </target>
+    <target name="Exp2Enhanced-q4">
+        <java classname="exp.jmdb.Exp2Enhanced" failonerror="true" fork="yes">
+        	<arg value="4"/>
+        	<arg value="5"/>
+        	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+        <java classname="exp.jmdb.Exp2Enhanced" failonerror="true" fork="yes">
+        	<arg value="4"/>
+        	<arg value="10"/>
+         	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+        <java classname="exp.jmdb.Exp2Enhanced" failonerror="true" fork="yes">
+        	<arg value="4"/>
+        	<arg value="15"/>
+         	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+        <java classname="exp.jmdb.Exp2Enhanced" failonerror="true" fork="yes">
+        	<arg value="4"/>
+        	<arg value="20"/>
+         	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+        <java classname="exp.jmdb.Exp2Enhanced" failonerror="true" fork="yes">
+        	<arg value="4"/>
+        	<arg value="25"/>
+         	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+        <java classname="exp.jmdb.Exp2Enhanced" failonerror="true" fork="yes">
+        	<arg value="4"/>
+        	<arg value="30"/>
+         	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>    	
+    </target>
+    <target name="Exp2NKMap-q4">
+        <java classname="exp.jmdb.Exp2NKMap" failonerror="true" fork="yes">
+        	<arg value="4"/>
+        	<arg value="5"/>
+        	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+        <java classname="exp.jmdb.Exp2NKMap" failonerror="true" fork="yes">
+        	<arg value="4"/>
+        	<arg value="10"/>
+         	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+        <java classname="exp.jmdb.Exp2NKMap" failonerror="true" fork="yes">
+        	<arg value="4"/>
+        	<arg value="15"/>
+         	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+        <java classname="exp.jmdb.Exp2NKMap" failonerror="true" fork="yes">
+        	<arg value="4"/>
+        	<arg value="20"/>
+         	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+        <java classname="exp.jmdb.Exp2NKMap" failonerror="true" fork="yes">
+        	<arg value="4"/>
+        	<arg value="25"/>
+         	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+        <java classname="exp.jmdb.Exp2NKMap" failonerror="true" fork="yes">
+        	<arg value="4"/>
+        	<arg value="30"/>
+         	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>    	
+    </target>
+    <target name="Exp3fpBasic">
+        <java classname="exp.jmdb.Exp3fpBasic" failonerror="true" fork="yes">
+        	<arg value="2"/>
+        	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+        <java classname="exp.jmdb.Exp3fpBasic" failonerror="true" fork="yes">
+        	<arg value="3"/>
+			<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+    	<java classname="exp.jmdb.Exp3fpBasic" failonerror="true" fork="yes">
+    	   	<arg value="4"/>
+    		<jvmarg line="-Xms8g -Xmx8g"/>
+    	    <classpath refid="keywordSearch.classpath"/>
+    	</java>
+    	<java classname="exp.jmdb.Exp3fpBasic" failonerror="true" fork="yes">
+    	   	<arg value="5"/>
+    		<jvmarg line="-Xms8g -Xmx8g"/>
+    	    <classpath refid="keywordSearch.classpath"/>
+    	</java>
+    	<java classname="exp.jmdb.Exp3fpBasic" failonerror="true" fork="yes">
+    	   	<arg value="6"/>
+    		<jvmarg line="-Xms8g -Xmx8g"/>
+    	    <classpath refid="keywordSearch.classpath"/>
+    	</java>
+     </target>
+    <target name="Exp3fpEnhanced">
+        <java classname="exp.jmdb.Exp3fpEnhanced" failonerror="true" fork="yes">
+        	<arg value="2"/>
+        	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+        <java classname="exp.jmdb.Exp3fpEnhanced" failonerror="true" fork="yes">
+        	<arg value="3"/>
+			<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+    	<java classname="exp.jmdb.Exp3fpEnhanced" failonerror="true" fork="yes">
+    	   	<arg value="4"/>
+    		<jvmarg line="-Xms8g -Xmx8g"/>
+    	    <classpath refid="keywordSearch.classpath"/>
+    	</java>
+    	<java classname="exp.jmdb.Exp3fpEnhanced" failonerror="true" fork="yes">
+    	   	<arg value="5"/>
+    		<jvmarg line="-Xms8g -Xmx8g"/>
+    	    <classpath refid="keywordSearch.classpath"/>
+    	</java>
+    	<java classname="exp.jmdb.Exp3fpEnhanced" failonerror="true" fork="yes">
+    	   	<arg value="6"/>
+    		<jvmarg line="-Xms8g -Xmx8g"/>
+    	    <classpath refid="keywordSearch.classpath"/>
+    	</java>
+     </target>
+    <target name="Exp3fpNKMap">
+        <java classname="exp.jmdb.Exp3fpNKMap" failonerror="true" fork="yes">
+        	<arg value="2"/>
+        	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+        <java classname="exp.jmdb.Exp3fpNKMap" failonerror="true" fork="yes">
+        	<arg value="3"/>
+			<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+    	<java classname="exp.jmdb.Exp3fpNKMap" failonerror="true" fork="yes">
+    	   	<arg value="4"/>
+    		<jvmarg line="-Xms8g -Xmx8g"/>
+    	    <classpath refid="keywordSearch.classpath"/>
+    	</java>
+    	<java classname="exp.jmdb.Exp3fpNKMap" failonerror="true" fork="yes">
+    	   	<arg value="5"/>
+    		<jvmarg line="-Xms8g -Xmx8g"/>
+    	    <classpath refid="keywordSearch.classpath"/>
+    	</java>
+    	<java classname="exp.jmdb.Exp3fpNKMap" failonerror="true" fork="yes">
+    	   	<arg value="6"/>
+    		<jvmarg line="-Xms8g -Xmx8g"/>
+    	    <classpath refid="keywordSearch.classpath"/>
+    	</java>
+     </target>
+     <target name="Exp3fpBlink">
+        <java classname="exp.jmdb.Exp3fpBlink" failonerror="true" fork="yes">
+        	<arg value="2"/>
+        	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+        <java classname="exp.jmdb.Exp3fpBlink" failonerror="true" fork="yes">
+        	<arg value="3"/>
+			<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+    	<java classname="exp.jmdb.Exp3fpBlink" failonerror="true" fork="yes">
+    	   	<arg value="4"/>
+    		<jvmarg line="-Xms8g -Xmx8g"/>
+    	    <classpath refid="keywordSearch.classpath"/>
+    	</java>
+    	<java classname="exp.jmdb.Exp3fpBlink" failonerror="true" fork="yes">
+    	   	<arg value="5"/>
+    		<jvmarg line="-Xms8g -Xmx8g"/>
+    	    <classpath refid="keywordSearch.classpath"/>
+    	</java>
+    	<java classname="exp.jmdb.Exp3fpBlink" failonerror="true" fork="yes">
+    	   	<arg value="6"/>
+    		<jvmarg line="-Xms8g -Xmx8g"/>
+    	    <classpath refid="keywordSearch.classpath"/>
+    	</java>
+    </target>
+    <target name="Exp3vpBasic">
+        <java classname="exp.jmdb.Exp3vpBasic" failonerror="true" fork="yes">
+        	<arg value="2"/>
+        	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+        <java classname="exp.jmdb.Exp3vpBasic" failonerror="true" fork="yes">
+        	<arg value="3"/>
+			<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+    	<java classname="exp.jmdb.Exp3vpBasic" failonerror="true" fork="yes">
+    	   	<arg value="4"/>
+    		<jvmarg line="-Xms8g -Xmx8g"/>
+    	    <classpath refid="keywordSearch.classpath"/>
+    	</java>
+    	<java classname="exp.jmdb.Exp3vpBasic" failonerror="true" fork="yes">
+    	   	<arg value="5"/>
+    		<jvmarg line="-Xms8g -Xmx8g"/>
+    	    <classpath refid="keywordSearch.classpath"/>
+    	</java>
+    	<java classname="exp.jmdb.Exp3vpBasic" failonerror="true" fork="yes">
+    	   	<arg value="6"/>
+    		<jvmarg line="-Xms8g -Xmx8g"/>
+    	    <classpath refid="keywordSearch.classpath"/>
+    	</java>
+     </target>
+    <target name="Exp3vpEnhanced">
+        <java classname="exp.jmdb.Exp3vpEnhanced" failonerror="true" fork="yes">
+        	<arg value="2"/>
+        	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+        <java classname="exp.jmdb.Exp3vpEnhanced" failonerror="true" fork="yes">
+        	<arg value="3"/>
+			<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+    	<java classname="exp.jmdb.Exp3vpEnhanced" failonerror="true" fork="yes">
+    	   	<arg value="4"/>
+    		<jvmarg line="-Xms8g -Xmx8g"/>
+    	    <classpath refid="keywordSearch.classpath"/>
+    	</java>
+    	<java classname="exp.jmdb.Exp3vpEnhanced" failonerror="true" fork="yes">
+    	   	<arg value="5"/>
+    		<jvmarg line="-Xms8g -Xmx8g"/>
+    	    <classpath refid="keywordSearch.classpath"/>
+    	</java>
+    	<java classname="exp.jmdb.Exp3vpEnhanced" failonerror="true" fork="yes">
+    	   	<arg value="6"/>
+    		<jvmarg line="-Xms8g -Xmx8g"/>
+    	    <classpath refid="keywordSearch.classpath"/>
+    	</java>
+     </target>
+    <target name="Exp3vpNKMap">
+        <java classname="exp.jmdb.Exp3vpNKMap" failonerror="true" fork="yes">
+        	<arg value="2"/>
+        	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+        <java classname="exp.jmdb.Exp3vpNKMap" failonerror="true" fork="yes">
+        	<arg value="3"/>
+			<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+    	<java classname="exp.jmdb.Exp3vpNKMap" failonerror="true" fork="yes">
+    	   	<arg value="4"/>
+    		<jvmarg line="-Xms8g -Xmx8g"/>
+    	    <classpath refid="keywordSearch.classpath"/>
+    	</java>
+    	<java classname="exp.jmdb.Exp3vpNKMap" failonerror="true" fork="yes">
+    	   	<arg value="5"/>
+    		<jvmarg line="-Xms8g -Xmx8g"/>
+    	    <classpath refid="keywordSearch.classpath"/>
+    	</java>
+    	<java classname="exp.jmdb.Exp3vpNKMap" failonerror="true" fork="yes">
+    	   	<arg value="6"/>
+    		<jvmarg line="-Xms8g -Xmx8g"/>
+    	    <classpath refid="keywordSearch.classpath"/>
+    	</java>
+     </target>
+	<target name="Exp3vpBlink">
+	        <java classname="exp.jmdb.Exp3vpBlink" failonerror="true" fork="yes">
+	        	<arg value="2"/>
+	        	<jvmarg line="-Xms8g -Xmx8g"/>
+	            <classpath refid="keywordSearch.classpath"/>
+	        </java>
+	        <java classname="exp.jmdb.Exp3vpBlink" failonerror="true" fork="yes">
+	        	<arg value="3"/>
+				<jvmarg line="-Xms8g -Xmx8g"/>
+	            <classpath refid="keywordSearch.classpath"/>
+	        </java>
+	    	<java classname="exp.jmdb.Exp3vpBlink" failonerror="true" fork="yes">
+	    	   	<arg value="4"/>
+	    		<jvmarg line="-Xms8g -Xmx8g"/>
+	    	    <classpath refid="keywordSearch.classpath"/>
+	    	</java>
+	    	<java classname="exp.jmdb.Exp3vpBlink" failonerror="true" fork="yes">
+	    	   	<arg value="5"/>
+	    		<jvmarg line="-Xms8g -Xmx8g"/>
+	    	    <classpath refid="keywordSearch.classpath"/>
+	    	</java>
+	    	<java classname="exp.jmdb.Exp3vpBlink" failonerror="true" fork="yes">
+	    	   	<arg value="6"/>
+	    		<jvmarg line="-Xms8g -Xmx8g"/>
+	    	    <classpath refid="keywordSearch.classpath"/>
+	    	</java>
+	    </target>
+	<target name="Exp4Basic">
+			    <java classname="exp.jmdb.Exp4Basic" failonerror="true" fork="yes">
+		        	<arg value="3"/>
+		        	<jvmarg line="-Xms8g -Xmx8g"/>
+		            <classpath refid="keywordSearch.classpath"/>
+		        </java>
+		        <java classname="exp.jmdb.Exp4Basic" failonerror="true" fork="yes">
+		        	<arg value="4"/>
+					<jvmarg line="-Xms8g -Xmx8g"/>
+		            <classpath refid="keywordSearch.classpath"/>
+		        </java>
+		    	<java classname="exp.jmdb.Exp4Basic" failonerror="true" fork="yes">
+		    	   	<arg value="5"/>
+		    		<jvmarg line="-Xms8g -Xmx8g"/>
+		    	    <classpath refid="keywordSearch.classpath"/>
+		    	</java>
+		    	<java classname="exp.jmdb.Exp4Basic" failonerror="true" fork="yes">
+		    	   	<arg value="6"/>
+		    		<jvmarg line="-Xms8g -Xmx8g"/>
+		    	    <classpath refid="keywordSearch.classpath"/>
+		    	</java>
+		    	<java classname="exp.jmdb.Exp4Basic" failonerror="true" fork="yes">
+		    	   	<arg value="7"/>
+		    		<jvmarg line="-Xms8g -Xmx8g"/>
+		    	    <classpath refid="keywordSearch.classpath"/>
+		    	</java>
+		        <java classname="exp.jmdb.Exp4Basic" failonerror="true" fork="yes">
+				    	   	<arg value="8"/>
+				    		<jvmarg line="-Xms8g -Xmx8g"/>
+				    	    <classpath refid="keywordSearch.classpath"/>
+				</java>
+	</target>
+	<target name="Exp4Blink">
+        <java classname="exp.jmdb.Exp4Blink" failonerror="true" fork="yes">
+        	<arg value="3"/>
+        	<jvmarg line="-Xms8g -Xmx8g"/>
+        	<classpath refid="keywordSearch.classpath"/>
+        </java>
+    </target>
+    <target name="Exp4Enhanced">
+    	<java classname="exp.jmdb.Exp4Enhanced" failonerror="true" fork="yes">
+    			        	<arg value="3"/>
+    			        	<jvmarg line="-Xms8g -Xmx8g"/>
+    			            <classpath refid="keywordSearch.classpath"/>
+    			        </java>
+    			        <java classname="exp.jmdb.Exp4Enhanced" failonerror="true" fork="yes">
+    			        	<arg value="4"/>
+    						<jvmarg line="-Xms8g -Xmx8g"/>
+    			            <classpath refid="keywordSearch.classpath"/>
+    			        </java>
+    			    	<java classname="exp.jmdb.Exp4Enhanced" failonerror="true" fork="yes">
+    			    	   	<arg value="5"/>
+    			    		<jvmarg line="-Xms8g -Xmx8g"/>
+    			    	    <classpath refid="keywordSearch.classpath"/>
+    			    	</java>
+    			    	<java classname="exp.jmdb.Exp4Enhanced" failonerror="true" fork="yes">
+    			    	   	<arg value="6"/>
+    			    		<jvmarg line="-Xms8g -Xmx8g"/>
+    			    	    <classpath refid="keywordSearch.classpath"/>
+    			    	</java>
+    			    	<java classname="exp.jmdb.Exp4Enhanced" failonerror="true" fork="yes">
+    			    	   	<arg value="7"/>
+    			    		<jvmarg line="-Xms8g -Xmx8g"/>
+    			    	    <classpath refid="keywordSearch.classpath"/>
+    			    	</java>
+    			        <java classname="exp.jmdb.Exp4Enhanced" failonerror="true" fork="yes">
+    					    	   	<arg value="8"/>
+    					    		<jvmarg line="-Xms8g -Xmx8g"/>
+    					    	    <classpath refid="keywordSearch.classpath"/>
+    					</java>
+    </target>
+    <target name="Exp4NKMap">
+	    <java classname="exp.jmdb.Exp4NKMap" failonerror="true" fork="yes">
+        	<arg value="3"/>
+        	<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+        <java classname="exp.jmdb.Exp4NKMap" failonerror="true" fork="yes">
+        	<arg value="4"/>
+			<jvmarg line="-Xms8g -Xmx8g"/>
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+    	<java classname="exp.jmdb.Exp4NKMap" failonerror="true" fork="yes">
+    	   	<arg value="5"/>
+    		<jvmarg line="-Xms8g -Xmx8g"/>
+    	    <classpath refid="keywordSearch.classpath"/>
+    	</java>
+    	<java classname="exp.jmdb.Exp4NKMap" failonerror="true" fork="yes">
+    	   	<arg value="6"/>
+    		<jvmarg line="-Xms8g -Xmx8g"/>
+    	    <classpath refid="keywordSearch.classpath"/>
+    	</java>
+    	<java classname="exp.jmdb.Exp4NKMap" failonerror="true" fork="yes">
+    	   	<arg value="7"/>
+    		<jvmarg line="-Xms8g -Xmx8g"/>
+    	    <classpath refid="keywordSearch.classpath"/>
+    	</java>
+        <java classname="exp.jmdb.Exp4NKMap" failonerror="true" fork="yes">
+		    	   	<arg value="8"/>
+		    		<jvmarg line="-Xms8g -Xmx8g"/>
+		    	    <classpath refid="keywordSearch.classpath"/>
+		</java>
+    </target>
+    <target name="NKMapRead">
+        <java classname="nkmap.bdb.NKMapRead" failonerror="true" fork="yes">
+            <classpath refid="keywordSearch.classpath"/>
+        </java>
+    </target>
+</project>

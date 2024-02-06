@@ -1,0 +1,835 @@
+Blink Search Using BDB 10
+[mountains, river, falls]
+srcNodes: [183, 90143, 42532]
+  path: 0[183 -> 183], [Harney Peak Harney Peak Rocky Mountains  -> Harney Peak Harney Peak Rocky Mountains ]
+  path: 1[183 -> 31027 -> 90143], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Missouri] 
+
+  path: 2[183 -> 31027 -> 42532], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Sioux Falls] 
+
+srcNodes: [183, 90143, 42532]
+  path: 0[90143 -> 31027 -> 183], [Missouri -> South Dakota -> Harney Peak Harney Peak Rocky Mountains ] 
+
+  path: 1[90143 -> 90143], [Missouri -> Missouri]
+  path: 2[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [190, 90151, 42951]
+  path: 0[190 -> 190], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Guadalupe Peak Guadalupe Peak Rocky Mountains ]
+  path: 1[190 -> 31029 -> 90151], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Rio Grande] 
+
+  path: 2[190 -> 31029 -> 42951], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Wichita Falls] 
+
+srcNodes: [183, 90143, 42532]
+  path: 0[31027 -> 183], [South Dakota -> Harney Peak Harney Peak Rocky Mountains ] 
+
+  path: 1[31027 -> 90143], [South Dakota -> Missouri] 
+
+  path: 2[31027 -> 42532], [South Dakota -> Sioux Falls] 
+
+srcNodes: [186, 90144, 42951]
+  path: 0[186 -> 186], [Mt Elbert Mt Elbert Rocky Mountains  -> Mt Elbert Mt Elbert Rocky Mountains ]
+  path: 1[186 -> 30992 -> 90144], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado -> Arkansas] 
+
+  path: 2[186 -> 30992 -> 90151 -> 31029 -> 42951], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [181, 90143, 42532]
+  path: 0[181 -> 181], [Granite Peak Granite Peak Rocky Mountains  -> Granite Peak Granite Peak Rocky Mountains ]
+  path: 1[181 -> 31012 -> 90143], [Granite Peak Granite Peak Rocky Mountains  -> Montana -> Missouri] 
+
+  path: 2[181 -> 31012 -> 90143 -> 31027 -> 42532], [Granite Peak Granite Peak Rocky Mountains  -> Montana -> Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [187, 90144, 42951]
+  path: 0[187 -> 187], [Pikes Peak Pikes Peak Rocky Mountains  -> Pikes Peak Pikes Peak Rocky Mountains ]
+  path: 1[187 -> 30992 -> 90144], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Arkansas] 
+
+  path: 2[187 -> 30992 -> 90151 -> 31029 -> 42951], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [190, 90151, 42951]
+  path: 0[31029 -> 190], [Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[31029 -> 90151], [Texas -> Rio Grande] 
+
+  path: 2[31029 -> 42951], [Texas -> Wichita Falls] 
+
+srcNodes: [190, 90151, 42951]
+  path: 0[90151 -> 31029 -> 190], [Rio Grande -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[90151 -> 90151], [Rio Grande -> Rio Grande]
+  path: 2[90151 -> 31029 -> 42951], [Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [186, 90144, 42532]
+  path: 0[90144 -> 30992 -> 186], [Arkansas -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 1[90144 -> 90144], [Arkansas -> Arkansas]
+  path: 2[90144 -> 31002 -> 90143 -> 31027 -> 42532], [Arkansas -> Kansas -> Missouri -> South Dakota -> Sioux Falls] 
+
+-----------------------------------------
+ResultDestNodes: [183, 90143, 190, 31027, 186, 181, 187, 31029, 90151, 90144]
+ResultRelevs: [5.38916015625, 5.21127986907959, 5.20552396774292, 5.062379837036133, 4.80931282043457, 4.80931282043457, 4.80931282043457, 4.786930084228516, 4.660369873046875, 4.631433010101318]
+Num of top-k answers: 10
+Num of non-reduced answers: 0
+Num of duplicate answers: 4
+Num of non-redundant answers: 6
+Num of entries retrieved from the lists: 118
+Num of entries retrieved from NKMaps: 182
+
+Blink Search Using ConstRootDup10
+[mountains, river, falls]
+srcNodes: [183, 90143, 42532]
+  path: 0[183 -> 183], [Harney Peak Harney Peak Rocky Mountains  -> Harney Peak Harney Peak Rocky Mountains ]
+  path: 1[183 -> 31027 -> 90143], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Missouri] 
+
+  path: 2[183 -> 31027 -> 42532], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Sioux Falls] 
+
+srcNodes: [181, 90143, 42532]
+  path: 0[90143 -> 31012 -> 181], [Missouri -> Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+  path: 1[90143 -> 90143], [Missouri -> Missouri]
+  path: 2[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [183, 90143, 42532]
+  path: 0[90143 -> 31027 -> 183], [Missouri -> South Dakota -> Harney Peak Harney Peak Rocky Mountains ] 
+
+  path: 1[90143 -> 90143], [Missouri -> Missouri]
+  path: 2[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [190, 90151, 42951]
+  path: 0[190 -> 190], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Guadalupe Peak Guadalupe Peak Rocky Mountains ]
+  path: 1[190 -> 31029 -> 90151], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Rio Grande] 
+
+  path: 2[190 -> 31029 -> 42951], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Wichita Falls] 
+
+srcNodes: [183, 90143, 42532]
+  path: 0[31027 -> 183], [South Dakota -> Harney Peak Harney Peak Rocky Mountains ] 
+
+  path: 1[31027 -> 90143], [South Dakota -> Missouri] 
+
+  path: 2[31027 -> 42532], [South Dakota -> Sioux Falls] 
+
+srcNodes: [190, 90150, 42951]
+  path: 0[190 -> 190], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Guadalupe Peak Guadalupe Peak Rocky Mountains ]
+  path: 1[190 -> 31029 -> 90151 -> 30992 -> 90150], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Rio Grande -> Colorado -> Colorado] 
+
+  path: 2[190 -> 31029 -> 42951], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Wichita Falls] 
+
+srcNodes: [183, 90142, 42532]
+  path: 0[183 -> 183], [Harney Peak Harney Peak Rocky Mountains  -> Harney Peak Harney Peak Rocky Mountains ]
+  path: 1[183 -> 31027 -> 90143 -> 31011 -> 90142], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Missouri -> Missouri -> Mississippi] 
+
+  path: 2[183 -> 31027 -> 42532], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Sioux Falls] 
+
+srcNodes: [187, 90150, 42951]
+  path: 0[187 -> 187], [Pikes Peak Pikes Peak Rocky Mountains  -> Pikes Peak Pikes Peak Rocky Mountains ]
+  path: 1[187 -> 30992 -> 90150], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Colorado] 
+
+  path: 2[187 -> 30992 -> 90151 -> 31029 -> 42951], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [187, 90144, 42951]
+  path: 0[187 -> 187], [Pikes Peak Pikes Peak Rocky Mountains  -> Pikes Peak Pikes Peak Rocky Mountains ]
+  path: 1[187 -> 30992 -> 90144], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Arkansas] 
+
+  path: 2[187 -> 30992 -> 90151 -> 31029 -> 42951], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [181, 90143, 42532]
+  path: 0[181 -> 181], [Granite Peak Granite Peak Rocky Mountains  -> Granite Peak Granite Peak Rocky Mountains ]
+  path: 1[181 -> 31012 -> 90143], [Granite Peak Granite Peak Rocky Mountains  -> Montana -> Missouri] 
+
+  path: 2[181 -> 31012 -> 90143 -> 31027 -> 42532], [Granite Peak Granite Peak Rocky Mountains  -> Montana -> Missouri -> South Dakota -> Sioux Falls] 
+
+-----------------------------------------
+ResultDestNodes: 
+183, 90143, 90143, 190, 31027, 190, 183, 187, 187, 181, 
+ResultRelevs: 
+5.38916, 5.21128, 5.21128, 5.205524, 5.06238, 5.021888, 5.021888, 4.809313, 4.809313, 4.809313, 
+Num of top-k answers: 10
+Num of duplicate answers: 3
+Num of duplicate roots in top-k answers: 4
+root duplication ratio: 0.44444445
+given max root duplication param: 1.0
+Num of entries retrieved from the lists: 117
+Num of entries retrieved from NKMaps: 552
+Num of answer trees explored: 833
+
+Blink Search Using BDB 20
+[mountains, river, falls]
+srcNodes: [183, 90143, 42532]
+  path: 0[183 -> 183], [Harney Peak Harney Peak Rocky Mountains  -> Harney Peak Harney Peak Rocky Mountains ]
+  path: 1[183 -> 31027 -> 90143], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Missouri] 
+
+  path: 2[183 -> 31027 -> 42532], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Sioux Falls] 
+
+srcNodes: [183, 90143, 42532]
+  path: 0[90143 -> 31027 -> 183], [Missouri -> South Dakota -> Harney Peak Harney Peak Rocky Mountains ] 
+
+  path: 1[90143 -> 90143], [Missouri -> Missouri]
+  path: 2[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [190, 90151, 42951]
+  path: 0[190 -> 190], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Guadalupe Peak Guadalupe Peak Rocky Mountains ]
+  path: 1[190 -> 31029 -> 90151], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Rio Grande] 
+
+  path: 2[190 -> 31029 -> 42951], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Wichita Falls] 
+
+srcNodes: [183, 90143, 42532]
+  path: 0[31027 -> 183], [South Dakota -> Harney Peak Harney Peak Rocky Mountains ] 
+
+  path: 1[31027 -> 90143], [South Dakota -> Missouri] 
+
+  path: 2[31027 -> 42532], [South Dakota -> Sioux Falls] 
+
+srcNodes: [186, 90144, 42951]
+  path: 0[186 -> 186], [Mt Elbert Mt Elbert Rocky Mountains  -> Mt Elbert Mt Elbert Rocky Mountains ]
+  path: 1[186 -> 30992 -> 90144], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado -> Arkansas] 
+
+  path: 2[186 -> 30992 -> 90151 -> 31029 -> 42951], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [187, 90144, 42951]
+  path: 0[187 -> 187], [Pikes Peak Pikes Peak Rocky Mountains  -> Pikes Peak Pikes Peak Rocky Mountains ]
+  path: 1[187 -> 30992 -> 90144], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Arkansas] 
+
+  path: 2[187 -> 30992 -> 90151 -> 31029 -> 42951], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [181, 90143, 42532]
+  path: 0[181 -> 181], [Granite Peak Granite Peak Rocky Mountains  -> Granite Peak Granite Peak Rocky Mountains ]
+  path: 1[181 -> 31012 -> 90143], [Granite Peak Granite Peak Rocky Mountains  -> Montana -> Missouri] 
+
+  path: 2[181 -> 31012 -> 90143 -> 31027 -> 42532], [Granite Peak Granite Peak Rocky Mountains  -> Montana -> Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [190, 90151, 42951]
+  path: 0[31029 -> 190], [Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[31029 -> 90151], [Texas -> Rio Grande] 
+
+  path: 2[31029 -> 42951], [Texas -> Wichita Falls] 
+
+srcNodes: [190, 90151, 42951]
+  path: 0[90151 -> 31029 -> 190], [Rio Grande -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[90151 -> 90151], [Rio Grande -> Rio Grande]
+  path: 2[90151 -> 31029 -> 42951], [Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [185, 90150, 42951]
+  path: 0[90150 -> 31030 -> 185], [Colorado -> Utah -> Kings Peak Kings Peak Rocky Mountains ] 
+
+  path: 1[90150 -> 90150], [Colorado -> Colorado]
+  path: 2[90150 -> 30992 -> 90151 -> 31029 -> 42951], [Colorado -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [186, 90144, 42532]
+  path: 0[90144 -> 30992 -> 186], [Arkansas -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 1[90144 -> 90144], [Arkansas -> Arkansas]
+  path: 2[90144 -> 31002 -> 90143 -> 31027 -> 42532], [Arkansas -> Kansas -> Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [188, 90151, 42951]
+  path: 0[188 -> 188], [Wheeler Peak Wheeler Peak Rocky Mountains  -> Wheeler Peak Wheeler Peak Rocky Mountains ]
+  path: 1[188 -> 31017 -> 90151], [Wheeler Peak Wheeler Peak Rocky Mountains  -> New Mexico -> Rio Grande] 
+
+  path: 2[188 -> 31017 -> 90151 -> 31029 -> 42951], [Wheeler Peak Wheeler Peak Rocky Mountains  -> New Mexico -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [186, 90142, 42532]
+  path: 0[90142 -> 30990 -> 90144 -> 30992 -> 186], [Mississippi -> Arkansas -> Arkansas -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 1[90142 -> 90142], [Mississippi -> Mississippi]
+  path: 2[90142 -> 31011 -> 90143 -> 31027 -> 42532], [Mississippi -> Missouri -> Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [188, 90163, 42951]
+  path: 0[90163 -> 20173 -> 10001 -> 20118 -> 31017 -> 188], [Parana -> Paraguay -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[90163 -> 90163], [Parana -> Parana]
+  path: 2[90163 -> 20173 -> 10001 -> 20118 -> 31029 -> 42951], [Parana -> Paraguay -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [188, 90165, 42951]
+  path: 0[90165 -> 20174 -> 10001 -> 20118 -> 31017 -> 188], [Uruguay -> Uruguay -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[90165 -> 90165], [Uruguay -> Uruguay]
+  path: 2[90165 -> 20174 -> 10001 -> 20118 -> 31029 -> 42951], [Uruguay -> Uruguay -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [188, 90164, 42951]
+  path: 0[90164 -> 20173 -> 10001 -> 20118 -> 31017 -> 188], [Paraguay -> Paraguay -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[90164 -> 90164], [Paraguay -> Paraguay]
+  path: 2[90164 -> 20173 -> 10001 -> 20118 -> 31029 -> 42951], [Paraguay -> Paraguay -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [181, 90143, 42532]
+  path: 0[31012 -> 181], [Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+  path: 1[31012 -> 90143], [Montana -> Missouri] 
+
+  path: 2[31012 -> 90143 -> 31027 -> 42532], [Montana -> Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [186, 90144, 42951]
+  path: 0[30992 -> 186], [Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 1[30992 -> 90144], [Colorado -> Arkansas] 
+
+  path: 2[30992 -> 90151 -> 31029 -> 42951], [Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [188, 90151, 42951]
+  path: 0[31017 -> 188], [New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[31017 -> 90151], [New Mexico -> Rio Grande] 
+
+  path: 2[31017 -> 90151 -> 31029 -> 42951], [New Mexico -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [185, 90150, 42951]
+  path: 0[31030 -> 185], [Utah -> Kings Peak Kings Peak Rocky Mountains ] 
+
+  path: 1[31030 -> 90150], [Utah -> Colorado] 
+
+  path: 2[31030 -> 90150 -> 30992 -> 90151 -> 31029 -> 42951], [Utah -> Colorado -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+-----------------------------------------
+ResultDestNodes: [183, 90143, 190, 31027, 186, 187, 181, 31029, 90151, 90150, 90144, 188, 90142, 90163, 90165, 90164, 31012, 30992, 31017, 31030]
+ResultRelevs: [5.38916015625, 5.21127986907959, 5.20552396774292, 5.062379837036133, 4.80931282043457, 4.80931282043457, 4.80931282043457, 4.786930084228516, 4.660369873046875, 4.631433010101318, 4.631433010101318, 4.625677108764648, 4.2285847663879395, 3.982913017272949, 3.982913017272949, 3.982913017272949, 3.9751698970794678, 3.9751698970794678, 3.6997199058532715, 3.612761974334717]
+Num of top-k answers: 20
+Num of non-reduced answers: 0
+Num of duplicate answers: 8
+Num of non-redundant answers: 12
+Num of entries retrieved from the lists: 566
+Num of entries retrieved from NKMaps: 826
+
+Blink Search Using ConstRootDup20
+[mountains, river, falls]
+srcNodes: [183, 90143, 42532]
+  path: 0[183 -> 183], [Harney Peak Harney Peak Rocky Mountains  -> Harney Peak Harney Peak Rocky Mountains ]
+  path: 1[183 -> 31027 -> 90143], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Missouri] 
+
+  path: 2[183 -> 31027 -> 42532], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Sioux Falls] 
+
+srcNodes: [183, 90143, 42532]
+  path: 0[90143 -> 31027 -> 183], [Missouri -> South Dakota -> Harney Peak Harney Peak Rocky Mountains ] 
+
+  path: 1[90143 -> 90143], [Missouri -> Missouri]
+  path: 2[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [181, 90143, 42532]
+  path: 0[90143 -> 31012 -> 181], [Missouri -> Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+  path: 1[90143 -> 90143], [Missouri -> Missouri]
+  path: 2[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [190, 90151, 42951]
+  path: 0[190 -> 190], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Guadalupe Peak Guadalupe Peak Rocky Mountains ]
+  path: 1[190 -> 31029 -> 90151], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Rio Grande] 
+
+  path: 2[190 -> 31029 -> 42951], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Wichita Falls] 
+
+srcNodes: [183, 90143, 42532]
+  path: 0[31027 -> 183], [South Dakota -> Harney Peak Harney Peak Rocky Mountains ] 
+
+  path: 1[31027 -> 90143], [South Dakota -> Missouri] 
+
+  path: 2[31027 -> 42532], [South Dakota -> Sioux Falls] 
+
+srcNodes: [183, 90142, 42532]
+  path: 0[183 -> 183], [Harney Peak Harney Peak Rocky Mountains  -> Harney Peak Harney Peak Rocky Mountains ]
+  path: 1[183 -> 31027 -> 90143 -> 31011 -> 90142], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Missouri -> Missouri -> Mississippi] 
+
+  path: 2[183 -> 31027 -> 42532], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Sioux Falls] 
+
+srcNodes: [190, 90150, 42951]
+  path: 0[190 -> 190], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Guadalupe Peak Guadalupe Peak Rocky Mountains ]
+  path: 1[190 -> 31029 -> 90151 -> 30992 -> 90150], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Rio Grande -> Colorado -> Colorado] 
+
+  path: 2[190 -> 31029 -> 42951], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Wichita Falls] 
+
+srcNodes: [186, 90150, 42951]
+  path: 0[186 -> 186], [Mt Elbert Mt Elbert Rocky Mountains  -> Mt Elbert Mt Elbert Rocky Mountains ]
+  path: 1[186 -> 30992 -> 90150], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado -> Colorado] 
+
+  path: 2[186 -> 30992 -> 90151 -> 31029 -> 42951], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [187, 90150, 42951]
+  path: 0[187 -> 187], [Pikes Peak Pikes Peak Rocky Mountains  -> Pikes Peak Pikes Peak Rocky Mountains ]
+  path: 1[187 -> 30992 -> 90150], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Colorado] 
+
+  path: 2[187 -> 30992 -> 90151 -> 31029 -> 42951], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [181, 90143, 42532]
+  path: 0[181 -> 181], [Granite Peak Granite Peak Rocky Mountains  -> Granite Peak Granite Peak Rocky Mountains ]
+  path: 1[181 -> 31012 -> 90143], [Granite Peak Granite Peak Rocky Mountains  -> Montana -> Missouri] 
+
+  path: 2[181 -> 31012 -> 90143 -> 31027 -> 42532], [Granite Peak Granite Peak Rocky Mountains  -> Montana -> Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [187, 90144, 42951]
+  path: 0[187 -> 187], [Pikes Peak Pikes Peak Rocky Mountains  -> Pikes Peak Pikes Peak Rocky Mountains ]
+  path: 1[187 -> 30992 -> 90144], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Arkansas] 
+
+  path: 2[187 -> 30992 -> 90151 -> 31029 -> 42951], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [186, 90144, 42951]
+  path: 0[186 -> 186], [Mt Elbert Mt Elbert Rocky Mountains  -> Mt Elbert Mt Elbert Rocky Mountains ]
+  path: 1[186 -> 30992 -> 90144], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado -> Arkansas] 
+
+  path: 2[186 -> 30992 -> 90151 -> 31029 -> 42951], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [186, 90143, 42532]
+  path: 0[90143 -> 31002 -> 90144 -> 30992 -> 186], [Missouri -> Kansas -> Arkansas -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 1[90143 -> 90143], [Missouri -> Missouri]
+  path: 2[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [190, 90151, 42951]
+  path: 0[31029 -> 190], [Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[31029 -> 90151], [Texas -> Rio Grande] 
+
+  path: 2[31029 -> 42951], [Texas -> Wichita Falls] 
+
+srcNodes: [190, 90151, 42951]
+  path: 0[90151 -> 31029 -> 190], [Rio Grande -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[90151 -> 90151], [Rio Grande -> Rio Grande]
+  path: 2[90151 -> 31029 -> 42951], [Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [186, 90151, 42951]
+  path: 0[90151 -> 30992 -> 186], [Rio Grande -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 1[90151 -> 90151], [Rio Grande -> Rio Grande]
+  path: 2[90151 -> 31029 -> 42951], [Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [187, 90144, 42532]
+  path: 0[90144 -> 30992 -> 187], [Arkansas -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[90144 -> 90144], [Arkansas -> Arkansas]
+  path: 2[90144 -> 31002 -> 90143 -> 31027 -> 42532], [Arkansas -> Kansas -> Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [186, 90144, 42951]
+  path: 0[90144 -> 30992 -> 186], [Arkansas -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 1[90144 -> 90144], [Arkansas -> Arkansas]
+  path: 2[90144 -> 30992 -> 90151 -> 31029 -> 42951], [Arkansas -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [186, 90144, 42532]
+  path: 0[90144 -> 30992 -> 186], [Arkansas -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 1[90144 -> 90144], [Arkansas -> Arkansas]
+  path: 2[90144 -> 31002 -> 90143 -> 31027 -> 42532], [Arkansas -> Kansas -> Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [187, 90144, 42951]
+  path: 0[90144 -> 30992 -> 187], [Arkansas -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[90144 -> 90144], [Arkansas -> Arkansas]
+  path: 2[90144 -> 30992 -> 90151 -> 31029 -> 42951], [Arkansas -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+-----------------------------------------
+ResultDestNodes: 
+183, 90143, 90143, 190, 31027, 183, 190, 186, 187, 181, 187, 186, 90143, 31029, 90151, 90151, 90144, 90144, 90144, 90144, 
+ResultRelevs: 
+5.38916, 5.21128, 5.21128, 5.205524, 5.06238, 5.021888, 5.021888, 4.809313, 4.809313, 4.809313, 4.809313, 4.809313, 4.8084316, 4.78693, 4.66037, 4.66037, 4.631433, 4.631433, 4.631433, 4.631433, 
+Num of top-k answers: 20
+Num of duplicate answers: 7
+Num of duplicate roots in top-k answers: 10
+root duplication ratio: 0.5263158
+given max root duplication param: 1.0
+Num of entries retrieved from the lists: 118
+Num of entries retrieved from NKMaps: 563
+Num of answer trees explored: 873
+
+Blink Search Using BDB 30
+[mountains, river, falls]
+srcNodes: [183, 90143, 42532]
+  path: 0[183 -> 183], [Harney Peak Harney Peak Rocky Mountains  -> Harney Peak Harney Peak Rocky Mountains ]
+  path: 1[183 -> 31027 -> 90143], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Missouri] 
+
+  path: 2[183 -> 31027 -> 42532], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Sioux Falls] 
+
+srcNodes: [183, 90143, 42532]
+  path: 0[90143 -> 31027 -> 183], [Missouri -> South Dakota -> Harney Peak Harney Peak Rocky Mountains ] 
+
+  path: 1[90143 -> 90143], [Missouri -> Missouri]
+  path: 2[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [190, 90151, 42951]
+  path: 0[190 -> 190], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Guadalupe Peak Guadalupe Peak Rocky Mountains ]
+  path: 1[190 -> 31029 -> 90151], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Rio Grande] 
+
+  path: 2[190 -> 31029 -> 42951], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Wichita Falls] 
+
+srcNodes: [183, 90143, 42532]
+  path: 0[31027 -> 183], [South Dakota -> Harney Peak Harney Peak Rocky Mountains ] 
+
+  path: 1[31027 -> 90143], [South Dakota -> Missouri] 
+
+  path: 2[31027 -> 42532], [South Dakota -> Sioux Falls] 
+
+srcNodes: [186, 90144, 42951]
+  path: 0[186 -> 186], [Mt Elbert Mt Elbert Rocky Mountains  -> Mt Elbert Mt Elbert Rocky Mountains ]
+  path: 1[186 -> 30992 -> 90144], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado -> Arkansas] 
+
+  path: 2[186 -> 30992 -> 90151 -> 31029 -> 42951], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [181, 90143, 42532]
+  path: 0[181 -> 181], [Granite Peak Granite Peak Rocky Mountains  -> Granite Peak Granite Peak Rocky Mountains ]
+  path: 1[181 -> 31012 -> 90143], [Granite Peak Granite Peak Rocky Mountains  -> Montana -> Missouri] 
+
+  path: 2[181 -> 31012 -> 90143 -> 31027 -> 42532], [Granite Peak Granite Peak Rocky Mountains  -> Montana -> Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [187, 90144, 42951]
+  path: 0[187 -> 187], [Pikes Peak Pikes Peak Rocky Mountains  -> Pikes Peak Pikes Peak Rocky Mountains ]
+  path: 1[187 -> 30992 -> 90144], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Arkansas] 
+
+  path: 2[187 -> 30992 -> 90151 -> 31029 -> 42951], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [190, 90151, 42951]
+  path: 0[31029 -> 190], [Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[31029 -> 90151], [Texas -> Rio Grande] 
+
+  path: 2[31029 -> 42951], [Texas -> Wichita Falls] 
+
+srcNodes: [190, 90151, 42951]
+  path: 0[90151 -> 31029 -> 190], [Rio Grande -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[90151 -> 90151], [Rio Grande -> Rio Grande]
+  path: 2[90151 -> 31029 -> 42951], [Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [186, 90144, 42532]
+  path: 0[90144 -> 30992 -> 186], [Arkansas -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 1[90144 -> 90144], [Arkansas -> Arkansas]
+  path: 2[90144 -> 31002 -> 90143 -> 31027 -> 42532], [Arkansas -> Kansas -> Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [185, 90150, 42951]
+  path: 0[90150 -> 31030 -> 185], [Colorado -> Utah -> Kings Peak Kings Peak Rocky Mountains ] 
+
+  path: 1[90150 -> 90150], [Colorado -> Colorado]
+  path: 2[90150 -> 30992 -> 90151 -> 31029 -> 42951], [Colorado -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [188, 90151, 42951]
+  path: 0[188 -> 188], [Wheeler Peak Wheeler Peak Rocky Mountains  -> Wheeler Peak Wheeler Peak Rocky Mountains ]
+  path: 1[188 -> 31017 -> 90151], [Wheeler Peak Wheeler Peak Rocky Mountains  -> New Mexico -> Rio Grande] 
+
+  path: 2[188 -> 31017 -> 90151 -> 31029 -> 42951], [Wheeler Peak Wheeler Peak Rocky Mountains  -> New Mexico -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [186, 90142, 42532]
+  path: 0[90142 -> 30990 -> 90144 -> 30992 -> 186], [Mississippi -> Arkansas -> Arkansas -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 1[90142 -> 90142], [Mississippi -> Mississippi]
+  path: 2[90142 -> 31011 -> 90143 -> 31027 -> 42532], [Mississippi -> Missouri -> Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [188, 90165, 42951]
+  path: 0[90165 -> 20174 -> 10001 -> 20118 -> 31017 -> 188], [Uruguay -> Uruguay -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[90165 -> 90165], [Uruguay -> Uruguay]
+  path: 2[90165 -> 20174 -> 10001 -> 20118 -> 31029 -> 42951], [Uruguay -> Uruguay -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [188, 90163, 42951]
+  path: 0[90163 -> 20173 -> 10001 -> 20118 -> 31017 -> 188], [Parana -> Paraguay -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[90163 -> 90163], [Parana -> Parana]
+  path: 2[90163 -> 20173 -> 10001 -> 20118 -> 31029 -> 42951], [Parana -> Paraguay -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [188, 90164, 42951]
+  path: 0[90164 -> 20173 -> 10001 -> 20118 -> 31017 -> 188], [Paraguay -> Paraguay -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[90164 -> 90164], [Paraguay -> Paraguay]
+  path: 2[90164 -> 20173 -> 10001 -> 20118 -> 31029 -> 42951], [Paraguay -> Paraguay -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [181, 90143, 42532]
+  path: 0[31012 -> 181], [Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+  path: 1[31012 -> 90143], [Montana -> Missouri] 
+
+  path: 2[31012 -> 90143 -> 31027 -> 42532], [Montana -> Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [186, 90144, 42951]
+  path: 0[30992 -> 186], [Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 1[30992 -> 90144], [Colorado -> Arkansas] 
+
+  path: 2[30992 -> 90151 -> 31029 -> 42951], [Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [188, 90151, 42951]
+  path: 0[31017 -> 188], [New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[31017 -> 90151], [New Mexico -> Rio Grande] 
+
+  path: 2[31017 -> 90151 -> 31029 -> 42951], [New Mexico -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [185, 90150, 42951]
+  path: 0[31030 -> 185], [Utah -> Kings Peak Kings Peak Rocky Mountains ] 
+
+  path: 1[31030 -> 90150], [Utah -> Colorado] 
+
+  path: 2[31030 -> 90150 -> 30992 -> 90151 -> 31029 -> 42951], [Utah -> Colorado -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [190, 90141, 42532]
+  path: 0[20118 -> 31029 -> 190], [United States -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[20118 -> 31018 -> 90141], [United States -> New York -> Hudson River] 
+
+  path: 2[20118 -> 31027 -> 42532], [United States -> South Dakota -> Sioux Falls] 
+
+srcNodes: [188, 90153, 42951]
+  path: 0[90153 -> 20121 -> 10001 -> 20118 -> 31017 -> 188], [Rio San Juan -> Nicaragua -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[90153 -> 90153], [Rio San Juan -> Rio San Juan]
+  path: 2[90153 -> 20121 -> 10001 -> 20118 -> 31029 -> 42951], [Rio San Juan -> Nicaragua -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [188, 90154, 42951]
+  path: 0[90154 -> 20170 -> 10001 -> 20118 -> 31017 -> 188], [Rio Desaguadero -> Bolivia -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[90154 -> 90154], [Rio Desaguadero -> Rio Desaguadero]
+  path: 2[90154 -> 20170 -> 10001 -> 20118 -> 31029 -> 42951], [Rio Desaguadero -> Bolivia -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [188, 90159, 42951]
+  path: 0[90159 -> 20170 -> 10001 -> 20118 -> 31017 -> 188], [Rio Madeira -> Bolivia -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[90159 -> 90159], [Rio Madeira -> Rio Madeira]
+  path: 2[90159 -> 20170 -> 10001 -> 20118 -> 31029 -> 42951], [Rio Madeira -> Bolivia -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [188, 90160, 42951]
+  path: 0[90160 -> 20170 -> 10001 -> 20118 -> 31017 -> 188], [Rio Mamore -> Bolivia -> America -> United States -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 1[90160 -> 90160], [Rio Mamore -> Rio Mamore]
+  path: 2[90160 -> 20170 -> 10001 -> 20118 -> 31029 -> 42951], [Rio Mamore -> Bolivia -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [189, 90150, 42951]
+  path: 0[30989 -> 189], [Arizona -> Humphreys Peak Humphreys Peak Rocky Mountains volcanic] 
+
+  path: 1[30989 -> 90150], [Arizona -> Colorado] 
+
+  path: 2[30989 -> 90150 -> 30992 -> 90151 -> 31029 -> 42951], [Arizona -> Colorado -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [183, 90143, 42532]
+  path: 0[41175 -> 90143 -> 31027 -> 183], [Jefferson City -> Missouri -> South Dakota -> Harney Peak Harney Peak Rocky Mountains ] 
+
+  path: 1[41175 -> 90143], [Jefferson City -> Missouri] 
+
+  path: 2[41175 -> 90143 -> 31027 -> 42532], [Jefferson City -> Missouri -> South Dakota -> Sioux Falls] 
+
+This is a non-reduced answer tree with common first node 90143
+
+srcNodes: [183, 90143, 42532]
+  path: 0[80113 -> 90143 -> 31027 -> 183], [Fort Peck Lake Fort Peck Lake artificial -> Missouri -> South Dakota -> Harney Peak Harney Peak Rocky Mountains ] 
+
+  path: 1[80113 -> 90143], [Fort Peck Lake Fort Peck Lake artificial -> Missouri] 
+
+  path: 2[80113 -> 90143 -> 31027 -> 42532], [Fort Peck Lake Fort Peck Lake artificial -> Missouri -> South Dakota -> Sioux Falls] 
+
+This is a non-reduced answer tree with common first node 90143
+
+srcNodes: [183, 90142, 42532]
+  path: 0[31011 -> 90143 -> 31027 -> 183], [Missouri -> Missouri -> South Dakota -> Harney Peak Harney Peak Rocky Mountains ] 
+
+  path: 1[31011 -> 90142], [Missouri -> Mississippi] 
+
+  path: 2[31011 -> 90143 -> 31027 -> 42532], [Missouri -> Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [183, 90143, 42532]
+  path: 0[41254 -> 90143 -> 31027 -> 183], [Kansas City -> Missouri -> South Dakota -> Harney Peak Harney Peak Rocky Mountains ] 
+
+  path: 1[41254 -> 90143], [Kansas City -> Missouri] 
+
+  path: 2[41254 -> 90143 -> 31027 -> 42532], [Kansas City -> Missouri -> South Dakota -> Sioux Falls] 
+
+This is a non-reduced answer tree with common first node 90143
+
+-----------------------------------------
+ResultDestNodes: [183, 90143, 190, 31027, 186, 181, 187, 31029, 90151, 90144, 90150, 188, 90142, 90165, 90163, 90164, 31012, 30992, 31017, 31030, 20118, 90153, 90154, 90159, 90160, 30989, 41175, 80113, 31011, 41254]
+ResultRelevs: [5.38916015625, 5.21127986907959, 5.20552396774292, 5.062379837036133, 4.80931282043457, 4.80931282043457, 4.80931282043457, 4.786930084228516, 4.660369873046875, 4.631433010101318, 4.631433010101318, 4.625677108764648, 4.2285847663879395, 3.982913017272949, 3.982913017272949, 3.982913017272949, 3.9751698970794678, 3.9751698970794678, 3.6997199058532715, 3.612761974334717, 3.495539903640747, 3.4320030212402344, 3.4320030212402344, 3.4320030212402344, 3.4320030212402344, 3.3969521522521973, 3.219829797744751, 3.219829797744751, 3.219829797744751, 3.219829797744751]
+Num of top-k answers: 30
+Num of non-reduced answers: 3
+Num of duplicate answers: 11
+Num of non-redundant answers: 19
+Num of entries retrieved from the lists: 566
+Num of entries retrieved from NKMaps: 826
+
+Blink Search Using ConstRootDup30
+[mountains, river, falls]
+srcNodes: [183, 90143, 42532]
+  path: 0[183 -> 183], [Harney Peak Harney Peak Rocky Mountains  -> Harney Peak Harney Peak Rocky Mountains ]
+  path: 1[183 -> 31027 -> 90143], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Missouri] 
+
+  path: 2[183 -> 31027 -> 42532], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Sioux Falls] 
+
+srcNodes: [183, 90143, 42532]
+  path: 0[90143 -> 31027 -> 183], [Missouri -> South Dakota -> Harney Peak Harney Peak Rocky Mountains ] 
+
+  path: 1[90143 -> 90143], [Missouri -> Missouri]
+  path: 2[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [181, 90143, 42532]
+  path: 0[90143 -> 31012 -> 181], [Missouri -> Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+  path: 1[90143 -> 90143], [Missouri -> Missouri]
+  path: 2[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [190, 90151, 42951]
+  path: 0[190 -> 190], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Guadalupe Peak Guadalupe Peak Rocky Mountains ]
+  path: 1[190 -> 31029 -> 90151], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Rio Grande] 
+
+  path: 2[190 -> 31029 -> 42951], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Wichita Falls] 
+
+srcNodes: [183, 90143, 42532]
+  path: 0[31027 -> 183], [South Dakota -> Harney Peak Harney Peak Rocky Mountains ] 
+
+  path: 1[31027 -> 90143], [South Dakota -> Missouri] 
+
+  path: 2[31027 -> 42532], [South Dakota -> Sioux Falls] 
+
+srcNodes: [190, 90150, 42951]
+  path: 0[190 -> 190], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Guadalupe Peak Guadalupe Peak Rocky Mountains ]
+  path: 1[190 -> 31029 -> 90151 -> 30992 -> 90150], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Rio Grande -> Colorado -> Colorado] 
+
+  path: 2[190 -> 31029 -> 42951], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Wichita Falls] 
+
+srcNodes: [183, 90142, 42532]
+  path: 0[183 -> 183], [Harney Peak Harney Peak Rocky Mountains  -> Harney Peak Harney Peak Rocky Mountains ]
+  path: 1[183 -> 31027 -> 90143 -> 31011 -> 90142], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Missouri -> Missouri -> Mississippi] 
+
+  path: 2[183 -> 31027 -> 42532], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Sioux Falls] 
+
+srcNodes: [181, 90143, 42532]
+  path: 0[181 -> 181], [Granite Peak Granite Peak Rocky Mountains  -> Granite Peak Granite Peak Rocky Mountains ]
+  path: 1[181 -> 31012 -> 90143], [Granite Peak Granite Peak Rocky Mountains  -> Montana -> Missouri] 
+
+  path: 2[181 -> 31012 -> 90143 -> 31027 -> 42532], [Granite Peak Granite Peak Rocky Mountains  -> Montana -> Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [186, 90150, 42951]
+  path: 0[186 -> 186], [Mt Elbert Mt Elbert Rocky Mountains  -> Mt Elbert Mt Elbert Rocky Mountains ]
+  path: 1[186 -> 30992 -> 90150], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado -> Colorado] 
+
+  path: 2[186 -> 30992 -> 90151 -> 31029 -> 42951], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [186, 90144, 42951]
+  path: 0[186 -> 186], [Mt Elbert Mt Elbert Rocky Mountains  -> Mt Elbert Mt Elbert Rocky Mountains ]
+  path: 1[186 -> 30992 -> 90144], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado -> Arkansas] 
+
+  path: 2[186 -> 30992 -> 90151 -> 31029 -> 42951], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [187, 90144, 42951]
+  path: 0[187 -> 187], [Pikes Peak Pikes Peak Rocky Mountains  -> Pikes Peak Pikes Peak Rocky Mountains ]
+  path: 1[187 -> 30992 -> 90144], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Arkansas] 
+
+  path: 2[187 -> 30992 -> 90151 -> 31029 -> 42951], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [187, 90150, 42951]
+  path: 0[187 -> 187], [Pikes Peak Pikes Peak Rocky Mountains  -> Pikes Peak Pikes Peak Rocky Mountains ]
+  path: 1[187 -> 30992 -> 90150], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Colorado] 
+
+  path: 2[187 -> 30992 -> 90151 -> 31029 -> 42951], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [186, 90143, 42532]
+  path: 0[90143 -> 31002 -> 90144 -> 30992 -> 186], [Missouri -> Kansas -> Arkansas -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 1[90143 -> 90143], [Missouri -> Missouri]
+  path: 2[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [190, 90151, 42951]
+  path: 0[31029 -> 190], [Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[31029 -> 90151], [Texas -> Rio Grande] 
+
+  path: 2[31029 -> 42951], [Texas -> Wichita Falls] 
+
+srcNodes: [186, 90151, 42951]
+  path: 0[90151 -> 30992 -> 186], [Rio Grande -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 1[90151 -> 90151], [Rio Grande -> Rio Grande]
+  path: 2[90151 -> 31029 -> 42951], [Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [190, 90151, 42951]
+  path: 0[90151 -> 31029 -> 190], [Rio Grande -> Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 1[90151 -> 90151], [Rio Grande -> Rio Grande]
+  path: 2[90151 -> 31029 -> 42951], [Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [187, 90144, 42951]
+  path: 0[90144 -> 30992 -> 187], [Arkansas -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[90144 -> 90144], [Arkansas -> Arkansas]
+  path: 2[90144 -> 30992 -> 90151 -> 31029 -> 42951], [Arkansas -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [186, 90150, 42951]
+  path: 0[90150 -> 30992 -> 186], [Colorado -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 1[90150 -> 90150], [Colorado -> Colorado]
+  path: 2[90150 -> 30992 -> 90151 -> 31029 -> 42951], [Colorado -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [186, 90144, 42532]
+  path: 0[90144 -> 30992 -> 186], [Arkansas -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 1[90144 -> 90144], [Arkansas -> Arkansas]
+  path: 2[90144 -> 31002 -> 90143 -> 31027 -> 42532], [Arkansas -> Kansas -> Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [186, 90144, 42951]
+  path: 0[90144 -> 30992 -> 186], [Arkansas -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 1[90144 -> 90144], [Arkansas -> Arkansas]
+  path: 2[90144 -> 30992 -> 90151 -> 31029 -> 42951], [Arkansas -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [187, 90144, 42532]
+  path: 0[90144 -> 30992 -> 187], [Arkansas -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 1[90144 -> 90144], [Arkansas -> Arkansas]
+  path: 2[90144 -> 31002 -> 90143 -> 31027 -> 42532], [Arkansas -> Kansas -> Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [185, 90150, 42951]
+  path: 0[90150 -> 31030 -> 185], [Colorado -> Utah -> Kings Peak Kings Peak Rocky Mountains ] 
+
+  path: 1[90150 -> 90150], [Colorado -> Colorado]
+  path: 2[90150 -> 30992 -> 90151 -> 31029 -> 42951], [Colorado -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [187, 90151, 42951]
+  path: 0[187 -> 187], [Pikes Peak Pikes Peak Rocky Mountains  -> Pikes Peak Pikes Peak Rocky Mountains ]
+  path: 1[187 -> 30992 -> 90151], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Rio Grande] 
+
+  path: 2[187 -> 30992 -> 90151 -> 31029 -> 42951], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [188, 90151, 42951]
+  path: 0[188 -> 188], [Wheeler Peak Wheeler Peak Rocky Mountains  -> Wheeler Peak Wheeler Peak Rocky Mountains ]
+  path: 1[188 -> 31017 -> 90151], [Wheeler Peak Wheeler Peak Rocky Mountains  -> New Mexico -> Rio Grande] 
+
+  path: 2[188 -> 31017 -> 90151 -> 31029 -> 42951], [Wheeler Peak Wheeler Peak Rocky Mountains  -> New Mexico -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [186, 90151, 42951]
+  path: 0[186 -> 186], [Mt Elbert Mt Elbert Rocky Mountains  -> Mt Elbert Mt Elbert Rocky Mountains ]
+  path: 1[186 -> 30992 -> 90151], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado -> Rio Grande] 
+
+  path: 2[186 -> 30992 -> 90151 -> 31029 -> 42951], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [186, 90149, 42951]
+  path: 0[186 -> 186], [Mt Elbert Mt Elbert Rocky Mountains  -> Mt Elbert Mt Elbert Rocky Mountains ]
+  path: 1[186 -> 30992 -> 90150 -> 31014 -> 90149], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado -> Colorado -> Nevada -> Truckee River] 
+
+  path: 2[186 -> 30992 -> 90151 -> 31029 -> 42951], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [187, 90149, 42951]
+  path: 0[187 -> 187], [Pikes Peak Pikes Peak Rocky Mountains  -> Pikes Peak Pikes Peak Rocky Mountains ]
+  path: 1[187 -> 30992 -> 90150 -> 31014 -> 90149], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Colorado -> Nevada -> Truckee River] 
+
+  path: 2[187 -> 30992 -> 90151 -> 31029 -> 42951], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [189, 90150, 42951]
+  path: 0[90150 -> 30989 -> 189], [Colorado -> Arizona -> Humphreys Peak Humphreys Peak Rocky Mountains volcanic] 
+
+  path: 1[90150 -> 90150], [Colorado -> Colorado]
+  path: 2[90150 -> 30992 -> 90151 -> 31029 -> 42951], [Colorado -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [186, 90142, 42951]
+  path: 0[186 -> 186], [Mt Elbert Mt Elbert Rocky Mountains  -> Mt Elbert Mt Elbert Rocky Mountains ]
+  path: 1[186 -> 30992 -> 90144 -> 30990 -> 90142], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado -> Arkansas -> Arkansas -> Mississippi] 
+
+  path: 2[186 -> 30992 -> 90151 -> 31029 -> 42951], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [181, 90142, 42532]
+  path: 0[181 -> 181], [Granite Peak Granite Peak Rocky Mountains  -> Granite Peak Granite Peak Rocky Mountains ]
+  path: 1[181 -> 31012 -> 90143 -> 31011 -> 90142], [Granite Peak Granite Peak Rocky Mountains  -> Montana -> Missouri -> Missouri -> Mississippi] 
+
+  path: 2[181 -> 31012 -> 90143 -> 31027 -> 42532], [Granite Peak Granite Peak Rocky Mountains  -> Montana -> Missouri -> South Dakota -> Sioux Falls] 
+
+-----------------------------------------
+ResultDestNodes: 
+183, 90143, 90143, 190, 31027, 190, 183, 181, 186, 186, 187, 187, 90143, 31029, 90151, 90151, 90144, 90150, 90144, 90144, 90144, 90150, 187, 188, 186, 186, 187, 90150, 186, 181, 
+ResultRelevs: 
+5.38916, 5.21128, 5.21128, 5.205524, 5.06238, 5.021888, 5.021888, 4.809313, 4.809313, 4.809313, 4.809313, 4.809313, 4.8084316, 4.78693, 4.66037, 4.66037, 4.631433, 4.631433, 4.631433, 4.631433, 4.631433, 4.631433, 4.625677, 4.625677, 4.625677, 4.514415, 4.514415, 4.487558, 4.442041, 4.442041, 
+Num of top-k answers: 30
+Num of duplicate answers: 9
+Num of duplicate roots in top-k answers: 18
+root duplication ratio: 0.62068963
+given max root duplication param: 1.0
+Num of entries retrieved from the lists: 205
+Num of entries retrieved from NKMaps: 937
+Num of answer trees explored: 1693
+

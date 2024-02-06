@@ -1,0 +1,8 @@
+Top-k, (AvgResultRelev, AvgResultRelev/ResultRelevs[0], AvgResultDiss) numOfKNListsRead, numOfNKMapLookups, numOfAnswerTreesExplored, elapseTime, numOfStatesCreated, numOfStatesExplored, numOfHeuristicSearchPerformed, numOfATSPrunnedByDissCond, numOfLocalAnswersFound, 
+query: [kidnap, murder, revenge]
+BlinkSea, 	20, 6.82991, 0.78781, 0.51860, 4502, 6778, 2340, 0.463938442, 
+Exhustiv, 	20, 6.54070, 0.75445, 0.70140, 6052, 9315, 3345, 669.058847821, 119720081, 116860373, 42540759, 3, 
+Astar02, 	20, 6.54070, 0.75445, 0.70140, 6052, 9315, 3345, 3049.203300459, 165442083, 164735408, 28, 116388324, 2, 
+Astar1nc_, 	20, 6.54070, 0.75445, 0.70140, 6052, 9315, 3345, 0.991282484, 12901, 3002, 4, 16082, 0, 
+query: [travel, universe, spaceship]
+BlinkSea, 	20, 6.16043, 0.79804, 0.46491, 5065, 9032, 2383, 0.236613514, 

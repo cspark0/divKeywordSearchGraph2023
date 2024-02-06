@@ -1,0 +1,891 @@
+Blink Search Using BDB 10
+[republic, protestant, asia]
+srcNodes: [60105, 70330, 10002]
+  path: 0[10002 -> 20105 -> 60105], [Asia -> Sri Lanka -> republic] 
+
+  path: 1[10002 -> 20087 -> 70330], [Asia -> Timor-Leste -> Protestant] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60086, 70319, 10002]
+  path: 0[20086 -> 60086], [Indonesia -> republic] 
+
+  path: 1[20086 -> 70319], [Indonesia -> Protestant] 
+
+  path: 2[20086 -> 10002], [Indonesia -> Asia] 
+
+srcNodes: [60073, 70300, 10002]
+  path: 0[20073 -> 60073], [Kazakstan -> republic] 
+
+  path: 1[20073 -> 70300], [Kazakstan -> Protestant] 
+
+  path: 2[20073 -> 10002], [Kazakstan -> Asia] 
+
+srcNodes: [60102, 70322, 10002]
+  path: 0[20102 -> 60102], [Philippines -> republic] 
+
+  path: 1[20102 -> 70322], [Philippines -> Protestant] 
+
+  path: 2[20102 -> 10002], [Philippines -> Asia] 
+
+srcNodes: [60102, 70330, 10002]
+  path: 0[20087 -> 10002 -> 20102 -> 60102], [Timor-Leste -> Asia -> Philippines -> republic] 
+
+  path: 1[20087 -> 70330], [Timor-Leste -> Protestant] 
+
+  path: 2[20087 -> 10002], [Timor-Leste -> Asia] 
+
+srcNodes: [60102, 70302, 10002]
+  path: 0[20077 -> 10002 -> 20102 -> 60102], [Macau -> Asia -> Philippines -> republic] 
+
+  path: 1[20077 -> 70302], [Macau -> Protestant] 
+
+  path: 2[20077 -> 10002], [Macau -> Asia] 
+
+srcNodes: [60084, 70322, 10002]
+  path: 0[20084 -> 60084], [Israel -> republic] 
+
+  path: 1[20084 -> 10002 -> 20102 -> 70322], [Israel -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20084 -> 10002], [Israel -> Asia] 
+
+srcNodes: [60094, 70322, 10002]
+  path: 0[20094 -> 60094], [Lebanon -> republic] 
+
+  path: 1[20094 -> 10002 -> 20102 -> 70322], [Lebanon -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20094 -> 10002], [Lebanon -> Asia] 
+
+srcNodes: [60085, 70322, 10002]
+  path: 0[20085 -> 60085], [Egypt -> republic] 
+
+  path: 1[20085 -> 10002 -> 20102 -> 70322], [Egypt -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20085 -> 10002], [Egypt -> Asia] 
+
+srcNodes: [60089, 70322, 10002]
+  path: 0[20089 -> 60089], [Iraq -> republic] 
+
+  path: 1[20089 -> 10002 -> 20102 -> 70322], [Iraq -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20089 -> 10002], [Iraq -> Asia] 
+
+-----------------------------------------
+ResultDestNodes: [10002, 20086, 20073, 20102, 20087, 20077, 20084, 20094, 20085, 20089]
+ResultRelevs: [11.72389030456543, 9.398950576782227, 9.398950576782227, 9.398950576782227, 8.140409469604492, 8.140409469604492, 8.004739761352539, 8.004739761352539, 8.004739761352539, 8.004739761352539]
+Num of top-k answers: 10
+Num of non-reduced answers: 0
+Num of duplicate answers: 0
+Num of non-redundant answers: 10
+Num of entries retrieved from the lists: 404
+Num of entries retrieved from NKMaps: 588
+
+Blink Search Using ConstRootDup10
+[republic, protestant, asia]
+srcNodes: [60094, 70330, 10002]
+  path: 0[10002 -> 20094 -> 60094], [Asia -> Lebanon -> republic] 
+
+  path: 1[10002 -> 20087 -> 70330], [Asia -> Timor-Leste -> Protestant] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60105, 70319, 10002]
+  path: 0[10002 -> 20105 -> 60105], [Asia -> Sri Lanka -> republic] 
+
+  path: 1[10002 -> 20086 -> 70319], [Asia -> Indonesia -> Protestant] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60094, 70319, 10002]
+  path: 0[10002 -> 20094 -> 60094], [Asia -> Lebanon -> republic] 
+
+  path: 1[10002 -> 20086 -> 70319], [Asia -> Indonesia -> Protestant] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60105, 70330, 10002]
+  path: 0[10002 -> 20105 -> 60105], [Asia -> Sri Lanka -> republic] 
+
+  path: 1[10002 -> 20087 -> 70330], [Asia -> Timor-Leste -> Protestant] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60054, 70330, 10002]
+  path: 0[10002 -> 20054 -> 60054], [Asia -> Iran -> theocratic republic] 
+
+  path: 1[10002 -> 20087 -> 70330], [Asia -> Timor-Leste -> Protestant] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60073, 70300, 10002]
+  path: 0[20073 -> 60073], [Kazakstan -> republic] 
+
+  path: 1[20073 -> 70300], [Kazakstan -> Protestant] 
+
+  path: 2[20073 -> 10002], [Kazakstan -> Asia] 
+
+srcNodes: [60102, 70322, 10002]
+  path: 0[20102 -> 60102], [Philippines -> republic] 
+
+  path: 1[20102 -> 70322], [Philippines -> Protestant] 
+
+  path: 2[20102 -> 10002], [Philippines -> Asia] 
+
+srcNodes: [60086, 70319, 10002]
+  path: 0[20086 -> 60086], [Indonesia -> republic] 
+
+  path: 1[20086 -> 70319], [Indonesia -> Protestant] 
+
+  path: 2[20086 -> 10002], [Indonesia -> Asia] 
+
+srcNodes: [60102, 70330, 10002]
+  path: 0[20087 -> 10002 -> 20102 -> 60102], [Timor-Leste -> Asia -> Philippines -> republic] 
+
+  path: 1[20087 -> 70330], [Timor-Leste -> Protestant] 
+
+  path: 2[20087 -> 10002], [Timor-Leste -> Asia] 
+
+srcNodes: [60102, 70302, 10002]
+  path: 0[20077 -> 10002 -> 20102 -> 60102], [Macau -> Asia -> Philippines -> republic] 
+
+  path: 1[20077 -> 70302], [Macau -> Protestant] 
+
+  path: 2[20077 -> 10002], [Macau -> Asia] 
+
+-----------------------------------------
+ResultDestNodes: 
+10002, 10002, 10002, 10002, 10002, 20073, 20102, 20086, 20087, 20077, 
+ResultRelevs: 
+11.72389, 11.72389, 11.72389, 11.72389, 11.09462, 9.398951, 9.398951, 9.398951, 8.140409, 8.140409, 
+Num of top-k answers: 10
+Num of duplicate answers: 0
+Num of duplicate roots in top-k answers: 4
+root duplication ratio: 0.44444445
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 301
+Num of entries retrieved from NKMaps: 1432
+Num of answer trees explored: 4795
+
+Blink Search Using BDB 20
+[republic, protestant, asia]
+srcNodes: [60105, 70330, 10002]
+  path: 0[10002 -> 20105 -> 60105], [Asia -> Sri Lanka -> republic] 
+
+  path: 1[10002 -> 20087 -> 70330], [Asia -> Timor-Leste -> Protestant] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60086, 70319, 10002]
+  path: 0[20086 -> 60086], [Indonesia -> republic] 
+
+  path: 1[20086 -> 70319], [Indonesia -> Protestant] 
+
+  path: 2[20086 -> 10002], [Indonesia -> Asia] 
+
+srcNodes: [60102, 70322, 10002]
+  path: 0[20102 -> 60102], [Philippines -> republic] 
+
+  path: 1[20102 -> 70322], [Philippines -> Protestant] 
+
+  path: 2[20102 -> 10002], [Philippines -> Asia] 
+
+srcNodes: [60073, 70300, 10002]
+  path: 0[20073 -> 60073], [Kazakstan -> republic] 
+
+  path: 1[20073 -> 70300], [Kazakstan -> Protestant] 
+
+  path: 2[20073 -> 10002], [Kazakstan -> Asia] 
+
+srcNodes: [60102, 70302, 10002]
+  path: 0[20077 -> 10002 -> 20102 -> 60102], [Macau -> Asia -> Philippines -> republic] 
+
+  path: 1[20077 -> 70302], [Macau -> Protestant] 
+
+  path: 2[20077 -> 10002], [Macau -> Asia] 
+
+srcNodes: [60102, 70330, 10002]
+  path: 0[20087 -> 10002 -> 20102 -> 60102], [Timor-Leste -> Asia -> Philippines -> republic] 
+
+  path: 1[20087 -> 70330], [Timor-Leste -> Protestant] 
+
+  path: 2[20087 -> 10002], [Timor-Leste -> Asia] 
+
+srcNodes: [60075, 70322, 10002]
+  path: 0[20075 -> 60075], [Kyrgyzstan -> republic] 
+
+  path: 1[20075 -> 10002 -> 20102 -> 70322], [Kyrgyzstan -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20075 -> 10002], [Kyrgyzstan -> Asia] 
+
+srcNodes: [60085, 70322, 10002]
+  path: 0[20085 -> 60085], [Egypt -> republic] 
+
+  path: 1[20085 -> 10002 -> 20102 -> 70322], [Egypt -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20085 -> 10002], [Egypt -> Asia] 
+
+srcNodes: [60055, 70322, 10002]
+  path: 0[20055 -> 60055], [Pakistan -> republic] 
+
+  path: 1[20055 -> 10002 -> 20102 -> 70322], [Pakistan -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20055 -> 10002], [Pakistan -> Asia] 
+
+srcNodes: [60059, 70322, 10002]
+  path: 0[20059 -> 60059], [Armenia -> republic] 
+
+  path: 1[20059 -> 10002 -> 20102 -> 70322], [Armenia -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20059 -> 10002], [Armenia -> Asia] 
+
+srcNodes: [60061, 70322, 10002]
+  path: 0[20061 -> 60061], [Azerbaijan -> republic] 
+
+  path: 1[20061 -> 10002 -> 20102 -> 70322], [Azerbaijan -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20061 -> 10002], [Azerbaijan -> Asia] 
+
+srcNodes: [60084, 70322, 10002]
+  path: 0[20084 -> 60084], [Israel -> republic] 
+
+  path: 1[20084 -> 10002 -> 20102 -> 70322], [Israel -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20084 -> 10002], [Israel -> Asia] 
+
+srcNodes: [60060, 70322, 10002]
+  path: 0[20060 -> 60060], [Georgia -> republic] 
+
+  path: 1[20060 -> 10002 -> 20102 -> 70322], [Georgia -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20060 -> 10002], [Georgia -> Asia] 
+
+srcNodes: [60094, 70322, 10002]
+  path: 0[20094 -> 60094], [Lebanon -> republic] 
+
+  path: 1[20094 -> 10002 -> 20102 -> 70322], [Lebanon -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20094 -> 10002], [Lebanon -> Asia] 
+
+srcNodes: [60057, 70322, 10002]
+  path: 0[20057 -> 60057], [Turkmenistan -> republic] 
+
+  path: 1[20057 -> 10002 -> 20102 -> 70322], [Turkmenistan -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20057 -> 10002], [Turkmenistan -> Asia] 
+
+srcNodes: [60089, 70322, 10002]
+  path: 0[20089 -> 60089], [Iraq -> republic] 
+
+  path: 1[20089 -> 10002 -> 20102 -> 70322], [Iraq -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20089 -> 10002], [Iraq -> Asia] 
+
+srcNodes: [60058, 70322, 10002]
+  path: 0[20058 -> 60058], [Uzbekistan -> republic] 
+
+  path: 1[20058 -> 10002 -> 20102 -> 70322], [Uzbekistan -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20058 -> 10002], [Uzbekistan -> Asia] 
+
+srcNodes: [60056, 70322, 10002]
+  path: 0[20056 -> 60056], [Tajikistan -> republic] 
+
+  path: 1[20056 -> 10002 -> 20102 -> 70322], [Tajikistan -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20056 -> 10002], [Tajikistan -> Asia] 
+
+srcNodes: [60101, 70322, 10002]
+  path: 0[20101 -> 60101], [Yemen -> republic] 
+
+  path: 1[20101 -> 10002 -> 20102 -> 70322], [Yemen -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20101 -> 10002], [Yemen -> Asia] 
+
+srcNodes: [60105, 70322, 10002]
+  path: 0[20105 -> 60105], [Sri Lanka -> republic] 
+
+  path: 1[20105 -> 10002 -> 20102 -> 70322], [Sri Lanka -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20105 -> 10002], [Sri Lanka -> Asia] 
+
+-----------------------------------------
+ResultDestNodes: [10002, 20086, 20102, 20073, 20077, 20087, 20075, 20085, 20055, 20059, 20061, 20084, 20060, 20094, 20057, 20089, 20058, 20056, 20101, 20105]
+ResultRelevs: [11.72389030456543, 9.398950576782227, 9.398950576782227, 9.398950576782227, 8.140409469604492, 8.140409469604492, 8.004739761352539, 8.004739761352539, 8.004739761352539, 8.004739761352539, 8.004739761352539, 8.004739761352539, 8.004739761352539, 8.004739761352539, 8.004739761352539, 8.004739761352539, 8.004739761352539, 8.004739761352539, 8.004739761352539, 8.004739761352539]
+Num of top-k answers: 20
+Num of non-reduced answers: 0
+Num of duplicate answers: 0
+Num of non-redundant answers: 20
+Num of entries retrieved from the lists: 404
+Num of entries retrieved from NKMaps: 588
+
+Blink Search Using ConstRootDup20
+[republic, protestant, asia]
+srcNodes: [60105, 70319, 10002]
+  path: 0[10002 -> 20105 -> 60105], [Asia -> Sri Lanka -> republic] 
+
+  path: 1[10002 -> 20086 -> 70319], [Asia -> Indonesia -> Protestant] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60094, 70319, 10002]
+  path: 0[10002 -> 20094 -> 60094], [Asia -> Lebanon -> republic] 
+
+  path: 1[10002 -> 20086 -> 70319], [Asia -> Indonesia -> Protestant] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60094, 70330, 10002]
+  path: 0[10002 -> 20094 -> 60094], [Asia -> Lebanon -> republic] 
+
+  path: 1[10002 -> 20087 -> 70330], [Asia -> Timor-Leste -> Protestant] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60105, 70330, 10002]
+  path: 0[10002 -> 20105 -> 60105], [Asia -> Sri Lanka -> republic] 
+
+  path: 1[10002 -> 20087 -> 70330], [Asia -> Timor-Leste -> Protestant] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60054, 70330, 10002]
+  path: 0[10002 -> 20054 -> 60054], [Asia -> Iran -> theocratic republic] 
+
+  path: 1[10002 -> 20087 -> 70330], [Asia -> Timor-Leste -> Protestant] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60054, 70319, 10002]
+  path: 0[10002 -> 20054 -> 60054], [Asia -> Iran -> theocratic republic] 
+
+  path: 1[10002 -> 20086 -> 70319], [Asia -> Indonesia -> Protestant] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60018, 70319, 10002]
+  path: 0[10002 -> 20031 -> 10004 -> 20018 -> 60018], [Asia -> Turkey -> Europe -> Belarus -> republic] 
+
+  path: 1[10002 -> 20086 -> 70319], [Asia -> Indonesia -> Protestant] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60018, 70330, 10002]
+  path: 0[10002 -> 20031 -> 10004 -> 20018 -> 60018], [Asia -> Turkey -> Europe -> Belarus -> republic] 
+
+  path: 1[10002 -> 20087 -> 70330], [Asia -> Timor-Leste -> Protestant] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60105, 70329, 10002]
+  path: 0[10002 -> 20105 -> 60105], [Asia -> Sri Lanka -> republic] 
+
+  path: 1[10002 -> 20031 -> 10004 -> 20003 -> 70329], [Asia -> Turkey -> Europe -> Serbia -> Protestant] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60094, 70329, 10002]
+  path: 0[10002 -> 20094 -> 60094], [Asia -> Lebanon -> republic] 
+
+  path: 1[10002 -> 20031 -> 10004 -> 20003 -> 70329], [Asia -> Turkey -> Europe -> Serbia -> Protestant] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60102, 70322, 10002]
+  path: 0[20102 -> 60102], [Philippines -> republic] 
+
+  path: 1[20102 -> 70322], [Philippines -> Protestant] 
+
+  path: 2[20102 -> 10002], [Philippines -> Asia] 
+
+srcNodes: [60073, 70300, 10002]
+  path: 0[20073 -> 60073], [Kazakstan -> republic] 
+
+  path: 1[20073 -> 70300], [Kazakstan -> Protestant] 
+
+  path: 2[20073 -> 10002], [Kazakstan -> Asia] 
+
+srcNodes: [60086, 70319, 10002]
+  path: 0[20086 -> 60086], [Indonesia -> republic] 
+
+  path: 1[20086 -> 70319], [Indonesia -> Protestant] 
+
+  path: 2[20086 -> 10002], [Indonesia -> Asia] 
+
+srcNodes: [60102, 70302, 10002]
+  path: 0[20077 -> 10002 -> 20102 -> 60102], [Macau -> Asia -> Philippines -> republic] 
+
+  path: 1[20077 -> 70302], [Macau -> Protestant] 
+
+  path: 2[20077 -> 10002], [Macau -> Asia] 
+
+srcNodes: [60102, 70330, 10002]
+  path: 0[20087 -> 10002 -> 20102 -> 60102], [Timor-Leste -> Asia -> Philippines -> republic] 
+
+  path: 1[20087 -> 70330], [Timor-Leste -> Protestant] 
+
+  path: 2[20087 -> 10002], [Timor-Leste -> Asia] 
+
+srcNodes: [60101, 70322, 10002]
+  path: 0[20101 -> 60101], [Yemen -> republic] 
+
+  path: 1[20101 -> 10002 -> 20102 -> 70322], [Yemen -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20101 -> 10002], [Yemen -> Asia] 
+
+srcNodes: [60094, 70322, 10002]
+  path: 0[20094 -> 60094], [Lebanon -> republic] 
+
+  path: 1[20094 -> 10002 -> 20102 -> 70322], [Lebanon -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20094 -> 10002], [Lebanon -> Asia] 
+
+srcNodes: [60058, 70322, 10002]
+  path: 0[20058 -> 60058], [Uzbekistan -> republic] 
+
+  path: 1[20058 -> 10002 -> 20102 -> 70322], [Uzbekistan -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20058 -> 10002], [Uzbekistan -> Asia] 
+
+srcNodes: [60084, 70322, 10002]
+  path: 0[20084 -> 60084], [Israel -> republic] 
+
+  path: 1[20084 -> 10002 -> 20102 -> 70322], [Israel -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20084 -> 10002], [Israel -> Asia] 
+
+srcNodes: [60085, 70322, 10002]
+  path: 0[20085 -> 60085], [Egypt -> republic] 
+
+  path: 1[20085 -> 10002 -> 20102 -> 70322], [Egypt -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20085 -> 10002], [Egypt -> Asia] 
+
+-----------------------------------------
+ResultDestNodes: 
+10002, 10002, 10002, 10002, 10002, 10002, 10002, 10002, 10002, 10002, 20102, 20073, 20086, 20077, 20087, 20101, 20094, 20058, 20084, 20085, 
+ResultRelevs: 
+11.72389, 11.72389, 11.72389, 11.72389, 11.09462, 11.09462, 11.05267, 11.05267, 10.98032, 10.98032, 9.398951, 9.398951, 9.398951, 8.140409, 8.140409, 8.00474, 8.00474, 8.00474, 8.00474, 8.00474, 
+Num of top-k answers: 20
+Num of duplicate answers: 0
+Num of duplicate roots in top-k answers: 9
+root duplication ratio: 0.47368422
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 404
+Num of entries retrieved from NKMaps: 2266
+Num of answer trees explored: 7571
+
+Blink Search Using BDB 30
+[republic, protestant, asia]
+srcNodes: [60105, 70330, 10002]
+  path: 0[10002 -> 20105 -> 60105], [Asia -> Sri Lanka -> republic] 
+
+  path: 1[10002 -> 20087 -> 70330], [Asia -> Timor-Leste -> Protestant] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60073, 70300, 10002]
+  path: 0[20073 -> 60073], [Kazakstan -> republic] 
+
+  path: 1[20073 -> 70300], [Kazakstan -> Protestant] 
+
+  path: 2[20073 -> 10002], [Kazakstan -> Asia] 
+
+srcNodes: [60086, 70319, 10002]
+  path: 0[20086 -> 60086], [Indonesia -> republic] 
+
+  path: 1[20086 -> 70319], [Indonesia -> Protestant] 
+
+  path: 2[20086 -> 10002], [Indonesia -> Asia] 
+
+srcNodes: [60102, 70322, 10002]
+  path: 0[20102 -> 60102], [Philippines -> republic] 
+
+  path: 1[20102 -> 70322], [Philippines -> Protestant] 
+
+  path: 2[20102 -> 10002], [Philippines -> Asia] 
+
+srcNodes: [60102, 70302, 10002]
+  path: 0[20077 -> 10002 -> 20102 -> 60102], [Macau -> Asia -> Philippines -> republic] 
+
+  path: 1[20077 -> 70302], [Macau -> Protestant] 
+
+  path: 2[20077 -> 10002], [Macau -> Asia] 
+
+srcNodes: [60102, 70330, 10002]
+  path: 0[20087 -> 10002 -> 20102 -> 60102], [Timor-Leste -> Asia -> Philippines -> republic] 
+
+  path: 1[20087 -> 70330], [Timor-Leste -> Protestant] 
+
+  path: 2[20087 -> 10002], [Timor-Leste -> Asia] 
+
+srcNodes: [60078, 70322, 10002]
+  path: 0[20078 -> 60078], [Mongolia -> republic] 
+
+  path: 1[20078 -> 10002 -> 20102 -> 70322], [Mongolia -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20078 -> 10002], [Mongolia -> Asia] 
+
+srcNodes: [60063, 70322, 10002]
+  path: 0[20063 -> 60063], [Bangladesh -> republic] 
+
+  path: 1[20063 -> 10002 -> 20102 -> 70322], [Bangladesh -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20063 -> 10002], [Bangladesh -> Asia] 
+
+srcNodes: [60084, 70322, 10002]
+  path: 0[20084 -> 60084], [Israel -> republic] 
+
+  path: 1[20084 -> 10002 -> 20102 -> 70322], [Israel -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20084 -> 10002], [Israel -> Asia] 
+
+srcNodes: [60059, 70322, 10002]
+  path: 0[20059 -> 60059], [Armenia -> republic] 
+
+  path: 1[20059 -> 10002 -> 20102 -> 70322], [Armenia -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20059 -> 10002], [Armenia -> Asia] 
+
+srcNodes: [60094, 70322, 10002]
+  path: 0[20094 -> 60094], [Lebanon -> republic] 
+
+  path: 1[20094 -> 10002 -> 20102 -> 70322], [Lebanon -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20094 -> 10002], [Lebanon -> Asia] 
+
+srcNodes: [60105, 70322, 10002]
+  path: 0[20105 -> 60105], [Sri Lanka -> republic] 
+
+  path: 1[20105 -> 10002 -> 20102 -> 70322], [Sri Lanka -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20105 -> 10002], [Sri Lanka -> Asia] 
+
+srcNodes: [60060, 70322, 10002]
+  path: 0[20060 -> 60060], [Georgia -> republic] 
+
+  path: 1[20060 -> 10002 -> 20102 -> 70322], [Georgia -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20060 -> 10002], [Georgia -> Asia] 
+
+srcNodes: [60097, 70322, 10002]
+  path: 0[20097 -> 60097], [South Korea -> republic] 
+
+  path: 1[20097 -> 10002 -> 20102 -> 70322], [South Korea -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20097 -> 10002], [South Korea -> Asia] 
+
+srcNodes: [60061, 70322, 10002]
+  path: 0[20061 -> 60061], [Azerbaijan -> republic] 
+
+  path: 1[20061 -> 10002 -> 20102 -> 70322], [Azerbaijan -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20061 -> 10002], [Azerbaijan -> Asia] 
+
+srcNodes: [60056, 70322, 10002]
+  path: 0[20056 -> 60056], [Tajikistan -> republic] 
+
+  path: 1[20056 -> 10002 -> 20102 -> 70322], [Tajikistan -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20056 -> 10002], [Tajikistan -> Asia] 
+
+srcNodes: [60057, 70322, 10002]
+  path: 0[20057 -> 60057], [Turkmenistan -> republic] 
+
+  path: 1[20057 -> 10002 -> 20102 -> 70322], [Turkmenistan -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20057 -> 10002], [Turkmenistan -> Asia] 
+
+srcNodes: [60089, 70322, 10002]
+  path: 0[20089 -> 60089], [Iraq -> republic] 
+
+  path: 1[20089 -> 10002 -> 20102 -> 70322], [Iraq -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20089 -> 10002], [Iraq -> Asia] 
+
+srcNodes: [60058, 70322, 10002]
+  path: 0[20058 -> 60058], [Uzbekistan -> republic] 
+
+  path: 1[20058 -> 10002 -> 20102 -> 70322], [Uzbekistan -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20058 -> 10002], [Uzbekistan -> Asia] 
+
+srcNodes: [60101, 70322, 10002]
+  path: 0[20101 -> 60101], [Yemen -> republic] 
+
+  path: 1[20101 -> 10002 -> 20102 -> 70322], [Yemen -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20101 -> 10002], [Yemen -> Asia] 
+
+srcNodes: [60075, 70322, 10002]
+  path: 0[20075 -> 60075], [Kyrgyzstan -> republic] 
+
+  path: 1[20075 -> 10002 -> 20102 -> 70322], [Kyrgyzstan -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20075 -> 10002], [Kyrgyzstan -> Asia] 
+
+srcNodes: [60055, 70322, 10002]
+  path: 0[20055 -> 60055], [Pakistan -> republic] 
+
+  path: 1[20055 -> 10002 -> 20102 -> 70322], [Pakistan -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20055 -> 10002], [Pakistan -> Asia] 
+
+srcNodes: [60085, 70322, 10002]
+  path: 0[20085 -> 60085], [Egypt -> republic] 
+
+  path: 1[20085 -> 10002 -> 20102 -> 70322], [Egypt -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20085 -> 10002], [Egypt -> Asia] 
+
+srcNodes: [60098, 70322, 10002]
+  path: 0[20098 -> 60098], [Maldives -> republic] 
+
+  path: 1[20098 -> 10002 -> 20102 -> 70322], [Maldives -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20098 -> 10002], [Maldives -> Asia] 
+
+srcNodes: [60035, 70325, 10002]
+  path: 0[20035 -> 60035], [Finland -> republic] 
+
+  path: 1[20035 -> 70325], [Finland -> Protestant] 
+
+  path: 2[20035 -> 10004 -> 20031 -> 10002], [Finland -> Europe -> Turkey -> Asia] 
+
+srcNodes: [60205, 70323, 10002]
+  path: 0[20205 -> 60205], [Rwanda -> republic] 
+
+  path: 1[20205 -> 70323], [Rwanda -> Protestant] 
+
+  path: 2[20205 -> 10000 -> 20085 -> 10002], [Rwanda -> Africa -> Egypt -> Asia] 
+
+srcNodes: [60049, 70311, 10002]
+  path: 0[20049 -> 60049], [Portugal -> republic] 
+
+  path: 1[20049 -> 70311], [Portugal -> Protestant] 
+
+  path: 2[20049 -> 10004 -> 20031 -> 10002], [Portugal -> Europe -> Turkey -> Asia] 
+
+srcNodes: [60012, 70296, 10002]
+  path: 0[20012 -> 60012], [Hungary -> republic] 
+
+  path: 1[20012 -> 70296], [Hungary -> Protestant] 
+
+  path: 2[20012 -> 10004 -> 20031 -> 10002], [Hungary -> Europe -> Turkey -> Asia] 
+
+srcNodes: [60042, 70298, 10002]
+  path: 0[20042 -> 60042], [Iceland -> republic] 
+
+  path: 1[20042 -> 70298], [Iceland -> Protestant] 
+
+  path: 2[20042 -> 10004 -> 20031 -> 10002], [Iceland -> Europe -> Turkey -> Asia] 
+
+srcNodes: [60152, 70301, 10002]
+  path: 0[20152 -> 60152], [Kiribati -> republic] 
+
+  path: 1[20152 -> 70301], [Kiribati -> Protestant] 
+
+  path: 2[20152 -> 10003 -> 20086 -> 10002], [Kiribati -> Australia/Oceania -> Indonesia -> Asia] 
+
+-----------------------------------------
+ResultDestNodes: [10002, 20073, 20086, 20102, 20077, 20087, 20078, 20063, 20084, 20059, 20094, 20105, 20060, 20097, 20061, 20056, 20057, 20089, 20058, 20101, 20075, 20055, 20085, 20098, 20035, 20205, 20049, 20012, 20042, 20152]
+ResultRelevs: [11.72389030456543, 9.398950576782227, 9.398950576782227, 9.398950576782227, 8.140409469604492, 8.140409469604492, 8.004739761352539, 8.004739761352539, 8.004739761352539, 8.004739761352539, 8.004739761352539, 8.004739761352539, 8.004739761352539, 8.004739761352539, 8.004739761352539, 8.004739761352539, 8.004739761352539, 8.004739761352539, 8.004739761352539, 8.004739761352539, 8.004739761352539, 8.004739761352539, 8.004739761352539, 8.004739761352539, 7.352230072021484, 7.352230072021484, 7.352230072021484, 7.352230072021484, 7.352230072021484, 7.352230072021484]
+Num of top-k answers: 30
+Num of non-reduced answers: 0
+Num of duplicate answers: 0
+Num of non-redundant answers: 30
+Num of entries retrieved from the lists: 404
+Num of entries retrieved from NKMaps: 588
+
+Blink Search Using ConstRootDup30
+[republic, protestant, asia]
+srcNodes: [60105, 70330, 10002]
+  path: 0[10002 -> 20105 -> 60105], [Asia -> Sri Lanka -> republic] 
+
+  path: 1[10002 -> 20087 -> 70330], [Asia -> Timor-Leste -> Protestant] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60105, 70319, 10002]
+  path: 0[10002 -> 20105 -> 60105], [Asia -> Sri Lanka -> republic] 
+
+  path: 1[10002 -> 20086 -> 70319], [Asia -> Indonesia -> Protestant] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60094, 70319, 10002]
+  path: 0[10002 -> 20094 -> 60094], [Asia -> Lebanon -> republic] 
+
+  path: 1[10002 -> 20086 -> 70319], [Asia -> Indonesia -> Protestant] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60094, 70330, 10002]
+  path: 0[10002 -> 20094 -> 60094], [Asia -> Lebanon -> republic] 
+
+  path: 1[10002 -> 20087 -> 70330], [Asia -> Timor-Leste -> Protestant] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60054, 70319, 10002]
+  path: 0[10002 -> 20054 -> 60054], [Asia -> Iran -> theocratic republic] 
+
+  path: 1[10002 -> 20086 -> 70319], [Asia -> Indonesia -> Protestant] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60054, 70330, 10002]
+  path: 0[10002 -> 20054 -> 60054], [Asia -> Iran -> theocratic republic] 
+
+  path: 1[10002 -> 20087 -> 70330], [Asia -> Timor-Leste -> Protestant] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60018, 70319, 10002]
+  path: 0[10002 -> 20031 -> 10004 -> 20018 -> 60018], [Asia -> Turkey -> Europe -> Belarus -> republic] 
+
+  path: 1[10002 -> 20086 -> 70319], [Asia -> Indonesia -> Protestant] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60018, 70330, 10002]
+  path: 0[10002 -> 20031 -> 10004 -> 20018 -> 60018], [Asia -> Turkey -> Europe -> Belarus -> republic] 
+
+  path: 1[10002 -> 20087 -> 70330], [Asia -> Timor-Leste -> Protestant] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60094, 70329, 10002]
+  path: 0[10002 -> 20094 -> 60094], [Asia -> Lebanon -> republic] 
+
+  path: 1[10002 -> 20031 -> 10004 -> 20003 -> 70329], [Asia -> Turkey -> Europe -> Serbia -> Protestant] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60105, 70329, 10002]
+  path: 0[10002 -> 20105 -> 60105], [Asia -> Sri Lanka -> republic] 
+
+  path: 1[10002 -> 20031 -> 10004 -> 20003 -> 70329], [Asia -> Turkey -> Europe -> Serbia -> Protestant] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60104, 70330, 10002]
+  path: 0[10002 -> 20104 -> 60104], [Asia -> Singapore -> republic within Commonwealth] 
+
+  path: 1[10002 -> 20087 -> 70330], [Asia -> Timor-Leste -> Protestant] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60104, 70319, 10002]
+  path: 0[10002 -> 20104 -> 60104], [Asia -> Singapore -> republic within Commonwealth] 
+
+  path: 1[10002 -> 20086 -> 70319], [Asia -> Indonesia -> Protestant] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60054, 70329, 10002]
+  path: 0[10002 -> 20054 -> 60054], [Asia -> Iran -> theocratic republic] 
+
+  path: 1[10002 -> 20031 -> 10004 -> 20003 -> 70329], [Asia -> Turkey -> Europe -> Serbia -> Protestant] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60018, 70329, 10002]
+  path: 0[10002 -> 20031 -> 10004 -> 20018 -> 60018], [Asia -> Turkey -> Europe -> Belarus -> republic] 
+
+  path: 1[10002 -> 20031 -> 10004 -> 20003 -> 70329], [Asia -> Turkey -> Europe -> Serbia -> Protestant] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60104, 70329, 10002]
+  path: 0[10002 -> 20104 -> 60104], [Asia -> Singapore -> republic within Commonwealth] 
+
+  path: 1[10002 -> 20031 -> 10004 -> 20003 -> 70329], [Asia -> Turkey -> Europe -> Serbia -> Protestant] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60086, 70319, 10002]
+  path: 0[20086 -> 60086], [Indonesia -> republic] 
+
+  path: 1[20086 -> 70319], [Indonesia -> Protestant] 
+
+  path: 2[20086 -> 10002], [Indonesia -> Asia] 
+
+srcNodes: [60102, 70322, 10002]
+  path: 0[20102 -> 60102], [Philippines -> republic] 
+
+  path: 1[20102 -> 70322], [Philippines -> Protestant] 
+
+  path: 2[20102 -> 10002], [Philippines -> Asia] 
+
+srcNodes: [60073, 70300, 10002]
+  path: 0[20073 -> 60073], [Kazakstan -> republic] 
+
+  path: 1[20073 -> 70300], [Kazakstan -> Protestant] 
+
+  path: 2[20073 -> 10002], [Kazakstan -> Asia] 
+
+srcNodes: [60102, 70330, 10002]
+  path: 0[20087 -> 10002 -> 20102 -> 60102], [Timor-Leste -> Asia -> Philippines -> republic] 
+
+  path: 1[20087 -> 70330], [Timor-Leste -> Protestant] 
+
+  path: 2[20087 -> 10002], [Timor-Leste -> Asia] 
+
+srcNodes: [60102, 70302, 10002]
+  path: 0[20077 -> 10002 -> 20102 -> 60102], [Macau -> Asia -> Philippines -> republic] 
+
+  path: 1[20077 -> 70302], [Macau -> Protestant] 
+
+  path: 2[20077 -> 10002], [Macau -> Asia] 
+
+srcNodes: [60085, 70322, 10002]
+  path: 0[20085 -> 60085], [Egypt -> republic] 
+
+  path: 1[20085 -> 10002 -> 20102 -> 70322], [Egypt -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20085 -> 10002], [Egypt -> Asia] 
+
+srcNodes: [60094, 70322, 10002]
+  path: 0[20094 -> 60094], [Lebanon -> republic] 
+
+  path: 1[20094 -> 10002 -> 20102 -> 70322], [Lebanon -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20094 -> 10002], [Lebanon -> Asia] 
+
+srcNodes: [60060, 70322, 10002]
+  path: 0[20060 -> 60060], [Georgia -> republic] 
+
+  path: 1[20060 -> 10002 -> 20102 -> 70322], [Georgia -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20060 -> 10002], [Georgia -> Asia] 
+
+srcNodes: [60084, 70322, 10002]
+  path: 0[20084 -> 60084], [Israel -> republic] 
+
+  path: 1[20084 -> 10002 -> 20102 -> 70322], [Israel -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20084 -> 10002], [Israel -> Asia] 
+
+srcNodes: [60059, 70322, 10002]
+  path: 0[20059 -> 60059], [Armenia -> republic] 
+
+  path: 1[20059 -> 10002 -> 20102 -> 70322], [Armenia -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20059 -> 10002], [Armenia -> Asia] 
+
+srcNodes: [60089, 70322, 10002]
+  path: 0[20089 -> 60089], [Iraq -> republic] 
+
+  path: 1[20089 -> 10002 -> 20102 -> 70322], [Iraq -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20089 -> 10002], [Iraq -> Asia] 
+
+srcNodes: [60057, 70322, 10002]
+  path: 0[20057 -> 60057], [Turkmenistan -> republic] 
+
+  path: 1[20057 -> 10002 -> 20102 -> 70322], [Turkmenistan -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20057 -> 10002], [Turkmenistan -> Asia] 
+
+srcNodes: [60058, 70322, 10002]
+  path: 0[20058 -> 60058], [Uzbekistan -> republic] 
+
+  path: 1[20058 -> 10002 -> 20102 -> 70322], [Uzbekistan -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20058 -> 10002], [Uzbekistan -> Asia] 
+
+srcNodes: [60056, 70322, 10002]
+  path: 0[20056 -> 60056], [Tajikistan -> republic] 
+
+  path: 1[20056 -> 10002 -> 20102 -> 70322], [Tajikistan -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20056 -> 10002], [Tajikistan -> Asia] 
+
+srcNodes: [60101, 70322, 10002]
+  path: 0[20101 -> 60101], [Yemen -> republic] 
+
+  path: 1[20101 -> 10002 -> 20102 -> 70322], [Yemen -> Asia -> Philippines -> Protestant] 
+
+  path: 2[20101 -> 10002], [Yemen -> Asia] 
+
+-----------------------------------------
+ResultDestNodes: 
+10002, 10002, 10002, 10002, 10002, 10002, 10002, 10002, 10002, 10002, 10002, 10002, 10002, 10002, 10002, 20086, 20102, 20073, 20087, 20077, 20085, 20094, 20060, 20084, 20059, 20089, 20057, 20058, 20056, 20101, 
+ResultRelevs: 
+11.72389, 11.72389, 11.72389, 11.72389, 11.09462, 11.09462, 11.05267, 11.05267, 10.98032, 10.98032, 10.884867, 10.884867, 10.35105, 10.3091, 10.141297, 9.398951, 9.398951, 9.398951, 8.140409, 8.140409, 8.00474, 8.00474, 8.00474, 8.00474, 8.00474, 8.00474, 8.00474, 8.00474, 8.00474, 8.00474, 
+Num of top-k answers: 30
+Num of duplicate answers: 0
+Num of duplicate roots in top-k answers: 14
+root duplication ratio: 0.4827586
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 404
+Num of entries retrieved from NKMaps: 2266
+Num of answer trees explored: 7571
+

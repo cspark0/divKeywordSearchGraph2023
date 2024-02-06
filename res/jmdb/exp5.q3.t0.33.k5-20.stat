@@ -1,0 +1,10 @@
+Top-k, (AvgResultRelev, AvgResultRelev/ResultRelevs[0], AvgResultDiss) numOfKNListsRead, numOfNKMapLookups, numOfAnswerTreesExplored, elapseTime, numOfStatesCreated, numOfStatesExplored, numOfHeuristicSearchPerformed, numOfATSPrunnedByDissCond, numOfLocalAnswersFound, 
+query: [monarchy, revolution, war]
+thr: 0.33
+SimGrpSe, 	5, 7.19434, 1.06583, 0.50000, 2835, 3580, 751, 0.168636553, 5, 1, 0, 1, 
+SimGrpSe, 	10, 6.92008, 1.05451, 0.51852, 2891, 3657, 772, 0.114164641, 12, 2, 0, 1, 
+SimGrpSe, 	15, 6.77578, 1.06957, 0.58730, 4572, 6072, 1534, 0.157866513, 220, 80, 0, 1, 
+SimGrpSe, 	20, 6.64798, 1.06953, 0.68947, 8457, 11681, 3372, 0.310447572, 1100, 320, 0, 1, 
+thr: 0.34
+SimGrpSe, 	5, 6.86264, 1.09107, 0.80000, 4572, 6072, 1534, 0.166254552, 321, 128, 0, 2, 
+SimGrpSe, 	10, 6.48167, 1.09294, 0.88889, 14185, 19774, 6000, 43.465790855, 59536, 25120, 0, 5, 

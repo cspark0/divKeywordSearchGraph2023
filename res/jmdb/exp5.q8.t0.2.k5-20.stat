@@ -1,0 +1,16 @@
+Top-k, (AvgResultRelev, AvgResultRelev/ResultRelevs[0], AvgResultDiss) numOfKNListsRead, numOfNKMapLookups, numOfAnswerTreesExplored, elapseTime, numOfStatesCreated, numOfStatesExplored, numOfHeuristicSearchPerformed, numOfATSPrunnedByDissCond, numOfLocalAnswersFound, 
+query: [fraud, deception, betrayal]
+thr: 0.2
+SimGrpSe, 	5, 7.05547, 1.12419, 0.43333, 1571, 2567, 939, 0.196719372, 17, 5, 0, 1, 
+SimGrpSe, 	10, 6.52262, 1.10726, 0.65185, 2340, 3908, 1488, 0.156255371, 61, 9, 0, 1, 
+SimGrpSe, 	15, 6.28293, 1.09842, 0.65714, 4193, 7216, 2951, 2.061571466, 9466, 4536, 0, 1, 
+SimGrpSe, 	20, 6.12344, 1.10399, 0.70877, 6463, 11534, 5029, 4777.420792267, 429802, 193536, 0, 1, 
+thr: 0.25
+SimGrpSe, 	5, 7.05547, 1.12419, 0.43333, 1571, 2567, 939, 0.123278005, 17, 5, 0, 1, 
+SimGrpSe, 	10, 6.52262, 1.10726, 0.65185, 2340, 3908, 1488, 0.145216171, 61, 9, 0, 1, 
+SimGrpSe, 	15, 6.28293, 1.09842, 0.65714, 4193, 7216, 2951, 2.366246481, 9466, 4536, 0, 1, 
+SimGrpSe, 	20, 6.12344, 1.10399, 0.70877, 6463, 11534, 5029, 5964.340513527, 429802, 193536, 0, 1, 
+thr: 0.3
+SimGrpSe, 	5, 7.05547, 1.12419, 0.43333, 1571, 2567, 939, 0.118142085, 17, 5, 0, 1, 
+SimGrpSe, 	10, 6.52262, 1.10726, 0.65185, 2340, 3908, 1488, 0.156706205, 61, 9, 0, 1, 
+SimGrpSe, 	15, 6.28293, 1.09842, 0.65714, 4193, 7216, 2951, 2.261727117, 9466, 4536, 0, 1, 

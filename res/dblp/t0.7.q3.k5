@@ -1,0 +1,1187 @@
+query: [graph, query, rewriting]
+Top-k Search by Blink-BDB, k=5
+[graph, query, rewriting]
+srcNodes: [9005549, 1014718, 1235514]
+  path: 0[1235514 -> 9005549], [A Higher-Order Graph Calculus for Autonomic Computing. -> Graph Theory, Computational Intelligence and Thought] 
+
+  path: 1[1235514 -> 1094167 -> 5000515 -> 1014718], [A Higher-Order Graph Calculus for Autonomic Computing. -> BioAmbients: an abstraction for biological compartments. -> Luca Cardelli -> TQL: a query language for semistructured data based on the ambient logic.] 
+
+  path: 2[1235514 -> 1235514], [A Higher-Order Graph Calculus for Autonomic Computing. -> A Higher-Order Graph Calculus for Autonomic Computing.]
+srcNodes: [9004619, 300902, 664054]
+  path: 0[664054 -> 1138107 -> 5167553 -> 1264981 -> 9004619], [Filtering Techniques for Rewriting XPath Queries Using Views. -> MiniCon: A scalable algorithm for answering queries using views. -> Rachel Pottinger -> Visualization Techniques for Schedule Comparison. -> Comput. Graph. Forum] 
+
+  path: 1[664054 -> 300902], [Filtering Techniques for Rewriting XPath Queries Using Views. -> Query Folding.] 
+
+  path: 2[664054 -> 664054], [Filtering Techniques for Rewriting XPath Queries Using Views. -> Filtering Techniques for Rewriting XPath Queries Using Views.]
+srcNodes: [9000980, 599496, 599496]
+  path: 0[599496 -> 642702 -> 5016457 -> 225191 -> 9000980], [Query Rewriting for Semistructured Data. -> Optimizing Queries Across Diverse Data Sources. -> Jun Yang -> SWAN: A Data Structure Visualization System. -> Graph Drawing] 
+
+  path: 1[599496 -> 599496], [Query Rewriting for Semistructured Data. -> Query Rewriting for Semistructured Data.]
+  path: 2[599496 -> 599496], [Query Rewriting for Semistructured Data. -> Query Rewriting for Semistructured Data.]
+srcNodes: [9000980, 9000052, 599659]
+  path: 0[599659 -> 5021629 -> 1361081 -> 9000980], [Cost-Based Optimization for Magic: Algebra and Implementation. -> Peter J. Stuckey -> Orthogonal Connector Routing. -> Graph Drawing] 
+
+  path: 1[599659 -> 5000217 -> 1961 -> 9000052], [Cost-Based Optimization for Magic: Algebra and Implementation. -> T. Y. Cliff Leung -> Cursors. -> The TSQL2 Temporal Query Language] 
+
+  path: 2[599659 -> 599659], [Cost-Based Optimization for Magic: Algebra and Implementation. -> Cost-Based Optimization for Magic: Algebra and Implementation.]
+srcNodes: [6750, 846434, 6750]
+  path: 0[6750 -> 6750], [GXL: a new graph transformation language. -> GXL: a new graph transformation language.]
+  path: 1[6750 -> 641397 -> 5037459 -> 1257881 -> 846434], [GXL: a new graph transformation language. -> Visual Programming with Graph Rewriting Systems. -> Andy Schürr -> Bidirectional Transformations: A Cross-Discipline Perspective. -> Querying through a user interface.] 
+
+  path: 2[6750 -> 6750], [GXL: a new graph transformation language. -> GXL: a new graph transformation language.]
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [1235514, 664054, 599496, 599659, 6750]
+ResultRelevs: [4.436058521270752, 4.331196308135986, 4.284039497375488, 4.1313276290893555, 4.101404190063477]
+AvgResultRelev: 4.2568052291870115
+AvgResultDissimilarity: 0.96
+Num of entries retrieved from the lists: 10071
+Num of entries retrieved from NKMaps: 19512
+Num of answer trees explored: 7769
+
+Div Top-k Search by Exhustive, k=5
+[graph, query, rewriting]
+srcNodes: [9005549, 1014718, 1235514]
+  path: 0[1235514 -> 9005549], [A Higher-Order Graph Calculus for Autonomic Computing. -> Graph Theory, Computational Intelligence and Thought] 
+
+  path: 1[1235514 -> 1094167 -> 5000515 -> 1014718], [A Higher-Order Graph Calculus for Autonomic Computing. -> BioAmbients: an abstraction for biological compartments. -> Luca Cardelli -> TQL: a query language for semistructured data based on the ambient logic.] 
+
+  path: 2[1235514 -> 1235514], [A Higher-Order Graph Calculus for Autonomic Computing. -> A Higher-Order Graph Calculus for Autonomic Computing.]
+srcNodes: [9004619, 300902, 664054]
+  path: 0[664054 -> 1138107 -> 5167553 -> 1264981 -> 9004619], [Filtering Techniques for Rewriting XPath Queries Using Views. -> MiniCon: A scalable algorithm for answering queries using views. -> Rachel Pottinger -> Visualization Techniques for Schedule Comparison. -> Comput. Graph. Forum] 
+
+  path: 1[664054 -> 300902], [Filtering Techniques for Rewriting XPath Queries Using Views. -> Query Folding.] 
+
+  path: 2[664054 -> 664054], [Filtering Techniques for Rewriting XPath Queries Using Views. -> Filtering Techniques for Rewriting XPath Queries Using Views.]
+srcNodes: [9000980, 599496, 599496]
+  path: 0[599496 -> 642702 -> 5016457 -> 225191 -> 9000980], [Query Rewriting for Semistructured Data. -> Optimizing Queries Across Diverse Data Sources. -> Jun Yang -> SWAN: A Data Structure Visualization System. -> Graph Drawing] 
+
+  path: 1[599496 -> 599496], [Query Rewriting for Semistructured Data. -> Query Rewriting for Semistructured Data.]
+  path: 2[599496 -> 599496], [Query Rewriting for Semistructured Data. -> Query Rewriting for Semistructured Data.]
+srcNodes: [9000980, 9000052, 599659]
+  path: 0[599659 -> 5021629 -> 1361081 -> 9000980], [Cost-Based Optimization for Magic: Algebra and Implementation. -> Peter J. Stuckey -> Orthogonal Connector Routing. -> Graph Drawing] 
+
+  path: 1[599659 -> 5000217 -> 1961 -> 9000052], [Cost-Based Optimization for Magic: Algebra and Implementation. -> T. Y. Cliff Leung -> Cursors. -> The TSQL2 Temporal Query Language] 
+
+  path: 2[599659 -> 599659], [Cost-Based Optimization for Magic: Algebra and Implementation. -> Cost-Based Optimization for Magic: Algebra and Implementation.]
+srcNodes: [6750, 846434, 6750]
+  path: 0[6750 -> 6750], [GXL: a new graph transformation language. -> GXL: a new graph transformation language.]
+  path: 1[6750 -> 641397 -> 5037459 -> 1257881 -> 846434], [GXL: a new graph transformation language. -> Visual Programming with Graph Rewriting Systems. -> Andy Schürr -> Bidirectional Transformations: A Cross-Discipline Perspective. -> Querying through a user interface.] 
+
+  path: 2[6750 -> 6750], [GXL: a new graph transformation language. -> GXL: a new graph transformation language.]
+-----------------------------------------
+ResultDestNodes: [1235514, 664054, 599496, 599659, 6750]
+ResultRelevs: [4.436058521270752, 4.331196308135986, 4.284039497375488, 4.1313276290893555, 4.101404190063477]
+AvgResultRelev: 4.2568052291870115
+AvgResultDissimilarity: 0.9600000381469727
+Num of entries retrieved from the KNLists: 10071
+Num of entries retrieved from NKMaps: 19512
+Num of answer trees explored: 7769
+Num of answer tree sets created: 31
+Num of answer tree sets removed: 0
+Max Num of answer tree sets in Q[]: 31
+
+Div Top-k Search by Astar02, k=5
+[graph, query, rewriting]
+srcNodes: [9005549, 1014718, 1235514]
+  path: 0[1235514 -> 9005549], [A Higher-Order Graph Calculus for Autonomic Computing. -> Graph Theory, Computational Intelligence and Thought] 
+
+  path: 1[1235514 -> 1094167 -> 5000515 -> 1014718], [A Higher-Order Graph Calculus for Autonomic Computing. -> BioAmbients: an abstraction for biological compartments. -> Luca Cardelli -> TQL: a query language for semistructured data based on the ambient logic.] 
+
+  path: 2[1235514 -> 1235514], [A Higher-Order Graph Calculus for Autonomic Computing. -> A Higher-Order Graph Calculus for Autonomic Computing.]
+srcNodes: [9004619, 300902, 664054]
+  path: 0[664054 -> 1138107 -> 5167553 -> 1264981 -> 9004619], [Filtering Techniques for Rewriting XPath Queries Using Views. -> MiniCon: A scalable algorithm for answering queries using views. -> Rachel Pottinger -> Visualization Techniques for Schedule Comparison. -> Comput. Graph. Forum] 
+
+  path: 1[664054 -> 300902], [Filtering Techniques for Rewriting XPath Queries Using Views. -> Query Folding.] 
+
+  path: 2[664054 -> 664054], [Filtering Techniques for Rewriting XPath Queries Using Views. -> Filtering Techniques for Rewriting XPath Queries Using Views.]
+srcNodes: [9000980, 599496, 599496]
+  path: 0[599496 -> 642702 -> 5016457 -> 225191 -> 9000980], [Query Rewriting for Semistructured Data. -> Optimizing Queries Across Diverse Data Sources. -> Jun Yang -> SWAN: A Data Structure Visualization System. -> Graph Drawing] 
+
+  path: 1[599496 -> 599496], [Query Rewriting for Semistructured Data. -> Query Rewriting for Semistructured Data.]
+  path: 2[599496 -> 599496], [Query Rewriting for Semistructured Data. -> Query Rewriting for Semistructured Data.]
+srcNodes: [9000980, 9000052, 599659]
+  path: 0[599659 -> 5021629 -> 1361081 -> 9000980], [Cost-Based Optimization for Magic: Algebra and Implementation. -> Peter J. Stuckey -> Orthogonal Connector Routing. -> Graph Drawing] 
+
+  path: 1[599659 -> 5000217 -> 1961 -> 9000052], [Cost-Based Optimization for Magic: Algebra and Implementation. -> T. Y. Cliff Leung -> Cursors. -> The TSQL2 Temporal Query Language] 
+
+  path: 2[599659 -> 599659], [Cost-Based Optimization for Magic: Algebra and Implementation. -> Cost-Based Optimization for Magic: Algebra and Implementation.]
+srcNodes: [6750, 846434, 6750]
+  path: 0[6750 -> 6750], [GXL: a new graph transformation language. -> GXL: a new graph transformation language.]
+  path: 1[6750 -> 641397 -> 5037459 -> 1257881 -> 846434], [GXL: a new graph transformation language. -> Visual Programming with Graph Rewriting Systems. -> Andy Schürr -> Bidirectional Transformations: A Cross-Discipline Perspective. -> Querying through a user interface.] 
+
+  path: 2[6750 -> 6750], [GXL: a new graph transformation language. -> GXL: a new graph transformation language.]
+-----------------------------------------
+ResultDestNodes: [1235514, 664054, 599496, 599659, 6750]
+ResultRelevs: [4.436058521270752, 4.331196308135986, 4.284039497375488, 4.1313276290893555, 4.101404190063477]
+AvgResultRelev: 4.2568052291870115
+AvgResultDissimilarity: 0.96
+Num of entries retrieved from the KNLists: 10071
+Num of entries retrieved from NKMaps: 19512
+Num of answer trees explored: 7769
+Num of states created: 16
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 11
+
+Div Top-k Search by Astar1nc_ap, k=5
+[graph, query, rewriting]
+srcNodes: [9005549, 1014718, 1235514]
+  path: 0[1235514 -> 9005549], [A Higher-Order Graph Calculus for Autonomic Computing. -> Graph Theory, Computational Intelligence and Thought] 
+
+  path: 1[1235514 -> 1094167 -> 5000515 -> 1014718], [A Higher-Order Graph Calculus for Autonomic Computing. -> BioAmbients: an abstraction for biological compartments. -> Luca Cardelli -> TQL: a query language for semistructured data based on the ambient logic.] 
+
+  path: 2[1235514 -> 1235514], [A Higher-Order Graph Calculus for Autonomic Computing. -> A Higher-Order Graph Calculus for Autonomic Computing.]
+srcNodes: [9004619, 300902, 664054]
+  path: 0[664054 -> 1138107 -> 5167553 -> 1264981 -> 9004619], [Filtering Techniques for Rewriting XPath Queries Using Views. -> MiniCon: A scalable algorithm for answering queries using views. -> Rachel Pottinger -> Visualization Techniques for Schedule Comparison. -> Comput. Graph. Forum] 
+
+  path: 1[664054 -> 300902], [Filtering Techniques for Rewriting XPath Queries Using Views. -> Query Folding.] 
+
+  path: 2[664054 -> 664054], [Filtering Techniques for Rewriting XPath Queries Using Views. -> Filtering Techniques for Rewriting XPath Queries Using Views.]
+srcNodes: [9000980, 599496, 599496]
+  path: 0[599496 -> 642702 -> 5016457 -> 225191 -> 9000980], [Query Rewriting for Semistructured Data. -> Optimizing Queries Across Diverse Data Sources. -> Jun Yang -> SWAN: A Data Structure Visualization System. -> Graph Drawing] 
+
+  path: 1[599496 -> 599496], [Query Rewriting for Semistructured Data. -> Query Rewriting for Semistructured Data.]
+  path: 2[599496 -> 599496], [Query Rewriting for Semistructured Data. -> Query Rewriting for Semistructured Data.]
+srcNodes: [9000980, 9000052, 599659]
+  path: 0[599659 -> 5021629 -> 1361081 -> 9000980], [Cost-Based Optimization for Magic: Algebra and Implementation. -> Peter J. Stuckey -> Orthogonal Connector Routing. -> Graph Drawing] 
+
+  path: 1[599659 -> 5000217 -> 1961 -> 9000052], [Cost-Based Optimization for Magic: Algebra and Implementation. -> T. Y. Cliff Leung -> Cursors. -> The TSQL2 Temporal Query Language] 
+
+  path: 2[599659 -> 599659], [Cost-Based Optimization for Magic: Algebra and Implementation. -> Cost-Based Optimization for Magic: Algebra and Implementation.]
+srcNodes: [6750, 846434, 6750]
+  path: 0[6750 -> 6750], [GXL: a new graph transformation language. -> GXL: a new graph transformation language.]
+  path: 1[6750 -> 641397 -> 5037459 -> 1257881 -> 846434], [GXL: a new graph transformation language. -> Visual Programming with Graph Rewriting Systems. -> Andy Schürr -> Bidirectional Transformations: A Cross-Discipline Perspective. -> Querying through a user interface.] 
+
+  path: 2[6750 -> 6750], [GXL: a new graph transformation language. -> GXL: a new graph transformation language.]
+-----------------------------------------
+ResultDestNodes: [1235514, 664054, 599496, 599659, 6750]
+ResultRelevs: [4.436058521270752, 4.331196308135986, 4.284039497375488, 4.1313276290893555, 4.101404190063477]
+AvgResultRelev: 4.2568052291870115
+AvgResultDissimilarity: 0.96
+Num of entries retrieved from the KNLists: 10071
+Num of entries retrieved from NKMaps: 19512
+Num of answer trees explored: 7769
+Num of states created: 6
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+query: [keyword, search, heuristic]
+Top-k Search by Blink-BDB, k=5
+[keyword, search, heuristic]
+srcNodes: [9006432, 9006432, 599668]
+  path: 0[1468988 -> 9006432], [Keyword Search in Databases -> Keyword Search in Databases] 
+
+  path: 1[1468988 -> 9006432], [Keyword Search in Databases -> Keyword Search in Databases] 
+
+  path: 2[1468988 -> 5039052 -> 642520 -> 599668], [Keyword Search in Databases -> Jeffrey Xu Yu -> Query Translation from XPath to SQL in the Presence of Recursive DTDs. -> Efficient and Extensible Algorithms for Multi Query Optimization.] 
+
+srcNodes: [654710, 654710, 744677]
+  path: 0[654710 -> 654710], [Boosting Item Keyword Search with Spreading Activation. -> Boosting Item Keyword Search with Spreading Activation.]
+  path: 1[654710 -> 654710], [Boosting Item Keyword Search with Spreading Activation. -> Boosting Item Keyword Search with Spreading Activation.]
+  path: 2[654710 -> 5018418 -> 156397 -> 5068222 -> 744677], [Boosting Item Keyword Search with Spreading Activation. -> Hasan Davulcu -> BioLog: A Browser Based Collaboration and Resource Navigation Assistant for BioMedical Researchers. -> Huan Liu -> Consistency-based search in feature selection.] 
+
+srcNodes: [9006432, 9006432, 599668]
+  path: 0[5159653 -> 1468988 -> 9006432], [Lu Qin -> Keyword Search in Databases -> Keyword Search in Databases] 
+
+  path: 1[5159653 -> 1468988 -> 9006432], [Lu Qin -> Keyword Search in Databases -> Keyword Search in Databases] 
+
+  path: 2[5159653 -> 1212874 -> 599668], [Lu Qin -> Keyword search in databases: the power of RDBMS. -> Efficient and Extensible Algorithms for Multi Query Optimization.] 
+
+srcNodes: [9006432, 9006432, 599668]
+  path: 0[5039052 -> 1468988 -> 9006432], [Jeffrey Xu Yu -> Keyword Search in Databases -> Keyword Search in Databases] 
+
+  path: 1[5039052 -> 1468988 -> 9006432], [Jeffrey Xu Yu -> Keyword Search in Databases -> Keyword Search in Databases] 
+
+  path: 2[5039052 -> 1212874 -> 599668], [Jeffrey Xu Yu -> Keyword search in databases: the power of RDBMS. -> Efficient and Extensible Algorithms for Multi Query Optimization.] 
+
+srcNodes: [9006432, 9006432, 599668]
+  path: 0[5186492 -> 1468988 -> 9006432], [Lijun Chang -> Keyword Search in Databases -> Keyword Search in Databases] 
+
+  path: 1[5186492 -> 1468988 -> 9006432], [Lijun Chang -> Keyword Search in Databases -> Keyword Search in Databases] 
+
+  path: 2[5186492 -> 1212874 -> 599668], [Lijun Chang -> Keyword search in databases: the power of RDBMS. -> Efficient and Extensible Algorithms for Multi Query Optimization.] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [1468988, 654710, 5159653, 5039052, 5186492]
+ResultRelevs: [5.161479949951172, 4.165635108947754, 4.06252908706665, 4.06252908706665, 4.06252908706665]
+AvgResultRelev: 4.302940464019775
+AvgResultDissimilarity: 0.4
+Num of entries retrieved from the lists: 1129
+Num of entries retrieved from NKMaps: 2022
+Num of answer trees explored: 897
+
+Div Top-k Search by Exhustive, k=5
+[keyword, search, heuristic]
+srcNodes: [9006432, 9006432, 599668]
+  path: 0[1468988 -> 9006432], [Keyword Search in Databases -> Keyword Search in Databases] 
+
+  path: 1[1468988 -> 9006432], [Keyword Search in Databases -> Keyword Search in Databases] 
+
+  path: 2[1468988 -> 5039052 -> 642520 -> 599668], [Keyword Search in Databases -> Jeffrey Xu Yu -> Query Translation from XPath to SQL in the Presence of Recursive DTDs. -> Efficient and Extensible Algorithms for Multi Query Optimization.] 
+
+srcNodes: [654710, 654710, 744677]
+  path: 0[654710 -> 654710], [Boosting Item Keyword Search with Spreading Activation. -> Boosting Item Keyword Search with Spreading Activation.]
+  path: 1[654710 -> 654710], [Boosting Item Keyword Search with Spreading Activation. -> Boosting Item Keyword Search with Spreading Activation.]
+  path: 2[654710 -> 5018418 -> 156397 -> 5068222 -> 744677], [Boosting Item Keyword Search with Spreading Activation. -> Hasan Davulcu -> BioLog: A Browser Based Collaboration and Resource Navigation Assistant for BioMedical Researchers. -> Huan Liu -> Consistency-based search in feature selection.] 
+
+srcNodes: [9006432, 9006432, 599668]
+  path: 0[5159653 -> 1468988 -> 9006432], [Lu Qin -> Keyword Search in Databases -> Keyword Search in Databases] 
+
+  path: 1[5159653 -> 1468988 -> 9006432], [Lu Qin -> Keyword Search in Databases -> Keyword Search in Databases] 
+
+  path: 2[5159653 -> 1212874 -> 599668], [Lu Qin -> Keyword search in databases: the power of RDBMS. -> Efficient and Extensible Algorithms for Multi Query Optimization.] 
+
+srcNodes: [9006432, 9006432, 599668]
+  path: 0[5039052 -> 1468988 -> 9006432], [Jeffrey Xu Yu -> Keyword Search in Databases -> Keyword Search in Databases] 
+
+  path: 1[5039052 -> 1468988 -> 9006432], [Jeffrey Xu Yu -> Keyword Search in Databases -> Keyword Search in Databases] 
+
+  path: 2[5039052 -> 1212874 -> 599668], [Jeffrey Xu Yu -> Keyword search in databases: the power of RDBMS. -> Efficient and Extensible Algorithms for Multi Query Optimization.] 
+
+srcNodes: [367180, 367180, 1326125]
+  path: 0[367180 -> 367180], [Path-Augmented Keyword Search for XML Documents. -> Path-Augmented Keyword Search for XML Documents.]
+  path: 1[367180 -> 367180], [Path-Augmented Keyword Search for XML Documents. -> Path-Augmented Keyword Search for XML Documents.]
+  path: 2[367180 -> 5002171 -> 1354826 -> 5014586 -> 1326125], [Path-Augmented Keyword Search for XML Documents. -> Mong-Li Lee -> Answering Top- Similar Region Queries. -> Yu Zheng -> A Heuristic Simulated Annealing Algorithm for the Circular Packing Problem.] 
+
+-----------------------------------------
+ResultDestNodes: [1468988, 654710, 5159653, 5039052, 367180]
+ResultRelevs: [5.161479949951172, 4.165635108947754, 4.06252908706665, 4.06252908706665, 4.010985851287842]
+AvgResultRelev: 4.292631816864014
+AvgResultDissimilarity: 0.7
+Num of entries retrieved from the KNLists: 1141
+Num of entries retrieved from NKMaps: 2045
+Num of answer trees explored: 908
+Num of answer tree sets created: 59
+Num of answer tree sets removed: 3
+Max Num of answer tree sets in Q[]: 59
+
+Div Top-k Search by Astar02, k=5
+[keyword, search, heuristic]
+srcNodes: [9006432, 9006432, 599668]
+  path: 0[1468988 -> 9006432], [Keyword Search in Databases -> Keyword Search in Databases] 
+
+  path: 1[1468988 -> 9006432], [Keyword Search in Databases -> Keyword Search in Databases] 
+
+  path: 2[1468988 -> 5039052 -> 642520 -> 599668], [Keyword Search in Databases -> Jeffrey Xu Yu -> Query Translation from XPath to SQL in the Presence of Recursive DTDs. -> Efficient and Extensible Algorithms for Multi Query Optimization.] 
+
+srcNodes: [654710, 654710, 744677]
+  path: 0[654710 -> 654710], [Boosting Item Keyword Search with Spreading Activation. -> Boosting Item Keyword Search with Spreading Activation.]
+  path: 1[654710 -> 654710], [Boosting Item Keyword Search with Spreading Activation. -> Boosting Item Keyword Search with Spreading Activation.]
+  path: 2[654710 -> 5018418 -> 156397 -> 5068222 -> 744677], [Boosting Item Keyword Search with Spreading Activation. -> Hasan Davulcu -> BioLog: A Browser Based Collaboration and Resource Navigation Assistant for BioMedical Researchers. -> Huan Liu -> Consistency-based search in feature selection.] 
+
+srcNodes: [9006432, 9006432, 599668]
+  path: 0[5159653 -> 1468988 -> 9006432], [Lu Qin -> Keyword Search in Databases -> Keyword Search in Databases] 
+
+  path: 1[5159653 -> 1468988 -> 9006432], [Lu Qin -> Keyword Search in Databases -> Keyword Search in Databases] 
+
+  path: 2[5159653 -> 1212874 -> 599668], [Lu Qin -> Keyword search in databases: the power of RDBMS. -> Efficient and Extensible Algorithms for Multi Query Optimization.] 
+
+srcNodes: [9006432, 9006432, 599668]
+  path: 0[5039052 -> 1468988 -> 9006432], [Jeffrey Xu Yu -> Keyword Search in Databases -> Keyword Search in Databases] 
+
+  path: 1[5039052 -> 1468988 -> 9006432], [Jeffrey Xu Yu -> Keyword Search in Databases -> Keyword Search in Databases] 
+
+  path: 2[5039052 -> 1212874 -> 599668], [Jeffrey Xu Yu -> Keyword search in databases: the power of RDBMS. -> Efficient and Extensible Algorithms for Multi Query Optimization.] 
+
+srcNodes: [367180, 367180, 1326125]
+  path: 0[367180 -> 367180], [Path-Augmented Keyword Search for XML Documents. -> Path-Augmented Keyword Search for XML Documents.]
+  path: 1[367180 -> 367180], [Path-Augmented Keyword Search for XML Documents. -> Path-Augmented Keyword Search for XML Documents.]
+  path: 2[367180 -> 5002171 -> 1354826 -> 5014586 -> 1326125], [Path-Augmented Keyword Search for XML Documents. -> Mong-Li Lee -> Answering Top- Similar Region Queries. -> Yu Zheng -> A Heuristic Simulated Annealing Algorithm for the Circular Packing Problem.] 
+
+-----------------------------------------
+ResultDestNodes: [1468988, 654710, 5159653, 5039052, 367180]
+ResultRelevs: [5.161479949951172, 4.165635108947754, 4.06252908706665, 4.06252908706665, 4.010985851287842]
+AvgResultRelev: 4.292631816864014
+AvgResultDissimilarity: 0.7
+Num of entries retrieved from the KNLists: 1141
+Num of entries retrieved from NKMaps: 2045
+Num of answer trees explored: 908
+Num of states created: 53
+Num of states explored: 38
+Num of heuristic search performed: 2
+Max Num of answer tree sets in Q[]: 16
+
+Div Top-k Search by Astar1nc_ap, k=5
+[keyword, search, heuristic]
+srcNodes: [9006432, 9006432, 599668]
+  path: 0[1468988 -> 9006432], [Keyword Search in Databases -> Keyword Search in Databases] 
+
+  path: 1[1468988 -> 9006432], [Keyword Search in Databases -> Keyword Search in Databases] 
+
+  path: 2[1468988 -> 5039052 -> 642520 -> 599668], [Keyword Search in Databases -> Jeffrey Xu Yu -> Query Translation from XPath to SQL in the Presence of Recursive DTDs. -> Efficient and Extensible Algorithms for Multi Query Optimization.] 
+
+srcNodes: [654710, 654710, 744677]
+  path: 0[654710 -> 654710], [Boosting Item Keyword Search with Spreading Activation. -> Boosting Item Keyword Search with Spreading Activation.]
+  path: 1[654710 -> 654710], [Boosting Item Keyword Search with Spreading Activation. -> Boosting Item Keyword Search with Spreading Activation.]
+  path: 2[654710 -> 5018418 -> 156397 -> 5068222 -> 744677], [Boosting Item Keyword Search with Spreading Activation. -> Hasan Davulcu -> BioLog: A Browser Based Collaboration and Resource Navigation Assistant for BioMedical Researchers. -> Huan Liu -> Consistency-based search in feature selection.] 
+
+srcNodes: [9006432, 9006432, 599668]
+  path: 0[5159653 -> 1468988 -> 9006432], [Lu Qin -> Keyword Search in Databases -> Keyword Search in Databases] 
+
+  path: 1[5159653 -> 1468988 -> 9006432], [Lu Qin -> Keyword Search in Databases -> Keyword Search in Databases] 
+
+  path: 2[5159653 -> 1212874 -> 599668], [Lu Qin -> Keyword search in databases: the power of RDBMS. -> Efficient and Extensible Algorithms for Multi Query Optimization.] 
+
+srcNodes: [9006432, 9006432, 599668]
+  path: 0[5186492 -> 1468988 -> 9006432], [Lijun Chang -> Keyword Search in Databases -> Keyword Search in Databases] 
+
+  path: 1[5186492 -> 1468988 -> 9006432], [Lijun Chang -> Keyword Search in Databases -> Keyword Search in Databases] 
+
+  path: 2[5186492 -> 1212874 -> 599668], [Lijun Chang -> Keyword search in databases: the power of RDBMS. -> Efficient and Extensible Algorithms for Multi Query Optimization.] 
+
+srcNodes: [367180, 367180, 1326125]
+  path: 0[367180 -> 367180], [Path-Augmented Keyword Search for XML Documents. -> Path-Augmented Keyword Search for XML Documents.]
+  path: 1[367180 -> 367180], [Path-Augmented Keyword Search for XML Documents. -> Path-Augmented Keyword Search for XML Documents.]
+  path: 2[367180 -> 5002171 -> 1354826 -> 5014586 -> 1326125], [Path-Augmented Keyword Search for XML Documents. -> Mong-Li Lee -> Answering Top- Similar Region Queries. -> Yu Zheng -> A Heuristic Simulated Annealing Algorithm for the Circular Packing Problem.] 
+
+-----------------------------------------
+ResultDestNodes: [1468988, 654710, 5159653, 5186492, 367180]
+ResultRelevs: [5.161479949951172, 4.165635108947754, 4.06252908706665, 4.06252908706665, 4.010985851287842]
+AvgResultRelev: 4.292631816864014
+AvgResultDissimilarity: 0.7
+Num of entries retrieved from the KNLists: 1141
+Num of entries retrieved from NKMaps: 2045
+Num of answer trees explored: 908
+Num of states created: 16
+Num of states explored: 12
+Num of heuristic search performed: 2
+Max Num of answer tree sets in Q[]: 5
+
+query: [graph, embedding, heuristic]
+Top-k Search by Blink-BDB, k=5
+[graph, embedding, heuristic]
+srcNodes: [9000980, 225230, 654308]
+  path: 0[225230 -> 9000980], [Planarity Testing and Optimal Edge Insertion with Embedding Constraints. -> Graph Drawing] 
+
+  path: 1[225230 -> 225230], [Planarity Testing and Optimal Edge Insertion with Embedding Constraints. -> Planarity Testing and Optimal Edge Insertion with Embedding Constraints.]
+  path: 2[225230 -> 5056513 -> 654308], [Planarity Testing and Optimal Edge Insertion with Embedding Constraints. -> Petra Mutzel -> Experiments on Exact Crossing Minimization Using Column Generation.] 
+
+srcNodes: [9000980, 225304, 654308]
+  path: 0[225304 -> 9000980], [Graph Simultaneous Embedding Tool, GraphSET. -> Graph Drawing] 
+
+  path: 1[225304 -> 225304], [Graph Simultaneous Embedding Tool, GraphSET. -> Graph Simultaneous Embedding Tool, GraphSET.]
+  path: 2[225304 -> 224991 -> 5056513 -> 654308], [Graph Simultaneous Embedding Tool, GraphSET. -> Level Planarity Testing in Linear Time. -> Petra Mutzel -> Experiments on Exact Crossing Minimization Using Column Generation.] 
+
+srcNodes: [9000980, 225286, 803567]
+  path: 0[225286 -> 9000980], [Point-Set Embedding of Trees with Edge Constraints. -> Graph Drawing] 
+
+  path: 1[225286 -> 225286], [Point-Set Embedding of Trees with Edge Constraints. -> Point-Set Embedding of Trees with Edge Constraints.]
+  path: 2[225286 -> 5067703 -> 803567], [Point-Set Embedding of Trees with Edge Constraints. -> Giuseppe Liotta -> Turn-regularity and optimal area drawings of orthogonal representations.] 
+
+srcNodes: [9000980, 225290, 1128145]
+  path: 0[225290 -> 9000980], [Practical Level Planarity Testing and Layout with Embedding Constraints. -> Graph Drawing] 
+
+  path: 1[225290 -> 225290], [Practical Level Planarity Testing and Layout with Embedding Constraints. -> Practical Level Planarity Testing and Layout with Embedding Constraints.]
+  path: 2[225290 -> 5067786 -> 530510 -> 1128145], [Practical Level Planarity Testing and Layout with Embedding Constraints. -> Patrick Healy -> Scheduling Research Grant Proposal Evaluation Meetings and the Range Colouring Problem. -> A Technique for Drawing Directed Graphs.] 
+
+srcNodes: [9000980, 225218, 1168452]
+  path: 0[225218 -> 9000980], [Simultaneous Graph Embedding with Bends and Circular Arcs. -> Graph Drawing] 
+
+  path: 1[225218 -> 225218], [Simultaneous Graph Embedding with Bends and Circular Arcs. -> Simultaneous Graph Embedding with Bends and Circular Arcs.]
+  path: 2[225218 -> 5219669 -> 909144 -> 5251089 -> 1168452], [Simultaneous Graph Embedding with Bends and Circular Arcs. -> Alejandro Estrella-Balderrama -> Designing Fault Tolerant Algorithms For Reconfigurable Meshes. -> Anu G. Bourgeois -> Using a genetic algorithm approach to solve the dynamic channel-assignment problem.] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [225230, 225304, 225286, 225290, 225218]
+ResultRelevs: [4.904053211212158, 4.665925979614258, 4.560812950134277, 4.4426350593566895, 4.403403282165527]
+AvgResultRelev: 4.595366096496582
+AvgResultDissimilarity: 0.6333333333333334
+Num of entries retrieved from the lists: 2485
+Num of entries retrieved from NKMaps: 4820
+Num of answer trees explored: 2148
+
+Div Top-k Search by Exhustive, k=5
+[graph, embedding, heuristic]
+srcNodes: [9000980, 225230, 654308]
+  path: 0[225230 -> 9000980], [Planarity Testing and Optimal Edge Insertion with Embedding Constraints. -> Graph Drawing] 
+
+  path: 1[225230 -> 225230], [Planarity Testing and Optimal Edge Insertion with Embedding Constraints. -> Planarity Testing and Optimal Edge Insertion with Embedding Constraints.]
+  path: 2[225230 -> 5056513 -> 654308], [Planarity Testing and Optimal Edge Insertion with Embedding Constraints. -> Petra Mutzel -> Experiments on Exact Crossing Minimization Using Column Generation.] 
+
+srcNodes: [9000980, 225304, 654308]
+  path: 0[225304 -> 9000980], [Graph Simultaneous Embedding Tool, GraphSET. -> Graph Drawing] 
+
+  path: 1[225304 -> 225304], [Graph Simultaneous Embedding Tool, GraphSET. -> Graph Simultaneous Embedding Tool, GraphSET.]
+  path: 2[225304 -> 224991 -> 5056513 -> 654308], [Graph Simultaneous Embedding Tool, GraphSET. -> Level Planarity Testing in Linear Time. -> Petra Mutzel -> Experiments on Exact Crossing Minimization Using Column Generation.] 
+
+srcNodes: [9000980, 225286, 803567]
+  path: 0[225286 -> 9000980], [Point-Set Embedding of Trees with Edge Constraints. -> Graph Drawing] 
+
+  path: 1[225286 -> 225286], [Point-Set Embedding of Trees with Edge Constraints. -> Point-Set Embedding of Trees with Edge Constraints.]
+  path: 2[225286 -> 5067703 -> 803567], [Point-Set Embedding of Trees with Edge Constraints. -> Giuseppe Liotta -> Turn-regularity and optimal area drawings of orthogonal representations.] 
+
+srcNodes: [9000980, 225290, 1128145]
+  path: 0[225290 -> 9000980], [Practical Level Planarity Testing and Layout with Embedding Constraints. -> Graph Drawing] 
+
+  path: 1[225290 -> 225290], [Practical Level Planarity Testing and Layout with Embedding Constraints. -> Practical Level Planarity Testing and Layout with Embedding Constraints.]
+  path: 2[225290 -> 5067786 -> 530510 -> 1128145], [Practical Level Planarity Testing and Layout with Embedding Constraints. -> Patrick Healy -> Scheduling Research Grant Proposal Evaluation Meetings and the Range Colouring Problem. -> A Technique for Drawing Directed Graphs.] 
+
+srcNodes: [1257479, 1257479, 1277561]
+  path: 0[1257479 -> 1257479], [Boosting Graph Embedding with Application to Facial Expression Recognition. -> Boosting Graph Embedding with Application to Facial Expression Recognition.]
+  path: 1[1257479 -> 1257479], [Boosting Graph Embedding with Application to Facial Expression Recognition. -> Boosting Graph Embedding with Application to Facial Expression Recognition.]
+  path: 2[1257479 -> 5189797 -> 1277561], [Boosting Graph Embedding with Application to Facial Expression Recognition. -> Duyan Bi -> Graph-based transductive learning for robust visual tracking.] 
+
+-----------------------------------------
+ResultDestNodes: [225230, 225304, 225286, 225290, 1257479]
+ResultRelevs: [4.904053211212158, 4.665925979614258, 4.560812950134277, 4.4426350593566895, 4.005764961242676]
+AvgResultRelev: 4.5158384323120115
+AvgResultDissimilarity: 0.7666666507720947
+Num of entries retrieved from the KNLists: 3972
+Num of entries retrieved from NKMaps: 7677
+Num of answer trees explored: 3443
+Num of answer tree sets created: 17869
+Num of answer tree sets removed: 7140
+Max Num of answer tree sets in Q[]: 17869
+
+Div Top-k Search by Astar02, k=5
+[graph, embedding, heuristic]
+srcNodes: [9000980, 225230, 654308]
+  path: 0[225230 -> 9000980], [Planarity Testing and Optimal Edge Insertion with Embedding Constraints. -> Graph Drawing] 
+
+  path: 1[225230 -> 225230], [Planarity Testing and Optimal Edge Insertion with Embedding Constraints. -> Planarity Testing and Optimal Edge Insertion with Embedding Constraints.]
+  path: 2[225230 -> 5056513 -> 654308], [Planarity Testing and Optimal Edge Insertion with Embedding Constraints. -> Petra Mutzel -> Experiments on Exact Crossing Minimization Using Column Generation.] 
+
+srcNodes: [9000980, 225304, 654308]
+  path: 0[225304 -> 9000980], [Graph Simultaneous Embedding Tool, GraphSET. -> Graph Drawing] 
+
+  path: 1[225304 -> 225304], [Graph Simultaneous Embedding Tool, GraphSET. -> Graph Simultaneous Embedding Tool, GraphSET.]
+  path: 2[225304 -> 224991 -> 5056513 -> 654308], [Graph Simultaneous Embedding Tool, GraphSET. -> Level Planarity Testing in Linear Time. -> Petra Mutzel -> Experiments on Exact Crossing Minimization Using Column Generation.] 
+
+srcNodes: [9000980, 225286, 803567]
+  path: 0[225286 -> 9000980], [Point-Set Embedding of Trees with Edge Constraints. -> Graph Drawing] 
+
+  path: 1[225286 -> 225286], [Point-Set Embedding of Trees with Edge Constraints. -> Point-Set Embedding of Trees with Edge Constraints.]
+  path: 2[225286 -> 5067703 -> 803567], [Point-Set Embedding of Trees with Edge Constraints. -> Giuseppe Liotta -> Turn-regularity and optimal area drawings of orthogonal representations.] 
+
+srcNodes: [9000980, 225290, 1128145]
+  path: 0[225290 -> 9000980], [Practical Level Planarity Testing and Layout with Embedding Constraints. -> Graph Drawing] 
+
+  path: 1[225290 -> 225290], [Practical Level Planarity Testing and Layout with Embedding Constraints. -> Practical Level Planarity Testing and Layout with Embedding Constraints.]
+  path: 2[225290 -> 5067786 -> 530510 -> 1128145], [Practical Level Planarity Testing and Layout with Embedding Constraints. -> Patrick Healy -> Scheduling Research Grant Proposal Evaluation Meetings and the Range Colouring Problem. -> A Technique for Drawing Directed Graphs.] 
+
+srcNodes: [1257479, 1257479, 1277561]
+  path: 0[1257479 -> 1257479], [Boosting Graph Embedding with Application to Facial Expression Recognition. -> Boosting Graph Embedding with Application to Facial Expression Recognition.]
+  path: 1[1257479 -> 1257479], [Boosting Graph Embedding with Application to Facial Expression Recognition. -> Boosting Graph Embedding with Application to Facial Expression Recognition.]
+  path: 2[1257479 -> 5189797 -> 1277561], [Boosting Graph Embedding with Application to Facial Expression Recognition. -> Duyan Bi -> Graph-based transductive learning for robust visual tracking.] 
+
+-----------------------------------------
+ResultDestNodes: [225230, 225304, 225286, 225290, 1257479]
+ResultRelevs: [4.904053211212158, 4.665925979614258, 4.560812950134277, 4.4426350593566895, 4.005764961242676]
+AvgResultRelev: 4.5158384323120115
+AvgResultDissimilarity: 0.7666666666666666
+Num of entries retrieved from the KNLists: 3972
+Num of entries retrieved from NKMaps: 7677
+Num of answer trees explored: 3443
+Num of states created: 44329
+Num of states explored: 44175
+Num of heuristic search performed: 19
+Max Num of answer tree sets in Q[]: 772
+
+Div Top-k Search by Astar1nc_ap, k=5
+[graph, embedding, heuristic]
+srcNodes: [9000980, 225230, 654308]
+  path: 0[225230 -> 9000980], [Planarity Testing and Optimal Edge Insertion with Embedding Constraints. -> Graph Drawing] 
+
+  path: 1[225230 -> 225230], [Planarity Testing and Optimal Edge Insertion with Embedding Constraints. -> Planarity Testing and Optimal Edge Insertion with Embedding Constraints.]
+  path: 2[225230 -> 5056513 -> 654308], [Planarity Testing and Optimal Edge Insertion with Embedding Constraints. -> Petra Mutzel -> Experiments on Exact Crossing Minimization Using Column Generation.] 
+
+srcNodes: [9000980, 225304, 654308]
+  path: 0[225304 -> 9000980], [Graph Simultaneous Embedding Tool, GraphSET. -> Graph Drawing] 
+
+  path: 1[225304 -> 225304], [Graph Simultaneous Embedding Tool, GraphSET. -> Graph Simultaneous Embedding Tool, GraphSET.]
+  path: 2[225304 -> 224991 -> 5056513 -> 654308], [Graph Simultaneous Embedding Tool, GraphSET. -> Level Planarity Testing in Linear Time. -> Petra Mutzel -> Experiments on Exact Crossing Minimization Using Column Generation.] 
+
+srcNodes: [9000980, 225286, 803567]
+  path: 0[225286 -> 9000980], [Point-Set Embedding of Trees with Edge Constraints. -> Graph Drawing] 
+
+  path: 1[225286 -> 225286], [Point-Set Embedding of Trees with Edge Constraints. -> Point-Set Embedding of Trees with Edge Constraints.]
+  path: 2[225286 -> 5067703 -> 803567], [Point-Set Embedding of Trees with Edge Constraints. -> Giuseppe Liotta -> Turn-regularity and optimal area drawings of orthogonal representations.] 
+
+srcNodes: [9000980, 225290, 1128145]
+  path: 0[225290 -> 9000980], [Practical Level Planarity Testing and Layout with Embedding Constraints. -> Graph Drawing] 
+
+  path: 1[225290 -> 225290], [Practical Level Planarity Testing and Layout with Embedding Constraints. -> Practical Level Planarity Testing and Layout with Embedding Constraints.]
+  path: 2[225290 -> 5067786 -> 530510 -> 1128145], [Practical Level Planarity Testing and Layout with Embedding Constraints. -> Patrick Healy -> Scheduling Research Grant Proposal Evaluation Meetings and the Range Colouring Problem. -> A Technique for Drawing Directed Graphs.] 
+
+srcNodes: [1257479, 1257479, 1277561]
+  path: 0[1257479 -> 1257479], [Boosting Graph Embedding with Application to Facial Expression Recognition. -> Boosting Graph Embedding with Application to Facial Expression Recognition.]
+  path: 1[1257479 -> 1257479], [Boosting Graph Embedding with Application to Facial Expression Recognition. -> Boosting Graph Embedding with Application to Facial Expression Recognition.]
+  path: 2[1257479 -> 5189797 -> 1277561], [Boosting Graph Embedding with Application to Facial Expression Recognition. -> Duyan Bi -> Graph-based transductive learning for robust visual tracking.] 
+
+-----------------------------------------
+ResultDestNodes: [225230, 225304, 225286, 225290, 1257479]
+ResultRelevs: [4.904053211212158, 4.665925979614258, 4.560812950134277, 4.4426350593566895, 4.005764961242676]
+AvgResultRelev: 4.5158384323120115
+AvgResultDissimilarity: 0.7666666666666666
+Num of entries retrieved from the KNLists: 3972
+Num of entries retrieved from NKMaps: 7677
+Num of answer trees explored: 3443
+Num of states created: 626
+Num of states explored: 125
+Num of heuristic search performed: 19
+Max Num of answer tree sets in Q[]: 82
+
+query: [query, rewriting, optimization]
+Top-k Search by Blink-BDB, k=5
+[query, rewriting, optimization]
+srcNodes: [77129, 77251, 77129]
+  path: 0[77129 -> 77129], [Query optimization in multidatabase systems. -> Query optimization in multidatabase systems.]
+  path: 1[77129 -> 5007098 -> 77251], [Query optimization in multidatabase systems. -> Qiang Zhu -> Optimizing large star-schema queries with snowflakes via heuristic-based query rewriting.] 
+
+  path: 2[77129 -> 77129], [Query optimization in multidatabase systems. -> Query optimization in multidatabase systems.]
+srcNodes: [300902, 664054, 299353]
+  path: 0[664054 -> 300902], [Filtering Techniques for Rewriting XPath Queries Using Views. -> Query Folding.] 
+
+  path: 1[664054 -> 664054], [Filtering Techniques for Rewriting XPath Queries Using Views. -> Filtering Techniques for Rewriting XPath Queries Using Views.]
+  path: 2[664054 -> 1138057 -> 599872 -> 299353], [Filtering Techniques for Rewriting XPath Queries Using Views. -> Answering queries using views: A survey. -> Cost Based Query Scrambling for Initial Delays. -> Dynamic Query Optimization in Rdb/VMS.] 
+
+srcNodes: [597912, 597912, 597912]
+  path: 0[597912 -> 597912], [Visual COKO: a debugger for query optimizer development. -> Visual COKO: a debugger for query optimizer development.]
+  path: 1[597912 -> 597912], [Visual COKO: a debugger for query optimizer development. -> Visual COKO: a debugger for query optimizer development.]
+  path: 2[597912 -> 597912], [Visual COKO: a debugger for query optimizer development. -> Visual COKO: a debugger for query optimizer development.]
+srcNodes: [77251, 77251, 77129]
+  path: 0[77251 -> 77251], [Optimizing large star-schema queries with snowflakes via heuristic-based query rewriting. -> Optimizing large star-schema queries with snowflakes via heuristic-based query rewriting.]
+  path: 1[77251 -> 77251], [Optimizing large star-schema queries with snowflakes via heuristic-based query rewriting. -> Optimizing large star-schema queries with snowflakes via heuristic-based query rewriting.]
+  path: 2[77251 -> 5007098 -> 77129], [Optimizing large star-schema queries with snowflakes via heuristic-based query rewriting. -> Qiang Zhu -> Query optimization in multidatabase systems.] 
+
+srcNodes: [654716, 654716, 717663]
+  path: 0[654716 -> 654716], [Bucket-Based Query Rewriting with Disjunctive Data Source. -> Bucket-Based Query Rewriting with Disjunctive Data Source.]
+  path: 1[654716 -> 654716], [Bucket-Based Query Rewriting with Disjunctive Data Source. -> Bucket-Based Query Rewriting with Disjunctive Data Source.]
+  path: 2[654716 -> 5014272 -> 717663], [Bucket-Based Query Rewriting with Disjunctive Data Source. -> Hui Wang -> The Optimization of the H.264 Encoder Based On TI TMS320DM642.] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [77129, 664054, 597912, 77251, 654716]
+ResultRelevs: [4.217247009277344, 4.119901657104492, 4.094625473022461, 4.029771327972412, 3.931457757949829]
+AvgResultRelev: 4.078600645065308
+AvgResultDissimilarity: 0.9
+Num of entries retrieved from the lists: 1319
+Num of entries retrieved from NKMaps: 2531
+Num of answer trees explored: 1148
+
+Div Top-k Search by Exhustive, k=5
+[query, rewriting, optimization]
+srcNodes: [77129, 77251, 77129]
+  path: 0[77129 -> 77129], [Query optimization in multidatabase systems. -> Query optimization in multidatabase systems.]
+  path: 1[77129 -> 5007098 -> 77251], [Query optimization in multidatabase systems. -> Qiang Zhu -> Optimizing large star-schema queries with snowflakes via heuristic-based query rewriting.] 
+
+  path: 2[77129 -> 77129], [Query optimization in multidatabase systems. -> Query optimization in multidatabase systems.]
+srcNodes: [300902, 664054, 299353]
+  path: 0[664054 -> 300902], [Filtering Techniques for Rewriting XPath Queries Using Views. -> Query Folding.] 
+
+  path: 1[664054 -> 664054], [Filtering Techniques for Rewriting XPath Queries Using Views. -> Filtering Techniques for Rewriting XPath Queries Using Views.]
+  path: 2[664054 -> 1138057 -> 599872 -> 299353], [Filtering Techniques for Rewriting XPath Queries Using Views. -> Answering queries using views: A survey. -> Cost Based Query Scrambling for Initial Delays. -> Dynamic Query Optimization in Rdb/VMS.] 
+
+srcNodes: [597912, 597912, 597912]
+  path: 0[597912 -> 597912], [Visual COKO: a debugger for query optimizer development. -> Visual COKO: a debugger for query optimizer development.]
+  path: 1[597912 -> 597912], [Visual COKO: a debugger for query optimizer development. -> Visual COKO: a debugger for query optimizer development.]
+  path: 2[597912 -> 597912], [Visual COKO: a debugger for query optimizer development. -> Visual COKO: a debugger for query optimizer development.]
+srcNodes: [77251, 77251, 77129]
+  path: 0[77251 -> 77251], [Optimizing large star-schema queries with snowflakes via heuristic-based query rewriting. -> Optimizing large star-schema queries with snowflakes via heuristic-based query rewriting.]
+  path: 1[77251 -> 77251], [Optimizing large star-schema queries with snowflakes via heuristic-based query rewriting. -> Optimizing large star-schema queries with snowflakes via heuristic-based query rewriting.]
+  path: 2[77251 -> 5007098 -> 77129], [Optimizing large star-schema queries with snowflakes via heuristic-based query rewriting. -> Qiang Zhu -> Query optimization in multidatabase systems.] 
+
+srcNodes: [654716, 654716, 717663]
+  path: 0[654716 -> 654716], [Bucket-Based Query Rewriting with Disjunctive Data Source. -> Bucket-Based Query Rewriting with Disjunctive Data Source.]
+  path: 1[654716 -> 654716], [Bucket-Based Query Rewriting with Disjunctive Data Source. -> Bucket-Based Query Rewriting with Disjunctive Data Source.]
+  path: 2[654716 -> 5014272 -> 717663], [Bucket-Based Query Rewriting with Disjunctive Data Source. -> Hui Wang -> The Optimization of the H.264 Encoder Based On TI TMS320DM642.] 
+
+-----------------------------------------
+ResultDestNodes: [77129, 664054, 597912, 77251, 654716]
+ResultRelevs: [4.217247009277344, 4.119901657104492, 4.094625473022461, 4.029771327972412, 3.931457757949829]
+AvgResultRelev: 4.078600645065308
+AvgResultDissimilarity: 0.9
+Num of entries retrieved from the KNLists: 1319
+Num of entries retrieved from NKMaps: 2531
+Num of answer trees explored: 1148
+Num of answer tree sets created: 31
+Num of answer tree sets removed: 0
+Max Num of answer tree sets in Q[]: 31
+
+Div Top-k Search by Astar02, k=5
+[query, rewriting, optimization]
+srcNodes: [77129, 77251, 77129]
+  path: 0[77129 -> 77129], [Query optimization in multidatabase systems. -> Query optimization in multidatabase systems.]
+  path: 1[77129 -> 5007098 -> 77251], [Query optimization in multidatabase systems. -> Qiang Zhu -> Optimizing large star-schema queries with snowflakes via heuristic-based query rewriting.] 
+
+  path: 2[77129 -> 77129], [Query optimization in multidatabase systems. -> Query optimization in multidatabase systems.]
+srcNodes: [300902, 664054, 299353]
+  path: 0[664054 -> 300902], [Filtering Techniques for Rewriting XPath Queries Using Views. -> Query Folding.] 
+
+  path: 1[664054 -> 664054], [Filtering Techniques for Rewriting XPath Queries Using Views. -> Filtering Techniques for Rewriting XPath Queries Using Views.]
+  path: 2[664054 -> 1138057 -> 599872 -> 299353], [Filtering Techniques for Rewriting XPath Queries Using Views. -> Answering queries using views: A survey. -> Cost Based Query Scrambling for Initial Delays. -> Dynamic Query Optimization in Rdb/VMS.] 
+
+srcNodes: [597912, 597912, 597912]
+  path: 0[597912 -> 597912], [Visual COKO: a debugger for query optimizer development. -> Visual COKO: a debugger for query optimizer development.]
+  path: 1[597912 -> 597912], [Visual COKO: a debugger for query optimizer development. -> Visual COKO: a debugger for query optimizer development.]
+  path: 2[597912 -> 597912], [Visual COKO: a debugger for query optimizer development. -> Visual COKO: a debugger for query optimizer development.]
+srcNodes: [77251, 77251, 77129]
+  path: 0[77251 -> 77251], [Optimizing large star-schema queries with snowflakes via heuristic-based query rewriting. -> Optimizing large star-schema queries with snowflakes via heuristic-based query rewriting.]
+  path: 1[77251 -> 77251], [Optimizing large star-schema queries with snowflakes via heuristic-based query rewriting. -> Optimizing large star-schema queries with snowflakes via heuristic-based query rewriting.]
+  path: 2[77251 -> 5007098 -> 77129], [Optimizing large star-schema queries with snowflakes via heuristic-based query rewriting. -> Qiang Zhu -> Query optimization in multidatabase systems.] 
+
+srcNodes: [654716, 654716, 717663]
+  path: 0[654716 -> 654716], [Bucket-Based Query Rewriting with Disjunctive Data Source. -> Bucket-Based Query Rewriting with Disjunctive Data Source.]
+  path: 1[654716 -> 654716], [Bucket-Based Query Rewriting with Disjunctive Data Source. -> Bucket-Based Query Rewriting with Disjunctive Data Source.]
+  path: 2[654716 -> 5014272 -> 717663], [Bucket-Based Query Rewriting with Disjunctive Data Source. -> Hui Wang -> The Optimization of the H.264 Encoder Based On TI TMS320DM642.] 
+
+-----------------------------------------
+ResultDestNodes: [77129, 664054, 597912, 77251, 654716]
+ResultRelevs: [4.217247009277344, 4.119901657104492, 4.094625473022461, 4.029771327972412, 3.931457757949829]
+AvgResultRelev: 4.078600645065308
+AvgResultDissimilarity: 0.9
+Num of entries retrieved from the KNLists: 1319
+Num of entries retrieved from NKMaps: 2531
+Num of answer trees explored: 1148
+Num of states created: 16
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 11
+
+Div Top-k Search by Astar1nc_ap, k=5
+[query, rewriting, optimization]
+srcNodes: [77129, 77251, 77129]
+  path: 0[77129 -> 77129], [Query optimization in multidatabase systems. -> Query optimization in multidatabase systems.]
+  path: 1[77129 -> 5007098 -> 77251], [Query optimization in multidatabase systems. -> Qiang Zhu -> Optimizing large star-schema queries with snowflakes via heuristic-based query rewriting.] 
+
+  path: 2[77129 -> 77129], [Query optimization in multidatabase systems. -> Query optimization in multidatabase systems.]
+srcNodes: [300902, 664054, 299353]
+  path: 0[664054 -> 300902], [Filtering Techniques for Rewriting XPath Queries Using Views. -> Query Folding.] 
+
+  path: 1[664054 -> 664054], [Filtering Techniques for Rewriting XPath Queries Using Views. -> Filtering Techniques for Rewriting XPath Queries Using Views.]
+  path: 2[664054 -> 1138057 -> 599872 -> 299353], [Filtering Techniques for Rewriting XPath Queries Using Views. -> Answering queries using views: A survey. -> Cost Based Query Scrambling for Initial Delays. -> Dynamic Query Optimization in Rdb/VMS.] 
+
+srcNodes: [597912, 597912, 597912]
+  path: 0[597912 -> 597912], [Visual COKO: a debugger for query optimizer development. -> Visual COKO: a debugger for query optimizer development.]
+  path: 1[597912 -> 597912], [Visual COKO: a debugger for query optimizer development. -> Visual COKO: a debugger for query optimizer development.]
+  path: 2[597912 -> 597912], [Visual COKO: a debugger for query optimizer development. -> Visual COKO: a debugger for query optimizer development.]
+srcNodes: [77251, 77251, 77129]
+  path: 0[77251 -> 77251], [Optimizing large star-schema queries with snowflakes via heuristic-based query rewriting. -> Optimizing large star-schema queries with snowflakes via heuristic-based query rewriting.]
+  path: 1[77251 -> 77251], [Optimizing large star-schema queries with snowflakes via heuristic-based query rewriting. -> Optimizing large star-schema queries with snowflakes via heuristic-based query rewriting.]
+  path: 2[77251 -> 5007098 -> 77129], [Optimizing large star-schema queries with snowflakes via heuristic-based query rewriting. -> Qiang Zhu -> Query optimization in multidatabase systems.] 
+
+srcNodes: [654716, 654716, 717663]
+  path: 0[654716 -> 654716], [Bucket-Based Query Rewriting with Disjunctive Data Source. -> Bucket-Based Query Rewriting with Disjunctive Data Source.]
+  path: 1[654716 -> 654716], [Bucket-Based Query Rewriting with Disjunctive Data Source. -> Bucket-Based Query Rewriting with Disjunctive Data Source.]
+  path: 2[654716 -> 5014272 -> 717663], [Bucket-Based Query Rewriting with Disjunctive Data Source. -> Hui Wang -> The Optimization of the H.264 Encoder Based On TI TMS320DM642.] 
+
+-----------------------------------------
+ResultDestNodes: [77129, 664054, 597912, 77251, 654716]
+ResultRelevs: [4.217247009277344, 4.119901657104492, 4.094625473022461, 4.029771327972412, 3.931457757949829]
+AvgResultRelev: 4.078600645065308
+AvgResultDissimilarity: 0.9
+Num of entries retrieved from the KNLists: 1319
+Num of entries retrieved from NKMaps: 2531
+Num of answer trees explored: 1148
+Num of states created: 6
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+query: [query, selectivity, estimation]
+Top-k Search by Blink-BDB, k=5
+[query, selectivity, estimation]
+srcNodes: [9000095, 1138227, 1138227]
+  path: 0[1138227 -> 5000229 -> 2855 -> 9000095], [Dynamic Maintenance of Data Distribution for Selectivity Estimation -> Gio Wiederhold -> The Property of Separability And Its Application to Physical Database Design. -> Query Processing in Database Systems] 
+
+  path: 1[1138227 -> 1138227], [Dynamic Maintenance of Data Distribution for Selectivity Estimation -> Dynamic Maintenance of Data Distribution for Selectivity Estimation]
+  path: 2[1138227 -> 1138227], [Dynamic Maintenance of Data Distribution for Selectivity Estimation -> Dynamic Maintenance of Data Distribution for Selectivity Estimation]
+srcNodes: [598374, 598374, 598374]
+  path: 0[598374 -> 598374], [Selectivity estimation for spatio-temporal queries to moving objects. -> Selectivity estimation for spatio-temporal queries to moving objects.]
+  path: 1[598374 -> 598374], [Selectivity estimation for spatio-temporal queries to moving objects. -> Selectivity estimation for spatio-temporal queries to moving objects.]
+  path: 2[598374 -> 598374], [Selectivity estimation for spatio-temporal queries to moving objects. -> Selectivity estimation for spatio-temporal queries to moving objects.]
+srcNodes: [1168484, 598374, 598374]
+  path: 0[1168484 -> 1168484], [Developing a dynamic query system on location-based services. -> Developing a dynamic query system on location-based services.]
+  path: 1[1168484 -> 598374], [Developing a dynamic query system on location-based services. -> Selectivity estimation for spatio-temporal queries to moving objects.] 
+
+  path: 2[1168484 -> 598374], [Developing a dynamic query system on location-based services. -> Selectivity estimation for spatio-temporal queries to moving objects.] 
+
+srcNodes: [9000095, 1138227, 1138227]
+  path: 0[5003855 -> 2855 -> 9000095], [Kyu-Young Whang -> The Property of Separability And Its Application to Physical Database Design. -> Query Processing in Database Systems] 
+
+  path: 1[5003855 -> 1138227], [Kyu-Young Whang -> Dynamic Maintenance of Data Distribution for Selectivity Estimation] 
+
+  path: 2[5003855 -> 1138227], [Kyu-Young Whang -> Dynamic Maintenance of Data Distribution for Selectivity Estimation] 
+
+srcNodes: [9000095, 1138227, 1138227]
+  path: 0[5000229 -> 2855 -> 9000095], [Gio Wiederhold -> The Property of Separability And Its Application to Physical Database Design. -> Query Processing in Database Systems] 
+
+  path: 1[5000229 -> 1138227], [Gio Wiederhold -> Dynamic Maintenance of Data Distribution for Selectivity Estimation] 
+
+  path: 2[5000229 -> 1138227], [Gio Wiederhold -> Dynamic Maintenance of Data Distribution for Selectivity Estimation] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [1138227, 598374, 1168484, 5003855, 5000229]
+ResultRelevs: [4.840050220489502, 4.802555084228516, 4.574398517608643, 4.1062164306640625, 4.1062164306640625]
+AvgResultRelev: 4.485887336730957
+AvgResultDissimilarity: 0.6333333333333334
+Num of entries retrieved from the lists: 387
+Num of entries retrieved from NKMaps: 708
+Num of answer trees explored: 290
+
+Div Top-k Search by Exhustive, k=5
+[query, selectivity, estimation]
+srcNodes: [9000095, 1138227, 1138227]
+  path: 0[1138227 -> 5000229 -> 2855 -> 9000095], [Dynamic Maintenance of Data Distribution for Selectivity Estimation -> Gio Wiederhold -> The Property of Separability And Its Application to Physical Database Design. -> Query Processing in Database Systems] 
+
+  path: 1[1138227 -> 1138227], [Dynamic Maintenance of Data Distribution for Selectivity Estimation -> Dynamic Maintenance of Data Distribution for Selectivity Estimation]
+  path: 2[1138227 -> 1138227], [Dynamic Maintenance of Data Distribution for Selectivity Estimation -> Dynamic Maintenance of Data Distribution for Selectivity Estimation]
+srcNodes: [598374, 598374, 598374]
+  path: 0[598374 -> 598374], [Selectivity estimation for spatio-temporal queries to moving objects. -> Selectivity estimation for spatio-temporal queries to moving objects.]
+  path: 1[598374 -> 598374], [Selectivity estimation for spatio-temporal queries to moving objects. -> Selectivity estimation for spatio-temporal queries to moving objects.]
+  path: 2[598374 -> 598374], [Selectivity estimation for spatio-temporal queries to moving objects. -> Selectivity estimation for spatio-temporal queries to moving objects.]
+srcNodes: [1168484, 598374, 598374]
+  path: 0[1168484 -> 1168484], [Developing a dynamic query system on location-based services. -> Developing a dynamic query system on location-based services.]
+  path: 1[1168484 -> 598374], [Developing a dynamic query system on location-based services. -> Selectivity estimation for spatio-temporal queries to moving objects.] 
+
+  path: 2[1168484 -> 598374], [Developing a dynamic query system on location-based services. -> Selectivity estimation for spatio-temporal queries to moving objects.] 
+
+srcNodes: [9000095, 1138227, 1138227]
+  path: 0[5003855 -> 2855 -> 9000095], [Kyu-Young Whang -> The Property of Separability And Its Application to Physical Database Design. -> Query Processing in Database Systems] 
+
+  path: 1[5003855 -> 1138227], [Kyu-Young Whang -> Dynamic Maintenance of Data Distribution for Selectivity Estimation] 
+
+  path: 2[5003855 -> 1138227], [Kyu-Young Whang -> Dynamic Maintenance of Data Distribution for Selectivity Estimation] 
+
+srcNodes: [1436959, 598374, 598374]
+  path: 0[1436959 -> 1436959], [Adaptive holistic scheduling for query processing in sensor networks. -> Adaptive holistic scheduling for query processing in sensor networks.]
+  path: 1[1436959 -> 598374], [Adaptive holistic scheduling for query processing in sensor networks. -> Selectivity estimation for spatio-temporal queries to moving objects.] 
+
+  path: 2[1436959 -> 598374], [Adaptive holistic scheduling for query processing in sensor networks. -> Selectivity estimation for spatio-temporal queries to moving objects.] 
+
+-----------------------------------------
+ResultDestNodes: [1138227, 598374, 1168484, 5003855, 1436959]
+ResultRelevs: [4.840050220489502, 4.802555084228516, 4.574398517608643, 4.1062164306640625, 4.101099491119385]
+AvgResultRelev: 4.484863948822022
+AvgResultDissimilarity: 0.7166666507720947
+Num of entries retrieved from the KNLists: 387
+Num of entries retrieved from NKMaps: 708
+Num of answer trees explored: 290
+Num of answer tree sets created: 59
+Num of answer tree sets removed: 2
+Max Num of answer tree sets in Q[]: 59
+
+Div Top-k Search by Astar02, k=5
+[query, selectivity, estimation]
+srcNodes: [9000095, 1138227, 1138227]
+  path: 0[1138227 -> 5000229 -> 2855 -> 9000095], [Dynamic Maintenance of Data Distribution for Selectivity Estimation -> Gio Wiederhold -> The Property of Separability And Its Application to Physical Database Design. -> Query Processing in Database Systems] 
+
+  path: 1[1138227 -> 1138227], [Dynamic Maintenance of Data Distribution for Selectivity Estimation -> Dynamic Maintenance of Data Distribution for Selectivity Estimation]
+  path: 2[1138227 -> 1138227], [Dynamic Maintenance of Data Distribution for Selectivity Estimation -> Dynamic Maintenance of Data Distribution for Selectivity Estimation]
+srcNodes: [598374, 598374, 598374]
+  path: 0[598374 -> 598374], [Selectivity estimation for spatio-temporal queries to moving objects. -> Selectivity estimation for spatio-temporal queries to moving objects.]
+  path: 1[598374 -> 598374], [Selectivity estimation for spatio-temporal queries to moving objects. -> Selectivity estimation for spatio-temporal queries to moving objects.]
+  path: 2[598374 -> 598374], [Selectivity estimation for spatio-temporal queries to moving objects. -> Selectivity estimation for spatio-temporal queries to moving objects.]
+srcNodes: [1168484, 598374, 598374]
+  path: 0[1168484 -> 1168484], [Developing a dynamic query system on location-based services. -> Developing a dynamic query system on location-based services.]
+  path: 1[1168484 -> 598374], [Developing a dynamic query system on location-based services. -> Selectivity estimation for spatio-temporal queries to moving objects.] 
+
+  path: 2[1168484 -> 598374], [Developing a dynamic query system on location-based services. -> Selectivity estimation for spatio-temporal queries to moving objects.] 
+
+srcNodes: [9000095, 1138227, 1138227]
+  path: 0[5003855 -> 2855 -> 9000095], [Kyu-Young Whang -> The Property of Separability And Its Application to Physical Database Design. -> Query Processing in Database Systems] 
+
+  path: 1[5003855 -> 1138227], [Kyu-Young Whang -> Dynamic Maintenance of Data Distribution for Selectivity Estimation] 
+
+  path: 2[5003855 -> 1138227], [Kyu-Young Whang -> Dynamic Maintenance of Data Distribution for Selectivity Estimation] 
+
+srcNodes: [1436959, 598374, 598374]
+  path: 0[1436959 -> 1436959], [Adaptive holistic scheduling for query processing in sensor networks. -> Adaptive holistic scheduling for query processing in sensor networks.]
+  path: 1[1436959 -> 598374], [Adaptive holistic scheduling for query processing in sensor networks. -> Selectivity estimation for spatio-temporal queries to moving objects.] 
+
+  path: 2[1436959 -> 598374], [Adaptive holistic scheduling for query processing in sensor networks. -> Selectivity estimation for spatio-temporal queries to moving objects.] 
+
+-----------------------------------------
+ResultDestNodes: [1138227, 598374, 1168484, 5003855, 1436959]
+ResultRelevs: [4.840050220489502, 4.802555084228516, 4.574398517608643, 4.1062164306640625, 4.101099491119385]
+AvgResultRelev: 4.484863948822022
+AvgResultDissimilarity: 0.7166666666666667
+Num of entries retrieved from the KNLists: 387
+Num of entries retrieved from NKMaps: 708
+Num of answer trees explored: 290
+Num of states created: 52
+Num of states explored: 38
+Num of heuristic search performed: 2
+Max Num of answer tree sets in Q[]: 15
+
+Div Top-k Search by Astar1nc_ap, k=5
+[query, selectivity, estimation]
+srcNodes: [9000095, 1138227, 1138227]
+  path: 0[1138227 -> 5000229 -> 2855 -> 9000095], [Dynamic Maintenance of Data Distribution for Selectivity Estimation -> Gio Wiederhold -> The Property of Separability And Its Application to Physical Database Design. -> Query Processing in Database Systems] 
+
+  path: 1[1138227 -> 1138227], [Dynamic Maintenance of Data Distribution for Selectivity Estimation -> Dynamic Maintenance of Data Distribution for Selectivity Estimation]
+  path: 2[1138227 -> 1138227], [Dynamic Maintenance of Data Distribution for Selectivity Estimation -> Dynamic Maintenance of Data Distribution for Selectivity Estimation]
+srcNodes: [598374, 598374, 598374]
+  path: 0[598374 -> 598374], [Selectivity estimation for spatio-temporal queries to moving objects. -> Selectivity estimation for spatio-temporal queries to moving objects.]
+  path: 1[598374 -> 598374], [Selectivity estimation for spatio-temporal queries to moving objects. -> Selectivity estimation for spatio-temporal queries to moving objects.]
+  path: 2[598374 -> 598374], [Selectivity estimation for spatio-temporal queries to moving objects. -> Selectivity estimation for spatio-temporal queries to moving objects.]
+srcNodes: [1168484, 598374, 598374]
+  path: 0[1168484 -> 1168484], [Developing a dynamic query system on location-based services. -> Developing a dynamic query system on location-based services.]
+  path: 1[1168484 -> 598374], [Developing a dynamic query system on location-based services. -> Selectivity estimation for spatio-temporal queries to moving objects.] 
+
+  path: 2[1168484 -> 598374], [Developing a dynamic query system on location-based services. -> Selectivity estimation for spatio-temporal queries to moving objects.] 
+
+srcNodes: [9000095, 1138227, 1138227]
+  path: 0[5003855 -> 2855 -> 9000095], [Kyu-Young Whang -> The Property of Separability And Its Application to Physical Database Design. -> Query Processing in Database Systems] 
+
+  path: 1[5003855 -> 1138227], [Kyu-Young Whang -> Dynamic Maintenance of Data Distribution for Selectivity Estimation] 
+
+  path: 2[5003855 -> 1138227], [Kyu-Young Whang -> Dynamic Maintenance of Data Distribution for Selectivity Estimation] 
+
+srcNodes: [1436959, 598374, 598374]
+  path: 0[1436959 -> 1436959], [Adaptive holistic scheduling for query processing in sensor networks. -> Adaptive holistic scheduling for query processing in sensor networks.]
+  path: 1[1436959 -> 598374], [Adaptive holistic scheduling for query processing in sensor networks. -> Selectivity estimation for spatio-temporal queries to moving objects.] 
+
+  path: 2[1436959 -> 598374], [Adaptive holistic scheduling for query processing in sensor networks. -> Selectivity estimation for spatio-temporal queries to moving objects.] 
+
+-----------------------------------------
+ResultDestNodes: [1138227, 598374, 1168484, 5003855, 1436959]
+ResultRelevs: [4.840050220489502, 4.802555084228516, 4.574398517608643, 4.1062164306640625, 4.101099491119385]
+AvgResultRelev: 4.484863948822022
+AvgResultDissimilarity: 0.7166666666666667
+Num of entries retrieved from the KNLists: 387
+Num of entries retrieved from NKMaps: 708
+Num of answer trees explored: 290
+Num of states created: 15
+Num of states explored: 11
+Num of heuristic search performed: 2
+Max Num of answer tree sets in Q[]: 5
+
+query: [link, prediction, heuristic]
+Top-k Search by Blink-BDB, k=5
+[link, prediction, heuristic]
+srcNodes: [5036872, 16223, 389950]
+  path: 0[5036872 -> 5036872], [Sebastian Link -> Sebastian Link]
+  path: 1[5036872 -> 578665 -> 642540 -> 5025432 -> 16223], [Sebastian Link -> On the Notion of an XML Key. -> Efficient Discovery of XML Data Redundancies. -> Cong Yu -> Yoopick: A Combinatorial Sports Prediction Market.] 
+
+  path: 2[5036872 -> 26689 -> 950637 -> 5003166 -> 389950], [Sebastian Link -> Horn clauses and functional dependencies in complex-value databases. -> Unit Refutations and Horn Sets. -> Lawrence J. Henschen -> Multi-Dimensional Heuristic Searching.] 
+
+srcNodes: [5160842, 234116, 142143]
+  path: 0[5160842 -> 5160842], [Zach Link -> Zach Link]
+  path: 1[5160842 -> 142387 -> 141557 -> 5099390 -> 234116], [Zach Link -> Reuse-based test access and integrated test scheduling for network-on-chip. -> System Level Power Modeling and Simulation of High-End Industrial Network-on-Chip. -> Roberto Zafalon -> Branch prediction techniques for low-power VLIW processors.] 
+
+  path: 2[5160842 -> 142387 -> 142143], [Zach Link -> Reuse-based test access and integrated test scheduling for network-on-chip. -> Efficient Wrapper/TAM Co-Optimization for Large SOCs.] 
+
+srcNodes: [5745174, 914308, 567898]
+  path: 0[5745174 -> 5745174], [Eduardo Link -> Eduardo Link]
+  path: 1[5745174 -> 1262696 -> 569847 -> 506548 -> 914308], [Eduardo Link -> Evaluating the impact of an acknowledgment strategy for APRP. -> NECTAR: a DTN routing protocol based on neighborhood contact history. -> A message ferrying approach for data delivery in sparse mobile ad hoc networks. -> Mobility prediction and routing in ad hoc wireless networks.] 
+
+  path: 2[5745174 -> 1262696 -> 5044721 -> 567898], [Eduardo Link -> Evaluating the impact of an acknowledgment strategy for APRP. -> Fernando Luís Dotti -> DEVOpT: a distributed architecture supporting heuristic and metaheuristic optimization methods.] 
+
+srcNodes: [5434097, 411283, 597696]
+  path: 0[5434097 -> 5434097], [Michael Link -> Michael Link]
+  path: 1[5434097 -> 1472588 -> 5004037 -> 411283], [Michael Link -> Lessons learned from moving earth system grid data sets over a 20 Gbps wide-area network. -> Ian T. Foster -> Homeostatic and Tendency-Based CPU Load Predictions.] 
+
+  path: 2[5434097 -> 574686 -> 406544 -> 597014 -> 597696], [Michael Link -> The Globus Striped GridFTP Framework and Server. -> Remote I/O Fast Access to Distant Storage. -> A Quantitative Analysis of Cache Policies for Scalable Network File Systems. -> The Placement Optimization Program: A Practical Solution to the Disk File Assignment Problem.] 
+
+srcNodes: [5564227, 700035, 597696]
+  path: 0[5564227 -> 5564227], [Hamilton Link -> Hamilton Link]
+  path: 1[5564227 -> 825051 -> 5022740 -> 700035], [Hamilton Link -> Parameters Affecting the Resilience of Scale-Free Networks to Random Failures -> Terran Lane -> Multiple Kernel Support Vector Regression for siRNA Efficacy Prediction.] 
+
+  path: 2[5564227 -> 825051 -> 5193369 -> 651664 -> 597696], [Hamilton Link -> Parameters Affecting the Resilience of Scale-Free Networks to Random Failures -> Jared Saia -> An Experimental Study of Data Migration Algorithms. -> The Placement Optimization Program: A Practical Solution to the Disk File Assignment Problem.] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [5036872, 5160842, 5745174, 5434097, 5564227]
+ResultRelevs: [5.044708728790283, 4.835793495178223, 4.693953037261963, 4.6410813331604, 4.625570297241211]
+AvgResultRelev: 4.768221378326416
+AvgResultDissimilarity: 0.9666666666666666
+Num of entries retrieved from the lists: 879
+Num of entries retrieved from NKMaps: 1617
+Num of answer trees explored: 668
+
+Div Top-k Search by Exhustive, k=5
+[link, prediction, heuristic]
+srcNodes: [5036872, 16223, 389950]
+  path: 0[5036872 -> 5036872], [Sebastian Link -> Sebastian Link]
+  path: 1[5036872 -> 578665 -> 642540 -> 5025432 -> 16223], [Sebastian Link -> On the Notion of an XML Key. -> Efficient Discovery of XML Data Redundancies. -> Cong Yu -> Yoopick: A Combinatorial Sports Prediction Market.] 
+
+  path: 2[5036872 -> 26689 -> 950637 -> 5003166 -> 389950], [Sebastian Link -> Horn clauses and functional dependencies in complex-value databases. -> Unit Refutations and Horn Sets. -> Lawrence J. Henschen -> Multi-Dimensional Heuristic Searching.] 
+
+srcNodes: [5160842, 234116, 142143]
+  path: 0[5160842 -> 5160842], [Zach Link -> Zach Link]
+  path: 1[5160842 -> 142387 -> 141557 -> 5099390 -> 234116], [Zach Link -> Reuse-based test access and integrated test scheduling for network-on-chip. -> System Level Power Modeling and Simulation of High-End Industrial Network-on-Chip. -> Roberto Zafalon -> Branch prediction techniques for low-power VLIW processors.] 
+
+  path: 2[5160842 -> 142387 -> 142143], [Zach Link -> Reuse-based test access and integrated test scheduling for network-on-chip. -> Efficient Wrapper/TAM Co-Optimization for Large SOCs.] 
+
+srcNodes: [5745174, 914308, 567898]
+  path: 0[5745174 -> 5745174], [Eduardo Link -> Eduardo Link]
+  path: 1[5745174 -> 1262696 -> 569847 -> 506548 -> 914308], [Eduardo Link -> Evaluating the impact of an acknowledgment strategy for APRP. -> NECTAR: a DTN routing protocol based on neighborhood contact history. -> A message ferrying approach for data delivery in sparse mobile ad hoc networks. -> Mobility prediction and routing in ad hoc wireless networks.] 
+
+  path: 2[5745174 -> 1262696 -> 5044721 -> 567898], [Eduardo Link -> Evaluating the impact of an acknowledgment strategy for APRP. -> Fernando Luís Dotti -> DEVOpT: a distributed architecture supporting heuristic and metaheuristic optimization methods.] 
+
+srcNodes: [5434097, 411283, 597696]
+  path: 0[5434097 -> 5434097], [Michael Link -> Michael Link]
+  path: 1[5434097 -> 1472588 -> 5004037 -> 411283], [Michael Link -> Lessons learned from moving earth system grid data sets over a 20 Gbps wide-area network. -> Ian T. Foster -> Homeostatic and Tendency-Based CPU Load Predictions.] 
+
+  path: 2[5434097 -> 574686 -> 406544 -> 597014 -> 597696], [Michael Link -> The Globus Striped GridFTP Framework and Server. -> Remote I/O Fast Access to Distant Storage. -> A Quantitative Analysis of Cache Policies for Scalable Network File Systems. -> The Placement Optimization Program: A Practical Solution to the Disk File Assignment Problem.] 
+
+srcNodes: [5564227, 700035, 597696]
+  path: 0[5564227 -> 5564227], [Hamilton Link -> Hamilton Link]
+  path: 1[5564227 -> 825051 -> 5022740 -> 700035], [Hamilton Link -> Parameters Affecting the Resilience of Scale-Free Networks to Random Failures -> Terran Lane -> Multiple Kernel Support Vector Regression for siRNA Efficacy Prediction.] 
+
+  path: 2[5564227 -> 825051 -> 5193369 -> 651664 -> 597696], [Hamilton Link -> Parameters Affecting the Resilience of Scale-Free Networks to Random Failures -> Jared Saia -> An Experimental Study of Data Migration Algorithms. -> The Placement Optimization Program: A Practical Solution to the Disk File Assignment Problem.] 
+
+-----------------------------------------
+ResultDestNodes: [5036872, 5160842, 5745174, 5434097, 5564227]
+ResultRelevs: [5.044708728790283, 4.835793495178223, 4.693953037261963, 4.6410813331604, 4.625570297241211]
+AvgResultRelev: 4.768221378326416
+AvgResultDissimilarity: 0.9666666984558105
+Num of entries retrieved from the KNLists: 879
+Num of entries retrieved from NKMaps: 1617
+Num of answer trees explored: 668
+Num of answer tree sets created: 31
+Num of answer tree sets removed: 0
+Max Num of answer tree sets in Q[]: 31
+
+Div Top-k Search by Astar02, k=5
+[link, prediction, heuristic]
+srcNodes: [5036872, 16223, 389950]
+  path: 0[5036872 -> 5036872], [Sebastian Link -> Sebastian Link]
+  path: 1[5036872 -> 578665 -> 642540 -> 5025432 -> 16223], [Sebastian Link -> On the Notion of an XML Key. -> Efficient Discovery of XML Data Redundancies. -> Cong Yu -> Yoopick: A Combinatorial Sports Prediction Market.] 
+
+  path: 2[5036872 -> 26689 -> 950637 -> 5003166 -> 389950], [Sebastian Link -> Horn clauses and functional dependencies in complex-value databases. -> Unit Refutations and Horn Sets. -> Lawrence J. Henschen -> Multi-Dimensional Heuristic Searching.] 
+
+srcNodes: [5160842, 234116, 142143]
+  path: 0[5160842 -> 5160842], [Zach Link -> Zach Link]
+  path: 1[5160842 -> 142387 -> 141557 -> 5099390 -> 234116], [Zach Link -> Reuse-based test access and integrated test scheduling for network-on-chip. -> System Level Power Modeling and Simulation of High-End Industrial Network-on-Chip. -> Roberto Zafalon -> Branch prediction techniques for low-power VLIW processors.] 
+
+  path: 2[5160842 -> 142387 -> 142143], [Zach Link -> Reuse-based test access and integrated test scheduling for network-on-chip. -> Efficient Wrapper/TAM Co-Optimization for Large SOCs.] 
+
+srcNodes: [5745174, 914308, 567898]
+  path: 0[5745174 -> 5745174], [Eduardo Link -> Eduardo Link]
+  path: 1[5745174 -> 1262696 -> 569847 -> 506548 -> 914308], [Eduardo Link -> Evaluating the impact of an acknowledgment strategy for APRP. -> NECTAR: a DTN routing protocol based on neighborhood contact history. -> A message ferrying approach for data delivery in sparse mobile ad hoc networks. -> Mobility prediction and routing in ad hoc wireless networks.] 
+
+  path: 2[5745174 -> 1262696 -> 5044721 -> 567898], [Eduardo Link -> Evaluating the impact of an acknowledgment strategy for APRP. -> Fernando Luís Dotti -> DEVOpT: a distributed architecture supporting heuristic and metaheuristic optimization methods.] 
+
+srcNodes: [5434097, 411283, 597696]
+  path: 0[5434097 -> 5434097], [Michael Link -> Michael Link]
+  path: 1[5434097 -> 1472588 -> 5004037 -> 411283], [Michael Link -> Lessons learned from moving earth system grid data sets over a 20 Gbps wide-area network. -> Ian T. Foster -> Homeostatic and Tendency-Based CPU Load Predictions.] 
+
+  path: 2[5434097 -> 574686 -> 406544 -> 597014 -> 597696], [Michael Link -> The Globus Striped GridFTP Framework and Server. -> Remote I/O Fast Access to Distant Storage. -> A Quantitative Analysis of Cache Policies for Scalable Network File Systems. -> The Placement Optimization Program: A Practical Solution to the Disk File Assignment Problem.] 
+
+srcNodes: [5564227, 700035, 597696]
+  path: 0[5564227 -> 5564227], [Hamilton Link -> Hamilton Link]
+  path: 1[5564227 -> 825051 -> 5022740 -> 700035], [Hamilton Link -> Parameters Affecting the Resilience of Scale-Free Networks to Random Failures -> Terran Lane -> Multiple Kernel Support Vector Regression for siRNA Efficacy Prediction.] 
+
+  path: 2[5564227 -> 825051 -> 5193369 -> 651664 -> 597696], [Hamilton Link -> Parameters Affecting the Resilience of Scale-Free Networks to Random Failures -> Jared Saia -> An Experimental Study of Data Migration Algorithms. -> The Placement Optimization Program: A Practical Solution to the Disk File Assignment Problem.] 
+
+-----------------------------------------
+ResultDestNodes: [5036872, 5160842, 5745174, 5434097, 5564227]
+ResultRelevs: [5.044708728790283, 4.835793495178223, 4.693953037261963, 4.6410813331604, 4.625570297241211]
+AvgResultRelev: 4.768221378326416
+AvgResultDissimilarity: 0.9666666666666666
+Num of entries retrieved from the KNLists: 879
+Num of entries retrieved from NKMaps: 1617
+Num of answer trees explored: 668
+Num of states created: 16
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 11
+
+Div Top-k Search by Astar1nc_ap, k=5
+[link, prediction, heuristic]
+srcNodes: [5036872, 16223, 389950]
+  path: 0[5036872 -> 5036872], [Sebastian Link -> Sebastian Link]
+  path: 1[5036872 -> 578665 -> 642540 -> 5025432 -> 16223], [Sebastian Link -> On the Notion of an XML Key. -> Efficient Discovery of XML Data Redundancies. -> Cong Yu -> Yoopick: A Combinatorial Sports Prediction Market.] 
+
+  path: 2[5036872 -> 26689 -> 950637 -> 5003166 -> 389950], [Sebastian Link -> Horn clauses and functional dependencies in complex-value databases. -> Unit Refutations and Horn Sets. -> Lawrence J. Henschen -> Multi-Dimensional Heuristic Searching.] 
+
+srcNodes: [5160842, 234116, 142143]
+  path: 0[5160842 -> 5160842], [Zach Link -> Zach Link]
+  path: 1[5160842 -> 142387 -> 141557 -> 5099390 -> 234116], [Zach Link -> Reuse-based test access and integrated test scheduling for network-on-chip. -> System Level Power Modeling and Simulation of High-End Industrial Network-on-Chip. -> Roberto Zafalon -> Branch prediction techniques for low-power VLIW processors.] 
+
+  path: 2[5160842 -> 142387 -> 142143], [Zach Link -> Reuse-based test access and integrated test scheduling for network-on-chip. -> Efficient Wrapper/TAM Co-Optimization for Large SOCs.] 
+
+srcNodes: [5745174, 914308, 567898]
+  path: 0[5745174 -> 5745174], [Eduardo Link -> Eduardo Link]
+  path: 1[5745174 -> 1262696 -> 569847 -> 506548 -> 914308], [Eduardo Link -> Evaluating the impact of an acknowledgment strategy for APRP. -> NECTAR: a DTN routing protocol based on neighborhood contact history. -> A message ferrying approach for data delivery in sparse mobile ad hoc networks. -> Mobility prediction and routing in ad hoc wireless networks.] 
+
+  path: 2[5745174 -> 1262696 -> 5044721 -> 567898], [Eduardo Link -> Evaluating the impact of an acknowledgment strategy for APRP. -> Fernando Luís Dotti -> DEVOpT: a distributed architecture supporting heuristic and metaheuristic optimization methods.] 
+
+srcNodes: [5434097, 411283, 597696]
+  path: 0[5434097 -> 5434097], [Michael Link -> Michael Link]
+  path: 1[5434097 -> 1472588 -> 5004037 -> 411283], [Michael Link -> Lessons learned from moving earth system grid data sets over a 20 Gbps wide-area network. -> Ian T. Foster -> Homeostatic and Tendency-Based CPU Load Predictions.] 
+
+  path: 2[5434097 -> 574686 -> 406544 -> 597014 -> 597696], [Michael Link -> The Globus Striped GridFTP Framework and Server. -> Remote I/O Fast Access to Distant Storage. -> A Quantitative Analysis of Cache Policies for Scalable Network File Systems. -> The Placement Optimization Program: A Practical Solution to the Disk File Assignment Problem.] 
+
+srcNodes: [5564227, 700035, 597696]
+  path: 0[5564227 -> 5564227], [Hamilton Link -> Hamilton Link]
+  path: 1[5564227 -> 825051 -> 5022740 -> 700035], [Hamilton Link -> Parameters Affecting the Resilience of Scale-Free Networks to Random Failures -> Terran Lane -> Multiple Kernel Support Vector Regression for siRNA Efficacy Prediction.] 
+
+  path: 2[5564227 -> 825051 -> 5193369 -> 651664 -> 597696], [Hamilton Link -> Parameters Affecting the Resilience of Scale-Free Networks to Random Failures -> Jared Saia -> An Experimental Study of Data Migration Algorithms. -> The Placement Optimization Program: A Practical Solution to the Disk File Assignment Problem.] 
+
+-----------------------------------------
+ResultDestNodes: [5036872, 5160842, 5745174, 5434097, 5564227]
+ResultRelevs: [5.044708728790283, 4.835793495178223, 4.693953037261963, 4.6410813331604, 4.625570297241211]
+AvgResultRelev: 4.768221378326416
+AvgResultDissimilarity: 0.9666666666666666
+Num of entries retrieved from the KNLists: 879
+Num of entries retrieved from NKMaps: 1617
+Num of answer trees explored: 668
+Num of states created: 6
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+
+query: [semantic, heuristic, search]
+Top-k Search by Blink-BDB, k=5
+[semantic, heuristic, search]
+srcNodes: [806239, 730708, 806239]
+  path: 0[806239 -> 806239], [Search on the Semantic Web. -> Search on the Semantic Web.]
+  path: 1[806239 -> 5009953 -> 242485 -> 5008656 -> 730708], [Search on the Semantic Web. -> Li Ding -> Study on the Appraisal Methods of Hand Fatigue. -> Yang Li -> Algorithm Research of Flexible Graphplan based on Heuristic.] 
+
+  path: 2[806239 -> 806239], [Search on the Semantic Web. -> Search on the Semantic Web.]
+srcNodes: [180133, 598809, 180133]
+  path: 0[180133 -> 180133], [Semantic Associative Search and Space Integration Methods Applied to Semantic Metrics for Multiple Medical Fields. -> Semantic Associative Search and Space Integration Methods Applied to Semantic Metrics for Multiple Medical Fields.]
+  path: 1[180133 -> 832301 -> 598365 -> 833138 -> 598809], [Semantic Associative Search and Space Integration Methods Applied to Semantic Metrics for Multiple Medical Fields. -> A Comparative Analysis of Methodologies for Database Schema Integration. -> Database Design: A Survey of Logical and Physical Design Techniques. -> The Logical Record Access Approach to Database Design. -> A Heuristic Approach to Attribute Partitioning.] 
+
+  path: 2[180133 -> 180133], [Semantic Associative Search and Space Integration Methods Applied to Semantic Metrics for Multiple Medical Fields. -> Semantic Associative Search and Space Integration Methods Applied to Semantic Metrics for Multiple Medical Fields.]
+srcNodes: [388752, 388750, 388750]
+  path: 0[388750 -> 5031550 -> 388752], [The Heuristic Search And The Game Of Chess - A Study Of Quiescene, Sacrifices, And Plan Oriented Play. -> Larry R. Harris -> ROBOT: A High Performance Natural Language Data Base Query System.] 
+
+  path: 1[388750 -> 388750], [The Heuristic Search And The Game Of Chess - A Study Of Quiescene, Sacrifices, And Plan Oriented Play. -> The Heuristic Search And The Game Of Chess - A Study Of Quiescene, Sacrifices, And Plan Oriented Play.]
+  path: 2[388750 -> 388750], [The Heuristic Search And The Game Of Chess - A Study Of Quiescene, Sacrifices, And Plan Oriented Play. -> The Heuristic Search And The Game Of Chess - A Study Of Quiescene, Sacrifices, And Plan Oriented Play.]
+srcNodes: [1243107, 1442884, 1243107]
+  path: 0[1243107 -> 1243107], [Semantic Search - Using Graph-Structured Semantic Models for Supporting the Search Process. -> Semantic Search - Using Graph-Structured Semantic Models for Supporting the Search Process.]
+  path: 1[1243107 -> 600040 -> 1442884], [Semantic Search - Using Graph-Structured Semantic Models for Supporting the Search Process. -> BLINKS: ranked keyword searches on graphs. -> A graph partitioning algorithm by node separators.] 
+
+  path: 2[1243107 -> 1243107], [Semantic Search - Using Graph-Structured Semantic Models for Supporting the Search Process. -> Semantic Search - Using Graph-Structured Semantic Models for Supporting the Search Process.]
+srcNodes: [1186485, 1255086, 1186485]
+  path: 0[1186485 -> 1186485], [The usability of semantic search tools: a review. -> The usability of semantic search tools: a review.]
+  path: 1[1186485 -> 5004091 -> 1255086], [The usability of semantic search tools: a review. -> Enrico Motta -> Image Annotation Refinement Using Web-Based Keyword Correlation.] 
+
+  path: 2[1186485 -> 1186485], [The usability of semantic search tools: a review. -> The usability of semantic search tools: a review.]
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [806239, 180133, 388750, 1243107, 1186485]
+ResultRelevs: [3.906480312347412, 3.7692923545837402, 3.7459774017333984, 3.7276997566223145, 3.6469430923461914]
+AvgResultRelev: 3.759278583526611
+AvgResultDissimilarity: 1.0
+Num of entries retrieved from the lists: 1339
+Num of entries retrieved from NKMaps: 2460
+Num of answer trees explored: 1136
+
+Div Top-k Search by Exhustive, k=5
+[semantic, heuristic, search]
+srcNodes: [806239, 730708, 806239]
+  path: 0[806239 -> 806239], [Search on the Semantic Web. -> Search on the Semantic Web.]
+  path: 1[806239 -> 5009953 -> 242485 -> 5008656 -> 730708], [Search on the Semantic Web. -> Li Ding -> Study on the Appraisal Methods of Hand Fatigue. -> Yang Li -> Algorithm Research of Flexible Graphplan based on Heuristic.] 
+
+  path: 2[806239 -> 806239], [Search on the Semantic Web. -> Search on the Semantic Web.]
+srcNodes: [180133, 598809, 180133]
+  path: 0[180133 -> 180133], [Semantic Associative Search and Space Integration Methods Applied to Semantic Metrics for Multiple Medical Fields. -> Semantic Associative Search and Space Integration Methods Applied to Semantic Metrics for Multiple Medical Fields.]
+  path: 1[180133 -> 832301 -> 598365 -> 833138 -> 598809], [Semantic Associative Search and Space Integration Methods Applied to Semantic Metrics for Multiple Medical Fields. -> A Comparative Analysis of Methodologies for Database Schema Integration. -> Database Design: A Survey of Logical and Physical Design Techniques. -> The Logical Record Access Approach to Database Design. -> A Heuristic Approach to Attribute Partitioning.] 
+
+  path: 2[180133 -> 180133], [Semantic Associative Search and Space Integration Methods Applied to Semantic Metrics for Multiple Medical Fields. -> Semantic Associative Search and Space Integration Methods Applied to Semantic Metrics for Multiple Medical Fields.]
+srcNodes: [388752, 388750, 388750]
+  path: 0[388750 -> 5031550 -> 388752], [The Heuristic Search And The Game Of Chess - A Study Of Quiescene, Sacrifices, And Plan Oriented Play. -> Larry R. Harris -> ROBOT: A High Performance Natural Language Data Base Query System.] 
+
+  path: 1[388750 -> 388750], [The Heuristic Search And The Game Of Chess - A Study Of Quiescene, Sacrifices, And Plan Oriented Play. -> The Heuristic Search And The Game Of Chess - A Study Of Quiescene, Sacrifices, And Plan Oriented Play.]
+  path: 2[388750 -> 388750], [The Heuristic Search And The Game Of Chess - A Study Of Quiescene, Sacrifices, And Plan Oriented Play. -> The Heuristic Search And The Game Of Chess - A Study Of Quiescene, Sacrifices, And Plan Oriented Play.]
+srcNodes: [1243107, 1442884, 1243107]
+  path: 0[1243107 -> 1243107], [Semantic Search - Using Graph-Structured Semantic Models for Supporting the Search Process. -> Semantic Search - Using Graph-Structured Semantic Models for Supporting the Search Process.]
+  path: 1[1243107 -> 600040 -> 1442884], [Semantic Search - Using Graph-Structured Semantic Models for Supporting the Search Process. -> BLINKS: ranked keyword searches on graphs. -> A graph partitioning algorithm by node separators.] 
+
+  path: 2[1243107 -> 1243107], [Semantic Search - Using Graph-Structured Semantic Models for Supporting the Search Process. -> Semantic Search - Using Graph-Structured Semantic Models for Supporting the Search Process.]
+srcNodes: [1186485, 1255086, 1186485]
+  path: 0[1186485 -> 1186485], [The usability of semantic search tools: a review. -> The usability of semantic search tools: a review.]
+  path: 1[1186485 -> 5004091 -> 1255086], [The usability of semantic search tools: a review. -> Enrico Motta -> Image Annotation Refinement Using Web-Based Keyword Correlation.] 
+
+  path: 2[1186485 -> 1186485], [The usability of semantic search tools: a review. -> The usability of semantic search tools: a review.]
+-----------------------------------------
+ResultDestNodes: [806239, 180133, 388750, 1243107, 1186485]
+ResultRelevs: [3.906480312347412, 3.7692923545837402, 3.7459774017333984, 3.7276997566223145, 3.6469430923461914]
+AvgResultRelev: 3.759278583526611
+AvgResultDissimilarity: 1.0
+Num of entries retrieved from the KNLists: 1339
+Num of entries retrieved from NKMaps: 2460
+Num of answer trees explored: 1136
+Num of answer tree sets created: 31
+Num of answer tree sets removed: 0
+Max Num of answer tree sets in Q[]: 31
+
+Div Top-k Search by Astar02, k=5
+[semantic, heuristic, search]
+srcNodes: [806239, 730708, 806239]
+  path: 0[806239 -> 806239], [Search on the Semantic Web. -> Search on the Semantic Web.]
+  path: 1[806239 -> 5009953 -> 242485 -> 5008656 -> 730708], [Search on the Semantic Web. -> Li Ding -> Study on the Appraisal Methods of Hand Fatigue. -> Yang Li -> Algorithm Research of Flexible Graphplan based on Heuristic.] 
+
+  path: 2[806239 -> 806239], [Search on the Semantic Web. -> Search on the Semantic Web.]
+srcNodes: [180133, 598809, 180133]
+  path: 0[180133 -> 180133], [Semantic Associative Search and Space Integration Methods Applied to Semantic Metrics for Multiple Medical Fields. -> Semantic Associative Search and Space Integration Methods Applied to Semantic Metrics for Multiple Medical Fields.]
+  path: 1[180133 -> 832301 -> 598365 -> 833138 -> 598809], [Semantic Associative Search and Space Integration Methods Applied to Semantic Metrics for Multiple Medical Fields. -> A Comparative Analysis of Methodologies for Database Schema Integration. -> Database Design: A Survey of Logical and Physical Design Techniques. -> The Logical Record Access Approach to Database Design. -> A Heuristic Approach to Attribute Partitioning.] 
+
+  path: 2[180133 -> 180133], [Semantic Associative Search and Space Integration Methods Applied to Semantic Metrics for Multiple Medical Fields. -> Semantic Associative Search and Space Integration Methods Applied to Semantic Metrics for Multiple Medical Fields.]
+srcNodes: [388752, 388750, 388750]
+  path: 0[388750 -> 5031550 -> 388752], [The Heuristic Search And The Game Of Chess - A Study Of Quiescene, Sacrifices, And Plan Oriented Play. -> Larry R. Harris -> ROBOT: A High Performance Natural Language Data Base Query System.] 
+
+  path: 1[388750 -> 388750], [The Heuristic Search And The Game Of Chess - A Study Of Quiescene, Sacrifices, And Plan Oriented Play. -> The Heuristic Search And The Game Of Chess - A Study Of Quiescene, Sacrifices, And Plan Oriented Play.]
+  path: 2[388750 -> 388750], [The Heuristic Search And The Game Of Chess - A Study Of Quiescene, Sacrifices, And Plan Oriented Play. -> The Heuristic Search And The Game Of Chess - A Study Of Quiescene, Sacrifices, And Plan Oriented Play.]
+srcNodes: [1243107, 1442884, 1243107]
+  path: 0[1243107 -> 1243107], [Semantic Search - Using Graph-Structured Semantic Models for Supporting the Search Process. -> Semantic Search - Using Graph-Structured Semantic Models for Supporting the Search Process.]
+  path: 1[1243107 -> 600040 -> 1442884], [Semantic Search - Using Graph-Structured Semantic Models for Supporting the Search Process. -> BLINKS: ranked keyword searches on graphs. -> A graph partitioning algorithm by node separators.] 
+
+  path: 2[1243107 -> 1243107], [Semantic Search - Using Graph-Structured Semantic Models for Supporting the Search Process. -> Semantic Search - Using Graph-Structured Semantic Models for Supporting the Search Process.]
+srcNodes: [1186485, 1255086, 1186485]
+  path: 0[1186485 -> 1186485], [The usability of semantic search tools: a review. -> The usability of semantic search tools: a review.]
+  path: 1[1186485 -> 5004091 -> 1255086], [The usability of semantic search tools: a review. -> Enrico Motta -> Image Annotation Refinement Using Web-Based Keyword Correlation.] 
+
+  path: 2[1186485 -> 1186485], [The usability of semantic search tools: a review. -> The usability of semantic search tools: a review.]
+-----------------------------------------
+ResultDestNodes: [806239, 180133, 388750, 1243107, 1186485]
+ResultRelevs: [3.906480312347412, 3.7692923545837402, 3.7459774017333984, 3.7276997566223145, 3.6469430923461914]
+AvgResultRelev: 3.759278583526611
+AvgResultDissimilarity: 1.0
+Num of entries retrieved from the KNLists: 1339
+Num of entries retrieved from NKMaps: 2460
+Num of answer trees explored: 1136
+Num of states created: 16
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 11
+
+Div Top-k Search by Astar1nc_ap, k=5
+[semantic, heuristic, search]
+srcNodes: [806239, 730708, 806239]
+  path: 0[806239 -> 806239], [Search on the Semantic Web. -> Search on the Semantic Web.]
+  path: 1[806239 -> 5009953 -> 242485 -> 5008656 -> 730708], [Search on the Semantic Web. -> Li Ding -> Study on the Appraisal Methods of Hand Fatigue. -> Yang Li -> Algorithm Research of Flexible Graphplan based on Heuristic.] 
+
+  path: 2[806239 -> 806239], [Search on the Semantic Web. -> Search on the Semantic Web.]
+srcNodes: [180133, 598809, 180133]
+  path: 0[180133 -> 180133], [Semantic Associative Search and Space Integration Methods Applied to Semantic Metrics for Multiple Medical Fields. -> Semantic Associative Search and Space Integration Methods Applied to Semantic Metrics for Multiple Medical Fields.]
+  path: 1[180133 -> 832301 -> 598365 -> 833138 -> 598809], [Semantic Associative Search and Space Integration Methods Applied to Semantic Metrics for Multiple Medical Fields. -> A Comparative Analysis of Methodologies for Database Schema Integration. -> Database Design: A Survey of Logical and Physical Design Techniques. -> The Logical Record Access Approach to Database Design. -> A Heuristic Approach to Attribute Partitioning.] 
+
+  path: 2[180133 -> 180133], [Semantic Associative Search and Space Integration Methods Applied to Semantic Metrics for Multiple Medical Fields. -> Semantic Associative Search and Space Integration Methods Applied to Semantic Metrics for Multiple Medical Fields.]
+srcNodes: [388752, 388750, 388750]
+  path: 0[388750 -> 5031550 -> 388752], [The Heuristic Search And The Game Of Chess - A Study Of Quiescene, Sacrifices, And Plan Oriented Play. -> Larry R. Harris -> ROBOT: A High Performance Natural Language Data Base Query System.] 
+
+  path: 1[388750 -> 388750], [The Heuristic Search And The Game Of Chess - A Study Of Quiescene, Sacrifices, And Plan Oriented Play. -> The Heuristic Search And The Game Of Chess - A Study Of Quiescene, Sacrifices, And Plan Oriented Play.]
+  path: 2[388750 -> 388750], [The Heuristic Search And The Game Of Chess - A Study Of Quiescene, Sacrifices, And Plan Oriented Play. -> The Heuristic Search And The Game Of Chess - A Study Of Quiescene, Sacrifices, And Plan Oriented Play.]
+srcNodes: [1243107, 1442884, 1243107]
+  path: 0[1243107 -> 1243107], [Semantic Search - Using Graph-Structured Semantic Models for Supporting the Search Process. -> Semantic Search - Using Graph-Structured Semantic Models for Supporting the Search Process.]
+  path: 1[1243107 -> 600040 -> 1442884], [Semantic Search - Using Graph-Structured Semantic Models for Supporting the Search Process. -> BLINKS: ranked keyword searches on graphs. -> A graph partitioning algorithm by node separators.] 
+
+  path: 2[1243107 -> 1243107], [Semantic Search - Using Graph-Structured Semantic Models for Supporting the Search Process. -> Semantic Search - Using Graph-Structured Semantic Models for Supporting the Search Process.]
+srcNodes: [1186485, 1255086, 1186485]
+  path: 0[1186485 -> 1186485], [The usability of semantic search tools: a review. -> The usability of semantic search tools: a review.]
+  path: 1[1186485 -> 5004091 -> 1255086], [The usability of semantic search tools: a review. -> Enrico Motta -> Image Annotation Refinement Using Web-Based Keyword Correlation.] 
+
+  path: 2[1186485 -> 1186485], [The usability of semantic search tools: a review. -> The usability of semantic search tools: a review.]
+-----------------------------------------
+ResultDestNodes: [806239, 180133, 388750, 1243107, 1186485]
+ResultRelevs: [3.906480312347412, 3.7692923545837402, 3.7459774017333984, 3.7276997566223145, 3.6469430923461914]
+AvgResultRelev: 3.759278583526611
+AvgResultDissimilarity: 1.0
+Num of entries retrieved from the KNLists: 1339
+Num of entries retrieved from NKMaps: 2460
+Num of answer trees explored: 1136
+Num of states created: 6
+Num of states explored: 6
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 1
+

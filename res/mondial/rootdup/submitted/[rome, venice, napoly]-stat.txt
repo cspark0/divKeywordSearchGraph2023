@@ -1,0 +1,11 @@
+ResultDestNodes.length, numOfNonReducedAnswers, numOfDuplicateAnswers, numOfNonredundantAnswers, numOfAccInUpdatePeriod, numOfNKMapLookups, numOfAnswerTreeExplored, numOfNonReducedCandidates, numOfReducedAlternatives, numOfDuplicateCandidates, numOfUniqueAnswersFound: numOfStatesChecked: 
+(numOfNKMapLookups2/(float)numOfNKMapLookupsByKeyword, maxNKMap, minNKMap)
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0: 0: (NaN, 0, 0)
+-, 13, -, 0, 0, 0, -, -, -, -: -: 0.0, (-, -, -)
+
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0: 0: (NaN, 0, 0)
+-, 13, -, 0, 0, 0, -, -, -, -: -: 0.0, (-, -, -)
+
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0: 0: (NaN, 0, 0)
+-, 13, -, 0, 0, 0, -, -, -, -: -: 0.0, (-, -, -)
+

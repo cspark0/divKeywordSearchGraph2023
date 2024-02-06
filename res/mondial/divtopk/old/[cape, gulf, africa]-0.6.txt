@@ -1,0 +1,167 @@
+Div Top-k Search by Exhustive4
+[cape, gulf, africa]
+srcNodes: [20212, 100010, 10000]
+  path: 0[10000 -> 20212], [Africa -> Cape Verde] 
+
+  path: 1[10000 -> 20220 -> 100010], [Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [31337, 100010, 10000]
+  path: 0[20200 -> 31337], [South Africa -> Northern Cape] 
+
+  path: 1[20200 -> 10000 -> 20220 -> 100010], [South Africa -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20200 -> 10000], [South Africa -> Africa] 
+
+srcNodes: [40456, 100010, 10000]
+  path: 0[20203 -> 40456], [Ghana -> Cape Coast] 
+
+  path: 1[20203 -> 10000 -> 20220 -> 100010], [Ghana -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20203 -> 10000], [Ghana -> Africa] 
+
+srcNodes: [20212, 100022, 10000]
+  path: 0[20085 -> 10000 -> 20212], [Egypt -> Africa -> Cape Verde] 
+
+  path: 1[20085 -> 10002 -> 20103 -> 100022], [Egypt -> Asia -> Qatar -> Persian Gulf] 
+
+  path: 2[20085 -> 10000], [Egypt -> Africa] 
+
+-----------------------------------------
+ResultDestNodes: [10000, 20200, 20203, 20085]
+ResultRelevs: [11.34490966796875, 6.92436408996582, 6.92436408996582, 6.30782413482666]
+AvgResultRelev: 7.875365495681763
+AvgResultDissimilarity: 0.5999999642372131
+Num of entries retrieved from the KNLists: 333
+Num of entries retrieved from NKMaps: 362
+Num of answer trees explored: 135
+Num of answer tree sets created: 6998
+Num of answer tree sets removed: 6989
+Max Num of answer tree sets in Q[]: 6998
+
+Div Top-k Search by Astar14
+[cape, gulf, africa]
+srcNodes: [20212, 100010, 10000]
+  path: 0[10000 -> 20212], [Africa -> Cape Verde] 
+
+  path: 1[10000 -> 20220 -> 100010], [Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [31337, 100010, 10000]
+  path: 0[20200 -> 31337], [South Africa -> Northern Cape] 
+
+  path: 1[20200 -> 10000 -> 20220 -> 100010], [South Africa -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20200 -> 10000], [South Africa -> Africa] 
+
+srcNodes: [40456, 100010, 10000]
+  path: 0[20203 -> 40456], [Ghana -> Cape Coast] 
+
+  path: 1[20203 -> 10000 -> 20220 -> 100010], [Ghana -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20203 -> 10000], [Ghana -> Africa] 
+
+srcNodes: [20212, 100022, 10000]
+  path: 0[20085 -> 10000 -> 20212], [Egypt -> Africa -> Cape Verde] 
+
+  path: 1[20085 -> 10002 -> 20103 -> 100022], [Egypt -> Asia -> Qatar -> Persian Gulf] 
+
+  path: 2[20085 -> 10000], [Egypt -> Africa] 
+
+-----------------------------------------
+ResultDestNodes: [10000, 20200, 20203, 20085]
+ResultRelevs: [11.34490966796875, 6.92436408996582, 6.92436408996582, 6.30782413482666]
+AvgResultRelev: 7.875365495681763
+AvgResultDissimilarity: 0.5999999642372131
+Num of entries retrieved from the KNLists: 333
+Num of entries retrieved from NKMaps: 362
+Num of answer trees explored: 135
+Num of states created: 16066
+Num of states explored: 2735
+Num of heuristic search performed: 73
+Max Num of answer tree sets in Q[]: 453
+
+Div Top-k Search by Astar24
+[cape, gulf, africa]
+srcNodes: [20212, 100010, 10000]
+  path: 0[10000 -> 20212], [Africa -> Cape Verde] 
+
+  path: 1[10000 -> 20220 -> 100010], [Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [31337, 100010, 10000]
+  path: 0[20200 -> 31337], [South Africa -> Northern Cape] 
+
+  path: 1[20200 -> 10000 -> 20220 -> 100010], [South Africa -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20200 -> 10000], [South Africa -> Africa] 
+
+srcNodes: [40456, 100010, 10000]
+  path: 0[20203 -> 40456], [Ghana -> Cape Coast] 
+
+  path: 1[20203 -> 10000 -> 20220 -> 100010], [Ghana -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20203 -> 10000], [Ghana -> Africa] 
+
+srcNodes: [20212, 100022, 10000]
+  path: 0[20085 -> 10000 -> 20212], [Egypt -> Africa -> Cape Verde] 
+
+  path: 1[20085 -> 10002 -> 20103 -> 100022], [Egypt -> Asia -> Qatar -> Persian Gulf] 
+
+  path: 2[20085 -> 10000], [Egypt -> Africa] 
+
+-----------------------------------------
+ResultDestNodes: [10000, 20200, 20203, 20085]
+ResultRelevs: [11.34490966796875, 6.92436408996582, 6.92436408996582, 6.30782413482666]
+AvgResultRelev: 7.875365495681763
+AvgResultDissimilarity: 0.5999999642372131
+Num of entries retrieved from the KNLists: 333
+Num of entries retrieved from NKMaps: 362
+Num of answer trees explored: 135
+Num of states created: 6529
+Num of states explored: 2735
+Num of heuristic search performed: 73
+Max Num of answer tree sets in Q[]: 213
+
+Div Top-k Search by Astar2re4
+[cape, gulf, africa]
+srcNodes: [20212, 100010, 10000]
+  path: 0[10000 -> 20212], [Africa -> Cape Verde] 
+
+  path: 1[10000 -> 20220 -> 100010], [Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [31337, 100010, 10000]
+  path: 0[20200 -> 31337], [South Africa -> Northern Cape] 
+
+  path: 1[20200 -> 10000 -> 20220 -> 100010], [South Africa -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20200 -> 10000], [South Africa -> Africa] 
+
+srcNodes: [40456, 100010, 10000]
+  path: 0[20203 -> 40456], [Ghana -> Cape Coast] 
+
+  path: 1[20203 -> 10000 -> 20220 -> 100010], [Ghana -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20203 -> 10000], [Ghana -> Africa] 
+
+srcNodes: [20212, 100022, 10000]
+  path: 0[20085 -> 10000 -> 20212], [Egypt -> Africa -> Cape Verde] 
+
+  path: 1[20085 -> 10002 -> 20103 -> 100022], [Egypt -> Asia -> Qatar -> Persian Gulf] 
+
+  path: 2[20085 -> 10000], [Egypt -> Africa] 
+
+-----------------------------------------
+ResultDestNodes: [10000, 20200, 20203, 20085]
+ResultRelevs: [11.34490966796875, 6.92436408996582, 6.92436408996582, 6.30782413482666]
+AvgResultRelev: 7.875365495681763
+AvgResultDissimilarity: 0.5999999642372131
+Num of entries retrieved from the KNLists: 333
+Num of entries retrieved from NKMaps: 362
+Num of answer trees explored: 135
+Num of states created: 276
+Num of states explored: 176
+Num of heuristic search performed: 73
+Max Num of answer tree sets in Q[]: 174
+

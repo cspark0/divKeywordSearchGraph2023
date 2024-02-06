@@ -1,0 +1,2034 @@
+query: [crime, thriller, suspense]
+Top-k Search by Blink-BDB, k=5
+[crime, thriller, suspense]
+srcNodes: [5000072, 5000057, 8002078]
+  path: 0[1440095 -> 2149293 -> 1603492 -> 5000072], [I Love You, Baby (2000) -> Irrek, Mario -> Null Uhr 12 (2001) -> Crime] 
+
+  path: 1[1440095 -> 5000057], [I Love You, Baby (2000) -> Thriller] 
+
+  path: 2[1440095 -> 2075925 -> 1349997 -> 8002078], [I Love You, Baby (2000) -> de la Fuente, Antonio (I) -> El arte de morir (2000) -> suspense] 
+
+srcNodes: [5000072, 5000057, 8002078]
+  path: 0[1809577 -> 2097415 -> 1353353 -> 5000072], [The Sinners (2010) -> Farr, Asad -> El padrino 2 (2008) -> Crime] 
+
+  path: 1[1809577 -> 5000057], [The Sinners (2010) -> Thriller] 
+
+  path: 2[1809577 -> 2077165 -> 1852371 -> 8002078], [The Sinners (2010) -> Decaro, Brian -> Undone (2008/II) -> suspense] 
+
+srcNodes: [5001354, 5001354, 8002078]
+  path: 0[1456569 -> 5001354], [Interrogation (2006/I) -> Thriller,Crime,Drama,Mystery] 
+
+  path: 1[1456569 -> 5001354], [Interrogation (2006/I) -> Thriller,Crime,Drama,Mystery] 
+
+  path: 2[1456569 -> 8002078], [Interrogation (2006/I) -> suspense] 
+
+srcNodes: [5000555, 5000057, 8002078]
+  path: 0[1591545 -> 2128085 -> 1429536 -> 5000555], [Near Death (2004) -> Haggerty, Joe (I) -> Hollywood Confidential (2008) -> Crime,Thriller] 
+
+  path: 1[1591545 -> 2073215 -> 1876240 -> 5000057], [Near Death (2004) -> Darchuk, Carl -> What Ever Happened to Alice (2003) -> Thriller] 
+
+  path: 2[1591545 -> 8002078], [Near Death (2004) -> suspense] 
+
+srcNodes: [5000051, 5000057, 8002078]
+  path: 0[1349997 -> 2126571 -> 1848267 -> 5000051], [El arte de morir (2000) -> Gutiérrez Caba, Emilio -> Un buen hombre (2009) -> Drama,Crime] 
+
+  path: 1[1349997 -> 2062347 -> 1299785 -> 5000057], [El arte de morir (2000) -> Collado, Adrià -> Cámara oscura (2003) -> Thriller] 
+
+  path: 2[1349997 -> 8002078], [El arte de morir (2000) -> suspense] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [1440095, 1809577, 1456569, 1591545, 1349997]
+ResultRelevs: [10.585323333740234, 10.585323333740234, 10.367443084716797, 10.043834686279297, 10.04383373260498]
+AvgResultRelev: 10.325151634216308
+AvgResultDissimilarity: 0.4066666666666666
+Num of entries retrieved from the lists: 2802
+Num of entries retrieved from NKMaps: 5079
+Num of answer trees explored: 1379
+
+Div Top-k Search by Exhustive, k=5
+[crime, thriller, suspense]
+srcNodes: [5000072, 5000057, 8002078]
+  path: 0[1809577 -> 2097415 -> 1353353 -> 5000072], [The Sinners (2010) -> Farr, Asad -> El padrino 2 (2008) -> Crime] 
+
+  path: 1[1809577 -> 5000057], [The Sinners (2010) -> Thriller] 
+
+  path: 2[1809577 -> 2077165 -> 1852371 -> 8002078], [The Sinners (2010) -> Decaro, Brian -> Undone (2008/II) -> suspense] 
+
+srcNodes: [5001354, 5001354, 8002078]
+  path: 0[1456569 -> 5001354], [Interrogation (2006/I) -> Thriller,Crime,Drama,Mystery] 
+
+  path: 1[1456569 -> 5001354], [Interrogation (2006/I) -> Thriller,Crime,Drama,Mystery] 
+
+  path: 2[1456569 -> 8002078], [Interrogation (2006/I) -> suspense] 
+
+srcNodes: [5000709, 5000766, 8002078]
+  path: 0[1852371 -> 2077165 -> 1569958 -> 5000709], [Undone (2008/II) -> Decaro, Brian -> Miss Congeniality (2000) -> Action,Comedy,Crime] 
+
+  path: 1[1852371 -> 5000766], [Undone (2008/II) -> Short,Thriller] 
+
+  path: 2[1852371 -> 8002078], [Undone (2008/II) -> suspense] 
+
+srcNodes: [5000555, 5000057, 8016670]
+  path: 0[1475708 -> 2104132 -> 1824033 -> 5000555], [Kalamity (2010) -> Forster, Robert (I) -> Thick as Thieves (2009/I) -> Crime,Thriller] 
+
+  path: 1[1475708 -> 5000057], [Kalamity (2010) -> Thriller] 
+
+  path: 2[1475708 -> 8016670], [Kalamity (2010) -> girlfriend,suspense] 
+
+srcNodes: [5000072, 5000057, 8018905]
+  path: 0[1532804 -> 2129271 -> 1353353 -> 5000072], [Little Bruno (2007) -> Halpin, Tim (I) -> El padrino 2 (2008) -> Crime] 
+
+  path: 1[1532804 -> 5000057], [Little Bruno (2007) -> Thriller] 
+
+  path: 2[1532804 -> 8018905], [Little Bruno (2007) -> character-name-in-title,murder,suspense] 
+
+Dissims of Subsets and t:
+(0~0, 1) : 0.6
+(0~1, 2) : 0.6333333333333333
+(0~2, 3) : 0.8888888888888888
+(0~3, 4) : 0.7499999999999999
+-----------------------------------------
+ResultDestNodes: [1809577, 1456569, 1852371, 1475708, 1532804]
+ResultRelevs: [10.585323333740234, 10.367443084716797, 9.985917091369629, 9.93810749053955, 9.829751968383789]
+AvgResultRelev: 10.14130859375
+AvgResultDissimilarity: 0.7533333333333334
+Num of entries retrieved from the KNLists: 2825
+Num of entries retrieved from NKMaps: 5115
+Num of answer trees explored: 1389
+Num of answer tree sets created: 121
+Num of answer tree sets removed: 7
+
+Div Top-k Search by Astar02, k=5
+[crime, thriller, suspense]
+srcNodes: [5000072, 5000057, 8002078]
+  path: 0[1809577 -> 2097415 -> 1353353 -> 5000072], [The Sinners (2010) -> Farr, Asad -> El padrino 2 (2008) -> Crime] 
+
+  path: 1[1809577 -> 5000057], [The Sinners (2010) -> Thriller] 
+
+  path: 2[1809577 -> 2077165 -> 1852371 -> 8002078], [The Sinners (2010) -> Decaro, Brian -> Undone (2008/II) -> suspense] 
+
+srcNodes: [5001354, 5001354, 8002078]
+  path: 0[1456569 -> 5001354], [Interrogation (2006/I) -> Thriller,Crime,Drama,Mystery] 
+
+  path: 1[1456569 -> 5001354], [Interrogation (2006/I) -> Thriller,Crime,Drama,Mystery] 
+
+  path: 2[1456569 -> 8002078], [Interrogation (2006/I) -> suspense] 
+
+srcNodes: [5000709, 5000766, 8002078]
+  path: 0[1852371 -> 2077165 -> 1569958 -> 5000709], [Undone (2008/II) -> Decaro, Brian -> Miss Congeniality (2000) -> Action,Comedy,Crime] 
+
+  path: 1[1852371 -> 5000766], [Undone (2008/II) -> Short,Thriller] 
+
+  path: 2[1852371 -> 8002078], [Undone (2008/II) -> suspense] 
+
+srcNodes: [5000555, 5000057, 8016670]
+  path: 0[1475708 -> 2104132 -> 1824033 -> 5000555], [Kalamity (2010) -> Forster, Robert (I) -> Thick as Thieves (2009/I) -> Crime,Thriller] 
+
+  path: 1[1475708 -> 5000057], [Kalamity (2010) -> Thriller] 
+
+  path: 2[1475708 -> 8016670], [Kalamity (2010) -> girlfriend,suspense] 
+
+srcNodes: [5000072, 5000057, 8018905]
+  path: 0[1532804 -> 2129271 -> 1353353 -> 5000072], [Little Bruno (2007) -> Halpin, Tim (I) -> El padrino 2 (2008) -> Crime] 
+
+  path: 1[1532804 -> 5000057], [Little Bruno (2007) -> Thriller] 
+
+  path: 2[1532804 -> 8018905], [Little Bruno (2007) -> character-name-in-title,murder,suspense] 
+
+-----------------------------------------
+ResultDestNodes: [1809577, 1456569, 1852371, 1475708, 1532804]
+ResultRelevs: [10.585323333740234, 10.367443084716797, 9.985917091369629, 9.93810749053955, 9.829751968383789]
+AvgResultRelev: 10.14130859375
+AvgResultDissimilarity: 0.7533333333333334
+Num of entries retrieved from the KNLists: 2825
+Num of entries retrieved from NKMaps: 5115
+Num of answer trees explored: 1389
+Num of states created: 199
+Num of states explored: 179
+Num of heuristic search performed: 7
+
+Div Top-k Search by Astar1nc_ap_new, k=5
+[crime, thriller, suspense]
+srcNodes: [5000072, 5000057, 8002078]
+  path: 0[1809577 -> 2097415 -> 1353353 -> 5000072], [The Sinners (2010) -> Farr, Asad -> El padrino 2 (2008) -> Crime] 
+
+  path: 1[1809577 -> 5000057], [The Sinners (2010) -> Thriller] 
+
+  path: 2[1809577 -> 2077165 -> 1852371 -> 8002078], [The Sinners (2010) -> Decaro, Brian -> Undone (2008/II) -> suspense] 
+
+srcNodes: [5001354, 5001354, 8002078]
+  path: 0[1456569 -> 5001354], [Interrogation (2006/I) -> Thriller,Crime,Drama,Mystery] 
+
+  path: 1[1456569 -> 5001354], [Interrogation (2006/I) -> Thriller,Crime,Drama,Mystery] 
+
+  path: 2[1456569 -> 8002078], [Interrogation (2006/I) -> suspense] 
+
+srcNodes: [5000709, 5000766, 8002078]
+  path: 0[1852371 -> 2077165 -> 1569958 -> 5000709], [Undone (2008/II) -> Decaro, Brian -> Miss Congeniality (2000) -> Action,Comedy,Crime] 
+
+  path: 1[1852371 -> 5000766], [Undone (2008/II) -> Short,Thriller] 
+
+  path: 2[1852371 -> 8002078], [Undone (2008/II) -> suspense] 
+
+srcNodes: [5000555, 5000057, 8016670]
+  path: 0[1475708 -> 2104132 -> 1824033 -> 5000555], [Kalamity (2010) -> Forster, Robert (I) -> Thick as Thieves (2009/I) -> Crime,Thriller] 
+
+  path: 1[1475708 -> 5000057], [Kalamity (2010) -> Thriller] 
+
+  path: 2[1475708 -> 8016670], [Kalamity (2010) -> girlfriend,suspense] 
+
+srcNodes: [5000072, 5000057, 8018905]
+  path: 0[1532804 -> 2129271 -> 1353353 -> 5000072], [Little Bruno (2007) -> Halpin, Tim (I) -> El padrino 2 (2008) -> Crime] 
+
+  path: 1[1532804 -> 5000057], [Little Bruno (2007) -> Thriller] 
+
+  path: 2[1532804 -> 8018905], [Little Bruno (2007) -> character-name-in-title,murder,suspense] 
+
+-----------------------------------------
+ResultDestNodes: [1809577, 1456569, 1852371, 1475708, 1532804]
+ResultRelevs: [10.585323333740234, 10.367443084716797, 9.985917091369629, 9.93810749053955, 9.829751968383789]
+AvgResultRelev: 10.14130859375
+AvgResultDissimilarity: 0.7533333333333334
+Num of entries retrieved from the KNLists: 2825
+Num of entries retrieved from NKMaps: 5115
+Num of answer trees explored: 1389
+Num of states created: 23
+Num of states explored: 17
+Num of heuristic search performed: 3
+
+Top-k Search by Blink-BDB, k=10
+[crime, thriller, suspense]
+srcNodes: [5000072, 5000057, 8002078]
+  path: 0[1809577 -> 2097415 -> 1353353 -> 5000072], [The Sinners (2010) -> Farr, Asad -> El padrino 2 (2008) -> Crime] 
+
+  path: 1[1809577 -> 5000057], [The Sinners (2010) -> Thriller] 
+
+  path: 2[1809577 -> 2077165 -> 1852371 -> 8002078], [The Sinners (2010) -> Decaro, Brian -> Undone (2008/II) -> suspense] 
+
+srcNodes: [5000072, 5000057, 8002078]
+  path: 0[1440095 -> 2149293 -> 1603492 -> 5000072], [I Love You, Baby (2000) -> Irrek, Mario -> Null Uhr 12 (2001) -> Crime] 
+
+  path: 1[1440095 -> 5000057], [I Love You, Baby (2000) -> Thriller] 
+
+  path: 2[1440095 -> 2075925 -> 1349997 -> 8002078], [I Love You, Baby (2000) -> de la Fuente, Antonio (I) -> El arte de morir (2000) -> suspense] 
+
+srcNodes: [5001354, 5001354, 8002078]
+  path: 0[1456569 -> 5001354], [Interrogation (2006/I) -> Thriller,Crime,Drama,Mystery] 
+
+  path: 1[1456569 -> 5001354], [Interrogation (2006/I) -> Thriller,Crime,Drama,Mystery] 
+
+  path: 2[1456569 -> 8002078], [Interrogation (2006/I) -> suspense] 
+
+srcNodes: [5000555, 5000057, 8002078]
+  path: 0[1591545 -> 2128085 -> 1429536 -> 5000555], [Near Death (2004) -> Haggerty, Joe (I) -> Hollywood Confidential (2008) -> Crime,Thriller] 
+
+  path: 1[1591545 -> 2073215 -> 1876240 -> 5000057], [Near Death (2004) -> Darchuk, Carl -> What Ever Happened to Alice (2003) -> Thriller] 
+
+  path: 2[1591545 -> 8002078], [Near Death (2004) -> suspense] 
+
+srcNodes: [5000051, 5000057, 8002078]
+  path: 0[1349997 -> 2126571 -> 1848267 -> 5000051], [El arte de morir (2000) -> Gutiérrez Caba, Emilio -> Un buen hombre (2009) -> Drama,Crime] 
+
+  path: 1[1349997 -> 2062347 -> 1299785 -> 5000057], [El arte de morir (2000) -> Collado, Adrià -> Cámara oscura (2003) -> Thriller] 
+
+  path: 2[1349997 -> 8002078], [El arte de morir (2000) -> suspense] 
+
+srcNodes: [5000426, 5000057, 8002078]
+  path: 0[1805240 -> 2451570 -> 1368260 -> 5000426], [The Ritual (2009/I) -> Stevens, Brinke -> Eyes Are Upon You (2001) -> Thriller,Crime] 
+
+  path: 1[1805240 -> 2013270 -> 1701709 -> 5000057], [The Ritual (2009/I) -> Ashley, Kevin (I) -> Shifty (2008) -> Thriller] 
+
+  path: 2[1805240 -> 8002078], [The Ritual (2009/I) -> suspense] 
+
+srcNodes: [5000709, 5000766, 8002078]
+  path: 0[1852371 -> 2077165 -> 1569958 -> 5000709], [Undone (2008/II) -> Decaro, Brian -> Miss Congeniality (2000) -> Action,Comedy,Crime] 
+
+  path: 1[1852371 -> 5000766], [Undone (2008/II) -> Short,Thriller] 
+
+  path: 2[1852371 -> 8002078], [Undone (2008/II) -> suspense] 
+
+srcNodes: [5001247, 5000057, 8002078]
+  path: 0[2138129 -> 1731249 -> 5001247], [Hersh, Philip (I) -> Suay Laak Sai (2007) -> Crime,Horror] 
+
+  path: 1[2138129 -> 1778221 -> 5000057], [Hersh, Philip (I) -> The Grind (2009/II) -> Thriller] 
+
+  path: 2[2138129 -> 1349997 -> 8002078], [Hersh, Philip (I) -> El arte de morir (2000) -> suspense] 
+
+srcNodes: [5000426, 5000057, 8002078]
+  path: 0[2451570 -> 1368260 -> 5000426], [Stevens, Brinke -> Eyes Are Upon You (2001) -> Thriller,Crime] 
+
+  path: 1[2451570 -> 1668365 -> 5000057], [Stevens, Brinke -> Revenge Live (2006) -> Thriller] 
+
+  path: 2[2451570 -> 1805240 -> 8002078], [Stevens, Brinke -> The Ritual (2009/I) -> suspense] 
+
+srcNodes: [5000555, 5000057, 8016670]
+  path: 0[1475708 -> 2104132 -> 1824033 -> 5000555], [Kalamity (2010) -> Forster, Robert (I) -> Thick as Thieves (2009/I) -> Crime,Thriller] 
+
+  path: 1[1475708 -> 5000057], [Kalamity (2010) -> Thriller] 
+
+  path: 2[1475708 -> 8016670], [Kalamity (2010) -> girlfriend,suspense] 
+
+-----------------------------------------
+Num of top-k answers: 10
+ResultDestNodes: [1809577, 1440095, 1456569, 1591545, 1349997, 1805240, 1852371, 2138129, 2451570, 1475708]
+ResultRelevs: [10.585323333740234, 10.585323333740234, 10.367443084716797, 10.043834686279297, 10.04383373260498, 10.043830871582031, 9.985917091369629, 9.953706741333008, 9.953706741333008, 9.93810749053955]
+AvgResultRelev: 10.150102710723877
+AvgResultDissimilarity: 0.491851851851852
+Num of entries retrieved from the lists: 2802
+Num of entries retrieved from NKMaps: 5079
+Num of answer trees explored: 1379
+
+Div Top-k Search by Exhustive, k=10
+[crime, thriller, suspense]
+srcNodes: [5000072, 5000057, 8002078]
+  path: 0[1809577 -> 2097415 -> 1353353 -> 5000072], [The Sinners (2010) -> Farr, Asad -> El padrino 2 (2008) -> Crime] 
+
+  path: 1[1809577 -> 5000057], [The Sinners (2010) -> Thriller] 
+
+  path: 2[1809577 -> 2077165 -> 1852371 -> 8002078], [The Sinners (2010) -> Decaro, Brian -> Undone (2008/II) -> suspense] 
+
+srcNodes: [5001354, 5001354, 8002078]
+  path: 0[1456569 -> 5001354], [Interrogation (2006/I) -> Thriller,Crime,Drama,Mystery] 
+
+  path: 1[1456569 -> 5001354], [Interrogation (2006/I) -> Thriller,Crime,Drama,Mystery] 
+
+  path: 2[1456569 -> 8002078], [Interrogation (2006/I) -> suspense] 
+
+srcNodes: [5000709, 5000766, 8002078]
+  path: 0[1852371 -> 2077165 -> 1569958 -> 5000709], [Undone (2008/II) -> Decaro, Brian -> Miss Congeniality (2000) -> Action,Comedy,Crime] 
+
+  path: 1[1852371 -> 5000766], [Undone (2008/II) -> Short,Thriller] 
+
+  path: 2[1852371 -> 8002078], [Undone (2008/II) -> suspense] 
+
+srcNodes: [5000555, 5000057, 8016670]
+  path: 0[1475708 -> 2104132 -> 1824033 -> 5000555], [Kalamity (2010) -> Forster, Robert (I) -> Thick as Thieves (2009/I) -> Crime,Thriller] 
+
+  path: 1[1475708 -> 5000057], [Kalamity (2010) -> Thriller] 
+
+  path: 2[1475708 -> 8016670], [Kalamity (2010) -> girlfriend,suspense] 
+
+srcNodes: [5000072, 5000057, 8018905]
+  path: 0[1532804 -> 2129271 -> 1353353 -> 5000072], [Little Bruno (2007) -> Halpin, Tim (I) -> El padrino 2 (2008) -> Crime] 
+
+  path: 1[1532804 -> 5000057], [Little Bruno (2007) -> Thriller] 
+
+  path: 2[1532804 -> 8018905], [Little Bruno (2007) -> character-name-in-title,murder,suspense] 
+
+srcNodes: [5003893, 5003893, 8002078]
+  path: 0[1532179 -> 5003893], [Lions, Tigers, Bears (2009) -> Drama,Short,Thriller,Action,Crime] 
+
+  path: 1[1532179 -> 5003893], [Lions, Tigers, Bears (2009) -> Drama,Short,Thriller,Action,Crime] 
+
+  path: 2[1532179 -> 8002078], [Lions, Tigers, Bears (2009) -> suspense] 
+
+srcNodes: [5001050, 5001050, 8002078]
+  path: 0[1618880 -> 5001050], [Other (2010) -> Short,Thriller,Crime,Drama,Mystery] 
+
+  path: 1[1618880 -> 5001050], [Other (2010) -> Short,Thriller,Crime,Drama,Mystery] 
+
+  path: 2[1618880 -> 8002078], [Other (2010) -> suspense] 
+
+srcNodes: [5000482, 5000057, 8001753]
+  path: 0[1129149 -> 4003940 -> 1223807 -> 5000482], ["Who Done It?" (2010) -> Bhatt, Vikram -> Awara Paagal Deewana (2002) -> Drama,Action,Comedy,Crime] 
+
+  path: 1[1129149 -> 5000057], ["Who Done It?" (2010) -> Thriller] 
+
+  path: 2[1129149 -> 8001753], ["Who Done It?" (2010) -> murder,suspense] 
+
+srcNodes: [1295473, 5000057, 8002078]
+  path: 0[1747403 -> 4013168 -> 1631572 -> 2381122 -> 1295473], [Temptation (2003/II) -> Ezequiel (III) -> Penumbra (2012) -> Lenk, Katrina -> Crime Fiction (2007)] 
+
+  path: 1[1747403 -> 4013168 -> 1631572 -> 5000057], [Temptation (2003/II) -> Ezequiel (III) -> Penumbra (2012) -> Thriller] 
+
+  path: 2[1747403 -> 8002078], [Temptation (2003/II) -> suspense] 
+
+srcNodes: [5000027, 5000751, 8002078]
+  path: 0[1249963 -> 2033838 -> 1714217 -> 5000027], [Blue Window (2009) -> Booker, Mark (II) -> Soap on a Rope (2011) -> Comedy,Crime,Drama] 
+
+  path: 1[1249963 -> 5000751], [Blue Window (2009) -> Mystery,Short,Thriller] 
+
+  path: 2[1249963 -> 8002078], [Blue Window (2009) -> suspense] 
+
+Dissims of Subsets and t:
+(0~0, 1) : 0.6
+(0~1, 2) : 0.6333333333333333
+(0~2, 3) : 0.8888888888888888
+(0~3, 4) : 0.7499999999999999
+(0~4, 5) : 0.74
+(0~5, 6) : 0.7000000000000001
+(0~6, 7) : 0.8571428571428571
+(0~7, 8) : 0.6
+(0~8, 9) : 0.7555555555555555
+-----------------------------------------
+ResultDestNodes: [1809577, 1456569, 1852371, 1475708, 1532804, 1532179, 1618880, 1129149, 1747403, 1249963]
+ResultRelevs: [10.585323333740234, 10.367443084716797, 9.985917091369629, 9.93810749053955, 9.829751968383789, 9.78797721862793, 9.78797721862793, 9.615991592407227, 9.407943725585938, 9.392765998840332]
+AvgResultRelev: 9.869919872283935
+AvgResultDissimilarity: 0.7340740740740742
+Num of entries retrieved from the KNLists: 9301
+Num of entries retrieved from NKMaps: 17544
+Num of answer trees explored: 5838
+Num of answer tree sets created: 6081
+Num of answer tree sets removed: 13
+
+Div Top-k Search by Astar02, k=10
+[crime, thriller, suspense]
+srcNodes: [5000072, 5000057, 8002078]
+  path: 0[1440095 -> 2149293 -> 1603492 -> 5000072], [I Love You, Baby (2000) -> Irrek, Mario -> Null Uhr 12 (2001) -> Crime] 
+
+  path: 1[1440095 -> 5000057], [I Love You, Baby (2000) -> Thriller] 
+
+  path: 2[1440095 -> 2075925 -> 1349997 -> 8002078], [I Love You, Baby (2000) -> de la Fuente, Antonio (I) -> El arte de morir (2000) -> suspense] 
+
+srcNodes: [5001354, 5001354, 8002078]
+  path: 0[1456569 -> 5001354], [Interrogation (2006/I) -> Thriller,Crime,Drama,Mystery] 
+
+  path: 1[1456569 -> 5001354], [Interrogation (2006/I) -> Thriller,Crime,Drama,Mystery] 
+
+  path: 2[1456569 -> 8002078], [Interrogation (2006/I) -> suspense] 
+
+srcNodes: [5000709, 5000766, 8002078]
+  path: 0[1852371 -> 2077165 -> 1569958 -> 5000709], [Undone (2008/II) -> Decaro, Brian -> Miss Congeniality (2000) -> Action,Comedy,Crime] 
+
+  path: 1[1852371 -> 5000766], [Undone (2008/II) -> Short,Thriller] 
+
+  path: 2[1852371 -> 8002078], [Undone (2008/II) -> suspense] 
+
+srcNodes: [5000555, 5000057, 8016670]
+  path: 0[1475708 -> 2104132 -> 1824033 -> 5000555], [Kalamity (2010) -> Forster, Robert (I) -> Thick as Thieves (2009/I) -> Crime,Thriller] 
+
+  path: 1[1475708 -> 5000057], [Kalamity (2010) -> Thriller] 
+
+  path: 2[1475708 -> 8016670], [Kalamity (2010) -> girlfriend,suspense] 
+
+srcNodes: [5000072, 5000057, 8018905]
+  path: 0[1532804 -> 2129271 -> 1353353 -> 5000072], [Little Bruno (2007) -> Halpin, Tim (I) -> El padrino 2 (2008) -> Crime] 
+
+  path: 1[1532804 -> 5000057], [Little Bruno (2007) -> Thriller] 
+
+  path: 2[1532804 -> 8018905], [Little Bruno (2007) -> character-name-in-title,murder,suspense] 
+
+srcNodes: [5003893, 5003893, 8002078]
+  path: 0[1532179 -> 5003893], [Lions, Tigers, Bears (2009) -> Drama,Short,Thriller,Action,Crime] 
+
+  path: 1[1532179 -> 5003893], [Lions, Tigers, Bears (2009) -> Drama,Short,Thriller,Action,Crime] 
+
+  path: 2[1532179 -> 8002078], [Lions, Tigers, Bears (2009) -> suspense] 
+
+srcNodes: [5001050, 5001050, 8002078]
+  path: 0[1618880 -> 5001050], [Other (2010) -> Short,Thriller,Crime,Drama,Mystery] 
+
+  path: 1[1618880 -> 5001050], [Other (2010) -> Short,Thriller,Crime,Drama,Mystery] 
+
+  path: 2[1618880 -> 8002078], [Other (2010) -> suspense] 
+
+srcNodes: [5000482, 5000057, 8001753]
+  path: 0[1129149 -> 4003940 -> 1223807 -> 5000482], ["Who Done It?" (2010) -> Bhatt, Vikram -> Awara Paagal Deewana (2002) -> Drama,Action,Comedy,Crime] 
+
+  path: 1[1129149 -> 5000057], ["Who Done It?" (2010) -> Thriller] 
+
+  path: 2[1129149 -> 8001753], ["Who Done It?" (2010) -> murder,suspense] 
+
+srcNodes: [1295473, 5000057, 8002078]
+  path: 0[1747403 -> 4013168 -> 1631572 -> 2381122 -> 1295473], [Temptation (2003/II) -> Ezequiel (III) -> Penumbra (2012) -> Lenk, Katrina -> Crime Fiction (2007)] 
+
+  path: 1[1747403 -> 4013168 -> 1631572 -> 5000057], [Temptation (2003/II) -> Ezequiel (III) -> Penumbra (2012) -> Thriller] 
+
+  path: 2[1747403 -> 8002078], [Temptation (2003/II) -> suspense] 
+
+srcNodes: [5000027, 5000751, 8002078]
+  path: 0[1249963 -> 2033838 -> 1714217 -> 5000027], [Blue Window (2009) -> Booker, Mark (II) -> Soap on a Rope (2011) -> Comedy,Crime,Drama] 
+
+  path: 1[1249963 -> 5000751], [Blue Window (2009) -> Mystery,Short,Thriller] 
+
+  path: 2[1249963 -> 8002078], [Blue Window (2009) -> suspense] 
+
+-----------------------------------------
+ResultDestNodes: [1440095, 1456569, 1852371, 1475708, 1532804, 1532179, 1618880, 1129149, 1747403, 1249963]
+ResultRelevs: [10.585323333740234, 10.367443084716797, 9.985917091369629, 9.93810749053955, 9.829751968383789, 9.78797721862793, 9.78797721862793, 9.615991592407227, 9.407943725585938, 9.392765998840332]
+AvgResultRelev: 9.869919872283935
+AvgResultDissimilarity: 0.7340740740740742
+Num of entries retrieved from the KNLists: 9301
+Num of entries retrieved from NKMaps: 17544
+Num of answer trees explored: 5838
+Num of states created: 64976
+Num of states explored: 64470
+Num of heuristic search performed: 39
+
+Div Top-k Search by Astar1nc_ap_new, k=10
+[crime, thriller, suspense]
+srcNodes: [5000072, 5000057, 8002078]
+  path: 0[1809577 -> 2097415 -> 1353353 -> 5000072], [The Sinners (2010) -> Farr, Asad -> El padrino 2 (2008) -> Crime] 
+
+  path: 1[1809577 -> 5000057], [The Sinners (2010) -> Thriller] 
+
+  path: 2[1809577 -> 2077165 -> 1852371 -> 8002078], [The Sinners (2010) -> Decaro, Brian -> Undone (2008/II) -> suspense] 
+
+srcNodes: [5001354, 5001354, 8002078]
+  path: 0[1456569 -> 5001354], [Interrogation (2006/I) -> Thriller,Crime,Drama,Mystery] 
+
+  path: 1[1456569 -> 5001354], [Interrogation (2006/I) -> Thriller,Crime,Drama,Mystery] 
+
+  path: 2[1456569 -> 8002078], [Interrogation (2006/I) -> suspense] 
+
+srcNodes: [5000709, 5000766, 8002078]
+  path: 0[1852371 -> 2077165 -> 1569958 -> 5000709], [Undone (2008/II) -> Decaro, Brian -> Miss Congeniality (2000) -> Action,Comedy,Crime] 
+
+  path: 1[1852371 -> 5000766], [Undone (2008/II) -> Short,Thriller] 
+
+  path: 2[1852371 -> 8002078], [Undone (2008/II) -> suspense] 
+
+srcNodes: [5000555, 5000057, 8016670]
+  path: 0[1475708 -> 2104132 -> 1824033 -> 5000555], [Kalamity (2010) -> Forster, Robert (I) -> Thick as Thieves (2009/I) -> Crime,Thriller] 
+
+  path: 1[1475708 -> 5000057], [Kalamity (2010) -> Thriller] 
+
+  path: 2[1475708 -> 8016670], [Kalamity (2010) -> girlfriend,suspense] 
+
+srcNodes: [5000072, 5000057, 8018905]
+  path: 0[1532804 -> 2129271 -> 1353353 -> 5000072], [Little Bruno (2007) -> Halpin, Tim (I) -> El padrino 2 (2008) -> Crime] 
+
+  path: 1[1532804 -> 5000057], [Little Bruno (2007) -> Thriller] 
+
+  path: 2[1532804 -> 8018905], [Little Bruno (2007) -> character-name-in-title,murder,suspense] 
+
+srcNodes: [5003893, 5003893, 8002078]
+  path: 0[1532179 -> 5003893], [Lions, Tigers, Bears (2009) -> Drama,Short,Thriller,Action,Crime] 
+
+  path: 1[1532179 -> 5003893], [Lions, Tigers, Bears (2009) -> Drama,Short,Thriller,Action,Crime] 
+
+  path: 2[1532179 -> 8002078], [Lions, Tigers, Bears (2009) -> suspense] 
+
+srcNodes: [5001050, 5001050, 8002078]
+  path: 0[1618880 -> 5001050], [Other (2010) -> Short,Thriller,Crime,Drama,Mystery] 
+
+  path: 1[1618880 -> 5001050], [Other (2010) -> Short,Thriller,Crime,Drama,Mystery] 
+
+  path: 2[1618880 -> 8002078], [Other (2010) -> suspense] 
+
+srcNodes: [5000482, 5000057, 8001753]
+  path: 0[1129149 -> 4003940 -> 1223807 -> 5000482], ["Who Done It?" (2010) -> Bhatt, Vikram -> Awara Paagal Deewana (2002) -> Drama,Action,Comedy,Crime] 
+
+  path: 1[1129149 -> 5000057], ["Who Done It?" (2010) -> Thriller] 
+
+  path: 2[1129149 -> 8001753], ["Who Done It?" (2010) -> murder,suspense] 
+
+srcNodes: [1295473, 5000057, 8002078]
+  path: 0[1747403 -> 4013168 -> 1631572 -> 2381122 -> 1295473], [Temptation (2003/II) -> Ezequiel (III) -> Penumbra (2012) -> Lenk, Katrina -> Crime Fiction (2007)] 
+
+  path: 1[1747403 -> 4013168 -> 1631572 -> 5000057], [Temptation (2003/II) -> Ezequiel (III) -> Penumbra (2012) -> Thriller] 
+
+  path: 2[1747403 -> 8002078], [Temptation (2003/II) -> suspense] 
+
+srcNodes: [5000027, 5000751, 8002078]
+  path: 0[1249963 -> 2033838 -> 1714217 -> 5000027], [Blue Window (2009) -> Booker, Mark (II) -> Soap on a Rope (2011) -> Comedy,Crime,Drama] 
+
+  path: 1[1249963 -> 5000751], [Blue Window (2009) -> Mystery,Short,Thriller] 
+
+  path: 2[1249963 -> 8002078], [Blue Window (2009) -> suspense] 
+
+-----------------------------------------
+ResultDestNodes: [1809577, 1456569, 1852371, 1475708, 1532804, 1532179, 1618880, 1129149, 1747403, 1249963]
+ResultRelevs: [10.585323333740234, 10.367443084716797, 9.985917091369629, 9.93810749053955, 9.829751968383789, 9.78797721862793, 9.78797721862793, 9.615991592407227, 9.407943725585938, 9.392765998840332]
+AvgResultRelev: 9.869919872283935
+AvgResultDissimilarity: 0.7340740740740742
+Num of entries retrieved from the KNLists: 9301
+Num of entries retrieved from NKMaps: 17544
+Num of answer trees explored: 5838
+Num of states created: 3273
+Num of states explored: 1045
+Num of heuristic search performed: 15
+
+Top-k Search by Blink-BDB, k=15
+[crime, thriller, suspense]
+srcNodes: [5000072, 5000057, 8002078]
+  path: 0[1809577 -> 2097415 -> 1353353 -> 5000072], [The Sinners (2010) -> Farr, Asad -> El padrino 2 (2008) -> Crime] 
+
+  path: 1[1809577 -> 5000057], [The Sinners (2010) -> Thriller] 
+
+  path: 2[1809577 -> 2077165 -> 1852371 -> 8002078], [The Sinners (2010) -> Decaro, Brian -> Undone (2008/II) -> suspense] 
+
+srcNodes: [5000072, 5000057, 8002078]
+  path: 0[1440095 -> 2149293 -> 1603492 -> 5000072], [I Love You, Baby (2000) -> Irrek, Mario -> Null Uhr 12 (2001) -> Crime] 
+
+  path: 1[1440095 -> 5000057], [I Love You, Baby (2000) -> Thriller] 
+
+  path: 2[1440095 -> 2075925 -> 1349997 -> 8002078], [I Love You, Baby (2000) -> de la Fuente, Antonio (I) -> El arte de morir (2000) -> suspense] 
+
+srcNodes: [5001354, 5001354, 8002078]
+  path: 0[1456569 -> 5001354], [Interrogation (2006/I) -> Thriller,Crime,Drama,Mystery] 
+
+  path: 1[1456569 -> 5001354], [Interrogation (2006/I) -> Thriller,Crime,Drama,Mystery] 
+
+  path: 2[1456569 -> 8002078], [Interrogation (2006/I) -> suspense] 
+
+srcNodes: [5000555, 5000057, 8002078]
+  path: 0[1591545 -> 2128085 -> 1429536 -> 5000555], [Near Death (2004) -> Haggerty, Joe (I) -> Hollywood Confidential (2008) -> Crime,Thriller] 
+
+  path: 1[1591545 -> 2073215 -> 1876240 -> 5000057], [Near Death (2004) -> Darchuk, Carl -> What Ever Happened to Alice (2003) -> Thriller] 
+
+  path: 2[1591545 -> 8002078], [Near Death (2004) -> suspense] 
+
+srcNodes: [5000051, 5000057, 8002078]
+  path: 0[1349997 -> 2126571 -> 1848267 -> 5000051], [El arte de morir (2000) -> Gutiérrez Caba, Emilio -> Un buen hombre (2009) -> Drama,Crime] 
+
+  path: 1[1349997 -> 2062347 -> 1299785 -> 5000057], [El arte de morir (2000) -> Collado, Adrià -> Cámara oscura (2003) -> Thriller] 
+
+  path: 2[1349997 -> 8002078], [El arte de morir (2000) -> suspense] 
+
+srcNodes: [5000426, 5000057, 8002078]
+  path: 0[1805240 -> 2451570 -> 1368260 -> 5000426], [The Ritual (2009/I) -> Stevens, Brinke -> Eyes Are Upon You (2001) -> Thriller,Crime] 
+
+  path: 1[1805240 -> 2013270 -> 1701709 -> 5000057], [The Ritual (2009/I) -> Ashley, Kevin (I) -> Shifty (2008) -> Thriller] 
+
+  path: 2[1805240 -> 8002078], [The Ritual (2009/I) -> suspense] 
+
+srcNodes: [5000709, 5000766, 8002078]
+  path: 0[1852371 -> 2077165 -> 1569958 -> 5000709], [Undone (2008/II) -> Decaro, Brian -> Miss Congeniality (2000) -> Action,Comedy,Crime] 
+
+  path: 1[1852371 -> 5000766], [Undone (2008/II) -> Short,Thriller] 
+
+  path: 2[1852371 -> 8002078], [Undone (2008/II) -> suspense] 
+
+srcNodes: [5000426, 5000057, 8002078]
+  path: 0[2451570 -> 1368260 -> 5000426], [Stevens, Brinke -> Eyes Are Upon You (2001) -> Thriller,Crime] 
+
+  path: 1[2451570 -> 1668365 -> 5000057], [Stevens, Brinke -> Revenge Live (2006) -> Thriller] 
+
+  path: 2[2451570 -> 1805240 -> 8002078], [Stevens, Brinke -> The Ritual (2009/I) -> suspense] 
+
+srcNodes: [5001247, 5000057, 8002078]
+  path: 0[2138129 -> 1731249 -> 5001247], [Hersh, Philip (I) -> Suay Laak Sai (2007) -> Crime,Horror] 
+
+  path: 1[2138129 -> 1778221 -> 5000057], [Hersh, Philip (I) -> The Grind (2009/II) -> Thriller] 
+
+  path: 2[2138129 -> 1349997 -> 8002078], [Hersh, Philip (I) -> El arte de morir (2000) -> suspense] 
+
+srcNodes: [5000555, 5000057, 8016670]
+  path: 0[1475708 -> 2104132 -> 1824033 -> 5000555], [Kalamity (2010) -> Forster, Robert (I) -> Thick as Thieves (2009/I) -> Crime,Thriller] 
+
+  path: 1[1475708 -> 5000057], [Kalamity (2010) -> Thriller] 
+
+  path: 2[1475708 -> 8016670], [Kalamity (2010) -> girlfriend,suspense] 
+
+srcNodes: [5000072, 5000057, 8018905]
+  path: 0[1532804 -> 2129271 -> 1353353 -> 5000072], [Little Bruno (2007) -> Halpin, Tim (I) -> El padrino 2 (2008) -> Crime] 
+
+  path: 1[1532804 -> 5000057], [Little Bruno (2007) -> Thriller] 
+
+  path: 2[1532804 -> 8018905], [Little Bruno (2007) -> character-name-in-title,murder,suspense] 
+
+srcNodes: [5001050, 5001050, 8002078]
+  path: 0[1618880 -> 5001050], [Other (2010) -> Short,Thriller,Crime,Drama,Mystery] 
+
+  path: 1[1618880 -> 5001050], [Other (2010) -> Short,Thriller,Crime,Drama,Mystery] 
+
+  path: 2[1618880 -> 8002078], [Other (2010) -> suspense] 
+
+srcNodes: [5003893, 5003893, 8002078]
+  path: 0[1532179 -> 5003893], [Lions, Tigers, Bears (2009) -> Drama,Short,Thriller,Action,Crime] 
+
+  path: 1[1532179 -> 5003893], [Lions, Tigers, Bears (2009) -> Drama,Short,Thriller,Action,Crime] 
+
+  path: 2[1532179 -> 8002078], [Lions, Tigers, Bears (2009) -> suspense] 
+
+srcNodes: [5000072, 5000057, 8002078]
+  path: 0[2099373 -> 1433851 -> 2172520 -> 1558786 -> 5000072], [Fernández, Adolfo (I) -> Hotel Tívoli (2007) -> Kopernikus, Nicolaj -> Max (2000) -> Crime] 
+
+  path: 1[2099373 -> 1579548 -> 5000057], [Fernández, Adolfo (I) -> Muertos comunes (2004) -> Thriller] 
+
+  path: 2[2099373 -> 1349997 -> 8002078], [Fernández, Adolfo (I) -> El arte de morir (2000) -> suspense] 
+
+srcNodes: [5000072, 5000057, 8002078]
+  path: 0[2075925 -> 1440095 -> 2149293 -> 1603492 -> 5000072], [de la Fuente, Antonio (I) -> I Love You, Baby (2000) -> Irrek, Mario -> Null Uhr 12 (2001) -> Crime] 
+
+  path: 1[2075925 -> 1440095 -> 5000057], [de la Fuente, Antonio (I) -> I Love You, Baby (2000) -> Thriller] 
+
+  path: 2[2075925 -> 1349997 -> 8002078], [de la Fuente, Antonio (I) -> El arte de morir (2000) -> suspense] 
+
+-----------------------------------------
+Num of top-k answers: 15
+ResultDestNodes: [1809577, 1440095, 1456569, 1591545, 1349997, 1805240, 1852371, 2451570, 2138129, 1475708, 1532804, 1618880, 1532179, 2099373, 2075925]
+ResultRelevs: [10.585323333740234, 10.585323333740234, 10.367443084716797, 10.043834686279297, 10.04383373260498, 10.043830871582031, 9.985917091369629, 9.953706741333008, 9.953706741333008, 9.93810749053955, 9.829751968383789, 9.78797721862793, 9.78797721862793, 9.786834716796875, 9.786834716796875]
+AvgResultRelev: 10.032026863098144
+AvgResultDissimilarity: 0.5158730158730165
+Num of entries retrieved from the lists: 2925
+Num of entries retrieved from NKMaps: 5296
+Num of answer trees explored: 1441
+
+Div Top-k Search by Exhustive, k=15
+[crime, thriller, suspense]
+srcNodes: [5000072, 5000057, 8002078]
+  path: 0[1809577 -> 2097415 -> 1353353 -> 5000072], [The Sinners (2010) -> Farr, Asad -> El padrino 2 (2008) -> Crime] 
+
+  path: 1[1809577 -> 5000057], [The Sinners (2010) -> Thriller] 
+
+  path: 2[1809577 -> 2077165 -> 1852371 -> 8002078], [The Sinners (2010) -> Decaro, Brian -> Undone (2008/II) -> suspense] 
+
+srcNodes: [5001354, 5001354, 8002078]
+  path: 0[1456569 -> 5001354], [Interrogation (2006/I) -> Thriller,Crime,Drama,Mystery] 
+
+  path: 1[1456569 -> 5001354], [Interrogation (2006/I) -> Thriller,Crime,Drama,Mystery] 
+
+  path: 2[1456569 -> 8002078], [Interrogation (2006/I) -> suspense] 
+
+srcNodes: [5000709, 5000766, 8002078]
+  path: 0[1852371 -> 2077165 -> 1569958 -> 5000709], [Undone (2008/II) -> Decaro, Brian -> Miss Congeniality (2000) -> Action,Comedy,Crime] 
+
+  path: 1[1852371 -> 5000766], [Undone (2008/II) -> Short,Thriller] 
+
+  path: 2[1852371 -> 8002078], [Undone (2008/II) -> suspense] 
+
+srcNodes: [5000555, 5000057, 8016670]
+  path: 0[1475708 -> 2104132 -> 1824033 -> 5000555], [Kalamity (2010) -> Forster, Robert (I) -> Thick as Thieves (2009/I) -> Crime,Thriller] 
+
+  path: 1[1475708 -> 5000057], [Kalamity (2010) -> Thriller] 
+
+  path: 2[1475708 -> 8016670], [Kalamity (2010) -> girlfriend,suspense] 
+
+srcNodes: [5000072, 5000057, 8018905]
+  path: 0[1532804 -> 2129271 -> 1353353 -> 5000072], [Little Bruno (2007) -> Halpin, Tim (I) -> El padrino 2 (2008) -> Crime] 
+
+  path: 1[1532804 -> 5000057], [Little Bruno (2007) -> Thriller] 
+
+  path: 2[1532804 -> 8018905], [Little Bruno (2007) -> character-name-in-title,murder,suspense] 
+
+srcNodes: [5003893, 5003893, 8002078]
+  path: 0[1532179 -> 5003893], [Lions, Tigers, Bears (2009) -> Drama,Short,Thriller,Action,Crime] 
+
+  path: 1[1532179 -> 5003893], [Lions, Tigers, Bears (2009) -> Drama,Short,Thriller,Action,Crime] 
+
+  path: 2[1532179 -> 8002078], [Lions, Tigers, Bears (2009) -> suspense] 
+
+srcNodes: [5001050, 5001050, 8002078]
+  path: 0[1618880 -> 5001050], [Other (2010) -> Short,Thriller,Crime,Drama,Mystery] 
+
+  path: 1[1618880 -> 5001050], [Other (2010) -> Short,Thriller,Crime,Drama,Mystery] 
+
+  path: 2[1618880 -> 8002078], [Other (2010) -> suspense] 
+
+srcNodes: [5000482, 5000057, 8001753]
+  path: 0[1129149 -> 4003940 -> 1223807 -> 5000482], ["Who Done It?" (2010) -> Bhatt, Vikram -> Awara Paagal Deewana (2002) -> Drama,Action,Comedy,Crime] 
+
+  path: 1[1129149 -> 5000057], ["Who Done It?" (2010) -> Thriller] 
+
+  path: 2[1129149 -> 8001753], ["Who Done It?" (2010) -> murder,suspense] 
+
+srcNodes: [1295473, 5000057, 8002078]
+  path: 0[1747403 -> 4013168 -> 1631572 -> 2381122 -> 1295473], [Temptation (2003/II) -> Ezequiel (III) -> Penumbra (2012) -> Lenk, Katrina -> Crime Fiction (2007)] 
+
+  path: 1[1747403 -> 4013168 -> 1631572 -> 5000057], [Temptation (2003/II) -> Ezequiel (III) -> Penumbra (2012) -> Thriller] 
+
+  path: 2[1747403 -> 8002078], [Temptation (2003/II) -> suspense] 
+
+srcNodes: [5000027, 5000751, 8002078]
+  path: 0[1249963 -> 2033838 -> 1714217 -> 5000027], [Blue Window (2009) -> Booker, Mark (II) -> Soap on a Rope (2011) -> Comedy,Crime,Drama] 
+
+  path: 1[1249963 -> 5000751], [Blue Window (2009) -> Mystery,Short,Thriller] 
+
+  path: 2[1249963 -> 8002078], [Blue Window (2009) -> suspense] 
+
+srcNodes: [5000172, 5001041, 8002078]
+  path: 0[1401109 -> 2314118 -> 1476864 -> 5000172], [Glass (2008/I) -> Cox, Lara -> Kangaroo Jack (2003) -> Adventure,Comedy,Crime] 
+
+  path: 1[1401109 -> 5001041], [Glass (2008/I) -> Short,Thriller,Drama] 
+
+  path: 2[1401109 -> 8002078], [Glass (2008/I) -> suspense] 
+
+srcNodes: [5000072, 5000057, 8001753]
+  path: 0[1472724 -> 2161519 -> 1251570 -> 5000072], [Jurm (2005) -> Kapoor, Shakti (I) -> Bold (2006) -> Crime] 
+
+  path: 1[1472724 -> 5000057], [Jurm (2005) -> Thriller] 
+
+  path: 2[1472724 -> 4003940 -> 1129149 -> 8001753], [Jurm (2005) -> Bhatt, Vikram -> "Who Done It?" (2010) -> murder,suspense] 
+
+srcNodes: [5000072, 5000057, 8008479]
+  path: 0[1207052 -> 2475607 -> 1516999 -> 5000072], [An Organization of Dreams (2009) -> Wright, Gabriella (I) -> Le dernier gang (2007) -> Crime] 
+
+  path: 1[1207052 -> 5000057], [An Organization of Dreams (2009) -> Thriller] 
+
+  path: 2[1207052 -> 2254134 -> 1304947 -> 8008479], [An Organization of Dreams (2009) -> Pinon, Dominique -> Darkhunters (2004) -> angel,suspense] 
+
+srcNodes: [5000072, 5000057, 8016670]
+  path: 0[1718748 -> 2263237 -> 1472994 -> 5000072], [Sound of Mind (2012) -> Ramirez, Efren -> Just Hustle (2004) -> Crime] 
+
+  path: 1[1718748 -> 5000057], [Sound of Mind (2012) -> Thriller] 
+
+  path: 2[1718748 -> 2364939 -> 1475708 -> 8016670], [Sound of Mind (2012) -> Jordanova, Anya Bergstedt -> Kalamity (2010) -> girlfriend,suspense] 
+
+srcNodes: [5001845, 5000057, 8002078]
+  path: 0[1392633 -> 2388419 -> 1782470 -> 5001845], [Galatea (2008) -> Magni, Natalia -> The International (2009/I) -> Action,Crime,Mystery,Thriller] 
+
+  path: 1[1392633 -> 5000057], [Galatea (2008) -> Thriller] 
+
+  path: 2[1392633 -> 2073215 -> 1591545 -> 8002078], [Galatea (2008) -> Darchuk, Carl -> Near Death (2004) -> suspense] 
+
+Dissims of Subsets and t:
+(0~0, 1) : 0.6
+(0~1, 2) : 0.6333333333333333
+(0~2, 3) : 0.8888888888888888
+(0~3, 4) : 0.7499999999999999
+(0~4, 5) : 0.74
+(0~5, 6) : 0.7000000000000001
+(0~6, 7) : 0.8571428571428571
+(0~7, 8) : 0.6
+(0~8, 9) : 0.7555555555555555
+(0~9, 10) : 0.7466666666666667
+(0~10, 11) : 0.7575757575757575
+(0~11, 12) : 0.7500000000000001
+(0~12, 13) : 0.6923076923076924
+(0~13, 14) : 0.6047619047619047
+-----------------------------------------
+ResultDestNodes: [1809577, 1456569, 1852371, 1475708, 1532804, 1532179, 1618880, 1129149, 1747403, 1249963, 1401109, 1472724, 1207052, 1718748, 1392633]
+ResultRelevs: [10.585323333740234, 10.367443084716797, 9.985917091369629, 9.93810749053955, 9.829751968383789, 9.78797721862793, 9.78797721862793, 9.615991592407227, 9.407943725585938, 9.392765998840332, 9.392765045166016, 9.361628532409668, 9.361628532409668, 9.361628532409668, 9.296871185302734]
+AvgResultRelev: 9.698248036702473
+AvgResultDissimilarity: 0.7171428571428573
+Num of entries retrieved from the KNLists: 9301
+Num of entries retrieved from NKMaps: 17544
+Num of answer trees explored: 5838
+Num of answer tree sets created: 153430
+Num of answer tree sets removed: 13
+
+Div Top-k Search by Astar02, k=15
+[crime, thriller, suspense]
+srcNodes: [5000072, 5000057, 8002078]
+  path: 0[1809577 -> 2097415 -> 1353353 -> 5000072], [The Sinners (2010) -> Farr, Asad -> El padrino 2 (2008) -> Crime] 
+
+  path: 1[1809577 -> 5000057], [The Sinners (2010) -> Thriller] 
+
+  path: 2[1809577 -> 2077165 -> 1852371 -> 8002078], [The Sinners (2010) -> Decaro, Brian -> Undone (2008/II) -> suspense] 
+
+srcNodes: [5001354, 5001354, 8002078]
+  path: 0[1456569 -> 5001354], [Interrogation (2006/I) -> Thriller,Crime,Drama,Mystery] 
+
+  path: 1[1456569 -> 5001354], [Interrogation (2006/I) -> Thriller,Crime,Drama,Mystery] 
+
+  path: 2[1456569 -> 8002078], [Interrogation (2006/I) -> suspense] 
+
+srcNodes: [5000709, 5000766, 8002078]
+  path: 0[1852371 -> 2077165 -> 1569958 -> 5000709], [Undone (2008/II) -> Decaro, Brian -> Miss Congeniality (2000) -> Action,Comedy,Crime] 
+
+  path: 1[1852371 -> 5000766], [Undone (2008/II) -> Short,Thriller] 
+
+  path: 2[1852371 -> 8002078], [Undone (2008/II) -> suspense] 
+
+srcNodes: [5000555, 5000057, 8016670]
+  path: 0[1475708 -> 2104132 -> 1824033 -> 5000555], [Kalamity (2010) -> Forster, Robert (I) -> Thick as Thieves (2009/I) -> Crime,Thriller] 
+
+  path: 1[1475708 -> 5000057], [Kalamity (2010) -> Thriller] 
+
+  path: 2[1475708 -> 8016670], [Kalamity (2010) -> girlfriend,suspense] 
+
+srcNodes: [5000072, 5000057, 8018905]
+  path: 0[1532804 -> 2129271 -> 1353353 -> 5000072], [Little Bruno (2007) -> Halpin, Tim (I) -> El padrino 2 (2008) -> Crime] 
+
+  path: 1[1532804 -> 5000057], [Little Bruno (2007) -> Thriller] 
+
+  path: 2[1532804 -> 8018905], [Little Bruno (2007) -> character-name-in-title,murder,suspense] 
+
+srcNodes: [5003893, 5003893, 8002078]
+  path: 0[1532179 -> 5003893], [Lions, Tigers, Bears (2009) -> Drama,Short,Thriller,Action,Crime] 
+
+  path: 1[1532179 -> 5003893], [Lions, Tigers, Bears (2009) -> Drama,Short,Thriller,Action,Crime] 
+
+  path: 2[1532179 -> 8002078], [Lions, Tigers, Bears (2009) -> suspense] 
+
+srcNodes: [5001050, 5001050, 8002078]
+  path: 0[1618880 -> 5001050], [Other (2010) -> Short,Thriller,Crime,Drama,Mystery] 
+
+  path: 1[1618880 -> 5001050], [Other (2010) -> Short,Thriller,Crime,Drama,Mystery] 
+
+  path: 2[1618880 -> 8002078], [Other (2010) -> suspense] 
+
+srcNodes: [5000482, 5000057, 8001753]
+  path: 0[1129149 -> 4003940 -> 1223807 -> 5000482], ["Who Done It?" (2010) -> Bhatt, Vikram -> Awara Paagal Deewana (2002) -> Drama,Action,Comedy,Crime] 
+
+  path: 1[1129149 -> 5000057], ["Who Done It?" (2010) -> Thriller] 
+
+  path: 2[1129149 -> 8001753], ["Who Done It?" (2010) -> murder,suspense] 
+
+srcNodes: [1295473, 5000057, 8002078]
+  path: 0[1747403 -> 4013168 -> 1631572 -> 2381122 -> 1295473], [Temptation (2003/II) -> Ezequiel (III) -> Penumbra (2012) -> Lenk, Katrina -> Crime Fiction (2007)] 
+
+  path: 1[1747403 -> 4013168 -> 1631572 -> 5000057], [Temptation (2003/II) -> Ezequiel (III) -> Penumbra (2012) -> Thriller] 
+
+  path: 2[1747403 -> 8002078], [Temptation (2003/II) -> suspense] 
+
+srcNodes: [5000027, 5000751, 8002078]
+  path: 0[1249963 -> 2033838 -> 1714217 -> 5000027], [Blue Window (2009) -> Booker, Mark (II) -> Soap on a Rope (2011) -> Comedy,Crime,Drama] 
+
+  path: 1[1249963 -> 5000751], [Blue Window (2009) -> Mystery,Short,Thriller] 
+
+  path: 2[1249963 -> 8002078], [Blue Window (2009) -> suspense] 
+
+srcNodes: [5000172, 5001041, 8002078]
+  path: 0[1401109 -> 2314118 -> 1476864 -> 5000172], [Glass (2008/I) -> Cox, Lara -> Kangaroo Jack (2003) -> Adventure,Comedy,Crime] 
+
+  path: 1[1401109 -> 5001041], [Glass (2008/I) -> Short,Thriller,Drama] 
+
+  path: 2[1401109 -> 8002078], [Glass (2008/I) -> suspense] 
+
+srcNodes: [5000072, 5000057, 8001753]
+  path: 0[1472724 -> 2161519 -> 1251570 -> 5000072], [Jurm (2005) -> Kapoor, Shakti (I) -> Bold (2006) -> Crime] 
+
+  path: 1[1472724 -> 5000057], [Jurm (2005) -> Thriller] 
+
+  path: 2[1472724 -> 4003940 -> 1129149 -> 8001753], [Jurm (2005) -> Bhatt, Vikram -> "Who Done It?" (2010) -> murder,suspense] 
+
+srcNodes: [5000072, 5000057, 8008479]
+  path: 0[1207052 -> 2475607 -> 1516999 -> 5000072], [An Organization of Dreams (2009) -> Wright, Gabriella (I) -> Le dernier gang (2007) -> Crime] 
+
+  path: 1[1207052 -> 5000057], [An Organization of Dreams (2009) -> Thriller] 
+
+  path: 2[1207052 -> 2254134 -> 1304947 -> 8008479], [An Organization of Dreams (2009) -> Pinon, Dominique -> Darkhunters (2004) -> angel,suspense] 
+
+srcNodes: [5000072, 5000057, 8016670]
+  path: 0[1718748 -> 2263237 -> 1472994 -> 5000072], [Sound of Mind (2012) -> Ramirez, Efren -> Just Hustle (2004) -> Crime] 
+
+  path: 1[1718748 -> 5000057], [Sound of Mind (2012) -> Thriller] 
+
+  path: 2[1718748 -> 2364939 -> 1475708 -> 8016670], [Sound of Mind (2012) -> Jordanova, Anya Bergstedt -> Kalamity (2010) -> girlfriend,suspense] 
+
+srcNodes: [5001845, 5000057, 8002078]
+  path: 0[1392633 -> 2388419 -> 1782470 -> 5001845], [Galatea (2008) -> Magni, Natalia -> The International (2009/I) -> Action,Crime,Mystery,Thriller] 
+
+  path: 1[1392633 -> 5000057], [Galatea (2008) -> Thriller] 
+
+  path: 2[1392633 -> 2073215 -> 1591545 -> 8002078], [Galatea (2008) -> Darchuk, Carl -> Near Death (2004) -> suspense] 
+
+-----------------------------------------
+ResultDestNodes: [1809577, 1456569, 1852371, 1475708, 1532804, 1532179, 1618880, 1129149, 1747403, 1249963, 1401109, 1472724, 1207052, 1718748, 1392633]
+ResultRelevs: [10.585323333740234, 10.367443084716797, 9.985917091369629, 9.93810749053955, 9.829751968383789, 9.78797721862793, 9.78797721862793, 9.615991592407227, 9.407943725585938, 9.392765998840332, 9.392765045166016, 9.361628532409668, 9.361628532409668, 9.361628532409668, 9.296871185302734]
+AvgResultRelev: 9.698248036702473
+AvgResultDissimilarity: 0.7171428571428573
+Num of entries retrieved from the KNLists: 9301
+Num of entries retrieved from NKMaps: 17544
+Num of answer trees explored: 5838
+Num of states created: 243869
+Num of states explored: 241510
+Num of heuristic search performed: 39
+
+Div Top-k Search by Astar1nc_ap_new, k=15
+[crime, thriller, suspense]
+srcNodes: [5000072, 5000057, 8002078]
+  path: 0[1440095 -> 2149293 -> 1603492 -> 5000072], [I Love You, Baby (2000) -> Irrek, Mario -> Null Uhr 12 (2001) -> Crime] 
+
+  path: 1[1440095 -> 5000057], [I Love You, Baby (2000) -> Thriller] 
+
+  path: 2[1440095 -> 2075925 -> 1349997 -> 8002078], [I Love You, Baby (2000) -> de la Fuente, Antonio (I) -> El arte de morir (2000) -> suspense] 
+
+srcNodes: [5001354, 5001354, 8002078]
+  path: 0[1456569 -> 5001354], [Interrogation (2006/I) -> Thriller,Crime,Drama,Mystery] 
+
+  path: 1[1456569 -> 5001354], [Interrogation (2006/I) -> Thriller,Crime,Drama,Mystery] 
+
+  path: 2[1456569 -> 8002078], [Interrogation (2006/I) -> suspense] 
+
+srcNodes: [5000709, 5000766, 8002078]
+  path: 0[1852371 -> 2077165 -> 1569958 -> 5000709], [Undone (2008/II) -> Decaro, Brian -> Miss Congeniality (2000) -> Action,Comedy,Crime] 
+
+  path: 1[1852371 -> 5000766], [Undone (2008/II) -> Short,Thriller] 
+
+  path: 2[1852371 -> 8002078], [Undone (2008/II) -> suspense] 
+
+srcNodes: [5000555, 5000057, 8016670]
+  path: 0[1475708 -> 2104132 -> 1824033 -> 5000555], [Kalamity (2010) -> Forster, Robert (I) -> Thick as Thieves (2009/I) -> Crime,Thriller] 
+
+  path: 1[1475708 -> 5000057], [Kalamity (2010) -> Thriller] 
+
+  path: 2[1475708 -> 8016670], [Kalamity (2010) -> girlfriend,suspense] 
+
+srcNodes: [5000072, 5000057, 8018905]
+  path: 0[1532804 -> 2129271 -> 1353353 -> 5000072], [Little Bruno (2007) -> Halpin, Tim (I) -> El padrino 2 (2008) -> Crime] 
+
+  path: 1[1532804 -> 5000057], [Little Bruno (2007) -> Thriller] 
+
+  path: 2[1532804 -> 8018905], [Little Bruno (2007) -> character-name-in-title,murder,suspense] 
+
+srcNodes: [5003893, 5003893, 8002078]
+  path: 0[1532179 -> 5003893], [Lions, Tigers, Bears (2009) -> Drama,Short,Thriller,Action,Crime] 
+
+  path: 1[1532179 -> 5003893], [Lions, Tigers, Bears (2009) -> Drama,Short,Thriller,Action,Crime] 
+
+  path: 2[1532179 -> 8002078], [Lions, Tigers, Bears (2009) -> suspense] 
+
+srcNodes: [5001050, 5001050, 8002078]
+  path: 0[1618880 -> 5001050], [Other (2010) -> Short,Thriller,Crime,Drama,Mystery] 
+
+  path: 1[1618880 -> 5001050], [Other (2010) -> Short,Thriller,Crime,Drama,Mystery] 
+
+  path: 2[1618880 -> 8002078], [Other (2010) -> suspense] 
+
+srcNodes: [5000482, 5000057, 8001753]
+  path: 0[1129149 -> 4003940 -> 1223807 -> 5000482], ["Who Done It?" (2010) -> Bhatt, Vikram -> Awara Paagal Deewana (2002) -> Drama,Action,Comedy,Crime] 
+
+  path: 1[1129149 -> 5000057], ["Who Done It?" (2010) -> Thriller] 
+
+  path: 2[1129149 -> 8001753], ["Who Done It?" (2010) -> murder,suspense] 
+
+srcNodes: [1295473, 5000057, 8002078]
+  path: 0[1747403 -> 4013168 -> 1631572 -> 2381122 -> 1295473], [Temptation (2003/II) -> Ezequiel (III) -> Penumbra (2012) -> Lenk, Katrina -> Crime Fiction (2007)] 
+
+  path: 1[1747403 -> 4013168 -> 1631572 -> 5000057], [Temptation (2003/II) -> Ezequiel (III) -> Penumbra (2012) -> Thriller] 
+
+  path: 2[1747403 -> 8002078], [Temptation (2003/II) -> suspense] 
+
+srcNodes: [5000027, 5000751, 8002078]
+  path: 0[1249963 -> 2033838 -> 1714217 -> 5000027], [Blue Window (2009) -> Booker, Mark (II) -> Soap on a Rope (2011) -> Comedy,Crime,Drama] 
+
+  path: 1[1249963 -> 5000751], [Blue Window (2009) -> Mystery,Short,Thriller] 
+
+  path: 2[1249963 -> 8002078], [Blue Window (2009) -> suspense] 
+
+srcNodes: [5000172, 5001041, 8002078]
+  path: 0[1401109 -> 2314118 -> 1476864 -> 5000172], [Glass (2008/I) -> Cox, Lara -> Kangaroo Jack (2003) -> Adventure,Comedy,Crime] 
+
+  path: 1[1401109 -> 5001041], [Glass (2008/I) -> Short,Thriller,Drama] 
+
+  path: 2[1401109 -> 8002078], [Glass (2008/I) -> suspense] 
+
+srcNodes: [5000072, 5000057, 8001753]
+  path: 0[1472724 -> 2161519 -> 1251570 -> 5000072], [Jurm (2005) -> Kapoor, Shakti (I) -> Bold (2006) -> Crime] 
+
+  path: 1[1472724 -> 5000057], [Jurm (2005) -> Thriller] 
+
+  path: 2[1472724 -> 4003940 -> 1129149 -> 8001753], [Jurm (2005) -> Bhatt, Vikram -> "Who Done It?" (2010) -> murder,suspense] 
+
+srcNodes: [5000072, 5000057, 8008479]
+  path: 0[1207052 -> 2475607 -> 1516999 -> 5000072], [An Organization of Dreams (2009) -> Wright, Gabriella (I) -> Le dernier gang (2007) -> Crime] 
+
+  path: 1[1207052 -> 5000057], [An Organization of Dreams (2009) -> Thriller] 
+
+  path: 2[1207052 -> 2254134 -> 1304947 -> 8008479], [An Organization of Dreams (2009) -> Pinon, Dominique -> Darkhunters (2004) -> angel,suspense] 
+
+srcNodes: [5000072, 5000057, 8016670]
+  path: 0[1718748 -> 2263237 -> 1472994 -> 5000072], [Sound of Mind (2012) -> Ramirez, Efren -> Just Hustle (2004) -> Crime] 
+
+  path: 1[1718748 -> 5000057], [Sound of Mind (2012) -> Thriller] 
+
+  path: 2[1718748 -> 2364939 -> 1475708 -> 8016670], [Sound of Mind (2012) -> Jordanova, Anya Bergstedt -> Kalamity (2010) -> girlfriend,suspense] 
+
+srcNodes: [5001845, 5000057, 8002078]
+  path: 0[1392633 -> 2388419 -> 1782470 -> 5001845], [Galatea (2008) -> Magni, Natalia -> The International (2009/I) -> Action,Crime,Mystery,Thriller] 
+
+  path: 1[1392633 -> 5000057], [Galatea (2008) -> Thriller] 
+
+  path: 2[1392633 -> 2073215 -> 1591545 -> 8002078], [Galatea (2008) -> Darchuk, Carl -> Near Death (2004) -> suspense] 
+
+-----------------------------------------
+ResultDestNodes: [1440095, 1456569, 1852371, 1475708, 1532804, 1532179, 1618880, 1129149, 1747403, 1249963, 1401109, 1472724, 1207052, 1718748, 1392633]
+ResultRelevs: [10.585323333740234, 10.367443084716797, 9.985917091369629, 9.93810749053955, 9.829751968383789, 9.78797721862793, 9.78797721862793, 9.615991592407227, 9.407943725585938, 9.392765998840332, 9.392765045166016, 9.361628532409668, 9.361628532409668, 9.361628532409668, 9.296871185302734]
+AvgResultRelev: 9.698248036702473
+AvgResultDissimilarity: 0.7171428571428573
+Num of entries retrieved from the KNLists: 10954
+Num of entries retrieved from NKMaps: 20398
+Num of answer trees explored: 6712
+Num of states created: 3965
+Num of states explored: 1063
+Num of heuristic search performed: 6
+
+query: [colony, rebellion, war]
+Top-k Search by Blink-BDB, k=5
+[colony, rebellion, war]
+srcNodes: [2311758, 8018522, 5003590]
+  path: 0[2311758 -> 2311758], [Colony, Elisabeth -> Colony, Elisabeth]
+  path: 1[2311758 -> 1494465 -> 2296262 -> 1525075 -> 8018522], [Colony, Elisabeth -> L'enfer (2005) -> Bouquet, Carole -> Les fautes d'orthographe (2004) -> boys-school,friendship,locker-room,male-full-frontal-nudity,male-nudity,male-underwear,nudity,rebellion,shower] 
+
+  path: 2[2311758 -> 1494465 -> 2341572 -> 1511234 -> 5003590], [Colony, Elisabeth -> L'enfer (2005) -> Gillain, Marie -> Laissez-passer (2002) -> Biography,Drama,History,War] 
+
+srcNodes: [1672015, 1395555, 5000166]
+  path: 0[1871457 -> 2264597 -> 1747093 -> 2053900 -> 1672015], [War Horse (2011) -> Ratajczak, Robert Roman -> Telstar: The Joe Meek Story (2008) -> Chalkley, Michael -> Roanoke: The Lost Colony (2007)] 
+
+  path: 1[1871457 -> 2221850 -> 1533247 -> 2179628 -> 1395555], [War Horse (2011) -> Moore, Alex (V) -> Little Nicky (2000) -> Lang, Lex -> Gekijô ban Bleach: The DiamondDust Rebellion - Mô hitotsu no hyôrinmaru (2007)] 
+
+  path: 2[1871457 -> 5000166], [War Horse (2011) -> War] 
+
+srcNodes: [2311758, 8018522, 5003590]
+  path: 0[1494465 -> 2311758], [L'enfer (2005) -> Colony, Elisabeth] 
+
+  path: 1[1494465 -> 2296262 -> 1525075 -> 8018522], [L'enfer (2005) -> Bouquet, Carole -> Les fautes d'orthographe (2004) -> boys-school,friendship,locker-room,male-full-frontal-nudity,male-nudity,male-underwear,nudity,rebellion,shower] 
+
+  path: 2[1494465 -> 2341572 -> 1511234 -> 5003590], [L'enfer (2005) -> Gillain, Marie -> Laissez-passer (2002) -> Biography,Drama,History,War] 
+
+srcNodes: [2311758, 1395555, 5000166]
+  path: 0[2048017 -> 1494465 -> 2311758], [Canet, Guillaume -> L'enfer (2005) -> Colony, Elisabeth] 
+
+  path: 1[2048017 -> 1863513 -> 2452672 -> 1395555], [Canet, Guillaume -> Vidocq (2001) -> Strassman, Karen -> Gekijô ban Bleach: The DiamondDust Rebellion - Mô hitotsu no hyôrinmaru (2007)] 
+
+  path: 2[2048017 -> 1492810 -> 2011617 -> 1871457 -> 5000166], [Canet, Guillaume -> L'affaire Farewell (2009) -> Arestrup, Niels -> War Horse (2011) -> War] 
+
+srcNodes: [2311758, 1395555, 5000166]
+  path: 0[2053675 -> 1695278 -> 2110000 -> 1494465 -> 2311758], [Chadov, Aleksey -> Serko (2006) -> Gamblin, Jacques -> L'enfer (2005) -> Colony, Elisabeth] 
+
+  path: 1[2053675 -> 1599953 -> 2192787 -> 1395555], [Chadov, Aleksey -> Nochnoy dozor (2004) -> Lowenthal, Yuri -> Gekijô ban Bleach: The DiamondDust Rebellion - Mô hitotsu no hyôrinmaru (2007)] 
+
+  path: 2[2053675 -> 1586584 -> 5000166], [Chadov, Aleksey -> Na bezymyannoy vysote (2004) -> War] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [2311758, 1871457, 1494465, 2048017, 2053675]
+ResultRelevs: [7.856373310089111, 6.70205020904541, 6.515172958374023, 6.2870330810546875, 6.277388095855713]
+AvgResultRelev: 6.727603530883789
+AvgResultDissimilarity: 0.5333333333333333
+Num of entries retrieved from the lists: 2799
+Num of entries retrieved from NKMaps: 3811
+Num of answer trees explored: 965
+
+Div Top-k Search by Exhustive, k=5
+[colony, rebellion, war]
+srcNodes: [2311758, 8018522, 5003590]
+  path: 0[2311758 -> 2311758], [Colony, Elisabeth -> Colony, Elisabeth]
+  path: 1[2311758 -> 1494465 -> 2296262 -> 1525075 -> 8018522], [Colony, Elisabeth -> L'enfer (2005) -> Bouquet, Carole -> Les fautes d'orthographe (2004) -> boys-school,friendship,locker-room,male-full-frontal-nudity,male-nudity,male-underwear,nudity,rebellion,shower] 
+
+  path: 2[2311758 -> 1494465 -> 2341572 -> 1511234 -> 5003590], [Colony, Elisabeth -> L'enfer (2005) -> Gillain, Marie -> Laissez-passer (2002) -> Biography,Drama,History,War] 
+
+srcNodes: [1672015, 1395555, 5000166]
+  path: 0[1871457 -> 2264597 -> 1747093 -> 2053900 -> 1672015], [War Horse (2011) -> Ratajczak, Robert Roman -> Telstar: The Joe Meek Story (2008) -> Chalkley, Michael -> Roanoke: The Lost Colony (2007)] 
+
+  path: 1[1871457 -> 2221850 -> 1533247 -> 2179628 -> 1395555], [War Horse (2011) -> Moore, Alex (V) -> Little Nicky (2000) -> Lang, Lex -> Gekijô ban Bleach: The DiamondDust Rebellion - Mô hitotsu no hyôrinmaru (2007)] 
+
+  path: 2[1871457 -> 5000166], [War Horse (2011) -> War] 
+
+srcNodes: [1763419, 1395555, 1871383]
+  path: 0[1871383 -> 2152931 -> 1345698 -> 2310167 -> 1763419], [War (2007) -> Jarrett, Paul (I) -> Eclipse (2010/I) -> Clarke, Sarah (I) -> The Colony (2007/II)] 
+
+  path: 1[1871383 -> 2192282 -> 412249 -> 2149992 -> 1395555], [War (2007) -> Louie, Mark -> "Hikaru no go" (2001) -> Itô, Kentarô -> Gekijô ban Bleach: The DiamondDust Rebellion - Mô hitotsu no hyôrinmaru (2007)] 
+
+  path: 2[1871383 -> 1871383], [War (2007) -> War (2007)]
+srcNodes: [1672015, 1395555, 5003180]
+  path: 0[1405973 -> 2004779 -> 1208330 -> 2170664 -> 1672015], [Grace and Danger (2011) -> Alderson, Giles -> Anaphylaxis (2010) -> Knight, Fraser -> Roanoke: The Lost Colony (2007)] 
+
+  path: 1[1405973 -> 2123126 -> 1839984 -> 2030965 -> 1395555], [Grace and Danger (2011) -> Gregory, Leo (I) -> Tristan + Isolde (2006) -> Blanc, JB -> Gekijô ban Bleach: The DiamondDust Rebellion - Mô hitotsu no hyôrinmaru (2007)] 
+
+  path: 2[1405973 -> 5003180], [Grace and Danger (2011) -> War,War] 
+
+srcNodes: [2311758, 8005737, 5000166]
+  path: 0[1492810 -> 2048017 -> 1494465 -> 2311758], [L'affaire Farewell (2009) -> Canet, Guillaume -> L'enfer (2005) -> Colony, Elisabeth] 
+
+  path: 1[1492810 -> 2187040 -> 1254153 -> 8005737], [L'affaire Farewell (2009) -> Lewis, Gary (III) -> Boudica (2003) -> battle,female-nudity,iceni,rebellion,roman,roman-empire,warrior-queen] 
+
+  path: 2[1492810 -> 2011617 -> 1871457 -> 5000166], [L'affaire Farewell (2009) -> Arestrup, Niels -> War Horse (2011) -> War] 
+
+Dissims of Subsets and t:
+(0~0, 1) : 1.0
+(0~1, 2) : 0.8333333333333333
+(0~2, 3) : 0.6666666666666666
+(0~3, 4) : 0.8333333333333333
+-----------------------------------------
+ResultDestNodes: [2311758, 1871457, 1871383, 1405973, 1492810]
+ResultRelevs: [7.856373310089111, 6.70205020904541, 6.24570369720459, 6.201326370239258, 6.108677864074707]
+AvgResultRelev: 6.622826290130615
+AvgResultDissimilarity: 0.8
+Num of entries retrieved from the KNLists: 2865
+Num of entries retrieved from NKMaps: 3908
+Num of answer trees explored: 996
+Num of answer tree sets created: 85
+Num of answer tree sets removed: 6
+
+Div Top-k Search by Astar02, k=5
+[colony, rebellion, war]
+srcNodes: [2311758, 8018522, 5003590]
+  path: 0[2311758 -> 2311758], [Colony, Elisabeth -> Colony, Elisabeth]
+  path: 1[2311758 -> 1494465 -> 2296262 -> 1525075 -> 8018522], [Colony, Elisabeth -> L'enfer (2005) -> Bouquet, Carole -> Les fautes d'orthographe (2004) -> boys-school,friendship,locker-room,male-full-frontal-nudity,male-nudity,male-underwear,nudity,rebellion,shower] 
+
+  path: 2[2311758 -> 1494465 -> 2341572 -> 1511234 -> 5003590], [Colony, Elisabeth -> L'enfer (2005) -> Gillain, Marie -> Laissez-passer (2002) -> Biography,Drama,History,War] 
+
+srcNodes: [1672015, 1395555, 5000166]
+  path: 0[1871457 -> 2264597 -> 1747093 -> 2053900 -> 1672015], [War Horse (2011) -> Ratajczak, Robert Roman -> Telstar: The Joe Meek Story (2008) -> Chalkley, Michael -> Roanoke: The Lost Colony (2007)] 
+
+  path: 1[1871457 -> 2221850 -> 1533247 -> 2179628 -> 1395555], [War Horse (2011) -> Moore, Alex (V) -> Little Nicky (2000) -> Lang, Lex -> Gekijô ban Bleach: The DiamondDust Rebellion - Mô hitotsu no hyôrinmaru (2007)] 
+
+  path: 2[1871457 -> 5000166], [War Horse (2011) -> War] 
+
+srcNodes: [1763419, 1395555, 1871383]
+  path: 0[1871383 -> 2152931 -> 1345698 -> 2310167 -> 1763419], [War (2007) -> Jarrett, Paul (I) -> Eclipse (2010/I) -> Clarke, Sarah (I) -> The Colony (2007/II)] 
+
+  path: 1[1871383 -> 2192282 -> 412249 -> 2149992 -> 1395555], [War (2007) -> Louie, Mark -> "Hikaru no go" (2001) -> Itô, Kentarô -> Gekijô ban Bleach: The DiamondDust Rebellion - Mô hitotsu no hyôrinmaru (2007)] 
+
+  path: 2[1871383 -> 1871383], [War (2007) -> War (2007)]
+srcNodes: [1672015, 1395555, 5003180]
+  path: 0[1405973 -> 2004779 -> 1208330 -> 2170664 -> 1672015], [Grace and Danger (2011) -> Alderson, Giles -> Anaphylaxis (2010) -> Knight, Fraser -> Roanoke: The Lost Colony (2007)] 
+
+  path: 1[1405973 -> 2123126 -> 1839984 -> 2030965 -> 1395555], [Grace and Danger (2011) -> Gregory, Leo (I) -> Tristan + Isolde (2006) -> Blanc, JB -> Gekijô ban Bleach: The DiamondDust Rebellion - Mô hitotsu no hyôrinmaru (2007)] 
+
+  path: 2[1405973 -> 5003180], [Grace and Danger (2011) -> War,War] 
+
+srcNodes: [2311758, 8005737, 5000166]
+  path: 0[1492810 -> 2048017 -> 1494465 -> 2311758], [L'affaire Farewell (2009) -> Canet, Guillaume -> L'enfer (2005) -> Colony, Elisabeth] 
+
+  path: 1[1492810 -> 2187040 -> 1254153 -> 8005737], [L'affaire Farewell (2009) -> Lewis, Gary (III) -> Boudica (2003) -> battle,female-nudity,iceni,rebellion,roman,roman-empire,warrior-queen] 
+
+  path: 2[1492810 -> 2011617 -> 1871457 -> 5000166], [L'affaire Farewell (2009) -> Arestrup, Niels -> War Horse (2011) -> War] 
+
+-----------------------------------------
+ResultDestNodes: [2311758, 1871457, 1871383, 1405973, 1492810]
+ResultRelevs: [7.856373310089111, 6.70205020904541, 6.24570369720459, 6.201326370239258, 6.108677864074707]
+AvgResultRelev: 6.622826290130615
+AvgResultDissimilarity: 0.8
+Num of entries retrieved from the KNLists: 2865
+Num of entries retrieved from NKMaps: 3908
+Num of answer trees explored: 996
+Num of states created: 103
+Num of states explored: 88
+Num of heuristic search performed: 4
+
+Div Top-k Search by Astar1nc_ap_new, k=5
+[colony, rebellion, war]
+srcNodes: [2311758, 8018522, 5003590]
+  path: 0[2311758 -> 2311758], [Colony, Elisabeth -> Colony, Elisabeth]
+  path: 1[2311758 -> 1494465 -> 2296262 -> 1525075 -> 8018522], [Colony, Elisabeth -> L'enfer (2005) -> Bouquet, Carole -> Les fautes d'orthographe (2004) -> boys-school,friendship,locker-room,male-full-frontal-nudity,male-nudity,male-underwear,nudity,rebellion,shower] 
+
+  path: 2[2311758 -> 1494465 -> 2341572 -> 1511234 -> 5003590], [Colony, Elisabeth -> L'enfer (2005) -> Gillain, Marie -> Laissez-passer (2002) -> Biography,Drama,History,War] 
+
+srcNodes: [1672015, 1395555, 5000166]
+  path: 0[1871457 -> 2264597 -> 1747093 -> 2053900 -> 1672015], [War Horse (2011) -> Ratajczak, Robert Roman -> Telstar: The Joe Meek Story (2008) -> Chalkley, Michael -> Roanoke: The Lost Colony (2007)] 
+
+  path: 1[1871457 -> 2221850 -> 1533247 -> 2179628 -> 1395555], [War Horse (2011) -> Moore, Alex (V) -> Little Nicky (2000) -> Lang, Lex -> Gekijô ban Bleach: The DiamondDust Rebellion - Mô hitotsu no hyôrinmaru (2007)] 
+
+  path: 2[1871457 -> 5000166], [War Horse (2011) -> War] 
+
+srcNodes: [1763419, 1395555, 1871383]
+  path: 0[1871383 -> 2152931 -> 1345698 -> 2310167 -> 1763419], [War (2007) -> Jarrett, Paul (I) -> Eclipse (2010/I) -> Clarke, Sarah (I) -> The Colony (2007/II)] 
+
+  path: 1[1871383 -> 2192282 -> 412249 -> 2149992 -> 1395555], [War (2007) -> Louie, Mark -> "Hikaru no go" (2001) -> Itô, Kentarô -> Gekijô ban Bleach: The DiamondDust Rebellion - Mô hitotsu no hyôrinmaru (2007)] 
+
+  path: 2[1871383 -> 1871383], [War (2007) -> War (2007)]
+srcNodes: [1672015, 1395555, 5003180]
+  path: 0[1405973 -> 2004779 -> 1208330 -> 2170664 -> 1672015], [Grace and Danger (2011) -> Alderson, Giles -> Anaphylaxis (2010) -> Knight, Fraser -> Roanoke: The Lost Colony (2007)] 
+
+  path: 1[1405973 -> 2123126 -> 1839984 -> 2030965 -> 1395555], [Grace and Danger (2011) -> Gregory, Leo (I) -> Tristan + Isolde (2006) -> Blanc, JB -> Gekijô ban Bleach: The DiamondDust Rebellion - Mô hitotsu no hyôrinmaru (2007)] 
+
+  path: 2[1405973 -> 5003180], [Grace and Danger (2011) -> War,War] 
+
+srcNodes: [2311758, 8005737, 5000166]
+  path: 0[1492810 -> 2048017 -> 1494465 -> 2311758], [L'affaire Farewell (2009) -> Canet, Guillaume -> L'enfer (2005) -> Colony, Elisabeth] 
+
+  path: 1[1492810 -> 2187040 -> 1254153 -> 8005737], [L'affaire Farewell (2009) -> Lewis, Gary (III) -> Boudica (2003) -> battle,female-nudity,iceni,rebellion,roman,roman-empire,warrior-queen] 
+
+  path: 2[1492810 -> 2011617 -> 1871457 -> 5000166], [L'affaire Farewell (2009) -> Arestrup, Niels -> War Horse (2011) -> War] 
+
+-----------------------------------------
+ResultDestNodes: [2311758, 1871457, 1871383, 1405973, 1492810]
+ResultRelevs: [7.856373310089111, 6.70205020904541, 6.24570369720459, 6.201326370239258, 6.108677864074707]
+AvgResultRelev: 6.622826290130615
+AvgResultDissimilarity: 0.8
+Num of entries retrieved from the KNLists: 4563
+Num of entries retrieved from NKMaps: 6177
+Num of answer trees explored: 1560
+Num of states created: 17
+Num of states explored: 7
+Num of heuristic search performed: 2
+
+Top-k Search by Blink-BDB, k=10
+[colony, rebellion, war]
+srcNodes: [2311758, 8018522, 5003590]
+  path: 0[2311758 -> 2311758], [Colony, Elisabeth -> Colony, Elisabeth]
+  path: 1[2311758 -> 1494465 -> 2296262 -> 1525075 -> 8018522], [Colony, Elisabeth -> L'enfer (2005) -> Bouquet, Carole -> Les fautes d'orthographe (2004) -> boys-school,friendship,locker-room,male-full-frontal-nudity,male-nudity,male-underwear,nudity,rebellion,shower] 
+
+  path: 2[2311758 -> 1494465 -> 2341572 -> 1511234 -> 5003590], [Colony, Elisabeth -> L'enfer (2005) -> Gillain, Marie -> Laissez-passer (2002) -> Biography,Drama,History,War] 
+
+srcNodes: [1672015, 1395555, 5000166]
+  path: 0[1871457 -> 2264597 -> 1747093 -> 2053900 -> 1672015], [War Horse (2011) -> Ratajczak, Robert Roman -> Telstar: The Joe Meek Story (2008) -> Chalkley, Michael -> Roanoke: The Lost Colony (2007)] 
+
+  path: 1[1871457 -> 2221850 -> 1533247 -> 2179628 -> 1395555], [War Horse (2011) -> Moore, Alex (V) -> Little Nicky (2000) -> Lang, Lex -> Gekijô ban Bleach: The DiamondDust Rebellion - Mô hitotsu no hyôrinmaru (2007)] 
+
+  path: 2[1871457 -> 5000166], [War Horse (2011) -> War] 
+
+srcNodes: [2311758, 8018522, 5003590]
+  path: 0[1494465 -> 2311758], [L'enfer (2005) -> Colony, Elisabeth] 
+
+  path: 1[1494465 -> 2296262 -> 1525075 -> 8018522], [L'enfer (2005) -> Bouquet, Carole -> Les fautes d'orthographe (2004) -> boys-school,friendship,locker-room,male-full-frontal-nudity,male-nudity,male-underwear,nudity,rebellion,shower] 
+
+  path: 2[1494465 -> 2341572 -> 1511234 -> 5003590], [L'enfer (2005) -> Gillain, Marie -> Laissez-passer (2002) -> Biography,Drama,History,War] 
+
+srcNodes: [2311758, 1395555, 5000166]
+  path: 0[2048017 -> 1494465 -> 2311758], [Canet, Guillaume -> L'enfer (2005) -> Colony, Elisabeth] 
+
+  path: 1[2048017 -> 1863513 -> 2452672 -> 1395555], [Canet, Guillaume -> Vidocq (2001) -> Strassman, Karen -> Gekijô ban Bleach: The DiamondDust Rebellion - Mô hitotsu no hyôrinmaru (2007)] 
+
+  path: 2[2048017 -> 1492810 -> 2011617 -> 1871457 -> 5000166], [Canet, Guillaume -> L'affaire Farewell (2009) -> Arestrup, Niels -> War Horse (2011) -> War] 
+
+srcNodes: [2311758, 1395555, 5000166]
+  path: 0[2053675 -> 1695278 -> 2110000 -> 1494465 -> 2311758], [Chadov, Aleksey -> Serko (2006) -> Gamblin, Jacques -> L'enfer (2005) -> Colony, Elisabeth] 
+
+  path: 1[2053675 -> 1599953 -> 2192787 -> 1395555], [Chadov, Aleksey -> Nochnoy dozor (2004) -> Lowenthal, Yuri -> Gekijô ban Bleach: The DiamondDust Rebellion - Mô hitotsu no hyôrinmaru (2007)] 
+
+  path: 2[2053675 -> 1586584 -> 5000166], [Chadov, Aleksey -> Na bezymyannoy vysote (2004) -> War] 
+
+srcNodes: [1763419, 1395555, 1871383]
+  path: 0[1871383 -> 2152931 -> 1345698 -> 2310167 -> 1763419], [War (2007) -> Jarrett, Paul (I) -> Eclipse (2010/I) -> Clarke, Sarah (I) -> The Colony (2007/II)] 
+
+  path: 1[1871383 -> 2192282 -> 412249 -> 2149992 -> 1395555], [War (2007) -> Louie, Mark -> "Hikaru no go" (2001) -> Itô, Kentarô -> Gekijô ban Bleach: The DiamondDust Rebellion - Mô hitotsu no hyôrinmaru (2007)] 
+
+  path: 2[1871383 -> 1871383], [War (2007) -> War (2007)]
+srcNodes: [1672015, 1395555, 5003180]
+  path: 0[1405973 -> 2004779 -> 1208330 -> 2170664 -> 1672015], [Grace and Danger (2011) -> Alderson, Giles -> Anaphylaxis (2010) -> Knight, Fraser -> Roanoke: The Lost Colony (2007)] 
+
+  path: 1[1405973 -> 2123126 -> 1839984 -> 2030965 -> 1395555], [Grace and Danger (2011) -> Gregory, Leo (I) -> Tristan + Isolde (2006) -> Blanc, JB -> Gekijô ban Bleach: The DiamondDust Rebellion - Mô hitotsu no hyôrinmaru (2007)] 
+
+  path: 2[1405973 -> 5003180], [Grace and Danger (2011) -> War,War] 
+
+srcNodes: [2311758, 8005737, 5000166]
+  path: 0[1492810 -> 2048017 -> 1494465 -> 2311758], [L'affaire Farewell (2009) -> Canet, Guillaume -> L'enfer (2005) -> Colony, Elisabeth] 
+
+  path: 1[1492810 -> 2187040 -> 1254153 -> 8005737], [L'affaire Farewell (2009) -> Lewis, Gary (III) -> Boudica (2003) -> battle,female-nudity,iceni,rebellion,roman,roman-empire,warrior-queen] 
+
+  path: 2[1492810 -> 2011617 -> 1871457 -> 5000166], [L'affaire Farewell (2009) -> Arestrup, Niels -> War Horse (2011) -> War] 
+
+srcNodes: [1672015, 8005737, 5000166]
+  path: 0[2264597 -> 1747093 -> 2053900 -> 1672015], [Ratajczak, Robert Roman -> Telstar: The Joe Meek Story (2008) -> Chalkley, Michael -> Roanoke: The Lost Colony (2007)] 
+
+  path: 1[2264597 -> 1821309 -> 2294404 -> 1254153 -> 8005737], [Ratajczak, Robert Roman -> The Wolfman (2010) -> Blunt, Emily -> Boudica (2003) -> battle,female-nudity,iceni,rebellion,roman,roman-empire,warrior-queen] 
+
+  path: 2[2264597 -> 1871457 -> 5000166], [Ratajczak, Robert Roman -> War Horse (2011) -> War] 
+
+srcNodes: [1672015, 8005737, 5000166]
+  path: 0[2035729 -> 1537020 -> 2224274 -> 1672015], [Bowe, Chris (II) -> Loose End (2009) -> Morter, Damian -> Roanoke: The Lost Colony (2007)] 
+
+  path: 1[2035729 -> 1268261 -> 2064667 -> 1254153 -> 8005737], [Bowe, Chris (II) -> Captain America: The First Avenger (2011) -> Cooper, Dominic -> Boudica (2003) -> battle,female-nudity,iceni,rebellion,roman,roman-empire,warrior-queen] 
+
+  path: 2[2035729 -> 1871457 -> 5000166], [Bowe, Chris (II) -> War Horse (2011) -> War] 
+
+-----------------------------------------
+Num of top-k answers: 10
+ResultDestNodes: [2311758, 1871457, 1494465, 2048017, 2053675, 1871383, 1405973, 1492810, 2264597, 2035729]
+ResultRelevs: [7.856373310089111, 6.70205020904541, 6.515172958374023, 6.2870330810546875, 6.277388095855713, 6.24570369720459, 6.201326370239258, 6.108677864074707, 6.097342014312744, 6.097342014312744]
+AvgResultRelev: 6.4388409614562985
+AvgResultDissimilarity: 0.6592592592592592
+Num of entries retrieved from the lists: 4563
+Num of entries retrieved from NKMaps: 6177
+Num of answer trees explored: 1560
+
+Div Top-k Search by Exhustive, k=10
+[colony, rebellion, war]
+srcNodes: [2311758, 8018522, 5003590]
+  path: 0[2311758 -> 2311758], [Colony, Elisabeth -> Colony, Elisabeth]
+  path: 1[2311758 -> 1494465 -> 2296262 -> 1525075 -> 8018522], [Colony, Elisabeth -> L'enfer (2005) -> Bouquet, Carole -> Les fautes d'orthographe (2004) -> boys-school,friendship,locker-room,male-full-frontal-nudity,male-nudity,male-underwear,nudity,rebellion,shower] 
+
+  path: 2[2311758 -> 1494465 -> 2341572 -> 1511234 -> 5003590], [Colony, Elisabeth -> L'enfer (2005) -> Gillain, Marie -> Laissez-passer (2002) -> Biography,Drama,History,War] 
+
+srcNodes: [1672015, 1395555, 5000166]
+  path: 0[1871457 -> 2264597 -> 1747093 -> 2053900 -> 1672015], [War Horse (2011) -> Ratajczak, Robert Roman -> Telstar: The Joe Meek Story (2008) -> Chalkley, Michael -> Roanoke: The Lost Colony (2007)] 
+
+  path: 1[1871457 -> 2221850 -> 1533247 -> 2179628 -> 1395555], [War Horse (2011) -> Moore, Alex (V) -> Little Nicky (2000) -> Lang, Lex -> Gekijô ban Bleach: The DiamondDust Rebellion - Mô hitotsu no hyôrinmaru (2007)] 
+
+  path: 2[1871457 -> 5000166], [War Horse (2011) -> War] 
+
+srcNodes: [1763419, 1395555, 1871383]
+  path: 0[1871383 -> 2152931 -> 1345698 -> 2310167 -> 1763419], [War (2007) -> Jarrett, Paul (I) -> Eclipse (2010/I) -> Clarke, Sarah (I) -> The Colony (2007/II)] 
+
+  path: 1[1871383 -> 2192282 -> 412249 -> 2149992 -> 1395555], [War (2007) -> Louie, Mark -> "Hikaru no go" (2001) -> Itô, Kentarô -> Gekijô ban Bleach: The DiamondDust Rebellion - Mô hitotsu no hyôrinmaru (2007)] 
+
+  path: 2[1871383 -> 1871383], [War (2007) -> War (2007)]
+srcNodes: [1672015, 1395555, 5003180]
+  path: 0[1405973 -> 2004779 -> 1208330 -> 2170664 -> 1672015], [Grace and Danger (2011) -> Alderson, Giles -> Anaphylaxis (2010) -> Knight, Fraser -> Roanoke: The Lost Colony (2007)] 
+
+  path: 1[1405973 -> 2123126 -> 1839984 -> 2030965 -> 1395555], [Grace and Danger (2011) -> Gregory, Leo (I) -> Tristan + Isolde (2006) -> Blanc, JB -> Gekijô ban Bleach: The DiamondDust Rebellion - Mô hitotsu no hyôrinmaru (2007)] 
+
+  path: 2[1405973 -> 5003180], [Grace and Danger (2011) -> War,War] 
+
+srcNodes: [2311758, 8005737, 5000166]
+  path: 0[1492810 -> 2048017 -> 1494465 -> 2311758], [L'affaire Farewell (2009) -> Canet, Guillaume -> L'enfer (2005) -> Colony, Elisabeth] 
+
+  path: 1[1492810 -> 2187040 -> 1254153 -> 8005737], [L'affaire Farewell (2009) -> Lewis, Gary (III) -> Boudica (2003) -> battle,female-nudity,iceni,rebellion,roman,roman-empire,warrior-queen] 
+
+  path: 2[1492810 -> 2011617 -> 1871457 -> 5000166], [L'affaire Farewell (2009) -> Arestrup, Niels -> War Horse (2011) -> War] 
+
+srcNodes: [1672015, 8005737, 5000166]
+  path: 0[2035729 -> 1537020 -> 2224274 -> 1672015], [Bowe, Chris (II) -> Loose End (2009) -> Morter, Damian -> Roanoke: The Lost Colony (2007)] 
+
+  path: 1[2035729 -> 1268261 -> 2064667 -> 1254153 -> 8005737], [Bowe, Chris (II) -> Captain America: The First Avenger (2011) -> Cooper, Dominic -> Boudica (2003) -> battle,female-nudity,iceni,rebellion,roman,roman-empire,warrior-queen] 
+
+  path: 2[2035729 -> 1871457 -> 5000166], [Bowe, Chris (II) -> War Horse (2011) -> War] 
+
+srcNodes: [2311758, 8005737, 5000166]
+  path: 0[2011617 -> 1492810 -> 2048017 -> 1494465 -> 2311758], [Arestrup, Niels -> L'affaire Farewell (2009) -> Canet, Guillaume -> L'enfer (2005) -> Colony, Elisabeth] 
+
+  path: 1[2011617 -> 1492810 -> 2187040 -> 1254153 -> 8005737], [Arestrup, Niels -> L'affaire Farewell (2009) -> Lewis, Gary (III) -> Boudica (2003) -> battle,female-nudity,iceni,rebellion,roman,roman-empire,warrior-queen] 
+
+  path: 2[2011617 -> 1871457 -> 5000166], [Arestrup, Niels -> War Horse (2011) -> War] 
+
+srcNodes: [1672015, 8014327, 5000166]
+  path: 0[2053900 -> 1672015], [Chalkley, Michael -> Roanoke: The Lost Colony (2007)] 
+
+  path: 1[2053900 -> 1747093 -> 2352067 -> 1426329 -> 8014327], [Chalkley, Michael -> Telstar: The Joe Meek Story (2008) -> Hayter, Libby -> Hippie Hippie Shake (2010) -> 1960s,australian-man,counter-culture,court-trial,editor,england,feminism,hippie,london-england,magazine,metaphor,oz,radicalism,rebellion,satirical-journal] 
+
+  path: 2[2053900 -> 1747093 -> 2264597 -> 1871457 -> 5000166], [Chalkley, Michael -> Telstar: The Joe Meek Story (2008) -> Ratajczak, Robert Roman -> War Horse (2011) -> War] 
+
+srcNodes: [2311758, 8012962, 1753874]
+  path: 0[2200348 -> 1494465 -> 2311758], [Manojlovic, Miki -> L'enfer (2005) -> Colony, Elisabeth] 
+
+  path: 1[2200348 -> 1485863 -> 2231172 -> 1401206 -> 8012962], [Manojlovic, Miki -> Klopka (2007) -> Nelevic, Mladen -> Gledaj me (2008) -> hypocrisy,rebellion,youth-movement] 
+
+  path: 2[2200348 -> 1512382 -> 2057138 -> 1753874], [Manojlovic, Miki -> Largo Winch (2008) -> Chin, Glen -> The Art of War (2000)] 
+
+srcNodes: [2311758, 8012962, 5000021]
+  path: 0[1485863 -> 2200348 -> 1494465 -> 2311758], [Klopka (2007) -> Manojlovic, Miki -> L'enfer (2005) -> Colony, Elisabeth] 
+
+  path: 1[1485863 -> 2231172 -> 1401206 -> 8012962], [Klopka (2007) -> Nelevic, Mladen -> Gledaj me (2008) -> hypocrisy,rebellion,youth-movement] 
+
+  path: 2[1485863 -> 2148258 -> 1591650 -> 5000021], [Klopka (2007) -> Ilic, Nebojsa -> Nebeska udica (2000) -> Drama,War] 
+
+Dissims of Subsets and t:
+(0~0, 1) : 1.0
+(0~1, 2) : 0.8333333333333333
+(0~2, 3) : 0.6666666666666666
+(0~3, 4) : 0.8333333333333333
+(0~4, 5) : 0.6666666666666666
+(0~5, 6) : 0.611111111111111
+(0~6, 7) : 0.6666666666666666
+(0~7, 8) : 0.875
+(0~8, 9) : 0.8148148148148148
+-----------------------------------------
+ResultDestNodes: [2311758, 1871457, 1871383, 1405973, 1492810, 2035729, 2011617, 2053900, 2200348, 1485863]
+ResultRelevs: [7.856373310089111, 6.70205020904541, 6.24570369720459, 6.201326370239258, 6.108677864074707, 6.097342014312744, 5.989721298217773, 5.956806182861328, 5.905856132507324, 5.8967719078063965]
+AvgResultRelev: 6.296062898635864
+AvgResultDissimilarity: 0.7555555555555558
+Num of entries retrieved from the KNLists: 4572
+Num of entries retrieved from NKMaps: 6190
+Num of answer trees explored: 1564
+Num of answer tree sets created: 3757
+Num of answer tree sets removed: 24
+
+Div Top-k Search by Astar02, k=10
+[colony, rebellion, war]
+srcNodes: [2311758, 8018522, 5003590]
+  path: 0[2311758 -> 2311758], [Colony, Elisabeth -> Colony, Elisabeth]
+  path: 1[2311758 -> 1494465 -> 2296262 -> 1525075 -> 8018522], [Colony, Elisabeth -> L'enfer (2005) -> Bouquet, Carole -> Les fautes d'orthographe (2004) -> boys-school,friendship,locker-room,male-full-frontal-nudity,male-nudity,male-underwear,nudity,rebellion,shower] 
+
+  path: 2[2311758 -> 1494465 -> 2341572 -> 1511234 -> 5003590], [Colony, Elisabeth -> L'enfer (2005) -> Gillain, Marie -> Laissez-passer (2002) -> Biography,Drama,History,War] 
+
+srcNodes: [1672015, 1395555, 5000166]
+  path: 0[1871457 -> 2264597 -> 1747093 -> 2053900 -> 1672015], [War Horse (2011) -> Ratajczak, Robert Roman -> Telstar: The Joe Meek Story (2008) -> Chalkley, Michael -> Roanoke: The Lost Colony (2007)] 
+
+  path: 1[1871457 -> 2221850 -> 1533247 -> 2179628 -> 1395555], [War Horse (2011) -> Moore, Alex (V) -> Little Nicky (2000) -> Lang, Lex -> Gekijô ban Bleach: The DiamondDust Rebellion - Mô hitotsu no hyôrinmaru (2007)] 
+
+  path: 2[1871457 -> 5000166], [War Horse (2011) -> War] 
+
+srcNodes: [1763419, 1395555, 1871383]
+  path: 0[1871383 -> 2152931 -> 1345698 -> 2310167 -> 1763419], [War (2007) -> Jarrett, Paul (I) -> Eclipse (2010/I) -> Clarke, Sarah (I) -> The Colony (2007/II)] 
+
+  path: 1[1871383 -> 2192282 -> 412249 -> 2149992 -> 1395555], [War (2007) -> Louie, Mark -> "Hikaru no go" (2001) -> Itô, Kentarô -> Gekijô ban Bleach: The DiamondDust Rebellion - Mô hitotsu no hyôrinmaru (2007)] 
+
+  path: 2[1871383 -> 1871383], [War (2007) -> War (2007)]
+srcNodes: [1672015, 1395555, 5003180]
+  path: 0[1405973 -> 2004779 -> 1208330 -> 2170664 -> 1672015], [Grace and Danger (2011) -> Alderson, Giles -> Anaphylaxis (2010) -> Knight, Fraser -> Roanoke: The Lost Colony (2007)] 
+
+  path: 1[1405973 -> 2123126 -> 1839984 -> 2030965 -> 1395555], [Grace and Danger (2011) -> Gregory, Leo (I) -> Tristan + Isolde (2006) -> Blanc, JB -> Gekijô ban Bleach: The DiamondDust Rebellion - Mô hitotsu no hyôrinmaru (2007)] 
+
+  path: 2[1405973 -> 5003180], [Grace and Danger (2011) -> War,War] 
+
+srcNodes: [2311758, 8005737, 5000166]
+  path: 0[1492810 -> 2048017 -> 1494465 -> 2311758], [L'affaire Farewell (2009) -> Canet, Guillaume -> L'enfer (2005) -> Colony, Elisabeth] 
+
+  path: 1[1492810 -> 2187040 -> 1254153 -> 8005737], [L'affaire Farewell (2009) -> Lewis, Gary (III) -> Boudica (2003) -> battle,female-nudity,iceni,rebellion,roman,roman-empire,warrior-queen] 
+
+  path: 2[1492810 -> 2011617 -> 1871457 -> 5000166], [L'affaire Farewell (2009) -> Arestrup, Niels -> War Horse (2011) -> War] 
+
+srcNodes: [1672015, 8005737, 5000166]
+  path: 0[2035729 -> 1537020 -> 2224274 -> 1672015], [Bowe, Chris (II) -> Loose End (2009) -> Morter, Damian -> Roanoke: The Lost Colony (2007)] 
+
+  path: 1[2035729 -> 1268261 -> 2064667 -> 1254153 -> 8005737], [Bowe, Chris (II) -> Captain America: The First Avenger (2011) -> Cooper, Dominic -> Boudica (2003) -> battle,female-nudity,iceni,rebellion,roman,roman-empire,warrior-queen] 
+
+  path: 2[2035729 -> 1871457 -> 5000166], [Bowe, Chris (II) -> War Horse (2011) -> War] 
+
+srcNodes: [2311758, 8005737, 5000166]
+  path: 0[2011617 -> 1492810 -> 2048017 -> 1494465 -> 2311758], [Arestrup, Niels -> L'affaire Farewell (2009) -> Canet, Guillaume -> L'enfer (2005) -> Colony, Elisabeth] 
+
+  path: 1[2011617 -> 1492810 -> 2187040 -> 1254153 -> 8005737], [Arestrup, Niels -> L'affaire Farewell (2009) -> Lewis, Gary (III) -> Boudica (2003) -> battle,female-nudity,iceni,rebellion,roman,roman-empire,warrior-queen] 
+
+  path: 2[2011617 -> 1871457 -> 5000166], [Arestrup, Niels -> War Horse (2011) -> War] 
+
+srcNodes: [1672015, 8014327, 5000166]
+  path: 0[2053900 -> 1672015], [Chalkley, Michael -> Roanoke: The Lost Colony (2007)] 
+
+  path: 1[2053900 -> 1747093 -> 2352067 -> 1426329 -> 8014327], [Chalkley, Michael -> Telstar: The Joe Meek Story (2008) -> Hayter, Libby -> Hippie Hippie Shake (2010) -> 1960s,australian-man,counter-culture,court-trial,editor,england,feminism,hippie,london-england,magazine,metaphor,oz,radicalism,rebellion,satirical-journal] 
+
+  path: 2[2053900 -> 1747093 -> 2264597 -> 1871457 -> 5000166], [Chalkley, Michael -> Telstar: The Joe Meek Story (2008) -> Ratajczak, Robert Roman -> War Horse (2011) -> War] 
+
+srcNodes: [2311758, 8012962, 1753874]
+  path: 0[2200348 -> 1494465 -> 2311758], [Manojlovic, Miki -> L'enfer (2005) -> Colony, Elisabeth] 
+
+  path: 1[2200348 -> 1485863 -> 2231172 -> 1401206 -> 8012962], [Manojlovic, Miki -> Klopka (2007) -> Nelevic, Mladen -> Gledaj me (2008) -> hypocrisy,rebellion,youth-movement] 
+
+  path: 2[2200348 -> 1512382 -> 2057138 -> 1753874], [Manojlovic, Miki -> Largo Winch (2008) -> Chin, Glen -> The Art of War (2000)] 
+
+srcNodes: [2311758, 8012962, 5000021]
+  path: 0[1485863 -> 2200348 -> 1494465 -> 2311758], [Klopka (2007) -> Manojlovic, Miki -> L'enfer (2005) -> Colony, Elisabeth] 
+
+  path: 1[1485863 -> 2231172 -> 1401206 -> 8012962], [Klopka (2007) -> Nelevic, Mladen -> Gledaj me (2008) -> hypocrisy,rebellion,youth-movement] 
+
+  path: 2[1485863 -> 2148258 -> 1591650 -> 5000021], [Klopka (2007) -> Ilic, Nebojsa -> Nebeska udica (2000) -> Drama,War] 
+
+-----------------------------------------
+ResultDestNodes: [2311758, 1871457, 1871383, 1405973, 1492810, 2035729, 2011617, 2053900, 2200348, 1485863]
+ResultRelevs: [7.856373310089111, 6.70205020904541, 6.24570369720459, 6.201326370239258, 6.108677864074707, 6.097342014312744, 5.989721298217773, 5.956806182861328, 5.905856132507324, 5.8967719078063965]
+AvgResultRelev: 6.296062898635864
+AvgResultDissimilarity: 0.7555555555555558
+Num of entries retrieved from the KNLists: 4572
+Num of entries retrieved from NKMaps: 6190
+Num of answer trees explored: 1564
+Num of states created: 4034
+Num of states explored: 3960
+Num of heuristic search performed: 6
+
+Div Top-k Search by Astar1nc_ap_new, k=10
+[colony, rebellion, war]
+srcNodes: [2311758, 8018522, 5003590]
+  path: 0[2311758 -> 2311758], [Colony, Elisabeth -> Colony, Elisabeth]
+  path: 1[2311758 -> 1494465 -> 2296262 -> 1525075 -> 8018522], [Colony, Elisabeth -> L'enfer (2005) -> Bouquet, Carole -> Les fautes d'orthographe (2004) -> boys-school,friendship,locker-room,male-full-frontal-nudity,male-nudity,male-underwear,nudity,rebellion,shower] 
+
+  path: 2[2311758 -> 1494465 -> 2341572 -> 1511234 -> 5003590], [Colony, Elisabeth -> L'enfer (2005) -> Gillain, Marie -> Laissez-passer (2002) -> Biography,Drama,History,War] 
+
+srcNodes: [1672015, 1395555, 5000166]
+  path: 0[1871457 -> 2264597 -> 1747093 -> 2053900 -> 1672015], [War Horse (2011) -> Ratajczak, Robert Roman -> Telstar: The Joe Meek Story (2008) -> Chalkley, Michael -> Roanoke: The Lost Colony (2007)] 
+
+  path: 1[1871457 -> 2221850 -> 1533247 -> 2179628 -> 1395555], [War Horse (2011) -> Moore, Alex (V) -> Little Nicky (2000) -> Lang, Lex -> Gekijô ban Bleach: The DiamondDust Rebellion - Mô hitotsu no hyôrinmaru (2007)] 
+
+  path: 2[1871457 -> 5000166], [War Horse (2011) -> War] 
+
+srcNodes: [1763419, 1395555, 1871383]
+  path: 0[1871383 -> 2152931 -> 1345698 -> 2310167 -> 1763419], [War (2007) -> Jarrett, Paul (I) -> Eclipse (2010/I) -> Clarke, Sarah (I) -> The Colony (2007/II)] 
+
+  path: 1[1871383 -> 2192282 -> 412249 -> 2149992 -> 1395555], [War (2007) -> Louie, Mark -> "Hikaru no go" (2001) -> Itô, Kentarô -> Gekijô ban Bleach: The DiamondDust Rebellion - Mô hitotsu no hyôrinmaru (2007)] 
+
+  path: 2[1871383 -> 1871383], [War (2007) -> War (2007)]
+srcNodes: [1672015, 1395555, 5003180]
+  path: 0[1405973 -> 2004779 -> 1208330 -> 2170664 -> 1672015], [Grace and Danger (2011) -> Alderson, Giles -> Anaphylaxis (2010) -> Knight, Fraser -> Roanoke: The Lost Colony (2007)] 
+
+  path: 1[1405973 -> 2123126 -> 1839984 -> 2030965 -> 1395555], [Grace and Danger (2011) -> Gregory, Leo (I) -> Tristan + Isolde (2006) -> Blanc, JB -> Gekijô ban Bleach: The DiamondDust Rebellion - Mô hitotsu no hyôrinmaru (2007)] 
+
+  path: 2[1405973 -> 5003180], [Grace and Danger (2011) -> War,War] 
+
+srcNodes: [2311758, 8005737, 5000166]
+  path: 0[1492810 -> 2048017 -> 1494465 -> 2311758], [L'affaire Farewell (2009) -> Canet, Guillaume -> L'enfer (2005) -> Colony, Elisabeth] 
+
+  path: 1[1492810 -> 2187040 -> 1254153 -> 8005737], [L'affaire Farewell (2009) -> Lewis, Gary (III) -> Boudica (2003) -> battle,female-nudity,iceni,rebellion,roman,roman-empire,warrior-queen] 
+
+  path: 2[1492810 -> 2011617 -> 1871457 -> 5000166], [L'affaire Farewell (2009) -> Arestrup, Niels -> War Horse (2011) -> War] 
+
+srcNodes: [1672015, 8005737, 5000166]
+  path: 0[2264597 -> 1747093 -> 2053900 -> 1672015], [Ratajczak, Robert Roman -> Telstar: The Joe Meek Story (2008) -> Chalkley, Michael -> Roanoke: The Lost Colony (2007)] 
+
+  path: 1[2264597 -> 1821309 -> 2294404 -> 1254153 -> 8005737], [Ratajczak, Robert Roman -> The Wolfman (2010) -> Blunt, Emily -> Boudica (2003) -> battle,female-nudity,iceni,rebellion,roman,roman-empire,warrior-queen] 
+
+  path: 2[2264597 -> 1871457 -> 5000166], [Ratajczak, Robert Roman -> War Horse (2011) -> War] 
+
+srcNodes: [2311758, 8005737, 5000166]
+  path: 0[2011617 -> 1492810 -> 2048017 -> 1494465 -> 2311758], [Arestrup, Niels -> L'affaire Farewell (2009) -> Canet, Guillaume -> L'enfer (2005) -> Colony, Elisabeth] 
+
+  path: 1[2011617 -> 1492810 -> 2187040 -> 1254153 -> 8005737], [Arestrup, Niels -> L'affaire Farewell (2009) -> Lewis, Gary (III) -> Boudica (2003) -> battle,female-nudity,iceni,rebellion,roman,roman-empire,warrior-queen] 
+
+  path: 2[2011617 -> 1871457 -> 5000166], [Arestrup, Niels -> War Horse (2011) -> War] 
+
+srcNodes: [1672015, 8014327, 5000166]
+  path: 0[2053900 -> 1672015], [Chalkley, Michael -> Roanoke: The Lost Colony (2007)] 
+
+  path: 1[2053900 -> 1747093 -> 2352067 -> 1426329 -> 8014327], [Chalkley, Michael -> Telstar: The Joe Meek Story (2008) -> Hayter, Libby -> Hippie Hippie Shake (2010) -> 1960s,australian-man,counter-culture,court-trial,editor,england,feminism,hippie,london-england,magazine,metaphor,oz,radicalism,rebellion,satirical-journal] 
+
+  path: 2[2053900 -> 1747093 -> 2264597 -> 1871457 -> 5000166], [Chalkley, Michael -> Telstar: The Joe Meek Story (2008) -> Ratajczak, Robert Roman -> War Horse (2011) -> War] 
+
+srcNodes: [2311758, 8012962, 1753874]
+  path: 0[2200348 -> 1494465 -> 2311758], [Manojlovic, Miki -> L'enfer (2005) -> Colony, Elisabeth] 
+
+  path: 1[2200348 -> 1485863 -> 2231172 -> 1401206 -> 8012962], [Manojlovic, Miki -> Klopka (2007) -> Nelevic, Mladen -> Gledaj me (2008) -> hypocrisy,rebellion,youth-movement] 
+
+  path: 2[2200348 -> 1512382 -> 2057138 -> 1753874], [Manojlovic, Miki -> Largo Winch (2008) -> Chin, Glen -> The Art of War (2000)] 
+
+srcNodes: [2311758, 8012962, 5000021]
+  path: 0[1485863 -> 2200348 -> 1494465 -> 2311758], [Klopka (2007) -> Manojlovic, Miki -> L'enfer (2005) -> Colony, Elisabeth] 
+
+  path: 1[1485863 -> 2231172 -> 1401206 -> 8012962], [Klopka (2007) -> Nelevic, Mladen -> Gledaj me (2008) -> hypocrisy,rebellion,youth-movement] 
+
+  path: 2[1485863 -> 2148258 -> 1591650 -> 5000021], [Klopka (2007) -> Ilic, Nebojsa -> Nebeska udica (2000) -> Drama,War] 
+
+-----------------------------------------
+ResultDestNodes: [2311758, 1871457, 1871383, 1405973, 1492810, 2264597, 2011617, 2053900, 2200348, 1485863]
+ResultRelevs: [7.856373310089111, 6.70205020904541, 6.24570369720459, 6.201326370239258, 6.108677864074707, 6.097342014312744, 5.989721298217773, 5.956806182861328, 5.905856132507324, 5.8967719078063965]
+AvgResultRelev: 6.296062898635864
+AvgResultDissimilarity: 0.7555555555555558
+Num of entries retrieved from the KNLists: 6148
+Num of entries retrieved from NKMaps: 8311
+Num of answer trees explored: 2055
+Num of states created: 92
+Num of states explored: 23
+Num of heuristic search performed: 2
+
+Top-k Search by Blink-BDB, k=15
+[colony, rebellion, war]
+srcNodes: [2311758, 8018522, 5003590]
+  path: 0[2311758 -> 2311758], [Colony, Elisabeth -> Colony, Elisabeth]
+  path: 1[2311758 -> 1494465 -> 2296262 -> 1525075 -> 8018522], [Colony, Elisabeth -> L'enfer (2005) -> Bouquet, Carole -> Les fautes d'orthographe (2004) -> boys-school,friendship,locker-room,male-full-frontal-nudity,male-nudity,male-underwear,nudity,rebellion,shower] 
+
+  path: 2[2311758 -> 1494465 -> 2341572 -> 1511234 -> 5003590], [Colony, Elisabeth -> L'enfer (2005) -> Gillain, Marie -> Laissez-passer (2002) -> Biography,Drama,History,War] 
+
+srcNodes: [1672015, 1395555, 5000166]
+  path: 0[1871457 -> 2264597 -> 1747093 -> 2053900 -> 1672015], [War Horse (2011) -> Ratajczak, Robert Roman -> Telstar: The Joe Meek Story (2008) -> Chalkley, Michael -> Roanoke: The Lost Colony (2007)] 
+
+  path: 1[1871457 -> 2221850 -> 1533247 -> 2179628 -> 1395555], [War Horse (2011) -> Moore, Alex (V) -> Little Nicky (2000) -> Lang, Lex -> Gekijô ban Bleach: The DiamondDust Rebellion - Mô hitotsu no hyôrinmaru (2007)] 
+
+  path: 2[1871457 -> 5000166], [War Horse (2011) -> War] 
+
+srcNodes: [2311758, 8018522, 5003590]
+  path: 0[1494465 -> 2311758], [L'enfer (2005) -> Colony, Elisabeth] 
+
+  path: 1[1494465 -> 2296262 -> 1525075 -> 8018522], [L'enfer (2005) -> Bouquet, Carole -> Les fautes d'orthographe (2004) -> boys-school,friendship,locker-room,male-full-frontal-nudity,male-nudity,male-underwear,nudity,rebellion,shower] 
+
+  path: 2[1494465 -> 2341572 -> 1511234 -> 5003590], [L'enfer (2005) -> Gillain, Marie -> Laissez-passer (2002) -> Biography,Drama,History,War] 
+
+srcNodes: [2311758, 1395555, 5000166]
+  path: 0[2048017 -> 1494465 -> 2311758], [Canet, Guillaume -> L'enfer (2005) -> Colony, Elisabeth] 
+
+  path: 1[2048017 -> 1863513 -> 2452672 -> 1395555], [Canet, Guillaume -> Vidocq (2001) -> Strassman, Karen -> Gekijô ban Bleach: The DiamondDust Rebellion - Mô hitotsu no hyôrinmaru (2007)] 
+
+  path: 2[2048017 -> 1492810 -> 2011617 -> 1871457 -> 5000166], [Canet, Guillaume -> L'affaire Farewell (2009) -> Arestrup, Niels -> War Horse (2011) -> War] 
+
+srcNodes: [2311758, 1395555, 5000166]
+  path: 0[2053675 -> 1695278 -> 2110000 -> 1494465 -> 2311758], [Chadov, Aleksey -> Serko (2006) -> Gamblin, Jacques -> L'enfer (2005) -> Colony, Elisabeth] 
+
+  path: 1[2053675 -> 1599953 -> 2192787 -> 1395555], [Chadov, Aleksey -> Nochnoy dozor (2004) -> Lowenthal, Yuri -> Gekijô ban Bleach: The DiamondDust Rebellion - Mô hitotsu no hyôrinmaru (2007)] 
+
+  path: 2[2053675 -> 1586584 -> 5000166], [Chadov, Aleksey -> Na bezymyannoy vysote (2004) -> War] 
+
+srcNodes: [1763419, 1395555, 1871383]
+  path: 0[1871383 -> 2152931 -> 1345698 -> 2310167 -> 1763419], [War (2007) -> Jarrett, Paul (I) -> Eclipse (2010/I) -> Clarke, Sarah (I) -> The Colony (2007/II)] 
+
+  path: 1[1871383 -> 2192282 -> 412249 -> 2149992 -> 1395555], [War (2007) -> Louie, Mark -> "Hikaru no go" (2001) -> Itô, Kentarô -> Gekijô ban Bleach: The DiamondDust Rebellion - Mô hitotsu no hyôrinmaru (2007)] 
+
+  path: 2[1871383 -> 1871383], [War (2007) -> War (2007)]
+srcNodes: [1672015, 1395555, 5003180]
+  path: 0[1405973 -> 2004779 -> 1208330 -> 2170664 -> 1672015], [Grace and Danger (2011) -> Alderson, Giles -> Anaphylaxis (2010) -> Knight, Fraser -> Roanoke: The Lost Colony (2007)] 
+
+  path: 1[1405973 -> 2123126 -> 1839984 -> 2030965 -> 1395555], [Grace and Danger (2011) -> Gregory, Leo (I) -> Tristan + Isolde (2006) -> Blanc, JB -> Gekijô ban Bleach: The DiamondDust Rebellion - Mô hitotsu no hyôrinmaru (2007)] 
+
+  path: 2[1405973 -> 5003180], [Grace and Danger (2011) -> War,War] 
+
+srcNodes: [2311758, 8005737, 5000166]
+  path: 0[1492810 -> 2048017 -> 1494465 -> 2311758], [L'affaire Farewell (2009) -> Canet, Guillaume -> L'enfer (2005) -> Colony, Elisabeth] 
+
+  path: 1[1492810 -> 2187040 -> 1254153 -> 8005737], [L'affaire Farewell (2009) -> Lewis, Gary (III) -> Boudica (2003) -> battle,female-nudity,iceni,rebellion,roman,roman-empire,warrior-queen] 
+
+  path: 2[1492810 -> 2011617 -> 1871457 -> 5000166], [L'affaire Farewell (2009) -> Arestrup, Niels -> War Horse (2011) -> War] 
+
+srcNodes: [1672015, 8005737, 5000166]
+  path: 0[2264597 -> 1747093 -> 2053900 -> 1672015], [Ratajczak, Robert Roman -> Telstar: The Joe Meek Story (2008) -> Chalkley, Michael -> Roanoke: The Lost Colony (2007)] 
+
+  path: 1[2264597 -> 1821309 -> 2294404 -> 1254153 -> 8005737], [Ratajczak, Robert Roman -> The Wolfman (2010) -> Blunt, Emily -> Boudica (2003) -> battle,female-nudity,iceni,rebellion,roman,roman-empire,warrior-queen] 
+
+  path: 2[2264597 -> 1871457 -> 5000166], [Ratajczak, Robert Roman -> War Horse (2011) -> War] 
+
+srcNodes: [1672015, 8005737, 5000166]
+  path: 0[2035729 -> 1537020 -> 2224274 -> 1672015], [Bowe, Chris (II) -> Loose End (2009) -> Morter, Damian -> Roanoke: The Lost Colony (2007)] 
+
+  path: 1[2035729 -> 1268261 -> 2064667 -> 1254153 -> 8005737], [Bowe, Chris (II) -> Captain America: The First Avenger (2011) -> Cooper, Dominic -> Boudica (2003) -> battle,female-nudity,iceni,rebellion,roman,roman-empire,warrior-queen] 
+
+  path: 2[2035729 -> 1871457 -> 5000166], [Bowe, Chris (II) -> War Horse (2011) -> War] 
+
+srcNodes: [2311758, 8005737, 5000166]
+  path: 0[2011617 -> 1492810 -> 2048017 -> 1494465 -> 2311758], [Arestrup, Niels -> L'affaire Farewell (2009) -> Canet, Guillaume -> L'enfer (2005) -> Colony, Elisabeth] 
+
+  path: 1[2011617 -> 1492810 -> 2187040 -> 1254153 -> 8005737], [Arestrup, Niels -> L'affaire Farewell (2009) -> Lewis, Gary (III) -> Boudica (2003) -> battle,female-nudity,iceni,rebellion,roman,roman-empire,warrior-queen] 
+
+  path: 2[2011617 -> 1871457 -> 5000166], [Arestrup, Niels -> War Horse (2011) -> War] 
+
+srcNodes: [2311758, 8005737, 5000166]
+  path: 0[2119696 -> 1492810 -> 2048017 -> 1494465 -> 2311758], [Gorbunov, Aleksey -> L'affaire Farewell (2009) -> Canet, Guillaume -> L'enfer (2005) -> Colony, Elisabeth] 
+
+  path: 1[2119696 -> 1492810 -> 2187040 -> 1254153 -> 8005737], [Gorbunov, Aleksey -> L'affaire Farewell (2009) -> Lewis, Gary (III) -> Boudica (2003) -> battle,female-nudity,iceni,rebellion,roman,roman-empire,warrior-queen] 
+
+  path: 2[2119696 -> 502841 -> 5000166], [Gorbunov, Aleksey -> "Krasnaya kapella" (2004) -> War] 
+
+srcNodes: [1672015, 8014327, 5000166]
+  path: 0[2053900 -> 1672015], [Chalkley, Michael -> Roanoke: The Lost Colony (2007)] 
+
+  path: 1[2053900 -> 1747093 -> 2352067 -> 1426329 -> 8014327], [Chalkley, Michael -> Telstar: The Joe Meek Story (2008) -> Hayter, Libby -> Hippie Hippie Shake (2010) -> 1960s,australian-man,counter-culture,court-trial,editor,england,feminism,hippie,london-england,magazine,metaphor,oz,radicalism,rebellion,satirical-journal] 
+
+  path: 2[2053900 -> 1747093 -> 2264597 -> 1871457 -> 5000166], [Chalkley, Michael -> Telstar: The Joe Meek Story (2008) -> Ratajczak, Robert Roman -> War Horse (2011) -> War] 
+
+srcNodes: [2311758, 8012962, 1753874]
+  path: 0[2200348 -> 1494465 -> 2311758], [Manojlovic, Miki -> L'enfer (2005) -> Colony, Elisabeth] 
+
+  path: 1[2200348 -> 1485863 -> 2231172 -> 1401206 -> 8012962], [Manojlovic, Miki -> Klopka (2007) -> Nelevic, Mladen -> Gledaj me (2008) -> hypocrisy,rebellion,youth-movement] 
+
+  path: 2[2200348 -> 1512382 -> 2057138 -> 1753874], [Manojlovic, Miki -> Largo Winch (2008) -> Chin, Glen -> The Art of War (2000)] 
+
+srcNodes: [2311758, 8012962, 5000021]
+  path: 0[1485863 -> 2200348 -> 1494465 -> 2311758], [Klopka (2007) -> Manojlovic, Miki -> L'enfer (2005) -> Colony, Elisabeth] 
+
+  path: 1[1485863 -> 2231172 -> 1401206 -> 8012962], [Klopka (2007) -> Nelevic, Mladen -> Gledaj me (2008) -> hypocrisy,rebellion,youth-movement] 
+
+  path: 2[1485863 -> 2148258 -> 1591650 -> 5000021], [Klopka (2007) -> Ilic, Nebojsa -> Nebeska udica (2000) -> Drama,War] 
+
+-----------------------------------------
+Num of top-k answers: 15
+ResultDestNodes: [2311758, 1871457, 1494465, 2048017, 2053675, 1871383, 1405973, 1492810, 2264597, 2035729, 2011617, 2119696, 2053900, 2200348, 1485863]
+ResultRelevs: [7.856373310089111, 6.70205020904541, 6.515172958374023, 6.2870330810546875, 6.277388095855713, 6.24570369720459, 6.201326370239258, 6.108677864074707, 6.097342014312744, 6.097342014312744, 5.989721298217773, 5.989721298217773, 5.956806182861328, 5.905856132507324, 5.8967719078063965]
+AvgResultRelev: 6.275152428944906
+AvgResultDissimilarity: 0.6666666666666665
+Num of entries retrieved from the lists: 4572
+Num of entries retrieved from NKMaps: 6190
+Num of answer trees explored: 1564
+
+Div Top-k Search by Exhustive, k=15
+[colony, rebellion, war]
+srcNodes: [2311758, 8018522, 5003590]
+  path: 0[2311758 -> 2311758], [Colony, Elisabeth -> Colony, Elisabeth]
+  path: 1[2311758 -> 1494465 -> 2296262 -> 1525075 -> 8018522], [Colony, Elisabeth -> L'enfer (2005) -> Bouquet, Carole -> Les fautes d'orthographe (2004) -> boys-school,friendship,locker-room,male-full-frontal-nudity,male-nudity,male-underwear,nudity,rebellion,shower] 
+
+  path: 2[2311758 -> 1494465 -> 2341572 -> 1511234 -> 5003590], [Colony, Elisabeth -> L'enfer (2005) -> Gillain, Marie -> Laissez-passer (2002) -> Biography,Drama,History,War] 
+
+srcNodes: [1672015, 1395555, 5000166]
+  path: 0[1871457 -> 2264597 -> 1747093 -> 2053900 -> 1672015], [War Horse (2011) -> Ratajczak, Robert Roman -> Telstar: The Joe Meek Story (2008) -> Chalkley, Michael -> Roanoke: The Lost Colony (2007)] 
+
+  path: 1[1871457 -> 2221850 -> 1533247 -> 2179628 -> 1395555], [War Horse (2011) -> Moore, Alex (V) -> Little Nicky (2000) -> Lang, Lex -> Gekijô ban Bleach: The DiamondDust Rebellion - Mô hitotsu no hyôrinmaru (2007)] 
+
+  path: 2[1871457 -> 5000166], [War Horse (2011) -> War] 
+
+srcNodes: [1763419, 1395555, 1871383]
+  path: 0[1871383 -> 2152931 -> 1345698 -> 2310167 -> 1763419], [War (2007) -> Jarrett, Paul (I) -> Eclipse (2010/I) -> Clarke, Sarah (I) -> The Colony (2007/II)] 
+
+  path: 1[1871383 -> 2192282 -> 412249 -> 2149992 -> 1395555], [War (2007) -> Louie, Mark -> "Hikaru no go" (2001) -> Itô, Kentarô -> Gekijô ban Bleach: The DiamondDust Rebellion - Mô hitotsu no hyôrinmaru (2007)] 
+
+  path: 2[1871383 -> 1871383], [War (2007) -> War (2007)]
+srcNodes: [1672015, 1395555, 5003180]
+  path: 0[1405973 -> 2004779 -> 1208330 -> 2170664 -> 1672015], [Grace and Danger (2011) -> Alderson, Giles -> Anaphylaxis (2010) -> Knight, Fraser -> Roanoke: The Lost Colony (2007)] 
+
+  path: 1[1405973 -> 2123126 -> 1839984 -> 2030965 -> 1395555], [Grace and Danger (2011) -> Gregory, Leo (I) -> Tristan + Isolde (2006) -> Blanc, JB -> Gekijô ban Bleach: The DiamondDust Rebellion - Mô hitotsu no hyôrinmaru (2007)] 
+
+  path: 2[1405973 -> 5003180], [Grace and Danger (2011) -> War,War] 
+
+srcNodes: [2311758, 8005737, 5000166]
+  path: 0[1492810 -> 2048017 -> 1494465 -> 2311758], [L'affaire Farewell (2009) -> Canet, Guillaume -> L'enfer (2005) -> Colony, Elisabeth] 
+
+  path: 1[1492810 -> 2187040 -> 1254153 -> 8005737], [L'affaire Farewell (2009) -> Lewis, Gary (III) -> Boudica (2003) -> battle,female-nudity,iceni,rebellion,roman,roman-empire,warrior-queen] 
+
+  path: 2[1492810 -> 2011617 -> 1871457 -> 5000166], [L'affaire Farewell (2009) -> Arestrup, Niels -> War Horse (2011) -> War] 
+
+srcNodes: [1672015, 8005737, 5000166]
+  path: 0[2035729 -> 1537020 -> 2224274 -> 1672015], [Bowe, Chris (II) -> Loose End (2009) -> Morter, Damian -> Roanoke: The Lost Colony (2007)] 
+
+  path: 1[2035729 -> 1268261 -> 2064667 -> 1254153 -> 8005737], [Bowe, Chris (II) -> Captain America: The First Avenger (2011) -> Cooper, Dominic -> Boudica (2003) -> battle,female-nudity,iceni,rebellion,roman,roman-empire,warrior-queen] 
+
+  path: 2[2035729 -> 1871457 -> 5000166], [Bowe, Chris (II) -> War Horse (2011) -> War] 
+
+srcNodes: [2311758, 8005737, 5000166]
+  path: 0[2011617 -> 1492810 -> 2048017 -> 1494465 -> 2311758], [Arestrup, Niels -> L'affaire Farewell (2009) -> Canet, Guillaume -> L'enfer (2005) -> Colony, Elisabeth] 
+
+  path: 1[2011617 -> 1492810 -> 2187040 -> 1254153 -> 8005737], [Arestrup, Niels -> L'affaire Farewell (2009) -> Lewis, Gary (III) -> Boudica (2003) -> battle,female-nudity,iceni,rebellion,roman,roman-empire,warrior-queen] 
+
+  path: 2[2011617 -> 1871457 -> 5000166], [Arestrup, Niels -> War Horse (2011) -> War] 
+
+srcNodes: [1672015, 8014327, 5000166]
+  path: 0[2053900 -> 1672015], [Chalkley, Michael -> Roanoke: The Lost Colony (2007)] 
+
+  path: 1[2053900 -> 1747093 -> 2352067 -> 1426329 -> 8014327], [Chalkley, Michael -> Telstar: The Joe Meek Story (2008) -> Hayter, Libby -> Hippie Hippie Shake (2010) -> 1960s,australian-man,counter-culture,court-trial,editor,england,feminism,hippie,london-england,magazine,metaphor,oz,radicalism,rebellion,satirical-journal] 
+
+  path: 2[2053900 -> 1747093 -> 2264597 -> 1871457 -> 5000166], [Chalkley, Michael -> Telstar: The Joe Meek Story (2008) -> Ratajczak, Robert Roman -> War Horse (2011) -> War] 
+
+srcNodes: [2311758, 8012962, 1753874]
+  path: 0[2200348 -> 1494465 -> 2311758], [Manojlovic, Miki -> L'enfer (2005) -> Colony, Elisabeth] 
+
+  path: 1[2200348 -> 1485863 -> 2231172 -> 1401206 -> 8012962], [Manojlovic, Miki -> Klopka (2007) -> Nelevic, Mladen -> Gledaj me (2008) -> hypocrisy,rebellion,youth-movement] 
+
+  path: 2[2200348 -> 1512382 -> 2057138 -> 1753874], [Manojlovic, Miki -> Largo Winch (2008) -> Chin, Glen -> The Art of War (2000)] 
+
+srcNodes: [2311758, 8012962, 5000021]
+  path: 0[1485863 -> 2200348 -> 1494465 -> 2311758], [Klopka (2007) -> Manojlovic, Miki -> L'enfer (2005) -> Colony, Elisabeth] 
+
+  path: 1[1485863 -> 2231172 -> 1401206 -> 8012962], [Klopka (2007) -> Nelevic, Mladen -> Gledaj me (2008) -> hypocrisy,rebellion,youth-movement] 
+
+  path: 2[1485863 -> 2148258 -> 1591650 -> 5000021], [Klopka (2007) -> Ilic, Nebojsa -> Nebeska udica (2000) -> Drama,War] 
+
+srcNodes: [1672015, 8014327, 5000166]
+  path: 0[1747093 -> 2053900 -> 1672015], [Telstar: The Joe Meek Story (2008) -> Chalkley, Michael -> Roanoke: The Lost Colony (2007)] 
+
+  path: 1[1747093 -> 2352067 -> 1426329 -> 8014327], [Telstar: The Joe Meek Story (2008) -> Hayter, Libby -> Hippie Hippie Shake (2010) -> 1960s,australian-man,counter-culture,court-trial,editor,england,feminism,hippie,london-england,magazine,metaphor,oz,radicalism,rebellion,satirical-journal] 
+
+  path: 2[1747093 -> 2264597 -> 1871457 -> 5000166], [Telstar: The Joe Meek Story (2008) -> Ratajczak, Robert Roman -> War Horse (2011) -> War] 
+
+srcNodes: [1672015, 8014327, 5000166]
+  path: 0[2427498 -> 1265656 -> 2254642 -> 1672015], [Redington, Tracy -> Call Me a Psycho (2008) -> Pittis, Leander -> Roanoke: The Lost Colony (2007)] 
+
+  path: 1[2427498 -> 1435444 -> 2467944 -> 1426329 -> 8014327], [Redington, Tracy -> How to Lose Friends & Alienate People (2008) -> Vujat, Vesna -> Hippie Hippie Shake (2010) -> 1960s,australian-man,counter-culture,court-trial,editor,england,feminism,hippie,london-england,magazine,metaphor,oz,radicalism,rebellion,satirical-journal] 
+
+  path: 2[2427498 -> 1663357 -> 5000166], [Redington, Tracy -> Recon 7 Down (2007) -> War] 
+
+srcNodes: [2311758, 8018522, 5000166]
+  path: 0[2313504 -> 1494465 -> 2311758], [Cosso, Emmanuelle -> L'enfer (2005) -> Colony, Elisabeth] 
+
+  path: 1[2313504 -> 1494465 -> 2296262 -> 1525075 -> 8018522], [Cosso, Emmanuelle -> L'enfer (2005) -> Bouquet, Carole -> Les fautes d'orthographe (2004) -> boys-school,friendship,locker-room,male-full-frontal-nudity,male-nudity,male-underwear,nudity,rebellion,shower] 
+
+  path: 2[2313504 -> 1578151 -> 2163150 -> 1692500 -> 5000166], [Cosso, Emmanuelle -> Mr. Bean's Holiday (2007) -> Kavaz, James -> See It Through (2006) -> War] 
+
+srcNodes: [2311758, 8005737, 5001131]
+  path: 0[1470782 -> 2048017 -> 1494465 -> 2311758], [Joyeux Noël (2005) -> Canet, Guillaume -> L'enfer (2005) -> Colony, Elisabeth] 
+
+  path: 1[1470782 -> 2187040 -> 1254153 -> 8005737], [Joyeux Noël (2005) -> Lewis, Gary (III) -> Boudica (2003) -> battle,female-nudity,iceni,rebellion,roman,roman-empire,warrior-queen] 
+
+  path: 2[1470782 -> 5001131], [Joyeux Noël (2005) -> War,Drama,Music,Romance] 
+
+srcNodes: [1763418, 8005737, 1275566]
+  path: 0[1275566 -> 2276986 -> 1612717 -> 2356743 -> 1763418], [Charlie Wilson's War (2007) -> Adams, Amy (III) -> On the Road (2011) -> Horn, Kaniehtiio -> The Colony (2007/I)] 
+
+  path: 1[1275566 -> 2294404 -> 1254153 -> 8005737], [Charlie Wilson's War (2007) -> Blunt, Emily -> Boudica (2003) -> battle,female-nudity,iceni,rebellion,roman,roman-empire,warrior-queen] 
+
+  path: 2[1275566 -> 1275566], [Charlie Wilson's War (2007) -> Charlie Wilson's War (2007)]
+Dissims of Subsets and t:
+(0~0, 1) : 1.0
+(0~1, 2) : 0.8333333333333333
+(0~2, 3) : 0.6666666666666666
+(0~3, 4) : 0.8333333333333333
+(0~4, 5) : 0.6666666666666666
+(0~5, 6) : 0.611111111111111
+(0~6, 7) : 0.6666666666666666
+(0~7, 8) : 0.875
+(0~8, 9) : 0.8148148148148148
+(0~9, 10) : 0.6666666666666666
+(0~10, 11) : 0.606060606060606
+(0~11, 12) : 0.638888888888889
+(0~12, 13) : 0.7692307692307693
+(0~13, 14) : 0.9047619047619048
+-----------------------------------------
+ResultDestNodes: [2311758, 1871457, 1871383, 1405973, 1492810, 2035729, 2011617, 2053900, 2200348, 1485863, 1747093, 2427498, 2313504, 1470782, 1275566]
+ResultRelevs: [7.856373310089111, 6.70205020904541, 6.24570369720459, 6.201326370239258, 6.108677864074707, 6.097342014312744, 5.989721298217773, 5.956806182861328, 5.905856132507324, 5.8967719078063965, 5.880822658538818, 5.829270839691162, 5.820652008056641, 5.80974006652832, 5.762181758880615]
+AvgResultRelev: 6.1375530878702795
+AvgResultDissimilarity: 0.7396825396825397
+Num of entries retrieved from the KNLists: 6151
+Num of entries retrieved from NKMaps: 8316
+Num of answer trees explored: 2057
+Num of answer tree sets created: 1434479
+Num of answer tree sets removed: 6748
+
+Div Top-k Search by Astar02, k=15
+[colony, rebellion, war]
+srcNodes: [2311758, 8018522, 5003590]
+  path: 0[2311758 -> 2311758], [Colony, Elisabeth -> Colony, Elisabeth]
+  path: 1[2311758 -> 1494465 -> 2296262 -> 1525075 -> 8018522], [Colony, Elisabeth -> L'enfer (2005) -> Bouquet, Carole -> Les fautes d'orthographe (2004) -> boys-school,friendship,locker-room,male-full-frontal-nudity,male-nudity,male-underwear,nudity,rebellion,shower] 
+
+  path: 2[2311758 -> 1494465 -> 2341572 -> 1511234 -> 5003590], [Colony, Elisabeth -> L'enfer (2005) -> Gillain, Marie -> Laissez-passer (2002) -> Biography,Drama,History,War] 
+
+srcNodes: [1672015, 1395555, 5000166]
+  path: 0[1871457 -> 2264597 -> 1747093 -> 2053900 -> 1672015], [War Horse (2011) -> Ratajczak, Robert Roman -> Telstar: The Joe Meek Story (2008) -> Chalkley, Michael -> Roanoke: The Lost Colony (2007)] 
+
+  path: 1[1871457 -> 2221850 -> 1533247 -> 2179628 -> 1395555], [War Horse (2011) -> Moore, Alex (V) -> Little Nicky (2000) -> Lang, Lex -> Gekijô ban Bleach: The DiamondDust Rebellion - Mô hitotsu no hyôrinmaru (2007)] 
+
+  path: 2[1871457 -> 5000166], [War Horse (2011) -> War] 
+
+srcNodes: [1763419, 1395555, 1871383]
+  path: 0[1871383 -> 2152931 -> 1345698 -> 2310167 -> 1763419], [War (2007) -> Jarrett, Paul (I) -> Eclipse (2010/I) -> Clarke, Sarah (I) -> The Colony (2007/II)] 
+
+  path: 1[1871383 -> 2192282 -> 412249 -> 2149992 -> 1395555], [War (2007) -> Louie, Mark -> "Hikaru no go" (2001) -> Itô, Kentarô -> Gekijô ban Bleach: The DiamondDust Rebellion - Mô hitotsu no hyôrinmaru (2007)] 
+
+  path: 2[1871383 -> 1871383], [War (2007) -> War (2007)]
+srcNodes: [1672015, 1395555, 5003180]
+  path: 0[1405973 -> 2004779 -> 1208330 -> 2170664 -> 1672015], [Grace and Danger (2011) -> Alderson, Giles -> Anaphylaxis (2010) -> Knight, Fraser -> Roanoke: The Lost Colony (2007)] 
+
+  path: 1[1405973 -> 2123126 -> 1839984 -> 2030965 -> 1395555], [Grace and Danger (2011) -> Gregory, Leo (I) -> Tristan + Isolde (2006) -> Blanc, JB -> Gekijô ban Bleach: The DiamondDust Rebellion - Mô hitotsu no hyôrinmaru (2007)] 
+
+  path: 2[1405973 -> 5003180], [Grace and Danger (2011) -> War,War] 
+
+srcNodes: [2311758, 8005737, 5000166]
+  path: 0[1492810 -> 2048017 -> 1494465 -> 2311758], [L'affaire Farewell (2009) -> Canet, Guillaume -> L'enfer (2005) -> Colony, Elisabeth] 
+
+  path: 1[1492810 -> 2187040 -> 1254153 -> 8005737], [L'affaire Farewell (2009) -> Lewis, Gary (III) -> Boudica (2003) -> battle,female-nudity,iceni,rebellion,roman,roman-empire,warrior-queen] 
+
+  path: 2[1492810 -> 2011617 -> 1871457 -> 5000166], [L'affaire Farewell (2009) -> Arestrup, Niels -> War Horse (2011) -> War] 
+
+srcNodes: [1672015, 8005737, 5000166]
+  path: 0[2264597 -> 1747093 -> 2053900 -> 1672015], [Ratajczak, Robert Roman -> Telstar: The Joe Meek Story (2008) -> Chalkley, Michael -> Roanoke: The Lost Colony (2007)] 
+
+  path: 1[2264597 -> 1821309 -> 2294404 -> 1254153 -> 8005737], [Ratajczak, Robert Roman -> The Wolfman (2010) -> Blunt, Emily -> Boudica (2003) -> battle,female-nudity,iceni,rebellion,roman,roman-empire,warrior-queen] 
+
+  path: 2[2264597 -> 1871457 -> 5000166], [Ratajczak, Robert Roman -> War Horse (2011) -> War] 
+
+srcNodes: [2311758, 8005737, 5000166]
+  path: 0[2119696 -> 1492810 -> 2048017 -> 1494465 -> 2311758], [Gorbunov, Aleksey -> L'affaire Farewell (2009) -> Canet, Guillaume -> L'enfer (2005) -> Colony, Elisabeth] 
+
+  path: 1[2119696 -> 1492810 -> 2187040 -> 1254153 -> 8005737], [Gorbunov, Aleksey -> L'affaire Farewell (2009) -> Lewis, Gary (III) -> Boudica (2003) -> battle,female-nudity,iceni,rebellion,roman,roman-empire,warrior-queen] 
+
+  path: 2[2119696 -> 502841 -> 5000166], [Gorbunov, Aleksey -> "Krasnaya kapella" (2004) -> War] 
+
+srcNodes: [1672015, 8014327, 5000166]
+  path: 0[2053900 -> 1672015], [Chalkley, Michael -> Roanoke: The Lost Colony (2007)] 
+
+  path: 1[2053900 -> 1747093 -> 2352067 -> 1426329 -> 8014327], [Chalkley, Michael -> Telstar: The Joe Meek Story (2008) -> Hayter, Libby -> Hippie Hippie Shake (2010) -> 1960s,australian-man,counter-culture,court-trial,editor,england,feminism,hippie,london-england,magazine,metaphor,oz,radicalism,rebellion,satirical-journal] 
+
+  path: 2[2053900 -> 1747093 -> 2264597 -> 1871457 -> 5000166], [Chalkley, Michael -> Telstar: The Joe Meek Story (2008) -> Ratajczak, Robert Roman -> War Horse (2011) -> War] 
+
+srcNodes: [2311758, 8012962, 1753874]
+  path: 0[2200348 -> 1494465 -> 2311758], [Manojlovic, Miki -> L'enfer (2005) -> Colony, Elisabeth] 
+
+  path: 1[2200348 -> 1485863 -> 2231172 -> 1401206 -> 8012962], [Manojlovic, Miki -> Klopka (2007) -> Nelevic, Mladen -> Gledaj me (2008) -> hypocrisy,rebellion,youth-movement] 
+
+  path: 2[2200348 -> 1512382 -> 2057138 -> 1753874], [Manojlovic, Miki -> Largo Winch (2008) -> Chin, Glen -> The Art of War (2000)] 
+
+srcNodes: [2311758, 8012962, 5000021]
+  path: 0[1485863 -> 2200348 -> 1494465 -> 2311758], [Klopka (2007) -> Manojlovic, Miki -> L'enfer (2005) -> Colony, Elisabeth] 
+
+  path: 1[1485863 -> 2231172 -> 1401206 -> 8012962], [Klopka (2007) -> Nelevic, Mladen -> Gledaj me (2008) -> hypocrisy,rebellion,youth-movement] 
+
+  path: 2[1485863 -> 2148258 -> 1591650 -> 5000021], [Klopka (2007) -> Ilic, Nebojsa -> Nebeska udica (2000) -> Drama,War] 
+
+srcNodes: [1672015, 8014327, 5000166]
+  path: 0[1747093 -> 2053900 -> 1672015], [Telstar: The Joe Meek Story (2008) -> Chalkley, Michael -> Roanoke: The Lost Colony (2007)] 
+
+  path: 1[1747093 -> 2352067 -> 1426329 -> 8014327], [Telstar: The Joe Meek Story (2008) -> Hayter, Libby -> Hippie Hippie Shake (2010) -> 1960s,australian-man,counter-culture,court-trial,editor,england,feminism,hippie,london-england,magazine,metaphor,oz,radicalism,rebellion,satirical-journal] 
+
+  path: 2[1747093 -> 2264597 -> 1871457 -> 5000166], [Telstar: The Joe Meek Story (2008) -> Ratajczak, Robert Roman -> War Horse (2011) -> War] 
+
+srcNodes: [1672015, 8014327, 5000166]
+  path: 0[2427498 -> 1265656 -> 2254642 -> 1672015], [Redington, Tracy -> Call Me a Psycho (2008) -> Pittis, Leander -> Roanoke: The Lost Colony (2007)] 
+
+  path: 1[2427498 -> 1435444 -> 2467944 -> 1426329 -> 8014327], [Redington, Tracy -> How to Lose Friends & Alienate People (2008) -> Vujat, Vesna -> Hippie Hippie Shake (2010) -> 1960s,australian-man,counter-culture,court-trial,editor,england,feminism,hippie,london-england,magazine,metaphor,oz,radicalism,rebellion,satirical-journal] 
+
+  path: 2[2427498 -> 1663357 -> 5000166], [Redington, Tracy -> Recon 7 Down (2007) -> War] 
+
+srcNodes: [2311758, 8018522, 5000166]
+  path: 0[2250578 -> 1494465 -> 2311758], [Perrin, Jacques -> L'enfer (2005) -> Colony, Elisabeth] 
+
+  path: 1[2250578 -> 1494465 -> 2296262 -> 1525075 -> 8018522], [Perrin, Jacques -> L'enfer (2005) -> Bouquet, Carole -> Les fautes d'orthographe (2004) -> boys-school,friendship,locker-room,male-full-frontal-nudity,male-nudity,male-underwear,nudity,rebellion,shower] 
+
+  path: 2[2250578 -> 1519088 -> 2228983 -> 1871457 -> 5000166], [Perrin, Jacques -> Le pacte des loups (2001) -> Nahon, Philippe (I) -> War Horse (2011) -> War] 
+
+srcNodes: [2311758, 8005737, 5001131]
+  path: 0[1470782 -> 2048017 -> 1494465 -> 2311758], [Joyeux Noël (2005) -> Canet, Guillaume -> L'enfer (2005) -> Colony, Elisabeth] 
+
+  path: 1[1470782 -> 2187040 -> 1254153 -> 8005737], [Joyeux Noël (2005) -> Lewis, Gary (III) -> Boudica (2003) -> battle,female-nudity,iceni,rebellion,roman,roman-empire,warrior-queen] 
+
+  path: 2[1470782 -> 5001131], [Joyeux Noël (2005) -> War,Drama,Music,Romance] 
+
+srcNodes: [1763418, 8005737, 1275566]
+  path: 0[1275566 -> 2276986 -> 1612717 -> 2356743 -> 1763418], [Charlie Wilson's War (2007) -> Adams, Amy (III) -> On the Road (2011) -> Horn, Kaniehtiio -> The Colony (2007/I)] 
+
+  path: 1[1275566 -> 2294404 -> 1254153 -> 8005737], [Charlie Wilson's War (2007) -> Blunt, Emily -> Boudica (2003) -> battle,female-nudity,iceni,rebellion,roman,roman-empire,warrior-queen] 
+
+  path: 2[1275566 -> 1275566], [Charlie Wilson's War (2007) -> Charlie Wilson's War (2007)]
+-----------------------------------------
+ResultDestNodes: [2311758, 1871457, 1871383, 1405973, 1492810, 2264597, 2119696, 2053900, 2200348, 1485863, 1747093, 2427498, 2250578, 1470782, 1275566]
+ResultRelevs: [7.856373310089111, 6.70205020904541, 6.24570369720459, 6.201326370239258, 6.108677864074707, 6.097342014312744, 5.989721298217773, 5.956806182861328, 5.905856132507324, 5.8967719078063965, 5.880822658538818, 5.829270839691162, 5.820652008056641, 5.80974006652832, 5.762181758880615]
+AvgResultRelev: 6.1375530878702795
+AvgResultDissimilarity: 0.7396825396825397
+Num of entries retrieved from the KNLists: 6151
+Num of entries retrieved from NKMaps: 8316
+Num of answer trees explored: 2057
+Num of states created: 2939504
+Num of states explored: 2938697
+Num of heuristic search performed: 18
+
+Div Top-k Search by Astar1nc_ap_new, k=15
+[colony, rebellion, war]
+srcNodes: [2311758, 8018522, 5003590]
+  path: 0[2311758 -> 2311758], [Colony, Elisabeth -> Colony, Elisabeth]
+  path: 1[2311758 -> 1494465 -> 2296262 -> 1525075 -> 8018522], [Colony, Elisabeth -> L'enfer (2005) -> Bouquet, Carole -> Les fautes d'orthographe (2004) -> boys-school,friendship,locker-room,male-full-frontal-nudity,male-nudity,male-underwear,nudity,rebellion,shower] 
+
+  path: 2[2311758 -> 1494465 -> 2341572 -> 1511234 -> 5003590], [Colony, Elisabeth -> L'enfer (2005) -> Gillain, Marie -> Laissez-passer (2002) -> Biography,Drama,History,War] 
+
+srcNodes: [1672015, 1395555, 5000166]
+  path: 0[1871457 -> 2264597 -> 1747093 -> 2053900 -> 1672015], [War Horse (2011) -> Ratajczak, Robert Roman -> Telstar: The Joe Meek Story (2008) -> Chalkley, Michael -> Roanoke: The Lost Colony (2007)] 
+
+  path: 1[1871457 -> 2221850 -> 1533247 -> 2179628 -> 1395555], [War Horse (2011) -> Moore, Alex (V) -> Little Nicky (2000) -> Lang, Lex -> Gekijô ban Bleach: The DiamondDust Rebellion - Mô hitotsu no hyôrinmaru (2007)] 
+
+  path: 2[1871457 -> 5000166], [War Horse (2011) -> War] 
+
+srcNodes: [1763419, 1395555, 1871383]
+  path: 0[1871383 -> 2152931 -> 1345698 -> 2310167 -> 1763419], [War (2007) -> Jarrett, Paul (I) -> Eclipse (2010/I) -> Clarke, Sarah (I) -> The Colony (2007/II)] 
+
+  path: 1[1871383 -> 2192282 -> 412249 -> 2149992 -> 1395555], [War (2007) -> Louie, Mark -> "Hikaru no go" (2001) -> Itô, Kentarô -> Gekijô ban Bleach: The DiamondDust Rebellion - Mô hitotsu no hyôrinmaru (2007)] 
+
+  path: 2[1871383 -> 1871383], [War (2007) -> War (2007)]
+srcNodes: [1672015, 1395555, 5003180]
+  path: 0[1405973 -> 2004779 -> 1208330 -> 2170664 -> 1672015], [Grace and Danger (2011) -> Alderson, Giles -> Anaphylaxis (2010) -> Knight, Fraser -> Roanoke: The Lost Colony (2007)] 
+
+  path: 1[1405973 -> 2123126 -> 1839984 -> 2030965 -> 1395555], [Grace and Danger (2011) -> Gregory, Leo (I) -> Tristan + Isolde (2006) -> Blanc, JB -> Gekijô ban Bleach: The DiamondDust Rebellion - Mô hitotsu no hyôrinmaru (2007)] 
+
+  path: 2[1405973 -> 5003180], [Grace and Danger (2011) -> War,War] 
+
+srcNodes: [2311758, 8005737, 5000166]
+  path: 0[1492810 -> 2048017 -> 1494465 -> 2311758], [L'affaire Farewell (2009) -> Canet, Guillaume -> L'enfer (2005) -> Colony, Elisabeth] 
+
+  path: 1[1492810 -> 2187040 -> 1254153 -> 8005737], [L'affaire Farewell (2009) -> Lewis, Gary (III) -> Boudica (2003) -> battle,female-nudity,iceni,rebellion,roman,roman-empire,warrior-queen] 
+
+  path: 2[1492810 -> 2011617 -> 1871457 -> 5000166], [L'affaire Farewell (2009) -> Arestrup, Niels -> War Horse (2011) -> War] 
+
+srcNodes: [1672015, 8005737, 5000166]
+  path: 0[2264597 -> 1747093 -> 2053900 -> 1672015], [Ratajczak, Robert Roman -> Telstar: The Joe Meek Story (2008) -> Chalkley, Michael -> Roanoke: The Lost Colony (2007)] 
+
+  path: 1[2264597 -> 1821309 -> 2294404 -> 1254153 -> 8005737], [Ratajczak, Robert Roman -> The Wolfman (2010) -> Blunt, Emily -> Boudica (2003) -> battle,female-nudity,iceni,rebellion,roman,roman-empire,warrior-queen] 
+
+  path: 2[2264597 -> 1871457 -> 5000166], [Ratajczak, Robert Roman -> War Horse (2011) -> War] 
+
+srcNodes: [2311758, 8005737, 5000166]
+  path: 0[2011617 -> 1492810 -> 2048017 -> 1494465 -> 2311758], [Arestrup, Niels -> L'affaire Farewell (2009) -> Canet, Guillaume -> L'enfer (2005) -> Colony, Elisabeth] 
+
+  path: 1[2011617 -> 1492810 -> 2187040 -> 1254153 -> 8005737], [Arestrup, Niels -> L'affaire Farewell (2009) -> Lewis, Gary (III) -> Boudica (2003) -> battle,female-nudity,iceni,rebellion,roman,roman-empire,warrior-queen] 
+
+  path: 2[2011617 -> 1871457 -> 5000166], [Arestrup, Niels -> War Horse (2011) -> War] 
+
+srcNodes: [1672015, 8014327, 5000166]
+  path: 0[2053900 -> 1672015], [Chalkley, Michael -> Roanoke: The Lost Colony (2007)] 
+
+  path: 1[2053900 -> 1747093 -> 2352067 -> 1426329 -> 8014327], [Chalkley, Michael -> Telstar: The Joe Meek Story (2008) -> Hayter, Libby -> Hippie Hippie Shake (2010) -> 1960s,australian-man,counter-culture,court-trial,editor,england,feminism,hippie,london-england,magazine,metaphor,oz,radicalism,rebellion,satirical-journal] 
+
+  path: 2[2053900 -> 1747093 -> 2264597 -> 1871457 -> 5000166], [Chalkley, Michael -> Telstar: The Joe Meek Story (2008) -> Ratajczak, Robert Roman -> War Horse (2011) -> War] 
+
+srcNodes: [2311758, 8012962, 1753874]
+  path: 0[2200348 -> 1494465 -> 2311758], [Manojlovic, Miki -> L'enfer (2005) -> Colony, Elisabeth] 
+
+  path: 1[2200348 -> 1485863 -> 2231172 -> 1401206 -> 8012962], [Manojlovic, Miki -> Klopka (2007) -> Nelevic, Mladen -> Gledaj me (2008) -> hypocrisy,rebellion,youth-movement] 
+
+  path: 2[2200348 -> 1512382 -> 2057138 -> 1753874], [Manojlovic, Miki -> Largo Winch (2008) -> Chin, Glen -> The Art of War (2000)] 
+
+srcNodes: [2311758, 8012962, 5000021]
+  path: 0[1485863 -> 2200348 -> 1494465 -> 2311758], [Klopka (2007) -> Manojlovic, Miki -> L'enfer (2005) -> Colony, Elisabeth] 
+
+  path: 1[1485863 -> 2231172 -> 1401206 -> 8012962], [Klopka (2007) -> Nelevic, Mladen -> Gledaj me (2008) -> hypocrisy,rebellion,youth-movement] 
+
+  path: 2[1485863 -> 2148258 -> 1591650 -> 5000021], [Klopka (2007) -> Ilic, Nebojsa -> Nebeska udica (2000) -> Drama,War] 
+
+srcNodes: [1672015, 8014327, 5000166]
+  path: 0[1747093 -> 2053900 -> 1672015], [Telstar: The Joe Meek Story (2008) -> Chalkley, Michael -> Roanoke: The Lost Colony (2007)] 
+
+  path: 1[1747093 -> 2352067 -> 1426329 -> 8014327], [Telstar: The Joe Meek Story (2008) -> Hayter, Libby -> Hippie Hippie Shake (2010) -> 1960s,australian-man,counter-culture,court-trial,editor,england,feminism,hippie,london-england,magazine,metaphor,oz,radicalism,rebellion,satirical-journal] 
+
+  path: 2[1747093 -> 2264597 -> 1871457 -> 5000166], [Telstar: The Joe Meek Story (2008) -> Ratajczak, Robert Roman -> War Horse (2011) -> War] 
+
+srcNodes: [1672015, 8014327, 5000166]
+  path: 0[2427498 -> 1265656 -> 2254642 -> 1672015], [Redington, Tracy -> Call Me a Psycho (2008) -> Pittis, Leander -> Roanoke: The Lost Colony (2007)] 
+
+  path: 1[2427498 -> 1435444 -> 2467944 -> 1426329 -> 8014327], [Redington, Tracy -> How to Lose Friends & Alienate People (2008) -> Vujat, Vesna -> Hippie Hippie Shake (2010) -> 1960s,australian-man,counter-culture,court-trial,editor,england,feminism,hippie,london-england,magazine,metaphor,oz,radicalism,rebellion,satirical-journal] 
+
+  path: 2[2427498 -> 1663357 -> 5000166], [Redington, Tracy -> Recon 7 Down (2007) -> War] 
+
+srcNodes: [2311758, 8018522, 5000166]
+  path: 0[2110000 -> 1494465 -> 2311758], [Gamblin, Jacques -> L'enfer (2005) -> Colony, Elisabeth] 
+
+  path: 1[2110000 -> 1236560 -> 2300421 -> 1525075 -> 8018522], [Gamblin, Jacques -> Bellamy (2009) -> Bunel, Marie -> Les fautes d'orthographe (2004) -> boys-school,friendship,locker-room,male-full-frontal-nudity,male-nudity,male-underwear,nudity,rebellion,shower] 
+
+  path: 2[2110000 -> 1900315 -> 2228983 -> 1871457 -> 5000166], [Gamblin, Jacques -> À la petite semaine (2003) -> Nahon, Philippe (I) -> War Horse (2011) -> War] 
+
+srcNodes: [2311758, 8005737, 5001131]
+  path: 0[1470782 -> 2048017 -> 1494465 -> 2311758], [Joyeux Noël (2005) -> Canet, Guillaume -> L'enfer (2005) -> Colony, Elisabeth] 
+
+  path: 1[1470782 -> 2187040 -> 1254153 -> 8005737], [Joyeux Noël (2005) -> Lewis, Gary (III) -> Boudica (2003) -> battle,female-nudity,iceni,rebellion,roman,roman-empire,warrior-queen] 
+
+  path: 2[1470782 -> 5001131], [Joyeux Noël (2005) -> War,Drama,Music,Romance] 
+
+srcNodes: [1763418, 8005737, 1275566]
+  path: 0[1275566 -> 2276986 -> 1612717 -> 2356743 -> 1763418], [Charlie Wilson's War (2007) -> Adams, Amy (III) -> On the Road (2011) -> Horn, Kaniehtiio -> The Colony (2007/I)] 
+
+  path: 1[1275566 -> 2294404 -> 1254153 -> 8005737], [Charlie Wilson's War (2007) -> Blunt, Emily -> Boudica (2003) -> battle,female-nudity,iceni,rebellion,roman,roman-empire,warrior-queen] 
+
+  path: 2[1275566 -> 1275566], [Charlie Wilson's War (2007) -> Charlie Wilson's War (2007)]
+-----------------------------------------
+ResultDestNodes: [2311758, 1871457, 1871383, 1405973, 1492810, 2264597, 2011617, 2053900, 2200348, 1485863, 1747093, 2427498, 2110000, 1470782, 1275566]
+ResultRelevs: [7.856373310089111, 6.70205020904541, 6.24570369720459, 6.201326370239258, 6.108677864074707, 6.097342014312744, 5.989721298217773, 5.956806182861328, 5.905856132507324, 5.8967719078063965, 5.880822658538818, 5.829270839691162, 5.820652008056641, 5.80974006652832, 5.762181758880615]
+AvgResultRelev: 6.1375530878702795
+AvgResultDissimilarity: 0.7396825396825397
+Num of entries retrieved from the KNLists: 8396
+Num of entries retrieved from NKMaps: 11496
+Num of answer trees explored: 2932
+Num of states created: 1204
+Num of states explored: 262
+Num of heuristic search performed: 4
+

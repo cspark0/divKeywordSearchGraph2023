@@ -1,0 +1,9 @@
+Top-k, (AvgResultRelev, AvgResultRelev/ResultRelevs[0], AvgResultDiss) numOfKNListsRead, numOfNKMapLookups, numOfAnswerTreesExplored, elapseTime, numOfStatesCreated, numOfStatesExplored, numOfHeuristicSearchPerformed, numOfATSPrunnedByDissCond, numOfLocalAnswersFound, 
+query: [disaster, sacrifice, hero]
+BlinkSea, 	8, 7.23641, 0.94913, 0.38095, 1642, 2732, 1031, 0.187142747, 
+Exhustiv, 	8, 7.10409, 0.93177, 0.70238, 3915, 6831, 2818, 0.27176308, 11848, 26933, 3253, 2, 
+Astar02, 	8, 7.10409, 0.93177, 0.70238, 3915, 6831, 2818, 0.951075691, 16224, 16019, 47, 12012, 1, 
+Astar1nc_, 	8, 7.10409, 0.93177, 0.70238, 3915, 6831, 2818, 0.615043529, 7822, 662, 44, 1282, 0, 
+query: [hitchcock, thriller, horror]
+BlinkSea, 	8, 11.43312, 0.84206, 0.28571, 3213, 4591, 1372, 0.166820894, 
+Exhustiv, 	8, 10.94163, 0.80586, 0.70476, 50699, 76060, 27288, 1763.031712305, 39902296, 769225768, 689421224, 3, 

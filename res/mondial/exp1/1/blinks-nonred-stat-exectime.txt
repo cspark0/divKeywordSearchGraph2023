@@ -1,0 +1,4 @@
+[korea, japan, china]:0.320 
+[chicago, montreal, ottawa]:0.170 
+[asia, russia, china]:0.280 
+[alaska, arctic, sea]:0.160 

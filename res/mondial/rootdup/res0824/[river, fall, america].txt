@@ -1,0 +1,18 @@
+Blink Search Using BDB 10
+[river, fall, america]
+
+Blink Search Using ConstRootDup10
+[river, fall, america]
+
+Blink Search Using BDB 20
+[river, fall, america]
+
+Blink Search Using ConstRootDup20
+[river, fall, america]
+
+Blink Search Using BDB 30
+[river, fall, america]
+
+Blink Search Using ConstRootDup30
+[river, fall, america]
+

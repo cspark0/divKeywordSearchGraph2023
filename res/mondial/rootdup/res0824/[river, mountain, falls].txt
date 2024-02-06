@@ -1,0 +1,815 @@
+Blink Search Using BDB 10
+[river, mountain, falls]
+srcNodes: [90143, 181, 42532]
+  path: 0[90143 -> 90143], [Missouri -> Missouri]
+  path: 1[90143 -> 31012 -> 181], [Missouri -> Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+  path: 2[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90143, 183, 42532]
+  path: 0[31027 -> 90143], [South Dakota -> Missouri] 
+
+  path: 1[31027 -> 183], [South Dakota -> Harney Peak Harney Peak Rocky Mountains ] 
+
+  path: 2[31027 -> 42532], [South Dakota -> Sioux Falls] 
+
+srcNodes: [90142, 199, 42532]
+  path: 0[90142 -> 90142], [Mississippi -> Mississippi]
+  path: 1[90142 -> 31028 -> 199], [Mississippi -> Tennessee -> Clingmans Dome Clingmans Dome Appalachen ] 
+
+  path: 2[90142 -> 31011 -> 90143 -> 31027 -> 42532], [Mississippi -> Missouri -> Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90165, 210, 42951]
+  path: 0[210 -> 20132 -> 10001 -> 20174 -> 90165], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> Uruguay -> Uruguay] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20118 -> 31029 -> 42951], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [90151, 186, 42951]
+  path: 0[90151 -> 90151], [Rio Grande -> Rio Grande]
+  path: 1[90151 -> 30992 -> 186], [Rio Grande -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 2[90151 -> 31029 -> 42951], [Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [90143, 183, 42532]
+  path: 0[183 -> 31027 -> 90143], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Missouri] 
+
+  path: 1[183 -> 183], [Harney Peak Harney Peak Rocky Mountains  -> Harney Peak Harney Peak Rocky Mountains ]
+  path: 2[183 -> 31027 -> 42532], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90144, 186, 42532]
+  path: 0[90144 -> 90144], [Arkansas -> Arkansas]
+  path: 1[90144 -> 30992 -> 186], [Arkansas -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 2[90144 -> 31002 -> 90143 -> 31027 -> 42532], [Arkansas -> Kansas -> Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90150, 186, 42951]
+  path: 0[90150 -> 90150], [Colorado -> Colorado]
+  path: 1[90150 -> 30992 -> 186], [Colorado -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 2[90150 -> 30992 -> 90151 -> 31029 -> 42951], [Colorado -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [90151, 190, 42951]
+  path: 0[31029 -> 90151], [Texas -> Rio Grande] 
+
+  path: 1[31029 -> 190], [Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 2[31029 -> 42951], [Texas -> Wichita Falls] 
+
+srcNodes: [90164, 233, 42951]
+  path: 0[90164 -> 90164], [Paraguay -> Paraguay]
+  path: 1[90164 -> 20170 -> 233], [Paraguay -> Bolivia -> Sajama Sajama Andes volcano] 
+
+  path: 2[90164 -> 20173 -> 10001 -> 20118 -> 31029 -> 42951], [Paraguay -> Paraguay -> America -> United States -> Texas -> Wichita Falls] 
+
+-----------------------------------------
+ResultDestNodes: [90143, 31027, 90142, 210, 90151, 183, 90144, 90150, 31029, 90164]
+ResultRelevs: [4.832925796508789, 4.494850158691406, 4.342903137207031, 4.324440002441406, 4.282015800476074, 4.2540998458862305, 4.253078937530518, 4.253078937530518, 4.219399929046631, 4.197941780090332]
+Num of top-k answers: 10
+Num of non-reduced answers: 0
+Num of duplicate answers: 1
+Num of non-redundant answers: 9
+Num of entries retrieved from the lists: 566
+Num of entries retrieved from NKMaps: 992
+
+Blink Search Using ConstRootDup10
+[river, mountain, falls]
+srcNodes: [90143, 181, 42532]
+  path: 0[90143 -> 90143], [Missouri -> Missouri]
+  path: 1[90143 -> 31012 -> 181], [Missouri -> Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+  path: 2[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90143, 183, 42532]
+  path: 0[90143 -> 90143], [Missouri -> Missouri]
+  path: 1[90143 -> 31027 -> 183], [Missouri -> South Dakota -> Harney Peak Harney Peak Rocky Mountains ] 
+
+  path: 2[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90143, 199, 42532]
+  path: 0[90143 -> 90143], [Missouri -> Missouri]
+  path: 1[90143 -> 31011 -> 90142 -> 31028 -> 199], [Missouri -> Missouri -> Mississippi -> Tennessee -> Clingmans Dome Clingmans Dome Appalachen ] 
+
+  path: 2[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90143, 187, 42532]
+  path: 0[90143 -> 90143], [Missouri -> Missouri]
+  path: 1[90143 -> 31002 -> 90144 -> 30992 -> 187], [Missouri -> Kansas -> Arkansas -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 2[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90143, 16, 42532]
+  path: 0[90143 -> 90143], [Missouri -> Missouri]
+  path: 1[90143 -> 31013 -> 41497 -> 110006 -> 30601 -> 16], [Missouri -> Nebraska -> Lincoln -> Great Britain Great Britain British Isles  -> Highland -> Ben Nevis Ben Nevis Grampians ] 
+
+  path: 2[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90143, 183, 42532]
+  path: 0[31027 -> 90143], [South Dakota -> Missouri] 
+
+  path: 1[31027 -> 183], [South Dakota -> Harney Peak Harney Peak Rocky Mountains ] 
+
+  path: 2[31027 -> 42532], [South Dakota -> Sioux Falls] 
+
+srcNodes: [90142, 199, 42532]
+  path: 0[90142 -> 90142], [Mississippi -> Mississippi]
+  path: 1[90142 -> 31028 -> 199], [Mississippi -> Tennessee -> Clingmans Dome Clingmans Dome Appalachen ] 
+
+  path: 2[90142 -> 31011 -> 90143 -> 31027 -> 42532], [Mississippi -> Missouri -> Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90165, 210, 42951]
+  path: 0[210 -> 20132 -> 10001 -> 20174 -> 90165], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> Uruguay -> Uruguay] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20118 -> 31029 -> 42951], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [90151, 186, 42951]
+  path: 0[90151 -> 90151], [Rio Grande -> Rio Grande]
+  path: 1[90151 -> 30992 -> 186], [Rio Grande -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 2[90151 -> 31029 -> 42951], [Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [90143, 183, 42532]
+  path: 0[183 -> 31027 -> 90143], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Missouri] 
+
+  path: 1[183 -> 183], [Harney Peak Harney Peak Rocky Mountains  -> Harney Peak Harney Peak Rocky Mountains ]
+  path: 2[183 -> 31027 -> 42532], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Sioux Falls] 
+
+-----------------------------------------
+ResultDestNodes: 
+90143, 90143, 90143, 90143, 90143, 31027, 90142, 210, 90151, 183, 
+ResultRelevs: 
+4.832926, 4.832926, 4.635314, 4.58142, 4.563456, 4.49485, 4.342903, 4.32444, 4.282016, 4.2541, 
+Num of top-k answers: 10
+Num of duplicate answers: 2
+Num of duplicate roots in top-k answers: 4
+root duplication ratio: 0.44444445
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 566
+Num of entries retrieved from NKMaps: 4169
+Num of answer trees explored: 7408
+
+Blink Search Using BDB 20
+[river, mountain, falls]
+srcNodes: [90143, 181, 42532]
+  path: 0[90143 -> 90143], [Missouri -> Missouri]
+  path: 1[90143 -> 31012 -> 181], [Missouri -> Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+  path: 2[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90143, 183, 42532]
+  path: 0[31027 -> 90143], [South Dakota -> Missouri] 
+
+  path: 1[31027 -> 183], [South Dakota -> Harney Peak Harney Peak Rocky Mountains ] 
+
+  path: 2[31027 -> 42532], [South Dakota -> Sioux Falls] 
+
+srcNodes: [90142, 199, 42532]
+  path: 0[90142 -> 90142], [Mississippi -> Mississippi]
+  path: 1[90142 -> 31028 -> 199], [Mississippi -> Tennessee -> Clingmans Dome Clingmans Dome Appalachen ] 
+
+  path: 2[90142 -> 31011 -> 90143 -> 31027 -> 42532], [Mississippi -> Missouri -> Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90165, 210, 42951]
+  path: 0[210 -> 20132 -> 10001 -> 20174 -> 90165], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> Uruguay -> Uruguay] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20118 -> 31029 -> 42951], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [90151, 186, 42951]
+  path: 0[90151 -> 90151], [Rio Grande -> Rio Grande]
+  path: 1[90151 -> 30992 -> 186], [Rio Grande -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 2[90151 -> 31029 -> 42951], [Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [90143, 183, 42532]
+  path: 0[183 -> 31027 -> 90143], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Missouri] 
+
+  path: 1[183 -> 183], [Harney Peak Harney Peak Rocky Mountains  -> Harney Peak Harney Peak Rocky Mountains ]
+  path: 2[183 -> 31027 -> 42532], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90150, 186, 42951]
+  path: 0[90150 -> 90150], [Colorado -> Colorado]
+  path: 1[90150 -> 30992 -> 186], [Colorado -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 2[90150 -> 30992 -> 90151 -> 31029 -> 42951], [Colorado -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [90144, 186, 42532]
+  path: 0[90144 -> 90144], [Arkansas -> Arkansas]
+  path: 1[90144 -> 30992 -> 186], [Arkansas -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 2[90144 -> 31002 -> 90143 -> 31027 -> 42532], [Arkansas -> Kansas -> Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90151, 190, 42951]
+  path: 0[31029 -> 90151], [Texas -> Rio Grande] 
+
+  path: 1[31029 -> 190], [Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 2[31029 -> 42951], [Texas -> Wichita Falls] 
+
+srcNodes: [90164, 233, 42951]
+  path: 0[90164 -> 90164], [Paraguay -> Paraguay]
+  path: 1[90164 -> 20170 -> 233], [Paraguay -> Bolivia -> Sajama Sajama Andes volcano] 
+
+  path: 2[90164 -> 20173 -> 10001 -> 20118 -> 31029 -> 42951], [Paraguay -> Paraguay -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [90163, 210, 42951]
+  path: 0[90163 -> 90163], [Parana -> Parana]
+  path: 1[90163 -> 20173 -> 10001 -> 20132 -> 210], [Parana -> Paraguay -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[90163 -> 20173 -> 10001 -> 20118 -> 31029 -> 42951], [Parana -> Paraguay -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [90165, 210, 42951]
+  path: 0[90165 -> 90165], [Uruguay -> Uruguay]
+  path: 1[90165 -> 20174 -> 10001 -> 20132 -> 210], [Uruguay -> Uruguay -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[90165 -> 20174 -> 10001 -> 20118 -> 31029 -> 42951], [Uruguay -> Uruguay -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [90151, 190, 42951]
+  path: 0[190 -> 31029 -> 90151], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Rio Grande] 
+
+  path: 1[190 -> 190], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Guadalupe Peak Guadalupe Peak Rocky Mountains ]
+  path: 2[190 -> 31029 -> 42951], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Wichita Falls] 
+
+srcNodes: [90164, 234, 42951]
+  path: 0[234 -> 20170 -> 90164], [Licancabur Licancabur Andes volcano -> Bolivia -> Paraguay] 
+
+  path: 1[234 -> 234], [Licancabur Licancabur Andes volcano -> Licancabur Licancabur Andes volcano]
+  path: 2[234 -> 20172 -> 10001 -> 20118 -> 31029 -> 42951], [Licancabur Licancabur Andes volcano -> Chile -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [90164, 233, 42951]
+  path: 0[233 -> 20170 -> 90164], [Sajama Sajama Andes volcano -> Bolivia -> Paraguay] 
+
+  path: 1[233 -> 233], [Sajama Sajama Andes volcano -> Sajama Sajama Andes volcano]
+  path: 2[233 -> 20170 -> 10001 -> 20118 -> 31029 -> 42951], [Sajama Sajama Andes volcano -> Bolivia -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [90143, 181, 42532]
+  path: 0[181 -> 31012 -> 90143], [Granite Peak Granite Peak Rocky Mountains  -> Montana -> Missouri] 
+
+  path: 1[181 -> 181], [Granite Peak Granite Peak Rocky Mountains  -> Granite Peak Granite Peak Rocky Mountains ]
+  path: 2[181 -> 31012 -> 90143 -> 31027 -> 42532], [Granite Peak Granite Peak Rocky Mountains  -> Montana -> Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90144, 186, 42951]
+  path: 0[186 -> 30992 -> 90144], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado -> Arkansas] 
+
+  path: 1[186 -> 186], [Mt Elbert Mt Elbert Rocky Mountains  -> Mt Elbert Mt Elbert Rocky Mountains ]
+  path: 2[186 -> 30992 -> 90151 -> 31029 -> 42951], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [90144, 187, 42951]
+  path: 0[187 -> 30992 -> 90144], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Arkansas] 
+
+  path: 1[187 -> 187], [Pikes Peak Pikes Peak Rocky Mountains  -> Pikes Peak Pikes Peak Rocky Mountains ]
+  path: 2[187 -> 30992 -> 90151 -> 31029 -> 42951], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [90159, 234, 42951]
+  path: 0[90159 -> 90159], [Rio Madeira -> Rio Madeira]
+  path: 1[90159 -> 20170 -> 234], [Rio Madeira -> Bolivia -> Licancabur Licancabur Andes volcano] 
+
+  path: 2[90159 -> 20170 -> 10001 -> 20118 -> 31029 -> 42951], [Rio Madeira -> Bolivia -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [90160, 233, 42951]
+  path: 0[90160 -> 90160], [Rio Mamore -> Rio Mamore]
+  path: 1[90160 -> 20170 -> 233], [Rio Mamore -> Bolivia -> Sajama Sajama Andes volcano] 
+
+  path: 2[90160 -> 20170 -> 10001 -> 20118 -> 31029 -> 42951], [Rio Mamore -> Bolivia -> America -> United States -> Texas -> Wichita Falls] 
+
+-----------------------------------------
+ResultDestNodes: [90143, 31027, 90142, 210, 90151, 183, 90150, 90144, 31029, 90164, 90163, 90165, 190, 234, 233, 181, 186, 187, 90159, 90160]
+ResultRelevs: [4.832925796508789, 4.494850158691406, 4.342903137207031, 4.324440002441406, 4.282015800476074, 4.2540998458862305, 4.253078937530518, 4.253078937530518, 4.219399929046631, 4.197941780090332, 4.0890960693359375, 4.0890960693359375, 4.070464134216309, 3.798762083053589, 3.798762083053589, 3.674252986907959, 3.674252986907959, 3.674252986907959, 3.6470320224761963, 3.6470320224761963]
+Num of top-k answers: 20
+Num of non-reduced answers: 0
+Num of duplicate answers: 5
+Num of non-redundant answers: 15
+Num of entries retrieved from the lists: 566
+Num of entries retrieved from NKMaps: 992
+
+Blink Search Using ConstRootDup20
+[river, mountain, falls]
+srcNodes: [90143, 181, 42532]
+  path: 0[90143 -> 90143], [Missouri -> Missouri]
+  path: 1[90143 -> 31012 -> 181], [Missouri -> Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+  path: 2[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90143, 183, 42532]
+  path: 0[90143 -> 90143], [Missouri -> Missouri]
+  path: 1[90143 -> 31027 -> 183], [Missouri -> South Dakota -> Harney Peak Harney Peak Rocky Mountains ] 
+
+  path: 2[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90143, 199, 42532]
+  path: 0[90143 -> 90143], [Missouri -> Missouri]
+  path: 1[90143 -> 31011 -> 90142 -> 31028 -> 199], [Missouri -> Missouri -> Mississippi -> Tennessee -> Clingmans Dome Clingmans Dome Appalachen ] 
+
+  path: 2[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90143, 187, 42532]
+  path: 0[90143 -> 90143], [Missouri -> Missouri]
+  path: 1[90143 -> 31002 -> 90144 -> 30992 -> 187], [Missouri -> Kansas -> Arkansas -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 2[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90143, 16, 42532]
+  path: 0[90143 -> 90143], [Missouri -> Missouri]
+  path: 1[90143 -> 31013 -> 41497 -> 110006 -> 30601 -> 16], [Missouri -> Nebraska -> Lincoln -> Great Britain Great Britain British Isles  -> Highland -> Ben Nevis Ben Nevis Grampians ] 
+
+  path: 2[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90143, 183, 42532]
+  path: 0[31027 -> 90143], [South Dakota -> Missouri] 
+
+  path: 1[31027 -> 183], [South Dakota -> Harney Peak Harney Peak Rocky Mountains ] 
+
+  path: 2[31027 -> 42532], [South Dakota -> Sioux Falls] 
+
+srcNodes: [90142, 199, 42532]
+  path: 0[90142 -> 90142], [Mississippi -> Mississippi]
+  path: 1[90142 -> 31028 -> 199], [Mississippi -> Tennessee -> Clingmans Dome Clingmans Dome Appalachen ] 
+
+  path: 2[90142 -> 31011 -> 90143 -> 31027 -> 42532], [Mississippi -> Missouri -> Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90164, 210, 42951]
+  path: 0[210 -> 20132 -> 10001 -> 20173 -> 90164], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> Paraguay -> Paraguay] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20118 -> 31029 -> 42951], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [90165, 210, 42951]
+  path: 0[210 -> 20132 -> 10001 -> 20174 -> 90165], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> Uruguay -> Uruguay] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20118 -> 31029 -> 42951], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [90164, 210, 42532]
+  path: 0[210 -> 20132 -> 10001 -> 20173 -> 90164], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> Paraguay -> Paraguay] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20118 -> 31027 -> 42532], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90165, 210, 42532]
+  path: 0[210 -> 20132 -> 10001 -> 20174 -> 90165], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> Uruguay -> Uruguay] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20118 -> 31027 -> 42532], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90135, 210, 42532]
+  path: 0[210 -> 20132 -> 10001 -> 20117 -> 30982 -> 90135], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> Canada -> Ontario -> Niagara River] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20118 -> 31027 -> 42532], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90135, 210, 42951]
+  path: 0[210 -> 20132 -> 10001 -> 20117 -> 30982 -> 90135], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> Canada -> Ontario -> Niagara River] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20118 -> 31029 -> 42951], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [90151, 186, 42951]
+  path: 0[90151 -> 90151], [Rio Grande -> Rio Grande]
+  path: 1[90151 -> 30992 -> 186], [Rio Grande -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 2[90151 -> 31029 -> 42951], [Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [90143, 183, 42532]
+  path: 0[183 -> 31027 -> 90143], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Missouri] 
+
+  path: 1[183 -> 183], [Harney Peak Harney Peak Rocky Mountains  -> Harney Peak Harney Peak Rocky Mountains ]
+  path: 2[183 -> 31027 -> 42532], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90150, 186, 42951]
+  path: 0[90150 -> 90150], [Colorado -> Colorado]
+  path: 1[90150 -> 30992 -> 186], [Colorado -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 2[90150 -> 30992 -> 90151 -> 31029 -> 42951], [Colorado -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [90144, 186, 42532]
+  path: 0[90144 -> 90144], [Arkansas -> Arkansas]
+  path: 1[90144 -> 30992 -> 186], [Arkansas -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 2[90144 -> 31002 -> 90143 -> 31027 -> 42532], [Arkansas -> Kansas -> Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90151, 190, 42951]
+  path: 0[31029 -> 90151], [Texas -> Rio Grande] 
+
+  path: 1[31029 -> 190], [Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 2[31029 -> 42951], [Texas -> Wichita Falls] 
+
+srcNodes: [90164, 233, 42951]
+  path: 0[90164 -> 90164], [Paraguay -> Paraguay]
+  path: 1[90164 -> 20170 -> 233], [Paraguay -> Bolivia -> Sajama Sajama Andes volcano] 
+
+  path: 2[90164 -> 20173 -> 10001 -> 20118 -> 31029 -> 42951], [Paraguay -> Paraguay -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [90165, 210, 42951]
+  path: 0[90165 -> 90165], [Uruguay -> Uruguay]
+  path: 1[90165 -> 20174 -> 10001 -> 20132 -> 210], [Uruguay -> Uruguay -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[90165 -> 20174 -> 10001 -> 20118 -> 31029 -> 42951], [Uruguay -> Uruguay -> America -> United States -> Texas -> Wichita Falls] 
+
+-----------------------------------------
+ResultDestNodes: 
+90143, 90143, 90143, 90143, 90143, 31027, 90142, 210, 210, 210, 210, 210, 210, 90151, 183, 90150, 90144, 31029, 90164, 90165, 
+ResultRelevs: 
+4.832926, 4.832926, 4.635314, 4.58142, 4.563456, 4.49485, 4.342903, 4.32444, 4.32444, 4.32444, 4.32444, 4.292934, 4.292934, 4.282016, 4.2541, 4.253079, 4.253079, 4.2194, 4.197942, 4.089096, 
+Num of top-k answers: 20
+Num of duplicate answers: 3
+Num of duplicate roots in top-k answers: 9
+root duplication ratio: 0.47368422
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 566
+Num of entries retrieved from NKMaps: 4169
+Num of answer trees explored: 7408
+
+Blink Search Using BDB 30
+[river, mountain, falls]
+srcNodes: [90143, 181, 42532]
+  path: 0[90143 -> 90143], [Missouri -> Missouri]
+  path: 1[90143 -> 31012 -> 181], [Missouri -> Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+  path: 2[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90143, 183, 42532]
+  path: 0[31027 -> 90143], [South Dakota -> Missouri] 
+
+  path: 1[31027 -> 183], [South Dakota -> Harney Peak Harney Peak Rocky Mountains ] 
+
+  path: 2[31027 -> 42532], [South Dakota -> Sioux Falls] 
+
+srcNodes: [90142, 199, 42532]
+  path: 0[90142 -> 90142], [Mississippi -> Mississippi]
+  path: 1[90142 -> 31028 -> 199], [Mississippi -> Tennessee -> Clingmans Dome Clingmans Dome Appalachen ] 
+
+  path: 2[90142 -> 31011 -> 90143 -> 31027 -> 42532], [Mississippi -> Missouri -> Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90165, 210, 42951]
+  path: 0[210 -> 20132 -> 10001 -> 20174 -> 90165], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> Uruguay -> Uruguay] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20118 -> 31029 -> 42951], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [90151, 186, 42951]
+  path: 0[90151 -> 90151], [Rio Grande -> Rio Grande]
+  path: 1[90151 -> 30992 -> 186], [Rio Grande -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 2[90151 -> 31029 -> 42951], [Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [90143, 183, 42532]
+  path: 0[183 -> 31027 -> 90143], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Missouri] 
+
+  path: 1[183 -> 183], [Harney Peak Harney Peak Rocky Mountains  -> Harney Peak Harney Peak Rocky Mountains ]
+  path: 2[183 -> 31027 -> 42532], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90144, 186, 42532]
+  path: 0[90144 -> 90144], [Arkansas -> Arkansas]
+  path: 1[90144 -> 30992 -> 186], [Arkansas -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 2[90144 -> 31002 -> 90143 -> 31027 -> 42532], [Arkansas -> Kansas -> Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90150, 186, 42951]
+  path: 0[90150 -> 90150], [Colorado -> Colorado]
+  path: 1[90150 -> 30992 -> 186], [Colorado -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 2[90150 -> 30992 -> 90151 -> 31029 -> 42951], [Colorado -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [90151, 190, 42951]
+  path: 0[31029 -> 90151], [Texas -> Rio Grande] 
+
+  path: 1[31029 -> 190], [Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 2[31029 -> 42951], [Texas -> Wichita Falls] 
+
+srcNodes: [90164, 233, 42951]
+  path: 0[90164 -> 90164], [Paraguay -> Paraguay]
+  path: 1[90164 -> 20170 -> 233], [Paraguay -> Bolivia -> Sajama Sajama Andes volcano] 
+
+  path: 2[90164 -> 20173 -> 10001 -> 20118 -> 31029 -> 42951], [Paraguay -> Paraguay -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [90163, 210, 42951]
+  path: 0[90163 -> 90163], [Parana -> Parana]
+  path: 1[90163 -> 20173 -> 10001 -> 20132 -> 210], [Parana -> Paraguay -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[90163 -> 20173 -> 10001 -> 20118 -> 31029 -> 42951], [Parana -> Paraguay -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [90165, 210, 42951]
+  path: 0[90165 -> 90165], [Uruguay -> Uruguay]
+  path: 1[90165 -> 20174 -> 10001 -> 20132 -> 210], [Uruguay -> Uruguay -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[90165 -> 20174 -> 10001 -> 20118 -> 31029 -> 42951], [Uruguay -> Uruguay -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [90151, 190, 42951]
+  path: 0[190 -> 31029 -> 90151], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Rio Grande] 
+
+  path: 1[190 -> 190], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Guadalupe Peak Guadalupe Peak Rocky Mountains ]
+  path: 2[190 -> 31029 -> 42951], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Wichita Falls] 
+
+srcNodes: [90164, 234, 42951]
+  path: 0[234 -> 20170 -> 90164], [Licancabur Licancabur Andes volcano -> Bolivia -> Paraguay] 
+
+  path: 1[234 -> 234], [Licancabur Licancabur Andes volcano -> Licancabur Licancabur Andes volcano]
+  path: 2[234 -> 20172 -> 10001 -> 20118 -> 31029 -> 42951], [Licancabur Licancabur Andes volcano -> Chile -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [90164, 233, 42951]
+  path: 0[233 -> 20170 -> 90164], [Sajama Sajama Andes volcano -> Bolivia -> Paraguay] 
+
+  path: 1[233 -> 233], [Sajama Sajama Andes volcano -> Sajama Sajama Andes volcano]
+  path: 2[233 -> 20170 -> 10001 -> 20118 -> 31029 -> 42951], [Sajama Sajama Andes volcano -> Bolivia -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [90144, 187, 42951]
+  path: 0[187 -> 30992 -> 90144], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Arkansas] 
+
+  path: 1[187 -> 187], [Pikes Peak Pikes Peak Rocky Mountains  -> Pikes Peak Pikes Peak Rocky Mountains ]
+  path: 2[187 -> 30992 -> 90151 -> 31029 -> 42951], [Pikes Peak Pikes Peak Rocky Mountains  -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [90143, 181, 42532]
+  path: 0[181 -> 31012 -> 90143], [Granite Peak Granite Peak Rocky Mountains  -> Montana -> Missouri] 
+
+  path: 1[181 -> 181], [Granite Peak Granite Peak Rocky Mountains  -> Granite Peak Granite Peak Rocky Mountains ]
+  path: 2[181 -> 31012 -> 90143 -> 31027 -> 42532], [Granite Peak Granite Peak Rocky Mountains  -> Montana -> Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90144, 186, 42951]
+  path: 0[186 -> 30992 -> 90144], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado -> Arkansas] 
+
+  path: 1[186 -> 186], [Mt Elbert Mt Elbert Rocky Mountains  -> Mt Elbert Mt Elbert Rocky Mountains ]
+  path: 2[186 -> 30992 -> 90151 -> 31029 -> 42951], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [90153, 206, 42951]
+  path: 0[90153 -> 90153], [Rio San Juan -> Rio San Juan]
+  path: 1[90153 -> 20121 -> 206], [Rio San Juan -> Nicaragua -> Concepcion Concepcion  volcano] 
+
+  path: 2[90153 -> 20121 -> 10001 -> 20118 -> 31029 -> 42951], [Rio San Juan -> Nicaragua -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [90160, 233, 42951]
+  path: 0[90160 -> 90160], [Rio Mamore -> Rio Mamore]
+  path: 1[90160 -> 20170 -> 233], [Rio Mamore -> Bolivia -> Sajama Sajama Andes volcano] 
+
+  path: 2[90160 -> 20170 -> 10001 -> 20118 -> 31029 -> 42951], [Rio Mamore -> Bolivia -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [90159, 234, 42951]
+  path: 0[90159 -> 90159], [Rio Madeira -> Rio Madeira]
+  path: 1[90159 -> 20170 -> 234], [Rio Madeira -> Bolivia -> Licancabur Licancabur Andes volcano] 
+
+  path: 2[90159 -> 20170 -> 10001 -> 20118 -> 31029 -> 42951], [Rio Madeira -> Bolivia -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [90154, 233, 42951]
+  path: 0[90154 -> 90154], [Rio Desaguadero -> Rio Desaguadero]
+  path: 1[90154 -> 20170 -> 233], [Rio Desaguadero -> Bolivia -> Sajama Sajama Andes volcano] 
+
+  path: 2[90154 -> 20170 -> 10001 -> 20118 -> 31029 -> 42951], [Rio Desaguadero -> Bolivia -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [90153, 206, 42951]
+  path: 0[206 -> 20121 -> 90153], [Concepcion Concepcion  volcano -> Nicaragua -> Rio San Juan] 
+
+  path: 1[206 -> 206], [Concepcion Concepcion  volcano -> Concepcion Concepcion  volcano]
+  path: 2[206 -> 20121 -> 10001 -> 20118 -> 31029 -> 42951], [Concepcion Concepcion  volcano -> Nicaragua -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [90164, 231, 42951]
+  path: 0[231 -> 20170 -> 90164], [Illampu Illampu Cordillera Real granite -> Bolivia -> Paraguay] 
+
+  path: 1[231 -> 231], [Illampu Illampu Cordillera Real granite -> Illampu Illampu Cordillera Real granite]
+  path: 2[231 -> 20170 -> 10001 -> 20118 -> 31029 -> 42951], [Illampu Illampu Cordillera Real granite -> Bolivia -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [90164, 232, 42951]
+  path: 0[232 -> 20170 -> 90164], [Illimani Illimani Cordillera Real granite -> Bolivia -> Paraguay] 
+
+  path: 1[232 -> 232], [Illimani Illimani Cordillera Real granite -> Illimani Illimani Cordillera Real granite]
+  path: 2[232 -> 20170 -> 10001 -> 20118 -> 31029 -> 42951], [Illimani Illimani Cordillera Real granite -> Bolivia -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [90151, 188, 42951]
+  path: 0[188 -> 31017 -> 90151], [Wheeler Peak Wheeler Peak Rocky Mountains  -> New Mexico -> Rio Grande] 
+
+  path: 1[188 -> 188], [Wheeler Peak Wheeler Peak Rocky Mountains  -> Wheeler Peak Wheeler Peak Rocky Mountains ]
+  path: 2[188 -> 31017 -> 90151 -> 31029 -> 42951], [Wheeler Peak Wheeler Peak Rocky Mountains  -> New Mexico -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [90165, 216, 42951]
+  path: 0[216 -> 20124 -> 10001 -> 20174 -> 90165], [Morne Diablotins Morne Diablotins  volcano -> Dominica -> America -> Uruguay -> Uruguay] 
+
+  path: 1[216 -> 216], [Morne Diablotins Morne Diablotins  volcano -> Morne Diablotins Morne Diablotins  volcano]
+  path: 2[216 -> 20124 -> 10001 -> 20118 -> 31029 -> 42951], [Morne Diablotins Morne Diablotins  volcano -> Dominica -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [90165, 215, 42951]
+  path: 0[215 -> 20142 -> 10001 -> 20174 -> 90165], [Soufriere Soufriere  volcano -> Saint Vincent and the Grenadines -> America -> Uruguay -> Uruguay] 
+
+  path: 1[215 -> 215], [Soufriere Soufriere  volcano -> Soufriere Soufriere  volcano]
+  path: 2[215 -> 20142 -> 10001 -> 20118 -> 31029 -> 42951], [Soufriere Soufriere  volcano -> Saint Vincent and the Grenadines -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [90165, 214, 42951]
+  path: 0[214 -> 20134 -> 10001 -> 20174 -> 90165], [Soufriere Hills Soufriere Hills  volcano -> Montserrat -> America -> Uruguay -> Uruguay] 
+
+  path: 1[214 -> 214], [Soufriere Hills Soufriere Hills  volcano -> Soufriere Hills Soufriere Hills  volcano]
+  path: 2[214 -> 20134 -> 10001 -> 20118 -> 31029 -> 42951], [Soufriere Hills Soufriere Hills  volcano -> Montserrat -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [90165, 213, 42951]
+  path: 0[213 -> 20131 -> 10001 -> 20174 -> 90165], [La Soufriere La Soufriere  volcano -> Guadeloupe -> America -> Uruguay -> Uruguay] 
+
+  path: 1[213 -> 213], [La Soufriere La Soufriere  volcano -> La Soufriere La Soufriere  volcano]
+  path: 2[213 -> 20131 -> 10001 -> 20118 -> 31029 -> 42951], [La Soufriere La Soufriere  volcano -> Guadeloupe -> America -> United States -> Texas -> Wichita Falls] 
+
+-----------------------------------------
+ResultDestNodes: [90143, 31027, 90142, 210, 90151, 183, 90144, 90150, 31029, 90164, 90163, 90165, 190, 234, 233, 187, 181, 186, 90153, 90160, 90159, 90154, 206, 231, 232, 188, 216, 215, 214, 213]
+ResultRelevs: [4.832925796508789, 4.494850158691406, 4.342903137207031, 4.324440002441406, 4.282015800476074, 4.2540998458862305, 4.253078937530518, 4.253078937530518, 4.219399929046631, 4.197941780090332, 4.0890960693359375, 4.0890960693359375, 4.070464134216309, 3.798762083053589, 3.798762083053589, 3.674252986907959, 3.674252986907959, 3.674252986907959, 3.6470320224761963, 3.6470320224761963, 3.6470320224761963, 3.6470320224761963, 3.615126132965088, 3.529292106628418, 3.529292106628418, 3.490616798400879, 3.431490182876587, 3.431490182876587, 3.431490182876587, 3.431490182876587]
+Num of top-k answers: 30
+Num of non-reduced answers: 0
+Num of duplicate answers: 6
+Num of non-redundant answers: 24
+Num of entries retrieved from the lists: 566
+Num of entries retrieved from NKMaps: 992
+
+Blink Search Using ConstRootDup30
+[river, mountain, falls]
+srcNodes: [90143, 183, 42532]
+  path: 0[90143 -> 90143], [Missouri -> Missouri]
+  path: 1[90143 -> 31027 -> 183], [Missouri -> South Dakota -> Harney Peak Harney Peak Rocky Mountains ] 
+
+  path: 2[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90143, 181, 42532]
+  path: 0[90143 -> 90143], [Missouri -> Missouri]
+  path: 1[90143 -> 31012 -> 181], [Missouri -> Montana -> Granite Peak Granite Peak Rocky Mountains ] 
+
+  path: 2[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90143, 199, 42532]
+  path: 0[90143 -> 90143], [Missouri -> Missouri]
+  path: 1[90143 -> 31011 -> 90142 -> 31028 -> 199], [Missouri -> Missouri -> Mississippi -> Tennessee -> Clingmans Dome Clingmans Dome Appalachen ] 
+
+  path: 2[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90143, 187, 42532]
+  path: 0[90143 -> 90143], [Missouri -> Missouri]
+  path: 1[90143 -> 31002 -> 90144 -> 30992 -> 187], [Missouri -> Kansas -> Arkansas -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 2[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90143, 16, 42532]
+  path: 0[90143 -> 90143], [Missouri -> Missouri]
+  path: 1[90143 -> 31013 -> 41497 -> 110006 -> 30601 -> 16], [Missouri -> Nebraska -> Lincoln -> Great Britain Great Britain British Isles  -> Highland -> Ben Nevis Ben Nevis Grampians ] 
+
+  path: 2[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90143, 183, 42532]
+  path: 0[31027 -> 90143], [South Dakota -> Missouri] 
+
+  path: 1[31027 -> 183], [South Dakota -> Harney Peak Harney Peak Rocky Mountains ] 
+
+  path: 2[31027 -> 42532], [South Dakota -> Sioux Falls] 
+
+srcNodes: [90142, 199, 42532]
+  path: 0[90142 -> 90142], [Mississippi -> Mississippi]
+  path: 1[90142 -> 31028 -> 199], [Mississippi -> Tennessee -> Clingmans Dome Clingmans Dome Appalachen ] 
+
+  path: 2[90142 -> 31011 -> 90143 -> 31027 -> 42532], [Mississippi -> Missouri -> Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90165, 210, 42951]
+  path: 0[210 -> 20132 -> 10001 -> 20174 -> 90165], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> Uruguay -> Uruguay] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20118 -> 31029 -> 42951], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [90164, 210, 42532]
+  path: 0[210 -> 20132 -> 10001 -> 20173 -> 90164], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> Paraguay -> Paraguay] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20118 -> 31027 -> 42532], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90165, 210, 42532]
+  path: 0[210 -> 20132 -> 10001 -> 20174 -> 90165], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> Uruguay -> Uruguay] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20118 -> 31027 -> 42532], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90164, 210, 42951]
+  path: 0[210 -> 20132 -> 10001 -> 20173 -> 90164], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> Paraguay -> Paraguay] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20118 -> 31029 -> 42951], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [90135, 210, 42951]
+  path: 0[210 -> 20132 -> 10001 -> 20117 -> 30982 -> 90135], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> Canada -> Ontario -> Niagara River] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20118 -> 31029 -> 42951], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [90135, 210, 42532]
+  path: 0[210 -> 20132 -> 10001 -> 20117 -> 30982 -> 90135], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> Canada -> Ontario -> Niagara River] 
+
+  path: 1[210 -> 210], [Blue Mountain Peak Blue Mountain Peak   -> Blue Mountain Peak Blue Mountain Peak  ]
+  path: 2[210 -> 20132 -> 10001 -> 20118 -> 31027 -> 42532], [Blue Mountain Peak Blue Mountain Peak   -> Jamaica -> America -> United States -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90151, 186, 42951]
+  path: 0[90151 -> 90151], [Rio Grande -> Rio Grande]
+  path: 1[90151 -> 30992 -> 186], [Rio Grande -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 2[90151 -> 31029 -> 42951], [Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [90151, 188, 42951]
+  path: 0[90151 -> 90151], [Rio Grande -> Rio Grande]
+  path: 1[90151 -> 31017 -> 188], [Rio Grande -> New Mexico -> Wheeler Peak Wheeler Peak Rocky Mountains ] 
+
+  path: 2[90151 -> 31029 -> 42951], [Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [90143, 183, 42532]
+  path: 0[183 -> 31027 -> 90143], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Missouri] 
+
+  path: 1[183 -> 183], [Harney Peak Harney Peak Rocky Mountains  -> Harney Peak Harney Peak Rocky Mountains ]
+  path: 2[183 -> 31027 -> 42532], [Harney Peak Harney Peak Rocky Mountains  -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90150, 185, 42951]
+  path: 0[90150 -> 90150], [Colorado -> Colorado]
+  path: 1[90150 -> 31030 -> 185], [Colorado -> Utah -> Kings Peak Kings Peak Rocky Mountains ] 
+
+  path: 2[90150 -> 30992 -> 90151 -> 31029 -> 42951], [Colorado -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [90150, 186, 42951]
+  path: 0[90150 -> 90150], [Colorado -> Colorado]
+  path: 1[90150 -> 30992 -> 186], [Colorado -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 2[90150 -> 30992 -> 90151 -> 31029 -> 42951], [Colorado -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [90144, 186, 42951]
+  path: 0[90144 -> 90144], [Arkansas -> Arkansas]
+  path: 1[90144 -> 30992 -> 186], [Arkansas -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 2[90144 -> 30992 -> 90151 -> 31029 -> 42951], [Arkansas -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [90144, 186, 42532]
+  path: 0[90144 -> 90144], [Arkansas -> Arkansas]
+  path: 1[90144 -> 30992 -> 186], [Arkansas -> Colorado -> Mt Elbert Mt Elbert Rocky Mountains ] 
+
+  path: 2[90144 -> 31002 -> 90143 -> 31027 -> 42532], [Arkansas -> Kansas -> Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90144, 187, 42532]
+  path: 0[90144 -> 90144], [Arkansas -> Arkansas]
+  path: 1[90144 -> 30992 -> 187], [Arkansas -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 2[90144 -> 31002 -> 90143 -> 31027 -> 42532], [Arkansas -> Kansas -> Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90144, 187, 42951]
+  path: 0[90144 -> 90144], [Arkansas -> Arkansas]
+  path: 1[90144 -> 30992 -> 187], [Arkansas -> Colorado -> Pikes Peak Pikes Peak Rocky Mountains ] 
+
+  path: 2[90144 -> 30992 -> 90151 -> 31029 -> 42951], [Arkansas -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [90151, 190, 42951]
+  path: 0[31029 -> 90151], [Texas -> Rio Grande] 
+
+  path: 1[31029 -> 190], [Texas -> Guadalupe Peak Guadalupe Peak Rocky Mountains ] 
+
+  path: 2[31029 -> 42951], [Texas -> Wichita Falls] 
+
+srcNodes: [90164, 233, 42951]
+  path: 0[90164 -> 90164], [Paraguay -> Paraguay]
+  path: 1[90164 -> 20170 -> 233], [Paraguay -> Bolivia -> Sajama Sajama Andes volcano] 
+
+  path: 2[90164 -> 20173 -> 10001 -> 20118 -> 31029 -> 42951], [Paraguay -> Paraguay -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [90165, 210, 42951]
+  path: 0[90165 -> 90165], [Uruguay -> Uruguay]
+  path: 1[90165 -> 20174 -> 10001 -> 20132 -> 210], [Uruguay -> Uruguay -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[90165 -> 20174 -> 10001 -> 20118 -> 31029 -> 42951], [Uruguay -> Uruguay -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [90163, 210, 42951]
+  path: 0[90163 -> 90163], [Parana -> Parana]
+  path: 1[90163 -> 20173 -> 10001 -> 20132 -> 210], [Parana -> Paraguay -> America -> Jamaica -> Blue Mountain Peak Blue Mountain Peak  ] 
+
+  path: 2[90163 -> 20173 -> 10001 -> 20118 -> 31029 -> 42951], [Parana -> Paraguay -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [90151, 190, 42951]
+  path: 0[190 -> 31029 -> 90151], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Rio Grande] 
+
+  path: 1[190 -> 190], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Guadalupe Peak Guadalupe Peak Rocky Mountains ]
+  path: 2[190 -> 31029 -> 42951], [Guadalupe Peak Guadalupe Peak Rocky Mountains  -> Texas -> Wichita Falls] 
+
+srcNodes: [90164, 233, 42951]
+  path: 0[233 -> 20170 -> 90164], [Sajama Sajama Andes volcano -> Bolivia -> Paraguay] 
+
+  path: 1[233 -> 233], [Sajama Sajama Andes volcano -> Sajama Sajama Andes volcano]
+  path: 2[233 -> 20170 -> 10001 -> 20118 -> 31029 -> 42951], [Sajama Sajama Andes volcano -> Bolivia -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [90164, 234, 42951]
+  path: 0[234 -> 20170 -> 90164], [Licancabur Licancabur Andes volcano -> Bolivia -> Paraguay] 
+
+  path: 1[234 -> 234], [Licancabur Licancabur Andes volcano -> Licancabur Licancabur Andes volcano]
+  path: 2[234 -> 20172 -> 10001 -> 20118 -> 31029 -> 42951], [Licancabur Licancabur Andes volcano -> Chile -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [90144, 186, 42951]
+  path: 0[186 -> 30992 -> 90144], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado -> Arkansas] 
+
+  path: 1[186 -> 186], [Mt Elbert Mt Elbert Rocky Mountains  -> Mt Elbert Mt Elbert Rocky Mountains ]
+  path: 2[186 -> 30992 -> 90151 -> 31029 -> 42951], [Mt Elbert Mt Elbert Rocky Mountains  -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+-----------------------------------------
+ResultDestNodes: 
+90143, 90143, 90143, 90143, 90143, 31027, 90142, 210, 210, 210, 210, 210, 210, 90151, 90151, 183, 90150, 90150, 90144, 90144, 90144, 90144, 31029, 90164, 90165, 90163, 190, 233, 234, 186, 
+ResultRelevs: 
+4.832926, 4.832926, 4.635314, 4.58142, 4.563456, 4.49485, 4.342903, 4.32444, 4.32444, 4.32444, 4.32444, 4.292934, 4.292934, 4.282016, 4.282016, 4.2541, 4.253079, 4.253079, 4.253079, 4.253079, 4.253079, 4.253079, 4.2194, 4.197942, 4.089096, 4.089096, 4.070464, 3.798762, 3.798762, 3.674253, 
+Num of top-k answers: 30
+Num of duplicate answers: 6
+Num of duplicate roots in top-k answers: 14
+root duplication ratio: 0.4827586
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 566
+Num of entries retrieved from NKMaps: 4169
+Num of answer trees explored: 7408
+

@@ -1,0 +1,31 @@
+Top-k, (AvgResultRelev, AvgResultRelev/ResultRelevs[0], AvgResultDiss) numOfKNListsRead, numOfNKMapLookups, numOfAnswerTreesExplored, elapseTime, numOfStatesCreated, numOfStatesExplored, numOfHeuristicSearchPerformed, numOfATSPrunnedByDissCond, numOfLocalAnswersFound, 
+query: [hero, sacrifice, disaster]
+SimGrpSe, 	5, 7.11986, 1.05071, 0.66667, 1584, 2650, 955, 0.180557891, 29, 8, 0, 1, 
+SimGrpSe, 	10, 6.80177, 1.05837, 0.65926, 2522, 4375, 1641, 0.184128101, 133, 32, 0, 1, 
+query: [monster, fantasy, animation]
+SimGrpSe, 	5, 9.53057, 1.03450, 0.46667, 5646, 9097, 2938, 0.316808979, 17, 5, 0, 1, 
+SimGrpSe, 	10, 9.20152, 1.04538, 0.57333, 6884, 10709, 3297, 0.382460222, 1462, 300, 0, 1, 
+query: [monarchy, revolution, war]
+SimGrpSe, 	5, 7.19434, 1.06583, 0.50000, 2835, 3580, 751, 0.100143256, 5, 1, 0, 1, 
+SimGrpSe, 	10, 6.92008, 1.05451, 0.51852, 2891, 3657, 772, 0.112240733, 12, 2, 0, 1, 
+query: [emperor, battle, history]
+SimGrpSe, 	5, 7.42319, 1.04504, 0.53333, 4455, 7231, 2759, 0.306804626, 15, 4, 0, 1, 
+SimGrpSe, 	10, 7.18874, 1.06026, 0.62222, 5249, 8346, 3097, 0.287242579, 75, 12, 0, 1, 
+query: [missing, murder, revenge]
+SimGrpSe, 	5, 7.08899, 1.04347, 0.43333, 3582, 5963, 2291, 0.223074724, 8, 2, 0, 1, 
+SimGrpSe, 	10, 6.87567, 1.03842, 0.49630, 3872, 6434, 2474, 0.23414891, 54, 12, 0, 1, 
+query: [crime, thriller, suspense]
+SimGrpSe, 	5, 10.21685, 1.01723, 0.44000, 2801, 5077, 1378, 0.165083939, 10, 2, 0, 1, 
+SimGrpSe, 	10, 10.05797, 1.02758, 0.60074, 2925, 5296, 1441, 0.158817234, 30, 4, 0, 1, 
+query: [ghost, mystery, animation]
+SimGrpSe, 	5, 9.20201, 1.01612, 0.46667, 5646, 9206, 2904, 0.314649532, 5, 1, 0, 1, 
+SimGrpSe, 	10, 9.02609, 1.03120, 0.60741, 5834, 9436, 2930, 0.266788813, 28, 6, 0, 1, 
+query: [romance, conflict, marriage]
+SimGrpSe, 	5, 7.39028, 1.02967, 0.56667, 1608, 2625, 814, 0.129268113, 5, 1, 0, 1, 
+SimGrpSe, 	10, 7.21531, 1.02863, 0.57778, 8466, 15453, 6271, 0.450373839, 16, 4, 0, 1, 
+query: [fraud, deception, betrayal]
+SimGrpSe, 	5, 7.05547, 1.12419, 0.43333, 1571, 2567, 939, 0.122053154, 17, 5, 0, 1, 
+SimGrpSe, 	10, 6.52262, 1.10726, 0.65185, 2340, 3908, 1488, 0.144497449, 61, 9, 0, 1, 
+query: [murder, psychopath, mystery]
+SimGrpSe, 	5, 8.05370, 1.02819, 0.46667, 3311, 5684, 1943, 0.255978795, 5, 1, 0, 1, 
+SimGrpSe, 	10, 7.79051, 1.05333, 0.51852, 4431, 7564, 2567, 0.256446569, 31, 6, 0, 1, 

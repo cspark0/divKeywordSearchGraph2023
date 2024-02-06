@@ -1,0 +1,495 @@
+package queryProcessing.old;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+
+import java.util.HashSet;
+import java.util.Hashtable;
+import java.util.Iterator;
+import java.util.List;
+
+import java.util.Set;
+import java.io.DataInputStream;
+import java.io.EOFException;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import my.jgrapht.algorithm.BellmanFordShortestPathMod;
+
+import org.jgrapht.DirectedGraph;
+//import org.jgrapht.alg.BellmanFordShortestPath;
+import org.jgrapht.graph.DefaultDirectedGraph;
+import org.jgrapht.graph.DefaultEdge;
+//import org.jgrapht.util.FibonacciHeap;
+//import org.jgrapht.util.FibonacciHeapNode;
+
+//import temp.TermData;
+//import util.InvalidKeywordException;
+
+//import util.NodeScore;
+import util.TopKNodeData4Comparator;
+import util.Params;
+import util.TargetList;
+import util.InvertedList;
+import util.TopKNodeData4;
+import java.util.PriorityQueue;
+
+public abstract class Searcher4 {
+	
+	protected Hashtable<String, InvertedList> dictionary; 	// term dictionary in the inverted index
+	protected List<TargetList> targetLists; 	// inverted lists for the given query keywords 
+	protected int RRListSelector;					// index of the target lists	
+	protected int numOfQueryKeywords;
+	protected float[] curScores; 		
+	PriorityQueue<TopKNodeData4> T;
+	Set<Integer> rootsOfT;
+	//	FibonacciHeap<Integer> T;				// global top-k queue T 
+//	FibonacciHeap<TopKNode> T;				// global top-k queue T 
+//	public int numOfListAccess;
+//	int numOfUpdates = 0; 
+	int numOfNKMapLookups = 0;
+	int numOfAccInUpdatePeriod = 0;
+	int numOfAnswerTreeExplored = 0;
+	int numOfDuplicateAnswers = 0;
+/*	int numOfNonReducedAnswers = 0;
+	int numOfDuplicateCandidates = 0;
+	int numOfNonReducedCandidates = 0;
+	int numOfReducedAlternatives = 0;
+	int	numOfDuplicateAnswers = 0, numOfUniqueAnswersFound = 0;
+    int numOfNonredundantAnswers = 0;
+    int numOfStatesChecked = 0;
+*///	List<Integer> ResultDestNodes = null; 
+//	List<Double> ResultRelevs = null; 
+    TopKNodeData4[] TopKTrees;
+//	int[] ResultDestNodes;
+//	double[] ResultRelevs;
+	double SumResultRelev, SumReducedResultRelev;
+	double DCG, DCG2;
+	double SumOfScoresOfAnswerTreesExplored = 0.0;
+	
+	int numOfNKMapLookups2 = 0;
+    int numOfNKMapLookupsByKeyword = 0, maxNKMap = 0, minNKMap = 0;
+
+	protected DirectedGraph<Integer, DefaultEdge> graph =
+        new DefaultDirectedGraph<Integer, DefaultEdge>(DefaultEdge.class);
+
+	public Searcher4() {
+//		dictionary = new Hashtable<String, TermData>(32);
+		dictionary = new Hashtable<String, InvertedList>(60);
+		targetLists = new ArrayList<TargetList>();	
+		T = new PriorityQueue<TopKNodeData4>(40, new TopKNodeData4Comparator()); 			// worstScore의 내림차순으로 최대 k개 저장; root node == min-k node
+		rootsOfT = new HashSet<Integer>(60);
+		graph = loadGraph();
+	}
+
+	public Searcher4(DirectedGraph<Integer, DefaultEdge> g) {
+//		dictionary = new Hashtable<String, TermData>(32);
+		dictionary = new Hashtable<String, InvertedList>(60);
+		targetLists = new ArrayList<TargetList>();	
+		T = new PriorityQueue<TopKNodeData4>(40, new TopKNodeData4Comparator()); 			// worstScore의 내림차순으로 최대 k개 저장; root node == min-k node
+		rootsOfT = new HashSet<Integer>(40);
+		graph = g;
+	}
+
+//	private void loadGraph() {
+	public static DirectedGraph<Integer, DefaultEdge> loadGraph() {
+		DirectedGraph<Integer, DefaultEdge> graph =
+		        new DefaultDirectedGraph<Integer, DefaultEdge>(DefaultEdge.class);
+
+		File vFile = new File(Params.ExpDB + "/graph/vertexData.bin");
+		File eFile = new File(Params.ExpDB + "/graph/edgeData.bin");
+		FileInputStream vfis = null, efis = null;
+		DataInputStream vdis = null, edis = null;
+		int i=0, j=0;
+		
+		try {
+			vfis = new FileInputStream(vFile);
+			vdis = new DataInputStream(vfis);			
+			int v;			
+			while(true) {
+				v = vdis.readInt();			
+				graph.addVertex(v);	i++;
+			}
+		} catch (EOFException e) {
+			System.out.println("All the vertices have been loaded");
+			try {
+				vdis.close();
+				vfis.close();
+			} catch (IOException e1) {
+				e1.printStackTrace();			
+			}
+		} catch (IOException e) {
+			e.printStackTrace();
+		} 
+		
+		try {
+			efis = new FileInputStream(eFile);
+			edis = new DataInputStream(efis);			
+			int u, v;			
+			while(true) {
+				u = edis.readInt();			
+				v = edis.readInt();			
+				graph.addEdge(u, v);	j++;
+			}
+		} catch (EOFException e) {
+			System.out.println("All the edges have been loaded");
+			try {
+				edis.close();
+				efis.close();
+			} catch (IOException e1) {
+				e1.printStackTrace();			
+			}
+		} catch (IOException e) {
+			e.printStackTrace();
+		} 
+		System.out.println(i + " " + j);
+		return graph;
+	}
+		
+	protected boolean prepareSearch(List<String> query) {
+/*		try {
+			findTargetLists(query);
+		} catch (InvalidKeywordException e1) {
+			e1.printStackTrace();
+		}		
+*/		if (findTargetLists(query) == false) return false;
+		RRListSelector = -1;
+		numOfQueryKeywords = query.size();
+		curScores = new float[numOfQueryKeywords];
+		for (int i = 0; i < numOfQueryKeywords; i++) curScores[i] = (float)1000.0;
+		return true;
+	}
+
+	protected boolean findTargetLists(List<String> query)  {
+		for (int i = 0; i < query.size(); i++) {
+//			TermData t = dictionary.get(query.get(i));	// i-th keyword ki
+			InvertedList t = dictionary.get(query.get(i));	// i-th keyword ki
+			if (t == null)
+//				throw new InvalidKeywordException("Keyword " + query.get(i) + "is not in the dictionary");
+				return false;
+			TargetList l = new TargetList(t, i);
+			l.openToScan(); 
+			targetLists.add(l);				// ki에 대한 list li 
+		}
+		return true;
+	}
+	
+	protected int getNextListIndex() {
+		RRListSelector = ++RRListSelector % targetLists.size();
+		return RRListSelector;
+	}
+
+	public abstract void search(List<String> query);
+	public abstract void printResult(List<String> q, PrintWriter pw);
+	public abstract void close();
+
+	public void completeSearch() {
+        for (int i = 0; i < targetLists.size(); i++) 
+            targetLists.get(i).close(); 
+		targetLists.clear();
+		T.clear();
+		rootsOfT.clear();
+//		numOfUpdates = 0; 
+		numOfNKMapLookups = 0;
+		numOfAccInUpdatePeriod = 0;
+		numOfAnswerTreeExplored = 0;
+		SumOfScoresOfAnswerTreesExplored = 0.0;
+/*		numOfNonReducedAnswers = 0;
+		numOfDuplicateCandidates = 0;
+		numOfNonReducedCandidates = 0;
+		numOfReducedAlternatives = 0;
+		numOfDuplicateAnswers = numOfUniqueAnswersFound = 0;		
+        numOfNonredundantAnswers = 0;
+        numOfStatesChecked = 0;
+*///		ResultDestNodes = null; 
+//		ResultRelevs = null; 	
+		TopKTrees = null;
+        SumResultRelev = SumReducedResultRelev = 0;
+	    numOfNKMapLookups2 = 0;
+        numOfNKMapLookupsByKeyword = 0; //  maxNKMap = minNKMap = 0;
+		DCG = DCG2 = 0.0d; 	
+	}
+
+	Set<Integer> srcNodesSet = new HashSet<Integer>();	
+
+	protected void getResult() {
+		// return top-k nodes in T as the query result
+//		FibonacciHeapNode<Integer> TNode;
+//		int[] nodes = new int[T.size()];
+//		double[] rels = new double[T.size()];
+		
+//		ResultDestNodes = new int[T.size()]; // ArrayList<Integer>(T.size());
+//		ResultRelevs = new double[T.size()]; // ArrayList<Double>(T.size());
+		int len = T.size();
+		if (len == 0) return;
+		TopKTrees = new TopKNodeData4[len];
+		for (int i = len - 1; i >= 0; i--) {
+			TopKTrees[i] = T.poll();
+//			ResultDestNodes[i] = nd.rootId;	// nodeID
+//			ResultRelevs[i] = nd.score;	// rel
+//			nodes[i] = TNode.getData();	// nodeID
+//			rels[i] = TNode.getKey();	// rel			 
+		}		
+/*		for (int i = 0; i < len; i++) {
+			ResultDestNodes.add(nodes[i]);
+			ResultRelevs.add(rels[i]);
+		}
+*/	}
+	
+	public boolean printAnswerTree(int u,  int[] srcNodes, PrintWriter pw) {
+//		Iterator<Integer> it = null;
+		List<DefaultEdge> el = null;		
+		Iterator<DefaultEdge> elit1 = null, elit2 = null;
+		String uName = null;
+//		boolean areAllFstNodesTheSame = true, destNodeContainsAKeyword = false;
+		int fstNode = -1; // FstFstNode = -1;
+
+		connect();
+
+		uName = getNodeName(u);
+		int i = 0;
+//		it = srcNodes.iterator();
+//		while (it.hasNext()) {
+//			int v = it.next();	
+		for ( ; i < srcNodes.length; i++) {
+			int v = srcNodes[i];
+			pw.print("  path: " + i); 
+			if (v == u) {
+				pw.print("["+ u + " -> " + v +"], ");
+				pw.println("[" + uName + " -> " + uName + "]");
+//				destNodeContainsAKeyword = true;
+//				if (i == 0) FstFstNode = u;
+				continue;
+			}
+			
+			el = BellmanFordShortestPathMod.findPathBetween(graph, u, v);
+
+            if (el==null) {
+			    System.out.println(u + "," + v);
+			    pw.print(" -> " + fstNode);
+			    pw.print("["+ u + " -> ??? -> " + v + "]");
+			    pw.println();
+                continue;
+            }
+                
+			pw.print("["+ u);
+			elit1 = el.iterator();
+			
+			// check first nodes to find if it is a non-reduced answer tree
+			fstNode = (Integer) elit1.next().getTarget();
+			pw.print(" -> " + fstNode);
+//			if (i == 0) FstFstNode = fstNode;
+//			else if (fstNode != FstFstNode) areAllFstNodesTheSame = false;
+			
+			while (elit1.hasNext()) {
+				pw.print(" -> " + elit1.next().getTarget());				
+			}
+			pw.print("], ");
+			
+			pw.print("["+ uName);
+			elit2 = el.iterator();
+			while (elit2.hasNext()) {
+				pw.print(" -> " + getNodeName((Integer)(elit2.next().getTarget())));				
+			}
+			pw.println("] ");
+			pw.println();
+		}
+		disconnect();
+
+/*		if (areAllFstNodesTheSame && !destNodeContainsAKeyword) {
+			// at least one srcNode is different from destNode
+			pw.println("This is a non-reduced answer tree with common first node " + FstFstNode);
+			pw.println();
+			return false;
+		}
+*/		return true;
+	}
+	
+/*	public boolean printAnswerTree2(int u,  int[] srcNodes, PrintWriter pw) {
+//		Iterator<Integer> it = null;
+		List<DefaultEdge> el = null;		
+		Iterator<DefaultEdge> elit1 = null; //, elit2 = null;
+//		String uName = null;
+		boolean areAllFstNodesTheSame = true, destNodeContainsAKeyword = false;
+		int fstNode = -1, FstFstNode = -1;
+		connect();
+
+//		uName = getNodeName(u);
+		int i = 0;
+//		it = srcNodes.iterator();
+//		while (it.hasNext()) {
+//			int v = it.next();	
+		for ( ; i < srcNodes.length; i++) {
+			int v = srcNodes[i];
+//			pw.print("  path: " + i); 
+			if (v == u) {
+//				pw.print("["+ u + " -> " + v +"], ");
+//				pw.println("[" + uName + " -> " + uName + "]");
+				destNodeContainsAKeyword = true;
+				if (i == 0) FstFstNode = u;
+				continue;
+			}
+			
+			el = BellmanFordShortestPathMod.findPathBetween(graph, u, v);
+
+//			pw.print("["+ u);
+			elit1 = el.iterator();
+			
+			// check first nodes to find if it is a non-reduced answer tree
+			fstNode = (Integer) elit1.next().getTarget();
+//			pw.print(" -> " + fstNode);
+			if (i == 0) FstFstNode = fstNode;
+			else if (fstNode != FstFstNode) areAllFstNodesTheSame = false;
+			
+//			while (elit1.hasNext()) {
+//				pw.print(" -> " + elit1.next().getTarget());				
+//			}
+//			pw.print("], ");
+			
+//			pw.print("["+ uName);
+//			elit2 = el.iterator();
+//			while (elit2.hasNext()) {
+//				pw.print(" -> " + getNodeName((Integer)(elit2.next().getTarget())));				
+//			}
+//			pw.println("] ");
+			pw.println();
+		}
+		disconnect();
+
+		if (areAllFstNodesTheSame && !destNodeContainsAKeyword) {
+			// at least one srcNode is different from destNode
+			pw.println("This is a non-reduced answer tree with common first node " + FstFstNode);
+			pw.println();
+			return false;
+		}
+		return true;			
+	}
+*/
+	public void printStat(PrintWriter pw, double elapseTime) {
+		if (TopKTrees != null)
+			pw.print(TopKTrees.length + ", ");
+		pw.print("-, ");
+		pw.print(numOfDuplicateAnswers + ", ");
+		pw.print("-, ");
+		pw.print(numOfAccInUpdatePeriod + ", ");
+		pw.print(numOfNKMapLookups + ", ");
+		pw.print(numOfAnswerTreeExplored + ", ");
+		pw.print("-, ");
+		pw.print("-, ");
+		pw.print("-, ");
+		pw.print("-: ");
+		pw.print("-: ");
+		if (TopKTrees != null) {
+    		pw.printf("%.2f:-:",SumResultRelev/TopKTrees.length);
+    		pw.printf("%.2f:: ",SumResultRelev/TopKTrees.length/TopKTrees[0].score); 
+    		pw.printf("%.2f ", SumOfScoresOfAnswerTreesExplored/numOfAnswerTreeExplored/TopKTrees[0].score);
+    		pw.printf("%.2f, ", DCG); 
+    		pw.printf("%.2f::: ", DCG2);
+
+		pw.printf("%d(%.2f) ", TopKTrees.length - rootsOfT.size(),
+			(TopKTrees.length - rootsOfT.size())/(double)(Params.K - 1));
+        }
+/*		if (ResultDestNodes != null)
+			pw.print(ResultDestNodes.length + ", ");
+		pw.print(numOfNonReducedAnswers + ", ");
+		pw.print(numOfDuplicateAnswers + ", ");
+		pw.print(numOfNonredundantAnswers + ", ");
+		pw.print(numOfAccInUpdatePeriod + ", ");
+		pw.print(numOfNKMapLookups + ", ");
+		pw.print(numOfNonReducedCandidates + ", ");
+		pw.print(numOfReducedAlternatives + ", ");
+		pw.print(numOfDuplicateCandidates + ", ");
+		pw.print(numOfUniqueAnswersFound + ": ");
+		pw.print(numOfStatesChecked+ ": ");
+        if (ResultRelevs != null) {
+    		pw.printf("(%.2f, %.2f): ",SumResultRelev/ResultRelevs.length, 
+				SumReducedResultRelev/(ResultRelevs.length-numOfNonReducedAnswers));
+    		pw.printf("(%.2f):: ",SumResultRelev/ResultRelevs.length/ResultRelevs[0]); 
+        }
+*/
+/*		double min = 10000.0, max = 0.0, sum = 0.0;
+		for (double r : ResultRelevs) {
+			if (r < min) min = r;
+			if (r > max) max = r;
+			sum += r;
+		}
+		pw.printf("(%.2f, %.2f, %.2f): ",  min, max, sum/ResultRelevs.length);
+	*/	
+		pw.print(elapseTime + ", ");		
+		pw.println("(-, -, -)");
+//        pw.printf("(%.2f, %d, %d)",
+//		    numOfNKMapLookups2 / (float)numOfNKMapLookupsByKeyword, maxNKMap, minNKMap);
+        pw.println();
+	}
+	
+	public String getNodeName(int nodeId) {
+		String name = null;		
+		try {
+			pstmt = conn.prepareStatement(Params.getSQLForName(nodeId));
+			pstmt.setInt(1, nodeId);
+			rs = pstmt.executeQuery();
+			while(rs.next()) 
+				name = rs.getString(1); 				
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		finally {
+			try {
+				pstmt.close();
+				rs.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+		return name;
+	}
+	
+	// 데이터베이스 연결관련 변수 선언
+	Connection conn = null;
+	PreparedStatement pstmt = null;
+	ResultSet rs = null;
+	
+	// 데이터베이스 연결 메서드
+	void connect() {
+		if (conn != null) return;
+		// JDBC 드라이버 로드
+		try {
+			Class.forName(Params.jdbc_driver);
+			// 데이터베이스 연결정보를 이용해 Connection 인스턴스 확보
+			conn = DriverManager.getConnection(Params.jdbc_url, Params.mysql_user, Params.mysql_pw);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	// 데이터베이스 연결 종료 메서드
+	void disconnect() {
+		if(rs != null) {
+			try {
+				rs.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+		if(pstmt != null) {
+			try {
+				pstmt.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		} 
+		if(conn != null) {
+			try {
+				conn.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+		conn = null; pstmt = null; rs = null;
+	}
+}

@@ -1,0 +1,929 @@
+Blink Search Using BDB 10
+[monarchy, catholic, asia]
+srcNodes: [60092, 70430, 10002]
+  path: 0[10002 -> 20092 -> 60092], [Asia -> Saudi Arabia -> monarchy] 
+
+  path: 1[10002 -> 20087 -> 70430], [Asia -> Timor-Leste -> Roman Catholic] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60092, 70391, 10002]
+  path: 0[20092 -> 60092], [Saudi Arabia -> monarchy] 
+
+  path: 1[20092 -> 10002 -> 20077 -> 70391], [Saudi Arabia -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20092 -> 10002], [Saudi Arabia -> Asia] 
+
+srcNodes: [60066, 70391, 10002]
+  path: 0[20066 -> 60066], [Bhutan -> monarchy] 
+
+  path: 1[20066 -> 10002 -> 20077 -> 70391], [Bhutan -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20066 -> 10002], [Bhutan -> Asia] 
+
+srcNodes: [60099, 70391, 10002]
+  path: 0[20099 -> 60099], [Oman -> monarchy] 
+
+  path: 1[20099 -> 10002 -> 20077 -> 70391], [Oman -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20099 -> 10002], [Oman -> Asia] 
+
+srcNodes: [60099, 70430, 10002]
+  path: 0[20087 -> 10002 -> 20099 -> 60099], [Timor-Leste -> Asia -> Oman -> monarchy] 
+
+  path: 1[20087 -> 70430], [Timor-Leste -> Roman Catholic] 
+
+  path: 2[20087 -> 10002], [Timor-Leste -> Asia] 
+
+srcNodes: [60099, 70419, 10002]
+  path: 0[20102 -> 10002 -> 20099 -> 60099], [Philippines -> Asia -> Oman -> monarchy] 
+
+  path: 1[20102 -> 70419], [Philippines -> Roman Catholic] 
+
+  path: 2[20102 -> 10002], [Philippines -> Asia] 
+
+srcNodes: [60099, 70416, 10002]
+  path: 0[20086 -> 10002 -> 20099 -> 60099], [Indonesia -> Asia -> Oman -> monarchy] 
+
+  path: 1[20086 -> 70416], [Indonesia -> Roman Catholic] 
+
+  path: 2[20086 -> 10002], [Indonesia -> Asia] 
+
+srcNodes: [60099, 70391, 10002]
+  path: 0[20077 -> 10002 -> 20099 -> 60099], [Macau -> Asia -> Oman -> monarchy] 
+
+  path: 1[20077 -> 70391], [Macau -> Roman Catholic] 
+
+  path: 2[20077 -> 10002], [Macau -> Asia] 
+
+srcNodes: [60103, 70391, 10002]
+  path: 0[20103 -> 60103], [Qatar -> traditional monarchy] 
+
+  path: 1[20103 -> 10002 -> 20077 -> 70391], [Qatar -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20103 -> 10002], [Qatar -> Asia] 
+
+srcNodes: [60068, 70391, 10002]
+  path: 0[20068 -> 60068], [Malaysia -> constitutional monarchy] 
+
+  path: 1[20068 -> 10002 -> 20077 -> 70391], [Malaysia -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20068 -> 10002], [Malaysia -> Asia] 
+
+-----------------------------------------
+ResultDestNodes: [10002, 20092, 20066, 20099, 20087, 20102, 20086, 20077, 20103, 20068]
+ResultRelevs: [11.401239395141602, 8.111467361450195, 8.111467361450195, 8.111467361450195, 7.307700157165527, 7.307700157165527, 7.307700157165527, 7.307700157165527, 6.906026840209961, 6.906026840209961]
+Num of top-k answers: 10
+Num of non-reduced answers: 0
+Num of duplicate answers: 1
+Num of non-redundant answers: 9
+Num of entries retrieved from the lists: 314
+Num of entries retrieved from NKMaps: 385
+
+Blink Search Using ConstRootDup10
+[monarchy, catholic, asia]
+srcNodes: [60099, 70416, 10002]
+  path: 0[10002 -> 20099 -> 60099], [Asia -> Oman -> monarchy] 
+
+  path: 1[10002 -> 20086 -> 70416], [Asia -> Indonesia -> Roman Catholic] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60092, 70416, 10002]
+  path: 0[10002 -> 20092 -> 60092], [Asia -> Saudi Arabia -> monarchy] 
+
+  path: 1[10002 -> 20086 -> 70416], [Asia -> Indonesia -> Roman Catholic] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60099, 70430, 10002]
+  path: 0[10002 -> 20099 -> 60099], [Asia -> Oman -> monarchy] 
+
+  path: 1[10002 -> 20087 -> 70430], [Asia -> Timor-Leste -> Roman Catholic] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60092, 70430, 10002]
+  path: 0[10002 -> 20092 -> 60092], [Asia -> Saudi Arabia -> monarchy] 
+
+  path: 1[10002 -> 20087 -> 70430], [Asia -> Timor-Leste -> Roman Catholic] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60092, 70422, 10002]
+  path: 0[10002 -> 20092 -> 60092], [Asia -> Saudi Arabia -> monarchy] 
+
+  path: 1[10002 -> 20031 -> 10004 -> 20037 -> 70422], [Asia -> Turkey -> Europe -> Sweden -> Roman Catholic] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60066, 70391, 10002]
+  path: 0[20066 -> 60066], [Bhutan -> monarchy] 
+
+  path: 1[20066 -> 10002 -> 20077 -> 70391], [Bhutan -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20066 -> 10002], [Bhutan -> Asia] 
+
+srcNodes: [60092, 70391, 10002]
+  path: 0[20092 -> 60092], [Saudi Arabia -> monarchy] 
+
+  path: 1[20092 -> 10002 -> 20077 -> 70391], [Saudi Arabia -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20092 -> 10002], [Saudi Arabia -> Asia] 
+
+srcNodes: [60099, 70391, 10002]
+  path: 0[20099 -> 60099], [Oman -> monarchy] 
+
+  path: 1[20099 -> 10002 -> 20077 -> 70391], [Oman -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20099 -> 10002], [Oman -> Asia] 
+
+srcNodes: [60099, 70416, 10002]
+  path: 0[20086 -> 10002 -> 20099 -> 60099], [Indonesia -> Asia -> Oman -> monarchy] 
+
+  path: 1[20086 -> 70416], [Indonesia -> Roman Catholic] 
+
+  path: 2[20086 -> 10002], [Indonesia -> Asia] 
+
+srcNodes: [60099, 70430, 10002]
+  path: 0[20087 -> 10002 -> 20099 -> 60099], [Timor-Leste -> Asia -> Oman -> monarchy] 
+
+  path: 1[20087 -> 70430], [Timor-Leste -> Roman Catholic] 
+
+  path: 2[20087 -> 10002], [Timor-Leste -> Asia] 
+
+-----------------------------------------
+ResultDestNodes: 
+10002, 10002, 10002, 10002, 10002, 20066, 20092, 20099, 20086, 20087, 
+ResultRelevs: 
+11.401239, 11.401239, 11.401239, 11.401239, 10.972707, 8.111467, 8.111467, 8.111467, 7.3077, 7.3077, 
+Num of top-k answers: 10
+Num of duplicate answers: 2
+Num of duplicate roots in top-k answers: 4
+root duplication ratio: 0.44444445
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 314
+Num of entries retrieved from NKMaps: 1341
+Num of answer trees explored: 4809
+
+Blink Search Using BDB 20
+[monarchy, catholic, asia]
+srcNodes: [60092, 70430, 10002]
+  path: 0[10002 -> 20092 -> 60092], [Asia -> Saudi Arabia -> monarchy] 
+
+  path: 1[10002 -> 20087 -> 70430], [Asia -> Timor-Leste -> Roman Catholic] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60092, 70391, 10002]
+  path: 0[20092 -> 60092], [Saudi Arabia -> monarchy] 
+
+  path: 1[20092 -> 10002 -> 20077 -> 70391], [Saudi Arabia -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20092 -> 10002], [Saudi Arabia -> Asia] 
+
+srcNodes: [60066, 70391, 10002]
+  path: 0[20066 -> 60066], [Bhutan -> monarchy] 
+
+  path: 1[20066 -> 10002 -> 20077 -> 70391], [Bhutan -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20066 -> 10002], [Bhutan -> Asia] 
+
+srcNodes: [60099, 70391, 10002]
+  path: 0[20099 -> 60099], [Oman -> monarchy] 
+
+  path: 1[20099 -> 10002 -> 20077 -> 70391], [Oman -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20099 -> 10002], [Oman -> Asia] 
+
+srcNodes: [60099, 70419, 10002]
+  path: 0[20102 -> 10002 -> 20099 -> 60099], [Philippines -> Asia -> Oman -> monarchy] 
+
+  path: 1[20102 -> 70419], [Philippines -> Roman Catholic] 
+
+  path: 2[20102 -> 10002], [Philippines -> Asia] 
+
+srcNodes: [60099, 70391, 10002]
+  path: 0[20077 -> 10002 -> 20099 -> 60099], [Macau -> Asia -> Oman -> monarchy] 
+
+  path: 1[20077 -> 70391], [Macau -> Roman Catholic] 
+
+  path: 2[20077 -> 10002], [Macau -> Asia] 
+
+srcNodes: [60099, 70430, 10002]
+  path: 0[20087 -> 10002 -> 20099 -> 60099], [Timor-Leste -> Asia -> Oman -> monarchy] 
+
+  path: 1[20087 -> 70430], [Timor-Leste -> Roman Catholic] 
+
+  path: 2[20087 -> 10002], [Timor-Leste -> Asia] 
+
+srcNodes: [60099, 70416, 10002]
+  path: 0[20086 -> 10002 -> 20099 -> 60099], [Indonesia -> Asia -> Oman -> monarchy] 
+
+  path: 1[20086 -> 70416], [Indonesia -> Roman Catholic] 
+
+  path: 2[20086 -> 10002], [Indonesia -> Asia] 
+
+srcNodes: [60103, 70391, 10002]
+  path: 0[20103 -> 60103], [Qatar -> traditional monarchy] 
+
+  path: 1[20103 -> 10002 -> 20077 -> 70391], [Qatar -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20103 -> 10002], [Qatar -> Asia] 
+
+srcNodes: [60096, 70391, 10002]
+  path: 0[20096 -> 60096], [Japan -> constitutional monarchy] 
+
+  path: 1[20096 -> 10002 -> 20077 -> 70391], [Japan -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20096 -> 10002], [Japan -> Asia] 
+
+srcNodes: [60068, 70391, 10002]
+  path: 0[20068 -> 60068], [Malaysia -> constitutional monarchy] 
+
+  path: 1[20068 -> 10002 -> 20077 -> 70391], [Malaysia -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20068 -> 10002], [Malaysia -> Asia] 
+
+srcNodes: [60090, 70391, 10002]
+  path: 0[20090 -> 60090], [Jordan -> constitutional monarchy] 
+
+  path: 1[20090 -> 10002 -> 20077 -> 70391], [Jordan -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20090 -> 10002], [Jordan -> Asia] 
+
+srcNodes: [60062, 70391, 10002]
+  path: 0[20062 -> 60062], [Bahrain -> traditional monarchy] 
+
+  path: 1[20062 -> 10002 -> 20077 -> 70391], [Bahrain -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20062 -> 10002], [Bahrain -> Asia] 
+
+srcNodes: [60070, 70391, 10002]
+  path: 0[20070 -> 60070], [Thailand -> constitutional monarchy] 
+
+  path: 1[20070 -> 10002 -> 20077 -> 70391], [Thailand -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20070 -> 10002], [Thailand -> Asia] 
+
+srcNodes: [60099, 70391, 10002]
+  path: 0[20094 -> 10002 -> 20099 -> 60099], [Lebanon -> Asia -> Oman -> monarchy] 
+
+  path: 1[20094 -> 10002 -> 20077 -> 70391], [Lebanon -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20094 -> 10002], [Lebanon -> Asia] 
+
+This is a non-reduced answer tree with common first node 10002
+
+srcNodes: [60099, 70391, 10002]
+  path: 0[20093 -> 10002 -> 20099 -> 60099], [Syria -> Asia -> Oman -> monarchy] 
+
+  path: 1[20093 -> 10002 -> 20077 -> 70391], [Syria -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20093 -> 10002], [Syria -> Asia] 
+
+This is a non-reduced answer tree with common first node 10002
+
+srcNodes: [60099, 70391, 10002]
+  path: 0[20084 -> 10002 -> 20099 -> 60099], [Israel -> Asia -> Oman -> monarchy] 
+
+  path: 1[20084 -> 10002 -> 20077 -> 70391], [Israel -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20084 -> 10002], [Israel -> Asia] 
+
+This is a non-reduced answer tree with common first node 10002
+
+srcNodes: [60099, 70378, 10002]
+  path: 0[20085 -> 10002 -> 20099 -> 60099], [Egypt -> Asia -> Oman -> monarchy] 
+
+  path: 1[20085 -> 10000 -> 20210 -> 70378], [Egypt -> Africa -> Equatorial Guinea -> Roman Catholic] 
+
+  path: 2[20085 -> 10002], [Egypt -> Asia] 
+
+srcNodes: [60099, 70391, 10002]
+  path: 0[20091 -> 10002 -> 20099 -> 60099], [Kuwait -> Asia -> Oman -> monarchy] 
+
+  path: 1[20091 -> 10002 -> 20077 -> 70391], [Kuwait -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20091 -> 10002], [Kuwait -> Asia] 
+
+This is a non-reduced answer tree with common first node 10002
+
+srcNodes: [60099, 70391, 10002]
+  path: 0[20061 -> 10002 -> 20099 -> 60099], [Azerbaijan -> Asia -> Oman -> monarchy] 
+
+  path: 1[20061 -> 10002 -> 20077 -> 70391], [Azerbaijan -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20061 -> 10002], [Azerbaijan -> Asia] 
+
+This is a non-reduced answer tree with common first node 10002
+
+-----------------------------------------
+ResultDestNodes: [10002, 20092, 20066, 20099, 20102, 20077, 20087, 20086, 20103, 20096, 20068, 20090, 20062, 20070, 20094, 20093, 20084, 20085, 20091, 20061]
+ResultRelevs: [11.401239395141602, 8.111467361450195, 8.111467361450195, 8.111467361450195, 7.307700157165527, 7.307700157165527, 7.307700157165527, 7.307700157165527, 6.906026840209961, 6.906026840209961, 6.906026840209961, 6.906026840209961, 6.906026840209961, 6.906026840209961, 6.504207134246826, 6.504207134246826, 6.504207134246826, 6.504207134246826, 6.504207134246826, 6.504207134246826]
+Num of top-k answers: 20
+Num of non-reduced answers: 5
+Num of duplicate answers: 6
+Num of non-redundant answers: 14
+Num of entries retrieved from the lists: 314
+Num of entries retrieved from NKMaps: 385
+
+Blink Search Using ConstRootDup20
+[monarchy, catholic, asia]
+srcNodes: [60092, 70430, 10002]
+  path: 0[10002 -> 20092 -> 60092], [Asia -> Saudi Arabia -> monarchy] 
+
+  path: 1[10002 -> 20087 -> 70430], [Asia -> Timor-Leste -> Roman Catholic] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60092, 70416, 10002]
+  path: 0[10002 -> 20092 -> 60092], [Asia -> Saudi Arabia -> monarchy] 
+
+  path: 1[10002 -> 20086 -> 70416], [Asia -> Indonesia -> Roman Catholic] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60099, 70430, 10002]
+  path: 0[10002 -> 20099 -> 60099], [Asia -> Oman -> monarchy] 
+
+  path: 1[10002 -> 20087 -> 70430], [Asia -> Timor-Leste -> Roman Catholic] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60099, 70416, 10002]
+  path: 0[10002 -> 20099 -> 60099], [Asia -> Oman -> monarchy] 
+
+  path: 1[10002 -> 20086 -> 70416], [Asia -> Indonesia -> Roman Catholic] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60099, 70422, 10002]
+  path: 0[10002 -> 20099 -> 60099], [Asia -> Oman -> monarchy] 
+
+  path: 1[10002 -> 20031 -> 10004 -> 20037 -> 70422], [Asia -> Turkey -> Europe -> Sweden -> Roman Catholic] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60092, 70422, 10002]
+  path: 0[10002 -> 20092 -> 60092], [Asia -> Saudi Arabia -> monarchy] 
+
+  path: 1[10002 -> 20031 -> 10004 -> 20037 -> 70422], [Asia -> Turkey -> Europe -> Sweden -> Roman Catholic] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60103, 70416, 10002]
+  path: 0[10002 -> 20103 -> 60103], [Asia -> Qatar -> traditional monarchy] 
+
+  path: 1[10002 -> 20086 -> 70416], [Asia -> Indonesia -> Roman Catholic] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60103, 70430, 10002]
+  path: 0[10002 -> 20103 -> 60103], [Asia -> Qatar -> traditional monarchy] 
+
+  path: 1[10002 -> 20087 -> 70430], [Asia -> Timor-Leste -> Roman Catholic] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60233, 70416, 10002]
+  path: 0[10002 -> 20085 -> 10000 -> 20233 -> 60233], [Asia -> Egypt -> Africa -> Swaziland -> monarchy] 
+
+  path: 1[10002 -> 20086 -> 70416], [Asia -> Indonesia -> Roman Catholic] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60233, 70430, 10002]
+  path: 0[10002 -> 20085 -> 10000 -> 20233 -> 60233], [Asia -> Egypt -> Africa -> Swaziland -> monarchy] 
+
+  path: 1[10002 -> 20087 -> 70430], [Asia -> Timor-Leste -> Roman Catholic] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60066, 70391, 10002]
+  path: 0[20066 -> 60066], [Bhutan -> monarchy] 
+
+  path: 1[20066 -> 10002 -> 20077 -> 70391], [Bhutan -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20066 -> 10002], [Bhutan -> Asia] 
+
+srcNodes: [60092, 70391, 10002]
+  path: 0[20092 -> 60092], [Saudi Arabia -> monarchy] 
+
+  path: 1[20092 -> 10002 -> 20077 -> 70391], [Saudi Arabia -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20092 -> 10002], [Saudi Arabia -> Asia] 
+
+srcNodes: [60099, 70391, 10002]
+  path: 0[20099 -> 60099], [Oman -> monarchy] 
+
+  path: 1[20099 -> 10002 -> 20077 -> 70391], [Oman -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20099 -> 10002], [Oman -> Asia] 
+
+srcNodes: [60099, 70419, 10002]
+  path: 0[20102 -> 10002 -> 20099 -> 60099], [Philippines -> Asia -> Oman -> monarchy] 
+
+  path: 1[20102 -> 70419], [Philippines -> Roman Catholic] 
+
+  path: 2[20102 -> 10002], [Philippines -> Asia] 
+
+srcNodes: [60099, 70416, 10002]
+  path: 0[20086 -> 10002 -> 20099 -> 60099], [Indonesia -> Asia -> Oman -> monarchy] 
+
+  path: 1[20086 -> 70416], [Indonesia -> Roman Catholic] 
+
+  path: 2[20086 -> 10002], [Indonesia -> Asia] 
+
+srcNodes: [60099, 70391, 10002]
+  path: 0[20077 -> 10002 -> 20099 -> 60099], [Macau -> Asia -> Oman -> monarchy] 
+
+  path: 1[20077 -> 70391], [Macau -> Roman Catholic] 
+
+  path: 2[20077 -> 10002], [Macau -> Asia] 
+
+srcNodes: [60099, 70430, 10002]
+  path: 0[20087 -> 10002 -> 20099 -> 60099], [Timor-Leste -> Asia -> Oman -> monarchy] 
+
+  path: 1[20087 -> 70430], [Timor-Leste -> Roman Catholic] 
+
+  path: 2[20087 -> 10002], [Timor-Leste -> Asia] 
+
+srcNodes: [60103, 70391, 10002]
+  path: 0[20103 -> 60103], [Qatar -> traditional monarchy] 
+
+  path: 1[20103 -> 10002 -> 20077 -> 70391], [Qatar -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20103 -> 10002], [Qatar -> Asia] 
+
+srcNodes: [60062, 70391, 10002]
+  path: 0[20062 -> 60062], [Bahrain -> traditional monarchy] 
+
+  path: 1[20062 -> 10002 -> 20077 -> 70391], [Bahrain -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20062 -> 10002], [Bahrain -> Asia] 
+
+srcNodes: [60068, 70391, 10002]
+  path: 0[20068 -> 60068], [Malaysia -> constitutional monarchy] 
+
+  path: 1[20068 -> 10002 -> 20077 -> 70391], [Malaysia -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20068 -> 10002], [Malaysia -> Asia] 
+
+-----------------------------------------
+ResultDestNodes: 
+10002, 10002, 10002, 10002, 10002, 10002, 10002, 10002, 10002, 10002, 20066, 20092, 20099, 20102, 20086, 20077, 20087, 20103, 20062, 20068, 
+ResultRelevs: 
+11.401239, 11.401239, 11.401239, 11.401239, 10.972707, 10.972707, 10.59761, 10.59761, 10.544041, 10.544041, 8.111467, 8.111467, 8.111467, 7.3077, 7.3077, 7.3077, 7.3077, 6.906027, 6.906027, 6.906027, 
+Num of top-k answers: 20
+Num of duplicate answers: 3
+Num of duplicate roots in top-k answers: 9
+root duplication ratio: 0.47368422
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 314
+Num of entries retrieved from NKMaps: 1341
+Num of answer trees explored: 4809
+
+Blink Search Using BDB 30
+[monarchy, catholic, asia]
+srcNodes: [60092, 70430, 10002]
+  path: 0[10002 -> 20092 -> 60092], [Asia -> Saudi Arabia -> monarchy] 
+
+  path: 1[10002 -> 20087 -> 70430], [Asia -> Timor-Leste -> Roman Catholic] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60099, 70391, 10002]
+  path: 0[20099 -> 60099], [Oman -> monarchy] 
+
+  path: 1[20099 -> 10002 -> 20077 -> 70391], [Oman -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20099 -> 10002], [Oman -> Asia] 
+
+srcNodes: [60092, 70391, 10002]
+  path: 0[20092 -> 60092], [Saudi Arabia -> monarchy] 
+
+  path: 1[20092 -> 10002 -> 20077 -> 70391], [Saudi Arabia -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20092 -> 10002], [Saudi Arabia -> Asia] 
+
+srcNodes: [60066, 70391, 10002]
+  path: 0[20066 -> 60066], [Bhutan -> monarchy] 
+
+  path: 1[20066 -> 10002 -> 20077 -> 70391], [Bhutan -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20066 -> 10002], [Bhutan -> Asia] 
+
+srcNodes: [60099, 70419, 10002]
+  path: 0[20102 -> 10002 -> 20099 -> 60099], [Philippines -> Asia -> Oman -> monarchy] 
+
+  path: 1[20102 -> 70419], [Philippines -> Roman Catholic] 
+
+  path: 2[20102 -> 10002], [Philippines -> Asia] 
+
+srcNodes: [60099, 70391, 10002]
+  path: 0[20077 -> 10002 -> 20099 -> 60099], [Macau -> Asia -> Oman -> monarchy] 
+
+  path: 1[20077 -> 70391], [Macau -> Roman Catholic] 
+
+  path: 2[20077 -> 10002], [Macau -> Asia] 
+
+srcNodes: [60099, 70430, 10002]
+  path: 0[20087 -> 10002 -> 20099 -> 60099], [Timor-Leste -> Asia -> Oman -> monarchy] 
+
+  path: 1[20087 -> 70430], [Timor-Leste -> Roman Catholic] 
+
+  path: 2[20087 -> 10002], [Timor-Leste -> Asia] 
+
+srcNodes: [60099, 70416, 10002]
+  path: 0[20086 -> 10002 -> 20099 -> 60099], [Indonesia -> Asia -> Oman -> monarchy] 
+
+  path: 1[20086 -> 70416], [Indonesia -> Roman Catholic] 
+
+  path: 2[20086 -> 10002], [Indonesia -> Asia] 
+
+srcNodes: [60070, 70391, 10002]
+  path: 0[20070 -> 60070], [Thailand -> constitutional monarchy] 
+
+  path: 1[20070 -> 10002 -> 20077 -> 70391], [Thailand -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20070 -> 10002], [Thailand -> Asia] 
+
+srcNodes: [60103, 70391, 10002]
+  path: 0[20103 -> 60103], [Qatar -> traditional monarchy] 
+
+  path: 1[20103 -> 10002 -> 20077 -> 70391], [Qatar -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20103 -> 10002], [Qatar -> Asia] 
+
+srcNodes: [60090, 70391, 10002]
+  path: 0[20090 -> 60090], [Jordan -> constitutional monarchy] 
+
+  path: 1[20090 -> 10002 -> 20077 -> 70391], [Jordan -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20090 -> 10002], [Jordan -> Asia] 
+
+srcNodes: [60068, 70391, 10002]
+  path: 0[20068 -> 60068], [Malaysia -> constitutional monarchy] 
+
+  path: 1[20068 -> 10002 -> 20077 -> 70391], [Malaysia -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20068 -> 10002], [Malaysia -> Asia] 
+
+srcNodes: [60062, 70391, 10002]
+  path: 0[20062 -> 60062], [Bahrain -> traditional monarchy] 
+
+  path: 1[20062 -> 10002 -> 20077 -> 70391], [Bahrain -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20062 -> 10002], [Bahrain -> Asia] 
+
+srcNodes: [60096, 70391, 10002]
+  path: 0[20096 -> 60096], [Japan -> constitutional monarchy] 
+
+  path: 1[20096 -> 10002 -> 20077 -> 70391], [Japan -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20096 -> 10002], [Japan -> Asia] 
+
+srcNodes: [60099, 70391, 10002]
+  path: 0[20094 -> 10002 -> 20099 -> 60099], [Lebanon -> Asia -> Oman -> monarchy] 
+
+  path: 1[20094 -> 10002 -> 20077 -> 70391], [Lebanon -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20094 -> 10002], [Lebanon -> Asia] 
+
+This is a non-reduced answer tree with common first node 10002
+
+srcNodes: [60099, 70386, 10002]
+  path: 0[20023 -> 10002 -> 20099 -> 60099], [Russia -> Asia -> Oman -> monarchy] 
+
+  path: 1[20023 -> 10004 -> 20042 -> 70386], [Russia -> Europe -> Iceland -> Roman Catholic] 
+
+  path: 2[20023 -> 10002], [Russia -> Asia] 
+
+srcNodes: [60099, 70391, 10002]
+  path: 0[20093 -> 10002 -> 20099 -> 60099], [Syria -> Asia -> Oman -> monarchy] 
+
+  path: 1[20093 -> 10002 -> 20077 -> 70391], [Syria -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20093 -> 10002], [Syria -> Asia] 
+
+This is a non-reduced answer tree with common first node 10002
+
+srcNodes: [60099, 70391, 10002]
+  path: 0[20084 -> 10002 -> 20099 -> 60099], [Israel -> Asia -> Oman -> monarchy] 
+
+  path: 1[20084 -> 10002 -> 20077 -> 70391], [Israel -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20084 -> 10002], [Israel -> Asia] 
+
+This is a non-reduced answer tree with common first node 10002
+
+srcNodes: [60099, 70391, 10002]
+  path: 0[20055 -> 10002 -> 20099 -> 60099], [Pakistan -> Asia -> Oman -> monarchy] 
+
+  path: 1[20055 -> 10002 -> 20077 -> 70391], [Pakistan -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20055 -> 10002], [Pakistan -> Asia] 
+
+This is a non-reduced answer tree with common first node 10002
+
+srcNodes: [60099, 70378, 10002]
+  path: 0[20085 -> 10002 -> 20099 -> 60099], [Egypt -> Asia -> Oman -> monarchy] 
+
+  path: 1[20085 -> 10000 -> 20210 -> 70378], [Egypt -> Africa -> Equatorial Guinea -> Roman Catholic] 
+
+  path: 2[20085 -> 10002], [Egypt -> Asia] 
+
+srcNodes: [60099, 70391, 10002]
+  path: 0[20091 -> 10002 -> 20099 -> 60099], [Kuwait -> Asia -> Oman -> monarchy] 
+
+  path: 1[20091 -> 10002 -> 20077 -> 70391], [Kuwait -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20091 -> 10002], [Kuwait -> Asia] 
+
+This is a non-reduced answer tree with common first node 10002
+
+srcNodes: [60099, 70391, 10002]
+  path: 0[20059 -> 10002 -> 20099 -> 60099], [Armenia -> Asia -> Oman -> monarchy] 
+
+  path: 1[20059 -> 10002 -> 20077 -> 70391], [Armenia -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20059 -> 10002], [Armenia -> Asia] 
+
+This is a non-reduced answer tree with common first node 10002
+
+srcNodes: [60099, 70391, 10002]
+  path: 0[20060 -> 10002 -> 20099 -> 60099], [Georgia -> Asia -> Oman -> monarchy] 
+
+  path: 1[20060 -> 10002 -> 20077 -> 70391], [Georgia -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20060 -> 10002], [Georgia -> Asia] 
+
+This is a non-reduced answer tree with common first node 10002
+
+srcNodes: [60099, 70391, 10002]
+  path: 0[20054 -> 10002 -> 20099 -> 60099], [Iran -> Asia -> Oman -> monarchy] 
+
+  path: 1[20054 -> 10002 -> 20077 -> 70391], [Iran -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20054 -> 10002], [Iran -> Asia] 
+
+This is a non-reduced answer tree with common first node 10002
+
+srcNodes: [60099, 70391, 10002]
+  path: 0[20053 -> 10002 -> 20099 -> 60099], [China -> Asia -> Oman -> monarchy] 
+
+  path: 1[20053 -> 10002 -> 20077 -> 70391], [China -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20053 -> 10002], [China -> Asia] 
+
+This is a non-reduced answer tree with common first node 10002
+
+srcNodes: [60099, 70391, 10002]
+  path: 0[20052 -> 10002 -> 20099 -> 60099], [Afghanistan -> Asia -> Oman -> monarchy] 
+
+  path: 1[20052 -> 10002 -> 20077 -> 70391], [Afghanistan -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20052 -> 10002], [Afghanistan -> Asia] 
+
+This is a non-reduced answer tree with common first node 10002
+
+srcNodes: [60099, 70391, 10002]
+  path: 0[20061 -> 10002 -> 20099 -> 60099], [Azerbaijan -> Asia -> Oman -> monarchy] 
+
+  path: 1[20061 -> 10002 -> 20077 -> 70391], [Azerbaijan -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20061 -> 10002], [Azerbaijan -> Asia] 
+
+This is a non-reduced answer tree with common first node 10002
+
+srcNodes: [60099, 70391, 10002]
+  path: 0[20056 -> 10002 -> 20099 -> 60099], [Tajikistan -> Asia -> Oman -> monarchy] 
+
+  path: 1[20056 -> 10002 -> 20077 -> 70391], [Tajikistan -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20056 -> 10002], [Tajikistan -> Asia] 
+
+This is a non-reduced answer tree with common first node 10002
+
+srcNodes: [60099, 70391, 10002]
+  path: 0[20100 -> 10002 -> 20099 -> 60099], [United Arab Emirates -> Asia -> Oman -> monarchy] 
+
+  path: 1[20100 -> 10002 -> 20077 -> 70391], [United Arab Emirates -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20100 -> 10002], [United Arab Emirates -> Asia] 
+
+This is a non-reduced answer tree with common first node 10002
+
+srcNodes: [60099, 70391, 10002]
+  path: 0[20057 -> 10002 -> 20099 -> 60099], [Turkmenistan -> Asia -> Oman -> monarchy] 
+
+  path: 1[20057 -> 10002 -> 20077 -> 70391], [Turkmenistan -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20057 -> 10002], [Turkmenistan -> Asia] 
+
+This is a non-reduced answer tree with common first node 10002
+
+-----------------------------------------
+ResultDestNodes: [10002, 20099, 20092, 20066, 20102, 20077, 20087, 20086, 20070, 20103, 20090, 20068, 20062, 20096, 20094, 20023, 20093, 20084, 20055, 20085, 20091, 20059, 20060, 20054, 20053, 20052, 20061, 20056, 20100, 20057]
+ResultRelevs: [11.401239395141602, 8.111467361450195, 8.111467361450195, 8.111467361450195, 7.307700157165527, 7.307700157165527, 7.307700157165527, 7.307700157165527, 6.906026840209961, 6.906026840209961, 6.906026840209961, 6.906026840209961, 6.906026840209961, 6.906026840209961, 6.504207134246826, 6.504207134246826, 6.504207134246826, 6.504207134246826, 6.504207134246826, 6.504207134246826, 6.504207134246826, 6.504207134246826, 6.504207134246826, 6.504207134246826, 6.504207134246826, 6.504207134246826, 6.504207134246826, 6.504207134246826, 6.504207134246826, 6.504207134246826]
+Num of top-k answers: 30
+Num of non-reduced answers: 14
+Num of duplicate answers: 15
+Num of non-redundant answers: 15
+Num of entries retrieved from the lists: 314
+Num of entries retrieved from NKMaps: 385
+
+Blink Search Using ConstRootDup30
+[monarchy, catholic, asia]
+srcNodes: [60092, 70430, 10002]
+  path: 0[10002 -> 20092 -> 60092], [Asia -> Saudi Arabia -> monarchy] 
+
+  path: 1[10002 -> 20087 -> 70430], [Asia -> Timor-Leste -> Roman Catholic] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60099, 70430, 10002]
+  path: 0[10002 -> 20099 -> 60099], [Asia -> Oman -> monarchy] 
+
+  path: 1[10002 -> 20087 -> 70430], [Asia -> Timor-Leste -> Roman Catholic] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60092, 70416, 10002]
+  path: 0[10002 -> 20092 -> 60092], [Asia -> Saudi Arabia -> monarchy] 
+
+  path: 1[10002 -> 20086 -> 70416], [Asia -> Indonesia -> Roman Catholic] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60099, 70416, 10002]
+  path: 0[10002 -> 20099 -> 60099], [Asia -> Oman -> monarchy] 
+
+  path: 1[10002 -> 20086 -> 70416], [Asia -> Indonesia -> Roman Catholic] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60092, 70422, 10002]
+  path: 0[10002 -> 20092 -> 60092], [Asia -> Saudi Arabia -> monarchy] 
+
+  path: 1[10002 -> 20031 -> 10004 -> 20037 -> 70422], [Asia -> Turkey -> Europe -> Sweden -> Roman Catholic] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60099, 70422, 10002]
+  path: 0[10002 -> 20099 -> 60099], [Asia -> Oman -> monarchy] 
+
+  path: 1[10002 -> 20031 -> 10004 -> 20037 -> 70422], [Asia -> Turkey -> Europe -> Sweden -> Roman Catholic] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60103, 70416, 10002]
+  path: 0[10002 -> 20103 -> 60103], [Asia -> Qatar -> traditional monarchy] 
+
+  path: 1[10002 -> 20086 -> 70416], [Asia -> Indonesia -> Roman Catholic] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60103, 70430, 10002]
+  path: 0[10002 -> 20103 -> 60103], [Asia -> Qatar -> traditional monarchy] 
+
+  path: 1[10002 -> 20087 -> 70430], [Asia -> Timor-Leste -> Roman Catholic] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60233, 70416, 10002]
+  path: 0[10002 -> 20085 -> 10000 -> 20233 -> 60233], [Asia -> Egypt -> Africa -> Swaziland -> monarchy] 
+
+  path: 1[10002 -> 20086 -> 70416], [Asia -> Indonesia -> Roman Catholic] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60233, 70430, 10002]
+  path: 0[10002 -> 20085 -> 10000 -> 20233 -> 60233], [Asia -> Egypt -> Africa -> Swaziland -> monarchy] 
+
+  path: 1[10002 -> 20087 -> 70430], [Asia -> Timor-Leste -> Roman Catholic] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60091, 70416, 10002]
+  path: 0[10002 -> 20091 -> 60091], [Asia -> Kuwait -> nominal constitutional monarchy] 
+
+  path: 1[10002 -> 20086 -> 70416], [Asia -> Indonesia -> Roman Catholic] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60091, 70430, 10002]
+  path: 0[10002 -> 20091 -> 60091], [Asia -> Kuwait -> nominal constitutional monarchy] 
+
+  path: 1[10002 -> 20087 -> 70430], [Asia -> Timor-Leste -> Roman Catholic] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60103, 70422, 10002]
+  path: 0[10002 -> 20103 -> 60103], [Asia -> Qatar -> traditional monarchy] 
+
+  path: 1[10002 -> 20031 -> 10004 -> 20037 -> 70422], [Asia -> Turkey -> Europe -> Sweden -> Roman Catholic] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60233, 70422, 10002]
+  path: 0[10002 -> 20085 -> 10000 -> 20233 -> 60233], [Asia -> Egypt -> Africa -> Swaziland -> monarchy] 
+
+  path: 1[10002 -> 20031 -> 10004 -> 20037 -> 70422], [Asia -> Turkey -> Europe -> Sweden -> Roman Catholic] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60091, 70422, 10002]
+  path: 0[10002 -> 20091 -> 60091], [Asia -> Kuwait -> nominal constitutional monarchy] 
+
+  path: 1[10002 -> 20031 -> 10004 -> 20037 -> 70422], [Asia -> Turkey -> Europe -> Sweden -> Roman Catholic] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [60099, 70391, 10002]
+  path: 0[20099 -> 60099], [Oman -> monarchy] 
+
+  path: 1[20099 -> 10002 -> 20077 -> 70391], [Oman -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20099 -> 10002], [Oman -> Asia] 
+
+srcNodes: [60092, 70391, 10002]
+  path: 0[20092 -> 60092], [Saudi Arabia -> monarchy] 
+
+  path: 1[20092 -> 10002 -> 20077 -> 70391], [Saudi Arabia -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20092 -> 10002], [Saudi Arabia -> Asia] 
+
+srcNodes: [60066, 70391, 10002]
+  path: 0[20066 -> 60066], [Bhutan -> monarchy] 
+
+  path: 1[20066 -> 10002 -> 20077 -> 70391], [Bhutan -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20066 -> 10002], [Bhutan -> Asia] 
+
+srcNodes: [60099, 70391, 10002]
+  path: 0[20077 -> 10002 -> 20099 -> 60099], [Macau -> Asia -> Oman -> monarchy] 
+
+  path: 1[20077 -> 70391], [Macau -> Roman Catholic] 
+
+  path: 2[20077 -> 10002], [Macau -> Asia] 
+
+srcNodes: [60099, 70416, 10002]
+  path: 0[20086 -> 10002 -> 20099 -> 60099], [Indonesia -> Asia -> Oman -> monarchy] 
+
+  path: 1[20086 -> 70416], [Indonesia -> Roman Catholic] 
+
+  path: 2[20086 -> 10002], [Indonesia -> Asia] 
+
+srcNodes: [60099, 70430, 10002]
+  path: 0[20087 -> 10002 -> 20099 -> 60099], [Timor-Leste -> Asia -> Oman -> monarchy] 
+
+  path: 1[20087 -> 70430], [Timor-Leste -> Roman Catholic] 
+
+  path: 2[20087 -> 10002], [Timor-Leste -> Asia] 
+
+srcNodes: [60099, 70419, 10002]
+  path: 0[20102 -> 10002 -> 20099 -> 60099], [Philippines -> Asia -> Oman -> monarchy] 
+
+  path: 1[20102 -> 70419], [Philippines -> Roman Catholic] 
+
+  path: 2[20102 -> 10002], [Philippines -> Asia] 
+
+srcNodes: [60096, 70391, 10002]
+  path: 0[20096 -> 60096], [Japan -> constitutional monarchy] 
+
+  path: 1[20096 -> 10002 -> 20077 -> 70391], [Japan -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20096 -> 10002], [Japan -> Asia] 
+
+srcNodes: [60070, 70391, 10002]
+  path: 0[20070 -> 60070], [Thailand -> constitutional monarchy] 
+
+  path: 1[20070 -> 10002 -> 20077 -> 70391], [Thailand -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20070 -> 10002], [Thailand -> Asia] 
+
+srcNodes: [60062, 70391, 10002]
+  path: 0[20062 -> 60062], [Bahrain -> traditional monarchy] 
+
+  path: 1[20062 -> 10002 -> 20077 -> 70391], [Bahrain -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20062 -> 10002], [Bahrain -> Asia] 
+
+srcNodes: [60090, 70391, 10002]
+  path: 0[20090 -> 60090], [Jordan -> constitutional monarchy] 
+
+  path: 1[20090 -> 10002 -> 20077 -> 70391], [Jordan -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20090 -> 10002], [Jordan -> Asia] 
+
+srcNodes: [60103, 70391, 10002]
+  path: 0[20103 -> 60103], [Qatar -> traditional monarchy] 
+
+  path: 1[20103 -> 10002 -> 20077 -> 70391], [Qatar -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20103 -> 10002], [Qatar -> Asia] 
+
+srcNodes: [60068, 70391, 10002]
+  path: 0[20068 -> 60068], [Malaysia -> constitutional monarchy] 
+
+  path: 1[20068 -> 10002 -> 20077 -> 70391], [Malaysia -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20068 -> 10002], [Malaysia -> Asia] 
+
+srcNodes: [60099, 70386, 10002]
+  path: 0[20031 -> 10002 -> 20099 -> 60099], [Turkey -> Asia -> Oman -> monarchy] 
+
+  path: 1[20031 -> 10004 -> 20042 -> 70386], [Turkey -> Europe -> Iceland -> Roman Catholic] 
+
+  path: 2[20031 -> 10002], [Turkey -> Asia] 
+
+srcNodes: [60099, 70391, 10002]
+  path: 0[20094 -> 10002 -> 20099 -> 60099], [Lebanon -> Asia -> Oman -> monarchy] 
+
+  path: 1[20094 -> 10002 -> 20077 -> 70391], [Lebanon -> Asia -> Macau -> Roman Catholic] 
+
+  path: 2[20094 -> 10002], [Lebanon -> Asia] 
+
+-----------------------------------------
+ResultDestNodes: 
+10002, 10002, 10002, 10002, 10002, 10002, 10002, 10002, 10002, 10002, 10002, 10002, 10002, 10002, 10002, 20099, 20092, 20066, 20077, 20086, 20087, 20102, 20096, 20070, 20062, 20090, 20103, 20068, 20031, 20094, 
+ResultRelevs: 
+11.401239, 11.401239, 11.401239, 11.401239, 10.972707, 10.972707, 10.59761, 10.59761, 10.544041, 10.544041, 10.329741, 10.329741, 10.169077, 10.115507, 9.901207, 8.111467, 8.111467, 8.111467, 7.3077, 7.3077, 7.3077, 7.3077, 6.906027, 6.906027, 6.906027, 6.906027, 6.906027, 6.906027, 6.504207, 6.504207, 
+Num of top-k answers: 30
+Num of duplicate answers: 4
+Num of duplicate roots in top-k answers: 14
+root duplication ratio: 0.4827586
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 314
+Num of entries retrieved from NKMaps: 1341
+Num of answer trees explored: 4809
+

@@ -1,0 +1,1432 @@
+query: [sf, time, travel]
+Top-k Search by Blink-BDB, k=10
+[sf, time, travel]
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[2068636 -> 2068636], [Cooper Jr., Henry S.F. -> Cooper Jr., Henry S.F.]
+  path: 1[2068636 -> 1574939 -> 6020288], [Cooper Jr., Henry S.F. -> Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[2068636 -> 1574939 -> 2072962 -> 1618690 -> 8025845], [Cooper Jr., Henry S.F. -> Moon Beat (2009) -> Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[1618690 -> 2072962 -> 1574939 -> 2068636], [Oswald's Ghost (2007) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1618690 -> 2174891 -> 1555195 -> 2034844 -> 1165514 -> 8005325], [Oswald's Ghost (2007) -> Kennedy, John F. -> Marilyn Monroe - Tod einer Ikone (2010) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[1618690 -> 8025845], [Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[1574939 -> 2068636], [Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1574939 -> 6020288], [Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[1574939 -> 2072962 -> 1618690 -> 8025845], [Moon Beat (2009) -> Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[2072962 -> 1574939 -> 2068636], [Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[2072962 -> 1574939 -> 6020288], [Cronkite, Walter -> Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[2072962 -> 1618690 -> 8025845], [Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2124912, 8020879, 6010649]
+  path: 0[1331228 -> 2124912], [Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1331228 -> 2210328 -> 1194175 -> 2322682 -> 1509958 -> 8020879], [Disgrace (2008) -> Malkovich, John -> Afterwards (2008) -> Catillon, Brigitte -> La vérité ou presque (2007) -> based-on-novel,book,dog,ex-husband-ex-wife-relationship,extramarital-affair,film-in-film,gay,identity-swap,infidelity,jazz-singer,lyon-france,movie-theater,old-age,pregnant-woman,storm,television,tv,tv-station] 
+
+  path: 2[1331228 -> 2095378 -> 1531067 -> 2242238 -> 1355451 -> 6010649], [Disgrace (2008) -> Ebouaney, Eriq -> Lignes de front (2009) -> Nahon, Philippe (I) -> Eldorado (2008) -> Yvan finds a burglar] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[2174891 -> 1618690 -> 2072962 -> 1574939 -> 2068636], [Kennedy, John F. -> Oswald's Ghost (2007) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[2174891 -> 1555195 -> 2034844 -> 1165514 -> 8005325], [Kennedy, John F. -> Marilyn Monroe - Tod einer Ikone (2010) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[2174891 -> 1618690 -> 8025845], [Kennedy, John F. -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2124912, 8036989, 8024390]
+  path: 0[2106468 -> 1502772 -> 2095378 -> 1331228 -> 2124912], [Figlarz, Alain -> La horde (2009) -> Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2106468 -> 1840838 -> 8036989], [Figlarz, Alain -> Truands (2007) -> drugs,gangster,one-word-title,paris-france,underworld] 
+
+  path: 2[2106468 -> 1504913 -> 2020724 -> 1588951 -> 8024390], [Figlarz, Alain -> La môme (2007) -> Barbé, Marc -> Nannerl, la soeur de Mozart (2010) -> 14-year-old,1760s,18th-century,abandonment,abbey,book-burning,brother-sister-relationship,candlelight,carmelite,character-name-in-title,child-practices-violin,child-prodigy,composer,concerto,convent,dauphin-of-france,domineering-father,english-channel,famous-father,father-children-relationship,father-daughter-relationship,female-composer,female-musician,feminism,forbidden-book,france,frustration,gender-disguise,harpsichord,harpsichord-score,king,king-louis-xv,menstruation,misunderstood-composer,mozart,musical-composition,nickname,nickname-as-title,overbearing-father,passiveness,pillow-fight,pimple,resignation,royal-court,royal-heir,singing-girl,singing-voice,speaking-latin,submission,talent,tragic-female-character,versailles-france,violin,violinist,virtuosity,virtuoso,voice-over-letter,woman-dressed-as-man] 
+
+srcNodes: [2124912, 8036989, 8024390]
+  path: 0[2136114 -> 1342955 -> 2095378 -> 1331228 -> 2124912], [Hajdi, Youssef -> Duty Calls (2009) -> Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2136114 -> 1840838 -> 8036989], [Hajdi, Youssef -> Truands (2007) -> drugs,gangster,one-word-title,paris-france,underworld] 
+
+  path: 2[2136114 -> 1524124 -> 2123413 -> 1588951 -> 8024390], [Hajdi, Youssef -> Les aventures extraordinaires d'Adèle Blanc-Sec (2010) -> Giraud, Nicolas (I) -> Nannerl, la soeur de Mozart (2010) -> 14-year-old,1760s,18th-century,abandonment,abbey,book-burning,brother-sister-relationship,candlelight,carmelite,character-name-in-title,child-practices-violin,child-prodigy,composer,concerto,convent,dauphin-of-france,domineering-father,english-channel,famous-father,father-children-relationship,father-daughter-relationship,female-composer,female-musician,feminism,forbidden-book,france,frustration,gender-disguise,harpsichord,harpsichord-score,king,king-louis-xv,menstruation,misunderstood-composer,mozart,musical-composition,nickname,nickname-as-title,overbearing-father,passiveness,pillow-fight,pimple,resignation,royal-court,royal-heir,singing-girl,singing-voice,speaking-latin,submission,talent,tragic-female-character,versailles-france,violin,violinist,virtuosity,virtuoso,voice-over-letter,woman-dressed-as-man] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[1452377 -> 2072962 -> 1574939 -> 2068636], [In the Shadow of the Moon (2007) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1452377 -> 2174891 -> 1555195 -> 2034844 -> 1165514 -> 8005325], [In the Shadow of the Moon (2007) -> Kennedy, John F. -> Marilyn Monroe - Tod einer Ikone (2010) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[1452377 -> 2174891 -> 1618690 -> 8025845], [In the Shadow of the Moon (2007) -> Kennedy, John F. -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[1337432 -> 2072962 -> 1574939 -> 2068636], [Double Take (2009) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1337432 -> 2174891 -> 1555195 -> 2034844 -> 1165514 -> 8005325], [Double Take (2009) -> Kennedy, John F. -> Marilyn Monroe - Tod einer Ikone (2010) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[1337432 -> 2279965 -> 1618690 -> 8025845], [Double Take (2009) -> Rather, Dan -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+-----------------------------------------
+Num of top-k answers: 10
+ResultDestNodes: [2068636, 1618690, 1574939, 2072962, 1331228, 2174891, 2106468, 2136114, 1452377, 1337432]
+ResultRelevs: [8.21480655670166, 7.18338680267334, 7.177365303039551, 6.500222682952881, 6.335360050201416, 6.193135738372803, 5.677636623382568, 5.677636623382568, 5.671436309814453, 5.671436309814453]
+AvgResultRelev: 6.430242300033569
+AvgResultDissimilarity: 0.6355555555555555
+Num of entries retrieved from the lists: 2513
+Num of entries retrieved from NKMaps: 3556
+Num of answer trees explored: 933
+
+Div Top-k Search by Exhustive, k=10
+[sf, time, travel]
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[2068636 -> 2068636], [Cooper Jr., Henry S.F. -> Cooper Jr., Henry S.F.]
+  path: 1[2068636 -> 1574939 -> 6020288], [Cooper Jr., Henry S.F. -> Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[2068636 -> 1574939 -> 2072962 -> 1618690 -> 8025845], [Cooper Jr., Henry S.F. -> Moon Beat (2009) -> Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[1618690 -> 2072962 -> 1574939 -> 2068636], [Oswald's Ghost (2007) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1618690 -> 2174891 -> 1555195 -> 2034844 -> 1165514 -> 8005325], [Oswald's Ghost (2007) -> Kennedy, John F. -> Marilyn Monroe - Tod einer Ikone (2010) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[1618690 -> 8025845], [Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[1574939 -> 2068636], [Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1574939 -> 6020288], [Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[1574939 -> 2072962 -> 1618690 -> 8025845], [Moon Beat (2009) -> Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[2072962 -> 1574939 -> 2068636], [Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[2072962 -> 1574939 -> 6020288], [Cronkite, Walter -> Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[2072962 -> 1618690 -> 8025845], [Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2124912, 8020879, 6010649]
+  path: 0[1331228 -> 2124912], [Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1331228 -> 2210328 -> 1194175 -> 2322682 -> 1509958 -> 8020879], [Disgrace (2008) -> Malkovich, John -> Afterwards (2008) -> Catillon, Brigitte -> La vérité ou presque (2007) -> based-on-novel,book,dog,ex-husband-ex-wife-relationship,extramarital-affair,film-in-film,gay,identity-swap,infidelity,jazz-singer,lyon-france,movie-theater,old-age,pregnant-woman,storm,television,tv,tv-station] 
+
+  path: 2[1331228 -> 2095378 -> 1531067 -> 2242238 -> 1355451 -> 6010649], [Disgrace (2008) -> Ebouaney, Eriq -> Lignes de front (2009) -> Nahon, Philippe (I) -> Eldorado (2008) -> Yvan finds a burglar] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[2174891 -> 1618690 -> 2072962 -> 1574939 -> 2068636], [Kennedy, John F. -> Oswald's Ghost (2007) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[2174891 -> 1555195 -> 2034844 -> 1165514 -> 8005325], [Kennedy, John F. -> Marilyn Monroe - Tod einer Ikone (2010) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[2174891 -> 1618690 -> 8025845], [Kennedy, John F. -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2124912, 8036989, 8024390]
+  path: 0[2106468 -> 1502772 -> 2095378 -> 1331228 -> 2124912], [Figlarz, Alain -> La horde (2009) -> Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2106468 -> 1840838 -> 8036989], [Figlarz, Alain -> Truands (2007) -> drugs,gangster,one-word-title,paris-france,underworld] 
+
+  path: 2[2106468 -> 1504913 -> 2020724 -> 1588951 -> 8024390], [Figlarz, Alain -> La môme (2007) -> Barbé, Marc -> Nannerl, la soeur de Mozart (2010) -> 14-year-old,1760s,18th-century,abandonment,abbey,book-burning,brother-sister-relationship,candlelight,carmelite,character-name-in-title,child-practices-violin,child-prodigy,composer,concerto,convent,dauphin-of-france,domineering-father,english-channel,famous-father,father-children-relationship,father-daughter-relationship,female-composer,female-musician,feminism,forbidden-book,france,frustration,gender-disguise,harpsichord,harpsichord-score,king,king-louis-xv,menstruation,misunderstood-composer,mozart,musical-composition,nickname,nickname-as-title,overbearing-father,passiveness,pillow-fight,pimple,resignation,royal-court,royal-heir,singing-girl,singing-voice,speaking-latin,submission,talent,tragic-female-character,versailles-france,violin,violinist,virtuosity,virtuoso,voice-over-letter,woman-dressed-as-man] 
+
+srcNodes: [2124912, 8036989, 8024390]
+  path: 0[2136114 -> 1342955 -> 2095378 -> 1331228 -> 2124912], [Hajdi, Youssef -> Duty Calls (2009) -> Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2136114 -> 1840838 -> 8036989], [Hajdi, Youssef -> Truands (2007) -> drugs,gangster,one-word-title,paris-france,underworld] 
+
+  path: 2[2136114 -> 1524124 -> 2123413 -> 1588951 -> 8024390], [Hajdi, Youssef -> Les aventures extraordinaires d'Adèle Blanc-Sec (2010) -> Giraud, Nicolas (I) -> Nannerl, la soeur de Mozart (2010) -> 14-year-old,1760s,18th-century,abandonment,abbey,book-burning,brother-sister-relationship,candlelight,carmelite,character-name-in-title,child-practices-violin,child-prodigy,composer,concerto,convent,dauphin-of-france,domineering-father,english-channel,famous-father,father-children-relationship,father-daughter-relationship,female-composer,female-musician,feminism,forbidden-book,france,frustration,gender-disguise,harpsichord,harpsichord-score,king,king-louis-xv,menstruation,misunderstood-composer,mozart,musical-composition,nickname,nickname-as-title,overbearing-father,passiveness,pillow-fight,pimple,resignation,royal-court,royal-heir,singing-girl,singing-voice,speaking-latin,submission,talent,tragic-female-character,versailles-france,violin,violinist,virtuosity,virtuoso,voice-over-letter,woman-dressed-as-man] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[1337432 -> 2072962 -> 1574939 -> 2068636], [Double Take (2009) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1337432 -> 2174891 -> 1555195 -> 2034844 -> 1165514 -> 8005325], [Double Take (2009) -> Kennedy, John F. -> Marilyn Monroe - Tod einer Ikone (2010) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[1337432 -> 2279965 -> 1618690 -> 8025845], [Double Take (2009) -> Rather, Dan -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2124912, 8020879, 8021531]
+  path: 0[1194175 -> 2210328 -> 1331228 -> 2124912], [Afterwards (2008) -> Malkovich, John -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1194175 -> 2322682 -> 1509958 -> 8020879], [Afterwards (2008) -> Catillon, Brigitte -> La vérité ou presque (2007) -> based-on-novel,book,dog,ex-husband-ex-wife-relationship,extramarital-affair,film-in-film,gay,identity-swap,infidelity,jazz-singer,lyon-france,movie-theater,old-age,pregnant-woman,storm,television,tv,tv-station] 
+
+  path: 2[1194175 -> 2012298 -> 1286884 -> 2475584 -> 1529027 -> 8021531], [Afterwards (2008) -> Arden, James -> Collision (2007) -> Tanovic, Tajna -> Liberation (2006) -> housewife,introspection,white-mask] 
+
+-----------------------------------------
+ResultDestNodes: [2068636, 1618690, 1574939, 2072962, 1331228, 2174891, 2106468, 2136114, 1337432, 1194175]
+ResultRelevs: [8.21480655670166, 7.18338680267334, 7.177365303039551, 6.500222682952881, 6.335360050201416, 6.193135738372803, 5.677636623382568, 5.677636623382568, 5.671436309814453, 5.535883903503418]
+AvgResultRelev: 6.416687059402466
+AvgResultDissimilarity: 0.7155555486679077
+Num of entries retrieved from the KNLists: 2615
+Num of entries retrieved from NKMaps: 3688
+Num of answer trees explored: 960
+Num of answer tree sets created: 530545
+Num of answer tree sets removed: 530524
+Max Num of answer tree sets in Q[]: 530534
+
+Div Top-k Search by Astar1, k=10
+[sf, time, travel]
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[2068636 -> 2068636], [Cooper Jr., Henry S.F. -> Cooper Jr., Henry S.F.]
+  path: 1[2068636 -> 1574939 -> 6020288], [Cooper Jr., Henry S.F. -> Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[2068636 -> 1574939 -> 2072962 -> 1618690 -> 8025845], [Cooper Jr., Henry S.F. -> Moon Beat (2009) -> Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[1618690 -> 2072962 -> 1574939 -> 2068636], [Oswald's Ghost (2007) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1618690 -> 2174891 -> 1555195 -> 2034844 -> 1165514 -> 8005325], [Oswald's Ghost (2007) -> Kennedy, John F. -> Marilyn Monroe - Tod einer Ikone (2010) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[1618690 -> 8025845], [Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[1574939 -> 2068636], [Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1574939 -> 6020288], [Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[1574939 -> 2072962 -> 1618690 -> 8025845], [Moon Beat (2009) -> Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[2072962 -> 1574939 -> 2068636], [Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[2072962 -> 1574939 -> 6020288], [Cronkite, Walter -> Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[2072962 -> 1618690 -> 8025845], [Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2124912, 8020879, 6010649]
+  path: 0[1331228 -> 2124912], [Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1331228 -> 2210328 -> 1194175 -> 2322682 -> 1509958 -> 8020879], [Disgrace (2008) -> Malkovich, John -> Afterwards (2008) -> Catillon, Brigitte -> La vérité ou presque (2007) -> based-on-novel,book,dog,ex-husband-ex-wife-relationship,extramarital-affair,film-in-film,gay,identity-swap,infidelity,jazz-singer,lyon-france,movie-theater,old-age,pregnant-woman,storm,television,tv,tv-station] 
+
+  path: 2[1331228 -> 2095378 -> 1531067 -> 2242238 -> 1355451 -> 6010649], [Disgrace (2008) -> Ebouaney, Eriq -> Lignes de front (2009) -> Nahon, Philippe (I) -> Eldorado (2008) -> Yvan finds a burglar] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[2174891 -> 1618690 -> 2072962 -> 1574939 -> 2068636], [Kennedy, John F. -> Oswald's Ghost (2007) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[2174891 -> 1555195 -> 2034844 -> 1165514 -> 8005325], [Kennedy, John F. -> Marilyn Monroe - Tod einer Ikone (2010) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[2174891 -> 1618690 -> 8025845], [Kennedy, John F. -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2124912, 8036989, 8024390]
+  path: 0[2106468 -> 1502772 -> 2095378 -> 1331228 -> 2124912], [Figlarz, Alain -> La horde (2009) -> Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2106468 -> 1840838 -> 8036989], [Figlarz, Alain -> Truands (2007) -> drugs,gangster,one-word-title,paris-france,underworld] 
+
+  path: 2[2106468 -> 1504913 -> 2020724 -> 1588951 -> 8024390], [Figlarz, Alain -> La môme (2007) -> Barbé, Marc -> Nannerl, la soeur de Mozart (2010) -> 14-year-old,1760s,18th-century,abandonment,abbey,book-burning,brother-sister-relationship,candlelight,carmelite,character-name-in-title,child-practices-violin,child-prodigy,composer,concerto,convent,dauphin-of-france,domineering-father,english-channel,famous-father,father-children-relationship,father-daughter-relationship,female-composer,female-musician,feminism,forbidden-book,france,frustration,gender-disguise,harpsichord,harpsichord-score,king,king-louis-xv,menstruation,misunderstood-composer,mozart,musical-composition,nickname,nickname-as-title,overbearing-father,passiveness,pillow-fight,pimple,resignation,royal-court,royal-heir,singing-girl,singing-voice,speaking-latin,submission,talent,tragic-female-character,versailles-france,violin,violinist,virtuosity,virtuoso,voice-over-letter,woman-dressed-as-man] 
+
+srcNodes: [2124912, 8036989, 8024390]
+  path: 0[2136114 -> 1342955 -> 2095378 -> 1331228 -> 2124912], [Hajdi, Youssef -> Duty Calls (2009) -> Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2136114 -> 1840838 -> 8036989], [Hajdi, Youssef -> Truands (2007) -> drugs,gangster,one-word-title,paris-france,underworld] 
+
+  path: 2[2136114 -> 1524124 -> 2123413 -> 1588951 -> 8024390], [Hajdi, Youssef -> Les aventures extraordinaires d'Adèle Blanc-Sec (2010) -> Giraud, Nicolas (I) -> Nannerl, la soeur de Mozart (2010) -> 14-year-old,1760s,18th-century,abandonment,abbey,book-burning,brother-sister-relationship,candlelight,carmelite,character-name-in-title,child-practices-violin,child-prodigy,composer,concerto,convent,dauphin-of-france,domineering-father,english-channel,famous-father,father-children-relationship,father-daughter-relationship,female-composer,female-musician,feminism,forbidden-book,france,frustration,gender-disguise,harpsichord,harpsichord-score,king,king-louis-xv,menstruation,misunderstood-composer,mozart,musical-composition,nickname,nickname-as-title,overbearing-father,passiveness,pillow-fight,pimple,resignation,royal-court,royal-heir,singing-girl,singing-voice,speaking-latin,submission,talent,tragic-female-character,versailles-france,violin,violinist,virtuosity,virtuoso,voice-over-letter,woman-dressed-as-man] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[1276931 -> 2072962 -> 1574939 -> 2068636], [Chelsea on the Rocks (2008) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1276931 -> 2142252 -> 1251242 -> 2034844 -> 1165514 -> 8005325], [Chelsea on the Rocks (2008) -> Hawke, Ethan -> Boffo! Tinseltown's Bombs and Blockbusters (2006) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[1276931 -> 2072962 -> 1618690 -> 8025845], [Chelsea on the Rocks (2008) -> Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2124912, 8020879, 8021531]
+  path: 0[1194175 -> 2210328 -> 1331228 -> 2124912], [Afterwards (2008) -> Malkovich, John -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1194175 -> 2322682 -> 1509958 -> 8020879], [Afterwards (2008) -> Catillon, Brigitte -> La vérité ou presque (2007) -> based-on-novel,book,dog,ex-husband-ex-wife-relationship,extramarital-affair,film-in-film,gay,identity-swap,infidelity,jazz-singer,lyon-france,movie-theater,old-age,pregnant-woman,storm,television,tv,tv-station] 
+
+  path: 2[1194175 -> 2012298 -> 1286884 -> 2475584 -> 1529027 -> 8021531], [Afterwards (2008) -> Arden, James -> Collision (2007) -> Tanovic, Tajna -> Liberation (2006) -> housewife,introspection,white-mask] 
+
+-----------------------------------------
+ResultDestNodes: [2068636, 1618690, 1574939, 2072962, 1331228, 2174891, 2106468, 2136114, 1276931, 1194175]
+ResultRelevs: [8.21480655670166, 7.18338680267334, 7.177365303039551, 6.500222682952881, 6.335360050201416, 6.193135738372803, 5.677636623382568, 5.677636623382568, 5.671436309814453, 5.535883903503418]
+AvgResultRelev: 6.416687059402466
+AvgResultDissimilarity: 0.7155555486679077
+Num of entries retrieved from the KNLists: 2615
+Num of entries retrieved from NKMaps: 3688
+Num of answer trees explored: 960
+Num of states created: 802130
+Num of states explored: 801800
+Num of heuristic search performed: 14
+Max Num of answer tree sets in Q[]: 16512
+
+Div Top-k Search by Astar1, k=10
+[sf, time, travel]
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[2068636 -> 2068636], [Cooper Jr., Henry S.F. -> Cooper Jr., Henry S.F.]
+  path: 1[2068636 -> 1574939 -> 6020288], [Cooper Jr., Henry S.F. -> Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[2068636 -> 1574939 -> 2072962 -> 1618690 -> 8025845], [Cooper Jr., Henry S.F. -> Moon Beat (2009) -> Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[1618690 -> 2072962 -> 1574939 -> 2068636], [Oswald's Ghost (2007) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1618690 -> 2174891 -> 1555195 -> 2034844 -> 1165514 -> 8005325], [Oswald's Ghost (2007) -> Kennedy, John F. -> Marilyn Monroe - Tod einer Ikone (2010) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[1618690 -> 8025845], [Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[1574939 -> 2068636], [Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1574939 -> 6020288], [Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[1574939 -> 2072962 -> 1618690 -> 8025845], [Moon Beat (2009) -> Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[2072962 -> 1574939 -> 2068636], [Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[2072962 -> 1574939 -> 6020288], [Cronkite, Walter -> Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[2072962 -> 1618690 -> 8025845], [Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2124912, 8020879, 6010649]
+  path: 0[1331228 -> 2124912], [Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1331228 -> 2210328 -> 1194175 -> 2322682 -> 1509958 -> 8020879], [Disgrace (2008) -> Malkovich, John -> Afterwards (2008) -> Catillon, Brigitte -> La vérité ou presque (2007) -> based-on-novel,book,dog,ex-husband-ex-wife-relationship,extramarital-affair,film-in-film,gay,identity-swap,infidelity,jazz-singer,lyon-france,movie-theater,old-age,pregnant-woman,storm,television,tv,tv-station] 
+
+  path: 2[1331228 -> 2095378 -> 1531067 -> 2242238 -> 1355451 -> 6010649], [Disgrace (2008) -> Ebouaney, Eriq -> Lignes de front (2009) -> Nahon, Philippe (I) -> Eldorado (2008) -> Yvan finds a burglar] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[2174891 -> 1618690 -> 2072962 -> 1574939 -> 2068636], [Kennedy, John F. -> Oswald's Ghost (2007) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[2174891 -> 1555195 -> 2034844 -> 1165514 -> 8005325], [Kennedy, John F. -> Marilyn Monroe - Tod einer Ikone (2010) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[2174891 -> 1618690 -> 8025845], [Kennedy, John F. -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2124912, 8036989, 8024390]
+  path: 0[2106468 -> 1502772 -> 2095378 -> 1331228 -> 2124912], [Figlarz, Alain -> La horde (2009) -> Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2106468 -> 1840838 -> 8036989], [Figlarz, Alain -> Truands (2007) -> drugs,gangster,one-word-title,paris-france,underworld] 
+
+  path: 2[2106468 -> 1504913 -> 2020724 -> 1588951 -> 8024390], [Figlarz, Alain -> La môme (2007) -> Barbé, Marc -> Nannerl, la soeur de Mozart (2010) -> 14-year-old,1760s,18th-century,abandonment,abbey,book-burning,brother-sister-relationship,candlelight,carmelite,character-name-in-title,child-practices-violin,child-prodigy,composer,concerto,convent,dauphin-of-france,domineering-father,english-channel,famous-father,father-children-relationship,father-daughter-relationship,female-composer,female-musician,feminism,forbidden-book,france,frustration,gender-disguise,harpsichord,harpsichord-score,king,king-louis-xv,menstruation,misunderstood-composer,mozart,musical-composition,nickname,nickname-as-title,overbearing-father,passiveness,pillow-fight,pimple,resignation,royal-court,royal-heir,singing-girl,singing-voice,speaking-latin,submission,talent,tragic-female-character,versailles-france,violin,violinist,virtuosity,virtuoso,voice-over-letter,woman-dressed-as-man] 
+
+srcNodes: [2124912, 8036989, 8024390]
+  path: 0[2136114 -> 1342955 -> 2095378 -> 1331228 -> 2124912], [Hajdi, Youssef -> Duty Calls (2009) -> Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2136114 -> 1840838 -> 8036989], [Hajdi, Youssef -> Truands (2007) -> drugs,gangster,one-word-title,paris-france,underworld] 
+
+  path: 2[2136114 -> 1524124 -> 2123413 -> 1588951 -> 8024390], [Hajdi, Youssef -> Les aventures extraordinaires d'Adèle Blanc-Sec (2010) -> Giraud, Nicolas (I) -> Nannerl, la soeur de Mozart (2010) -> 14-year-old,1760s,18th-century,abandonment,abbey,book-burning,brother-sister-relationship,candlelight,carmelite,character-name-in-title,child-practices-violin,child-prodigy,composer,concerto,convent,dauphin-of-france,domineering-father,english-channel,famous-father,father-children-relationship,father-daughter-relationship,female-composer,female-musician,feminism,forbidden-book,france,frustration,gender-disguise,harpsichord,harpsichord-score,king,king-louis-xv,menstruation,misunderstood-composer,mozart,musical-composition,nickname,nickname-as-title,overbearing-father,passiveness,pillow-fight,pimple,resignation,royal-court,royal-heir,singing-girl,singing-voice,speaking-latin,submission,talent,tragic-female-character,versailles-france,violin,violinist,virtuosity,virtuoso,voice-over-letter,woman-dressed-as-man] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[1276931 -> 2072962 -> 1574939 -> 2068636], [Chelsea on the Rocks (2008) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1276931 -> 2142252 -> 1251242 -> 2034844 -> 1165514 -> 8005325], [Chelsea on the Rocks (2008) -> Hawke, Ethan -> Boffo! Tinseltown's Bombs and Blockbusters (2006) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[1276931 -> 2072962 -> 1618690 -> 8025845], [Chelsea on the Rocks (2008) -> Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2124912, 8020879, 8021531]
+  path: 0[1194175 -> 2210328 -> 1331228 -> 2124912], [Afterwards (2008) -> Malkovich, John -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1194175 -> 2322682 -> 1509958 -> 8020879], [Afterwards (2008) -> Catillon, Brigitte -> La vérité ou presque (2007) -> based-on-novel,book,dog,ex-husband-ex-wife-relationship,extramarital-affair,film-in-film,gay,identity-swap,infidelity,jazz-singer,lyon-france,movie-theater,old-age,pregnant-woman,storm,television,tv,tv-station] 
+
+  path: 2[1194175 -> 2012298 -> 1286884 -> 2475584 -> 1529027 -> 8021531], [Afterwards (2008) -> Arden, James -> Collision (2007) -> Tanovic, Tajna -> Liberation (2006) -> housewife,introspection,white-mask] 
+
+-----------------------------------------
+ResultDestNodes: [2068636, 1618690, 1574939, 2072962, 1331228, 2174891, 2106468, 2136114, 1276931, 1194175]
+ResultRelevs: [8.21480655670166, 7.18338680267334, 7.177365303039551, 6.500222682952881, 6.335360050201416, 6.193135738372803, 5.677636623382568, 5.677636623382568, 5.671436309814453, 5.535883903503418]
+AvgResultRelev: 6.416687059402466
+AvgResultDissimilarity: 0.7155555486679077
+Num of entries retrieved from the KNLists: 2615
+Num of entries retrieved from NKMaps: 3688
+Num of answer trees explored: 960
+Num of states created: 1650
+Num of states explored: 245
+Num of heuristic search performed: 14
+Max Num of answer tree sets in Q[]: 176
+
+Div Top-k Search by Astar1, k=10
+[sf, time, travel]
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[2068636 -> 2068636], [Cooper Jr., Henry S.F. -> Cooper Jr., Henry S.F.]
+  path: 1[2068636 -> 1574939 -> 6020288], [Cooper Jr., Henry S.F. -> Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[2068636 -> 1574939 -> 2072962 -> 1618690 -> 8025845], [Cooper Jr., Henry S.F. -> Moon Beat (2009) -> Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[1618690 -> 2072962 -> 1574939 -> 2068636], [Oswald's Ghost (2007) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1618690 -> 2174891 -> 1555195 -> 2034844 -> 1165514 -> 8005325], [Oswald's Ghost (2007) -> Kennedy, John F. -> Marilyn Monroe - Tod einer Ikone (2010) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[1618690 -> 8025845], [Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[1574939 -> 2068636], [Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1574939 -> 6020288], [Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[1574939 -> 2072962 -> 1618690 -> 8025845], [Moon Beat (2009) -> Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[2072962 -> 1574939 -> 2068636], [Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[2072962 -> 1574939 -> 6020288], [Cronkite, Walter -> Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[2072962 -> 1618690 -> 8025845], [Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2124912, 8020879, 6010649]
+  path: 0[1331228 -> 2124912], [Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1331228 -> 2210328 -> 1194175 -> 2322682 -> 1509958 -> 8020879], [Disgrace (2008) -> Malkovich, John -> Afterwards (2008) -> Catillon, Brigitte -> La vérité ou presque (2007) -> based-on-novel,book,dog,ex-husband-ex-wife-relationship,extramarital-affair,film-in-film,gay,identity-swap,infidelity,jazz-singer,lyon-france,movie-theater,old-age,pregnant-woman,storm,television,tv,tv-station] 
+
+  path: 2[1331228 -> 2095378 -> 1531067 -> 2242238 -> 1355451 -> 6010649], [Disgrace (2008) -> Ebouaney, Eriq -> Lignes de front (2009) -> Nahon, Philippe (I) -> Eldorado (2008) -> Yvan finds a burglar] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[2174891 -> 1618690 -> 2072962 -> 1574939 -> 2068636], [Kennedy, John F. -> Oswald's Ghost (2007) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[2174891 -> 1555195 -> 2034844 -> 1165514 -> 8005325], [Kennedy, John F. -> Marilyn Monroe - Tod einer Ikone (2010) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[2174891 -> 1618690 -> 8025845], [Kennedy, John F. -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2124912, 8036989, 8024390]
+  path: 0[2106468 -> 1502772 -> 2095378 -> 1331228 -> 2124912], [Figlarz, Alain -> La horde (2009) -> Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2106468 -> 1840838 -> 8036989], [Figlarz, Alain -> Truands (2007) -> drugs,gangster,one-word-title,paris-france,underworld] 
+
+  path: 2[2106468 -> 1504913 -> 2020724 -> 1588951 -> 8024390], [Figlarz, Alain -> La môme (2007) -> Barbé, Marc -> Nannerl, la soeur de Mozart (2010) -> 14-year-old,1760s,18th-century,abandonment,abbey,book-burning,brother-sister-relationship,candlelight,carmelite,character-name-in-title,child-practices-violin,child-prodigy,composer,concerto,convent,dauphin-of-france,domineering-father,english-channel,famous-father,father-children-relationship,father-daughter-relationship,female-composer,female-musician,feminism,forbidden-book,france,frustration,gender-disguise,harpsichord,harpsichord-score,king,king-louis-xv,menstruation,misunderstood-composer,mozart,musical-composition,nickname,nickname-as-title,overbearing-father,passiveness,pillow-fight,pimple,resignation,royal-court,royal-heir,singing-girl,singing-voice,speaking-latin,submission,talent,tragic-female-character,versailles-france,violin,violinist,virtuosity,virtuoso,voice-over-letter,woman-dressed-as-man] 
+
+srcNodes: [2124912, 8036989, 8024390]
+  path: 0[2136114 -> 1342955 -> 2095378 -> 1331228 -> 2124912], [Hajdi, Youssef -> Duty Calls (2009) -> Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2136114 -> 1840838 -> 8036989], [Hajdi, Youssef -> Truands (2007) -> drugs,gangster,one-word-title,paris-france,underworld] 
+
+  path: 2[2136114 -> 1524124 -> 2123413 -> 1588951 -> 8024390], [Hajdi, Youssef -> Les aventures extraordinaires d'Adèle Blanc-Sec (2010) -> Giraud, Nicolas (I) -> Nannerl, la soeur de Mozart (2010) -> 14-year-old,1760s,18th-century,abandonment,abbey,book-burning,brother-sister-relationship,candlelight,carmelite,character-name-in-title,child-practices-violin,child-prodigy,composer,concerto,convent,dauphin-of-france,domineering-father,english-channel,famous-father,father-children-relationship,father-daughter-relationship,female-composer,female-musician,feminism,forbidden-book,france,frustration,gender-disguise,harpsichord,harpsichord-score,king,king-louis-xv,menstruation,misunderstood-composer,mozart,musical-composition,nickname,nickname-as-title,overbearing-father,passiveness,pillow-fight,pimple,resignation,royal-court,royal-heir,singing-girl,singing-voice,speaking-latin,submission,talent,tragic-female-character,versailles-france,violin,violinist,virtuosity,virtuoso,voice-over-letter,woman-dressed-as-man] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[1276931 -> 2072962 -> 1574939 -> 2068636], [Chelsea on the Rocks (2008) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1276931 -> 2142252 -> 1251242 -> 2034844 -> 1165514 -> 8005325], [Chelsea on the Rocks (2008) -> Hawke, Ethan -> Boffo! Tinseltown's Bombs and Blockbusters (2006) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[1276931 -> 2072962 -> 1618690 -> 8025845], [Chelsea on the Rocks (2008) -> Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2124912, 8020879, 8021531]
+  path: 0[1194175 -> 2210328 -> 1331228 -> 2124912], [Afterwards (2008) -> Malkovich, John -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1194175 -> 2322682 -> 1509958 -> 8020879], [Afterwards (2008) -> Catillon, Brigitte -> La vérité ou presque (2007) -> based-on-novel,book,dog,ex-husband-ex-wife-relationship,extramarital-affair,film-in-film,gay,identity-swap,infidelity,jazz-singer,lyon-france,movie-theater,old-age,pregnant-woman,storm,television,tv,tv-station] 
+
+  path: 2[1194175 -> 2012298 -> 1286884 -> 2475584 -> 1529027 -> 8021531], [Afterwards (2008) -> Arden, James -> Collision (2007) -> Tanovic, Tajna -> Liberation (2006) -> housewife,introspection,white-mask] 
+
+-----------------------------------------
+ResultDestNodes: [2068636, 1618690, 1574939, 2072962, 1331228, 2174891, 2106468, 2136114, 1276931, 1194175]
+ResultRelevs: [8.21480655670166, 7.18338680267334, 7.177365303039551, 6.500222682952881, 6.335360050201416, 6.193135738372803, 5.677636623382568, 5.677636623382568, 5.671436309814453, 5.535883903503418]
+AvgResultRelev: 6.416687059402466
+AvgResultDissimilarity: 0.7155555486679077
+Num of entries retrieved from the KNLists: 2615
+Num of entries retrieved from NKMaps: 3688
+Num of answer trees explored: 960
+Num of states created: 1650
+Num of states explored: 245
+Num of heuristic search performed: 14
+Max Num of answer tree sets in Q[]: 176
+
+Div Top-k Search by Astar1, k=10
+[sf, time, travel]
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[2068636 -> 2068636], [Cooper Jr., Henry S.F. -> Cooper Jr., Henry S.F.]
+  path: 1[2068636 -> 1574939 -> 6020288], [Cooper Jr., Henry S.F. -> Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[2068636 -> 1574939 -> 2072962 -> 1618690 -> 8025845], [Cooper Jr., Henry S.F. -> Moon Beat (2009) -> Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[1618690 -> 2072962 -> 1574939 -> 2068636], [Oswald's Ghost (2007) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1618690 -> 2174891 -> 1555195 -> 2034844 -> 1165514 -> 8005325], [Oswald's Ghost (2007) -> Kennedy, John F. -> Marilyn Monroe - Tod einer Ikone (2010) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[1618690 -> 8025845], [Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[1574939 -> 2068636], [Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1574939 -> 6020288], [Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[1574939 -> 2072962 -> 1618690 -> 8025845], [Moon Beat (2009) -> Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2068636, 6020288, 8025845]
+  path: 0[2072962 -> 1574939 -> 2068636], [Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[2072962 -> 1574939 -> 6020288], [Cronkite, Walter -> Moon Beat (2009) -> Moon Beat re-examine] 
+
+  path: 2[2072962 -> 1618690 -> 8025845], [Cronkite, Walter -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2124912, 8020879, 6010649]
+  path: 0[1331228 -> 2124912], [Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1331228 -> 2210328 -> 1194175 -> 2322682 -> 1509958 -> 8020879], [Disgrace (2008) -> Malkovich, John -> Afterwards (2008) -> Catillon, Brigitte -> La vérité ou presque (2007) -> based-on-novel,book,dog,ex-husband-ex-wife-relationship,extramarital-affair,film-in-film,gay,identity-swap,infidelity,jazz-singer,lyon-france,movie-theater,old-age,pregnant-woman,storm,television,tv,tv-station] 
+
+  path: 2[1331228 -> 2095378 -> 1531067 -> 2242238 -> 1355451 -> 6010649], [Disgrace (2008) -> Ebouaney, Eriq -> Lignes de front (2009) -> Nahon, Philippe (I) -> Eldorado (2008) -> Yvan finds a burglar] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[2174891 -> 1618690 -> 2072962 -> 1574939 -> 2068636], [Kennedy, John F. -> Oswald's Ghost (2007) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[2174891 -> 1555195 -> 2034844 -> 1165514 -> 8005325], [Kennedy, John F. -> Marilyn Monroe - Tod einer Ikone (2010) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[2174891 -> 1618690 -> 8025845], [Kennedy, John F. -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2124912, 8036989, 8024390]
+  path: 0[2106468 -> 1502772 -> 2095378 -> 1331228 -> 2124912], [Figlarz, Alain -> La horde (2009) -> Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2106468 -> 1840838 -> 8036989], [Figlarz, Alain -> Truands (2007) -> drugs,gangster,one-word-title,paris-france,underworld] 
+
+  path: 2[2106468 -> 1504913 -> 2020724 -> 1588951 -> 8024390], [Figlarz, Alain -> La môme (2007) -> Barbé, Marc -> Nannerl, la soeur de Mozart (2010) -> 14-year-old,1760s,18th-century,abandonment,abbey,book-burning,brother-sister-relationship,candlelight,carmelite,character-name-in-title,child-practices-violin,child-prodigy,composer,concerto,convent,dauphin-of-france,domineering-father,english-channel,famous-father,father-children-relationship,father-daughter-relationship,female-composer,female-musician,feminism,forbidden-book,france,frustration,gender-disguise,harpsichord,harpsichord-score,king,king-louis-xv,menstruation,misunderstood-composer,mozart,musical-composition,nickname,nickname-as-title,overbearing-father,passiveness,pillow-fight,pimple,resignation,royal-court,royal-heir,singing-girl,singing-voice,speaking-latin,submission,talent,tragic-female-character,versailles-france,violin,violinist,virtuosity,virtuoso,voice-over-letter,woman-dressed-as-man] 
+
+srcNodes: [2124912, 8036989, 8024390]
+  path: 0[2136114 -> 1342955 -> 2095378 -> 1331228 -> 2124912], [Hajdi, Youssef -> Duty Calls (2009) -> Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2136114 -> 1840838 -> 8036989], [Hajdi, Youssef -> Truands (2007) -> drugs,gangster,one-word-title,paris-france,underworld] 
+
+  path: 2[2136114 -> 1524124 -> 2123413 -> 1588951 -> 8024390], [Hajdi, Youssef -> Les aventures extraordinaires d'Adèle Blanc-Sec (2010) -> Giraud, Nicolas (I) -> Nannerl, la soeur de Mozart (2010) -> 14-year-old,1760s,18th-century,abandonment,abbey,book-burning,brother-sister-relationship,candlelight,carmelite,character-name-in-title,child-practices-violin,child-prodigy,composer,concerto,convent,dauphin-of-france,domineering-father,english-channel,famous-father,father-children-relationship,father-daughter-relationship,female-composer,female-musician,feminism,forbidden-book,france,frustration,gender-disguise,harpsichord,harpsichord-score,king,king-louis-xv,menstruation,misunderstood-composer,mozart,musical-composition,nickname,nickname-as-title,overbearing-father,passiveness,pillow-fight,pimple,resignation,royal-court,royal-heir,singing-girl,singing-voice,speaking-latin,submission,talent,tragic-female-character,versailles-france,violin,violinist,virtuosity,virtuoso,voice-over-letter,woman-dressed-as-man] 
+
+srcNodes: [2068636, 8005325, 8025845]
+  path: 0[1337432 -> 2072962 -> 1574939 -> 2068636], [Double Take (2009) -> Cronkite, Walter -> Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1337432 -> 2174891 -> 1555195 -> 2034844 -> 1165514 -> 8005325], [Double Take (2009) -> Kennedy, John F. -> Marilyn Monroe - Tod einer Ikone (2010) -> Bogdanovich, Peter -> 'Tis Autumn: The Search for Jackie Paris (2006) -> character-name-in-title] 
+
+  path: 2[1337432 -> 2279965 -> 1618690 -> 8025845], [Double Take (2009) -> Rather, Dan -> Oswald's Ghost (2007) -> 1960s,1963,assassination,assassination-plot,author,cia,code-breaking,commission,conspiracy,conspiracy-theory,dealey-plaza,defector,hypnosis,jfk,kennedy-assassination,lie-detector,movie-theater,murder,polygraph,president,protest,reporter,rfk-assasination,vice-president,vietnam-conflict] 
+
+srcNodes: [2124912, 8020879, 8021531]
+  path: 0[1194175 -> 2210328 -> 1331228 -> 2124912], [Afterwards (2008) -> Malkovich, John -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1194175 -> 2322682 -> 1509958 -> 8020879], [Afterwards (2008) -> Catillon, Brigitte -> La vérité ou presque (2007) -> based-on-novel,book,dog,ex-husband-ex-wife-relationship,extramarital-affair,film-in-film,gay,identity-swap,infidelity,jazz-singer,lyon-france,movie-theater,old-age,pregnant-woman,storm,television,tv,tv-station] 
+
+  path: 2[1194175 -> 2012298 -> 1286884 -> 2475584 -> 1529027 -> 8021531], [Afterwards (2008) -> Arden, James -> Collision (2007) -> Tanovic, Tajna -> Liberation (2006) -> housewife,introspection,white-mask] 
+
+-----------------------------------------
+ResultDestNodes: [2068636, 1618690, 1574939, 2072962, 1331228, 2174891, 2106468, 2136114, 1337432, 1194175]
+ResultRelevs: [8.21480655670166, 7.18338680267334, 7.177365303039551, 6.500222682952881, 6.335360050201416, 6.193135738372803, 5.677636623382568, 5.677636623382568, 5.671436309814453, 5.535883903503418]
+AvgResultRelev: 6.416687059402466
+AvgResultDissimilarity: 0.7155555486679077
+Num of entries retrieved from the KNLists: 46209
+Num of entries retrieved from NKMaps: 53807
+Num of answer trees explored: 13661
+Num of states created: 169959
+Num of states explored: 13665
+Num of heuristic search performed: 13653
+Max Num of answer tree sets in Q[]: 0
+Num of local answer tree sets found: 0
+
+query: [sf, fantasy, future]
+Top-k Search by Blink-BDB, k=10
+[sf, fantasy, future]
+srcNodes: [2124912, 8013133, 8008994]
+  path: 0[1331228 -> 2124912], [Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1331228 -> 2210328 -> 1508679 -> 2312020 -> 1332127 -> 8013133], [Disgrace (2008) -> Malkovich, John -> La traversée du désir (2009) -> Bonnaire, Sandrine -> Dix films pour en parler (2007) -> violence] 
+
+  path: 2[1331228 -> 2210328 -> 1686348 -> 2492155 -> 1243073 -> 8008994], [Disgrace (2008) -> Malkovich, John -> Saturday Night (2010) -> Wiig, Kristen -> Bill (2007) -> adultery,affair,arrest,bank,bare-chested-male,billboard,brother-brother-relationship,brother-in-law,camera,candy,candy-bar,car-accident,car-crash,caught-in-the-act,cell-phone,character-name-in-title,chest-hair,competitiveness,doughnut,doughnut-shop,drug-use,duck-hunt,e-mail,f-word,family-dinner,family-relationships,father-daughter-relationship,father-in-law,female-underwear,fireworks,franchise,gay-brother,gay-character,high-school,homosexuality,hospital,hunting,husband-wife-relationship,identity-crisis,illicit-affair,injury,lingerie,locker,locker-room,man-boy-relationship,man-in-woman's-underwear,marijuana,marital-crisis,marital-discord,marital-infidelity,marital-problem,marital-separation,marital-strife,marital-trouble,mentor,office,one-word-title,penis-joke,quitting-a-job,school,school-principal,sex-tape,shaving,shower,sporting-goods-store,swimming,swimming-pool,television-news,television-star,tent,toilet,tv-reporter,underwear,undressing,video-camera,video-tape,woman-in-underwear] 
+
+srcNodes: [2124912, 8013133, 8008994]
+  path: 0[2095378 -> 1331228 -> 2124912], [Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2095378 -> 1502772 -> 2299467 -> 1332127 -> 8013133], [Ebouaney, Eriq -> La horde (2009) -> Arnaud, Virginie -> Dix films pour en parler (2007) -> violence] 
+
+  path: 2[2095378 -> 1428229 -> 2253927 -> 1243073 -> 8008994], [Ebouaney, Eriq -> Hitman (2007/I) -> Olyphant, Timothy -> Bill (2007) -> adultery,affair,arrest,bank,bare-chested-male,billboard,brother-brother-relationship,brother-in-law,camera,candy,candy-bar,car-accident,car-crash,caught-in-the-act,cell-phone,character-name-in-title,chest-hair,competitiveness,doughnut,doughnut-shop,drug-use,duck-hunt,e-mail,f-word,family-dinner,family-relationships,father-daughter-relationship,father-in-law,female-underwear,fireworks,franchise,gay-brother,gay-character,high-school,homosexuality,hospital,hunting,husband-wife-relationship,identity-crisis,illicit-affair,injury,lingerie,locker,locker-room,man-boy-relationship,man-in-woman's-underwear,marijuana,marital-crisis,marital-discord,marital-infidelity,marital-problem,marital-separation,marital-strife,marital-trouble,mentor,office,one-word-title,penis-joke,quitting-a-job,school,school-principal,sex-tape,shaving,shower,sporting-goods-store,swimming,swimming-pool,television-news,television-star,tent,toilet,tv-reporter,underwear,undressing,video-camera,video-tape,woman-in-underwear] 
+
+srcNodes: [2124912, 8013133, 8008994]
+  path: 0[2210328 -> 1331228 -> 2124912], [Malkovich, John -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2210328 -> 1508679 -> 2312020 -> 1332127 -> 8013133], [Malkovich, John -> La traversée du désir (2009) -> Bonnaire, Sandrine -> Dix films pour en parler (2007) -> violence] 
+
+  path: 2[2210328 -> 1686348 -> 2492155 -> 1243073 -> 8008994], [Malkovich, John -> Saturday Night (2010) -> Wiig, Kristen -> Bill (2007) -> adultery,affair,arrest,bank,bare-chested-male,billboard,brother-brother-relationship,brother-in-law,camera,candy,candy-bar,car-accident,car-crash,caught-in-the-act,cell-phone,character-name-in-title,chest-hair,competitiveness,doughnut,doughnut-shop,drug-use,duck-hunt,e-mail,f-word,family-dinner,family-relationships,father-daughter-relationship,father-in-law,female-underwear,fireworks,franchise,gay-brother,gay-character,high-school,homosexuality,hospital,hunting,husband-wife-relationship,identity-crisis,illicit-affair,injury,lingerie,locker,locker-room,man-boy-relationship,man-in-woman's-underwear,marijuana,marital-crisis,marital-discord,marital-infidelity,marital-problem,marital-separation,marital-strife,marital-trouble,mentor,office,one-word-title,penis-joke,quitting-a-job,school,school-principal,sex-tape,shaving,shower,sporting-goods-store,swimming,swimming-pool,television-news,television-star,tent,toilet,tv-reporter,underwear,undressing,video-camera,video-tape,woman-in-underwear] 
+
+srcNodes: [2124912, 8013133, 7008417]
+  path: 0[1508679 -> 2210328 -> 1331228 -> 2124912], [La traversée du désir (2009) -> Malkovich, John -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1508679 -> 2312020 -> 1332127 -> 8013133], [La traversée du désir (2009) -> Bonnaire, Sandrine -> Dix films pour en parler (2007) -> violence] 
+
+  path: 2[1508679 -> 2032913 -> 1805481 -> 7008417], [La traversée du désir (2009) -> Blair, Tony (I) -> The Road to Guantanamo (2006) -> references Back to t] 
+
+srcNodes: [2124912, 8013133, 8021420]
+  path: 0[1332127 -> 2312020 -> 1508679 -> 2210328 -> 1331228 -> 2124912], [Dix films pour en parler (2007) -> Bonnaire, Sandrine -> La traversée du désir (2009) -> Malkovich, John -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1332127 -> 8013133], [Dix films pour en parler (2007) -> violence] 
+
+  path: 2[1332127 -> 4062830 -> 1626681 -> 2423213 -> 1525834 -> 8021420], [Dix films pour en parler (2007) -> Podalydès, Bruno -> Paris, je t'aime (2006) -> Muller, Florence (I) -> Les meilleurs amis du monde (2010) -> friendship,phone,wild-comedy] 
+
+srcNodes: [2124912, 8024074, 8008994]
+  path: 0[2253927 -> 1428229 -> 2095378 -> 1331228 -> 2124912], [Olyphant, Timothy -> Hitman (2007/I) -> Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2253927 -> 1764841 -> 2052972 -> 1582372 -> 8024074], [Olyphant, Timothy -> The Crazies (2010) -> Carnel, Chris -> My Bloody Valentine (2009) -> 3-dimensional,abandoned-house,actress-shares-first-name-with-character,american-flag,atonal-music-score,bar,bar-fight,bare-breasts,bare-butt,bare-chested-male,bed-frame,billiards,blood,blood-spatter,blue-panties,boyfriend-girlfriend-relationship,breaking-a-mirror,breaking-through-a-door,bridge,brutality,burnt-body,camel-toe,car-crash,car-wreck,chase,cheating-husband,child-in-peril,cigarette-smoking,cleavage,clothes-dryer,coal-mine,coma,cut-arm,dead-body,decapitation,digit-in-title,double-barreled-shotgun,drunkenness,dual-identity,ex-boyfriend-ex-girlfriend-relationship,explosion,eye-gouging,f-word,falling-from-height,fantasy-sequence,female-frontal-nudity,female-full-frontal-nudity,female-nudity,female-rear-nudity,fight,fight-to-the-death,flashback,flashlight,gas-mask,gore,grave,grocery-mart,grocery-store,gunshot-wound,hallucination,head-cut-in-half,head-cut-off,heart,heart-ripped-out,heart-shaped-box-of-candy,held-at-gunpoint,helmet-light,hit-with-a-shovel,hole-in-chest,holiday-horror] 
+
+  path: 2[2253927 -> 1243073 -> 8008994], [Olyphant, Timothy -> Bill (2007) -> adultery,affair,arrest,bank,bare-chested-male,billboard,brother-brother-relationship,brother-in-law,camera,candy,candy-bar,car-accident,car-crash,caught-in-the-act,cell-phone,character-name-in-title,chest-hair,competitiveness,doughnut,doughnut-shop,drug-use,duck-hunt,e-mail,f-word,family-dinner,family-relationships,father-daughter-relationship,father-in-law,female-underwear,fireworks,franchise,gay-brother,gay-character,high-school,homosexuality,hospital,hunting,husband-wife-relationship,identity-crisis,illicit-affair,injury,lingerie,locker,locker-room,man-boy-relationship,man-in-woman's-underwear,marijuana,marital-crisis,marital-discord,marital-infidelity,marital-problem,marital-separation,marital-strife,marital-trouble,mentor,office,one-word-title,penis-joke,quitting-a-job,school,school-principal,sex-tape,shaving,shower,sporting-goods-store,swimming,swimming-pool,television-news,television-star,tent,toilet,tv-reporter,underwear,undressing,video-camera,video-tape,woman-in-underwear] 
+
+srcNodes: [2124912, 8024074, 8008994]
+  path: 0[2492155 -> 1686348 -> 2210328 -> 1331228 -> 2124912], [Wiig, Kristen -> Saturday Night (2010) -> Malkovich, John -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2492155 -> 1192691 -> 2249779 -> 1582372 -> 8024074], [Wiig, Kristen -> Adventureland (2009) -> Nunn, Jackson -> My Bloody Valentine (2009) -> 3-dimensional,abandoned-house,actress-shares-first-name-with-character,american-flag,atonal-music-score,bar,bar-fight,bare-breasts,bare-butt,bare-chested-male,bed-frame,billiards,blood,blood-spatter,blue-panties,boyfriend-girlfriend-relationship,breaking-a-mirror,breaking-through-a-door,bridge,brutality,burnt-body,camel-toe,car-crash,car-wreck,chase,cheating-husband,child-in-peril,cigarette-smoking,cleavage,clothes-dryer,coal-mine,coma,cut-arm,dead-body,decapitation,digit-in-title,double-barreled-shotgun,drunkenness,dual-identity,ex-boyfriend-ex-girlfriend-relationship,explosion,eye-gouging,f-word,falling-from-height,fantasy-sequence,female-frontal-nudity,female-full-frontal-nudity,female-nudity,female-rear-nudity,fight,fight-to-the-death,flashback,flashlight,gas-mask,gore,grave,grocery-mart,grocery-store,gunshot-wound,hallucination,head-cut-in-half,head-cut-off,heart,heart-ripped-out,heart-shaped-box-of-candy,held-at-gunpoint,helmet-light,hit-with-a-shovel,hole-in-chest,holiday-horror] 
+
+  path: 2[2492155 -> 1243073 -> 8008994], [Wiig, Kristen -> Bill (2007) -> adultery,affair,arrest,bank,bare-chested-male,billboard,brother-brother-relationship,brother-in-law,camera,candy,candy-bar,car-accident,car-crash,caught-in-the-act,cell-phone,character-name-in-title,chest-hair,competitiveness,doughnut,doughnut-shop,drug-use,duck-hunt,e-mail,f-word,family-dinner,family-relationships,father-daughter-relationship,father-in-law,female-underwear,fireworks,franchise,gay-brother,gay-character,high-school,homosexuality,hospital,hunting,husband-wife-relationship,identity-crisis,illicit-affair,injury,lingerie,locker,locker-room,man-boy-relationship,man-in-woman's-underwear,marijuana,marital-crisis,marital-discord,marital-infidelity,marital-problem,marital-separation,marital-strife,marital-trouble,mentor,office,one-word-title,penis-joke,quitting-a-job,school,school-principal,sex-tape,shaving,shower,sporting-goods-store,swimming,swimming-pool,television-news,television-star,tent,toilet,tv-reporter,underwear,undressing,video-camera,video-tape,woman-in-underwear] 
+
+srcNodes: [2124912, 8013133, 7008417]
+  path: 0[2312020 -> 1508679 -> 2210328 -> 1331228 -> 2124912], [Bonnaire, Sandrine -> La traversée du désir (2009) -> Malkovich, John -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2312020 -> 1332127 -> 8013133], [Bonnaire, Sandrine -> Dix films pour en parler (2007) -> violence] 
+
+  path: 2[2312020 -> 1508679 -> 2032913 -> 1805481 -> 7008417], [Bonnaire, Sandrine -> La traversée du désir (2009) -> Blair, Tony (I) -> The Road to Guantanamo (2006) -> references Back to t] 
+
+srcNodes: [2124912, 8013133, 8008994]
+  path: 0[1502772 -> 2095378 -> 1331228 -> 2124912], [La horde (2009) -> Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1502772 -> 2299467 -> 1332127 -> 8013133], [La horde (2009) -> Arnaud, Virginie -> Dix films pour en parler (2007) -> violence] 
+
+  path: 2[1502772 -> 2095378 -> 1428229 -> 2253927 -> 1243073 -> 8008994], [La horde (2009) -> Ebouaney, Eriq -> Hitman (2007/I) -> Olyphant, Timothy -> Bill (2007) -> adultery,affair,arrest,bank,bare-chested-male,billboard,brother-brother-relationship,brother-in-law,camera,candy,candy-bar,car-accident,car-crash,caught-in-the-act,cell-phone,character-name-in-title,chest-hair,competitiveness,doughnut,doughnut-shop,drug-use,duck-hunt,e-mail,f-word,family-dinner,family-relationships,father-daughter-relationship,father-in-law,female-underwear,fireworks,franchise,gay-brother,gay-character,high-school,homosexuality,hospital,hunting,husband-wife-relationship,identity-crisis,illicit-affair,injury,lingerie,locker,locker-room,man-boy-relationship,man-in-woman's-underwear,marijuana,marital-crisis,marital-discord,marital-infidelity,marital-problem,marital-separation,marital-strife,marital-trouble,mentor,office,one-word-title,penis-joke,quitting-a-job,school,school-principal,sex-tape,shaving,shower,sporting-goods-store,swimming,swimming-pool,television-news,television-star,tent,toilet,tv-reporter,underwear,undressing,video-camera,video-tape,woman-in-underwear] 
+
+srcNodes: [2124912, 8024074, 8006403]
+  path: 0[2253424 -> 1663579 -> 2210328 -> 1331228 -> 2124912], [Oliver, Jay (I) -> Red (2010/I) -> Malkovich, John -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2253424 -> 1783002 -> 2206815 -> 1582372 -> 8024074], [Oliver, Jay (I) -> The Jack of Spades (2010) -> Macaulay, Marc -> My Bloody Valentine (2009) -> 3-dimensional,abandoned-house,actress-shares-first-name-with-character,american-flag,atonal-music-score,bar,bar-fight,bare-breasts,bare-butt,bare-chested-male,bed-frame,billiards,blood,blood-spatter,blue-panties,boyfriend-girlfriend-relationship,breaking-a-mirror,breaking-through-a-door,bridge,brutality,burnt-body,camel-toe,car-crash,car-wreck,chase,cheating-husband,child-in-peril,cigarette-smoking,cleavage,clothes-dryer,coal-mine,coma,cut-arm,dead-body,decapitation,digit-in-title,double-barreled-shotgun,drunkenness,dual-identity,ex-boyfriend-ex-girlfriend-relationship,explosion,eye-gouging,f-word,falling-from-height,fantasy-sequence,female-frontal-nudity,female-full-frontal-nudity,female-nudity,female-rear-nudity,fight,fight-to-the-death,flashback,flashlight,gas-mask,gore,grave,grocery-mart,grocery-store,gunshot-wound,hallucination,head-cut-in-half,head-cut-off,heart,heart-ripped-out,heart-shaped-box-of-candy,held-at-gunpoint,helmet-light,hit-with-a-shovel,hole-in-chest,holiday-horror] 
+
+  path: 2[2253424 -> 1672628 -> 2140604 -> 1184366 -> 8006403], [Oliver, Jay (I) -> Robosapien: Rebooted (2010) -> Harrison, Robbie E. -> A Starchy World (2007) -> absurdism,dark-comedy,experimental-film,family-relationships,mashed-potatoes] 
+
+-----------------------------------------
+Num of top-k answers: 10
+ResultDestNodes: [1331228, 2095378, 2210328, 1508679, 1332127, 2253927, 2492155, 2312020, 1502772, 2253424]
+ResultRelevs: [7.34835147857666, 6.817133903503418, 6.817133903503418, 6.479398727416992, 6.323733806610107, 6.173330307006836, 6.173330307006836, 6.0692291259765625, 6.044244289398193, 5.987408638000488]
+AvgResultRelev: 6.423329448699951
+AvgResultDissimilarity: 0.49777777777777793
+Num of entries retrieved from the lists: 3951
+Num of entries retrieved from NKMaps: 5304
+Num of answer trees explored: 1363
+
+Div Top-k Search by Exhustive, k=10
+[sf, fantasy, future]
+srcNodes: [2124912, 8013133, 8008994]
+  path: 0[1331228 -> 2124912], [Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1331228 -> 2210328 -> 1508679 -> 2312020 -> 1332127 -> 8013133], [Disgrace (2008) -> Malkovich, John -> La traversée du désir (2009) -> Bonnaire, Sandrine -> Dix films pour en parler (2007) -> violence] 
+
+  path: 2[1331228 -> 2210328 -> 1686348 -> 2492155 -> 1243073 -> 8008994], [Disgrace (2008) -> Malkovich, John -> Saturday Night (2010) -> Wiig, Kristen -> Bill (2007) -> adultery,affair,arrest,bank,bare-chested-male,billboard,brother-brother-relationship,brother-in-law,camera,candy,candy-bar,car-accident,car-crash,caught-in-the-act,cell-phone,character-name-in-title,chest-hair,competitiveness,doughnut,doughnut-shop,drug-use,duck-hunt,e-mail,f-word,family-dinner,family-relationships,father-daughter-relationship,father-in-law,female-underwear,fireworks,franchise,gay-brother,gay-character,high-school,homosexuality,hospital,hunting,husband-wife-relationship,identity-crisis,illicit-affair,injury,lingerie,locker,locker-room,man-boy-relationship,man-in-woman's-underwear,marijuana,marital-crisis,marital-discord,marital-infidelity,marital-problem,marital-separation,marital-strife,marital-trouble,mentor,office,one-word-title,penis-joke,quitting-a-job,school,school-principal,sex-tape,shaving,shower,sporting-goods-store,swimming,swimming-pool,television-news,television-star,tent,toilet,tv-reporter,underwear,undressing,video-camera,video-tape,woman-in-underwear] 
+
+srcNodes: [2124912, 8013133, 8008994]
+  path: 0[2095378 -> 1331228 -> 2124912], [Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2095378 -> 1502772 -> 2299467 -> 1332127 -> 8013133], [Ebouaney, Eriq -> La horde (2009) -> Arnaud, Virginie -> Dix films pour en parler (2007) -> violence] 
+
+  path: 2[2095378 -> 1428229 -> 2253927 -> 1243073 -> 8008994], [Ebouaney, Eriq -> Hitman (2007/I) -> Olyphant, Timothy -> Bill (2007) -> adultery,affair,arrest,bank,bare-chested-male,billboard,brother-brother-relationship,brother-in-law,camera,candy,candy-bar,car-accident,car-crash,caught-in-the-act,cell-phone,character-name-in-title,chest-hair,competitiveness,doughnut,doughnut-shop,drug-use,duck-hunt,e-mail,f-word,family-dinner,family-relationships,father-daughter-relationship,father-in-law,female-underwear,fireworks,franchise,gay-brother,gay-character,high-school,homosexuality,hospital,hunting,husband-wife-relationship,identity-crisis,illicit-affair,injury,lingerie,locker,locker-room,man-boy-relationship,man-in-woman's-underwear,marijuana,marital-crisis,marital-discord,marital-infidelity,marital-problem,marital-separation,marital-strife,marital-trouble,mentor,office,one-word-title,penis-joke,quitting-a-job,school,school-principal,sex-tape,shaving,shower,sporting-goods-store,swimming,swimming-pool,television-news,television-star,tent,toilet,tv-reporter,underwear,undressing,video-camera,video-tape,woman-in-underwear] 
+
+srcNodes: [2124912, 8013133, 8008994]
+  path: 0[2210328 -> 1331228 -> 2124912], [Malkovich, John -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2210328 -> 1508679 -> 2312020 -> 1332127 -> 8013133], [Malkovich, John -> La traversée du désir (2009) -> Bonnaire, Sandrine -> Dix films pour en parler (2007) -> violence] 
+
+  path: 2[2210328 -> 1686348 -> 2492155 -> 1243073 -> 8008994], [Malkovich, John -> Saturday Night (2010) -> Wiig, Kristen -> Bill (2007) -> adultery,affair,arrest,bank,bare-chested-male,billboard,brother-brother-relationship,brother-in-law,camera,candy,candy-bar,car-accident,car-crash,caught-in-the-act,cell-phone,character-name-in-title,chest-hair,competitiveness,doughnut,doughnut-shop,drug-use,duck-hunt,e-mail,f-word,family-dinner,family-relationships,father-daughter-relationship,father-in-law,female-underwear,fireworks,franchise,gay-brother,gay-character,high-school,homosexuality,hospital,hunting,husband-wife-relationship,identity-crisis,illicit-affair,injury,lingerie,locker,locker-room,man-boy-relationship,man-in-woman's-underwear,marijuana,marital-crisis,marital-discord,marital-infidelity,marital-problem,marital-separation,marital-strife,marital-trouble,mentor,office,one-word-title,penis-joke,quitting-a-job,school,school-principal,sex-tape,shaving,shower,sporting-goods-store,swimming,swimming-pool,television-news,television-star,tent,toilet,tv-reporter,underwear,undressing,video-camera,video-tape,woman-in-underwear] 
+
+srcNodes: [2124912, 8013133, 7008417]
+  path: 0[1508679 -> 2210328 -> 1331228 -> 2124912], [La traversée du désir (2009) -> Malkovich, John -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1508679 -> 2312020 -> 1332127 -> 8013133], [La traversée du désir (2009) -> Bonnaire, Sandrine -> Dix films pour en parler (2007) -> violence] 
+
+  path: 2[1508679 -> 2032913 -> 1805481 -> 7008417], [La traversée du désir (2009) -> Blair, Tony (I) -> The Road to Guantanamo (2006) -> references Back to t] 
+
+srcNodes: [2124912, 8013133, 8021420]
+  path: 0[1332127 -> 2312020 -> 1508679 -> 2210328 -> 1331228 -> 2124912], [Dix films pour en parler (2007) -> Bonnaire, Sandrine -> La traversée du désir (2009) -> Malkovich, John -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1332127 -> 8013133], [Dix films pour en parler (2007) -> violence] 
+
+  path: 2[1332127 -> 4062830 -> 1626681 -> 2423213 -> 1525834 -> 8021420], [Dix films pour en parler (2007) -> Podalydès, Bruno -> Paris, je t'aime (2006) -> Muller, Florence (I) -> Les meilleurs amis du monde (2010) -> friendship,phone,wild-comedy] 
+
+srcNodes: [2124912, 8024074, 8008994]
+  path: 0[2492155 -> 1686348 -> 2210328 -> 1331228 -> 2124912], [Wiig, Kristen -> Saturday Night (2010) -> Malkovich, John -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2492155 -> 1192691 -> 2249779 -> 1582372 -> 8024074], [Wiig, Kristen -> Adventureland (2009) -> Nunn, Jackson -> My Bloody Valentine (2009) -> 3-dimensional,abandoned-house,actress-shares-first-name-with-character,american-flag,atonal-music-score,bar,bar-fight,bare-breasts,bare-butt,bare-chested-male,bed-frame,billiards,blood,blood-spatter,blue-panties,boyfriend-girlfriend-relationship,breaking-a-mirror,breaking-through-a-door,bridge,brutality,burnt-body,camel-toe,car-crash,car-wreck,chase,cheating-husband,child-in-peril,cigarette-smoking,cleavage,clothes-dryer,coal-mine,coma,cut-arm,dead-body,decapitation,digit-in-title,double-barreled-shotgun,drunkenness,dual-identity,ex-boyfriend-ex-girlfriend-relationship,explosion,eye-gouging,f-word,falling-from-height,fantasy-sequence,female-frontal-nudity,female-full-frontal-nudity,female-nudity,female-rear-nudity,fight,fight-to-the-death,flashback,flashlight,gas-mask,gore,grave,grocery-mart,grocery-store,gunshot-wound,hallucination,head-cut-in-half,head-cut-off,heart,heart-ripped-out,heart-shaped-box-of-candy,held-at-gunpoint,helmet-light,hit-with-a-shovel,hole-in-chest,holiday-horror] 
+
+  path: 2[2492155 -> 1243073 -> 8008994], [Wiig, Kristen -> Bill (2007) -> adultery,affair,arrest,bank,bare-chested-male,billboard,brother-brother-relationship,brother-in-law,camera,candy,candy-bar,car-accident,car-crash,caught-in-the-act,cell-phone,character-name-in-title,chest-hair,competitiveness,doughnut,doughnut-shop,drug-use,duck-hunt,e-mail,f-word,family-dinner,family-relationships,father-daughter-relationship,father-in-law,female-underwear,fireworks,franchise,gay-brother,gay-character,high-school,homosexuality,hospital,hunting,husband-wife-relationship,identity-crisis,illicit-affair,injury,lingerie,locker,locker-room,man-boy-relationship,man-in-woman's-underwear,marijuana,marital-crisis,marital-discord,marital-infidelity,marital-problem,marital-separation,marital-strife,marital-trouble,mentor,office,one-word-title,penis-joke,quitting-a-job,school,school-principal,sex-tape,shaving,shower,sporting-goods-store,swimming,swimming-pool,television-news,television-star,tent,toilet,tv-reporter,underwear,undressing,video-camera,video-tape,woman-in-underwear] 
+
+srcNodes: [2124912, 8024074, 8006403]
+  path: 0[2397446 -> 1469671 -> 2210328 -> 1331228 -> 2124912], [LeBlanc, Cynthia -> Jonah Hex (2010) -> Malkovich, John -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2397446 -> 1440085 -> 2206815 -> 1582372 -> 8024074], [LeBlanc, Cynthia -> I Love You Phillip Morris (2009) -> Macaulay, Marc -> My Bloody Valentine (2009) -> 3-dimensional,abandoned-house,actress-shares-first-name-with-character,american-flag,atonal-music-score,bar,bar-fight,bare-breasts,bare-butt,bare-chested-male,bed-frame,billiards,blood,blood-spatter,blue-panties,boyfriend-girlfriend-relationship,breaking-a-mirror,breaking-through-a-door,bridge,brutality,burnt-body,camel-toe,car-crash,car-wreck,chase,cheating-husband,child-in-peril,cigarette-smoking,cleavage,clothes-dryer,coal-mine,coma,cut-arm,dead-body,decapitation,digit-in-title,double-barreled-shotgun,drunkenness,dual-identity,ex-boyfriend-ex-girlfriend-relationship,explosion,eye-gouging,f-word,falling-from-height,fantasy-sequence,female-frontal-nudity,female-full-frontal-nudity,female-nudity,female-rear-nudity,fight,fight-to-the-death,flashback,flashlight,gas-mask,gore,grave,grocery-mart,grocery-store,gunshot-wound,hallucination,head-cut-in-half,head-cut-off,heart,heart-ripped-out,heart-shaped-box-of-candy,held-at-gunpoint,helmet-light,hit-with-a-shovel,hole-in-chest,holiday-horror] 
+
+  path: 2[2397446 -> 1672628 -> 2140604 -> 1184366 -> 8006403], [LeBlanc, Cynthia -> Robosapien: Rebooted (2010) -> Harrison, Robbie E. -> A Starchy World (2007) -> absurdism,dark-comedy,experimental-film,family-relationships,mashed-potatoes] 
+
+srcNodes: [2124912, 8024074, 8006403]
+  path: 0[2253424 -> 1663579 -> 2210328 -> 1331228 -> 2124912], [Oliver, Jay (I) -> Red (2010/I) -> Malkovich, John -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2253424 -> 1783002 -> 2206815 -> 1582372 -> 8024074], [Oliver, Jay (I) -> The Jack of Spades (2010) -> Macaulay, Marc -> My Bloody Valentine (2009) -> 3-dimensional,abandoned-house,actress-shares-first-name-with-character,american-flag,atonal-music-score,bar,bar-fight,bare-breasts,bare-butt,bare-chested-male,bed-frame,billiards,blood,blood-spatter,blue-panties,boyfriend-girlfriend-relationship,breaking-a-mirror,breaking-through-a-door,bridge,brutality,burnt-body,camel-toe,car-crash,car-wreck,chase,cheating-husband,child-in-peril,cigarette-smoking,cleavage,clothes-dryer,coal-mine,coma,cut-arm,dead-body,decapitation,digit-in-title,double-barreled-shotgun,drunkenness,dual-identity,ex-boyfriend-ex-girlfriend-relationship,explosion,eye-gouging,f-word,falling-from-height,fantasy-sequence,female-frontal-nudity,female-full-frontal-nudity,female-nudity,female-rear-nudity,fight,fight-to-the-death,flashback,flashlight,gas-mask,gore,grave,grocery-mart,grocery-store,gunshot-wound,hallucination,head-cut-in-half,head-cut-off,heart,heart-ripped-out,heart-shaped-box-of-candy,held-at-gunpoint,helmet-light,hit-with-a-shovel,hole-in-chest,holiday-horror] 
+
+  path: 2[2253424 -> 1672628 -> 2140604 -> 1184366 -> 8006403], [Oliver, Jay (I) -> Robosapien: Rebooted (2010) -> Harrison, Robbie E. -> A Starchy World (2007) -> absurdism,dark-comedy,experimental-film,family-relationships,mashed-potatoes] 
+
+srcNodes: [4080743, 6018894, 6030171]
+  path: 0[1594958 -> 4080743], [Nia's Melancholy (2009) -> Tusa, S.F.] 
+
+  path: 1[1594958 -> 2412202 -> 1584552 -> 2313763 -> 1543212 -> 6018894], [Nia's Melancholy (2009) -> Maza, Rachel -> My Year Without Sex (2009) -> Bradley, Portia -> Lullaby (2008/II) -> Poppy and Bella stru] 
+
+  path: 2[1594958 -> 2497629 -> 1853501 -> 2018182 -> 1772677 -> 6030171], [Nia's Melancholy (2009) -> Zalar, Tasia -> Uninhabited (2010) -> Baines, Bob -> The Final Winter (2007) -> As the winds of chan] 
+
+srcNodes: [2068636, 6014142, 8008994]
+  path: 0[1574939 -> 2068636], [Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1574939 -> 2072962 -> 1833773 -> 2029255 -> 1421779 -> 6014142], [Moon Beat (2009) -> Cronkite, Walter -> Toots (2006) -> Berra, Yogi -> Henry and Me (2010) -> A young boy, Jack, i] 
+
+  path: 2[1574939 -> 2147586 -> 1856058 -> 2283847 -> 1243073 -> 8008994], [Moon Beat (2009) -> Hill, Arthur (III) -> Up in the Air (2009/I) -> Reynolds, Greg (III) -> Bill (2007) -> adultery,affair,arrest,bank,bare-chested-male,billboard,brother-brother-relationship,brother-in-law,camera,candy,candy-bar,car-accident,car-crash,caught-in-the-act,cell-phone,character-name-in-title,chest-hair,competitiveness,doughnut,doughnut-shop,drug-use,duck-hunt,e-mail,f-word,family-dinner,family-relationships,father-daughter-relationship,father-in-law,female-underwear,fireworks,franchise,gay-brother,gay-character,high-school,homosexuality,hospital,hunting,husband-wife-relationship,identity-crisis,illicit-affair,injury,lingerie,locker,locker-room,man-boy-relationship,man-in-woman's-underwear,marijuana,marital-crisis,marital-discord,marital-infidelity,marital-problem,marital-separation,marital-strife,marital-trouble,mentor,office,one-word-title,penis-joke,quitting-a-job,school,school-principal,sex-tape,shaving,shower,sporting-goods-store,swimming,swimming-pool,television-news,television-star,tent,toilet,tv-reporter,underwear,undressing,video-camera,video-tape,woman-in-underwear] 
+
+-----------------------------------------
+ResultDestNodes: [1331228, 2095378, 2210328, 1508679, 1332127, 2492155, 2397446, 2253424, 1594958, 1574939]
+ResultRelevs: [7.34835147857666, 6.817133903503418, 6.817133903503418, 6.479398727416992, 6.323733806610107, 6.173330307006836, 5.987408638000488, 5.987408638000488, 5.705618381500244, 5.494875907897949]
+AvgResultRelev: 6.31343936920166
+AvgResultDissimilarity: 0.7066667079925537
+Num of entries retrieved from the KNLists: 6609
+Num of entries retrieved from NKMaps: 8863
+Num of answer trees explored: 2292
+Num of answer tree sets created: 449114
+Num of answer tree sets removed: 449077
+Max Num of answer tree sets in Q[]: 447063
+
+Div Top-k Search by Astar1, k=10
+[sf, fantasy, future]
+srcNodes: [2124912, 8013133, 8008994]
+  path: 0[1331228 -> 2124912], [Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1331228 -> 2210328 -> 1508679 -> 2312020 -> 1332127 -> 8013133], [Disgrace (2008) -> Malkovich, John -> La traversée du désir (2009) -> Bonnaire, Sandrine -> Dix films pour en parler (2007) -> violence] 
+
+  path: 2[1331228 -> 2210328 -> 1686348 -> 2492155 -> 1243073 -> 8008994], [Disgrace (2008) -> Malkovich, John -> Saturday Night (2010) -> Wiig, Kristen -> Bill (2007) -> adultery,affair,arrest,bank,bare-chested-male,billboard,brother-brother-relationship,brother-in-law,camera,candy,candy-bar,car-accident,car-crash,caught-in-the-act,cell-phone,character-name-in-title,chest-hair,competitiveness,doughnut,doughnut-shop,drug-use,duck-hunt,e-mail,f-word,family-dinner,family-relationships,father-daughter-relationship,father-in-law,female-underwear,fireworks,franchise,gay-brother,gay-character,high-school,homosexuality,hospital,hunting,husband-wife-relationship,identity-crisis,illicit-affair,injury,lingerie,locker,locker-room,man-boy-relationship,man-in-woman's-underwear,marijuana,marital-crisis,marital-discord,marital-infidelity,marital-problem,marital-separation,marital-strife,marital-trouble,mentor,office,one-word-title,penis-joke,quitting-a-job,school,school-principal,sex-tape,shaving,shower,sporting-goods-store,swimming,swimming-pool,television-news,television-star,tent,toilet,tv-reporter,underwear,undressing,video-camera,video-tape,woman-in-underwear] 
+
+srcNodes: [2124912, 8013133, 8008994]
+  path: 0[2095378 -> 1331228 -> 2124912], [Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2095378 -> 1502772 -> 2299467 -> 1332127 -> 8013133], [Ebouaney, Eriq -> La horde (2009) -> Arnaud, Virginie -> Dix films pour en parler (2007) -> violence] 
+
+  path: 2[2095378 -> 1428229 -> 2253927 -> 1243073 -> 8008994], [Ebouaney, Eriq -> Hitman (2007/I) -> Olyphant, Timothy -> Bill (2007) -> adultery,affair,arrest,bank,bare-chested-male,billboard,brother-brother-relationship,brother-in-law,camera,candy,candy-bar,car-accident,car-crash,caught-in-the-act,cell-phone,character-name-in-title,chest-hair,competitiveness,doughnut,doughnut-shop,drug-use,duck-hunt,e-mail,f-word,family-dinner,family-relationships,father-daughter-relationship,father-in-law,female-underwear,fireworks,franchise,gay-brother,gay-character,high-school,homosexuality,hospital,hunting,husband-wife-relationship,identity-crisis,illicit-affair,injury,lingerie,locker,locker-room,man-boy-relationship,man-in-woman's-underwear,marijuana,marital-crisis,marital-discord,marital-infidelity,marital-problem,marital-separation,marital-strife,marital-trouble,mentor,office,one-word-title,penis-joke,quitting-a-job,school,school-principal,sex-tape,shaving,shower,sporting-goods-store,swimming,swimming-pool,television-news,television-star,tent,toilet,tv-reporter,underwear,undressing,video-camera,video-tape,woman-in-underwear] 
+
+srcNodes: [2124912, 8013133, 8008994]
+  path: 0[2210328 -> 1331228 -> 2124912], [Malkovich, John -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2210328 -> 1508679 -> 2312020 -> 1332127 -> 8013133], [Malkovich, John -> La traversée du désir (2009) -> Bonnaire, Sandrine -> Dix films pour en parler (2007) -> violence] 
+
+  path: 2[2210328 -> 1686348 -> 2492155 -> 1243073 -> 8008994], [Malkovich, John -> Saturday Night (2010) -> Wiig, Kristen -> Bill (2007) -> adultery,affair,arrest,bank,bare-chested-male,billboard,brother-brother-relationship,brother-in-law,camera,candy,candy-bar,car-accident,car-crash,caught-in-the-act,cell-phone,character-name-in-title,chest-hair,competitiveness,doughnut,doughnut-shop,drug-use,duck-hunt,e-mail,f-word,family-dinner,family-relationships,father-daughter-relationship,father-in-law,female-underwear,fireworks,franchise,gay-brother,gay-character,high-school,homosexuality,hospital,hunting,husband-wife-relationship,identity-crisis,illicit-affair,injury,lingerie,locker,locker-room,man-boy-relationship,man-in-woman's-underwear,marijuana,marital-crisis,marital-discord,marital-infidelity,marital-problem,marital-separation,marital-strife,marital-trouble,mentor,office,one-word-title,penis-joke,quitting-a-job,school,school-principal,sex-tape,shaving,shower,sporting-goods-store,swimming,swimming-pool,television-news,television-star,tent,toilet,tv-reporter,underwear,undressing,video-camera,video-tape,woman-in-underwear] 
+
+srcNodes: [2124912, 8013133, 7008417]
+  path: 0[1508679 -> 2210328 -> 1331228 -> 2124912], [La traversée du désir (2009) -> Malkovich, John -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1508679 -> 2312020 -> 1332127 -> 8013133], [La traversée du désir (2009) -> Bonnaire, Sandrine -> Dix films pour en parler (2007) -> violence] 
+
+  path: 2[1508679 -> 2032913 -> 1805481 -> 7008417], [La traversée du désir (2009) -> Blair, Tony (I) -> The Road to Guantanamo (2006) -> references Back to t] 
+
+srcNodes: [2124912, 8013133, 8021420]
+  path: 0[1332127 -> 2312020 -> 1508679 -> 2210328 -> 1331228 -> 2124912], [Dix films pour en parler (2007) -> Bonnaire, Sandrine -> La traversée du désir (2009) -> Malkovich, John -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1332127 -> 8013133], [Dix films pour en parler (2007) -> violence] 
+
+  path: 2[1332127 -> 4062830 -> 1626681 -> 2423213 -> 1525834 -> 8021420], [Dix films pour en parler (2007) -> Podalydès, Bruno -> Paris, je t'aime (2006) -> Muller, Florence (I) -> Les meilleurs amis du monde (2010) -> friendship,phone,wild-comedy] 
+
+srcNodes: [2124912, 8024074, 8008994]
+  path: 0[2253927 -> 1428229 -> 2095378 -> 1331228 -> 2124912], [Olyphant, Timothy -> Hitman (2007/I) -> Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2253927 -> 1764841 -> 2052972 -> 1582372 -> 8024074], [Olyphant, Timothy -> The Crazies (2010) -> Carnel, Chris -> My Bloody Valentine (2009) -> 3-dimensional,abandoned-house,actress-shares-first-name-with-character,american-flag,atonal-music-score,bar,bar-fight,bare-breasts,bare-butt,bare-chested-male,bed-frame,billiards,blood,blood-spatter,blue-panties,boyfriend-girlfriend-relationship,breaking-a-mirror,breaking-through-a-door,bridge,brutality,burnt-body,camel-toe,car-crash,car-wreck,chase,cheating-husband,child-in-peril,cigarette-smoking,cleavage,clothes-dryer,coal-mine,coma,cut-arm,dead-body,decapitation,digit-in-title,double-barreled-shotgun,drunkenness,dual-identity,ex-boyfriend-ex-girlfriend-relationship,explosion,eye-gouging,f-word,falling-from-height,fantasy-sequence,female-frontal-nudity,female-full-frontal-nudity,female-nudity,female-rear-nudity,fight,fight-to-the-death,flashback,flashlight,gas-mask,gore,grave,grocery-mart,grocery-store,gunshot-wound,hallucination,head-cut-in-half,head-cut-off,heart,heart-ripped-out,heart-shaped-box-of-candy,held-at-gunpoint,helmet-light,hit-with-a-shovel,hole-in-chest,holiday-horror] 
+
+  path: 2[2253927 -> 1243073 -> 8008994], [Olyphant, Timothy -> Bill (2007) -> adultery,affair,arrest,bank,bare-chested-male,billboard,brother-brother-relationship,brother-in-law,camera,candy,candy-bar,car-accident,car-crash,caught-in-the-act,cell-phone,character-name-in-title,chest-hair,competitiveness,doughnut,doughnut-shop,drug-use,duck-hunt,e-mail,f-word,family-dinner,family-relationships,father-daughter-relationship,father-in-law,female-underwear,fireworks,franchise,gay-brother,gay-character,high-school,homosexuality,hospital,hunting,husband-wife-relationship,identity-crisis,illicit-affair,injury,lingerie,locker,locker-room,man-boy-relationship,man-in-woman's-underwear,marijuana,marital-crisis,marital-discord,marital-infidelity,marital-problem,marital-separation,marital-strife,marital-trouble,mentor,office,one-word-title,penis-joke,quitting-a-job,school,school-principal,sex-tape,shaving,shower,sporting-goods-store,swimming,swimming-pool,television-news,television-star,tent,toilet,tv-reporter,underwear,undressing,video-camera,video-tape,woman-in-underwear] 
+
+srcNodes: [2124912, 8024074, 8006403]
+  path: 0[2397446 -> 1469671 -> 2210328 -> 1331228 -> 2124912], [LeBlanc, Cynthia -> Jonah Hex (2010) -> Malkovich, John -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2397446 -> 1440085 -> 2206815 -> 1582372 -> 8024074], [LeBlanc, Cynthia -> I Love You Phillip Morris (2009) -> Macaulay, Marc -> My Bloody Valentine (2009) -> 3-dimensional,abandoned-house,actress-shares-first-name-with-character,american-flag,atonal-music-score,bar,bar-fight,bare-breasts,bare-butt,bare-chested-male,bed-frame,billiards,blood,blood-spatter,blue-panties,boyfriend-girlfriend-relationship,breaking-a-mirror,breaking-through-a-door,bridge,brutality,burnt-body,camel-toe,car-crash,car-wreck,chase,cheating-husband,child-in-peril,cigarette-smoking,cleavage,clothes-dryer,coal-mine,coma,cut-arm,dead-body,decapitation,digit-in-title,double-barreled-shotgun,drunkenness,dual-identity,ex-boyfriend-ex-girlfriend-relationship,explosion,eye-gouging,f-word,falling-from-height,fantasy-sequence,female-frontal-nudity,female-full-frontal-nudity,female-nudity,female-rear-nudity,fight,fight-to-the-death,flashback,flashlight,gas-mask,gore,grave,grocery-mart,grocery-store,gunshot-wound,hallucination,head-cut-in-half,head-cut-off,heart,heart-ripped-out,heart-shaped-box-of-candy,held-at-gunpoint,helmet-light,hit-with-a-shovel,hole-in-chest,holiday-horror] 
+
+  path: 2[2397446 -> 1672628 -> 2140604 -> 1184366 -> 8006403], [LeBlanc, Cynthia -> Robosapien: Rebooted (2010) -> Harrison, Robbie E. -> A Starchy World (2007) -> absurdism,dark-comedy,experimental-film,family-relationships,mashed-potatoes] 
+
+srcNodes: [2124912, 8024074, 8006403]
+  path: 0[2253424 -> 1663579 -> 2210328 -> 1331228 -> 2124912], [Oliver, Jay (I) -> Red (2010/I) -> Malkovich, John -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2253424 -> 1783002 -> 2206815 -> 1582372 -> 8024074], [Oliver, Jay (I) -> The Jack of Spades (2010) -> Macaulay, Marc -> My Bloody Valentine (2009) -> 3-dimensional,abandoned-house,actress-shares-first-name-with-character,american-flag,atonal-music-score,bar,bar-fight,bare-breasts,bare-butt,bare-chested-male,bed-frame,billiards,blood,blood-spatter,blue-panties,boyfriend-girlfriend-relationship,breaking-a-mirror,breaking-through-a-door,bridge,brutality,burnt-body,camel-toe,car-crash,car-wreck,chase,cheating-husband,child-in-peril,cigarette-smoking,cleavage,clothes-dryer,coal-mine,coma,cut-arm,dead-body,decapitation,digit-in-title,double-barreled-shotgun,drunkenness,dual-identity,ex-boyfriend-ex-girlfriend-relationship,explosion,eye-gouging,f-word,falling-from-height,fantasy-sequence,female-frontal-nudity,female-full-frontal-nudity,female-nudity,female-rear-nudity,fight,fight-to-the-death,flashback,flashlight,gas-mask,gore,grave,grocery-mart,grocery-store,gunshot-wound,hallucination,head-cut-in-half,head-cut-off,heart,heart-ripped-out,heart-shaped-box-of-candy,held-at-gunpoint,helmet-light,hit-with-a-shovel,hole-in-chest,holiday-horror] 
+
+  path: 2[2253424 -> 1672628 -> 2140604 -> 1184366 -> 8006403], [Oliver, Jay (I) -> Robosapien: Rebooted (2010) -> Harrison, Robbie E. -> A Starchy World (2007) -> absurdism,dark-comedy,experimental-film,family-relationships,mashed-potatoes] 
+
+srcNodes: [4080743, 6018894, 6030171]
+  path: 0[1594958 -> 4080743], [Nia's Melancholy (2009) -> Tusa, S.F.] 
+
+  path: 1[1594958 -> 2412202 -> 1584552 -> 2313763 -> 1543212 -> 6018894], [Nia's Melancholy (2009) -> Maza, Rachel -> My Year Without Sex (2009) -> Bradley, Portia -> Lullaby (2008/II) -> Poppy and Bella stru] 
+
+  path: 2[1594958 -> 2497629 -> 1853501 -> 2018182 -> 1772677 -> 6030171], [Nia's Melancholy (2009) -> Zalar, Tasia -> Uninhabited (2010) -> Baines, Bob -> The Final Winter (2007) -> As the winds of chan] 
+
+srcNodes: [2068636, 6014142, 8008994]
+  path: 0[1574939 -> 2068636], [Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1574939 -> 2072962 -> 1833773 -> 2029255 -> 1421779 -> 6014142], [Moon Beat (2009) -> Cronkite, Walter -> Toots (2006) -> Berra, Yogi -> Henry and Me (2010) -> A young boy, Jack, i] 
+
+  path: 2[1574939 -> 2147586 -> 1856058 -> 2283847 -> 1243073 -> 8008994], [Moon Beat (2009) -> Hill, Arthur (III) -> Up in the Air (2009/I) -> Reynolds, Greg (III) -> Bill (2007) -> adultery,affair,arrest,bank,bare-chested-male,billboard,brother-brother-relationship,brother-in-law,camera,candy,candy-bar,car-accident,car-crash,caught-in-the-act,cell-phone,character-name-in-title,chest-hair,competitiveness,doughnut,doughnut-shop,drug-use,duck-hunt,e-mail,f-word,family-dinner,family-relationships,father-daughter-relationship,father-in-law,female-underwear,fireworks,franchise,gay-brother,gay-character,high-school,homosexuality,hospital,hunting,husband-wife-relationship,identity-crisis,illicit-affair,injury,lingerie,locker,locker-room,man-boy-relationship,man-in-woman's-underwear,marijuana,marital-crisis,marital-discord,marital-infidelity,marital-problem,marital-separation,marital-strife,marital-trouble,mentor,office,one-word-title,penis-joke,quitting-a-job,school,school-principal,sex-tape,shaving,shower,sporting-goods-store,swimming,swimming-pool,television-news,television-star,tent,toilet,tv-reporter,underwear,undressing,video-camera,video-tape,woman-in-underwear] 
+
+-----------------------------------------
+ResultDestNodes: [1331228, 2095378, 2210328, 1508679, 1332127, 2253927, 2397446, 2253424, 1594958, 1574939]
+ResultRelevs: [7.34835147857666, 6.817133903503418, 6.817133903503418, 6.479398727416992, 6.323733806610107, 6.173330307006836, 5.987408638000488, 5.987408638000488, 5.705618381500244, 5.494875907897949]
+AvgResultRelev: 6.31343936920166
+AvgResultDissimilarity: 0.7066667079925537
+Num of entries retrieved from the KNLists: 6609
+Num of entries retrieved from NKMaps: 8863
+Num of answer trees explored: 2292
+Num of states created: 841589
+Num of states explored: 632733
+Num of heuristic search performed: 47
+Max Num of answer tree sets in Q[]: 13807
+
+Div Top-k Search by Astar1, k=10
+[sf, fantasy, future]
+srcNodes: [2124912, 8013133, 8008994]
+  path: 0[1331228 -> 2124912], [Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1331228 -> 2210328 -> 1508679 -> 2312020 -> 1332127 -> 8013133], [Disgrace (2008) -> Malkovich, John -> La traversée du désir (2009) -> Bonnaire, Sandrine -> Dix films pour en parler (2007) -> violence] 
+
+  path: 2[1331228 -> 2210328 -> 1686348 -> 2492155 -> 1243073 -> 8008994], [Disgrace (2008) -> Malkovich, John -> Saturday Night (2010) -> Wiig, Kristen -> Bill (2007) -> adultery,affair,arrest,bank,bare-chested-male,billboard,brother-brother-relationship,brother-in-law,camera,candy,candy-bar,car-accident,car-crash,caught-in-the-act,cell-phone,character-name-in-title,chest-hair,competitiveness,doughnut,doughnut-shop,drug-use,duck-hunt,e-mail,f-word,family-dinner,family-relationships,father-daughter-relationship,father-in-law,female-underwear,fireworks,franchise,gay-brother,gay-character,high-school,homosexuality,hospital,hunting,husband-wife-relationship,identity-crisis,illicit-affair,injury,lingerie,locker,locker-room,man-boy-relationship,man-in-woman's-underwear,marijuana,marital-crisis,marital-discord,marital-infidelity,marital-problem,marital-separation,marital-strife,marital-trouble,mentor,office,one-word-title,penis-joke,quitting-a-job,school,school-principal,sex-tape,shaving,shower,sporting-goods-store,swimming,swimming-pool,television-news,television-star,tent,toilet,tv-reporter,underwear,undressing,video-camera,video-tape,woman-in-underwear] 
+
+srcNodes: [2124912, 8013133, 8008994]
+  path: 0[2095378 -> 1331228 -> 2124912], [Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2095378 -> 1502772 -> 2299467 -> 1332127 -> 8013133], [Ebouaney, Eriq -> La horde (2009) -> Arnaud, Virginie -> Dix films pour en parler (2007) -> violence] 
+
+  path: 2[2095378 -> 1428229 -> 2253927 -> 1243073 -> 8008994], [Ebouaney, Eriq -> Hitman (2007/I) -> Olyphant, Timothy -> Bill (2007) -> adultery,affair,arrest,bank,bare-chested-male,billboard,brother-brother-relationship,brother-in-law,camera,candy,candy-bar,car-accident,car-crash,caught-in-the-act,cell-phone,character-name-in-title,chest-hair,competitiveness,doughnut,doughnut-shop,drug-use,duck-hunt,e-mail,f-word,family-dinner,family-relationships,father-daughter-relationship,father-in-law,female-underwear,fireworks,franchise,gay-brother,gay-character,high-school,homosexuality,hospital,hunting,husband-wife-relationship,identity-crisis,illicit-affair,injury,lingerie,locker,locker-room,man-boy-relationship,man-in-woman's-underwear,marijuana,marital-crisis,marital-discord,marital-infidelity,marital-problem,marital-separation,marital-strife,marital-trouble,mentor,office,one-word-title,penis-joke,quitting-a-job,school,school-principal,sex-tape,shaving,shower,sporting-goods-store,swimming,swimming-pool,television-news,television-star,tent,toilet,tv-reporter,underwear,undressing,video-camera,video-tape,woman-in-underwear] 
+
+srcNodes: [2124912, 8013133, 8008994]
+  path: 0[2210328 -> 1331228 -> 2124912], [Malkovich, John -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2210328 -> 1508679 -> 2312020 -> 1332127 -> 8013133], [Malkovich, John -> La traversée du désir (2009) -> Bonnaire, Sandrine -> Dix films pour en parler (2007) -> violence] 
+
+  path: 2[2210328 -> 1686348 -> 2492155 -> 1243073 -> 8008994], [Malkovich, John -> Saturday Night (2010) -> Wiig, Kristen -> Bill (2007) -> adultery,affair,arrest,bank,bare-chested-male,billboard,brother-brother-relationship,brother-in-law,camera,candy,candy-bar,car-accident,car-crash,caught-in-the-act,cell-phone,character-name-in-title,chest-hair,competitiveness,doughnut,doughnut-shop,drug-use,duck-hunt,e-mail,f-word,family-dinner,family-relationships,father-daughter-relationship,father-in-law,female-underwear,fireworks,franchise,gay-brother,gay-character,high-school,homosexuality,hospital,hunting,husband-wife-relationship,identity-crisis,illicit-affair,injury,lingerie,locker,locker-room,man-boy-relationship,man-in-woman's-underwear,marijuana,marital-crisis,marital-discord,marital-infidelity,marital-problem,marital-separation,marital-strife,marital-trouble,mentor,office,one-word-title,penis-joke,quitting-a-job,school,school-principal,sex-tape,shaving,shower,sporting-goods-store,swimming,swimming-pool,television-news,television-star,tent,toilet,tv-reporter,underwear,undressing,video-camera,video-tape,woman-in-underwear] 
+
+srcNodes: [2124912, 8013133, 7008417]
+  path: 0[1508679 -> 2210328 -> 1331228 -> 2124912], [La traversée du désir (2009) -> Malkovich, John -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1508679 -> 2312020 -> 1332127 -> 8013133], [La traversée du désir (2009) -> Bonnaire, Sandrine -> Dix films pour en parler (2007) -> violence] 
+
+  path: 2[1508679 -> 2032913 -> 1805481 -> 7008417], [La traversée du désir (2009) -> Blair, Tony (I) -> The Road to Guantanamo (2006) -> references Back to t] 
+
+srcNodes: [2124912, 8013133, 8021420]
+  path: 0[1332127 -> 2312020 -> 1508679 -> 2210328 -> 1331228 -> 2124912], [Dix films pour en parler (2007) -> Bonnaire, Sandrine -> La traversée du désir (2009) -> Malkovich, John -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1332127 -> 8013133], [Dix films pour en parler (2007) -> violence] 
+
+  path: 2[1332127 -> 4062830 -> 1626681 -> 2423213 -> 1525834 -> 8021420], [Dix films pour en parler (2007) -> Podalydès, Bruno -> Paris, je t'aime (2006) -> Muller, Florence (I) -> Les meilleurs amis du monde (2010) -> friendship,phone,wild-comedy] 
+
+srcNodes: [2124912, 8024074, 8008994]
+  path: 0[2253927 -> 1428229 -> 2095378 -> 1331228 -> 2124912], [Olyphant, Timothy -> Hitman (2007/I) -> Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2253927 -> 1764841 -> 2052972 -> 1582372 -> 8024074], [Olyphant, Timothy -> The Crazies (2010) -> Carnel, Chris -> My Bloody Valentine (2009) -> 3-dimensional,abandoned-house,actress-shares-first-name-with-character,american-flag,atonal-music-score,bar,bar-fight,bare-breasts,bare-butt,bare-chested-male,bed-frame,billiards,blood,blood-spatter,blue-panties,boyfriend-girlfriend-relationship,breaking-a-mirror,breaking-through-a-door,bridge,brutality,burnt-body,camel-toe,car-crash,car-wreck,chase,cheating-husband,child-in-peril,cigarette-smoking,cleavage,clothes-dryer,coal-mine,coma,cut-arm,dead-body,decapitation,digit-in-title,double-barreled-shotgun,drunkenness,dual-identity,ex-boyfriend-ex-girlfriend-relationship,explosion,eye-gouging,f-word,falling-from-height,fantasy-sequence,female-frontal-nudity,female-full-frontal-nudity,female-nudity,female-rear-nudity,fight,fight-to-the-death,flashback,flashlight,gas-mask,gore,grave,grocery-mart,grocery-store,gunshot-wound,hallucination,head-cut-in-half,head-cut-off,heart,heart-ripped-out,heart-shaped-box-of-candy,held-at-gunpoint,helmet-light,hit-with-a-shovel,hole-in-chest,holiday-horror] 
+
+  path: 2[2253927 -> 1243073 -> 8008994], [Olyphant, Timothy -> Bill (2007) -> adultery,affair,arrest,bank,bare-chested-male,billboard,brother-brother-relationship,brother-in-law,camera,candy,candy-bar,car-accident,car-crash,caught-in-the-act,cell-phone,character-name-in-title,chest-hair,competitiveness,doughnut,doughnut-shop,drug-use,duck-hunt,e-mail,f-word,family-dinner,family-relationships,father-daughter-relationship,father-in-law,female-underwear,fireworks,franchise,gay-brother,gay-character,high-school,homosexuality,hospital,hunting,husband-wife-relationship,identity-crisis,illicit-affair,injury,lingerie,locker,locker-room,man-boy-relationship,man-in-woman's-underwear,marijuana,marital-crisis,marital-discord,marital-infidelity,marital-problem,marital-separation,marital-strife,marital-trouble,mentor,office,one-word-title,penis-joke,quitting-a-job,school,school-principal,sex-tape,shaving,shower,sporting-goods-store,swimming,swimming-pool,television-news,television-star,tent,toilet,tv-reporter,underwear,undressing,video-camera,video-tape,woman-in-underwear] 
+
+srcNodes: [2124912, 8024074, 8006403]
+  path: 0[2397446 -> 1469671 -> 2210328 -> 1331228 -> 2124912], [LeBlanc, Cynthia -> Jonah Hex (2010) -> Malkovich, John -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2397446 -> 1440085 -> 2206815 -> 1582372 -> 8024074], [LeBlanc, Cynthia -> I Love You Phillip Morris (2009) -> Macaulay, Marc -> My Bloody Valentine (2009) -> 3-dimensional,abandoned-house,actress-shares-first-name-with-character,american-flag,atonal-music-score,bar,bar-fight,bare-breasts,bare-butt,bare-chested-male,bed-frame,billiards,blood,blood-spatter,blue-panties,boyfriend-girlfriend-relationship,breaking-a-mirror,breaking-through-a-door,bridge,brutality,burnt-body,camel-toe,car-crash,car-wreck,chase,cheating-husband,child-in-peril,cigarette-smoking,cleavage,clothes-dryer,coal-mine,coma,cut-arm,dead-body,decapitation,digit-in-title,double-barreled-shotgun,drunkenness,dual-identity,ex-boyfriend-ex-girlfriend-relationship,explosion,eye-gouging,f-word,falling-from-height,fantasy-sequence,female-frontal-nudity,female-full-frontal-nudity,female-nudity,female-rear-nudity,fight,fight-to-the-death,flashback,flashlight,gas-mask,gore,grave,grocery-mart,grocery-store,gunshot-wound,hallucination,head-cut-in-half,head-cut-off,heart,heart-ripped-out,heart-shaped-box-of-candy,held-at-gunpoint,helmet-light,hit-with-a-shovel,hole-in-chest,holiday-horror] 
+
+  path: 2[2397446 -> 1672628 -> 2140604 -> 1184366 -> 8006403], [LeBlanc, Cynthia -> Robosapien: Rebooted (2010) -> Harrison, Robbie E. -> A Starchy World (2007) -> absurdism,dark-comedy,experimental-film,family-relationships,mashed-potatoes] 
+
+srcNodes: [2124912, 8024074, 8006403]
+  path: 0[2253424 -> 1663579 -> 2210328 -> 1331228 -> 2124912], [Oliver, Jay (I) -> Red (2010/I) -> Malkovich, John -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2253424 -> 1783002 -> 2206815 -> 1582372 -> 8024074], [Oliver, Jay (I) -> The Jack of Spades (2010) -> Macaulay, Marc -> My Bloody Valentine (2009) -> 3-dimensional,abandoned-house,actress-shares-first-name-with-character,american-flag,atonal-music-score,bar,bar-fight,bare-breasts,bare-butt,bare-chested-male,bed-frame,billiards,blood,blood-spatter,blue-panties,boyfriend-girlfriend-relationship,breaking-a-mirror,breaking-through-a-door,bridge,brutality,burnt-body,camel-toe,car-crash,car-wreck,chase,cheating-husband,child-in-peril,cigarette-smoking,cleavage,clothes-dryer,coal-mine,coma,cut-arm,dead-body,decapitation,digit-in-title,double-barreled-shotgun,drunkenness,dual-identity,ex-boyfriend-ex-girlfriend-relationship,explosion,eye-gouging,f-word,falling-from-height,fantasy-sequence,female-frontal-nudity,female-full-frontal-nudity,female-nudity,female-rear-nudity,fight,fight-to-the-death,flashback,flashlight,gas-mask,gore,grave,grocery-mart,grocery-store,gunshot-wound,hallucination,head-cut-in-half,head-cut-off,heart,heart-ripped-out,heart-shaped-box-of-candy,held-at-gunpoint,helmet-light,hit-with-a-shovel,hole-in-chest,holiday-horror] 
+
+  path: 2[2253424 -> 1672628 -> 2140604 -> 1184366 -> 8006403], [Oliver, Jay (I) -> Robosapien: Rebooted (2010) -> Harrison, Robbie E. -> A Starchy World (2007) -> absurdism,dark-comedy,experimental-film,family-relationships,mashed-potatoes] 
+
+srcNodes: [4080743, 6018894, 6030171]
+  path: 0[1594958 -> 4080743], [Nia's Melancholy (2009) -> Tusa, S.F.] 
+
+  path: 1[1594958 -> 2412202 -> 1584552 -> 2313763 -> 1543212 -> 6018894], [Nia's Melancholy (2009) -> Maza, Rachel -> My Year Without Sex (2009) -> Bradley, Portia -> Lullaby (2008/II) -> Poppy and Bella stru] 
+
+  path: 2[1594958 -> 2497629 -> 1853501 -> 2018182 -> 1772677 -> 6030171], [Nia's Melancholy (2009) -> Zalar, Tasia -> Uninhabited (2010) -> Baines, Bob -> The Final Winter (2007) -> As the winds of chan] 
+
+srcNodes: [2068636, 6014142, 8008994]
+  path: 0[1574939 -> 2068636], [Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1574939 -> 2072962 -> 1833773 -> 2029255 -> 1421779 -> 6014142], [Moon Beat (2009) -> Cronkite, Walter -> Toots (2006) -> Berra, Yogi -> Henry and Me (2010) -> A young boy, Jack, i] 
+
+  path: 2[1574939 -> 2147586 -> 1856058 -> 2283847 -> 1243073 -> 8008994], [Moon Beat (2009) -> Hill, Arthur (III) -> Up in the Air (2009/I) -> Reynolds, Greg (III) -> Bill (2007) -> adultery,affair,arrest,bank,bare-chested-male,billboard,brother-brother-relationship,brother-in-law,camera,candy,candy-bar,car-accident,car-crash,caught-in-the-act,cell-phone,character-name-in-title,chest-hair,competitiveness,doughnut,doughnut-shop,drug-use,duck-hunt,e-mail,f-word,family-dinner,family-relationships,father-daughter-relationship,father-in-law,female-underwear,fireworks,franchise,gay-brother,gay-character,high-school,homosexuality,hospital,hunting,husband-wife-relationship,identity-crisis,illicit-affair,injury,lingerie,locker,locker-room,man-boy-relationship,man-in-woman's-underwear,marijuana,marital-crisis,marital-discord,marital-infidelity,marital-problem,marital-separation,marital-strife,marital-trouble,mentor,office,one-word-title,penis-joke,quitting-a-job,school,school-principal,sex-tape,shaving,shower,sporting-goods-store,swimming,swimming-pool,television-news,television-star,tent,toilet,tv-reporter,underwear,undressing,video-camera,video-tape,woman-in-underwear] 
+
+-----------------------------------------
+ResultDestNodes: [1331228, 2095378, 2210328, 1508679, 1332127, 2253927, 2397446, 2253424, 1594958, 1574939]
+ResultRelevs: [7.34835147857666, 6.817133903503418, 6.817133903503418, 6.479398727416992, 6.323733806610107, 6.173330307006836, 5.987408638000488, 5.987408638000488, 5.705618381500244, 5.494875907897949]
+AvgResultRelev: 6.31343936920166
+AvgResultDissimilarity: 0.7066667079925537
+Num of entries retrieved from the KNLists: 6609
+Num of entries retrieved from NKMaps: 8863
+Num of answer trees explored: 2292
+Num of states created: 94008
+Num of states explored: 3438
+Num of heuristic search performed: 47
+Max Num of answer tree sets in Q[]: 4959
+
+Div Top-k Search by Astar1, k=10
+[sf, fantasy, future]
+srcNodes: [2124912, 8013133, 8008994]
+  path: 0[1331228 -> 2124912], [Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1331228 -> 2210328 -> 1508679 -> 2312020 -> 1332127 -> 8013133], [Disgrace (2008) -> Malkovich, John -> La traversée du désir (2009) -> Bonnaire, Sandrine -> Dix films pour en parler (2007) -> violence] 
+
+  path: 2[1331228 -> 2210328 -> 1686348 -> 2492155 -> 1243073 -> 8008994], [Disgrace (2008) -> Malkovich, John -> Saturday Night (2010) -> Wiig, Kristen -> Bill (2007) -> adultery,affair,arrest,bank,bare-chested-male,billboard,brother-brother-relationship,brother-in-law,camera,candy,candy-bar,car-accident,car-crash,caught-in-the-act,cell-phone,character-name-in-title,chest-hair,competitiveness,doughnut,doughnut-shop,drug-use,duck-hunt,e-mail,f-word,family-dinner,family-relationships,father-daughter-relationship,father-in-law,female-underwear,fireworks,franchise,gay-brother,gay-character,high-school,homosexuality,hospital,hunting,husband-wife-relationship,identity-crisis,illicit-affair,injury,lingerie,locker,locker-room,man-boy-relationship,man-in-woman's-underwear,marijuana,marital-crisis,marital-discord,marital-infidelity,marital-problem,marital-separation,marital-strife,marital-trouble,mentor,office,one-word-title,penis-joke,quitting-a-job,school,school-principal,sex-tape,shaving,shower,sporting-goods-store,swimming,swimming-pool,television-news,television-star,tent,toilet,tv-reporter,underwear,undressing,video-camera,video-tape,woman-in-underwear] 
+
+srcNodes: [2124912, 8013133, 8008994]
+  path: 0[2095378 -> 1331228 -> 2124912], [Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2095378 -> 1502772 -> 2299467 -> 1332127 -> 8013133], [Ebouaney, Eriq -> La horde (2009) -> Arnaud, Virginie -> Dix films pour en parler (2007) -> violence] 
+
+  path: 2[2095378 -> 1428229 -> 2253927 -> 1243073 -> 8008994], [Ebouaney, Eriq -> Hitman (2007/I) -> Olyphant, Timothy -> Bill (2007) -> adultery,affair,arrest,bank,bare-chested-male,billboard,brother-brother-relationship,brother-in-law,camera,candy,candy-bar,car-accident,car-crash,caught-in-the-act,cell-phone,character-name-in-title,chest-hair,competitiveness,doughnut,doughnut-shop,drug-use,duck-hunt,e-mail,f-word,family-dinner,family-relationships,father-daughter-relationship,father-in-law,female-underwear,fireworks,franchise,gay-brother,gay-character,high-school,homosexuality,hospital,hunting,husband-wife-relationship,identity-crisis,illicit-affair,injury,lingerie,locker,locker-room,man-boy-relationship,man-in-woman's-underwear,marijuana,marital-crisis,marital-discord,marital-infidelity,marital-problem,marital-separation,marital-strife,marital-trouble,mentor,office,one-word-title,penis-joke,quitting-a-job,school,school-principal,sex-tape,shaving,shower,sporting-goods-store,swimming,swimming-pool,television-news,television-star,tent,toilet,tv-reporter,underwear,undressing,video-camera,video-tape,woman-in-underwear] 
+
+srcNodes: [2124912, 8013133, 8008994]
+  path: 0[2210328 -> 1331228 -> 2124912], [Malkovich, John -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2210328 -> 1508679 -> 2312020 -> 1332127 -> 8013133], [Malkovich, John -> La traversée du désir (2009) -> Bonnaire, Sandrine -> Dix films pour en parler (2007) -> violence] 
+
+  path: 2[2210328 -> 1686348 -> 2492155 -> 1243073 -> 8008994], [Malkovich, John -> Saturday Night (2010) -> Wiig, Kristen -> Bill (2007) -> adultery,affair,arrest,bank,bare-chested-male,billboard,brother-brother-relationship,brother-in-law,camera,candy,candy-bar,car-accident,car-crash,caught-in-the-act,cell-phone,character-name-in-title,chest-hair,competitiveness,doughnut,doughnut-shop,drug-use,duck-hunt,e-mail,f-word,family-dinner,family-relationships,father-daughter-relationship,father-in-law,female-underwear,fireworks,franchise,gay-brother,gay-character,high-school,homosexuality,hospital,hunting,husband-wife-relationship,identity-crisis,illicit-affair,injury,lingerie,locker,locker-room,man-boy-relationship,man-in-woman's-underwear,marijuana,marital-crisis,marital-discord,marital-infidelity,marital-problem,marital-separation,marital-strife,marital-trouble,mentor,office,one-word-title,penis-joke,quitting-a-job,school,school-principal,sex-tape,shaving,shower,sporting-goods-store,swimming,swimming-pool,television-news,television-star,tent,toilet,tv-reporter,underwear,undressing,video-camera,video-tape,woman-in-underwear] 
+
+srcNodes: [2124912, 8013133, 7008417]
+  path: 0[1508679 -> 2210328 -> 1331228 -> 2124912], [La traversée du désir (2009) -> Malkovich, John -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1508679 -> 2312020 -> 1332127 -> 8013133], [La traversée du désir (2009) -> Bonnaire, Sandrine -> Dix films pour en parler (2007) -> violence] 
+
+  path: 2[1508679 -> 2032913 -> 1805481 -> 7008417], [La traversée du désir (2009) -> Blair, Tony (I) -> The Road to Guantanamo (2006) -> references Back to t] 
+
+srcNodes: [2124912, 8013133, 8021420]
+  path: 0[1332127 -> 2312020 -> 1508679 -> 2210328 -> 1331228 -> 2124912], [Dix films pour en parler (2007) -> Bonnaire, Sandrine -> La traversée du désir (2009) -> Malkovich, John -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1332127 -> 8013133], [Dix films pour en parler (2007) -> violence] 
+
+  path: 2[1332127 -> 4062830 -> 1626681 -> 2423213 -> 1525834 -> 8021420], [Dix films pour en parler (2007) -> Podalydès, Bruno -> Paris, je t'aime (2006) -> Muller, Florence (I) -> Les meilleurs amis du monde (2010) -> friendship,phone,wild-comedy] 
+
+srcNodes: [2124912, 8024074, 8008994]
+  path: 0[2253927 -> 1428229 -> 2095378 -> 1331228 -> 2124912], [Olyphant, Timothy -> Hitman (2007/I) -> Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2253927 -> 1764841 -> 2052972 -> 1582372 -> 8024074], [Olyphant, Timothy -> The Crazies (2010) -> Carnel, Chris -> My Bloody Valentine (2009) -> 3-dimensional,abandoned-house,actress-shares-first-name-with-character,american-flag,atonal-music-score,bar,bar-fight,bare-breasts,bare-butt,bare-chested-male,bed-frame,billiards,blood,blood-spatter,blue-panties,boyfriend-girlfriend-relationship,breaking-a-mirror,breaking-through-a-door,bridge,brutality,burnt-body,camel-toe,car-crash,car-wreck,chase,cheating-husband,child-in-peril,cigarette-smoking,cleavage,clothes-dryer,coal-mine,coma,cut-arm,dead-body,decapitation,digit-in-title,double-barreled-shotgun,drunkenness,dual-identity,ex-boyfriend-ex-girlfriend-relationship,explosion,eye-gouging,f-word,falling-from-height,fantasy-sequence,female-frontal-nudity,female-full-frontal-nudity,female-nudity,female-rear-nudity,fight,fight-to-the-death,flashback,flashlight,gas-mask,gore,grave,grocery-mart,grocery-store,gunshot-wound,hallucination,head-cut-in-half,head-cut-off,heart,heart-ripped-out,heart-shaped-box-of-candy,held-at-gunpoint,helmet-light,hit-with-a-shovel,hole-in-chest,holiday-horror] 
+
+  path: 2[2253927 -> 1243073 -> 8008994], [Olyphant, Timothy -> Bill (2007) -> adultery,affair,arrest,bank,bare-chested-male,billboard,brother-brother-relationship,brother-in-law,camera,candy,candy-bar,car-accident,car-crash,caught-in-the-act,cell-phone,character-name-in-title,chest-hair,competitiveness,doughnut,doughnut-shop,drug-use,duck-hunt,e-mail,f-word,family-dinner,family-relationships,father-daughter-relationship,father-in-law,female-underwear,fireworks,franchise,gay-brother,gay-character,high-school,homosexuality,hospital,hunting,husband-wife-relationship,identity-crisis,illicit-affair,injury,lingerie,locker,locker-room,man-boy-relationship,man-in-woman's-underwear,marijuana,marital-crisis,marital-discord,marital-infidelity,marital-problem,marital-separation,marital-strife,marital-trouble,mentor,office,one-word-title,penis-joke,quitting-a-job,school,school-principal,sex-tape,shaving,shower,sporting-goods-store,swimming,swimming-pool,television-news,television-star,tent,toilet,tv-reporter,underwear,undressing,video-camera,video-tape,woman-in-underwear] 
+
+srcNodes: [2124912, 8024074, 8006403]
+  path: 0[2397446 -> 1469671 -> 2210328 -> 1331228 -> 2124912], [LeBlanc, Cynthia -> Jonah Hex (2010) -> Malkovich, John -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2397446 -> 1440085 -> 2206815 -> 1582372 -> 8024074], [LeBlanc, Cynthia -> I Love You Phillip Morris (2009) -> Macaulay, Marc -> My Bloody Valentine (2009) -> 3-dimensional,abandoned-house,actress-shares-first-name-with-character,american-flag,atonal-music-score,bar,bar-fight,bare-breasts,bare-butt,bare-chested-male,bed-frame,billiards,blood,blood-spatter,blue-panties,boyfriend-girlfriend-relationship,breaking-a-mirror,breaking-through-a-door,bridge,brutality,burnt-body,camel-toe,car-crash,car-wreck,chase,cheating-husband,child-in-peril,cigarette-smoking,cleavage,clothes-dryer,coal-mine,coma,cut-arm,dead-body,decapitation,digit-in-title,double-barreled-shotgun,drunkenness,dual-identity,ex-boyfriend-ex-girlfriend-relationship,explosion,eye-gouging,f-word,falling-from-height,fantasy-sequence,female-frontal-nudity,female-full-frontal-nudity,female-nudity,female-rear-nudity,fight,fight-to-the-death,flashback,flashlight,gas-mask,gore,grave,grocery-mart,grocery-store,gunshot-wound,hallucination,head-cut-in-half,head-cut-off,heart,heart-ripped-out,heart-shaped-box-of-candy,held-at-gunpoint,helmet-light,hit-with-a-shovel,hole-in-chest,holiday-horror] 
+
+  path: 2[2397446 -> 1672628 -> 2140604 -> 1184366 -> 8006403], [LeBlanc, Cynthia -> Robosapien: Rebooted (2010) -> Harrison, Robbie E. -> A Starchy World (2007) -> absurdism,dark-comedy,experimental-film,family-relationships,mashed-potatoes] 
+
+srcNodes: [2124912, 8024074, 8006403]
+  path: 0[2253424 -> 1663579 -> 2210328 -> 1331228 -> 2124912], [Oliver, Jay (I) -> Red (2010/I) -> Malkovich, John -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2253424 -> 1783002 -> 2206815 -> 1582372 -> 8024074], [Oliver, Jay (I) -> The Jack of Spades (2010) -> Macaulay, Marc -> My Bloody Valentine (2009) -> 3-dimensional,abandoned-house,actress-shares-first-name-with-character,american-flag,atonal-music-score,bar,bar-fight,bare-breasts,bare-butt,bare-chested-male,bed-frame,billiards,blood,blood-spatter,blue-panties,boyfriend-girlfriend-relationship,breaking-a-mirror,breaking-through-a-door,bridge,brutality,burnt-body,camel-toe,car-crash,car-wreck,chase,cheating-husband,child-in-peril,cigarette-smoking,cleavage,clothes-dryer,coal-mine,coma,cut-arm,dead-body,decapitation,digit-in-title,double-barreled-shotgun,drunkenness,dual-identity,ex-boyfriend-ex-girlfriend-relationship,explosion,eye-gouging,f-word,falling-from-height,fantasy-sequence,female-frontal-nudity,female-full-frontal-nudity,female-nudity,female-rear-nudity,fight,fight-to-the-death,flashback,flashlight,gas-mask,gore,grave,grocery-mart,grocery-store,gunshot-wound,hallucination,head-cut-in-half,head-cut-off,heart,heart-ripped-out,heart-shaped-box-of-candy,held-at-gunpoint,helmet-light,hit-with-a-shovel,hole-in-chest,holiday-horror] 
+
+  path: 2[2253424 -> 1672628 -> 2140604 -> 1184366 -> 8006403], [Oliver, Jay (I) -> Robosapien: Rebooted (2010) -> Harrison, Robbie E. -> A Starchy World (2007) -> absurdism,dark-comedy,experimental-film,family-relationships,mashed-potatoes] 
+
+srcNodes: [4080743, 6018894, 6030171]
+  path: 0[1594958 -> 4080743], [Nia's Melancholy (2009) -> Tusa, S.F.] 
+
+  path: 1[1594958 -> 2412202 -> 1584552 -> 2313763 -> 1543212 -> 6018894], [Nia's Melancholy (2009) -> Maza, Rachel -> My Year Without Sex (2009) -> Bradley, Portia -> Lullaby (2008/II) -> Poppy and Bella stru] 
+
+  path: 2[1594958 -> 2497629 -> 1853501 -> 2018182 -> 1772677 -> 6030171], [Nia's Melancholy (2009) -> Zalar, Tasia -> Uninhabited (2010) -> Baines, Bob -> The Final Winter (2007) -> As the winds of chan] 
+
+srcNodes: [2068636, 6014142, 8008994]
+  path: 0[1574939 -> 2068636], [Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1574939 -> 2072962 -> 1833773 -> 2029255 -> 1421779 -> 6014142], [Moon Beat (2009) -> Cronkite, Walter -> Toots (2006) -> Berra, Yogi -> Henry and Me (2010) -> A young boy, Jack, i] 
+
+  path: 2[1574939 -> 2147586 -> 1856058 -> 2283847 -> 1243073 -> 8008994], [Moon Beat (2009) -> Hill, Arthur (III) -> Up in the Air (2009/I) -> Reynolds, Greg (III) -> Bill (2007) -> adultery,affair,arrest,bank,bare-chested-male,billboard,brother-brother-relationship,brother-in-law,camera,candy,candy-bar,car-accident,car-crash,caught-in-the-act,cell-phone,character-name-in-title,chest-hair,competitiveness,doughnut,doughnut-shop,drug-use,duck-hunt,e-mail,f-word,family-dinner,family-relationships,father-daughter-relationship,father-in-law,female-underwear,fireworks,franchise,gay-brother,gay-character,high-school,homosexuality,hospital,hunting,husband-wife-relationship,identity-crisis,illicit-affair,injury,lingerie,locker,locker-room,man-boy-relationship,man-in-woman's-underwear,marijuana,marital-crisis,marital-discord,marital-infidelity,marital-problem,marital-separation,marital-strife,marital-trouble,mentor,office,one-word-title,penis-joke,quitting-a-job,school,school-principal,sex-tape,shaving,shower,sporting-goods-store,swimming,swimming-pool,television-news,television-star,tent,toilet,tv-reporter,underwear,undressing,video-camera,video-tape,woman-in-underwear] 
+
+-----------------------------------------
+ResultDestNodes: [1331228, 2095378, 2210328, 1508679, 1332127, 2253927, 2397446, 2253424, 1594958, 1574939]
+ResultRelevs: [7.34835147857666, 6.817133903503418, 6.817133903503418, 6.479398727416992, 6.323733806610107, 6.173330307006836, 5.987408638000488, 5.987408638000488, 5.705618381500244, 5.494875907897949]
+AvgResultRelev: 6.31343936920166
+AvgResultDissimilarity: 0.7066667079925537
+Num of entries retrieved from the KNLists: 6609
+Num of entries retrieved from NKMaps: 8863
+Num of answer trees explored: 2292
+Num of states created: 94008
+Num of states explored: 3438
+Num of heuristic search performed: 47
+Max Num of answer tree sets in Q[]: 4959
+
+Div Top-k Search by Astar1, k=10
+[sf, fantasy, future]
+srcNodes: [2124912, 8013133, 8008994]
+  path: 0[1331228 -> 2124912], [Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1331228 -> 2210328 -> 1508679 -> 2312020 -> 1332127 -> 8013133], [Disgrace (2008) -> Malkovich, John -> La traversée du désir (2009) -> Bonnaire, Sandrine -> Dix films pour en parler (2007) -> violence] 
+
+  path: 2[1331228 -> 2210328 -> 1686348 -> 2492155 -> 1243073 -> 8008994], [Disgrace (2008) -> Malkovich, John -> Saturday Night (2010) -> Wiig, Kristen -> Bill (2007) -> adultery,affair,arrest,bank,bare-chested-male,billboard,brother-brother-relationship,brother-in-law,camera,candy,candy-bar,car-accident,car-crash,caught-in-the-act,cell-phone,character-name-in-title,chest-hair,competitiveness,doughnut,doughnut-shop,drug-use,duck-hunt,e-mail,f-word,family-dinner,family-relationships,father-daughter-relationship,father-in-law,female-underwear,fireworks,franchise,gay-brother,gay-character,high-school,homosexuality,hospital,hunting,husband-wife-relationship,identity-crisis,illicit-affair,injury,lingerie,locker,locker-room,man-boy-relationship,man-in-woman's-underwear,marijuana,marital-crisis,marital-discord,marital-infidelity,marital-problem,marital-separation,marital-strife,marital-trouble,mentor,office,one-word-title,penis-joke,quitting-a-job,school,school-principal,sex-tape,shaving,shower,sporting-goods-store,swimming,swimming-pool,television-news,television-star,tent,toilet,tv-reporter,underwear,undressing,video-camera,video-tape,woman-in-underwear] 
+
+srcNodes: [2124912, 8013133, 8008994]
+  path: 0[2095378 -> 1331228 -> 2124912], [Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2095378 -> 1502772 -> 2299467 -> 1332127 -> 8013133], [Ebouaney, Eriq -> La horde (2009) -> Arnaud, Virginie -> Dix films pour en parler (2007) -> violence] 
+
+  path: 2[2095378 -> 1428229 -> 2253927 -> 1243073 -> 8008994], [Ebouaney, Eriq -> Hitman (2007/I) -> Olyphant, Timothy -> Bill (2007) -> adultery,affair,arrest,bank,bare-chested-male,billboard,brother-brother-relationship,brother-in-law,camera,candy,candy-bar,car-accident,car-crash,caught-in-the-act,cell-phone,character-name-in-title,chest-hair,competitiveness,doughnut,doughnut-shop,drug-use,duck-hunt,e-mail,f-word,family-dinner,family-relationships,father-daughter-relationship,father-in-law,female-underwear,fireworks,franchise,gay-brother,gay-character,high-school,homosexuality,hospital,hunting,husband-wife-relationship,identity-crisis,illicit-affair,injury,lingerie,locker,locker-room,man-boy-relationship,man-in-woman's-underwear,marijuana,marital-crisis,marital-discord,marital-infidelity,marital-problem,marital-separation,marital-strife,marital-trouble,mentor,office,one-word-title,penis-joke,quitting-a-job,school,school-principal,sex-tape,shaving,shower,sporting-goods-store,swimming,swimming-pool,television-news,television-star,tent,toilet,tv-reporter,underwear,undressing,video-camera,video-tape,woman-in-underwear] 
+
+srcNodes: [2124912, 8013133, 8008994]
+  path: 0[2210328 -> 1331228 -> 2124912], [Malkovich, John -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2210328 -> 1508679 -> 2312020 -> 1332127 -> 8013133], [Malkovich, John -> La traversée du désir (2009) -> Bonnaire, Sandrine -> Dix films pour en parler (2007) -> violence] 
+
+  path: 2[2210328 -> 1686348 -> 2492155 -> 1243073 -> 8008994], [Malkovich, John -> Saturday Night (2010) -> Wiig, Kristen -> Bill (2007) -> adultery,affair,arrest,bank,bare-chested-male,billboard,brother-brother-relationship,brother-in-law,camera,candy,candy-bar,car-accident,car-crash,caught-in-the-act,cell-phone,character-name-in-title,chest-hair,competitiveness,doughnut,doughnut-shop,drug-use,duck-hunt,e-mail,f-word,family-dinner,family-relationships,father-daughter-relationship,father-in-law,female-underwear,fireworks,franchise,gay-brother,gay-character,high-school,homosexuality,hospital,hunting,husband-wife-relationship,identity-crisis,illicit-affair,injury,lingerie,locker,locker-room,man-boy-relationship,man-in-woman's-underwear,marijuana,marital-crisis,marital-discord,marital-infidelity,marital-problem,marital-separation,marital-strife,marital-trouble,mentor,office,one-word-title,penis-joke,quitting-a-job,school,school-principal,sex-tape,shaving,shower,sporting-goods-store,swimming,swimming-pool,television-news,television-star,tent,toilet,tv-reporter,underwear,undressing,video-camera,video-tape,woman-in-underwear] 
+
+srcNodes: [2124912, 8013133, 7008417]
+  path: 0[1508679 -> 2210328 -> 1331228 -> 2124912], [La traversée du désir (2009) -> Malkovich, John -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1508679 -> 2312020 -> 1332127 -> 8013133], [La traversée du désir (2009) -> Bonnaire, Sandrine -> Dix films pour en parler (2007) -> violence] 
+
+  path: 2[1508679 -> 2032913 -> 1805481 -> 7008417], [La traversée du désir (2009) -> Blair, Tony (I) -> The Road to Guantanamo (2006) -> references Back to t] 
+
+srcNodes: [2124912, 8013133, 8021420]
+  path: 0[1332127 -> 2312020 -> 1508679 -> 2210328 -> 1331228 -> 2124912], [Dix films pour en parler (2007) -> Bonnaire, Sandrine -> La traversée du désir (2009) -> Malkovich, John -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[1332127 -> 8013133], [Dix films pour en parler (2007) -> violence] 
+
+  path: 2[1332127 -> 4062830 -> 1626681 -> 2423213 -> 1525834 -> 8021420], [Dix films pour en parler (2007) -> Podalydès, Bruno -> Paris, je t'aime (2006) -> Muller, Florence (I) -> Les meilleurs amis du monde (2010) -> friendship,phone,wild-comedy] 
+
+srcNodes: [2124912, 8024074, 8008994]
+  path: 0[2253927 -> 1428229 -> 2095378 -> 1331228 -> 2124912], [Olyphant, Timothy -> Hitman (2007/I) -> Ebouaney, Eriq -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2253927 -> 1764841 -> 2052972 -> 1582372 -> 8024074], [Olyphant, Timothy -> The Crazies (2010) -> Carnel, Chris -> My Bloody Valentine (2009) -> 3-dimensional,abandoned-house,actress-shares-first-name-with-character,american-flag,atonal-music-score,bar,bar-fight,bare-breasts,bare-butt,bare-chested-male,bed-frame,billiards,blood,blood-spatter,blue-panties,boyfriend-girlfriend-relationship,breaking-a-mirror,breaking-through-a-door,bridge,brutality,burnt-body,camel-toe,car-crash,car-wreck,chase,cheating-husband,child-in-peril,cigarette-smoking,cleavage,clothes-dryer,coal-mine,coma,cut-arm,dead-body,decapitation,digit-in-title,double-barreled-shotgun,drunkenness,dual-identity,ex-boyfriend-ex-girlfriend-relationship,explosion,eye-gouging,f-word,falling-from-height,fantasy-sequence,female-frontal-nudity,female-full-frontal-nudity,female-nudity,female-rear-nudity,fight,fight-to-the-death,flashback,flashlight,gas-mask,gore,grave,grocery-mart,grocery-store,gunshot-wound,hallucination,head-cut-in-half,head-cut-off,heart,heart-ripped-out,heart-shaped-box-of-candy,held-at-gunpoint,helmet-light,hit-with-a-shovel,hole-in-chest,holiday-horror] 
+
+  path: 2[2253927 -> 1243073 -> 8008994], [Olyphant, Timothy -> Bill (2007) -> adultery,affair,arrest,bank,bare-chested-male,billboard,brother-brother-relationship,brother-in-law,camera,candy,candy-bar,car-accident,car-crash,caught-in-the-act,cell-phone,character-name-in-title,chest-hair,competitiveness,doughnut,doughnut-shop,drug-use,duck-hunt,e-mail,f-word,family-dinner,family-relationships,father-daughter-relationship,father-in-law,female-underwear,fireworks,franchise,gay-brother,gay-character,high-school,homosexuality,hospital,hunting,husband-wife-relationship,identity-crisis,illicit-affair,injury,lingerie,locker,locker-room,man-boy-relationship,man-in-woman's-underwear,marijuana,marital-crisis,marital-discord,marital-infidelity,marital-problem,marital-separation,marital-strife,marital-trouble,mentor,office,one-word-title,penis-joke,quitting-a-job,school,school-principal,sex-tape,shaving,shower,sporting-goods-store,swimming,swimming-pool,television-news,television-star,tent,toilet,tv-reporter,underwear,undressing,video-camera,video-tape,woman-in-underwear] 
+
+srcNodes: [2124912, 8024074, 8006403]
+  path: 0[2397446 -> 1469671 -> 2210328 -> 1331228 -> 2124912], [LeBlanc, Cynthia -> Jonah Hex (2010) -> Malkovich, John -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2397446 -> 1440085 -> 2206815 -> 1582372 -> 8024074], [LeBlanc, Cynthia -> I Love You Phillip Morris (2009) -> Macaulay, Marc -> My Bloody Valentine (2009) -> 3-dimensional,abandoned-house,actress-shares-first-name-with-character,american-flag,atonal-music-score,bar,bar-fight,bare-breasts,bare-butt,bare-chested-male,bed-frame,billiards,blood,blood-spatter,blue-panties,boyfriend-girlfriend-relationship,breaking-a-mirror,breaking-through-a-door,bridge,brutality,burnt-body,camel-toe,car-crash,car-wreck,chase,cheating-husband,child-in-peril,cigarette-smoking,cleavage,clothes-dryer,coal-mine,coma,cut-arm,dead-body,decapitation,digit-in-title,double-barreled-shotgun,drunkenness,dual-identity,ex-boyfriend-ex-girlfriend-relationship,explosion,eye-gouging,f-word,falling-from-height,fantasy-sequence,female-frontal-nudity,female-full-frontal-nudity,female-nudity,female-rear-nudity,fight,fight-to-the-death,flashback,flashlight,gas-mask,gore,grave,grocery-mart,grocery-store,gunshot-wound,hallucination,head-cut-in-half,head-cut-off,heart,heart-ripped-out,heart-shaped-box-of-candy,held-at-gunpoint,helmet-light,hit-with-a-shovel,hole-in-chest,holiday-horror] 
+
+  path: 2[2397446 -> 1672628 -> 2140604 -> 1184366 -> 8006403], [LeBlanc, Cynthia -> Robosapien: Rebooted (2010) -> Harrison, Robbie E. -> A Starchy World (2007) -> absurdism,dark-comedy,experimental-film,family-relationships,mashed-potatoes] 
+
+srcNodes: [2124912, 8024074, 8006403]
+  path: 0[2253424 -> 1663579 -> 2210328 -> 1331228 -> 2124912], [Oliver, Jay (I) -> Red (2010/I) -> Malkovich, John -> Disgrace (2008) -> Gojo, S.F.] 
+
+  path: 1[2253424 -> 1783002 -> 2206815 -> 1582372 -> 8024074], [Oliver, Jay (I) -> The Jack of Spades (2010) -> Macaulay, Marc -> My Bloody Valentine (2009) -> 3-dimensional,abandoned-house,actress-shares-first-name-with-character,american-flag,atonal-music-score,bar,bar-fight,bare-breasts,bare-butt,bare-chested-male,bed-frame,billiards,blood,blood-spatter,blue-panties,boyfriend-girlfriend-relationship,breaking-a-mirror,breaking-through-a-door,bridge,brutality,burnt-body,camel-toe,car-crash,car-wreck,chase,cheating-husband,child-in-peril,cigarette-smoking,cleavage,clothes-dryer,coal-mine,coma,cut-arm,dead-body,decapitation,digit-in-title,double-barreled-shotgun,drunkenness,dual-identity,ex-boyfriend-ex-girlfriend-relationship,explosion,eye-gouging,f-word,falling-from-height,fantasy-sequence,female-frontal-nudity,female-full-frontal-nudity,female-nudity,female-rear-nudity,fight,fight-to-the-death,flashback,flashlight,gas-mask,gore,grave,grocery-mart,grocery-store,gunshot-wound,hallucination,head-cut-in-half,head-cut-off,heart,heart-ripped-out,heart-shaped-box-of-candy,held-at-gunpoint,helmet-light,hit-with-a-shovel,hole-in-chest,holiday-horror] 
+
+  path: 2[2253424 -> 1672628 -> 2140604 -> 1184366 -> 8006403], [Oliver, Jay (I) -> Robosapien: Rebooted (2010) -> Harrison, Robbie E. -> A Starchy World (2007) -> absurdism,dark-comedy,experimental-film,family-relationships,mashed-potatoes] 
+
+srcNodes: [4080743, 6018894, 6030171]
+  path: 0[1594958 -> 4080743], [Nia's Melancholy (2009) -> Tusa, S.F.] 
+
+  path: 1[1594958 -> 2412202 -> 1584552 -> 2313763 -> 1543212 -> 6018894], [Nia's Melancholy (2009) -> Maza, Rachel -> My Year Without Sex (2009) -> Bradley, Portia -> Lullaby (2008/II) -> Poppy and Bella stru] 
+
+  path: 2[1594958 -> 2497629 -> 1853501 -> 2018182 -> 1772677 -> 6030171], [Nia's Melancholy (2009) -> Zalar, Tasia -> Uninhabited (2010) -> Baines, Bob -> The Final Winter (2007) -> As the winds of chan] 
+
+srcNodes: [2068636, 6014142, 8008994]
+  path: 0[1574939 -> 2068636], [Moon Beat (2009) -> Cooper Jr., Henry S.F.] 
+
+  path: 1[1574939 -> 2072962 -> 1833773 -> 2029255 -> 1421779 -> 6014142], [Moon Beat (2009) -> Cronkite, Walter -> Toots (2006) -> Berra, Yogi -> Henry and Me (2010) -> A young boy, Jack, i] 
+
+  path: 2[1574939 -> 2147586 -> 1856058 -> 2283847 -> 1243073 -> 8008994], [Moon Beat (2009) -> Hill, Arthur (III) -> Up in the Air (2009/I) -> Reynolds, Greg (III) -> Bill (2007) -> adultery,affair,arrest,bank,bare-chested-male,billboard,brother-brother-relationship,brother-in-law,camera,candy,candy-bar,car-accident,car-crash,caught-in-the-act,cell-phone,character-name-in-title,chest-hair,competitiveness,doughnut,doughnut-shop,drug-use,duck-hunt,e-mail,f-word,family-dinner,family-relationships,father-daughter-relationship,father-in-law,female-underwear,fireworks,franchise,gay-brother,gay-character,high-school,homosexuality,hospital,hunting,husband-wife-relationship,identity-crisis,illicit-affair,injury,lingerie,locker,locker-room,man-boy-relationship,man-in-woman's-underwear,marijuana,marital-crisis,marital-discord,marital-infidelity,marital-problem,marital-separation,marital-strife,marital-trouble,mentor,office,one-word-title,penis-joke,quitting-a-job,school,school-principal,sex-tape,shaving,shower,sporting-goods-store,swimming,swimming-pool,television-news,television-star,tent,toilet,tv-reporter,underwear,undressing,video-camera,video-tape,woman-in-underwear] 
+
+-----------------------------------------
+ResultDestNodes: [1331228, 2095378, 2210328, 1508679, 1332127, 2253927, 2397446, 2253424, 1594958, 1574939]
+ResultRelevs: [7.34835147857666, 6.817133903503418, 6.817133903503418, 6.479398727416992, 6.323733806610107, 6.173330307006836, 5.987408638000488, 5.987408638000488, 5.705618381500244, 5.494875907897949]
+AvgResultRelev: 6.31343936920166
+AvgResultDissimilarity: 0.7066667079925537
+Num of entries retrieved from the KNLists: 46209
+Num of entries retrieved from NKMaps: 55676
+Num of answer trees explored: 12604
+Num of states created: 1417340
+Num of states explored: 12715
+Num of heuristic search performed: 12596
+Max Num of answer tree sets in Q[]: 0
+Num of local answer tree sets found: 0
+
+query: [academy, award, drama]
+Top-k Search by Blink-BDB, k=10
+[academy, award, drama]
+srcNodes: [8009141, 8008705, 2091468]
+  path: 0[1246757 -> 8009141], [Black, White and Blues (2010) -> apostrophe-in-title,color-in-title,cult-director,nashville,nashville-tennessee,punctuation-in-title,tennessee] 
+
+  path: 1[1246757 -> 2413628 -> 1401808 -> 2248296 -> 1236408 -> 8008705], [Black, White and Blues (2010) -> McGoohan, Catherine -> Glory Road (2006) -> Nolan, E.J. -> Believe in Me (2006) -> high-school-basketball,oklahoma] 
+
+  path: 2[1246757 -> 2093178 -> 919977 -> 2042887 -> 1727649 -> 2091468], [Black, White and Blues (2010) -> Duncan, Michael Clarke -> "The Brian McKnight Show" (2009) {(2010-02-20)} -> Brown, Chris (XXV) -> Stomp the Yard (2007) -> Drama, DJ] 
+
+srcNodes: [8009141, 8008705, 2091468]
+  path: 0[2093178 -> 1246757 -> 8009141], [Duncan, Michael Clarke -> Black, White and Blues (2010) -> apostrophe-in-title,color-in-title,cult-director,nashville,nashville-tennessee,punctuation-in-title,tennessee] 
+
+  path: 1[2093178 -> 1251242 -> 2133701 -> 1236408 -> 8008705], [Duncan, Michael Clarke -> Boffo! Tinseltown's Bombs and Blockbusters (2006) -> Gunton, Bob -> Believe in Me (2006) -> high-school-basketball,oklahoma] 
+
+  path: 2[2093178 -> 919977 -> 2042887 -> 1727649 -> 2091468], [Duncan, Michael Clarke -> "The Brian McKnight Show" (2009) {(2010-02-20)} -> Brown, Chris (XXV) -> Stomp the Yard (2007) -> Drama, DJ] 
+
+srcNodes: [8009141, 8008705, 8015917]
+  path: 0[2407979 -> 1246757 -> 8009141], [Manning, Taryn -> Black, White and Blues (2010) -> apostrophe-in-title,color-in-title,cult-director,nashville,nashville-tennessee,punctuation-in-title,tennessee] 
+
+  path: 1[2407979 -> 1540621 -> 2002192 -> 1236408 -> 8008705], [Manning, Taryn -> Love Ranch (2010) -> Adamson, Ryil -> Believe in Me (2006) -> high-school-basketball,oklahoma] 
+
+  path: 2[2407979 -> 1783320 -> 2020848 -> 1393072 -> 8015917], [Manning, Taryn -> The Job (2009) -> Bardha, Ele -> Game of Death (2010) -> assassin,assassination-attempt,bodyguard,diplomat,hospital,nurse] 
+
+srcNodes: [8009141, 8008705, 8039430]
+  path: 0[2133701 -> 1251242 -> 2093178 -> 1246757 -> 8009141], [Gunton, Bob -> Boffo! Tinseltown's Bombs and Blockbusters (2006) -> Duncan, Michael Clarke -> Black, White and Blues (2010) -> apostrophe-in-title,color-in-title,cult-director,nashville,nashville-tennessee,punctuation-in-title,tennessee] 
+
+  path: 1[2133701 -> 1236408 -> 8008705], [Gunton, Bob -> Believe in Me (2006) -> high-school-basketball,oklahoma] 
+
+  path: 2[2133701 -> 1816041 -> 2152872 -> 1891664 -> 8039430], [Gunton, Bob -> The Trial (2010) -> Howard, Rance -> Yohan - Barnevandrer (2010) -> 1890s,aggression,animal-killing,animal-on-fire,animal-trap,bear,bear-cub,bear-trap,beating-a-child,birthday,brother-brother-relationship,bullying,cameo,child-labor,child-laborer,child-servant,child-wanderer,chopping-wood,class-differences,cult-favorite,dead-cow,death-of-baby,down's-syndrome,eating-excrement,entertainment,evil-man,falling-on-ice,father-son-relationship,female-reporter,ferryman,fiddler,fire,flute,fox,friendship,funeral,grandchild,great-grandfather,gun,gypsy,gypsy-troup,harmonica,herd,herder,horse-and-carriage,large-family,little-brother,man-in-a-wheelchair,market,mean-brother,mother-son-relationship,near-drowning,nightmare,norway,oatmeal,older-version-of-self,on-the-run,orange,pastry,pig,police-officer,poverty,presumed-dead,rifle,russian,school,servant,sheep,ship,spying,stealing,tame-bear,tea-party,winter,younger-version-of-self] 
+
+srcNodes: [8009141, 8008705, 7003582]
+  path: 0[2264834 -> 1246757 -> 8009141], [Perkins, Lee (I) -> Black, White and Blues (2010) -> apostrophe-in-title,color-in-title,cult-director,nashville,nashville-tennessee,punctuation-in-title,tennessee] 
+
+  path: 1[2264834 -> 1635813 -> 2092698 -> 1236408 -> 8008705], [Perkins, Lee (I) -> Pieces of Eight (2006) -> Dugan, Sean (II) -> Believe in Me (2006) -> high-school-basketball,oklahoma] 
+
+  path: 2[2264834 -> 1711430 -> 2172536 -> 1290127 -> 7003582], [Perkins, Lee (I) -> Slime City Massacre (2010) -> Kaufman, Lloyd -> Confessions of a Teenage Filmmaker: The Dan Nastro Story (2006) -> references Confessio] 
+
+srcNodes: [8009141, 8008705, 2091468]
+  path: 0[1236408 -> 2248296 -> 1401808 -> 2413628 -> 1246757 -> 8009141], [Believe in Me (2006) -> Nolan, E.J. -> Glory Road (2006) -> McGoohan, Catherine -> Black, White and Blues (2010) -> apostrophe-in-title,color-in-title,cult-director,nashville,nashville-tennessee,punctuation-in-title,tennessee] 
+
+  path: 1[1236408 -> 8008705], [Believe in Me (2006) -> high-school-basketball,oklahoma] 
+
+  path: 2[1236408 -> 2453874 -> 1234964 -> 2419403 -> 980022 -> 2091468], [Believe in Me (2006) -> Russell, Chloe -> Beerfest (2006) -> Mo'Nique -> "The Mo'Nique Show" (2009) {(2009-12-08)} -> Drama, DJ] 
+
+srcNodes: [8009141, 8023433, 2091468]
+  path: 0[2162440 -> 919977 -> 2093178 -> 1246757 -> 8009141], [Jean, Wyclef -> "The Brian McKnight Show" (2009) {(2010-02-20)} -> Duncan, Michael Clarke -> Black, White and Blues (2010) -> apostrophe-in-title,color-in-title,cult-director,nashville,nashville-tennessee,punctuation-in-title,tennessee] 
+
+  path: 1[2162440 -> 1664440 -> 2318715 -> 1569436 -> 8023433], [Jean, Wyclef -> Redline (2007) -> Cabral, Monica -> Mirror (2007/I) -> cheating,infidelity,karma,mirror] 
+
+  path: 2[2162440 -> 980022 -> 2091468], [Jean, Wyclef -> "The Mo'Nique Show" (2009) {(2009-12-08)} -> Drama, DJ] 
+
+srcNodes: [8009141, 8008705, 8037988]
+  path: 0[2462492 -> 1851126 -> 2407979 -> 1246757 -> 8009141], [Shaye, Lin -> Unbeatable Harold (2006) -> Manning, Taryn -> Black, White and Blues (2010) -> apostrophe-in-title,color-in-title,cult-director,nashville,nashville-tennessee,punctuation-in-title,tennessee] 
+
+  path: 1[2462492 -> 1204127 -> 2084754 -> 1236408 -> 8008705], [Shaye, Lin -> American Cowslip (2009) -> Dern, Bruce -> Believe in Me (2006) -> high-school-basketball,oklahoma] 
+
+  path: 2[2462492 -> 1863422 -> 8037988], [Shaye, Lin -> VideoDome Rent-O-Rama (2010) -> adult-film,independent-film,period-drama,spoof,student-film,surrealism,women] 
+
+srcNodes: [8009141, 8008705, 2091468]
+  path: 0[2419403 -> 1094674 -> 2093178 -> 1246757 -> 8009141], [Mo'Nique -> "Up Close with Carrie Keagan" (2007) {(2008-06-16)} -> Duncan, Michael Clarke -> Black, White and Blues (2010) -> apostrophe-in-title,color-in-title,cult-director,nashville,nashville-tennessee,punctuation-in-title,tennessee] 
+
+  path: 1[2419403 -> 1234964 -> 2453874 -> 1236408 -> 8008705], [Mo'Nique -> Beerfest (2006) -> Russell, Chloe -> Believe in Me (2006) -> high-school-basketball,oklahoma] 
+
+  path: 2[2419403 -> 980022 -> 2091468], [Mo'Nique -> "The Mo'Nique Show" (2009) {(2009-12-08)} -> Drama, DJ] 
+
+srcNodes: [8009141, 8008705, 2091468]
+  path: 0[1401808 -> 2413628 -> 1246757 -> 8009141], [Glory Road (2006) -> McGoohan, Catherine -> Black, White and Blues (2010) -> apostrophe-in-title,color-in-title,cult-director,nashville,nashville-tennessee,punctuation-in-title,tennessee] 
+
+  path: 1[1401808 -> 2248296 -> 1236408 -> 8008705], [Glory Road (2006) -> Nolan, E.J. -> Believe in Me (2006) -> high-school-basketball,oklahoma] 
+
+  path: 2[1401808 -> 2219483 -> 980227 -> 2419403 -> 980022 -> 2091468], [Glory Road (2006) -> McAuley, Alphonso -> "The Mo'Nique Show" (2009) {(2011-05-05)} -> Mo'Nique -> "The Mo'Nique Show" (2009) {(2009-12-08)} -> Drama, DJ] 
+
+-----------------------------------------
+Num of top-k answers: 10
+ResultDestNodes: [1246757, 2093178, 2407979, 2133701, 2264834, 1236408, 2162440, 2462492, 2419403, 1401808]
+ResultRelevs: [8.251359939575195, 7.554624557495117, 7.554624557495117, 6.851602554321289, 6.825647354125977, 6.739401340484619, 6.730612754821777, 6.730612754821777, 6.730612754821777, 6.62417459487915]
+AvgResultRelev: 7.05932731628418
+AvgResultDissimilarity: 0.4155555555555556
+Num of entries retrieved from the lists: 1773
+Num of entries retrieved from NKMaps: 2915
+Num of answer trees explored: 953
+
+Div Top-k Search by Exhustive, k=10
+[academy, award, drama]
+srcNodes: [8009141, 8008705, 2091468]
+  path: 0[1246757 -> 8009141], [Black, White and Blues (2010) -> apostrophe-in-title,color-in-title,cult-director,nashville,nashville-tennessee,punctuation-in-title,tennessee] 
+
+  path: 1[1246757 -> 2413628 -> 1401808 -> 2248296 -> 1236408 -> 8008705], [Black, White and Blues (2010) -> McGoohan, Catherine -> Glory Road (2006) -> Nolan, E.J. -> Believe in Me (2006) -> high-school-basketball,oklahoma] 
+
+  path: 2[1246757 -> 2093178 -> 919977 -> 2042887 -> 1727649 -> 2091468], [Black, White and Blues (2010) -> Duncan, Michael Clarke -> "The Brian McKnight Show" (2009) {(2010-02-20)} -> Brown, Chris (XXV) -> Stomp the Yard (2007) -> Drama, DJ] 
+
+srcNodes: [8009141, 8008705, 8015917]
+  path: 0[2407979 -> 1246757 -> 8009141], [Manning, Taryn -> Black, White and Blues (2010) -> apostrophe-in-title,color-in-title,cult-director,nashville,nashville-tennessee,punctuation-in-title,tennessee] 
+
+  path: 1[2407979 -> 1540621 -> 2002192 -> 1236408 -> 8008705], [Manning, Taryn -> Love Ranch (2010) -> Adamson, Ryil -> Believe in Me (2006) -> high-school-basketball,oklahoma] 
+
+  path: 2[2407979 -> 1783320 -> 2020848 -> 1393072 -> 8015917], [Manning, Taryn -> The Job (2009) -> Bardha, Ele -> Game of Death (2010) -> assassin,assassination-attempt,bodyguard,diplomat,hospital,nurse] 
+
+srcNodes: [8009141, 8008705, 2091468]
+  path: 0[2093178 -> 1246757 -> 8009141], [Duncan, Michael Clarke -> Black, White and Blues (2010) -> apostrophe-in-title,color-in-title,cult-director,nashville,nashville-tennessee,punctuation-in-title,tennessee] 
+
+  path: 1[2093178 -> 1251242 -> 2133701 -> 1236408 -> 8008705], [Duncan, Michael Clarke -> Boffo! Tinseltown's Bombs and Blockbusters (2006) -> Gunton, Bob -> Believe in Me (2006) -> high-school-basketball,oklahoma] 
+
+  path: 2[2093178 -> 919977 -> 2042887 -> 1727649 -> 2091468], [Duncan, Michael Clarke -> "The Brian McKnight Show" (2009) {(2010-02-20)} -> Brown, Chris (XXV) -> Stomp the Yard (2007) -> Drama, DJ] 
+
+srcNodes: [8009141, 8008705, 8039430]
+  path: 0[2133701 -> 1251242 -> 2093178 -> 1246757 -> 8009141], [Gunton, Bob -> Boffo! Tinseltown's Bombs and Blockbusters (2006) -> Duncan, Michael Clarke -> Black, White and Blues (2010) -> apostrophe-in-title,color-in-title,cult-director,nashville,nashville-tennessee,punctuation-in-title,tennessee] 
+
+  path: 1[2133701 -> 1236408 -> 8008705], [Gunton, Bob -> Believe in Me (2006) -> high-school-basketball,oklahoma] 
+
+  path: 2[2133701 -> 1816041 -> 2152872 -> 1891664 -> 8039430], [Gunton, Bob -> The Trial (2010) -> Howard, Rance -> Yohan - Barnevandrer (2010) -> 1890s,aggression,animal-killing,animal-on-fire,animal-trap,bear,bear-cub,bear-trap,beating-a-child,birthday,brother-brother-relationship,bullying,cameo,child-labor,child-laborer,child-servant,child-wanderer,chopping-wood,class-differences,cult-favorite,dead-cow,death-of-baby,down's-syndrome,eating-excrement,entertainment,evil-man,falling-on-ice,father-son-relationship,female-reporter,ferryman,fiddler,fire,flute,fox,friendship,funeral,grandchild,great-grandfather,gun,gypsy,gypsy-troup,harmonica,herd,herder,horse-and-carriage,large-family,little-brother,man-in-a-wheelchair,market,mean-brother,mother-son-relationship,near-drowning,nightmare,norway,oatmeal,older-version-of-self,on-the-run,orange,pastry,pig,police-officer,poverty,presumed-dead,rifle,russian,school,servant,sheep,ship,spying,stealing,tame-bear,tea-party,winter,younger-version-of-self] 
+
+srcNodes: [8009141, 8008705, 7003582]
+  path: 0[2264834 -> 1246757 -> 8009141], [Perkins, Lee (I) -> Black, White and Blues (2010) -> apostrophe-in-title,color-in-title,cult-director,nashville,nashville-tennessee,punctuation-in-title,tennessee] 
+
+  path: 1[2264834 -> 1635813 -> 2092698 -> 1236408 -> 8008705], [Perkins, Lee (I) -> Pieces of Eight (2006) -> Dugan, Sean (II) -> Believe in Me (2006) -> high-school-basketball,oklahoma] 
+
+  path: 2[2264834 -> 1711430 -> 2172536 -> 1290127 -> 7003582], [Perkins, Lee (I) -> Slime City Massacre (2010) -> Kaufman, Lloyd -> Confessions of a Teenage Filmmaker: The Dan Nastro Story (2006) -> references Confessio] 
+
+srcNodes: [8009141, 8023433, 2091468]
+  path: 0[2162440 -> 919977 -> 2093178 -> 1246757 -> 8009141], [Jean, Wyclef -> "The Brian McKnight Show" (2009) {(2010-02-20)} -> Duncan, Michael Clarke -> Black, White and Blues (2010) -> apostrophe-in-title,color-in-title,cult-director,nashville,nashville-tennessee,punctuation-in-title,tennessee] 
+
+  path: 1[2162440 -> 1664440 -> 2318715 -> 1569436 -> 8023433], [Jean, Wyclef -> Redline (2007) -> Cabral, Monica -> Mirror (2007/I) -> cheating,infidelity,karma,mirror] 
+
+  path: 2[2162440 -> 980022 -> 2091468], [Jean, Wyclef -> "The Mo'Nique Show" (2009) {(2009-12-08)} -> Drama, DJ] 
+
+srcNodes: [8009141, 8008705, 8037988]
+  path: 0[2462492 -> 1851126 -> 2407979 -> 1246757 -> 8009141], [Shaye, Lin -> Unbeatable Harold (2006) -> Manning, Taryn -> Black, White and Blues (2010) -> apostrophe-in-title,color-in-title,cult-director,nashville,nashville-tennessee,punctuation-in-title,tennessee] 
+
+  path: 1[2462492 -> 1204127 -> 2084754 -> 1236408 -> 8008705], [Shaye, Lin -> American Cowslip (2009) -> Dern, Bruce -> Believe in Me (2006) -> high-school-basketball,oklahoma] 
+
+  path: 2[2462492 -> 1863422 -> 8037988], [Shaye, Lin -> VideoDome Rent-O-Rama (2010) -> adult-film,independent-film,period-drama,spoof,student-film,surrealism,women] 
+
+srcNodes: [8009141, 8023433, 8037988]
+  path: 0[1851126 -> 2407979 -> 1246757 -> 8009141], [Unbeatable Harold (2006) -> Manning, Taryn -> Black, White and Blues (2010) -> apostrophe-in-title,color-in-title,cult-director,nashville,nashville-tennessee,punctuation-in-title,tennessee] 
+
+  path: 1[1851126 -> 2026553 -> 1313597 -> 2234688 -> 1569436 -> 8023433], [Unbeatable Harold (2006) -> Belli, Willam -> Defying Gravity (2008) -> Moore, Gavin (III) -> Mirror (2007/I) -> cheating,infidelity,karma,mirror] 
+
+  path: 2[1851126 -> 2462492 -> 1863422 -> 8037988], [Unbeatable Harold (2006) -> Shaye, Lin -> VideoDome Rent-O-Rama (2010) -> adult-film,independent-film,period-drama,spoof,student-film,surrealism,women] 
+
+srcNodes: [8009141, 8021864, 8009148]
+  path: 0[1893512 -> 2407979 -> 1246757 -> 8009141], [Your Name Here (2008/I) -> Manning, Taryn -> Black, White and Blues (2010) -> apostrophe-in-title,color-in-title,cult-director,nashville,nashville-tennessee,punctuation-in-title,tennessee] 
+
+  path: 1[1893512 -> 2190716 -> 1725244 -> 2480019 -> 1535167 -> 8021864], [Your Name Here (2008/I) -> Lariviere, Aaron -> Stars and Suns (2008) -> Townsend, Najarra -> Lockdown (2006) -> school,shooting,stress] 
+
+  path: 2[1893512 -> 2380206 -> 1246834 -> 8009148], [Your Name Here (2008/I) -> Jaye, Cassie -> Blackeye (2009) -> abuse,domestic-violence] 
+
+srcNodes: [7007979, 8005267, 6018189]
+  path: 0[1157569 -> 2077129 -> 1718494 -> 2399572 -> 1765485 -> 7007979], ["Zola Levitt Presents the Dark Prince" (2009) -> Dane, Benjamin -> Soul Flyers (2008) -> Lett, Naima -> The Curious Case of Benjamin Button (2008) -> featured in "De were] 
+
+  path: 1[1157569 -> 8005267], ["Zola Levitt Presents the Dark Prince" (2009) -> antichrist,devil,docudrama,israel,last-days,lucifer,prophecy,satan] 
+
+  path: 2[1157569 -> 2077129 -> 1727010 -> 2133556 -> 1531135 -> 6018189], ["Zola Levitt Presents the Dark Prince" (2009) -> Dane, Benjamin -> Still Born (2009) -> Gundersen, Chad -> Like Dandelion Dust (2009) -> A compelling drama t] 
+
+-----------------------------------------
+ResultDestNodes: [1246757, 2407979, 2093178, 2133701, 2264834, 2162440, 2462492, 1851126, 1893512, 1157569]
+ResultRelevs: [8.251359939575195, 7.554624557495117, 7.554624557495117, 6.851602554321289, 6.825647354125977, 6.730612754821777, 6.730612754821777, 6.528140068054199, 6.528140068054199, 6.398775577545166]
+AvgResultRelev: 6.9954140186309814
+AvgResultDissimilarity: 0.7022222280502319
+Num of entries retrieved from the KNLists: 1790
+Num of entries retrieved from NKMaps: 2939
+Num of answer trees explored: 958
+Num of answer tree sets created: 2388357
+Num of answer tree sets removed: 56179
+Max Num of answer tree sets in Q[]: 2388357
+
+Div Top-k Search by Astar1, k=10
+[academy, award, drama]
+srcNodes: [8009141, 8008705, 2091468]
+  path: 0[1246757 -> 8009141], [Black, White and Blues (2010) -> apostrophe-in-title,color-in-title,cult-director,nashville,nashville-tennessee,punctuation-in-title,tennessee] 
+
+  path: 1[1246757 -> 2413628 -> 1401808 -> 2248296 -> 1236408 -> 8008705], [Black, White and Blues (2010) -> McGoohan, Catherine -> Glory Road (2006) -> Nolan, E.J. -> Believe in Me (2006) -> high-school-basketball,oklahoma] 
+
+  path: 2[1246757 -> 2093178 -> 919977 -> 2042887 -> 1727649 -> 2091468], [Black, White and Blues (2010) -> Duncan, Michael Clarke -> "The Brian McKnight Show" (2009) {(2010-02-20)} -> Brown, Chris (XXV) -> Stomp the Yard (2007) -> Drama, DJ] 
+
+srcNodes: [8009141, 8008705, 8015917]
+  path: 0[2407979 -> 1246757 -> 8009141], [Manning, Taryn -> Black, White and Blues (2010) -> apostrophe-in-title,color-in-title,cult-director,nashville,nashville-tennessee,punctuation-in-title,tennessee] 
+
+  path: 1[2407979 -> 1540621 -> 2002192 -> 1236408 -> 8008705], [Manning, Taryn -> Love Ranch (2010) -> Adamson, Ryil -> Believe in Me (2006) -> high-school-basketball,oklahoma] 
+
+  path: 2[2407979 -> 1783320 -> 2020848 -> 1393072 -> 8015917], [Manning, Taryn -> The Job (2009) -> Bardha, Ele -> Game of Death (2010) -> assassin,assassination-attempt,bodyguard,diplomat,hospital,nurse] 
+
+srcNodes: [8009141, 8008705, 2091468]
+  path: 0[2093178 -> 1246757 -> 8009141], [Duncan, Michael Clarke -> Black, White and Blues (2010) -> apostrophe-in-title,color-in-title,cult-director,nashville,nashville-tennessee,punctuation-in-title,tennessee] 
+
+  path: 1[2093178 -> 1251242 -> 2133701 -> 1236408 -> 8008705], [Duncan, Michael Clarke -> Boffo! Tinseltown's Bombs and Blockbusters (2006) -> Gunton, Bob -> Believe in Me (2006) -> high-school-basketball,oklahoma] 
+
+  path: 2[2093178 -> 919977 -> 2042887 -> 1727649 -> 2091468], [Duncan, Michael Clarke -> "The Brian McKnight Show" (2009) {(2010-02-20)} -> Brown, Chris (XXV) -> Stomp the Yard (2007) -> Drama, DJ] 
+
+srcNodes: [8009141, 8008705, 8039430]
+  path: 0[2133701 -> 1251242 -> 2093178 -> 1246757 -> 8009141], [Gunton, Bob -> Boffo! Tinseltown's Bombs and Blockbusters (2006) -> Duncan, Michael Clarke -> Black, White and Blues (2010) -> apostrophe-in-title,color-in-title,cult-director,nashville,nashville-tennessee,punctuation-in-title,tennessee] 
+
+  path: 1[2133701 -> 1236408 -> 8008705], [Gunton, Bob -> Believe in Me (2006) -> high-school-basketball,oklahoma] 
+
+  path: 2[2133701 -> 1816041 -> 2152872 -> 1891664 -> 8039430], [Gunton, Bob -> The Trial (2010) -> Howard, Rance -> Yohan - Barnevandrer (2010) -> 1890s,aggression,animal-killing,animal-on-fire,animal-trap,bear,bear-cub,bear-trap,beating-a-child,birthday,brother-brother-relationship,bullying,cameo,child-labor,child-laborer,child-servant,child-wanderer,chopping-wood,class-differences,cult-favorite,dead-cow,death-of-baby,down's-syndrome,eating-excrement,entertainment,evil-man,falling-on-ice,father-son-relationship,female-reporter,ferryman,fiddler,fire,flute,fox,friendship,funeral,grandchild,great-grandfather,gun,gypsy,gypsy-troup,harmonica,herd,herder,horse-and-carriage,large-family,little-brother,man-in-a-wheelchair,market,mean-brother,mother-son-relationship,near-drowning,nightmare,norway,oatmeal,older-version-of-self,on-the-run,orange,pastry,pig,police-officer,poverty,presumed-dead,rifle,russian,school,servant,sheep,ship,spying,stealing,tame-bear,tea-party,winter,younger-version-of-self] 
+
+srcNodes: [8009141, 8008705, 7003582]
+  path: 0[2264834 -> 1246757 -> 8009141], [Perkins, Lee (I) -> Black, White and Blues (2010) -> apostrophe-in-title,color-in-title,cult-director,nashville,nashville-tennessee,punctuation-in-title,tennessee] 
+
+  path: 1[2264834 -> 1635813 -> 2092698 -> 1236408 -> 8008705], [Perkins, Lee (I) -> Pieces of Eight (2006) -> Dugan, Sean (II) -> Believe in Me (2006) -> high-school-basketball,oklahoma] 
+
+  path: 2[2264834 -> 1711430 -> 2172536 -> 1290127 -> 7003582], [Perkins, Lee (I) -> Slime City Massacre (2010) -> Kaufman, Lloyd -> Confessions of a Teenage Filmmaker: The Dan Nastro Story (2006) -> references Confessio] 
+
+srcNodes: [8009141, 8023433, 2091468]
+  path: 0[2162440 -> 919977 -> 2093178 -> 1246757 -> 8009141], [Jean, Wyclef -> "The Brian McKnight Show" (2009) {(2010-02-20)} -> Duncan, Michael Clarke -> Black, White and Blues (2010) -> apostrophe-in-title,color-in-title,cult-director,nashville,nashville-tennessee,punctuation-in-title,tennessee] 
+
+  path: 1[2162440 -> 1664440 -> 2318715 -> 1569436 -> 8023433], [Jean, Wyclef -> Redline (2007) -> Cabral, Monica -> Mirror (2007/I) -> cheating,infidelity,karma,mirror] 
+
+  path: 2[2162440 -> 980022 -> 2091468], [Jean, Wyclef -> "The Mo'Nique Show" (2009) {(2009-12-08)} -> Drama, DJ] 
+
+srcNodes: [8009141, 8008705, 8037988]
+  path: 0[2462492 -> 1851126 -> 2407979 -> 1246757 -> 8009141], [Shaye, Lin -> Unbeatable Harold (2006) -> Manning, Taryn -> Black, White and Blues (2010) -> apostrophe-in-title,color-in-title,cult-director,nashville,nashville-tennessee,punctuation-in-title,tennessee] 
+
+  path: 1[2462492 -> 1204127 -> 2084754 -> 1236408 -> 8008705], [Shaye, Lin -> American Cowslip (2009) -> Dern, Bruce -> Believe in Me (2006) -> high-school-basketball,oklahoma] 
+
+  path: 2[2462492 -> 1863422 -> 8037988], [Shaye, Lin -> VideoDome Rent-O-Rama (2010) -> adult-film,independent-film,period-drama,spoof,student-film,surrealism,women] 
+
+srcNodes: [8009141, 8023433, 8037988]
+  path: 0[1851126 -> 2407979 -> 1246757 -> 8009141], [Unbeatable Harold (2006) -> Manning, Taryn -> Black, White and Blues (2010) -> apostrophe-in-title,color-in-title,cult-director,nashville,nashville-tennessee,punctuation-in-title,tennessee] 
+
+  path: 1[1851126 -> 2026553 -> 1313597 -> 2234688 -> 1569436 -> 8023433], [Unbeatable Harold (2006) -> Belli, Willam -> Defying Gravity (2008) -> Moore, Gavin (III) -> Mirror (2007/I) -> cheating,infidelity,karma,mirror] 
+
+  path: 2[1851126 -> 2462492 -> 1863422 -> 8037988], [Unbeatable Harold (2006) -> Shaye, Lin -> VideoDome Rent-O-Rama (2010) -> adult-film,independent-film,period-drama,spoof,student-film,surrealism,women] 
+
+srcNodes: [8009141, 8021864, 8009148]
+  path: 0[1893512 -> 2407979 -> 1246757 -> 8009141], [Your Name Here (2008/I) -> Manning, Taryn -> Black, White and Blues (2010) -> apostrophe-in-title,color-in-title,cult-director,nashville,nashville-tennessee,punctuation-in-title,tennessee] 
+
+  path: 1[1893512 -> 2190716 -> 1725244 -> 2480019 -> 1535167 -> 8021864], [Your Name Here (2008/I) -> Lariviere, Aaron -> Stars and Suns (2008) -> Townsend, Najarra -> Lockdown (2006) -> school,shooting,stress] 
+
+  path: 2[1893512 -> 2380206 -> 1246834 -> 8009148], [Your Name Here (2008/I) -> Jaye, Cassie -> Blackeye (2009) -> abuse,domestic-violence] 
+
+srcNodes: [7007979, 8005267, 6018189]
+  path: 0[1157569 -> 2077129 -> 1718494 -> 2399572 -> 1765485 -> 7007979], ["Zola Levitt Presents the Dark Prince" (2009) -> Dane, Benjamin -> Soul Flyers (2008) -> Lett, Naima -> The Curious Case of Benjamin Button (2008) -> featured in "De were] 
+
+  path: 1[1157569 -> 8005267], ["Zola Levitt Presents the Dark Prince" (2009) -> antichrist,devil,docudrama,israel,last-days,lucifer,prophecy,satan] 
+
+  path: 2[1157569 -> 2077129 -> 1727010 -> 2133556 -> 1531135 -> 6018189], ["Zola Levitt Presents the Dark Prince" (2009) -> Dane, Benjamin -> Still Born (2009) -> Gundersen, Chad -> Like Dandelion Dust (2009) -> A compelling drama t] 
+
+-----------------------------------------
+ResultDestNodes: [1246757, 2407979, 2093178, 2133701, 2264834, 2162440, 2462492, 1851126, 1893512, 1157569]
+ResultRelevs: [8.251359939575195, 7.554624557495117, 7.554624557495117, 6.851602554321289, 6.825647354125977, 6.730612754821777, 6.730612754821777, 6.528140068054199, 6.528140068054199, 6.398775577545166]
+AvgResultRelev: 6.9954140186309814
+AvgResultDissimilarity: 0.7022222280502319
+Num of entries retrieved from the KNLists: 1790
+Num of entries retrieved from NKMaps: 2939
+Num of answer trees explored: 958
+Num of states created: 3684317
+Num of states explored: 3683506
+Num of heuristic search performed: 17
+Max Num of answer tree sets in Q[]: 45214
+
+Div Top-k Search by Astar1, k=10
+[academy, award, drama]
+srcNodes: [8009141, 8008705, 2091468]
+  path: 0[1246757 -> 8009141], [Black, White and Blues (2010) -> apostrophe-in-title,color-in-title,cult-director,nashville,nashville-tennessee,punctuation-in-title,tennessee] 
+
+  path: 1[1246757 -> 2413628 -> 1401808 -> 2248296 -> 1236408 -> 8008705], [Black, White and Blues (2010) -> McGoohan, Catherine -> Glory Road (2006) -> Nolan, E.J. -> Believe in Me (2006) -> high-school-basketball,oklahoma] 
+
+  path: 2[1246757 -> 2093178 -> 919977 -> 2042887 -> 1727649 -> 2091468], [Black, White and Blues (2010) -> Duncan, Michael Clarke -> "The Brian McKnight Show" (2009) {(2010-02-20)} -> Brown, Chris (XXV) -> Stomp the Yard (2007) -> Drama, DJ] 
+
+srcNodes: [8009141, 8008705, 8015917]
+  path: 0[2407979 -> 1246757 -> 8009141], [Manning, Taryn -> Black, White and Blues (2010) -> apostrophe-in-title,color-in-title,cult-director,nashville,nashville-tennessee,punctuation-in-title,tennessee] 
+
+  path: 1[2407979 -> 1540621 -> 2002192 -> 1236408 -> 8008705], [Manning, Taryn -> Love Ranch (2010) -> Adamson, Ryil -> Believe in Me (2006) -> high-school-basketball,oklahoma] 
+
+  path: 2[2407979 -> 1783320 -> 2020848 -> 1393072 -> 8015917], [Manning, Taryn -> The Job (2009) -> Bardha, Ele -> Game of Death (2010) -> assassin,assassination-attempt,bodyguard,diplomat,hospital,nurse] 
+
+srcNodes: [8009141, 8008705, 2091468]
+  path: 0[2093178 -> 1246757 -> 8009141], [Duncan, Michael Clarke -> Black, White and Blues (2010) -> apostrophe-in-title,color-in-title,cult-director,nashville,nashville-tennessee,punctuation-in-title,tennessee] 
+
+  path: 1[2093178 -> 1251242 -> 2133701 -> 1236408 -> 8008705], [Duncan, Michael Clarke -> Boffo! Tinseltown's Bombs and Blockbusters (2006) -> Gunton, Bob -> Believe in Me (2006) -> high-school-basketball,oklahoma] 
+
+  path: 2[2093178 -> 919977 -> 2042887 -> 1727649 -> 2091468], [Duncan, Michael Clarke -> "The Brian McKnight Show" (2009) {(2010-02-20)} -> Brown, Chris (XXV) -> Stomp the Yard (2007) -> Drama, DJ] 
+
+srcNodes: [8009141, 8008705, 8039430]
+  path: 0[2133701 -> 1251242 -> 2093178 -> 1246757 -> 8009141], [Gunton, Bob -> Boffo! Tinseltown's Bombs and Blockbusters (2006) -> Duncan, Michael Clarke -> Black, White and Blues (2010) -> apostrophe-in-title,color-in-title,cult-director,nashville,nashville-tennessee,punctuation-in-title,tennessee] 
+
+  path: 1[2133701 -> 1236408 -> 8008705], [Gunton, Bob -> Believe in Me (2006) -> high-school-basketball,oklahoma] 
+
+  path: 2[2133701 -> 1816041 -> 2152872 -> 1891664 -> 8039430], [Gunton, Bob -> The Trial (2010) -> Howard, Rance -> Yohan - Barnevandrer (2010) -> 1890s,aggression,animal-killing,animal-on-fire,animal-trap,bear,bear-cub,bear-trap,beating-a-child,birthday,brother-brother-relationship,bullying,cameo,child-labor,child-laborer,child-servant,child-wanderer,chopping-wood,class-differences,cult-favorite,dead-cow,death-of-baby,down's-syndrome,eating-excrement,entertainment,evil-man,falling-on-ice,father-son-relationship,female-reporter,ferryman,fiddler,fire,flute,fox,friendship,funeral,grandchild,great-grandfather,gun,gypsy,gypsy-troup,harmonica,herd,herder,horse-and-carriage,large-family,little-brother,man-in-a-wheelchair,market,mean-brother,mother-son-relationship,near-drowning,nightmare,norway,oatmeal,older-version-of-self,on-the-run,orange,pastry,pig,police-officer,poverty,presumed-dead,rifle,russian,school,servant,sheep,ship,spying,stealing,tame-bear,tea-party,winter,younger-version-of-self] 
+
+srcNodes: [8009141, 8008705, 7003582]
+  path: 0[2264834 -> 1246757 -> 8009141], [Perkins, Lee (I) -> Black, White and Blues (2010) -> apostrophe-in-title,color-in-title,cult-director,nashville,nashville-tennessee,punctuation-in-title,tennessee] 
+
+  path: 1[2264834 -> 1635813 -> 2092698 -> 1236408 -> 8008705], [Perkins, Lee (I) -> Pieces of Eight (2006) -> Dugan, Sean (II) -> Believe in Me (2006) -> high-school-basketball,oklahoma] 
+
+  path: 2[2264834 -> 1711430 -> 2172536 -> 1290127 -> 7003582], [Perkins, Lee (I) -> Slime City Massacre (2010) -> Kaufman, Lloyd -> Confessions of a Teenage Filmmaker: The Dan Nastro Story (2006) -> references Confessio] 
+
+srcNodes: [8009141, 8023433, 2091468]
+  path: 0[2162440 -> 919977 -> 2093178 -> 1246757 -> 8009141], [Jean, Wyclef -> "The Brian McKnight Show" (2009) {(2010-02-20)} -> Duncan, Michael Clarke -> Black, White and Blues (2010) -> apostrophe-in-title,color-in-title,cult-director,nashville,nashville-tennessee,punctuation-in-title,tennessee] 
+
+  path: 1[2162440 -> 1664440 -> 2318715 -> 1569436 -> 8023433], [Jean, Wyclef -> Redline (2007) -> Cabral, Monica -> Mirror (2007/I) -> cheating,infidelity,karma,mirror] 
+
+  path: 2[2162440 -> 980022 -> 2091468], [Jean, Wyclef -> "The Mo'Nique Show" (2009) {(2009-12-08)} -> Drama, DJ] 
+
+srcNodes: [8009141, 8008705, 8037988]
+  path: 0[2462492 -> 1851126 -> 2407979 -> 1246757 -> 8009141], [Shaye, Lin -> Unbeatable Harold (2006) -> Manning, Taryn -> Black, White and Blues (2010) -> apostrophe-in-title,color-in-title,cult-director,nashville,nashville-tennessee,punctuation-in-title,tennessee] 
+
+  path: 1[2462492 -> 1204127 -> 2084754 -> 1236408 -> 8008705], [Shaye, Lin -> American Cowslip (2009) -> Dern, Bruce -> Believe in Me (2006) -> high-school-basketball,oklahoma] 
+
+  path: 2[2462492 -> 1863422 -> 8037988], [Shaye, Lin -> VideoDome Rent-O-Rama (2010) -> adult-film,independent-film,period-drama,spoof,student-film,surrealism,women] 
+
+srcNodes: [8009141, 8023433, 8037988]
+  path: 0[1851126 -> 2407979 -> 1246757 -> 8009141], [Unbeatable Harold (2006) -> Manning, Taryn -> Black, White and Blues (2010) -> apostrophe-in-title,color-in-title,cult-director,nashville,nashville-tennessee,punctuation-in-title,tennessee] 
+
+  path: 1[1851126 -> 2026553 -> 1313597 -> 2234688 -> 1569436 -> 8023433], [Unbeatable Harold (2006) -> Belli, Willam -> Defying Gravity (2008) -> Moore, Gavin (III) -> Mirror (2007/I) -> cheating,infidelity,karma,mirror] 
+
+  path: 2[1851126 -> 2462492 -> 1863422 -> 8037988], [Unbeatable Harold (2006) -> Shaye, Lin -> VideoDome Rent-O-Rama (2010) -> adult-film,independent-film,period-drama,spoof,student-film,surrealism,women] 
+
+srcNodes: [8009141, 8021864, 8009148]
+  path: 0[1893512 -> 2407979 -> 1246757 -> 8009141], [Your Name Here (2008/I) -> Manning, Taryn -> Black, White and Blues (2010) -> apostrophe-in-title,color-in-title,cult-director,nashville,nashville-tennessee,punctuation-in-title,tennessee] 
+
+  path: 1[1893512 -> 2190716 -> 1725244 -> 2480019 -> 1535167 -> 8021864], [Your Name Here (2008/I) -> Lariviere, Aaron -> Stars and Suns (2008) -> Townsend, Najarra -> Lockdown (2006) -> school,shooting,stress] 
+
+  path: 2[1893512 -> 2380206 -> 1246834 -> 8009148], [Your Name Here (2008/I) -> Jaye, Cassie -> Blackeye (2009) -> abuse,domestic-violence] 
+
+srcNodes: [7007979, 8005267, 6018189]
+  path: 0[1157569 -> 2077129 -> 1718494 -> 2399572 -> 1765485 -> 7007979], ["Zola Levitt Presents the Dark Prince" (2009) -> Dane, Benjamin -> Soul Flyers (2008) -> Lett, Naima -> The Curious Case of Benjamin Button (2008) -> featured in "De were] 
+
+  path: 1[1157569 -> 8005267], ["Zola Levitt Presents the Dark Prince" (2009) -> antichrist,devil,docudrama,israel,last-days,lucifer,prophecy,satan] 
+
+  path: 2[1157569 -> 2077129 -> 1727010 -> 2133556 -> 1531135 -> 6018189], ["Zola Levitt Presents the Dark Prince" (2009) -> Dane, Benjamin -> Still Born (2009) -> Gundersen, Chad -> Like Dandelion Dust (2009) -> A compelling drama t] 
+
+-----------------------------------------
+ResultDestNodes: [1246757, 2407979, 2093178, 2133701, 2264834, 2162440, 2462492, 1851126, 1893512, 1157569]
+ResultRelevs: [8.251359939575195, 7.554624557495117, 7.554624557495117, 6.851602554321289, 6.825647354125977, 6.730612754821777, 6.730612754821777, 6.528140068054199, 6.528140068054199, 6.398775577545166]
+AvgResultRelev: 6.9954140186309814
+AvgResultDissimilarity: 0.7022222280502319
+Num of entries retrieved from the KNLists: 1790
+Num of entries retrieved from NKMaps: 2939
+Num of answer trees explored: 958
+Num of states created: 5237
+Num of states explored: 438
+Num of heuristic search performed: 17
+Max Num of answer tree sets in Q[]: 811
+
+Div Top-k Search by Astar1, k=10
+[academy, award, drama]
+srcNodes: [8009141, 8008705, 2091468]
+  path: 0[1246757 -> 8009141], [Black, White and Blues (2010) -> apostrophe-in-title,color-in-title,cult-director,nashville,nashville-tennessee,punctuation-in-title,tennessee] 
+
+  path: 1[1246757 -> 2413628 -> 1401808 -> 2248296 -> 1236408 -> 8008705], [Black, White and Blues (2010) -> McGoohan, Catherine -> Glory Road (2006) -> Nolan, E.J. -> Believe in Me (2006) -> high-school-basketball,oklahoma] 
+
+  path: 2[1246757 -> 2093178 -> 919977 -> 2042887 -> 1727649 -> 2091468], [Black, White and Blues (2010) -> Duncan, Michael Clarke -> "The Brian McKnight Show" (2009) {(2010-02-20)} -> Brown, Chris (XXV) -> Stomp the Yard (2007) -> Drama, DJ] 
+
+srcNodes: [8009141, 8008705, 8015917]
+  path: 0[2407979 -> 1246757 -> 8009141], [Manning, Taryn -> Black, White and Blues (2010) -> apostrophe-in-title,color-in-title,cult-director,nashville,nashville-tennessee,punctuation-in-title,tennessee] 
+
+  path: 1[2407979 -> 1540621 -> 2002192 -> 1236408 -> 8008705], [Manning, Taryn -> Love Ranch (2010) -> Adamson, Ryil -> Believe in Me (2006) -> high-school-basketball,oklahoma] 
+
+  path: 2[2407979 -> 1783320 -> 2020848 -> 1393072 -> 8015917], [Manning, Taryn -> The Job (2009) -> Bardha, Ele -> Game of Death (2010) -> assassin,assassination-attempt,bodyguard,diplomat,hospital,nurse] 
+
+srcNodes: [8009141, 8008705, 2091468]
+  path: 0[2093178 -> 1246757 -> 8009141], [Duncan, Michael Clarke -> Black, White and Blues (2010) -> apostrophe-in-title,color-in-title,cult-director,nashville,nashville-tennessee,punctuation-in-title,tennessee] 
+
+  path: 1[2093178 -> 1251242 -> 2133701 -> 1236408 -> 8008705], [Duncan, Michael Clarke -> Boffo! Tinseltown's Bombs and Blockbusters (2006) -> Gunton, Bob -> Believe in Me (2006) -> high-school-basketball,oklahoma] 
+
+  path: 2[2093178 -> 919977 -> 2042887 -> 1727649 -> 2091468], [Duncan, Michael Clarke -> "The Brian McKnight Show" (2009) {(2010-02-20)} -> Brown, Chris (XXV) -> Stomp the Yard (2007) -> Drama, DJ] 
+
+srcNodes: [8009141, 8008705, 8039430]
+  path: 0[2133701 -> 1251242 -> 2093178 -> 1246757 -> 8009141], [Gunton, Bob -> Boffo! Tinseltown's Bombs and Blockbusters (2006) -> Duncan, Michael Clarke -> Black, White and Blues (2010) -> apostrophe-in-title,color-in-title,cult-director,nashville,nashville-tennessee,punctuation-in-title,tennessee] 
+
+  path: 1[2133701 -> 1236408 -> 8008705], [Gunton, Bob -> Believe in Me (2006) -> high-school-basketball,oklahoma] 
+
+  path: 2[2133701 -> 1816041 -> 2152872 -> 1891664 -> 8039430], [Gunton, Bob -> The Trial (2010) -> Howard, Rance -> Yohan - Barnevandrer (2010) -> 1890s,aggression,animal-killing,animal-on-fire,animal-trap,bear,bear-cub,bear-trap,beating-a-child,birthday,brother-brother-relationship,bullying,cameo,child-labor,child-laborer,child-servant,child-wanderer,chopping-wood,class-differences,cult-favorite,dead-cow,death-of-baby,down's-syndrome,eating-excrement,entertainment,evil-man,falling-on-ice,father-son-relationship,female-reporter,ferryman,fiddler,fire,flute,fox,friendship,funeral,grandchild,great-grandfather,gun,gypsy,gypsy-troup,harmonica,herd,herder,horse-and-carriage,large-family,little-brother,man-in-a-wheelchair,market,mean-brother,mother-son-relationship,near-drowning,nightmare,norway,oatmeal,older-version-of-self,on-the-run,orange,pastry,pig,police-officer,poverty,presumed-dead,rifle,russian,school,servant,sheep,ship,spying,stealing,tame-bear,tea-party,winter,younger-version-of-self] 
+
+srcNodes: [8009141, 8008705, 7003582]
+  path: 0[2264834 -> 1246757 -> 8009141], [Perkins, Lee (I) -> Black, White and Blues (2010) -> apostrophe-in-title,color-in-title,cult-director,nashville,nashville-tennessee,punctuation-in-title,tennessee] 
+
+  path: 1[2264834 -> 1635813 -> 2092698 -> 1236408 -> 8008705], [Perkins, Lee (I) -> Pieces of Eight (2006) -> Dugan, Sean (II) -> Believe in Me (2006) -> high-school-basketball,oklahoma] 
+
+  path: 2[2264834 -> 1711430 -> 2172536 -> 1290127 -> 7003582], [Perkins, Lee (I) -> Slime City Massacre (2010) -> Kaufman, Lloyd -> Confessions of a Teenage Filmmaker: The Dan Nastro Story (2006) -> references Confessio] 
+
+srcNodes: [8009141, 8023433, 2091468]
+  path: 0[2162440 -> 919977 -> 2093178 -> 1246757 -> 8009141], [Jean, Wyclef -> "The Brian McKnight Show" (2009) {(2010-02-20)} -> Duncan, Michael Clarke -> Black, White and Blues (2010) -> apostrophe-in-title,color-in-title,cult-director,nashville,nashville-tennessee,punctuation-in-title,tennessee] 
+
+  path: 1[2162440 -> 1664440 -> 2318715 -> 1569436 -> 8023433], [Jean, Wyclef -> Redline (2007) -> Cabral, Monica -> Mirror (2007/I) -> cheating,infidelity,karma,mirror] 
+
+  path: 2[2162440 -> 980022 -> 2091468], [Jean, Wyclef -> "The Mo'Nique Show" (2009) {(2009-12-08)} -> Drama, DJ] 
+
+srcNodes: [8009141, 8008705, 8037988]
+  path: 0[2462492 -> 1851126 -> 2407979 -> 1246757 -> 8009141], [Shaye, Lin -> Unbeatable Harold (2006) -> Manning, Taryn -> Black, White and Blues (2010) -> apostrophe-in-title,color-in-title,cult-director,nashville,nashville-tennessee,punctuation-in-title,tennessee] 
+
+  path: 1[2462492 -> 1204127 -> 2084754 -> 1236408 -> 8008705], [Shaye, Lin -> American Cowslip (2009) -> Dern, Bruce -> Believe in Me (2006) -> high-school-basketball,oklahoma] 
+
+  path: 2[2462492 -> 1863422 -> 8037988], [Shaye, Lin -> VideoDome Rent-O-Rama (2010) -> adult-film,independent-film,period-drama,spoof,student-film,surrealism,women] 
+
+srcNodes: [8009141, 8023433, 8037988]
+  path: 0[1851126 -> 2407979 -> 1246757 -> 8009141], [Unbeatable Harold (2006) -> Manning, Taryn -> Black, White and Blues (2010) -> apostrophe-in-title,color-in-title,cult-director,nashville,nashville-tennessee,punctuation-in-title,tennessee] 
+
+  path: 1[1851126 -> 2026553 -> 1313597 -> 2234688 -> 1569436 -> 8023433], [Unbeatable Harold (2006) -> Belli, Willam -> Defying Gravity (2008) -> Moore, Gavin (III) -> Mirror (2007/I) -> cheating,infidelity,karma,mirror] 
+
+  path: 2[1851126 -> 2462492 -> 1863422 -> 8037988], [Unbeatable Harold (2006) -> Shaye, Lin -> VideoDome Rent-O-Rama (2010) -> adult-film,independent-film,period-drama,spoof,student-film,surrealism,women] 
+
+srcNodes: [8009141, 8021864, 8009148]
+  path: 0[1893512 -> 2407979 -> 1246757 -> 8009141], [Your Name Here (2008/I) -> Manning, Taryn -> Black, White and Blues (2010) -> apostrophe-in-title,color-in-title,cult-director,nashville,nashville-tennessee,punctuation-in-title,tennessee] 
+
+  path: 1[1893512 -> 2190716 -> 1725244 -> 2480019 -> 1535167 -> 8021864], [Your Name Here (2008/I) -> Lariviere, Aaron -> Stars and Suns (2008) -> Townsend, Najarra -> Lockdown (2006) -> school,shooting,stress] 
+
+  path: 2[1893512 -> 2380206 -> 1246834 -> 8009148], [Your Name Here (2008/I) -> Jaye, Cassie -> Blackeye (2009) -> abuse,domestic-violence] 
+
+srcNodes: [7007979, 8005267, 6018189]
+  path: 0[1157569 -> 2077129 -> 1718494 -> 2399572 -> 1765485 -> 7007979], ["Zola Levitt Presents the Dark Prince" (2009) -> Dane, Benjamin -> Soul Flyers (2008) -> Lett, Naima -> The Curious Case of Benjamin Button (2008) -> featured in "De were] 
+
+  path: 1[1157569 -> 8005267], ["Zola Levitt Presents the Dark Prince" (2009) -> antichrist,devil,docudrama,israel,last-days,lucifer,prophecy,satan] 
+
+  path: 2[1157569 -> 2077129 -> 1727010 -> 2133556 -> 1531135 -> 6018189], ["Zola Levitt Presents the Dark Prince" (2009) -> Dane, Benjamin -> Still Born (2009) -> Gundersen, Chad -> Like Dandelion Dust (2009) -> A compelling drama t] 
+
+-----------------------------------------
+ResultDestNodes: [1246757, 2407979, 2093178, 2133701, 2264834, 2162440, 2462492, 1851126, 1893512, 1157569]
+ResultRelevs: [8.251359939575195, 7.554624557495117, 7.554624557495117, 6.851602554321289, 6.825647354125977, 6.730612754821777, 6.730612754821777, 6.528140068054199, 6.528140068054199, 6.398775577545166]
+AvgResultRelev: 6.9954140186309814
+AvgResultDissimilarity: 0.7022222280502319
+Num of entries retrieved from the KNLists: 1790
+Num of entries retrieved from NKMaps: 2939
+Num of answer trees explored: 958
+Num of states created: 5237
+Num of states explored: 438
+Num of heuristic search performed: 17
+Max Num of answer tree sets in Q[]: 811
+

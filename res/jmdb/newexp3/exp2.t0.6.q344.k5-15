@@ -1,0 +1,3048 @@
+query: [romance, conflict, murder]
+Top-k Search by Blink-BDB, k=5
+[romance, conflict, murder]
+srcNodes: [5000002, 1372482, 8001318]
+  path: 0[1580926 -> 5000002], [Murmur (2004) -> Romance] 
+
+  path: 1[1580926 -> 2169253 -> 1238074 -> 2475829 -> 1372482], [Murmur (2004) -> Kirkwood, Langley -> Berserker (2004) -> Wuhrer, Kari -> Fatal Conflict (2000)] 
+
+  path: 2[1580926 -> 2169253 -> 1296214 -> 8001318], [Murmur (2004) -> Kirkwood, Langley -> Cross Line (2007) -> murder] 
+
+srcNodes: [5000002, 1372482, 8001318]
+  path: 0[2169253 -> 1580926 -> 5000002], [Kirkwood, Langley -> Murmur (2004) -> Romance] 
+
+  path: 1[2169253 -> 1238074 -> 2475829 -> 1372482], [Kirkwood, Langley -> Berserker (2004) -> Wuhrer, Kari -> Fatal Conflict (2000)] 
+
+  path: 2[2169253 -> 1296214 -> 8001318], [Kirkwood, Langley -> Cross Line (2007) -> murder] 
+
+srcNodes: [5000002, 1290249, 628459]
+  path: 0[1529128 -> 5000002], [Liberty, Maine (2001) -> Romance] 
+
+  path: 1[1529128 -> 2355989 -> 1290249], [Liberty, Maine (2001) -> Holloman, Laurel -> Conflict (2005/I)] 
+
+  path: 2[1529128 -> 2203026 -> 628459], [Liberty, Maine (2001) -> Martin, Barney (II) -> "Murder in Small Town X" (2001)] 
+
+srcNodes: [5000002, 1372482, 8001318]
+  path: 0[1296214 -> 2169253 -> 1580926 -> 5000002], [Cross Line (2007) -> Kirkwood, Langley -> Murmur (2004) -> Romance] 
+
+  path: 1[1296214 -> 2169253 -> 1238074 -> 2475829 -> 1372482], [Cross Line (2007) -> Kirkwood, Langley -> Berserker (2004) -> Wuhrer, Kari -> Fatal Conflict (2000)] 
+
+  path: 2[1296214 -> 8001318], [Cross Line (2007) -> murder] 
+
+srcNodes: [5000002, 1290249, 1580546]
+  path: 0[1464523 -> 5000002], [Jawani Diwani: A Youthful Joyride (2006) -> Romance] 
+
+  path: 1[1464523 -> 2308866 -> 1234927 -> 2277053 -> 1290249], [Jawani Diwani: A Youthful Joyride (2006) -> Chopra, Sherlyn -> Beeper (2002) -> Adams, Joey Lauren -> Conflict (2005/I)] 
+
+  path: 2[1464523 -> 2133416 -> 1580546], [Jawani Diwani: A Youthful Joyride (2006) -> Hashmi, Emraan -> Murder (2004)] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [1580926, 2169253, 1529128, 1296214, 1464523]
+ResultRelevs: [8.247442245483398, 8.208126068115234, 8.131951332092285, 8.03455638885498, 7.823226451873779]
+AvgResultRelev: 8.089060497283935
+AvgResultDissimilarity: 0.4333333333333333
+Num of entries retrieved from the lists: 1518
+Num of entries retrieved from NKMaps: 2429
+Num of answer trees explored: 743
+
+Div Top-k Search by Exhustive, k=5
+[romance, conflict, murder]
+srcNodes: [5000002, 1372482, 8001318]
+  path: 0[1580926 -> 5000002], [Murmur (2004) -> Romance] 
+
+  path: 1[1580926 -> 2169253 -> 1238074 -> 2475829 -> 1372482], [Murmur (2004) -> Kirkwood, Langley -> Berserker (2004) -> Wuhrer, Kari -> Fatal Conflict (2000)] 
+
+  path: 2[1580926 -> 2169253 -> 1296214 -> 8001318], [Murmur (2004) -> Kirkwood, Langley -> Cross Line (2007) -> murder] 
+
+srcNodes: [5000002, 1290249, 628459]
+  path: 0[1529128 -> 5000002], [Liberty, Maine (2001) -> Romance] 
+
+  path: 1[1529128 -> 2355989 -> 1290249], [Liberty, Maine (2001) -> Holloman, Laurel -> Conflict (2005/I)] 
+
+  path: 2[1529128 -> 2203026 -> 628459], [Liberty, Maine (2001) -> Martin, Barney (II) -> "Murder in Small Town X" (2001)] 
+
+srcNodes: [5001125, 1763891, 8036273]
+  path: 0[1763891 -> 5001125], [The Conflict of Ms. Boston (2010) -> Comedy,Drama,Romance,Short] 
+
+  path: 1[1763891 -> 1763891], [The Conflict of Ms. Boston (2010) -> The Conflict of Ms. Boston (2010)]
+  path: 2[1763891 -> 2452748 -> 1880362 -> 8036273], [The Conflict of Ms. Boston (2010) -> Streaty, Tia -> Who Shot Mamba? (2009) -> basketball,cult,independent-film,murder,snake] 
+
+srcNodes: [5000002, 1372482, 1709131]
+  path: 0[1235783 -> 5000002], [Behind the Seams (2000) -> Romance] 
+
+  path: 1[1235783 -> 2227601 -> 1312229 -> 2475829 -> 1372482], [Behind the Seams (2000) -> Musto, Michael (I) -> Death of a Dynasty (2003) -> Wuhrer, Kari -> Fatal Conflict (2000)] 
+
+  path: 2[1235783 -> 2400555 -> 1709131], [Behind the Seams (2000) -> Minter, Kristin -> Six Sex Scenes and a Murder (2008)] 
+
+srcNodes: [5000002, 1290259, 8001318]
+  path: 0[1206077 -> 2323097 -> 1759768 -> 5000002], [An American Carol (2008) -> Dionne, Nicole (I) -> The Broken Hearts Club (2009) -> Romance] 
+
+  path: 1[1206077 -> 2228525 -> 1290259], [An American Carol (2008) -> Naber, Joey -> Conflict in the Middle Table (2008)] 
+
+  path: 2[1206077 -> 2143116 -> 1802339 -> 8001318], [An American Carol (2008) -> Hopper, Dennis -> The Prophet's Game (2000) -> murder] 
+
+Dissims of Subsets and t:
+(0~0, 1) : 0.6666666666666666
+(0~1, 2) : 1.0
+(0~2, 3) : 0.6666666666666666
+(0~3, 4) : 0.6666666666666666
+-----------------------------------------
+ResultDestNodes: [1580926, 1529128, 1763891, 1235783, 1206077]
+ResultRelevs: [8.247442245483398, 8.131951332092285, 7.247816562652588, 7.2386064529418945, 7.132838249206543]
+AvgResultRelev: 7.599730968475342
+AvgResultDissimilarity: 0.7333333333333333
+Num of entries retrieved from the KNLists: 6798
+Num of entries retrieved from NKMaps: 11932
+Num of answer trees explored: 4587
+Num of answer tree sets created: 282
+Num of answer tree sets removed: 266
+
+Div Top-k Search by Astar02, k=5
+[romance, conflict, murder]
+srcNodes: [5000002, 1372482, 8001318]
+  path: 0[1580926 -> 5000002], [Murmur (2004) -> Romance] 
+
+  path: 1[1580926 -> 2169253 -> 1238074 -> 2475829 -> 1372482], [Murmur (2004) -> Kirkwood, Langley -> Berserker (2004) -> Wuhrer, Kari -> Fatal Conflict (2000)] 
+
+  path: 2[1580926 -> 2169253 -> 1296214 -> 8001318], [Murmur (2004) -> Kirkwood, Langley -> Cross Line (2007) -> murder] 
+
+srcNodes: [5000002, 1290249, 628459]
+  path: 0[1529128 -> 5000002], [Liberty, Maine (2001) -> Romance] 
+
+  path: 1[1529128 -> 2355989 -> 1290249], [Liberty, Maine (2001) -> Holloman, Laurel -> Conflict (2005/I)] 
+
+  path: 2[1529128 -> 2203026 -> 628459], [Liberty, Maine (2001) -> Martin, Barney (II) -> "Murder in Small Town X" (2001)] 
+
+srcNodes: [5001125, 1763891, 8036273]
+  path: 0[1763891 -> 5001125], [The Conflict of Ms. Boston (2010) -> Comedy,Drama,Romance,Short] 
+
+  path: 1[1763891 -> 1763891], [The Conflict of Ms. Boston (2010) -> The Conflict of Ms. Boston (2010)]
+  path: 2[1763891 -> 2452748 -> 1880362 -> 8036273], [The Conflict of Ms. Boston (2010) -> Streaty, Tia -> Who Shot Mamba? (2009) -> basketball,cult,independent-film,murder,snake] 
+
+srcNodes: [5000002, 1372482, 1709131]
+  path: 0[1235783 -> 5000002], [Behind the Seams (2000) -> Romance] 
+
+  path: 1[1235783 -> 2227601 -> 1312229 -> 2475829 -> 1372482], [Behind the Seams (2000) -> Musto, Michael (I) -> Death of a Dynasty (2003) -> Wuhrer, Kari -> Fatal Conflict (2000)] 
+
+  path: 2[1235783 -> 2400555 -> 1709131], [Behind the Seams (2000) -> Minter, Kristin -> Six Sex Scenes and a Murder (2008)] 
+
+srcNodes: [5000002, 1290259, 8001318]
+  path: 0[1206077 -> 2323097 -> 1759768 -> 5000002], [An American Carol (2008) -> Dionne, Nicole (I) -> The Broken Hearts Club (2009) -> Romance] 
+
+  path: 1[1206077 -> 2228525 -> 1290259], [An American Carol (2008) -> Naber, Joey -> Conflict in the Middle Table (2008)] 
+
+  path: 2[1206077 -> 2143116 -> 1802339 -> 8001318], [An American Carol (2008) -> Hopper, Dennis -> The Prophet's Game (2000) -> murder] 
+
+-----------------------------------------
+ResultDestNodes: [1580926, 1529128, 1763891, 1235783, 1206077]
+ResultRelevs: [8.247442245483398, 8.131951332092285, 7.247816562652588, 7.2386064529418945, 7.132838249206543]
+AvgResultRelev: 7.599730968475342
+AvgResultDissimilarity: 0.7333333333333333
+Num of entries retrieved from the KNLists: 6798
+Num of entries retrieved from NKMaps: 11932
+Num of answer trees explored: 4587
+Num of states created: 656
+Num of states explored: 601
+Num of heuristic search performed: 13
+
+Div Top-k Search by Astar1nc_ap_new, k=5
+[romance, conflict, murder]
+srcNodes: [5000002, 1372482, 8001318]
+  path: 0[1580926 -> 5000002], [Murmur (2004) -> Romance] 
+
+  path: 1[1580926 -> 2169253 -> 1238074 -> 2475829 -> 1372482], [Murmur (2004) -> Kirkwood, Langley -> Berserker (2004) -> Wuhrer, Kari -> Fatal Conflict (2000)] 
+
+  path: 2[1580926 -> 2169253 -> 1296214 -> 8001318], [Murmur (2004) -> Kirkwood, Langley -> Cross Line (2007) -> murder] 
+
+srcNodes: [5000002, 1290249, 628459]
+  path: 0[1529128 -> 5000002], [Liberty, Maine (2001) -> Romance] 
+
+  path: 1[1529128 -> 2355989 -> 1290249], [Liberty, Maine (2001) -> Holloman, Laurel -> Conflict (2005/I)] 
+
+  path: 2[1529128 -> 2203026 -> 628459], [Liberty, Maine (2001) -> Martin, Barney (II) -> "Murder in Small Town X" (2001)] 
+
+srcNodes: [5001125, 1763891, 8036273]
+  path: 0[1763891 -> 5001125], [The Conflict of Ms. Boston (2010) -> Comedy,Drama,Romance,Short] 
+
+  path: 1[1763891 -> 1763891], [The Conflict of Ms. Boston (2010) -> The Conflict of Ms. Boston (2010)]
+  path: 2[1763891 -> 2452748 -> 1880362 -> 8036273], [The Conflict of Ms. Boston (2010) -> Streaty, Tia -> Who Shot Mamba? (2009) -> basketball,cult,independent-film,murder,snake] 
+
+srcNodes: [5000002, 1372482, 1709131]
+  path: 0[1235783 -> 5000002], [Behind the Seams (2000) -> Romance] 
+
+  path: 1[1235783 -> 2227601 -> 1312229 -> 2475829 -> 1372482], [Behind the Seams (2000) -> Musto, Michael (I) -> Death of a Dynasty (2003) -> Wuhrer, Kari -> Fatal Conflict (2000)] 
+
+  path: 2[1235783 -> 2400555 -> 1709131], [Behind the Seams (2000) -> Minter, Kristin -> Six Sex Scenes and a Murder (2008)] 
+
+srcNodes: [5000002, 1290259, 8001318]
+  path: 0[1206077 -> 2323097 -> 1759768 -> 5000002], [An American Carol (2008) -> Dionne, Nicole (I) -> The Broken Hearts Club (2009) -> Romance] 
+
+  path: 1[1206077 -> 2228525 -> 1290259], [An American Carol (2008) -> Naber, Joey -> Conflict in the Middle Table (2008)] 
+
+  path: 2[1206077 -> 2143116 -> 1802339 -> 8001318], [An American Carol (2008) -> Hopper, Dennis -> The Prophet's Game (2000) -> murder] 
+
+-----------------------------------------
+ResultDestNodes: [1580926, 1529128, 1763891, 1235783, 1206077]
+ResultRelevs: [8.247442245483398, 8.131951332092285, 7.247816562652588, 7.2386064529418945, 7.132838249206543]
+AvgResultRelev: 7.599730968475342
+AvgResultDissimilarity: 0.7333333333333333
+Num of entries retrieved from the KNLists: 6798
+Num of entries retrieved from NKMaps: 11932
+Num of answer trees explored: 4587
+Num of states created: 79
+Num of states explored: 30
+Num of heuristic search performed: 5
+
+Top-k Search by Blink-BDB, k=10
+[romance, conflict, murder]
+srcNodes: [5000002, 1372482, 8001318]
+  path: 0[1580926 -> 5000002], [Murmur (2004) -> Romance] 
+
+  path: 1[1580926 -> 2169253 -> 1238074 -> 2475829 -> 1372482], [Murmur (2004) -> Kirkwood, Langley -> Berserker (2004) -> Wuhrer, Kari -> Fatal Conflict (2000)] 
+
+  path: 2[1580926 -> 2169253 -> 1296214 -> 8001318], [Murmur (2004) -> Kirkwood, Langley -> Cross Line (2007) -> murder] 
+
+srcNodes: [5000002, 1372482, 8001318]
+  path: 0[2169253 -> 1580926 -> 5000002], [Kirkwood, Langley -> Murmur (2004) -> Romance] 
+
+  path: 1[2169253 -> 1238074 -> 2475829 -> 1372482], [Kirkwood, Langley -> Berserker (2004) -> Wuhrer, Kari -> Fatal Conflict (2000)] 
+
+  path: 2[2169253 -> 1296214 -> 8001318], [Kirkwood, Langley -> Cross Line (2007) -> murder] 
+
+srcNodes: [5000002, 1290249, 628459]
+  path: 0[1529128 -> 5000002], [Liberty, Maine (2001) -> Romance] 
+
+  path: 1[1529128 -> 2355989 -> 1290249], [Liberty, Maine (2001) -> Holloman, Laurel -> Conflict (2005/I)] 
+
+  path: 2[1529128 -> 2203026 -> 628459], [Liberty, Maine (2001) -> Martin, Barney (II) -> "Murder in Small Town X" (2001)] 
+
+srcNodes: [5000002, 1372482, 8001318]
+  path: 0[1296214 -> 2169253 -> 1580926 -> 5000002], [Cross Line (2007) -> Kirkwood, Langley -> Murmur (2004) -> Romance] 
+
+  path: 1[1296214 -> 2169253 -> 1238074 -> 2475829 -> 1372482], [Cross Line (2007) -> Kirkwood, Langley -> Berserker (2004) -> Wuhrer, Kari -> Fatal Conflict (2000)] 
+
+  path: 2[1296214 -> 8001318], [Cross Line (2007) -> murder] 
+
+srcNodes: [5000002, 1290249, 1580546]
+  path: 0[1464523 -> 5000002], [Jawani Diwani: A Youthful Joyride (2006) -> Romance] 
+
+  path: 1[1464523 -> 2308866 -> 1234927 -> 2277053 -> 1290249], [Jawani Diwani: A Youthful Joyride (2006) -> Chopra, Sherlyn -> Beeper (2002) -> Adams, Joey Lauren -> Conflict (2005/I)] 
+
+  path: 2[1464523 -> 2133416 -> 1580546], [Jawani Diwani: A Youthful Joyride (2006) -> Hashmi, Emraan -> Murder (2004)] 
+
+srcNodes: [5000002, 1372482, 1794943]
+  path: 0[1372482 -> 2466461 -> 1671525 -> 5000002], [Fatal Conflict (2000) -> Vienne, Silvana -> River's Crossing (2008) -> Romance] 
+
+  path: 1[1372482 -> 1372482], [Fatal Conflict (2000) -> Fatal Conflict (2000)]
+  path: 2[1372482 -> 2237377 -> 1620211 -> 2077104 -> 1794943], [Fatal Conflict (2000) -> O'Keeffe, Miles -> Out of the Black (2001) -> DeBor, Curt -> The Murder (2002)] 
+
+srcNodes: [5000002, 1290249, 1732454]
+  path: 0[1290249 -> 2355989 -> 1529128 -> 5000002], [Conflict (2005/I) -> Holloman, Laurel -> Liberty, Maine (2001) -> Romance] 
+
+  path: 1[1290249 -> 1290249], [Conflict (2005/I) -> Conflict (2005/I)]
+  path: 2[1290249 -> 2215276 -> 1566499 -> 2182117 -> 1732454], [Conflict (2005/I) -> Mewes, Jason -> Midgets Vs. Mascots (2009) -> Lawson, Lon -> Suitable for Murder (2008)] 
+
+srcNodes: [5000002, 1290249, 1174421]
+  path: 0[2355989 -> 1529128 -> 5000002], [Holloman, Laurel -> Liberty, Maine (2001) -> Romance] 
+
+  path: 1[2355989 -> 1290249], [Holloman, Laurel -> Conflict (2005/I)] 
+
+  path: 2[2355989 -> 1575983 -> 2132391 -> 1174421], [Holloman, Laurel -> Morning (2001) -> Harris, R. Keith -> A Brush with Murder (2008)] 
+
+srcNodes: [5000002, 1372482, 1648416]
+  path: 0[1238651 -> 5000002], [Bestiar (2007) -> Romance] 
+
+  path: 1[1238651 -> 2386521 -> 1414549 -> 2144912 -> 1372482], [Bestiar (2007) -> Lustigova, Petra -> Hannibal Rising (2007) -> Hub, Martin -> Fatal Conflict (2000)] 
+
+  path: 2[1238651 -> 2365554 -> 1648416], [Bestiar (2007) -> Jurcová, Danica -> Primetime Murder (2000)] 
+
+srcNodes: [5000002, 1290249, 1417280]
+  path: 0[1336874 -> 5000002], [Dosti: Friends Forever (2005) -> Romance] 
+
+  path: 1[1336874 -> 2308866 -> 1234927 -> 2277053 -> 1290249], [Dosti: Friends Forever (2005) -> Chopra, Sherlyn -> Beeper (2002) -> Adams, Joey Lauren -> Conflict (2005/I)] 
+
+  path: 2[1336874 -> 2175832 -> 1417280], [Dosti: Friends Forever (2005) -> Kumar, Akshay (I) -> Hatya: The Murder (2004)] 
+
+-----------------------------------------
+Num of top-k answers: 10
+ResultDestNodes: [1580926, 2169253, 1529128, 1296214, 1464523, 1372482, 1290249, 2355989, 1238651, 1336874]
+ResultRelevs: [8.247442245483398, 8.208126068115234, 8.131951332092285, 8.03455638885498, 7.823226451873779, 7.80307674407959, 7.578701496124268, 7.488828182220459, 7.433481693267822, 7.433480262756348]
+AvgResultRelev: 7.818287086486817
+AvgResultDissimilarity: 0.49629629629629635
+Num of entries retrieved from the lists: 3873
+Num of entries retrieved from NKMaps: 6726
+Num of answer trees explored: 2581
+
+Div Top-k Search by Exhustive, k=10
+[romance, conflict, murder]
+srcNodes: [5000002, 1372482, 8001318]
+  path: 0[1580926 -> 5000002], [Murmur (2004) -> Romance] 
+
+  path: 1[1580926 -> 2169253 -> 1238074 -> 2475829 -> 1372482], [Murmur (2004) -> Kirkwood, Langley -> Berserker (2004) -> Wuhrer, Kari -> Fatal Conflict (2000)] 
+
+  path: 2[1580926 -> 2169253 -> 1296214 -> 8001318], [Murmur (2004) -> Kirkwood, Langley -> Cross Line (2007) -> murder] 
+
+srcNodes: [5000002, 1290249, 628459]
+  path: 0[1529128 -> 5000002], [Liberty, Maine (2001) -> Romance] 
+
+  path: 1[1529128 -> 2355989 -> 1290249], [Liberty, Maine (2001) -> Holloman, Laurel -> Conflict (2005/I)] 
+
+  path: 2[1529128 -> 2203026 -> 628459], [Liberty, Maine (2001) -> Martin, Barney (II) -> "Murder in Small Town X" (2001)] 
+
+srcNodes: [5001125, 1763891, 8036273]
+  path: 0[1763891 -> 5001125], [The Conflict of Ms. Boston (2010) -> Comedy,Drama,Romance,Short] 
+
+  path: 1[1763891 -> 1763891], [The Conflict of Ms. Boston (2010) -> The Conflict of Ms. Boston (2010)]
+  path: 2[1763891 -> 2452748 -> 1880362 -> 8036273], [The Conflict of Ms. Boston (2010) -> Streaty, Tia -> Who Shot Mamba? (2009) -> basketball,cult,independent-film,murder,snake] 
+
+srcNodes: [5000002, 1372482, 1709131]
+  path: 0[1235783 -> 5000002], [Behind the Seams (2000) -> Romance] 
+
+  path: 1[1235783 -> 2227601 -> 1312229 -> 2475829 -> 1372482], [Behind the Seams (2000) -> Musto, Michael (I) -> Death of a Dynasty (2003) -> Wuhrer, Kari -> Fatal Conflict (2000)] 
+
+  path: 2[1235783 -> 2400555 -> 1709131], [Behind the Seams (2000) -> Minter, Kristin -> Six Sex Scenes and a Murder (2008)] 
+
+srcNodes: [5000002, 1290259, 8001318]
+  path: 0[1206077 -> 2323097 -> 1759768 -> 5000002], [An American Carol (2008) -> Dionne, Nicole (I) -> The Broken Hearts Club (2009) -> Romance] 
+
+  path: 1[1206077 -> 2228525 -> 1290259], [An American Carol (2008) -> Naber, Joey -> Conflict in the Middle Table (2008)] 
+
+  path: 2[1206077 -> 2143116 -> 1802339 -> 8001318], [An American Carol (2008) -> Hopper, Dennis -> The Prophet's Game (2000) -> murder] 
+
+srcNodes: [5000002, 1763891, 8031313]
+  path: 0[1759768 -> 5000002], [The Broken Hearts Club (2009) -> Romance] 
+
+  path: 1[1759768 -> 2221773 -> 1880362 -> 2452748 -> 1763891], [The Broken Hearts Club (2009) -> Mooney, Dylan (I) -> Who Shot Mamba? (2009) -> Streaty, Tia -> The Conflict of Ms. Boston (2010)] 
+
+  path: 2[1759768 -> 2341444 -> 1779890 -> 8031313], [The Broken Hearts Club (2009) -> Gilbert, Maya -> The Hiding (2009) -> family-relationships,murder] 
+
+srcNodes: [5000002, 1290249, 8012480]
+  path: 0[1763751 -> 5000002], [The Completely Remarkable, Utterly Fabulous Transformation of a Regular Joe (2008) -> Romance] 
+
+  path: 1[1763751 -> 2064361 -> 1759393 -> 2277053 -> 1290249], [The Completely Remarkable, Utterly Fabulous Transformation of a Regular Joe (2008) -> Cook, Michael (VIII) -> The Break-Up (2006) -> Adams, Joey Lauren -> Conflict (2005/I)] 
+
+  path: 2[1763751 -> 2335808 -> 1390962 -> 8012480], [The Completely Remarkable, Utterly Fabulous Transformation of a Regular Joe (2008) -> Fradenburgh, Emily -> Further North (2008) -> crisis,murder,violence,winter] 
+
+srcNodes: [5000002, 1290249, 8002064]
+  path: 0[1768473 -> 5000002], [The Donor (2001) -> Romance] 
+
+  path: 1[1768473 -> 2293466 -> 1415669 -> 2358317 -> 1290249], [The Donor (2001) -> Black, Karen (I) -> Hard Luck (2001) -> Humphrey, Renée -> Conflict (2005/I)] 
+
+  path: 2[1768473 -> 2293466 -> 1179576 -> 8002064], [The Donor (2001) -> Black, Karen (I) -> A Light in the Darkness (2002) -> female-nudity,murder] 
+
+srcNodes: [5000000, 1290249, 8001318]
+  path: 0[1647634 -> 2069116 -> 1345261 -> 5000000], [Pretty Bird (2008) -> Crudup, Billy -> Eat Pray Love (2010) -> Romance,Drama] 
+
+  path: 1[1647634 -> 2113177 -> 1235152 -> 2062412 -> 1290249], [Pretty Bird (2008) -> Gelber, Jordan -> Before the Devil Knows You're Dead (2007) -> Colletti, Bob -> Conflict (2005/I)] 
+
+  path: 2[1647634 -> 8001318], [Pretty Bird (2008) -> murder] 
+
+srcNodes: [5000000, 1290249, 8001318]
+  path: 0[782339 -> 2070247 -> 1355768 -> 5000000], ["Sabbatical" (2007) -> Cupo, Antonio -> Elegy (2008/I) -> Romance,Drama] 
+
+  path: 1[782339 -> 2210723 -> 1706239 -> 2215276 -> 1290249], ["Sabbatical" (2007) -> McKenna, Patrick (I) -> Silent But Deadly (2011) -> Mewes, Jason -> Conflict (2005/I)] 
+
+  path: 2[782339 -> 8001318], ["Sabbatical" (2007) -> murder] 
+
+Dissims of Subsets and t:
+(0~0, 1) : 0.6666666666666666
+(0~1, 2) : 1.0
+(0~2, 3) : 0.6666666666666666
+(0~3, 4) : 0.6666666666666666
+(0~4, 5) : 0.6666666666666666
+(0~5, 6) : 0.6666666666666666
+(0~6, 7) : 0.619047619047619
+(0~7, 8) : 0.7916666666666667
+(0~8, 9) : 0.7037037037037037
+-----------------------------------------
+ResultDestNodes: [1580926, 1529128, 1763891, 1235783, 1206077, 1759768, 1763751, 1768473, 1647634, 782339]
+ResultRelevs: [8.247442245483398, 8.131951332092285, 7.247816562652588, 7.2386064529418945, 7.132838249206543, 7.060973167419434, 7.060972690582275, 7.060972213745117, 7.0391740798950195, 7.0391740798950195]
+AvgResultRelev: 7.325992107391357
+AvgResultDissimilarity: 0.703703703703704
+Num of entries retrieved from the KNLists: 6798
+Num of entries retrieved from NKMaps: 11932
+Num of answer trees explored: 4587
+Num of answer tree sets created: 19319
+Num of answer tree sets removed: 18483
+
+Div Top-k Search by Astar02, k=10
+[romance, conflict, murder]
+srcNodes: [5000002, 1372482, 8001318]
+  path: 0[1580926 -> 5000002], [Murmur (2004) -> Romance] 
+
+  path: 1[1580926 -> 2169253 -> 1238074 -> 2475829 -> 1372482], [Murmur (2004) -> Kirkwood, Langley -> Berserker (2004) -> Wuhrer, Kari -> Fatal Conflict (2000)] 
+
+  path: 2[1580926 -> 2169253 -> 1296214 -> 8001318], [Murmur (2004) -> Kirkwood, Langley -> Cross Line (2007) -> murder] 
+
+srcNodes: [5000002, 1290249, 628459]
+  path: 0[1529128 -> 5000002], [Liberty, Maine (2001) -> Romance] 
+
+  path: 1[1529128 -> 2355989 -> 1290249], [Liberty, Maine (2001) -> Holloman, Laurel -> Conflict (2005/I)] 
+
+  path: 2[1529128 -> 2203026 -> 628459], [Liberty, Maine (2001) -> Martin, Barney (II) -> "Murder in Small Town X" (2001)] 
+
+srcNodes: [5001125, 1763891, 8036273]
+  path: 0[1763891 -> 5001125], [The Conflict of Ms. Boston (2010) -> Comedy,Drama,Romance,Short] 
+
+  path: 1[1763891 -> 1763891], [The Conflict of Ms. Boston (2010) -> The Conflict of Ms. Boston (2010)]
+  path: 2[1763891 -> 2452748 -> 1880362 -> 8036273], [The Conflict of Ms. Boston (2010) -> Streaty, Tia -> Who Shot Mamba? (2009) -> basketball,cult,independent-film,murder,snake] 
+
+srcNodes: [5000002, 1372482, 1709131]
+  path: 0[1235783 -> 5000002], [Behind the Seams (2000) -> Romance] 
+
+  path: 1[1235783 -> 2227601 -> 1312229 -> 2475829 -> 1372482], [Behind the Seams (2000) -> Musto, Michael (I) -> Death of a Dynasty (2003) -> Wuhrer, Kari -> Fatal Conflict (2000)] 
+
+  path: 2[1235783 -> 2400555 -> 1709131], [Behind the Seams (2000) -> Minter, Kristin -> Six Sex Scenes and a Murder (2008)] 
+
+srcNodes: [5000002, 1290259, 8001318]
+  path: 0[1206077 -> 2323097 -> 1759768 -> 5000002], [An American Carol (2008) -> Dionne, Nicole (I) -> The Broken Hearts Club (2009) -> Romance] 
+
+  path: 1[1206077 -> 2228525 -> 1290259], [An American Carol (2008) -> Naber, Joey -> Conflict in the Middle Table (2008)] 
+
+  path: 2[1206077 -> 2143116 -> 1802339 -> 8001318], [An American Carol (2008) -> Hopper, Dennis -> The Prophet's Game (2000) -> murder] 
+
+srcNodes: [5000002, 1763891, 8031313]
+  path: 0[1759768 -> 5000002], [The Broken Hearts Club (2009) -> Romance] 
+
+  path: 1[1759768 -> 2221773 -> 1880362 -> 2452748 -> 1763891], [The Broken Hearts Club (2009) -> Mooney, Dylan (I) -> Who Shot Mamba? (2009) -> Streaty, Tia -> The Conflict of Ms. Boston (2010)] 
+
+  path: 2[1759768 -> 2341444 -> 1779890 -> 8031313], [The Broken Hearts Club (2009) -> Gilbert, Maya -> The Hiding (2009) -> family-relationships,murder] 
+
+srcNodes: [5000002, 1290249, 8012480]
+  path: 0[1763751 -> 5000002], [The Completely Remarkable, Utterly Fabulous Transformation of a Regular Joe (2008) -> Romance] 
+
+  path: 1[1763751 -> 2064361 -> 1759393 -> 2277053 -> 1290249], [The Completely Remarkable, Utterly Fabulous Transformation of a Regular Joe (2008) -> Cook, Michael (VIII) -> The Break-Up (2006) -> Adams, Joey Lauren -> Conflict (2005/I)] 
+
+  path: 2[1763751 -> 2335808 -> 1390962 -> 8012480], [The Completely Remarkable, Utterly Fabulous Transformation of a Regular Joe (2008) -> Fradenburgh, Emily -> Further North (2008) -> crisis,murder,violence,winter] 
+
+srcNodes: [5000002, 1290249, 8002064]
+  path: 0[1768473 -> 5000002], [The Donor (2001) -> Romance] 
+
+  path: 1[1768473 -> 2293466 -> 1415669 -> 2358317 -> 1290249], [The Donor (2001) -> Black, Karen (I) -> Hard Luck (2001) -> Humphrey, Renée -> Conflict (2005/I)] 
+
+  path: 2[1768473 -> 2293466 -> 1179576 -> 8002064], [The Donor (2001) -> Black, Karen (I) -> A Light in the Darkness (2002) -> female-nudity,murder] 
+
+srcNodes: [5000000, 1290249, 8001318]
+  path: 0[1647634 -> 2069116 -> 1345261 -> 5000000], [Pretty Bird (2008) -> Crudup, Billy -> Eat Pray Love (2010) -> Romance,Drama] 
+
+  path: 1[1647634 -> 2113177 -> 1235152 -> 2062412 -> 1290249], [Pretty Bird (2008) -> Gelber, Jordan -> Before the Devil Knows You're Dead (2007) -> Colletti, Bob -> Conflict (2005/I)] 
+
+  path: 2[1647634 -> 8001318], [Pretty Bird (2008) -> murder] 
+
+srcNodes: [5000000, 1290249, 8001318]
+  path: 0[782339 -> 2070247 -> 1355768 -> 5000000], ["Sabbatical" (2007) -> Cupo, Antonio -> Elegy (2008/I) -> Romance,Drama] 
+
+  path: 1[782339 -> 2210723 -> 1706239 -> 2215276 -> 1290249], ["Sabbatical" (2007) -> McKenna, Patrick (I) -> Silent But Deadly (2011) -> Mewes, Jason -> Conflict (2005/I)] 
+
+  path: 2[782339 -> 8001318], ["Sabbatical" (2007) -> murder] 
+
+-----------------------------------------
+ResultDestNodes: [1580926, 1529128, 1763891, 1235783, 1206077, 1759768, 1763751, 1768473, 1647634, 782339]
+ResultRelevs: [8.247442245483398, 8.131951332092285, 7.247816562652588, 7.2386064529418945, 7.132838249206543, 7.060973167419434, 7.060972690582275, 7.060972213745117, 7.0391740798950195, 7.0391740798950195]
+AvgResultRelev: 7.325992107391357
+AvgResultDissimilarity: 0.703703703703704
+Num of entries retrieved from the KNLists: 6798
+Num of entries retrieved from NKMaps: 11932
+Num of answer trees explored: 4587
+Num of states created: 25446
+Num of states explored: 25116
+Num of heuristic search performed: 17
+
+Div Top-k Search by Astar1nc_ap_new, k=10
+[romance, conflict, murder]
+srcNodes: [5000002, 1372482, 8001318]
+  path: 0[1580926 -> 5000002], [Murmur (2004) -> Romance] 
+
+  path: 1[1580926 -> 2169253 -> 1238074 -> 2475829 -> 1372482], [Murmur (2004) -> Kirkwood, Langley -> Berserker (2004) -> Wuhrer, Kari -> Fatal Conflict (2000)] 
+
+  path: 2[1580926 -> 2169253 -> 1296214 -> 8001318], [Murmur (2004) -> Kirkwood, Langley -> Cross Line (2007) -> murder] 
+
+srcNodes: [5000002, 1290249, 628459]
+  path: 0[1529128 -> 5000002], [Liberty, Maine (2001) -> Romance] 
+
+  path: 1[1529128 -> 2355989 -> 1290249], [Liberty, Maine (2001) -> Holloman, Laurel -> Conflict (2005/I)] 
+
+  path: 2[1529128 -> 2203026 -> 628459], [Liberty, Maine (2001) -> Martin, Barney (II) -> "Murder in Small Town X" (2001)] 
+
+srcNodes: [5001125, 1763891, 8036273]
+  path: 0[1763891 -> 5001125], [The Conflict of Ms. Boston (2010) -> Comedy,Drama,Romance,Short] 
+
+  path: 1[1763891 -> 1763891], [The Conflict of Ms. Boston (2010) -> The Conflict of Ms. Boston (2010)]
+  path: 2[1763891 -> 2452748 -> 1880362 -> 8036273], [The Conflict of Ms. Boston (2010) -> Streaty, Tia -> Who Shot Mamba? (2009) -> basketball,cult,independent-film,murder,snake] 
+
+srcNodes: [5000002, 1372482, 1709131]
+  path: 0[1235783 -> 5000002], [Behind the Seams (2000) -> Romance] 
+
+  path: 1[1235783 -> 2227601 -> 1312229 -> 2475829 -> 1372482], [Behind the Seams (2000) -> Musto, Michael (I) -> Death of a Dynasty (2003) -> Wuhrer, Kari -> Fatal Conflict (2000)] 
+
+  path: 2[1235783 -> 2400555 -> 1709131], [Behind the Seams (2000) -> Minter, Kristin -> Six Sex Scenes and a Murder (2008)] 
+
+srcNodes: [5000002, 1290259, 8001318]
+  path: 0[1206077 -> 2323097 -> 1759768 -> 5000002], [An American Carol (2008) -> Dionne, Nicole (I) -> The Broken Hearts Club (2009) -> Romance] 
+
+  path: 1[1206077 -> 2228525 -> 1290259], [An American Carol (2008) -> Naber, Joey -> Conflict in the Middle Table (2008)] 
+
+  path: 2[1206077 -> 2143116 -> 1802339 -> 8001318], [An American Carol (2008) -> Hopper, Dennis -> The Prophet's Game (2000) -> murder] 
+
+srcNodes: [5000002, 1763891, 8031313]
+  path: 0[1759768 -> 5000002], [The Broken Hearts Club (2009) -> Romance] 
+
+  path: 1[1759768 -> 2221773 -> 1880362 -> 2452748 -> 1763891], [The Broken Hearts Club (2009) -> Mooney, Dylan (I) -> Who Shot Mamba? (2009) -> Streaty, Tia -> The Conflict of Ms. Boston (2010)] 
+
+  path: 2[1759768 -> 2341444 -> 1779890 -> 8031313], [The Broken Hearts Club (2009) -> Gilbert, Maya -> The Hiding (2009) -> family-relationships,murder] 
+
+srcNodes: [5000002, 1290249, 8012480]
+  path: 0[1763751 -> 5000002], [The Completely Remarkable, Utterly Fabulous Transformation of a Regular Joe (2008) -> Romance] 
+
+  path: 1[1763751 -> 2064361 -> 1759393 -> 2277053 -> 1290249], [The Completely Remarkable, Utterly Fabulous Transformation of a Regular Joe (2008) -> Cook, Michael (VIII) -> The Break-Up (2006) -> Adams, Joey Lauren -> Conflict (2005/I)] 
+
+  path: 2[1763751 -> 2335808 -> 1390962 -> 8012480], [The Completely Remarkable, Utterly Fabulous Transformation of a Regular Joe (2008) -> Fradenburgh, Emily -> Further North (2008) -> crisis,murder,violence,winter] 
+
+srcNodes: [5000002, 1290249, 8002064]
+  path: 0[1768473 -> 5000002], [The Donor (2001) -> Romance] 
+
+  path: 1[1768473 -> 2293466 -> 1415669 -> 2358317 -> 1290249], [The Donor (2001) -> Black, Karen (I) -> Hard Luck (2001) -> Humphrey, Renée -> Conflict (2005/I)] 
+
+  path: 2[1768473 -> 2293466 -> 1179576 -> 8002064], [The Donor (2001) -> Black, Karen (I) -> A Light in the Darkness (2002) -> female-nudity,murder] 
+
+srcNodes: [5000000, 1290249, 8001318]
+  path: 0[1647634 -> 2069116 -> 1345261 -> 5000000], [Pretty Bird (2008) -> Crudup, Billy -> Eat Pray Love (2010) -> Romance,Drama] 
+
+  path: 1[1647634 -> 2113177 -> 1235152 -> 2062412 -> 1290249], [Pretty Bird (2008) -> Gelber, Jordan -> Before the Devil Knows You're Dead (2007) -> Colletti, Bob -> Conflict (2005/I)] 
+
+  path: 2[1647634 -> 8001318], [Pretty Bird (2008) -> murder] 
+
+srcNodes: [5000000, 1290249, 8001318]
+  path: 0[782339 -> 2070247 -> 1355768 -> 5000000], ["Sabbatical" (2007) -> Cupo, Antonio -> Elegy (2008/I) -> Romance,Drama] 
+
+  path: 1[782339 -> 2210723 -> 1706239 -> 2215276 -> 1290249], ["Sabbatical" (2007) -> McKenna, Patrick (I) -> Silent But Deadly (2011) -> Mewes, Jason -> Conflict (2005/I)] 
+
+  path: 2[782339 -> 8001318], ["Sabbatical" (2007) -> murder] 
+
+-----------------------------------------
+ResultDestNodes: [1580926, 1529128, 1763891, 1235783, 1206077, 1759768, 1763751, 1768473, 1647634, 782339]
+ResultRelevs: [8.247442245483398, 8.131951332092285, 7.247816562652588, 7.2386064529418945, 7.132838249206543, 7.060973167419434, 7.060972690582275, 7.060972213745117, 7.0391740798950195, 7.0391740798950195]
+AvgResultRelev: 7.325992107391357
+AvgResultDissimilarity: 0.703703703703704
+Num of entries retrieved from the KNLists: 6798
+Num of entries retrieved from NKMaps: 11932
+Num of answer trees explored: 4587
+Num of states created: 135
+Num of states explored: 36
+Num of heuristic search performed: 3
+
+Top-k Search by Blink-BDB, k=15
+[romance, conflict, murder]
+srcNodes: [5000002, 1372482, 8001318]
+  path: 0[1580926 -> 5000002], [Murmur (2004) -> Romance] 
+
+  path: 1[1580926 -> 2169253 -> 1238074 -> 2475829 -> 1372482], [Murmur (2004) -> Kirkwood, Langley -> Berserker (2004) -> Wuhrer, Kari -> Fatal Conflict (2000)] 
+
+  path: 2[1580926 -> 2169253 -> 1296214 -> 8001318], [Murmur (2004) -> Kirkwood, Langley -> Cross Line (2007) -> murder] 
+
+srcNodes: [5000002, 1372482, 8001318]
+  path: 0[2169253 -> 1580926 -> 5000002], [Kirkwood, Langley -> Murmur (2004) -> Romance] 
+
+  path: 1[2169253 -> 1238074 -> 2475829 -> 1372482], [Kirkwood, Langley -> Berserker (2004) -> Wuhrer, Kari -> Fatal Conflict (2000)] 
+
+  path: 2[2169253 -> 1296214 -> 8001318], [Kirkwood, Langley -> Cross Line (2007) -> murder] 
+
+srcNodes: [5000002, 1290249, 628459]
+  path: 0[1529128 -> 5000002], [Liberty, Maine (2001) -> Romance] 
+
+  path: 1[1529128 -> 2355989 -> 1290249], [Liberty, Maine (2001) -> Holloman, Laurel -> Conflict (2005/I)] 
+
+  path: 2[1529128 -> 2203026 -> 628459], [Liberty, Maine (2001) -> Martin, Barney (II) -> "Murder in Small Town X" (2001)] 
+
+srcNodes: [5000002, 1372482, 8001318]
+  path: 0[1296214 -> 2169253 -> 1580926 -> 5000002], [Cross Line (2007) -> Kirkwood, Langley -> Murmur (2004) -> Romance] 
+
+  path: 1[1296214 -> 2169253 -> 1238074 -> 2475829 -> 1372482], [Cross Line (2007) -> Kirkwood, Langley -> Berserker (2004) -> Wuhrer, Kari -> Fatal Conflict (2000)] 
+
+  path: 2[1296214 -> 8001318], [Cross Line (2007) -> murder] 
+
+srcNodes: [5000002, 1290249, 1580546]
+  path: 0[1464523 -> 5000002], [Jawani Diwani: A Youthful Joyride (2006) -> Romance] 
+
+  path: 1[1464523 -> 2308866 -> 1234927 -> 2277053 -> 1290249], [Jawani Diwani: A Youthful Joyride (2006) -> Chopra, Sherlyn -> Beeper (2002) -> Adams, Joey Lauren -> Conflict (2005/I)] 
+
+  path: 2[1464523 -> 2133416 -> 1580546], [Jawani Diwani: A Youthful Joyride (2006) -> Hashmi, Emraan -> Murder (2004)] 
+
+srcNodes: [5000002, 1372482, 1794943]
+  path: 0[1372482 -> 2466461 -> 1671525 -> 5000002], [Fatal Conflict (2000) -> Vienne, Silvana -> River's Crossing (2008) -> Romance] 
+
+  path: 1[1372482 -> 1372482], [Fatal Conflict (2000) -> Fatal Conflict (2000)]
+  path: 2[1372482 -> 2237377 -> 1620211 -> 2077104 -> 1794943], [Fatal Conflict (2000) -> O'Keeffe, Miles -> Out of the Black (2001) -> DeBor, Curt -> The Murder (2002)] 
+
+srcNodes: [5000002, 1290249, 1732454]
+  path: 0[1290249 -> 2355989 -> 1529128 -> 5000002], [Conflict (2005/I) -> Holloman, Laurel -> Liberty, Maine (2001) -> Romance] 
+
+  path: 1[1290249 -> 1290249], [Conflict (2005/I) -> Conflict (2005/I)]
+  path: 2[1290249 -> 2215276 -> 1566499 -> 2182117 -> 1732454], [Conflict (2005/I) -> Mewes, Jason -> Midgets Vs. Mascots (2009) -> Lawson, Lon -> Suitable for Murder (2008)] 
+
+srcNodes: [5000002, 1290249, 1174421]
+  path: 0[2355989 -> 1529128 -> 5000002], [Holloman, Laurel -> Liberty, Maine (2001) -> Romance] 
+
+  path: 1[2355989 -> 1290249], [Holloman, Laurel -> Conflict (2005/I)] 
+
+  path: 2[2355989 -> 1575983 -> 2132391 -> 1174421], [Holloman, Laurel -> Morning (2001) -> Harris, R. Keith -> A Brush with Murder (2008)] 
+
+srcNodes: [5000002, 1372482, 1648416]
+  path: 0[1238651 -> 5000002], [Bestiar (2007) -> Romance] 
+
+  path: 1[1238651 -> 2386521 -> 1414549 -> 2144912 -> 1372482], [Bestiar (2007) -> Lustigova, Petra -> Hannibal Rising (2007) -> Hub, Martin -> Fatal Conflict (2000)] 
+
+  path: 2[1238651 -> 2365554 -> 1648416], [Bestiar (2007) -> Jurcová, Danica -> Primetime Murder (2000)] 
+
+srcNodes: [5000002, 1290249, 1417280]
+  path: 0[1336874 -> 5000002], [Dosti: Friends Forever (2005) -> Romance] 
+
+  path: 1[1336874 -> 2308866 -> 1234927 -> 2277053 -> 1290249], [Dosti: Friends Forever (2005) -> Chopra, Sherlyn -> Beeper (2002) -> Adams, Joey Lauren -> Conflict (2005/I)] 
+
+  path: 2[1336874 -> 2175832 -> 1417280], [Dosti: Friends Forever (2005) -> Kumar, Akshay (I) -> Hatya: The Murder (2004)] 
+
+srcNodes: [5000002, 1372482, 1417280]
+  path: 0[1654715 -> 5000002], [Pyaar Diwana Hota Hai (2002) -> Romance] 
+
+  path: 1[1654715 -> 2260188 -> 1822813 -> 2373274 -> 1372482], [Pyaar Diwana Hota Hai (2002) -> Puri, Om -> The Zookeeper (2001) -> Kooiman, Rianne -> Fatal Conflict (2000)] 
+
+  path: 2[1654715 -> 2234045 -> 1417280], [Pyaar Diwana Hota Hai (2002) -> Nischol, Navin -> Hatya: The Murder (2004)] 
+
+srcNodes: [5000002, 1290249, 8025057]
+  path: 0[1229230 -> 5000002], [Balu (2005) -> Romance] 
+
+  path: 1[1229230 -> 2124463 -> 1234927 -> 2277053 -> 1290249], [Balu (2005) -> Grover, Gulshan -> Beeper (2002) -> Adams, Joey Lauren -> Conflict (2005/I)] 
+
+  path: 2[1229230 -> 2028380 -> 1660016 -> 8025057], [Balu (2005) -> Bharani, Tanikella -> Rakta Charitra 2 (2010) -> murder,revenge] 
+
+srcNodes: [5000002, 1290249, 8025057]
+  path: 0[1329470 -> 5000002], [Dil Maange More!!! (2004) -> Romance] 
+
+  path: 1[1329470 -> 2124463 -> 1234927 -> 2277053 -> 1290249], [Dil Maange More!!! (2004) -> Grover, Gulshan -> Beeper (2002) -> Adams, Joey Lauren -> Conflict (2005/I)] 
+
+  path: 2[1329470 -> 2468357 -> 1660016 -> 8025057], [Dil Maange More!!! (2004) -> Wahab, Zarina -> Rakta Charitra 2 (2010) -> murder,revenge] 
+
+srcNodes: [5001125, 1763891, 8036273]
+  path: 0[1763891 -> 5001125], [The Conflict of Ms. Boston (2010) -> Comedy,Drama,Romance,Short] 
+
+  path: 1[1763891 -> 1763891], [The Conflict of Ms. Boston (2010) -> The Conflict of Ms. Boston (2010)]
+  path: 2[1763891 -> 2452748 -> 1880362 -> 8036273], [The Conflict of Ms. Boston (2010) -> Streaty, Tia -> Who Shot Mamba? (2009) -> basketball,cult,independent-film,murder,snake] 
+
+srcNodes: [5000002, 1372482, 1709131]
+  path: 0[1235783 -> 5000002], [Behind the Seams (2000) -> Romance] 
+
+  path: 1[1235783 -> 2227601 -> 1312229 -> 2475829 -> 1372482], [Behind the Seams (2000) -> Musto, Michael (I) -> Death of a Dynasty (2003) -> Wuhrer, Kari -> Fatal Conflict (2000)] 
+
+  path: 2[1235783 -> 2400555 -> 1709131], [Behind the Seams (2000) -> Minter, Kristin -> Six Sex Scenes and a Murder (2008)] 
+
+-----------------------------------------
+Num of top-k answers: 15
+ResultDestNodes: [1580926, 2169253, 1529128, 1296214, 1464523, 1372482, 1290249, 2355989, 1238651, 1336874, 1654715, 1229230, 1329470, 1763891, 1235783]
+ResultRelevs: [8.247442245483398, 8.208126068115234, 8.131951332092285, 8.03455638885498, 7.823226451873779, 7.80307674407959, 7.578701496124268, 7.488828182220459, 7.433481693267822, 7.433480262756348, 7.433477878570557, 7.3575921058654785, 7.3575921058654785, 7.247816562652588, 7.2386064529418945]
+AvgResultRelev: 7.654530398050944
+AvgResultDissimilarity: 0.5619047619047618
+Num of entries retrieved from the lists: 4503
+Num of entries retrieved from NKMaps: 7717
+Num of answer trees explored: 2939
+
+Div Top-k Search by Exhustive, k=15
+[romance, conflict, murder]
+srcNodes: [5000002, 1372482, 8001318]
+  path: 0[1580926 -> 5000002], [Murmur (2004) -> Romance] 
+
+  path: 1[1580926 -> 2169253 -> 1238074 -> 2475829 -> 1372482], [Murmur (2004) -> Kirkwood, Langley -> Berserker (2004) -> Wuhrer, Kari -> Fatal Conflict (2000)] 
+
+  path: 2[1580926 -> 2169253 -> 1296214 -> 8001318], [Murmur (2004) -> Kirkwood, Langley -> Cross Line (2007) -> murder] 
+
+srcNodes: [5000002, 1290249, 628459]
+  path: 0[1529128 -> 5000002], [Liberty, Maine (2001) -> Romance] 
+
+  path: 1[1529128 -> 2355989 -> 1290249], [Liberty, Maine (2001) -> Holloman, Laurel -> Conflict (2005/I)] 
+
+  path: 2[1529128 -> 2203026 -> 628459], [Liberty, Maine (2001) -> Martin, Barney (II) -> "Murder in Small Town X" (2001)] 
+
+srcNodes: [5001125, 1763891, 8036273]
+  path: 0[1763891 -> 5001125], [The Conflict of Ms. Boston (2010) -> Comedy,Drama,Romance,Short] 
+
+  path: 1[1763891 -> 1763891], [The Conflict of Ms. Boston (2010) -> The Conflict of Ms. Boston (2010)]
+  path: 2[1763891 -> 2452748 -> 1880362 -> 8036273], [The Conflict of Ms. Boston (2010) -> Streaty, Tia -> Who Shot Mamba? (2009) -> basketball,cult,independent-film,murder,snake] 
+
+srcNodes: [5000002, 1372482, 1709131]
+  path: 0[1235783 -> 5000002], [Behind the Seams (2000) -> Romance] 
+
+  path: 1[1235783 -> 2227601 -> 1312229 -> 2475829 -> 1372482], [Behind the Seams (2000) -> Musto, Michael (I) -> Death of a Dynasty (2003) -> Wuhrer, Kari -> Fatal Conflict (2000)] 
+
+  path: 2[1235783 -> 2400555 -> 1709131], [Behind the Seams (2000) -> Minter, Kristin -> Six Sex Scenes and a Murder (2008)] 
+
+srcNodes: [5000002, 1290259, 8001318]
+  path: 0[1206077 -> 2323097 -> 1759768 -> 5000002], [An American Carol (2008) -> Dionne, Nicole (I) -> The Broken Hearts Club (2009) -> Romance] 
+
+  path: 1[1206077 -> 2228525 -> 1290259], [An American Carol (2008) -> Naber, Joey -> Conflict in the Middle Table (2008)] 
+
+  path: 2[1206077 -> 2143116 -> 1802339 -> 8001318], [An American Carol (2008) -> Hopper, Dennis -> The Prophet's Game (2000) -> murder] 
+
+srcNodes: [5000002, 1763891, 8031313]
+  path: 0[1759768 -> 5000002], [The Broken Hearts Club (2009) -> Romance] 
+
+  path: 1[1759768 -> 2221773 -> 1880362 -> 2452748 -> 1763891], [The Broken Hearts Club (2009) -> Mooney, Dylan (I) -> Who Shot Mamba? (2009) -> Streaty, Tia -> The Conflict of Ms. Boston (2010)] 
+
+  path: 2[1759768 -> 2341444 -> 1779890 -> 8031313], [The Broken Hearts Club (2009) -> Gilbert, Maya -> The Hiding (2009) -> family-relationships,murder] 
+
+srcNodes: [5000002, 1290249, 8012480]
+  path: 0[1763751 -> 5000002], [The Completely Remarkable, Utterly Fabulous Transformation of a Regular Joe (2008) -> Romance] 
+
+  path: 1[1763751 -> 2064361 -> 1759393 -> 2277053 -> 1290249], [The Completely Remarkable, Utterly Fabulous Transformation of a Regular Joe (2008) -> Cook, Michael (VIII) -> The Break-Up (2006) -> Adams, Joey Lauren -> Conflict (2005/I)] 
+
+  path: 2[1763751 -> 2335808 -> 1390962 -> 8012480], [The Completely Remarkable, Utterly Fabulous Transformation of a Regular Joe (2008) -> Fradenburgh, Emily -> Further North (2008) -> crisis,murder,violence,winter] 
+
+srcNodes: [5000002, 1290249, 8002064]
+  path: 0[1768473 -> 5000002], [The Donor (2001) -> Romance] 
+
+  path: 1[1768473 -> 2293466 -> 1415669 -> 2358317 -> 1290249], [The Donor (2001) -> Black, Karen (I) -> Hard Luck (2001) -> Humphrey, Renée -> Conflict (2005/I)] 
+
+  path: 2[1768473 -> 2293466 -> 1179576 -> 8002064], [The Donor (2001) -> Black, Karen (I) -> A Light in the Darkness (2002) -> female-nudity,murder] 
+
+srcNodes: [5000000, 1290249, 8001318]
+  path: 0[1647634 -> 2069116 -> 1345261 -> 5000000], [Pretty Bird (2008) -> Crudup, Billy -> Eat Pray Love (2010) -> Romance,Drama] 
+
+  path: 1[1647634 -> 2113177 -> 1235152 -> 2062412 -> 1290249], [Pretty Bird (2008) -> Gelber, Jordan -> Before the Devil Knows You're Dead (2007) -> Colletti, Bob -> Conflict (2005/I)] 
+
+  path: 2[1647634 -> 8001318], [Pretty Bird (2008) -> murder] 
+
+srcNodes: [5000000, 1290249, 8001318]
+  path: 0[782339 -> 2070247 -> 1355768 -> 5000000], ["Sabbatical" (2007) -> Cupo, Antonio -> Elegy (2008/I) -> Romance,Drama] 
+
+  path: 1[782339 -> 2210723 -> 1706239 -> 2215276 -> 1290249], ["Sabbatical" (2007) -> McKenna, Patrick (I) -> Silent But Deadly (2011) -> Mewes, Jason -> Conflict (2005/I)] 
+
+  path: 2[782339 -> 8001318], ["Sabbatical" (2007) -> murder] 
+
+srcNodes: [5000000, 1290259, 8001318]
+  path: 0[1802339 -> 2143116 -> 1355768 -> 5000000], [The Prophet's Game (2000) -> Hopper, Dennis -> Elegy (2008/I) -> Romance,Drama] 
+
+  path: 1[1802339 -> 2143116 -> 1206077 -> 2228525 -> 1290259], [The Prophet's Game (2000) -> Hopper, Dennis -> An American Carol (2008) -> Naber, Joey -> Conflict in the Middle Table (2008)] 
+
+  path: 2[1802339 -> 8001318], [The Prophet's Game (2000) -> murder] 
+
+srcNodes: [5000000, 1372482, 8001318]
+  path: 0[1794943 -> 2285253 -> 1759365 -> 5000000], [The Murder (2002) -> Bach, Nancy -> The Bread, My Sweet (2001) -> Romance,Drama] 
+
+  path: 1[1794943 -> 2077104 -> 1620211 -> 2237377 -> 1372482], [The Murder (2002) -> DeBor, Curt -> Out of the Black (2001) -> O'Keeffe, Miles -> Fatal Conflict (2000)] 
+
+  path: 2[1794943 -> 8001318], [The Murder (2002) -> murder] 
+
+srcNodes: [5000001, 1372482, 8001318]
+  path: 0[1335003 -> 2120133 -> 95470 -> 5000001], [Don de Dios (2005) -> Goros, Tomas -> "Bellezas indomables" (2007) -> Drama,Romance] 
+
+  path: 1[1335003 -> 2120133 -> 1752482 -> 2475829 -> 1372482], [Don de Dios (2005) -> Goros, Tomas -> The Air I Breathe (2007) -> Wuhrer, Kari -> Fatal Conflict (2000)] 
+
+  path: 2[1335003 -> 8001318], [Don de Dios (2005) -> murder] 
+
+srcNodes: [5000002, 1372482, 8019696]
+  path: 0[2260188 -> 1654715 -> 5000002], [Puri, Om -> Pyaar Diwana Hota Hai (2002) -> Romance] 
+
+  path: 1[2260188 -> 1822813 -> 2373274 -> 1372482], [Puri, Om -> The Zookeeper (2001) -> Kooiman, Rianne -> Fatal Conflict (2000)] 
+
+  path: 2[2260188 -> 1548783 -> 8019696], [Puri, Om -> Maharathi (2008) -> india,murder] 
+
+srcNodes: [5000002, 6008306, 1580546]
+  path: 0[1465387 -> 5000002], [Jeena Sirf Merre Liye (2002) -> Romance] 
+
+  path: 1[1465387 -> 2443758 -> 1307609 -> 6008306], [Jeena Sirf Merre Liye (2002) -> Sherawat, Mallika -> Dasavatharam (2008) -> U.S.-based Bio-techn] 
+
+  path: 2[1465387 -> 2443758 -> 1580546], [Jeena Sirf Merre Liye (2002) -> Sherawat, Mallika -> Murder (2004)] 
+
+Dissims of Subsets and t:
+(0~0, 1) : 0.6666666666666666
+(0~1, 2) : 1.0
+(0~2, 3) : 0.6666666666666666
+(0~3, 4) : 0.6666666666666666
+(0~4, 5) : 0.6666666666666666
+(0~5, 6) : 0.6666666666666666
+(0~6, 7) : 0.619047619047619
+(0~7, 8) : 0.7916666666666667
+(0~8, 9) : 0.7037037037037037
+(0~9, 10) : 0.7666666666666666
+(0~10, 11) : 0.6969696969696968
+(0~11, 12) : 0.75
+(0~12, 13) : 0.7179487179487178
+(0~13, 14) : 0.8095238095238095
+-----------------------------------------
+ResultDestNodes: [1580926, 1529128, 1763891, 1235783, 1206077, 1759768, 1763751, 1768473, 1647634, 782339, 1802339, 1794943, 1335003, 2260188, 1465387]
+ResultRelevs: [8.247442245483398, 8.131951332092285, 7.247816562652588, 7.2386064529418945, 7.132838249206543, 7.060973167419434, 7.060972690582275, 7.060972213745117, 7.0391740798950195, 7.0391740798950195, 7.039173603057861, 7.039172172546387, 7.039170265197754, 7.038888931274414, 7.035944938659668]
+AvgResultRelev: 7.230151398976644
+AvgResultDissimilarity: 0.7301587301587298
+Num of entries retrieved from the KNLists: 8232
+Num of entries retrieved from NKMaps: 14516
+Num of answer trees explored: 5621
+Num of answer tree sets created: 598097
+Num of answer tree sets removed: 573257
+
+Div Top-k Search by Astar02, k=15
+[romance, conflict, murder]
+srcNodes: [5000002, 1372482, 8001318]
+  path: 0[1580926 -> 5000002], [Murmur (2004) -> Romance] 
+
+  path: 1[1580926 -> 2169253 -> 1238074 -> 2475829 -> 1372482], [Murmur (2004) -> Kirkwood, Langley -> Berserker (2004) -> Wuhrer, Kari -> Fatal Conflict (2000)] 
+
+  path: 2[1580926 -> 2169253 -> 1296214 -> 8001318], [Murmur (2004) -> Kirkwood, Langley -> Cross Line (2007) -> murder] 
+
+srcNodes: [5000002, 1290249, 628459]
+  path: 0[1529128 -> 5000002], [Liberty, Maine (2001) -> Romance] 
+
+  path: 1[1529128 -> 2355989 -> 1290249], [Liberty, Maine (2001) -> Holloman, Laurel -> Conflict (2005/I)] 
+
+  path: 2[1529128 -> 2203026 -> 628459], [Liberty, Maine (2001) -> Martin, Barney (II) -> "Murder in Small Town X" (2001)] 
+
+srcNodes: [5001125, 1763891, 8036273]
+  path: 0[1763891 -> 5001125], [The Conflict of Ms. Boston (2010) -> Comedy,Drama,Romance,Short] 
+
+  path: 1[1763891 -> 1763891], [The Conflict of Ms. Boston (2010) -> The Conflict of Ms. Boston (2010)]
+  path: 2[1763891 -> 2452748 -> 1880362 -> 8036273], [The Conflict of Ms. Boston (2010) -> Streaty, Tia -> Who Shot Mamba? (2009) -> basketball,cult,independent-film,murder,snake] 
+
+srcNodes: [5000002, 1372482, 1709131]
+  path: 0[1235783 -> 5000002], [Behind the Seams (2000) -> Romance] 
+
+  path: 1[1235783 -> 2227601 -> 1312229 -> 2475829 -> 1372482], [Behind the Seams (2000) -> Musto, Michael (I) -> Death of a Dynasty (2003) -> Wuhrer, Kari -> Fatal Conflict (2000)] 
+
+  path: 2[1235783 -> 2400555 -> 1709131], [Behind the Seams (2000) -> Minter, Kristin -> Six Sex Scenes and a Murder (2008)] 
+
+srcNodes: [5000002, 1290259, 8001318]
+  path: 0[1206077 -> 2323097 -> 1759768 -> 5000002], [An American Carol (2008) -> Dionne, Nicole (I) -> The Broken Hearts Club (2009) -> Romance] 
+
+  path: 1[1206077 -> 2228525 -> 1290259], [An American Carol (2008) -> Naber, Joey -> Conflict in the Middle Table (2008)] 
+
+  path: 2[1206077 -> 2143116 -> 1802339 -> 8001318], [An American Carol (2008) -> Hopper, Dennis -> The Prophet's Game (2000) -> murder] 
+
+srcNodes: [5000002, 1763891, 8031313]
+  path: 0[1759768 -> 5000002], [The Broken Hearts Club (2009) -> Romance] 
+
+  path: 1[1759768 -> 2221773 -> 1880362 -> 2452748 -> 1763891], [The Broken Hearts Club (2009) -> Mooney, Dylan (I) -> Who Shot Mamba? (2009) -> Streaty, Tia -> The Conflict of Ms. Boston (2010)] 
+
+  path: 2[1759768 -> 2341444 -> 1779890 -> 8031313], [The Broken Hearts Club (2009) -> Gilbert, Maya -> The Hiding (2009) -> family-relationships,murder] 
+
+srcNodes: [5000002, 1290249, 8012480]
+  path: 0[1763751 -> 5000002], [The Completely Remarkable, Utterly Fabulous Transformation of a Regular Joe (2008) -> Romance] 
+
+  path: 1[1763751 -> 2064361 -> 1759393 -> 2277053 -> 1290249], [The Completely Remarkable, Utterly Fabulous Transformation of a Regular Joe (2008) -> Cook, Michael (VIII) -> The Break-Up (2006) -> Adams, Joey Lauren -> Conflict (2005/I)] 
+
+  path: 2[1763751 -> 2335808 -> 1390962 -> 8012480], [The Completely Remarkable, Utterly Fabulous Transformation of a Regular Joe (2008) -> Fradenburgh, Emily -> Further North (2008) -> crisis,murder,violence,winter] 
+
+srcNodes: [5000002, 1290249, 8002064]
+  path: 0[1768473 -> 5000002], [The Donor (2001) -> Romance] 
+
+  path: 1[1768473 -> 2293466 -> 1415669 -> 2358317 -> 1290249], [The Donor (2001) -> Black, Karen (I) -> Hard Luck (2001) -> Humphrey, Renée -> Conflict (2005/I)] 
+
+  path: 2[1768473 -> 2293466 -> 1179576 -> 8002064], [The Donor (2001) -> Black, Karen (I) -> A Light in the Darkness (2002) -> female-nudity,murder] 
+
+srcNodes: [5000000, 1290249, 8001318]
+  path: 0[1647634 -> 2069116 -> 1345261 -> 5000000], [Pretty Bird (2008) -> Crudup, Billy -> Eat Pray Love (2010) -> Romance,Drama] 
+
+  path: 1[1647634 -> 2113177 -> 1235152 -> 2062412 -> 1290249], [Pretty Bird (2008) -> Gelber, Jordan -> Before the Devil Knows You're Dead (2007) -> Colletti, Bob -> Conflict (2005/I)] 
+
+  path: 2[1647634 -> 8001318], [Pretty Bird (2008) -> murder] 
+
+srcNodes: [5000000, 1290249, 8001318]
+  path: 0[782339 -> 2070247 -> 1355768 -> 5000000], ["Sabbatical" (2007) -> Cupo, Antonio -> Elegy (2008/I) -> Romance,Drama] 
+
+  path: 1[782339 -> 2210723 -> 1706239 -> 2215276 -> 1290249], ["Sabbatical" (2007) -> McKenna, Patrick (I) -> Silent But Deadly (2011) -> Mewes, Jason -> Conflict (2005/I)] 
+
+  path: 2[782339 -> 8001318], ["Sabbatical" (2007) -> murder] 
+
+srcNodes: [5000000, 1290259, 8001318]
+  path: 0[1802339 -> 2143116 -> 1355768 -> 5000000], [The Prophet's Game (2000) -> Hopper, Dennis -> Elegy (2008/I) -> Romance,Drama] 
+
+  path: 1[1802339 -> 2143116 -> 1206077 -> 2228525 -> 1290259], [The Prophet's Game (2000) -> Hopper, Dennis -> An American Carol (2008) -> Naber, Joey -> Conflict in the Middle Table (2008)] 
+
+  path: 2[1802339 -> 8001318], [The Prophet's Game (2000) -> murder] 
+
+srcNodes: [5000000, 1372482, 8001318]
+  path: 0[1794943 -> 2285253 -> 1759365 -> 5000000], [The Murder (2002) -> Bach, Nancy -> The Bread, My Sweet (2001) -> Romance,Drama] 
+
+  path: 1[1794943 -> 2077104 -> 1620211 -> 2237377 -> 1372482], [The Murder (2002) -> DeBor, Curt -> Out of the Black (2001) -> O'Keeffe, Miles -> Fatal Conflict (2000)] 
+
+  path: 2[1794943 -> 8001318], [The Murder (2002) -> murder] 
+
+srcNodes: [5000001, 1372482, 8001318]
+  path: 0[1335003 -> 2120133 -> 95470 -> 5000001], [Don de Dios (2005) -> Goros, Tomas -> "Bellezas indomables" (2007) -> Drama,Romance] 
+
+  path: 1[1335003 -> 2120133 -> 1752482 -> 2475829 -> 1372482], [Don de Dios (2005) -> Goros, Tomas -> The Air I Breathe (2007) -> Wuhrer, Kari -> Fatal Conflict (2000)] 
+
+  path: 2[1335003 -> 8001318], [Don de Dios (2005) -> murder] 
+
+srcNodes: [5000002, 1372482, 8019696]
+  path: 0[2260188 -> 1654715 -> 5000002], [Puri, Om -> Pyaar Diwana Hota Hai (2002) -> Romance] 
+
+  path: 1[2260188 -> 1822813 -> 2373274 -> 1372482], [Puri, Om -> The Zookeeper (2001) -> Kooiman, Rianne -> Fatal Conflict (2000)] 
+
+  path: 2[2260188 -> 1548783 -> 8019696], [Puri, Om -> Maharathi (2008) -> india,murder] 
+
+srcNodes: [5000002, 6008306, 1580546]
+  path: 0[1465387 -> 5000002], [Jeena Sirf Merre Liye (2002) -> Romance] 
+
+  path: 1[1465387 -> 2443758 -> 1307609 -> 6008306], [Jeena Sirf Merre Liye (2002) -> Sherawat, Mallika -> Dasavatharam (2008) -> U.S.-based Bio-techn] 
+
+  path: 2[1465387 -> 2443758 -> 1580546], [Jeena Sirf Merre Liye (2002) -> Sherawat, Mallika -> Murder (2004)] 
+
+-----------------------------------------
+ResultDestNodes: [1580926, 1529128, 1763891, 1235783, 1206077, 1759768, 1763751, 1768473, 1647634, 782339, 1802339, 1794943, 1335003, 2260188, 1465387]
+ResultRelevs: [8.247442245483398, 8.131951332092285, 7.247816562652588, 7.2386064529418945, 7.132838249206543, 7.060973167419434, 7.060972690582275, 7.060972213745117, 7.0391740798950195, 7.0391740798950195, 7.039173603057861, 7.039172172546387, 7.039170265197754, 7.038888931274414, 7.035944938659668]
+AvgResultRelev: 7.230151398976644
+AvgResultDissimilarity: 0.7301587301587298
+Num of entries retrieved from the KNLists: 8232
+Num of entries retrieved from NKMaps: 14516
+Num of answer trees explored: 5621
+Num of states created: 609248
+Num of states explored: 608509
+Num of heuristic search performed: 17
+
+Div Top-k Search by Astar1nc_ap_new, k=15
+[romance, conflict, murder]
+srcNodes: [5000002, 1372482, 8001318]
+  path: 0[1580926 -> 5000002], [Murmur (2004) -> Romance] 
+
+  path: 1[1580926 -> 2169253 -> 1238074 -> 2475829 -> 1372482], [Murmur (2004) -> Kirkwood, Langley -> Berserker (2004) -> Wuhrer, Kari -> Fatal Conflict (2000)] 
+
+  path: 2[1580926 -> 2169253 -> 1296214 -> 8001318], [Murmur (2004) -> Kirkwood, Langley -> Cross Line (2007) -> murder] 
+
+srcNodes: [5000002, 1290249, 628459]
+  path: 0[1529128 -> 5000002], [Liberty, Maine (2001) -> Romance] 
+
+  path: 1[1529128 -> 2355989 -> 1290249], [Liberty, Maine (2001) -> Holloman, Laurel -> Conflict (2005/I)] 
+
+  path: 2[1529128 -> 2203026 -> 628459], [Liberty, Maine (2001) -> Martin, Barney (II) -> "Murder in Small Town X" (2001)] 
+
+srcNodes: [5001125, 1763891, 8036273]
+  path: 0[1763891 -> 5001125], [The Conflict of Ms. Boston (2010) -> Comedy,Drama,Romance,Short] 
+
+  path: 1[1763891 -> 1763891], [The Conflict of Ms. Boston (2010) -> The Conflict of Ms. Boston (2010)]
+  path: 2[1763891 -> 2452748 -> 1880362 -> 8036273], [The Conflict of Ms. Boston (2010) -> Streaty, Tia -> Who Shot Mamba? (2009) -> basketball,cult,independent-film,murder,snake] 
+
+srcNodes: [5000002, 1372482, 1709131]
+  path: 0[1235783 -> 5000002], [Behind the Seams (2000) -> Romance] 
+
+  path: 1[1235783 -> 2227601 -> 1312229 -> 2475829 -> 1372482], [Behind the Seams (2000) -> Musto, Michael (I) -> Death of a Dynasty (2003) -> Wuhrer, Kari -> Fatal Conflict (2000)] 
+
+  path: 2[1235783 -> 2400555 -> 1709131], [Behind the Seams (2000) -> Minter, Kristin -> Six Sex Scenes and a Murder (2008)] 
+
+srcNodes: [5000002, 1290259, 8001318]
+  path: 0[1206077 -> 2323097 -> 1759768 -> 5000002], [An American Carol (2008) -> Dionne, Nicole (I) -> The Broken Hearts Club (2009) -> Romance] 
+
+  path: 1[1206077 -> 2228525 -> 1290259], [An American Carol (2008) -> Naber, Joey -> Conflict in the Middle Table (2008)] 
+
+  path: 2[1206077 -> 2143116 -> 1802339 -> 8001318], [An American Carol (2008) -> Hopper, Dennis -> The Prophet's Game (2000) -> murder] 
+
+srcNodes: [5000002, 1763891, 8031313]
+  path: 0[1759768 -> 5000002], [The Broken Hearts Club (2009) -> Romance] 
+
+  path: 1[1759768 -> 2221773 -> 1880362 -> 2452748 -> 1763891], [The Broken Hearts Club (2009) -> Mooney, Dylan (I) -> Who Shot Mamba? (2009) -> Streaty, Tia -> The Conflict of Ms. Boston (2010)] 
+
+  path: 2[1759768 -> 2341444 -> 1779890 -> 8031313], [The Broken Hearts Club (2009) -> Gilbert, Maya -> The Hiding (2009) -> family-relationships,murder] 
+
+srcNodes: [5000002, 1290249, 8012480]
+  path: 0[1763751 -> 5000002], [The Completely Remarkable, Utterly Fabulous Transformation of a Regular Joe (2008) -> Romance] 
+
+  path: 1[1763751 -> 2064361 -> 1759393 -> 2277053 -> 1290249], [The Completely Remarkable, Utterly Fabulous Transformation of a Regular Joe (2008) -> Cook, Michael (VIII) -> The Break-Up (2006) -> Adams, Joey Lauren -> Conflict (2005/I)] 
+
+  path: 2[1763751 -> 2335808 -> 1390962 -> 8012480], [The Completely Remarkable, Utterly Fabulous Transformation of a Regular Joe (2008) -> Fradenburgh, Emily -> Further North (2008) -> crisis,murder,violence,winter] 
+
+srcNodes: [5000002, 1290249, 8002064]
+  path: 0[1768473 -> 5000002], [The Donor (2001) -> Romance] 
+
+  path: 1[1768473 -> 2293466 -> 1415669 -> 2358317 -> 1290249], [The Donor (2001) -> Black, Karen (I) -> Hard Luck (2001) -> Humphrey, Renée -> Conflict (2005/I)] 
+
+  path: 2[1768473 -> 2293466 -> 1179576 -> 8002064], [The Donor (2001) -> Black, Karen (I) -> A Light in the Darkness (2002) -> female-nudity,murder] 
+
+srcNodes: [5000000, 1290249, 8001318]
+  path: 0[1647634 -> 2069116 -> 1345261 -> 5000000], [Pretty Bird (2008) -> Crudup, Billy -> Eat Pray Love (2010) -> Romance,Drama] 
+
+  path: 1[1647634 -> 2113177 -> 1235152 -> 2062412 -> 1290249], [Pretty Bird (2008) -> Gelber, Jordan -> Before the Devil Knows You're Dead (2007) -> Colletti, Bob -> Conflict (2005/I)] 
+
+  path: 2[1647634 -> 8001318], [Pretty Bird (2008) -> murder] 
+
+srcNodes: [5000000, 1290249, 8001318]
+  path: 0[782339 -> 2070247 -> 1355768 -> 5000000], ["Sabbatical" (2007) -> Cupo, Antonio -> Elegy (2008/I) -> Romance,Drama] 
+
+  path: 1[782339 -> 2210723 -> 1706239 -> 2215276 -> 1290249], ["Sabbatical" (2007) -> McKenna, Patrick (I) -> Silent But Deadly (2011) -> Mewes, Jason -> Conflict (2005/I)] 
+
+  path: 2[782339 -> 8001318], ["Sabbatical" (2007) -> murder] 
+
+srcNodes: [5000000, 1290259, 8001318]
+  path: 0[1802339 -> 2143116 -> 1355768 -> 5000000], [The Prophet's Game (2000) -> Hopper, Dennis -> Elegy (2008/I) -> Romance,Drama] 
+
+  path: 1[1802339 -> 2143116 -> 1206077 -> 2228525 -> 1290259], [The Prophet's Game (2000) -> Hopper, Dennis -> An American Carol (2008) -> Naber, Joey -> Conflict in the Middle Table (2008)] 
+
+  path: 2[1802339 -> 8001318], [The Prophet's Game (2000) -> murder] 
+
+srcNodes: [5000000, 1372482, 8001318]
+  path: 0[1794943 -> 2285253 -> 1759365 -> 5000000], [The Murder (2002) -> Bach, Nancy -> The Bread, My Sweet (2001) -> Romance,Drama] 
+
+  path: 1[1794943 -> 2077104 -> 1620211 -> 2237377 -> 1372482], [The Murder (2002) -> DeBor, Curt -> Out of the Black (2001) -> O'Keeffe, Miles -> Fatal Conflict (2000)] 
+
+  path: 2[1794943 -> 8001318], [The Murder (2002) -> murder] 
+
+srcNodes: [5000001, 1372482, 8001318]
+  path: 0[1335003 -> 2120133 -> 95470 -> 5000001], [Don de Dios (2005) -> Goros, Tomas -> "Bellezas indomables" (2007) -> Drama,Romance] 
+
+  path: 1[1335003 -> 2120133 -> 1752482 -> 2475829 -> 1372482], [Don de Dios (2005) -> Goros, Tomas -> The Air I Breathe (2007) -> Wuhrer, Kari -> Fatal Conflict (2000)] 
+
+  path: 2[1335003 -> 8001318], [Don de Dios (2005) -> murder] 
+
+srcNodes: [5000002, 1372482, 8019696]
+  path: 0[2260188 -> 1654715 -> 5000002], [Puri, Om -> Pyaar Diwana Hota Hai (2002) -> Romance] 
+
+  path: 1[2260188 -> 1822813 -> 2373274 -> 1372482], [Puri, Om -> The Zookeeper (2001) -> Kooiman, Rianne -> Fatal Conflict (2000)] 
+
+  path: 2[2260188 -> 1548783 -> 8019696], [Puri, Om -> Maharathi (2008) -> india,murder] 
+
+srcNodes: [5000002, 6008306, 1580546]
+  path: 0[1465387 -> 5000002], [Jeena Sirf Merre Liye (2002) -> Romance] 
+
+  path: 1[1465387 -> 2443758 -> 1307609 -> 6008306], [Jeena Sirf Merre Liye (2002) -> Sherawat, Mallika -> Dasavatharam (2008) -> U.S.-based Bio-techn] 
+
+  path: 2[1465387 -> 2443758 -> 1580546], [Jeena Sirf Merre Liye (2002) -> Sherawat, Mallika -> Murder (2004)] 
+
+-----------------------------------------
+ResultDestNodes: [1580926, 1529128, 1763891, 1235783, 1206077, 1759768, 1763751, 1768473, 1647634, 782339, 1802339, 1794943, 1335003, 2260188, 1465387]
+ResultRelevs: [8.247442245483398, 8.131951332092285, 7.247816562652588, 7.2386064529418945, 7.132838249206543, 7.060973167419434, 7.060972690582275, 7.060972213745117, 7.0391740798950195, 7.0391740798950195, 7.039173603057861, 7.039172172546387, 7.039170265197754, 7.038888931274414, 7.035944938659668]
+AvgResultRelev: 7.230151398976644
+AvgResultDissimilarity: 0.7301587301587298
+Num of entries retrieved from the KNLists: 8235
+Num of entries retrieved from NKMaps: 14520
+Num of answer trees explored: 5622
+Num of states created: 326
+Num of states explored: 58
+Num of heuristic search performed: 3
+
+query: [romance, murder, mystery]
+Top-k Search by Blink-BDB, k=5
+[romance, murder, mystery]
+srcNodes: [5000038, 8001318, 5000017]
+  path: 0[1366185 -> 2442084 -> 1372407 -> 5000038], [Evil Deeds 2 (2010) -> Sereboff, Allyson -> Fat City, New Orleans (2011) -> Comedy,Drama,Romance] 
+
+  path: 1[1366185 -> 8001318], [Evil Deeds 2 (2010) -> murder] 
+
+  path: 2[1366185 -> 5000017], [Evil Deeds 2 (2010) -> Mystery] 
+
+srcNodes: [5000002, 1709131, 5000017]
+  path: 0[1709131 -> 2400555 -> 1235783 -> 5000002], [Six Sex Scenes and a Murder (2008) -> Minter, Kristin -> Behind the Seams (2000) -> Romance] 
+
+  path: 1[1709131 -> 1709131], [Six Sex Scenes and a Murder (2008) -> Six Sex Scenes and a Murder (2008)]
+  path: 2[1709131 -> 5000017], [Six Sex Scenes and a Murder (2008) -> Mystery] 
+
+srcNodes: [5000002, 8012066, 5000017]
+  path: 0[1383635 -> 2221327 -> 667731 -> 5000002], [Foresight (2009/I) -> Montero, Michael (I) -> "Nuestro barrio" (2006) -> Romance] 
+
+  path: 1[1383635 -> 8012066], [Foresight (2009/I) -> murder,psychic,satire,skeptic] 
+
+  path: 2[1383635 -> 5000017], [Foresight (2009/I) -> Mystery] 
+
+srcNodes: [5000002, 1580546, 5000017]
+  path: 0[1474425 -> 2166834 -> 1748257 -> 5000002], [Kabhi Kahin... (2008) -> Khedekar, Sachin -> Tere Naam (2003) -> Romance] 
+
+  path: 1[1474425 -> 2246954 -> 1580546], [Kabhi Kahin... (2008) -> Patel, Ashmit -> Murder (2004)] 
+
+  path: 2[1474425 -> 5000017], [Kabhi Kahin... (2008) -> Mystery] 
+
+srcNodes: [5000002, 1580546, 5000017]
+  path: 0[1580546 -> 2133416 -> 1464523 -> 5000002], [Murder (2004) -> Hashmi, Emraan -> Jawani Diwani: A Youthful Joyride (2006) -> Romance] 
+
+  path: 1[1580546 -> 1580546], [Murder (2004) -> Murder (2004)]
+  path: 2[1580546 -> 2246954 -> 1474425 -> 5000017], [Murder (2004) -> Patel, Ashmit -> Kabhi Kahin... (2008) -> Mystery] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [1366185, 1709131, 1383635, 1474425, 1580546]
+ResultRelevs: [10.33564567565918, 10.103662490844727, 9.57882308959961, 9.443548202514648, 9.137065887451172]
+AvgResultRelev: 9.719749069213867
+AvgResultDissimilarity: 0.4333333333333333
+Num of entries retrieved from the lists: 4502
+Num of entries retrieved from NKMaps: 7924
+Num of answer trees explored: 3286
+
+Div Top-k Search by Exhustive, k=5
+[romance, murder, mystery]
+srcNodes: [5000038, 8001318, 5000017]
+  path: 0[1366185 -> 2442084 -> 1372407 -> 5000038], [Evil Deeds 2 (2010) -> Sereboff, Allyson -> Fat City, New Orleans (2011) -> Comedy,Drama,Romance] 
+
+  path: 1[1366185 -> 8001318], [Evil Deeds 2 (2010) -> murder] 
+
+  path: 2[1366185 -> 5000017], [Evil Deeds 2 (2010) -> Mystery] 
+
+srcNodes: [5000002, 1709131, 5000017]
+  path: 0[1709131 -> 2400555 -> 1235783 -> 5000002], [Six Sex Scenes and a Murder (2008) -> Minter, Kristin -> Behind the Seams (2000) -> Romance] 
+
+  path: 1[1709131 -> 1709131], [Six Sex Scenes and a Murder (2008) -> Six Sex Scenes and a Murder (2008)]
+  path: 2[1709131 -> 5000017], [Six Sex Scenes and a Murder (2008) -> Mystery] 
+
+srcNodes: [5000001, 8001318, 5000245]
+  path: 0[1497573 -> 2245366 -> 1504134 -> 5000001], [La Reunion (2006) -> Paretas, Jemi -> La memoria de los peces (2004/I) -> Drama,Romance] 
+
+  path: 1[1497573 -> 8001318], [La Reunion (2006) -> murder] 
+
+  path: 2[1497573 -> 5000245], [La Reunion (2006) -> Drama,Mystery] 
+
+srcNodes: [5000754, 8022008, 5000017]
+  path: 0[1596643 -> 2382508 -> 1741333 -> 5000754], [Nightshade (2004) -> Licciardi, Christina -> Take Her Picture (2010) -> Short,Drama,Romance] 
+
+  path: 1[1596643 -> 8022008], [Nightshade (2004) -> revenge-murder] 
+
+  path: 2[1596643 -> 5000017], [Nightshade (2004) -> Mystery] 
+
+srcNodes: [1708471, 1781882, 5000017]
+  path: 0[1781882 -> 2230950 -> 1571300 -> 2114307 -> 1708471], [The Impossible Murder (2010) -> Negi, Tarun Singh -> Mitter Pyare Nu Haal Mureedan Da Kehna (2004) -> Ghai, Gaurav -> Sirf Romance: Love by Chance (2007)] 
+
+  path: 1[1781882 -> 1781882], [The Impossible Murder (2010) -> The Impossible Murder (2010)]
+  path: 2[1781882 -> 5000017], [The Impossible Murder (2010) -> Mystery] 
+
+Dissims of Subsets and t:
+(0~0, 1) : 0.6666666666666666
+(0~1, 2) : 0.8333333333333333
+(0~2, 3) : 0.7777777777777777
+(0~3, 4) : 0.7499999999999999
+-----------------------------------------
+ResultDestNodes: [1366185, 1709131, 1497573, 1596643, 1781882]
+ResultRelevs: [10.33564567565918, 10.103662490844727, 8.852273941040039, 8.772644996643066, 8.700470924377441]
+AvgResultRelev: 9.35293960571289
+AvgResultDissimilarity: 0.7666666666666667
+Num of entries retrieved from the KNLists: 5835
+Num of entries retrieved from NKMaps: 10097
+Num of answer trees explored: 4020
+Num of answer tree sets created: 215
+Num of answer tree sets removed: 208
+
+Div Top-k Search by Astar02, k=5
+[romance, murder, mystery]
+srcNodes: [5000038, 8001318, 5000017]
+  path: 0[1366185 -> 2442084 -> 1372407 -> 5000038], [Evil Deeds 2 (2010) -> Sereboff, Allyson -> Fat City, New Orleans (2011) -> Comedy,Drama,Romance] 
+
+  path: 1[1366185 -> 8001318], [Evil Deeds 2 (2010) -> murder] 
+
+  path: 2[1366185 -> 5000017], [Evil Deeds 2 (2010) -> Mystery] 
+
+srcNodes: [5000002, 1709131, 5000017]
+  path: 0[1709131 -> 2400555 -> 1235783 -> 5000002], [Six Sex Scenes and a Murder (2008) -> Minter, Kristin -> Behind the Seams (2000) -> Romance] 
+
+  path: 1[1709131 -> 1709131], [Six Sex Scenes and a Murder (2008) -> Six Sex Scenes and a Murder (2008)]
+  path: 2[1709131 -> 5000017], [Six Sex Scenes and a Murder (2008) -> Mystery] 
+
+srcNodes: [5000001, 8001318, 5000245]
+  path: 0[1497573 -> 2245366 -> 1504134 -> 5000001], [La Reunion (2006) -> Paretas, Jemi -> La memoria de los peces (2004/I) -> Drama,Romance] 
+
+  path: 1[1497573 -> 8001318], [La Reunion (2006) -> murder] 
+
+  path: 2[1497573 -> 5000245], [La Reunion (2006) -> Drama,Mystery] 
+
+srcNodes: [5000754, 8022008, 5000017]
+  path: 0[1596643 -> 2382508 -> 1741333 -> 5000754], [Nightshade (2004) -> Licciardi, Christina -> Take Her Picture (2010) -> Short,Drama,Romance] 
+
+  path: 1[1596643 -> 8022008], [Nightshade (2004) -> revenge-murder] 
+
+  path: 2[1596643 -> 5000017], [Nightshade (2004) -> Mystery] 
+
+srcNodes: [1708471, 1781882, 5000017]
+  path: 0[1781882 -> 2230950 -> 1571300 -> 2114307 -> 1708471], [The Impossible Murder (2010) -> Negi, Tarun Singh -> Mitter Pyare Nu Haal Mureedan Da Kehna (2004) -> Ghai, Gaurav -> Sirf Romance: Love by Chance (2007)] 
+
+  path: 1[1781882 -> 1781882], [The Impossible Murder (2010) -> The Impossible Murder (2010)]
+  path: 2[1781882 -> 5000017], [The Impossible Murder (2010) -> Mystery] 
+
+-----------------------------------------
+ResultDestNodes: [1366185, 1709131, 1497573, 1596643, 1781882]
+ResultRelevs: [10.33564567565918, 10.103662490844727, 8.852273941040039, 8.772644996643066, 8.700470924377441]
+AvgResultRelev: 9.35293960571289
+AvgResultDissimilarity: 0.7666666666666667
+Num of entries retrieved from the KNLists: 5835
+Num of entries retrieved from NKMaps: 10097
+Num of answer trees explored: 4020
+Num of states created: 600
+Num of states explored: 557
+Num of heuristic search performed: 21
+
+Div Top-k Search by Astar1nc_ap_new, k=5
+[romance, murder, mystery]
+srcNodes: [5000038, 8001318, 5000017]
+  path: 0[1366185 -> 2442084 -> 1372407 -> 5000038], [Evil Deeds 2 (2010) -> Sereboff, Allyson -> Fat City, New Orleans (2011) -> Comedy,Drama,Romance] 
+
+  path: 1[1366185 -> 8001318], [Evil Deeds 2 (2010) -> murder] 
+
+  path: 2[1366185 -> 5000017], [Evil Deeds 2 (2010) -> Mystery] 
+
+srcNodes: [5000002, 1709131, 5000017]
+  path: 0[1709131 -> 2400555 -> 1235783 -> 5000002], [Six Sex Scenes and a Murder (2008) -> Minter, Kristin -> Behind the Seams (2000) -> Romance] 
+
+  path: 1[1709131 -> 1709131], [Six Sex Scenes and a Murder (2008) -> Six Sex Scenes and a Murder (2008)]
+  path: 2[1709131 -> 5000017], [Six Sex Scenes and a Murder (2008) -> Mystery] 
+
+srcNodes: [5000001, 8001318, 5000245]
+  path: 0[1497573 -> 2245366 -> 1504134 -> 5000001], [La Reunion (2006) -> Paretas, Jemi -> La memoria de los peces (2004/I) -> Drama,Romance] 
+
+  path: 1[1497573 -> 8001318], [La Reunion (2006) -> murder] 
+
+  path: 2[1497573 -> 5000245], [La Reunion (2006) -> Drama,Mystery] 
+
+srcNodes: [5000754, 8022008, 5000017]
+  path: 0[1596643 -> 2382508 -> 1741333 -> 5000754], [Nightshade (2004) -> Licciardi, Christina -> Take Her Picture (2010) -> Short,Drama,Romance] 
+
+  path: 1[1596643 -> 8022008], [Nightshade (2004) -> revenge-murder] 
+
+  path: 2[1596643 -> 5000017], [Nightshade (2004) -> Mystery] 
+
+srcNodes: [1708471, 1781882, 5000017]
+  path: 0[1781882 -> 2230950 -> 1571300 -> 2114307 -> 1708471], [The Impossible Murder (2010) -> Negi, Tarun Singh -> Mitter Pyare Nu Haal Mureedan Da Kehna (2004) -> Ghai, Gaurav -> Sirf Romance: Love by Chance (2007)] 
+
+  path: 1[1781882 -> 1781882], [The Impossible Murder (2010) -> The Impossible Murder (2010)]
+  path: 2[1781882 -> 5000017], [The Impossible Murder (2010) -> Mystery] 
+
+-----------------------------------------
+ResultDestNodes: [1366185, 1709131, 1497573, 1596643, 1781882]
+ResultRelevs: [10.33564567565918, 10.103662490844727, 8.852273941040039, 8.772644996643066, 8.700470924377441]
+AvgResultRelev: 9.35293960571289
+AvgResultDissimilarity: 0.7666666666666667
+Num of entries retrieved from the KNLists: 5835
+Num of entries retrieved from NKMaps: 10097
+Num of answer trees explored: 4020
+Num of states created: 89
+Num of states explored: 22
+Num of heuristic search performed: 8
+
+Top-k Search by Blink-BDB, k=10
+[romance, murder, mystery]
+srcNodes: [5000038, 8001318, 5000017]
+  path: 0[1366185 -> 2442084 -> 1372407 -> 5000038], [Evil Deeds 2 (2010) -> Sereboff, Allyson -> Fat City, New Orleans (2011) -> Comedy,Drama,Romance] 
+
+  path: 1[1366185 -> 8001318], [Evil Deeds 2 (2010) -> murder] 
+
+  path: 2[1366185 -> 5000017], [Evil Deeds 2 (2010) -> Mystery] 
+
+srcNodes: [5000002, 1709131, 5000017]
+  path: 0[1709131 -> 2400555 -> 1235783 -> 5000002], [Six Sex Scenes and a Murder (2008) -> Minter, Kristin -> Behind the Seams (2000) -> Romance] 
+
+  path: 1[1709131 -> 1709131], [Six Sex Scenes and a Murder (2008) -> Six Sex Scenes and a Murder (2008)]
+  path: 2[1709131 -> 5000017], [Six Sex Scenes and a Murder (2008) -> Mystery] 
+
+srcNodes: [5000002, 8012066, 5000017]
+  path: 0[1383635 -> 2221327 -> 667731 -> 5000002], [Foresight (2009/I) -> Montero, Michael (I) -> "Nuestro barrio" (2006) -> Romance] 
+
+  path: 1[1383635 -> 8012066], [Foresight (2009/I) -> murder,psychic,satire,skeptic] 
+
+  path: 2[1383635 -> 5000017], [Foresight (2009/I) -> Mystery] 
+
+srcNodes: [5000002, 1580546, 5000017]
+  path: 0[1474425 -> 2166834 -> 1748257 -> 5000002], [Kabhi Kahin... (2008) -> Khedekar, Sachin -> Tere Naam (2003) -> Romance] 
+
+  path: 1[1474425 -> 2246954 -> 1580546], [Kabhi Kahin... (2008) -> Patel, Ashmit -> Murder (2004)] 
+
+  path: 2[1474425 -> 5000017], [Kabhi Kahin... (2008) -> Mystery] 
+
+srcNodes: [5000002, 1580546, 5000017]
+  path: 0[1580546 -> 2133416 -> 1464523 -> 5000002], [Murder (2004) -> Hashmi, Emraan -> Jawani Diwani: A Youthful Joyride (2006) -> Romance] 
+
+  path: 1[1580546 -> 1580546], [Murder (2004) -> Murder (2004)]
+  path: 2[1580546 -> 2246954 -> 1474425 -> 5000017], [Murder (2004) -> Patel, Ashmit -> Kabhi Kahin... (2008) -> Mystery] 
+
+srcNodes: [5000002, 8027284, 5000017]
+  path: 0[1704004 -> 2191073 -> 1322706 -> 5000002], [Showstopper (2011) -> Loncka, Jeremie -> Dewitt & Maria (2010) -> Romance] 
+
+  path: 1[1704004 -> 8027284], [Showstopper (2011) -> jennifer-day,murder,scarface,traffic,trunk] 
+
+  path: 2[1704004 -> 5000017], [Showstopper (2011) -> Mystery] 
+
+srcNodes: [5000002, 8020729, 5000017]
+  path: 0[1570036 -> 2260188 -> 1654715 -> 5000002], [Miss India: The Mystery (2003) -> Puri, Om -> Pyaar Diwana Hota Hai (2002) -> Romance] 
+
+  path: 1[1570036 -> 8020729], [Miss India: The Mystery (2003) -> beautiful-woman,beauty-contest,detective,killer,murder] 
+
+  path: 2[1570036 -> 5000017], [Miss India: The Mystery (2003) -> Mystery] 
+
+srcNodes: [5000002, 8019696, 5000017]
+  path: 0[2260188 -> 1654715 -> 5000002], [Puri, Om -> Pyaar Diwana Hota Hai (2002) -> Romance] 
+
+  path: 1[2260188 -> 1548783 -> 8019696], [Puri, Om -> Maharathi (2008) -> india,murder] 
+
+  path: 2[2260188 -> 1570036 -> 5000017], [Puri, Om -> Miss India: The Mystery (2003) -> Mystery] 
+
+srcNodes: [5000002, 8036369, 5000017]
+  path: 0[1719288 -> 2050762 -> 1791284 -> 5000002], [Souvenir (2006/I) -> Carter, Kevin (I) -> The Man Who Couldn't (2005) -> Romance] 
+
+  path: 1[1719288 -> 2041761 -> 1882589 -> 8036369], [Souvenir (2006/I) -> Bryant, Joel (I) -> Will You Be My Victim? (2000) -> murder,punk] 
+
+  path: 2[1719288 -> 5000017], [Souvenir (2006/I) -> Mystery] 
+
+srcNodes: [5000002, 2045528, 5000017]
+  path: 0[1584746 -> 2289489 -> 1206627 -> 5000002], [Mysteria (2011) -> Becker, Gretchen -> An Existential Affair (2006) -> Romance] 
+
+  path: 1[1584746 -> 2275433 -> 1852344 -> 2045528], [Mysteria (2011) -> Rooker, Michael (I) -> Undisputed (2002) -> C-Murder] 
+
+  path: 2[1584746 -> 5000017], [Mysteria (2011) -> Mystery] 
+
+-----------------------------------------
+Num of top-k answers: 10
+ResultDestNodes: [1366185, 1709131, 1383635, 1474425, 1580546, 1704004, 1570036, 2260188, 1719288, 1584746]
+ResultRelevs: [10.33564567565918, 10.103662490844727, 9.57882308959961, 9.443548202514648, 9.137065887451172, 9.057828903198242, 9.057822227478027, 9.057470321655273, 8.977912902832031, 8.977910995483398]
+AvgResultRelev: 9.37276906967163
+AvgResultDissimilarity: 0.3925925925925926
+Num of entries retrieved from the lists: 5835
+Num of entries retrieved from NKMaps: 10097
+Num of answer trees explored: 4020
+
+Div Top-k Search by Exhustive, k=10
+[romance, murder, mystery]
+srcNodes: [5000038, 8001318, 5000017]
+  path: 0[1366185 -> 2442084 -> 1372407 -> 5000038], [Evil Deeds 2 (2010) -> Sereboff, Allyson -> Fat City, New Orleans (2011) -> Comedy,Drama,Romance] 
+
+  path: 1[1366185 -> 8001318], [Evil Deeds 2 (2010) -> murder] 
+
+  path: 2[1366185 -> 5000017], [Evil Deeds 2 (2010) -> Mystery] 
+
+srcNodes: [5000002, 1709131, 5000017]
+  path: 0[1709131 -> 2400555 -> 1235783 -> 5000002], [Six Sex Scenes and a Murder (2008) -> Minter, Kristin -> Behind the Seams (2000) -> Romance] 
+
+  path: 1[1709131 -> 1709131], [Six Sex Scenes and a Murder (2008) -> Six Sex Scenes and a Murder (2008)]
+  path: 2[1709131 -> 5000017], [Six Sex Scenes and a Murder (2008) -> Mystery] 
+
+srcNodes: [5000001, 8001318, 5000245]
+  path: 0[1497573 -> 2245366 -> 1504134 -> 5000001], [La Reunion (2006) -> Paretas, Jemi -> La memoria de los peces (2004/I) -> Drama,Romance] 
+
+  path: 1[1497573 -> 8001318], [La Reunion (2006) -> murder] 
+
+  path: 2[1497573 -> 5000245], [La Reunion (2006) -> Drama,Mystery] 
+
+srcNodes: [5000754, 8022008, 5000017]
+  path: 0[1596643 -> 2382508 -> 1741333 -> 5000754], [Nightshade (2004) -> Licciardi, Christina -> Take Her Picture (2010) -> Short,Drama,Romance] 
+
+  path: 1[1596643 -> 8022008], [Nightshade (2004) -> revenge-murder] 
+
+  path: 2[1596643 -> 5000017], [Nightshade (2004) -> Mystery] 
+
+srcNodes: [1708471, 1781882, 5000017]
+  path: 0[1781882 -> 2230950 -> 1571300 -> 2114307 -> 1708471], [The Impossible Murder (2010) -> Negi, Tarun Singh -> Mitter Pyare Nu Haal Mureedan Da Kehna (2004) -> Ghai, Gaurav -> Sirf Romance: Love by Chance (2007)] 
+
+  path: 1[1781882 -> 1781882], [The Impossible Murder (2010) -> The Impossible Murder (2010)]
+  path: 2[1781882 -> 5000017], [The Impossible Murder (2010) -> Mystery] 
+
+srcNodes: [5000002, 8002064, 5000017]
+  path: 0[1479033 -> 2293466 -> 1768473 -> 5000002], [Katie Q (2010) -> Black, Karen (I) -> The Donor (2001) -> Romance] 
+
+  path: 1[1479033 -> 2293466 -> 1179576 -> 8002064], [Katie Q (2010) -> Black, Karen (I) -> A Light in the Darkness (2002) -> female-nudity,murder] 
+
+  path: 2[1479033 -> 5000017], [Katie Q (2010) -> Mystery] 
+
+srcNodes: [5000002, 8012066, 5000017]
+  path: 0[2221327 -> 667731 -> 5000002], [Montero, Michael (I) -> "Nuestro barrio" (2006) -> Romance] 
+
+  path: 1[2221327 -> 1383635 -> 8012066], [Montero, Michael (I) -> Foresight (2009/I) -> murder,psychic,satire,skeptic] 
+
+  path: 2[2221327 -> 1383635 -> 5000017], [Montero, Michael (I) -> Foresight (2009/I) -> Mystery] 
+
+srcNodes: [5000002, 1580546, 1658013]
+  path: 0[2133416 -> 1464523 -> 5000002], [Hashmi, Emraan -> Jawani Diwani: A Youthful Joyride (2006) -> Romance] 
+
+  path: 1[2133416 -> 1580546], [Hashmi, Emraan -> Murder (2004)] 
+
+  path: 2[2133416 -> 1658013], [Hashmi, Emraan -> Raaz: The Mystery Continues (2009)] 
+
+srcNodes: [1674278, 8033087, 5000017]
+  path: 0[1813270 -> 2010323 -> 1782878 -> 2044357 -> 1674278], [The Sweepers (2005) -> Anton, John -> The Island (2005) -> Buscemi, Steve -> Romance & Cigarettes (2005)] 
+
+  path: 1[1813270 -> 8033087], [The Sweepers (2005) -> guilt,murder] 
+
+  path: 2[1813270 -> 5000017], [The Sweepers (2005) -> Mystery] 
+
+srcNodes: [5000002, 1580546, 1658013]
+  path: 0[1464523 -> 5000002], [Jawani Diwani: A Youthful Joyride (2006) -> Romance] 
+
+  path: 1[1464523 -> 2133416 -> 1580546], [Jawani Diwani: A Youthful Joyride (2006) -> Hashmi, Emraan -> Murder (2004)] 
+
+  path: 2[1464523 -> 2133416 -> 1658013], [Jawani Diwani: A Youthful Joyride (2006) -> Hashmi, Emraan -> Raaz: The Mystery Continues (2009)] 
+
+Dissims of Subsets and t:
+(0~0, 1) : 0.6666666666666666
+(0~1, 2) : 0.8333333333333333
+(0~2, 3) : 0.7777777777777777
+(0~3, 4) : 0.7499999999999999
+(0~4, 5) : 0.6666666666666666
+(0~5, 6) : 0.611111111111111
+(0~6, 7) : 0.8571428571428571
+(0~7, 8) : 0.75
+(0~8, 9) : 0.7777777777777778
+-----------------------------------------
+ResultDestNodes: [1366185, 1709131, 1497573, 1596643, 1781882, 1479033, 2221327, 2133416, 1813270, 1464523]
+ResultRelevs: [10.33564567565918, 10.103662490844727, 8.852273941040039, 8.772644996643066, 8.700470924377441, 8.681293487548828, 8.667724609375, 8.512970924377441, 8.449438095092773, 8.421540260314941]
+AvgResultRelev: 8.949766540527344
+AvgResultDissimilarity: 0.7481481481481485
+Num of entries retrieved from the KNLists: 8234
+Num of entries retrieved from NKMaps: 14138
+Num of answer trees explored: 5589
+Num of answer tree sets created: 86149
+Num of answer tree sets removed: 1640
+
+Div Top-k Search by Astar02, k=10
+[romance, murder, mystery]
+srcNodes: [5000038, 8001318, 5000017]
+  path: 0[1366185 -> 2442084 -> 1372407 -> 5000038], [Evil Deeds 2 (2010) -> Sereboff, Allyson -> Fat City, New Orleans (2011) -> Comedy,Drama,Romance] 
+
+  path: 1[1366185 -> 8001318], [Evil Deeds 2 (2010) -> murder] 
+
+  path: 2[1366185 -> 5000017], [Evil Deeds 2 (2010) -> Mystery] 
+
+srcNodes: [5000002, 1709131, 5000017]
+  path: 0[1709131 -> 2400555 -> 1235783 -> 5000002], [Six Sex Scenes and a Murder (2008) -> Minter, Kristin -> Behind the Seams (2000) -> Romance] 
+
+  path: 1[1709131 -> 1709131], [Six Sex Scenes and a Murder (2008) -> Six Sex Scenes and a Murder (2008)]
+  path: 2[1709131 -> 5000017], [Six Sex Scenes and a Murder (2008) -> Mystery] 
+
+srcNodes: [5000001, 8001318, 5000245]
+  path: 0[1497573 -> 2245366 -> 1504134 -> 5000001], [La Reunion (2006) -> Paretas, Jemi -> La memoria de los peces (2004/I) -> Drama,Romance] 
+
+  path: 1[1497573 -> 8001318], [La Reunion (2006) -> murder] 
+
+  path: 2[1497573 -> 5000245], [La Reunion (2006) -> Drama,Mystery] 
+
+srcNodes: [5000754, 8022008, 5000017]
+  path: 0[1596643 -> 2382508 -> 1741333 -> 5000754], [Nightshade (2004) -> Licciardi, Christina -> Take Her Picture (2010) -> Short,Drama,Romance] 
+
+  path: 1[1596643 -> 8022008], [Nightshade (2004) -> revenge-murder] 
+
+  path: 2[1596643 -> 5000017], [Nightshade (2004) -> Mystery] 
+
+srcNodes: [1708471, 1781882, 5000017]
+  path: 0[1781882 -> 2230950 -> 1571300 -> 2114307 -> 1708471], [The Impossible Murder (2010) -> Negi, Tarun Singh -> Mitter Pyare Nu Haal Mureedan Da Kehna (2004) -> Ghai, Gaurav -> Sirf Romance: Love by Chance (2007)] 
+
+  path: 1[1781882 -> 1781882], [The Impossible Murder (2010) -> The Impossible Murder (2010)]
+  path: 2[1781882 -> 5000017], [The Impossible Murder (2010) -> Mystery] 
+
+srcNodes: [5000002, 8002064, 5000017]
+  path: 0[1479033 -> 2293466 -> 1768473 -> 5000002], [Katie Q (2010) -> Black, Karen (I) -> The Donor (2001) -> Romance] 
+
+  path: 1[1479033 -> 2293466 -> 1179576 -> 8002064], [Katie Q (2010) -> Black, Karen (I) -> A Light in the Darkness (2002) -> female-nudity,murder] 
+
+  path: 2[1479033 -> 5000017], [Katie Q (2010) -> Mystery] 
+
+srcNodes: [5000002, 8012066, 5000017]
+  path: 0[2221327 -> 667731 -> 5000002], [Montero, Michael (I) -> "Nuestro barrio" (2006) -> Romance] 
+
+  path: 1[2221327 -> 1383635 -> 8012066], [Montero, Michael (I) -> Foresight (2009/I) -> murder,psychic,satire,skeptic] 
+
+  path: 2[2221327 -> 1383635 -> 5000017], [Montero, Michael (I) -> Foresight (2009/I) -> Mystery] 
+
+srcNodes: [5000002, 1580546, 1658013]
+  path: 0[2133416 -> 1464523 -> 5000002], [Hashmi, Emraan -> Jawani Diwani: A Youthful Joyride (2006) -> Romance] 
+
+  path: 1[2133416 -> 1580546], [Hashmi, Emraan -> Murder (2004)] 
+
+  path: 2[2133416 -> 1658013], [Hashmi, Emraan -> Raaz: The Mystery Continues (2009)] 
+
+srcNodes: [1674278, 8033087, 5000017]
+  path: 0[1813270 -> 2010323 -> 1782878 -> 2044357 -> 1674278], [The Sweepers (2005) -> Anton, John -> The Island (2005) -> Buscemi, Steve -> Romance & Cigarettes (2005)] 
+
+  path: 1[1813270 -> 8033087], [The Sweepers (2005) -> guilt,murder] 
+
+  path: 2[1813270 -> 5000017], [The Sweepers (2005) -> Mystery] 
+
+srcNodes: [5000002, 1580546, 1658013]
+  path: 0[1464523 -> 5000002], [Jawani Diwani: A Youthful Joyride (2006) -> Romance] 
+
+  path: 1[1464523 -> 2133416 -> 1580546], [Jawani Diwani: A Youthful Joyride (2006) -> Hashmi, Emraan -> Murder (2004)] 
+
+  path: 2[1464523 -> 2133416 -> 1658013], [Jawani Diwani: A Youthful Joyride (2006) -> Hashmi, Emraan -> Raaz: The Mystery Continues (2009)] 
+
+-----------------------------------------
+ResultDestNodes: [1366185, 1709131, 1497573, 1596643, 1781882, 1479033, 2221327, 2133416, 1813270, 1464523]
+ResultRelevs: [10.33564567565918, 10.103662490844727, 8.852273941040039, 8.772644996643066, 8.700470924377441, 8.681293487548828, 8.667724609375, 8.512970924377441, 8.449438095092773, 8.421540260314941]
+AvgResultRelev: 8.949766540527344
+AvgResultDissimilarity: 0.7481481481481485
+Num of entries retrieved from the KNLists: 8234
+Num of entries retrieved from NKMaps: 14138
+Num of answer trees explored: 5589
+Num of states created: 150492
+Num of states explored: 149961
+Num of heuristic search performed: 36
+
+Div Top-k Search by Astar1nc_ap_new, k=10
+[romance, murder, mystery]
+srcNodes: [5000038, 8001318, 5000017]
+  path: 0[1366185 -> 2442084 -> 1372407 -> 5000038], [Evil Deeds 2 (2010) -> Sereboff, Allyson -> Fat City, New Orleans (2011) -> Comedy,Drama,Romance] 
+
+  path: 1[1366185 -> 8001318], [Evil Deeds 2 (2010) -> murder] 
+
+  path: 2[1366185 -> 5000017], [Evil Deeds 2 (2010) -> Mystery] 
+
+srcNodes: [5000002, 1709131, 5000017]
+  path: 0[1709131 -> 2400555 -> 1235783 -> 5000002], [Six Sex Scenes and a Murder (2008) -> Minter, Kristin -> Behind the Seams (2000) -> Romance] 
+
+  path: 1[1709131 -> 1709131], [Six Sex Scenes and a Murder (2008) -> Six Sex Scenes and a Murder (2008)]
+  path: 2[1709131 -> 5000017], [Six Sex Scenes and a Murder (2008) -> Mystery] 
+
+srcNodes: [5000001, 8001318, 5000245]
+  path: 0[1497573 -> 2245366 -> 1504134 -> 5000001], [La Reunion (2006) -> Paretas, Jemi -> La memoria de los peces (2004/I) -> Drama,Romance] 
+
+  path: 1[1497573 -> 8001318], [La Reunion (2006) -> murder] 
+
+  path: 2[1497573 -> 5000245], [La Reunion (2006) -> Drama,Mystery] 
+
+srcNodes: [5000754, 8022008, 5000017]
+  path: 0[1596643 -> 2382508 -> 1741333 -> 5000754], [Nightshade (2004) -> Licciardi, Christina -> Take Her Picture (2010) -> Short,Drama,Romance] 
+
+  path: 1[1596643 -> 8022008], [Nightshade (2004) -> revenge-murder] 
+
+  path: 2[1596643 -> 5000017], [Nightshade (2004) -> Mystery] 
+
+srcNodes: [1708471, 1781882, 5000017]
+  path: 0[1781882 -> 2230950 -> 1571300 -> 2114307 -> 1708471], [The Impossible Murder (2010) -> Negi, Tarun Singh -> Mitter Pyare Nu Haal Mureedan Da Kehna (2004) -> Ghai, Gaurav -> Sirf Romance: Love by Chance (2007)] 
+
+  path: 1[1781882 -> 1781882], [The Impossible Murder (2010) -> The Impossible Murder (2010)]
+  path: 2[1781882 -> 5000017], [The Impossible Murder (2010) -> Mystery] 
+
+srcNodes: [5000002, 8002064, 5000017]
+  path: 0[1479033 -> 2293466 -> 1768473 -> 5000002], [Katie Q (2010) -> Black, Karen (I) -> The Donor (2001) -> Romance] 
+
+  path: 1[1479033 -> 2293466 -> 1179576 -> 8002064], [Katie Q (2010) -> Black, Karen (I) -> A Light in the Darkness (2002) -> female-nudity,murder] 
+
+  path: 2[1479033 -> 5000017], [Katie Q (2010) -> Mystery] 
+
+srcNodes: [5000002, 8012066, 5000017]
+  path: 0[2221327 -> 667731 -> 5000002], [Montero, Michael (I) -> "Nuestro barrio" (2006) -> Romance] 
+
+  path: 1[2221327 -> 1383635 -> 8012066], [Montero, Michael (I) -> Foresight (2009/I) -> murder,psychic,satire,skeptic] 
+
+  path: 2[2221327 -> 1383635 -> 5000017], [Montero, Michael (I) -> Foresight (2009/I) -> Mystery] 
+
+srcNodes: [5000002, 1580546, 1658013]
+  path: 0[2133416 -> 1464523 -> 5000002], [Hashmi, Emraan -> Jawani Diwani: A Youthful Joyride (2006) -> Romance] 
+
+  path: 1[2133416 -> 1580546], [Hashmi, Emraan -> Murder (2004)] 
+
+  path: 2[2133416 -> 1658013], [Hashmi, Emraan -> Raaz: The Mystery Continues (2009)] 
+
+srcNodes: [1674278, 8033087, 5000017]
+  path: 0[1813270 -> 2010323 -> 1782878 -> 2044357 -> 1674278], [The Sweepers (2005) -> Anton, John -> The Island (2005) -> Buscemi, Steve -> Romance & Cigarettes (2005)] 
+
+  path: 1[1813270 -> 8033087], [The Sweepers (2005) -> guilt,murder] 
+
+  path: 2[1813270 -> 5000017], [The Sweepers (2005) -> Mystery] 
+
+srcNodes: [5000002, 1580546, 1658013]
+  path: 0[1464523 -> 5000002], [Jawani Diwani: A Youthful Joyride (2006) -> Romance] 
+
+  path: 1[1464523 -> 2133416 -> 1580546], [Jawani Diwani: A Youthful Joyride (2006) -> Hashmi, Emraan -> Murder (2004)] 
+
+  path: 2[1464523 -> 2133416 -> 1658013], [Jawani Diwani: A Youthful Joyride (2006) -> Hashmi, Emraan -> Raaz: The Mystery Continues (2009)] 
+
+-----------------------------------------
+ResultDestNodes: [1366185, 1709131, 1497573, 1596643, 1781882, 1479033, 2221327, 2133416, 1813270, 1464523]
+ResultRelevs: [10.33564567565918, 10.103662490844727, 8.852273941040039, 8.772644996643066, 8.700470924377441, 8.681293487548828, 8.667724609375, 8.512970924377441, 8.449438095092773, 8.421540260314941]
+AvgResultRelev: 8.949766540527344
+AvgResultDissimilarity: 0.7481481481481485
+Num of entries retrieved from the KNLists: 8234
+Num of entries retrieved from NKMaps: 14138
+Num of answer trees explored: 5589
+Num of states created: 687
+Num of states explored: 123
+Num of heuristic search performed: 8
+
+Top-k Search by Blink-BDB, k=15
+[romance, murder, mystery]
+srcNodes: [5000038, 8001318, 5000017]
+  path: 0[1366185 -> 2442084 -> 1372407 -> 5000038], [Evil Deeds 2 (2010) -> Sereboff, Allyson -> Fat City, New Orleans (2011) -> Comedy,Drama,Romance] 
+
+  path: 1[1366185 -> 8001318], [Evil Deeds 2 (2010) -> murder] 
+
+  path: 2[1366185 -> 5000017], [Evil Deeds 2 (2010) -> Mystery] 
+
+srcNodes: [5000002, 1709131, 5000017]
+  path: 0[1709131 -> 2400555 -> 1235783 -> 5000002], [Six Sex Scenes and a Murder (2008) -> Minter, Kristin -> Behind the Seams (2000) -> Romance] 
+
+  path: 1[1709131 -> 1709131], [Six Sex Scenes and a Murder (2008) -> Six Sex Scenes and a Murder (2008)]
+  path: 2[1709131 -> 5000017], [Six Sex Scenes and a Murder (2008) -> Mystery] 
+
+srcNodes: [5000002, 8012066, 5000017]
+  path: 0[1383635 -> 2221327 -> 667731 -> 5000002], [Foresight (2009/I) -> Montero, Michael (I) -> "Nuestro barrio" (2006) -> Romance] 
+
+  path: 1[1383635 -> 8012066], [Foresight (2009/I) -> murder,psychic,satire,skeptic] 
+
+  path: 2[1383635 -> 5000017], [Foresight (2009/I) -> Mystery] 
+
+srcNodes: [5000002, 1580546, 5000017]
+  path: 0[1474425 -> 2166834 -> 1748257 -> 5000002], [Kabhi Kahin... (2008) -> Khedekar, Sachin -> Tere Naam (2003) -> Romance] 
+
+  path: 1[1474425 -> 2246954 -> 1580546], [Kabhi Kahin... (2008) -> Patel, Ashmit -> Murder (2004)] 
+
+  path: 2[1474425 -> 5000017], [Kabhi Kahin... (2008) -> Mystery] 
+
+srcNodes: [5000002, 1580546, 5000017]
+  path: 0[1580546 -> 2133416 -> 1464523 -> 5000002], [Murder (2004) -> Hashmi, Emraan -> Jawani Diwani: A Youthful Joyride (2006) -> Romance] 
+
+  path: 1[1580546 -> 1580546], [Murder (2004) -> Murder (2004)]
+  path: 2[1580546 -> 2246954 -> 1474425 -> 5000017], [Murder (2004) -> Patel, Ashmit -> Kabhi Kahin... (2008) -> Mystery] 
+
+srcNodes: [5000002, 8027284, 5000017]
+  path: 0[1704004 -> 2191073 -> 1322706 -> 5000002], [Showstopper (2011) -> Loncka, Jeremie -> Dewitt & Maria (2010) -> Romance] 
+
+  path: 1[1704004 -> 8027284], [Showstopper (2011) -> jennifer-day,murder,scarface,traffic,trunk] 
+
+  path: 2[1704004 -> 5000017], [Showstopper (2011) -> Mystery] 
+
+srcNodes: [5000002, 8020729, 5000017]
+  path: 0[1570036 -> 2260188 -> 1654715 -> 5000002], [Miss India: The Mystery (2003) -> Puri, Om -> Pyaar Diwana Hota Hai (2002) -> Romance] 
+
+  path: 1[1570036 -> 8020729], [Miss India: The Mystery (2003) -> beautiful-woman,beauty-contest,detective,killer,murder] 
+
+  path: 2[1570036 -> 5000017], [Miss India: The Mystery (2003) -> Mystery] 
+
+srcNodes: [5000002, 8019696, 5000017]
+  path: 0[2260188 -> 1654715 -> 5000002], [Puri, Om -> Pyaar Diwana Hota Hai (2002) -> Romance] 
+
+  path: 1[2260188 -> 1548783 -> 8019696], [Puri, Om -> Maharathi (2008) -> india,murder] 
+
+  path: 2[2260188 -> 1570036 -> 5000017], [Puri, Om -> Miss India: The Mystery (2003) -> Mystery] 
+
+srcNodes: [5000002, 8036369, 5000017]
+  path: 0[1719288 -> 2050762 -> 1791284 -> 5000002], [Souvenir (2006/I) -> Carter, Kevin (I) -> The Man Who Couldn't (2005) -> Romance] 
+
+  path: 1[1719288 -> 2041761 -> 1882589 -> 8036369], [Souvenir (2006/I) -> Bryant, Joel (I) -> Will You Be My Victim? (2000) -> murder,punk] 
+
+  path: 2[1719288 -> 5000017], [Souvenir (2006/I) -> Mystery] 
+
+srcNodes: [5000002, 2045528, 5000017]
+  path: 0[1584746 -> 2289489 -> 1206627 -> 5000002], [Mysteria (2011) -> Becker, Gretchen -> An Existential Affair (2006) -> Romance] 
+
+  path: 1[1584746 -> 2275433 -> 1852344 -> 2045528], [Mysteria (2011) -> Rooker, Michael (I) -> Undisputed (2002) -> C-Murder] 
+
+  path: 2[1584746 -> 5000017], [Mysteria (2011) -> Mystery] 
+
+srcNodes: [5000002, 1417280, 5000017]
+  path: 0[1313631 -> 5000002], [Deha (2007) -> Romance] 
+
+  path: 1[1313631 -> 2376500 -> 1417280], [Deha (2007) -> Lagoo, Reema -> Hatya: The Murder (2004)] 
+
+  path: 2[1313631 -> 2367247 -> 1570036 -> 5000017], [Deha (2007) -> Karnik, Supriya -> Miss India: The Mystery (2003) -> Mystery] 
+
+srcNodes: [5000002, 1417280, 5000017]
+  path: 0[1698046 -> 5000002], [Shaadi Karke Phas Gaya Yaar (2006) -> Romance] 
+
+  path: 1[1698046 -> 2376500 -> 1417280], [Shaadi Karke Phas Gaya Yaar (2006) -> Lagoo, Reema -> Hatya: The Murder (2004)] 
+
+  path: 2[1698046 -> 2367247 -> 1570036 -> 5000017], [Shaadi Karke Phas Gaya Yaar (2006) -> Karnik, Supriya -> Miss India: The Mystery (2003) -> Mystery] 
+
+srcNodes: [5000002, 1417280, 5000017]
+  path: 0[1654715 -> 5000002], [Pyaar Diwana Hota Hai (2002) -> Romance] 
+
+  path: 1[1654715 -> 2234045 -> 1417280], [Pyaar Diwana Hota Hai (2002) -> Nischol, Navin -> Hatya: The Murder (2004)] 
+
+  path: 2[1654715 -> 2260188 -> 1570036 -> 5000017], [Pyaar Diwana Hota Hai (2002) -> Puri, Om -> Miss India: The Mystery (2003) -> Mystery] 
+
+srcNodes: [5000002, 1709131, 5000017]
+  path: 0[2400555 -> 1235783 -> 5000002], [Minter, Kristin -> Behind the Seams (2000) -> Romance] 
+
+  path: 1[2400555 -> 1709131], [Minter, Kristin -> Six Sex Scenes and a Murder (2008)] 
+
+  path: 2[2400555 -> 1709131 -> 5000017], [Minter, Kristin -> Six Sex Scenes and a Murder (2008) -> Mystery] 
+
+srcNodes: [5000002, 8001318, 5000017]
+  path: 0[2293466 -> 1768473 -> 5000002], [Black, Karen (I) -> The Donor (2001) -> Romance] 
+
+  path: 1[2293466 -> 1179576 -> 2187044 -> 1802339 -> 8001318], [Black, Karen (I) -> A Light in the Darkness (2002) -> Lewis, Geoffrey (I) -> The Prophet's Game (2000) -> murder] 
+
+  path: 2[2293466 -> 1479033 -> 5000017], [Black, Karen (I) -> Katie Q (2010) -> Mystery] 
+
+-----------------------------------------
+Num of top-k answers: 15
+ResultDestNodes: [1366185, 1709131, 1383635, 1474425, 1580546, 1704004, 1570036, 2260188, 1719288, 1584746, 1313631, 1698046, 1654715, 2400555, 2293466]
+ResultRelevs: [10.33564567565918, 10.103662490844727, 9.57882308959961, 9.443548202514648, 9.137065887451172, 9.057828903198242, 9.057822227478027, 9.057470321655273, 8.977912902832031, 8.977910995483398, 8.97707748413086, 8.97707748413086, 8.97707748413086, 8.932245254516602, 8.903806686401367]
+AvgResultRelev: 9.232998339335124
+AvgResultDissimilarity: 0.3587301587301588
+Num of entries retrieved from the lists: 5835
+Num of entries retrieved from NKMaps: 10097
+Num of answer trees explored: 4020
+
+Div Top-k Search by Exhustive, k=15
+[romance, murder, mystery]
+srcNodes: [5000038, 8001318, 5000017]
+  path: 0[1366185 -> 2442084 -> 1372407 -> 5000038], [Evil Deeds 2 (2010) -> Sereboff, Allyson -> Fat City, New Orleans (2011) -> Comedy,Drama,Romance] 
+
+  path: 1[1366185 -> 8001318], [Evil Deeds 2 (2010) -> murder] 
+
+  path: 2[1366185 -> 5000017], [Evil Deeds 2 (2010) -> Mystery] 
+
+srcNodes: [5000002, 1709131, 5000017]
+  path: 0[1709131 -> 2400555 -> 1235783 -> 5000002], [Six Sex Scenes and a Murder (2008) -> Minter, Kristin -> Behind the Seams (2000) -> Romance] 
+
+  path: 1[1709131 -> 1709131], [Six Sex Scenes and a Murder (2008) -> Six Sex Scenes and a Murder (2008)]
+  path: 2[1709131 -> 5000017], [Six Sex Scenes and a Murder (2008) -> Mystery] 
+
+srcNodes: [5000001, 8001318, 5000245]
+  path: 0[1497573 -> 2245366 -> 1504134 -> 5000001], [La Reunion (2006) -> Paretas, Jemi -> La memoria de los peces (2004/I) -> Drama,Romance] 
+
+  path: 1[1497573 -> 8001318], [La Reunion (2006) -> murder] 
+
+  path: 2[1497573 -> 5000245], [La Reunion (2006) -> Drama,Mystery] 
+
+srcNodes: [5000754, 8022008, 5000017]
+  path: 0[1596643 -> 2382508 -> 1741333 -> 5000754], [Nightshade (2004) -> Licciardi, Christina -> Take Her Picture (2010) -> Short,Drama,Romance] 
+
+  path: 1[1596643 -> 8022008], [Nightshade (2004) -> revenge-murder] 
+
+  path: 2[1596643 -> 5000017], [Nightshade (2004) -> Mystery] 
+
+srcNodes: [1708471, 1781882, 5000017]
+  path: 0[1781882 -> 2230950 -> 1571300 -> 2114307 -> 1708471], [The Impossible Murder (2010) -> Negi, Tarun Singh -> Mitter Pyare Nu Haal Mureedan Da Kehna (2004) -> Ghai, Gaurav -> Sirf Romance: Love by Chance (2007)] 
+
+  path: 1[1781882 -> 1781882], [The Impossible Murder (2010) -> The Impossible Murder (2010)]
+  path: 2[1781882 -> 5000017], [The Impossible Murder (2010) -> Mystery] 
+
+srcNodes: [5000002, 8002064, 5000017]
+  path: 0[1479033 -> 2293466 -> 1768473 -> 5000002], [Katie Q (2010) -> Black, Karen (I) -> The Donor (2001) -> Romance] 
+
+  path: 1[1479033 -> 2293466 -> 1179576 -> 8002064], [Katie Q (2010) -> Black, Karen (I) -> A Light in the Darkness (2002) -> female-nudity,murder] 
+
+  path: 2[1479033 -> 5000017], [Katie Q (2010) -> Mystery] 
+
+srcNodes: [5000002, 8012066, 5000017]
+  path: 0[2221327 -> 667731 -> 5000002], [Montero, Michael (I) -> "Nuestro barrio" (2006) -> Romance] 
+
+  path: 1[2221327 -> 1383635 -> 8012066], [Montero, Michael (I) -> Foresight (2009/I) -> murder,psychic,satire,skeptic] 
+
+  path: 2[2221327 -> 1383635 -> 5000017], [Montero, Michael (I) -> Foresight (2009/I) -> Mystery] 
+
+srcNodes: [5000002, 1580546, 1658013]
+  path: 0[2133416 -> 1464523 -> 5000002], [Hashmi, Emraan -> Jawani Diwani: A Youthful Joyride (2006) -> Romance] 
+
+  path: 1[2133416 -> 1580546], [Hashmi, Emraan -> Murder (2004)] 
+
+  path: 2[2133416 -> 1658013], [Hashmi, Emraan -> Raaz: The Mystery Continues (2009)] 
+
+srcNodes: [1674278, 8033087, 5000017]
+  path: 0[1813270 -> 2010323 -> 1782878 -> 2044357 -> 1674278], [The Sweepers (2005) -> Anton, John -> The Island (2005) -> Buscemi, Steve -> Romance & Cigarettes (2005)] 
+
+  path: 1[1813270 -> 8033087], [The Sweepers (2005) -> guilt,murder] 
+
+  path: 2[1813270 -> 5000017], [The Sweepers (2005) -> Mystery] 
+
+srcNodes: [5000002, 1580546, 1658013]
+  path: 0[1464523 -> 5000002], [Jawani Diwani: A Youthful Joyride (2006) -> Romance] 
+
+  path: 1[1464523 -> 2133416 -> 1580546], [Jawani Diwani: A Youthful Joyride (2006) -> Hashmi, Emraan -> Murder (2004)] 
+
+  path: 2[1464523 -> 2133416 -> 1658013], [Jawani Diwani: A Youthful Joyride (2006) -> Hashmi, Emraan -> Raaz: The Mystery Continues (2009)] 
+
+srcNodes: [5000002, 8001318, 5005098]
+  path: 0[1580926 -> 5000002], [Murmur (2004) -> Romance] 
+
+  path: 1[1580926 -> 2169253 -> 1296214 -> 8001318], [Murmur (2004) -> Kirkwood, Langley -> Cross Line (2007) -> murder] 
+
+  path: 2[1580926 -> 2169253 -> 1814766 -> 5005098], [Murmur (2004) -> Kirkwood, Langley -> The Three Investigators and the Secret of Skeleton Island (2007) -> Family,Mystery,Adventure] 
+
+srcNodes: [5000002, 1648416, 5000017]
+  path: 0[1254681 -> 2126910 -> 1386225 -> 5000002], [Boxhagener Platz (2010) -> Gwisdek, Michael -> Frau2 sucht HappyEnd (2001) -> Romance] 
+
+  path: 1[1254681 -> 2471681 -> 1359793 -> 2340208 -> 1648416], [Boxhagener Platz (2010) -> Westphal, Ingeborg -> England! (2000) -> Geislerová, Anna -> Primetime Murder (2000)] 
+
+  path: 2[1254681 -> 5000017], [Boxhagener Platz (2010) -> Mystery] 
+
+srcNodes: [5000002, 1580546, 5001188]
+  path: 0[1465387 -> 5000002], [Jeena Sirf Merre Liye (2002) -> Romance] 
+
+  path: 1[1465387 -> 2443758 -> 1580546], [Jeena Sirf Merre Liye (2002) -> Sherawat, Mallika -> Murder (2004)] 
+
+  path: 2[1465387 -> 2161526 -> 1491568 -> 5001188], [Jeena Sirf Merre Liye (2002) -> Kapoor, Tusshar -> Kyaa Kool Hai Hum (2005) -> Comedy,Mystery] 
+
+srcNodes: [5000002, 1580816, 5000213]
+  path: 0[1580816 -> 2448438 -> 1541248 -> 5000002], [Murder on the Yellow Brick Road (2005) -> Soles, P.J. -> Love in the Age of Fishsticks (2008) -> Romance] 
+
+  path: 1[1580816 -> 1580816], [Murder on the Yellow Brick Road (2005) -> Murder on the Yellow Brick Road (2005)]
+  path: 2[1580816 -> 5000213], [Murder on the Yellow Brick Road (2005) -> Mystery,Drama] 
+
+srcNodes: [5000002, 8019696, 5000907]
+  path: 0[1548783 -> 2149150 -> 1718237 -> 5000002], [Maharathi (2008) -> Irani, Boman -> Sorry, Bhai! (2008) -> Romance] 
+
+  path: 1[1548783 -> 8019696], [Maharathi (2008) -> india,murder] 
+
+  path: 2[1548783 -> 5000907], [Maharathi (2008) -> Thriller,Mystery] 
+
+Dissims of Subsets and t:
+(0~0, 1) : 0.6666666666666666
+(0~1, 2) : 0.8333333333333333
+(0~2, 3) : 0.7777777777777777
+(0~3, 4) : 0.7499999999999999
+(0~4, 5) : 0.6666666666666666
+(0~5, 6) : 0.611111111111111
+(0~6, 7) : 0.8571428571428571
+(0~7, 8) : 0.75
+(0~8, 9) : 0.7777777777777778
+(0~9, 10) : 0.7666666666666668
+(0~10, 11) : 0.6060606060606062
+(0~11, 12) : 0.7499999999999999
+(0~12, 13) : 0.7948717948717948
+(0~13, 14) : 0.7857142857142856
+-----------------------------------------
+ResultDestNodes: [1366185, 1709131, 1497573, 1596643, 1781882, 1479033, 2221327, 2133416, 1813270, 1464523, 1580926, 1254681, 1465387, 1580816, 1548783]
+ResultRelevs: [10.33564567565918, 10.103662490844727, 8.852273941040039, 8.772644996643066, 8.700470924377441, 8.681293487548828, 8.667724609375, 8.512970924377441, 8.449438095092773, 8.421540260314941, 8.413150787353516, 8.392354011535645, 8.333403587341309, 8.288493156433105, 8.28465747833252]
+AvgResultRelev: 8.747314961751302
+AvgResultDissimilarity: 0.7460317460317462
+Num of entries retrieved from the KNLists: 8256
+Num of entries retrieved from NKMaps: 14172
+Num of answer trees explored: 5599
+Num of answer tree sets created: 25193867
+Num of answer tree sets removed: 107559
+
+Div Top-k Search by Astar02, k=15
+[romance, murder, mystery]
+srcNodes: [5000038, 8001318, 5000017]
+  path: 0[1366185 -> 2442084 -> 1372407 -> 5000038], [Evil Deeds 2 (2010) -> Sereboff, Allyson -> Fat City, New Orleans (2011) -> Comedy,Drama,Romance] 
+
+  path: 1[1366185 -> 8001318], [Evil Deeds 2 (2010) -> murder] 
+
+  path: 2[1366185 -> 5000017], [Evil Deeds 2 (2010) -> Mystery] 
+
+srcNodes: [5000002, 1709131, 5000017]
+  path: 0[1709131 -> 2400555 -> 1235783 -> 5000002], [Six Sex Scenes and a Murder (2008) -> Minter, Kristin -> Behind the Seams (2000) -> Romance] 
+
+  path: 1[1709131 -> 1709131], [Six Sex Scenes and a Murder (2008) -> Six Sex Scenes and a Murder (2008)]
+  path: 2[1709131 -> 5000017], [Six Sex Scenes and a Murder (2008) -> Mystery] 
+
+srcNodes: [5000001, 8001318, 5000245]
+  path: 0[1497573 -> 2245366 -> 1504134 -> 5000001], [La Reunion (2006) -> Paretas, Jemi -> La memoria de los peces (2004/I) -> Drama,Romance] 
+
+  path: 1[1497573 -> 8001318], [La Reunion (2006) -> murder] 
+
+  path: 2[1497573 -> 5000245], [La Reunion (2006) -> Drama,Mystery] 
+
+srcNodes: [5000754, 8022008, 5000017]
+  path: 0[1596643 -> 2382508 -> 1741333 -> 5000754], [Nightshade (2004) -> Licciardi, Christina -> Take Her Picture (2010) -> Short,Drama,Romance] 
+
+  path: 1[1596643 -> 8022008], [Nightshade (2004) -> revenge-murder] 
+
+  path: 2[1596643 -> 5000017], [Nightshade (2004) -> Mystery] 
+
+srcNodes: [1708471, 1781882, 5000017]
+  path: 0[1781882 -> 2230950 -> 1571300 -> 2114307 -> 1708471], [The Impossible Murder (2010) -> Negi, Tarun Singh -> Mitter Pyare Nu Haal Mureedan Da Kehna (2004) -> Ghai, Gaurav -> Sirf Romance: Love by Chance (2007)] 
+
+  path: 1[1781882 -> 1781882], [The Impossible Murder (2010) -> The Impossible Murder (2010)]
+  path: 2[1781882 -> 5000017], [The Impossible Murder (2010) -> Mystery] 
+
+srcNodes: [5000002, 8002064, 5000017]
+  path: 0[1479033 -> 2293466 -> 1768473 -> 5000002], [Katie Q (2010) -> Black, Karen (I) -> The Donor (2001) -> Romance] 
+
+  path: 1[1479033 -> 2293466 -> 1179576 -> 8002064], [Katie Q (2010) -> Black, Karen (I) -> A Light in the Darkness (2002) -> female-nudity,murder] 
+
+  path: 2[1479033 -> 5000017], [Katie Q (2010) -> Mystery] 
+
+srcNodes: [5000002, 8012066, 5000017]
+  path: 0[2221327 -> 667731 -> 5000002], [Montero, Michael (I) -> "Nuestro barrio" (2006) -> Romance] 
+
+  path: 1[2221327 -> 1383635 -> 8012066], [Montero, Michael (I) -> Foresight (2009/I) -> murder,psychic,satire,skeptic] 
+
+  path: 2[2221327 -> 1383635 -> 5000017], [Montero, Michael (I) -> Foresight (2009/I) -> Mystery] 
+
+srcNodes: [5000002, 1580546, 1658013]
+  path: 0[2133416 -> 1464523 -> 5000002], [Hashmi, Emraan -> Jawani Diwani: A Youthful Joyride (2006) -> Romance] 
+
+  path: 1[2133416 -> 1580546], [Hashmi, Emraan -> Murder (2004)] 
+
+  path: 2[2133416 -> 1658013], [Hashmi, Emraan -> Raaz: The Mystery Continues (2009)] 
+
+srcNodes: [1674278, 8033087, 5000017]
+  path: 0[1813270 -> 2010323 -> 1782878 -> 2044357 -> 1674278], [The Sweepers (2005) -> Anton, John -> The Island (2005) -> Buscemi, Steve -> Romance & Cigarettes (2005)] 
+
+  path: 1[1813270 -> 8033087], [The Sweepers (2005) -> guilt,murder] 
+
+  path: 2[1813270 -> 5000017], [The Sweepers (2005) -> Mystery] 
+
+srcNodes: [5000002, 1580546, 1658013]
+  path: 0[1464523 -> 5000002], [Jawani Diwani: A Youthful Joyride (2006) -> Romance] 
+
+  path: 1[1464523 -> 2133416 -> 1580546], [Jawani Diwani: A Youthful Joyride (2006) -> Hashmi, Emraan -> Murder (2004)] 
+
+  path: 2[1464523 -> 2133416 -> 1658013], [Jawani Diwani: A Youthful Joyride (2006) -> Hashmi, Emraan -> Raaz: The Mystery Continues (2009)] 
+
+srcNodes: [5000002, 8001318, 5005098]
+  path: 0[1580926 -> 5000002], [Murmur (2004) -> Romance] 
+
+  path: 1[1580926 -> 2169253 -> 1296214 -> 8001318], [Murmur (2004) -> Kirkwood, Langley -> Cross Line (2007) -> murder] 
+
+  path: 2[1580926 -> 2169253 -> 1814766 -> 5005098], [Murmur (2004) -> Kirkwood, Langley -> The Three Investigators and the Secret of Skeleton Island (2007) -> Family,Mystery,Adventure] 
+
+srcNodes: [5000002, 1648416, 5000017]
+  path: 0[1254681 -> 2126910 -> 1386225 -> 5000002], [Boxhagener Platz (2010) -> Gwisdek, Michael -> Frau2 sucht HappyEnd (2001) -> Romance] 
+
+  path: 1[1254681 -> 2471681 -> 1359793 -> 2340208 -> 1648416], [Boxhagener Platz (2010) -> Westphal, Ingeborg -> England! (2000) -> Geislerová, Anna -> Primetime Murder (2000)] 
+
+  path: 2[1254681 -> 5000017], [Boxhagener Platz (2010) -> Mystery] 
+
+srcNodes: [5000002, 1580546, 5001188]
+  path: 0[1465387 -> 5000002], [Jeena Sirf Merre Liye (2002) -> Romance] 
+
+  path: 1[1465387 -> 2443758 -> 1580546], [Jeena Sirf Merre Liye (2002) -> Sherawat, Mallika -> Murder (2004)] 
+
+  path: 2[1465387 -> 2161526 -> 1491568 -> 5001188], [Jeena Sirf Merre Liye (2002) -> Kapoor, Tusshar -> Kyaa Kool Hai Hum (2005) -> Comedy,Mystery] 
+
+srcNodes: [5000002, 1580816, 5000213]
+  path: 0[1580816 -> 2448438 -> 1541248 -> 5000002], [Murder on the Yellow Brick Road (2005) -> Soles, P.J. -> Love in the Age of Fishsticks (2008) -> Romance] 
+
+  path: 1[1580816 -> 1580816], [Murder on the Yellow Brick Road (2005) -> Murder on the Yellow Brick Road (2005)]
+  path: 2[1580816 -> 5000213], [Murder on the Yellow Brick Road (2005) -> Mystery,Drama] 
+
+srcNodes: [5000002, 8019696, 5000907]
+  path: 0[1548783 -> 2149150 -> 1718237 -> 5000002], [Maharathi (2008) -> Irani, Boman -> Sorry, Bhai! (2008) -> Romance] 
+
+  path: 1[1548783 -> 8019696], [Maharathi (2008) -> india,murder] 
+
+  path: 2[1548783 -> 5000907], [Maharathi (2008) -> Thriller,Mystery] 
+
+-----------------------------------------
+ResultDestNodes: [1366185, 1709131, 1497573, 1596643, 1781882, 1479033, 2221327, 2133416, 1813270, 1464523, 1580926, 1254681, 1465387, 1580816, 1548783]
+ResultRelevs: [10.33564567565918, 10.103662490844727, 8.852273941040039, 8.772644996643066, 8.700470924377441, 8.681293487548828, 8.667724609375, 8.512970924377441, 8.449438095092773, 8.421540260314941, 8.413150787353516, 8.392354011535645, 8.333403587341309, 8.288493156433105, 8.28465747833252]
+AvgResultRelev: 8.747314961751302
+AvgResultDissimilarity: 0.7460317460317462
+Num of entries retrieved from the KNLists: 8256
+Num of entries retrieved from NKMaps: 14172
+Num of answer trees explored: 5599
+Num of states created: 58382497
+Num of states explored: 58360187
+Num of heuristic search performed: 53
+
+Div Top-k Search by Astar1nc_ap_new, k=15
+[romance, murder, mystery]
+srcNodes: [5000038, 8001318, 5000017]
+  path: 0[1366185 -> 2442084 -> 1372407 -> 5000038], [Evil Deeds 2 (2010) -> Sereboff, Allyson -> Fat City, New Orleans (2011) -> Comedy,Drama,Romance] 
+
+  path: 1[1366185 -> 8001318], [Evil Deeds 2 (2010) -> murder] 
+
+  path: 2[1366185 -> 5000017], [Evil Deeds 2 (2010) -> Mystery] 
+
+srcNodes: [5000002, 1709131, 5000017]
+  path: 0[1709131 -> 2400555 -> 1235783 -> 5000002], [Six Sex Scenes and a Murder (2008) -> Minter, Kristin -> Behind the Seams (2000) -> Romance] 
+
+  path: 1[1709131 -> 1709131], [Six Sex Scenes and a Murder (2008) -> Six Sex Scenes and a Murder (2008)]
+  path: 2[1709131 -> 5000017], [Six Sex Scenes and a Murder (2008) -> Mystery] 
+
+srcNodes: [5000001, 8001318, 5000245]
+  path: 0[1497573 -> 2245366 -> 1504134 -> 5000001], [La Reunion (2006) -> Paretas, Jemi -> La memoria de los peces (2004/I) -> Drama,Romance] 
+
+  path: 1[1497573 -> 8001318], [La Reunion (2006) -> murder] 
+
+  path: 2[1497573 -> 5000245], [La Reunion (2006) -> Drama,Mystery] 
+
+srcNodes: [5000754, 8022008, 5000017]
+  path: 0[1596643 -> 2382508 -> 1741333 -> 5000754], [Nightshade (2004) -> Licciardi, Christina -> Take Her Picture (2010) -> Short,Drama,Romance] 
+
+  path: 1[1596643 -> 8022008], [Nightshade (2004) -> revenge-murder] 
+
+  path: 2[1596643 -> 5000017], [Nightshade (2004) -> Mystery] 
+
+srcNodes: [1708471, 1781882, 5000017]
+  path: 0[1781882 -> 2230950 -> 1571300 -> 2114307 -> 1708471], [The Impossible Murder (2010) -> Negi, Tarun Singh -> Mitter Pyare Nu Haal Mureedan Da Kehna (2004) -> Ghai, Gaurav -> Sirf Romance: Love by Chance (2007)] 
+
+  path: 1[1781882 -> 1781882], [The Impossible Murder (2010) -> The Impossible Murder (2010)]
+  path: 2[1781882 -> 5000017], [The Impossible Murder (2010) -> Mystery] 
+
+srcNodes: [5000002, 8002064, 5000017]
+  path: 0[1479033 -> 2293466 -> 1768473 -> 5000002], [Katie Q (2010) -> Black, Karen (I) -> The Donor (2001) -> Romance] 
+
+  path: 1[1479033 -> 2293466 -> 1179576 -> 8002064], [Katie Q (2010) -> Black, Karen (I) -> A Light in the Darkness (2002) -> female-nudity,murder] 
+
+  path: 2[1479033 -> 5000017], [Katie Q (2010) -> Mystery] 
+
+srcNodes: [5000002, 8012066, 5000017]
+  path: 0[2221327 -> 667731 -> 5000002], [Montero, Michael (I) -> "Nuestro barrio" (2006) -> Romance] 
+
+  path: 1[2221327 -> 1383635 -> 8012066], [Montero, Michael (I) -> Foresight (2009/I) -> murder,psychic,satire,skeptic] 
+
+  path: 2[2221327 -> 1383635 -> 5000017], [Montero, Michael (I) -> Foresight (2009/I) -> Mystery] 
+
+srcNodes: [5000002, 1580546, 1658013]
+  path: 0[2133416 -> 1464523 -> 5000002], [Hashmi, Emraan -> Jawani Diwani: A Youthful Joyride (2006) -> Romance] 
+
+  path: 1[2133416 -> 1580546], [Hashmi, Emraan -> Murder (2004)] 
+
+  path: 2[2133416 -> 1658013], [Hashmi, Emraan -> Raaz: The Mystery Continues (2009)] 
+
+srcNodes: [1674278, 8033087, 5000017]
+  path: 0[1813270 -> 2010323 -> 1782878 -> 2044357 -> 1674278], [The Sweepers (2005) -> Anton, John -> The Island (2005) -> Buscemi, Steve -> Romance & Cigarettes (2005)] 
+
+  path: 1[1813270 -> 8033087], [The Sweepers (2005) -> guilt,murder] 
+
+  path: 2[1813270 -> 5000017], [The Sweepers (2005) -> Mystery] 
+
+srcNodes: [5000002, 1580546, 1658013]
+  path: 0[1464523 -> 5000002], [Jawani Diwani: A Youthful Joyride (2006) -> Romance] 
+
+  path: 1[1464523 -> 2133416 -> 1580546], [Jawani Diwani: A Youthful Joyride (2006) -> Hashmi, Emraan -> Murder (2004)] 
+
+  path: 2[1464523 -> 2133416 -> 1658013], [Jawani Diwani: A Youthful Joyride (2006) -> Hashmi, Emraan -> Raaz: The Mystery Continues (2009)] 
+
+srcNodes: [5000002, 8001318, 5005098]
+  path: 0[1580926 -> 5000002], [Murmur (2004) -> Romance] 
+
+  path: 1[1580926 -> 2169253 -> 1296214 -> 8001318], [Murmur (2004) -> Kirkwood, Langley -> Cross Line (2007) -> murder] 
+
+  path: 2[1580926 -> 2169253 -> 1814766 -> 5005098], [Murmur (2004) -> Kirkwood, Langley -> The Three Investigators and the Secret of Skeleton Island (2007) -> Family,Mystery,Adventure] 
+
+srcNodes: [5000002, 1648416, 5000017]
+  path: 0[1254681 -> 2126910 -> 1386225 -> 5000002], [Boxhagener Platz (2010) -> Gwisdek, Michael -> Frau2 sucht HappyEnd (2001) -> Romance] 
+
+  path: 1[1254681 -> 2471681 -> 1359793 -> 2340208 -> 1648416], [Boxhagener Platz (2010) -> Westphal, Ingeborg -> England! (2000) -> Geislerová, Anna -> Primetime Murder (2000)] 
+
+  path: 2[1254681 -> 5000017], [Boxhagener Platz (2010) -> Mystery] 
+
+srcNodes: [5000002, 1580546, 5001188]
+  path: 0[1465387 -> 5000002], [Jeena Sirf Merre Liye (2002) -> Romance] 
+
+  path: 1[1465387 -> 2443758 -> 1580546], [Jeena Sirf Merre Liye (2002) -> Sherawat, Mallika -> Murder (2004)] 
+
+  path: 2[1465387 -> 2161526 -> 1491568 -> 5001188], [Jeena Sirf Merre Liye (2002) -> Kapoor, Tusshar -> Kyaa Kool Hai Hum (2005) -> Comedy,Mystery] 
+
+srcNodes: [5000002, 1580816, 5000213]
+  path: 0[1580816 -> 2448438 -> 1541248 -> 5000002], [Murder on the Yellow Brick Road (2005) -> Soles, P.J. -> Love in the Age of Fishsticks (2008) -> Romance] 
+
+  path: 1[1580816 -> 1580816], [Murder on the Yellow Brick Road (2005) -> Murder on the Yellow Brick Road (2005)]
+  path: 2[1580816 -> 5000213], [Murder on the Yellow Brick Road (2005) -> Mystery,Drama] 
+
+srcNodes: [5000002, 8019696, 5000907]
+  path: 0[1548783 -> 2149150 -> 1718237 -> 5000002], [Maharathi (2008) -> Irani, Boman -> Sorry, Bhai! (2008) -> Romance] 
+
+  path: 1[1548783 -> 8019696], [Maharathi (2008) -> india,murder] 
+
+  path: 2[1548783 -> 5000907], [Maharathi (2008) -> Thriller,Mystery] 
+
+-----------------------------------------
+ResultDestNodes: [1366185, 1709131, 1497573, 1596643, 1781882, 1479033, 2221327, 2133416, 1813270, 1464523, 1580926, 1254681, 1465387, 1580816, 1548783]
+ResultRelevs: [10.33564567565918, 10.103662490844727, 8.852273941040039, 8.772644996643066, 8.700470924377441, 8.681293487548828, 8.667724609375, 8.512970924377441, 8.449438095092773, 8.421540260314941, 8.413150787353516, 8.392354011535645, 8.333403587341309, 8.288493156433105, 8.28465747833252]
+AvgResultRelev: 8.747314961751302
+AvgResultDissimilarity: 0.7460317460317462
+Num of entries retrieved from the KNLists: 8256
+Num of entries retrieved from NKMaps: 14172
+Num of answer trees explored: 5599
+Num of states created: 68775
+Num of states explored: 6395
+Num of heuristic search performed: 10
+
+query: [romance, conflict, marriage]
+Top-k Search by Blink-BDB, k=5
+[romance, conflict, marriage]
+srcNodes: [5000002, 1290249, 8012626]
+  path: 0[1602901 -> 5000002], [Nowheresville (2000) -> Romance] 
+
+  path: 1[1602901 -> 2193016 -> 1582333 -> 2215276 -> 1290249], [Nowheresville (2000) -> Lubatti, Henri -> My Big Fat Independent Movie (2005) -> Mewes, Jason -> Conflict (2005/I)] 
+
+  path: 2[1602901 -> 8012626], [Nowheresville (2000) -> independent-film,marriage-proposal] 
+
+srcNodes: [5000002, 1290249, 8030458]
+  path: 0[1839404 -> 5000002], [Tricks of a Woman (2008) -> Romance] 
+
+  path: 1[1839404 -> 2246846 -> 1721085 -> 2184051 -> 1290249], [Tricks of a Woman (2008) -> Pastore, Vincent -> Spider-Man 2 (2004) -> Lee, Stan (I) -> Conflict (2005/I)] 
+
+  path: 2[1839404 -> 2246846 -> 1764178 -> 8030458], [Tricks of a Woman (2008) -> Pastore, Vincent -> The Cookout (2004) -> flatulence,interracial-marriage,male-female-relationship,marriage] 
+
+srcNodes: [5000002, 1763891, 8030835]
+  path: 0[1214086 -> 5000002], [April Moon (2007) -> Romance] 
+
+  path: 1[1214086 -> 2250680 -> 1302674 -> 2253325 -> 1763891], [April Moon (2007) -> Perry, Brien -> Dance Flick (2009) -> Pierce, Ernest -> The Conflict of Ms. Boston (2010)] 
+
+  path: 2[1214086 -> 2120070 -> 1770706 -> 8030835], [April Moon (2007) -> Gorman, Jeffrey A. -> The Exception (2007) -> independent-film,marriage] 
+
+srcNodes: [5000002, 1290249, 8026364]
+  path: 0[1229230 -> 5000002], [Balu (2005) -> Romance] 
+
+  path: 1[1229230 -> 2124463 -> 1234927 -> 2277053 -> 1290249], [Balu (2005) -> Grover, Gulshan -> Beeper (2002) -> Adams, Joey Lauren -> Conflict (2005/I)] 
+
+  path: 2[1229230 -> 2265800 -> 1684546 -> 8026364], [Balu (2005) -> Reddy, Raghunatha -> Sankranthi (2005) -> hardship,jealousy,marriage] 
+
+srcNodes: [5000002, 1372482, 8035599]
+  path: 0[1690596 -> 5000002], [Scusa ma ti chiamo amore (2008) -> Romance] 
+
+  path: 1[1690596 -> 2035679 -> 1188310 -> 2100559 -> 1372482], [Scusa ma ti chiamo amore (2008) -> Bova, Raoul -> AVP: Alien vs. Predator (2004) -> Filipensky, Jan Pavel -> Fatal Conflict (2000)] 
+
+  path: 2[1690596 -> 2390626 -> 1866505 -> 8035599], [Scusa ma ti chiamo amore (2008) -> Marengo, Gisella -> Voce del verbo amore (2007) -> family-relationships,marriage,sex] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [1602901, 1839404, 1214086, 1229230, 1690596]
+ResultRelevs: [8.16293716430664, 7.256394863128662, 7.177362442016602, 7.177361965179443, 7.177361488342285]
+AvgResultRelev: 7.390283584594727
+AvgResultDissimilarity: 0.5666666666666667
+Num of entries retrieved from the lists: 1608
+Num of entries retrieved from NKMaps: 2625
+Num of answer trees explored: 814
+
+Div Top-k Search by Exhustive, k=5
+[romance, conflict, marriage]
+srcNodes: [5000002, 1290249, 8012626]
+  path: 0[1602901 -> 5000002], [Nowheresville (2000) -> Romance] 
+
+  path: 1[1602901 -> 2193016 -> 1582333 -> 2215276 -> 1290249], [Nowheresville (2000) -> Lubatti, Henri -> My Big Fat Independent Movie (2005) -> Mewes, Jason -> Conflict (2005/I)] 
+
+  path: 2[1602901 -> 8012626], [Nowheresville (2000) -> independent-film,marriage-proposal] 
+
+srcNodes: [5000002, 1763891, 8030835]
+  path: 0[1214086 -> 5000002], [April Moon (2007) -> Romance] 
+
+  path: 1[1214086 -> 2250680 -> 1302674 -> 2253325 -> 1763891], [April Moon (2007) -> Perry, Brien -> Dance Flick (2009) -> Pierce, Ernest -> The Conflict of Ms. Boston (2010)] 
+
+  path: 2[1214086 -> 2120070 -> 1770706 -> 8030835], [April Moon (2007) -> Gorman, Jeffrey A. -> The Exception (2007) -> independent-film,marriage] 
+
+srcNodes: [5000002, 1372482, 8035599]
+  path: 0[1690596 -> 5000002], [Scusa ma ti chiamo amore (2008) -> Romance] 
+
+  path: 1[1690596 -> 2035679 -> 1188310 -> 2100559 -> 1372482], [Scusa ma ti chiamo amore (2008) -> Bova, Raoul -> AVP: Alien vs. Predator (2004) -> Filipensky, Jan Pavel -> Fatal Conflict (2000)] 
+
+  path: 2[1690596 -> 2390626 -> 1866505 -> 8035599], [Scusa ma ti chiamo amore (2008) -> Marengo, Gisella -> Voce del verbo amore (2007) -> family-relationships,marriage,sex] 
+
+srcNodes: [5000002, 1290259, 8006626]
+  path: 0[2393659 -> 1360643 -> 5000002], [Maura, Carmen -> Entre vivir y soñar (2004) -> Romance] 
+
+  path: 1[2393659 -> 1386748 -> 2014958 -> 1290259], [Maura, Carmen -> Free Zone (2005) -> Avni, Aki -> Conflict in the Middle Table (2008)] 
+
+  path: 2[2393659 -> 1219266 -> 2316144 -> 1270865 -> 8006626], [Maura, Carmen -> Assassini dei giorni di festa (2002) -> D'Amario, Sara -> Casomai (2002) -> marriage] 
+
+srcNodes: [5000002, 8017189, 1555914]
+  path: 0[1713162 -> 5000002], [Snapshots (2002/I) -> Romance] 
+
+  path: 1[1713162 -> 2145863 -> 1485756 -> 8017189], [Snapshots (2002/I) -> Hulst, Kees -> Klem in de draaideur (2003) -> based-on-book,political,political-conflict] 
+
+  path: 2[1713162 -> 2215483 -> 1337780 -> 2429861 -> 1555914], [Snapshots (2002/I) -> Meyers, Josh (I) -> Down (2001) -> Riemer, Hanneke -> Marriage (2005/II)] 
+
+Dissims of Subsets and t:
+(0~0, 1) : 0.6666666666666666
+(0~1, 2) : 0.6666666666666666
+(0~2, 3) : 0.6666666666666666
+(0~3, 4) : 0.6666666666666666
+-----------------------------------------
+ResultDestNodes: [1602901, 1214086, 1690596, 2393659, 1713162]
+ResultRelevs: [8.16293716430664, 7.177362442016602, 7.177361488342285, 7.061318397521973, 7.050008773803711]
+AvgResultRelev: 7.325797653198242
+AvgResultDissimilarity: 0.6666666666666667
+Num of entries retrieved from the KNLists: 8466
+Num of entries retrieved from NKMaps: 15453
+Num of answer trees explored: 6271
+Num of answer tree sets created: 79
+Num of answer tree sets removed: 3
+
+Div Top-k Search by Astar02, k=5
+[romance, conflict, marriage]
+srcNodes: [5000002, 1290249, 8012626]
+  path: 0[1602901 -> 5000002], [Nowheresville (2000) -> Romance] 
+
+  path: 1[1602901 -> 2193016 -> 1582333 -> 2215276 -> 1290249], [Nowheresville (2000) -> Lubatti, Henri -> My Big Fat Independent Movie (2005) -> Mewes, Jason -> Conflict (2005/I)] 
+
+  path: 2[1602901 -> 8012626], [Nowheresville (2000) -> independent-film,marriage-proposal] 
+
+srcNodes: [5000002, 1763891, 8030835]
+  path: 0[1214086 -> 5000002], [April Moon (2007) -> Romance] 
+
+  path: 1[1214086 -> 2250680 -> 1302674 -> 2253325 -> 1763891], [April Moon (2007) -> Perry, Brien -> Dance Flick (2009) -> Pierce, Ernest -> The Conflict of Ms. Boston (2010)] 
+
+  path: 2[1214086 -> 2120070 -> 1770706 -> 8030835], [April Moon (2007) -> Gorman, Jeffrey A. -> The Exception (2007) -> independent-film,marriage] 
+
+srcNodes: [5000002, 1372482, 8035599]
+  path: 0[1690596 -> 5000002], [Scusa ma ti chiamo amore (2008) -> Romance] 
+
+  path: 1[1690596 -> 2035679 -> 1188310 -> 2100559 -> 1372482], [Scusa ma ti chiamo amore (2008) -> Bova, Raoul -> AVP: Alien vs. Predator (2004) -> Filipensky, Jan Pavel -> Fatal Conflict (2000)] 
+
+  path: 2[1690596 -> 2390626 -> 1866505 -> 8035599], [Scusa ma ti chiamo amore (2008) -> Marengo, Gisella -> Voce del verbo amore (2007) -> family-relationships,marriage,sex] 
+
+srcNodes: [5000002, 1290259, 8006626]
+  path: 0[2393659 -> 1360643 -> 5000002], [Maura, Carmen -> Entre vivir y soñar (2004) -> Romance] 
+
+  path: 1[2393659 -> 1386748 -> 2014958 -> 1290259], [Maura, Carmen -> Free Zone (2005) -> Avni, Aki -> Conflict in the Middle Table (2008)] 
+
+  path: 2[2393659 -> 1219266 -> 2316144 -> 1270865 -> 8006626], [Maura, Carmen -> Assassini dei giorni di festa (2002) -> D'Amario, Sara -> Casomai (2002) -> marriage] 
+
+srcNodes: [5000002, 8017189, 1555914]
+  path: 0[1713162 -> 5000002], [Snapshots (2002/I) -> Romance] 
+
+  path: 1[1713162 -> 2145863 -> 1485756 -> 8017189], [Snapshots (2002/I) -> Hulst, Kees -> Klem in de draaideur (2003) -> based-on-book,political,political-conflict] 
+
+  path: 2[1713162 -> 2215483 -> 1337780 -> 2429861 -> 1555914], [Snapshots (2002/I) -> Meyers, Josh (I) -> Down (2001) -> Riemer, Hanneke -> Marriage (2005/II)] 
+
+-----------------------------------------
+ResultDestNodes: [1602901, 1214086, 1690596, 2393659, 1713162]
+ResultRelevs: [8.16293716430664, 7.177362442016602, 7.177361488342285, 7.061318397521973, 7.050008773803711]
+AvgResultRelev: 7.325797653198242
+AvgResultDissimilarity: 0.6666666666666667
+Num of entries retrieved from the KNLists: 8466
+Num of entries retrieved from NKMaps: 15453
+Num of answer trees explored: 6271
+Num of states created: 109
+Num of states explored: 94
+Num of heuristic search performed: 4
+
+Div Top-k Search by Astar1nc_ap_new, k=5
+[romance, conflict, marriage]
+srcNodes: [5000002, 1290249, 8012626]
+  path: 0[1602901 -> 5000002], [Nowheresville (2000) -> Romance] 
+
+  path: 1[1602901 -> 2193016 -> 1582333 -> 2215276 -> 1290249], [Nowheresville (2000) -> Lubatti, Henri -> My Big Fat Independent Movie (2005) -> Mewes, Jason -> Conflict (2005/I)] 
+
+  path: 2[1602901 -> 8012626], [Nowheresville (2000) -> independent-film,marriage-proposal] 
+
+srcNodes: [5000002, 1763891, 8030835]
+  path: 0[1214086 -> 5000002], [April Moon (2007) -> Romance] 
+
+  path: 1[1214086 -> 2250680 -> 1302674 -> 2253325 -> 1763891], [April Moon (2007) -> Perry, Brien -> Dance Flick (2009) -> Pierce, Ernest -> The Conflict of Ms. Boston (2010)] 
+
+  path: 2[1214086 -> 2120070 -> 1770706 -> 8030835], [April Moon (2007) -> Gorman, Jeffrey A. -> The Exception (2007) -> independent-film,marriage] 
+
+srcNodes: [5000002, 1372482, 8035599]
+  path: 0[1690596 -> 5000002], [Scusa ma ti chiamo amore (2008) -> Romance] 
+
+  path: 1[1690596 -> 2035679 -> 1188310 -> 2100559 -> 1372482], [Scusa ma ti chiamo amore (2008) -> Bova, Raoul -> AVP: Alien vs. Predator (2004) -> Filipensky, Jan Pavel -> Fatal Conflict (2000)] 
+
+  path: 2[1690596 -> 2390626 -> 1866505 -> 8035599], [Scusa ma ti chiamo amore (2008) -> Marengo, Gisella -> Voce del verbo amore (2007) -> family-relationships,marriage,sex] 
+
+srcNodes: [5000002, 1290259, 8006626]
+  path: 0[2393659 -> 1360643 -> 5000002], [Maura, Carmen -> Entre vivir y soñar (2004) -> Romance] 
+
+  path: 1[2393659 -> 1386748 -> 2014958 -> 1290259], [Maura, Carmen -> Free Zone (2005) -> Avni, Aki -> Conflict in the Middle Table (2008)] 
+
+  path: 2[2393659 -> 1219266 -> 2316144 -> 1270865 -> 8006626], [Maura, Carmen -> Assassini dei giorni di festa (2002) -> D'Amario, Sara -> Casomai (2002) -> marriage] 
+
+srcNodes: [5000002, 8017189, 1555914]
+  path: 0[1713162 -> 5000002], [Snapshots (2002/I) -> Romance] 
+
+  path: 1[1713162 -> 2145863 -> 1485756 -> 8017189], [Snapshots (2002/I) -> Hulst, Kees -> Klem in de draaideur (2003) -> based-on-book,political,political-conflict] 
+
+  path: 2[1713162 -> 2215483 -> 1337780 -> 2429861 -> 1555914], [Snapshots (2002/I) -> Meyers, Josh (I) -> Down (2001) -> Riemer, Hanneke -> Marriage (2005/II)] 
+
+-----------------------------------------
+ResultDestNodes: [1602901, 1214086, 1690596, 2393659, 1713162]
+ResultRelevs: [8.16293716430664, 7.177362442016602, 7.177361488342285, 7.061318397521973, 7.050008773803711]
+AvgResultRelev: 7.325797653198242
+AvgResultDissimilarity: 0.6666666666666667
+Num of entries retrieved from the KNLists: 8466
+Num of entries retrieved from NKMaps: 15453
+Num of answer trees explored: 6271
+Num of states created: 14
+Num of states explored: 7
+Num of heuristic search performed: 2
+
+Top-k Search by Blink-BDB, k=10
+[romance, conflict, marriage]
+srcNodes: [5000002, 1290249, 8012626]
+  path: 0[1602901 -> 5000002], [Nowheresville (2000) -> Romance] 
+
+  path: 1[1602901 -> 2193016 -> 1582333 -> 2215276 -> 1290249], [Nowheresville (2000) -> Lubatti, Henri -> My Big Fat Independent Movie (2005) -> Mewes, Jason -> Conflict (2005/I)] 
+
+  path: 2[1602901 -> 8012626], [Nowheresville (2000) -> independent-film,marriage-proposal] 
+
+srcNodes: [5000002, 1290249, 8030458]
+  path: 0[1839404 -> 5000002], [Tricks of a Woman (2008) -> Romance] 
+
+  path: 1[1839404 -> 2246846 -> 1721085 -> 2184051 -> 1290249], [Tricks of a Woman (2008) -> Pastore, Vincent -> Spider-Man 2 (2004) -> Lee, Stan (I) -> Conflict (2005/I)] 
+
+  path: 2[1839404 -> 2246846 -> 1764178 -> 8030458], [Tricks of a Woman (2008) -> Pastore, Vincent -> The Cookout (2004) -> flatulence,interracial-marriage,male-female-relationship,marriage] 
+
+srcNodes: [5000002, 1763891, 8030835]
+  path: 0[1214086 -> 5000002], [April Moon (2007) -> Romance] 
+
+  path: 1[1214086 -> 2250680 -> 1302674 -> 2253325 -> 1763891], [April Moon (2007) -> Perry, Brien -> Dance Flick (2009) -> Pierce, Ernest -> The Conflict of Ms. Boston (2010)] 
+
+  path: 2[1214086 -> 2120070 -> 1770706 -> 8030835], [April Moon (2007) -> Gorman, Jeffrey A. -> The Exception (2007) -> independent-film,marriage] 
+
+srcNodes: [5000002, 1290249, 8026364]
+  path: 0[1229230 -> 5000002], [Balu (2005) -> Romance] 
+
+  path: 1[1229230 -> 2124463 -> 1234927 -> 2277053 -> 1290249], [Balu (2005) -> Grover, Gulshan -> Beeper (2002) -> Adams, Joey Lauren -> Conflict (2005/I)] 
+
+  path: 2[1229230 -> 2265800 -> 1684546 -> 8026364], [Balu (2005) -> Reddy, Raghunatha -> Sankranthi (2005) -> hardship,jealousy,marriage] 
+
+srcNodes: [5000002, 1372482, 8035599]
+  path: 0[1690596 -> 5000002], [Scusa ma ti chiamo amore (2008) -> Romance] 
+
+  path: 1[1690596 -> 2035679 -> 1188310 -> 2100559 -> 1372482], [Scusa ma ti chiamo amore (2008) -> Bova, Raoul -> AVP: Alien vs. Predator (2004) -> Filipensky, Jan Pavel -> Fatal Conflict (2000)] 
+
+  path: 2[1690596 -> 2390626 -> 1866505 -> 8035599], [Scusa ma ti chiamo amore (2008) -> Marengo, Gisella -> Voce del verbo amore (2007) -> family-relationships,marriage,sex] 
+
+srcNodes: [5000002, 1290259, 8006626]
+  path: 0[2393659 -> 1360643 -> 5000002], [Maura, Carmen -> Entre vivir y soñar (2004) -> Romance] 
+
+  path: 1[2393659 -> 1386748 -> 2014958 -> 1290259], [Maura, Carmen -> Free Zone (2005) -> Avni, Aki -> Conflict in the Middle Table (2008)] 
+
+  path: 2[2393659 -> 1219266 -> 2316144 -> 1270865 -> 8006626], [Maura, Carmen -> Assassini dei giorni di festa (2002) -> D'Amario, Sara -> Casomai (2002) -> marriage] 
+
+srcNodes: [5000002, 1372482, 8006626]
+  path: 0[2035679 -> 1690596 -> 5000002], [Bova, Raoul -> Scusa ma ti chiamo amore (2008) -> Romance] 
+
+  path: 1[2035679 -> 1188310 -> 2100559 -> 1372482], [Bova, Raoul -> AVP: Alien vs. Predator (2004) -> Filipensky, Jan Pavel -> Fatal Conflict (2000)] 
+
+  path: 2[2035679 -> 1441056 -> 2039713 -> 1270865 -> 8006626], [Bova, Raoul -> I cavalieri che fecero l'impresa (2001) -> Brooks, Alexander -> Casomai (2002) -> marriage] 
+
+srcNodes: [5000002, 8017189, 1555914]
+  path: 0[1713162 -> 5000002], [Snapshots (2002/I) -> Romance] 
+
+  path: 1[1713162 -> 2145863 -> 1485756 -> 8017189], [Snapshots (2002/I) -> Hulst, Kees -> Klem in de draaideur (2003) -> based-on-book,political,political-conflict] 
+
+  path: 2[1713162 -> 2215483 -> 1337780 -> 2429861 -> 1555914], [Snapshots (2002/I) -> Meyers, Josh (I) -> Down (2001) -> Riemer, Hanneke -> Marriage (2005/II)] 
+
+srcNodes: [5000002, 1290249, 8009271]
+  path: 0[1329470 -> 5000002], [Dil Maange More!!! (2004) -> Romance] 
+
+  path: 1[1329470 -> 2124463 -> 1234927 -> 2277053 -> 1290249], [Dil Maange More!!! (2004) -> Grover, Gulshan -> Beeper (2002) -> Adams, Joey Lauren -> Conflict (2005/I)] 
+
+  path: 2[1329470 -> 2365081 -> 1322948 -> 8009271], [Dil Maange More!!! (2004) -> Joshi, Tulip -> Dhokha (2007) -> betrayal,marriage,muslim,suicide-bomber] 
+
+srcNodes: [5000002, 1290249, 8009271]
+  path: 0[1581492 -> 5000002], [Muskaan (2004) -> Romance] 
+
+  path: 1[1581492 -> 2124463 -> 1234927 -> 2277053 -> 1290249], [Muskaan (2004) -> Grover, Gulshan -> Beeper (2002) -> Adams, Joey Lauren -> Conflict (2005/I)] 
+
+  path: 2[1581492 -> 2124463 -> 1322948 -> 8009271], [Muskaan (2004) -> Grover, Gulshan -> Dhokha (2007) -> betrayal,marriage,muslim,suicide-bomber] 
+
+-----------------------------------------
+Num of top-k answers: 10
+ResultDestNodes: [1602901, 1839404, 1214086, 1229230, 1690596, 2393659, 2035679, 1713162, 1329470, 1581492]
+ResultRelevs: [8.16293716430664, 7.256394863128662, 7.177362442016602, 7.177361965179443, 7.177361488342285, 7.061318397521973, 7.06131649017334, 7.050008773803711, 7.014505386352539, 7.014505386352539]
+AvgResultRelev: 7.215307235717773
+AvgResultDissimilarity: 0.5703703703703704
+Num of entries retrieved from the lists: 8466
+Num of entries retrieved from NKMaps: 15453
+Num of answer trees explored: 6271
+
+Div Top-k Search by Exhustive, k=10
+[romance, conflict, marriage]
+srcNodes: [5000002, 1290249, 8012626]
+  path: 0[1602901 -> 5000002], [Nowheresville (2000) -> Romance] 
+
+  path: 1[1602901 -> 2193016 -> 1582333 -> 2215276 -> 1290249], [Nowheresville (2000) -> Lubatti, Henri -> My Big Fat Independent Movie (2005) -> Mewes, Jason -> Conflict (2005/I)] 
+
+  path: 2[1602901 -> 8012626], [Nowheresville (2000) -> independent-film,marriage-proposal] 
+
+srcNodes: [5000002, 1372482, 8035599]
+  path: 0[1690596 -> 5000002], [Scusa ma ti chiamo amore (2008) -> Romance] 
+
+  path: 1[1690596 -> 2035679 -> 1188310 -> 2100559 -> 1372482], [Scusa ma ti chiamo amore (2008) -> Bova, Raoul -> AVP: Alien vs. Predator (2004) -> Filipensky, Jan Pavel -> Fatal Conflict (2000)] 
+
+  path: 2[1690596 -> 2390626 -> 1866505 -> 8035599], [Scusa ma ti chiamo amore (2008) -> Marengo, Gisella -> Voce del verbo amore (2007) -> family-relationships,marriage,sex] 
+
+srcNodes: [5000002, 1290259, 8006626]
+  path: 0[2393659 -> 1360643 -> 5000002], [Maura, Carmen -> Entre vivir y soñar (2004) -> Romance] 
+
+  path: 1[2393659 -> 1386748 -> 2014958 -> 1290259], [Maura, Carmen -> Free Zone (2005) -> Avni, Aki -> Conflict in the Middle Table (2008)] 
+
+  path: 2[2393659 -> 1219266 -> 2316144 -> 1270865 -> 8006626], [Maura, Carmen -> Assassini dei giorni di festa (2002) -> D'Amario, Sara -> Casomai (2002) -> marriage] 
+
+srcNodes: [5000002, 8017189, 1555914]
+  path: 0[1713162 -> 5000002], [Snapshots (2002/I) -> Romance] 
+
+  path: 1[1713162 -> 2145863 -> 1485756 -> 8017189], [Snapshots (2002/I) -> Hulst, Kees -> Klem in de draaideur (2003) -> based-on-book,political,political-conflict] 
+
+  path: 2[1713162 -> 2215483 -> 1337780 -> 2429861 -> 1555914], [Snapshots (2002/I) -> Meyers, Josh (I) -> Down (2001) -> Riemer, Hanneke -> Marriage (2005/II)] 
+
+srcNodes: [5000002, 1763891, 1792188]
+  path: 0[1504253 -> 5000002], [La milonga (2008) -> Romance] 
+
+  path: 1[1504253 -> 2434570 -> 1234867 -> 2377359 -> 1763891], [La milonga (2008) -> Ruiz, Angie -> Bee Season (2005) -> Landry, Shaun (I) -> The Conflict of Ms. Boston (2010)] 
+
+  path: 2[1504253 -> 2221630 -> 1444379 -> 2293368 -> 1792188], [La milonga (2008) -> Monzon, Christian -> If I Had Known I Was a Genius (2007) -> Bjorlin, Nadia -> The Marriage Undone (2002)] 
+
+srcNodes: [5000002, 1763891, 1555922]
+  path: 0[1513981 -> 5000002], [Last of the Romantics (2007) -> Romance] 
+
+  path: 1[1513981 -> 2179735 -> 1880362 -> 2452748 -> 1763891], [Last of the Romantics (2007) -> Lange, Ted (I) -> Who Shot Mamba? (2009) -> Streaty, Tia -> The Conflict of Ms. Boston (2010)] 
+
+  path: 2[1513981 -> 2317122 -> 1330432 -> 2415326 -> 1555922], [Last of the Romantics (2007) -> Daniel, Brittany -> Dirty (2005) -> Palmier, Marina (I) -> Marriage California Style (2006)] 
+
+srcNodes: [5000002, 1290249, 1555921]
+  path: 0[1221536 -> 5000002], [Au plus près du paradis (2002) -> Romance] 
+
+  path: 1[1221536 -> 2152943 -> 1781985 -> 2184051 -> 1290249], [Au plus près du paradis (2002) -> Jarsky, Joris -> The Incredible Hulk (2008) -> Lee, Stan (I) -> Conflict (2005/I)] 
+
+  path: 2[1221536 -> 2333272 -> 1309967 -> 2016590 -> 1555921], [Au plus près du paradis (2002) -> Fillières, Hélène -> De particulier à particulier (2006) -> Bahloul, Abdelkrim -> Marriage Blues (2011)] 
+
+srcNodes: [5000002, 1372482, 1216271]
+  path: 0[1654715 -> 5000002], [Pyaar Diwana Hota Hai (2002) -> Romance] 
+
+  path: 1[1654715 -> 2260188 -> 1822813 -> 2373274 -> 1372482], [Pyaar Diwana Hota Hai (2002) -> Puri, Om -> The Zookeeper (2001) -> Kooiman, Rianne -> Fatal Conflict (2000)] 
+
+  path: 2[1654715 -> 2260188 -> 1285932 -> 2415598 -> 1216271], [Pyaar Diwana Hota Hai (2002) -> Puri, Om -> Code 46 (2003) -> Panjabi, Archie -> Arranged Marriage (2002)] 
+
+srcNodes: [5000002, 8004353, 8026364]
+  path: 0[1699907 -> 5000002], [Shart: The Challenge (2004) -> Romance] 
+
+  path: 1[1699907 -> 2013539 -> 1227698 -> 8004353], [Shart: The Challenge (2004) -> Asrani -> Baghban (2003) -> adopted-son,devotion,disrespect,generation-conflict,holi,humiliation,orphan,raising-children,retirement,selfishness,valentine's-day,writing] 
+
+  path: 2[1699907 -> 2262772 -> 1684546 -> 8026364], [Shart: The Challenge (2004) -> Raj, Prakash -> Sankranthi (2005) -> hardship,jealousy,marriage] 
+
+srcNodes: [5000002, 8004353, 8012824]
+  path: 0[1698046 -> 5000002], [Shaadi Karke Phas Gaya Yaar (2006) -> Romance] 
+
+  path: 1[1698046 -> 2166640 -> 1227698 -> 8004353], [Shaadi Karke Phas Gaya Yaar (2006) -> Khan, Salman (I) -> Baghban (2003) -> adopted-son,devotion,disrespect,generation-conflict,holi,humiliation,orphan,raising-children,retirement,selfishness,valentine's-day,writing] 
+
+  path: 2[1698046 -> 2376500 -> 1398247 -> 8012824], [Shaadi Karke Phas Gaya Yaar (2006) -> Lagoo, Reema -> Gho Mala Asala Hawa (2009) -> marriage,mumbai-india] 
+
+Dissims of Subsets and t:
+(0~0, 1) : 0.6666666666666666
+(0~1, 2) : 0.6666666666666666
+(0~2, 3) : 0.6666666666666666
+(0~3, 4) : 0.6666666666666666
+(0~4, 5) : 0.6
+(0~5, 6) : 0.611111111111111
+(0~6, 7) : 0.619047619047619
+(0~7, 8) : 0.6666666666666666
+(0~8, 9) : 0.6296296296296295
+-----------------------------------------
+ResultDestNodes: [1602901, 1690596, 2393659, 1713162, 1504253, 1513981, 1221536, 1654715, 1699907, 1698046]
+ResultRelevs: [8.16293716430664, 7.177361488342285, 7.061318397521973, 7.050008773803711, 6.86007833480835, 6.860077857971191, 6.860077857971191, 6.860073566436768, 6.766384601593018, 6.766382694244385]
+AvgResultRelev: 7.042470073699951
+AvgResultDissimilarity: 0.6370370370370373
+Num of entries retrieved from the KNLists: 11373
+Num of entries retrieved from NKMaps: 20721
+Num of answer trees explored: 8373
+Num of answer tree sets created: 19367
+Num of answer tree sets removed: 19367
+
+Div Top-k Search by Astar02, k=10
+[romance, conflict, marriage]
+srcNodes: [5000002, 1290249, 8012626]
+  path: 0[1602901 -> 5000002], [Nowheresville (2000) -> Romance] 
+
+  path: 1[1602901 -> 2193016 -> 1582333 -> 2215276 -> 1290249], [Nowheresville (2000) -> Lubatti, Henri -> My Big Fat Independent Movie (2005) -> Mewes, Jason -> Conflict (2005/I)] 
+
+  path: 2[1602901 -> 8012626], [Nowheresville (2000) -> independent-film,marriage-proposal] 
+
+srcNodes: [5000002, 1372482, 8035599]
+  path: 0[1690596 -> 5000002], [Scusa ma ti chiamo amore (2008) -> Romance] 
+
+  path: 1[1690596 -> 2035679 -> 1188310 -> 2100559 -> 1372482], [Scusa ma ti chiamo amore (2008) -> Bova, Raoul -> AVP: Alien vs. Predator (2004) -> Filipensky, Jan Pavel -> Fatal Conflict (2000)] 
+
+  path: 2[1690596 -> 2390626 -> 1866505 -> 8035599], [Scusa ma ti chiamo amore (2008) -> Marengo, Gisella -> Voce del verbo amore (2007) -> family-relationships,marriage,sex] 
+
+srcNodes: [5000002, 1290259, 8006626]
+  path: 0[2393659 -> 1360643 -> 5000002], [Maura, Carmen -> Entre vivir y soñar (2004) -> Romance] 
+
+  path: 1[2393659 -> 1386748 -> 2014958 -> 1290259], [Maura, Carmen -> Free Zone (2005) -> Avni, Aki -> Conflict in the Middle Table (2008)] 
+
+  path: 2[2393659 -> 1219266 -> 2316144 -> 1270865 -> 8006626], [Maura, Carmen -> Assassini dei giorni di festa (2002) -> D'Amario, Sara -> Casomai (2002) -> marriage] 
+
+srcNodes: [5000002, 8017189, 1555914]
+  path: 0[1713162 -> 5000002], [Snapshots (2002/I) -> Romance] 
+
+  path: 1[1713162 -> 2145863 -> 1485756 -> 8017189], [Snapshots (2002/I) -> Hulst, Kees -> Klem in de draaideur (2003) -> based-on-book,political,political-conflict] 
+
+  path: 2[1713162 -> 2215483 -> 1337780 -> 2429861 -> 1555914], [Snapshots (2002/I) -> Meyers, Josh (I) -> Down (2001) -> Riemer, Hanneke -> Marriage (2005/II)] 
+
+srcNodes: [5000002, 1763891, 1792188]
+  path: 0[1504253 -> 5000002], [La milonga (2008) -> Romance] 
+
+  path: 1[1504253 -> 2434570 -> 1234867 -> 2377359 -> 1763891], [La milonga (2008) -> Ruiz, Angie -> Bee Season (2005) -> Landry, Shaun (I) -> The Conflict of Ms. Boston (2010)] 
+
+  path: 2[1504253 -> 2221630 -> 1444379 -> 2293368 -> 1792188], [La milonga (2008) -> Monzon, Christian -> If I Had Known I Was a Genius (2007) -> Bjorlin, Nadia -> The Marriage Undone (2002)] 
+
+srcNodes: [5000002, 1763891, 1555922]
+  path: 0[1513981 -> 5000002], [Last of the Romantics (2007) -> Romance] 
+
+  path: 1[1513981 -> 2179735 -> 1880362 -> 2452748 -> 1763891], [Last of the Romantics (2007) -> Lange, Ted (I) -> Who Shot Mamba? (2009) -> Streaty, Tia -> The Conflict of Ms. Boston (2010)] 
+
+  path: 2[1513981 -> 2317122 -> 1330432 -> 2415326 -> 1555922], [Last of the Romantics (2007) -> Daniel, Brittany -> Dirty (2005) -> Palmier, Marina (I) -> Marriage California Style (2006)] 
+
+srcNodes: [5000002, 1290249, 1555921]
+  path: 0[1221536 -> 5000002], [Au plus près du paradis (2002) -> Romance] 
+
+  path: 1[1221536 -> 2152943 -> 1781985 -> 2184051 -> 1290249], [Au plus près du paradis (2002) -> Jarsky, Joris -> The Incredible Hulk (2008) -> Lee, Stan (I) -> Conflict (2005/I)] 
+
+  path: 2[1221536 -> 2333272 -> 1309967 -> 2016590 -> 1555921], [Au plus près du paradis (2002) -> Fillières, Hélène -> De particulier à particulier (2006) -> Bahloul, Abdelkrim -> Marriage Blues (2011)] 
+
+srcNodes: [5000002, 1372482, 1216271]
+  path: 0[1654715 -> 5000002], [Pyaar Diwana Hota Hai (2002) -> Romance] 
+
+  path: 1[1654715 -> 2260188 -> 1822813 -> 2373274 -> 1372482], [Pyaar Diwana Hota Hai (2002) -> Puri, Om -> The Zookeeper (2001) -> Kooiman, Rianne -> Fatal Conflict (2000)] 
+
+  path: 2[1654715 -> 2260188 -> 1285932 -> 2415598 -> 1216271], [Pyaar Diwana Hota Hai (2002) -> Puri, Om -> Code 46 (2003) -> Panjabi, Archie -> Arranged Marriage (2002)] 
+
+srcNodes: [5000002, 8004353, 8026364]
+  path: 0[1699907 -> 5000002], [Shart: The Challenge (2004) -> Romance] 
+
+  path: 1[1699907 -> 2013539 -> 1227698 -> 8004353], [Shart: The Challenge (2004) -> Asrani -> Baghban (2003) -> adopted-son,devotion,disrespect,generation-conflict,holi,humiliation,orphan,raising-children,retirement,selfishness,valentine's-day,writing] 
+
+  path: 2[1699907 -> 2262772 -> 1684546 -> 8026364], [Shart: The Challenge (2004) -> Raj, Prakash -> Sankranthi (2005) -> hardship,jealousy,marriage] 
+
+srcNodes: [5000002, 8004353, 8012824]
+  path: 0[1698046 -> 5000002], [Shaadi Karke Phas Gaya Yaar (2006) -> Romance] 
+
+  path: 1[1698046 -> 2166640 -> 1227698 -> 8004353], [Shaadi Karke Phas Gaya Yaar (2006) -> Khan, Salman (I) -> Baghban (2003) -> adopted-son,devotion,disrespect,generation-conflict,holi,humiliation,orphan,raising-children,retirement,selfishness,valentine's-day,writing] 
+
+  path: 2[1698046 -> 2376500 -> 1398247 -> 8012824], [Shaadi Karke Phas Gaya Yaar (2006) -> Lagoo, Reema -> Gho Mala Asala Hawa (2009) -> marriage,mumbai-india] 
+
+-----------------------------------------
+ResultDestNodes: [1602901, 1690596, 2393659, 1713162, 1504253, 1513981, 1221536, 1654715, 1699907, 1698046]
+ResultRelevs: [8.16293716430664, 7.177361488342285, 7.061318397521973, 7.050008773803711, 6.86007833480835, 6.860077857971191, 6.860077857971191, 6.860073566436768, 6.766384601593018, 6.766382694244385]
+AvgResultRelev: 7.042470073699951
+AvgResultDissimilarity: 0.6370370370370373
+Num of entries retrieved from the KNLists: 11373
+Num of entries retrieved from NKMaps: 20721
+Num of answer trees explored: 8373
+Num of states created: 45248
+Num of states explored: 44902
+Num of heuristic search performed: 26
+
+Div Top-k Search by Astar1nc_ap_new, k=10
+[romance, conflict, marriage]
+srcNodes: [5000002, 1290249, 8012626]
+  path: 0[1602901 -> 5000002], [Nowheresville (2000) -> Romance] 
+
+  path: 1[1602901 -> 2193016 -> 1582333 -> 2215276 -> 1290249], [Nowheresville (2000) -> Lubatti, Henri -> My Big Fat Independent Movie (2005) -> Mewes, Jason -> Conflict (2005/I)] 
+
+  path: 2[1602901 -> 8012626], [Nowheresville (2000) -> independent-film,marriage-proposal] 
+
+srcNodes: [5000002, 1372482, 8035599]
+  path: 0[1690596 -> 5000002], [Scusa ma ti chiamo amore (2008) -> Romance] 
+
+  path: 1[1690596 -> 2035679 -> 1188310 -> 2100559 -> 1372482], [Scusa ma ti chiamo amore (2008) -> Bova, Raoul -> AVP: Alien vs. Predator (2004) -> Filipensky, Jan Pavel -> Fatal Conflict (2000)] 
+
+  path: 2[1690596 -> 2390626 -> 1866505 -> 8035599], [Scusa ma ti chiamo amore (2008) -> Marengo, Gisella -> Voce del verbo amore (2007) -> family-relationships,marriage,sex] 
+
+srcNodes: [5000002, 1290259, 8006626]
+  path: 0[2393659 -> 1360643 -> 5000002], [Maura, Carmen -> Entre vivir y soñar (2004) -> Romance] 
+
+  path: 1[2393659 -> 1386748 -> 2014958 -> 1290259], [Maura, Carmen -> Free Zone (2005) -> Avni, Aki -> Conflict in the Middle Table (2008)] 
+
+  path: 2[2393659 -> 1219266 -> 2316144 -> 1270865 -> 8006626], [Maura, Carmen -> Assassini dei giorni di festa (2002) -> D'Amario, Sara -> Casomai (2002) -> marriage] 
+
+srcNodes: [5000002, 8017189, 1555914]
+  path: 0[1713162 -> 5000002], [Snapshots (2002/I) -> Romance] 
+
+  path: 1[1713162 -> 2145863 -> 1485756 -> 8017189], [Snapshots (2002/I) -> Hulst, Kees -> Klem in de draaideur (2003) -> based-on-book,political,political-conflict] 
+
+  path: 2[1713162 -> 2215483 -> 1337780 -> 2429861 -> 1555914], [Snapshots (2002/I) -> Meyers, Josh (I) -> Down (2001) -> Riemer, Hanneke -> Marriage (2005/II)] 
+
+srcNodes: [5000002, 1763891, 1792188]
+  path: 0[1759768 -> 5000002], [The Broken Hearts Club (2009) -> Romance] 
+
+  path: 1[1759768 -> 2221773 -> 1880362 -> 2452748 -> 1763891], [The Broken Hearts Club (2009) -> Mooney, Dylan (I) -> Who Shot Mamba? (2009) -> Streaty, Tia -> The Conflict of Ms. Boston (2010)] 
+
+  path: 2[1759768 -> 2220931 -> 1795316 -> 2463340 -> 1792188], [The Broken Hearts Club (2009) -> Monks, Michael (I) -> The Mystery of Spoon River (2000) -> Urszuly, Suzanna -> The Marriage Undone (2002)] 
+
+srcNodes: [5000002, 1763891, 1555922]
+  path: 0[1513981 -> 5000002], [Last of the Romantics (2007) -> Romance] 
+
+  path: 1[1513981 -> 2179735 -> 1880362 -> 2452748 -> 1763891], [Last of the Romantics (2007) -> Lange, Ted (I) -> Who Shot Mamba? (2009) -> Streaty, Tia -> The Conflict of Ms. Boston (2010)] 
+
+  path: 2[1513981 -> 2317122 -> 1330432 -> 2415326 -> 1555922], [Last of the Romantics (2007) -> Daniel, Brittany -> Dirty (2005) -> Palmier, Marina (I) -> Marriage California Style (2006)] 
+
+srcNodes: [5000002, 1290249, 1555921]
+  path: 0[1221536 -> 5000002], [Au plus près du paradis (2002) -> Romance] 
+
+  path: 1[1221536 -> 2152943 -> 1781985 -> 2184051 -> 1290249], [Au plus près du paradis (2002) -> Jarsky, Joris -> The Incredible Hulk (2008) -> Lee, Stan (I) -> Conflict (2005/I)] 
+
+  path: 2[1221536 -> 2333272 -> 1309967 -> 2016590 -> 1555921], [Au plus près du paradis (2002) -> Fillières, Hélène -> De particulier à particulier (2006) -> Bahloul, Abdelkrim -> Marriage Blues (2011)] 
+
+srcNodes: [5000002, 1372482, 1216271]
+  path: 0[1654715 -> 5000002], [Pyaar Diwana Hota Hai (2002) -> Romance] 
+
+  path: 1[1654715 -> 2260188 -> 1822813 -> 2373274 -> 1372482], [Pyaar Diwana Hota Hai (2002) -> Puri, Om -> The Zookeeper (2001) -> Kooiman, Rianne -> Fatal Conflict (2000)] 
+
+  path: 2[1654715 -> 2260188 -> 1285932 -> 2415598 -> 1216271], [Pyaar Diwana Hota Hai (2002) -> Puri, Om -> Code 46 (2003) -> Panjabi, Archie -> Arranged Marriage (2002)] 
+
+srcNodes: [5000002, 8004353, 8026364]
+  path: 0[1699907 -> 5000002], [Shart: The Challenge (2004) -> Romance] 
+
+  path: 1[1699907 -> 2013539 -> 1227698 -> 8004353], [Shart: The Challenge (2004) -> Asrani -> Baghban (2003) -> adopted-son,devotion,disrespect,generation-conflict,holi,humiliation,orphan,raising-children,retirement,selfishness,valentine's-day,writing] 
+
+  path: 2[1699907 -> 2262772 -> 1684546 -> 8026364], [Shart: The Challenge (2004) -> Raj, Prakash -> Sankranthi (2005) -> hardship,jealousy,marriage] 
+
+srcNodes: [5000002, 8004353, 8012824]
+  path: 0[1698046 -> 5000002], [Shaadi Karke Phas Gaya Yaar (2006) -> Romance] 
+
+  path: 1[1698046 -> 2166640 -> 1227698 -> 8004353], [Shaadi Karke Phas Gaya Yaar (2006) -> Khan, Salman (I) -> Baghban (2003) -> adopted-son,devotion,disrespect,generation-conflict,holi,humiliation,orphan,raising-children,retirement,selfishness,valentine's-day,writing] 
+
+  path: 2[1698046 -> 2376500 -> 1398247 -> 8012824], [Shaadi Karke Phas Gaya Yaar (2006) -> Lagoo, Reema -> Gho Mala Asala Hawa (2009) -> marriage,mumbai-india] 
+
+-----------------------------------------
+ResultDestNodes: [1602901, 1690596, 2393659, 1713162, 1759768, 1513981, 1221536, 1654715, 1699907, 1698046]
+ResultRelevs: [8.16293716430664, 7.177361488342285, 7.061318397521973, 7.050008773803711, 6.86007833480835, 6.860077857971191, 6.860077857971191, 6.860073566436768, 6.766384601593018, 6.766382694244385]
+AvgResultRelev: 7.042470073699951
+AvgResultDissimilarity: 0.6370370370370373
+Num of entries retrieved from the KNLists: 11373
+Num of entries retrieved from NKMaps: 20721
+Num of answer trees explored: 8373
+Num of states created: 495
+Num of states explored: 172
+Num of heuristic search performed: 6
+
+Top-k Search by Blink-BDB, k=15
+[romance, conflict, marriage]
+srcNodes: [5000002, 1290249, 8012626]
+  path: 0[1602901 -> 5000002], [Nowheresville (2000) -> Romance] 
+
+  path: 1[1602901 -> 2193016 -> 1582333 -> 2215276 -> 1290249], [Nowheresville (2000) -> Lubatti, Henri -> My Big Fat Independent Movie (2005) -> Mewes, Jason -> Conflict (2005/I)] 
+
+  path: 2[1602901 -> 8012626], [Nowheresville (2000) -> independent-film,marriage-proposal] 
+
+srcNodes: [5000002, 1290249, 8030458]
+  path: 0[1839404 -> 5000002], [Tricks of a Woman (2008) -> Romance] 
+
+  path: 1[1839404 -> 2246846 -> 1721085 -> 2184051 -> 1290249], [Tricks of a Woman (2008) -> Pastore, Vincent -> Spider-Man 2 (2004) -> Lee, Stan (I) -> Conflict (2005/I)] 
+
+  path: 2[1839404 -> 2246846 -> 1764178 -> 8030458], [Tricks of a Woman (2008) -> Pastore, Vincent -> The Cookout (2004) -> flatulence,interracial-marriage,male-female-relationship,marriage] 
+
+srcNodes: [5000002, 1763891, 8030835]
+  path: 0[1214086 -> 5000002], [April Moon (2007) -> Romance] 
+
+  path: 1[1214086 -> 2250680 -> 1302674 -> 2253325 -> 1763891], [April Moon (2007) -> Perry, Brien -> Dance Flick (2009) -> Pierce, Ernest -> The Conflict of Ms. Boston (2010)] 
+
+  path: 2[1214086 -> 2120070 -> 1770706 -> 8030835], [April Moon (2007) -> Gorman, Jeffrey A. -> The Exception (2007) -> independent-film,marriage] 
+
+srcNodes: [5000002, 1290249, 8026364]
+  path: 0[1229230 -> 5000002], [Balu (2005) -> Romance] 
+
+  path: 1[1229230 -> 2124463 -> 1234927 -> 2277053 -> 1290249], [Balu (2005) -> Grover, Gulshan -> Beeper (2002) -> Adams, Joey Lauren -> Conflict (2005/I)] 
+
+  path: 2[1229230 -> 2265800 -> 1684546 -> 8026364], [Balu (2005) -> Reddy, Raghunatha -> Sankranthi (2005) -> hardship,jealousy,marriage] 
+
+srcNodes: [5000002, 1372482, 8035599]
+  path: 0[1690596 -> 5000002], [Scusa ma ti chiamo amore (2008) -> Romance] 
+
+  path: 1[1690596 -> 2035679 -> 1188310 -> 2100559 -> 1372482], [Scusa ma ti chiamo amore (2008) -> Bova, Raoul -> AVP: Alien vs. Predator (2004) -> Filipensky, Jan Pavel -> Fatal Conflict (2000)] 
+
+  path: 2[1690596 -> 2390626 -> 1866505 -> 8035599], [Scusa ma ti chiamo amore (2008) -> Marengo, Gisella -> Voce del verbo amore (2007) -> family-relationships,marriage,sex] 
+
+srcNodes: [5000002, 1290259, 8006626]
+  path: 0[2393659 -> 1360643 -> 5000002], [Maura, Carmen -> Entre vivir y soñar (2004) -> Romance] 
+
+  path: 1[2393659 -> 1386748 -> 2014958 -> 1290259], [Maura, Carmen -> Free Zone (2005) -> Avni, Aki -> Conflict in the Middle Table (2008)] 
+
+  path: 2[2393659 -> 1219266 -> 2316144 -> 1270865 -> 8006626], [Maura, Carmen -> Assassini dei giorni di festa (2002) -> D'Amario, Sara -> Casomai (2002) -> marriage] 
+
+srcNodes: [5000002, 1372482, 8006626]
+  path: 0[2035679 -> 1690596 -> 5000002], [Bova, Raoul -> Scusa ma ti chiamo amore (2008) -> Romance] 
+
+  path: 1[2035679 -> 1188310 -> 2100559 -> 1372482], [Bova, Raoul -> AVP: Alien vs. Predator (2004) -> Filipensky, Jan Pavel -> Fatal Conflict (2000)] 
+
+  path: 2[2035679 -> 1441056 -> 2039713 -> 1270865 -> 8006626], [Bova, Raoul -> I cavalieri che fecero l'impresa (2001) -> Brooks, Alexander -> Casomai (2002) -> marriage] 
+
+srcNodes: [5000002, 8017189, 1555914]
+  path: 0[1713162 -> 5000002], [Snapshots (2002/I) -> Romance] 
+
+  path: 1[1713162 -> 2145863 -> 1485756 -> 8017189], [Snapshots (2002/I) -> Hulst, Kees -> Klem in de draaideur (2003) -> based-on-book,political,political-conflict] 
+
+  path: 2[1713162 -> 2215483 -> 1337780 -> 2429861 -> 1555914], [Snapshots (2002/I) -> Meyers, Josh (I) -> Down (2001) -> Riemer, Hanneke -> Marriage (2005/II)] 
+
+srcNodes: [5000002, 1290249, 8009271]
+  path: 0[1329470 -> 5000002], [Dil Maange More!!! (2004) -> Romance] 
+
+  path: 1[1329470 -> 2124463 -> 1234927 -> 2277053 -> 1290249], [Dil Maange More!!! (2004) -> Grover, Gulshan -> Beeper (2002) -> Adams, Joey Lauren -> Conflict (2005/I)] 
+
+  path: 2[1329470 -> 2365081 -> 1322948 -> 8009271], [Dil Maange More!!! (2004) -> Joshi, Tulip -> Dhokha (2007) -> betrayal,marriage,muslim,suicide-bomber] 
+
+srcNodes: [5000002, 1290249, 8009271]
+  path: 0[1231822 -> 5000002], [Bas Itna Sa Khwaab Hai... (2001) -> Romance] 
+
+  path: 1[1231822 -> 2124463 -> 1234927 -> 2277053 -> 1290249], [Bas Itna Sa Khwaab Hai... (2001) -> Grover, Gulshan -> Beeper (2002) -> Adams, Joey Lauren -> Conflict (2005/I)] 
+
+  path: 2[1231822 -> 2124463 -> 1322948 -> 8009271], [Bas Itna Sa Khwaab Hai... (2001) -> Grover, Gulshan -> Dhokha (2007) -> betrayal,marriage,muslim,suicide-bomber] 
+
+srcNodes: [5000002, 1290249, 8009271]
+  path: 0[1329489 -> 5000002], [Dil Vil Pyar Vyar (2002) -> Romance] 
+
+  path: 1[1329489 -> 2124463 -> 1234927 -> 2277053 -> 1290249], [Dil Vil Pyar Vyar (2002) -> Grover, Gulshan -> Beeper (2002) -> Adams, Joey Lauren -> Conflict (2005/I)] 
+
+  path: 2[1329489 -> 2124463 -> 1322948 -> 8009271], [Dil Vil Pyar Vyar (2002) -> Grover, Gulshan -> Dhokha (2007) -> betrayal,marriage,muslim,suicide-bomber] 
+
+srcNodes: [5000002, 1290249, 8009271]
+  path: 0[1581492 -> 5000002], [Muskaan (2004) -> Romance] 
+
+  path: 1[1581492 -> 2124463 -> 1234927 -> 2277053 -> 1290249], [Muskaan (2004) -> Grover, Gulshan -> Beeper (2002) -> Adams, Joey Lauren -> Conflict (2005/I)] 
+
+  path: 2[1581492 -> 2124463 -> 1322948 -> 8009271], [Muskaan (2004) -> Grover, Gulshan -> Dhokha (2007) -> betrayal,marriage,muslim,suicide-bomber] 
+
+srcNodes: [5000002, 1290249, 8009265]
+  path: 0[1336874 -> 5000002], [Dosti: Friends Forever (2005) -> Romance] 
+
+  path: 1[1336874 -> 2308866 -> 1234927 -> 2277053 -> 1290249], [Dosti: Friends Forever (2005) -> Chopra, Sherlyn -> Beeper (2002) -> Adams, Joey Lauren -> Conflict (2005/I)] 
+
+  path: 2[1336874 -> 2175882 -> 1322775 -> 8009265], [Dosti: Friends Forever (2005) -> Kumar, Kiran (I) -> Dhadkan (2000) -> loss-of-mother,love,marriage,stepfamily] 
+
+srcNodes: [5000002, 1290249, 8034653]
+  path: 0[1529128 -> 5000002], [Liberty, Maine (2001) -> Romance] 
+
+  path: 1[1529128 -> 2355989 -> 1290249], [Liberty, Maine (2001) -> Holloman, Laurel -> Conflict (2005/I)] 
+
+  path: 2[1529128 -> 2444885 -> 1844836 -> 8034653], [Liberty, Maine (2001) -> Siegfried, Mandy -> Two Weeks Notice (2002) -> baseball-game,beautiful-woman,black-bra,brooklyn-new-york-city,chess,chrysler-building-manhattan-new-york-city,class-differences,coney-island-brooklyn-new-york-city,department-store,developer,diarrhea,divorce,drunkenness,environmental-activism,environmental-protest,girl-stripped-down-to-bra,goof-in-title,helicopter,hotel,job-interview,landmark,lawyer,legal-aid,lingerie-slip,love,male-female-relationship,manhattan-new-york-city,marriage-proposal,massage,meet-cute,new-york-city,number-in-title,party,poem,queens-new-york-city,recreational-vehicle,reference-to-slurpee,shea-stadium-queens-new-york-city,social-activism,speech,street-vendor,surprise-after-end-credits,tennis,title-spoken-by-character,traffic-jam,wedding,womanizer,wrecking-ball,yacht] 
+
+srcNodes: [5000002, 1290249, 8011166]
+  path: 0[1290249 -> 2355989 -> 1529128 -> 5000002], [Conflict (2005/I) -> Holloman, Laurel -> Liberty, Maine (2001) -> Romance] 
+
+  path: 1[1290249 -> 1290249], [Conflict (2005/I) -> Conflict (2005/I)]
+  path: 2[1290249 -> 2277053 -> 1366508 -> 8011166], [Conflict (2005/I) -> Adams, Joey Lauren -> ExTerminators (2009) -> accidental-killing,anger,anger-management,anger-therapy,arsenic,asking-for-a-date,bad-behavior,bad-day,bad-girl,bar,bare-chested-male,being-followed,being-watched,black-comedy,business,car-explosion,car-falling-off-a-cliff,caught-having-sex,changing-clothes,chase,cheating-boyfriend,cigarette-smoking,corrupt-agent,court-order,creep,criminal-record,dark-comedy,decision,dental-assistant,detective,domestic-abuse,drinking-and-driving,driving-through-a-building,drunkenness,exterminator,female-bonding,fired-from-the-job,flashback,friendship-between-women,getting-away-with-murder,girls-night-out,group-therapy,guilt,hairy-chest,hand-on-knee,hit-in-the-face,internal-revenue-service,jerk,keeping-a-secret,loneliness,love,lying,marriage,marriage-proposal,misandry,motel,multiple-murders,murder,murder-plot,murderess,new-year,nightmare,pay-for-sex,payment,poison,punched-in-the-face,questioning,set-on-fire,sexual-harassment,shopping,spying,st.-patrick's-day,stalker,stalking,storytelling,surprise-party,] 
+
+-----------------------------------------
+Num of top-k answers: 15
+ResultDestNodes: [1602901, 1839404, 1214086, 1229230, 1690596, 2393659, 2035679, 1713162, 1329470, 1231822, 1329489, 1581492, 1336874, 1529128, 1290249]
+ResultRelevs: [8.16293716430664, 7.256394863128662, 7.177362442016602, 7.177361965179443, 7.177361488342285, 7.061318397521973, 7.06131649017334, 7.050008773803711, 7.014505386352539, 7.014505386352539, 7.014505386352539, 7.014505386352539, 7.014504909515381, 7.012132167816162, 6.969063758850098]
+AvgResultRelev: 7.145185597737631
+AvgResultDissimilarity: 0.4984126984126986
+Num of entries retrieved from the lists: 8466
+Num of entries retrieved from NKMaps: 15453
+Num of answer trees explored: 6271
+
+Div Top-k Search by Exhustive, k=15
+[romance, conflict, marriage]
+srcNodes: [5000002, 1290249, 8012626]
+  path: 0[1602901 -> 5000002], [Nowheresville (2000) -> Romance] 
+
+  path: 1[1602901 -> 2193016 -> 1582333 -> 2215276 -> 1290249], [Nowheresville (2000) -> Lubatti, Henri -> My Big Fat Independent Movie (2005) -> Mewes, Jason -> Conflict (2005/I)] 
+
+  path: 2[1602901 -> 8012626], [Nowheresville (2000) -> independent-film,marriage-proposal] 
+
+srcNodes: [5000002, 1372482, 8035599]
+  path: 0[1690596 -> 5000002], [Scusa ma ti chiamo amore (2008) -> Romance] 
+
+  path: 1[1690596 -> 2035679 -> 1188310 -> 2100559 -> 1372482], [Scusa ma ti chiamo amore (2008) -> Bova, Raoul -> AVP: Alien vs. Predator (2004) -> Filipensky, Jan Pavel -> Fatal Conflict (2000)] 
+
+  path: 2[1690596 -> 2390626 -> 1866505 -> 8035599], [Scusa ma ti chiamo amore (2008) -> Marengo, Gisella -> Voce del verbo amore (2007) -> family-relationships,marriage,sex] 
+
+srcNodes: [5000002, 1290259, 8006626]
+  path: 0[2393659 -> 1360643 -> 5000002], [Maura, Carmen -> Entre vivir y soñar (2004) -> Romance] 
+
+  path: 1[2393659 -> 1386748 -> 2014958 -> 1290259], [Maura, Carmen -> Free Zone (2005) -> Avni, Aki -> Conflict in the Middle Table (2008)] 
+
+  path: 2[2393659 -> 1219266 -> 2316144 -> 1270865 -> 8006626], [Maura, Carmen -> Assassini dei giorni di festa (2002) -> D'Amario, Sara -> Casomai (2002) -> marriage] 
+
+srcNodes: [5000002, 8017189, 1555914]
+  path: 0[1713162 -> 5000002], [Snapshots (2002/I) -> Romance] 
+
+  path: 1[1713162 -> 2145863 -> 1485756 -> 8017189], [Snapshots (2002/I) -> Hulst, Kees -> Klem in de draaideur (2003) -> based-on-book,political,political-conflict] 
+
+  path: 2[1713162 -> 2215483 -> 1337780 -> 2429861 -> 1555914], [Snapshots (2002/I) -> Meyers, Josh (I) -> Down (2001) -> Riemer, Hanneke -> Marriage (2005/II)] 
+
+srcNodes: [5000002, 1763891, 1792188]
+  path: 0[1504253 -> 5000002], [La milonga (2008) -> Romance] 
+
+  path: 1[1504253 -> 2434570 -> 1234867 -> 2377359 -> 1763891], [La milonga (2008) -> Ruiz, Angie -> Bee Season (2005) -> Landry, Shaun (I) -> The Conflict of Ms. Boston (2010)] 
+
+  path: 2[1504253 -> 2221630 -> 1444379 -> 2293368 -> 1792188], [La milonga (2008) -> Monzon, Christian -> If I Had Known I Was a Genius (2007) -> Bjorlin, Nadia -> The Marriage Undone (2002)] 
+
+srcNodes: [5000002, 1763891, 1555922]
+  path: 0[1513981 -> 5000002], [Last of the Romantics (2007) -> Romance] 
+
+  path: 1[1513981 -> 2179735 -> 1880362 -> 2452748 -> 1763891], [Last of the Romantics (2007) -> Lange, Ted (I) -> Who Shot Mamba? (2009) -> Streaty, Tia -> The Conflict of Ms. Boston (2010)] 
+
+  path: 2[1513981 -> 2317122 -> 1330432 -> 2415326 -> 1555922], [Last of the Romantics (2007) -> Daniel, Brittany -> Dirty (2005) -> Palmier, Marina (I) -> Marriage California Style (2006)] 
+
+srcNodes: [5000002, 1290249, 1555921]
+  path: 0[1221536 -> 5000002], [Au plus près du paradis (2002) -> Romance] 
+
+  path: 1[1221536 -> 2152943 -> 1781985 -> 2184051 -> 1290249], [Au plus près du paradis (2002) -> Jarsky, Joris -> The Incredible Hulk (2008) -> Lee, Stan (I) -> Conflict (2005/I)] 
+
+  path: 2[1221536 -> 2333272 -> 1309967 -> 2016590 -> 1555921], [Au plus près du paradis (2002) -> Fillières, Hélène -> De particulier à particulier (2006) -> Bahloul, Abdelkrim -> Marriage Blues (2011)] 
+
+srcNodes: [5000002, 1372482, 1216271]
+  path: 0[1654715 -> 5000002], [Pyaar Diwana Hota Hai (2002) -> Romance] 
+
+  path: 1[1654715 -> 2260188 -> 1822813 -> 2373274 -> 1372482], [Pyaar Diwana Hota Hai (2002) -> Puri, Om -> The Zookeeper (2001) -> Kooiman, Rianne -> Fatal Conflict (2000)] 
+
+  path: 2[1654715 -> 2260188 -> 1285932 -> 2415598 -> 1216271], [Pyaar Diwana Hota Hai (2002) -> Puri, Om -> Code 46 (2003) -> Panjabi, Archie -> Arranged Marriage (2002)] 
+
+srcNodes: [5000002, 8004353, 8026364]
+  path: 0[1699907 -> 5000002], [Shart: The Challenge (2004) -> Romance] 
+
+  path: 1[1699907 -> 2013539 -> 1227698 -> 8004353], [Shart: The Challenge (2004) -> Asrani -> Baghban (2003) -> adopted-son,devotion,disrespect,generation-conflict,holi,humiliation,orphan,raising-children,retirement,selfishness,valentine's-day,writing] 
+
+  path: 2[1699907 -> 2262772 -> 1684546 -> 8026364], [Shart: The Challenge (2004) -> Raj, Prakash -> Sankranthi (2005) -> hardship,jealousy,marriage] 
+
+srcNodes: [5000002, 8004353, 8012824]
+  path: 0[1698046 -> 5000002], [Shaadi Karke Phas Gaya Yaar (2006) -> Romance] 
+
+  path: 1[1698046 -> 2166640 -> 1227698 -> 8004353], [Shaadi Karke Phas Gaya Yaar (2006) -> Khan, Salman (I) -> Baghban (2003) -> adopted-son,devotion,disrespect,generation-conflict,holi,humiliation,orphan,raising-children,retirement,selfishness,valentine's-day,writing] 
+
+  path: 2[1698046 -> 2376500 -> 1398247 -> 8012824], [Shaadi Karke Phas Gaya Yaar (2006) -> Lagoo, Reema -> Gho Mala Asala Hawa (2009) -> marriage,mumbai-india] 
+
+srcNodes: [5000004, 1290249, 8006626]
+  path: 0[1540985 -> 5000004], [Love and Mary (2007) -> Comedy,Romance] 
+
+  path: 1[1540985 -> 2120623 -> 1666666 -> 2215276 -> 1290249], [Love and Mary (2007) -> Gourley, Benjamin -> Repo (2010) -> Mewes, Jason -> Conflict (2005/I)] 
+
+  path: 2[1540985 -> 2355238 -> 1828571 -> 8006626], [Love and Mary (2007) -> Hoang, Junie -> Till Death Do Us Part (2007/II) -> marriage] 
+
+srcNodes: [5000000, 1290249, 8006626]
+  path: 0[1706542 -> 5000000], [Silk (2007/I) -> Romance,Drama] 
+
+  path: 1[1706542 -> 2220336 -> 1721085 -> 2184051 -> 1290249], [Silk (2007/I) -> Molina, Alfred -> Spider-Man 2 (2004) -> Lee, Stan (I) -> Conflict (2005/I)] 
+
+  path: 2[1706542 -> 2039713 -> 1270865 -> 8006626], [Silk (2007/I) -> Brooks, Alexander -> Casomai (2002) -> marriage] 
+
+srcNodes: [5001435, 1290249, 8006626]
+  path: 0[1218822 -> 5001435], [Aspects of Love (2005) -> Romance,Musical] 
+
+  path: 1[1218822 -> 2100976 -> 1235152 -> 2062412 -> 1290249], [Aspects of Love (2005) -> Finney, Albert -> Before the Devil Knows You're Dead (2007) -> Colletti, Bob -> Conflict (2005/I)] 
+
+  path: 2[1218822 -> 2431424 -> 1270865 -> 8006626], [Aspects of Love (2005) -> Rocca, Stefania -> Casomai (2002) -> marriage] 
+
+srcNodes: [5000001, 1290249, 8006626]
+  path: 0[1267951 -> 5000001], [Caos calmo (2008) -> Drama,Romance] 
+
+  path: 1[1267951 -> 2255374 -> 1511234 -> 2253603 -> 1290249], [Caos calmo (2008) -> Podalydès, Denis -> Laissez-passer (2002) -> Pigott-Smith, Tim -> Conflict (2005/I)] 
+
+  path: 2[1267951 -> 2381393 -> 1270865 -> 8006626], [Caos calmo (2008) -> Lepore, Tatiana -> Casomai (2002) -> marriage] 
+
+srcNodes: [5000002, 1290249, 8001788]
+  path: 0[1828991 -> 5000002], [Time Pass (2005) -> Romance] 
+
+  path: 1[1828991 -> 2308866 -> 1234927 -> 2277053 -> 1290249], [Time Pass (2005) -> Chopra, Sherlyn -> Beeper (2002) -> Adams, Joey Lauren -> Conflict (2005/I)] 
+
+  path: 2[1828991 -> 2149147 -> 1145419 -> 8001788], [Time Pass (2005) -> Irani, Adi -> "Yahan Mein Ghar Ghar Kheli" (2009) -> family-relationships,father-son-relationship,husband-wife-relationship,love,marriage] 
+
+Dissims of Subsets and t:
+(0~0, 1) : 0.6666666666666666
+(0~1, 2) : 0.6666666666666666
+(0~2, 3) : 0.6666666666666666
+(0~3, 4) : 0.6666666666666666
+(0~4, 5) : 0.6
+(0~5, 6) : 0.611111111111111
+(0~6, 7) : 0.619047619047619
+(0~7, 8) : 0.6666666666666666
+(0~8, 9) : 0.6296296296296295
+(0~9, 10) : 0.9
+(0~10, 11) : 0.8484848484848485
+(0~11, 12) : 0.8055555555555557
+(0~12, 13) : 0.7692307692307694
+(0~13, 14) : 0.619047619047619
+-----------------------------------------
+ResultDestNodes: [1602901, 1690596, 2393659, 1713162, 1504253, 1513981, 1221536, 1654715, 1699907, 1698046, 1540985, 1706542, 1218822, 1267951, 1828991]
+ResultRelevs: [8.16293716430664, 7.177361488342285, 7.061318397521973, 7.050008773803711, 6.86007833480835, 6.860077857971191, 6.860077857971191, 6.860073566436768, 6.766384601593018, 6.766382694244385, 6.73185920715332, 6.73185920715332, 6.7318572998046875, 6.731856346130371, 6.688788414001465]
+AvgResultRelev: 6.936061414082845
+AvgResultDissimilarity: 0.7174603174603172
+Num of entries retrieved from the KNLists: 11979
+Num of entries retrieved from NKMaps: 21713
+Num of answer trees explored: 8730
+Num of answer tree sets created: 521314
+Num of answer tree sets removed: 537
+
+Div Top-k Search by Astar02, k=15
+[romance, conflict, marriage]
+srcNodes: [5000002, 1290249, 8012626]
+  path: 0[1602901 -> 5000002], [Nowheresville (2000) -> Romance] 
+
+  path: 1[1602901 -> 2193016 -> 1582333 -> 2215276 -> 1290249], [Nowheresville (2000) -> Lubatti, Henri -> My Big Fat Independent Movie (2005) -> Mewes, Jason -> Conflict (2005/I)] 
+
+  path: 2[1602901 -> 8012626], [Nowheresville (2000) -> independent-film,marriage-proposal] 
+
+srcNodes: [5000002, 1372482, 8035599]
+  path: 0[1690596 -> 5000002], [Scusa ma ti chiamo amore (2008) -> Romance] 
+
+  path: 1[1690596 -> 2035679 -> 1188310 -> 2100559 -> 1372482], [Scusa ma ti chiamo amore (2008) -> Bova, Raoul -> AVP: Alien vs. Predator (2004) -> Filipensky, Jan Pavel -> Fatal Conflict (2000)] 
+
+  path: 2[1690596 -> 2390626 -> 1866505 -> 8035599], [Scusa ma ti chiamo amore (2008) -> Marengo, Gisella -> Voce del verbo amore (2007) -> family-relationships,marriage,sex] 
+
+srcNodes: [5000002, 1290259, 8006626]
+  path: 0[2393659 -> 1360643 -> 5000002], [Maura, Carmen -> Entre vivir y soñar (2004) -> Romance] 
+
+  path: 1[2393659 -> 1386748 -> 2014958 -> 1290259], [Maura, Carmen -> Free Zone (2005) -> Avni, Aki -> Conflict in the Middle Table (2008)] 
+
+  path: 2[2393659 -> 1219266 -> 2316144 -> 1270865 -> 8006626], [Maura, Carmen -> Assassini dei giorni di festa (2002) -> D'Amario, Sara -> Casomai (2002) -> marriage] 
+
+srcNodes: [5000002, 8017189, 1555914]
+  path: 0[1713162 -> 5000002], [Snapshots (2002/I) -> Romance] 
+
+  path: 1[1713162 -> 2145863 -> 1485756 -> 8017189], [Snapshots (2002/I) -> Hulst, Kees -> Klem in de draaideur (2003) -> based-on-book,political,political-conflict] 
+
+  path: 2[1713162 -> 2215483 -> 1337780 -> 2429861 -> 1555914], [Snapshots (2002/I) -> Meyers, Josh (I) -> Down (2001) -> Riemer, Hanneke -> Marriage (2005/II)] 
+
+srcNodes: [5000002, 1763891, 1792188]
+  path: 0[1504253 -> 5000002], [La milonga (2008) -> Romance] 
+
+  path: 1[1504253 -> 2434570 -> 1234867 -> 2377359 -> 1763891], [La milonga (2008) -> Ruiz, Angie -> Bee Season (2005) -> Landry, Shaun (I) -> The Conflict of Ms. Boston (2010)] 
+
+  path: 2[1504253 -> 2221630 -> 1444379 -> 2293368 -> 1792188], [La milonga (2008) -> Monzon, Christian -> If I Had Known I Was a Genius (2007) -> Bjorlin, Nadia -> The Marriage Undone (2002)] 
+
+srcNodes: [5000002, 1763891, 1555922]
+  path: 0[1513981 -> 5000002], [Last of the Romantics (2007) -> Romance] 
+
+  path: 1[1513981 -> 2179735 -> 1880362 -> 2452748 -> 1763891], [Last of the Romantics (2007) -> Lange, Ted (I) -> Who Shot Mamba? (2009) -> Streaty, Tia -> The Conflict of Ms. Boston (2010)] 
+
+  path: 2[1513981 -> 2317122 -> 1330432 -> 2415326 -> 1555922], [Last of the Romantics (2007) -> Daniel, Brittany -> Dirty (2005) -> Palmier, Marina (I) -> Marriage California Style (2006)] 
+
+srcNodes: [5000002, 1290249, 1555921]
+  path: 0[1221536 -> 5000002], [Au plus près du paradis (2002) -> Romance] 
+
+  path: 1[1221536 -> 2152943 -> 1781985 -> 2184051 -> 1290249], [Au plus près du paradis (2002) -> Jarsky, Joris -> The Incredible Hulk (2008) -> Lee, Stan (I) -> Conflict (2005/I)] 
+
+  path: 2[1221536 -> 2333272 -> 1309967 -> 2016590 -> 1555921], [Au plus près du paradis (2002) -> Fillières, Hélène -> De particulier à particulier (2006) -> Bahloul, Abdelkrim -> Marriage Blues (2011)] 
+
+srcNodes: [5000002, 1372482, 1216271]
+  path: 0[1654715 -> 5000002], [Pyaar Diwana Hota Hai (2002) -> Romance] 
+
+  path: 1[1654715 -> 2260188 -> 1822813 -> 2373274 -> 1372482], [Pyaar Diwana Hota Hai (2002) -> Puri, Om -> The Zookeeper (2001) -> Kooiman, Rianne -> Fatal Conflict (2000)] 
+
+  path: 2[1654715 -> 2260188 -> 1285932 -> 2415598 -> 1216271], [Pyaar Diwana Hota Hai (2002) -> Puri, Om -> Code 46 (2003) -> Panjabi, Archie -> Arranged Marriage (2002)] 
+
+srcNodes: [5000002, 8004353, 8026364]
+  path: 0[1699907 -> 5000002], [Shart: The Challenge (2004) -> Romance] 
+
+  path: 1[1699907 -> 2013539 -> 1227698 -> 8004353], [Shart: The Challenge (2004) -> Asrani -> Baghban (2003) -> adopted-son,devotion,disrespect,generation-conflict,holi,humiliation,orphan,raising-children,retirement,selfishness,valentine's-day,writing] 
+
+  path: 2[1699907 -> 2262772 -> 1684546 -> 8026364], [Shart: The Challenge (2004) -> Raj, Prakash -> Sankranthi (2005) -> hardship,jealousy,marriage] 
+
+srcNodes: [5000002, 8004353, 8012824]
+  path: 0[1698046 -> 5000002], [Shaadi Karke Phas Gaya Yaar (2006) -> Romance] 
+
+  path: 1[1698046 -> 2166640 -> 1227698 -> 8004353], [Shaadi Karke Phas Gaya Yaar (2006) -> Khan, Salman (I) -> Baghban (2003) -> adopted-son,devotion,disrespect,generation-conflict,holi,humiliation,orphan,raising-children,retirement,selfishness,valentine's-day,writing] 
+
+  path: 2[1698046 -> 2376500 -> 1398247 -> 8012824], [Shaadi Karke Phas Gaya Yaar (2006) -> Lagoo, Reema -> Gho Mala Asala Hawa (2009) -> marriage,mumbai-india] 
+
+srcNodes: [5000004, 1290249, 8006626]
+  path: 0[1540985 -> 5000004], [Love and Mary (2007) -> Comedy,Romance] 
+
+  path: 1[1540985 -> 2120623 -> 1666666 -> 2215276 -> 1290249], [Love and Mary (2007) -> Gourley, Benjamin -> Repo (2010) -> Mewes, Jason -> Conflict (2005/I)] 
+
+  path: 2[1540985 -> 2355238 -> 1828571 -> 8006626], [Love and Mary (2007) -> Hoang, Junie -> Till Death Do Us Part (2007/II) -> marriage] 
+
+srcNodes: [5000000, 1290249, 8006626]
+  path: 0[1706542 -> 5000000], [Silk (2007/I) -> Romance,Drama] 
+
+  path: 1[1706542 -> 2220336 -> 1721085 -> 2184051 -> 1290249], [Silk (2007/I) -> Molina, Alfred -> Spider-Man 2 (2004) -> Lee, Stan (I) -> Conflict (2005/I)] 
+
+  path: 2[1706542 -> 2039713 -> 1270865 -> 8006626], [Silk (2007/I) -> Brooks, Alexander -> Casomai (2002) -> marriage] 
+
+srcNodes: [5001435, 1290249, 8006626]
+  path: 0[1218822 -> 5001435], [Aspects of Love (2005) -> Romance,Musical] 
+
+  path: 1[1218822 -> 2100976 -> 1235152 -> 2062412 -> 1290249], [Aspects of Love (2005) -> Finney, Albert -> Before the Devil Knows You're Dead (2007) -> Colletti, Bob -> Conflict (2005/I)] 
+
+  path: 2[1218822 -> 2431424 -> 1270865 -> 8006626], [Aspects of Love (2005) -> Rocca, Stefania -> Casomai (2002) -> marriage] 
+
+srcNodes: [5000001, 1290249, 8006626]
+  path: 0[1267951 -> 5000001], [Caos calmo (2008) -> Drama,Romance] 
+
+  path: 1[1267951 -> 2255374 -> 1511234 -> 2253603 -> 1290249], [Caos calmo (2008) -> Podalydès, Denis -> Laissez-passer (2002) -> Pigott-Smith, Tim -> Conflict (2005/I)] 
+
+  path: 2[1267951 -> 2381393 -> 1270865 -> 8006626], [Caos calmo (2008) -> Lepore, Tatiana -> Casomai (2002) -> marriage] 
+
+srcNodes: [5000002, 1290249, 8001788]
+  path: 0[1828991 -> 5000002], [Time Pass (2005) -> Romance] 
+
+  path: 1[1828991 -> 2308866 -> 1234927 -> 2277053 -> 1290249], [Time Pass (2005) -> Chopra, Sherlyn -> Beeper (2002) -> Adams, Joey Lauren -> Conflict (2005/I)] 
+
+  path: 2[1828991 -> 2149147 -> 1145419 -> 8001788], [Time Pass (2005) -> Irani, Adi -> "Yahan Mein Ghar Ghar Kheli" (2009) -> family-relationships,father-son-relationship,husband-wife-relationship,love,marriage] 
+
+-----------------------------------------
+ResultDestNodes: [1602901, 1690596, 2393659, 1713162, 1504253, 1513981, 1221536, 1654715, 1699907, 1698046, 1540985, 1706542, 1218822, 1267951, 1828991]
+ResultRelevs: [8.16293716430664, 7.177361488342285, 7.061318397521973, 7.050008773803711, 6.86007833480835, 6.860077857971191, 6.860077857971191, 6.860073566436768, 6.766384601593018, 6.766382694244385, 6.73185920715332, 6.73185920715332, 6.7318572998046875, 6.731856346130371, 6.688788414001465]
+AvgResultRelev: 6.936061414082845
+AvgResultDissimilarity: 0.7174603174603172
+Num of entries retrieved from the KNLists: 11979
+Num of entries retrieved from NKMaps: 21713
+Num of answer trees explored: 8730
+Num of states created: 643296
+Num of states explored: 641583
+Num of heuristic search performed: 25
+
+Div Top-k Search by Astar1nc_ap_new, k=15
+[romance, conflict, marriage]
+srcNodes: [5000002, 1290249, 8012626]
+  path: 0[1602901 -> 5000002], [Nowheresville (2000) -> Romance] 
+
+  path: 1[1602901 -> 2193016 -> 1582333 -> 2215276 -> 1290249], [Nowheresville (2000) -> Lubatti, Henri -> My Big Fat Independent Movie (2005) -> Mewes, Jason -> Conflict (2005/I)] 
+
+  path: 2[1602901 -> 8012626], [Nowheresville (2000) -> independent-film,marriage-proposal] 
+
+srcNodes: [5000002, 1372482, 8035599]
+  path: 0[1690596 -> 5000002], [Scusa ma ti chiamo amore (2008) -> Romance] 
+
+  path: 1[1690596 -> 2035679 -> 1188310 -> 2100559 -> 1372482], [Scusa ma ti chiamo amore (2008) -> Bova, Raoul -> AVP: Alien vs. Predator (2004) -> Filipensky, Jan Pavel -> Fatal Conflict (2000)] 
+
+  path: 2[1690596 -> 2390626 -> 1866505 -> 8035599], [Scusa ma ti chiamo amore (2008) -> Marengo, Gisella -> Voce del verbo amore (2007) -> family-relationships,marriage,sex] 
+
+srcNodes: [5000002, 1290259, 8006626]
+  path: 0[2393659 -> 1360643 -> 5000002], [Maura, Carmen -> Entre vivir y soñar (2004) -> Romance] 
+
+  path: 1[2393659 -> 1386748 -> 2014958 -> 1290259], [Maura, Carmen -> Free Zone (2005) -> Avni, Aki -> Conflict in the Middle Table (2008)] 
+
+  path: 2[2393659 -> 1219266 -> 2316144 -> 1270865 -> 8006626], [Maura, Carmen -> Assassini dei giorni di festa (2002) -> D'Amario, Sara -> Casomai (2002) -> marriage] 
+
+srcNodes: [5000002, 8017189, 1555914]
+  path: 0[1713162 -> 5000002], [Snapshots (2002/I) -> Romance] 
+
+  path: 1[1713162 -> 2145863 -> 1485756 -> 8017189], [Snapshots (2002/I) -> Hulst, Kees -> Klem in de draaideur (2003) -> based-on-book,political,political-conflict] 
+
+  path: 2[1713162 -> 2215483 -> 1337780 -> 2429861 -> 1555914], [Snapshots (2002/I) -> Meyers, Josh (I) -> Down (2001) -> Riemer, Hanneke -> Marriage (2005/II)] 
+
+srcNodes: [5000002, 1763891, 1792188]
+  path: 0[1504253 -> 5000002], [La milonga (2008) -> Romance] 
+
+  path: 1[1504253 -> 2434570 -> 1234867 -> 2377359 -> 1763891], [La milonga (2008) -> Ruiz, Angie -> Bee Season (2005) -> Landry, Shaun (I) -> The Conflict of Ms. Boston (2010)] 
+
+  path: 2[1504253 -> 2221630 -> 1444379 -> 2293368 -> 1792188], [La milonga (2008) -> Monzon, Christian -> If I Had Known I Was a Genius (2007) -> Bjorlin, Nadia -> The Marriage Undone (2002)] 
+
+srcNodes: [5000002, 1763891, 1555922]
+  path: 0[1513981 -> 5000002], [Last of the Romantics (2007) -> Romance] 
+
+  path: 1[1513981 -> 2179735 -> 1880362 -> 2452748 -> 1763891], [Last of the Romantics (2007) -> Lange, Ted (I) -> Who Shot Mamba? (2009) -> Streaty, Tia -> The Conflict of Ms. Boston (2010)] 
+
+  path: 2[1513981 -> 2317122 -> 1330432 -> 2415326 -> 1555922], [Last of the Romantics (2007) -> Daniel, Brittany -> Dirty (2005) -> Palmier, Marina (I) -> Marriage California Style (2006)] 
+
+srcNodes: [5000002, 1290249, 1555921]
+  path: 0[1221536 -> 5000002], [Au plus près du paradis (2002) -> Romance] 
+
+  path: 1[1221536 -> 2152943 -> 1781985 -> 2184051 -> 1290249], [Au plus près du paradis (2002) -> Jarsky, Joris -> The Incredible Hulk (2008) -> Lee, Stan (I) -> Conflict (2005/I)] 
+
+  path: 2[1221536 -> 2333272 -> 1309967 -> 2016590 -> 1555921], [Au plus près du paradis (2002) -> Fillières, Hélène -> De particulier à particulier (2006) -> Bahloul, Abdelkrim -> Marriage Blues (2011)] 
+
+srcNodes: [5000002, 1372482, 1216271]
+  path: 0[1654715 -> 5000002], [Pyaar Diwana Hota Hai (2002) -> Romance] 
+
+  path: 1[1654715 -> 2260188 -> 1822813 -> 2373274 -> 1372482], [Pyaar Diwana Hota Hai (2002) -> Puri, Om -> The Zookeeper (2001) -> Kooiman, Rianne -> Fatal Conflict (2000)] 
+
+  path: 2[1654715 -> 2260188 -> 1285932 -> 2415598 -> 1216271], [Pyaar Diwana Hota Hai (2002) -> Puri, Om -> Code 46 (2003) -> Panjabi, Archie -> Arranged Marriage (2002)] 
+
+srcNodes: [5000002, 8004353, 8026364]
+  path: 0[1699907 -> 5000002], [Shart: The Challenge (2004) -> Romance] 
+
+  path: 1[1699907 -> 2013539 -> 1227698 -> 8004353], [Shart: The Challenge (2004) -> Asrani -> Baghban (2003) -> adopted-son,devotion,disrespect,generation-conflict,holi,humiliation,orphan,raising-children,retirement,selfishness,valentine's-day,writing] 
+
+  path: 2[1699907 -> 2262772 -> 1684546 -> 8026364], [Shart: The Challenge (2004) -> Raj, Prakash -> Sankranthi (2005) -> hardship,jealousy,marriage] 
+
+srcNodes: [5000002, 8004353, 8012824]
+  path: 0[1698046 -> 5000002], [Shaadi Karke Phas Gaya Yaar (2006) -> Romance] 
+
+  path: 1[1698046 -> 2166640 -> 1227698 -> 8004353], [Shaadi Karke Phas Gaya Yaar (2006) -> Khan, Salman (I) -> Baghban (2003) -> adopted-son,devotion,disrespect,generation-conflict,holi,humiliation,orphan,raising-children,retirement,selfishness,valentine's-day,writing] 
+
+  path: 2[1698046 -> 2376500 -> 1398247 -> 8012824], [Shaadi Karke Phas Gaya Yaar (2006) -> Lagoo, Reema -> Gho Mala Asala Hawa (2009) -> marriage,mumbai-india] 
+
+srcNodes: [5000004, 1290249, 8006626]
+  path: 0[1540985 -> 5000004], [Love and Mary (2007) -> Comedy,Romance] 
+
+  path: 1[1540985 -> 2120623 -> 1666666 -> 2215276 -> 1290249], [Love and Mary (2007) -> Gourley, Benjamin -> Repo (2010) -> Mewes, Jason -> Conflict (2005/I)] 
+
+  path: 2[1540985 -> 2355238 -> 1828571 -> 8006626], [Love and Mary (2007) -> Hoang, Junie -> Till Death Do Us Part (2007/II) -> marriage] 
+
+srcNodes: [5000000, 1290249, 8006626]
+  path: 0[1706542 -> 5000000], [Silk (2007/I) -> Romance,Drama] 
+
+  path: 1[1706542 -> 2220336 -> 1721085 -> 2184051 -> 1290249], [Silk (2007/I) -> Molina, Alfred -> Spider-Man 2 (2004) -> Lee, Stan (I) -> Conflict (2005/I)] 
+
+  path: 2[1706542 -> 2039713 -> 1270865 -> 8006626], [Silk (2007/I) -> Brooks, Alexander -> Casomai (2002) -> marriage] 
+
+srcNodes: [5001435, 1290249, 8006626]
+  path: 0[1218822 -> 5001435], [Aspects of Love (2005) -> Romance,Musical] 
+
+  path: 1[1218822 -> 2100976 -> 1235152 -> 2062412 -> 1290249], [Aspects of Love (2005) -> Finney, Albert -> Before the Devil Knows You're Dead (2007) -> Colletti, Bob -> Conflict (2005/I)] 
+
+  path: 2[1218822 -> 2431424 -> 1270865 -> 8006626], [Aspects of Love (2005) -> Rocca, Stefania -> Casomai (2002) -> marriage] 
+
+srcNodes: [5000001, 1290249, 8006626]
+  path: 0[1267951 -> 5000001], [Caos calmo (2008) -> Drama,Romance] 
+
+  path: 1[1267951 -> 2255374 -> 1511234 -> 2253603 -> 1290249], [Caos calmo (2008) -> Podalydès, Denis -> Laissez-passer (2002) -> Pigott-Smith, Tim -> Conflict (2005/I)] 
+
+  path: 2[1267951 -> 2381393 -> 1270865 -> 8006626], [Caos calmo (2008) -> Lepore, Tatiana -> Casomai (2002) -> marriage] 
+
+srcNodes: [5000002, 1290249, 8001788]
+  path: 0[1828991 -> 5000002], [Time Pass (2005) -> Romance] 
+
+  path: 1[1828991 -> 2308866 -> 1234927 -> 2277053 -> 1290249], [Time Pass (2005) -> Chopra, Sherlyn -> Beeper (2002) -> Adams, Joey Lauren -> Conflict (2005/I)] 
+
+  path: 2[1828991 -> 2149147 -> 1145419 -> 8001788], [Time Pass (2005) -> Irani, Adi -> "Yahan Mein Ghar Ghar Kheli" (2009) -> family-relationships,father-son-relationship,husband-wife-relationship,love,marriage] 
+
+-----------------------------------------
+ResultDestNodes: [1602901, 1690596, 2393659, 1713162, 1504253, 1513981, 1221536, 1654715, 1699907, 1698046, 1540985, 1706542, 1218822, 1267951, 1828991]
+ResultRelevs: [8.16293716430664, 7.177361488342285, 7.061318397521973, 7.050008773803711, 6.86007833480835, 6.860077857971191, 6.860077857971191, 6.860073566436768, 6.766384601593018, 6.766382694244385, 6.73185920715332, 6.73185920715332, 6.7318572998046875, 6.731856346130371, 6.688788414001465]
+AvgResultRelev: 6.936061414082845
+AvgResultDissimilarity: 0.7174603174603172
+Num of entries retrieved from the KNLists: 11979
+Num of entries retrieved from NKMaps: 21713
+Num of answer trees explored: 8730
+Num of states created: 637
+Num of states explored: 192
+Num of heuristic search performed: 3
+

@@ -1,0 +1,27 @@
+query: [sf, time, travel]
+Top-k Search by Blink-BDB, k=4
+
+Div Top-k Search by Exhustive4
+
+Div Top-k Search by Astar14
+
+Div Top-k Search by Astar24
+
+Top-k Search by Blink-BDB, k=8
+
+Div Top-k Search by Exhustive8
+
+Div Top-k Search by Astar18
+
+Div Top-k Search by Astar28
+
+Top-k Search by Blink-BDB, k=12
+
+Div Top-k Search by Exhustive12
+
+Div Top-k Search by Astar112
+
+Div Top-k Search by Astar212
+
+Top-k Search by Blink-BDB, k=16
+

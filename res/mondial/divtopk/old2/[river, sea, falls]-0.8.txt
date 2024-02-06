@@ -1,0 +1,282 @@
+Top-k Search by Blink-BDB, k=7
+[river, sea, falls]
+srcNodes: [90151, 100012, 42951]
+  path: 0[90151 -> 90151], [Rio Grande -> Rio Grande]
+  path: 1[90151 -> 100012], [Rio Grande -> Gulf of Mexico] 
+
+  path: 2[90151 -> 31029 -> 42951], [Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [90142, 100012, 42532]
+  path: 0[90142 -> 90142], [Mississippi -> Mississippi]
+  path: 1[90142 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+  path: 2[90142 -> 31011 -> 90143 -> 31027 -> 42532], [Mississippi -> Missouri -> Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90150, 100021, 42951]
+  path: 0[90150 -> 90150], [Colorado -> Colorado]
+  path: 1[90150 -> 100021], [Colorado -> Pacific Ocean] 
+
+  path: 2[90150 -> 30992 -> 90151 -> 31029 -> 42951], [Colorado -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [90153, 100008, 42951]
+  path: 0[90153 -> 90153], [Rio San Juan -> Rio San Juan]
+  path: 1[90153 -> 100008], [Rio San Juan -> Caribbean Sea] 
+
+  path: 2[90153 -> 20121 -> 10001 -> 20118 -> 31029 -> 42951], [Rio San Juan -> Nicaragua -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [90143, 100015, 42532]
+  path: 0[90143 -> 90143], [Missouri -> Missouri]
+  path: 1[90143 -> 31013 -> 41497 -> 110006 -> 100015], [Missouri -> Nebraska -> Lincoln -> Great Britain Great Britain British Isles  -> Irish Sea] 
+
+  path: 2[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90165, 100003, 42951]
+  path: 0[90165 -> 90165], [Uruguay -> Uruguay]
+  path: 1[90165 -> 100003], [Uruguay -> Atlantic Ocean] 
+
+  path: 2[90165 -> 20174 -> 10001 -> 20118 -> 31029 -> 42951], [Uruguay -> Uruguay -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [90163, 100003, 42951]
+  path: 0[90163 -> 90163], [Parana -> Parana]
+  path: 1[90163 -> 100003], [Parana -> Atlantic Ocean] 
+
+  path: 2[90163 -> 20173 -> 10001 -> 20118 -> 31029 -> 42951], [Parana -> Paraguay -> America -> United States -> Texas -> Wichita Falls] 
+
+-----------------------------------------
+Num of top-k answers: 7
+ResultDestNodes: [90151, 90142, 90150, 90153, 90143, 90165, 90163]
+ResultRelevs: [5.180109977722168, 5.151172637939453, 5.151172637939453, 5.087751865386963, 5.067884922027588, 5.006211757659912, 5.006211757659912]
+AvgResultRelev: 5.092930793762207
+AvgResultDissimilarity: 0.8714285714285717
+Num of entries retrieved from the lists: 566
+Num of entries retrieved from NKMaps: 964
+Num of answer trees explored: 186
+
+Div Top-k Search by Astar17
+[river, sea, falls]
+srcNodes: [90151, 100012, 42951]
+  path: 0[90151 -> 90151], [Rio Grande -> Rio Grande]
+  path: 1[90151 -> 100012], [Rio Grande -> Gulf of Mexico] 
+
+  path: 2[90151 -> 31029 -> 42951], [Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [90150, 100021, 42951]
+  path: 0[90150 -> 90150], [Colorado -> Colorado]
+  path: 1[90150 -> 100021], [Colorado -> Pacific Ocean] 
+
+  path: 2[90150 -> 30992 -> 90151 -> 31029 -> 42951], [Colorado -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [90142, 100012, 42532]
+  path: 0[90142 -> 90142], [Mississippi -> Mississippi]
+  path: 1[90142 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+  path: 2[90142 -> 31011 -> 90143 -> 31027 -> 42532], [Mississippi -> Missouri -> Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90153, 100008, 42951]
+  path: 0[90153 -> 90153], [Rio San Juan -> Rio San Juan]
+  path: 1[90153 -> 100008], [Rio San Juan -> Caribbean Sea] 
+
+  path: 2[90153 -> 20121 -> 10001 -> 20118 -> 31029 -> 42951], [Rio San Juan -> Nicaragua -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [90143, 100015, 42532]
+  path: 0[90143 -> 90143], [Missouri -> Missouri]
+  path: 1[90143 -> 31013 -> 41497 -> 110006 -> 100015], [Missouri -> Nebraska -> Lincoln -> Great Britain Great Britain British Isles  -> Irish Sea] 
+
+  path: 2[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90163, 100003, 42951]
+  path: 0[90163 -> 90163], [Parana -> Parana]
+  path: 1[90163 -> 100003], [Parana -> Atlantic Ocean] 
+
+  path: 2[90163 -> 20173 -> 10001 -> 20118 -> 31029 -> 42951], [Parana -> Paraguay -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [90165, 100003, 42951]
+  path: 0[90165 -> 90165], [Uruguay -> Uruguay]
+  path: 1[90165 -> 100003], [Uruguay -> Atlantic Ocean] 
+
+  path: 2[90165 -> 20174 -> 10001 -> 20118 -> 31029 -> 42951], [Uruguay -> Uruguay -> America -> United States -> Texas -> Wichita Falls] 
+
+-----------------------------------------
+ResultDestNodes: [90151, 90150, 90142, 90153, 90143, 90163, 90165]
+ResultRelevs: [5.180109977722168, 5.151172637939453, 5.151172637939453, 5.087751865386963, 5.067884922027588, 5.006211757659912, 5.006211757659912]
+AvgResultRelev: 5.092930793762207
+AvgResultDissimilarity: 0.8714285492897034
+Num of entries retrieved from the KNLists: 566
+Num of entries retrieved from NKMaps: 964
+Num of answer trees explored: 186
+Num of states created: 65
+Num of states explored: 16
+Num of heuristic search performed: 2
+Max Num of answer tree sets in Q[]: 28
+
+Div Top-k Search by Astar1m7
+[river, sea, falls]
+srcNodes: [90151, 100012, 42951]
+  path: 0[90151 -> 90151], [Rio Grande -> Rio Grande]
+  path: 1[90151 -> 100012], [Rio Grande -> Gulf of Mexico] 
+
+  path: 2[90151 -> 31029 -> 42951], [Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [90150, 100021, 42951]
+  path: 0[90150 -> 90150], [Colorado -> Colorado]
+  path: 1[90150 -> 100021], [Colorado -> Pacific Ocean] 
+
+  path: 2[90150 -> 30992 -> 90151 -> 31029 -> 42951], [Colorado -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [90142, 100012, 42532]
+  path: 0[90142 -> 90142], [Mississippi -> Mississippi]
+  path: 1[90142 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+  path: 2[90142 -> 31011 -> 90143 -> 31027 -> 42532], [Mississippi -> Missouri -> Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90153, 100008, 42951]
+  path: 0[90153 -> 90153], [Rio San Juan -> Rio San Juan]
+  path: 1[90153 -> 100008], [Rio San Juan -> Caribbean Sea] 
+
+  path: 2[90153 -> 20121 -> 10001 -> 20118 -> 31029 -> 42951], [Rio San Juan -> Nicaragua -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [90143, 100015, 42532]
+  path: 0[90143 -> 90143], [Missouri -> Missouri]
+  path: 1[90143 -> 31013 -> 41497 -> 110006 -> 100015], [Missouri -> Nebraska -> Lincoln -> Great Britain Great Britain British Isles  -> Irish Sea] 
+
+  path: 2[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90163, 100003, 42951]
+  path: 0[90163 -> 90163], [Parana -> Parana]
+  path: 1[90163 -> 100003], [Parana -> Atlantic Ocean] 
+
+  path: 2[90163 -> 20173 -> 10001 -> 20118 -> 31029 -> 42951], [Parana -> Paraguay -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [90165, 100003, 42951]
+  path: 0[90165 -> 90165], [Uruguay -> Uruguay]
+  path: 1[90165 -> 100003], [Uruguay -> Atlantic Ocean] 
+
+  path: 2[90165 -> 20174 -> 10001 -> 20118 -> 31029 -> 42951], [Uruguay -> Uruguay -> America -> United States -> Texas -> Wichita Falls] 
+
+-----------------------------------------
+ResultDestNodes: [90151, 90150, 90142, 90153, 90143, 90163, 90165]
+ResultRelevs: [5.180109977722168, 5.151172637939453, 5.151172637939453, 5.087751865386963, 5.067884922027588, 5.006211757659912, 5.006211757659912]
+AvgResultRelev: 5.092930793762207
+AvgResultDissimilarity: 0.8714285492897034
+Num of entries retrieved from the KNLists: 566
+Num of entries retrieved from NKMaps: 964
+Num of answer trees explored: 186
+Num of states created: 29
+Num of states explored: 9
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 21
+
+Div Top-k Search by Astar27
+[river, sea, falls]
+srcNodes: [90151, 100012, 42951]
+  path: 0[90151 -> 90151], [Rio Grande -> Rio Grande]
+  path: 1[90151 -> 100012], [Rio Grande -> Gulf of Mexico] 
+
+  path: 2[90151 -> 31029 -> 42951], [Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [90150, 100021, 42951]
+  path: 0[90150 -> 90150], [Colorado -> Colorado]
+  path: 1[90150 -> 100021], [Colorado -> Pacific Ocean] 
+
+  path: 2[90150 -> 30992 -> 90151 -> 31029 -> 42951], [Colorado -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [90142, 100012, 42532]
+  path: 0[90142 -> 90142], [Mississippi -> Mississippi]
+  path: 1[90142 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+  path: 2[90142 -> 31011 -> 90143 -> 31027 -> 42532], [Mississippi -> Missouri -> Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90153, 100008, 42951]
+  path: 0[90153 -> 90153], [Rio San Juan -> Rio San Juan]
+  path: 1[90153 -> 100008], [Rio San Juan -> Caribbean Sea] 
+
+  path: 2[90153 -> 20121 -> 10001 -> 20118 -> 31029 -> 42951], [Rio San Juan -> Nicaragua -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [90143, 100015, 42532]
+  path: 0[90143 -> 90143], [Missouri -> Missouri]
+  path: 1[90143 -> 31013 -> 41497 -> 110006 -> 100015], [Missouri -> Nebraska -> Lincoln -> Great Britain Great Britain British Isles  -> Irish Sea] 
+
+  path: 2[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90163, 100003, 42951]
+  path: 0[90163 -> 90163], [Parana -> Parana]
+  path: 1[90163 -> 100003], [Parana -> Atlantic Ocean] 
+
+  path: 2[90163 -> 20173 -> 10001 -> 20118 -> 31029 -> 42951], [Parana -> Paraguay -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [90165, 100003, 42951]
+  path: 0[90165 -> 90165], [Uruguay -> Uruguay]
+  path: 1[90165 -> 100003], [Uruguay -> Atlantic Ocean] 
+
+  path: 2[90165 -> 20174 -> 10001 -> 20118 -> 31029 -> 42951], [Uruguay -> Uruguay -> America -> United States -> Texas -> Wichita Falls] 
+
+-----------------------------------------
+ResultDestNodes: [90151, 90150, 90142, 90153, 90143, 90163, 90165]
+ResultRelevs: [5.180109977722168, 5.151172637939453, 5.151172637939453, 5.087751865386963, 5.067884922027588, 5.006211757659912, 5.006211757659912]
+AvgResultRelev: 5.092930793762207
+AvgResultDissimilarity: 0.8714285492897034
+Num of entries retrieved from the KNLists: 566
+Num of entries retrieved from NKMaps: 964
+Num of answer trees explored: 186
+Num of states created: 65
+Num of states explored: 16
+Num of heuristic search performed: 2
+Max Num of answer tree sets in Q[]: 28
+
+Div Top-k Search by Astar2m7
+[river, sea, falls]
+srcNodes: [90151, 100012, 42951]
+  path: 0[90151 -> 90151], [Rio Grande -> Rio Grande]
+  path: 1[90151 -> 100012], [Rio Grande -> Gulf of Mexico] 
+
+  path: 2[90151 -> 31029 -> 42951], [Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [90150, 100021, 42951]
+  path: 0[90150 -> 90150], [Colorado -> Colorado]
+  path: 1[90150 -> 100021], [Colorado -> Pacific Ocean] 
+
+  path: 2[90150 -> 30992 -> 90151 -> 31029 -> 42951], [Colorado -> Colorado -> Rio Grande -> Texas -> Wichita Falls] 
+
+srcNodes: [90142, 100012, 42532]
+  path: 0[90142 -> 90142], [Mississippi -> Mississippi]
+  path: 1[90142 -> 100012], [Mississippi -> Gulf of Mexico] 
+
+  path: 2[90142 -> 31011 -> 90143 -> 31027 -> 42532], [Mississippi -> Missouri -> Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90153, 100008, 42951]
+  path: 0[90153 -> 90153], [Rio San Juan -> Rio San Juan]
+  path: 1[90153 -> 100008], [Rio San Juan -> Caribbean Sea] 
+
+  path: 2[90153 -> 20121 -> 10001 -> 20118 -> 31029 -> 42951], [Rio San Juan -> Nicaragua -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [90143, 100015, 42532]
+  path: 0[90143 -> 90143], [Missouri -> Missouri]
+  path: 1[90143 -> 31013 -> 41497 -> 110006 -> 100015], [Missouri -> Nebraska -> Lincoln -> Great Britain Great Britain British Isles  -> Irish Sea] 
+
+  path: 2[90143 -> 31027 -> 42532], [Missouri -> South Dakota -> Sioux Falls] 
+
+srcNodes: [90163, 100003, 42951]
+  path: 0[90163 -> 90163], [Parana -> Parana]
+  path: 1[90163 -> 100003], [Parana -> Atlantic Ocean] 
+
+  path: 2[90163 -> 20173 -> 10001 -> 20118 -> 31029 -> 42951], [Parana -> Paraguay -> America -> United States -> Texas -> Wichita Falls] 
+
+srcNodes: [90165, 100003, 42951]
+  path: 0[90165 -> 90165], [Uruguay -> Uruguay]
+  path: 1[90165 -> 100003], [Uruguay -> Atlantic Ocean] 
+
+  path: 2[90165 -> 20174 -> 10001 -> 20118 -> 31029 -> 42951], [Uruguay -> Uruguay -> America -> United States -> Texas -> Wichita Falls] 
+
+-----------------------------------------
+ResultDestNodes: [90151, 90150, 90142, 90153, 90143, 90163, 90165]
+ResultRelevs: [5.180109977722168, 5.151172637939453, 5.151172637939453, 5.087751865386963, 5.067884922027588, 5.006211757659912, 5.006211757659912]
+AvgResultRelev: 5.092930793762207
+AvgResultDissimilarity: 0.8714285492897034
+Num of entries retrieved from the KNLists: 566
+Num of entries retrieved from NKMaps: 964
+Num of answer trees explored: 186
+Num of states created: 29
+Num of states explored: 9
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 0
+

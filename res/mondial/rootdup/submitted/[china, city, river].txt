@@ -1,0 +1,804 @@
+Blink Search Using BDB 10
+[china, city, river]
+srcNodes: [20053, 40499, 90115]
+  path: 0[20053 -> 20053], [China -> China]
+  path: 1[20053 -> 30642 -> 40499], [China -> Hunan -> Changsha] 
+
+  path: 2[20053 -> 30639 -> 90115], [China -> Heilongjiang -> Argun] 
+
+srcNodes: [100029, 40219, 90123]
+  path: 0[90123 -> 100029], [Mekong -> South China Sea] 
+
+  path: 1[90123 -> 20070 -> 40219], [Mekong -> Thailand -> Bangkok] 
+
+  path: 2[90123 -> 90123], [Mekong -> Mekong]
+srcNodes: [100009, 40499, 90122]
+  path: 0[90122 -> 100009], [Jangtse -> East China Sea] 
+
+  path: 1[90122 -> 30642 -> 40499], [Jangtse -> Hunan -> Changsha] 
+
+  path: 2[90122 -> 90122], [Jangtse -> Jangtse]
+srcNodes: [100029, 40574, 90129]
+  path: 0[90129 -> 20086 -> 100029], [Asahan -> Indonesia -> South China Sea] 
+
+  path: 1[90129 -> 20086 -> 40574], [Asahan -> Indonesia -> Cirebon] 
+
+  path: 2[90129 -> 90129], [Asahan -> Asahan]
+srcNodes: [20053, 40347, 90126]
+  path: 0[90126 -> 20063 -> 10002 -> 20053], [Ganges -> Bangladesh -> Asia -> China] 
+
+  path: 1[90126 -> 30732 -> 40347], [Ganges -> Bihar -> Bokara Steel City] 
+
+  path: 2[90126 -> 90126], [Ganges -> Ganges]
+srcNodes: [20053, 42203, 90120]
+  path: 0[90120 -> 20052 -> 10002 -> 20053], [Pjandsh -> Afghanistan -> Asia -> China] 
+
+  path: 1[90120 -> 30689 -> 42203], [Pjandsh -> Khatlon -> Qurghonteppa] 
+
+  path: 2[90120 -> 90120], [Pjandsh -> Pjandsh]
+srcNodes: [20053, 40507, 90119]
+  path: 0[90119 -> 20052 -> 10002 -> 20053], [Amudarja -> Afghanistan -> Asia -> China] 
+
+  path: 1[90119 -> 30695 -> 40507], [Amudarja -> Leban -> Charjew] 
+
+  path: 2[90119 -> 90119], [Amudarja -> Amudarja]
+srcNodes: [20053, 40548, 90128]
+  path: 0[90128 -> 20055 -> 10002 -> 20053], [Indus -> Pakistan -> Asia -> China] 
+
+  path: 1[90128 -> 20055 -> 40548], [Indus -> Pakistan -> Chiniot] 
+
+  path: 2[90128 -> 90128], [Indus -> Indus]
+srcNodes: [20053, 40555, 90127]
+  path: 0[90127 -> 20063 -> 10002 -> 20053], [Brahmaputra -> Bangladesh -> Asia -> China] 
+
+  path: 1[90127 -> 20063 -> 40555], [Brahmaputra -> Bangladesh -> Chittagong] 
+
+  path: 2[90127 -> 90127], [Brahmaputra -> Brahmaputra]
+srcNodes: [20053, 40551, 90118]
+  path: 0[90118 -> 20075 -> 10002 -> 20053], [Naryn -> Kyrgyzstan -> Asia -> China] 
+
+  path: 1[90118 -> 30708 -> 40551], [Naryn -> Toshkent -> Chirchiq] 
+
+  path: 2[90118 -> 90118], [Naryn -> Naryn]
+-----------------------------------------
+ResultDestNodes: [20053, 90123, 90122, 90129, 90126, 90120, 90119, 90128, 90127, 90118]
+ResultRelevs: [6.286314010620117, 5.1209540367126465, 5.1209540367126465, 4.453913688659668, 4.418520927429199, 4.3705339431762695, 4.3705339431762695, 4.3705339431762695, 4.3705339431762695, 4.3705339431762695]
+Num of top-k answers: 10
+Num of non-reduced answers: 0
+Num of duplicate answers: 0
+Num of non-redundant answers: 10
+Num of entries retrieved from the lists: 654
+Num of entries retrieved from NKMaps: 928
+
+Blink Search Using ConstRootDup10
+[china, city, river]
+srcNodes: [20053, 40499, 90127]
+  path: 0[20053 -> 20053], [China -> China]
+  path: 1[20053 -> 30642 -> 40499], [China -> Hunan -> Changsha] 
+
+  path: 2[20053 -> 30658 -> 90127], [China -> Tibet -> Brahmaputra] 
+
+srcNodes: [20053, 40499, 90115]
+  path: 0[20053 -> 20053], [China -> China]
+  path: 1[20053 -> 30642 -> 40499], [China -> Hunan -> Changsha] 
+
+  path: 2[20053 -> 30639 -> 90115], [China -> Heilongjiang -> Argun] 
+
+srcNodes: [20053, 40496, 90127]
+  path: 0[20053 -> 20053], [China -> China]
+  path: 1[20053 -> 30645 -> 40496], [China -> Jilin -> Changchun] 
+
+  path: 2[20053 -> 30658 -> 90127], [China -> Tibet -> Brahmaputra] 
+
+srcNodes: [20053, 40496, 90115]
+  path: 0[20053 -> 20053], [China -> China]
+  path: 1[20053 -> 30645 -> 40496], [China -> Jilin -> Changchun] 
+
+  path: 2[20053 -> 30639 -> 90115], [China -> Heilongjiang -> Argun] 
+
+srcNodes: [20053, 40091, 90115]
+  path: 0[20053 -> 20053], [China -> China]
+  path: 1[20053 -> 10002 -> 20090 -> 40091], [China -> Asia -> Jordan -> Amman] 
+
+  path: 2[20053 -> 30639 -> 90115], [China -> Heilongjiang -> Argun] 
+
+srcNodes: [100009, 40499, 90122]
+  path: 0[90122 -> 100009], [Jangtse -> East China Sea] 
+
+  path: 1[90122 -> 30642 -> 40499], [Jangtse -> Hunan -> Changsha] 
+
+  path: 2[90122 -> 90122], [Jangtse -> Jangtse]
+srcNodes: [100029, 40219, 90123]
+  path: 0[90123 -> 100029], [Mekong -> South China Sea] 
+
+  path: 1[90123 -> 20070 -> 40219], [Mekong -> Thailand -> Bangkok] 
+
+  path: 2[90123 -> 90123], [Mekong -> Mekong]
+srcNodes: [100029, 40574, 90129]
+  path: 0[90129 -> 20086 -> 100029], [Asahan -> Indonesia -> South China Sea] 
+
+  path: 1[90129 -> 20086 -> 40574], [Asahan -> Indonesia -> Cirebon] 
+
+  path: 2[90129 -> 90129], [Asahan -> Asahan]
+srcNodes: [20053, 40347, 90126]
+  path: 0[90126 -> 20063 -> 10002 -> 20053], [Ganges -> Bangladesh -> Asia -> China] 
+
+  path: 1[90126 -> 30732 -> 40347], [Ganges -> Bihar -> Bokara Steel City] 
+
+  path: 2[90126 -> 90126], [Ganges -> Ganges]
+srcNodes: [20053, 42203, 90120]
+  path: 0[90120 -> 20052 -> 10002 -> 20053], [Pjandsh -> Afghanistan -> Asia -> China] 
+
+  path: 1[90120 -> 30689 -> 42203], [Pjandsh -> Khatlon -> Qurghonteppa] 
+
+  path: 2[90120 -> 90120], [Pjandsh -> Pjandsh]
+-----------------------------------------
+ResultDestNodes: 
+20053, 20053, 20053, 20053, 20053, 90122, 90123, 90129, 90126, 90120, 
+ResultRelevs: 
+6.286314, 6.286314, 6.286314, 6.286314, 6.194996, 5.120954, 5.120954, 4.4539137, 4.418521, 4.370534, 
+Num of top-k answers: 10
+Num of duplicate answers: 0
+Num of duplicate roots in top-k answers: 4
+root duplication ratio: 0.44444445
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 654
+Num of entries retrieved from NKMaps: 2885
+Num of answer trees explored: 10624
+
+Blink Search Using BDB 20
+[china, city, river]
+srcNodes: [20053, 40499, 90115]
+  path: 0[20053 -> 20053], [China -> China]
+  path: 1[20053 -> 30642 -> 40499], [China -> Hunan -> Changsha] 
+
+  path: 2[20053 -> 30639 -> 90115], [China -> Heilongjiang -> Argun] 
+
+srcNodes: [100029, 40219, 90123]
+  path: 0[90123 -> 100029], [Mekong -> South China Sea] 
+
+  path: 1[90123 -> 20070 -> 40219], [Mekong -> Thailand -> Bangkok] 
+
+  path: 2[90123 -> 90123], [Mekong -> Mekong]
+srcNodes: [100009, 40499, 90122]
+  path: 0[90122 -> 100009], [Jangtse -> East China Sea] 
+
+  path: 1[90122 -> 30642 -> 40499], [Jangtse -> Hunan -> Changsha] 
+
+  path: 2[90122 -> 90122], [Jangtse -> Jangtse]
+srcNodes: [100029, 40574, 90129]
+  path: 0[90129 -> 20086 -> 100029], [Asahan -> Indonesia -> South China Sea] 
+
+  path: 1[90129 -> 20086 -> 40574], [Asahan -> Indonesia -> Cirebon] 
+
+  path: 2[90129 -> 90129], [Asahan -> Asahan]
+srcNodes: [20053, 40347, 90126]
+  path: 0[90126 -> 20063 -> 10002 -> 20053], [Ganges -> Bangladesh -> Asia -> China] 
+
+  path: 1[90126 -> 30732 -> 40347], [Ganges -> Bihar -> Bokara Steel City] 
+
+  path: 2[90126 -> 90126], [Ganges -> Ganges]
+srcNodes: [20053, 40602, 90085]
+  path: 0[90085 -> 20061 -> 10002 -> 20053], [Kura -> Azerbaijan -> Asia -> China] 
+
+  path: 1[90085 -> 30996 -> 40602], [Kura -> Georgia -> Columbus] 
+
+  path: 2[90085 -> 90085], [Kura -> Kura]
+srcNodes: [20053, 40653, 90088]
+  path: 0[90088 -> 20093 -> 10002 -> 20053], [Euphrat -> Syria -> Asia -> China] 
+
+  path: 1[90088 -> 20093 -> 40653], [Euphrat -> Syria -> Damascus] 
+
+  path: 2[90088 -> 90088], [Euphrat -> Euphrat]
+srcNodes: [20053, 40507, 90119]
+  path: 0[90119 -> 20052 -> 10002 -> 20053], [Amudarja -> Afghanistan -> Asia -> China] 
+
+  path: 1[90119 -> 30695 -> 40507], [Amudarja -> Leban -> Charjew] 
+
+  path: 2[90119 -> 90119], [Amudarja -> Amudarja]
+srcNodes: [20053, 42203, 90120]
+  path: 0[90120 -> 20052 -> 10002 -> 20053], [Pjandsh -> Afghanistan -> Asia -> China] 
+
+  path: 1[90120 -> 30689 -> 42203], [Pjandsh -> Khatlon -> Qurghonteppa] 
+
+  path: 2[90120 -> 90120], [Pjandsh -> Pjandsh]
+srcNodes: [20053, 40555, 90127]
+  path: 0[90127 -> 20063 -> 10002 -> 20053], [Brahmaputra -> Bangladesh -> Asia -> China] 
+
+  path: 1[90127 -> 20063 -> 40555], [Brahmaputra -> Bangladesh -> Chittagong] 
+
+  path: 2[90127 -> 90127], [Brahmaputra -> Brahmaputra]
+srcNodes: [20053, 40548, 90128]
+  path: 0[90128 -> 20055 -> 10002 -> 20053], [Indus -> Pakistan -> Asia -> China] 
+
+  path: 1[90128 -> 20055 -> 40548], [Indus -> Pakistan -> Chiniot] 
+
+  path: 2[90128 -> 90128], [Indus -> Indus]
+srcNodes: [20053, 40551, 90118]
+  path: 0[90118 -> 20075 -> 10002 -> 20053], [Naryn -> Kyrgyzstan -> Asia -> China] 
+
+  path: 1[90118 -> 30708 -> 40551], [Naryn -> Toshkent -> Chirchiq] 
+
+  path: 2[90118 -> 90118], [Naryn -> Naryn]
+srcNodes: [20053, 40647, 90087]
+  path: 0[90087 -> 20093 -> 10002 -> 20053], [Tigris -> Syria -> Asia -> China] 
+
+  path: 1[90087 -> 30862 -> 40647], [Tigris -> Dahuk -> Dahuk] 
+
+  path: 2[90087 -> 90087], [Tigris -> Tigris]
+srcNodes: [20053, 40653, 90084]
+  path: 0[90084 -> 20095 -> 10002 -> 20053], [Jordan -> West Bank -> Asia -> China] 
+
+  path: 1[90084 -> 20093 -> 40653], [Jordan -> Syria -> Damascus] 
+
+  path: 2[90084 -> 90084], [Jordan -> Jordan]
+srcNodes: [100009, 40539, 90121]
+  path: 0[90121 -> 30647 -> 90122 -> 100009], [Hwangho -> Qinghai -> Jangtse -> East China Sea] 
+
+  path: 1[90121 -> 30655 -> 40539], [Hwangho -> Nei Monggol -> Chifeng] 
+
+  path: 2[90121 -> 90121], [Hwangho -> Hwangho]
+srcNodes: [100029, 40194, 90125]
+  path: 0[90125 -> 30658 -> 90123 -> 100029], [Irawaddy -> Tibet -> Mekong -> South China Sea] 
+
+  path: 1[90125 -> 30718 -> 40194], [Irawaddy -> Bago -> Bago] 
+
+  path: 2[90125 -> 90125], [Irawaddy -> Irawaddy]
+srcNodes: [100029, 42692, 90124]
+  path: 0[90124 -> 30658 -> 90123 -> 100029], [Saluen -> Tibet -> Mekong -> South China Sea] 
+
+  path: 1[90124 -> 30728 -> 42692], [Saluen -> Shan -> Taunggyi] 
+
+  path: 2[90124 -> 90124], [Saluen -> Saluen]
+srcNodes: [20053, 40288, 90169]
+  path: 0[90169 -> 20215 -> 10000 -> 20085 -> 10002 -> 20053], [Niger -> Guinea -> Africa -> Egypt -> Asia -> China] 
+
+  path: 1[90169 -> 20197 -> 40288], [Niger -> Nigeria -> Benin City] 
+
+  path: 2[90169 -> 90169], [Niger -> Niger]
+srcNodes: [20053, 40288, 90171]
+  path: 0[90171 -> 20197 -> 10000 -> 20085 -> 10002 -> 20053], [Benue -> Nigeria -> Africa -> Egypt -> Asia -> China] 
+
+  path: 1[90171 -> 20197 -> 40288], [Benue -> Nigeria -> Benin City] 
+
+  path: 2[90171 -> 90171], [Benue -> Benue]
+srcNodes: [20053, 40209, 90170]
+  path: 0[90170 -> 20202 -> 10000 -> 20085 -> 10002 -> 20053], [Bani -> Cote dIvoire -> Africa -> Egypt -> Asia -> China] 
+
+  path: 1[90170 -> 20184 -> 40209], [Bani -> Mali -> Bamako] 
+
+  path: 2[90170 -> 90170], [Bani -> Bani]
+-----------------------------------------
+ResultDestNodes: [20053, 90123, 90122, 90129, 90126, 90085, 90088, 90119, 90120, 90127, 90128, 90118, 90087, 90084, 90121, 90125, 90124, 90169, 90171, 90170]
+ResultRelevs: [6.286314010620117, 5.1209540367126465, 5.1209540367126465, 4.453913688659668, 4.418520927429199, 4.3705339431762695, 4.3705339431762695, 4.3705339431762695, 4.3705339431762695, 4.3705339431762695, 4.3705339431762695, 4.3705339431762695, 4.3705339431762695, 4.3705339431762695, 4.120384216308594, 4.120384216308594, 4.120384216308594, 4.001612663269043, 4.001612663269043, 3.9536259174346924]
+Num of top-k answers: 20
+Num of non-reduced answers: 0
+Num of duplicate answers: 0
+Num of non-redundant answers: 20
+Num of entries retrieved from the lists: 692
+Num of entries retrieved from NKMaps: 977
+
+Blink Search Using ConstRootDup20
+[china, city, river]
+srcNodes: [20053, 40496, 90127]
+  path: 0[20053 -> 20053], [China -> China]
+  path: 1[20053 -> 30645 -> 40496], [China -> Jilin -> Changchun] 
+
+  path: 2[20053 -> 30658 -> 90127], [China -> Tibet -> Brahmaputra] 
+
+srcNodes: [20053, 40499, 90127]
+  path: 0[20053 -> 20053], [China -> China]
+  path: 1[20053 -> 30642 -> 40499], [China -> Hunan -> Changsha] 
+
+  path: 2[20053 -> 30658 -> 90127], [China -> Tibet -> Brahmaputra] 
+
+srcNodes: [20053, 40499, 90115]
+  path: 0[20053 -> 20053], [China -> China]
+  path: 1[20053 -> 30642 -> 40499], [China -> Hunan -> Changsha] 
+
+  path: 2[20053 -> 30639 -> 90115], [China -> Heilongjiang -> Argun] 
+
+srcNodes: [20053, 40496, 90115]
+  path: 0[20053 -> 20053], [China -> China]
+  path: 1[20053 -> 30645 -> 40496], [China -> Jilin -> Changchun] 
+
+  path: 2[20053 -> 30639 -> 90115], [China -> Heilongjiang -> Argun] 
+
+srcNodes: [20053, 40091, 90115]
+  path: 0[20053 -> 20053], [China -> China]
+  path: 1[20053 -> 10002 -> 20090 -> 40091], [China -> Asia -> Jordan -> Amman] 
+
+  path: 2[20053 -> 30639 -> 90115], [China -> Heilongjiang -> Argun] 
+
+srcNodes: [20053, 40091, 90127]
+  path: 0[20053 -> 20053], [China -> China]
+  path: 1[20053 -> 10002 -> 20090 -> 40091], [China -> Asia -> Jordan -> Amman] 
+
+  path: 2[20053 -> 30658 -> 90127], [China -> Tibet -> Brahmaputra] 
+
+srcNodes: [20053, 40347, 90115]
+  path: 0[20053 -> 20053], [China -> China]
+  path: 1[20053 -> 10002 -> 20065 -> 30732 -> 40347], [China -> Asia -> India -> Bihar -> Bokara Steel City] 
+
+  path: 2[20053 -> 30639 -> 90115], [China -> Heilongjiang -> Argun] 
+
+srcNodes: [20053, 40347, 90127]
+  path: 0[20053 -> 20053], [China -> China]
+  path: 1[20053 -> 10002 -> 20065 -> 30732 -> 40347], [China -> Asia -> India -> Bihar -> Bokara Steel City] 
+
+  path: 2[20053 -> 30658 -> 90127], [China -> Tibet -> Brahmaputra] 
+
+srcNodes: [20053, 40214, 90127]
+  path: 0[20053 -> 20053], [China -> China]
+  path: 1[20053 -> 10002 -> 20086 -> 40214], [China -> Asia -> Indonesia -> Bandar Lampung] 
+
+  path: 2[20053 -> 30658 -> 90127], [China -> Tibet -> Brahmaputra] 
+
+srcNodes: [20053, 40214, 90115]
+  path: 0[20053 -> 20053], [China -> China]
+  path: 1[20053 -> 10002 -> 20086 -> 40214], [China -> Asia -> Indonesia -> Bandar Lampung] 
+
+  path: 2[20053 -> 30639 -> 90115], [China -> Heilongjiang -> Argun] 
+
+srcNodes: [100029, 40219, 90123]
+  path: 0[90123 -> 100029], [Mekong -> South China Sea] 
+
+  path: 1[90123 -> 20070 -> 40219], [Mekong -> Thailand -> Bangkok] 
+
+  path: 2[90123 -> 90123], [Mekong -> Mekong]
+srcNodes: [100009, 40499, 90122]
+  path: 0[90122 -> 100009], [Jangtse -> East China Sea] 
+
+  path: 1[90122 -> 30642 -> 40499], [Jangtse -> Hunan -> Changsha] 
+
+  path: 2[90122 -> 90122], [Jangtse -> Jangtse]
+srcNodes: [100029, 40574, 90129]
+  path: 0[90129 -> 20086 -> 100029], [Asahan -> Indonesia -> South China Sea] 
+
+  path: 1[90129 -> 20086 -> 40574], [Asahan -> Indonesia -> Cirebon] 
+
+  path: 2[90129 -> 90129], [Asahan -> Asahan]
+srcNodes: [20053, 40347, 90126]
+  path: 0[90126 -> 20063 -> 10002 -> 20053], [Ganges -> Bangladesh -> Asia -> China] 
+
+  path: 1[90126 -> 30732 -> 40347], [Ganges -> Bihar -> Bokara Steel City] 
+
+  path: 2[90126 -> 90126], [Ganges -> Ganges]
+srcNodes: [20053, 42203, 90120]
+  path: 0[90120 -> 20052 -> 10002 -> 20053], [Pjandsh -> Afghanistan -> Asia -> China] 
+
+  path: 1[90120 -> 30689 -> 42203], [Pjandsh -> Khatlon -> Qurghonteppa] 
+
+  path: 2[90120 -> 90120], [Pjandsh -> Pjandsh]
+srcNodes: [20053, 40507, 90119]
+  path: 0[90119 -> 20052 -> 10002 -> 20053], [Amudarja -> Afghanistan -> Asia -> China] 
+
+  path: 1[90119 -> 30695 -> 40507], [Amudarja -> Leban -> Charjew] 
+
+  path: 2[90119 -> 90119], [Amudarja -> Amudarja]
+srcNodes: [20053, 40551, 90118]
+  path: 0[90118 -> 20075 -> 10002 -> 20053], [Naryn -> Kyrgyzstan -> Asia -> China] 
+
+  path: 1[90118 -> 30708 -> 40551], [Naryn -> Toshkent -> Chirchiq] 
+
+  path: 2[90118 -> 90118], [Naryn -> Naryn]
+srcNodes: [20053, 40555, 90127]
+  path: 0[90127 -> 20063 -> 10002 -> 20053], [Brahmaputra -> Bangladesh -> Asia -> China] 
+
+  path: 1[90127 -> 20063 -> 40555], [Brahmaputra -> Bangladesh -> Chittagong] 
+
+  path: 2[90127 -> 90127], [Brahmaputra -> Brahmaputra]
+srcNodes: [20053, 40548, 90128]
+  path: 0[90128 -> 20055 -> 10002 -> 20053], [Indus -> Pakistan -> Asia -> China] 
+
+  path: 1[90128 -> 20055 -> 40548], [Indus -> Pakistan -> Chiniot] 
+
+  path: 2[90128 -> 90128], [Indus -> Indus]
+srcNodes: [20053, 40653, 90088]
+  path: 0[90088 -> 20093 -> 10002 -> 20053], [Euphrat -> Syria -> Asia -> China] 
+
+  path: 1[90088 -> 20093 -> 40653], [Euphrat -> Syria -> Damascus] 
+
+  path: 2[90088 -> 90088], [Euphrat -> Euphrat]
+-----------------------------------------
+ResultDestNodes: 
+20053, 20053, 20053, 20053, 20053, 20053, 20053, 20053, 20053, 20053, 90123, 90122, 90129, 90126, 90120, 90119, 90118, 90127, 90128, 90088, 
+ResultRelevs: 
+6.286314, 6.286314, 6.286314, 6.286314, 6.194996, 6.194996, 6.1689973, 6.1689973, 6.140205, 6.140205, 5.120954, 5.120954, 4.4539137, 4.418521, 4.370534, 4.370534, 4.370534, 4.370534, 4.370534, 4.370534, 
+Num of top-k answers: 20
+Num of duplicate answers: 0
+Num of duplicate roots in top-k answers: 9
+root duplication ratio: 0.47368422
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 654
+Num of entries retrieved from NKMaps: 2885
+Num of answer trees explored: 10624
+
+Blink Search Using BDB 30
+[china, city, river]
+srcNodes: [20053, 40499, 90115]
+  path: 0[20053 -> 20053], [China -> China]
+  path: 1[20053 -> 30642 -> 40499], [China -> Hunan -> Changsha] 
+
+  path: 2[20053 -> 30639 -> 90115], [China -> Heilongjiang -> Argun] 
+
+srcNodes: [100029, 40219, 90123]
+  path: 0[90123 -> 100029], [Mekong -> South China Sea] 
+
+  path: 1[90123 -> 20070 -> 40219], [Mekong -> Thailand -> Bangkok] 
+
+  path: 2[90123 -> 90123], [Mekong -> Mekong]
+srcNodes: [100009, 40499, 90122]
+  path: 0[90122 -> 100009], [Jangtse -> East China Sea] 
+
+  path: 1[90122 -> 30642 -> 40499], [Jangtse -> Hunan -> Changsha] 
+
+  path: 2[90122 -> 90122], [Jangtse -> Jangtse]
+srcNodes: [100029, 40574, 90129]
+  path: 0[90129 -> 20086 -> 100029], [Asahan -> Indonesia -> South China Sea] 
+
+  path: 1[90129 -> 20086 -> 40574], [Asahan -> Indonesia -> Cirebon] 
+
+  path: 2[90129 -> 90129], [Asahan -> Asahan]
+srcNodes: [20053, 40347, 90126]
+  path: 0[90126 -> 20063 -> 10002 -> 20053], [Ganges -> Bangladesh -> Asia -> China] 
+
+  path: 1[90126 -> 30732 -> 40347], [Ganges -> Bihar -> Bokara Steel City] 
+
+  path: 2[90126 -> 90126], [Ganges -> Ganges]
+srcNodes: [20053, 40647, 90087]
+  path: 0[90087 -> 20093 -> 10002 -> 20053], [Tigris -> Syria -> Asia -> China] 
+
+  path: 1[90087 -> 30862 -> 40647], [Tigris -> Dahuk -> Dahuk] 
+
+  path: 2[90087 -> 90087], [Tigris -> Tigris]
+srcNodes: [20053, 42203, 90120]
+  path: 0[90120 -> 20052 -> 10002 -> 20053], [Pjandsh -> Afghanistan -> Asia -> China] 
+
+  path: 1[90120 -> 30689 -> 42203], [Pjandsh -> Khatlon -> Qurghonteppa] 
+
+  path: 2[90120 -> 90120], [Pjandsh -> Pjandsh]
+srcNodes: [20053, 40548, 90128]
+  path: 0[90128 -> 20055 -> 10002 -> 20053], [Indus -> Pakistan -> Asia -> China] 
+
+  path: 1[90128 -> 20055 -> 40548], [Indus -> Pakistan -> Chiniot] 
+
+  path: 2[90128 -> 90128], [Indus -> Indus]
+srcNodes: [20053, 40653, 90084]
+  path: 0[90084 -> 20095 -> 10002 -> 20053], [Jordan -> West Bank -> Asia -> China] 
+
+  path: 1[90084 -> 20093 -> 40653], [Jordan -> Syria -> Damascus] 
+
+  path: 2[90084 -> 90084], [Jordan -> Jordan]
+srcNodes: [20053, 40551, 90118]
+  path: 0[90118 -> 20075 -> 10002 -> 20053], [Naryn -> Kyrgyzstan -> Asia -> China] 
+
+  path: 1[90118 -> 30708 -> 40551], [Naryn -> Toshkent -> Chirchiq] 
+
+  path: 2[90118 -> 90118], [Naryn -> Naryn]
+srcNodes: [20053, 40602, 90085]
+  path: 0[90085 -> 20061 -> 10002 -> 20053], [Kura -> Azerbaijan -> Asia -> China] 
+
+  path: 1[90085 -> 30996 -> 40602], [Kura -> Georgia -> Columbus] 
+
+  path: 2[90085 -> 90085], [Kura -> Kura]
+srcNodes: [20053, 40507, 90119]
+  path: 0[90119 -> 20052 -> 10002 -> 20053], [Amudarja -> Afghanistan -> Asia -> China] 
+
+  path: 1[90119 -> 30695 -> 40507], [Amudarja -> Leban -> Charjew] 
+
+  path: 2[90119 -> 90119], [Amudarja -> Amudarja]
+srcNodes: [20053, 40555, 90127]
+  path: 0[90127 -> 20063 -> 10002 -> 20053], [Brahmaputra -> Bangladesh -> Asia -> China] 
+
+  path: 1[90127 -> 20063 -> 40555], [Brahmaputra -> Bangladesh -> Chittagong] 
+
+  path: 2[90127 -> 90127], [Brahmaputra -> Brahmaputra]
+srcNodes: [20053, 40653, 90088]
+  path: 0[90088 -> 20093 -> 10002 -> 20053], [Euphrat -> Syria -> Asia -> China] 
+
+  path: 1[90088 -> 20093 -> 40653], [Euphrat -> Syria -> Damascus] 
+
+  path: 2[90088 -> 90088], [Euphrat -> Euphrat]
+srcNodes: [100029, 42692, 90124]
+  path: 0[90124 -> 30658 -> 90123 -> 100029], [Saluen -> Tibet -> Mekong -> South China Sea] 
+
+  path: 1[90124 -> 30728 -> 42692], [Saluen -> Shan -> Taunggyi] 
+
+  path: 2[90124 -> 90124], [Saluen -> Saluen]
+srcNodes: [100029, 40194, 90125]
+  path: 0[90125 -> 30658 -> 90123 -> 100029], [Irawaddy -> Tibet -> Mekong -> South China Sea] 
+
+  path: 1[90125 -> 30718 -> 40194], [Irawaddy -> Bago -> Bago] 
+
+  path: 2[90125 -> 90125], [Irawaddy -> Irawaddy]
+srcNodes: [100009, 40539, 90121]
+  path: 0[90121 -> 30647 -> 90122 -> 100009], [Hwangho -> Qinghai -> Jangtse -> East China Sea] 
+
+  path: 1[90121 -> 30655 -> 40539], [Hwangho -> Nei Monggol -> Chifeng] 
+
+  path: 2[90121 -> 90121], [Hwangho -> Hwangho]
+srcNodes: [20053, 40288, 90171]
+  path: 0[90171 -> 20197 -> 10000 -> 20085 -> 10002 -> 20053], [Benue -> Nigeria -> Africa -> Egypt -> Asia -> China] 
+
+  path: 1[90171 -> 20197 -> 40288], [Benue -> Nigeria -> Benin City] 
+
+  path: 2[90171 -> 90171], [Benue -> Benue]
+srcNodes: [20053, 40288, 90169]
+  path: 0[90169 -> 20215 -> 10000 -> 20085 -> 10002 -> 20053], [Niger -> Guinea -> Africa -> Egypt -> Asia -> China] 
+
+  path: 1[90169 -> 20197 -> 40288], [Niger -> Nigeria -> Benin City] 
+
+  path: 2[90169 -> 90169], [Niger -> Niger]
+srcNodes: [20053, 40220, 90172]
+  path: 0[90172 -> 20209 -> 10000 -> 20085 -> 10002 -> 20053], [Schari -> Chad -> Africa -> Egypt -> Asia -> China] 
+
+  path: 1[90172 -> 20208 -> 40220], [Schari -> Central African Republic -> Bangui] 
+
+  path: 2[90172 -> 90172], [Schari -> Schari]
+srcNodes: [20053, 40608, 90167]
+  path: 0[90167 -> 20215 -> 10000 -> 20085 -> 10002 -> 20053], [Senegal -> Guinea -> Africa -> Egypt -> Asia -> China] 
+
+  path: 1[90167 -> 20215 -> 40608], [Senegal -> Guinea -> Conakry] 
+
+  path: 2[90167 -> 90167], [Senegal -> Senegal]
+srcNodes: [20053, 40216, 90188]
+  path: 0[90188 -> 20191 -> 10000 -> 20085 -> 10002 -> 20053], [Zaire -> Congo -> Africa -> Egypt -> Asia -> China] 
+
+  path: 1[90188 -> 31309 -> 40216], [Zaire -> Bandundu -> Bandundu] 
+
+  path: 2[90188 -> 90188], [Zaire -> Zaire]
+srcNodes: [20053, 40018, 90168]
+  path: 0[90168 -> 20203 -> 10000 -> 20085 -> 10002 -> 20053], [Volta -> Ghana -> Africa -> Egypt -> Asia -> China] 
+
+  path: 1[90168 -> 20203 -> 40018], [Volta -> Ghana -> Accra] 
+
+  path: 2[90168 -> 90168], [Volta -> Volta]
+srcNodes: [20053, 40669, 90185]
+  path: 0[90185 -> 20220 -> 10000 -> 20085 -> 10002 -> 20053], [Jubba -> Somalia -> Africa -> Egypt -> Asia -> China] 
+
+  path: 1[90185 -> 20219 -> 40669], [Jubba -> Ethiopia -> Debrezit] 
+
+  path: 2[90185 -> 90185], [Jubba -> Jubba]
+srcNodes: [20053, 40220, 90191]
+  path: 0[90191 -> 20208 -> 10000 -> 20085 -> 10002 -> 20053], [Bomu -> Central African Republic -> Africa -> Egypt -> Asia -> China] 
+
+  path: 1[90191 -> 20208 -> 40220], [Bomu -> Central African Republic -> Bangui] 
+
+  path: 2[90191 -> 90191], [Bomu -> Bomu]
+srcNodes: [20053, 40669, 90179]
+  path: 0[90179 -> 20219 -> 10000 -> 20085 -> 10002 -> 20053], [Baro -> Ethiopia -> Africa -> Egypt -> Asia -> China] 
+
+  path: 1[90179 -> 20219 -> 40669], [Baro -> Ethiopia -> Debrezit] 
+
+  path: 2[90179 -> 90179], [Baro -> Baro]
+srcNodes: [20053, 40669, 90177]
+  path: 0[90177 -> 20219 -> 10000 -> 20085 -> 10002 -> 20053], [Sobat -> Ethiopia -> Africa -> Egypt -> Asia -> China] 
+
+  path: 1[90177 -> 20219 -> 40669], [Sobat -> Ethiopia -> Debrezit] 
+
+  path: 2[90177 -> 90177], [Sobat -> Sobat]
+srcNodes: [20053, 40220, 90189]
+  path: 0[90189 -> 20208 -> 10000 -> 20085 -> 10002 -> 20053], [Sanga -> Central African Republic -> Africa -> Egypt -> Asia -> China] 
+
+  path: 1[90189 -> 20208 -> 40220], [Sanga -> Central African Republic -> Bangui] 
+
+  path: 2[90189 -> 90189], [Sanga -> Sanga]
+srcNodes: [20053, 40669, 90186]
+  path: 0[90186 -> 20220 -> 10000 -> 20085 -> 10002 -> 20053], [Shabelle -> Somalia -> Africa -> Egypt -> Asia -> China] 
+
+  path: 1[90186 -> 20219 -> 40669], [Shabelle -> Ethiopia -> Debrezit] 
+
+  path: 2[90186 -> 90186], [Shabelle -> Shabelle]
+srcNodes: [20053, 40544, 90210]
+  path: 0[90210 -> 20201 -> 10000 -> 20085 -> 10002 -> 20053], [Zambezi -> Zimbabwe -> Africa -> Egypt -> Asia -> China] 
+
+  path: 1[90210 -> 31435 -> 40544], [Zambezi -> Manica -> Chimoio] 
+
+  path: 2[90210 -> 90210], [Zambezi -> Zambezi]
+-----------------------------------------
+ResultDestNodes: [20053, 90123, 90122, 90129, 90126, 90087, 90120, 90128, 90084, 90118, 90085, 90119, 90127, 90088, 90124, 90125, 90121, 90171, 90169, 90172, 90167, 90188, 90168, 90185, 90191, 90179, 90177, 90189, 90186, 90210]
+ResultRelevs: [6.286314010620117, 5.1209540367126465, 5.1209540367126465, 4.453913688659668, 4.418520927429199, 4.3705339431762695, 4.3705339431762695, 4.3705339431762695, 4.3705339431762695, 4.3705339431762695, 4.3705339431762695, 4.3705339431762695, 4.3705339431762695, 4.3705339431762695, 4.120384216308594, 4.120384216308594, 4.120384216308594, 4.001612663269043, 4.001612663269043, 3.9536259174346924, 3.9536259174346924, 3.9536259174346924, 3.9536259174346924, 3.9536259174346924, 3.9536259174346924, 3.9536259174346924, 3.9536259174346924, 3.9536259174346924, 3.9536259174346924, 3.9536259174346924]
+Num of top-k answers: 30
+Num of non-reduced answers: 0
+Num of duplicate answers: 0
+Num of non-redundant answers: 30
+Num of entries retrieved from the lists: 692
+Num of entries retrieved from NKMaps: 977
+
+Blink Search Using ConstRootDup30
+[china, city, river]
+srcNodes: [20053, 40496, 90115]
+  path: 0[20053 -> 20053], [China -> China]
+  path: 1[20053 -> 30645 -> 40496], [China -> Jilin -> Changchun] 
+
+  path: 2[20053 -> 30639 -> 90115], [China -> Heilongjiang -> Argun] 
+
+srcNodes: [20053, 40499, 90127]
+  path: 0[20053 -> 20053], [China -> China]
+  path: 1[20053 -> 30642 -> 40499], [China -> Hunan -> Changsha] 
+
+  path: 2[20053 -> 30658 -> 90127], [China -> Tibet -> Brahmaputra] 
+
+srcNodes: [20053, 40499, 90115]
+  path: 0[20053 -> 20053], [China -> China]
+  path: 1[20053 -> 30642 -> 40499], [China -> Hunan -> Changsha] 
+
+  path: 2[20053 -> 30639 -> 90115], [China -> Heilongjiang -> Argun] 
+
+srcNodes: [20053, 40496, 90127]
+  path: 0[20053 -> 20053], [China -> China]
+  path: 1[20053 -> 30645 -> 40496], [China -> Jilin -> Changchun] 
+
+  path: 2[20053 -> 30658 -> 90127], [China -> Tibet -> Brahmaputra] 
+
+srcNodes: [20053, 40091, 90127]
+  path: 0[20053 -> 20053], [China -> China]
+  path: 1[20053 -> 10002 -> 20090 -> 40091], [China -> Asia -> Jordan -> Amman] 
+
+  path: 2[20053 -> 30658 -> 90127], [China -> Tibet -> Brahmaputra] 
+
+srcNodes: [20053, 40091, 90115]
+  path: 0[20053 -> 20053], [China -> China]
+  path: 1[20053 -> 10002 -> 20090 -> 40091], [China -> Asia -> Jordan -> Amman] 
+
+  path: 2[20053 -> 30639 -> 90115], [China -> Heilongjiang -> Argun] 
+
+srcNodes: [20053, 40347, 90115]
+  path: 0[20053 -> 20053], [China -> China]
+  path: 1[20053 -> 10002 -> 20065 -> 30732 -> 40347], [China -> Asia -> India -> Bihar -> Bokara Steel City] 
+
+  path: 2[20053 -> 30639 -> 90115], [China -> Heilongjiang -> Argun] 
+
+srcNodes: [20053, 40347, 90127]
+  path: 0[20053 -> 20053], [China -> China]
+  path: 1[20053 -> 10002 -> 20065 -> 30732 -> 40347], [China -> Asia -> India -> Bihar -> Bokara Steel City] 
+
+  path: 2[20053 -> 30658 -> 90127], [China -> Tibet -> Brahmaputra] 
+
+srcNodes: [20053, 40214, 90127]
+  path: 0[20053 -> 20053], [China -> China]
+  path: 1[20053 -> 10002 -> 20086 -> 40214], [China -> Asia -> Indonesia -> Bandar Lampung] 
+
+  path: 2[20053 -> 30658 -> 90127], [China -> Tibet -> Brahmaputra] 
+
+srcNodes: [20053, 40214, 90115]
+  path: 0[20053 -> 20053], [China -> China]
+  path: 1[20053 -> 10002 -> 20086 -> 40214], [China -> Asia -> Indonesia -> Bandar Lampung] 
+
+  path: 2[20053 -> 30639 -> 90115], [China -> Heilongjiang -> Argun] 
+
+srcNodes: [20053, 40499, 90087]
+  path: 0[20053 -> 20053], [China -> China]
+  path: 1[20053 -> 30642 -> 40499], [China -> Hunan -> Changsha] 
+
+  path: 2[20053 -> 10002 -> 20093 -> 90087], [China -> Asia -> Syria -> Tigris] 
+
+srcNodes: [20053, 40496, 90087]
+  path: 0[20053 -> 20053], [China -> China]
+  path: 1[20053 -> 30645 -> 40496], [China -> Jilin -> Changchun] 
+
+  path: 2[20053 -> 10002 -> 20093 -> 90087], [China -> Asia -> Syria -> Tigris] 
+
+srcNodes: [20053, 40091, 90087]
+  path: 0[20053 -> 20053], [China -> China]
+  path: 1[20053 -> 10002 -> 20090 -> 40091], [China -> Asia -> Jordan -> Amman] 
+
+  path: 2[20053 -> 10002 -> 20093 -> 90087], [China -> Asia -> Syria -> Tigris] 
+
+srcNodes: [20053, 40347, 90087]
+  path: 0[20053 -> 20053], [China -> China]
+  path: 1[20053 -> 10002 -> 20065 -> 30732 -> 40347], [China -> Asia -> India -> Bihar -> Bokara Steel City] 
+
+  path: 2[20053 -> 10002 -> 20093 -> 90087], [China -> Asia -> Syria -> Tigris] 
+
+srcNodes: [20053, 40499, 90099]
+  path: 0[20053 -> 20053], [China -> China]
+  path: 1[20053 -> 30642 -> 40499], [China -> Hunan -> Changsha] 
+
+  path: 2[20053 -> 10002 -> 20023 -> 30281 -> 90099], [China -> Asia -> Russia -> Ulyanovskaya oblast -> Volga] 
+
+srcNodes: [100029, 40219, 90123]
+  path: 0[90123 -> 100029], [Mekong -> South China Sea] 
+
+  path: 1[90123 -> 20070 -> 40219], [Mekong -> Thailand -> Bangkok] 
+
+  path: 2[90123 -> 90123], [Mekong -> Mekong]
+srcNodes: [100009, 40499, 90122]
+  path: 0[90122 -> 100009], [Jangtse -> East China Sea] 
+
+  path: 1[90122 -> 30642 -> 40499], [Jangtse -> Hunan -> Changsha] 
+
+  path: 2[90122 -> 90122], [Jangtse -> Jangtse]
+srcNodes: [100029, 40574, 90129]
+  path: 0[90129 -> 20086 -> 100029], [Asahan -> Indonesia -> South China Sea] 
+
+  path: 1[90129 -> 20086 -> 40574], [Asahan -> Indonesia -> Cirebon] 
+
+  path: 2[90129 -> 90129], [Asahan -> Asahan]
+srcNodes: [20053, 40347, 90126]
+  path: 0[90126 -> 20063 -> 10002 -> 20053], [Ganges -> Bangladesh -> Asia -> China] 
+
+  path: 1[90126 -> 30732 -> 40347], [Ganges -> Bihar -> Bokara Steel City] 
+
+  path: 2[90126 -> 90126], [Ganges -> Ganges]
+srcNodes: [20053, 40555, 90127]
+  path: 0[90127 -> 20063 -> 10002 -> 20053], [Brahmaputra -> Bangladesh -> Asia -> China] 
+
+  path: 1[90127 -> 20063 -> 40555], [Brahmaputra -> Bangladesh -> Chittagong] 
+
+  path: 2[90127 -> 90127], [Brahmaputra -> Brahmaputra]
+srcNodes: [20053, 40548, 90128]
+  path: 0[90128 -> 20055 -> 10002 -> 20053], [Indus -> Pakistan -> Asia -> China] 
+
+  path: 1[90128 -> 20055 -> 40548], [Indus -> Pakistan -> Chiniot] 
+
+  path: 2[90128 -> 90128], [Indus -> Indus]
+srcNodes: [20053, 40602, 90085]
+  path: 0[90085 -> 20061 -> 10002 -> 20053], [Kura -> Azerbaijan -> Asia -> China] 
+
+  path: 1[90085 -> 30996 -> 40602], [Kura -> Georgia -> Columbus] 
+
+  path: 2[90085 -> 90085], [Kura -> Kura]
+srcNodes: [20053, 40551, 90118]
+  path: 0[90118 -> 20075 -> 10002 -> 20053], [Naryn -> Kyrgyzstan -> Asia -> China] 
+
+  path: 1[90118 -> 30708 -> 40551], [Naryn -> Toshkent -> Chirchiq] 
+
+  path: 2[90118 -> 90118], [Naryn -> Naryn]
+srcNodes: [20053, 40507, 90119]
+  path: 0[90119 -> 20052 -> 10002 -> 20053], [Amudarja -> Afghanistan -> Asia -> China] 
+
+  path: 1[90119 -> 30695 -> 40507], [Amudarja -> Leban -> Charjew] 
+
+  path: 2[90119 -> 90119], [Amudarja -> Amudarja]
+srcNodes: [20053, 40653, 90088]
+  path: 0[90088 -> 20093 -> 10002 -> 20053], [Euphrat -> Syria -> Asia -> China] 
+
+  path: 1[90088 -> 20093 -> 40653], [Euphrat -> Syria -> Damascus] 
+
+  path: 2[90088 -> 90088], [Euphrat -> Euphrat]
+srcNodes: [20053, 42203, 90120]
+  path: 0[90120 -> 20052 -> 10002 -> 20053], [Pjandsh -> Afghanistan -> Asia -> China] 
+
+  path: 1[90120 -> 30689 -> 42203], [Pjandsh -> Khatlon -> Qurghonteppa] 
+
+  path: 2[90120 -> 90120], [Pjandsh -> Pjandsh]
+srcNodes: [20053, 40647, 90087]
+  path: 0[90087 -> 20093 -> 10002 -> 20053], [Tigris -> Syria -> Asia -> China] 
+
+  path: 1[90087 -> 30862 -> 40647], [Tigris -> Dahuk -> Dahuk] 
+
+  path: 2[90087 -> 90087], [Tigris -> Tigris]
+srcNodes: [20053, 40653, 90084]
+  path: 0[90084 -> 20095 -> 10002 -> 20053], [Jordan -> West Bank -> Asia -> China] 
+
+  path: 1[90084 -> 20093 -> 40653], [Jordan -> Syria -> Damascus] 
+
+  path: 2[90084 -> 90084], [Jordan -> Jordan]
+srcNodes: [100009, 40539, 90121]
+  path: 0[90121 -> 30647 -> 90122 -> 100009], [Hwangho -> Qinghai -> Jangtse -> East China Sea] 
+
+  path: 1[90121 -> 30655 -> 40539], [Hwangho -> Nei Monggol -> Chifeng] 
+
+  path: 2[90121 -> 90121], [Hwangho -> Hwangho]
+srcNodes: [100029, 40194, 90125]
+  path: 0[90125 -> 30658 -> 90123 -> 100029], [Irawaddy -> Tibet -> Mekong -> South China Sea] 
+
+  path: 1[90125 -> 30718 -> 40194], [Irawaddy -> Bago -> Bago] 
+
+  path: 2[90125 -> 90125], [Irawaddy -> Irawaddy]
+-----------------------------------------
+ResultDestNodes: 
+20053, 20053, 20053, 20053, 20053, 20053, 20053, 20053, 20053, 20053, 20053, 20053, 20053, 20053, 20053, 90123, 90122, 90129, 90126, 90127, 90128, 90085, 90118, 90119, 90088, 90120, 90087, 90084, 90121, 90125, 
+ResultRelevs: 
+6.286314, 6.286314, 6.286314, 6.286314, 6.194996, 6.194996, 6.1689973, 6.1689973, 6.140205, 6.140205, 6.056769, 6.056769, 5.965451, 5.939452, 5.919042, 5.120954, 5.120954, 4.4539137, 4.418521, 4.370534, 4.370534, 4.370534, 4.370534, 4.370534, 4.370534, 4.370534, 4.370534, 4.370534, 4.120384, 4.120384, 
+Num of top-k answers: 30
+Num of duplicate answers: 0
+Num of duplicate roots in top-k answers: 14
+root duplication ratio: 0.4827586
+given max root duplication param: 0.5
+Num of entries retrieved from the lists: 654
+Num of entries retrieved from NKMaps: 2885
+Num of answer trees explored: 10624
+

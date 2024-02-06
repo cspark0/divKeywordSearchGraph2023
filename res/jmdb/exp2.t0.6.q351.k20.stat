@@ -1,0 +1,13 @@
+Top-k, (AvgResultRelev, AvgResultRelev/ResultRelevs[0], AvgResultDiss) numOfKNListsRead, numOfNKMapLookups, numOfAnswerTreesExplored, elapseTime, numOfStatesCreated, numOfStatesExplored, numOfHeuristicSearchPerformed, numOfATSPrunnedByDissCond, numOfLocalAnswersFound, 
+query: [conspiracy, betrayal, murder]
+BlinkSea, 	20, 7.23247, 0.77013, 0.53509, 3427, 5558, 2091, 0.324471132, 
+Exhustiv, 	20, 6.97434, 0.74264, 0.78421, 3469, 5639, 2129, 29.55870183, 6541169, 55, 107346, 1, 
+Astar02, 	20, 6.97434, 0.74264, 0.78421, 3469, 5639, 2129, 89.274681297, 6634503, 6632614, 10, 152433, 0, 
+Astar1nc_, 	20, 6.97434, 0.74264, 0.78421, 3469, 5639, 2129, 0.277314433, 875, 114, 2, 233, 0, 
+query: [conspiracy, deception, betrayal]
+BlinkSea, 	20, 7.18910, 0.86863, 0.60702, 2340, 4007, 1560, 0.157227861, 
+Exhustiv, 	20, 6.94416, 0.83904, 0.74386, 2419, 4113, 1587, 46.754371161, 10992531, 360, 1057995, 1, 
+Astar02, 	20, 6.94416, 0.83904, 0.74386, 2419, 4113, 1587, 187.842155938, 12027345, 12026184, 12, 3802022, 0, 
+Astar1nc_, 	20, 6.94416, 0.83904, 0.74386, 3427, 5731, 2203, 0.287614251, 1136, 114, 2, 467, 0, 
+query: [murder, psycho, thriller]
+BlinkSea, 	20, 9.24186, 0.78141, 0.38596, 2655, 4467, 1603, 0.174678022, 

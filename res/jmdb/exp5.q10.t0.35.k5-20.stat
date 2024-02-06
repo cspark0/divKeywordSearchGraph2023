@@ -1,0 +1,5 @@
+Top-k, (AvgResultRelev, AvgResultRelev/ResultRelevs[0], AvgResultDiss) numOfKNListsRead, numOfNKMapLookups, numOfAnswerTreesExplored, elapseTime, numOfStatesCreated, numOfStatesExplored, numOfHeuristicSearchPerformed, numOfATSPrunnedByDissCond, numOfLocalAnswersFound, 
+query: [romance, conflict, marriage]
+thr: 0.35
+SimGrpSe, 	5, 7.32580, 1.03912, 0.66667, 8466, 15453, 6271, 0.518876622, 20, 3, 0, 1, 
+SimGrpSe, 	10, 6.98850, 1.06918, 0.80741, 12684, 22933, 9186, 156.942348386, 103532, 21630, 0, 1, 

@@ -1,0 +1,163 @@
+Div Top-k Search by Exhustive4
+[caldera, lake, america]
+srcNodes: [80107, 80122, 10001]
+  path: 0[10001 -> 20118 -> 31023 -> 80107], [America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[10001 -> 20170 -> 80122], [America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [80107, 80118, 10001]
+  path: 0[20121 -> 10001 -> 20118 -> 31023 -> 80107], [Nicaragua -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20121 -> 80118], [Nicaragua -> Lake Managua Lake Managua ] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20170 -> 10001 -> 20118 -> 31023 -> 80107], [Bolivia -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20170 -> 80122], [Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [80018, 80014, 50039]
+  path: 0[80014 -> 90071 -> 30084 -> 80018], [Bodensee Bodensee  -> Rhein -> Rheinland Pfalz -> Laacher Maar Laacher Maar caldera] 
+
+  path: 1[80014 -> 80014], [Bodensee Bodensee  -> Bodensee Bodensee ]
+  path: 2[80014 -> 90071 -> 20014 -> 10004 -> 20051 -> 50039], [Bodensee Bodensee  -> Rhein -> Liechtenstein -> Europe -> United Kingdom -> Economic Commission for Latin America and the Caribbean Economic Commission for Latin America and the Caribbean ECLAC] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20121, 20170, 80014]
+ResultRelevs: [10.531002044677734, 6.711239814758301, 6.711239814758301, 4.55648136138916]
+AvgResultRelev: 7.127490758895874
+AvgResultDissimilarity: 0.6666666865348816
+Num of entries retrieved from the KNLists: 600
+Num of entries retrieved from NKMaps: 920
+Num of answer trees explored: 211
+Num of answer tree sets created: 40629
+Num of answer tree sets removed: 18247
+Max Num of answer tree sets in Q[]: 40629
+
+Div Top-k Search by Astar14
+[caldera, lake, america]
+srcNodes: [80107, 80122, 10001]
+  path: 0[10001 -> 20118 -> 31023 -> 80107], [America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[10001 -> 20170 -> 80122], [America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [80107, 80118, 10001]
+  path: 0[20121 -> 10001 -> 20118 -> 31023 -> 80107], [Nicaragua -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20121 -> 80118], [Nicaragua -> Lake Managua Lake Managua ] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20170 -> 10001 -> 20118 -> 31023 -> 80107], [Bolivia -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20170 -> 80122], [Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [80018, 80014, 50039]
+  path: 0[80014 -> 90071 -> 30084 -> 80018], [Bodensee Bodensee  -> Rhein -> Rheinland Pfalz -> Laacher Maar Laacher Maar caldera] 
+
+  path: 1[80014 -> 80014], [Bodensee Bodensee  -> Bodensee Bodensee ]
+  path: 2[80014 -> 90071 -> 20014 -> 10004 -> 20051 -> 50039], [Bodensee Bodensee  -> Rhein -> Liechtenstein -> Europe -> United Kingdom -> Economic Commission for Latin America and the Caribbean Economic Commission for Latin America and the Caribbean ECLAC] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20121, 20170, 80014]
+ResultRelevs: [10.531002044677734, 6.711239814758301, 6.711239814758301, 4.55648136138916]
+AvgResultRelev: 7.127490758895874
+AvgResultDissimilarity: 0.6666666865348816
+Num of entries retrieved from the KNLists: 600
+Num of entries retrieved from NKMaps: 920
+Num of answer trees explored: 211
+Num of states created: 15151
+Num of states explored: 6376
+Num of heuristic search performed: 62
+Max Num of answer tree sets in Q[]: 9163
+
+Div Top-k Search by Astar24
+[caldera, lake, america]
+srcNodes: [80107, 80122, 10001]
+  path: 0[10001 -> 20118 -> 31023 -> 80107], [America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[10001 -> 20170 -> 80122], [America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [80107, 80118, 10001]
+  path: 0[20121 -> 10001 -> 20118 -> 31023 -> 80107], [Nicaragua -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20121 -> 80118], [Nicaragua -> Lake Managua Lake Managua ] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20170 -> 10001 -> 20118 -> 31023 -> 80107], [Bolivia -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20170 -> 80122], [Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [80018, 80014, 50039]
+  path: 0[80014 -> 90071 -> 30084 -> 80018], [Bodensee Bodensee  -> Rhein -> Rheinland Pfalz -> Laacher Maar Laacher Maar caldera] 
+
+  path: 1[80014 -> 80014], [Bodensee Bodensee  -> Bodensee Bodensee ]
+  path: 2[80014 -> 90071 -> 20014 -> 10004 -> 20051 -> 50039], [Bodensee Bodensee  -> Rhein -> Liechtenstein -> Europe -> United Kingdom -> Economic Commission for Latin America and the Caribbean Economic Commission for Latin America and the Caribbean ECLAC] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20121, 20170, 80014]
+ResultRelevs: [10.531002044677734, 6.711239814758301, 6.711239814758301, 4.55648136138916]
+AvgResultRelev: 7.127490758895874
+AvgResultDissimilarity: 0.6666666865348816
+Num of entries retrieved from the KNLists: 600
+Num of entries retrieved from NKMaps: 920
+Num of answer trees explored: 211
+Num of states created: 15151
+Num of states explored: 6376
+Num of heuristic search performed: 62
+Max Num of answer tree sets in Q[]: 9163
+
+Div Top-k Search by Astar2re4
+[caldera, lake, america]
+srcNodes: [80107, 80122, 10001]
+  path: 0[10001 -> 20118 -> 31023 -> 80107], [America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[10001 -> 20170 -> 80122], [America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [80107, 80118, 10001]
+  path: 0[20121 -> 10001 -> 20118 -> 31023 -> 80107], [Nicaragua -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20121 -> 80118], [Nicaragua -> Lake Managua Lake Managua ] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+srcNodes: [80107, 80122, 10001]
+  path: 0[20170 -> 10001 -> 20118 -> 31023 -> 80107], [Bolivia -> America -> United States -> Oregon -> Crater Lake Crater Lake caldera] 
+
+  path: 1[20170 -> 80122], [Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 2[20170 -> 10001], [Bolivia -> America] 
+
+srcNodes: [80018, 80014, 50039]
+  path: 0[80014 -> 90071 -> 30084 -> 80018], [Bodensee Bodensee  -> Rhein -> Rheinland Pfalz -> Laacher Maar Laacher Maar caldera] 
+
+  path: 1[80014 -> 80014], [Bodensee Bodensee  -> Bodensee Bodensee ]
+  path: 2[80014 -> 90071 -> 20014 -> 10004 -> 20051 -> 50039], [Bodensee Bodensee  -> Rhein -> Liechtenstein -> Europe -> United Kingdom -> Economic Commission for Latin America and the Caribbean Economic Commission for Latin America and the Caribbean ECLAC] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20121, 20170, 80014]
+ResultRelevs: [10.531002044677734, 6.711239814758301, 6.711239814758301, 4.55648136138916]
+AvgResultRelev: 7.127490758895874
+AvgResultDissimilarity: 0.6666666865348816
+Num of entries retrieved from the KNLists: 600
+Num of entries retrieved from NKMaps: 920
+Num of answer trees explored: 211
+Num of states created: 1252
+Num of states explored: 474
+Num of heuristic search performed: 62
+Max Num of answer tree sets in Q[]: 9072
+

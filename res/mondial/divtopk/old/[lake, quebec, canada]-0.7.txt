@@ -1,0 +1,51 @@
+Top-k Search by Blink-BDB, k=3
+[lake, quebec, canada]
+srcNodes: [80101, 30984, 20117]
+  path: 0[20117 -> 30984 -> 80101], [Canada -> Quebec -> Lake Champlain Lake Champlain ] 
+
+  path: 1[20117 -> 30984], [Canada -> Quebec] 
+
+  path: 2[20117 -> 20117], [Canada -> Canada]
+srcNodes: [80122, 30984, 20117]
+  path: 0[10001 -> 20170 -> 80122], [America -> Bolivia -> Lake Titicaca Lake Titicaca ] 
+
+  path: 1[10001 -> 20117 -> 30984], [America -> Canada -> Quebec] 
+
+  path: 2[10001 -> 20117], [America -> Canada] 
+
+srcNodes: [80122, 30984, 20117]
+  path: 0[80122 -> 80122], [Lake Titicaca Lake Titicaca  -> Lake Titicaca Lake Titicaca ]
+  path: 1[80122 -> 90154 -> 20170 -> 10001 -> 20117 -> 30984], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero -> Bolivia -> America -> Canada -> Quebec] 
+
+  path: 2[80122 -> 90154 -> 20170 -> 10001 -> 20117], [Lake Titicaca Lake Titicaca  -> Rio Desaguadero -> Bolivia -> America -> Canada] 
+
+-----------------------------------------
+Num of top-k answers: 3
+ResultDestNodes: [20117, 10001, 80122]
+ResultRelevs: [9.56387996673584, 5.813119888305664, 5.512974739074707]
+AvgResultRelev: 6.963324864705403
+AvgResultDissimilarity: 0.3333333333333333
+Num of entries retrieved from the lists: 268
+Num of entries retrieved from NKMaps: 325
+Num of answer trees explored: 97
+
+Div Top-k Search by DivTopKExhustive3
+[lake, quebec, canada]
+div top-k answers for q do not exist in G!
+
+Div Top-k Search by DivTopKAstar13
+[lake, quebec, canada]
+div top-k answers for q do not exist in G!
+
+Div Top-k Search by DivTopKAstar23
+[lake, quebec, canada]
+div top-k answers for q do not exist in G!
+
+Div Top-k Search by DivTopKAstar33
+[lake, quebec, canada]
+div top-k answers for q do not exist in G!
+
+Div Top-k Search by DivTopKAstar43
+[lake, quebec, canada]
+div top-k answers for q do not exist in G!
+

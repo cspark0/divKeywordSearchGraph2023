@@ -1,0 +1,290 @@
+Top-k Search by Blink-BDB, k=5
+[city, sea, asia]
+srcNodes: [40498, 100023, 10002]
+  path: 0[10002 -> 20106 -> 40498], [Asia -> Taiwan -> Changhua] 
+
+  path: 1[10002 -> 20101 -> 100023], [Asia -> Yemen -> Red Sea] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [40877, 100018, 10002]
+  path: 0[20083 -> 40877], [Gaza Strip -> Gaza] 
+
+  path: 1[20083 -> 100018], [Gaza Strip -> Mediterranean Sea] 
+
+  path: 2[20083 -> 10002], [Gaza Strip -> Asia] 
+
+srcNodes: [42041, 100030, 10002]
+  path: 0[20102 -> 42041], [Philippines -> Pasay] 
+
+  path: 1[20102 -> 100030], [Philippines -> Sulawesi Sea] 
+
+  path: 2[20102 -> 10002], [Philippines -> Asia] 
+
+srcNodes: [42371, 100023, 10002]
+  path: 0[20101 -> 42371], [Yemen -> Sanaa] 
+
+  path: 1[20101 -> 100023], [Yemen -> Red Sea] 
+
+  path: 2[20101 -> 10002], [Yemen -> Asia] 
+
+srcNodes: [42265, 100023, 10002]
+  path: 0[20092 -> 42265], [Saudi Arabia -> Riyadh] 
+
+  path: 1[20092 -> 100023], [Saudi Arabia -> Red Sea] 
+
+  path: 2[20092 -> 10002], [Saudi Arabia -> Asia] 
+
+-----------------------------------------
+Num of top-k answers: 5
+ResultDestNodes: [10002, 20083, 20102, 20101, 20092]
+ResultRelevs: [9.991714477539062, 6.8006720542907715, 6.8006720542907715, 6.8006720542907715, 6.8006720542907715]
+AvgResultRelev: 7.438880538940429
+AvgResultDissimilarity: 0.71
+Num of entries retrieved from the lists: 165
+Num of entries retrieved from NKMaps: 259
+Num of answer trees explored: 62
+
+Div Top-k Search by Exhustive5
+[city, sea, asia]
+srcNodes: [40498, 100023, 10002]
+  path: 0[10002 -> 20106 -> 40498], [Asia -> Taiwan -> Changhua] 
+
+  path: 1[10002 -> 20101 -> 100023], [Asia -> Yemen -> Red Sea] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [40877, 100018, 10002]
+  path: 0[20083 -> 40877], [Gaza Strip -> Gaza] 
+
+  path: 1[20083 -> 100018], [Gaza Strip -> Mediterranean Sea] 
+
+  path: 2[20083 -> 10002], [Gaza Strip -> Asia] 
+
+srcNodes: [42371, 100023, 10002]
+  path: 0[20101 -> 42371], [Yemen -> Sanaa] 
+
+  path: 1[20101 -> 100023], [Yemen -> Red Sea] 
+
+  path: 2[20101 -> 10002], [Yemen -> Asia] 
+
+srcNodes: [40687, 100031, 10002]
+  path: 0[20087 -> 40687], [Timor-Leste -> Dili] 
+
+  path: 1[20087 -> 100031], [Timor-Leste -> Sunda Sea] 
+
+  path: 2[20087 -> 10002], [Timor-Leste -> Asia] 
+
+srcNodes: [42562, 100025, 10002]
+  path: 0[20074 -> 42562], [North Korea -> Songjin] 
+
+  path: 1[20074 -> 100025], [North Korea -> Sea of Japan] 
+
+  path: 2[20074 -> 10002], [North Korea -> Asia] 
+
+-----------------------------------------
+ResultDestNodes: [10002, 20083, 20101, 20087, 20074]
+ResultRelevs: [9.991714477539062, 6.8006720542907715, 6.8006720542907715, 6.8006720542907715, 6.8006720542907715]
+AvgResultRelev: 7.438880538940429
+AvgResultDissimilarity: 0.7699999809265137
+Num of entries retrieved from the KNLists: 165
+Num of entries retrieved from NKMaps: 259
+Num of answer trees explored: 62
+Num of answer tree sets created: 31
+Num of answer tree sets removed: 30
+Max Num of answer tree sets in Q[]: 31
+
+Div Top-k Search by Astar15
+[city, sea, asia]
+srcNodes: [40498, 100023, 10002]
+  path: 0[10002 -> 20106 -> 40498], [Asia -> Taiwan -> Changhua] 
+
+  path: 1[10002 -> 20101 -> 100023], [Asia -> Yemen -> Red Sea] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [42371, 100023, 10002]
+  path: 0[20101 -> 42371], [Yemen -> Sanaa] 
+
+  path: 1[20101 -> 100023], [Yemen -> Red Sea] 
+
+  path: 2[20101 -> 10002], [Yemen -> Asia] 
+
+srcNodes: [41045, 100018, 10002]
+  path: 0[20093 -> 41045], [Syria -> Homs] 
+
+  path: 1[20093 -> 100018], [Syria -> Mediterranean Sea] 
+
+  path: 2[20093 -> 10002], [Syria -> Asia] 
+
+srcNodes: [42307, 100029, 10002]
+  path: 0[20072 -> 42307], [Vietnam -> Saigon] 
+
+  path: 1[20072 -> 100029], [Vietnam -> South China Sea] 
+
+  path: 2[20072 -> 10002], [Vietnam -> Asia] 
+
+srcNodes: [41788, 100001, 10002]
+  path: 0[20099 -> 41788], [Oman -> Muscat] 
+
+  path: 1[20099 -> 100001], [Oman -> Arabian Sea] 
+
+  path: 2[20099 -> 10002], [Oman -> Asia] 
+
+-----------------------------------------
+ResultDestNodes: [10002, 20101, 20093, 20072, 20099]
+ResultRelevs: [9.991714477539062, 6.8006720542907715, 6.8006720542907715, 6.8006720542907715, 6.8006720542907715]
+AvgResultRelev: 7.438880538940429
+AvgResultDissimilarity: 0.7699999809265137
+Num of entries retrieved from the KNLists: 165
+Num of entries retrieved from NKMaps: 259
+Num of answer trees explored: 62
+Num of states created: 969
+Num of states explored: 121
+Num of heuristic search performed: 17
+Max Num of answer tree sets in Q[]: 196
+
+Div Top-k Search by Astar1m5
+[city, sea, asia]
+srcNodes: [40498, 100023, 10002]
+  path: 0[10002 -> 20106 -> 40498], [Asia -> Taiwan -> Changhua] 
+
+  path: 1[10002 -> 20101 -> 100023], [Asia -> Yemen -> Red Sea] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [40877, 100018, 10002]
+  path: 0[20083 -> 40877], [Gaza Strip -> Gaza] 
+
+  path: 1[20083 -> 100018], [Gaza Strip -> Mediterranean Sea] 
+
+  path: 2[20083 -> 10002], [Gaza Strip -> Asia] 
+
+srcNodes: [42371, 100023, 10002]
+  path: 0[20101 -> 42371], [Yemen -> Sanaa] 
+
+  path: 1[20101 -> 100023], [Yemen -> Red Sea] 
+
+  path: 2[20101 -> 10002], [Yemen -> Asia] 
+
+srcNodes: [40687, 100031, 10002]
+  path: 0[20087 -> 40687], [Timor-Leste -> Dili] 
+
+  path: 1[20087 -> 100031], [Timor-Leste -> Sunda Sea] 
+
+  path: 2[20087 -> 10002], [Timor-Leste -> Asia] 
+
+srcNodes: [42562, 100025, 10002]
+  path: 0[20074 -> 42562], [North Korea -> Songjin] 
+
+  path: 1[20074 -> 100025], [North Korea -> Sea of Japan] 
+
+  path: 2[20074 -> 10002], [North Korea -> Asia] 
+
+-----------------------------------------
+ResultDestNodes: [10002, 20083, 20101, 20087, 20074]
+ResultRelevs: [9.991714477539062, 6.8006720542907715, 6.8006720542907715, 6.8006720542907715, 6.8006720542907715]
+AvgResultRelev: 7.438880538940429
+AvgResultDissimilarity: 0.7699999809265137
+Num of entries retrieved from the KNLists: 165
+Num of entries retrieved from NKMaps: 259
+Num of answer trees explored: 62
+Num of states created: 17
+Num of states explored: 11
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 9
+
+Div Top-k Search by Astar25
+[city, sea, asia]
+srcNodes: [40498, 100023, 10002]
+  path: 0[10002 -> 20106 -> 40498], [Asia -> Taiwan -> Changhua] 
+
+  path: 1[10002 -> 20101 -> 100023], [Asia -> Yemen -> Red Sea] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [42371, 100023, 10002]
+  path: 0[20101 -> 42371], [Yemen -> Sanaa] 
+
+  path: 1[20101 -> 100023], [Yemen -> Red Sea] 
+
+  path: 2[20101 -> 10002], [Yemen -> Asia] 
+
+srcNodes: [41045, 100018, 10002]
+  path: 0[20093 -> 41045], [Syria -> Homs] 
+
+  path: 1[20093 -> 100018], [Syria -> Mediterranean Sea] 
+
+  path: 2[20093 -> 10002], [Syria -> Asia] 
+
+srcNodes: [42307, 100029, 10002]
+  path: 0[20072 -> 42307], [Vietnam -> Saigon] 
+
+  path: 1[20072 -> 100029], [Vietnam -> South China Sea] 
+
+  path: 2[20072 -> 10002], [Vietnam -> Asia] 
+
+srcNodes: [41788, 100001, 10002]
+  path: 0[20099 -> 41788], [Oman -> Muscat] 
+
+  path: 1[20099 -> 100001], [Oman -> Arabian Sea] 
+
+  path: 2[20099 -> 10002], [Oman -> Asia] 
+
+-----------------------------------------
+ResultDestNodes: [10002, 20101, 20093, 20072, 20099]
+ResultRelevs: [9.991714477539062, 6.8006720542907715, 6.8006720542907715, 6.8006720542907715, 6.8006720542907715]
+AvgResultRelev: 7.438880538940429
+AvgResultDissimilarity: 0.7699999809265137
+Num of entries retrieved from the KNLists: 165
+Num of entries retrieved from NKMaps: 259
+Num of answer trees explored: 62
+Num of states created: 969
+Num of states explored: 121
+Num of heuristic search performed: 17
+Max Num of answer tree sets in Q[]: 196
+
+Div Top-k Search by Astar2m5
+[city, sea, asia]
+srcNodes: [40498, 100023, 10002]
+  path: 0[10002 -> 20106 -> 40498], [Asia -> Taiwan -> Changhua] 
+
+  path: 1[10002 -> 20101 -> 100023], [Asia -> Yemen -> Red Sea] 
+
+  path: 2[10002 -> 10002], [Asia -> Asia]
+srcNodes: [40877, 100018, 10002]
+  path: 0[20083 -> 40877], [Gaza Strip -> Gaza] 
+
+  path: 1[20083 -> 100018], [Gaza Strip -> Mediterranean Sea] 
+
+  path: 2[20083 -> 10002], [Gaza Strip -> Asia] 
+
+srcNodes: [42371, 100023, 10002]
+  path: 0[20101 -> 42371], [Yemen -> Sanaa] 
+
+  path: 1[20101 -> 100023], [Yemen -> Red Sea] 
+
+  path: 2[20101 -> 10002], [Yemen -> Asia] 
+
+srcNodes: [40687, 100031, 10002]
+  path: 0[20087 -> 40687], [Timor-Leste -> Dili] 
+
+  path: 1[20087 -> 100031], [Timor-Leste -> Sunda Sea] 
+
+  path: 2[20087 -> 10002], [Timor-Leste -> Asia] 
+
+srcNodes: [42562, 100025, 10002]
+  path: 0[20074 -> 42562], [North Korea -> Songjin] 
+
+  path: 1[20074 -> 100025], [North Korea -> Sea of Japan] 
+
+  path: 2[20074 -> 10002], [North Korea -> Asia] 
+
+-----------------------------------------
+ResultDestNodes: [10002, 20083, 20101, 20087, 20074]
+ResultRelevs: [9.991714477539062, 6.8006720542907715, 6.8006720542907715, 6.8006720542907715, 6.8006720542907715]
+AvgResultRelev: 7.438880538940429
+AvgResultDissimilarity: 0.7699999809265137
+Num of entries retrieved from the KNLists: 165
+Num of entries retrieved from NKMaps: 259
+Num of answer trees explored: 62
+Num of states created: 17
+Num of states explored: 11
+Num of heuristic search performed: 1
+Max Num of answer tree sets in Q[]: 0
+

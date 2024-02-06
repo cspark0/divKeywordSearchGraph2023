@@ -1,0 +1,525 @@
+query: [hero, sacrifice, disaster]
+Div Top-k Search by SimGrp, dissim thr=0.3
+[hero, sacrifice, disaster]
+srcNodes: [1198253, 1806449, 1330956]
+  path: 0[1806449 -> 2270009 -> 1785678 -> 2128235 -> 1198253], [The Sacrifice (2008/I) -> Riehle, Richard -> The Last Lovecraft: Relic of Cthulhu (2009) -> Haigh, Charles -> Alexander: Hero of Heroes (2007)] 
+
+  path: 1[1806449 -> 1806449], [The Sacrifice (2008/I) -> The Sacrifice (2008/I)]
+  path: 2[1806449 -> 2225967 -> 1763648 -> 2224231 -> 1330956], [The Sacrifice (2008/I) -> Mulkey, Chris (I) -> The Commission (2003) -> Morshower, Glenn -> Disaster! (2006)] 
+
+srcNodes: [1747558, 1680609, 1330956]
+  path: 0[2224231 -> 112029 -> 2001345 -> 1747558], [Morshower, Glenn -> "Blonde" (2001) -> Ackles, Jensen -> Ten Inch Hero (2007)] 
+
+  path: 1[2224231 -> 1630220 -> 2119388 -> 1680609], [Morshower, Glenn -> Pearl Harbor (2001) -> Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[2224231 -> 1330956], [Morshower, Glenn -> Disaster! (2006)] 
+
+srcNodes: [1423248, 1806449, 1330948]
+  path: 0[1330948 -> 2131907 -> 1532726 -> 2409031 -> 1423248], [Disaster Movie (2008) -> Harpster, Noah -> Little Black Book (2004) -> Nicholson, Julianne -> Hero (2000)] 
+
+  path: 1[1330948 -> 2067376 -> 1779601 -> 2270009 -> 1806449], [Disaster Movie (2008) -> Cox, Tony (I) -> The Hebrew Hammer (2003) -> Riehle, Richard -> The Sacrifice (2008/I)] 
+
+  path: 2[1330948 -> 1330948], [Disaster Movie (2008) -> Disaster Movie (2008)]
+srcNodes: [1423271, 1680609, 1330956]
+  path: 0[1680609 -> 2119388 -> 1423271], [Sacrifice (2011/I) -> Gooding Jr., Cuba -> Hero Wanted (2008)] 
+
+  path: 1[1680609 -> 1680609], [Sacrifice (2011/I) -> Sacrifice (2011/I)]
+  path: 2[1680609 -> 2060986 -> 1782878 -> 2224231 -> 1330956], [Sacrifice (2011/I) -> Coates, Kim -> The Island (2005) -> Morshower, Glenn -> Disaster! (2006)] 
+
+srcNodes: [1191238, 1680609, 1330956]
+  path: 0[1330956 -> 2184104 -> 1629585 -> 2167392 -> 1191238], [Disaster! (2006) -> Lee, Tommy (VI) -> Pauly Shore Is Dead (2003) -> Kilborn, Craig -> Action Hero (2010)] 
+
+  path: 1[1330956 -> 2224231 -> 1630220 -> 2119388 -> 1680609], [Disaster! (2006) -> Morshower, Glenn -> Pearl Harbor (2001) -> Gooding Jr., Cuba -> Sacrifice (2011/I)] 
+
+  path: 2[1330956 -> 1330956], [Disaster! (2006) -> Disaster! (2006)]
+Dissims of Subsets and t:
+(0~0, 1) : 0.6666666666666666
+(0~1, 2) : 0.8333333333333333
+(0~2, 3) : 0.6666666666666666
+(0~3, 4) : 0.5833333333333334
+-----------------------------------------
+ResultDestNodes: [1806449, 2224231, 1330948, 1680609, 1330956]
+ResultRelevs: [6.776245594024658, 6.776794910430908, 6.839722633361816, 7.573382377624512, 7.633169651031494]
+AvgResultRelev: 7.119863033294678
+AvgResultDissimilarity: 0.6666666666666666
+Num of entries retrieved from the KNLists: 1584
+Num of entries retrieved from NKMaps: 2650
+Num of answer trees explored: 955
+Num of answer tree sets created: 29
+Num of answer tree sets removed: 8
+
+query: [monster, fantasy, animation]
+Div Top-k Search by SimGrp, dissim thr=0.3
+[monster, fantasy, animation]
+srcNodes: [617786, 5000295, 5000019]
+  path: 0[2443483 -> 890442 -> 2169629 -> 617786], [Sheh, Stephanie (I) -> "Tenisu no ôjisama" (2001) -> Kiuchi, Hidenobu -> "Monster" (2004)] 
+
+  path: 1[2443483 -> 1581147 -> 5000295], [Sheh, Stephanie (I) -> Mushishi (2006) -> Fantasy] 
+
+  path: 2[2443483 -> 623600 -> 5000019], [Sheh, Stephanie (I) -> "Mouse" (2003) -> Animation] 
+
+srcNodes: [1574340, 5000239, 5000019]
+  path: 0[1779776 -> 2429250 -> 1574340], [The Hero of Color City (2013) -> Ricci, Christina -> Monster (2003)] 
+
+  path: 1[1779776 -> 2163382 -> 1457391 -> 5000239], [The Hero of Color City (2013) -> Kaye, David (I) -> Inuyasha - Tenka hadou no ken (2003) -> Animation,Fantasy] 
+
+  path: 2[1779776 -> 5000019], [The Hero of Color City (2013) -> Animation] 
+
+srcNodes: [617786, 5000239, 5000019]
+  path: 0[617786 -> 617786], ["Monster" (2004) -> "Monster" (2004)]
+  path: 1[617786 -> 2169629 -> 479982 -> 5000239], ["Monster" (2004) -> Kiuchi, Hidenobu -> "Juerupetto" (2009) -> Animation,Fantasy] 
+
+  path: 2[617786 -> 2131022 -> 1393994 -> 5000019], ["Monster" (2004) -> Hara, Yasuyoshi -> Garasu-no usagi (2005) -> Animation] 
+
+srcNodes: [1614809, 5000295, 5000019]
+  path: 0[1614809 -> 1614809], [One-Eyed Monster (2008) -> One-Eyed Monster (2008)]
+  path: 1[1614809 -> 2079468 -> 1338772 -> 5000295], [One-Eyed Monster (2008) -> Denton, Jeff -> Dragon (2006/II) -> Fantasy] 
+
+  path: 2[1614809 -> 2154212 -> 1057047 -> 5000019], [One-Eyed Monster (2008) -> Jeremy, Ron -> "Titans of Justice" (2006) -> Animation] 
+
+srcNodes: [1574340, 5000295, 5000019]
+  path: 0[1574340 -> 1574340], [Monster (2003) -> Monster (2003)]
+  path: 1[1574340 -> 2195590 -> 1638549 -> 5000295], [Monster (2003) -> Macaulay, Marc -> Planet Ibsen (2005) -> Fantasy] 
+
+  path: 2[1574340 -> 2429250 -> 1779776 -> 5000019], [Monster (2003) -> Ricci, Christina -> The Hero of Color City (2013) -> Animation] 
+
+Dissims of Subsets and t:
+(0~0, 1) : 0.6666666666666666
+(0~1, 2) : 0.3333333333333333
+(0~2, 3) : 0.5555555555555555
+(0~3, 4) : 0.41666666666666663
+-----------------------------------------
+ResultDestNodes: [2443483, 1779776, 617786, 1614809, 1574340]
+ResultRelevs: [9.212747573852539, 9.235881805419922, 9.387478828430176, 9.42323112487793, 10.393500328063965]
+AvgResultRelev: 9.530567932128907
+AvgResultDissimilarity: 0.4666666666666666
+Num of entries retrieved from the KNLists: 5646
+Num of entries retrieved from NKMaps: 9097
+Num of answer trees explored: 2938
+Num of answer tree sets created: 17
+Num of answer tree sets removed: 5
+
+query: [monarchy, revolution, war]
+Div Top-k Search by SimGrp, dissim thr=0.3
+[monarchy, revolution, war]
+srcNodes: [8009324, 8019750, 5000013]
+  path: 0[2167272 -> 1324454 -> 8009324], [Kier, Udo -> Die Blutgräfin (2011) -> arthouse,countess,monarchy,vampire,vampirism,vienna-austria] 
+
+  path: 1[2167272 -> 1248938 -> 2196973 -> 1582025 -> 8019750], [Kier, Udo -> BloodRayne (2005) -> Madsen, Michael (I) -> Muzhskoy sezon. Barkhatnaya revolyutsiya (2005) -> revolution] 
+
+  path: 2[2167272 -> 1457581 -> 5000013], [Kier, Udo -> Invincible (2001) -> War,Drama] 
+
+srcNodes: [8009324, 1825058, 5000166]
+  path: 0[2318542 -> 1408192 -> 2167272 -> 1324454 -> 8009324], [Dawson, Rosario -> Grindhouse (2007) -> Kier, Udo -> Die Blutgräfin (2011) -> arthouse,countess,monarchy,vampire,vampirism,vienna-austria] 
+
+  path: 1[2318542 -> 1825058], [Dawson, Rosario -> This Revolution (2005)] 
+
+  path: 2[2318542 -> 1632084 -> 2110684 -> 1856559 -> 5000166], [Dawson, Rosario -> Percy Jackson & the Olympians: The Lightning Thief (2010) -> Garcia, Eddie (I) -> Urduja (2008) -> War] 
+
+srcNodes: [8009324, 8019750, 1816501]
+  path: 0[2005599 -> 1765485 -> 2454657 -> 1324454 -> 8009324], [Ali, Mahershalalhashbaz -> The Curious Case of Benjamin Button (2008) -> Swinton, Tilda -> Die Blutgräfin (2011) -> arthouse,countess,monarchy,vampire,vampirism,vienna-austria] 
+
+  path: 1[2005599 -> 1550088 -> 8019750], [Ali, Mahershalalhashbaz -> Making Revolution (2003) -> revolution] 
+
+  path: 2[2005599 -> 1296361 -> 2199735 -> 1816501], [Ali, Mahershalalhashbaz -> Crossing Over (2009) -> Manesh, Marshall -> The Truth About the War in Heaven: Declaration of War (2011)] 
+
+srcNodes: [8009324, 8019750, 5000166]
+  path: 0[2196973 -> 1248938 -> 2167272 -> 1324454 -> 8009324], [Madsen, Michael (I) -> BloodRayne (2005) -> Kier, Udo -> Die Blutgräfin (2011) -> arthouse,countess,monarchy,vampire,vampirism,vienna-austria] 
+
+  path: 1[2196973 -> 1582025 -> 8019750], [Madsen, Michael (I) -> Muzhskoy sezon. Barkhatnaya revolyutsiya (2005) -> revolution] 
+
+  path: 2[2196973 -> 1654363 -> 2078086 -> 1857533 -> 5000166], [Madsen, Michael (I) -> Put (2009) -> Delag, Pawel -> V iyune 41-go (2008) -> War] 
+
+srcNodes: [8026070, 8019750, 5000166]
+  path: 0[2459884 -> 1332403 -> 2126311 -> 1678551 -> 8026070], [Tolstoganova, Viktoriya -> Dnevnik kamikadze (2003) -> Gushchin, Vadim -> Russkiy kovcheg (2002) -> 1700s,1800s,18th-century,1900s,19th-century,20th-century,300-year-time-span,alexander-pushkin,anastasia,andrei-doronikhin,antiquity,architecture,art,art-museum,artisan,artist,ballet,catherine-the-great,catholic,children,chimera,communism,composer,costume,critically-acclaimed,czar,czar-nicholas-i,czar-nicholas-ii-of-russia,czarina,czarina-alexandra-of-russia,dance,dancer,dancing,emperor,empress,epic,europe,experimental-film,face-mask,gold,hermitage-st.-petersburg,horse-and-carriage,independent-film,long-take,mazurka,mikhail-glinka,military,monarchy,museum,museum-director,national-identity,opulence,orchestra,painter,painting,parquetry,peasant,peter-the-great,porcelain,real-time,revolutionary,royalty,russia,russian,russian-history,russian-orthodox,russian-revolution,russian-royal-family,single-take,snow,st.-petersburg-russia,statue,steadicam,subjective-camera,surrealism,symbolism,tsar,tsar-alexander-i-of-russia,tsarist-russia,two-word-title,uninterrupted-shot,ussr,winter-palace] 
+
+  path: 1[2459884 -> 1582025 -> 8019750], [Tolstoganova, Viktoriya -> Muzhskoy sezon. Barkhatnaya revolyutsiya (2005) -> revolution] 
+
+  path: 2[2459884 -> 1586584 -> 5000166], [Tolstoganova, Viktoriya -> Na bezymyannoy vysote (2004) -> War] 
+
+Dissims of Subsets and t:
+(0~0, 1) : 0.6666666666666666
+(0~1, 2) : 0.5
+(0~2, 3) : 0.3333333333333333
+(0~3, 4) : 0.5833333333333334
+-----------------------------------------
+ResultDestNodes: [2167272, 2318542, 2005599, 2196973, 2459884]
+ResultRelevs: [6.749969005584717, 6.8072662353515625, 6.978243827819824, 7.5334320068359375, 7.902767658233643]
+AvgResultRelev: 7.1943357467651365
+AvgResultDissimilarity: 0.5
+Num of entries retrieved from the KNLists: 2835
+Num of entries retrieved from NKMaps: 3580
+Num of answer trees explored: 751
+Num of answer tree sets created: 5
+Num of answer tree sets removed: 1
+
+query: [emperor, battle, history]
+Div Top-k Search by SimGrp, dissim thr=0.3
+[emperor, battle, history]
+srcNodes: [1794919, 1232667, 5000055]
+  path: 0[1494061 -> 2458123 -> 1225906 -> 2476899 -> 1794919], [L'autre Dumas (2010) -> Thierry, Mélanie -> Babylon A.D. (2008) -> Yeoh, Michelle -> The Mummy: Tomb of the Dragon Emperor (2008)] 
+
+  path: 1[1494061 -> 2079539 -> 1859897 -> 2117149 -> 1232667], [L'autre Dumas (2010) -> Depardieu, Gérard -> Vatel (2000) -> Glover, Julian -> Battle for Britain (2010)] 
+
+  path: 2[1494061 -> 5000055], [L'autre Dumas (2010) -> History] 
+
+srcNodes: [1794919, 1232670, 5000055]
+  path: 0[1478934 -> 2144032 -> 1283801 -> 2070162 -> 1794919], [Katherine of Alexandria (2011) -> Houston, William (I) -> Clash of the Titans (2010) -> Cunningham, Liam (I) -> The Mummy: Tomb of the Dragon Emperor (2008)] 
+
+  path: 1[1478934 -> 2008930 -> 1789497 -> 2471638 -> 1232670], [Katherine of Alexandria (2011) -> Anderson, Vass -> The Low Down (2000) -> Westlake, Alysha -> Battle for Haditha (2007)] 
+
+  path: 2[1478934 -> 5000055], [Katherine of Alexandria (2011) -> History] 
+
+srcNodes: [1794919, 2022021, 1178653]
+  path: 0[1178653 -> 2290313 -> 1794919], [A History of Violence (2005) -> Bello, Maria (I) -> The Mummy: Tomb of the Dragon Emperor (2008)] 
+
+  path: 1[1178653 -> 2146644 -> 1672369 -> 2022021], [A History of Violence (2005) -> Hurt, William -> Robin Hood (2010) -> Battle, Lee] 
+
+  path: 2[1178653 -> 1178653], [A History of Violence (2005) -> A History of Violence (2005)]
+srcNodes: [1794919, 1596229, 1178653]
+  path: 0[1794919 -> 1794919], [The Mummy: Tomb of the Dragon Emperor (2008) -> The Mummy: Tomb of the Dragon Emperor (2008)]
+  path: 1[1794919 -> 2261631 -> 1596229], [The Mummy: Tomb of the Dragon Emperor (2008) -> Quon, Darryl -> Night at the Museum: Battle of the Smithsonian (2009)] 
+
+  path: 2[1794919 -> 2290313 -> 1178653], [The Mummy: Tomb of the Dragon Emperor (2008) -> Bello, Maria (I) -> A History of Violence (2005)] 
+
+srcNodes: [1794919, 1232691, 5000055]
+  path: 0[143094 -> 2210312 -> 1178653 -> 2290313 -> 1794919], ["Canada: A People's History" (2000) -> McHattie, Stephen -> A History of Violence (2005) -> Bello, Maria (I) -> The Mummy: Tomb of the Dragon Emperor (2008)] 
+
+  path: 1[143094 -> 2151264 -> 1232691], ["Canada: A People's History" (2000) -> Jacot, Christopher -> Battle in Seattle (2007)] 
+
+  path: 2[143094 -> 5000055], ["Canada: A People's History" (2000) -> History] 
+
+Dissims of Subsets and t:
+(0~0, 1) : 0.3333333333333333
+(0~1, 2) : 0.6666666666666666
+(0~2, 3) : 0.5555555555555555
+(0~3, 4) : 0.5
+-----------------------------------------
+ResultDestNodes: [1494061, 1478934, 1178653, 1794919, 143094]
+ResultRelevs: [7.103269100189209, 7.103269100189209, 7.384466171264648, 7.63084602355957, 7.894079208374023]
+AvgResultRelev: 7.423185920715332
+AvgResultDissimilarity: 0.5333333333333334
+Num of entries retrieved from the KNLists: 4455
+Num of entries retrieved from NKMaps: 7231
+Num of answer trees explored: 2759
+Num of answer tree sets created: 15
+Num of answer tree sets removed: 4
+
+query: [missing, murder, revenge]
+Div Top-k Search by SimGrp, dissim thr=0.3
+[missing, murder, revenge]
+srcNodes: [1570519, 8001318, 8003479]
+  path: 0[2072839 -> 1360957 -> 2181903 -> 1570519], [Daniels, Gary (I) -> Epicenter (2000) -> Lawrence, Colin (I) -> Missing in America (2005)] 
+
+  path: 1[2072839 -> 1286450 -> 2069807 -> 1743218 -> 8001318], [Daniels, Gary (I) -> Cold Earth (2008) -> Cullen, Ian -> Tanner (2007) -> murder] 
+
+  path: 2[2072839 -> 1668368 -> 8003479], [Daniels, Gary (I) -> Revenge Tragedies (2008) -> revenge] 
+
+srcNodes: [1793961, 8001318, 8003479]
+  path: 0[2022107 -> 1591519 -> 4006047 -> 1793961], [Bauer, Chris (I) -> Neal Cassady (2007) -> Buschel, Noah -> The Missing Person (2009)] 
+
+  path: 1[2022107 -> 1379558 -> 2143378 -> 1647634 -> 8001318], [Bauer, Chris (I) -> Flags of Our Fathers (2006) -> Hornsby, David -> Pretty Bird (2008) -> murder] 
+
+  path: 2[2022107 -> 1210195 -> 8003479], [Bauer, Chris (I) -> Angels Crest (2002) -> revenge] 
+
+srcNodes: [1793924, 8001318, 8003479]
+  path: 0[2162993 -> 1853445 -> 2395267 -> 1793924], [Kaufman, Lloyd -> Unholy Reunion (2009) -> McDonough, Shannon (IV) -> The Missing Frame (2011)] 
+
+  path: 1[2162993 -> 1645247 -> 2442084 -> 1366185 -> 8001318], [Kaufman, Lloyd -> Poultrygeist: Night of the Chicken Dead (2006) -> Sereboff, Allyson -> Evil Deeds 2 (2010) -> murder] 
+
+  path: 2[2162993 -> 1248630 -> 8003479], [Kaufman, Lloyd -> Blood Moon (2008) -> revenge] 
+
+srcNodes: [1793924, 8005571, 8003479]
+  path: 0[1248630 -> 2162993 -> 1853445 -> 2395267 -> 1793924], [Blood Moon (2008) -> Kaufman, Lloyd -> Unholy Reunion (2009) -> McDonough, Shannon (IV) -> The Missing Frame (2011)] 
+
+  path: 1[1248630 -> 2162993 -> 1251152 -> 8005571], [Blood Moon (2008) -> Kaufman, Lloyd -> Body in a Dumpster (2008) -> barker,hamburger,murder,small-town] 
+
+  path: 2[1248630 -> 8003479], [Blood Moon (2008) -> revenge] 
+
+srcNodes: [1793973, 8001318, 8003479]
+  path: 0[1723781 -> 2253055 -> 1268815 -> 2323182 -> 1793973], [Stage Combat (2010) -> Piccolo, Venturino -> Caravaggio: The Search (2011) -> Dishington, Devorah Lynne -> The Missing Screenwriter (2011)] 
+
+  path: 1[1723781 -> 2175194 -> 1799535 -> 8001318], [Stage Combat (2010) -> Krystalis, Manos -> The Perfect Crime (2009) -> murder] 
+
+  path: 2[1723781 -> 8003479], [Stage Combat (2010) -> revenge] 
+
+Dissims of Subsets and t:
+(0~0, 1) : 0.3333333333333333
+(0~1, 2) : 0.3333333333333333
+(0~2, 3) : 0.5555555555555555
+(0~3, 4) : 0.41666666666666663
+-----------------------------------------
+ResultDestNodes: [2072839, 2022107, 2162993, 1248630, 1723781]
+ResultRelevs: [6.793652534484863, 6.793654441833496, 6.7936553955078125, 6.86460542678833, 8.199386596679688]
+AvgResultRelev: 7.088990879058838
+AvgResultDissimilarity: 0.4333333333333334
+Num of entries retrieved from the KNLists: 3582
+Num of entries retrieved from NKMaps: 5963
+Num of answer trees explored: 2291
+Num of answer tree sets created: 8
+Num of answer tree sets removed: 2
+
+query: [crime, thriller, suspense]
+Div Top-k Search by SimGrp, dissim thr=0.3
+[crime, thriller, suspense]
+srcNodes: [5000426, 5000057, 8002078]
+  path: 0[1805240 -> 2451570 -> 1368260 -> 5000426], [The Ritual (2009/I) -> Stevens, Brinke -> Eyes Are Upon You (2001) -> Thriller,Crime] 
+
+  path: 1[1805240 -> 2013270 -> 1701709 -> 5000057], [The Ritual (2009/I) -> Ashley, Kevin (I) -> Shifty (2008) -> Thriller] 
+
+  path: 2[1805240 -> 8002078], [The Ritual (2009/I) -> suspense] 
+
+srcNodes: [5000051, 5000057, 8002078]
+  path: 0[1349997 -> 2126571 -> 1848267 -> 5000051], [El arte de morir (2000) -> Gutiérrez Caba, Emilio -> Un buen hombre (2009) -> Drama,Crime] 
+
+  path: 1[1349997 -> 2062347 -> 1299785 -> 5000057], [El arte de morir (2000) -> Collado, Adrià -> Cámara oscura (2003) -> Thriller] 
+
+  path: 2[1349997 -> 8002078], [El arte de morir (2000) -> suspense] 
+
+srcNodes: [5000555, 5000057, 8002078]
+  path: 0[1591545 -> 2128085 -> 1429536 -> 5000555], [Near Death (2004) -> Haggerty, Joe (I) -> Hollywood Confidential (2008) -> Crime,Thriller] 
+
+  path: 1[1591545 -> 2073215 -> 1876240 -> 5000057], [Near Death (2004) -> Darchuk, Carl -> What Ever Happened to Alice (2003) -> Thriller] 
+
+  path: 2[1591545 -> 8002078], [Near Death (2004) -> suspense] 
+
+srcNodes: [5001354, 5001354, 8002078]
+  path: 0[1456569 -> 5001354], [Interrogation (2006/I) -> Thriller,Crime,Drama,Mystery] 
+
+  path: 1[1456569 -> 5001354], [Interrogation (2006/I) -> Thriller,Crime,Drama,Mystery] 
+
+  path: 2[1456569 -> 8002078], [Interrogation (2006/I) -> suspense] 
+
+srcNodes: [5000072, 5000057, 8002078]
+  path: 0[1809577 -> 2097415 -> 1353353 -> 5000072], [The Sinners (2010) -> Farr, Asad -> El padrino 2 (2008) -> Crime] 
+
+  path: 1[1809577 -> 5000057], [The Sinners (2010) -> Thriller] 
+
+  path: 2[1809577 -> 2077165 -> 1852371 -> 8002078], [The Sinners (2010) -> Decaro, Brian -> Undone (2008/II) -> suspense] 
+
+Dissims of Subsets and t:
+(0~0, 1) : 0.3333333333333333
+(0~1, 2) : 0.3333333333333333
+(0~2, 3) : 0.6
+(0~3, 4) : 0.4
+-----------------------------------------
+ResultDestNodes: [1805240, 1349997, 1591545, 1456569, 1809577]
+ResultRelevs: [10.043830871582031, 10.04383373260498, 10.043834686279297, 10.367443084716797, 10.585323333740234]
+AvgResultRelev: 10.216853141784668
+AvgResultDissimilarity: 0.44000000000000006
+Num of entries retrieved from the KNLists: 2801
+Num of entries retrieved from NKMaps: 5077
+Num of answer trees explored: 1378
+Num of answer tree sets created: 10
+Num of answer tree sets removed: 2
+
+query: [ghost, mystery, animation]
+Div Top-k Search by SimGrp, dissim thr=0.3
+[ghost, mystery, animation]
+srcNodes: [1775326, 5000017, 5000019]
+  path: 0[635110 -> 2395957 -> 1753874 -> 2142630 -> 1775326], ["Mystery Ink" (2003) -> McKee, Tracey -> The Art of War (2000) -> Hong, James (I) -> The Ghost (2001)] 
+
+  path: 1[635110 -> 5000017], ["Mystery Ink" (2003) -> Mystery] 
+
+  path: 2[635110 -> 2403212 -> 460558 -> 5000019], ["Mystery Ink" (2003) -> Morehouse, Jennifer -> "Inuk" (2001) -> Animation] 
+
+srcNodes: [1775326, 5000245, 5000019]
+  path: 0[1775326 -> 1775326], [The Ghost (2001) -> The Ghost (2001)]
+  path: 1[1775326 -> 2146191 -> 1302996 -> 5000245], [The Ghost (2001) -> Hunt, Kevin (I) -> Dancing at the Blue Iguana (2000) -> Drama,Mystery] 
+
+  path: 2[1775326 -> 2196973 -> 1787628 -> 5000019], [The Ghost (2001) -> Madsen, Michael (I) -> The Lion of Judah (2011) -> Animation] 
+
+srcNodes: [1775326, 5001188, 5000019]
+  path: 0[1787628 -> 2196973 -> 1775326], [The Lion of Judah (2011) -> Madsen, Michael (I) -> The Ghost (2001)] 
+
+  path: 1[1787628 -> 2166850 -> 1491568 -> 5001188], [The Lion of Judah (2011) -> Kher, Anupam -> Kyaa Kool Hai Hum (2005) -> Comedy,Mystery] 
+
+  path: 2[1787628 -> 5000019], [The Lion of Judah (2011) -> Animation] 
+
+srcNodes: [1398432, 5000017, 5000019]
+  path: 0[1398432 -> 1398432], [Ghost World (2001) -> Ghost World (2001)]
+  path: 1[1398432 -> 2266678 -> 1706357 -> 5000017], [Ghost World (2001) -> Reid, Greg Wendell -> Silent Nights (2009) -> Mystery] 
+
+  path: 2[1398432 -> 2044357 -> 1561272 -> 5000019], [Ghost World (2001) -> Buscemi, Steve -> Megalomania (2013) -> Animation] 
+
+srcNodes: [8003253, 5000017, 5000019]
+  path: 0[2103880 -> 1270964 -> 2293092 -> 1720472 -> 8003253], [Forest, Michael (I) -> Cast Away (2000) -> Birkell, Lauren -> Spectres (2004) -> ghost] 
+
+  path: 1[2103880 -> 1666637 -> 5000017], [Forest, Michael (I) -> Replay (2003) -> Mystery] 
+
+  path: 2[2103880 -> 687700 -> 5000019], [Forest, Michael (I) -> "Otogi zôshi" (2004) -> Animation] 
+
+Dissims of Subsets and t:
+(0~0, 1) : 0.3333333333333333
+(0~1, 2) : 0.3333333333333333
+(0~2, 3) : 0.5555555555555555
+(0~3, 4) : 0.49999999999999994
+-----------------------------------------
+ResultDestNodes: [635110, 1775326, 1787628, 1398432, 2103880]
+ResultRelevs: [9.055988311767578, 9.086650848388672, 9.100371360778809, 9.219095230102539, 9.547950744628906]
+AvgResultRelev: 9.2020112991333
+AvgResultDissimilarity: 0.4666666666666666
+Num of entries retrieved from the KNLists: 5646
+Num of entries retrieved from NKMaps: 9206
+Num of answer trees explored: 2904
+Num of answer tree sets created: 5
+Num of answer tree sets removed: 1
+
+query: [fraud, deception, betrayal]
+Div Top-k Search by SimGrp, dissim thr=0.3
+[fraud, deception, betrayal]
+srcNodes: [1369736, 1796784, 1238832]
+  path: 0[2267526 -> 1369736], [Rennie, Callum Keith -> Faith, Fraud, & Minimum Wage (2010)] 
+
+  path: 1[2267526 -> 1562455 -> 2033890 -> 1796784], [Rennie, Callum Keith -> Memento (2000) -> Boone Junior, Mark -> The North Pole Deception (2010)] 
+
+  path: 2[2267526 -> 1247035 -> 2267241 -> 1238832], [Rennie, Callum Keith -> Blade: Trinity (2004) -> Remar, James -> Betrayal (2003)] 
+
+srcNodes: [1369736, 1312711, 1238832]
+  path: 0[1312711 -> 2473353 -> 1178682 -> 2396287 -> 1369736], [Deception (2008/I) -> Williams, Michelle (I) -> A Hole in One (2004) -> McLean, Rhonda -> Faith, Fraud, & Minimum Wage (2010)] 
+
+  path: 1[1312711 -> 1312711], [Deception (2008/I) -> Deception (2008/I)]
+  path: 2[1312711 -> 2426309 -> 1343856 -> 2325328 -> 1238832], [Deception (2008/I) -> Rampling, Charlotte -> Désaccord parfait (2006) -> du Page, Julie -> Betrayal (2003)] 
+
+srcNodes: [8002077, 1337137, 1238832]
+  path: 0[2199705 -> 1741287 -> 2267510 -> 1179767 -> 8002077], [Mandylor, Louis -> Take (2007) -> Renner, Jeremy -> A Little Trip to Heaven (2005) -> 1973-mercury-cougar,autopsy,bathing,blizzard,brother-sister-relationship,burned-alive,car-accident,cemetery,corpse,cougar,fake-identity,fraud,insurance-fraud,life-insurance,mercury,mercury-cougar,murder,shot-in-the-head,snow,surprise-ending,switched-identity,young-boy] 
+
+  path: 1[2199705 -> 1337137], [Mandylor, Louis -> Double Deception (2001)] 
+
+  path: 2[2199705 -> 1238832], [Mandylor, Louis -> Betrayal (2003)] 
+
+srcNodes: [1369736, 1312705, 1238832]
+  path: 0[1312705 -> 2470481 -> 1264895 -> 2292097 -> 1369736], [Deception (2003) -> Webb, Jacklin -> Café Olé (2000) -> Besso, Claudia -> Faith, Fraud, & Minimum Wage (2010)] 
+
+  path: 1[1312705 -> 1312705], [Deception (2003) -> Deception (2003)]
+  path: 2[1312705 -> 2384534 -> 1409106 -> 2267241 -> 1238832], [Deception (2003) -> Lombard, Karina -> Guardian (2001) -> Remar, James -> Betrayal (2003)] 
+
+srcNodes: [1369736, 1337137, 1238832]
+  path: 0[1238832 -> 2267241 -> 1247035 -> 2267526 -> 1369736], [Betrayal (2003) -> Remar, James -> Blade: Trinity (2004) -> Rennie, Callum Keith -> Faith, Fraud, & Minimum Wage (2010)] 
+
+  path: 1[1238832 -> 2199705 -> 1337137], [Betrayal (2003) -> Mandylor, Louis -> Double Deception (2001)] 
+
+  path: 2[1238832 -> 1238832], [Betrayal (2003) -> Betrayal (2003)]
+Dissims of Subsets and t:
+(0~0, 1) : 0.3333333333333333
+(0~1, 2) : 0.6666666666666666
+(0~2, 3) : 0.4444444444444444
+(0~3, 4) : 0.3333333333333333
+-----------------------------------------
+ResultDestNodes: [2267526, 1312711, 2199705, 1312705, 1238832]
+ResultRelevs: [6.276029109954834, 6.666058540344238, 6.687131881713867, 7.680564880371094, 7.967581748962402]
+AvgResultRelev: 7.0554732322692875
+AvgResultDissimilarity: 0.4333333333333333
+Num of entries retrieved from the KNLists: 1571
+Num of entries retrieved from NKMaps: 2567
+Num of answer trees explored: 939
+Num of answer tree sets created: 17
+Num of answer tree sets removed: 5
+
+query: [murder, psychopath, mystery]
+Div Top-k Search by SimGrp, dissim thr=0.3
+[murder, psychopath, mystery]
+srcNodes: [1709131, 6015907, 5000017]
+  path: 0[1709131 -> 1709131], [Six Sex Scenes and a Murder (2008) -> Six Sex Scenes and a Murder (2008)]
+  path: 1[1709131 -> 2265879 -> 1451872 -> 6015907], [Six Sex Scenes and a Murder (2008) -> Redlick, Jeff -> In the Eyes of a Killer (2009) -> Jack Newman lectures] 
+
+  path: 2[1709131 -> 5000017], [Six Sex Scenes and a Murder (2008) -> Mystery] 
+
+srcNodes: [1580816, 1652326, 5000017]
+  path: 0[1683694 -> 2195876 -> 1580816], [San Saba (2008) -> Macfadyen, Angus (I) -> Murder on the Yellow Brick Road (2005)] 
+
+  path: 1[1683694 -> 2294369 -> 1242070 -> 2007547 -> 1652326], [San Saba (2008) -> Blum, Mehera -> Big Momma's House 2 (2006) -> Ambler, Jeremy -> Psychopath (2009)] 
+
+  path: 2[1683694 -> 5000017], [San Saba (2008) -> Mystery] 
+
+srcNodes: [2045528, 1652326, 5000017]
+  path: 0[1584746 -> 2275433 -> 1852344 -> 2045528], [Mysteria (2011) -> Rooker, Michael (I) -> Undisputed (2002) -> C-Murder] 
+
+  path: 1[1584746 -> 2060542 -> 1242070 -> 2007547 -> 1652326], [Mysteria (2011) -> Clendenin, Curt -> Big Momma's House 2 (2006) -> Ambler, Jeremy -> Psychopath (2009)] 
+
+  path: 2[1584746 -> 5000017], [Mysteria (2011) -> Mystery] 
+
+srcNodes: [8001318, 1652326, 5000017]
+  path: 0[1192691 -> 2472648 -> 1647634 -> 8001318], [Adventureland (2009) -> Wiig, Kristen -> Pretty Bird (2008) -> murder] 
+
+  path: 1[1192691 -> 2007547 -> 1652326], [Adventureland (2009) -> Ambler, Jeremy -> Psychopath (2009)] 
+
+  path: 2[1192691 -> 2293076 -> 1666637 -> 5000017], [Adventureland (2009) -> Birdsong, Mary -> Replay (2003) -> Mystery] 
+
+srcNodes: [8012066, 1652326, 5000017]
+  path: 0[1383635 -> 8012066], [Foresight (2009/I) -> murder,psychic,satire,skeptic] 
+
+  path: 1[1383635 -> 2363531 -> 1365131 -> 2007547 -> 1652326], [Foresight (2009/I) -> Johnson, Bonnie (I) -> Evan Almighty (2007) -> Ambler, Jeremy -> Psychopath (2009)] 
+
+  path: 2[1383635 -> 5000017], [Foresight (2009/I) -> Mystery] 
+
+Dissims of Subsets and t:
+(0~0, 1) : 0.6666666666666666
+(0~1, 2) : 0.5
+(0~2, 3) : 0.4444444444444444
+(0~3, 4) : 0.41666666666666663
+-----------------------------------------
+ResultDestNodes: [1709131, 1683694, 1584746, 1192691, 1383635]
+ResultRelevs: [7.8328776359558105, 7.8626532554626465, 7.98163366317749, 8.008769035339355, 8.58254623413086]
+AvgResultRelev: 8.053695964813233
+AvgResultDissimilarity: 0.4666666666666666
+Num of entries retrieved from the KNLists: 3311
+Num of entries retrieved from NKMaps: 5684
+Num of answer trees explored: 1943
+Num of answer tree sets created: 5
+Num of answer tree sets removed: 1
+
+query: [romance, conflict, marriage]
+Div Top-k Search by SimGrp, dissim thr=0.3
+[romance, conflict, marriage]
+srcNodes: [5000002, 1372482, 8035599]
+  path: 0[1690596 -> 5000002], [Scusa ma ti chiamo amore (2008) -> Romance] 
+
+  path: 1[1690596 -> 2035679 -> 1188310 -> 2100559 -> 1372482], [Scusa ma ti chiamo amore (2008) -> Bova, Raoul -> AVP: Alien vs. Predator (2004) -> Filipensky, Jan Pavel -> Fatal Conflict (2000)] 
+
+  path: 2[1690596 -> 2390626 -> 1866505 -> 8035599], [Scusa ma ti chiamo amore (2008) -> Marengo, Gisella -> Voce del verbo amore (2007) -> family-relationships,marriage,sex] 
+
+srcNodes: [5000002, 1290249, 8026364]
+  path: 0[1229230 -> 5000002], [Balu (2005) -> Romance] 
+
+  path: 1[1229230 -> 2124463 -> 1234927 -> 2277053 -> 1290249], [Balu (2005) -> Grover, Gulshan -> Beeper (2002) -> Adams, Joey Lauren -> Conflict (2005/I)] 
+
+  path: 2[1229230 -> 2265800 -> 1684546 -> 8026364], [Balu (2005) -> Reddy, Raghunatha -> Sankranthi (2005) -> hardship,jealousy,marriage] 
+
+srcNodes: [5000002, 1763891, 8030835]
+  path: 0[1214086 -> 5000002], [April Moon (2007) -> Romance] 
+
+  path: 1[1214086 -> 2250680 -> 1302674 -> 2253325 -> 1763891], [April Moon (2007) -> Perry, Brien -> Dance Flick (2009) -> Pierce, Ernest -> The Conflict of Ms. Boston (2010)] 
+
+  path: 2[1214086 -> 2120070 -> 1770706 -> 8030835], [April Moon (2007) -> Gorman, Jeffrey A. -> The Exception (2007) -> independent-film,marriage] 
+
+srcNodes: [5000002, 1290249, 8030458]
+  path: 0[1839404 -> 5000002], [Tricks of a Woman (2008) -> Romance] 
+
+  path: 1[1839404 -> 2246846 -> 1721085 -> 2184051 -> 1290249], [Tricks of a Woman (2008) -> Pastore, Vincent -> Spider-Man 2 (2004) -> Lee, Stan (I) -> Conflict (2005/I)] 
+
+  path: 2[1839404 -> 2246846 -> 1764178 -> 8030458], [Tricks of a Woman (2008) -> Pastore, Vincent -> The Cookout (2004) -> flatulence,interracial-marriage,male-female-relationship,marriage] 
+
+srcNodes: [5000002, 1290249, 8012626]
+  path: 0[1602901 -> 5000002], [Nowheresville (2000) -> Romance] 
+
+  path: 1[1602901 -> 2193016 -> 1582333 -> 2215276 -> 1290249], [Nowheresville (2000) -> Lubatti, Henri -> My Big Fat Independent Movie (2005) -> Mewes, Jason -> Conflict (2005/I)] 
+
+  path: 2[1602901 -> 8012626], [Nowheresville (2000) -> independent-film,marriage-proposal] 
+
+Dissims of Subsets and t:
+(0~0, 1) : 0.6666666666666666
+(0~1, 2) : 0.6666666666666666
+(0~2, 3) : 0.5555555555555555
+(0~3, 4) : 0.49999999999999994
+-----------------------------------------
+ResultDestNodes: [1690596, 1229230, 1214086, 1839404, 1602901]
+ResultRelevs: [7.177361488342285, 7.177361965179443, 7.177362442016602, 7.256394863128662, 8.16293716430664]
+AvgResultRelev: 7.390283584594727
+AvgResultDissimilarity: 0.5666666666666667
+Num of entries retrieved from the KNLists: 1608
+Num of entries retrieved from NKMaps: 2625
+Num of answer trees explored: 814
+Num of answer tree sets created: 5
+Num of answer tree sets removed: 1
+

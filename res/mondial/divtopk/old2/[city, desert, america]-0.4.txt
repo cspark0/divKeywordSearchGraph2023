@@ -1,0 +1,417 @@
+Top-k Search by Blink-BDB, k=10
+[city, desert, america]
+srcNodes: [40954, 130003, 10001]
+  path: 0[10001 -> 20113 -> 40954], [America -> Guatemala -> Guatemala City] 
+
+  path: 1[10001 -> 20114 -> 30942 -> 130003], [America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [41254, 130025, 10001]
+  path: 0[20118 -> 31011 -> 41254], [United States -> Missouri -> Kansas City] 
+
+  path: 1[20118 -> 31030 -> 130025], [United States -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [41702, 130003, 10001]
+  path: 0[20114 -> 30972 -> 41702], [Mexico -> Distrito Federal -> Mexico City] 
+
+  path: 1[20114 -> 30942 -> 130003], [Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20114 -> 10001], [Mexico -> America] 
+
+srcNodes: [40954, 130003, 10001]
+  path: 0[20113 -> 40954], [Guatemala -> Guatemala City] 
+
+  path: 1[20113 -> 10001 -> 20114 -> 30942 -> 130003], [Guatemala -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20113 -> 10001], [Guatemala -> America] 
+
+srcNodes: [42277, 130003, 10001]
+  path: 0[20124 -> 42277], [Dominica -> Roseau] 
+
+  path: 1[20124 -> 10001 -> 20114 -> 30942 -> 130003], [Dominica -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20124 -> 10001], [Dominica -> America] 
+
+srcNodes: [42031, 130003, 10001]
+  path: 0[20178 -> 42031], [Suriname -> Paramaribo] 
+
+  path: 1[20178 -> 10001 -> 20114 -> 30942 -> 130003], [Suriname -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20178 -> 10001], [Suriname -> America] 
+
+srcNodes: [40485, 130003, 10001]
+  path: 0[20176 -> 40485], [French Guiana -> Cayenne] 
+
+  path: 1[20176 -> 10001 -> 20114 -> 30942 -> 130003], [French Guiana -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20176 -> 10001], [French Guiana -> America] 
+
+srcNodes: [41932, 130003, 10001]
+  path: 0[20129 -> 41932], [Greenland -> Nuuk] 
+
+  path: 1[20129 -> 10001 -> 20114 -> 30942 -> 130003], [Greenland -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20129 -> 10001], [Greenland -> America] 
+
+srcNodes: [42571, 130003, 10001]
+  path: 0[20127 -> 42571], [El Salvador -> Soyapango] 
+
+  path: 1[20127 -> 10001 -> 20114 -> 30942 -> 130003], [El Salvador -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20127 -> 10001], [El Salvador -> America] 
+
+srcNodes: [40928, 130003, 10001]
+  path: 0[20121 -> 40928], [Nicaragua -> Granada] 
+
+  path: 1[20121 -> 10001 -> 20114 -> 30942 -> 130003], [Nicaragua -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20121 -> 10001], [Nicaragua -> America] 
+
+-----------------------------------------
+Num of top-k answers: 10
+ResultDestNodes: [10001, 20118, 20114, 20113, 20124, 20178, 20176, 20129, 20127, 20121]
+ResultRelevs: [9.73723030090332, 5.836851119995117, 5.836851119995117, 5.556055068969727, 5.48407506942749, 5.48407506942749, 5.48407506942749, 5.48407506942749, 5.48407506942749, 5.48407506942749]
+AvgResultRelev: 5.987143802642822
+AvgResultDissimilarity: 0.548888888888889
+Num of entries retrieved from the lists: 162
+Num of entries retrieved from NKMaps: 259
+Num of answer trees explored: 61
+
+Div Top-k Search by Astar110
+[city, desert, america]
+srcNodes: [40954, 130003, 10001]
+  path: 0[10001 -> 20113 -> 40954], [America -> Guatemala -> Guatemala City] 
+
+  path: 1[10001 -> 20114 -> 30942 -> 130003], [America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [41254, 130025, 10001]
+  path: 0[20118 -> 31011 -> 41254], [United States -> Missouri -> Kansas City] 
+
+  path: 1[20118 -> 31030 -> 130025], [United States -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [41702, 130003, 10001]
+  path: 0[20114 -> 30972 -> 41702], [Mexico -> Distrito Federal -> Mexico City] 
+
+  path: 1[20114 -> 30942 -> 130003], [Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20114 -> 10001], [Mexico -> America] 
+
+srcNodes: [40954, 130003, 10001]
+  path: 0[20113 -> 40954], [Guatemala -> Guatemala City] 
+
+  path: 1[20113 -> 10001 -> 20114 -> 30942 -> 130003], [Guatemala -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20113 -> 10001], [Guatemala -> America] 
+
+srcNodes: [42108, 130003, 10001]
+  path: 0[20134 -> 42108], [Montserrat -> Plymouth] 
+
+  path: 1[20134 -> 10001 -> 20114 -> 30942 -> 130003], [Montserrat -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20134 -> 10001], [Montserrat -> America] 
+
+srcNodes: [40891, 130003, 10001]
+  path: 0[20177 -> 40891], [Guyana -> Georgetown] 
+
+  path: 1[20177 -> 10001 -> 20114 -> 30942 -> 130003], [Guyana -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20177 -> 10001], [Guyana -> America] 
+
+srcNodes: [40279, 130003, 10001]
+  path: 0[20112 -> 40279], [Belize -> Belmopan] 
+
+  path: 1[20112 -> 10001 -> 20114 -> 30942 -> 130003], [Belize -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20112 -> 10001], [Belize -> America] 
+
+srcNodes: [42723, 130003, 10001]
+  path: 0[20107 -> 42723], [Anguilla -> The Valley] 
+
+  path: 1[20107 -> 10001 -> 20114 -> 30942 -> 130003], [Anguilla -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20107 -> 10001], [Anguilla -> America] 
+
+srcNodes: [42954, 130003, 10001]
+  path: 0[20135 -> 42954], [Netherlands Antilles -> Willemstad] 
+
+  path: 1[20135 -> 10001 -> 20114 -> 30942 -> 130003], [Netherlands Antilles -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20135 -> 10001], [Netherlands Antilles -> America] 
+
+srcNodes: [42583, 130003, 10001]
+  path: 0[20181 -> 42583], [Falkland Islands -> Stanley] 
+
+  path: 1[20181 -> 10001 -> 20114 -> 30942 -> 130003], [Falkland Islands -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20181 -> 10001], [Falkland Islands -> America] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20118, 20114, 20113, 20134, 20177, 20112, 20107, 20135, 20181]
+ResultRelevs: [9.73723030090332, 5.836851119995117, 5.836851119995117, 5.556055068969727, 5.48407506942749, 5.48407506942749, 5.48407506942749, 5.48407506942749, 5.48407506942749, 5.48407506942749]
+AvgResultRelev: 5.987143802642822
+AvgResultDissimilarity: 0.5488888621330261
+Num of entries retrieved from the KNLists: 165
+Num of entries retrieved from NKMaps: 262
+Num of answer trees explored: 62
+Num of states created: 3115
+Num of states explored: 259
+Num of heuristic search performed: 22
+Max Num of answer tree sets in Q[]: 1071
+
+Div Top-k Search by Astar1m10
+[city, desert, america]
+srcNodes: [40954, 130003, 10001]
+  path: 0[10001 -> 20113 -> 40954], [America -> Guatemala -> Guatemala City] 
+
+  path: 1[10001 -> 20114 -> 30942 -> 130003], [America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [41254, 130025, 10001]
+  path: 0[20118 -> 31011 -> 41254], [United States -> Missouri -> Kansas City] 
+
+  path: 1[20118 -> 31030 -> 130025], [United States -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [41702, 130003, 10001]
+  path: 0[20114 -> 30972 -> 41702], [Mexico -> Distrito Federal -> Mexico City] 
+
+  path: 1[20114 -> 30942 -> 130003], [Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20114 -> 10001], [Mexico -> America] 
+
+srcNodes: [40954, 130003, 10001]
+  path: 0[20113 -> 40954], [Guatemala -> Guatemala City] 
+
+  path: 1[20113 -> 10001 -> 20114 -> 30942 -> 130003], [Guatemala -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20113 -> 10001], [Guatemala -> America] 
+
+srcNodes: [42108, 130003, 10001]
+  path: 0[20134 -> 42108], [Montserrat -> Plymouth] 
+
+  path: 1[20134 -> 10001 -> 20114 -> 30942 -> 130003], [Montserrat -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20134 -> 10001], [Montserrat -> America] 
+
+srcNodes: [40891, 130003, 10001]
+  path: 0[20177 -> 40891], [Guyana -> Georgetown] 
+
+  path: 1[20177 -> 10001 -> 20114 -> 30942 -> 130003], [Guyana -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20177 -> 10001], [Guyana -> America] 
+
+srcNodes: [40279, 130003, 10001]
+  path: 0[20112 -> 40279], [Belize -> Belmopan] 
+
+  path: 1[20112 -> 10001 -> 20114 -> 30942 -> 130003], [Belize -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20112 -> 10001], [Belize -> America] 
+
+srcNodes: [42723, 130003, 10001]
+  path: 0[20107 -> 42723], [Anguilla -> The Valley] 
+
+  path: 1[20107 -> 10001 -> 20114 -> 30942 -> 130003], [Anguilla -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20107 -> 10001], [Anguilla -> America] 
+
+srcNodes: [42954, 130003, 10001]
+  path: 0[20135 -> 42954], [Netherlands Antilles -> Willemstad] 
+
+  path: 1[20135 -> 10001 -> 20114 -> 30942 -> 130003], [Netherlands Antilles -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20135 -> 10001], [Netherlands Antilles -> America] 
+
+srcNodes: [42583, 130003, 10001]
+  path: 0[20181 -> 42583], [Falkland Islands -> Stanley] 
+
+  path: 1[20181 -> 10001 -> 20114 -> 30942 -> 130003], [Falkland Islands -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20181 -> 10001], [Falkland Islands -> America] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20118, 20114, 20113, 20134, 20177, 20112, 20107, 20135, 20181]
+ResultRelevs: [9.73723030090332, 5.836851119995117, 5.836851119995117, 5.556055068969727, 5.48407506942749, 5.48407506942749, 5.48407506942749, 5.48407506942749, 5.48407506942749, 5.48407506942749]
+AvgResultRelev: 5.987143802642822
+AvgResultDissimilarity: 0.5488888621330261
+Num of entries retrieved from the KNLists: 165
+Num of entries retrieved from NKMaps: 262
+Num of answer trees explored: 62
+Num of states created: 6424
+Num of states explored: 2464
+Num of heuristic search performed: 22
+Max Num of answer tree sets in Q[]: 1071
+
+Div Top-k Search by Astar210
+[city, desert, america]
+srcNodes: [40954, 130003, 10001]
+  path: 0[10001 -> 20113 -> 40954], [America -> Guatemala -> Guatemala City] 
+
+  path: 1[10001 -> 20114 -> 30942 -> 130003], [America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [41254, 130025, 10001]
+  path: 0[20118 -> 31011 -> 41254], [United States -> Missouri -> Kansas City] 
+
+  path: 1[20118 -> 31030 -> 130025], [United States -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [41702, 130003, 10001]
+  path: 0[20114 -> 30972 -> 41702], [Mexico -> Distrito Federal -> Mexico City] 
+
+  path: 1[20114 -> 30942 -> 130003], [Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20114 -> 10001], [Mexico -> America] 
+
+srcNodes: [40954, 130003, 10001]
+  path: 0[20113 -> 40954], [Guatemala -> Guatemala City] 
+
+  path: 1[20113 -> 10001 -> 20114 -> 30942 -> 130003], [Guatemala -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20113 -> 10001], [Guatemala -> America] 
+
+srcNodes: [42108, 130003, 10001]
+  path: 0[20134 -> 42108], [Montserrat -> Plymouth] 
+
+  path: 1[20134 -> 10001 -> 20114 -> 30942 -> 130003], [Montserrat -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20134 -> 10001], [Montserrat -> America] 
+
+srcNodes: [40891, 130003, 10001]
+  path: 0[20177 -> 40891], [Guyana -> Georgetown] 
+
+  path: 1[20177 -> 10001 -> 20114 -> 30942 -> 130003], [Guyana -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20177 -> 10001], [Guyana -> America] 
+
+srcNodes: [40279, 130003, 10001]
+  path: 0[20112 -> 40279], [Belize -> Belmopan] 
+
+  path: 1[20112 -> 10001 -> 20114 -> 30942 -> 130003], [Belize -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20112 -> 10001], [Belize -> America] 
+
+srcNodes: [42723, 130003, 10001]
+  path: 0[20107 -> 42723], [Anguilla -> The Valley] 
+
+  path: 1[20107 -> 10001 -> 20114 -> 30942 -> 130003], [Anguilla -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20107 -> 10001], [Anguilla -> America] 
+
+srcNodes: [42954, 130003, 10001]
+  path: 0[20135 -> 42954], [Netherlands Antilles -> Willemstad] 
+
+  path: 1[20135 -> 10001 -> 20114 -> 30942 -> 130003], [Netherlands Antilles -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20135 -> 10001], [Netherlands Antilles -> America] 
+
+srcNodes: [42583, 130003, 10001]
+  path: 0[20181 -> 42583], [Falkland Islands -> Stanley] 
+
+  path: 1[20181 -> 10001 -> 20114 -> 30942 -> 130003], [Falkland Islands -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20181 -> 10001], [Falkland Islands -> America] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20118, 20114, 20113, 20134, 20177, 20112, 20107, 20135, 20181]
+ResultRelevs: [9.73723030090332, 5.836851119995117, 5.836851119995117, 5.556055068969727, 5.48407506942749, 5.48407506942749, 5.48407506942749, 5.48407506942749, 5.48407506942749, 5.48407506942749]
+AvgResultRelev: 5.987143802642822
+AvgResultDissimilarity: 0.5488888621330261
+Num of entries retrieved from the KNLists: 165
+Num of entries retrieved from NKMaps: 262
+Num of answer trees explored: 62
+Num of states created: 3115
+Num of states explored: 259
+Num of heuristic search performed: 22
+Max Num of answer tree sets in Q[]: 1071
+
+Div Top-k Search by Astar2m10
+[city, desert, america]
+srcNodes: [40954, 130003, 10001]
+  path: 0[10001 -> 20113 -> 40954], [America -> Guatemala -> Guatemala City] 
+
+  path: 1[10001 -> 20114 -> 30942 -> 130003], [America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[10001 -> 10001], [America -> America]
+srcNodes: [41254, 130025, 10001]
+  path: 0[20118 -> 31011 -> 41254], [United States -> Missouri -> Kansas City] 
+
+  path: 1[20118 -> 31030 -> 130025], [United States -> Utah -> Great Salt Lake Desert] 
+
+  path: 2[20118 -> 10001], [United States -> America] 
+
+srcNodes: [41702, 130003, 10001]
+  path: 0[20114 -> 30972 -> 41702], [Mexico -> Distrito Federal -> Mexico City] 
+
+  path: 1[20114 -> 30942 -> 130003], [Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20114 -> 10001], [Mexico -> America] 
+
+srcNodes: [40954, 130003, 10001]
+  path: 0[20113 -> 40954], [Guatemala -> Guatemala City] 
+
+  path: 1[20113 -> 10001 -> 20114 -> 30942 -> 130003], [Guatemala -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20113 -> 10001], [Guatemala -> America] 
+
+srcNodes: [42108, 130003, 10001]
+  path: 0[20134 -> 42108], [Montserrat -> Plymouth] 
+
+  path: 1[20134 -> 10001 -> 20114 -> 30942 -> 130003], [Montserrat -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20134 -> 10001], [Montserrat -> America] 
+
+srcNodes: [41323, 130003, 10001]
+  path: 0[20142 -> 41323], [Saint Vincent and the Grenadines -> Kingstown] 
+
+  path: 1[20142 -> 10001 -> 20114 -> 30942 -> 130003], [Saint Vincent and the Grenadines -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20142 -> 10001], [Saint Vincent and the Grenadines -> America] 
+
+srcNodes: [42723, 130003, 10001]
+  path: 0[20107 -> 42723], [Anguilla -> The Valley] 
+
+  path: 1[20107 -> 10001 -> 20114 -> 30942 -> 130003], [Anguilla -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20107 -> 10001], [Anguilla -> America] 
+
+srcNodes: [42954, 130003, 10001]
+  path: 0[20135 -> 42954], [Netherlands Antilles -> Willemstad] 
+
+  path: 1[20135 -> 10001 -> 20114 -> 30942 -> 130003], [Netherlands Antilles -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20135 -> 10001], [Netherlands Antilles -> America] 
+
+srcNodes: [42583, 130003, 10001]
+  path: 0[20181 -> 42583], [Falkland Islands -> Stanley] 
+
+  path: 1[20181 -> 10001 -> 20114 -> 30942 -> 130003], [Falkland Islands -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20181 -> 10001], [Falkland Islands -> America] 
+
+srcNodes: [42200, 130003, 10001]
+  path: 0[20180 -> 42200], [Ecuador -> Quito] 
+
+  path: 1[20180 -> 10001 -> 20114 -> 30942 -> 130003], [Ecuador -> America -> Mexico -> Baja California -> Baja California Desert] 
+
+  path: 2[20180 -> 10001], [Ecuador -> America] 
+
+-----------------------------------------
+ResultDestNodes: [10001, 20118, 20114, 20113, 20134, 20142, 20107, 20135, 20181, 20180]
+ResultRelevs: [9.73723030090332, 5.836851119995117, 5.836851119995117, 5.556055068969727, 5.48407506942749, 5.48407506942749, 5.48407506942749, 5.48407506942749, 5.48407506942749, 5.48407506942749]
+AvgResultRelev: 5.987143802642822
+AvgResultDissimilarity: 0.5488888621330261
+Num of entries retrieved from the KNLists: 165
+Num of entries retrieved from NKMaps: 262
+Num of answer trees explored: 62
+Num of states created: 5148
+Num of states explored: 3019
+Num of heuristic search performed: 22
+Max Num of answer tree sets in Q[]: 0
+

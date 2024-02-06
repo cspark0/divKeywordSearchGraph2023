@@ -1,0 +1,6 @@
+Top-k, (AvgResultRelev, AvgResultRelev/ResultRelevs[0], AvgResultDiss) numOfKNListsRead, numOfNKMapLookups, numOfAnswerTreesExplored, elapseTime, 
+query: [police, gangster, fight]
+BlinkSearcher, 12, 8.04442, 0.85030, 0.59091, 1526, 2367, 657, 0.232878069, 
+BlinkSearcher, 12, 8.04442, 0.85030, 0.59091, 1526, 2367, 657, 0.094511897, 
+Astar1, 12, 8.00252, 0.84587, 0.70455, 4266, 6586, 1705, 334.282419554, 22139564, 3739136, 42 1330888, 
+Astar2, 12, 8.00252, 0.84587, 0.70455, 4266, 6586, 1705, 216.655603911, 5479266, 3739136, 42 383457, 

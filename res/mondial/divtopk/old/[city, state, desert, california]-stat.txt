@@ -1,0 +1,4 @@
+ResultDestNodes.length, numOfKNListsRead, numOfNKMapLookups, numOfAnswerTreesExplored, 
+elapseTime, (numOfNKMapLookups2/(float)numOfNKMapLookupsByKeyword, maxNKMap, minNKMap)
+5, 328, 733, 80, 6.18, 0.78: 0.40: 2.46, 2.34, 0.160485773, (NaN, 0, 0)
+5, 328, 733, 80, 0, 0, 0: 6.18, 0.78: 0.40 0.1001812, 

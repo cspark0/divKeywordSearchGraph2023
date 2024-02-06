@@ -1,0 +1,921 @@
+Blink Search Using BDB 10
+[cape, gulf, africa]
+srcNodes: [20212, 100010, 10000]
+  path: 0[10000 -> 20212], [Africa -> Cape Verde] 
+
+  path: 1[10000 -> 20220 -> 100010], [Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [20212, 100010, 10000]
+  path: 0[20212 -> 20212], [Cape Verde -> Cape Verde]
+  path: 1[20212 -> 10000 -> 20220 -> 100010], [Cape Verde -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20212 -> 10000], [Cape Verde -> Africa] 
+
+srcNodes: [20212, 100010, 10000]
+  path: 0[20217 -> 10000 -> 20212], [Djibouti -> Africa -> Cape Verde] 
+
+  path: 1[20217 -> 100010], [Djibouti -> Gulf of Aden] 
+
+  path: 2[20217 -> 10000], [Djibouti -> Africa] 
+
+srcNodes: [20212, 100010, 10000]
+  path: 0[20220 -> 10000 -> 20212], [Somalia -> Africa -> Cape Verde] 
+
+  path: 1[20220 -> 100010], [Somalia -> Gulf of Aden] 
+
+  path: 2[20220 -> 10000], [Somalia -> Africa] 
+
+srcNodes: [31337, 100010, 10000]
+  path: 0[20200 -> 31337], [South Africa -> Northern Cape] 
+
+  path: 1[20200 -> 10000 -> 20220 -> 100010], [South Africa -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20200 -> 10000], [South Africa -> Africa] 
+
+srcNodes: [40456, 100010, 10000]
+  path: 0[20203 -> 40456], [Ghana -> Cape Coast] 
+
+  path: 1[20203 -> 10000 -> 20220 -> 100010], [Ghana -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20203 -> 10000], [Ghana -> Africa] 
+
+srcNodes: [110110, 100010, 10000]
+  path: 0[110110 -> 110110], [Fogo Fogo Cape Verdes volcanic -> Fogo Fogo Cape Verdes volcanic]
+  path: 1[110110 -> 20212 -> 10000 -> 20220 -> 100010], [Fogo Fogo Cape Verdes volcanic -> Cape Verde -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[110110 -> 20212 -> 10000], [Fogo Fogo Cape Verdes volcanic -> Cape Verde -> Africa] 
+
+srcNodes: [62, 100010, 10000]
+  path: 0[62 -> 62], [Fogo Fogo Cape Verdes volcano -> Fogo Fogo Cape Verdes volcano]
+  path: 1[62 -> 20212 -> 10000 -> 20220 -> 100010], [Fogo Fogo Cape Verdes volcano -> Cape Verde -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[62 -> 20212 -> 10000], [Fogo Fogo Cape Verdes volcano -> Cape Verde -> Africa] 
+
+srcNodes: [110109, 100010, 10000]
+  path: 0[110109 -> 110109], [Santiago Santiago Cape Verdes volcanic -> Santiago Santiago Cape Verdes volcanic]
+  path: 1[110109 -> 20212 -> 10000 -> 20220 -> 100010], [Santiago Santiago Cape Verdes volcanic -> Cape Verde -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[110109 -> 20212 -> 10000], [Santiago Santiago Cape Verdes volcanic -> Cape Verde -> Africa] 
+
+srcNodes: [31337, 100010, 10000]
+  path: 0[31337 -> 31337], [Northern Cape -> Northern Cape]
+  path: 1[31337 -> 90213 -> 20227 -> 10000 -> 20220 -> 100010], [Northern Cape -> Oranje -> Lesotho -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[31337 -> 90213 -> 20227 -> 10000], [Northern Cape -> Oranje -> Lesotho -> Africa] 
+
+-----------------------------------------
+ResultDestNodes: [10000, 20212, 20217, 20220, 20200, 20203, 110110, 62, 110109, 31337]
+ResultRelevs: [11.34490966796875, 8.77397346496582, 7.289130210876465, 7.289130210876465, 6.92436408996582, 6.92436408996582, 6.750823020935059, 6.750823020935059, 6.750823020935059, 6.400154113769531]
+Num of top-k answers: 10
+Num of non-reduced answers: 0
+Num of duplicate answers: 4
+Num of non-redundant answers: 6
+Num of entries retrieved from the lists: 174
+Num of entries retrieved from NKMaps: 199
+
+Blink Search Using ConstRootDup10
+[cape, gulf, africa]
+srcNodes: [20212, 100010, 10000]
+  path: 0[10000 -> 20212], [Africa -> Cape Verde] 
+
+  path: 1[10000 -> 20220 -> 100010], [Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [20212, 100011, 10000]
+  path: 0[10000 -> 20212], [Africa -> Cape Verde] 
+
+  path: 1[10000 -> 20085 -> 10002 -> 20105 -> 100011], [Africa -> Egypt -> Asia -> Sri Lanka -> Gulf of Bengal] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [40456, 100010, 10000]
+  path: 0[10000 -> 20203 -> 40456], [Africa -> Ghana -> Cape Coast] 
+
+  path: 1[10000 -> 20220 -> 100010], [Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [20212, 50065, 10000]
+  path: 0[10000 -> 20212], [Africa -> Cape Verde] 
+
+  path: 1[10000 -> 20085 -> 10002 -> 20103 -> 50065], [Africa -> Egypt -> Asia -> Qatar -> Gulf Cooperation Council Gulf Cooperation Council GCC] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [62, 100010, 10000]
+  path: 0[10000 -> 20212 -> 62], [Africa -> Cape Verde -> Fogo Fogo Cape Verdes volcano] 
+
+  path: 1[10000 -> 20220 -> 100010], [Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [40457, 100010, 10000]
+  path: 0[10000 -> 20200 -> 31340 -> 40457], [Africa -> South Africa -> Western Cape -> Cape Town] 
+
+  path: 1[10000 -> 20220 -> 100010], [Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [40456, 100011, 10000]
+  path: 0[10000 -> 20203 -> 40456], [Africa -> Ghana -> Cape Coast] 
+
+  path: 1[10000 -> 20085 -> 10002 -> 20105 -> 100011], [Africa -> Egypt -> Asia -> Sri Lanka -> Gulf of Bengal] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [40456, 50065, 10000]
+  path: 0[10000 -> 20203 -> 40456], [Africa -> Ghana -> Cape Coast] 
+
+  path: 1[10000 -> 20085 -> 10002 -> 20103 -> 50065], [Africa -> Egypt -> Asia -> Qatar -> Gulf Cooperation Council Gulf Cooperation Council GCC] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [62, 100011, 10000]
+  path: 0[10000 -> 20212 -> 62], [Africa -> Cape Verde -> Fogo Fogo Cape Verdes volcano] 
+
+  path: 1[10000 -> 20085 -> 10002 -> 20105 -> 100011], [Africa -> Egypt -> Asia -> Sri Lanka -> Gulf of Bengal] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [62, 50065, 10000]
+  path: 0[10000 -> 20212 -> 62], [Africa -> Cape Verde -> Fogo Fogo Cape Verdes volcano] 
+
+  path: 1[10000 -> 20085 -> 10002 -> 20103 -> 50065], [Africa -> Egypt -> Asia -> Qatar -> Gulf Cooperation Council Gulf Cooperation Council GCC] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+-----------------------------------------
+ResultDestNodes: 
+10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 
+ResultRelevs: 
+11.34491, 10.821553, 10.728371, 10.723422, 10.57424, 10.420105, 10.205013, 10.106882, 10.050883, 9.952752, 
+Num of top-k answers: 10
+Num of duplicate answers: 0
+Num of duplicate roots in top-k answers: 9
+root duplication ratio: 1.0
+given max root duplication param: 1.0
+Num of entries retrieved from the lists: 20
+Num of entries retrieved from NKMaps: 111
+Num of answer trees explored: 408
+
+Blink Search Using BDB 20
+[cape, gulf, africa]
+srcNodes: [20212, 100010, 10000]
+  path: 0[10000 -> 20212], [Africa -> Cape Verde] 
+
+  path: 1[10000 -> 20220 -> 100010], [Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [20212, 100010, 10000]
+  path: 0[20212 -> 20212], [Cape Verde -> Cape Verde]
+  path: 1[20212 -> 10000 -> 20220 -> 100010], [Cape Verde -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20212 -> 10000], [Cape Verde -> Africa] 
+
+srcNodes: [20212, 100010, 10000]
+  path: 0[20220 -> 10000 -> 20212], [Somalia -> Africa -> Cape Verde] 
+
+  path: 1[20220 -> 100010], [Somalia -> Gulf of Aden] 
+
+  path: 2[20220 -> 10000], [Somalia -> Africa] 
+
+srcNodes: [20212, 100010, 10000]
+  path: 0[20217 -> 10000 -> 20212], [Djibouti -> Africa -> Cape Verde] 
+
+  path: 1[20217 -> 100010], [Djibouti -> Gulf of Aden] 
+
+  path: 2[20217 -> 10000], [Djibouti -> Africa] 
+
+srcNodes: [40456, 100010, 10000]
+  path: 0[20203 -> 40456], [Ghana -> Cape Coast] 
+
+  path: 1[20203 -> 10000 -> 20220 -> 100010], [Ghana -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20203 -> 10000], [Ghana -> Africa] 
+
+srcNodes: [31337, 100010, 10000]
+  path: 0[20200 -> 31337], [South Africa -> Northern Cape] 
+
+  path: 1[20200 -> 10000 -> 20220 -> 100010], [South Africa -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20200 -> 10000], [South Africa -> Africa] 
+
+srcNodes: [110109, 100010, 10000]
+  path: 0[110109 -> 110109], [Santiago Santiago Cape Verdes volcanic -> Santiago Santiago Cape Verdes volcanic]
+  path: 1[110109 -> 20212 -> 10000 -> 20220 -> 100010], [Santiago Santiago Cape Verdes volcanic -> Cape Verde -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[110109 -> 20212 -> 10000], [Santiago Santiago Cape Verdes volcanic -> Cape Verde -> Africa] 
+
+srcNodes: [62, 100010, 10000]
+  path: 0[62 -> 62], [Fogo Fogo Cape Verdes volcano -> Fogo Fogo Cape Verdes volcano]
+  path: 1[62 -> 20212 -> 10000 -> 20220 -> 100010], [Fogo Fogo Cape Verdes volcano -> Cape Verde -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[62 -> 20212 -> 10000], [Fogo Fogo Cape Verdes volcano -> Cape Verde -> Africa] 
+
+srcNodes: [110110, 100010, 10000]
+  path: 0[110110 -> 110110], [Fogo Fogo Cape Verdes volcanic -> Fogo Fogo Cape Verdes volcanic]
+  path: 1[110110 -> 20212 -> 10000 -> 20220 -> 100010], [Fogo Fogo Cape Verdes volcanic -> Cape Verde -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[110110 -> 20212 -> 10000], [Fogo Fogo Cape Verdes volcanic -> Cape Verde -> Africa] 
+
+srcNodes: [31337, 100010, 10000]
+  path: 0[31337 -> 31337], [Northern Cape -> Northern Cape]
+  path: 1[31337 -> 90213 -> 20227 -> 10000 -> 20220 -> 100010], [Northern Cape -> Oranje -> Lesotho -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[31337 -> 90213 -> 20227 -> 10000], [Northern Cape -> Oranje -> Lesotho -> Africa] 
+
+srcNodes: [20212, 100010, 10000]
+  path: 0[20193 -> 10000 -> 20212], [Zaire -> Africa -> Cape Verde] 
+
+  path: 1[20193 -> 10000 -> 20220 -> 100010], [Zaire -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20193 -> 10000], [Zaire -> Africa] 
+
+This is a non-reduced answer tree with common first node 10000
+
+srcNodes: [20212, 100010, 10000]
+  path: 0[20182 -> 10000 -> 20212], [Algeria -> Africa -> Cape Verde] 
+
+  path: 1[20182 -> 10000 -> 20220 -> 100010], [Algeria -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20182 -> 10000], [Algeria -> Africa] 
+
+This is a non-reduced answer tree with common first node 10000
+
+srcNodes: [20212, 100010, 10000]
+  path: 0[20184 -> 10000 -> 20212], [Mali -> Africa -> Cape Verde] 
+
+  path: 1[20184 -> 10000 -> 20220 -> 100010], [Mali -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20184 -> 10000], [Mali -> Africa] 
+
+This is a non-reduced answer tree with common first node 10000
+
+srcNodes: [20212, 100010, 10000]
+  path: 0[20222 -> 10000 -> 20212], [Gambia -> Africa -> Cape Verde] 
+
+  path: 1[20222 -> 10000 -> 20220 -> 100010], [Gambia -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20222 -> 10000], [Gambia -> Africa] 
+
+This is a non-reduced answer tree with common first node 10000
+
+srcNodes: [20212, 100010, 10000]
+  path: 0[20215 -> 10000 -> 20212], [Guinea -> Africa -> Cape Verde] 
+
+  path: 1[20215 -> 10000 -> 20220 -> 100010], [Guinea -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20215 -> 10000], [Guinea -> Africa] 
+
+This is a non-reduced answer tree with common first node 10000
+
+srcNodes: [20212, 100010, 10000]
+  path: 0[20183 -> 10000 -> 20212], [Libya -> Africa -> Cape Verde] 
+
+  path: 1[20183 -> 10000 -> 20220 -> 100010], [Libya -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20183 -> 10000], [Libya -> Africa] 
+
+This is a non-reduced answer tree with common first node 10000
+
+srcNodes: [20212, 100010, 10000]
+  path: 0[20216 -> 10000 -> 20212], [Liberia -> Africa -> Cape Verde] 
+
+  path: 1[20216 -> 10000 -> 20220 -> 100010], [Liberia -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20216 -> 10000], [Liberia -> Africa] 
+
+This is a non-reduced answer tree with common first node 10000
+
+srcNodes: [20212, 100010, 10000]
+  path: 0[20221 -> 10000 -> 20212], [Kenya -> Africa -> Cape Verde] 
+
+  path: 1[20221 -> 10000 -> 20220 -> 100010], [Kenya -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20221 -> 10000], [Kenya -> Africa] 
+
+This is a non-reduced answer tree with common first node 10000
+
+srcNodes: [20212, 100010, 10000]
+  path: 0[20192 -> 10000 -> 20212], [Namibia -> Africa -> Cape Verde] 
+
+  path: 1[20192 -> 10000 -> 20220 -> 100010], [Namibia -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20192 -> 10000], [Namibia -> Africa] 
+
+This is a non-reduced answer tree with common first node 10000
+
+srcNodes: [20212, 100010, 10000]
+  path: 0[20237 -> 10000 -> 20212], [Seychelles -> Africa -> Cape Verde] 
+
+  path: 1[20237 -> 10000 -> 20220 -> 100010], [Seychelles -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20237 -> 10000], [Seychelles -> Africa] 
+
+This is a non-reduced answer tree with common first node 10000
+
+-----------------------------------------
+ResultDestNodes: [10000, 20212, 20220, 20217, 20203, 20200, 110109, 62, 110110, 31337, 20193, 20182, 20184, 20222, 20215, 20183, 20216, 20221, 20192, 20237]
+ResultRelevs: [11.34490966796875, 8.77397346496582, 7.289130210876465, 7.289130210876465, 6.92436408996582, 6.92436408996582, 6.750823020935059, 6.750823020935059, 6.750823020935059, 6.400154113769531, 6.30782413482666, 6.30782413482666, 6.30782413482666, 6.30782413482666, 6.30782413482666, 6.30782413482666, 6.30782413482666, 6.30782413482666, 6.30782413482666, 6.30782413482666]
+Num of top-k answers: 20
+Num of non-reduced answers: 10
+Num of duplicate answers: 14
+Num of non-redundant answers: 6
+Num of entries retrieved from the lists: 174
+Num of entries retrieved from NKMaps: 199
+
+Blink Search Using ConstRootDup20
+[cape, gulf, africa]
+srcNodes: [20212, 100010, 10000]
+  path: 0[10000 -> 20212], [Africa -> Cape Verde] 
+
+  path: 1[10000 -> 20220 -> 100010], [Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [20212, 100011, 10000]
+  path: 0[10000 -> 20212], [Africa -> Cape Verde] 
+
+  path: 1[10000 -> 20085 -> 10002 -> 20105 -> 100011], [Africa -> Egypt -> Asia -> Sri Lanka -> Gulf of Bengal] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [40456, 100010, 10000]
+  path: 0[10000 -> 20203 -> 40456], [Africa -> Ghana -> Cape Coast] 
+
+  path: 1[10000 -> 20220 -> 100010], [Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [20212, 50065, 10000]
+  path: 0[10000 -> 20212], [Africa -> Cape Verde] 
+
+  path: 1[10000 -> 20085 -> 10002 -> 20103 -> 50065], [Africa -> Egypt -> Asia -> Qatar -> Gulf Cooperation Council Gulf Cooperation Council GCC] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [62, 100010, 10000]
+  path: 0[10000 -> 20212 -> 62], [Africa -> Cape Verde -> Fogo Fogo Cape Verdes volcano] 
+
+  path: 1[10000 -> 20220 -> 100010], [Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [40457, 100010, 10000]
+  path: 0[10000 -> 20200 -> 31340 -> 40457], [Africa -> South Africa -> Western Cape -> Cape Town] 
+
+  path: 1[10000 -> 20220 -> 100010], [Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [40456, 100011, 10000]
+  path: 0[10000 -> 20203 -> 40456], [Africa -> Ghana -> Cape Coast] 
+
+  path: 1[10000 -> 20085 -> 10002 -> 20105 -> 100011], [Africa -> Egypt -> Asia -> Sri Lanka -> Gulf of Bengal] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [40456, 50065, 10000]
+  path: 0[10000 -> 20203 -> 40456], [Africa -> Ghana -> Cape Coast] 
+
+  path: 1[10000 -> 20085 -> 10002 -> 20103 -> 50065], [Africa -> Egypt -> Asia -> Qatar -> Gulf Cooperation Council Gulf Cooperation Council GCC] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [62, 100011, 10000]
+  path: 0[10000 -> 20212 -> 62], [Africa -> Cape Verde -> Fogo Fogo Cape Verdes volcano] 
+
+  path: 1[10000 -> 20085 -> 10002 -> 20105 -> 100011], [Africa -> Egypt -> Asia -> Sri Lanka -> Gulf of Bengal] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [62, 50065, 10000]
+  path: 0[10000 -> 20212 -> 62], [Africa -> Cape Verde -> Fogo Fogo Cape Verdes volcano] 
+
+  path: 1[10000 -> 20085 -> 10002 -> 20103 -> 50065], [Africa -> Egypt -> Asia -> Qatar -> Gulf Cooperation Council Gulf Cooperation Council GCC] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [40457, 100011, 10000]
+  path: 0[10000 -> 20200 -> 31340 -> 40457], [Africa -> South Africa -> Western Cape -> Cape Town] 
+
+  path: 1[10000 -> 20085 -> 10002 -> 20105 -> 100011], [Africa -> Egypt -> Asia -> Sri Lanka -> Gulf of Bengal] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [40457, 50065, 10000]
+  path: 0[10000 -> 20200 -> 31340 -> 40457], [Africa -> South Africa -> Western Cape -> Cape Town] 
+
+  path: 1[10000 -> 20085 -> 10002 -> 20103 -> 50065], [Africa -> Egypt -> Asia -> Qatar -> Gulf Cooperation Council Gulf Cooperation Council GCC] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [20212, 100010, 10000]
+  path: 0[20212 -> 20212], [Cape Verde -> Cape Verde]
+  path: 1[20212 -> 10000 -> 20220 -> 100010], [Cape Verde -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20212 -> 10000], [Cape Verde -> Africa] 
+
+srcNodes: [20212, 100022, 10000]
+  path: 0[20212 -> 20212], [Cape Verde -> Cape Verde]
+  path: 1[20212 -> 10000 -> 20085 -> 10002 -> 20103 -> 100022], [Cape Verde -> Africa -> Egypt -> Asia -> Qatar -> Persian Gulf] 
+
+  path: 2[20212 -> 10000], [Cape Verde -> Africa] 
+
+srcNodes: [20212, 50065, 10000]
+  path: 0[20212 -> 20212], [Cape Verde -> Cape Verde]
+  path: 1[20212 -> 10000 -> 20085 -> 10002 -> 20103 -> 50065], [Cape Verde -> Africa -> Egypt -> Asia -> Qatar -> Gulf Cooperation Council Gulf Cooperation Council GCC] 
+
+  path: 2[20212 -> 10000], [Cape Verde -> Africa] 
+
+srcNodes: [20212, 100010, 10000]
+  path: 0[20217 -> 10000 -> 20212], [Djibouti -> Africa -> Cape Verde] 
+
+  path: 1[20217 -> 100010], [Djibouti -> Gulf of Aden] 
+
+  path: 2[20217 -> 10000], [Djibouti -> Africa] 
+
+srcNodes: [20212, 100010, 10000]
+  path: 0[20220 -> 10000 -> 20212], [Somalia -> Africa -> Cape Verde] 
+
+  path: 1[20220 -> 100010], [Somalia -> Gulf of Aden] 
+
+  path: 2[20220 -> 10000], [Somalia -> Africa] 
+
+srcNodes: [31337, 100010, 10000]
+  path: 0[20220 -> 10000 -> 20200 -> 31337], [Somalia -> Africa -> South Africa -> Northern Cape] 
+
+  path: 1[20220 -> 100010], [Somalia -> Gulf of Aden] 
+
+  path: 2[20220 -> 10000], [Somalia -> Africa] 
+
+srcNodes: [31337, 100010, 10000]
+  path: 0[20217 -> 10000 -> 20200 -> 31337], [Djibouti -> Africa -> South Africa -> Northern Cape] 
+
+  path: 1[20217 -> 100010], [Djibouti -> Gulf of Aden] 
+
+  path: 2[20217 -> 10000], [Djibouti -> Africa] 
+
+srcNodes: [31337, 100010, 20200]
+  path: 0[20200 -> 31337], [South Africa -> Northern Cape] 
+
+  path: 1[20200 -> 10000 -> 20220 -> 100010], [South Africa -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20200 -> 20200], [South Africa -> South Africa]
+-----------------------------------------
+ResultDestNodes: 
+10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 20212, 20212, 20212, 20217, 20220, 20220, 20217, 20200, 
+ResultRelevs: 
+11.34491, 10.821553, 10.728371, 10.723422, 10.57424, 10.420105, 10.205013, 10.106882, 10.050883, 9.952752, 9.896748, 9.798617, 8.773973, 8.446875, 8.365098, 7.28913, 7.28913, 6.980865, 6.980865, 6.924364, 
+Num of top-k answers: 20
+Num of duplicate answers: 5
+Num of duplicate roots in top-k answers: 15
+root duplication ratio: 0.7894737
+given max root duplication param: 1.0
+Num of entries retrieved from the lists: 171
+Num of entries retrieved from NKMaps: 798
+Num of answer trees explored: 3196
+
+Blink Search Using BDB 30
+[cape, gulf, africa]
+srcNodes: [20212, 100010, 10000]
+  path: 0[10000 -> 20212], [Africa -> Cape Verde] 
+
+  path: 1[10000 -> 20220 -> 100010], [Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [20212, 100010, 10000]
+  path: 0[20212 -> 20212], [Cape Verde -> Cape Verde]
+  path: 1[20212 -> 10000 -> 20220 -> 100010], [Cape Verde -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20212 -> 10000], [Cape Verde -> Africa] 
+
+srcNodes: [20212, 100010, 10000]
+  path: 0[20217 -> 10000 -> 20212], [Djibouti -> Africa -> Cape Verde] 
+
+  path: 1[20217 -> 100010], [Djibouti -> Gulf of Aden] 
+
+  path: 2[20217 -> 10000], [Djibouti -> Africa] 
+
+srcNodes: [20212, 100010, 10000]
+  path: 0[20220 -> 10000 -> 20212], [Somalia -> Africa -> Cape Verde] 
+
+  path: 1[20220 -> 100010], [Somalia -> Gulf of Aden] 
+
+  path: 2[20220 -> 10000], [Somalia -> Africa] 
+
+srcNodes: [40456, 100010, 10000]
+  path: 0[20203 -> 40456], [Ghana -> Cape Coast] 
+
+  path: 1[20203 -> 10000 -> 20220 -> 100010], [Ghana -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20203 -> 10000], [Ghana -> Africa] 
+
+srcNodes: [31337, 100010, 10000]
+  path: 0[20200 -> 31337], [South Africa -> Northern Cape] 
+
+  path: 1[20200 -> 10000 -> 20220 -> 100010], [South Africa -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20200 -> 10000], [South Africa -> Africa] 
+
+srcNodes: [110109, 100010, 10000]
+  path: 0[110109 -> 110109], [Santiago Santiago Cape Verdes volcanic -> Santiago Santiago Cape Verdes volcanic]
+  path: 1[110109 -> 20212 -> 10000 -> 20220 -> 100010], [Santiago Santiago Cape Verdes volcanic -> Cape Verde -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[110109 -> 20212 -> 10000], [Santiago Santiago Cape Verdes volcanic -> Cape Verde -> Africa] 
+
+srcNodes: [110110, 100010, 10000]
+  path: 0[110110 -> 110110], [Fogo Fogo Cape Verdes volcanic -> Fogo Fogo Cape Verdes volcanic]
+  path: 1[110110 -> 20212 -> 10000 -> 20220 -> 100010], [Fogo Fogo Cape Verdes volcanic -> Cape Verde -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[110110 -> 20212 -> 10000], [Fogo Fogo Cape Verdes volcanic -> Cape Verde -> Africa] 
+
+srcNodes: [62, 100010, 10000]
+  path: 0[62 -> 62], [Fogo Fogo Cape Verdes volcano -> Fogo Fogo Cape Verdes volcano]
+  path: 1[62 -> 20212 -> 10000 -> 20220 -> 100010], [Fogo Fogo Cape Verdes volcano -> Cape Verde -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[62 -> 20212 -> 10000], [Fogo Fogo Cape Verdes volcano -> Cape Verde -> Africa] 
+
+srcNodes: [31337, 100010, 10000]
+  path: 0[31337 -> 31337], [Northern Cape -> Northern Cape]
+  path: 1[31337 -> 90213 -> 20227 -> 10000 -> 20220 -> 100010], [Northern Cape -> Oranje -> Lesotho -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[31337 -> 90213 -> 20227 -> 10000], [Northern Cape -> Oranje -> Lesotho -> Africa] 
+
+srcNodes: [20212, 100010, 10000]
+  path: 0[20210 -> 10000 -> 20212], [Equatorial Guinea -> Africa -> Cape Verde] 
+
+  path: 1[20210 -> 10000 -> 20220 -> 100010], [Equatorial Guinea -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20210 -> 10000], [Equatorial Guinea -> Africa] 
+
+This is a non-reduced answer tree with common first node 10000
+
+srcNodes: [20212, 100010, 10000]
+  path: 0[20195 -> 10000 -> 20212], [Benin -> Africa -> Cape Verde] 
+
+  path: 1[20195 -> 10000 -> 20220 -> 100010], [Benin -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20195 -> 10000], [Benin -> Africa] 
+
+This is a non-reduced answer tree with common first node 10000
+
+srcNodes: [20212, 100010, 10000]
+  path: 0[20193 -> 10000 -> 20212], [Zaire -> Africa -> Cape Verde] 
+
+  path: 1[20193 -> 10000 -> 20220 -> 100010], [Zaire -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20193 -> 10000], [Zaire -> Africa] 
+
+This is a non-reduced answer tree with common first node 10000
+
+srcNodes: [20212, 100010, 10000]
+  path: 0[20196 -> 10000 -> 20212], [Burkina Faso -> Africa -> Cape Verde] 
+
+  path: 1[20196 -> 10000 -> 20220 -> 100010], [Burkina Faso -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20196 -> 10000], [Burkina Faso -> Africa] 
+
+This is a non-reduced answer tree with common first node 10000
+
+srcNodes: [20212, 100010, 10000]
+  path: 0[20182 -> 10000 -> 20212], [Algeria -> Africa -> Cape Verde] 
+
+  path: 1[20182 -> 10000 -> 20220 -> 100010], [Algeria -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20182 -> 10000], [Algeria -> Africa] 
+
+This is a non-reduced answer tree with common first node 10000
+
+srcNodes: [20212, 100010, 10000]
+  path: 0[20184 -> 10000 -> 20212], [Mali -> Africa -> Cape Verde] 
+
+  path: 1[20184 -> 10000 -> 20220 -> 100010], [Mali -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20184 -> 10000], [Mali -> Africa] 
+
+This is a non-reduced answer tree with common first node 10000
+
+srcNodes: [20212, 100010, 10000]
+  path: 0[20202 -> 10000 -> 20212], [Cote dIvoire -> Africa -> Cape Verde] 
+
+  path: 1[20202 -> 10000 -> 20220 -> 100010], [Cote dIvoire -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20202 -> 10000], [Cote dIvoire -> Africa] 
+
+This is a non-reduced answer tree with common first node 10000
+
+srcNodes: [20212, 100010, 10000]
+  path: 0[20222 -> 10000 -> 20212], [Gambia -> Africa -> Cape Verde] 
+
+  path: 1[20222 -> 10000 -> 20220 -> 100010], [Gambia -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20222 -> 10000], [Gambia -> Africa] 
+
+This is a non-reduced answer tree with common first node 10000
+
+srcNodes: [20212, 100010, 10000]
+  path: 0[20183 -> 10000 -> 20212], [Libya -> Africa -> Cape Verde] 
+
+  path: 1[20183 -> 10000 -> 20220 -> 100010], [Libya -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20183 -> 10000], [Libya -> Africa] 
+
+This is a non-reduced answer tree with common first node 10000
+
+srcNodes: [20212, 100010, 10000]
+  path: 0[20201 -> 10000 -> 20212], [Zimbabwe -> Africa -> Cape Verde] 
+
+  path: 1[20201 -> 10000 -> 20220 -> 100010], [Zimbabwe -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20201 -> 10000], [Zimbabwe -> Africa] 
+
+This is a non-reduced answer tree with common first node 10000
+
+srcNodes: [20212, 100010, 10000]
+  path: 0[20215 -> 10000 -> 20212], [Guinea -> Africa -> Cape Verde] 
+
+  path: 1[20215 -> 10000 -> 20220 -> 100010], [Guinea -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20215 -> 10000], [Guinea -> Africa] 
+
+This is a non-reduced answer tree with common first node 10000
+
+srcNodes: [20212, 100010, 10000]
+  path: 0[20214 -> 10000 -> 20212], [Comoros -> Africa -> Cape Verde] 
+
+  path: 1[20214 -> 10000 -> 20220 -> 100010], [Comoros -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20214 -> 10000], [Comoros -> Africa] 
+
+This is a non-reduced answer tree with common first node 10000
+
+srcNodes: [20212, 100010, 10000]
+  path: 0[20216 -> 10000 -> 20212], [Liberia -> Africa -> Cape Verde] 
+
+  path: 1[20216 -> 10000 -> 20220 -> 100010], [Liberia -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20216 -> 10000], [Liberia -> Africa] 
+
+This is a non-reduced answer tree with common first node 10000
+
+srcNodes: [20212, 100010, 10000]
+  path: 0[20185 -> 10000 -> 20212], [Mauritania -> Africa -> Cape Verde] 
+
+  path: 1[20185 -> 10000 -> 20220 -> 100010], [Mauritania -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20185 -> 10000], [Mauritania -> Africa] 
+
+This is a non-reduced answer tree with common first node 10000
+
+srcNodes: [20212, 100010, 10000]
+  path: 0[20221 -> 10000 -> 20212], [Kenya -> Africa -> Cape Verde] 
+
+  path: 1[20221 -> 10000 -> 20220 -> 100010], [Kenya -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20221 -> 10000], [Kenya -> Africa] 
+
+This is a non-reduced answer tree with common first node 10000
+
+srcNodes: [20212, 100010, 10000]
+  path: 0[20186 -> 10000 -> 20212], [Morocco -> Africa -> Cape Verde] 
+
+  path: 1[20186 -> 10000 -> 20220 -> 100010], [Morocco -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20186 -> 10000], [Morocco -> Africa] 
+
+This is a non-reduced answer tree with common first node 10000
+
+srcNodes: [20212, 100010, 10000]
+  path: 0[20192 -> 10000 -> 20212], [Namibia -> Africa -> Cape Verde] 
+
+  path: 1[20192 -> 10000 -> 20220 -> 100010], [Namibia -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20192 -> 10000], [Namibia -> Africa] 
+
+This is a non-reduced answer tree with common first node 10000
+
+srcNodes: [20212, 100010, 10000]
+  path: 0[20199 -> 10000 -> 20212], [Botswana -> Africa -> Cape Verde] 
+
+  path: 1[20199 -> 10000 -> 20220 -> 100010], [Botswana -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20199 -> 10000], [Botswana -> Africa] 
+
+This is a non-reduced answer tree with common first node 10000
+
+srcNodes: [20212, 100010, 10000]
+  path: 0[20237 -> 10000 -> 20212], [Seychelles -> Africa -> Cape Verde] 
+
+  path: 1[20237 -> 10000 -> 20220 -> 100010], [Seychelles -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20237 -> 10000], [Seychelles -> Africa] 
+
+This is a non-reduced answer tree with common first node 10000
+
+srcNodes: [20212, 100010, 10000]
+  path: 0[20207 -> 10000 -> 20212], [Cameroon -> Africa -> Cape Verde] 
+
+  path: 1[20207 -> 10000 -> 20220 -> 100010], [Cameroon -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20207 -> 10000], [Cameroon -> Africa] 
+
+This is a non-reduced answer tree with common first node 10000
+
+-----------------------------------------
+ResultDestNodes: [10000, 20212, 20217, 20220, 20203, 20200, 110109, 110110, 62, 31337, 20210, 20195, 20193, 20196, 20182, 20184, 20202, 20222, 20183, 20201, 20215, 20214, 20216, 20185, 20221, 20186, 20192, 20199, 20237, 20207]
+ResultRelevs: [11.34490966796875, 8.77397346496582, 7.289130210876465, 7.289130210876465, 6.92436408996582, 6.92436408996582, 6.750823020935059, 6.750823020935059, 6.750823020935059, 6.400154113769531, 6.30782413482666, 6.30782413482666, 6.30782413482666, 6.30782413482666, 6.30782413482666, 6.30782413482666, 6.30782413482666, 6.30782413482666, 6.30782413482666, 6.30782413482666, 6.30782413482666, 6.30782413482666, 6.30782413482666, 6.30782413482666, 6.30782413482666, 6.30782413482666, 6.30782413482666, 6.30782413482666, 6.30782413482666, 6.30782413482666]
+Num of top-k answers: 30
+Num of non-reduced answers: 20
+Num of duplicate answers: 24
+Num of non-redundant answers: 6
+Num of entries retrieved from the lists: 174
+Num of entries retrieved from NKMaps: 199
+
+Blink Search Using ConstRootDup30
+[cape, gulf, africa]
+srcNodes: [20212, 100010, 10000]
+  path: 0[10000 -> 20212], [Africa -> Cape Verde] 
+
+  path: 1[10000 -> 20220 -> 100010], [Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [20212, 100011, 10000]
+  path: 0[10000 -> 20212], [Africa -> Cape Verde] 
+
+  path: 1[10000 -> 20085 -> 10002 -> 20105 -> 100011], [Africa -> Egypt -> Asia -> Sri Lanka -> Gulf of Bengal] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [40456, 100010, 10000]
+  path: 0[10000 -> 20203 -> 40456], [Africa -> Ghana -> Cape Coast] 
+
+  path: 1[10000 -> 20220 -> 100010], [Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [20212, 50065, 10000]
+  path: 0[10000 -> 20212], [Africa -> Cape Verde] 
+
+  path: 1[10000 -> 20085 -> 10002 -> 20103 -> 50065], [Africa -> Egypt -> Asia -> Qatar -> Gulf Cooperation Council Gulf Cooperation Council GCC] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [62, 100010, 10000]
+  path: 0[10000 -> 20212 -> 62], [Africa -> Cape Verde -> Fogo Fogo Cape Verdes volcano] 
+
+  path: 1[10000 -> 20220 -> 100010], [Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [40457, 100010, 10000]
+  path: 0[10000 -> 20200 -> 31340 -> 40457], [Africa -> South Africa -> Western Cape -> Cape Town] 
+
+  path: 1[10000 -> 20220 -> 100010], [Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [40456, 100011, 10000]
+  path: 0[10000 -> 20203 -> 40456], [Africa -> Ghana -> Cape Coast] 
+
+  path: 1[10000 -> 20085 -> 10002 -> 20105 -> 100011], [Africa -> Egypt -> Asia -> Sri Lanka -> Gulf of Bengal] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [40456, 50065, 10000]
+  path: 0[10000 -> 20203 -> 40456], [Africa -> Ghana -> Cape Coast] 
+
+  path: 1[10000 -> 20085 -> 10002 -> 20103 -> 50065], [Africa -> Egypt -> Asia -> Qatar -> Gulf Cooperation Council Gulf Cooperation Council GCC] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [62, 100011, 10000]
+  path: 0[10000 -> 20212 -> 62], [Africa -> Cape Verde -> Fogo Fogo Cape Verdes volcano] 
+
+  path: 1[10000 -> 20085 -> 10002 -> 20105 -> 100011], [Africa -> Egypt -> Asia -> Sri Lanka -> Gulf of Bengal] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [62, 50065, 10000]
+  path: 0[10000 -> 20212 -> 62], [Africa -> Cape Verde -> Fogo Fogo Cape Verdes volcano] 
+
+  path: 1[10000 -> 20085 -> 10002 -> 20103 -> 50065], [Africa -> Egypt -> Asia -> Qatar -> Gulf Cooperation Council Gulf Cooperation Council GCC] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [40457, 100011, 10000]
+  path: 0[10000 -> 20200 -> 31340 -> 40457], [Africa -> South Africa -> Western Cape -> Cape Town] 
+
+  path: 1[10000 -> 20085 -> 10002 -> 20105 -> 100011], [Africa -> Egypt -> Asia -> Sri Lanka -> Gulf of Bengal] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [40457, 50065, 10000]
+  path: 0[10000 -> 20200 -> 31340 -> 40457], [Africa -> South Africa -> Western Cape -> Cape Town] 
+
+  path: 1[10000 -> 20085 -> 10002 -> 20103 -> 50065], [Africa -> Egypt -> Asia -> Qatar -> Gulf Cooperation Council Gulf Cooperation Council GCC] 
+
+  path: 2[10000 -> 10000], [Africa -> Africa]
+srcNodes: [20212, 100010, 10000]
+  path: 0[20212 -> 20212], [Cape Verde -> Cape Verde]
+  path: 1[20212 -> 10000 -> 20220 -> 100010], [Cape Verde -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20212 -> 10000], [Cape Verde -> Africa] 
+
+srcNodes: [20212, 100022, 10000]
+  path: 0[20212 -> 20212], [Cape Verde -> Cape Verde]
+  path: 1[20212 -> 10000 -> 20085 -> 10002 -> 20103 -> 100022], [Cape Verde -> Africa -> Egypt -> Asia -> Qatar -> Persian Gulf] 
+
+  path: 2[20212 -> 10000], [Cape Verde -> Africa] 
+
+srcNodes: [20212, 50065, 10000]
+  path: 0[20212 -> 20212], [Cape Verde -> Cape Verde]
+  path: 1[20212 -> 10000 -> 20085 -> 10002 -> 20103 -> 50065], [Cape Verde -> Africa -> Egypt -> Asia -> Qatar -> Gulf Cooperation Council Gulf Cooperation Council GCC] 
+
+  path: 2[20212 -> 10000], [Cape Verde -> Africa] 
+
+srcNodes: [20212, 100010, 10000]
+  path: 0[20220 -> 10000 -> 20212], [Somalia -> Africa -> Cape Verde] 
+
+  path: 1[20220 -> 100010], [Somalia -> Gulf of Aden] 
+
+  path: 2[20220 -> 10000], [Somalia -> Africa] 
+
+srcNodes: [20212, 100010, 10000]
+  path: 0[20217 -> 10000 -> 20212], [Djibouti -> Africa -> Cape Verde] 
+
+  path: 1[20217 -> 100010], [Djibouti -> Gulf of Aden] 
+
+  path: 2[20217 -> 10000], [Djibouti -> Africa] 
+
+srcNodes: [31337, 100010, 10000]
+  path: 0[20217 -> 10000 -> 20200 -> 31337], [Djibouti -> Africa -> South Africa -> Northern Cape] 
+
+  path: 1[20217 -> 100010], [Djibouti -> Gulf of Aden] 
+
+  path: 2[20217 -> 10000], [Djibouti -> Africa] 
+
+srcNodes: [31337, 100010, 10000]
+  path: 0[20220 -> 10000 -> 20200 -> 31337], [Somalia -> Africa -> South Africa -> Northern Cape] 
+
+  path: 1[20220 -> 100010], [Somalia -> Gulf of Aden] 
+
+  path: 2[20220 -> 10000], [Somalia -> Africa] 
+
+srcNodes: [31337, 100010, 20200]
+  path: 0[20200 -> 31337], [South Africa -> Northern Cape] 
+
+  path: 1[20200 -> 10000 -> 20220 -> 100010], [South Africa -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20200 -> 20200], [South Africa -> South Africa]
+srcNodes: [31332, 100010, 20200]
+  path: 0[20200 -> 31332], [South Africa -> Eastern Cape] 
+
+  path: 1[20200 -> 10000 -> 20220 -> 100010], [South Africa -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20200 -> 20200], [South Africa -> South Africa]
+srcNodes: [40456, 100010, 10000]
+  path: 0[20203 -> 40456], [Ghana -> Cape Coast] 
+
+  path: 1[20203 -> 10000 -> 20220 -> 100010], [Ghana -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20203 -> 10000], [Ghana -> Africa] 
+
+srcNodes: [31337, 100010, 10000]
+  path: 0[20200 -> 31337], [South Africa -> Northern Cape] 
+
+  path: 1[20200 -> 10000 -> 20220 -> 100010], [South Africa -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20200 -> 10000], [South Africa -> Africa] 
+
+srcNodes: [31332, 100010, 10000]
+  path: 0[20200 -> 31332], [South Africa -> Eastern Cape] 
+
+  path: 1[20200 -> 10000 -> 20220 -> 100010], [South Africa -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[20200 -> 10000], [South Africa -> Africa] 
+
+srcNodes: [62, 100010, 10000]
+  path: 0[20217 -> 10000 -> 20212 -> 62], [Djibouti -> Africa -> Cape Verde -> Fogo Fogo Cape Verdes volcano] 
+
+  path: 1[20217 -> 100010], [Djibouti -> Gulf of Aden] 
+
+  path: 2[20217 -> 10000], [Djibouti -> Africa] 
+
+srcNodes: [62, 100010, 10000]
+  path: 0[20220 -> 10000 -> 20212 -> 62], [Somalia -> Africa -> Cape Verde -> Fogo Fogo Cape Verdes volcano] 
+
+  path: 1[20220 -> 100010], [Somalia -> Gulf of Aden] 
+
+  path: 2[20220 -> 10000], [Somalia -> Africa] 
+
+srcNodes: [40457, 100010, 10000]
+  path: 0[20220 -> 10000 -> 20200 -> 31340 -> 40457], [Somalia -> Africa -> South Africa -> Western Cape -> Cape Town] 
+
+  path: 1[20220 -> 100010], [Somalia -> Gulf of Aden] 
+
+  path: 2[20220 -> 10000], [Somalia -> Africa] 
+
+srcNodes: [40457, 100010, 10000]
+  path: 0[20217 -> 10000 -> 20200 -> 31340 -> 40457], [Djibouti -> Africa -> South Africa -> Western Cape -> Cape Town] 
+
+  path: 1[20217 -> 100010], [Djibouti -> Gulf of Aden] 
+
+  path: 2[20217 -> 10000], [Djibouti -> Africa] 
+
+srcNodes: [110109, 100010, 10000]
+  path: 0[110109 -> 110109], [Santiago Santiago Cape Verdes volcanic -> Santiago Santiago Cape Verdes volcanic]
+  path: 1[110109 -> 20212 -> 10000 -> 20220 -> 100010], [Santiago Santiago Cape Verdes volcanic -> Cape Verde -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[110109 -> 20212 -> 10000], [Santiago Santiago Cape Verdes volcanic -> Cape Verde -> Africa] 
+
+srcNodes: [110110, 100010, 10000]
+  path: 0[110110 -> 110110], [Fogo Fogo Cape Verdes volcanic -> Fogo Fogo Cape Verdes volcanic]
+  path: 1[110110 -> 20212 -> 10000 -> 20220 -> 100010], [Fogo Fogo Cape Verdes volcanic -> Cape Verde -> Africa -> Somalia -> Gulf of Aden] 
+
+  path: 2[110110 -> 20212 -> 10000], [Fogo Fogo Cape Verdes volcanic -> Cape Verde -> Africa] 
+
+-----------------------------------------
+ResultDestNodes: 
+10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 20212, 20212, 20212, 20220, 20217, 20217, 20220, 20200, 20200, 20203, 20200, 20200, 20217, 20220, 20220, 20217, 110109, 110110, 
+ResultRelevs: 
+11.34491, 10.821553, 10.728371, 10.723422, 10.57424, 10.420105, 10.205013, 10.106882, 10.050883, 9.952752, 9.896748, 9.798617, 8.773973, 8.446875, 8.365098, 7.28913, 7.28913, 6.980865, 6.980865, 6.924364, 6.924364, 6.924364, 6.924364, 6.924364, 6.865265, 6.865265, 6.795904, 6.795904, 6.750823, 6.750823, 
+Num of top-k answers: 30
+Num of duplicate answers: 11
+Num of duplicate roots in top-k answers: 22
+root duplication ratio: 0.7586207
+given max root duplication param: 1.0
+Num of entries retrieved from the lists: 174
+Num of entries retrieved from NKMaps: 798
+Num of answer trees explored: 3196
+
